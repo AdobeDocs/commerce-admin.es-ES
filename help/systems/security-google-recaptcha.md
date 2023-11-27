@@ -1,0 +1,181 @@
+---
+title: Google reCAPTCHA
+description: Obtenga información sobre cómo configurar Google reCAPTCHA para el acceso de administrador y varias acciones de tienda iniciadas por clientes registrados.
+exl-id: c3b53702-0882-4ac4-9cf5-39fefc90005e
+role: Admin
+feature: Configuration, Security
+source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+workflow-type: tm+mt
+source-wordcount: '1063'
+ht-degree: 0%
+
+---
+
+# Google reCAPTCHA
+
+[Google reCAPTCHA](https://developers.google.com/recaptcha) garantiza que un ser humano, en lugar de un ordenador (o &quot;bot&quot;), esté interactuando con su sitio web. A diferencia del Adobe Commerce y el Magento Open Source estándar [CAPTCHA](security-captcha.md)Además, Google reCAPTCHA proporciona una seguridad mejorada con una selección de diferentes opciones y métodos de visualización. Encontrará información adicional sobre el tráfico del sitio web en el panel de su cuenta de Google reCAPTCHA.
+
+Google reCAPTCHA se configura por separado para el administrador y la tienda.
+
+- Para el administrador, Google reCAPTCHA se puede utilizar en la [Iniciar sesión](../getting-started/admin-signin.md) y cuando un usuario solicita un restablecimiento de contraseña. Si el estándar de comercio [CAPTCHA](security-captcha.md) también está habilitado, Google reCAPTCHA se puede utilizar al mismo tiempo sin ningún problema.
+
+- Para la tienda, se puede utilizar Google reCAPTCHA para iniciar sesión en un [cuenta de cliente](../customers/customer-sign-in.md), envíe un mensaje desde el [Contáctenos.](../getting-started/store-details.md#contact-us-form) y en muchas otras ubicaciones de tiendas.
+
+  ![Google reCAPTCHA: inicio de sesión del cliente](./assets/customer-account-login-recaptcha.png){width="700" zoomable="yes"}
+
+Google reCAPTCHA se puede implementar de varias formas:
+
+- _reCAPTCHA v3 invisible_ — Utiliza un algoritmo para valorar las interacciones del usuario y determina la probabilidad de que el usuario sea humano en función de una puntuación.
+
+- _reCAPTCHA v2 invisible_ — realiza la verificación en segundo plano sin la intervención del usuario. Los usuarios y clientes se verifican automáticamente, pero es posible que tengan que seleccionar imágenes específicas para completar un desafío.
+
+- _reCAPTCHA v2 (&quot;No soy un robot&quot;)_ — Valida las solicitudes con _&quot;No soy un robot&quot;_ casilla de verificación
+
+>[!IMPORTANT]
+>
+>Antes de configurar Google reCAPTCHA, asegúrese de que su `PHP.ini` incluye la siguiente configuración: `allow_url_fopen = 1`. Esto puede requerir la asistencia del desarrollador. Consulte [Configuración de PHP requerida](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html){:target=&quot;_blank&quot;} en la Guía de instalación.
+
+## Paso 1: Generar claves reCAPTCHA de Google
+
+Google reCAPTCHA requiere un par de claves API para habilitarlo. Puede obtener estas claves de forma gratuita a través del sitio reCAPTCHA. Antes de generar las claves, debe conocer el tipo de reCAPTCHA que desea utilizar.
+
+1. Abra la página Google reCAPTCHA e inicie sesión en su cuenta.
+
+1. Para **[!UICONTROL Label]**, introduzca un nombre para identificar las claves para la referencia interna.
+
+   Necesita un conjunto de claves para cada tipo de reCAPTCHA que se utilice en la instalación de Adobe Commerce o de Magento Open Source. Por ejemplo: `Commerce Invisible`
+
+1. Para **[!UICONTROL reCAPTCHA type]**, elija el método que desee utilizar.
+
+   - _reCAPTCHA v3 invisible_
+   - _reCAPTCHA v2 invisible_
+   - _reCAPTCHA v2 (&quot;No soy un robot&quot;)_
+
+1. Para **[!UICONTROL Domain]**, introduce el dominio de tu tienda. Por ejemplo: mystore.com
+
+   Si tiene varios almacenes con distintos dominios, introduzca cada dominio en una línea independiente.
+
+   - Añada el dominio de almacén y los subdominios.
+   - Puede añadir `localhost`, otros dominios de VM local y dominios de ensayo según sea necesario para realizar pruebas.
+
+1. Seleccione la casilla para **[!UICONTROL Accept the reCAPTCHA Terms of Service]**.
+
+1. (Opcional) Seleccione la **[!UICONTROL Send alerts to owners]** casilla de verificación para enviar una notificación si Google detecta problemas o tráfico sospechoso.
+
+1. Clic **[!UICONTROL Submit]** para completar el registro y recibir las claves.
+
+   >[!IMPORTANT]
+   >
+   >No todas las claves son aplicables a todos los tipos de reCAPTCHA, y su aplicación incorrecta podría provocar un comportamiento inesperado. Por ejemplo, las claves reCAPTCHA de Google generadas para reCAPTCHA v2 &quot;No soy un robot&quot; no funcionan con _reCAPTCHA v2 invisible_ y podrían bloquear la funcionalidad donde reCAPTCHA está habilitado.
+
+## Paso 2: Configuración de Google reCAPTCHA para el administrador
+
+1. Inicie sesión en su cuenta de administrador.
+
+1. En la barra lateral de Administración, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+
+1. En la esquina superior derecha, establezca **[!UICONTROL Store View]** hasta `Default Config`.
+
+1. En el panel izquierdo, expanda **[!UICONTROL Security]** y haga clic en **[!UICONTROL Google reCAPTCHA Admin Panel]**.
+
+   >[!NOTE]
+   >
+   >Borre la **[!UICONTROL Use system value]** para cada campo que desee configurar.
+
+1. Para usar _[!DNL reCAPTCHA v2 ("I am not a robot")]_, expanda el **[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**y haga lo siguiente:
+
+   - Para **[!UICONTROL Google API Website Key]**, introduzca la clave del sitio web que se creó para este tipo de reCAPTCHA al registrar su cuenta de Google reCAPTCHA.
+
+   - Para **[!UICONTROL Google API Secret Key]**, introduzca la clave secreta asociada a su cuenta de Google reCAPTCHA.
+
+   - Para **[!UICONTROL Size]**, elija el tamaño del cuadro reCAPTCHA de Google que desea que aparezca. Opciones: `Normal (default)` / `Compact`
+
+   - Para **[!UICONTROL Theme]**, elija la temática que desea utilizar para aplicar estilo al cuadro reCAPTCHA de Google. Opciones: `Light Theme (default)` / `Dark Theme`
+
+   - Para **[!UICONTROL Language Code]**, introduzca el código de dos caracteres para especificar el [idioma utilizado para el texto y la mensajería de Google reCAPTCHA](https://developers.google.com/recaptcha/docs/language).
+
+   ![reCAPTCHA v2 - &quot;No soy un robot&quot;](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png){width="600" zoomable="yes"}
+
+1. Para usar _[!DNL reCAPTCHA v2 Invisible]_, expanda el **[!UICONTROL reCAPTCHA v2 Invisible]**y haga lo siguiente:
+
+   - Para **[!UICONTROL Google API Website Key]**, introduzca la clave del sitio web que se creó para este tipo de reCAPTCHA al registrar su cuenta de Google reCAPTCHA.
+
+   - Para **[!UICONTROL Google API Secret Key]**, introduzca la clave secreta asociada a su cuenta de Google reCAPTCHA.
+
+   - Para **[!UICONTROL Invisible Badge Position]**, elija la posición del distintivo que desea utilizar en cada página. Opciones: `Inline` / `Bottom Right` / `Bottom Left`
+
+   - Para **[!UICONTROL Theme]**, elija la temática que desea utilizar para aplicar estilo al cuadro reCAPTCHA de Google. Opciones: `Light Theme (default)` / `Dark Theme`
+
+   - Para **[!UICONTROL Language Code]**, introduzca un código de dos caracteres que especifique el [idioma utilizado para el texto y la mensajería de Google reCAPTCHA](https://developers.google.com/recaptcha/docs/language).
+
+   ![reCAPTCHA v2 invisible](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png){width="600" zoomable="yes"}
+
+1. Para usar _[!DNL reCAPTCHA v3 Invisible]_, expanda el **[!UICONTROL reCAPTCHA v3 Invisible]**y haga lo siguiente:
+
+   - Para **[!UICONTROL Google API Website Key]**, introduzca la clave del sitio web que se creó para este tipo de reCAPTCHA al registrar su cuenta de Google reCAPTCHA.
+
+   - Para **[!UICONTROL Google API Secret Key]**, introduzca la clave secreta asociada a su cuenta de Google reCAPTCHA.
+
+   - Introduzca el **[!UICONTROL Minimum Score Threshold]** para identificar cuándo se marca la interacción de un usuario como riesgo potencial; donde 1.0 es una interacción típica del usuario y 0.0 es probablemente un bot. Predeterminado: `0.5`
+
+   - Para **[!UICONTROL Invisible Badge Position]**, elija la posición que desea utilizar en cada página. Opciones: `Inline` / `Bottom Right` / `Bottom Left`
+
+   - Para **[!UICONTROL Theme]**, elija la temática que desea utilizar para aplicar estilo al cuadro reCAPTCHA de Google. Opciones: `Light Theme (default)` / `Dark Theme`
+
+   - Para **[!UICONTROL Language Code]**, introduzca un código de dos caracteres que especifique el [idioma utilizado para el texto y la mensajería de Google reCAPTCHA](https://developers.google.com/recaptcha/docs/language).
+
+   ![reCAPTCHA v3 invisible](../configuration-reference/security/assets/recaptcha-admin-v3-invisible.png){width="600" zoomable="yes"}
+
+1. Expandir **[!UICONTROL reCAPTCHA Validation Failure Messages]** e introduzca los mensajes que aparecen en Admin si la validación falla o no se puede completar.
+
+   ![Mensajes de error de reCAPTCHA](../configuration-reference/security/assets/recaptcha-admin-failure-messages.png){width="600" zoomable="yes"}
+
+1. Expanda el **[!UICONTROL Admin Panel]** y configure lo siguiente según sea necesario:
+
+   - Establecer **[!UICONTROL Enable for Login]** al tipo de reCAPTCHA que desee utilizar para la página de inicio de sesión de administrador.
+
+   - Establecer **[!UICONTROL Enable for Forgot Password]** al tipo de reCAPTCHA que desee utilizar para las solicitudes de restablecimiento de contraseña.
+
+   ![Opciones de administración de reCAPTCHA](../configuration-reference/security/assets/recaptcha-admin-panel.png){width="600" zoomable="yes"}
+
+## Paso 3: Configuración de Google reCAPTCHA para la tienda
+
+1. En el panel izquierdo, debajo de _[!UICONTROL Security]_, elija **[!UICONTROL Google reCAPTCHA Storefront]**.
+
+1. Complete la sección para cada tipo de reCAPTCHA que desee utilizar en la tienda.
+
+   Consulte la información de _Paso 2: Configuración de Google reCAPTCHA para el administrador_ para obtener más información sobre las opciones de cada tipo de reCAPTCHA.
+
+1. Expandir **[!UICONTROL reCAPTCHA Validation Failure Messages]** e introduzca los mensajes que aparecerán en la tienda si la validación falla o no se puede completar.
+
+1. Expanda el **[!UICONTROL Storefront]** sección.
+
+   >[!NOTE]
+   >
+   >Borre la **[!UICONTROL Use system value]** para cada campo que desee configurar.
+
+1. Establezca cada campo de ubicación de tienda en el tipo de reCAPTCHA que ha configurado para utilizar.
+
+   - [!UICONTROL Enable for Customer Login]
+   - [!UICONTROL Enable for Forgot Password]
+   - [!UICONTROL Enable for Create New Customer Account]
+   - [!UICONTROL Enable for Edit Customer Account]
+   - [!UICONTROL Enable for Create New Company Account] ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponible con B2B solo para Adobe Commerce)
+   - [!UICONTROL Enable for Contact Us]
+   - [!UICONTROL Enable for Product Review]
+   - [!UICONTROL Enable for Newsletter Subscription]
+   - [!UICONTROL Enable for Gift Card] ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce)
+   - [!UICONTROL Enable for Invitation Create Account]
+   - [!UICONTROL Enable for Send To Friend]
+   - [!UICONTROL Enable for Checkout/Placing Order]
+   - [!UICONTROL Enable for Wishlist Sharing]
+   - [!UICONTROL Enable for Coupon Codes]
+   - [!UICONTROL Enable for PayPal PayflowPro payment form]
+
+   ![Configuración de opciones de tienda](../configuration-reference/security/assets/recaptcha-storefront.png){width="600" zoomable="yes"}
+
+## Paso 4: guardar la configuración
+
+1. Cuando haya completado la configuración, haga clic en **[!UICONTROL Save Config]**.
+
+1. En el mensaje situado en la parte superior del espacio de trabajo, haga clic en **[!UICONTROL Cache Management]** y actualice cada caché no válida.

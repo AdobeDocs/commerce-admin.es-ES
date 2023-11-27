@@ -1,0 +1,211 @@
+---
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
+description: Revise la configuración de en [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] de la administración de Commerce.
+exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
+feature: Configuration, Payments
+source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+workflow-type: tm+mt
+source-wordcount: '1691'
+ht-degree: 0%
+
+---
+
+# [!UICONTROL Sales] > [!UICONTROL Payment Methods]
+
+>[!TIP]
+>
+>Payment Services for Adobe Commerce and Magento Open Source ofrece una solución de autoservicio llave en mano que incluye pruebas de zona protegida y una configuración sencilla para proporcionar un procesamiento de pagos sólido y seguro. Para obtener más información sobre este potente conjunto de herramientas y cómo puede proporcionarte la perspectiva y el control necesarios para crear la mejor experiencia para tus compradores, consulta la [_Guía del usuario de Payment Services_](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
+
+{{config}}
+
+## [!UICONTROL Merchant Location]
+
+![Ubicación del comerciante](./assets/payment-methods-merchant-location.png)<!-- zoom -->
+
+<!-- [Merchant Location](https://docs.magento.com/user-guide/payment/merchant-location.html) -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Merchant Country] | Sitio web | Identifica el país en el que el comerciante está registrado para realizar negocios. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## Soluciones recomendadas
+
+Las siguientes soluciones de pago se recomiendan como una manera fácil para los comerciantes que están empezando a aceptar pagos en línea por cuenta PayPal o tarjeta de crédito. A medida que tu negocio crezca, puedes combinarlo con soluciones de pago adicionales de PayPal.
+
+- [Pago y envío con PayPal Express](paypal-express-checkout.md)
+- [Braintree](braintree.md)
+- [Servicios de pago](payment-services.md)
+
+>[!NOTE]
+>
+>Algunas integraciones de pago y extensiones agrupadas se han eliminado en las versiones 2.4.x y se han trasladado al Commerce Marketplace. Puede encontrar las extensiones de integración de pagos oficiales más recientes en [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target=&quot;_blank&quot;}.
+><br/>
+>**Amazon Pay** y **Klarna**: Adobe Commerce y las versiones 2.4.0 a 2.4.3 de Magento Open Source incluían estas extensiones desarrolladas por el proveedor. A partir de la versión 2.4.4, estas extensiones ya no se incluyen en la versión principal y deben instalarse y actualizarse desde el Commerce Marketplace. Marketplace también proporciona acceso a la documentación actual proporcionada por el desarrollador de extensiones.
+><br/>
+>Si tiene alguna de estas extensiones agrupadas habilitada y configurada, debe actualizar su `composer.json` como parte del proceso de actualización de la versión 2.4.4 y para administrar las actualizaciones de extensión que se realicen en adelante. Consulte [Actualización de módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) en el _Guía de actualización_ para obtener más información.<br/>
+><br/>
+>**Worldpay**, **Eway**, **CyberSource**, y **Authorize.Net**: Para obtener más información sobre cómo realizar una transición segura desde estas integraciones de pago, consulte la [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target=&quot;_blank&quot;}.
+
+## Otros métodos de PayPal
+
+PayPal ofrece varias soluciones de pago que satisfacen las necesidades de las empresas de todos los tamaños, y que se dedican a los negocios en todo el mundo. PayPal te permite aceptar pagos de todas las principales tarjetas de débito y crédito. PayPal ofrece comodidad adicional sin esfuerzo adicional, porque incluso los clientes que no tienen una cuenta PayPal pueden pagar sus compras con PayPal.
+
+### Métodos todo en uno de PayPal
+
+- [Pago mediante PayPal avanzado](paypal-payments-advanced.md)
+- [PayPal Payments Pro](paypal-payments-pro.md)
+- [PayPal Payments Standard](paypal-payments-standard.md)
+
+### Puertas de pago PayPal
+
+- [PayPal Payflow Pro](paypal-payflow-pro.md) (Incluye Pago y envío exprés)
+- [Vínculo de flujo de pago PayPal](paypal-payflow-link.md) (Incluye Pago y envío exprés)
+
+## Métodos de pago básicos
+
+Los siguientes métodos de pago están incorporados en Commerce y no utilizan un proveedor de pagos de terceros para procesar la transacción. Muchos de los métodos de pago básicos se gestionan sin conexión, en lugar de en línea.
+
+### [!UICONTROL Check / Money Order]
+
+![Cheque / giro postal](./assets/payment-methods-check-money-order.png)<!-- zoom -->
+
+<!-- [Check / Money Order](https://docs.magento.com/user-guide/payment/check-money-order.html) -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | Sitio web | Determina si los clientes pueden pagar mediante cheque o giro postal. Opciones: `Yes` / `No` |
+| [!UICONTROL Title] | Vista de tienda | El nombre de esta forma de pago que aparece a los clientes durante el cierre de compra. |
+| [!UICONTROL New Order Status] | Sitio web | Determina el [estado del pedido](../../stores-purchase/order-status.md) asignado a pedidos pagados por un cheque o giro postal. Valor predeterminado: `Pending` |
+| [!UICONTROL Payment from Applicable Countries] | Sitio web | Determina los países desde los que se acepta el pago mediante cheque o giro postal. Opciones: `All Allowed Countries` / `Specific Countries` |
+| [!UICONTROL Payment from Specific Countries] | Sitio web | Identifica los países específicos desde los que acepta el pago mediante cheque o giro postal. |
+| [!UICONTROL Make Check Payable to] | Vista de tienda | El nombre de la entidad a la que deben hacerse pagaderos los cheques y las órdenes de pago. |
+| [!UICONTROL Send Check to] | Vista de tienda | La dirección postal a la que deben enviarse los cheques y giros postales. |
+| [!UICONTROL Minimum Order Total] | Sitio web | La cantidad de pedido más pequeña que se puede pagar por cheque o giro postal. |
+| [!UICONTROL Maximum Order Total] | Sitio web | La mayor cantidad de pedido que se puede pagar por cheque o giro postal. <br/><br/>**_Nota:_**Un pedido indica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
+| [!UICONTROL Sort Order] | Sitio web | Un número que determina el orden en que aparece el pago mediante cheque o giro postal cuando se enumera con otros métodos de pago durante el pago. Entrar `0` para colocarlo en la parte superior de la lista. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+### [!UICONTROL Bank Transfer Payment]
+
+![Pago de transferencia bancaria](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
+
+<!-- [Bank Transfer Payment](https://docs.magento.com/user-guide/payment/bank-transfer.html) -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | Sitio web | Determina si los clientes pueden pagar transfiriendo el pago directamente desde su banco a su cuenta de comerciante. Opciones: `Yes` / `No` |
+| [!UICONTROL Title] | Vista de tienda | El nombre de esta forma de pago que aparece a los clientes durante el cierre de compra. |
+| [!UICONTROL New Order Status] | Sitio web | Determina el estado de pedido inicial asignado a pedidos pagados por transferencia bancaria. Valor predeterminado: `Pending` |
+| [!UICONTROL Payment from Applicable Countries] | Sitio web | Determina los países desde los que se acepta el pago mediante transferencia bancaria. Opciones: `All Allowed Countries` / `Specific Countries` |
+| [!UICONTROL Payment from Specific Countries] | Sitio web | Identifica los países específicos desde los que se acepta el pago mediante transferencia bancaria. |
+| [!UICONTROL Minimum Order Total] | Sitio web | El importe de pedido más pequeño que se puede pagar por transferencia bancaria. |
+| [!UICONTROL Maximum Order Total] | Sitio web | La mayor cantidad de pedido que se puede pagar por transferencia bancaria. <br/><br/>**_Nota:_**Un pedido indica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
+| [!UICONTROL Sort Order] | Sitio web | Un número que determina el orden en que aparece el pago por transferencia bancaria cuando se enumera con otros métodos de pago durante el cierre de compra. Entrar `0` para colocarlo en la parte superior de la lista. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+### [!UICONTROL Payment on Account]
+
+{{b2b-feature}}
+
+![Pago a cuenta](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
+
+<!-- [Payment on Account](https://docs.magento.com/user-guide/payment/payment-on-account.html) -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | Sitio web | Determina si las empresas pueden utilizar el crédito de la empresa para realizar compras. Opciones: `Yes` / `No` |
+| [!UICONTROL Title] | Vista de tienda | El nombre de esta forma de pago que aparece a los clientes durante el cierre de compra. |
+| [!UICONTROL New Order Status] | Sitio web | Determina el estado de los nuevos pedidos cargados a una cuenta de empresa. Opciones: `Pending (default)` / `Processing` / `Suspected Fraud` |
+| [!UICONTROL Payment from Applicable Countries] | Sitio web | Determina los países en los que se permite a las compañías cargar compras en sus cuentas. Opciones: `All Allowed Countries` / `Specific Countries` |
+| [!UICONTROL Payment from Specific Countries] | Sitio web | Identifica los países específicos en los que las empresas pueden cargar compras a sus cuentas. |
+| [!UICONTROL Minimum Order Total] | Sitio web | Especifica el importe de pedido más pequeño que se puede cargar a una cuenta de empresa. |
+| [!UICONTROL Maximum Order Total] | Sitio web | El mayor importe de pedido que se puede cargar a una cuenta de empresa. <br/><br/>**_Nota:_**Un pedido indica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
+| [!UICONTROL Sort Order] | Sitio web | Un número que determina el orden en que aparece el pago a cuenta cuando se enumera con otros métodos de pago durante el cierre de compra. Entrar `0` para colocarlo en la parte superior de la lista. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+>[!NOTE]
+>
+>No se admite el pago a cuenta para pedidos con [varias direcciones de envío](../../stores-purchase/shipping-settings.md#multiple-addresses) y no aparece entre las opciones de pago.
+
+### [!UICONTROL Cash On Delivery Payment]
+
+![Pago contra reembolso](./assets/payment-methods-cash-on-delivery-payment.png)<!-- zoom -->
+
+<!-- [Cash On Delivery Payment](../../stores-purchase/cash-on-delivery.html) -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | Sitio web | Determina si los clientes pueden pagar transfiriendo el pago directamente desde su banco a su cuenta de comerciante. Opciones: `Yes` / `No` |
+| [!UICONTROL Title] | Vista de tienda | El nombre de esta forma de pago que aparece a los clientes durante el cierre de compra. |
+| [!UICONTROL New Order Status] | Sitio web | Determina el estado de pedido inicial asignado a pedidos pagados por transferencia bancaria. Valor predeterminado: `Pending` |
+| [!UICONTROL Payment from Applicable Countries] | Sitio web | Determina los países desde los que se acepta el pago mediante transferencia bancaria. Opciones: `All Allowed Countries` / `Specific Countries` |
+| [!UICONTROL Payment from Specific Countries] | Sitio web | Identifica los países específicos desde los que se acepta el pago mediante transferencia bancaria. |
+| [!UICONTROL Minimum Order Total] | Sitio web | Especifica el importe de pedido más pequeño que se puede pagar mediante transferencia bancaria. |
+| [!UICONTROL Maximum Order Total] | Sitio web | La mayor cantidad de pedido que se puede pagar por transferencia bancaria. <br/><br/>**_Nota:_**Un pedido indica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
+| [!UICONTROL Sort Order] | Sitio web | Un número que determina el orden en que aparece el pago por transferencia bancaria cuando se enumera con otros métodos de pago durante el cierre de compra. Entrar `0` para colocarlo en la parte superior de la lista. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+### [!UICONTROL Zero Subtotal Checkout]
+
+![Cierre de compra con subtotal cero](./assets/payment-methods-zero-subtotal-checkout.png)<!-- zoom -->
+
+<!-- [Zero Subtotal Checkout](../../stores-purchase/zero-subtotal-checkout.html) -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Title] | Vista de tienda | El nombre que se usa para este método de pago durante el cierre de compra. Valor predeterminado: no se requiere información de pago |
+| [!UICONTROL Enabled] | Sitio web | Determina si el administrador de la tienda puede gestionar pedidos que tienen un subtotal de cero, como uno que se ha gravado, pero un descuento ha reducido el importe a cero. Opciones: `Yes` / `No` |
+| [!UICONTROL New Order Status] | Sitio web | Determina el estado de pedido inicial asignado a pedidos procesados como Cierre de Subtotal Cero. Valor predeterminado: `Pending` |
+| [!UICONTROL Payment from Applicable Countries] | Sitio web | Determina los países desde los que se puede aplicar el cierre de compra de subtotal cero. Opciones: `All Allowed Countries` / `Specific Countries` |
+| [!UICONTROL Payment from Specific Countries] | Sitio web | Identifica los países específicos a los que se puede aplicar el cierre de compra con subtotal cero. |
+| [!UICONTROL Sort Order] | Sitio web | Un número que determina el orden en el que aparece el título, como &quot;No se requiere información de pago&quot;, al ponerse en venta con otros métodos de pago durante el cierre de compra. Entrar `0` para colocarlo en la parte superior de la lista. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Payment actions]
+
+Se han configurado las acciones de pago _por método de pago_. La acción de pago determina cuándo se capturan los fondos y cuándo se crean facturas para los pedidos de venta.
+
+Consulte la sección Configuración básica de cada método de pago individual para obtener una lista completa de las opciones de configuración individuales.
+
+| Acción de pago | Descripción |
+|--- |---|
+| [!UICONTROL Authorization] | Aprueba la compra, pero retiene los fondos. El importe no se retira hasta que el comerciante lo capture. |
+| [!UICONTROL Authorize] | Autoriza la cuenta del comprador para el total del pedido, pero no registra el pago. Capture el pago creando una factura. Los pedidos autorizados se pueden anular o cancelar. |
+| [!UICONTROL Authorize and Capture] | Autoriza la cuenta del comprador para el total del pedido y captura el pago. Se crea automáticamente una factura. Puede reembolsar los fondos capturados a través de la nota de crédito. No puede cancelar un pedido una vez registrado el pago. |
+| [!UICONTROL Charge on shipment] | Amazon recibe una solicitud de captura y carga al cliente cuando se crea una factura en Commerce. |
+| [!UICONTROL Charge on order] | Amazon crea la factura y carga al cliente cuando se realiza el pedido. |
+| [!UICONTROL Not Capture] | Cuando se envía la factura, el sistema no registra el pago. Se supone que captura el pago a través de Commerce más adelante. Hay un botón Capturar en la factura completada. Antes de capturar, puede cancelar la factura. Después de la captura, puede crear una nota de abono y anular la factura. |
+| [!UICONTROL Order] | Representa un acuerdo con PayPal que permite al comerciante capturar una o más cantidades hasta el total del pedido desde la cuenta de comprador del cliente, en un período de tiempo definido (hasta 29 días). |
+| [!UICONTROL Sale] | El importe de la compra se autoriza y se retira inmediatamente de la cuenta del cliente. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+>[!NOTE]
+>
+>No seleccione la opción _[!UICONTROL Not Capture]_a menos que esté seguro de que va a capturar el pago a través de Commerce más adelante. No puede crear una nota de abono hasta que el pago se haya capturado con el botón Capturar.
+
+## [!UICONTROL Purchase Order]
+
+![Pedido de compra](./assets/payment-methods-purchase-order.png)<!-- zoom -->
+
+<!-- [Purchase Order](../../stores-purchase/purchase-order.html) -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | Sitio web | Determina si los clientes pueden pagar por pedido de compra. Opciones: `Yes` / `No` |
+| [!UICONTROL Title] | Vista de tienda | El nombre de esta forma de pago que aparece a los clientes durante el cierre de compra. |
+| [!UICONTROL New Order Status] | Sitio web | Determina el [estado del pedido](../../stores-purchase/order-status.md) asignado a pedidos pagados por PC. Valor predeterminado: Pendiente |
+| [!UICONTROL Payment from Applicable Countries] | Sitio web | Determina los países desde los que se acepta el pago por OC. Opciones: `All Allowed Countries` / `Specific Countries` |
+| [!UICONTROL Payment from Specific Countries] | Sitio web | Identifica los países específicos desde los que acepta el pago por OC. |
+| [!UICONTROL Minimum Order Total] | Sitio web | El importe de pedido más pequeño que se puede pagar por pedido. |
+| [!UICONTROL Maximum Order Total] | Sitio web | El importe de pedido más grande que puede pagar la OC. <br/><br/>**_Nota:_**Un pedido indica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
+| [!UICONTROL Sort Order] | Sitio web | Número que determina el orden en el que aparece el pago por pedido cuando se enumera con otros métodos de pago durante el cierre de compra. Entrar `0` para colocarlo en la parte superior de la lista. |
+
+{:style=&quot;table-layout:auto&quot;}

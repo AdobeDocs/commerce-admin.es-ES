@@ -1,0 +1,35 @@
+---
+title: Guía de sistemas de administración
+description: Conozca las prácticas de seguridad recomendadas para proteger su tienda de Commerce y administrar permisos, y cómo importar y exportar datos, administrar integraciones y extensiones, y ocuparse del mantenimiento rutinario.
+exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
+source-git-commit: 13f8858768b412d1ca2eb92e628331d9a45a347d
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 0%
+
+---
+
+# Guía de Adobe Commerce Admin Systems
+
+Esta guía está destinada a administradores de sistemas e integradores que trabajan en Adobe Commerce y Magento Open Source. Proporciona información detallada sobre la seguridad de administración, las operaciones de mantenimiento y los recursos de todo el sistema que admiten actividades en varias funciones organizativas para su negocio de comercio electrónico. Supone una comprensión básica de la configuración, la configuración y la funcionalidad principales de Commerce.
+
+Esta guía describe:
+
+| Asunto | Descripción |
+| ------- | ----------- |
+| [Introducción](introduction.md) | Información general sobre los sistemas y las funciones de integración dentro de una instancia de Commerce. |
+| [Menú Sistema](system-menu.md) | Utilice el [!UICONTROL System] menú para acceder a las herramientas de importación y exportación de datos, administración de caché e índices del sistema, administración de cuentas de usuario y permisos, copias de seguridad, notificaciones del sistema y variables personalizadas. |
+| [Cuentas y permisos de administrador](permissions.md) | Administre las cuentas de usuario de Admin y las funciones que se utilizan para otorgar acceso a las funciones de la tienda. |
+| [Variables](variables-predefined.md) | Las variables facilitan la personalización de las plantillas de correo electrónico, boletines informativos y otros tipos de contenido que admitan el sitio y la experiencia del cliente. |
+| [Plantillas de correo electrónico](email-templates.md) | Las plantillas de correo electrónico definen el diseño, el contenido y el formato de los mensajes automatizados enviados desde su tienda. Se denominan correos electrónicos transaccionales porque cada uno está asociado a un tipo específico de transacción o evento. |
+| [Transferencia de datos](data-transfer.md) | Las herramientas de importación y exportación permiten administrar varios registros en una sola operación. No solo puede importar nuevos artículos, sino también actualizar, reemplazar y eliminar conjuntos de productos existentes. |
+| [Registros de acciones](action-log.md) | En Adobe Commerce, los registros de acciones capturan todos los cambios realizados por un usuario administrador que trabaja en su tienda. Esto le permite realizar un seguimiento de todos los cambios realizados en la tienda. |
+| Herramientas | Los administradores del sistema tienen disponible una colección de herramientas: [herramientas de soporte](support.md) están diseñadas para identificar problemas conocidos en el sistema. Las herramientas del sistema proporcionan soporte operativo para realizar rutinas [índice](index-management.md) y [escondrijo](cache-management.md) administración, [respaldar el sistema](backups.md), administrar [operaciones programadas](data-scheduled-import-export.md)y utilice una variedad de [herramientas para desarrolladores](developer-tools.md). |
+| [Integraciones](integrations.md) | Establezca la ubicación de las credenciales de OAuth y proporcione las direcciones URL de redireccionamiento para integraciones de terceros. |
+| [Seguridad](security.md) | Obtenga información acerca de las herramientas disponibles para proteger su tienda y sus datos, y las directrices para un plan de acción de seguridad si detecta un compromiso. |
+
+{style="table-layout:auto"}
+
+## Documentación disponible
+
+{{docs-links}}

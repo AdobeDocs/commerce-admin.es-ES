@@ -1,0 +1,43 @@
+---
+title: URL de Dynamic Media
+description: Obtenga información acerca del uso de una URL de medios dinámicos como referencia relativa a una imagen u otro recurso multimedia.
+exl-id: 41aabde2-f6cc-4b83-8d56-9753a7aa93e9
+feature: CMS, Media
+source-git-commit: d3b9b4cd0d12f8d5feb2bad0bf601970f9ee1a36
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 0%
+
+---
+
+# URL de Dynamic Media
+
+Una URL de medios dinámicos es una referencia relativa a una imagen u otro recurso multimedia. Cuando se habilita, se pueden usar direcciones URL de medios dinámicos para vincularse directamente a recursos del servidor o a archivos almacenados en un [red de distribución de contenido](media-storage-content-delivery-network.md). El uso de direcciones URL de medios dinámicos puede afectar al rendimiento del catálogo y al [editor](editor.md#configure-the-editor) se puede configurar para que utilice direcciones URL de medios estáticos o dinámicos.
+
+Como con todos [etiquetas de marcado](../systems/markup-tags.md), la directiva está encerrada entre llaves dobles. El formato de una URL de medios dinámicos es el siguiente:
+
+`\{\{media url="path/to/image.jpg"}}`
+
+Las directivas de URL dinámicas se procesan a partir del contenido del HTML guardado cuando la página se procesa en la tienda. Cada vez que se representa la página, se analiza el contenido para `\{\{media url="..."}}` y cada directiva se reemplaza con la URL de medios correspondiente.
+
+{{$include /help/_includes/directives-caution.md}}
+
+## Configuración de URL de medios estáticos
+
+De forma predeterminada, las imágenes insertadas en el catálogo desde el editor WYSIWYG tienen direcciones URL relativas y dinámicas. Si prefiere utilizar una dirección URL estática, puede cambiar el valor de configuración.
+
+1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+
+1. En el panel izquierdo, debajo de _[!UICONTROL General]_, elija **[!UICONTROL Content Management]**.
+
+1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL WYSIWYG Options]** sección.
+
+   ![Opciones WYSIWYG](./assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+
+1. Establecer **[!UICONTROL Use Static URLs for Media Content in WYSIWYG]** a uno de los siguientes:
+
+   - `Yes` : utiliza direcciones URL estáticas para el contenido multimedia insertado con el editor WYSIWYG. Las direcciones URL estáticas son absolutas y se rompen si [URL base](../stores-purchase/store-urls.md) de los cambios de almacén.
+
+   - `No` - (Predeterminado) Utiliza direcciones URL dinámicas para el contenido multimedia insertado con el editor WYSIWYG, según el `\{\{media url="..."}}` Directiva. Las direcciones URL dinámicas son relativas y no se rompen si cambia la dirección URL base del almacén.
+
+1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.

@@ -1,0 +1,296 @@
+---
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales Emails]'
+description: Revise la configuración de en [!UICONTROL Sales] &gt; [!UICONTROL Sales Emails] de la administración de Commerce.
+exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
+feature: Configuration, Communications
+source-git-commit: 74cc15bd7e0873705b46175ae5f277b1753ec5b5
+workflow-type: tm+mt
+source-wordcount: '2379'
+ht-degree: 0%
+
+---
+
+# [!UICONTROL Sales] > [!UICONTROL Sales Emails]
+
+{{config}}
+
+## [!UICONTROL General Settings]
+
+![Configuración general](./assets/sales-emails-general-settings.png)<!-- zoom -->
+
+<!-- [General Settings](https://docs.magento.com/user-guide/system/email-communications.html) -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Asynchronous sending] | Global | Determina si los correos electrónicos de ventas se envían de forma asíncrona. Se recomienda habilitar el envío asincrónico. Opciones: <br/>**`Disable`**- (Predeterminado) Los correos electrónicos de ventas se envían cuando se activa un evento.<br/>**`Enable`** - (Recomendado) Los correos electrónicos de ventas se envían a intervalos predeterminados y regulares. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Order]
+
+![Pedido](./assets/sales-emails-order.png)<!-- zoom -->
+
+<!-- [Order](https://docs.magento.com/user-guide/sales/orders.html) -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | Vista de tienda | Cuando está activada, envía un correo electrónico transaccional por cada pedido realizado. Opciones: `Yes` / `No` |
+| [!UICONTROL New Order Confirmation Email Sender] | Vista de tienda | Identifica el contacto de tienda que aparece como el remitente del mensaje. Remitente predeterminado: `Sales Representative` |
+| [!UICONTROL New Order Confirmation Template] | Vista de tienda | Identifica la plantilla que se envía para confirmar los nuevos pedidos realizados por los clientes. Plantilla predeterminada: `New Order` |
+| [!UICONTROL New Order Confirmation Template for Guest] | Vista de tienda | Identifica la plantilla que se envía para confirmar los nuevos pedidos realizados por los invitados. Plantilla predeterminada: `New Order for Guest` |
+| [!UICONTROL Send Order Email Copy To] | Vista de tienda | Proporciona la dirección de correo electrónico de cualquier persona que desee recibir una copia de un correo electrónico de pedido. Separe las direcciones con comas. |
+| [!UICONTROL Send Order Email Copy Method] | Vista de tienda | Indica el método de correo electrónico utilizado para enviar la copia. Las opciones incluyen: <br/>**`Bcc`**: envía una copia de cortesía ciega incluyendo el destinatario en el encabezado del mismo correo electrónico que se envía al cliente. El destinatario CCO no es visible para el cliente.<br/>**`Separate Email`** : envía la copia como un correo electrónico independiente. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Order Comments]
+
+![Comentarios del pedido](./assets/sales-emails-order-comments.png)<!-- zoom -->
+
+<!-- [Order Comments](https://docs.magento.com/user-guide/sales/order-processing.html) -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | Vista de tienda | Cuando está activado, envía un correo electrónico transaccional por cada comentario del pedido. Opciones: `Yes` / `No` |
+| [!UICONTROL Order Comment Email Sender] | Vista de tienda | Identifica el contacto de tienda que aparece como el remitente del mensaje. Remitente predeterminado: `Sales Representative` |
+| [!UICONTROL Order Comment Email Template] | Vista de tienda | Identifica la plantilla que se envía cuando se agrega un comentario a un pedido de cliente. Plantilla predeterminada: `Order Update` |
+| [!UICONTROL New Order Confirmation Template for Guest] | Vista de tienda | Identifica la plantilla que se envía cuando se agrega un comentario a un pedido de invitado. Plantilla predeterminada: `Order Update for Guest` |
+| [!UICONTROL Send Order Email Copy To|Store View] | Proporciona la dirección de correo electrónico de cualquier persona que desee recibir una copia de un correo electrónico de comentario de pedido. Separe las direcciones con comas. |
+| [!UICONTROL Send Order Email Copy Method] | Vista de tienda | Indica el método utilizado para enviar la copia. Las opciones incluyen: <br/>**`Bcc`**: envía una copia de cortesía ciega incluyendo el destinatario en el encabezado del mismo correo electrónico que se envía al cliente. El destinatario CCO no es visible para el cliente.<br/>**`Separate Email`** : envía la copia como un correo electrónico independiente. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Invoice]
+
+![Factura](./assets/sales-emails-invoice.png)<!-- zoom -->
+
+<!-- [Invoice](https://docs.magento.com/user-guide/sales/invoices.html) -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | Vista de tienda | Cuando está activada, envía un correo electrónico transaccional por cada factura generada. Opciones: `Yes` / `No` |
+| [!UICONTROL Invoice Email Sender] | Vista de tienda | Identifica el contacto de tienda que aparece como el remitente del mensaje. Remitente predeterminado: `Sales Representative` |
+| [!UICONTROL Invoice Email Template] | Vista de tienda | Identifica la plantilla que se envía cuando se genera una factura para un cliente. Plantilla predeterminada: `New Invoice` |
+| [!UICONTROL Invoice Email Template for Guest] | Vista de tienda | Identifica la plantilla que se envía cuando se genera una factura para un invitado. Plantilla predeterminada: `New Invoice for Guest` |
+| [!UICONTROL Send Invoice Email Copy To] | Vista de tienda | Proporciona la dirección de correo electrónico de cualquier persona que desee recibir una copia de un correo electrónico de factura. Separe las direcciones con comas. |
+| [!UICONTROL Send Invoice Email Copy Method] | Vista de tienda | Indica el método utilizado para enviar la copia. Las opciones incluyen: <br/>**`Bcc`**: envía una copia de cortesía ciega incluyendo el destinatario en el encabezado del mismo correo electrónico que se envía al cliente. El destinatario CCO no es visible para el cliente.<br/>**`Separate Email`** : envía la copia como un correo electrónico independiente. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Invoice Comments]
+
+![Comentarios de factura](./assets/sales-emails-invoice-comments.png)<!-- zoom -->
+
+<!-- [Invoice Comments](https://docs.magento.com/user-guide/sales/invoice-create.html) -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | Vista de tienda | Cuando está activado, envía un correo electrónico transaccional por cada comentario de la factura. Opciones: `Yes` / `No` |
+| [!UICONTROL Invoice Comment Email Sender] | Vista de tienda | Identifica el contacto de tienda que aparece como el remitente del mensaje. Remitente predeterminado: `Sales Representative` |
+| [!UICONTROL Invoice Comment Email Template] | Vista de tienda | Identifica la plantilla que se envía cuando se agrega un comentario a una factura de cliente. Plantilla predeterminada: `Invoice Update` |
+| [!UICONTROL Invoice Comment Email Template for Guest] | Vista de tienda | Identifica la plantilla que se envía cuando se agrega un comentario a una factura de invitado. Plantilla predeterminada: `Invoice Update for Guest` |
+| [!UICONTROL Send Invoice Comment Email Copy To] | Vista de tienda | Proporciona la dirección de correo electrónico de cualquier persona que desee recibir una copia de un correo electrónico de comentario de factura. Separe las direcciones con comas. |
+| [!UICONTROL Send Invoice Comments Email Copy Method] | Vista de tienda | Indica el método de correo electrónico utilizado para enviar la copia. Las opciones incluyen: <br/>**`Bcc`**: envía una copia de cortesía ciega incluyendo el destinatario en el encabezado del mismo correo electrónico que se envía al cliente. El destinatario CCO no es visible para el cliente.<br/>**`Separate Email`** : envía la copia como un correo electrónico independiente. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Shipment]
+
+![Envío](./assets/sales-emails-shipment.png)<!-- zoom -->
+
+<!-- [Shipment](https://docs.magento.com/user-guide/sales/shipments.html) -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | Vista de tienda | Cuando está activada, envía un correo electrónico transaccional por cada envío generado. Opciones: `Yes` / `No` |
+| [!UICONTROL Shipment Email Sender] | Vista de tienda | Identifica el contacto de tienda que aparece como el remitente del mensaje. Remitente predeterminado: `Sales Representative` |
+| [!UICONTROL Shipment Email Template] | Vista de tienda | Identifica la plantilla que se envía cuando un cliente genera un envío. Plantilla predeterminada: `New Shipment` |
+| [!UICONTROL Shipment Email Template for Guest] | Vista de tienda | Identifica la plantilla que se envía cuando se genera un envío para un invitado. Plantilla predeterminada: `New Shipment for Guest` |
+| [!UICONTROL Send Shipment Email Copy To] | Vista de tienda | Proporciona la dirección de correo electrónico de cualquier persona que deba recibir una copia de un correo electrónico de envío. Separe las direcciones con comas. |
+| [!UICONTROL Send Shipment Email Copy Method] | Vista de tienda | Indica el método utilizado para enviar la copia. Las opciones incluyen: <br/>**`Bcc`**: envía una copia de cortesía ciega incluyendo el destinatario en el encabezado del mismo correo electrónico que se envía al cliente. El destinatario CCO no es visible para el cliente.<br/>**`Separate Email`** : envía la copia como un correo electrónico independiente. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Shipment Comments]
+
+![Comentarios del envío](./assets/sales-emails-shipment-comments.png)<!-- zoom -->
+
+<!-- [Shipment Comments](https://docs.magento.com/user-guide/sales/shipments.html) -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | Vista de tienda | Cuando está activada, envía un correo electrónico transaccional por cada comentario de envío. Opciones: `Yes` / `No` |
+| [!UICONTROL Shipment Comment Email Sender] | Vista de tienda | Identifica el contacto de tienda que aparece como el remitente del mensaje. Remitente predeterminado: `Sales Representative` |
+| [!UICONTROL Shipment Comment Email Template] | Vista de tienda | Identifica la plantilla que se envía cuando se agrega un comentario a un envío de cliente. Plantilla predeterminada: `Shipment Update` |
+| [!UICONTROL Shipment Comment Email Template for Guest] | Vista de tienda | Identifica la plantilla que se envía cuando se agrega un comentario a un envío de invitado. Plantilla predeterminada: `Shipment Update for Guest` |
+| [!UICONTROL Send Shipment Comment Email Copy To] | Vista de tienda | Proporciona la dirección de correo electrónico de cualquier persona que desee recibir una copia de un correo electrónico de comentarios de envío. Separe las direcciones con comas. |
+| [!UICONTROL Send Shipment Comments Email Copy Method] | Vista de tienda | Indica el método de correo electrónico utilizado para enviar la copia. Las opciones incluyen: <br/>**`Bcc`**: envía una copia de cortesía ciega incluyendo el destinatario en el encabezado del mismo correo electrónico que se envía al cliente. El destinatario CCO no es visible para el cliente.<br/>**`Separate Email`** : envía la copia como un correo electrónico independiente. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Credit Memo]
+
+![Nota de crédito](./assets/sales-emails-credit-memo.png)<!-- zoom -->
+
+<!-- [Credit Memo](https://docs.magento.com/user-guide/sales/credit-memos.html) -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | Vista de tienda | Activa el correo electrónico transaccional para cada nota de crédito generada. Opciones: `Yes` / `No` |
+| [!UICONTROL Credit Memo Email Sender] | Vista de tienda | Identifica el contacto de tienda que aparece como el remitente del mensaje. Remitente predeterminado: `Sales Representative` |
+| [!UICONTROL Credit Memo Email Template] | Vista de tienda | Identifica la plantilla que se envía cuando se genera un abono para un cliente. Plantilla predeterminada: `New Credit Memo` |
+| [!UICONTROL Credit Memo Email Template for Guest] | Vista de tienda | Identifica la plantilla que se envía cuando se genera un abono para un invitado. Plantilla predeterminada: `New Credit Memo for Guest` |
+| [!UICONTROL Send Credit Memo Email Copy To] | Vista de tienda | Proporciona la dirección de correo electrónico de cualquier persona que deba recibir una copia de un correo electrónico de nota de crédito. Separe las direcciones con comas. |
+| [!UICONTROL Send Credit Memo Email Copy Method] | Vista de tienda | Indica el método utilizado para enviar la copia. Las opciones incluyen: <br/>**`Bcc`**: envía una copia de cortesía ciega incluyendo el destinatario en el encabezado del mismo correo electrónico que se envía al cliente. El destinatario CCO no es visible para el cliente.<br/>**`Separate Email`** : envía la copia como un correo electrónico independiente. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Credit Memo Comments]
+
+![Comentarios de nota de abono](./assets/sales-emails-credit-memo-comments.png)<!-- zoom -->
+
+<!-- [Credit Memo Comments](https://docs.magento.com/user-guide/sales/credit-memo-create.html) -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | Vista de tienda | Cuando está habilitado, envía un correo electrónico transaccional por cada comentario de nota de crédito. Opciones: `Yes` / `No` |
+| [!UICONTROL Credit Memo Comment Email Sender] | Vista de tienda | Identifica el contacto de tienda que aparece como el remitente del mensaje. Remitente predeterminado: `Sales Representative` |
+| [!UICONTROL Credit Memo Comment Email Template] | Vista de tienda | Identifica la plantilla que se envía cuando se agrega un comentario a una nota de crédito de cliente. Plantilla predeterminada: `Credit Memo Update` |
+| [!UICONTROL Credit Memo Comment Email Template for Guest] | Vista de tienda | Identifica la plantilla que se envía cuando se agrega un comentario a un abono de invitado. Plantilla predeterminada: `Credit Memo Update for Guest` |
+| [!UICONTROL Send Credit Memo Comment Email Copy To] | Vista de tienda | Especifica la dirección de correo electrónico de la persona que va a recibir una copia de un correo electrónico de comentario de abono. Separe las direcciones con comas. |
+| [!UICONTROL Send Credit Memo Comments Email Copy Method] | Vista de tienda | Indica el método de correo electrónico utilizado para enviar la copia. Las opciones incluyen: <br/>**`Bcc`**: envía una copia de cortesía ciega incluyendo el destinatario en el encabezado del mismo correo electrónico que se envía al cliente. El destinatario CCO no es visible para el cliente.<br/>**`Separate Email`** : envía la copia como un correo electrónico independiente. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Order Ready For Pickup in Store]
+
+![Pedido listo para recoger en tienda](./assets/sales-emails-ready-pickup.png)<!-- zoom -->
+
+<!-- [Order Ready For Pickup in Store](https://docs.magento.com/user-guide/shipping/shipping-in-store-delivery.html) -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | Vista de tienda | Cuando está activada, envía un correo electrónico transaccional cuando un pedido está listo para su recogida en la tienda. Opciones: `Yes` / `No` |
+| [!UICONTROL Order Ready For Pickup Email Sender] | Vista de tienda | Identifica el contacto de tienda que aparece como el remitente del mensaje. Remitente predeterminado: `General Contact` |
+| [!UICONTROL Order Ready For Pickup Email Template] | Vista de tienda | Identifica la plantilla que se utiliza para el correo electrónico transaccional para cada pedido que está listo para recogerse en el almacén para un cliente registrado. Plantilla predeterminada: `Order is Ready for Pickup` |
+| [!UICONTROL Order Ready For Pickup Email Template for Guest] | Vista de tienda | Identifica la plantilla que se utiliza para el correo electrónico transaccional para cada pedido que está listo para recogerse en la tienda para un invitado. Plantilla predeterminada: `Order is Ready for Pickup for Guest` |
+| Enviar Copia Del Pedido Listo Para Su Recogida Por Correo Electrónico A | Vista de tienda | Especifica la dirección de correo electrónico de quien desee recibir una copia de un _Pedido listo para recoger_ correo electrónico. Separe las direcciones con comas. |
+| [!UICONTROL Send Order Ready For Pickup Email Copy Method] | Vista de tienda | Indica el método de correo electrónico utilizado para enviar la copia. Opciones: <br/>**`Bcc`**: envía una copia de cortesía ciega incluyendo el destinatario en el encabezado del mismo correo electrónico que se envía al cliente. El destinatario CCO no es visible para el cliente.<br/>**`Separate Email`** : envía la copia como un correo electrónico independiente. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Purchase Order Approval]
+
+{{b2b-feature}}
+
+![Aprobación de orden de compra](./assets/sales-emails-purchase-order-approval.png)<!-- zoom -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | Vista de tienda | Cuando está activada, envía correos electrónicos durante el proceso de pedido de compra. Opciones: `Yes` / `No` |
+| [!UICONTROL Created and requires Approval Purchase Order (to Buyer)] | Vista de tienda | Envía una confirmación por correo electrónico al creador del pedido. |
+| [!UICONTROL Created and Automatically approved Purchase Order (to Buyer)] | Vista de tienda | Envía una confirmación por correo electrónico al creador del pedido. |
+| [!UICONTROL Approved Purchase Order (to Buyer)] | Vista de tienda | Envía un mensaje de correo electrónico al creador al aprobar el pedido de compra. |
+| [!UICONTROL Rejected Purchase Order (to Buyer)] | Vista de tienda | Envía un mensaje de correo electrónico al creador cuando se rechaza el pedido de compra. |
+| [!UICONTROL Comment added to Purchase Order] | Vista de tienda | Envía un mensaje de correo electrónico al creador cuando se añade un comentario a la OC. |
+| [!UICONTROL Error creating Order from Purchase Order (to Buyer)] | Vista de tienda | Notifica al creador que se ha producido un error al convertir un pedido de compra en un pedido. |
+| [!UICONTROL Purchase Order required Approval (to Approver)] | Vista de tienda | Envía un mensaje de correo electrónico para notificar al aprobador que el pedido de compra requiere su aprobación. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Quote]
+
+{{b2b-feature}}
+
+![Cita](./assets/sales-emails-quote.png)<!-- zoom -->
+
+<!-- [Quotes](https://docs.magento.com/user-guide/customers/account-dashboard-quotes.html) -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | Vista de tienda | Permite enviar mensajes de correo electrónico de presupuesto desde la vista de tienda actual. Opciones: `Yes` / `No` |
+| [!UICONTROL Updated Quote Template (to Buyer)] | Vista de tienda | Determina la plantilla de correo electrónico que se utiliza para enviar una notificación al comprador cuando hay disponible un presupuesto actualizado. Plantilla predeterminada: `Updated Quote` |
+| [!UICONTROL Declined Quote Template (to Buyer)] | Vista de tienda | Determina la plantilla de correo electrónico que se utiliza para la notificación enviada al comprador cuando se rechaza una oferta. Plantilla predeterminada: `Declined Quote` |
+| [!UICONTROL New Quote Template (to Seller)] | Vista de tienda | Determina la plantilla de correo electrónico que se utiliza para la notificación enviada al vendedor cuando se recibe una solicitud de un nuevo presupuesto. Plantilla predeterminada: `New Quote` |
+| [!UICONTROL Updated Quote Template (to Seller)] | Vista de tienda | Determina la plantilla de correo electrónico que se utiliza para enviar una notificación al vendedor cuando se recibe una oferta actualizada. Plantilla predeterminada: `Updated Quote` |
+| [!UICONTROL Quote Expiration (in 48 hrs)] | Vista de tienda | Especifica la plantilla de correo electrónico que se utiliza para el aviso de caducidad que se envía 48 horas antes de que caduque la oferta. Plantilla predeterminada: `Expiration Warning` |
+| [!UICONTROL Quote Expiration (in 24 hrs)] | Vista de tienda | Especifica la plantilla de correo electrónico que se utiliza para el aviso de caducidad que se envía 24 horas antes de que caduque la oferta. Plantilla predeterminada: `Expiration Warning 1` |
+| [!UICONTROL Expiration Date Reset] | Vista de tienda | Especifica la plantilla de correo electrónico que se utiliza para el aviso que se envía cuando cambia la fecha de caducidad. Plantilla predeterminada: `Expiration Date Reset` |
+| [!UICONTROL Send Quote Email Copy To] | Vista de tienda | Especifica la dirección de correo electrónico de cada persona que va a recibir una copia del correo electrónico de oferta. Separe las direcciones con comas. |
+| [!UICONTROL Send Quote Email Copy Method] | Vista de tienda | Indica el método de correo electrónico utilizado para enviar la copia. Las opciones incluyen: <br/>**`Bcc`**: envía una copia de cortesía ciega incluyendo el destinatario en el encabezado del mismo correo electrónico que se envía al cliente. El destinatario CCO no es visible para el cliente.<br/>**`Separate Email`** : envía la copia como un correo electrónico independiente. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL RMA]
+
+{{ee-feature}}
+
+![RMA](./assets/sales-emails-rma.png)<!-- zoom -->
+
+<!-- [RMA](https://docs.magento.com/user-guide/sales/returns.html) -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | Vista de tienda | Activa la notificación por correo electrónico para cada RMA generada. Opciones: `Yes` / `No` |
+| [!UICONTROL RMA Email Sender] | Vista de tienda | Identifica el [contacto de tienda](../../getting-started/store-details.md#store-email-addresses) que aparece como el remitente del mensaje. Valor predeterminado: `Sales Representative` |
+| [!UICONTROL RMA Email Template] | Vista de tienda | Determina el [plantilla de correo electrónico](../../systems/email-templates.md) que se utiliza para la notificación enviada cuando se genera una RMA para un cliente. Plantilla predeterminada: `New RMA` |
+| [!UICONTROL RMA Email Template for Guest] | Vista de tienda | Determina la plantilla que se envía cuando se genera una autorización de devolución de material para un invitado. Plantilla predeterminada: `New RMA for Guest` |
+| [!UICONTROL Send RMA Email Copy To] | Vista de tienda | Proporciona la dirección de correo electrónico de cualquier persona que deba recibir una copia de un correo electrónico de RMA. Separe las direcciones con comas. |
+| [!UICONTROL Send RMA  Email Copy Method] | Vista de tienda | Indica el método de correo electrónico utilizado para enviar la copia. Las opciones incluyen: <br/>**`Bcc`**: envía una copia de cortesía ciega incluyendo el destinatario en el encabezado del mismo correo electrónico que se envía al cliente. El destinatario CCO no es visible para el cliente.<br/>**`Separate Email`** : envía la copia como un correo electrónico independiente. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL RMA Authorization]
+
+{{ee-feature}}
+
+![Autorización RMA](./assets/sales-emails-rma-auth.png)<!-- zoom -->
+
+<!-- [RMA Authorization](https://docs.magento.com/user-guide/sales/rma-configure.html) -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | Vista de tienda | Cuando está activada, envía una notificación por correo electrónico por cada autorización de RMA. Opciones: `Yes` / `No` |
+| [!UICONTROL RMA Authorization Email Sender] | Vista de tienda | Identifica el [contacto de tienda](../../getting-started/store-details.md#store-email-addresses) que aparece como el remitente del mensaje. Valor predeterminado: `Sales Representative` |
+| [!UICONTROL RMA Authorization Email Template] | Vista de tienda | Determina el [plantilla de correo electrónico](../../systems/email-templates.md) que se utiliza cuando se envía una notificación de autorización de RMA. Plantilla predeterminada: `RMA Authorization` |
+| [!UICONTROL RMA Authorization Email Template for Guest] | Vista de tienda | Determina la plantilla que se utiliza cuando se envía una notificación de autorización de RMA a un invitado. Plantilla predeterminada: `RMA Authorization for Guest` |
+| [!UICONTROL Send RMA Authorization Email Copy To] | Vista de tienda | Proporciona la dirección de correo electrónico de quien desee recibir una copia de un correo electrónico de autorización de RMA. Separe las direcciones con comas. |
+| [!UICONTROL Send RMA Authorization Email Copy Method] | Vista de tienda | Indica el método de correo electrónico utilizado para enviar la copia. Las opciones incluyen: <br/>**`Bcc`**: envía una copia de cortesía ciega incluyendo el destinatario en el encabezado del mismo correo electrónico que se envía al cliente. El destinatario CCO no es visible para el cliente.<br/>**`Separate Email`** : envía la copia como un correo electrónico independiente. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL RMA Admin Comments]
+
+{{ee-feature}}
+
+![Comentarios del administrador de RMA](./assets/sales-emails-rma-admin-comments.png)<!-- zoom -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | Vista de tienda | Cuando está activada, envía una notificación por correo electrónico por cada comentario del administrador de RMA. Opciones: `Yes` / `No` |
+| [!UICONTROL RMA Comment Email Sender] | Vista de tienda | Identifica el [contacto de tienda](../../getting-started/store-details.md#store-email-addresses) que aparece como el remitente del mensaje. Valor predeterminado: `Sales Representative` |
+| [!UICONTROL RMA Comment Email Template] | Vista de tienda | Determina el [plantilla de correo electrónico](../../systems/email-templates.md) que se utiliza cuando un administrador añade un comentario a una RMA para un cliente. Plantilla predeterminada: `RMA Admin Comments` |
+| [!UICONTROL RMA Comment Email Template for Guest] | Vista de tienda | Determina la plantilla que se utiliza cuando un administrador agrega un comentario a una autorización de devolución de material para un invitado. Plantilla predeterminada: `RMA Admin Comments for Guest` |
+| [!UICONTROL Send RMA Comment Email Copy To] | Vista de tienda | Proporciona la dirección de correo electrónico de cualquier persona que desee recibir una copia de la notificación. Separe las direcciones con comas. |
+| [!UICONTROL Send RMA Comments Email Copy Method] | Vista de tienda | Indica el método de correo electrónico utilizado para enviar la copia. Las opciones incluyen: <br/>**`Bcc`**: envía una copia de cortesía ciega incluyendo el destinatario en el encabezado del mismo correo electrónico que se envía al cliente. El destinatario CCO no es visible para el cliente.<br/>**`Separate Email`** : envía la copia como un correo electrónico independiente. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL RMA Customer Comments]
+
+{{ee-feature}}
+
+![Comentarios del cliente de RMA](./assets/sales-emails-rma-customer-comments.png)<!-- zoom -->
+
+<!-- [RMA Customer Comments](https://docs.magento.com/user-guide/sales/returns.html) -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | Vista de tienda | Cuando está activada, envía una notificación por correo electrónico por cada comentario del cliente de RMA. Opciones: `Yes` / `No` |
+| [!UICONTROL RMA Comment Email Sender] | Vista de tienda | Identifica el [contacto de tienda](../../getting-started/store-details.md#store-email-addresses) que aparece como el remitente del mensaje. Valor predeterminado: `Customer Support` |
+| [!UICONTROL RMA Comment Email Recipient] | Vista de tienda | Identifica al contacto de tienda que recibe el correo electrónico de comentarios del cliente. Valor predeterminado: `Sales Representative` |
+| [!UICONTROL RMA Comment Email Template] | Vista de tienda | Determina el [plantilla de correo electrónico](../../systems/email-templates.md) que se utiliza cuando un cliente añade un comentario a una RMA. Plantilla predeterminada: `RMA Admin Comments` |
+| [!UICONTROL Send RMA Comment Email Copy To] | Vista de tienda | Proporciona la dirección de correo electrónico de cualquier persona que desee recibir una copia de la notificación. Separe las direcciones con comas. |
+| [!UICONTROL Send RMA Comments Email Copy Method] | Vista de tienda | Indica el método de correo electrónico utilizado para enviar la copia. Las opciones incluyen: <br/>**`Bcc`**: envía una copia de cortesía ciega incluyendo el destinatario en el encabezado del mismo correo electrónico que se envía al cliente. El destinatario CCO no es visible para el cliente.<br/>**`Separate Email`** : envía la copia como un correo electrónico independiente. |
+
+{:style=&quot;table-layout:auto&quot;}
