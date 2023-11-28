@@ -3,9 +3,9 @@ title: Compartir un [!DNL Commerce] account
 description: Obtenga información sobre cómo conceder acceso limitado a su [!DNL Commerce] cuenta para otros [!DNL Commerce] titulares de cuenta.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 4c16436d9fd756ed33ca4b90924be58714f971d4
+source-git-commit: 11b2f3f9558bf5a36199015247fb96d559bb5fdc
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,9 @@ El [!DNL Commerce] El equipo de asistencia no tiene acceso a la cuenta y no pued
 
 ## Configuración de una cuenta compartida
 
-1. Antes de empezar, obtenga la siguiente información de la [!DNL Commerce] cuenta de la **nuevo usuario**:
+1. Antes de empezar, obtenga la siguiente información de la [!DNL Commerce] cuenta de la **nuevo concesionario de acceso compartido**:
 
+   - El usuario ya debe haberse registrado para obtener una cuenta en account.adobe.com y haber iniciado sesión a través de account.magento.com.
    - El `Account ID` que se muestra en la esquina superior izquierda de la _[!UICONTROL Magento]_pestaña, justo encima de **Cerrar sesión**vínculo.
    - El `Email` dirección asociada a la cuenta.
 
