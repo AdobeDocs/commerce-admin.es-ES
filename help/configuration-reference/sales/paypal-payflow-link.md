@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL P
 description: Revise los ajustes de configuración en la [!UICONTROL PayPal Payflow Link] en la sección [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] de la administración de Commerce.
 exl-id: 5ea30b22-e251-4d93-be2c-d34138ef2f7d
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1330'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Express Checkout] | Sitio web | Determina si Pago y envío rápido de PayPal está disponible para tus clientes como forma de pago. |
 | [!UICONTROL Enable PayPal Credit] | Sitio web | Determina si el crédito de PayPal está disponible para los clientes como una opción de pago. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advertise PayPal Credit]
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Product Page] | Sitio web | Determina la posición y el tamaño del [!DNL PayPal Credit] titular en páginas de producto. Opciones: (igual que para [!UICONTROL Home Page]) |
 | [!UICONTROL Checkout Cart Page] | Sitio web | Determina la posición y el tamaño del [!DNL PayPal Credit] titular de la página del carro de compras. Opciones: (igual que para [!UICONTROL Home Page]) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Basic Settings]
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 | [!UICONTROL Sort Order] | Vista de tienda | Un número que determina el orden en el que aparece PayPal Payflow Link cuando se pone en venta con otras formas de pago durante el proceso de pago. |
 | [!UICONTROL Payment Action] | Sitio web | Determina la acción realizada por PayPal cuando se envía un pedido. Opciones: <br/>**`Authorization`**- Aprueba la compra, pero suspende los fondos. La cantidad no se retira hasta que sea &quot;capturada&quot; por el comerciante.<br/>**`Sale`** - El importe de la compra se autoriza y se retira inmediatamente de la cuenta del cliente. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Advanced Settings]
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 | [!UICONTROL Send Email Confirmation] | Sitio web | Determina si el cliente recibe una confirmación de pago por correo electrónico. Opciones: `Yes` / `No` |
 | [!UICONTROL URL Method for Cancel  URL and Return URL] | Sitio web | Determina el método que se utiliza para intercambiar información con el servidor de PayPal durante una transacción. Opciones: <br/>**`GET`**: recupera información que es el resultado de un proceso. (Este es el método predeterminado).<br/>**`POST`** : envía un bloque de datos, como los datos introducidos en un formulario, al proceso de gestión de datos. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Settlement Report Settings]
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 | [!UICONTROL Schedule] | Global | Determina la frecuencia con la que PayPal genera los informes de liquidación. Opciones: `Daily` / `Every 3 days` / `Every 7 days` / `Every 10 days` / `Every 14 days` / `Every 30 days` / `Every 40 days` |
 | [!UICONTROL Time of Day] | Global | Determina la hora, los minutos y el segundo en que se generan los informes de liquidación. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Frontend Experience Settings]
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 | [!UICONTROL Header Image Border Color] | Vista de tienda | El código de color hexadecimal de seis caracteres para el borde de dos píxeles alrededor del encabezado. |
 | [!UICONTROL Page Background Color] | Vista de tienda | El código de color hexadecimal de seis caracteres para el color de fondo de la página de pago que aparece detrás del encabezado y del formulario de pago. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Basic Settings - PayPal Express Checkout]
 
@@ -128,7 +128,7 @@ ht-degree: 0%
 | [!UICONTROL Payment Action] | Sitio web | Determina la acción realizada por PayPal cuando recibe un pedido. Opciones: <br/>**`Authorization`**- Aprueba la compra, pero suspende los fondos. La cantidad no se retira hasta que sea &quot;capturada&quot; por el comerciante.<br/>**`Sale`** - El importe de la compra se autoriza y se retira inmediatamente de la cuenta del cliente. <br/>**`Order`**- Representa un acuerdo con PayPal que permite al comerciante capturar una o más cantidades hasta el total pedido desde la cuenta de comprador del cliente, en un período de tiempo definido. Esto puede tardar hasta 29 días. Se deben generar una o más facturas desde el administrador de Commerce para capturar los fondos. |
 | [!UICONTROL URL Display on Product Details Page] | Vista de tienda | Determina si aparece el botón &quot;Finalizar compra con PayPal&quot; en las páginas de productos. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Advanced Settings - PayPal Express Checkout]
 
@@ -144,4 +144,4 @@ ht-degree: 0%
 | [!UICONTROL Transfer Cart Line Items] | Sitio web | Muestra un resumen completo de los artículos de línea del carro de compras del cliente en el sitio de PayPal. Opciones: `Yes` / `No` |
 | [!UICONTROL Skip Order Review Step] | Sitio web | Determina si los clientes pueden completar la transacción desde el sitio de PayPal o si deben regresar a su tienda y completar el paso de revisión de pedidos antes de enviar el pedido. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

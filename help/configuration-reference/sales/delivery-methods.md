@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
 description: Revise la configuración de en [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] de la administración de Commerce.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '3878'
+source-wordcount: '3812'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | Sitio web | Determina si Tasa fija aparece como una opción durante el cierre de compra si el método no se aplica a la compra. Opciones: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Sitio web | Un número que determina el orden en el que aparece la tarifa plana al enumerarla con otros métodos de envío durante el cierre de compra. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Free Shipping]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 | Mostrar método si no es aplicable | Sitio web | Determina si Envío gratuito aparece como una opción durante el cierre de compra si el método no se aplica a la compra. Opciones: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Sitio web | Un número que determina el pedido en el que aparece Envío gratuito cuando se enumera con otros métodos de envío durante el cierre de compra. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Table Rates]
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | Sitio web | Determina si Tarifas de tabla aparece como una opción durante el cierre de compra si el método no se aplica a la compra. Opciones: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Sitio web | Un número que determina el orden en que aparece Tasas de tabla cuando se enumera con otros métodos de envío durante la desprotección. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL In-Store Delivery]
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 | [!UICONTROL Search Radius] | Sitio web | El radio, en km, que se utilizará al buscar ubicaciones de recogida. |
 | [!UICONTROL Displayed Error Message] | Vista de tienda | Mensaje que se muestra cuando un cliente selecciona la recogida en la tienda, pero el método de entrega no está disponible. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Carriers]
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 | [!UICONTROL Origin of the Shipment] | Sitio web | (Solo XML de UPS) El país o región donde se origina el envío del producto. |
 | [!UICONTROL Password] | Vista de tienda | Contraseña de la cuenta de envío de UPS. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Información del paquete UPS](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | Sitio web | Especifica si se aplican gastos de manipulación a cada pedido o a cada paquete de un pedido. |
 | [!UICONTROL Handling Fee] | Sitio web | Establece la manipulación que se incluye con el precio de tarifa de envío. La tarifa de manejo puede establecerse como una cantidad fija o un porcentaje. <br/><br/>**_Nota:_**Si escribe una cantidad porcentual, utilice el formato decimal `0.25` por 25%. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Métodos permitidos por UPS](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
@@ -167,7 +167,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping Amount Threshold] | Sitio web | Establece la cantidad total mínima que debe alcanzar un pedido para calificar para el envío gratuito. |
 | [!UICONTROL Displayed Error Message] | Vista de tienda | El mensaje de error que se muestra cuando este método de envío no está disponible por algún motivo. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Países aplicables de UPS y otras configuraciones](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
@@ -181,7 +181,7 @@ ht-degree: 0%
 | [!UICONTROL Debug] | Sitio web | Especifica si las transmisiones de datos entre el almacén y UPS están registradas en el sistema para la depuración. A menos que haya un problema que se deba rastrear y registrar, esta opción debe configurarse como `No`. |
 | [!UICONTROL Sort Order] | Sitio web | Un número que determina el orden en que aparece UPS cuando se enumera con otros métodos de envío durante el cierre de compra. Entrar `0` en la parte superior de la lista. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL USPS]
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 | [!UICONTROL Password] | Sitio web | Contraseña de su cuenta de transportista de USPS. |
 | [!UICONTROL Mode] | Sitio web | Determina el modo de transmisión utilizado para los datos enviados al sistema USPS. Las opciones incluyen: <br/>**`Development`**: USPS no verifica que los datos recibidos del servidor de Commerce se envíen a través de SSL.<br/>**`Live`** : USPS verifica que los datos recibidos del servidor de Commerce se envíen a través de una capa de socket segura (SSL). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Configuración de empaquetado USPS](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
@@ -213,7 +213,7 @@ ht-degree: 0%
 | [!UICONTROL Machinable] | Sitio web | Especifica si el paquete se puede procesar por equipo. Esta opción afecta al cálculo de la tarifa de envío. |
 | [!UICONTROL Maximum Package Weight] | Sitio web | Establece el peso máximo que puede tener un paquete según lo especificado por USPS. Si los productos solicitados superan el peso máximo del paquete, esta opción de envío no está disponible. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Configuración de tarifa de manejo USPS](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
@@ -226,7 +226,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | Sitio web | Especifica si se aplican gastos de manipulación a cada pedido o a cada paquete de un pedido. |
 | [!UICONTROL Handling Fee] | Sitio web | Establece la manipulación que se incluye con el precio de tarifa de envío. La tarifa de manejo puede establecerse como una cantidad fija o un porcentaje. <br/><br/>**_Nota:_**Al escribir una cantidad porcentual, utilice el formato decimal `0.25` por 25%. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Métodos permitidos de USPS](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
@@ -240,7 +240,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Sitio web | Establece la cantidad mínima del pedido que debe satisfacerse para calificar para el envío gratuito. |
 | [!UICONTROL Displayed Error Message] | Vista de tienda | El mensaje de error que aparece cuando USPS no está disponible por algún motivo. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Países aplicables de USPS](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
@@ -254,7 +254,7 @@ ht-degree: 0%
 | [!UICONTROL Debug] | Sitio web | Determina si el sistema mantiene un registro de transmisiones de datos entre el almacén y USPS para la depuración. A menos que haya un problema que se deba rastrear y registrar, esta opción debe configurarse como `No`. |
 | [!UICONTROL Sort Order] | Sitio web | Un número que determina el orden en que aparece USPS cuando se enumera con otros métodos de envío durante el cierre de compra. Entrar `0` en la parte superior de la lista. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL FedEx]
 
@@ -276,7 +276,7 @@ ht-degree: 0%
 | [!UICONTROL Sandbox Mode] | Sitio web | Para ejecutar transacciones de FedEx en un entorno de prueba, establezca el Modo de espacio aislado en `Yes`. Opciones: `Yes` / `No`. |
 | [!UICONTROL Web-Services URL] | Sitio web | La dirección URL requerida depende de la configuración del modo de entorno limitado. Opciones: <br/>**`Production`**: URL para acceder a los servicios web de FedEx cuando la tienda esté activa.<br/>**`Sandbox`** : URL para acceder al entorno de prueba de los servicios web de FedEx. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Empaquetado de FedEx](./assets/delivery-methods-fedex-packaging.png)<!-- zoom -->
 
@@ -290,7 +290,7 @@ ht-degree: 0%
 | [!UICONTROL Dropoff] | Sitio web | En la lista, seleccione el método de recogida: <br/>**`Regular Pickup`**- (Predeterminado) Si tiene un gran volumen de envíos, puede ser rentable organizar recogidas regulares.<br/>**`Request Courier`** - Debe llamar y solicitar a un mensajero de FedEx que recoja los envíos. <br/>**`Drop Box`**- Debe entregar los envíos en su buzón local de FedEx.<br/>**`Business Service Center`** - Debe entregar los envíos en su centro de servicio comercial local de FedEx. <br/>**`Station`**- Debe entregar los envíos en su estación local de FedEx. |
 | [!UICONTROL Maximum Package Weight] | Sitio web | El valor predeterminado de FedEx es de 150 libras. Consulte a su transportista para obtener el peso máximo admitido. Se recomienda utilizar el valor predeterminado a menos que tenga acuerdos especiales con FedEx. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Tarifa de manejo de FedEx](./assets/delivery-methods-fedex-handling-fee.png)<!-- zoom -->
 
@@ -303,7 +303,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | Sitio web | Determina cómo se aplican las tarifas de manipulación. Opciones: `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | Sitio web | Especifica el importe cobrado como gastos de manipulación, según el método utilizado para calcular el importe. Si el cargo se basa en una tarifa fija, introduzca la cantidad como decimal, por ejemplo `4.90`. Si la tarifa de manipulación se basa en un porcentaje del pedido, introduzca la cantidad como porcentaje. Por ejemplo, para cargar el seis por ciento del pedido, introduzca el valor como `.06`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Métodos de envío de FedEx](./assets/delivery-methods-fedex-delivery-methods.png)<!-- zoom -->
 
@@ -320,7 +320,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping Amount Threshold] | Sitio web | Especifica el importe mínimo del pedido que se requiere para el envío gratuito. |
 | [!UICONTROL Displayed Error Message] | Vista de tienda | El mensaje que aparece cuando FedEx no está disponible por algún motivo. Puede utilizar el mensaje predeterminado o escribir otro. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Países aplicables de FedEx](./assets/delivery-methods-fedex-applicable-countries.png)<!-- zoom -->
 
@@ -335,7 +335,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | Sitio web | Determina cuándo FedEx aparece como un método de envío durante el cierre de compra. Opciones: <br/>**`Yes`**- La opción de envío de FedEx se muestra en la lista de métodos de envío, independientemente de si el pedido cumple los requisitos para usarlo.<br/>**`No`** : la opción de envío de FedEx no se muestra en la lista de métodos de envío si no es aplicable al pedido (por ejemplo, si el peso del pedido supera la cantidad de peso máxima). |
 | [!UICONTROL Sort Order] | Sitio web | Un número que determina el orden en que aparece FedEx cuando se enumera con otros métodos de envío durante el cierre de compra. Entrar `0` en la parte superior de la lista. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL DHL]
 
@@ -353,7 +353,7 @@ ht-degree: 0%
 | [!UICONTROL Password] | Sitio web | Contraseña de su cuenta de DHL. |
 | [!UICONTROL Account Number] | Sitio web | Su número de cuenta de DHL. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Configuración del paquete DHL](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
@@ -369,7 +369,7 @@ ht-degree: 0%
 | [!UICONTROL Weight Unit] | Vista de tienda | Determina la unidad de medida del peso que se utiliza en los cálculos de envío. Opciones: `Pounds` / `Kilograms` |
 | [!UICONTROL Size] | Vista de tienda | Determina el tamaño del paquete. Opciones: <br/>**`Regular`**- Los paquetes enviados cumplen con los métodos de embalaje estándar de DHL. En el [!UICONTROL Allowed Methods] Seleccione cada método de embalaje utilizado para enviar los productos de su tienda.<br/>**`Specific`** - Si los paquetes enviados tienen dimensiones personalizadas, complete lo siguiente: [!UICONTROL Height (cm)] / [!UICONTROL Depth (cm)] / [!UICONTROL Width (cm)] |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Métodos permitidos de DHL](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
@@ -385,7 +385,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping with Minimum Order Amount] | Sitio web | Establezca uno de los siguientes valores: <br/>**`Enable`**- Permitir el envío gratuito de DHL para pedidos que alcancen la cantidad mínima.<br/>**`Disable`** - No ofrecer envío DHL gratuito con pedido mínimo. |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Sitio web | Si activa [!UICONTROL Free Shipping with Minimum Order], introduzca el valor del importe mínimo del pedido en el campo. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Países aplicables de DHL](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
@@ -400,4 +400,4 @@ ht-degree: 0%
 | [!UICONTROL Debug] | Sitio web | Crea un archivo de registro con información de error. |
 | [!UICONTROL Sort Order] | Sitio web | Un número que determina el orden en el que aparece DHL cuando aparece junto con otros métodos de envío durante el cierre de compra. Para colocarlo en la parte superior de la lista, escriba `0`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

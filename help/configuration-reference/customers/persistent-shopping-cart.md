@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Persistent Shopping Cart]'
 description: Revise la configuración de en [!UICONTROL Customers] &gt; [!UICONTROL Persistent Shopping Cart] de la administración de Commerce.
 exl-id: d6c5ae46-32ed-4fcd-bcd6-ee3a07d7db5f
 feature: Configuration, Shopping Cart
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -39,4 +39,4 @@ ht-degree: 0%
 | [!UICONTROL Persist Recently Viewed Products] | Sitio web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Solo Adobe Commerce) Determina si el estado de los productos visualizados recientemente se conserva cuando finaliza la sesión. Opciones: <br/>**`Yes`**: el estado de los productos vistos recientemente se guarda cuando finaliza la sesión.<br/>**`No`** : el estado de los productos vistos recientemente no se guarda cuando finaliza la sesión. |
 | [!UICONTROL Persist Customer Group Membership and Segmentation] | Sitio web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Solo Adobe Commerce) Determina si se conserva el estado de los criterios de segmentación y pertenencia a grupos de los clientes cuando finaliza la sesión. Opciones: <br/>**`Yes`**: el estado de los datos de segmentación y pertenencia a grupos del cliente se guarda cuando finaliza la sesión.<br/>**`No`** : el estado de los datos de segmentación y pertenencia a grupos del cliente no se guarda al finalizar la sesión. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

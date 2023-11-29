@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Revise la configuración de en [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] de la administración de Commerce.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '3152'
+source-wordcount: '3095'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 | [!UICONTROL Mask for Meta Keywords] | Global | Determina el valor predeterminado de _Palabras clave meta_ se basa en los valores de marcador de posición de otros campos y en cualquier texto adicional introducido. Marcador de posición predeterminado: <br/>Nombre del producto - `{{name}}` |
 | [!UICONTROL Mask for Meta Description] | Global | Determina el valor predeterminado del campo Meta descripción en función de los valores de marcador de posición de otros campos y cualquier texto adicional que se introduzca. Marcador de posición predeterminado: <br/>Nombre del producto - `{{name}}` <br/>Descripción - `{{description}}` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Reviews]
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 | [!UICONTROL Enabled] | Vista de tienda | Habilita las críticas de producto. Opciones: `Yes` / `No` |
 | [!UICONTROL Allow Guests to Write Reviews] | Sitio web | Determina si los clientes deben abrir una cuenta en la tienda para poder escribir críticas de productos. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Storefront]
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Show Swatches in Product List] | Vista de tienda | Determina si las muestras aparecen en la lista de productos. Opciones: `Yes` / `No` |
 | [!UICONTROL Show Swatch Tooltip] | Vista de tienda | Determina si aparece la información de objeto de la muestra. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Alerts]
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 | [!UICONTROL Stock Alert Email Template] | Vista de tienda | Identifica la plantilla que se utiliza para las notificaciones por correo electrónico de alertas de stock. Plantilla predeterminada: `Product stock alert` |
 | [!UICONTROL Alert Email Sender] | Vista de tienda | Determina el contacto de la tienda que aparece como el remitente del mensaje de correo electrónico de alerta del producto. Opciones: `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Alerts Run Settings]
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 | [!UICONTROL Error Email Sender] | Global | Seleccione la función a la que pertenece el correo electrónico `from`. |
 | [!UICONTROL Error Email Template] | Global | Seleccione la plantilla de correo electrónico que se utilizará para las notificaciones de error de alertas de producto. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Image Placeholders]
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 | [!UICONTROL Thumbnail] | Vista de tienda | Identifica el archivo de marcador de posición elegido para la miniatura. |
 | [!UICONTROL Choose File] |  | Se desplaza al archivo y lo sube como imagen de marcador de posición para el tipo. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Recently Viewed/Compared Products]
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 | [!UICONTROL Lifetime of products in Recently Viewed Widget] | Global | Determina cuánto tiempo, en segundos, se muestran los productos visualizados en la lista visualizada recientemente. |
 | [!UICONTROL Lifetime of products in Recently Compared Widget] | Global | Determina cuánto tiempo, en segundos, se muestran los productos comparados en la lista comparados recientemente. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Video]
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 | [!UICONTROL Show related video] | Vista de tienda | Para mostrar vídeos relacionados, establezca en `Yes`. |
 | [!UICONTROL Auto restart video] | Vista de tienda | Para habilitar la reproducción automática de vídeo, establezca en `Yes`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Price]
 
@@ -157,7 +157,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Price Scope] | Global | Determina el ámbito de la moneda base. Opciones: `Global` / `Website` |
 | [!UICONTROL Default Product Price] | Global | ![Adobe Commerce](../../assets/adobe-logo.svg) (Solo Adobe Commerce) Define el precio de producto predeterminado, si corresponde. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Layered Navigation]
 
@@ -180,7 +180,7 @@ ht-degree: 0%
 | [!UICONTROL Default Price Navigation Step] | Vista de tienda | Determina el número de productos que se incluyen en cada paso. |
 | [!UICONTROL Maximum Number of Price Intervals] | Vista de tienda | Establece un límite para el número de intervalos de precios que aparecen en la navegación por capas. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Category Permissions]
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 | [!UICONTROL Allow Adding to Cart] | Sitio web | Determina quién puede comprar productos de la categoría. Opciones: <br/>`Yes, for Everyone` - Permite a todos colocar productos de la categoría en sus carros de compras. <br/>`Yes, for Specified Customer Groups` : permite que solo los miembros de los grupos de clientes seleccionados coloquen productos de la categoría en sus carros de compras. <br/>`No` - No permite que nadie coloque productos de la categoría en sus carros de compras. |
 | [!UICONTROL Disallow Catalog Search by] | Sitio web | Identifica los grupos de clientes a los que no se les permite buscar productos en la categoría. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Search Engine Optimization]
 
@@ -218,7 +218,7 @@ ht-degree: 0%
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | Vista de tienda | Si hay varias direcciones URL que apuntan a la misma página de categoría, esta opción utiliza una metaetiqueta canónica para identificar la dirección URL de categoría que los motores de búsqueda deben indexar. La dirección URL incluye un nombre completo para la categoría mediante la etiqueta meta. Esto reduce el contenido duplicado y mejora la SEO. Opciones: `Yes` / `No` |
 | [!UICONTROL Use Canonical Link Meta Tag for Products] | Vista de tienda | Si hay varias direcciones URL que apuntan a la misma página de producto, esta opción utiliza una metaetiqueta canónica para identificar la dirección URL del producto que los motores de búsqueda deben indexar. La dirección URL incluye un nombre completo para el producto mediante la etiqueta meta. Esto reduce el contenido duplicado y mejora la SEO. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Category Top Navigation]
 
@@ -230,7 +230,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Maximal Depth] | Global | Determina el número de niveles de subcategoría en la navegación superior. El valor predeterminado de `0` no impone ningún límite al número de niveles. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog Search]
 
@@ -251,7 +251,7 @@ Cuando Live Search está instalado, la búsqueda en el catálogo incluye las sig
 | [!UICONTROL Number of top search results to cache] | Vista de tienda | El número de términos de búsqueda y resultados populares que se almacenarán en caché para obtener respuestas más rápidas. Introducción de un valor de `0` almacena en caché todos los términos y resultados de búsqueda cuando se introducen por segunda vez. Valor predeterminado: `100` |
 | [!UICONTROL Autocomplete Limit] | Vista de tienda | Determina el número máximo de líneas disponibles en el [ventana emergente de tienda] página. El valor predeterminado se puede cambiar cuando Live Search está instalado y actualizar más tarde cambiando esta configuración. Valor predeterminado: `8` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Adobe Commerce con Elasticsearch
 
@@ -289,7 +289,7 @@ Adobe Commerce nativo con Elasticsearch incluye las siguientes opciones de confi
 | [!UICONTROL Show Results Count for Each Suggestion] | Vista de tienda | Determina si se muestra el número de resultados de búsqueda para cada sugerencia. Según el tema, el número suele aparecer entre corchetes después de la sugerencia. Opciones: `Yes` / `No` |
 | [!UICONTROL Minimum Terms to Match] | Vista de tienda | Especifica un valor que corresponde al número de términos de la consulta con el que deben coincidir los resultados de la búsqueda para que se devuelvan. Esto garantiza una relevancia óptima de los resultados para los compradores. Los valores porcentuales se correlacionan con un número y, si es necesario, se redondean hacia abajo y se utilizan como el número mínimo de términos que deben coincidir en la consulta. El valor puede ser un entero negativo o positivo, un porcentaje negativo o positivo, una combinación de los dos o varias combinaciones. Para obtener más información, consulte [parámetro minimum_should_match](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) en la documentación del Elasticsearch. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Downloadable Product Options]
 
@@ -308,7 +308,7 @@ Adobe Commerce nativo con Elasticsearch incluye las siguientes opciones de confi
 | [!UICONTROL Use Content Disposition] | Vista de tienda | Determina cómo se envía el vínculo al contenido descargable, como datos adjuntos de correo electrónico o como vínculo en línea en una ventana del explorador. Opciones: <br/>**`Attachment`**: el vínculo de descarga se entrega como archivo adjunto de correo electrónico.<br/>**`Inline`** : El vínculo de descarga se entrega como un vínculo en línea en una página web. |
 | [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | Sitio web | Determina si los invitados que compran productos descargables deben registrarse para obtener una cuenta e iniciar sesión para completar el proceso de cierre de compra. Opciones: <br/>**`Yes`**- Si el carrito contiene productos descargables, el invitado tiene que registrarse para obtener una cuenta o iniciar sesión en una cuenta existente para completar la compra.<br/>**`No`** : el vínculo de descarga se entrega como un vínculo en línea en el cuerpo del mensaje de correo electrónico.  <br/> _**Nota:**_ El cierre de compra de invitado solo está disponible para productos de descarga si Compartir está establecido en `Yes`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Date & Time Custom Options]
 
@@ -323,7 +323,7 @@ Adobe Commerce nativo con Elasticsearch incluye las siguientes opciones de confi
 | [!UICONTROL Time Format] | Vista de tienda | Establece el formato de hora en un reloj de 12 o 24 horas. Opciones: `12h AM/PM` / `24h` |
 | [!UICONTROL Year Range] | Vista de tienda | Define el intervalo de años inicial y final que aparecen en la variable _Año_ field. El valor debe introducirse en formato AAAA. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog Events]
 
@@ -340,7 +340,7 @@ Adobe Commerce nativo con Elasticsearch incluye las siguientes opciones de confi
 | [!UICONTROL Number of Events to be Displayed in the Event Slider Widget] | Vista de tienda | Determina el número de eventos que aparecen en el widget de deslizador de eventos de las páginas de categorías. Para anular la, utilice el `limit="x"` variable. |
 | [!UICONTROL Events to Scroll per Click in Event Slider Widget] | Vista de tienda | Determina el número de eventos que aparecen en el widget de deslizador de eventos en páginas de CMS, como la página principal. Para anular la, utilice el `scroll="x"` variable. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Rule-Based Product Relations]
 
@@ -362,4 +362,4 @@ Adobe Commerce nativo con Elasticsearch incluye las siguientes opciones de confi
 | [!UICONTROL Show Upsell Products] | Global | Determina qué lista de productos de mejora de ventas aparece en la tienda. Puede ser la lista seleccionada manualmente en Información del producto, la lista generada en respuesta a una regla de relación de productos o una combinación de ambas. Opciones: `Both Selected and Rule-Based` / `Selected Only` / `Rule-Based Only` |
 | [!UICONTROL Rotation Mode for Products in Upsell Product List] | Global | Determina el orden en que aparecen los productos en la lista Ampliar venta de productos. Opciones: `Do not rotate` / `Shuffle` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

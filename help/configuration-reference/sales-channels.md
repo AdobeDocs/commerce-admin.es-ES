@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales Channels] &gt; [!UICONTROL Global Settings]'
 description: Revise la configuración de en [!UICONTROL Sales Channels] &gt; [!UICONTROL Global Settings] de la administración de Commerce.
 exl-id: 28a5ef4b-265e-457a-9480-96763785b5fd
 feature: Configuration, Sales Channels
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -25,4 +25,4 @@ Esta configuración está disponible cuando [[!DNL Amazon Sales Channel]](https:
 | [!UICONTROL Enable Debug Logging] | Global | Seleccionar `Enabled` para recopilar datos de sincronización adicionales cuando sea necesario solucionar problemas.<br/><br/>Esta opción está deshabilitada de forma predeterminada y solo debe habilitarse cuando sea necesario para solucionar problemas, ya que el registro continuo afecta negativamente al rendimiento. Si está habilitado para la resolución de problemas, debe deshabilitarse cuando se complete.<br/><br/>**_Nota _**: el registro de Sales Channel de Amazon se escribe en `/var/log/channel_amazon.log` y se pueden ver en [modo de desarrollador](../systems/developer-tools.md#operation-modes). |
 | [!UICONTROL Read-Only Mode] | Global | Seleccionar `Enabled` para bloquear todas las solicitudes de API salientes de cambio de estado. Los cambios potenciales se guardan, pero no se envían, hasta que se desactiva el modo de solo lectura. Para volver a iniciar las transferencias de datos, seleccione `Disabled`.<br/><br/>Cuando se migra una base de datos a una copia nueva de la instancia (se detecta cuando la dirección URL de un almacén cambia en la configuración), se activa automáticamente el modo de solo lectura.<br/><br/>Está diseñado para su uso en copias de la instancia de producción, como _Ensayo_ o _QA_, y no deben utilizarse en la instancia de producción.<br/><br/>**_Nota _**: la caché de configuración debe borrarse para [!UICONTROL Read-Only Mode] para habilitar. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

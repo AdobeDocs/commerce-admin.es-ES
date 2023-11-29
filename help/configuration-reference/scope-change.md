@@ -2,9 +2,9 @@
 title: Ámbito de configuración
 description: Obtenga información acerca de la configuración del ámbito de las configuraciones en el Administrador de Commerce.
 exl-id: b7b87ac5-dc7d-472f-af24-52b4d12e46c5
-source-git-commit: eb61d90c0a3bf5cac976fc8b79b23dc717aca3e6
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ El selector de Vista de tienda, en la esquina superior izquierda de muchas pági
 | [!UICONTROL Default Store View] | Nombre de la vista de almacén predeterminada asociada al almacén principal. |
 | [!UICONTROL Stores Configuration] | Salta a la cuadrícula Tiendas y es lo mismo que elegir [!UICONTROL Stores] > [!UICONTROL All Stores] desde la barra lateral de Administración. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Casillas de verificación Usar valor del sistema seleccionadas](./assets/store-view-control.png){width="700" zoomable="yes"}
 
@@ -39,7 +39,7 @@ La etiqueta de la casilla de verificación cambia según el ámbito actual y sie
 | [!UICONTROL Use Default] | Esta casilla de verificación aparece cuando el ámbito de configuración se establece en Principal `Website`y hace referencia a la tienda predeterminada asignada al sitio web. |
 | [!UICONTROL Use Website] | Esta casilla de verificación aparece cuando el ámbito de configuración se establece en una vista de tienda específica. Cuando se selecciona, utiliza la configuración del sitio web principal asociado a la vista de tienda. En este caso, se omite el nivel de almacén porque se entiende que se aplica al almacén predeterminado asociado al sitio web. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Establecer el ámbito
 
@@ -94,4 +94,4 @@ Antes de realizar una configuración que se aplique únicamente a un sitio web, 
 | Idiomas | Para admitir varios idiomas, todo el contenido, incluidas las descripciones de productos, debe ser [traducido](../stores-purchase/store-localize.md#localize-products) para cada vista de tienda. |
 | Mostrar divisa | Un elemento diferente [mostrar moneda](../stores-purchase/currency-configuration.md) se puede utilizar para cada vista de tienda, aunque las transacciones se procesan en el nivel de sitio web utilizando la moneda base. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

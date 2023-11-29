@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL New Relic Reporting]'
 description: Revise la configuración de en [!UICONTROL General] &gt; [!UICONTROL New Relic Reporting] de la administración de Commerce.
 exl-id: d6bf4810-81a3-420d-abc9-9b87c1e92551
 feature: Configuration, System, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '189'
 ht-degree: 4%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 4%
 | [!UICONTROL New Relic Application Name] | Vista de tienda | El nombre que ha asignado a su [!DNL New Relic] integración. |
 | [!UICONTROL Send Adminhtml and Frontend as Separate Apps] | Vista de tienda | Opción para enviar a New Relic los datos de informes recopilados para la tienda y el administrador como aplicaciones independientes. Esta opción requiere un nombre escrito para [!UICONTROL New Relic Application Name]. La función anexa el nombre de la aplicación con un guion bajo a los datos recopilados de la aplicación. Por ejemplo: `MyStore_Adminhtml`, `MyStore_frontend` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Cron]
 
@@ -44,4 +44,4 @@ ht-degree: 4%
 |--- |--- |--- |
 | [!UICONTROL Enable Cron] | Vista de tienda | Determina si [!DNL New Relic] los informes se pueden ejecutar según lo programado con [Cron](../../systems/cron.md). Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Newsletter]'
 description: Revise la configuración de en [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] de la administración de Commerce.
 exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 feature: Configuration, Customers, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Vista de tienda | Determina si los boletines están habilitados para el ámbito de vista de tienda. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Subscription Options]
 
@@ -45,4 +45,4 @@ ht-degree: 0%
 | [!UICONTROL Unsubscription Email Sender] | Vista de tienda | Identifica el contacto de tienda que aparece como el remitente del correo electrónico enviado a quienes solicitan finalizar su suscripción al boletín informativo. |
 | [!UICONTROL Unsubscription Email Template] | Vista de tienda | Determina la plantilla de correo electrónico utilizada para la notificación enviada a los usuarios que solicitan finalizar su suscripción al boletín informativo. Plantilla predeterminada: `Newsletter unsubscription success` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

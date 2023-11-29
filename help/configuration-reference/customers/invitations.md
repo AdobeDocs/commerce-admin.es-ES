@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Invitations]'
 description: Revise la configuración de en [!UICONTROL Customers] &gt; [!UICONTROL Invitations] de la administración de Commerce.
 exl-id: edafeaed-9c4f-4d9f-b35c-381ae5f43b67
 feature: Configuration, Promotions/Events
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '252'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 | [!UICONTROL Allow Customers to Add Custom Message to Invitation Email] | Vista de tienda | Determina si hay un campo en el formulario de invitación en el que el invitado puede agregar un mensaje personalizado que se envía al invitado por correo electrónico. Esto no afecta a la capacidad del administrador de añadir un mensaje a una invitación. Opciones: `Yes` / `No`. |
 | [!UICONTROL Max Invitations Allowed to be Sent at One Time] | Vista de tienda | Determina el número máximo de invitaciones que el invitado puede enviar a la vez. Se envía una invitación diferente a cada dirección de correo electrónico que el invitado incluya en el formulario. Esto protege los recursos del servidor al evitar que se envíen grandes cantidades de invitaciones a la vez, lo que reduce la probabilidad de que las invitaciones se envíen como correo no deseado. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email]
 
@@ -44,4 +44,4 @@ ht-degree: 1%
 | [!UICONTROL Customer Invitation Email Sender] | Vista de tienda | Determina el remitente del correo electrónico que reciben los invitados cuando se envía un mensaje de correo electrónico de invitación. Valor predeterminado: `General Contact` |
 | [!UICONTROL Customer Invitation Email Template] | Vista de tienda | Determina la plantilla del correo electrónico que reciben los invitados cuando se envía un mensaje de correo electrónico de invitación. Plantilla predeterminada: `Customer Invitation` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

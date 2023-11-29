@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Gift Cards]'
 description: Revise la configuración de en [!UICONTROL Sales] &gt; [!UICONTROL Gift Cards] de la administración de Commerce.
 exl-id: 95bfdbde-633e-44d0-9d43-00dde671ab6d
 feature: Configuration, Gift
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '334'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 | [!UICONTROL Gift Card Notification Email Sender] | Vista de tienda | Identifica el [contacto de tienda](../../getting-started/store-details.md#store-email-addresses) que aparece como el remitente del correo electrónico de notificación de la tarjeta de regalo. Valor predeterminado: `General Contact` |
 | [!UICONTROL Gift Card Notification Email Template] | Vista de tienda | Determina el [plantilla](../../systems/email-templates.md) que se utiliza para el correo electrónico de notificación de la tarjeta regalo. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card General Settings]
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 | [!UICONTROL Gift Message Maximum Length] | Vista de tienda | Determina el número máximo de caracteres permitidos en un mensaje de tarjeta regalo. Valor predeterminado: 255 |
 | [!UICONTROL Generate Gift Card Account when Order Item is] | Global | Determina si se genera una cuenta de tarjeta regalo cuando un cliente realiza un pedido o cuando se factura el pedido. Opciones: `Ordered` / `Invoiced` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Sent from Gift Card Account Management]
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 | [!UICONTROL Gift Card Email Sender] | Vista de tienda | Identifica el [contacto de tienda](../../getting-started/store-details.md#store-email-addresses) que aparece como el remitente del correo electrónico de la tarjeta regalo. Valor predeterminado: `General Contact` |
 | [!UICONTROL Gift Card Template] | Vista de tienda | Determina el [plantilla](../../systems/email-templates.md) que se utiliza para el correo electrónico de la tarjeta de regalo. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card Account General Settings]
 
@@ -75,4 +75,4 @@ ht-degree: 1%
 | [!UICONTROL Low Code Pool Threshold] | Global | Déclencheur Determina el número de registros del grupo de código que avisa de que es necesario reabastecer el grupo. |
 | [!UICONTROL Generate] | Global | Haga clic en para generar la lista de códigos de tarjeta regalo. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Checkout]'
 description: Revise la configuración de en [!UICONTROL Sales] &gt; [!UICONTROL Checkout] de la administración de Commerce.
 exl-id: a912beb0-37a9-407b-83bd-dc6cd0554dc4
 feature: Configuration, Checkout
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Address Search] | Sitio web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Solo Adobe Commerce) Determina si los clientes pueden utilizar [búsqueda de direcciones](../../stores-purchase/checkout-address-search.md) funcionalidad para los pasos Envío y Revisar y pagos. Cuando esté habilitada, utilice el Límite de número de direcciones del cliente para establecer el número de direcciones guardadas necesarias para activar esta funcionalidad durante el cierre de compra. Opciones: `Yes` / `No` |
 | Límite de número de direcciones de clientes | Sitio web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Solo Adobe Commerce) Cuando la búsqueda de direcciones está habilitada, determina la cantidad de direcciones guardadas necesarias para activar esta funcionalidad durante el cierre de compra. Cuando el número de direcciones guardadas del cliente cumple o supera este número, solo se representa la dirección predeterminada en la _Envío_ y _Revisión y pagos_ pasos. El cliente puede utilizar una función de búsqueda para cambiar la dirección seleccionada. El valor predeterminado es `10`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shopping Cart]
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 | [!UICONTROL Preview Quote Lifetime (minutes)] | Vista de tienda | Determina la antigüedad máxima del presupuesto en minutos cuando se obtiene una vista previa del carro de compras. |
 | [!UICONTROL Enable Clear Shopping Cart] | Sitio web | Determina si el carro de compras muestra la opción para que los usuarios borren el contenido del carro en una sola acción. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL My Cart Link]
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Display Cart Summary] | Sitio web | Determina el valor que aparece entre paréntesis después del vínculo Mi carro de compras. Opciones: `Display number of items in cart` / `Display item quantities` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Minicarrito
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 | [!UICONTROL Number of Items to Display Scrollbar] | Vista de tienda | Determina el número de elementos que pueden aparecer en el minicarrito antes de activar la barra de desplazamiento. Predeterminado: `5` |
 | [!UICONTROL Maximum Number of Items to Display] | Vista de tienda | Determina el número máximo de elementos que pueden aparecer en el minicarrito. Predeterminado: `10` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment Failed Emails]
 
@@ -95,4 +95,4 @@ ht-degree: 0%
 | [!UICONTROL Send Payment Failed Copy To] | Vista de tienda | Proporciona la dirección de correo electrónico de cualquier persona que desee recibir una copia de un correo electrónico de error en el pago. Separe las direcciones con comas. |
 | [!UICONTROL Send Payment Failed Copy Method] | Vista de tienda | Indica el método de correo electrónico utilizado para enviar la copia. Opciones: <br />**`Bcc`**: envía una copia de cortesía ciega incluyendo el destinatario en el encabezado del mismo correo electrónico que se envía al cliente. El destinatario CCO no es visible para el cliente.<br />**`Separate Email`** : envía la copia como un correo electrónico independiente. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

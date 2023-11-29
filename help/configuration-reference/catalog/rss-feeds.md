@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds]'
 description: Revise la configuración de en [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] de la administración de Commerce.
 exl-id: 3d71b1b9-08aa-495c-a269-b6e336f7ba06
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '165'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 |--- |--- |--- |
 | [!UICONTROL Enable RSS] | Vista de tienda | Permite a los clientes recibir fuentes RSS de la tienda. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Wish List]
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 |--- |--- |--- |
 | [!UICONTROL Enable RSS] | Vista de tienda | Cuando se habilita, aparece un vínculo de fuente RSS en la parte superior de las páginas de la lista de artículos deseados. La página para compartir listas de deseos incluye una casilla de verificación que el cliente puede seleccionar para vincular a la fuente desde listas de deseos compartidas. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog]
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 | [!UICONTROL Coupons/Discounts] | Vista de tienda | Cuando está activada, publica la notificación de cualquier cupón o descuento. |
 | [!UICONTROL Top Level Category] | Vista de tienda | Publica una notificación de cualquier cambio realizado en la estructura de categorías de nivel superior del catálogo, que se refleja en el menú principal. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order]
 
@@ -63,4 +63,4 @@ ht-degree: 2%
 |--- |--- |--- |
 | [!UICONTROL Customer Order Status Notification] | Vista de tienda | Permite a los clientes realizar un seguimiento del estado de sus pedidos por fuente RSS. Cuando se habilita, aparece un vínculo de fuente RSS en el pedido |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

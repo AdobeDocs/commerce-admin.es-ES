@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers]  &gt; [!UICONTROL Customer Configuration]'
 description: Revise la configuración de en [!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration] de la administración de Commerce.
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Share Customer Accounts] | Global | Determina el ámbito de las cuentas de cliente en la jerarquía de almacén. Opciones: <br/>**`Global`**: La información de la cuenta del cliente se comparte con cada sitio web y tienda en la instalación de Commerce.<br/>**`Per Website`** : La información de la cuenta del cliente se limita al sitio web en el que se creó la cuenta. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Online Customers Options]
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Online Minutes Interval] | Global | Determina durante cuánto tiempo se puede acceder a la actividad en línea de un cliente desde el administrador. Dejar vacío durante un intervalo predeterminado de 15 minutos. |
 | [!UICONTROL Customer Data Lifetime] | Global | Determina el número de minutos antes de que caduquen los datos sin guardar introducidos por el cliente. De forma predeterminada, los datos sin guardar caducan al cabo de 60 minutos. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Create New Account Options]
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Welcome Email] | Vista de tienda | Identifica la plantilla de correo electrónico que se utiliza para el mensaje de bienvenida que se envía después de que se confirme la cuenta. |
 | [!UICONTROL Generate Human-Friendly Customer ID] | Global | Determina si el campo que se utiliza para introducir y almacenar el número de identificación fiscal es visible desde la tienda. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Password Options]
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Password Length] | Global | Determina el número mínimo de caracteres permitidos en una contraseña. El número debe ser mayor que cero (`0`). |
 | [!UICONTROL Lockout Time (minutes)] | Global | Determina la cantidad de minutos que una cuenta de cliente está bloqueada después de demasiados intentos fallidos de iniciar sesión. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Account Information Options]
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 | [!UICONTROL Change Email Template] | Vista de tienda | Identifica la plantilla de correo electrónico predeterminada que se utiliza cuando un cliente cambia su dirección de correo electrónico. |
 | [!UICONTROL Change Email and Password Template] | Vista de tienda | Identifica la plantilla de correo electrónico predeterminada que se utiliza cuando un cliente cambia su dirección de correo electrónico y contraseña. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Name and Address Options]
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Show Company] | Sitio web | Determina si la empresa del cliente está incluida en el formulario de nombre y dirección. Opciones: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Fax] | Sitio web | Determina si el número de fax del cliente está incluido en el formulario de nombre y dirección. Opciones: `No` / `Optional` / `Required` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Opciones de Adobe Commerce
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 | [!UICONTROL Show Company] | Sitio web | Determina si la empresa del cliente está incluida en el formulario de nombre y dirección. Opciones: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Fax] | Sitio web | Determina si el número de fax del cliente está incluido en el formulario de nombre y dirección. Opciones: `No` / `Optional` / `Required` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Credit Options]
 
@@ -162,7 +162,7 @@ ht-degree: 0%
 | [!UICONTROL Store Credit Update Email Sender] | Vista de tienda | Determina la identidad del almacén que aparece como remitente de las notificaciones de actualización de crédito enviadas a los clientes. |
 | [!UICONTROL Store Credit Update Email Template] | Vista de tienda | Determina la plantilla de correo electrónico utilizada para las actualizaciones de crédito. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Login Options]
 
@@ -174,7 +174,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Redirect Customer to Account Dashboard after Logging in] | Sitio web | Determina lo que sucede después de que los clientes inicien sesión en sus cuentas. Para redirigir a los clientes a su panel de cuentas, seleccione `Yes`. Opciones: <br/>**`Yes`**: El panel de cuentas aparece cuando los clientes inician sesión en sus cuentas.<br/>**`No`** : Los clientes pueden seguir comprando después de iniciar sesión en sus cuentas. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Address Templates]
 
@@ -189,7 +189,7 @@ ht-degree: 0%
 | [!UICONTROL HTML] | Vista de tienda | Esta plantilla define el orden de los campos de dirección ubicados en la variable _Direcciones de clientes_ en el panel Administración ([!UICONTROL Customers] > [!UICONTROL Manage Customers]). Esto también afecta a los usuarios de _Añadir nueva dirección_ página cuando un cliente crea una dirección de facturación o envío en su página de cuenta. |
 | [!UICONTROL PDF] | Vista de tienda | La plantilla define la visualización de las direcciones de facturación y envío en las facturas impresas, los envíos y las notas de abono. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer Segments]
 
@@ -204,7 +204,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Customer Segment Functionality] | Global | Determina si se pueden utilizar segmentos de clientes para crear promociones segmentadas. Opciones: `Yes` / `No` |
 | [!UICONTROL Real-time Check if Customer is Matched by Segment] | Global | Determina si los segmentos del cliente se validan en tiempo real. Opciones: <br/>**[!UICONTROL Yes]**- Los segmentos de clientes se validan en tiempo real (valor predeterminado).<br/>**[!UICONTROL No]** - Los segmentos del cliente se validan mediante una única consulta SQL de condición combinada. Esto mejora el rendimiento de la validación de segmentos si hay muchos segmentos de clientes en el sistema. Sin embargo, la validación no funciona con una base de datos dividida o cuando no hay clientes registrados. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CAPTCHA]
 
@@ -224,4 +224,4 @@ ht-degree: 0%
 | [!UICONTROL Symbols Used in CAPTCHA] | Sitio web | Determina las letras (a-z y A-Z) y los números (0-9) que aparecen en el CAPTCHA. Símbolos que son difíciles de distinguir de otros símbolos, como `i`, `l`, o `1`, no se incluyen en el conjunto predeterminado de símbolos CAPTCHA. |
 | [!UICONTROL Case Sensitive] | Sitio web | Determina si los caracteres CAPTCHA distinguen entre mayúsculas y minúsculas. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

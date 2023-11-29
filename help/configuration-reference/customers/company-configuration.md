@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Company Configuration]'
 description: Revise la configuración de en [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] de la administración de Commerce.
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Para obtener más información sobre la configuración de estos ajustes, consult
 |--- |--- |--- |
 | [!UICONTROL Allow Company Registration from the Storefront] | Sitio web | Determina si los visitantes de la tienda pueden elegir [registrar](../../customers/customer-sign-in.md) para una cuenta de empresa o una cuenta individual. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Options - Company Registration]
 
@@ -47,7 +47,7 @@ Para obtener más información sobre la configuración de estos ajustes, consult
 | [!UICONTROL Send Email Copy Method] | Vista de tienda | El método de correo electrónico que se utiliza para enviar la copia del correo electrónico de registro. Opciones: `Bcc` / `Separate Email` |
 | [!UICONTROL Default Company Registration Email] | Vista de tienda | La plantilla de correo electrónico que se utiliza de forma predeterminada para la notificación de registro de la empresa. Plantilla predeterminada: `Company Registration Request` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer-Related Emails]
 
@@ -63,7 +63,7 @@ Para obtener más información sobre la configuración de estos ajustes, consult
 | [!UICONTROL Default 'Customer Status Active' Email] | Vista de tienda | La plantilla de correo electrónico que se utiliza de forma predeterminada cuando el estado de un cliente se activa. Este correo electrónico solo se envía al cliente. Plantilla predeterminada: `Customer Status Active` |
 | [!UICONTROL Default 'Customer Status Inactive' Email] | Vista de tienda | La plantilla de correo electrónico que se utiliza de forma predeterminada cuando el estado de un cliente se vuelve inactivo. Este correo electrónico solo se envía al cliente. Plantilla predeterminada: `Customer Status Inactive` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Company Status Change]
 
@@ -80,7 +80,7 @@ Para obtener más información sobre la configuración de estos ajustes, consult
 | [!UICONTROL Default 'Company Status Change to Blocked' Email] | Vista de tienda | La plantilla de correo electrónico que se utiliza de forma predeterminada cuando el estado de una empresa cambia a _Bloqueado_. Plantilla predeterminada: `Company Status Blocked` |
 | [!UICONTROL Default 'Company Status Change to Pending Approval' Email] | Vista de tienda | La plantilla de correo electrónico que se utiliza de forma predeterminada cuando el estado de una empresa cambia a _Pendiente de aprobación_. Plantilla predeterminada: `Company Status Pending Approval` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Company Credit]
 
@@ -97,4 +97,4 @@ Para obtener más información sobre la configuración de estos ajustes, consult
 | [!UICONTROL Refunded Email Template] | Vista de tienda | La plantilla de correo electrónico que se utiliza de forma predeterminada cuando se devuelve una cantidad de un pedido al crédito de la empresa. Este correo electrónico se envía al administrador de la empresa. Plantilla predeterminada: `Order Refunded to Company Credit` |
 | [!UICONTROL Reverted Email Template] | Vista de tienda | Plantilla de correo electrónico que se utiliza de forma predeterminada cuando se revierte un pedido a crédito de la compañía. Este correo electrónico se envía al administrador de la empresa. Plantilla predeterminada: `Order Reverted to Company Credit` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

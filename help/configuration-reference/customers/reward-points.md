@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Reward Points]'
 description: Revise la configuración de en [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] de la administración de Commerce.
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | Global | Determina si los puntos de recompensa se deducen automáticamente del importe del reembolso. Opciones: `Yes` / `No`. |
 | [!UICONTROL Landing Page] | Vista de tienda | Especifica la página de CMS que explica su programa de puntos de recompensa. Aparecerá un enlace a la página predeterminada de Recompensas en las ubicaciones de su tienda, donde podrá obtener puntos. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Actions for Acquiring Reward Points by Customers]
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 | [!UICONTROL Review Submission] | Sitio web | Determina el número de puntos obtenidos por un cliente que envía una revisión aprobada para su publicación. |
 | [!UICONTROL Rewarded Reviews Submission Quantity Limit] | Sitio web | Limita el número de críticas que se pueden usar para obtener puntos por cliente. Déjelo en blanco si no hay límite. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Notification Settings]
 
@@ -76,4 +76,4 @@ ht-degree: 0%
 | [!UICONTROL Reward Points Expiry Warning Email] | Vista de tienda | Determina la plantilla del correo electrónico que reciben los clientes cuando se alcanza el límite de advertencia de caducidad para un lote de puntos. Plantilla predeterminada: `Reward Points Expiry Warning` |
 | [!UICONTROL Expiry Warning before (days)] | Global | Especifica el número de días antes de la caducidad del punto para enviar la notificación. Déjelo en blanco para no enviar notificaciones de caducidad. La notificación no se envía si el número de días introducido es mayor que la duración restante de los puntos. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

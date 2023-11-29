@@ -3,10 +3,10 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs]'
 description: Revise la configuración de en [!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs] de la administración de Commerce.
 exl-id: aa30ee9a-4201-4054-82f0-2f42d7b4ba4f
 feature: Configuration, Orders
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 3%
+source-wordcount: '73'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 3%
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | Vista de tienda | Incluye el ID de pedido en el encabezado de las facturas como referencia. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment]
 
@@ -34,7 +34,7 @@ ht-degree: 3%
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | Vista de tienda | Incluye el identificador de pedido en el encabezado de los albaranes de envío como referencia. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo]
 
@@ -44,4 +44,4 @@ ht-degree: 3%
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | Vista de tienda | Incluye el ID de pedido en el encabezado de las notas de abono como referencia. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

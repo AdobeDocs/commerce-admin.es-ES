@@ -3,10 +3,10 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Contacts]'
 description: Revise la configuración de en [!UICONTROL General] &gt; [!UICONTROL Contacts] de la administración de Commerce.
 exl-id: 1acd6683-772d-431f-8b74-230163ded1be
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 1%
+source-wordcount: '100'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Enable Contact Us] | Vista de tienda | Habilita el [_Contáctenos._](../../getting-started/store-details.md#contact-us-form) y coloca un vínculo en el pie de página. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Options]
 
@@ -38,4 +38,4 @@ ht-degree: 1%
 | [!UICONTROL Email Sender] | Vista de tienda | Identifica el contacto de tienda que se utiliza para todas las respuestas a consultas de correo electrónico del _Contáctenos._ página. Remitente predeterminado: `Custom Email 2` |
 | [!UICONTROL Email Template] | Vista de tienda | Especifica la plantilla que se utilizará como base para todas las respuestas a consultas de correo electrónico del _Contáctenos._ página. Plantilla predeterminada: `Contact Form` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

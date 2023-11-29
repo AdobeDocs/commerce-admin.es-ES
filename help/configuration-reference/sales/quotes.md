@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Quotes]'
 description: Revise la configuración de en [!UICONTROL Sales] &gt; [!UICONTROL Quotes] de la administración de Commerce.
 exl-id: 9382552d-1be5-47f2-b0e3-931e5c6298d4
 feature: Configuration, Quotes
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Amount Message] | Vista de tienda | Mensaje que aparece en el carro de compras cuando un cliente intenta enviar una solicitud de presupuesto, pero no se cumple la cantidad mínima requerida. |
 | [!UICONTROL Default Expiration Period] | Sitio web | Determina la duración predeterminada de un [citar](../../b2b/quote-price-negotiation.md) como período de tiempo desde la fecha en que se envía la solicitud de presupuesto. Opciones: `Days` / `Weeks` / `Months` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Attached Files]
 
@@ -43,4 +43,4 @@ ht-degree: 0%
 | [!UICONTROL File formats for upload] | Global | Determina los formatos de archivo que se pueden adjuntar a una cita. Valores predeterminados admitidos: `doc`, `docx`, `xls`, `xlsx`, `pdf`, `txt`, `jpg`, `png`, y `jpeg` |
 | [!UICONTROL Maximum file size] | Global | Determina el tamaño máximo de un archivo adjunto a un presupuesto. Esta configuración se puede anular mediante la configuración del servidor. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

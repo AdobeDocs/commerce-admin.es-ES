@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Tax]'
 description: Revise la configuración de en [!UICONTROL Sales] &gt; [!UICONTROL Tax] de la administración de Commerce.
 exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 feature: Configuration, Taxes
-source-git-commit: 0d1bb3666be18676acd770b6b96e4ee46d3cf1c9
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 | [!UICONTROL Default Tax Class for Product] | Global | Identifica la clase de impuestos predeterminada que se utiliza para los productos. |
 | [!UICONTROL Default Tax Class for Customer] | Global | Identifica la clase de impuestos predeterminada que se utiliza para los clientes. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Calculation Settings]
 
@@ -50,7 +50,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 | [!UICONTROL Apply Tax On] | Sitio web | Determina si el impuesto se aplica al precio original o a un precio personalizado, si está disponible. Opciones: `Custom price if available` / `Original price only` |
 | [!UICONTROL Enable Cross Border Trade] | Sitio web | Cuando está activada, aplica precios consistentes a través de las fronteras de regiones con diferentes tasas de impuestos. Opciones: `Yes` / `No` <br/><br/>**_Nota:_**El uso del comercio transfronterizo ajusta el margen de beneficio por tipo impositivo. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Default Tax Destination Calculation]
 
@@ -62,7 +62,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 | [!UICONTROL Default State] | Vista de tienda | Determina el estado en el que se basan los cálculos de impuestos. Un asterisco (*) puede funcionar como comodín para indicar todos los estados dentro del país seleccionado. |
 | [!UICONTROL Default Post Code] | Vista de tienda | Identifica el código postal en el que se basan los cálculos de impuestos. Un asterisco (*) puede funcionar como comodín para indicar todos los códigos postales dentro del estado seleccionado. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Price Display Settings]
 
@@ -75,7 +75,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 | [!UICONTROL Display Product Prices in Catalog] | Vista de tienda | Determina si los precios de productos publicados en el catálogo incluyen o excluyen impuestos, o muestran dos versiones del precio; una con y otra sin impuestos. Opciones: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_Nota:_**Si establece el campo Mostrar precios de productos en `Including Tax`Sin embargo, el impuesto sólo aparece si existe una regla fiscal que coincida con el origen del impuesto o si existe una dirección de cliente que coincida con la regla fiscal. Los eventos que pueden almacenar en déclencheur una coincidencia incluyen la creación de cuentas de cliente, el inicio de sesión o el uso de la herramienta de estimación de impuestos y envíos en el carro de compras. |
 | [!UICONTROL Display Shipping Prices] | Vista de tienda | Determina si los precios de envío incluyen o excluyen impuestos, o muestran dos versiones del precio de envío; una con y otra sin impuestos. Opciones: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shopping Cart Display Settings]
 
@@ -92,7 +92,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 | [!UICONTROL Display Full Tax Summary] | Vista de tienda | Determina si el carro de compras incluye un resumen de impuestos completo. Opciones: `Yes` / `No` |
 | [!UICONTROL Display Zero Tax Subtotal] | Vista de tienda | Determina si el carro de compras incluye un subtotal de impuestos cuando el impuesto es cero. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Orders, Invoices, Credit Memos Display Settings]
 
@@ -111,7 +111,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 | [!UICONTROL Display Gift Wrapping Prices] | Vista de tienda | ![Adobe Commerce](../../assets/adobe-logo.svg) (Solo Adobe Commerce) Determina si los precios del envoltorio para regalos están incluidos en el subtotal. Opciones: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 | [!UICONTROL Display Printed Card Prices] | Vista de tienda | ![Adobe Commerce](../../assets/adobe-logo.svg) (Solo Adobe Commerce) Determina si los precios de las tarjetas impresas están incluidos en el subtotal. Opciones: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Fixed Product Taxes]
 
@@ -130,4 +130,4 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 | [!UICONTROL FPT Tax Configuration] | Sitio web | Determina cómo se calcula el impuesto FTP. Opciones: <br/>**`Not Taxed`**- Seleccione esta opción si su jurisdicción fiscal no grava el FTP. (Por ejemplo, California).<br/>**`Taxed`** - Seleccione esta opción si su jurisdicción fiscal no grava el FTP. (Por ejemplo, Canadá). <br/>**`Loaded and Displayed with Tax`**- Haga clic en esta opción si FPT se añade al total del pedido antes de aplicar impuestos. (Por ejemplo, los países de la UE). |
 | [!UICONTROL Include FPT in Subtotal] | Sitio web | Determina si FTP está incluido en el subtotal del carro de compras. Opciones: <br/>**`Yes`**- Incluye FTP en el subtotal del carro de compras.<br/>**`No`** - FPT no está incluido en el subtotal y se coloca después del subtotal en el carro de compras. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

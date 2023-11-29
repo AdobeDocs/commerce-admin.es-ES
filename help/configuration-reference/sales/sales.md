@@ -3,10 +3,10 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
 description: Revise la configuración de en [!UICONTROL Sales] &gt; [!UICONTROL Sales] de la administración de Commerce.
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Hide Customer IP] | Vista de tienda | Determina si la dirección IP del cliente aparece en pedidos, facturas, envíos y notas de abono. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Checkout Totals Sort Order]
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 | [!UICONTROL Fixed Product Tax] | Sitio web | Número que determina cuándo se calcula el impuesto sobre productos fijos en relación con otros totales de cierre de compra. Valor predeterminado: `50` |
 | [!UICONTROL Grand Total] | Sitio web | Número que determina cuándo se calcula el total general en relación con otros totales de cierre de compra. Valor predeterminado: `100` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Reorder]
 
@@ -55,7 +55,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Allow Reorder] | Vista de tienda | Determina si los clientes pueden reordenar desde sus cuentas. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Allow Zero Grand Total]
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Allow Zero Grand Total for Credit Memo] | Vista de tienda | Determina la posibilidad de crear una nota de abono con un total general cero. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice and Packing Slip Design]
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 | [!UICONTROL Logo for HTML Print View] | Vista de tienda | Identifica el archivo de logotipo que aparece en la cabecera de la vista de impresión de HTML de facturas y albaranes. Tipos de archivo permitidos: <br/>JPG /JPEG <br/>GIF <br/>PNG |
 | [!UICONTROL Address] | Vista de tienda | La dirección del almacén tal como desea que aparezca en facturas y albaranes. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Minimum Order Amount]
 
@@ -97,7 +97,7 @@ ht-degree: 1%
 | [!UICONTROL Multi-address Description Message] | Vista de tienda | Para pedidos de varias direcciones, determina el mensaje que aparece en el carro de compras si los artículos enviados a una dirección son inferiores a la cantidad mínima de pedido. |
 | [!UICONTROL Multi-address Error to Show in Shopping Cart] | Vista de tienda | Para pedidos de varias direcciones, determina el mensaje que aparece en el minicarro o en el vínculo de cierre de compra cuando la cantidad del pedido es inferior a la cantidad mínima requerida. Si se deja en blanco, aparece un mensaje predeterminado. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Dashboard]
 
@@ -109,7 +109,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Use Aggregated Data] | Global | Determina si se utilizan datos de ventas agregados en tiempo real para generar informes de instantáneas de tablero. Si tiene que procesar una gran cantidad de datos, se puede mejorar el rendimiento desactivando la visualización de datos en tiempo real. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Orders Cron Settings]
 
@@ -121,7 +121,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Pending Payment Order Lifetime] | Sitio web | Determina la duración de los pedidos pendientes en minutos. Configuración predeterminada: `480` minutos (8 horas) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Options]
 
@@ -139,7 +139,7 @@ ht-degree: 1%
 | [!UICONTROL Allow Printed Card] | Sitio web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Solo Adobe Commerce) Especifique si se puede añadir una tarjeta impresa para el pedido. |
 | [!UICONTROL Default Price for Printed Card] | Sitio web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Solo Adobe Commerce) Especifique el precio predeterminado para la tarjeta impresa. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Minimum Advertised Price]
 
@@ -155,7 +155,7 @@ ht-degree: 1%
 | [!UICONTROL Default "What's This" Text Message] | Vista de tienda | El mensaje de texto que aparece cuando el cliente hace clic en &quot;¿Qué es esto?&quot; desde la página de vista del producto. |
 | [!UICONTROL Manufacturer's Suggested Retail Price] | Global | El precio al por menor sugerido por el fabricante (MSRP). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order by SKU Settings]
 
@@ -172,7 +172,7 @@ ht-degree: 1%
 | [!UICONTROL Enable Order by SKU on My Account in Storefront] | Sitio web | Determina si Ordenar por SKU está disponible en el panel de cuentas del cliente. Opciones: <br/>**`Yes, for Everyone`**: la pestaña Ordenar por SKU aparece en el panel de cuentas de todos los clientes.<br/>**`Yes, for Specified Customer Groups`** : la pestaña Ordenar por SKU aparece en el panel de cuentas para los miembros de grupos especificados o de un catálogo compartido. <br/>**`No`**- La pestaña Ordenar por SKU no está disponible en la cuenta del cliente. |
 | [!UICONTROL Customer Groups] | Sitio web | Determina los grupos de clientes. Opciones: `General` / `Retailer` / `Wholesale` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Instant Purchase]
 
@@ -185,7 +185,7 @@ ht-degree: 1%
 | [!UICONTROL Enabled] | Vista de tienda | Activa la compra instantánea para la vista de tienda si el método de pago, como Braintree, tiene activado el Vault. Opciones: `Yes` / `No` |
 | [!UICONTROL Button Text] | Vista de tienda | Especifica el texto que aparece en el botón Compra instantánea. El texto predeterminado es `Instant Purchase`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Orders, Invoices, Shipments, Credit Memos Archiving]
 
@@ -201,7 +201,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 | [!UICONTROL Archive Orders Purchased] | Global | Determina el número de días que transcurren antes de que se archive un pedido completado. Valor predeterminado: `30` |
 | [!UICONTROL Order  Statuses to be Archived] | Global | Determina el [status](../../stores-purchase/order-status.md) de pedidos para archivar. De forma predeterminada, se archivan los pedidos con un estado Completo o Cerrado. Opciones: `Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Settings]
 
@@ -217,4 +217,4 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 | [!UICONTROL Enable RMA on Product Level] | Sitio web | Determina el valor predeterminado para el campo Habilitar RMA en la información del producto. |
 | [!UICONTROL Use Store Address] | Sitio web | Determina el nombre y la dirección de contacto que se utilizan para los envíos de la mercancía devuelta. Opciones: <br/>**`Yes`**- Utiliza el [Punto de origen](../../stores-purchase/shipping-settings.md#point-of-origin) Dirección de Configuración de envío.<br/>**`No`** : abre el formulario de direcciones para que pueda introducir una dirección alternativa. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

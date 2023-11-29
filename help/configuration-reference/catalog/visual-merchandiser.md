@@ -3,10 +3,10 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser]'
 description: Revise la configuración de en [!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser] de la administración de Commerce.
 exl-id: 264f0f21-7324-4e37-938e-9f0cdbb3dfe8
 feature: Configuration, Merchandising
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,4 +29,4 @@ ht-degree: 1%
 | [!UICONTROL Color Attribute Code] | Global | Especifica el atributo que se utiliza para ordenar los productos por color. Valor predeterminado: `color` |
 | [!UICONTROL Color Order] | Global | Determina el criterio de ordenación cuando los productos se ordenan por color. Introduzca cada color en una fila independiente. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

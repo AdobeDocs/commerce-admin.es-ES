@@ -3,10 +3,10 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Store Email Addresses]'
 description: Revise la configuración de en [!UICONTROL General] &gt; [!UICONTROL Store Email Addresses] de la administración de Commerce.
 exl-id: 7c9e519c-dfc9-4de4-a0a4-1770b7c58145
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ Consulte [Almacenar direcciones de correo electrónico](../../getting-started/st
 | [!UICONTROL Sender Name] | Vista de tienda | El nombre que aparece como el remitente del correo electrónico enviado por el `General Contact` identidad. |
 | [!UICONTROL Sender Email] | Vista de tienda | La dirección de correo electrónico asociada con el `General Contact` identidad. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Sales Representative]
 
@@ -36,7 +36,7 @@ Consulte [Almacenar direcciones de correo electrónico](../../getting-started/st
 | [!UICONTROL Sender Name] | Vista de tienda | El nombre que aparece como el remitente del correo electrónico enviado por el `Sales Representative` identidad. |
 | [!UICONTROL Sender Email] | Vista de tienda | La dirección de correo electrónico asociada con el `Sales Representative` identidad. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer Support]
 
@@ -47,7 +47,7 @@ Consulte [Almacenar direcciones de correo electrónico](../../getting-started/st
 | [!UICONTROL Sender Name] | Vista de tienda | El nombre que aparece como el remitente del correo electrónico enviado por el `Customer Support` identidad. |
 | [!UICONTROL Sender Email] | Vista de tienda | La dirección de correo electrónico asociada con el `Customer Support` identidad. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Correo electrónico personalizado 1
 
@@ -58,7 +58,7 @@ Consulte [Almacenar direcciones de correo electrónico](../../getting-started/st
 | [!UICONTROL Sender Name] | Vista de tienda | El nombre que aparece como el remitente del correo electrónico enviado por el `Custom 1` identidad. |
 | [!UICONTROL Sender Email] | Vista de tienda | La dirección de correo electrónico asociada con el `Custom 1` identidad. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Correo electrónico personalizado 2
 
@@ -69,4 +69,4 @@ Consulte [Almacenar direcciones de correo electrónico](../../getting-started/st
 | [!UICONTROL Sender Name] | Vista de tienda | El nombre que aparece como el remitente del correo electrónico enviado por el `Custom 2` identidad. |
 | [!UICONTROL Sender Email] | Vista de tienda | La dirección de correo electrónico asociada con el `Custom 2` identidad. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

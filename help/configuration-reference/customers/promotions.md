@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Promotions]'
 description: Revise la configuración de en [!UICONTROL Customers] &gt; [!UICONTROL Promotions] de la administración de Commerce.
 exl-id: 93035d46-2e9e-466d-a5e3-d69ce6b662b8
 feature: Configuration, Promotions/Events
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 | [!UICONTROL Email Send Failure Threshold] | Global | El número de veces que el recordatorio intenta enviar notificaciones a una dirección de correo electrónico específica y falla. Cuando el valor se establece en 0, no hay umbral y las notificaciones se siguen enviando a pesar de los errores. |
 | [!UICONTROL Reminder Email Sender] | Vista de tienda | La identidad del almacén que aparece como el remitente del correo electrónico. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Auto Generated Specific Coupon Codes]
 
@@ -48,4 +48,4 @@ ht-degree: 0%
 | [!UICONTROL Code Suffix] | Global | Un valor que se anexa al final de todos los códigos. Si no desea utilizar un sufijo, deje el campo en blanco. |
 | [!UICONTROL Dash Every X Characters] | Global | Intervalo para insertar un guión (-) en todos los códigos de cupones. Si no desea utilizar un guión, deje el campo en blanco. <br/>_**Nota:**_ Los códigos de cupones que difieren solo en un guion se consideran códigos diferentes. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

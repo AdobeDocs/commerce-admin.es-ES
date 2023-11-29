@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Google API]'
 description: Revise la configuración de en [!UICONTROL Sales] &gt; [!UICONTROL Google API] de la administración de Commerce.
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 feature: Configuration, Marketing Tools
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Anonymize IP] | Vista de tienda | Determina si se elimina la información de identificación de las direcciones IP que aparecen en [!DNL Google Analytics] resultados. |
 | [!UICONTROL Enable Content Experiments] | Vista de tienda | Activa [Experimentos de contenido de Google](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207), que se puede utilizar para probar hasta diez versiones diferentes de la misma página. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google Analytics - Google Tag Manager]
 
@@ -48,7 +48,7 @@ Cuándo **[!UICONTROL Account Type]** se establece en `Google Tag Manager`, se m
 | [!UICONTROL List property for the search results page] | Vista de tienda | Identifica el [!DNL Google Tag Manager] propiedad asociada a la página de resultados de búsqueda. Valor predeterminado: `Search Results` |
 | [!UICONTROL 'Internal Promotions' for promotions field "Label"] | Vista de tienda | Identifica el [!DNL Google Tag Manager] propiedad asociada con las etiquetas para promociones internas. Valor predeterminado: `Label` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google AdWords]
 
@@ -68,7 +68,7 @@ Cuándo **[!UICONTROL Account Type]** se establece en `Google Tag Manager`, se m
 | [!UICONTROL Conversion Value] | Vista de tienda | Especifica el valor que se usa para una _[!UICONTROL Constant]_tipo de valor de conversión. |
 | [!UICONTROL Send Order Currency] | Vista de tienda | Permite valores de conversión de moneda específicos de la transacción en AdWords (para sitios web con diferentes monedas base). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google GTag]
 
@@ -88,7 +88,7 @@ Cuándo **[!UICONTROL Account Type]** se establece en `Google Tag Manager`, se m
 | [!UICONTROL Anonymize IP] | Vista de tienda | Determina si se elimina la información de identificación de las direcciones IP que aparecen en los resultados de Google Analytics. |
 | [!UICONTROL Enable Content Experiments] | Vista de tienda | Activa [Experimentos de contenido de Google](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207), que se puede utilizar para probar hasta diez versiones diferentes de la misma página. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Google Analytics4 - Google Tag Manager]
 
@@ -108,7 +108,7 @@ Cuándo **[!UICONTROL Account Type]** se establece en `Google Tag Manager`, se m
 | [!UICONTROL List property for the search results page] | Vista de tienda | Identifica el [!DNL Google Tag Manager] propiedad asociada a la página de resultados de búsqueda. Valor predeterminado: `Search Results` |
 | [!UICONTROL 'Internal Promotions' for promotions field "Label"] | Vista de tienda | Identifica el [!DNL Google Tag Manager] propiedad asociada con las etiquetas para promociones internas. Valor predeterminado: `Label` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Google AdWords]
 
@@ -128,4 +128,4 @@ Cuándo **[!UICONTROL Account Type]** se establece en `Google Tag Manager`, se m
 | [!UICONTROL Conversion Value] | Vista de tienda | Especifica el valor que se usa para una _[!UICONTROL Constant]_tipo de valor de conversión. |
 | [!UICONTROL Send Order Currency] | Vista de tienda | Permite valores de conversión de moneda específicos de la transacción en AdWords (para sitios web con diferentes monedas base). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

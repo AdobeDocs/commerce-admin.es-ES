@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Web]'
 description: Revise la configuración de en [!UICONTROL General] &gt; [!UICONTROL Web] de la administración de Commerce.
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1795'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 | [!UICONTROL Auto-redirect to Base URL] | Vista de tienda | (En configuraciones de tienda única) Si hay un vínculo roto en el sitio, redirige el tráfico a la dirección URL base, en lugar de a una página con el mensaje &quot;404 Page Not Found&quot;. Opciones:` No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br />**_Importante:_**No utilice el redireccionamiento automático para URL base en configuraciones de varias tiendas. |
 | [!UICONTROL Catalog media URL format] | Global | Define el [Formato de URL](../../catalog/catalog-urls.md) asignado a productos y categorías. Opciones: hash único por variante de imagen (modo heredado) define el nombre de archivo convertido como un valor hash único. La optimización de imágenes basada en parámetros de consulta define [optimización de imágenes](../../content-design/media-gallery-image-optimization.md) procesar según los parámetros de consulta. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Search Engine Optimization]
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Use Web Server Rewrites] | Vista de tienda | Los sistemas basados en PHP suelen incluir un archivo llamado `index.php` en la carpeta raíz. De forma predeterminada, el nombre del archivo aparece en la dirección URL justo después del nombre de la carpeta raíz. Cuando está activada, el sistema omite `index.php` desde la dirección URL. Esta práctica recomendada de uso hace que cada dirección URL sea más concisa y no afecta al rendimiento ni a la clasificación del sitio. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Base URLs]
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 | [!UICONTROL Base URL for Static View Files] | Vista de tienda | Una ruta que señala a la ubicación de los archivos estáticos utilizados por la temática, como css, fuentes, imágenes y JavaScript. Se utiliza un marcador de posición para representar la dirección URL base. Si la instalación de Commerce tiene varios sitios con la misma estructura de carpetas, puede tener una carpeta diferente para cada sitio. Establezca el ámbito de configuración en el sitio correcto antes de escribir la dirección URL base para los archivos de vista estática. También puede especificar una carpeta fuera de la instalación de Commerce. |
 | [!UICONTROL Base URL for User Media Files] | Vista de tienda | Una ruta que señala a la ubicación de las imágenes del catálogo y otros archivos multimedia. Se utiliza un marcador de posición para representar la dirección URL base. Si la instalación de Commerce tiene varios sitios con la misma estructura de carpetas, puede tener una carpeta de medios diferente para cada uno. Esto le permite realizar copias de seguridad y revertir cada carpeta multimedia por separado. También puede especificar una carpeta de medios fuera de la instalación de Commerce. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Base URLs (Secure)]
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 | [!UICONTROL Upgrade Insecure Requests] | Vista de tienda | Cuando está habilitada, convierte a no seguro (`HTTP`) solicitudes recibidas desde el explorador al seguro (`HTTPS`) protocolo. Opciones: `Yes` / `No` |
 | [!UICONTROL Offloader Header] | Global | Especifica el `offloader_header` en la configuración del servidor para identificar el protocolo entre el cliente y el equilibrador de carga. La mayoría de las instalaciones de Commerce utilizan el valor predeterminado, `X-Forwarded-Proto` (XFP) para identificar el protocolo como `HTTP` o `HTTPS`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Default Pages]
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 | [!UICONTROL CMS No Cookies Page] | Vista de tienda | Identifica una página de CMS específica que aparece cuando las cookies no están habilitadas para el explorador. La página explica por qué se utilizan las cookies y cómo habilitarlas para cada explorador. La página predeterminada es Habilitar cookies. |
 | [!UICONTROL Show Breadcrumbs for CMS Pages] | Vista de tienda | Determina si aparece una ruta de exploración en todas las páginas de CMS del catálogo. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Default Layouts]
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 | [!UICONTROL Default Category Layout] | Global | Determina el [layout](../../content-design/page-layout.md) que se utiliza de forma predeterminada para las páginas de categoría. Opciones: <br/>**`No layout updates`**- De forma predeterminada, las actualizaciones de diseño no están disponibles para las páginas de categoría.<br/>**`Empty`** - De forma predeterminada, utiliza un diseño en blanco para las páginas de categoría. <br/>**`1 column`**- De forma predeterminada, utiliza un diseño de columna única para las páginas de categoría.<br/>**`2 columns with left bar`** - De forma predeterminada, utiliza un diseño de dos columnas con la barra lateral a la izquierda para las páginas de categoría. <br/>**`2 columns with right bar`**: De forma predeterminada, utiliza un diseño de dos columnas con la barra lateral a la derecha para las páginas de categoría.<br/>**`3 columns`** - De forma predeterminada, utiliza un diseño de tres columnas con barras laterales a la izquierda y a la derecha para las páginas de categoría.<br/>**`Page - Full Width`**- (Requiere [!DNL Page Builder]) De forma predeterminada, utiliza el diseño Página - Anchura completa para las páginas de categoría.<br/>**`Category - Full Width`** - (Requiere [!DNL Page Builder]) De forma predeterminada, utiliza el diseño Categoría - Anchura completa para las páginas de categoría. <br/>**`Product - Full Width`**- (Requiere [!DNL Page Builder]) De forma predeterminada, utiliza el diseño Producto - Anchura completa para las páginas de categoría. |
 | Diseño de página predeterminado | Global | Determina el [layout](../../content-design/page-layout.md) que se utiliza de forma predeterminada para las páginas de CMS. Opciones: <br/>**`No layout updates`**: De forma predeterminada, las actualizaciones de diseño no están disponibles para páginas de CMS.<br/>**`Empty`** : De forma predeterminada, utiliza un diseño en blanco para las páginas de CMS. <br/>**`1 column`**: De forma predeterminada, utiliza un diseño de columna única para las páginas de CMS.<br/>**`2 columns with left bar`** : De forma predeterminada, utiliza un diseño de dos columnas con la barra lateral a la izquierda para páginas CMS.<br/>**`2 columns with right bar`**: De forma predeterminada, utiliza un diseño de dos columnas con la barra lateral a la derecha para páginas de CMS.<br/>**`3 columns`** : De forma predeterminada, utiliza un diseño de tres columnas con barras laterales a la izquierda y a la derecha para páginas de CMS.<br/>**`Page - Full Width`**- (Requiere [!UICONTROL Page Builder]) De forma predeterminada, utiliza el diseño Página - Anchura completa para páginas CMS.<br/>**`Category - Full Width`** - (Requiere [!UICONTROL Page Builder]) De forma predeterminada, utiliza el diseño Categoría: Anchura completa para las páginas de CMS. <br/>**`Product - Full Width`**- (Requiere [!DNL Page Builder]) De forma predeterminada, utiliza el diseño Producto - Anchura completa para páginas CMS. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Default Cookie Settings]
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 | [!UICONTROL Use HTTP Only] | Vista de tienda | Determina si las cookies comerciales solo se pueden utilizar en un canal no seguro (http) o en un canal cifrado (https). Opciones: `Yes` / `No` |
 | [!UICONTROL Cookie Restriction Mode] | Sitio web | Determina si el modo de restricción de cookies está habilitado. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Session Validation Settings]
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 | [!UICONTROL Validate HTTP_x_FORWARDED_FOR] | Global | Comprueba los datos del proxy saliente y comprueba que la dirección de reenvío de una solicitud coincide  `$_SESSION` datos. La sesión finaliza si se detecta una dirección de reenvío diferente. Opciones: `Yes` / `No` |
 | [!UICONTROL Validate HTTP_USER_AGENT] | Global | `USER_AGENT` hace referencia al explorador o dispositivo que se utiliza para acceder al sitio web. Comprueba que el nombre y la versión del explorador, y del sistema operativo, coinciden `$_SESSION` datos. La sesión finaliza si se detecta un agente de usuario diferente de una solicitud a otra en la misma sesión. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Browser Capabilities Detection]
 
@@ -149,6 +149,6 @@ ht-degree: 0%
 | [!UICONTROL Show Notice if JavaScript is Disabled] | Vista de tienda | Si el explorador desactiva JavaScript, se muestra un aviso que solicita al usuario que habilite Opciones de JavaScript: `Yes` / `No` (deshabilita) |
 | [!UICONTROL Show Notice if Local Storage is Disabled] | Vista de tienda | Muestra un mensaje si la caché local está deshabilitada. Opciones: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 [1]: https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html
