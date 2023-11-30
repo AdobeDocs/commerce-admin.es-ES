@@ -5,7 +5,7 @@ breadcrumb-title: Primeros pasos
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 14c8c656fdba7bd08451161594d1347897ff6f12
+source-git-commit: c97d6eb4050bbae7e766f01ce50b5c3be7544c5c
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 1%
@@ -69,7 +69,7 @@ ht-degree: 1%
    + [Informes del cliente](customer-reports.md)
    + [Informes del producto](product-reports.md)
    + [Informes de ventas privados](private-sales-reports.md)
-   + [Herramientas de inteligencia empresarial](business-intelligence.md)
+   + [Herramientas de Commerce Intelligence](business-intelligence.md)
    + [Informes de New Relic](new-relic-reporting.md)
 + Recursos {#resources}
    + [Ecosistema](resources.md)

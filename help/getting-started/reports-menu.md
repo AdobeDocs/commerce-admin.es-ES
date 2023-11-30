@@ -3,7 +3,7 @@ title: '[!UICONTROL Reports] menu'
 description: Adobe Commerce y Magento Open Source ofrecen una amplia selección de informes para mantenerle informado sobre sus esfuerzos de marketing, productos de ventas y actividad con los clientes.
 feature: Admin Workspace, Reporting
 exl-id: f6356590-ba89-4c97-a9fc-efbd0dacf31a
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 35025c69bf9ba3902693cb9694bcf2b4e7882c7f
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -54,6 +54,6 @@ La selección de [informes de producto](product-reports.md) incluye Vistas, Más
 
 [Estadísticas](sales-reports.md#refresh-statistics) es una herramienta que reduce el impacto de la generación de informes en el rendimiento al calcular y almacenar datos estadísticos. En lugar de volver a calcular las estadísticas cada vez que se genera un informe, las estadísticas almacenadas se utilizan hasta que se actualizan las estadísticas.
 
-### [!DNL Business Intelligence]
+### [!DNL Commerce Intelligence]
 
-Integrado [[!DNL Business Intelligence]](business-intelligence.md) Las herramientas de proporcionan la perspectiva que necesita para tomar decisiones empresariales estratégicas.
+Integrado [[!DNL Commerce Intelligence]](business-intelligence.md) Las herramientas de proporcionan la perspectiva que necesita para tomar decisiones empresariales estratégicas.
