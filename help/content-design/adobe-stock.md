@@ -3,7 +3,7 @@ title: Integración de Adobe Stock
 description: Integración de Adobe Stock con [!DNL Commerce] para acceder a innumerables recursos de medios para usarlos en su tienda.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 6666073a48741cb494f408a61401f46fc20cedc4
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 0%
