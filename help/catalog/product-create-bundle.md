@@ -3,9 +3,9 @@ title: Paquete de productos
 description: Aprenda a crear un paquete de productos que permita a los compradores crear un producto personalizado en su tienda.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Las opciones aparecen cuando el cliente hace clic en **[!UICONTROL Customize]** 
 >[!NOTE]
 >
 >El precio mínimo anunciado (MAP) no está disponible para los productos agrupados que utilizan precios dinámicos.
+
+>[!NOTE]
+>
+>El producto del paquete principal siempre se muestra como un producto de mejora de ventas para todos sus productos secundarios automáticamente.
 
 If [Compra instantánea](../stores-purchase/checkout-instant-purchase.md) está disponible, la variable _Compra instantánea_ aparece debajo de _Añadir al carro_ para cada elemento del paquete.
 
@@ -276,3 +280,5 @@ El estado de stock del paquete es **_no se cambia automáticamente a Agotado_** 
 ![Casilla](../assets/checkbox.png) La cantidad puede ser un valor preestablecido o definido por el usuario. Sin embargo, no asigne los _[!UICONTROL User Defined]_propiedad para marcar la casilla de verificación o seleccionar varios tipos de entrada.
 
 ![Casilla](../assets/checkbox.png) Los artículos agrupados se pueden enviar juntos o por separado.
+
+![Casilla](../assets/checkbox.png) El producto del paquete principal siempre se muestra como un producto de mejora de ventas para todos sus productos secundarios automáticamente.
