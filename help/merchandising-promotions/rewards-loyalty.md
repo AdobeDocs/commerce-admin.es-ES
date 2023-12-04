@@ -3,9 +3,9 @@ title: Programas de recompensa y fidelización
 description: Conozca el sistema de puntos de recompensa que puede utilizar para aumentar la participación del cliente y promover su lealtad.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 9d775e8e8521032dc58f6cd1ed7796595db745a0
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,11 @@ La configuración de puntos de recompensa determina cómo se presentan los punto
 
 1. Si desea reembolsar automáticamente los puntos de recompensa disponibles, establezca **[!UICONTROL Refund Reward Points Automatically]** hasta `Yes`.
 
-1. Si desea deducir puntos de recompensa automáticamente, establezca **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** hasta `Yes`.
+1. Para anular los puntos de recompensa obtenidos a través de compras cuando el pedido que obtuvo los puntos sea reembolsado total o parcialmente, establezca **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** hasta `Yes`.
+
+   >[!NOTE]
+   >
+   >Solo se ven afectados los puntos obtenidos con el pedido que se está reembolsando.
 
 1. Establecer **[!UICONTROL Landing Page]** a la página de contenido que explica su programa de puntos de recompensa.
 
@@ -158,7 +162,7 @@ El saldo de puntos de recompensa se puede actualizar desde el Administrador.
    - **[!UICONTROL Subscribe for Balance Updates]**
    - **[!UICONTROL Subscribe for Points Expiration Notifications]**
 
-1. Haga clic **[!UICONTROL Save Customer]**.
+1. Clic **[!UICONTROL Save Customer]**.
 
 Todas las acciones relacionadas con los puntos de recompensa se muestran en el _[!UICONTROL Reward Points History]_bloquean en su cuenta en la tienda.
 

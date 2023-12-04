@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Reward Points]'
 description: Revise la configuración de en [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] de la administración de Commerce.
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 1ae3e1fd10e29de690f7f159c36101a9817dea91
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 <!-- [Reward Points](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
-|--- |--- |--- |
+|--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Reward Points Functionality] | Global | Activa o desactiva los puntos de recompensa. Opciones: `Yes` / `No`. |
 | [!UICONTROL Enable Reward Points Functionality on Storefront] | Sitio web | Cuando está activada, los clientes pueden obtener puntos a través de sus actividades y canjearlos al cerrar la compra. Si está desactivado, solo los usuarios administradores pueden asignar y canjear puntos en nombre de los clientes. Opciones: `Yes` / `No`. |
 | [!UICONTROL Customers May See Reward Points History] | Sitio web | Cuando se habilita, los clientes pueden ver un historial detallado con cada acumulación, canje y caducidad de puntos de recompensa en su panel de cuentas. Opciones: `Yes` / `No` |
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [!UICONTROL Reward Points Expire in (days)] | Sitio web | Indica la duración de los puntos de recompensa en días. Cada lote de puntos obtenidos durante las distintas actividades tiene una duración diferente. Cada lote en el historial de puntos de recompensa indica el número de días restantes antes de que expiren los puntos. El historial se puede ver desde el panel de cuentas del cliente, si está activado, y desde el Administrador. Déjelo en blanco si no desea caducar. |
 | [!UICONTROL Reward Points Expiry Calculation] | Sitio web | Determina el método utilizado para determinar cuándo caducan los puntos de recompensa. Opciones: <br/>**`Static`**- Determina la vida útil restante de los puntos de recompensa en función del número de días establecido en la configuración. Si el límite de caducidad de la configuración cambia, la fecha de caducidad de los puntos existentes no cambia.<br/>**`Dynamic`** - Calcula el número de días restantes cada vez que aumenta el saldo de puntos de recompensa. Si el límite de caducidad de la configuración cambia, los cálculos de caducidad de todos los puntos existentes se actualizan en consecuencia. |
 | [!UICONTROL Refund Reward Points Automatically] | Global | Determina si los puntos de recompensa disponibles se reembolsan automáticamente. Opciones: `Yes` / `No` |
-| [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | Global | Determina si los puntos de recompensa se deducen automáticamente del importe del reembolso. Opciones: `Yes` / `No`. |
+| [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | Global | Esto determina si los puntos de recompensa obtenidos a través de compras se anulan total o parcialmente en el reembolso del pedido, cuando esta función está habilitada. Solo se ven afectados los puntos de recompensa del pedido que los obtuvo cuando se reembolsa ese pedido. Opciones: `Yes` / `No`. |
 | [!UICONTROL Landing Page] | Vista de tienda | Especifica la página de CMS que explica su programa de puntos de recompensa. Aparecerá un enlace a la página predeterminada de Recompensas en las ubicaciones de su tienda, donde podrá obtener puntos. |
 
 {style="table-layout:auto"}
@@ -48,8 +48,8 @@ ht-degree: 0%
 <!-- [Actions for Acquiring Reward Points by Customers](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
-|--- |--- |--- |
-| [!UICONTROL Purchase] | Sitio web | Determina si aparece un mensaje en el carro de compras que muestra los puntos de recompensa obtenidos por la compra y el saldo actual de puntos de recompensa del cliente. Opciones: `Yes` / `No` |
+|--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Purchase] | Sitio web | Determina si se obtienen puntos de recompensa por las compras en función de la configuración de [Tasas de cambio de recompensa](../../merchandising-promotions/reward-exchange-rates.md). Opciones: `Yes` / `No` |
 | [!UICONTROL Registration] | Sitio web | Especifica el número de puntos obtenidos al abrir una cuenta de cliente. |
 | [!UICONTROL Newsletter Signup] | Sitio web | Especifica el número de puntos obtenidos por los clientes registrados que se suscriben a un boletín informativo. (Los puntos no están disponibles para suscripciones de invitados). Si un cliente cancela la suscripción y luego se vuelve a suscribir, no se obtienen puntos por la segunda suscripción. |
 | [!UICONTROL Converting Invitation to Customer] | Sitio web | Especifica el número de puntos obtenidos por un cliente que envía una invitación cuando el destinatario abre una cuenta de cliente. |
