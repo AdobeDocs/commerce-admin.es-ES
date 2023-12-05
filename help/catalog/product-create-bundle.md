@@ -3,9 +3,9 @@ title: Paquete de productos
 description: Aprenda a crear un paquete de productos que permita a los compradores crear un producto personalizado en su tienda.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
+source-git-commit: eca41f653aa6499743982199f067d6df86079010
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -74,6 +74,10 @@ El formulario se actualiza para reflejar el cambio.
 
    - Para cargar un precio fijo por el paquete, establezca **[!UICONTROL Dynamic Price]** hasta `No` e introduzca la variable **[!UICONTROL Price]** que desea cobrar por el paquete.
 
+   >[!NOTE]
+   >
+   >[!UICONTROL Special Price] y [!UICONTROL Customer Group Price] (Precio de nivel) siempre se establecen como porcentaje de descuento para todos los tipos de productos de paquete.
+
 1. Como el producto aún no está listo para publicar, establezca **[!UICONTROL Enable Product]** hasta `No`.
 
 1. Clic **[!UICONTROL Save]** y continuar.
@@ -123,11 +127,11 @@ El formulario se actualiza para reflejar el cambio.
 
    **Crear una categoría:**
 
-   - Haga clic **[!UICONTROL New Category]**.
+   - Clic **[!UICONTROL New Category]**.
 
    - Introduzca el **[!UICONTROL Category Name]** y elija la **[!UICONTROL Parent Category]**, que determina su posición en la estructura de menú.
 
-   - Haga clic **[!UICONTROL Create Category]**.
+   - Clic **[!UICONTROL Create Category]**.
 
 1. Elija la **[!UICONTROL Country of Manufacture]**.
 
@@ -163,7 +167,7 @@ El _[!UICONTROL Bundle Items]_se utiliza para añadir elementos a un tipo de pro
 
      Si hay muchos productos, utilice los filtros de lista y los controles de paginación para encontrar los productos que necesita.
 
-   - Haga clic **[!UICONTROL Add Selected Products]**.
+   - Clic **[!UICONTROL Add Selected Products]**.
 
      ![Añadir productos seleccionados](./assets/product-bundle-add-products-to-option.png){width="600" zoomable="yes"}
 
@@ -282,3 +286,5 @@ El estado de stock del paquete es **_no se cambia automáticamente a Agotado_** 
 ![Casilla](../assets/checkbox.png) Los artículos agrupados se pueden enviar juntos o por separado.
 
 ![Casilla](../assets/checkbox.png) El producto del paquete principal siempre se muestra como un producto de mejora de ventas para todos sus productos secundarios automáticamente.
+
+![Casilla](../assets/checkbox.png) [!UICONTROL Special Price] y [!UICONTROL Customer Group Price] (Precio de nivel) siempre se establecen como porcentaje de descuento para todos los tipos de productos de paquete.
