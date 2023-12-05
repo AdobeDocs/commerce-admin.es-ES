@@ -3,9 +3,9 @@ title: Programas de recompensa y fidelización
 description: Conozca el sistema de puntos de recompensa que puede utilizar para aumentar la participación del cliente y promover su lealtad.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: 9d775e8e8521032dc58f6cd1ed7796595db745a0
+source-git-commit: 3376b6f4fd558f7dd10133beeabf87e7228776a1
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ En este paso, se especifica el número de puntos de recompensa que se pueden obt
 
    ![Configuración de clientes: acciones para adquirir puntos de recompensa por cliente](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
 
-1. Para mostrar un mensaje en el carro de compras que incluya los puntos de recompensa obtenidos por la compra y el saldo actual de puntos de recompensa del cliente, configure **[!UICONTROL Purchase]** hasta `Yes`.
+1. Para permitir que se obtengan puntos de recompensa por las compras en función de los [Tasas de cambio de recompensa](reward-exchange-rates.md), configurado **[!UICONTROL Purchase]** hasta `Yes`.
 
    >[!NOTE]
    >
