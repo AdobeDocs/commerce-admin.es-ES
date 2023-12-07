@@ -3,9 +3,9 @@ title: URL de tienda
 description: Obtenga información sobre las direcciones URL de tienda y cómo configurar la dirección URL base y los códigos de tienda.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 555c54e9a980aa181e0b4380412ad027d80ee10f
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -137,7 +137,7 @@ Si después de seguir las instrucciones de configuración, algunas páginas se s
 
 ## Usar una URL de administrador personalizada
 
-As a [prácticas recomendadas de seguridad](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf), el Adobe recomienda utilizar una URL de administrador única en lugar de la predeterminada _administrador_ o un término común como _servidor_. Aunque no protege directamente el sitio de un actor incorrecto determinado, puede reducir la exposición a scripts que intentan obtener acceso no autorizado.
+As a [prácticas recomendadas de seguridad](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), el Adobe recomienda utilizar una URL de administrador única en lugar de la predeterminada _administrador_ o un término común como _servidor_. Aunque no protege directamente el sitio de un actor incorrecto determinado, puede reducir la exposición a scripts que intentan obtener acceso no autorizado.
 
 >[!NOTE]
 >
@@ -153,7 +153,7 @@ Aunque es posible cambiar la URL y la ruta de administración a otra ubicación,
 
 >[!NOTE]
 >
->Como precaución, no intente cambiar la URL de administración a menos que sepa cómo editar los archivos de configuración en el servidor.
+>Como precaución, no intente cambiar la URL de administración a menos que sepa cómo editar los archivos de configuración en el servidor. Para los proyectos de Adobe Commerce implementados en la infraestructura de la nube, cambie la URL de administración siguiendo el [instrucciones](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url) en el *Guía de Adobe Commerce sobre infraestructura en la nube*.
 
 ### Método 1: cambio desde el administrador
 
