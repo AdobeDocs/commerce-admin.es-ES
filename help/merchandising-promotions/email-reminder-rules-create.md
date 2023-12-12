@@ -3,16 +3,16 @@ title: Crear recordatorios de correo electrónico
 description: Obtenga información sobre cómo configurar una regla de recordatorio de correo electrónico que utilice una regla de precio del carro de compras existente.
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: b750accf7aab49357f04e16dc60791e704516141
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
 
 # Crear recordatorios de correo electrónico
 
-Antes de configurar una regla de recordatorio de correo electrónico, primero debe configurar una regla de precio del carro de compras para definir la promoción que se ofrece. Las condiciones de regla que almacenan en déclencheur un recordatorio de correo electrónico se pueden basar en las propiedades del carro de compras, las propiedades de la lista de deseos o ambas.
+Antes de configurar una regla de recordatorio de correo electrónico, primero debe [configurar una regla de precios de carro de compras](price-rules-cart-create.md) para definir la promoción que se ofrece. Las condiciones de regla que almacenan en déclencheur un recordatorio de correo electrónico se pueden basar en las propiedades del carro de compras, las propiedades de la lista de deseos o ambas.
 
 >[!NOTE]
 >
@@ -55,7 +55,9 @@ Antes de configurar una regla de recordatorio de correo electrónico, primero de
 
    >[!NOTE]
    >
-   >Si un cliente tiene más de un carro de compras abandonado, una lista de deseos o una combinación de ambos coincidentes, el recordatorio de correo electrónico se activa solo una vez para ese cliente. Para almacenar en déclencheur el mismo recordatorio de correo electrónico de nuevo, utilice el _[!UICONTROL Repeat Schedule]_para establecer el número de días entre correos electrónicos.
+   >Si un cliente tiene más de un carro de compras abandonado, una lista de deseos o una combinación de ambos coincidentes, el recordatorio de correo electrónico se activa solo una vez para ese cliente. Para almacenar en déclencheur el mismo recordatorio de correo electrónico de nuevo, utilice el _[!UICONTROL Repeat Schedule]_para establecer el número de días entre correos electrónicos. <br/>
+   >
+   >El mismo recordatorio de correo electrónico es **_no reactivado_** para el mismo cliente para **_nuevo_** carros de compras abandonados y listas de deseos **_después_** el _[!UICONTROL Repeat Schedule]_el periodo ha finalizado.
 
    Complete la condición para describir el escenario que almacena en déclencheur el recordatorio de correo electrónico.
 
