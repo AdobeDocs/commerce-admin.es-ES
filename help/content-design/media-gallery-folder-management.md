@@ -3,10 +3,10 @@ title: Administración de carpetas de Media Gallery
 description: Obtenga información sobre cómo utilizar carpetas para organizar los recursos multimedia.
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 65521c2b2113768ebec43b3aadac487d4d07c3a0
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 1%
+source-wordcount: '139'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +16,13 @@ Utilice carpetas para organizar imágenes en el nuevo [Galería de medios](media
 
 ## Crear una carpeta
 
+>[!NOTE]
+>
+>Solo puede crear una carpeta en `pub/media/wysywig` y `pub/media/catalog/category` carpetas.
+
 1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
-1. Haga clic **[!UICONTROL Create Folder]**.
+1. Clic **[!UICONTROL Create Folder]**.
 
    Si desea crear una subcarpeta, seleccione la carpeta principal antes de hacer clic en **[!UICONTROL Create Folder]**.
 
@@ -30,7 +34,7 @@ Utilice carpetas para organizar imágenes en el nuevo [Galería de medios](media
 
 >[!WARNING]
 >
->Al eliminar una carpeta, se eliminan todas las imágenes de dicha carpeta.
+>Al eliminar una carpeta, se eliminan todas las imágenes de dicha carpeta. Solo puede eliminar una carpeta en el `pub/media/wysywig` y `pub/media/catalog/category` carpetas.
 
 1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
@@ -38,6 +42,6 @@ Utilice carpetas para organizar imágenes en el nuevo [Galería de medios](media
 
    ![Seleccionar carpeta](./assets/media-gallery-selected-folder.png){width="600" zoomable="yes"}
 
-1. Haga clic **[!UICONTROL Delete Folder]**.
+1. Clic **[!UICONTROL Delete Folder]**.
 
 1. Para confirmar la eliminación de la carpeta, haga clic en **[!UICONTROL OK]**.
