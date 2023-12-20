@@ -3,9 +3,9 @@ title: Paquete de productos
 description: Aprenda a crear un paquete de productos que permita a los compradores crear un producto personalizado en su tienda.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: e38958bb57251ccc9409b849abc1aadb82ff0a54
+source-git-commit: 891b94d84ed411232aa163f99bb110780d399dfb
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 Un paquete es un _construya su propio_, producto personalizable. Cada elemento de un paquete se puede basar en uno de los siguientes tipos de productos:
 
 - [Producto sencillo](product-create-simple.md)
-- [Producto virtual](product-create-virtual.md)
-- [Producto descargable](product-create-downloadable.md)
 - [Producto virtual](product-create-virtual.md)
 
 ![Paquete de productos](./assets/product-bundle.png){width="700" zoomable="yes"}
