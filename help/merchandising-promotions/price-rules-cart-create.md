@@ -3,9 +3,9 @@ title: Crear una regla de precios de carro
 description: Aprenda a crear una regla de precios de carro de compras basada en el carro de compras o en los atributos del producto.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: bf52884cb0eccd4d9c7326a95f8600a3ed950918
+source-git-commit: 4f6847208721514eade48356ec27a021ba4fb612
 workflow-type: tm+mt
-source-wordcount: '2885'
+source-wordcount: '2971'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Complete los siguientes pasos para agregar una regla, describir las condiciones 
 
 1. Para aplicar la regla a los recursos publicados [Fuentes RSS](social-rss.md#rss-feeds), configurado **Público en fuente RSS** hasta `Yes`.
 
-1. Haga clic **[!UICONTROL Save and Continue Edit]**.
+1. Clic **[!UICONTROL Save and Continue Edit]**.
 
    - ![Magento Open Source](../assets/open-source.svg) (Solo Magento Open Source) Una vez guardada la regla, el nombre de la regla de precio del carro de compras aparece en la parte superior de la página.
 
@@ -178,7 +178,7 @@ Si utiliza audiencias de Real-Time CDP, vaya a [esta sección](#use-real-time-cd
 
 1. Establecer **[!UICONTROL Use for Promo Rule Conditions]** hasta `Yes`.
 
-1. Haga clic **[!UICONTROL Save Attribute]**.
+1. Clic **[!UICONTROL Save Attribute]**.
 
 1. Ir a **[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]** y abra la regla de precio del carro de compras requerida.
 
@@ -192,7 +192,7 @@ Si utiliza audiencias de Real-Time CDP, vaya a [esta sección](#use-real-time-cd
 
 1. Haga clic en _Añadir_ (![Icono Agregar](../assets/icon-add-green-circle.png)) y seleccione el icono **[!UICONTROL Product Attribute]** que configure para las condiciones de regla promocional.
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -240,13 +240,13 @@ Las acciones de regla de precios del carro de compras describen cómo se actuali
    | `Percent of product price discount` | Artículo de descuentos al restar un porcentaje del precio original. El descuento se aplica a cada artículo que cumpla los requisitos del carro de compras. Por ejemplo: Intro `10` in [!UICONTROL Discount Amount] por un precio actualizado un 10% inferior al precio original. |
    | `Fixed amount discount` | Descuenta un artículo restando una cantidad fija del precio original de cada artículo que cumple los requisitos del carro de compras. Por ejemplo: Intro `10` in [!UICONTROL Discount Amount] por un precio actualizado que es $10 menos que el precio original. |
    | Descuento de cantidad fija para todo el carro | Descuenta todo el carro de compras restando una cantidad fija del total del carro de compras. Por ejemplo: introduzca 10 en [!UICONTROL Discount Amount] para restar 10 $ del total del carro de compras. De forma predeterminada, el descuento se aplica solo al subtotal del carro de compras. Para aplicar el descuento al subtotal y al envío por separado, use _[!UICONTROL Apply to Shipping Amount]_opción. |
-   | `Buy X get Y free` | Define una cantidad que el cliente debe comprar para recibir una cantidad de forma gratuita. (La [!UICONTROL Discount Amount] es Y.) |
+   | `Buy X get Y free` | Define una cantidad X que el cliente debe comprar para recibir una cantidad Y **del mismo producto/variación** gratis. (La [!UICONTROL Discount Amount] es Y.) Una cantidad total de X+Y de ese mismo artículo debe estar presente en el carro de compras o agregarse a él para que se aplique el descuento. |
 
    {style="table-layout:auto"}
 
    - Introduzca el **[!UICONTROL Discount Amount]** como un número, sin símbolos. Por ejemplo, dependiendo de la opción de descuento seleccionada, el número 10 puede indicar un porcentaje, una cantidad fija o una cantidad de artículos.
 
-   - Para un _Comprar X obtener Y Gratis_ descuento, introduzca la cantidad en el **[!UICONTROL Discount Qty Step (Buy X)]** campo que el cliente debe comprar para recibir el descuento.
+   - Para un _Comprar X obtener Y Gratis_ descuento, introduzca la cantidad en el **[!UICONTROL Discount Qty Step (Buy X)]** campo de un único producto/SKU/artículo de línea que el cliente debe comprar para recibir el descuento en la cantidad Y. Tanto X como Y hacen referencia a cantidades del mismo SKU y esa cantidad específica (las variaciones de un producto configurable se cuentan por separado) del artículo debe añadirse al carro de compras manualmente.
 
    - En el **[!UICONTROL Maximum Qty Discount is Applied To]** , introduzca la cantidad máxima del mismo producto que puede optar al descuento en la misma compra.
 
