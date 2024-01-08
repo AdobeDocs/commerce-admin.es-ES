@@ -3,9 +3,9 @@ title: Paquete de productos
 description: Aprenda a crear un paquete de productos que permita a los compradores crear un producto personalizado en su tienda.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: 891b94d84ed411232aa163f99bb110780d399dfb
+source-git-commit: e16fdc9f55cada17f82777fdaaaca44780c91e4b
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1579'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ El formulario se actualiza para reflejar el cambio.
 
 1. Para determinar el precio del paquete, realice una de las siguientes acciones:
 
-   - Para que el precio refleje las opciones elegidas por el cliente, establezca **[!UICONTROL Dynamic Price]** hasta `Yes` y salir **[!UICONTROL Price]** en blanco.
+   - Para que el precio refleje las opciones elegidas por el cliente, establezca **[!UICONTROL Dynamic Price]** hasta `Yes` y salir **[!UICONTROL Price]** en blanco. En este caso, un producto agrupado no tiene su propio precio del catálogo y el precio del producto se deriva del precio de los productos individuales incluidos en el agrupamiento.
 
    - Para cargar un precio fijo por el paquete, establezca **[!UICONTROL Dynamic Price]** hasta `No` e introduzca la variable **[!UICONTROL Price]** que desea cobrar por el paquete.
 

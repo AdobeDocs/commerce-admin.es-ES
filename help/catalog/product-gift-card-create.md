@@ -3,9 +3,9 @@ title: Producto de tarjeta regalo
 description: Aprenda a crear un producto de tarjeta regalo que produzca un código único que un cliente destinatario pueda canjear durante el cierre de compra.
 exl-id: bc4b60fe-10b3-4d17-85ce-35c2720c90a2
 feature: Catalog Management, Products, Gift
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: e72977596c4479d2e94b1e066ee166d22cb12405
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,10 @@ Puede usar el valor predeterminado `Gift Card` establezca un atributo o elija ot
    - Para definir el rango de valores mínimos y máximos aceptables, introduzca la variable **[!UICONTROL Open Amount From]** y **[!UICONTROL To]** valores.
 
    Puede crear tarjetas regalo con precios fijos, precios de cantidad abierta o ambos.
+
+   >[!NOTE]
+   >
+   >Un producto de tarjeta regalo no tiene su propio precio en el catálogo. El precio de la tarjeta regalo se deriva del importe de la tarjeta regalo seleccionada durante la compra.
 
    ![Importes de tarjeta regalo](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
 
@@ -152,5 +156,7 @@ Rellene la información de las secciones siguientes según sea necesario:
 - La duración de una tarjeta regalo puede ser ilimitada o fijarse en un número determinado de días.
 
 - El valor de una tarjeta regalo se puede establecer en una cantidad fija o en una cantidad abierta con un valor mínimo y máximo.
+
+- Un producto de tarjeta regalo no tiene su propio precio en el catálogo. El precio de la tarjeta regalo se deriva del importe de la tarjeta regalo seleccionada durante la compra.
 
 - Se puede crear una cuenta de tarjeta regalo para el cliente cuando se realiza el pedido o en el momento de la factura.

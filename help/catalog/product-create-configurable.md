@@ -3,9 +3,9 @@ title: Producto configurable
 description: Aprenda a crear un producto configurable que proporcione a los compradores variaciones para su selección.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6140fda2769e109d2b38c2f9c458f67097dff0a
 workflow-type: tm+mt
-source-wordcount: '2416'
+source-wordcount: '2483'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ El [conjunto de atributos](attribute-sets.md) determina la selección de campos 
 
    **Crear una categoría**:
 
-   - Haga clic **[!UICONTROL New Category]**.
+   - Clic **[!UICONTROL New Category]**.
 
    - Introduzca el **[!UICONTROL Category Name]** y elija la **[!UICONTROL Parent Category]**, que determina su posición en la estructura de menú.
 
@@ -154,7 +154,7 @@ La barra de progreso de la parte superior de la página muestra dónde se encuen
 
    - Complete las propiedades del atributo.
 
-   - Haga clic **[!UICONTROL Save Attribute]**.
+   - Clic **[!UICONTROL Save Attribute]**.
 
    - Seleccione la casilla de verificación del atributo.
 
@@ -203,6 +203,10 @@ Como la imagen del producto principal ya se ha cargado, puede utilizar esta opci
    ![Imágenes únicas por SKU](./assets/product-configurable-create-configurations-add-images-unique.png){width="600" zoomable="yes"}
 
 Utilice uno de los siguientes métodos para configurar el **[!UICONTROL prices]**:
+
+>[!NOTE]
+>
+>Un producto configurable no tiene su propio precio en el catálogo. El precio configurable del producto se deriva de su [!UICONTROL In Stock] productos secundarios.
 
 **Método 1:** Aplicar el mismo precio a todos los SKU
 
@@ -373,6 +377,8 @@ El _Estado de stock_ del producto configurable está parcialmente controlado por
 - [Estado de stock](../inventory-management/sources-stocks.md) para un producto configurable es una configuración controlada semimanualmente. Es diferente al estado de stock del producto simple, donde es una representación directa de la disponibilidad del producto. Para un producto configurable, el estado de las existencias forma parte de un cálculo del estado de las existencias con varios criterios.
 
 - Los productos secundarios configurables pueden ser productos simples o virtuales **sin opciones personalizadas**. Para hacer virtuales los productos secundarios personalizados, debe seleccionar `Тhis item has no weight` para el **[!UICONTROL Weight]** configuración para cada uno de ellos.
+
+- Un producto configurable no tiene su propio precio en el catálogo. El precio configurable del producto se deriva de su [!UICONTROL In Stock] productos secundarios.
 
 - Los atributos que se utilizan para las variaciones de productos deben tener un ámbito global y se debe exigir al cliente que elija un valor. Los atributos de variación del producto deben incluirse en el conjunto de atributos que se utiliza como plantilla para el producto configurable.
 

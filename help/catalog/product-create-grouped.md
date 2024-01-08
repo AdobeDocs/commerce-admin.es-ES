@@ -3,9 +3,9 @@ title: Producto agrupado
 description: Aprenda a crear un producto agrupado que consta de productos independientes simples que se presentan como un grupo.
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 140930df515d1e0604b18a4ebf689254b9487b53
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Si no existen los atributos necesarios, puede agregar nuevos atributos al crear 
 Para añadir un atributo existente al producto, utilice el [controles de filtro](../getting-started/admin-grid-controls.md) para buscar el atributo en la cuadrícula, haga lo siguiente:
 
 - Seleccione la casilla de verificación de la primera columna de cada atributo que desee añadir.
-- Haga clic **[!UICONTROL Add Selected]**.
+- Clic **[!UICONTROL Add Selected]**.
 
 ## Paso 3: complete la configuración necesaria
 
@@ -60,6 +60,8 @@ Para añadir un atributo existente al producto, utilice el [controles de filtro]
 1. Aceptar el valor predeterminado **[!UICONTROL SKU]** que se basa en el nombre del producto o introduzca otro.
 
    Tome nota de que la variable **[!UICONTROL Quantity]** Este campo no está disponible porque el valor se deriva de los productos individuales que conforman el grupo.
+
+   Un producto agrupado no tiene su propio precio en el catálogo. El precio del producto agrupado se deriva del precio de los productos individuales incluidos en el grupo.
 
 1. Como el producto aún no está listo para publicar, establezca **[!UICONTROL Enable Product]** hasta `No` ( ![Alternar no](../assets/toggle-no.png) ).
 
@@ -85,11 +87,11 @@ Para añadir un atributo existente al producto, utilice el [controles de filtro]
 
    **Crear una categoría:**
 
-   - Haga clic **[!UICONTROL New Category]**.
+   - Clic **[!UICONTROL New Category]**.
 
    - Introduzca el **[!UICONTROL Category Name]** y elija la **[!UICONTROL Parent Category]**, que determina su posición en la estructura de menú.
 
-   - Haga clic **[!UICONTROL Create Category]**.
+   - Clic **[!UICONTROL Create Category]**.
 
 1. Acepte el **[!UICONTROL Visibility]** configuración de `Catalog, Search`.
 
@@ -180,7 +182,7 @@ Si tiene una imagen diferente para cada producto del grupo, puede definir la con
 
    Si es necesario, anule la selección del **[!UICONTROL Use system value]** para establecer esta opción.
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
 ## Cosas que recordar
 
@@ -189,5 +191,7 @@ Si tiene una imagen diferente para cada producto del grupo, puede definir la con
 - Los productos secundarios agrupados pueden ser productos simples, descargables o virtuales **[!UICONTROL without custom options]**.
 
 - Cada artículo comprado aparece individualmente en el carro de compras, en lugar de como parte del grupo.
+
+- Un producto agrupado no tiene su propio precio en el catálogo. El precio del producto agrupado se deriva del precio de los productos individuales incluidos en el grupo.
 
 - La imagen en miniatura del carro de compras se puede configurar para que muestre la imagen del producto principal agrupado o del producto asociado.
