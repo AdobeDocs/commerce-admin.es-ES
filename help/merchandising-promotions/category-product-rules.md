@@ -3,9 +3,9 @@ title: Reglas de categoría para la comercialización
 description: Aprenda a crear reglas para cambiar dinámicamente las selecciones de productos según un conjunto de condiciones.
 exl-id: 765b863a-bb83-418b-9fca-ef0a148b09eb
 feature: Categories, Merchandising
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 50951e5aae51067cdba2d8b50c1e530c7f79007a
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Las reglas de productos de categorías pueden acelerar el proceso de asignación
 
    Aparecerán las opciones de ordenación y condición automáticas.
 
-1. Haga clic **[!UICONTROL Add Condition]**.
+1. Clic **[!UICONTROL Add Condition]**.
 
 1. Elija la **[!UICONTROL Attribute]** esa es la base de la condición.
 
@@ -88,7 +88,7 @@ Las reglas de productos de categorías pueden acelerar el proceso de asignación
 
    ![Ordenación automática](./assets/automatic-sorting-field.png){width="600" zoomable="yes"}
 
-   La ordenación se basa en las condiciones actuales:
+   Las opciones de orden se definen globalmente y se aplican según las condiciones actuales. No puede establecer un criterio de ordenación diferente para el sitio web, tienda o nivel de vista de tienda.
 
    | Ordenar, opción | Descripción |
    |-----------| -----------|
