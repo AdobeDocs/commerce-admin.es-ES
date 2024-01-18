@@ -4,9 +4,9 @@ description: Descubra cómo los clientes asociados a una cuenta de compañía pu
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 21361104fa06425df0b44d5c7ae204ef4d9e21ac
+source-git-commit: 265ec236d8391f676c876bcd95c610a8e72f4e70
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Si las comillas están habilitadas en la variable [Configuración de funciones d
 1. El cliente inicia sesión en su cuenta de usuario como comprador con [permiso](account-company-roles-permissions.md) para solicitar un presupuesto.
 
 1. Agrega al carro de compras los productos que desean incluir en la cotización.
+
+   >[!TIP]
+   > 
+   >Si tiene una lista de SKU de productos para solicitar, añádalas al carro de compras más rápido utilizando [Pedido rápido](quick-order.md).
 
 1. Selecciona **[!UICONTROL Request a Quote]**.
 
