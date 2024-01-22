@@ -4,9 +4,9 @@ description: Descubra cómo los clientes asociados a una cuenta de compañía pu
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 265ec236d8391f676c876bcd95c610a8e72f4e70
+source-git-commit: b53d77364f09e587813c50221ebd85ac633f1296
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -23,17 +23,17 @@ Si las comillas están habilitadas en la variable [Configuración de funciones d
 
 1. El cliente inicia sesión en su cuenta de usuario como comprador con [permiso](account-company-roles-permissions.md) para solicitar un presupuesto.
 
-1. Agrega al carro de compras los productos que desean incluir en la cotización.
+1. Agrega los productos que se van a incluir en la cotización al carro de compras.
 
    >[!TIP]
    > 
-   >Si tiene una lista de SKU de productos para solicitar, añádalas al carro de compras más rápido utilizando [Pedido rápido](quick-order.md).
+   >Los clientes pueden añadir una lista de SKU de productos al carro de compras más rápidamente mediante [Pedido rápido](quick-order.md).
 
 1. Selecciona **[!UICONTROL Request a Quote]**.
 
    ![Solicitud de una cotización del carro de compras](./assets/quote-request-from-cart.png){width="700" zoomable="yes"}
 
-1. En el **[!UICONTROL Add your comment]** , introduce una nota breve que describe la solicitud.
+1. En el **[!UICONTROL Add your comment]** , el cliente introduce una breve nota para describir la solicitud.
 
 1. Introduce un **[!UICONTROL Quote Name]**.
 
@@ -51,4 +51,4 @@ Si las comillas están habilitadas en la variable [Configuración de funciones d
    - Envía la oferta al vendedor seleccionando **[!UICONTROL Request a Quote]**.
    - [!BADGE Capacidad beta 1.5.0]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponible solo para participantes del programa beta"}**[!UICONTROL Save as Draft]**.
 
-     Si el comprador guarda la oferta como borrador, la oferta está disponible en el [!UICONTROL My Quotes] in `Draft` estado. El vendedor no puede ver esta oferta hasta que el comprador abra el borrador de la oferta y la envíe.
+     Si el comprador guarda la oferta como borrador, la oferta estará disponible en [!UICONTROL My Quotes] in `Draft` estado. El vendedor no puede ver los borradores de presupuestos hasta que el comprador los envíe para su revisión.
