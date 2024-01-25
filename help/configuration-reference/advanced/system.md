@@ -4,9 +4,9 @@ description: Revise la configuración de en [!UICONTROL Advanced] &gt; [!UICONTR
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: 3a113d162f13c659ee52ae3cbff2c7a3873d3857
 workflow-type: tm+mt
-source-wordcount: '1592'
+source-wordcount: '1636'
 ht-degree: 1%
 
 ---
@@ -142,21 +142,22 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 {style="table-layout:auto"}
 
-## [!UICONTROL Scheduled Backup Settings]
+## [!UICONTROL Backup Settings]
 
-![Configuración avanzada: configuración de copia de seguridad programada](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
-
-Para obtener más información sobre cómo cambiar esta configuración, consulte [Copias de seguridad del sistema](../../systems/backups.md) en el _Guía de sistemas de administración_.
+![Configuración avanzada: ajustes de copia de seguridad](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
 
 {{$include /help/_includes/backups-note.md}}
 
+Para obtener más información sobre cómo cambiar esta configuración, consulte [Copias de seguridad del sistema](../../systems/backups.md) en el _Guía de sistemas de administración_.
+
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Enable Scheduled Backup] | Global | Determina si se realiza automáticamente una copia de seguridad de la instancia de Commerce según una programación regular. Opciones: `Yes` / `No` |
-| [!UICONTROL Backup Type] | Global | Determina los elementos de la instancia de Commerce que se incluyen en la copia de seguridad. Opciones: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
-| [!UICONTROL Start Time] | Global | Especifica la hora, el minuto y el segundo en que comienza la copia de seguridad programada. |
-| [!UICONTROL Frequency] | Global | Determina con qué frecuencia se realiza la copia de seguridad programada. Opciones: `Daily` / `Weekly` / `Monthly` |
-| [!UICONTROL Maintenance Mode] | Global | Determina si la tienda se pone en modo de mantenimiento durante la copia de seguridad programada. Opciones: `Yes` / `No` |
+| [!UICONTROL Enable Backup] | Global | Determina si la instancia de Commerce permite copias de seguridad. Opciones: `Yes` / `No` |
+| [!UICONTROL Enable Scheduled Backup] | Global | (Se muestra cuando _[!UICONTROL Enable Backup]_se establece en `Yes`.) Determina si se realiza automáticamente una copia de seguridad de la instancia de Commerce según una programación regular. Opciones: `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | Global | (Se muestra cuando _[!UICONTROL Enable Scheduled Backup]_se establece en `Yes`.) Determina los elementos de la instancia de Commerce que se incluyen en la copia de seguridad. Opciones: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Start Time] | Global | (Se muestra cuando [!UICONTROL Enable Scheduled Backup] se establece en `Yes`.) Especifica la hora, el minuto y el segundo en que comienza la copia de seguridad programada. |
+| [!UICONTROL Frequency] | Global | (Se muestra cuando [!UICONTROL Enable Scheduled Backup] se establece en `Yes`.) Determina con qué frecuencia se realiza la copia de seguridad programada. Opciones: `Daily` / `Weekly` / `Monthly` |
+| [!UICONTROL Maintenance Mode] | Global | (Se muestra cuando [!UICONTROL Enable Scheduled Backup] se establece en `Yes`.) Determina si la tienda se pone en modo de mantenimiento durante la copia de seguridad programada. Opciones: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
