@@ -3,9 +3,9 @@ title: Administrar términos de búsqueda
 description: Aprenda a administrar los términos de búsqueda de su tienda para redirigir a los clientes utilizando términos mal escritos o alternativos.
 exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
-source-git-commit: 6126943f20f33d52085018ca634159918833efc9
+source-git-commit: 3851258543ba829a4bdbfdb5d3d053ec4627184a
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ A medida que aprendes nuevas palabras que la gente usa para buscar en tu tienda,
 
 1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**.
 
-1. Haga clic **[!UICONTROL Add New Search Term]**.
+1. Clic **[!UICONTROL Add New Search Term]**.
 
    ![Información general de términos de búsqueda](./assets/search-terms-information.png){width="600" zoomable="yes"}
 
@@ -84,7 +84,7 @@ Existen dos métodos para eliminar un término de búsqueda: desde la cuadrícul
 
 1. Busque el término de búsqueda que desea eliminar y ábralo en modo de edición.
 
-1. Haga clic **[!UICONTROL Delete Search]**.
+1. Clic **[!UICONTROL Delete Search]**.
 
 1. Para confirmar la acción, haga clic en **[!UICONTROL OK]**.
 
@@ -131,6 +131,10 @@ Adobe Commerce admite dos soluciones de administración de sinónimos diferentes
 >
 >La función estándar de Sinónimos de búsqueda es compatible de forma predeterminada con `name` y `sku` atributos del producto **_solamente_**.
 
+>[!IMPORTANT]
+>
+>La función de búsqueda de sinónimos solo utiliza un método de búsqueda de coincidencia de texto completo.
+
 ![Ejemplo de tienda: resultados de búsqueda con sinónimos](./assets/storefront-search-results-synonyms.png){width="700" zoomable="yes"}
 
 ### Crear un grupo de sinónimos
@@ -141,7 +145,7 @@ Adobe Commerce admite dos soluciones de administración de sinónimos diferentes
 
    ![Cuadrícula de sinónimos de búsqueda](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
 
-1. Haga clic **[!UICONTROL New Synonym Group]**.
+1. Clic **[!UICONTROL New Synonym Group]**.
 
    ![Nuevo grupo de sinónimos de búsqueda](./assets/search-synonym-group-new.png){width="700" zoomable="yes"}
 
@@ -182,7 +186,7 @@ Existen dos métodos para eliminar un grupo de sinónimos: desde la cuadrícula 
 
 1. En la cuadrícula Buscar sinónimos, haga clic en la fila de cualquier registro para abrir el grupo de sinónimos en modo de edición.
 
-1. Haga clic **[!UICONTROL Delete Synonym Group]**.
+1. Clic **[!UICONTROL Delete Synonym Group]**.
 
 1. Cuando se le solicite, confirme la eliminación del grupo.
 
@@ -205,7 +209,7 @@ El informe Términos de búsqueda muestra el número de resultados de cada térm
    - `CSV` : archivo de valores separados por comas que contiene datos de texto sin formato
    - `Excel XML` : formato de datos de hoja de cálculo basado en XML
 
-1. Haga clic **[!UICONTROL Export]**.
+1. Clic **[!UICONTROL Export]**.
 
    El archivo generado se guarda automáticamente en la carpeta designada para las descargas.
 
