@@ -1,11 +1,11 @@
 ---
 title: Administrar cuentas de empresa
-description: Obtenga información acerca de la página Compañías y las herramientas disponibles en la cuadrícula que le ayudarán a administrar las cuentas de empresa de su tienda de Adobe Commerce.
+description: Aprenda a administrar las cuentas de empresa de su tienda Adobe Commerce mediante la página Compañías y las herramientas disponibles en la cuadrícula.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: 1123cf4b257a83a61914c378104c43e952512e7d
+source-git-commit: fa8083570a4637c4bf67f7657ef9d0d48f962c50
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2493'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ El _[!UICONTROL Companies]_La página enumera todas las cuentas de empresa actua
 
 El _[!UICONTROL Actions]_El control situado encima de la cuadrícula se puede utilizar para aplicar una acción a varios registros de empresa. Por ejemplo: en lugar de aprobar cada solicitud individual de empresa, puede seleccionar varias solicitudes y activar las cuentas en una sola acción. Las acciones disponibles dependen de la variable [permissions](../systems/permissions.md) para la función asignada a su cuenta de usuario de administrador.
 
-Utilice el _[!UICONTROL Search]_función para buscar compañías en **Compañías**cuadrícula por palabra clave. Encontrará la compañía buscando la palabra clave especificada en la **Nombre de empresa**y **Principal**columnas. Puede filtrar por **Tipo de empresa**para mostrar compañías principales y sus compañías relacionadas, o solo mostrar compañías secundarias.
+Utilice el _[!UICONTROL Search]_función para buscar compañías en **Compañías**cuadrícula por palabra clave. La búsqueda indexa palabras clave de la variable **Nombre de empresa**y **Principal**columnas. Puede filtrar por **Tipo de empresa**para mostrar solo compañías individuales, solo compañías matrices o solo compañías secundarias.
 
 ![Cuadrícula de compañías](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
@@ -41,7 +41,7 @@ Las siguientes acciones se pueden aplicar a registros únicos o múltiples.
 
 ### Activar cuentas de empresa
 
-1. Configure las variables **[!UICONTROL Actions]** control a `Set Active`.
+1. Desde el **[!UICONTROL Actions]** control, seleccionar **[!UICONTROL Set Active]**.
 
 1. Cuando se le pida que confirme, haga clic en **[!UICONTROL OK]**.
 
@@ -49,16 +49,16 @@ Las siguientes acciones se pueden aplicar a registros únicos o múltiples.
 
 Los clientes con cuentas inactivas no pueden iniciar sesión ni realizar compras en sus cuentas. Existen dos métodos para establecer una cuenta de cliente como activa o inactiva:
 
-Método 1: **Desde la cuadrícula de clientes**
+Método 1: **Desde la cuadrícula Clientes**
 
 1. En el _Administrador_ barra lateral, vaya a [!UICONTROL **Clientes**] > [!UICONTROL **Todos los clientes**].
 
-1. Configure las variables [!UICONTROL **Acciones**] a una de las siguientes opciones:
+1. Desde el **[!UICONTROL Actions]** , seleccione una de las siguientes opciones:
 
-   - `Active`
-   - `Inactive`
+   - **[!UICONTROL Active]**
+   - **[!UICONTROL Inactive]**
 
-1. Cuando se le pida que confirme, haga clic en **[!UICONTROL OK]**.
+1. Cuando se le solicite, seleccione **[!UICONTROL OK]** para aplicar el cambio.
 
 Método 2: **Desde la página de edición de cuenta**
 
@@ -66,7 +66,7 @@ Método 2: **Desde la página de edición de cuenta**
 
 1. En la cuadrícula, busque el registro de cliente que desea editar.
 
-1. En el _Acciones_ en el extremo derecho, haga clic en [!UICONTROL **Editar**].
+1. En el _Acciones_ en el extremo derecho, seleccione [!UICONTROL **Editar**].
 
 1. Seleccione el [!UICONTROL **Información de cuenta**] pestaña.
 
@@ -78,7 +78,7 @@ Método 2: **Desde la página de edición de cuenta**
 
 Los usuarios asociados a una cuenta de empresa bloqueada pueden iniciar sesión en el catálogo y acceder a él, pero no pueden realizar compras. Una compañía con una cuenta que no esté al día podría ser bloqueada temporalmente hasta que se resuelva el asunto.
 
-1. Configure las variables **[!UICONTROL Actions]** control a `Block`.
+1. Desde el **[!UICONTROL Actions]** control, seleccionar **[!UICONTROL Block]**.
 
 1. Cuando se le pida que confirme, haga clic en **[!UICONTROL OK]**.
 
@@ -86,7 +86,7 @@ Los usuarios asociados a una cuenta de empresa bloqueada pueden iniciar sesión 
 
 Las cuentas de empresa eliminadas no se pueden restaurar. El estado de las cuentas de usuario asociadas con la compañía se establece en `Inactive` y el ID de compañía se elimina de los perfiles de las cuentas de usuario. La información sobre la actividad y las transacciones de la empresa se conserva en el sistema.
 
-1. Configure las variables **[!UICONTROL Actions]** control a `Delete`.
+1. Desde el **[!UICONTROL Actions]** control, seleccionar **[!UICONTROL Delete]**.
 
 1. Cuando se le pida que confirme, haga clic en **[!UICONTROL OK]**.
 
@@ -94,7 +94,7 @@ Las cuentas de empresa eliminadas no se pueden restaurar. El estado de las cuent
 
 El crédito en las cuentas de las empresas seleccionadas se convierte al tipo de cambio actual de la divisa seleccionada.
 
-1. Configure las variables **[!UICONTROL Actions]** control a `Convert Currency`.
+1. Desde el **[!UICONTROL Actions]** control, seleccionar **[!UICONTROL Convert Currency]**.
 
 1. Cuando se le pida que confirme, haga clic en **[!UICONTROL OK]**.
 
@@ -104,13 +104,13 @@ El crédito en las cuentas de las empresas seleccionadas se convierte al tipo de
 
 1. Clic **[!UICONTROL Proceed]** para completar la conversión.
 
-### Editar una cuenta de empresa
+## Editar una cuenta de empresa
 
 Método 1: **Edición rápida**
 
 1. En la primera columna, seleccione la casilla de la cuenta de empresa que desea editar.
 
-1. Configure las variables **[!UICONTROL Actions]** columna a `Edit`.
+1. Desde el **[!UICONTROL Actions]** control, seleccionar **[!UICONTROL Edit]**.
 
    Cada valor que se puede actualizar aparece en un cuadro de texto.
 
@@ -124,13 +124,13 @@ Método 1: **Edición rápida**
 
    - **[!UICONTROL Phone Number]**
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 Método 2: **Edición completa**
 
 1. En la cuadrícula, busque el registro de empresa que desea editar.
 
-1. Clic **[!UICONTROL Edit]** en el _[!UICONTROL Action]_columna.
+1. Seleccionar **[!UICONTROL Edit]** desde el _[!UICONTROL Action]_columna.
 
 1. Realice los cambios necesarios en la información de la compañía.
 
@@ -191,7 +191,7 @@ Las secciones siguientes proporcionan una referencia sobre las acciones, opcione
 ### Opciones de control de acciones
 
 | Opción | Descripción |
-|--- |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Set Active] | Establece el estado de todos los registros de empresa seleccionados en `Active`. Los administradores de la empresa reciben instrucciones para establecer sus contraseñas de modo que puedan acceder a sus cuentas y administrar sus empresas desde la tienda. |
 | [!UICONTROL Block] | Restringe las cuentas de compañía que no están al día, conservando al mismo tiempo la cuenta. Los miembros de la compañía pueden iniciar sesión y acceder al catálogo, pero no pueden realizar pedidos en nombre de la compañía. |
 | [!UICONTROL Delete] | Elimina las cuentas de empresa seleccionadas. El estado de las cuentas de usuario asociadas con una compañía eliminada se establece en `Inactive` y el ID de compañía se elimina de los perfiles de las cuentas de usuario. La información sobre la actividad y las transacciones de la empresa se conserva en el sistema. |
@@ -324,11 +324,11 @@ Las siguientes columnas están disponibles cambiando la variable [diseño de col
 #### [!UICONTROL Company Credit]
 
 | Campo | Descripción |
-|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Credit Currency] | La moneda que acepta el almacén para compras a crédito de la compañía. |
 | [!UICONTROL Credit Limit] | El límite de crédito que se amplía a la cuenta de la compañía. |
 | [!UICONTROL Allow to Exceed Credit Limit] | Indica si la empresa tiene permiso para superar el límite de crédito. Opciones: Sí / No |
-| [!UICONTROL Reason for Change] | Una nota que explica por qué se permite a la compañía o no exceder el límite de crédito. Este campo solo está activo si cambia el permiso para superar el límite de crédito. |
+| [!UICONTROL Reason for Change] | Una nota que explica las circunstancias en las que la empresa puede superar o no el límite de crédito. Este campo solo está activo si cambia el permiso para superar el límite de crédito. |
 
 {style="table-layout:auto"}
 
