@@ -3,9 +3,9 @@ title: Optimización de imagen de Media Gallery
 description: Aprenda a utilizar la optimización de imágenes para su [!DNL Commerce] recursos de medios.
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -32,3 +32,5 @@ Cuando la funcionalidad de optimización de imágenes de la Galería multimedia 
 Si la variable _Anchura máxima_ y _Altura máxima_ Si los valores de se cambian en la configuración, se actualizan todas las imágenes optimizadas existentes que se insertaron anteriormente.
 
 La optimización de imágenes de la Galería multimedia requiere que la variable `media.gallery.renditions.update` los consumidores de cola se están ejecutando para regenerar imágenes optimizadas cuando se cambia la configuración. Consulte [Administrar colas de mensajes](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) en el _Guía de configuración_ para obtener más información.
+
+{{$include /help/_includes/image-optimization-animated-gif-note.md}}

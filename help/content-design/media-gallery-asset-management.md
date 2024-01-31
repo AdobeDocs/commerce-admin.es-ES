@@ -3,7 +3,7 @@ title: Administración de recursos de Media Gallery
 description: Obtenga información sobre cómo administrar los archivos multimedia cargados y los recursos que adquiere a través de una integración con Adobe Stock.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
@@ -18,7 +18,7 @@ El nuevo [Galería de medios](media-gallery.md) proporciona herramientas para ad
 
 1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
-1. Haga clic **[!UICONTROL Upload Image]**.
+1. Clic **[!UICONTROL Upload Image]**.
 
 1. Seleccione el archivo que desea cargar.
 
@@ -72,6 +72,8 @@ Los recursos se pueden utilizar ampliamente en todo el administrador, como [agre
 1. Acceda a la nueva Galería de medios desde un área que le permita utilizar recursos multimedia.
 
 1. Seleccione el recurso y haga clic en **[!UICONTROL Add Selected]**.
+
+{{$include /help/_includes/image-optimization-animated-gif-note.md}}
 
 ## Eliminar recursos
 
