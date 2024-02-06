@@ -3,9 +3,9 @@ title: Compartir un [!DNL Commerce] account
 description: Obtenga información sobre cómo conceder acceso limitado a su [!DNL Commerce] cuenta para otros [!DNL Commerce] titulares de cuenta.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: adccffa3b9735eaa77f119271d026fa01cd1337b
+source-git-commit: 8d4c37f512030c907d26b0210ddaad11ce605dfe
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ El [!DNL Commerce] El equipo de asistencia no tiene acceso a la cuenta y no pued
 
 1. En el panel de navegación izquierdo, haga clic en **[!UICONTROL Shared Access]**.
 
-1. Haga clic **[!UICONTROL Add New User]**.
+1. Clic **[!UICONTROL Add New User]**.
 
    ![Añadir un nuevo usuario](./assets/shared-access-add.png){width="600" zoomable="yes"}
 
@@ -98,7 +98,12 @@ Las siguientes instrucciones se escriben desde la perspectiva de un usuario comp
 
    >[!NOTE]
    >
-   > If  **[!UICONTROL Delete]** no se muestra, compruebe si la variable **[!UICONTROL Share Name]** empieza por `Cloud Shared Access from MAG XYZ` - normalmente, [estas cuentas](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) no se puede eliminar.
+   > If  **[!UICONTROL Delete]** no se muestra, compruebe si la variable **[!UICONTROL Share Name]** empieza por `Cloud Shared Access from MAG XYZ` - [estas cuentas](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) no se puede eliminar.
+   > 
+   > Si es así, pídale al propietario de la cuenta que modifique la cuenta de acceso compartido y borre los permisos de la cuenta. Después de esta actualización, el acceso compartido a cualquiera de los recursos no estará disponible para el usuario.
+   >
+   > Además, asegúrese de que los usuarios se eliminen del proyecto para que ya no reciban notificaciones por correo electrónico: [Los antiguos integrantes del equipo reciben correos electrónicos de notificación de Adobe Commerce Cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+
 
 1. Cuando se le pida que confirme, haga clic en **[!UICONTROL Delete User]**.
 
