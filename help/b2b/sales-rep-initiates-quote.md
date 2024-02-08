@@ -4,9 +4,9 @@ description: Aprenda cómo un vendedor puede crear una oferta para que un compra
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 96d592eed0e78234a9ce722f9bf1f904f42eadc1
+source-git-commit: 8130ccb809a6aec80db63c5a6ea9f47488248805
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Después de crear el presupuesto provisional, añade artículos de producto, apl
 
 1. Añada elementos a la oferta seleccionando **[!UICONTROL Add Product By SKU]**. Introduzca el número de SKU y la cantidad y, a continuación, seleccione **[!UICONTROL Add Product]**.
 
-![El vendedor agrega artículos al presupuesto provisional del comprador](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+   ![El vendedor agrega artículos al presupuesto provisional del comprador](./assets/quote-draft-add-items.png){width="675" zoomable="yes"}
 
 1. Aplique descuentos de artículos de línea a los productos según sea necesario.
 
@@ -67,7 +67,7 @@ Después de crear el presupuesto provisional, añade artículos de producto, apl
 
    - En el [!UICONTROL Discount Line item] , seleccione la **[!UICONTROL Discount Type]**.
 
-   ![Aplicar descuento de artículo de línea al presupuesto](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+     ![Aplicar descuento de artículo de línea al presupuesto](./assets/quote-discount-line-item.png){width="675" zoomable="yes"}
 
    - En el [!UICONTROL Discount] , introduzca el valor del tipo de descuento. Por ejemplo, si seleccionó un porcentaje de descuento, introduzca 10 para aplicar un descuento del 10% al artículo de línea.
 
@@ -85,7 +85,7 @@ Después de crear el presupuesto provisional, añade artículos de producto, apl
 
 1. Añade información adicional para el comprador.
 
-   Entrada [!UICONTROL Negotiation - Comments], añade una nota y adjunta los archivos auxiliares necesarios para el comprador en [!UICONTROL Negotiation - Comments]
+   En el **[!UICONTROL Negotiation - Comments]** pestaña, añade una nota y adjunta los archivos auxiliares necesarios para el comprador.
 
    ![El vendedor añade información al comprador](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
@@ -95,9 +95,7 @@ Después de crear el presupuesto provisional, añade artículos de producto, apl
 
    Guarda el presupuesto como borrador o envíaselo al comprador.
 
-   - Si guarda la oferta como borrador, el estado se actualiza a `Draft` y se muestra un mensaje de confirmación:
-
-     ![Presupuesto provisional de confirmación enviado al comprador](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
+   - Si guarda la oferta como borrador, el estado se actualiza a `Draft` y se muestra un mensaje de confirmación.
 
    - Si envías la oferta al comprador, el estado cambia a `Submitted`. El comprador recibe una notificación por correo electrónico para revisar la oferta. La oferta está bloqueada hasta que el comprador la devuelva para una negociación posterior. El vendedor puede ver la oferta desde la cuadrícula Oferta o Cliente.
 
