@@ -4,9 +4,9 @@ description: Aprenda cómo un vendedor puede crear una oferta para que un compra
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: be3427f6cc2bab68b6d2b0fa0c36b83dc310e528
+source-git-commit: 96d592eed0e78234a9ce722f9bf1f904f42eadc1
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -95,11 +95,11 @@ Después de crear el presupuesto provisional, añade artículos de producto, apl
 
    Guarda el presupuesto como borrador o envíaselo al comprador.
 
-   Si envías la oferta al comprador, el estado cambia a `Submitted`y la oferta se bloqueará hasta que el comprador la oferta, el estado se actualizará a borrador y se mostrará un mensaje de confirmación:
+   - Si guarda la oferta como borrador, el estado se actualiza a `Draft` y se muestra un mensaje de confirmación:
 
-   ![Presupuesto provisional de confirmación enviado al comprador](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
+     ![Presupuesto provisional de confirmación enviado al comprador](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
 
-El comprador recibe una notificación por correo electrónico para revisar la oferta. La oferta está bloqueada hasta que el comprador la devuelva para una negociación posterior. El vendedor puede ver la oferta desde la cuadrícula Oferta o la cuadrícula Cliente.
+   - Si envías la oferta al comprador, el estado cambia a `Submitted`. El comprador recibe una notificación por correo electrónico para revisar la oferta. La oferta está bloqueada hasta que el comprador la devuelva para una negociación posterior. El vendedor puede ver la oferta desde la cuadrícula Oferta o Cliente.
 
 ## Ver y crear presupuestos desde la cuadrícula de cliente
 
