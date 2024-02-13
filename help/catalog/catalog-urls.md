@@ -3,9 +3,9 @@ title: Direcciones URL del catálogo y del producto
 description: Obtenga información sobre los tipos de formato de URL de los productos de catálogo y cómo configurarlos.
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 11d78b7d7b548c373cfe0ec398814994c3e99e7a
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ La clave URL es la parte de una dirección URL estática que describe el product
 
 >[!NOTE]
 >
->Los caracteres especiales acentuados se sustituyen automáticamente por sus versiones normales no acentuadas en la clave URL. Por ejemplo, `ñ` se reemplaza automáticamente por `n`.
+>De forma predeterminada, los caracteres especiales acentuados se sustituyen automáticamente por sus versiones normales no acentuadas en la clave URL. Por ejemplo, `ñ` se reemplaza automáticamente por `n`. Este comportamiento se puede deshabilitar configurando la variable _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_opción de configuración para `No`. Consulte [Configuración de direcciones URL del catálogo](#configure-catalog-urls).
 
 La clave de URL debe constar de caracteres en minúsculas con guiones no finales entre estos caracteres para separar las palabras. No se permiten guiones al principio o al final de la clave URL. Una clave de URL &quot;fácil de usar para los motores de búsqueda&quot; y bien diseñada puede incluir el nombre del producto y las palabras clave para mejorar la forma en que los motores de búsqueda lo indexan. La clave URL se puede configurar para crear un redireccionamiento automático si cambia la clave URL.
 
