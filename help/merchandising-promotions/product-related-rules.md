@@ -3,9 +3,9 @@ title: Reglas de producto relacionadas
 description: Obtenga información acerca de las reglas de productos relacionadas y cómo se utilizan para presentar dinámicamente productos relacionados, ampliaciones de ventas y ventas cruzadas a sus clientes.
 exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 feature: Merchandising, Products, Storefront
-source-git-commit: 91e6c63f1f6f16b957366f9d5cc651f9eded31c8
+source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -132,3 +132,12 @@ El comportamiento de las reglas de relación de productos y la visualización de
 | [!UICONTROL Weighted Random] | Los productos se aleatorizan de modo que los productos que pertenecen a una regla con prioridad mayor tienen una mayor probabilidad de aparecer que los que pertenecen a una regla con prioridad menor. A continuación, los productos se reducen al límite máximo configurable y se reagrupan por prioridad. Este modo da la oportunidad a los productos de menor prioridad de aparecer a veces, incluso si las ranuras restantes podrían rellenarse con productos de la regla con mayor prioridad |
 
 {style="table-layout:auto"}
+
+## Usar audiencias de Real-Time CDP para informar sobre reglas de productos relacionadas
+
+>[!NOTE]
+>
+>Esta función está en versión beta. Si desea unirse al programa beta, envíe una solicitud a [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+
+
+Obtenga información sobre cómo [activar](../customers/audience-activation.md) Audiencias de Real-Time CDP en la instancia de Adobe Commerce para informar a las reglas de producto relacionadas.
