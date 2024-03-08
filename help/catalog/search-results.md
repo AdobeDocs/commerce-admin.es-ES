@@ -3,9 +3,9 @@ title: Resultados de búsqueda
 description: Obtenga información sobre cómo configurar el modo en que los productos coinciden con los criterios de búsqueda introducidos en el cuadro Búsqueda rápida o en el formulario Búsqueda avanzada.
 exl-id: c721fb3b-ee31-4d2b-b4ea-9ae2c80aa800
 feature: Catalog Management, Search
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4b2e1dd87a39c9be1adc49d867e44d306a969854
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ El siguiente ejemplo utiliza la asignación de palabras clave basada en SKU. Cua
 1. En el _[!UICONTROL Products]_, abra la `Chaz Kangaroo Hoodie` (MH01) en modo de edición.
 1. Desplácese hacia abajo y expanda **[!UICONTROL Attributes]** sección.
 1. En el **[!UICONTROL Search Keywords]** , introduzca el SKU del otro producto, `MJ03`.
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 1. Ir a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**y actualice el **[!UICONTROL Page Cache]**.
 
 ### Paso 4: Probarlo en la tienda
@@ -98,6 +98,10 @@ El siguiente ejemplo utiliza la asignación de palabras clave basada en SKU. Cua
 ## Búsqueda ponderada
 
 A los atributos de producto que están habilitados para la búsqueda en el catálogo se les puede asignar un peso para darles un valor más alto en los resultados de búsqueda. Los atributos con un peso mayor se devuelven antes que los atributos con un peso menor. Por ejemplo, si hay dos atributos en el sistema, _color_ con una ponderación de búsqueda de 3 y _description_ con una ponderación de búsqueda de 1. Una búsqueda de la palabra _rojo_ devuelve una lista de productos con un valor de atributo color de `red` en la parte superior de los resultados de búsqueda y devuelve productos con descripciones que contienen la palabra _rojo_ en la parte inferior de los resultados de búsqueda. En este ejemplo, la variable `color` tiene un peso definido mayor que `description` atributo.
+
+>[!IMPORTANT]
+>
+>La ordenación por relevancia se ve afectada por **_múltiple_** criterios y relaciones entre ellos **_simultáneamente_**. [!UICONTROL Search Weight] es solo uno de esos criterios. Esto significa que, a veces, los atributos con una ponderación de búsqueda menor pueden seguir teniendo más relevancia que los atributos con una ponderación de búsqueda mayor. Otros criterios pueden incluir el número de coincidencias en cualquier atributo determinado, la posición del término de búsqueda encontrado y la estructura general del texto antes y después de un término de búsqueda.
 
 **_Para establecer las propiedades de ponderación de búsqueda de un atributo:_**
 
