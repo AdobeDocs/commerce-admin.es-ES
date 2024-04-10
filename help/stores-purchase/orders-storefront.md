@@ -3,9 +3,9 @@ title: Administración de pedidos de tienda
 description: Descubra cómo los clientes pueden ver y administrar su historial de pedidos en la tienda de Commerce.
 exl-id: 85d953e6-f5a1-4a5e-a6ef-36b9cf6988bb
 feature: Orders, Storefront
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: c13a4b730ed70ed4829cc20b13c2723137dcbb3a
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -124,3 +124,51 @@ El _[!UICONTROL Reorder]_El vínculo no aparece en_[!UICONTROL My Orders]_ y _[!
 >[!TIP]
 >
 >Si el carro no está vacío y el cliente hace clic en **[!UICONTROL Reorder]** (desde el [!UICONTROL My Orders] o [!UICONTROL Order View] ), los productos existentes permanecen en el carro de compras con los productos de repedido agregados.
+
+## Cancelar pedidos
+
+Cancelar está disponible para los clientes cuando la variable [_Permitir cancelación_](cancel-allow.md) La opción de configuración está activada.
+
+Un cliente puede iniciar la funcionalidad de cancelación para un pedido específico desde tres páginas:
+
+- Página Mis pedidos
+- Página Vista de pedidos
+- Página Mi cuenta
+
+El _[!UICONTROL Cancel Order]_El vínculo se muestra cerca de_[!UICONTROL Reorder]_ vínculo. Si el pedido no se puede cancelar, no se muestra el vínculo.
+
+![Vínculo Cancelar en la página Mi pedido](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
+
+Para realizar la cancelación, el cliente:
+
+1. Clics **[!UICONTROL Cancel Order]**
+
+1. Proporciona un motivo de cancelación
+
+   ![Cancelar motivos de pedido](./assets/cancel-order-reasons.png){width="700" zoomable="yes"}
+
+   Puede personalizar los motivos de cancelación en la [_Permitir cancelación_](cancel-allow.md) página.
+
+1. Clics **[!UICONTROL Confirm]**
+
+   ![Cancelar en la página Mi pedido](./assets/cancel-order.png){width="700" zoomable="yes"}
+
+   Después de la cancelación, los pedidos que estaban en _[!UICONTROL Pending]_estado, cambiar a_[!UICONTROL Canceled]_ estado, los pedidos que estaban en _[!UICONTROL Processing]_estado, cambiar a_[!UICONTROL Closed]_ se procesará el estado y el reembolso.
+
+   Cuando finaliza la cancelación, se envía un correo electrónico al cliente.
+
+   ![Cancelar correo electrónico de pedido](./assets/cancel-order-email.png){width="700" zoomable="yes"}
+
+   La información de cancelación se agrega al historial de pedidos del cliente. Aparece dentro de las notas del pedido y en la pestaña historial de comentarios.
+
+   ![Cancelar notas de pedidos](./assets/cancel-order-notes.png){width="700" zoomable="yes"}
+
+   ![Historial de comentarios de cancelación](./assets/cancel-order-comments.png){width="700" zoomable="yes"}
+
+   Si, por algún motivo, la solicitud ha cambiado a un estado que no se puede cancelar y el cliente no ha actualizado la página, seguirá apareciendo el vínculo para cancelar la solicitud. Sin embargo, cuando intentan cancelar, aparece un mensaje de error.
+
+   ![Mensaje de error de cancelación de pedido](./assets/cancel-order-error-message.png){width="700" zoomable="yes"}
+
+   Después de actualizar la página, puede ver que el pedido ya se ha completado, por lo que la cancelación no ha funcionado.
+
+   ![Cancelar pedido después de actualizar](./assets/cancel-order-after-refresh.png){width="700" zoomable="yes"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Checkout]'
 description: Revise la configuración de en [!UICONTROL Sales] &gt; [!UICONTROL Checkout] de la administración de Commerce.
 exl-id: a912beb0-37a9-407b-83bd-dc6cd0554dc4
 feature: Configuration, Checkout
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -16,16 +16,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Checkout Options]
 
->[!NOTE]
->
->[!BADGE 2.4.6-p1]{type=Informative tooltip="Actualizaciones en 2.4.6-p1"}[!BADGE 2.4.7-beta1]{type=Informative tooltip="Actualizaciones en 2.4.7-beta1"}[2.4.7-beta2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-7.html) y [2.4.6-p3](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html) Versiones de que proporcionan mejoras de seguridad en la funcionalidad descrita. Si utiliza una o estas versiones, revise las notas de la versión.
-
 ![Opciones de desprotección](./assets/checkout-checkout-options.png)<!-- zoom -->
 
 <!--[Checkout Options](https://docs.magento.com/user-guide/sales/checkout-options.html) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
-|--- |--- |--- |
+|------------------------------------------------------------------|--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Enable Guest Checkout Login] | Vista de tienda | Active esta configuración para permitir que los usuarios no autenticados (tienda y API) consulten si ya hay una dirección de correo electrónico asociada a una cuenta de cliente. Esto se puede utilizar para mejorar el flujo de trabajo de cierre de compra de los invitados mostrando un mensaje de inicio de sesión si la dirección de correo electrónico introducida ya está registrada en una cuenta de cliente, pero cuesta exponer la información a usuarios no autenticados.  Opciones: `Yes` / `No` |
 | [!UICONTROL Enable Onepage Checkout] | Vista de tienda | Determina si [Cierre de compra de una página](../../stores-purchase/checkout-process.md#checkout-options) es el formato de cierre de compra predeterminado. Opciones: `Yes` / `No` |
 | [!UICONTROL Allow Guest Checkout] | Vista de tienda | Determina si los invitados pueden pasar por [cierre de compra sin registrarse](../../stores-purchase/checkout-guest.md) para obtener una cuenta en su tienda. Opciones: `Yes` / `No` |
 | [!UICONTROL Enable Terms and Conditions] | Vista de tienda | Determina si los clientes deben aceptar las [Términos y condiciones](../../stores-purchase/terms-and-conditions.md) de la venta antes de realizar una compra. Opciones: `Yes` / `No` |

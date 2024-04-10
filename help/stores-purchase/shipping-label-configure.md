@@ -3,9 +3,9 @@ title: Configurar etiquetas de envío
 description: Aprenda a configurar la tienda para generar etiquetas de envío.
 exl-id: 0693d74b-8b36-4a36-8739-c9fe5a934ff0
 feature: Shipping/Delivery, Orders
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ El país de fabricación es obligatorio para todos los productos que son enviado
 
    ![País de fabricación](./assets/product-country-of-manufacture.png){width="700" zoomable="yes"}
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 ### Método 2: Actualización de varios registros
 
@@ -55,11 +55,9 @@ El país de fabricación es obligatorio para todos los productos que son enviado
 
 1. Elige el país.
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 ## Paso 2 Verificar la información del almacén
-
-{{beta2-updates}}
 
 1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -104,4 +102,4 @@ El país de fabricación es obligatorio para todos los productos que son enviado
 
    ![Información de tienda](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.

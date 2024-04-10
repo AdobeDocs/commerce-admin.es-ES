@@ -3,9 +3,9 @@ title: Pedidos de compra para empresas
 description: Obtenga información sobre los flujos de trabajo de pedidos de compra que permiten a las empresas rastrear y controlar el gasto.
 exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 feature: B2B, Purchase Orders
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+source-git-commit: 4b34645377102e890779059e57c61cf23f71f34c
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ Las órdenes de compra (PO) son una forma común para que las compañías rastre
 Según su función y el orden, los usuarios de la empresa podrían estar sujetos a varias reglas de aprobación. Y dependiendo de si se utilizan métodos de pago en línea o sin conexión, el flujo es ligeramente diferente. Los administradores de la empresa pueden crear pedidos automáticamente, omitiendo las reglas de aprobación. Como almacenar los detalles de pago en línea durante el proceso de aprobación supone un riesgo para la seguridad, estos detalles se añaden después de la aprobación y, a continuación, la orden de compra se convierte en un pedido real.
 
 ![Flujo de pedido de compra](./assets/purchase-order-flow.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>No se puede realizar un pedido si uno o más productos del pedido de compra están desactivados o agotados.
 
 El flujo de trabajo del pedido de compra de una empresa puede variar en varios aspectos:
 

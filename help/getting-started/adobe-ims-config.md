@@ -3,7 +3,7 @@ title: Configuración de la integración de administración de Commerce con ID
 description: Siga este procedimiento opcional para integrar los inicios de sesión de cuenta de usuario de administrador de Adobe Commerce con Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 0c79449ca05056d7a14242bbc859cb1bd4dc526e
+source-git-commit: 9a9106cde5184823755fb1f44fe7eae300442abc
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%

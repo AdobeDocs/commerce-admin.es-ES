@@ -4,9 +4,9 @@ description: Revise la configuración de en [!UICONTROL Advanced] &gt; [!UICONTR
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-source-git-commit: 3a113d162f13c659ee52ae3cbff2c7a3873d3857
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1664'
 ht-degree: 1%
 
 ---
@@ -178,8 +178,6 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 ## [!UICONTROL Full Page Cache]
 
-{{beta2-patches-updates}}
-
 ![Configuración avanzada: caché de página completa](./assets/system-full-page-cache.png)<!-- zoom -->
 
 Para obtener más información sobre cómo cambiar esta configuración, consulte [Almacenamiento en caché de página completa](../../systems/cache-management.md#full-page-caching) en el _Guía de sistemas de administración_.
@@ -190,11 +188,12 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | Global | Determina la aplicación que se utiliza para administrar la caché de página completa. Opciones: <br/>**`Built-in Application`**- No recomendado para el entorno de producción.<br/>**`Varnish Caching`** - Recomendado para el entorno de producción. |
 | [!UICONTROL TTL for public content] | Global | Determina la duración de la caché de contenido público en segundos. Valor predeterminado: `120` |
+| [!UICONTROL Handles param size] | global | Especifica el número máximo de [controladores de diseño](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) para procesar en [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) Extremo HTTP. Restringir el tamaño puede mejorar la seguridad y el rendimiento. Valor predeterminado: `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | Global | Especifica las direcciones IP que pueden purgar la configuración de Barniz para generar un archivo de configuración. Separe las distintas entradas con comas. Valor predeterminado: `localhost` |
 | [!UICONTROL Backend host] | Global | Especifica el host backend que genera los archivos de configuración. Valor predeterminado: `localhost` |
 | [!UICONTROL Backend port] | Global | Especifica el puerto back-end que se utiliza para generar archivos de configuración. Valor predeterminado: `8080` |
-| [!UICONTROL Grace period] | Global | Especifica el período de gracia en segundos para generar un archivo de configuración. Valor predeterminado: `300` |
+| [!UICONTROL Grace period] | Global | Determina cuánto tiempo sirve Barnish al contenido obsoleto si el backend no responde. Valor predeterminado: `300` |
 | **[!UICONTROL Export Configuration]** |  |  |
 | [!UICONTROL Export VCL for Varnish 4] | Global | Exporta el `varnish.vcl` para la versión 4. |
 | [!UICONTROL Export VCL for Varnish 5] | Global | Exporta el `varnish.vcl` para la versión 5. |

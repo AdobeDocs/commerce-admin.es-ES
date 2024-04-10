@@ -3,18 +3,16 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
 description: Revise la configuración de en [!UICONTROL Sales] &gt; [!UICONTROL Sales] de la administración de Commerce.
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1168'
+ht-degree: 1%
 
 ---
 
 # [!UICONTROL Sales] > [!UICONTROL Sales]
 
 {{config}}
-
-{{beta-updates}}
 
 ## [!UICONTROL General]
 
@@ -157,6 +155,18 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
+## [!UICONTROL Multicoupon Settings]
+
+{{ee-feature}}
+
+![Configuración de multicupón](./assets/sales-multicoupon-settings.png)<!-- zoom -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Maximum number of coupons per order] | Sitio web | Determina el número máximo de cupones permitidos por pedido |
+
+{style="table-layout:auto"}
+
 ## [!UICONTROL Order by SKU Settings]
 
 {{ee-feature}}
@@ -184,6 +194,19 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Vista de tienda | Activa la compra instantánea para la vista de tienda si el método de pago, como Braintree, tiene activado el Vault. Opciones: `Yes` / `No` |
 | [!UICONTROL Button Text] | Vista de tienda | Especifica el texto que aparece en el botón Compra instantánea. El texto predeterminado es `Instant Purchase`. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Rate Limiting]
+
+![Limitación de velocidad](assets/sales-rate-limiting.png)<!-- zoom -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--------------------------------------------------------|--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Enable rate limiting for placing orders] | Vista de tienda | Determina si se utiliza la limitación de velocidad para realizar pedidos desde la vista de tienda (el valor predeterminado es `No`). Opciones: `Yes` / `No`. |
+| [!UICONTROL Requests limit per authenticated customer] | Vista de tienda | El número de solicitudes de compra que un cliente autenticado puede realizar durante el periodo. El límite predeterminado es `10`. |
+| [!UICONTROL Requests limit per guest] | Vista de tienda | Número de solicitudes de compra que un cliente no autenticado puede realizar durante el período especificado. El valor predeterminado es `50`. |
+| [!UICONTROL Counter resets in a ...] | Vista de tienda | Período de tiempo durante el cual un cliente autenticado/no autenticado puede realizar un determinado número de solicitudes de compra (el valor predeterminado es `Minute`). Opciones: `Minute` / `Hour` /`Day` |
 
 {style="table-layout:auto"}
 

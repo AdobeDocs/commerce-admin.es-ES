@@ -3,9 +3,9 @@ title: Importar datos
 description: Obtenga información sobre las directrices de importación de datos y cómo utilizar las operaciones de importación de datos.
 exl-id: caae8811-445e-49d4-aa90-226a355732bc
 feature: Products, Customers, Data Import/Export
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 1c1327dbda76283ae28f761d1e523e049e0e492f
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,8 @@ Si existe un atributo especificado en el archivo de importación y su valor se d
 - No se puede importar un archivo si todas las filas no son válidas.
 - En el archivo de importación se especifican datos de servicio no existentes o nombres de datos complejos, como una columna con un `_<non-existing name>` encabezado.
 
+Es posible que el proceso de importación de Adobe Commerce no reconozca correctamente los archivos codificados en UTF-8 que utilizan una marca de orden de bytes (BOM). Los archivos que contienen una LDM pueden provocar problemas o errores durante el proceso de importación.
+
 ## Operaciones de importación
 
 | Operación | Descripción |
@@ -80,7 +82,7 @@ Al importar datos de productos, se agregan nuevos datos de productos a las entra
    - `Customer Addresses`
    - `Stock Sources`
 
-1. Haga clic **[!UICONTROL Download Sample File]**.
+1. Clic **[!UICONTROL Download Sample File]**.
 
 1. Busque el archivo de exportación en la ubicación de descargas del explorador web y abra el archivo.
 

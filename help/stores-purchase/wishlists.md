@@ -3,9 +3,9 @@ title: Listas de deseos
 description: Conozca las listas de deseos y cómo pueden añadir a la experiencia de compra y promocionar más ventas.
 exl-id: 42c73566-0e32-4639-9fa2-d504fa161ebc
 feature: Customers, Storefront
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 9fd909c5ae6d8641bf402456d94facda4a33722d
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Las listas de deseos se pueden actualizar desde el panel del [cuenta de cliente]
 
 ![Ejemplo de tienda - Mi lista de deseos](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
 
-Cuando se añade un producto con varias opciones a una lista de artículos deseados, todas las opciones que haya seleccionado el cliente se incluyen en la descripción del artículo de la lista de artículos deseados. Por ejemplo, si el cliente agrega el mismo par de zapatos en tres colores diferentes, cada par aparece como un elemento de lista de deseos independiente. Sin embargo, si el cliente agrega el mismo producto a la lista de deseos varias veces, el producto aparece solo una vez, pero con una cantidad actualizada que refleja el número de veces que se agregó el producto.
+Cuando se añade un producto con varias opciones a una lista de artículos deseados, todas las opciones que haya seleccionado el cliente se incluyen en la descripción del artículo de la lista de artículos deseados. Por ejemplo, si el cliente agrega el mismo par de zapatos en tres colores diferentes, cada par aparece como un elemento de lista de deseos independiente. Sin embargo, si el cliente agrega el mismo producto a la lista de deseos varias veces, el producto aparece solo una vez, pero con la cantidad seleccionada en la página del producto.
 
 ## Asistencia para listas de deseos en el administrador
 
@@ -48,6 +48,6 @@ Los clientes pueden [administrar sus listas de deseos](wishlist-storefront.md) i
 
    - En la página del producto, actualice las opciones y **[!UICONTROL Quantity]** según sea necesario.
 
-   - Haga clic **[!UICONTROL OK]**.
+   - Clic **[!UICONTROL OK]**.
 
 1. Cuando termine, haga clic en **[!UICONTROL Save Customer]** o **[!UICONTROL Save and Continue Edit]**.

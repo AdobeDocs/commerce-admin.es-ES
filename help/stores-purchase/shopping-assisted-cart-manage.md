@@ -3,10 +3,10 @@ title: Administración de un carro de compras
 description: Aprenda a ayudar a un cliente con su carro de compras directamente desde el administrador.
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: dc19eeea03dc46b14fcbe339a8e426b249346673
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 1%
+source-wordcount: '658'
+ht-degree: 0%
 
 ---
 
@@ -69,7 +69,7 @@ Para comenzar una sesión de compra asistida, el cliente debe iniciar sesión en
 
 1. Busque un producto con cualquiera de los filtros de la parte superior de cada columna.
 
-1. Haga clic **[!UICONTROL Search]**.
+1. Clic **[!UICONTROL Search]**.
 
 1. Utilice una de las siguientes series de pasos según el tipo de producto:
 
@@ -107,7 +107,7 @@ Existen tres tipos de productos que deben configurarse antes de agregarlos al ca
 
 1. Actualizar opciones de producto en el carro de compras si es necesario:
 
-   - Haga clic **[!UICONTROL Configure]**.
+   - Clic **[!UICONTROL Configure]**.
 
    - Actualice las opciones y haga clic en **[!UICONTROL OK]**.
 
@@ -125,7 +125,7 @@ Existen tres tipos de productos que deben configurarse antes de agregarlos al ca
 
    ![Añadir productos por SKU](./assets/customer-account-manage-cart-order-product-by-sku.png){width="600" zoomable="yes"}
 
-1. Haga clic **[!UICONTROL Add selections to my cart]**.
+1. Clic **[!UICONTROL Add selections to my cart]**.
 
 1. Si el elemento es un producto configurable, elija las opciones del producto cuando se le solicite y haga clic en **[!UICONTROL Add to Shopping Cart]**.
 
@@ -137,7 +137,7 @@ Existen tres tipos de productos que deben configurarse antes de agregarlos al ca
 
 1. Cargue el archivo preparado:
 
-   - Haga clic **[!UICONTROL Choose File]**.
+   - Clic **[!UICONTROL Choose File]**.
 
    - Seleccione el archivo que desea cargar desde el directorio.
 
@@ -157,9 +157,9 @@ Puede transferir artículos al carro de compras desde la lista de artículos des
 
 1. Para introducir las opciones de un producto configurable, haga clic en **[!UICONTROL Configure]** y configure las opciones del producto según sea necesario.
 
-1. Haga clic **[!UICONTROL Add selections to my cart]**.
+1. Clic **[!UICONTROL Add selections to my cart]**.
 
-1. Aplique un código de cupón si está disponible:
+1. Aplique uno o más códigos de cupón si están disponibles:
 
    - Para **[!UICONTROL Apply Coupon Code]**, introduzca un código de cupón válido.
 
@@ -169,16 +169,16 @@ Puede transferir artículos al carro de compras desde la lista de artículos des
 
    - En el **[!UICONTROL Qty]** del producto que se va a ajustar, introduzca la cantidad correcta.
 
-   - Haga clic **[!UICONTROL Update Items and Quantities]**.
+   - Clic **[!UICONTROL Update Items and Quantities]**.
 
 ## Creación del pedido
 
-1. Haga clic **[!UICONTROL Create Order]**.
+1. Clic **[!UICONTROL Create Order]**.
 
    El _[!UICONTROL Create New Order]_Esta página muestra los artículos del carro de compras, seguidos de la información de envío y pago.
 
 1. Completa la información de envío y pago.
 
-1. Haga clic **[!UICONTROL Submit Order]**.
+1. Clic **[!UICONTROL Submit Order]**.
 
 Para obtener más información, consulte [Creación de un pedido](customer-account-create-order.md).

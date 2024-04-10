@@ -3,9 +3,9 @@ title: Crear una cuenta de cliente individual
 description: Los visitantes pueden crear fácilmente una cuenta de cliente individual para administrar sus compras.
 exl-id: 8d08c0e1-f3ba-4423-98a7-ffa8ba5a1b8b
 feature: Customers, Storefront
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,9 @@ Las siguientes instrucciones representan la configuración predeterminada de la 
 
 Como administrador de tienda, también puede establecer la variable [nuevas opciones de cuenta](../customers/account-options-new.md) para enviar un correo electrónico de confirmación a los nuevos clientes registrados, lo que ayuda a garantizar que las cuentas registradas sean válidas.
 
-{{beta-updates}}
+>[!NOTE]
+>
+>A partir de la versión 2.4.7, los clientes deben volver a introducir su correo electrónico y contraseña para iniciar sesión en su cuenta después de la confirmación del correo electrónico, independientemente del explorador.
 
 ## Crear cuenta desde la tienda
 
@@ -73,7 +75,7 @@ Como comerciante, puede crear una cuenta de cliente desde el Administrador.
 
 1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Haga clic **[!UICONTROL Add New Customer]**.
+1. Clic **[!UICONTROL Add New Customer]**.
 
 ### Paso 1: Completar la información de la cuenta
 

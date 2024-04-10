@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers]  &gt; [!UICONTROL Customer Configuration]'
 description: Revise la configuración de en [!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration] de la administración de Commerce.
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1890'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ ht-degree: 0%
 
 ## [!UICONTROL Create New Account Options]
 
-{{beta-updates}}
-
 ![Crear nuevas opciones de cuenta](./assets/customer-configuration-create-new-account-options.png)<!-- zoom -->
 
 ![Crear nuevas opciones de cuenta (campos de IVA)](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
@@ -59,7 +57,7 @@ ht-degree: 0%
 | [!UICONTROL Default Welcome Email] | Vista de tienda | Identifica la plantilla de correo electrónico utilizada para el valor predeterminado _Bienvenido_ correo electrónico. |
 | [!UICONTROL Default Welcome Email Without Password] | Vista de tienda | Plantilla de correo electrónico de bienvenida alternativa que se utiliza para las cuentas de cliente nuevas creadas por el administrador que aún no tienen asignada una contraseña. |
 | [!UICONTROL Email Sender] | Vista de tienda | Identifica el contacto de tienda que aparece como remitente del correo electrónico de bienvenida. |
-| [!UICONTROL Require Emails Confirmation] | Sitio web | Determina si una solicitud para crear una cuenta requiere la confirmación del cliente. Opciones: `Yes` / `No` |
+| [!UICONTROL Require Emails Confirmation] | Sitio web | Determina si una solicitud para crear una cuenta requiere la confirmación del cliente. Opciones: `Yes` / `No`. <br/><br/> _**Nota:**_ A partir de la versión 2.4.7, los clientes deben volver a introducir su correo electrónico y contraseña para iniciar sesión en su cuenta después de la confirmación del correo electrónico, independientemente del explorador. |
 | [!UICONTROL Confirmation Link Email] | Vista de tienda | Identifica la plantilla de correo electrónico que se utiliza para el correo electrónico de confirmación. Plantilla predeterminada: `New account confirmation key` |
 | [!UICONTROL Welcome Email] | Vista de tienda | Identifica la plantilla de correo electrónico que se utiliza para el mensaje de bienvenida que se envía después de que se confirme la cuenta. |
 | [!UICONTROL Generate Human-Friendly Customer ID] | Global | Determina si el campo que se utiliza para introducir y almacenar el número de identificación fiscal es visible desde la tienda. Opciones: `Yes` / `No` |

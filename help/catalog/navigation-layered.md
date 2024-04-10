@@ -3,10 +3,10 @@ title: Navegación por capas
 description: Descubra cómo la navegación por capas facilita a los compradores la búsqueda de productos en función de la categoría, el intervalo de precios o cualquier otro atributo disponible.
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 1%
+source-wordcount: '1303'
+ht-degree: 0%
 
 ---
 
@@ -62,6 +62,10 @@ Las siguientes instrucciones muestran cómo configurar la navegación básica po
 
 >[!NOTE]
 >
+>Si la variable _[!UICONTROL Use in Search]_se establece en `No`, el_[!UICONTROL Use in Search Results Layered Navigation]_ no se muestra y el atributo de producto no se utiliza en la búsqueda con ningún [!UICONTROL Use in Layered Navigation] valor de configuración.
+
+>[!NOTE]
+>
 >El [!UICONTROL Position] El campo está atenuado de forma predeterminada, por lo que debe guardar el atributo antes de poder modificar esta configuración.
 
 ## Paso 2: Hacer de la categoría un anclaje
@@ -74,7 +78,7 @@ Las siguientes instrucciones muestran cómo configurar la navegación básica po
 
    ![Configuración de visualización de categoría](./assets/category-layered-navigation-anchor.png){width="600" zoomable="yes"}
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 ## Paso 3: Prueba de los resultados
 
@@ -102,7 +106,7 @@ Puede seguir los siguientes pasos para eliminar de la navegación por capas los 
 
    ![Sección Información de Atributos](./assets/storefront-properties-tab.png){width="600" zoomable="yes"}
 
-1. Haga clic **[!UICONTROL Save Attribute]**.
+1. Clic **[!UICONTROL Save Attribute]**.
 
 ## Navegación de precios
 
@@ -125,12 +129,12 @@ La división iterativa proporciona la mejor distribución de productos entre ran
 | Paso de precio por 10 | Paso de precio por 100 |
 |----------|--------|
 | $20.00 - $29.99 (1) | $0.00 - $99.99 (4) |
-| $30.00 - $39.99 (2) | $100 - $199.99 (5) |
+| 30,00 $ - 39,99 $ (2) | DE 100 A 199,99 $ (5) |
 | $70.00 - $79.99 (1) | $400.00 - $499.99 (2) |
-| $100.00 - $109.99 (1) | $700.00 y superior (1) |
-| $120.00 - $129.99 (2) |   |
-| $150.00 - $159.99 (1) |   |
-| $180.00 - $189.99 (1) |   |
+| 100,00 $ - 109,99 $ (1) | $700.00 y superior (1) |
+| 120,00 $ - 129,99 $ (2) |   |
+| 150,00 $ - 159,99 $ (1) |   |
+| 180,00 $ - 189,99 $ (1) |   |
 | $420.00 - $429.99 (1) |   |
 | $440.00 - $449.99 (1) |   |
 | $710.00 y superior (1) |   |

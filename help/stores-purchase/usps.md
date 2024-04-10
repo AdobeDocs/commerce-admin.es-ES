@@ -3,7 +3,7 @@ title: Servicio postal de Estados Unidos (USPS)
 description: Aprenda a configurar USPS como transportista para su tienda.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 0%
@@ -21,8 +21,6 @@ Abra un [Herramientas web de USPS][1] cuenta. Una vez completado el proceso de r
 También puede abrir un [Herramientas web de USPS][1] cuenta. Una vez completado el proceso de registro, recibirá su ID de usuario y una URL al servidor de prueba de USPS. Para obtener más información sobre las herramientas web de USPS, consulte su [Documentación técnica][2].
 
 ## Paso 2: Habilita USPS para tu tienda
-
-{{beta2-updates}}
 
 1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -129,7 +127,7 @@ La tarifa de manipulación es opcional y aparece como un cargo adicional que se 
 
    `0` = primero, `1` = segundo, `2` = tercero, etc.
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
 
 [1]: https://secure.shippingapis.com/registration/

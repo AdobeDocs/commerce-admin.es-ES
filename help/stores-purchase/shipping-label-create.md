@@ -3,9 +3,9 @@ title: Crear etiquetas y paquetes de envío
 description: Aprenda a empaquetar artículos en un pedido y a crear etiquetas de envío.
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1889'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ United Parcel Service envía tanto a nivel nacional como internacional. Sin emba
 
    Su número de transportista solo aparece cuando [!DNL United Parcel Service XML] está activada.
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
 ### Configuración de USPS
 
@@ -72,13 +72,11 @@ El [!DNL United States Postal Service] navega tanto a nivel nacional como intern
    - Altura
    - Girth
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
 ### Configuración de FedEx
 
 FedEx realiza envíos nacionales e internacionales. Las tiendas ubicadas fuera de Estados Unidos pueden crear etiquetas de FedEx únicamente para envíos internacionales.
-
-{{beta2-updates}}
 
 1. Continuación en la **[!UICONTROL Delivery Methods]** configuración, expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL FedEx]** sección.
 
@@ -88,7 +86,7 @@ FedEx realiza envíos nacionales e internacionales. Las tiendas ubicadas fuera d
    - Clave
    - Contraseña
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
 ### Configuración de DHL
 
@@ -104,7 +102,7 @@ DHL ofrece servicios de envío internacional.
    - Contraseña
    - Número de cuenta
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
 ## Paso 3: Crear etiquetas de envío
 
@@ -122,7 +120,7 @@ DHL ofrece servicios de envío internacional.
 
 1. En la esquina inferior derecha, seleccione la **[!UICONTROL Create Shipping Label]** casilla de verificación
 
-1. Haga clic **[!UICONTROL Submit Shipment]**.
+1. Clic **[!UICONTROL Submit Shipment]**.
 
 1. Agregar o actualizar productos en el paquete:
 
@@ -140,7 +138,7 @@ DHL ofrece servicios de envío internacional.
    >
    >Si utiliza un tipo de paquete distinto del predeterminado o requiere una firma, el coste de envío puede diferir del que ha cobrado al cliente. Cualquier diferencia en el costo de envío no se refleja en su tienda.
 
-1. Haga clic **[!UICONTROL OK]**.
+1. Clic **[!UICONTROL OK]**.
 
    Commerce se conecta al sistema de transportista, envía el pedido y recibe una etiqueta de envío y un número de seguimiento para cada paquete.
 
@@ -188,7 +186,7 @@ Las etiquetas de envío se generan en formato PDF y se pueden imprimir desde el 
 
 1. Configure las variables **[!UICONTROL Actions]** control a `Print Shipping Labels`.
 
-1. Haga clic **[!UICONTROL Submit]**.
+1. Clic **[!UICONTROL Submit]**.
 
 Se imprime un juego completo de etiquetas de envío para cada envío relacionado con los pedidos seleccionados.
 
@@ -231,7 +229,7 @@ Una vez añadidos los productos al paquete, la cantidad no se puede editar direc
 
 ### Aumentar la cantidad
 
-1. Haga clic **[!UICONTROL Add Selection]**.
+1. Clic **[!UICONTROL Add Selection]**.
 
 1. Introduzca la cantidad adicional.
 
@@ -241,7 +239,7 @@ Una vez añadidos los productos al paquete, la cantidad no se puede editar direc
 
 1. Elimine el producto del paquete.
 
-1. Haga clic **[!UICONTROL Add Selection]**.
+1. Clic **[!UICONTROL Add Selection]**.
 
 1. Introduzca el nuevo valor más pequeño.
 

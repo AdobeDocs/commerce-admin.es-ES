@@ -3,9 +3,9 @@ title: Grupos de clientes
 description: Utilice los grupos de clientes para determinar qué descuentos están disponibles para los clientes asignados a un grupo y la clase de impuestos asociada al grupo.
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 805ceef0fe67c1ed2a4fbd06e6f02d9ad252ecef
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Los grupos de clientes determinan qué descuentos están disponibles y la clase 
 
 1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 
-1. Haga clic **[!UICONTROL Filters]**.
+1. Clic **[!UICONTROL Filters]**.
 
 1. Introduzca criterios para buscar grupos, incluido un rango de ID, un grupo o una clase de impuestos.
 
@@ -30,9 +30,13 @@ Los grupos de clientes determinan qué descuentos están disponibles y la clase 
 
 ## Crear un grupo de clientes
 
+>[!NOTE]
+>
+>Usuarios administradores que no tienen acceso a todos los sitios web (con una función &quot;Personalizada&quot; asignada) [!UICONTROL Role Scope]) no puede crear, modificar ni eliminar grupos de clientes.
+
 1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 
-1. Haga clic **[!UICONTROL Add New Customer Group]**.
+1. Clic **[!UICONTROL Add New Customer Group]**.
 
 1. Para [!DNL **Group Name]**, introduzca un nombre único de menos de 32 caracteres para identificar el grupo.
 
@@ -82,7 +86,7 @@ Los grupos de clientes determinan qué descuentos están disponibles y la clase 
 
    ![Grupo de clientes con descuentos específicos](assets/group-discount.png){width="600" zoomable="yes"}
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 >[!NOTE]
 >

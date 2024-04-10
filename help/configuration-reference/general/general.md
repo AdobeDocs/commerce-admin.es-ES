@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Revise la configuración de en [!UICONTROL General] &gt; [!UICONTROL General] de la administración de Commerce.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 17006d71d73329abcf7c7d34a0b699172d645fa1
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,6 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Enable Single-Store Mode] | Global | Cuando se habilita para instalaciones de una sola tienda, oculta el cuadro Ámbito de configuración y las etiquetas de campo relacionadas Opciones: `Yes` / `No` <br/>**_Nota:_**El modo de tienda única se omite en las tiendas con más de una vista. |
+| [!UICONTROL Enable Single-Store Mode] | Global | Cuando se habilita para instalaciones de una sola tienda, oculta el cuadro Ámbito de configuración y las etiquetas de campo relacionadas Opciones: `Yes` / `No` <br/>**_Nota:_**El modo de tienda única se omite en las tiendas con más de una vista.<br/> Al habilitar el modo de tienda única, se copiarán todos los datos específicos del catálogo y del almacén de productos de la vista de almacén predeterminada en todo el ámbito de la vista de almacén. Solo copiará los datos de catálogo y producto si la tienda solo tiene una vista de tienda. Si la tienda tiene una vista de tienda deshabilitada y una vista de tienda habilitada, no se copiarán los datos del catálogo y del producto.<br/> Al habilitar el modo de almacenamiento único, se omiten las opciones de configuración específicas de la vista de tienda para los datos específicos del contenido. En su lugar, utiliza ajustes de configuración definidos en el ámbito de nivel global para garantizar la coherencia entre la IU de administración y la tienda. |
 
 {style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: ¿Qué es la tienda?
 description: Obtenga información acerca de las páginas y los elementos funcionales que su tienda puede proporcionar para ofrecer a sus clientes la experiencia de compra.
 exl-id: 1c64888f-2bc0-4e2e-b7da-0e7182ea67e0
 feature: Storefront
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: 3b359ed43e81a2771a372c8e3c7557853b3eecad
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,7 @@ El proceso de cierre de compra consta de dos pasos:
 1. Información de envío
 
    El primer paso del proceso de cierre de compra es que el cliente complete la información de la dirección de envío y elija el método de envío. Si el cliente tiene una cuenta, la dirección de envío se introduce automáticamente, pero se puede cambiar si es necesario.
+Si un cliente invitado introduce una dirección de correo electrónico reconocida como registrada anteriormente, se muestra el mensaje de inicio de sesión si la variable [!UICONTROL Enable Guest Checkout Login] el campo de la configuración de tienda se establece en `Yes` (consulte [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) en el _Guía de referencia de configuración_). Sin embargo, esta configuración puede exponer la información del cliente a usuarios no autenticados.
 
    ![Ejemplo de página de cierre de tienda](./assets/storefront-checkout-shipping-full.png){width="700"}
 

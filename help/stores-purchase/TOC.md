@@ -5,9 +5,9 @@ breadcrumb-title: Tiendas y experiencia de compra
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 3eb659825e6bc5db1828c2362ee68893b4d1405b
+source-git-commit: 3dad65e528716a459839ee7995b38850bf6feca8
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '314'
 ht-degree: 3%
 
 ---
@@ -71,6 +71,7 @@ ht-degree: 3%
    + [Comparar productos](product-compare.md)
    + [Vistos o comparados recientemente](products-viewed-compared.md)
    + [Permitir reordenamientos](reorders-allow.md)
+   + [Permitir orden de cancelación](cancel-allow.md)
 + Pagos {#payments}
    + [Información general](payments.md)
    + Soluciones de pago PayPal {#paypal}
@@ -112,7 +113,7 @@ ht-degree: 3%
       + [Devolver atributos](attributes-returns.md)
       + [Devuelve la experiencia de tienda](rma-customer-experience.md)
    + [Transacciones](transactions.md)
-+ envío {#delivery}
++ Envío {#delivery}
    + [Información general](delivery.md)
    + [Configuración de envío](shipping-settings.md)
    + Métodos básicos de envío {#basic-methods}

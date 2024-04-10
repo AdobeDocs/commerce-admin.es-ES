@@ -3,9 +3,9 @@ title: Añadir atributos a un producto
 description: Obtenga información sobre cómo añadir atributos a los productos del catálogo.
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Aunque los atributos se administran principalmente desde el [Tiendas](../stores-
 
    - Seleccione la casilla de verificación de la primera columna de cada atributo que desee añadir.
 
-   - Haga clic **[!UICONTROL Add Selected]**.
+   - Clic **[!UICONTROL Add Selected]**.
 
    ![Seleccionar un atributo](./assets/product-attribute-add-select.png){width="600" zoomable="yes"}
 
@@ -113,9 +113,17 @@ Aunque los atributos se administran principalmente desde el [Tiendas](../stores-
 
    - `Filterable (no results)` : La navegación por capas incluye filtros para todos los valores de atributos disponibles y sus recuentos de productos, incluidos los productos con cero (0) coincidencias de productos. Si el valor del atributo es una muestra, el valor aparece como un filtro, pero se tachará.
 
-1. Para usar en la navegación por capas en páginas de resultados de búsqueda, establezca **[!UICONTROL Use in Search Results Navigation]** hasta `Yes` e introduzca un número en la **[!UICONTROL Position]** field.
+   >[!NOTE]
+   >
+   >Si la variable _[!UICONTROL Use in Search]_se establece en `No`, el_[!UICONTROL Use in Search Results Layered Navigation]_ no se muestra y el atributo de producto no se utiliza en la búsqueda con ningún [!UICONTROL Use in Layered Navigation] valor de configuración.
+
+1. Para utilizar el atributo en la navegación por capas en las páginas de resultados de búsqueda, establezca **[!UICONTROL Use in Search Results Layered Navigation]** hasta `Yes` e introduzca un número en la **[!UICONTROL Position]** field.
 
    El número de posición indica la posición relativa del atributo dentro del bloque de navegación por capas.
+
+   >[!NOTE]
+   >
+   >El _[!UICONTROL Position]_El campo está atenuado de forma predeterminada y debe guardar el atributo para poder modificar esta configuración.
 
 1. Para utilizar el atributo en reglas de precios, establezca **[!UICONTROL Use for Promo Rule Conditions]** hasta `Yes`.
 

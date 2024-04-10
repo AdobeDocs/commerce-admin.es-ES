@@ -3,9 +3,9 @@ title: FedEx
 description: Aprenda a configurar FedEx como transportista para su tienda.
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ A [Cuenta de comerciante de FedEx][1] Se requiere un registro para el acceso de 
 
 ## Paso 2: Habilitar FedEx para su tienda
 
-{{beta2-updates}}
-
 1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Delivery Methods]**.
@@ -45,9 +43,8 @@ A [Cuenta de comerciante de FedEx][1] Se requiere un registro para el acceso de 
 1. Introduzca la siguiente información de su cuenta de FedEx:
 
    - **[!UICONTROL Account ID]**
-   - **[!UICONTROL Meter Number]**
-   - **[!UICONTROL Key]**
-   - **[!UICONTROL Password]**
+   - **[!UICONTROL Api Key]**
+   - **[!UICONTROL Secret Key]**
 
 1. Si ha configurado una zona protegida de FedEx y desea trabajar en el entorno de prueba, establezca **[!UICONTROL Sandbox Mode]** hasta `Yes`.
 
@@ -59,24 +56,22 @@ A [Cuenta de comerciante de FedEx][1] Se requiere un registro para el acceso de 
 
 ## Paso 3: Descripción del paquete y gastos de manipulación
 
-1. Seleccione el **[!UICONTROL Packages Request Type]** a la opción que mejor describe sus preferencias al dividir un pedido en varios envíos:
+1. Establecer **[!UICONTROL Pickup Type]** al método de recogida utilizado para los envíos.
+
+   - `DropOff at Fedex Location` - (Predeterminado) Indica que usted entrega los envíos en su estación local de FedEx.
+   - `Contact Fedex to Schedule` - Indica que se debe contactar con FedEx para solicitar una recogida.
+   - `Use Scheduled Pickup` - Indica que el envío se recoge como parte de una recogida programada normal.
+   - `On Call` - Indica que la recogida está programada llamando a FedEx.
+   - `Package Return Program` - Indica que el envío es recogido por el Programa de Devoluciones de Paquete Terrestre de FedEx.
+   - `Regular Stop` - Indica que el envío se recoge en el horario normal de recogida.
+   - `Tag` - Indica que la recogida del envío es específica de una solicitud de recogida de etiquetas Express o Ground call. Esto solo es aplicable a una etiqueta de envío de devolución.
+
+1. Para **[!UICONTROL Packages Request Type]**, seleccione el tipo de solicitud que mejor describa sus preferencias al dividir un pedido en varios envíos:
 
    - `Divide to equal weight (one request)`
    - `Use origin weight (few requests)`
 
-1. Seleccione el tipo de **[!UICONTROL Packaging]** normalmente se utiliza para enviar productos desde su tienda.
-
-1. Establecer **[!UICONTROL Dropoff]** al método de recogida utilizado para la entrega.
-
-   - `Regular Pickup` - Si tiene un gran volumen de envíos, puede ser rentable hacer arreglos con FedEx para recoger regularmente.
-
-   - `Request Courier` - Debe llamar y solicitar a un mensajero de FedEx que recoja los envíos.
-
-   - `Drop Box` - Debe entregar los envíos en la caja de entrega de FedEx cercana.
-
-   - `Business Service Center` - Debe entregar los envíos en su centro de servicio comercial local de FedEx.
-
-   - `Station` - Debe entregar los envíos en su estación local de FedEx.
+1. Para **[!UICONTROL Packaging]**, seleccione el tipo de embalaje de FedEx que normalmente utiliza para enviar productos desde su tienda.
 
 1. Establecer **[!UICONTROL Weight Unit]** a la unidad de medida que se utiliza en su configuración regional.
 
@@ -157,7 +152,7 @@ A [Cuenta de comerciante de FedEx][1] Se requiere un registro para el acceso de 
 
    `0` = primero, `1` = segundo, `2` = tercero, etc.
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
    ![Países aplicables de FedEx](../configuration-reference/sales/assets/delivery-methods-fedex-applicable-countries.png){width="600" zoomable="yes"}
 
