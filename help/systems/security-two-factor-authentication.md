@@ -1,12 +1,12 @@
 ---
 title: Autenticación de doble factor (2FA)
-description: Obtenga información acerca de la compatibilidad con la autenticación de doble factor para garantizar la seguridad de su tienda y sus datos.
+description: Obtenga información acerca de la compatibilidad con la autenticación de doble factor para garantizar la seguridad del sistema y de los datos.
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: c391a3eef8be0dd45cc8a499b63bcb0fc32640aa
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ El Commerce _Administrador_ para la instalación de Adobe Commerce o Magento Ope
 >
 >Esta implementación de la autenticación de doble factor (2FA) se aplica al _Administrador_ solo, y no está disponible para cuentas de cliente. La autenticación de doble factor que protege su cuenta de Commerce tiene una configuración independiente. Para obtener más información, vaya a [Proteja su cuenta de Commerce](../getting-started/commerce-account-secure.md).
 
-La autenticación de doble factor se utiliza ampliamente y es común generar códigos de acceso para diferentes sitios web en la misma aplicación. Esto garantiza que solo usted pueda iniciar sesión en su cuenta de usuario. Si pierde la contraseña o un bot la adivina, la autenticación de doble factor agrega una capa de protección. Por ejemplo, puede utilizar Google Authenticator para generar códigos para el administrador de su tienda, su cuenta de Commerce y la cuenta de Google.
+La autenticación de doble factor se utiliza ampliamente y es común generar códigos de acceso para diferentes sitios web en la misma aplicación. Esta autenticación adicional garantiza que solo usted pueda iniciar sesión en su cuenta de usuario. Si pierde la contraseña o un bot la adivina, la autenticación de doble factor agrega una capa de protección. Por ejemplo, puede utilizar Google Authenticator para generar códigos para el administrador de su tienda, su cuenta de Commerce y la cuenta de Google.
 
 ![Configuración de seguridad para iphone - 2FA](./assets/google-authenticator-iphone.png){width="300"}
 
-Adobe Commerce admite métodos 2FA de varios proveedores. Algunos requieren la instalación de una aplicación que genere una contraseña de un solo uso (OTP) que los usuarios introduzcan al iniciar sesión para verificar su identidad. Los dispositivos de factor de segundo universal (U2F) se parecen a un llavero y generan una clave única para verificar la identidad. Otros dispositivos verifican la identidad cuando se insertan en un puerto USB. Como administrador del almacén, puede requerir uno o más de los métodos 2FA disponibles para verificar la identidad del usuario. La configuración de 2FA se aplica a todos los sitios web y tiendas asociados con la instalación de Adobe Commerce.
+Adobe Commerce admite métodos 2FA de varios proveedores. Algunos requieren la instalación de una aplicación que genere una contraseña de un solo uso (OTP) que los usuarios introduzcan al iniciar sesión para verificar su identidad. Los dispositivos de segundo factor universal (U2F) se parecen a un llavero y generan una clave única para verificar la identidad. Otros dispositivos verifican la identidad cuando se insertan en un puerto USB. Como administrador del almacén, puede requerir uno o más de los métodos 2FA disponibles para verificar la identidad del usuario. La configuración de 2FA se aplica a todos los sitios web y tiendas asociados con la instalación de Adobe Commerce.
 
 La primera vez que un usuario inicia sesión en _Administrador_, deben configurar cada [2FA](../configuration-reference/security/2fa.md) método que necesita y compruebe su identidad mediante la aplicación o el dispositivo asociado. Después de esta configuración inicial, el usuario debe autenticarse con uno de los métodos configurados cada vez que inicia sesión. La información 2FA de cada usuario se registra en su _Administrador_ cuenta y se puede [restablecer](security-two-factor-authentication-manage.md) si es necesario. Para obtener más información sobre el proceso de inicio de sesión, vaya a [_Administrador_ Iniciar sesión](../getting-started/admin-signin.md).
 
@@ -39,7 +39,7 @@ Puedes ver esto [demostración en vídeo](https://video.tv.adobe.com/v/339104?qu
 
 1. En el panel izquierdo, expanda **[!UICONTROL Security]** y elija **[!UICONTROL 2FA]**.
 
-1. En el _[!UICONTROL General]_, seleccione cada **[!UICONTROL Provider to use]**.
+1. En el _[!UICONTROL General]_, seleccione los proveedores que desea utilizar.
 
    | Proveedor | Función |
    |--- |--- |
@@ -66,7 +66,9 @@ Complete la configuración de cada método 2FA que necesite.
 
 Para cambiar la duración de la disponibilidad de la contraseña de un solo uso (OTP) durante el inicio de sesión, borre la etiqueta **[!UICONTROL Use system value]** casilla de verificación A continuación, introduzca el número de segundos que desea que dure la **[!UICONTROL OTP Window]** para que sea válido.
 
-![Configuración de seguridad: Google](../configuration-reference/security/assets/2fa-google.png){width="600" zoomable="yes"}
+>[!NOTE]
+>
+>En Adobe Commerce 2.4.7 y versiones posteriores, el ajuste de configuración de la ventana OTP controla cuánto tiempo (en segundos) acepta el sistema una contraseña única (OTP) de un administrador una vez caducada. Este valor debe ser inferior a 30 segundos. La configuración predeterminada del sistema es `1`.<br><br> En la versión 2.4.6, la configuración de la ventana OTP determina el número de códigos OTP pasados y futuros que siguen siendo válidos. Un valor de `1` indica que el código OTP actual más un código en el pasado y un código en el futuro siguen siendo válidos en cualquier momento.
 
 ### [!DNL Duo Security]
 
