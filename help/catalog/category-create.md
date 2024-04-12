@@ -3,9 +3,9 @@ title: Creación de categorías
 description: Puede crear tantas subcategorías adicionales como sea necesario, según la profundidad de menú máxima establecida en la configuración.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Defina también cualquier palabra clave y atributo asociado, como:
 
    Si está empezando desde el principio sin datos, puede que solo haya dos categorías en la lista: _Categoría predeterminada_, que es la raíz, y un _Categoría de ejemplo_
 
-1. Haga clic **[!UICONTROL Add Subcategory]**.
+1. Clic **[!UICONTROL Add Subcategory]**.
 
 ## Paso 2: Completar la información básica
 
@@ -114,7 +114,7 @@ Defina también cualquier palabra clave y atributo asociado, como:
 
 1. Si desea que la página de categoría incluya la variable _`Filter by Attribute`_sección de navegación por capas, definir **[!UICONTROL Anchor]**hasta `Yes`.
 
-1. Para el **[!UICONTROL Available Product Listing Sort By]** , seleccione uno o varios valores disponibles para que los clientes ordenen la lista.
+1. Para el **[!UICONTROL Available Product Listing Sort By]** , seleccione uno o varios valores disponibles para que los clientes ordenen la lista. Esta configuración no se aplica a [!DNL Live Search] [Widget de página de lista de productos](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
    De forma predeterminada, se incluyen todos los valores disponibles. Anule la selección de **[!UICONTROL Use All]** para cambiar las selecciones. Por ejemplo, los valores pueden incluir:
 
@@ -122,7 +122,7 @@ Defina también cualquier palabra clave y atributo asociado, como:
    - `Product Name`
    - `Price`
 
-1. Para establecer el criterio de ordenación predeterminado de la categoría, elija **[!UICONTROL Default Product Listing Sort By]** valor.
+1. Para establecer el criterio de ordenación predeterminado de la categoría, elija **[!UICONTROL Default Product Listing Sort By]** valor. Esta configuración no se aplica a [!DNL Live Search] [Widget de página de lista de productos](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
 1. Para cambiar la navegación por capas predeterminada [escalón de precios](navigation-layered.md#configure-price-navigation) , haga lo siguiente:
 
