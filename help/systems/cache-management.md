@@ -3,16 +3,16 @@ title: Administración de caché
 description: Aprenda a utilizar las herramientas de administración de caché, que proporcionan una manera sencilla de mejorar el rendimiento del sitio.
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-source-git-commit: add2259bf326d7812999e3e7d4724af10f7497c0
+source-git-commit: fdf04be69754d0209772d9ceb244e3808f3b61d3
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1821'
 ht-degree: 0%
 
 ---
 
 # Administración de caché
 
-El sistema de administración de caché de Magento Open Source y Adobe Commerce proporciona una forma sencilla de mejorar el rendimiento del sitio. Siempre que una caché requiera una actualización, aparecerá un aviso en la parte superior del espacio de trabajo con un vínculo a [!UICONTROL Cache Management] página donde puede ver y actualizar las cachés.
+El sistema de administración de caché de Magento Open Source y Adobe Commerce proporciona una forma sencilla de mejorar el rendimiento del sitio. Siempre que una caché requiera una actualización, se mostrará una notificación con un vínculo a [!UICONTROL Cache Management] para completar la actualización.
 
 ![Guardar atributo de producto: actualizar mensaje de caché](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
@@ -40,12 +40,12 @@ La reindexación y el almacenamiento en caché tienen diferentes propósitos en 
 - Vaciar siempre la caché después de instalar extensiones/módulos. Puede instalar una o varias extensiones y vaciar la caché.
 - Vacíe la caché después de instalar Commerce. Para instalaciones nuevas, también debe reindexar.
 - Vacíe la caché después de actualizar de una versión de código abierto o de Commerce a otra.
-- Al vaciar las cachés, tenga en cuenta el tipo de caché y programe el vaciado durante las horas de menor actividad. Por ejemplo, elija una hora en la que pocos clientes puedan acceder al sitio, como tarde por la noche o temprano por la mañana. La eliminación de algunos tipos de caché durante las horas de mayor actividad provoca una carga elevada en el administrador y puede provocar la pérdida de un sitio hasta que se complete.
-- Cuándo [reindexación](index-management.md), no es necesario que también realice un vaciado de caché.
+- Al vaciar las cachés, tenga en cuenta el tipo de caché y programe el vaciado durante las horas de menor actividad. Por ejemplo, elija una hora en la que pocos clientes utilicen el sitio, como tarde por la noche o temprano por la mañana. Borrar tipos de caché durante la demanda máxima puede aumentar la carga en el administrador y hacer que el sitio se desactive hasta que se complete la operación.
+- Cuándo [reindexación](index-management.md), no es necesario vaciar la caché.
 
 ## Recursos de rol de administración de caché
 
-El acceso a acciones de mantenimiento de caché específicas se puede asignar a los usuarios por función, incluidas las opciones para ver, alternar y vaciar las cachés. El Adobe recomienda habilitar las acciones de vaciado solo para usuarios de nivel de administrador. Proporcionar acceso a todas las funciones de administración de caché puede afectar el rendimiento de su tienda.
+Puede asignar acceso a acciones de mantenimiento de caché específicas a los usuarios por función, incluidas las opciones para ver, alternar y vaciar cachés. El Adobe recomienda habilitar las acciones de vaciado solo para usuarios de nivel de administrador. Proporcionar acceso a todas las funciones de administración de caché puede afectar el rendimiento de su tienda.
 
 ![Recursos de funciones: administración de caché](./assets/permissions-role-resources-cache-management.png){width="600" zoomable="yes"}
 
@@ -80,7 +80,7 @@ Para obtener información sobre la asignación de recursos para conceder acceso 
    - `Select All`
    - `Select Visible`
 
-1. Seleccione la casilla de verificación de cada caché a la que se va a dirigir la acción.
+1. Seleccione la casilla de verificación de cada caché que desee actualizar.
 
 1. Establecer **[!UICONTROL Actions]** hasta `Refresh` y haga clic en **[!UICONTROL Submit]**.
 
@@ -94,7 +94,7 @@ Para obtener información sobre la asignación de recursos para conceder acceso 
 
 ## Vaciar la caché de JavaScript/CSS
 
-1. En _[!UICONTROL Additional Cache Management]_, haga clic en **[!UICONTROL Flush JavaScript/CSS Cache]**para borrar cualquier archivo JavaScript y CSS que se haya combinado en un solo archivo.
+1. En _[!UICONTROL Additional Cache Management]_, borre los archivos JavaScript y CSS que se hayan combinado en un solo archivo haciendo clic en **[!UICONTROL Flush JavaScript/CSS Cache]**.
 
    El `The JavaScript/CSS cache has been cleaned` Este mensaje aparece en la parte superior del espacio de trabajo.
 
@@ -102,7 +102,7 @@ Para obtener información sobre la asignación de recursos para conceder acceso 
 
 ## Vaciar utilizando la línea de comandos
 
-Los administradores del sistema y los desarrolladores con acceso al servidor de aplicaciones de Commerce también pueden administrar la configuración de la caché y la caché desde la línea de comandos utilizando la CLI de Commerce. Consulte [Administrar la caché](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#:~:text=You%20can%20also%20clean%20and,bin%2Fmagento%20cache%3Aclean%20.) en el _Guía de configuración_.{:target=&quot;_blank&quot;}.
+Los administradores del sistema y los desarrolladores con acceso al servidor de aplicaciones de Commerce también pueden administrar la configuración de la caché y la caché desde la línea de comandos utilizando la CLI de Commerce. Consulte [Administrar la caché](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target=&quot;_blank&quot;} en el _Guía de configuración_.
 
 ## Controles
 
@@ -134,7 +134,7 @@ El [!UICONTROL Cache Management] Esta página enumera los tipos de caché que pu
 
 - `%CACHE_TYPE_TAG%` define la etiqueta única que se utilizará en el ámbito de tipo de caché.
 
-Los desarrolladores e integradores de sistemas utilizan estos valores para configurar y administrar el almacenamiento en caché al personalizar o integrar con Adobe Commerce, por ejemplo desarrollando integraciones mediante las API de GraphQL. El `cache type id` también se utiliza para la administración de caché desde la línea de comandos del servidor de aplicaciones mediante la CLI de comercio, por ejemplo ` bin/magento cache:status config` muestra el estado actual de la caché de configuración.
+Los desarrolladores e integradores de sistemas utilizan estos valores para configurar y administrar el almacenamiento en caché al personalizar o integrar con Adobe Commerce, por ejemplo desarrollando integraciones mediante las API de GraphQL. El `cache type id` también se utiliza para la administración de caché desde la línea de comandos del servidor de aplicaciones mediante la CLI de Commerce. Por ejemplo, ` bin/magento cache:status config` muestra el estado actual de la caché de configuración.
 
 >[!NOTE]
 >
@@ -154,7 +154,7 @@ Los desarrolladores e integradores de sistemas utilizan estos valores para confi
 | `Database DDL operations` | Esquema de base de datos. Si es necesario, Commerce limpia esta caché automáticamente, pero los desarrolladores de terceros pueden colocar cualquier dato en cualquier segmento de la caché. Limpie o vacíe este tipo de caché después de realizar cambios personalizados en el esquema de la base de datos. (En otras palabras, estas son actualizaciones que Commerce no se hace a sí mismo). Una forma de actualizar el esquema de la base de datos automáticamente es utilizar la configuración de Magento:db-schema:comando upgrade. | `DB_DDL` | `db_ddl` |
 | [!UICONTROL Compiled Config] | Resultados de la compilación del código. | `COMPILED_CONFIG` | `compiled_config` |
 | [!UICONTROL Webhooks Response Cache] | Almacena en caché las respuestas a solicitudes de webhook. Para obtener más información, consulte la [Guía de webhooks](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2) en la documentación para desarrolladores de Commerce. | `WEBHOOKS_RESPONSE` | `webhooks_response` |
-| [!UICONTROL EAV types and attributes] | Caché de declaración de tipos de entidad para metadatos relacionados con atributos EAV (por ejemplo, etiquetas de tienda, vínculos a código PHP relacionado, representación de atributos, configuración de búsqueda, etc.). Normalmente no es necesario limpiar ni vaciar este tipo de caché. | `EAV` | `eav` |
+| [!UICONTROL EAV types and attributes] | Almacena en caché la declaración de tipos de entidad para los metadatos relacionados con los atributos de valor de atributo de entidad (EAV). Los atributos incluyen etiquetas de tienda, vínculos a código PHP relacionado, renderización de atributos, ajustes de búsqueda, etc. Normalmente no es necesario limpiar ni vaciar este tipo de caché. | `EAV` | `eav` |
 | [!UICONTROL Customer Notification] | Notificaciones temporales que aparecen en la interfaz de usuario. | `CUSTOMER_NOTIFICATION` | `customer_notification` |
 | [!UICONTROL GraphQL Query Resolver Results] | Almacena en caché los resultados de las resoluciones de consultas de GraphQL para entidades de cliente, página CMS, bloque CMS y galería de medios de productos. Mantenga esta caché habilitada para mejorar el rendimiento de GraphQL. | `GRAPHQL_QUERY_RESOLVER_RESULT` | `graphql_query_resolver_result` |
 | [!UICONTROL Integrations Configuration] | Archivo de configuración de integración. Limpie o vacíe esta caché después de cambiar o agregar integraciones. | `INTEGRATION` | `config_integration` |
@@ -175,11 +175,11 @@ Adobe Commerce y Magento Open Source utilizan el almacenamiento en caché de pá
 >
 >Se recomienda que [Caché de barniz](https://varnish-cache.org/){:target=&quot;_blank&quot;} solo se puede usar en entornos de producción.
 
-El contenido en caché se puede utilizar para procesar solicitudes de tipos de visitas similares. Como resultado, las páginas mostradas a un visitante casual pueden diferir de las mostradas a un cliente. Con el fin de almacenar en caché, cada visita es de uno de los tres tipos siguientes:
+El contenido en caché se puede utilizar para procesar solicitudes de tipos de visitas similares. Como resultado, las páginas mostradas a un visitante ocasional pueden diferir de las páginas mostradas a un cliente. Con el fin de almacenar en caché, cada visita es de uno de los tres tipos siguientes:
 
 - `Non-sessioned` - Durante una visita sin sesión, el comprador ve las páginas, pero no interactúa con la tienda. El sistema almacena en caché el contenido de cada página visualizada y la sirve a otros compradores sin sesión.
-- `Sessioned` - Durante una visita con sesión, los compradores que interactúan con la tienda (a través de actividades como comparar productos o agregar productos al carro de compras) reciben un ID de sesión. Solo ese comprador utiliza las páginas en caché que se generan durante la sesión.
-- `Customer` - Las sesiones de clientes se crean para aquellos que se han registrado para obtener una cuenta en su tienda y tienda mientras iniciaban sesión en sus cuentas. Durante la sesión, se pueden presentar a los clientes ofertas especiales, promociones y precios basados en el grupo de clientes asignado.
+- `Sessioned` : Durante una visita con sesión, a los compradores que interactúan con la tienda se les asigna un ID de sesión. Las interacciones incluyen actividades como comparar productos o agregar productos al carro de compras. Solo ese comprador utiliza las páginas en caché que se generan durante la sesión.
+- `Customer` : Las sesiones de clientes se crean para clientes que inician sesión y compran con su cuenta registrada. Durante la sesión, se pueden presentar a los clientes ofertas especiales, promociones y precios según el grupo de clientes asignado.
 
 Para obtener información técnica, consulte [Configurar y utilizar barniz](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target=&quot;_blank&quot;} y [Utilice Redis para la página de Commerce y la caché predeterminada](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){:target=&quot;_blank&quot;} en el _Guía de configuración_.
 
