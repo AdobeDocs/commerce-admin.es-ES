@@ -3,16 +3,18 @@ title: Integración de Adobe Experience Cloud para el administrador de Commerce
 description: Obtenga información acerca de la extensión de experiencia unificada de administración que integra Commerce con Experience Cloud para que los clientes puedan acceder a los proyectos de Commerce desde la página de inicio del Experience Cloud.
 feature: Integration
 exl-id: e3fb6337-c7d5-4b6f-8f4a-583697a1f2d2
-source-git-commit: a07c91bc2f01cd110f3e0ccd6d27fe5d37eb2fc9
+source-git-commit: 61874f3dac4f574ad393e8ae258f3d6c56c8f37e
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
 
 # Integración de Adobe Experience Cloud para Commerce
 
-{{ee-feature}}
+<table style="border:1px solid red">
+<tr><td><img alt="Función Adobe Commerce" src="../assets/adobe-logo.svg" width="20" height="20" /> Función exclusiva solo en Adobe Commerce (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Más información</a>)</td></tr>
+</table>
 
 Integre proyectos de Adobe Commerce con Experience Cloud habilitando la extensión Admin Unified Experience. Cuando la integración está activa, los administradores pueden acceder a los proyectos de Commerce desde Adobe Experience Cloud.
 
@@ -20,19 +22,19 @@ Integre proyectos de Adobe Commerce con Experience Cloud habilitando la extensi�
 
 ## Ver proyectos de Commerce disponibles
 
-Los administradores pueden ver los proyectos de Commerce a los que tienen permiso de acceso seleccionando **[!UICONTROL Commerce]** en la página de inicio del Experience Cloud.
+Los administradores pueden ver los proyectos de Commerce para los que tienen permiso de acceso seleccionando **[!UICONTROL Commerce]** en la página de inicio del Experience Cloud.
 
-![Workspace de proyectos de Commerce en Experience Cloud](./assets/admin-uex-commerce-projects-home.png){width="700" zoomable="yes"}
+![Espacio de trabajo de Commerce Projects en Experience Cloud](./assets/admin-uex-commerce-projects-home.png){width="700" zoomable="yes"}
 
 Los administradores pueden abrir Admin y Storefront para cada proyecto desde el [!DNL Commerce Projects] espacio de trabajo y vea información adicional.
 
-- **Instantánea de la página principal de la tienda de Commerce**: instantánea de la página de inicio de la tienda. Si un proyecto tiene varios sitios web, la instantánea muestra la página de inicio del sitio predeterminado.
+- **Instantánea de la página de inicio de la tienda Commerce**: instantánea de la página de inicio de la tienda. Si un proyecto tiene varios sitios web, la instantánea muestra la página de inicio del sitio predeterminado.
 
 - **[Nombre del proyecto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)**: identifica el entorno del proyecto de nube para la instancia. El nombre predeterminado del proyecto es [Nombre de rama Git](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html) en el proyecto de la nube. Cambie o actualice el nombre del proyecto en la [Ajustes de configuración del almacén de experiencia unificada](admin-unified-experience-integration-manage.md#manage-the-integration-from-the-admin).
 
 - **[URL de tienda](../stores-purchase/store-urls.md)**: permite mostrar la URL base del sitio Web por defecto.
 
-- **[Tipo de entorno](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)**: las instancias de comercio implementadas en un entorno de ensayo o desarrollo se identifican con un [!UICONTROL Development] o [!UICONTROL Staging] etiqueta. Las instancias que no tienen una etiqueta se implementan en un entorno de producción.
+- **[Tipo de entorno](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)**: las instancias de Commerce implementadas en un entorno de ensayo o desarrollo se identifican con un [!UICONTROL Development] o [!UICONTROL Staging] etiqueta. Las instancias que no tienen una etiqueta se implementan en un entorno de producción.
 
 - **Acceso de administrador de Commerce**: abra el Administrador haciendo clic en. **[!UICONTROL Open]**.
 
@@ -68,13 +70,13 @@ Cuando la integración de Experience Cloud está habilitada, los administradores
 - Adobe Commerce en la infraestructura en la nube
 - Extensiones de Adobe Commerce
 
-   - Extensión de experiencia unificada de administración de Commerce (`magento/module-unified-experience`)
+   - Extensión de Commerce Admin Unified Experience (`magento/module-unified-experience`)
 
      Si el módulo no está disponible en la instancia de Commerce, se puede instalar mediante Composer.
 
    - [Servicio Eventos de Adobe I/O](https://developer.adobe.com/commerce/extensibility/events/): necesario para enviar datos de evento para administrar el acceso de administrador a proyectos de Commerce desde Experience Cloud.
 
-     La integración de Adobe I/O Events con Commerce se habilita mediante la extensión de Commerce Event (`magento/commerce-eventing`), que está disponible con Adobe Commerce 2.4.4 y versiones posteriores.
+     La integración de eventos de Adobe I/O con Commerce se habilita mediante la extensión de eventos de Commerce (`magento/commerce-eventing`), que está disponible con Adobe Commerce 2.4.4 y versiones posteriores.
 
 ## Habilitar la integración
 
