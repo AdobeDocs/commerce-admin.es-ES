@@ -3,9 +3,9 @@ title: '[!DNL Inventory Management] notas de la versión'
 description: Revise las notas de la versión para obtener información acerca de todos los [!DNL Inventory Management] versiones.
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
-source-git-commit: 7384481d1a4a2a04882d4c99448cca75abc9be31
+source-git-commit: 01d8a1d50f574330f3ce7e8bf03a018f0079f5db
 workflow-type: tm+mt
-source-wordcount: '3361'
+source-wordcount: '3445'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,11 @@ Estas notas de la versión describen las versiones de [!DNL Inventory Management
 
 [Programación de versiones](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} para versiones compatibles.
 
-## v1.2.6
+## Versión 1.2.7
+
+[!DNL Inventory Management] Las notas de la versión 1.2.7 de se incluyen en la [notas de la versión de core 2.4.7](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
+
+## Versión 1.2.6
 
 [!DNL Inventory Management] 1.2.6 (versión de módulo: `magento/inventory-metapackage = 1.2.6`) es compatible con la versión 2.4.6 y con la versión 2.4.0 de Adobe Commerce, Adobe Commerce en la infraestructura en la nube y la base de código de Magento Open Source.
 
@@ -64,7 +68,7 @@ Estas notas de la versión describen las versiones de [!DNL Inventory Management
 
 ![Problema corregido](../assets/fix.svg) El estado de stock del producto compuesto (paquete, agrupado y configurable) se actualiza según lo esperado cuando el estado de stock del producto secundario se cambia mediante un REST `POST /rest/V1/inventory/source-items` llamada. <!-- ACP2E-1209-->
 
-## v1.2.5
+## Versión 1.2.5
 
 [!DNL Inventory Management] 1.2.5 (versión de módulo: `magento/inventory-metapackage = 1.2.5`) es compatible con la versión 2.4.5 y con la versión 2.4.0 de Adobe Commerce, Adobe Commerce en la infraestructura en la nube y la base de código de Magento Open Source.
 
@@ -104,7 +108,7 @@ Estas notas de la versión describen las versiones de [!DNL Inventory Management
 
 ![Problema corregido](../assets/fix.svg) <!--- ACP2E-322--> Los productos configurables ahora se mueven a la última posición de la lista de productos después de actualizar las existencias cuando el **[!UICONTROL Move out of stock to the bottom]** La configuración está habilitada. Se implementa una nueva consulta de base de datos personalizada para negar el orden de clasificación de índices del Elasticsearch, lo que ignora el orden de clasificación habilitado por el administrador. Anteriormente, los productos configurables y sus productos secundarios no se movían al final de la lista cuando esta configuración estaba habilitada.
 
-## v1.2.4
+## Versión 1.2.4
 
 Inventory management 1.2.4 (versión de módulo: `magento/inventory-metapackage = 1.2.4`) es compatible con la versión 2.4.4 y con la versión 2.4.0 de Adobe Commerce, Adobe Commerce en la infraestructura en la nube y la base de código de Magento Open Source.
 
@@ -112,7 +116,7 @@ Inventory management 1.2.4 (versión de módulo: `magento/inventory-metapackage 
 
 ![Problema corregido](../assets/fix.svg) El rendimiento ha mejorado en las acciones de carro de compras y cierre de compra, como agregar productos al carro de compras en implementaciones con muchas fuentes de inventario (aproximadamente 10 000). <!--- MC-42570-->
 
-![Problema corregido](../assets/fix.svg) El `bin/magento inventory:reservation:list-inconsistencies` ahora gestiona correctamente los pedidos con envíos parciales incluso si las reservas se pierden de la base de datos y se ha borrado la caché. Anteriormente, cuando este comando se ejecutaba con una caché preborrada, Commerce mostraba el siguiente error: `Area code is not set`. <!--- MC-42142-->
+![Problema corregido](../assets/fix.svg) El `bin/magento inventory:reservation:list-inconsistencies` ahora gestiona correctamente los pedidos con envíos parciales incluso si las reservas se pierden de la base de datos y se ha borrado la caché. Anteriormente, cuando este comando se ejecutaba con una memoria caché previamente borrada, Commerce mostraba el siguiente error: `Area code is not set`. <!--- MC-42142-->
 
 ![Problema corregido](../assets/fix.svg) La indexación incremental de productos secundarios agrupados ya no hace que otros productos agrupados se indexen incorrectamente cuando se comparten productos secundarios. <!--- MC-41963-->
 
