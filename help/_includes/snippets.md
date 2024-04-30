@@ -1,9 +1,9 @@
 ---
 title: Fragmentos
 description: Se han reutilizado notas y elementos visuales para anotar una función o página que se aplica a una edición específica
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -75,10 +75,10 @@ Para acceder a las opciones de configuración de la tienda, elija **[!UICONTROL 
 
 | Recurso de documentación | Descripción |
 |----------------------- | ----------- |
-| [Documentación de Adobe Commerce 2.4 Merchant](../landing/home.md) | Documentación centrada en el comerciante para Adobe Commerce y Magento Open Source |
+| [Documentación de Adobe Commerce 2.4 Merchant](../landing/home.md) | Documentación centrada en el comerciante para Adobe Commerce |
 | [Servicios para la documentación de Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Documentación para ofrecer compatibilidad con una colección de servicios que ayudan a los comerciantes a integrar componentes clave de su negocio en su tienda. |
 | [Guía de Commerce en la infraestructura de Cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Procedimientos paso a paso para implementar Adobe Commerce en una plataforma en la nube administrada y automatizada. |
-| [Guías operativas de Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Documentación del sistema sobre los conceptos, procesos, herramientas y prácticas recomendadas para desarrollar, implementar y mantener proyectos implementados en plataformas Adobe Commerce y de Magento Open Source. |
-| [Documentación para desarrolladores de Adobe Commerce 2.4](https://developer.adobe.com/commerce/docs) | Documentación centrada en el desarrollador que se utiliza para crear y personalizar Adobe Commerce o Magento Open Source |
+| [Guías operativas de Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Documentación del sistema sobre los conceptos, procesos, herramientas y prácticas recomendadas para desarrollar, implementar y mantener proyectos de Adobe Commerce. |
+| [Documentación para desarrolladores de Adobe Commerce 2.4](https://developer.adobe.com/commerce/docs) | Documentación centrada en el desarrollador que se utiliza para personalizar Adobe Commerce e integrarla con sistemas de terceros |
 
 {style="table-layout:auto"}
