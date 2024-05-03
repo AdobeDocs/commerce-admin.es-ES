@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
 description: Revise la configuración de en [!UICONTROL Sales] &gt; [!UICONTROL Sales] de la administración de Commerce.
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 9827b08e5b0123f84c87cbac672ce9bbec86f511
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1186'
 ht-degree: 1%
 
 ---
@@ -163,7 +163,7 @@ ht-degree: 1%
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Maximum number of coupons per order] | Sitio web | Determina el número máximo de cupones permitidos por pedido |
+| [!UICONTROL Maximum number of coupons per order] | Sitio web | Determina el número máximo de cupones permitidos por pedido. Esta función solo está disponible en las API de administración, GraphQL y REST. Y lo es **_no disponible_** en Tienda. |
 
 {style="table-layout:auto"}
 
