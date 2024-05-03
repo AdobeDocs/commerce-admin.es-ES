@@ -3,9 +3,9 @@ title: Cambios programados para categorías
 description: Aprenda a programar cambios de categoría para admitir campañas de marketing y promociones de tiendas.
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 Las actualizaciones de categoría se pueden aplicar según lo programado y agrupar con otros cambios de contenido. Puede crear una campaña basada en los cambios programados en la categoría o aplicar los cambios a una campaña existente. Para obtener más información, consulte [Ensayo de contenido](../content-design/content-staging.md).
+
+>[!NOTE]
+>
+>El [!UICONTROL Schedule Design Update] se ha eliminado en ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce y no se pueden modificar directamente en la categoría. Debe crear una actualización programada para estas activaciones.
 
 >[!NOTE]
 >

@@ -3,9 +3,9 @@ title: Cambios programados para reglas de precios del carro de compras
 description: Aprenda a aplicar reglas de precios del carro de compras según lo programado como parte de una campaña y agrupadas con otros cambios de contenido.
 exl-id: 4c9caa04-1e11-440d-b3db-7cc5fc83a08f
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 Las reglas de precios del carro de compras se pueden aplicar según lo programado como parte de una campaña y agruparse con otros cambios de contenido. Puede crear una campaña basada en cambios programados de una regla de precios o aplicar los cambios a una campaña existente.
+
+>[!NOTE]
+>
+>El [!UICONTROL From] y [!UICONTROL To] Se han eliminado campos en ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce y no se pueden modificar directamente en la regla de precios del carro de compras. Debe crear una actualización programada para estas activaciones.
 
 ![Reglas de precios del carro de compras: cambios programados](./assets/content-staging-price-rules-cart-scheduled-changes.png){width="700" zoomable="yes"}
 

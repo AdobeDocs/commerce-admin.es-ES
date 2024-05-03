@@ -3,9 +3,9 @@ title: Actualizaciones programadas de productos
 description: Aprenda a programar cambios en las listas de productos para que sean compatibles con campañas y programas promocionales.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 1e809696ee6d623d162226628329ed53e8f71511
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 Las actualizaciones de productos se pueden aplicar según lo programado y agrupar con otros cambios de contenido. Puede utilizar [ensayo de contenido](../content-design/content-staging.md) para crear una campaña basada en cambios programados en el producto o aplicar los cambios a una campaña existente.
+
+>[!NOTE]
+>
+>El [!UICONTROL Set Product as New From] y [!UICONTROL To] campos y [!UICONTROL Schedule Design Update] se han eliminado en ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce y no se pueden modificar directamente en el producto. Debe crear una actualización programada para estas activaciones.
 
 >[!NOTE]
 >
@@ -30,7 +34,7 @@ Las actualizaciones de productos se pueden aplicar según lo programado y agrupa
 
 1. Seleccione un producto existente y haga clic en **[!UICONTROL Edit]**.
 
-1. Haga clic **[!UICONTROL Schedule New Update]**.
+1. Clic **[!UICONTROL Schedule New Update]**.
 
 1. Seleccionar **[!UICONTROL Save as a New Update]**.
 
@@ -58,7 +62,7 @@ Las actualizaciones de productos se pueden aplicar según lo programado y agrupa
 
 1. Seleccione un producto existente y haga clic en **[!UICONTROL Edit]**.
 
-1. Haga clic **[!UICONTROL Schedule New Update]**.
+1. Clic **[!UICONTROL Schedule New Update]**.
 
 1. Seleccionar **[!UICONTROL Assign to Existing Campaign]**.
 
@@ -82,7 +86,7 @@ El cambio programado aparece en la parte superior de la página del producto, co
 
 1. Realice los cambios necesarios en la actualización programada.
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 ## Eliminar el cambio programado
 

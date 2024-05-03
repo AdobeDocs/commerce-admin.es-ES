@@ -3,9 +3,9 @@ title: Ensayo de contenido
 description: El ensayo de contenido permite a su equipo empresarial crear, previsualizar y programar fácilmente una amplia gama de actualizaciones de contenido para su tienda, directamente desde el administrador.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ El ensayo de contenido permite a su equipo empresarial crear, previsualizar y pr
 El término _campaña_ hace referencia al registro de un cambio programado o a una colección de cambios que se administran desde el Tablero de ensayo. Los cambios pueden verse en un calendario o una cronología. Los términos _cambio programado_ y _actualización programada_ son intercambiables y hacen referencia a un solo cambio.
 
 Cuando se programa un cambio de contenido para un período de tiempo específico, el contenido vuelve a la versión anterior cuando caduca el cambio programado. Puede crear varias versiones del mismo contenido de línea base para utilizarlas en futuras actualizaciones. También puede retroceder por la cronología para ver las versiones anteriores del contenido. Para guardar una versión de borrador, simplemente asigne una fecha en la cronología que esté tan lejos en el futuro que nunca entre en producción.
+
+>[!NOTE]
+>
+>Los campos relacionados con Fecha de inicio y Fecha de finalización se han eliminado de ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce y no se pueden modificar directamente en la regla de precios del carro de compras, la regla de precios de catálogo, el producto, la categoría y la página de CMS. Debe crear una actualización programada para estas activaciones.
 
 ## Objetos y campañas de ensayo de contenido
 

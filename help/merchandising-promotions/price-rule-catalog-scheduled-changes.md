@@ -3,9 +3,9 @@ title: Cambios programados para reglas de precios de catálogo
 description: Aprenda a aplicar reglas de precios de catálogo según lo programado como parte de una campaña y agrupadas con otros cambios de contenido.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 La casilla Cambios programados aparece en la parte superior de la página cuando se guarda o actualiza una nueva regla de precios. Las reglas de precios de catálogo se pueden aplicar según lo programado como parte de una campaña y agruparse con otros cambios de contenido. Puede crear una campaña basada en cambios programados de una regla de precios o aplicar los cambios a una campaña existente.
+
+>[!NOTE]
+>
+>El [!UICONTROL From] y [!UICONTROL To] Se han eliminado campos en ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce y no se pueden modificar directamente en la regla de precios de catálogo. Debe crear una actualización programada para estas activaciones.
 
 >[!NOTE]
 >
@@ -68,7 +72,7 @@ Si se ejecutan varias reglas de precios en la misma campaña, la configuración 
 
 1. Realice los cambios necesarios en la actualización programada.
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 ## Previsualizar el cambio de regla programado
 
@@ -88,7 +92,7 @@ Si se ejecutan varias reglas de precios en la misma campaña, la configuración 
 
    - Elija una fecha u hora diferente.
 
-   - Haga clic **[!UICONTROL Preview]**.
+   - Clic **[!UICONTROL Preview]**.
 
 1. Para volver al calendario, haga clic en **[!UICONTROL Calendar]** en el encabezado de la página Vista previa.
 
