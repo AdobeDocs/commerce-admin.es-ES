@@ -3,9 +3,9 @@ title: Preparación para HIPAA en Adobe Commerce
 description: Descubra cómo puede añadir el módulo Adobe Commerce HIPAA-Ready y obtener funciones y funcionalidades adicionales que le permiten cumplir con sus obligaciones HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 3364a07b4c79a60ed813bf669a04711b69dae6f9
+source-git-commit: c21c8b76e37e617885bae3492801b45093a6b5a5
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -182,7 +182,7 @@ Ninguno de los servicios SaaS ofrecidos para Adobe Commerce está disponible en 
 ### Cierre de compra de invitado deshabilitado de forma predeterminada
 
 - El registro de salida de los huéspedes presenta un riesgo potencial para varios aspectos de la HIPAA, incluyendo el registro, el control de acceso, la higiene y el linaje de la PHI, y potencialmente más.
-- El Pago y envío de invitados está deshabilitado de forma predeterminada en el módulo de preparación para HIPAA, pero mis comerciantes pueden habilitarlo bajo su propio riesgo.
+- El Pago y envío de invitados está desactivado de forma predeterminada en el módulo de preparación para HIPAA, pero los comerciantes pueden habilitarlo bajo su propio riesgo.
 
 ### Función de newsletter deshabilitada de forma predeterminada
 
@@ -191,3 +191,7 @@ Ninguno de los servicios SaaS ofrecidos para Adobe Commerce está disponible en 
 ### Se deshabilitó la configuración predeterminada del servicio Informes avanzados
 
 La configuración del servicio de Informes avanzados está deshabilitada de manera predeterminada para evitar que la PHI se use para análisis e informes, pero el comerciante puede habilitarla bajo su propio riesgo.
+
+### Servicio Sendgrid deshabilitado de forma predeterminada
+
+El servicio Sendgrid está deshabilitado de forma predeterminada porque la aplicación no es compatible con HIPAA. Los comerciantes pueden enviar una solicitud de asistencia para habilitar Sendgrid, pero deben reconocer que asumirán el riesgo de utilizar el servicio.
