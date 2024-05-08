@@ -3,9 +3,9 @@ title: Crear una regla de precios de carro
 description: Aprenda a crear una regla de precios de carro de compras basada en el carro de compras o en los atributos del producto.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 4f6847208721514eade48356ec27a021ba4fb612
+source-git-commit: 968ccc5eed5b79be8c51b350d6394e358805ad93
 workflow-type: tm+mt
-source-wordcount: '2971'
+source-wordcount: '3302'
 ht-degree: 0%
 
 ---
@@ -219,7 +219,7 @@ Puede establecer una condición para una regla de precios de carro de compras ba
    | `Name` | Nombre de la audiencia como, por ejemplo, `Orders over $50` |
    | `Description` | Descripción de la audiencia, como `People who placed an order over $50 in the last month.`. |
    | `Source` | Indica la procedencia de la audiencia, como `Experience Platform`. |
-   | `Website` | Indica qué sitio web ha vinculado al conjunto de datos que contiene las audiencias. Este vínculo se crea al conectar la instancia de Commerce al Experience Platform a través de [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html) extensión. |
+   | `Website` | Indica qué sitio web ha vinculado al conjunto de datos que contiene las audiencias. Este vínculo se crea al conectar la instancia de Commerce al Experience Platform mediante el [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html) extensión. |
 
    {style="table-layout:auto"}
 
@@ -360,6 +360,31 @@ Vea este vídeo para obtener más información sobre la creación de reglas de p
 ### [!UICONTROL Conditions]
 
 Especifica las condiciones que deben cumplirse antes de que la regla de precios del carro de compras entre en acción. Si se deja en blanco, la regla se aplica a todos los productos del carro de compras. Las condiciones se pueden basar en cualquier combinación de atributos del carro de compras y del producto. Sin embargo, [opciones personalizables](../catalog/settings-advanced-custom-options.md) no se puede hacer referencia a en las condiciones de regla de precios de carrito.
+
+| Campo | Descripción |
+|--- |--- |
+| [!UICONTROL **Atributo de elemento de carrito**] |  |
+| [!UICONTROL Price in cart] | Precio del producto. La regla se aplica si se cumple el precio del producto en la condición del carro de compras. |
+| [!UICONTROL Quantity in cart] | Cantidad de productos. La regla se aplica si se cumple la cantidad de producto en la condición del carro de compras. |
+| [!UICONTROL Row total in cart] | Total de fila del producto. La regla se aplica si se cumple el total de filas de productos en la condición de carro de compras. |
+| [!UICONTROL **Atributo del producto**] |  |
+| [!UICONTROL Attribute Set] | Conjunto de atributos del producto. La regla se aplica si el producto cumple la condición de atributo del producto. |
+| [!UICONTROL Category] | Categoría de producto. La regla se aplica si el producto en sí o su producto secundario cumplen la condición de categoría. |
+| [!UICONTROL Category (Children Only)] | Categoría de producto secundaria. La regla se aplica si solo los productos secundarios cumplen la condición de categoría (el producto en sí no está marcado aquí). |
+| [!UICONTROL Category (Parent Only)] | Categoría de producto principal. La regla se aplica si solo el producto en sí cumple la condición de categoría (los productos secundarios no están marcados aquí). |
+| [!UICONTROL **Atributo de carrito**] |  |
+| [!UICONTROL Subtotal (Excl. Tax)] | Subtotal del carro de compras (impuestos no incluidos). La regla se aplica si el carro de compras cumple la condición de subtotal (impuestos excluidos). |
+| [!UICONTROL Subtotal (Incl. Tax)] | Subtotal del carro de compras (impuestos incluidos). La regla se aplica si el carro de compras cumple la condición de subtotal (impuestos incluidos). |
+| [!UICONTROL Subtotal] | Subtotal de carrito. La regla se aplica si el carro de compras cumple una condición de subtotal. El cheque incluye o excluye impuestos según la configuración de impuestos actual. |
+| [!UICONTROL Total Items Quantity] | Cantidad total de todos los productos del carro de compras. La regla se aplica si el carro de compras cumple una condición de cantidad de artículos totales. |
+| [!UICONTROL Total Weight] | Peso total de todos los productos en el carro de compras. La regla se aplica si el carro de compras cumple la condición de peso total. |
+| [!UICONTROL Payment Method] | Método de pago seleccionado al pagar. La regla se aplica si se cumple la condición de método de pago. |
+| [!UICONTROL Shipping Method] | Método de envío seleccionado al cerrar la compra. La regla se aplica si se cumple la condición del método de envío. |
+| [!UICONTROL Shipping Postcode] | Código postal de la dirección de envío. La regla se aplica si la dirección de envío cumple la condición de código postal. |
+| [!UICONTROL Shipping Region] | Región de dirección de envío. La regla se aplica si la dirección de envío cumple la condición de región. |
+| [!UICONTROL Shipping State/Province] | Estado o provincia de la dirección de envío. La regla se aplica si la dirección de envío cumple la condición de estado/provincia. |
+| [!UICONTROL Shipping Country] | País de la dirección de envío. La regla se aplica si la dirección de envío cumple la condición de país. |
+| [!UICONTROL Customer Segment] | La regla se aplica si un cliente registrado o invitado cumple la condición del segmento de cliente. |
 
 ### [!UICONTROL Actions]
 
