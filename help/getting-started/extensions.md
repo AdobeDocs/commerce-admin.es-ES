@@ -3,9 +3,9 @@ title: Extensiones desde el Adobe
 description: Revise la información sobre las extensiones para Adobe Commerce y Magento Open Source publicadas por Adobe.
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
-source-git-commit: c22ad5c3220f14588131d6b29a88dab3c5347681
+source-git-commit: 6414a7aea7dcbe0f2379ed74455518220a1fbd64
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Hay algunas extensiones que se instalan automáticamente con Adobe Commerce o Ma
 
 ### Braintree
 
-PayPal y Gene Commerce juntos desarrollaron la extensión oficial de Braintree para las tiendas de Commerce 2.4.x. Con una experiencia de pago y envío mejorada diseñada para impulsar la conversión, las actualizaciones incluyen opciones de PayAfter que muestran automáticamente mensajes y botones PayAfter relevantes a los consumidores mientras compran y durante el pago.
+PayPal y Gene Commerce desarrollaron conjuntamente la extensión oficial de Braintree para las tiendas Commerce 2.4.x. Con una experiencia de pago y envío mejorada diseñada para impulsar la conversión, las actualizaciones incluyen opciones de PayAfter que muestran automáticamente mensajes y botones PayAfter relevantes a los consumidores mientras compran y durante el pago.
 
 Esta extensión se instala de forma predeterminada, pero requiere un [cuenta de Braintree](https://www.braintreepayments.com/) Configuración de y en el Administrador que se activará en la tienda. Para determinar las tarifas aplicables al utilizar Braintree para procesar sus transacciones, consulte la [precio de Braintree](https://www.braintreepayments.com/braintree-pricing).
 
@@ -53,7 +53,7 @@ Estas funciones están habilitadas de forma predeterminada. Cada usuario adminis
 
 >[!NOTE]
 >
->Las tiendas Adobe Commerce que han habilitado la autenticación de Adobe de los servicios de Identity Management (IMS) para el administrador tienen Commerce 2FA nativo deshabilitado. Los usuarios que han iniciado sesión en el administrador con sus credenciales de Adobe no necesitan volver a autenticarse en muchas tareas de administración. La autenticación la gestiona Adobe IMS cuando el usuario administrador inicia sesión en su sesión actual. Consulte [Información general sobre la integración de Adobe Identity Management Service (IMS)](./adobe-ims-integration-overview.md).
+>Las tiendas de Adobe Commerce que han habilitado la autenticación de Adobe de los servicios de Identity Management (IMS) para el administrador tienen Commerce 2FA nativo deshabilitado. Los usuarios que han iniciado sesión en el administrador con sus credenciales de Adobe no necesitan volver a autenticarse en muchas tareas de administración. La autenticación la gestiona Adobe IMS cuando el usuario administrador inicia sesión en su sesión actual. Consulte [Información general sobre la integración de Adobe Identity Management Service (IMS)](./adobe-ims-integration-overview.md).
 
 ## Extensiones para añadir
 
@@ -83,18 +83,13 @@ El [!DNL Catalog Service] le permite ofrecer a los clientes una experiencia de p
 
 [!DNL Payment services] para Adobe Commerce y Magento Open Source es una solución de pago totalmente integrada que simplifica el proceso de gestión de pagos y ofrece a sus clientes la oportunidad de pagar a su manera. Concilie de forma segura todos los datos de pagos y transacciones dentro del administrador de Adobe Commerce, lo que le permite administrar pedidos y pagos en un solo lugar mientras realiza un cierre de compra sin problemas. Consulte la [[!DNL Payment Services] Guía del usuario](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html) para obtener más información.
 
-### [!DNL Quick Checkout]
-
-[!DNL Quick Checkout] para Adobe Commerce ofrece una experiencia de cierre de compra perfecta diseñada para convertir a los clientes que solo vienen una vez en titulares de cuentas fieles.
-Consulte la [[!DNL Quick Checkout] Guía del usuario](https://experienceleague.adobe.com/docs/commerce-merchant-services/quick-checkout/overview.html) para obtener más información.
-
 ### [!DNL Store Fulfillment]
 
 La satisfacción de pedidos de la tienda para Adobe Commerce y Magento Open Source permite una experiencia de cliente superior de compra en línea, recogida en tienda (BOPIS) y maximiza la productividad de los empleados al proporcionar un flujo de trabajo de satisfacción de pedidos completo habilitado a través de un dispositivo móvil. Consulte la [[!DNL Store Fulfillment] Guía del usuario](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/guide-overview.html) para obtener más información.
 
 ### [!DNL Amazon Sales Channel]
 
-El [!DNL Amazon Sales Channel] para Adobe Commerce permite integrar la base de datos de anuncios de la Central de vendedores de Amazon con su [!DNL Commerce] catálogo de productos y administre sus anuncios y ventas de Amazon en el Administrador de comercio. Consulte la [[!DNL Amazon Sales] Guía del usuario](https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html) para obtener más información.
+El [!DNL Amazon Sales Channel] para Adobe Commerce permite integrar la base de datos de anuncios de la Central de vendedores de Amazon con su [!DNL Commerce] catálogo de productos y administre sus anuncios y ventas de Amazon en el administrador de Commerce. Consulte la [[!DNL Amazon Sales] Guía del usuario](https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html) para obtener más información.
 
 ### [!DNL Channel Manager]
 
