@@ -7,8 +7,8 @@ breadcrumb-title: Documentación del comerciante
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
 source-git-commit: e64045a84f79a204450e6da71bcf9f7f72882403
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 1%
+source-wordcount: '1184'
+ht-degree: 0%
 
 ---
 
@@ -119,7 +119,7 @@ Magento Open Source es la base de código a la que Adobe contribuye oficialmente
 
 >[!TIP]
 >
->También puede revisar [novedades de la documentación de Commerce Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html#what%E2%80%99s-new) y [novedades en las guías de funcionamiento](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new).
+>También puede revisar [novedades de la documentación de servicios de Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html#what%E2%80%99s-new) y [novedades en las guías de funcionamiento](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new).
 
 | Descripción | Tipo | Fecha |
 | ----------- | ---- | ---- |
@@ -128,7 +128,7 @@ Magento Open Source es la base de código a la que Adobe contribuye oficialmente
 | **Versión 1.4.0 B2B** - El [Negociación de una cotización](../b2b/quote-price-negotiation.md), [Comillas negociables](../b2b/quotes.md), y [Activar funciones B2B](../b2b/enable-basic-features.md) Los temas se actualizan para reflejar los cambios en las ofertas iniciadas por el vendedor y las funciones predeterminadas. | Actualizar | 06/13/23 |
 | **Versión 2.2.0 de integración de Adobe IMS** - El [Desactivación de la integración de administración de Commerce con Adobe ID](../getting-started/adobe-ims-disable.md) El tema ahora se incluye en la _Guía de introducción_. Describe un procedimiento opcional para desactivar la integración de Adobe Commerce Admin con Adobe IMS. | Nuevo | 06/13/23 |
 | **Versión 2.2.0 de integración de Adobe IMS** - Cambios en la [Información general sobre la integración de Adobe Identity Management Service (IMS)](../getting-started/adobe-ims-integration-overview.md) y [Configuración de la integración de administración de Commerce con Adobe ID](../getting-started/adobe-ims-config.md) temas para reflejar la funcionalidad actualizada. | Actualizar | 06/13/23 |
-| **[!DNL Audience Activation]** - Se incluye información nueva, actualizada y mejorada en el [[!DNL Audience Activation]](../customers/audience-activation.md) tema para reflejar el [!DNL Experience Platform Connector] IU de configuración y cómo utilizar la instancia de Commerce sin encabezado con reglas de precios del carro de compras y bloques dinámicos. | Actualizar | 06/13/23 |
+| **[!DNL Audience Activation]** - Se incluye información nueva, actualizada y mejorada en el [[!DNL Audience Activation]](../customers/audience-activation.md) tema para reflejar el [!DNL Experience Platform Connector] IU de configuración y cómo utilizar una instancia de Commerce sin encabezado con reglas de precios del carro de compras y bloques dinámicos. | Actualizar | 06/13/23 |
 | **Desaprobación de API de UPS** - Se ha actualizado el [United Parcel Service (UPS)](../stores-purchase/ups.md) y el [Métodos de envío](../configuration-reference/sales/delivery-methods.md#ups) página de referencia de configuración para reflejar el desaprobación temporal de las API de UPS para generar nuevas claves de API. | Actualizar | 06/08/23 |
 | **Versión 2.4.6** - Se ha actualizado el [Lista de productos](../catalog/products-list.md) y [Referencia de configuración de administración](../configuration-reference/advanced/admin.md) temas para incluir información sobre las limitaciones de visualización de productos que se pueden utilizar para mejorar el rendimiento de los catálogos grandes. | Actualizar | 03/14/23 |
 | **Versión 2.4.6** - Se ha actualizado el [Crear y eliminar segmentos de clientes](../customers/customer-segment-create.md) y [Referencia de configuración del cliente](../configuration-reference/customers/customer-configuration.md) temas para incluir información sobre la validación en tiempo real de segmentos. | Actualizar | 03/14/23 |
@@ -138,7 +138,7 @@ Magento Open Source es la base de código a la que Adobe contribuye oficialmente
 | **Versión 2.4.6** - Se ha actualizado el [Notas de la versión de Inventory management](../inventory-management/release-notes.md) con una lista descriptiva de las correcciones incluidas en la última versión de la extensión empaquetada (v1.2.6). | Actualizar | 03/14/23 |
 | **Versión 2.4.6** - Se ha actualizado el [Notas de la versión B2B](../b2b/release-notes.md) con una lista descriptiva de las correcciones incluidas en la última versión de la extensión (v1.3.5). | Actualizar | 03/14/23 |
 | **Nuevo tema** - Se ha añadido el [Activación de audiencia](../getting-started/commerce-account-transfer.md) al tema de _Guía de administración de clientes_, que proporciona información detallada sobre la activación de audiencias de Real-Time CDP en Adobe Commerce. | Nuevo | 03/13/23 |
-| **Nuevo tema** - Se ha añadido el [Transferir una cuenta de Commerce](../getting-started/commerce-account-transfer.md) al tema de _Guía de introducción_. | Nuevo | 02/27/23 |
+| **Nuevo tema** - Se ha añadido el [Transferir una cuenta de Commerce](../getting-started/commerce-account-transfer.md) al tema de _Guía de introducción_. | Nuevo | 27/02/23 |
 
 {style="table-layout:auto"}
 

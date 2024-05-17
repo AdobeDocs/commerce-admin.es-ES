@@ -5,7 +5,7 @@ exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
 source-git-commit: fb075822e318073053cdf8cdd5cd9bb3a6343904
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Los servicios para Adobe Commerce son servicios alojados que proporcionan funcio
 
 ## Catálogos compartidos
 
-Los catálogos compartidos son los niveles de precios que permiten establecer precios personalizados por producto para distintas empresas en uno o varios sitios web. Mediante el uso de catálogos compartidos, puede vender productos aplicando diferentes niveles de precios para diferentes grupos de clientes. La compatibilidad con los catálogos compartidos solo está disponible para las tiendas comerciales configuradas para admitir cuentas de empresa.
+Los catálogos compartidos son los niveles de precios que permiten establecer precios personalizados por producto para distintas empresas en uno o varios sitios web. Mediante el uso de catálogos compartidos, puede vender productos aplicando diferentes niveles de precios para diferentes grupos de clientes. La compatibilidad con los catálogos compartidos solo está disponible para las tiendas Commerce configuradas para admitir cuentas de empresa.
 
 Para obtener más información, consulte [Uso de catálogos compartidos](catalog-shared.md).
 
@@ -68,7 +68,7 @@ Utilice la función Ofertas para iniciar la negociación de precios entre un com
 
 Los compradores y vendedores utilizan la oferta para gestionar el proceso de negociación (por ejemplo, añadiendo artículos, actualizando cantidades, solicitando y aplicando descuentos) hasta que lleguen a un acuerdo. El _Comillas_ En la cuadrícula Administrador se muestra cada presupuesto recibido y se mantiene un historial de la comunicación entre el comprador y el vendedor.
 
-La compatibilidad con ofertas negociables solo está disponible para las tiendas de comercio configuradas para admitir cuentas de compañía.
+La compatibilidad con ofertas negociables solo está disponible para tiendas Commerce configuradas para admitir cuentas de compañía.
 
 Para obtener más información, consulte [Comillas negociables](quotes.md).
 

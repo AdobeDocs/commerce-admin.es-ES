@@ -2,7 +2,8 @@
 title: Personalización a escala
 description: Descubra qué funciones de Adobe Commerce le permiten crear una experiencia personalizada para sus compradores.
 feature: Customers, Storefront, Personalization
-source-git-commit: a4eeda918adcb74ad5e7008b80eff703fa15e878
+exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
+source-git-commit: 5f40c98324c3033cdeb8a11e89a71497ced890b8
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 0%
@@ -92,7 +93,7 @@ Los siguientes eventos de perfil capturan datos que pueden ayudarle a responder 
 - [accountUpdated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
 - [accountDeleted](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
 
-Los datos de tienda, back office y perfil forman la base del contexto de cliente y pedido de Commerce, que le ayuda a saber qué productos están viendo sus clientes y, en última instancia, a comprar. A continuación, puede segmentar sus intereses y personalizar su experiencia. En la siguiente sección, aprenderá en qué tipos de experiencias personalizadas puede participar con sus compradores.
+Los datos de tienda, back office y perfil forman la base del contexto de pedido y cliente de Commerce, que le ayuda a saber qué productos están viendo sus clientes y, en última instancia, a comprar. A continuación, puede segmentar sus intereses y personalizar su experiencia. En la siguiente sección, aprenderá en qué tipos de experiencias personalizadas puede participar con sus compradores.
 
 ## Tipos de experiencias personalizadas
 
@@ -109,13 +110,13 @@ En las dos secciones siguientes, aprenderá a utilizar estos datos para crear ex
 
 ## Uso de datos de Commerce en Adobe Experience Platform
 
-Para crear una experiencia personalizada para sus compradores en todos los canales, envíe sus datos de comercio a Experience Platform Edge Network mediante el [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) extensión.
+Para crear una experiencia personalizada para los compradores en todos los canales, envíe los datos de Commerce al Edge Network del Experience Platform mediante el [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) extensión.
 
 ![Flujo de datos hasta el perímetro del Experience Platform](assets/commerce-edge.png){width="700" zoomable="yes"}
 
 En la imagen anterior, los datos de perfil de la tienda, el back office y el cliente se envían al perímetro del Experience Platform mediante un SDK, API y un conector de origen. No es necesario que comprenda completamente cómo funcionan estos fragmentos, ya que la extensión gestiona la complejidad del uso compartido de datos por usted. Cuando los datos de evento se encuentran en el perímetro de, puede extraer esos datos en otras aplicaciones de Experience Platform.
 
-La siguiente tabla resalta algunas de las aplicaciones Experience Platform disponibles y cómo utilizan esas aplicaciones los datos de Commerce.
+En la tabla siguiente se destacan algunas de las aplicaciones Experience Platform disponibles y cómo utilizan esas aplicaciones los datos de Commerce.
 
 | Experiencia | Aplicación | Uso de los datos de Commerce |
 |---|---|---|
@@ -124,13 +125,13 @@ La siguiente tabla resalta algunas de las aplicaciones Experience Platform dispo
 | **Ofertas y campañas** | [Adobe [!DNL Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started) | Los datos de comportamiento y de back-office de Adobe Commerce pueden servir de déclencheur para recorridos omnicanal personalizados, incluidas campañas de correo electrónico, SMS, notificaciones push y mucho más&#x200B; |
 | **Medición** | [Adobe [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/analyze/admin-overview/analytics-overview) y [Cliente [!DNL Journey Analytics]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) | Commerce envía datos de la tienda y del back-office al cliente [!DNL Journey Analytics] (y solo datos de tienda para el Adobe) [!DNL Analytics]) para permitir un análisis más completo más allá de las métricas básicas en Adobe Commerce Intelligence, como ingresos, productos y promociones&#x200B;. |
 
-Para obtener más información sobre cómo puede enviar los datos de Commerce al Experience Platform, consulte [Conexión de datos](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview).
+Para obtener más información sobre cómo enviar los datos de Commerce al Experience Platform, consulte [Conexión de datos](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview).
 
 ## Uso de datos de Commerce en funciones nativas de Commerce
 
 En la siguiente sección, aprenderá a utilizar funciones nativas de Commerce, como Product Recommendations y Live Search, para crear una experiencia de compra personalizada. También obtendrá información sobre una función llamada [!DNL Audience Activation], que utiliza datos de un producto disponible en el Experience Platform llamado Real-Time CDP, como se ha mencionado [anteriormente](#using-commerce-data-in-adobe-experience-platform). Aunque Real-Time CDP no es nativo de Commerce, su información se puede ingerir en Commerce a través del [[!DNL Audience Activation]](../customers/audience-activation.md) extensión.
 
-La siguiente tabla resalta las funciones de Commerce disponibles para convertir los datos de contexto de clientes y pedidos de Commerce en perspectivas procesables.
+En la tabla siguiente se destacan las funciones de Commerce disponibles para convertir los datos de contexto de pedidos y clientes de Commerce en perspectivas procesables.
 
 | Experiencia | Función | Descripción |
 |---|---|---|
