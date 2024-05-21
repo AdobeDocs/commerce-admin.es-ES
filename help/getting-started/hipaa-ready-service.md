@@ -1,11 +1,11 @@
 ---
 title: Preparación para HIPAA en Adobe Commerce
-description: Descubra cómo puede añadir el módulo Adobe Commerce HIPAA-Ready y obtener funciones y funcionalidades adicionales que le permiten cumplir con sus obligaciones HIPAA.
+description: Descubra cómo puede añadir la extensión compatible con HIPAA de Adobe Commerce y obtener funciones y funcionalidades adicionales que le permiten cumplir con sus obligaciones HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 7e132d66523feba579baf0bae14e1de9de4d6591
+source-git-commit: b7ce092f843992b1e4d0ca23981c70d854ded5f9
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1570'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,13 @@ La Ley de Portabilidad y Responsabilidad del Seguro de Salud (HIPAA, por sus sig
 
 ## Adobe Commerce compatible con HIPAA
 
-Adobe Commerce HIPAA-Ready cuenta con funciones y características adicionales que permiten a los comerciantes cumplir con sus respectivas obligaciones HIPAA.
+La extensión compatible con HIPAA de Adobe Commerce agrega funciones y funcionalidades adicionales a las instalaciones de Adobe Commerce que permiten a los comerciantes cumplir con sus respectivas obligaciones HIPAA.
 
-Adobe Commerce HIPAA-Ready se entrega como una extensión de Adobe Commerce, `magento/hipaa-ee` que está disponible para Adobe Commerce en proyectos de infraestructura en la nube o Adobe de Managed Services. El proceso de instalación de Adobe Commerce compatible con HIPAA deshabilita algunos servicios y funciones nativos para cumplir con los requisitos de HIPAA. Consulte [Servicios y funciones desactivados](#disabled-services-and-features).
+La extensión compatible con HIPAA de Adobe Commerce, `magento/hipaa-ee` está disponible para Adobe Commerce en proyectos de infraestructura en la nube o de Adobe Managed Services. El proceso de instalación de Adobe Commerce compatible con HIPAA deshabilita algunos servicios y funciones nativos para cumplir con los requisitos de HIPAA. Consulte [Servicios y funciones desactivados](#disabled-services-and-features).
+
+>[!NOTE]
+>
+>El acceso a las funciones y funcionalidades preparadas para HIPAA solo está disponible para los comerciantes que han adquirido el complemento de atención médica para Adobe Commerce.
 
 *Estos materiales están destinados únicamente a fines informativos. El suministro de esta información no da derecho al destinatario a ningún derecho contractual o de otro tipo. Si bien se han hecho esfuerzos para garantizar la exactitud de la información en la fecha en que se ha proporcionado, no se afirma que esa información sea exacta y completa. Adobe no se compromete a actualizar esta información a medida que cambie la ley o los productos del Adobe. Además, este documento no se debe distribuir a ninguna parte que no sea el destinatario deseado sin el consentimiento por escrito del Adobe.*
 
@@ -39,15 +43,16 @@ Adobe Commerce debe implementarse en Adobe Commerce en la infraestructura en la 
 
 ## Instalación
 
-Instale la última versión de la extensión de servicios preparados para HIPAA de Adobe (`magento/hipaa-ee`) en una instancia que ejecute Adobe Commerce versión 2.4.6-p3 o posterior. La extensión se entrega como un metapaquete de compositor desde el [repo.magento.com](https://repo.magento.com) repositorio.
+**Requisito previo**
 
 >[!BEGINSHADEBOX]
 
-**Requisito previo**
-
-Debe tener acceso a [repo.magento.com](https://repo.magento.com) para instalar la extensión de. Para obtener la generación de claves y los derechos necesarios, consulte [Obtener las claves de autenticación](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+- El Adobe ha aprovisionado su cuenta de Adobe Commerce para acceder a la extensión HIPAA Ready.
+- Acceso a [repo.magento.com](https://repo.magento.com) para instalar la extensión de. Para obtener la generación de claves y los derechos necesarios, consulte [Obtener las claves de autenticación](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
 
 >[!ENDSHADEBOX]
+
+Instale la última versión de la extensión de servicios preparados para HIPAA de Adobe (`magento/hipaa-ee`) en una instancia que ejecute Adobe Commerce versión 2.4.6-p3 o posterior. La extensión se entrega como un metapaquete de compositor desde el [repo.magento.com](https://repo.magento.com) repositorio. El metapaquete incluye la colección de módulos que habilitan las capacidades HIPAA para una instancia de Adobe Commerce.
 
 1. En la estación de trabajo local, cambie al directorio del proyecto para su proyecto de Adobe Commerce en la nube.
 
@@ -120,7 +125,7 @@ Una vez implementadas las actualizaciones, compruebe que la variable `Hipaa*` La
 
 ## Mejoras de funciones para la preparación para HIPAA
 
-El `magento/hipaa-ee` presenta algunos cambios y mejoras en el producto base de Commerce. Las secciones siguientes proporcionan detalles sobre estos cambios y cómo modifican el producto base.
+El `magento/hipaa-ee` La extensión de introduce algunos cambios y mejoras en el producto base de Commerce. Las secciones siguientes proporcionan detalles sobre estos cambios y cómo modifican el producto base.
 
 ### Registros de acciones
 
@@ -210,7 +215,7 @@ Para cumplir con los requisitos de HIPAA, algunos servicios y funciones compatib
    - Generador de aplicaciones
    - Servicio de catálogo
 
-- **[Servicio SendGrid](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**: este servicio está desactivado por defecto porque la aplicación no es compatible con HIPAA. Los comerciantes pueden enviar una solicitud de asistencia para habilitar Sendgrid, pero deben reconocer que asumen el riesgo de utilizar el servicio.
+- **[Servicio SendGrid](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**: este servicio está desactivado por defecto porque la aplicación no es compatible con HIPAA.
 
 ### Funciones desactivadas de forma predeterminada
 
