@@ -1,11 +1,11 @@
 ---
 title: Introducción a las promociones y comercialización de Commerce
-description: Conozca las herramientas de Commerce para crear promociones segmentadas y oportunidades para la participación de los clientes.
+description: Conozca las herramientas de Commerce para crear promociones segmentadas y oportunidades para la captación de clientes.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
 source-wordcount: '1094'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
