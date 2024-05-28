@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo ejecutar un análisis de seguridad
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 1f3173d17cc43227f7d44637f1ef0b62606cd0fd
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -22,31 +22,33 @@ El análisis de seguridad mejorado le permite supervisar cada uno de sus sitios 
 - Acceda a informes de seguridad históricos que rastrean y supervisan el progreso de sus sitios.
 - Acceda al informe de análisis que muestra las comprobaciones correctas y fallidas, con las acciones recomendadas.
 
-La herramienta de análisis de seguridad está disponible de forma gratuita en el panel de su [Cuenta de Commerce](../getting-started/commerce-account-create.md). Para obtener información técnica, consulte [Configurar el escáner de seguridad](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) en el _Guía de Commerce en la infraestructura de Cloud_.
+La herramienta de análisis de seguridad está disponible de forma gratuita en el panel de su [Cuenta de Commerce/Magento](../getting-started/commerce-account-create.md). Para obtener información técnica, consulte [Configurar el escáner de seguridad](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) en el _Guía de Commerce sobre infraestructura en la nube_.
 
 ![Herramienta de exploración de seguridad](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## Realizar un análisis de seguridad
 
-1. Vaya a la página de inicio de Commerce e inicie sesión en su [Cuenta de Commerce](../getting-started/commerce-account-create.md) y haga lo siguiente:
+1. En la página de inicio de Commerce, inicie sesión en su [Cuenta de Commerce/Magento](../getting-started/commerce-account-create.md).
+
+1. Revise y acepte las condiciones de uso de la herramienta de exploración Seguridad.
 
    - En el panel izquierdo, elija **[!UICONTROL Security Scan]**.
-   - Haga clic **[!UICONTROL Go to Security Scan]**.
+   - Clic **[!UICONTROL Go to Security Scan]**.
    - Lea el **[!UICONTROL Terms and Conditions]**.
    - Clic **[!UICONTROL Agree]** para continuar.
 
 1. En el _[!UICONTROL Monitored Websites]_página, haga clic en **[!UICONTROL +Add Site]**.
 
-   Si tiene varios sitios con dominios diferentes, debe configurar un análisis independiente para cada dominio.
+   Si tiene varios sitios con dominios diferentes, configure un análisis independiente para cada dominio.
 
    ![Sitios supervisados](./assets/monitored-website.png){width="600" zoomable="yes"}
 
 1. Para comprobar la propiedad del dominio del sitio agregando un código de confirmación, siga uno de estos procedimientos:
 
-   **Tienda de Commerce**:
+   **tienda de Commerce**:
 
    - Introduzca el **[!UICONTROL Site URL]** y **[!UICONTROL Site Name]**.
-   - Haga clic **[!UICONTROL Generate Confirmation Code]**.
+   - Clic **[!UICONTROL Generate Confirmation Code]**.
    - Clic **Copiar** para copiar el código de confirmación en el portapapeles.
 
      ![Generar código de confirmación](./assets/scan-site1.png){width="400" zoomable="yes"}
@@ -102,7 +104,7 @@ La herramienta de análisis de seguridad está disponible de forma gratuita en e
 
         Una vez completado el proceso de compilación, los cambios se implementarán en la tienda del PWA.
 
-1. Vuelva a la _[!UICONTROL Security Scan]_en su cuenta de Commerce y haga clic en **[!UICONTROL Verify Confirmation Code]**para establecer su propiedad del dominio.
+1. Vuelva a la _[!UICONTROL Security Scan]_en su cuenta de Commerce y haga clic en **[!UICONTROL Verify Confirmation Code]**para establecer la propiedad del dominio.
 
 1. Después de una confirmación correcta, configure el **[!UICONTROL Set Automatic Security Scan]** opciones para uno de los siguientes tipos:
 
@@ -126,6 +128,6 @@ La herramienta de análisis de seguridad está disponible de forma gratuita en e
 
 1. Cuando termine, haga clic en **[!UICONTROL Submit]**.
 
-   Una vez verificada la propiedad del dominio, el sitio aparece en la lista de sitios web supervisados de su cuenta de Commerce.
+   Una vez verificada la propiedad del dominio, el sitio aparece en la lista Sitios web supervisados de su cuenta de Commerce.
 
 1. Si tiene varios sitios web con dominios diferentes, repita este proceso para configurar un análisis de seguridad para cada uno.
