@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: d1079c8eac20c08a17af1f72bf49b6cb859c0699
+source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 El [!DNL Audience Activation] La extensión de permite activar audiencias de Real-Time CDP en Adobe Commerce para crear ofertas únicas en el carro de compras. Estas ofertas e incentivos incluyen técnicas comunes de comercialización en comercio electrónico, como _comprar 2 obtener 1 gratis_, banners promocionales dirigidos a ese cliente y precios de productos modificados a través de varias ofertas. Las audiencias creadas en Real-Time CDP se basan en datos de varios sistemas empresariales, como Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), puntos de venta y sistemas de marketing. Debido a que la información del segmento del cliente se actualiza constantemente, los clientes pueden asociarse y desasociarse de un segmento a medida que compran en su tienda.
 
-Puede activar audiencias en una tienda de Luma o [acéfalo](#headless-support) tienda. En una tienda de Luma, la información de audiencia (pertenencia a segmentos) se almacena en una cookie en el lado del comercio. En una tienda sin encabezado, la información de audiencia se pasa en el encabezado de la API de GraphQL como parámetro denominado: `aep-segments-membership`.
+Puede activar audiencias en una tienda de Luma o [acéfalo](#headless-support) tienda. En una tienda de Luma, la información de audiencia (pertenencia a segmentos) se almacena en una cookie en Commerce. En una tienda sin encabezado, la información de audiencia se pasa en el encabezado de la API de GraphQL como parámetro denominado: `aep-segments-membership`.
 
 ## Notas de la versión
 
@@ -144,7 +144,7 @@ composer require magento/audiences
 
 ### Configuración de la extensión
 
-Después de instalar el [!DNL Audience Activation] Con la extensión, debe iniciar sesión en su administrador de Commerce y completar lo siguiente:
+Después de instalar el [!DNL Audience Activation] Con la extensión, debe iniciar sesión en el administrador de Commerce y completar los pasos siguientes:
 
 1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL Commerce Services Connector]**.
 
@@ -173,6 +173,8 @@ Con el [!DNL Audience Activation] con la extensión habilitada, puede:
 - [Crear una regla de precios de carro](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) informado por audiencias
 - [Creación de un bloque dinámico](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informado por audiencias
 - [(**Beta**) Crear una regla de producto relacionada](../merchandising-promotions/product-related-rule-create.md) informado por audiencias
+
+Para obtener un caso de uso completo e integral sobre cómo exportar [!DNL Commerce] datos en Real-Time CDP, cree una audiencia y actívela para que [!DNL Commerce], consulte [Creación de una audiencia en Real-Time CDP con [!DNL Commerce] datos de evento](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
 
 ## Panel de audiencias de Real-Time CDP
 
@@ -306,7 +308,7 @@ Obtenga más información acerca de `dynamicBlocks` Consulta de GraphQL en [docu
 Puede recuperar audiencias de Real-Time CDP mediante el SDK para móviles de Adobe Experience Platform.
 
 1. [Instalar](#install-the-extension) la extensión de Audience Activation.
-1. [instalar y configurar el SDK para su sitio de Mobile Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
+1. [instalar y configurar el SDK para su sitio de Commerce móvil](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >
@@ -340,7 +342,7 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 }
 ```
 
-Una vez recuperados los datos, puede utilizarlos para crear audiencias informadas [reglas de precios de carrito](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences), [bloques dinámicos](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) y  [reglas de producto relacionadas](../merchandising-promotions/product-related-rule-create.md) en la aplicación Commerce.
+Una vez recuperados los datos, puede utilizarlos para crear audiencias informadas [reglas de precios de carrito](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences), [bloques dinámicos](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) y  [reglas de producto relacionadas](../merchandising-promotions/product-related-rule-create.md) en la aplicación de Commerce.
 
 ## Las audiencias no se muestran en Commerce
 
