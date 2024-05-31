@@ -5,9 +5,9 @@ breadcrumb-title: "[!DNL B2B for Adobe Commerce]"
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: fb075822e318073053cdf8cdd5cd9bb3a6343904
+source-git-commit: 3b282f7ead80bb7b01046137c9c7127f92b8726c
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '144'
 ht-degree: 6%
 
 ---
@@ -61,3 +61,5 @@ ht-degree: 6%
    + [Información general](requisition-lists.md)
    + [Configuración del máximo de lista](configure-requisition-lists.md)
    + [[!UICONTROL My Requisition Lists]](account-dashboard-requisition-lists-manage.md)
++ Referencia {#reference}
+   + [Paquetes](packages.md)
