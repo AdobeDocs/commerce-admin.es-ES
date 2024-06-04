@@ -1,9 +1,9 @@
 ---
 title: Fragmentos
 description: Se han reutilizado notas y elementos visuales para anotar una función o página que se aplica a una edición específica
-source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 ## Función exclusiva de B2B {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Función B2B para Adobe Commerce" src="../assets/b2b.svg" width="20" height="20" /> Función exclusiva disponible solo con <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">B2B para Adobe Commerce</a></td></tr>
+<tr><td><img alt="Función Adobe Commerce B2B" src="../assets/b2b.svg" width="20" height="20" /> Función exclusiva disponible solo con <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">Adobe Commerce B2B</a></td></tr>
 </table>
 
 ## Función de solo CE {#ce-feature}
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Los comerciantes de Adobe Commerce que tengan un Adobe ID y deseen un inicio de sesión optimizado en los productos de Adobe Commerce y Adobe Business pueden integrar la autenticación de Commerce Admin con el flujo de trabajo de autenticación de IMS de Adobe. Una vez habilitada esta integración en la tienda de Commerce, los usuarios administradores deben usar sus credenciales de Adobe para iniciar sesión, no sus credenciales de cuenta de Commerce. Consulte [Información general sobre la integración de Adobe Commerce con Adobe IMS](/help/getting-started/adobe-ims-integration-overview.md).
+>Los comerciantes de Adobe Commerce que tengan un Adobe ID y deseen un inicio de sesión optimizado en los productos de Adobe Commerce y Adobe Business pueden integrar la autenticación de Commerce Admin con el flujo de trabajo de autenticación IMS de Adobe. Una vez habilitada esta integración en la tienda Commerce, los usuarios administradores deben usar sus credenciales de Adobe (no las de su cuenta de Commerce) para iniciar sesión. Consulte [Información general sobre la integración de Adobe Commerce con Adobe IMS](/help/getting-started/adobe-ims-integration-overview.md).
 
 ## Nota de las API GTag {#gtag-api-note}
 
@@ -77,7 +77,7 @@ Para acceder a las opciones de configuración de la tienda, elija **[!UICONTROL 
 |----------------------- | ----------- |
 | [Documentación de Adobe Commerce 2.4 Merchant](../landing/home.md) | Documentación centrada en el comerciante para Adobe Commerce |
 | [Servicios para la documentación de Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Documentación para ofrecer compatibilidad con una colección de servicios que ayudan a los comerciantes a integrar componentes clave de su negocio en su tienda. |
-| [Guía de Commerce en la infraestructura de Cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Procedimientos paso a paso para implementar Adobe Commerce en una plataforma en la nube administrada y automatizada. |
+| [Guía de Commerce sobre infraestructura en la nube](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Procedimientos paso a paso para implementar Adobe Commerce en una plataforma en la nube administrada y automatizada. |
 | [Guías operativas de Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Documentación del sistema sobre los conceptos, procesos, herramientas y prácticas recomendadas para desarrollar, implementar y mantener proyectos de Adobe Commerce. |
 | [Documentación para desarrolladores de Adobe Commerce 2.4](https://developer.adobe.com/commerce/docs) | Documentación centrada en el desarrollador que se utiliza para personalizar Adobe Commerce e integrarla con sistemas de terceros |
 

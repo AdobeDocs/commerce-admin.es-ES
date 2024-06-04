@@ -4,9 +4,9 @@ description: Obtenga información sobre la creación de catálogos compartidos y
 exl-id: 969c352c-ff88-4902-8347-334ee8b79afb
 feature: B2B, Companies, Catalog Management
 role: Admin
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Si tiene una instalación multisitio, asegúrese de configurar el alcance del pr
 
    ![Precios de catálogo](../configuration-reference/catalog/assets/catalog-price.png){width="600" zoomable="yes"}
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
 ## Paso 1: Creación del catálogo compartido
 
@@ -131,7 +131,7 @@ Para ver una demostración de la administración de catálogos compartidos, vea 
 | Campo | Descripción |
 |--- |--- |
 | [!UICONTROL Name] | Identifica el catálogo compartido en todo el administrador y en las cuentas de cliente donde está disponible. El nombre del catálogo debe ser descriptivo y no debe tener más de 32 caracteres de longitud. No puede tener dos catálogos compartidos con el mismo nombre. Número máximo de caracteres: 32 |
-| [!UICONTROL Type] | **[!UICONTROL Custom]** : identifica un catálogo con precios personalizados que solo está disponible para las empresas específicas a las que está asignado.<br/>**[!UICONTROL Public]**: identifica el catálogo compartido que está disponible para todos los visitantes invitados y para los clientes que iniciaron sesión y que no están asociados a una compañía. Se crea un catálogo compartido público predeterminado al [!DNL B2B for Adobe Commerce] está instalado, pero debe configurarlo un administrador de almacén. Solo puede existir un catálogo compartido público a la vez. |
+| [!UICONTROL Type] | **[!UICONTROL Custom]** : identifica un catálogo con precios personalizados que solo está disponible para las empresas específicas a las que está asignado.<br/>**[!UICONTROL Public]**: identifica el catálogo compartido que está disponible para todos los visitantes invitados y para los clientes que iniciaron sesión y que no están asociados a una compañía. Se crea un catálogo compartido público predeterminado al [!DNL Adobe Commerce B2B] está instalado, pero debe configurarlo un administrador de almacén. Solo puede existir un catálogo compartido público a la vez. |
 | [!UICONTROL Customer Tax Class] | Determina la clase de impuesto que se utiliza para las compras realizadas desde el catálogo. Las opciones incluyen todas las clases de impuestos disponibles. |
 | [!UICONTROL Description] | Una breve explicación de cómo se va a utilizar el catálogo. |
 

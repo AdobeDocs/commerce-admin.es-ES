@@ -3,9 +3,9 @@ title: ¿Qué es Adobe Commerce?
 description: Adobe Commerce es una plataforma de comercio electrónico empresarial. Infórmese sobre las últimas funciones que impulsan el crecimiento de los equipos de comercio electrónico a nivel mundial.
 mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
-source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '3322'
+source-wordcount: '3320'
 ht-degree: 0%
 
 ---
@@ -99,8 +99,8 @@ Ambas funcionalidades serán compatibles con la arquitectura de tienda nativa de
 >[!TIP]
 >Para obtener más información acerca de las funcionalidades de B2B Commerce, lea nuestra documentación:
 >
->- [Guía del usuario de B2B para Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview)
->- [Guía para desarrolladores de B2B para Adobe Commerce](https://developer.adobe.com/commerce/webapi/rest/b2b/)
+>- [Guía del usuario de Adobe Commerce B2B](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview)
+>- [Guía para desarrolladores de Adobe Commerce B2B](https://developer.adobe.com/commerce/webapi/rest/b2b/)
 
 ### Servicios de pago para Adobe Commerce
 

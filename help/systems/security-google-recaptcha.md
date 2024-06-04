@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo configurar Google reCAPTCHA para e
 exl-id: c3b53702-0882-4ac4-9cf5-39fefc90005e
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Google reCAPTCHA se configura por separado para el administrador y la tienda.
 
-- Para el administrador, Google reCAPTCHA se puede utilizar en la [Iniciar sesión](../getting-started/admin-signin.md) y cuando un usuario solicita un restablecimiento de contraseña. Si el estándar de comercio [CAPTCHA](security-captcha.md) también está habilitado, Google reCAPTCHA se puede utilizar al mismo tiempo sin ningún problema.
+- Para el administrador, Google reCAPTCHA se puede utilizar en la [Iniciar sesión](../getting-started/admin-signin.md) y cuando un usuario solicita un restablecimiento de contraseña. Si el Commerce estándar [CAPTCHA](security-captcha.md) también está habilitado, Google reCAPTCHA se puede utilizar al mismo tiempo sin ningún problema.
 
 - Para la tienda, se puede utilizar Google reCAPTCHA para iniciar sesión en un [cuenta de cliente](../customers/customer-sign-in.md), envíe un mensaje desde el [Contáctenos.](../getting-started/store-details.md#contact-us-form) y en muchas otras ubicaciones de tiendas.
 
@@ -160,7 +160,7 @@ Google reCAPTCHA requiere un par de claves API para habilitarlo. Puede obtener e
    - [!UICONTROL Enable for Forgot Password]
    - [!UICONTROL Enable for Create New Customer Account]
    - [!UICONTROL Enable for Edit Customer Account]
-   - [!UICONTROL Enable for Create New Company Account] ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponible con B2B solo para Adobe Commerce)
+   - [!UICONTROL Enable for Create New Company Account] ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible solo con Adobe Commerce B2B)
    - [!UICONTROL Enable for Contact Us]
    - [!UICONTROL Enable for Product Review]
    - [!UICONTROL Enable for Newsletter Subscription]

@@ -3,9 +3,9 @@ title: Ámbito de cuenta de cliente
 description: El ámbito de las cuentas de cliente puede limitarse al sitio web en el que se creó la cuenta o compartirse con todos los sitios web y tiendas de la jerarquía de tiendas.
 exl-id: c401bee2-763e-4fad-88cd-5d5a43c46186
 feature: Customers, Configuration
-source-git-commit: 2541b2d55516e2a9c824825100c8348d81201ca9
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 El encabezado de cada página de la tienda extiende una invitación a los compradores para que _Iniciar sesión o registrarse_ para obtener una cuenta en su tienda. Los clientes que abren una cuenta de disfrutan de una serie de ventajas, entre las que se incluyen:
 
 * **Crear cuenta de cliente** - Los visitantes pueden crear una cuenta de cliente para que puedan usar la tienda como cliente registrado.
-* **Crear una cuenta de empresa** Según la configuración, un visitante de la tienda puede elegir crear una cuenta de empresa. Para obtener más información, consulte [B2B para Adobe Commerce](../b2b/introduction.md).
+* **Crear una cuenta de empresa** Según la configuración, un visitante de la tienda puede elegir crear una cuenta de empresa. Para obtener más información, consulte [Adobe Commerce B2B](../b2b/introduction.md).
 * **Cierre más rápido** — Los clientes registrados pasan el proceso de cierre de compra más rápido porque gran parte de la información ya está en sus cuentas.
 * **Autoservicio** — Los clientes registrados pueden actualizar su información, comprobar el estado de los pedidos e incluso reordenar desde sus cuentas.
 

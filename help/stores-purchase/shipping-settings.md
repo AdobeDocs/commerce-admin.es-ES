@@ -3,9 +3,9 @@ title: Configuración de envío
 description: Aprenda a configurar las opciones de envío que definen el punto de origen y la política de envío de su tienda.
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ El punto de origen se utiliza para calcular el cargo por los envíos realizados 
    - [!UICONTROL City]
    - [!UICONTROL Street Address] (y la línea 2, si es necesario)
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
 ## Política de envío
 
@@ -58,7 +58,7 @@ Para mostrar la política de envío durante el cierre de compra, complete Parám
 
    ![Parámetros de política de envío](../configuration-reference/sales/assets/shipping-settings-shipping-policy-parameters.png){width="600" zoomable="yes"}
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
 ## Varias direcciones
 
@@ -76,8 +76,8 @@ Las opciones de envío de varias direcciones permiten a los clientes enviar un p
 
 1. Introduzca el **[!UICONTROL Maximum Qty Allowed for Shipping to Multiple Addresses]**.
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
 >[!NOTE]
 >
->![B2B para Adobe Commerce](../assets/b2b.svg) (B2B para Adobe Commerce) Para pedidos con varias direcciones de envío, la variable [Pago a cuenta](../b2b/enable-basic-features.md#configure-payment-on-account) el método de pago, incluso si está activado, no está disponible durante el proceso de pago.
+>![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B) Para pedidos con varias direcciones de envío, la variable [Pago a cuenta](../b2b/enable-basic-features.md#configure-payment-on-account) el método de pago, incluso si está activado, no está disponible durante el proceso de pago.

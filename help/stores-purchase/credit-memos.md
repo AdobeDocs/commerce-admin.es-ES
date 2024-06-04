@@ -3,9 +3,9 @@ title: Notas de abono
 description: Obtenga información sobre los abonos y cómo se utilizan para emitir un reembolso parcial o completo.
 exl-id: dc2faf86-0182-4661-9543-bc6e00e06dbf
 feature: Orders, Invoices, Returns
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,8 @@ Puede reembolsar pedidos de tres formas:
 
 - Crédito de cuenta: los pedidos pagados mediante una cuenta de crédito se pueden reembolsar como un crédito de cuenta:
    - ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) [Crédito de tienda](../customers/store-credit-using.md)
-   - ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponible con B2B para Adobe Commerce) [Pago a cuenta](../b2b/enable-basic-features.md#configure-payment-on-account) (método sin conexión)
-   - ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponible con B2B para Adobe Commerce) [Crédito de empresa](../b2b/credit-company.md)
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible con Adobe Commerce B2B) [Pago a cuenta](../b2b/enable-basic-features.md#configure-payment-on-account) (método sin conexión)
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible con Adobe Commerce B2B) [Crédito de empresa](../b2b/credit-company.md)
 - [Reembolso en línea](payments.md#online-payment-methods)—Los pedidos pagados con tarjeta de crédito a través de una pasarela de pago, como PayPal o Braintree, se reembolsan en línea a través del procesador de pagos.
 - [Reembolso sin conexión](payments.md#offline-payment-methods)—Pedidos pagados por Pago contra reembolso ([COD](cash-on-delivery.md)) o por [cheque o giro postal](check-money-order.md) se reembolsan sin conexión.
 

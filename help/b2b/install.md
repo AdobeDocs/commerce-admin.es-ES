@@ -1,20 +1,20 @@
 ---
-title: Instale el [!DNL B2B for Adobe Commerce] extensión
-description: Obtenga información sobre cómo instalar el [!DNL B2B for Adobe Commerce] metapaquete.
+title: Instale el [!DNL Adobe Commerce B2B] extensión
+description: Obtenga información sobre cómo instalar el [!DNL Adobe Commerce B2B] metapaquete.
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: e57aa4e8919c2de5341c4b8363197d6380bbb0f6
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
 
 
-# Instale el [!DNL B2B for Adobe Commerce] extensión
+# Instale el [!DNL Adobe Commerce B2B] extensión
 
-La extensión B2B para Adobe Commerce solo está disponible para Adobe Commerce v2.2.0 o posterior. Se instala después de instalar Adobe Commerce.
+La extensión Adobe Commerce B2B solo está disponible para Adobe Commerce v2.2.0 o posterior. Se instala después de instalar Adobe Commerce.
 
 Instale la versión más reciente de la extensión B2B compatible con la versión de Adobe Commerce implementada.
 
@@ -81,7 +81,7 @@ Después de completar la instalación, configure e inicie los consumidores de me
 
 ## Consumidores de mensajes
 
-La extensión B2B para Adobe Commerce utiliza MySQL para la administración de colas de mensajes. En la tabla siguiente se enumeran los consumidores de mensajes que admiten las capacidades B2B. Después de instalar la extensión, inicie los consumidores de mensajes para las funciones B2B necesarias para su tienda de Commerce.
+La extensión Adobe Commerce B2B utiliza MySQL para la administración de colas de mensajes. En la tabla siguiente se enumeran los consumidores de mensajes que admiten las capacidades B2B. Después de instalar la extensión, inicie los consumidores de mensajes para las funciones B2B necesarias para su tienda de Commerce.
 
 | Consumidor | Descripción |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -154,4 +154,4 @@ También puede configurar programaciones para consumidores de mensajes desde el 
 
 ## Habilitar funciones B2B en el administrador
 
-Después de instalar la extensión B2B para Adobe Commerce e iniciar los consumidores de mensajes, también debe [habilitar las funciones B2B en el administrador](enable-basic-features.md).
+Después de instalar la extensión Adobe Commerce B2B e iniciar los consumidores de mensajes, también debe [habilitar las funciones B2B en el administrador](enable-basic-features.md).

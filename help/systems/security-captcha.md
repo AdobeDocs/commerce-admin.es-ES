@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo configurar CAPTCHA para el acceso 
 exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Para obtener un nivel adicional de seguridad, puede agregar un CAPTCHA a la pág
 
 1. En la esquina superior derecha, establezca **[!UICONTROL Store View]** hasta `Default`.
 
-   Si la variable [ámbito](../getting-started/websites-stores-views.md#scope-settings) de la instalación de Commerce incluye varios sitios web, elija los sitios web donde desea aplicar la configuración de CAPTCHA.
+   Si la variable [ámbito](../getting-started/websites-stores-views.md#scope-settings) Una vez que la instalación de Commerce incluya varios sitios web, elija los sitios web donde desea aplicar la configuración de CAPTCHA.
 
 1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL CAPTCHA]** sección.
 
@@ -41,7 +41,7 @@ Para obtener un nivel adicional de seguridad, puede agregar un CAPTCHA a la pág
 
    - Introduzca el nombre del **[!UICONTROL Font]** para utilizar con símbolos CAPTCHA (predeterminado: `LinLibertine`).
 
-     Para añadir su propia fuente, el archivo de fuente debe residir en el mismo directorio que la instalación de Commerce y debe declararse en la `config.xml` del módulo Captcha en `app/code/Magento/Captcha/etc`.
+     Para agregar su propia fuente, el archivo de fuentes debe residir en el mismo directorio que la instalación de Commerce y debe declararse en la variable `config.xml` del módulo Captcha en `app/code/Magento/Captcha/etc`.
 
    - Seleccione cualquiera de las siguientes opciones **[!UICONTROL Forms]** dónde se va a utilizar el CAPTCHA. Para elegir varios formularios, mantenga pulsada la tecla Ctrl (PC) o la tecla Comando (Mac).
 
@@ -85,7 +85,7 @@ Se puede requerir que los clientes introduzcan un CAPTCHA cada vez que inicien s
 
    - Introduzca el nombre del **[!UICONTROL Font]** para utilizar con los símbolos CAPTCHA (predeterminado: `LinLibertine`).
 
-     Para añadir su propia fuente, el archivo de fuente debe residir en el mismo directorio que la instalación de Commerce y debe declararse en la `config.xml` del módulo CAPTCHA.
+     Para agregar su propia fuente, el archivo de fuentes debe residir en el mismo directorio que la instalación de Commerce y debe declararse en la variable `config.xml` del módulo CAPTCHA.
 
    - Seleccione cualquiera de las siguientes opciones **[!UICONTROL Forms]** dónde se va a utilizar el CAPTCHA. Para elegir varios formularios, mantenga pulsada la tecla Ctrl (PC) o la tecla Comando (Mac).
 
@@ -100,7 +100,7 @@ Se puede requerir que los clientes introduzcan un CAPTCHA cada vez que inicien s
       - `Payflow Pro` (consulte [parche de seguridad](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) _Base de conocimiento_ article)
       - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source)
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce)
-      - `Create company` ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponible con B2B solo para Adobe Commerce)
+      - `Create company` ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible solo con Adobe Commerce B2B)
 
    - Establecer **[!UICONTROL Displaying Mode]** a uno de los siguientes:
 

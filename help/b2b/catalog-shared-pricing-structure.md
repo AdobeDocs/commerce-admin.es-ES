@@ -1,12 +1,12 @@
 ---
 title: Establecer estructura y precios de catálogo compartido
-description: Con B2B para Adobe Commerce, obtenga información sobre la configuración de los precios y la estructura de un catálogo compartido.
+description: Con Adobe Commerce B2B, obtenga información sobre la configuración de los precios y la estructura de un catálogo compartido.
 exl-id: 67caf56f-1b31-44bb-98dc-ea6ea7d8a4d5
 feature: B2B, Companies, Catalog Management
 role: Admin
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Solo aparecen en la lista las categorías con productos seleccionados [navegaci�
 
    Los ajustes de categoría que realice no se registrarán permanentemente en la base de datos hasta que se guarde la configuración. Sin embargo, se guardan temporalmente a medida que trabaja en la estructura y los precios.
 
-1. Haga clic **[!UICONTROL Next]**.
+1. Clic **[!UICONTROL Next]**.
 
    ![Seleccionar productos para el catálogo](./assets/shared-catalog-select-products-step-1.png){width="600" zoomable="yes"}
 

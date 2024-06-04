@@ -3,9 +3,9 @@ title: Alcance del precio
 description: Obtenga información acerca del ámbito utilizado para los precios de los productos, que se pueden configurar para aplicarse a nivel global o de sitio web.
 exl-id: 3726b16b-4ed5-4286-a7fd-69ed6677f87a
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ El ámbito de la [divisa base](../stores-purchase/currency-configuration.md) que
 
 Diferentes factores pueden afectar el precio del mismo producto en una ubicación y no en otra. Por ejemplo, puede haber costes de distribución adicionales para el producto y otras consideraciones que afectan al precio de los productos vendidos en una tienda específica. El diagrama siguiente muestra una instalación de varios sitios con la moneda base establecida en el nivel de sitio web. Las tiendas y vistas de las tiendas asociadas a cada sitio web reflejan los precios de los productos establecidos en el nivel del sitio web.
 
-![B2B para Adobe Commerce](../assets/b2b.svg) Si utiliza catálogos compartidos, consulte también [Establecer estructura y precios de catálogo compartido](../b2b/catalog-shared-pricing-structure.md) en el _Guía de B2B para Adobe Commerce_.
+![Adobe Commerce B2B](../assets/b2b.svg) Si utiliza catálogos compartidos, consulte también [Establecer estructura y precios de catálogo compartido](../b2b/catalog-shared-pricing-structure.md) en el _Guía B2B de Adobe Commerce_.
 
 ![Diagrama del ámbito del precio](./assets/catalog-price-scope.svg){width="550"}
 

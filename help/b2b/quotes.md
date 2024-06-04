@@ -3,9 +3,9 @@ title: Comillas negociables
 description: Obtenga información sobre los flujos de trabajo de presupuestos y cómo puede proporcionar este servicio a las cuentas de su empresa.
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-source-git-commit: 27b0c43f72faa2c2e8717fd5929f36d12f9e1b08
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Durante el proceso de negociación, la oferta sólo puede ser actualizada por la
 
 Las ofertas negociables solo están disponibles si Adobe Commerce tiene las siguientes opciones de configuración:
 
-- [Se instala la extensión B2B para Adobe Commerce](install.md)
+- [Se instala la extensión Adobe Commerce B2B](install.md)
 - [Funciones B2B configuradas](enable-basic-features.md)
    - Habilitar cuentas de empresa
    - Activar presupuesto B2B
@@ -134,7 +134,7 @@ Solo solicitudes de presupuesto con un `Open` el estado puede ser rechazado.
 |----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Send] | Envía el presupuesto actualizado como respuesta a la pregunta del comprador. Este botón está desactivado si el vendedor está esperando una respuesta del comprador. |
 | [!UICONTROL Back] | Vuelve a la _Comillas_ página sin guardar los cambios. |
-| [!UICONTROL Create Copy] | [!BADGE Funciones beta 1.5.0]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponible solo para participantes del programa beta"}`<original quote name> (copy)`. Cambie el nombre editando el valor en la variable [!UICONTROL Name] y guardando la oferta como borrador. |
+| [!UICONTROL Create Copy] | [!BADGE Funciones beta 1.5.0]{type=Informative url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;Disponible solo para participantes de programas beta&quot;} Cree una nueva cotización a partir de la cotización actual copiándola y renombrándola. Cuando se abre la nueva oferta, el nombre predeterminado es `<original quote name> (copy)`. Cambie el nombre editando el valor en la variable [!UICONTROL Name] y guardando la oferta como borrador. |
 | [!UICONTROL Print] | Envía el presupuesto a una impresora o lo guarda como archivo de PDF. |
 | [!UICONTROL Create a copy] | Crea una copia de la oferta denominada `<original quote name> (copy)` y lo abre. Cambia el nombre del nuevo presupuesto y actualízalo según sea necesario antes de guardarlo como borrador o enviarlo al comprador. |
 | [!UICONTROL Save as Draft] | Guarda los cambios realizados en el presupuesto, pero no lo devuelve al comprador. |

@@ -3,9 +3,9 @@ title: Ordenar por SKU
 description: Aprenda a configurar su tienda para que admita el pedido por SKU como comodidad para sus clientes.
 exl-id: cb39554f-ab76-46d5-8217-e43bc8f9f88d
 feature: Orders, Storefront, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,9 @@ _Ordenar por SKU_ es un [widget](../content-design/widgets.md) que se pueden mos
 
    ![Ordenar por configuración de SKU](../configuration-reference/sales/assets/sales-order-by-sku-settings.png){width="600" zoomable="yes"}
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
-![B2B para Adobe Commerce](../assets/b2b.svg) (B2B solo para Adobe Commerce) _**Para activar la función Ordenar por SKU, desactive la función Pedido rápido:**_
+![Adobe Commerce B2B](../assets/b2b.svg) (solo Adobe Commerce B2B) _**Para activar la función Ordenar por SKU, desactive la función Pedido rápido:**_
 
 1. Ir a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

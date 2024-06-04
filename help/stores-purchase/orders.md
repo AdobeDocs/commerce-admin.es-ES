@@ -3,9 +3,9 @@ title: Pedidos
 description: Obtenga información sobre el espacio de trabajo Pedidos y las funciones de búsqueda utilizadas para localizar pedidos en el administrador.
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1202'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ En la esquina superior derecha, haga clic _Columnas_ ( ![Configuración de colu
 
 1. Haga clic en **[!UICONTROL View]** ( ![Icono de ojo](../assets/icon-view-eye.png) ) control.
 
-1. Haga clic **[!UICONTROL Save Current View]**.
+1. Clic **[!UICONTROL Save Current View]**.
 
 1. Introduzca una **[!UICONTROL name]** para las vistas.
 
@@ -131,7 +131,7 @@ Columnas adicionales disponibles:
 | [!UICONTROL Payment Method] | El método de pago que se utilizará para el pedido. |
 | [!UICONTROL Total Refunded] | Cualquier importe del pedido que deba reembolsarse al cliente. |
 | [!UICONTROL Refunded to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce) Cualquier importe del pedido que se deba reembolsar al crédito de tienda del cliente. |
-| [!UICONTROL Company Name] | ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponible con B2B para Adobe Commerce) El nombre del [compañía](../b2b/account-companies.md) quién realizó el pedido. |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible con Adobe Commerce B2B) El nombre del [compañía](../b2b/account-companies.md) quién realizó el pedido. |
 
 {style="table-layout:auto"}
 
@@ -185,7 +185,7 @@ El cuadro Buscar de la parte superior izquierda de la cuadrícula Pedidos se pue
 
 ## Solución de problemas de recursos
 
-Para obtener ayuda sobre la resolución de problemas con pedidos, consulte los siguientes artículos de la Base de conocimiento de asistencia de Commerce:
+Para obtener ayuda sobre la resolución de problemas con los pedidos, consulte los siguientes artículos de la Base de conocimiento de asistencia de Commerce:
 
 - [Error de visualización de pedidos](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
 - [Error de 10415 de pedidos duplicados de PayPal](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.html)

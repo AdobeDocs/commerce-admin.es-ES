@@ -3,9 +3,9 @@ title: Configuración del carro
 description: Obtenga información acerca de las funciones del carro de compras que puede configurar para admitir la experiencia de compra en su tienda.
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '2445'
+source-wordcount: '2449'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ El vínculo se puede configurar para mostrar el número de productos diferentes 
    - Para **[!UICONTROL Number of Items to Display Scrollbar]**, introduzca el número de elementos que pueden aparecer en la barra lateral antes de activar la barra de desplazamiento.
    - Para **[!UICONTROL Maximum Display Recently Added Item(s)]**, introduzca el número máximo de elementos añadidos recientemente que desea que aparezcan en el minicarrito.
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
 ### Configuración del vínculo del carro de compras
 
@@ -86,7 +86,7 @@ El vínculo se puede configurar para mostrar el número de productos diferentes 
 
    ![Opciones de configuración para el vínculo Mi carro de compras](../configuration-reference/sales/assets/checkout-my-cart-link.png){width="600" zoomable="yes"}
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
 ## Redirigir al carro
 
@@ -111,11 +111,11 @@ La página del carro de compras se puede configurar para que aparezca cada vez q
    - `Yes` - Muestra la página del carro de compras inmediatamente después de agregar un producto al carro de compras.
    - `No` : deshabilita la redirección al carro de compras después de una adición de producto al carro de compras.
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
 ## Duración del presupuesto
 
-Con la instalación y activación de B2B para Adobe Commerce, puede añadir compatibilidad con _Comillas_ función. Esta capacidad permite a los compradores autorizados iniciar el proceso de negociación de precios enviando una solicitud desde el carro de compras. El _Comillas_ la cuadrícula muestra todas las ofertas recibidas y mantiene un historial de la comunicación entre el comprador y el vendedor. Para obtener más información sobre las funciones B2B, consulte [Comillas negociadas](../b2b/quotes.md) en el _Guía del usuario de B2B para Adobe Commerce_.
+Con la instalación y activación de Adobe Commerce B2B, puede añadir compatibilidad con _Comillas_ función. Esta capacidad permite a los compradores autorizados iniciar el proceso de negociación de precios enviando una solicitud desde el carro de compras. El _Comillas_ la cuadrícula muestra todas las ofertas recibidas y mantiene un historial de la comunicación entre el comprador y el vendedor. Para obtener más información sobre las funciones B2B, consulte [Comillas negociadas](../b2b/quotes.md) en el _Guía del usuario de Adobe Commerce B2B_.
 
 Puede determinar cuánto tiempo es válido un precio estableciendo la duración de la oferta del carro de compras en la configuración. Por ejemplo, si un comprador deja un carro de compras desatendido después de varios días, el precio de las cotizaciones de algunos artículos podría ya no ser el mismo. De forma predeterminada, la duración de la oferta se establece en 30 días.
 
@@ -135,7 +135,7 @@ Puede determinar cuánto tiempo es válido un precio estableciendo la duración 
 
 1. Para **[!UICONTROL Quote Lifetime (days)]**, introduzca el número de días que un precio cotizado sigue siendo válido.
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
 ## Cantidad mínima del pedido
 
@@ -189,7 +189,7 @@ La configuración le permite especificar una cantidad mínima, después de aplic
 
      Deje los campos de descripción del mensaje vacíos para utilizar los mensajes predeterminados.
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
 ## Cantidad mínima de pedido
 
@@ -211,7 +211,7 @@ Puede establecer la cantidad mínima permitida para un pedido. La cantidad míni
 
    - Para establecer el mismo límite de cantidad mínima para todos los clientes, mantenga `ALL GROUPS` seleccione e introduzca la variable **[!UICONTROL Minimum Qty]**.
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
    ![Requisito de cantidad mínima en el carro de compras](./assets/minimum-qty-allowed-in-shopping-cart.png){width="700" zoomable="yes"}
 
@@ -245,7 +245,7 @@ La imagen en miniatura de los productos agrupados y configurables se puede confi
    - `Product Thumbnail Itself` : Utiliza la miniatura asignada a la variación de producto que se agrega al carro de compras.
    - `Parent Product Thumbnail` - Utiliza la miniatura asignada al producto principal.
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
 ## Opciones de regalo
 
@@ -283,7 +283,7 @@ La configuración de Opciones de regalo se aplica a todo el sitio web, pero se p
 
 1. ![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce) Introduzca el **[!UICONTROL Default Price for Printed Card]**.
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
 ### Envoltorio para regalos
 
@@ -323,7 +323,7 @@ La imagen del envoltorio para regalos debe ser una muestra que muestre el patró
 
    Aparece una miniatura de la imagen en la _[!UICONTROL Gift Wrapping Information]_después de guardar el registro.
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 #### Editar un diseño de envoltorio para regalos
 
@@ -337,7 +337,7 @@ La imagen del envoltorio para regalos debe ser una muestra que muestre el patró
 
 1. Realice los cambios necesarios.
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 #### Eliminar diseños de envoltorio para regalos
 
@@ -357,7 +357,7 @@ Con el _Envoltorio para regalos_ cuadrícula abierta, utilice uno de estos méto
 
 1. Configure las variables **[!UICONTROL Actions]** control a `Delete`.
 
-1. Haga clic **[!UICONTROL Submit]**.
+1. Clic **[!UICONTROL Submit]**.
 
 ### Impuesto de opciones de regalo
 
@@ -393,4 +393,4 @@ El envoltorio para regalos y los precios de las tarjetas regalo impresas se pued
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.

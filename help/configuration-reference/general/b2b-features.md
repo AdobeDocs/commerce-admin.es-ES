@@ -1,12 +1,12 @@
 ---
 title: '[!UICONTROL General] &gt; [!UICONTROL B2B Features]'
-description: Revise la configuración de en [!UICONTROL General] &gt; [!UICONTROL B2B Features] de la administración de Commerce.
+description: Revise la configuración de en [!UICONTROL General] &gt; [!UICONTROL B2B Features] del Administrador de Commerce.
 exl-id: fc07a067-b92a-49c7-8512-2dfcc1c6ba0c
 feature: Configuration, B2B
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '342'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Con la instalación y activación de B2B para Adobe Commerce, la experiencia de compra se puede personalizar con funciones específicas de la compañía. B2B para Adobe Commerce es una solución integrada que admite modelos B2B y B2C. Para obtener más información sobre las funciones de B2B, consulte la [_Guía del usuario de B2B para Adobe Commerce_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Con la instalación y activación de Adobe Commerce B2B, la experiencia de compra se puede personalizar con funciones específicas de la empresa. Adobe Commerce B2B es una solución integrada que admite modelos B2B y B2C. Para obtener más información sobre las funciones de B2B, consulte la [_Guía del usuario de Adobe Commerce B2B_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 ## [!UICONTROL B2B Features]
 

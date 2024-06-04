@@ -3,9 +3,9 @@ title: Resumen de pagos
 description: Obtenga información acerca de los métodos y servicios de pago compatibles de forma nativa con Adobe Commerce y Magento Open Source.
 exl-id: 474bf6df-96e2-4db3-ad3c-1804b5de33b0
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Adobe Commerce y Magento Open Source incluyen varios métodos de pago sin conexi
 - [Pago de transferencia bancaria](bank-transfer.md)
 - [Cheque / giro postal](check-money-order.md)
 - [Pedido de compra](purchase-order.md)
-- [Pago a cuenta](../b2b/enable-basic-features.md#configure-payment-on-account) ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponible con B2B para Adobe Commerce)
+- [Pago a cuenta](../b2b/enable-basic-features.md#configure-payment-on-account) ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible con Adobe Commerce B2B)
 
 ## Métodos de pago en línea
 
@@ -78,7 +78,7 @@ Los servicios y filtros de protección contra el fraude examinan las solicitudes
 
 >[!NOTE]
 >
->Para admitir actualizaciones para el cumplimiento de la seguridad, la protección contra fraude Signifyd se elimina de Commerce a partir de la versión 2.4.0. Si ha estado utilizando la integración Signifyd en una versión 2.3.x o anterior, se recomienda realizar la transición a la versión [Extensión de protección contra fraudes y contracargos significativa](https://marketplace.magento.com/signifyd-module-connect.html){:target=&quot;_blank&quot;}. Asegúrese de mantener las actualizaciones de la extensión según las directrices del proveedor.
+>Para admitir actualizaciones de la conformidad con la seguridad, la protección contra fraudes significativa se elimina de Commerce a partir de la versión 2.4.0. Si ha estado utilizando la integración Signifyd en una versión 2.3.x o anterior, se recomienda realizar la transición a la versión [Extensión de protección contra fraudes y contracargos significativa](https://marketplace.magento.com/signifyd-module-connect.html){:target=&quot;_blank&quot;}. Asegúrese de mantener las actualizaciones de la extensión según las directrices del proveedor.
 
 ## Solución de problemas de recursos
 

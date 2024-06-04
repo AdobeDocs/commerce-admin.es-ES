@@ -3,9 +3,9 @@ title: Panel de cuenta del cliente
 description: Los clientes pueden administrar y supervisar su propia información y actividades desde su panel de cuenta del cliente.
 exl-id: 74d5b9ec-0630-4843-a88c-f881cb6cd957
 feature: Customers, Storefront
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Los clientes pueden administrar y supervisar su propia información y actividade
 
 >[!NOTE]
 >
-> Con la instalación y activación de B2B para Adobe Commerce, la experiencia de compra se puede personalizar con funciones específicas de la compañía. Se puede activar la gama completa de opciones de tablero de cuentas B2B (pedidos de compra, listas de solicitudes y ofertas negociadas) para los clientes asociados a una empresa. Para obtener más información sobre las funciones de B2B, consulte la [Guía del usuario de B2B para Adobe Commerce](../b2b/introduction.md).
+> Con la instalación y activación de Adobe Commerce B2B, la experiencia de compra se puede personalizar con funciones específicas de la empresa. Se puede activar la gama completa de opciones de tablero de cuentas B2B (pedidos de compra, listas de solicitudes y ofertas negociadas) para los clientes asociados a una empresa. Para obtener más información sobre las funciones de B2B, consulte la [Guía del usuario de Adobe Commerce B2B](../b2b/introduction.md).
 
 ![Tablero de la cuenta de la compañía en la tienda](assets/company-admin-account-dashboard.png){width="700" zoomable="yes"}
 
@@ -44,14 +44,14 @@ La siguiente tabla contiene información sobre todas las secciones disponibles e
 | ![Adobe Commerce](../assets/adobe-logo.svg) [**[!UICONTROL Reward Points]**](../merchandising-promotions/rewards-loyalty.md) | Enumera todos los puntos de recompensa que el cliente ha obtenido y que pueden aplicarse a las compras. |
 | ![Adobe Commerce](../assets/adobe-logo.svg) [**[!UICONTROL Gift Registry]**](../merchandising-promotions/gift-registries.md) | Se utiliza para enumerar y mantener registros de regalos, así como para agregar otros nuevos. |
 | ![Adobe Commerce](../assets/adobe-logo.svg) [**[!UICONTROL My Invitations]**](../merchandising-promotions/invitations.md) | Muestra todas las invitaciones que el cliente ha creado y enviado para eventos programados. |
-| ![B2B para Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL My Purchase Orders]**](../b2b/account-dashboard-my-purchase-orders.md) | (Solo empresas) Enumera todos los pedidos de compra enviados o controlados por el cliente, con un vínculo a información detallada. |
-| ![B2B para Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL My Quotes]**](../b2b/account-dashboard-my-quotes.md) | (Solo empresas) Enumera todas las ofertas enviadas por el cliente, con un vínculo a información detallada. |
-| ![B2B para Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL My Requisition Lists]**](../b2b/account-dashboard-requisition-lists-manage.md) | (Solo Compañías) Mantiene todas las listas de solicitudes creadas por el cliente. |
-| ![B2B para Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Company Profile]**](../b2b/account-company-manage.md#update-a-company-profile) | (Solo empresas) Un administrador designado de la empresa puede administrar la información de la empresa, incluidos el nombre y la dirección de la empresa, la información de contacto del administrador de la empresa y la información de pago. |
-| ![B2B para Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Company Credit]**](../b2b/credit-company.md#storefront-credit-information) | (Solo compañías) Muestra el saldo pendiente actual, el crédito disponible y el límite de crédito asignado a la cuenta, seguido de una lista de facturas pendientes. La sección Crédito de la compañía aparece en el panel de control solo cuando [Pago a cuenta](../b2b/enable-basic-features.md#configure-payment-on-account) está habilitado en la configuración de. |
-| ![B2B para Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Company Structure]**](../b2b/account-company-structure.md) | (Solo compañías) Utilizado por el administrador de la compañía para definir la estructura empresarial de la compañía. |
-| ![B2B para Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Company Users]**](../b2b/account-company-users.md) | (Solo empresas) Utilizado por el administrador de la empresa para crear cuentas de usuario para compradores de la empresa. |
-| ![B2B para Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Roles and Permissions]**](../b2b/account-company-roles-permissions.md) | (Solo compañías) Utilizado por el administrador de la compañía para definir funciones para usuarios de la compañía con varios niveles de permisos. |
-| ![B2B para Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Approval Rules]**](../b2b/account-dashboard-approval-rules.md) | (Solo compañías) Se utiliza para definir reglas de aprobación para pedidos de compra. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL My Purchase Orders]**](../b2b/account-dashboard-my-purchase-orders.md) | (Solo empresas) Enumera todos los pedidos de compra enviados o controlados por el cliente, con un vínculo a información detallada. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL My Quotes]**](../b2b/account-dashboard-my-quotes.md) | (Solo empresas) Enumera todas las ofertas enviadas por el cliente, con un vínculo a información detallada. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL My Requisition Lists]**](../b2b/account-dashboard-requisition-lists-manage.md) | (Solo Compañías) Mantiene todas las listas de solicitudes creadas por el cliente. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Profile]**](../b2b/account-company-manage.md#update-a-company-profile) | (Solo empresas) Un administrador designado de la empresa puede administrar la información de la empresa, incluidos el nombre y la dirección de la empresa, la información de contacto del administrador de la empresa y la información de pago. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Credit]**](../b2b/credit-company.md#storefront-credit-information) | (Solo compañías) Muestra el saldo pendiente actual, el crédito disponible y el límite de crédito asignado a la cuenta, seguido de una lista de facturas pendientes. La sección Crédito de la compañía aparece en el panel de control solo cuando [Pago a cuenta](../b2b/enable-basic-features.md#configure-payment-on-account) está habilitado en la configuración de. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Structure]**](../b2b/account-company-structure.md) | (Solo compañías) Utilizado por el administrador de la compañía para definir la estructura empresarial de la compañía. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Users]**](../b2b/account-company-users.md) | (Solo empresas) Utilizado por el administrador de la empresa para crear cuentas de usuario para compradores de la empresa. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Roles and Permissions]**](../b2b/account-company-roles-permissions.md) | (Solo compañías) Utilizado por el administrador de la compañía para definir funciones para usuarios de la compañía con varios niveles de permisos. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Approval Rules]**](../b2b/account-dashboard-approval-rules.md) | (Solo compañías) Se utiliza para definir reglas de aprobación para pedidos de compra. |
 
 {style="table-layout:auto"}

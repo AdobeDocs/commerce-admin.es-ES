@@ -3,9 +3,9 @@ title: Búsqueda de direcciones al finalizar la compra
 description: Aprenda a incluir la búsqueda de direcciones en el cierre de compra de su tienda.
 exl-id: 8153c456-0848-4bb4-8deb-8219323344ed
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Si el cliente no tiene una dirección de envío predeterminada, la variable _Env
 
 ## Búsqueda de ofertas de direcciones bloqueadas
 
-![B2B para Adobe Commerce](../assets/b2b.svg) (Disponible con B2B solo para Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponible solo con Adobe Commerce B2B)
 
 La activación de la búsqueda de direcciones también afecta al cierre de compra de pedidos creados a partir de ofertas en las que el número de direcciones guardadas del cliente cumple o supera el límite configurado. Cuando se completa la oferta y el cliente continúa con el cierre de compra, solo se muestra la dirección de envío seleccionada. La página también muestra un mensaje que indica que la dirección de envío está bloqueada y que solo se puede cambiar en la oferta.
 
@@ -56,4 +56,4 @@ La activación de la búsqueda de direcciones también afecta al cierre de compr
 
    Cuando el número de direcciones guardadas del cliente alcanza o supera este límite, la página muestra la dirección predeterminada (si el cliente tiene una) o _Ninguna dirección seleccionada_ con el _Cambiar dirección_ opción. El límite predeterminado es `10`.
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.

@@ -1,10 +1,10 @@
 ---
 title: '[!UICONTROL Sales] menu'
-description: El administrador de Commerce incluye el [!UICONTROL Sales] , que proporciona acceso a las herramientas para trabajar con pedidos según su ubicación en el flujo de trabajo.
+description: El administrador de Commerce incluye [!UICONTROL Sales] , que proporciona acceso a las herramientas para trabajar con pedidos según su ubicación en el flujo de trabajo.
 exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
-source-git-commit: a7c6203cf738e3fb9be887d637010ca9c155937a
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ En el _Administrador_ barra lateral, haga clic en **[!UICONTROL Sales]**.
 
 ### [!UICONTROL Quotes]
 
-![B2B para Adobe Commerce](../assets/b2b.svg) (Disponible con B2B para Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponible con Adobe Commerce B2B)
 
 Los compradores autorizados pueden [negociar el precio](../b2b/quotes.md) con el vendedor enviando un [solicitud](../b2b/quote-request.md) del carro de compras.
 

@@ -3,9 +3,9 @@ title: Crear un producto
 description: Obtenga información sobre los tipos de productos que puede crear para su catálogo.
 exl-id: ff90bf8a-a64d-403f-bd09-5c8167a36f0b
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ La configuración y los atributos de productos utilizados con más frecuencia se
 | [[!UICONTROL Product in Websites]](settings-basic-websites.md) | Identifica cada sitio web donde está disponible el producto, según la jerarquía de la tienda. |
 | [[!UICONTROL Design]](settings-advanced-design.md) | Se utiliza para aplicar una temática diferente a la página del producto, cambiar el diseño de la columna, determinar dónde aparecen las opciones del producto e introducir código XML personalizado. |
 | [[!UICONTROL Gift options]](product-gift-options.md) | Se utiliza para habilitar o deshabilitar una opción de mensaje de regalo durante el cierre de compra en el nivel de producto. |
-| [[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponible con [B2B para Adobe Commerce](../b2b/introduction.md) (solo) Permite mantener los catálogos compartidos con precios personalizados para diferentes empresas. |
+| [[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible con [Adobe Commerce B2B](../b2b/introduction.md) (solo) Permite mantener los catálogos compartidos con precios personalizados para diferentes empresas. |
 | [[!UICONTROL Downloadable Information]](product-create-downloadable.md#step-5-complete-the-downloadable-information) | Se utiliza para definir los parámetros de la descarga del producto. |
 
 {style="table-layout:auto"}

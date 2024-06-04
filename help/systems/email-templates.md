@@ -3,7 +3,7 @@ title: Plantillas de correo electrónico
 description: Obtenga información sobre las plantillas de correo electrónico y cómo puede utilizarlas para apoyar las comunicaciones con sus clientes y reforzar su marca.
 exl-id: dfe28c77-607e-41e4-b872-3a07bcd67962
 feature: Communications, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Las plantillas de correo electrónico definen el diseño, el contenido y el form
 
 Commerce incluye un conjunto de plantillas de correo electrónico adaptables que se activan mediante varios eventos que tienen lugar durante el funcionamiento de la tienda. Cada plantilla está optimizada para cualquier tamaño de pantalla y se puede ver desde el escritorio, así como en tabletas y dispositivos móviles. Hay varias plantillas de correo electrónico preparadas relacionadas con actividades de clientes, ventas, alertas de productos, acciones de administración y mensajes del sistema que puede [personalizar](email-template-custom.md) para reflejar su marca.
 
-Los clientes de correo electrónico de texto sin formato y HTML pueden procesar los correos electrónicos comerciales. Puede haber alguna variación entre los clientes en la forma en que se procesan los correos electrónicos.
+Los clientes de correo electrónico de texto sin formato y HTML pueden procesar los correos electrónicos de Commerce. Puede haber alguna variación entre los clientes en la forma en que se procesan los correos electrónicos.
 
 ## Prepare su logotipo de correo electrónico
 
@@ -98,7 +98,7 @@ La lista de plantillas de correo electrónico se organiza alfabéticamente por m
 
 ### [!DNL Magento_Company]
 
-![B2B para Adobe Commerce](../assets/b2b.svg) (Disponible con B2B solo para Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponible solo con Adobe Commerce B2B)
 
 | Plantilla | Ruta de configuración |
 |--- |--- |
@@ -121,7 +121,7 @@ La lista de plantillas de correo electrónico se organiza alfabéticamente por m
 
 ### [!DNL Magento_CompanyCredit]
 
-![B2B para Adobe Commerce](../assets/b2b.svg) (Disponible con B2B solo para Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponible solo con Adobe Commerce B2B)
 
 | Plantilla | Ruta de configuración |
 |--- |--- |
@@ -233,7 +233,7 @@ La lista de plantillas de correo electrónico se organiza alfabéticamente por m
 
 ### [!DNL Magento_NegotiableQuote]
 
-![B2B para Adobe Commerce](../assets/b2b.svg) (Disponible con B2B solo para Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponible solo con Adobe Commerce B2B)
 
 | Plantilla | Ruta de configuración |
 |--- |--- |

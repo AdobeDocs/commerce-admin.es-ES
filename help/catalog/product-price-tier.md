@@ -3,9 +3,9 @@ title: Precios de nivel
 description: Aprenda a utilizar los precios de nivel para ofrecer un descuento por cantidad desde una lista de productos o una página de productos.
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Los precios de la tienda tienen prioridad de la cantidad más alta a la más baj
 
 1. Si la tienda tiene varios sitios web, elija la **[!UICONTROL Website]** para el cual se aplica el precio de nivel.
 
-1. Si es necesario, limite la disponibilidad del nivel de precios seleccionando la **[!UICONTROL Customer Group]** o **[!UICONTROL Shared Catalog]** (![B2B para Adobe Commerce](../assets/b2b.svg) Disponible con [B2B para Adobe Commerce](./b2b/../introduction.md) solo).
+1. Si es necesario, limite la disponibilidad del nivel de precios seleccionando la **[!UICONTROL Customer Group]** o **[!UICONTROL Shared Catalog]** (![Adobe Commerce B2B](../assets/b2b.svg) Disponible con [Adobe Commerce B2B](./b2b/../introduction.md) solo).
 
 1. Para **[!UICONTROL Qty]**, introduzca la cantidad que debe pedirse para recibir el descuento.
 

@@ -1,18 +1,18 @@
 ---
 title: Resumen del catálogo compartido
-description: Conozca los catálogos compartidos que proporciona B2B para Adobe Commerce y cómo puede utilizarlos para mantener catálogos cerrados con precios personalizados para diferentes cuentas de empresa.
+description: Conozca los catálogos compartidos que proporciona Adobe Commerce B2B y cómo puede utilizarlos para mantener catálogos cerrados con precios personalizados para diferentes cuentas de empresa.
 exl-id: cf7c9099-9b7d-407b-adb9-06a4815624ee
 feature: B2B, Companies, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
 
 # Resumen del catálogo compartido
 
-B2B para Adobe Commerce le ofrece la capacidad de mantener _compartido_ catálogos con precios personalizados para diferentes empresas. Además de la norma, _principal_, catálogo de productos, proporciona al cliente acceso a dos tipos de catálogos compartidos con diferentes estructuras de precios.
+Adobe Commerce B2B le ofrece la capacidad de mantener _compartido_ catálogos con precios personalizados para diferentes empresas. Además de la norma, _principal_, catálogo de productos, proporciona al cliente acceso a dos tipos de catálogos compartidos con diferentes estructuras de precios.
 
 Si la variable [Función de catálogo compartido](enable-basic-features.md) está habilitado en la configuración, el catálogo principal original permanece visible desde el administrador, pero solo el catálogo compartido público predeterminado (general) está visible desde la tienda. Además, se pueden crear catálogos personalizados que solo sean visibles para miembros de [compañía](account-companies.md) cuentas.
 
@@ -56,7 +56,7 @@ El [controles de acciones](../getting-started/admin-actions-control.md) en la es
 | [!UICONTROL Select] | Selecciona registros de catálogo compartido para aplicar una acción. El control del encabezado se puede utilizar para seleccionar todos los registros del catálogo compartido o anular su selección en la cuadrícula. Para seleccionar un catálogo compartido individual, marque la casilla de verificación. |
 | [!UICONTROL ID] | Identificador numérico único que se asigna en secuencia cuando se crea el catálogo. |
 | [!UICONTROL Name] | Nombre del catálogo compartido. De forma predeterminada, el catálogo compartido predeterminado (General) está disponible. |
-| [!UICONTROL Type] | Identifica el tipo de catálogo compartido como: <br/>**[!UICONTROL Public]**: el catálogo compartido público predeterminado se crea automáticamente cuando se instala B2B para Adobe Commerce. Se asigna inicialmente al `General` y `Not Logged In` grupos de clientes y es visible para los invitados y los clientes individuales que iniciaron sesión y que no están asociados a una compañía. El sistema solo admite un catálogo compartido público a la vez.<br/>**[!UICONTROL Custom]** : un catálogo compartido personalizado contiene precios que solo son visibles para los socios que iniciaron sesión en las cuentas de empresa asignadas. Puede crear tantos catálogos compartidos personalizados como necesite. |
+| [!UICONTROL Type] | Identifica el tipo de catálogo compartido como: <br/>**[!UICONTROL Public]**: El catálogo compartido público predeterminado se crea automáticamente cuando se instala Adobe Commerce B2B. Se asigna inicialmente al `General` y `Not Logged In` grupos de clientes y es visible para los invitados y los clientes individuales que iniciaron sesión y que no están asociados a una compañía. El sistema solo admite un catálogo compartido público a la vez.<br/>**[!UICONTROL Custom]** : un catálogo compartido personalizado contiene precios que solo son visibles para los socios que iniciaron sesión en las cuentas de empresa asignadas. Puede crear tantos catálogos compartidos personalizados como necesite. |
 | [!UICONTROL Customer Tax Class] | La clase de impuesto asignada al grupo de clientes correspondiente. Esta columna no aparece en la cuadrícula predeterminada, pero se puede agregar cambiando el diseño de la columna. |
 | [!UICONTROL Created At] | La fecha y la hora de creación del catálogo compartido. |
 | [!UICONTROL Created By] | El nombre y los apellidos del administrador de la tienda que creó el catálogo compartido. |

@@ -3,9 +3,9 @@ title: Medios sociales y fuentes RSS
 description: Aprenda a añadir redes sociales y otra integración de fuentes RSS para crear imagen de marca y producto.
 exl-id: e4a48870-f53e-4848-8faa-8f2aedaf53b7
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Los sitios de redes sociales tienen numerosos complementos que se pueden agregar
 
    Por ejemplo: `facebook_like_button`.
 
-1. Si la instancia de Commerce tiene varias vistas de tiendas, elija cada una **[!UICONTROL Store View]** donde el bloque va a estar disponible.
+1. Si la instancia de Commerce tiene varias vistas de tienda, elija cada una **[!UICONTROL Store View]** donde el bloque va a estar disponible.
 
 1. Agregue el fragmento de código al contenido del bloque, según la herramienta de contenido:
 
@@ -81,11 +81,11 @@ Los sitios de redes sociales tienen numerosos complementos que se pueden agregar
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add Widget]** y haga lo siguiente:
 
-   - ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponible con B2B solo para Adobe Commerce) En el _Configuración_ sección, conjunto **[!UICONTROL Type]** hasta `CMS Static Block` y haga clic en **[!UICONTROL Continue]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible solo con Adobe Commerce B2B) En el _Configuración_ sección, conjunto **[!UICONTROL Type]** hasta `CMS Static Block` y haga clic en **[!UICONTROL Continue]**.
 
    - Compruebe que **[!UICONTROL Design Theme]** se establece en la temática actual.
 
-   - Haga clic **[!UICONTROL Continue]**.
+   - Clic **[!UICONTROL Continue]**.
 
 1. En el **[!UICONTROL Storefront Properties]** , haga lo siguiente:
 
@@ -107,7 +107,7 @@ Los sitios de redes sociales tienen numerosos complementos que se pueden agregar
 
    - Acepte la configuración predeterminada para **[!UICONTROL Template]**, que se establece en `CMS Static Block Default Template`.
 
-   - Haga clic **[!UICONTROL Save and Continue Edit]**.
+   - Clic **[!UICONTROL Save and Continue Edit]**.
 
 1. En el panel de la izquierda, elija **[!UICONTROL Widget Options]**.
 

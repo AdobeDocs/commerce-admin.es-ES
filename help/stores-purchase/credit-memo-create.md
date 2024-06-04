@@ -3,9 +3,9 @@ title: Emitir una nota de crédito
 description: Obtenga información sobre cómo generar e imprimir un abono para un pedido facturado.
 exl-id: 84ec72ba-7f72-4fa1-a9bf-91c17f43a3a7
 feature: Orders, Invoices
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2132'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 Para poder imprimir una nota de abono, primero debe generarse para una [pedido facturado](invoices.md#create-an-invoice). Puede emitir reembolsos en línea y sin conexión (parciales o totales) a partir de una nota de crédito abierta, dependiendo del método de pago.
 
 - ![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce) Los reembolsos se pueden aplicar al crédito del almacén.
-- ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponible con B2B para Adobe Commerce) Los reembolsos se pueden aplicar al crédito de la empresa.
+- ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible con Adobe Commerce B2B) Los reembolsos se pueden aplicar al crédito de la empresa.
 - Las compras realizadas con tarjeta de crédito pueden ser reembolsadas en línea o sin conexión.
 - Las compras realizadas por cheque o giro postal deben ser reembolsadas sin conexión.
 
@@ -102,19 +102,19 @@ Determine el tipo de reembolso que desea emitir, para un [compra a crédito](#is
 
    - Para enviar una notificación por correo electrónico al cliente, seleccione la **[!UICONTROL Email Copy of Credit Memo]** casilla de verificación
 
-1. Haga clic **[!UICONTROL Update Totals]**.
+1. Clic **[!UICONTROL Update Totals]**.
 
 1. Haga lo siguiente, según corresponda:
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce) Para devolver el importe al crédito de tienda del cliente, seleccione **[!UICONTROL Refund to Store Credit]** casilla de verificación
 
-   - ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponible con B2B para Adobe Commerce) Para devolver el importe al crédito de empresa del cliente, seleccione **[!UICONTROL Refund to Company Credit]** casilla de verificación
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible con Adobe Commerce B2B) Para devolver el importe al crédito de empresa del cliente, seleccione **[!UICONTROL Refund to Company Credit]** casilla de verificación
 
    - Para emitir un reembolso sin conexión, haz clic en **[!UICONTROL Refund Offline]**.
 
    - Para emitir un reembolso en línea, haga clic en **[!UICONTROL Refund]**.
 
-   - ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponible con B2B para Adobe Commerce) Si la compra se pagó con crédito de la empresa, haga clic en **[!UICONTROL Refund to Company Credit]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible con Adobe Commerce B2B) Si la compra se pagó con crédito de la empresa, haga clic en **[!UICONTROL Refund to Company Credit]**.
 
    Consulte [Notas de abono](credit-memos.md) para obtener más información sobre los reembolsos sin conexión y en línea.
 
@@ -195,7 +195,7 @@ Determine el tipo de reembolso que desea emitir, para un [compra a crédito](#is
 | [!UICONTROL Customer Name] | El nombre del cliente o comprador que realizó el pedido. El nombre del cliente está vinculado al perfil del cliente. |
 | [!UICONTROL Email] | La dirección de correo electrónico del cliente o comprador. La dirección de correo electrónico está vinculada para abrir un nuevo mensaje. |
 | [!UICONTROL Customer Group] | El nombre del grupo de clientes o del catálogo compartido al que está asignado el cliente. |
-| [!UICONTROL Company Name] | ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponible con B2B para Adobe Commerce) El nombre de la empresa asociada con el comprador y en cuyo nombre se realiza el pedido. El nombre de la empresa está vinculado al perfil de la empresa. |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible con Adobe Commerce B2B) El nombre de la empresa asociada con el comprador y en cuyo nombre se realiza el pedido. El nombre de la empresa está vinculado al perfil de la empresa. |
 
 {style="table-layout:auto"}
 
@@ -222,7 +222,7 @@ Determine el tipo de reembolso que desea emitir, para un [compra a crédito](#is
 | Campo | Descripción |
 |--- |--- |
 | [!UICONTROL Product] | El nombre del producto, SKU y opciones (si corresponde). |
-| [!UICONTROL Price] | El precio de compra del artículo. Para B2B para Adobe Commerce, este valor refleja cualquier descuento aplicado al artículo del catálogo compartido, si corresponde. |
+| [!UICONTROL Price] | El precio de compra del artículo. Para Adobe Commerce B2B, este valor refleja cualquier descuento aplicado al artículo del catálogo compartido, si corresponde. |
 | [!UICONTROL Qty] | La cantidad pedida. |
 | [!UICONTROL Return to Stock] | Casilla de verificación que indica si el artículo devuelto se va a devolver a stock. |
 | [!UICONTROL Qty to Refund] | Indica el número de unidades devueltas del producto. |
@@ -254,7 +254,7 @@ Determine el tipo de reembolso que desea emitir, para un [compra a crédito](#is
 | [!UICONTROL Append Comments] | Casilla de verificación que determina si se incluyen comentarios en la nota de abono. |
 | [!UICONTROL Email Copy of Credit Memo] | Casilla de verificación que determina si se envía por correo electrónico una copia de la nota de crédito. |
 | [!UICONTROL Refund to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce) Casilla de verificación que determina si el total se reembolsará a [crédito de tienda](../customers/store-credit-using.md). |
-| [!UICONTROL Subtotal] | ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponible con B2B para Adobe Commerce) El total de todos los elementos de línea que se van a reembolsar. |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible con Adobe Commerce B2B) El total de todos los elementos de línea que se van a reembolsar. |
 
 {style="table-layout:auto"}
 
@@ -266,7 +266,7 @@ El método de pago utilizado para el pedido determina los botones de devolución
 |--- |--- |
 | **[!UICONTROL Refund]** | Si la compra original se pagó con tarjeta de crédito a través de una pasarela de pago, el procesador de pagos administra el importe del reembolso. Para gestionar los reembolsos, consulte la documentación proporcionada por su proveedor de pagos. |
 | **[!UICONTROL Refund Offline]** | Si la compra original se pagó mediante cheque o giro postal, el reembolso se paga directamente al cliente, mediante la emisión de un cheque, tarjeta de regalo o efectivo si tiene una tienda de ladrillo y mortero. La nota de crédito sirve como registro de la transacción sin conexión. |
-| **[!UICONTROL Refund to Company Credit]** | ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponible con B2B para Adobe Commerce) Si la compra se cargó a crédito de la empresa, el reembolso se devuelve a la [Cuenta de empresa](../b2b/credit-company.md). |
+| **[!UICONTROL Refund to Company Credit]** | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible con Adobe Commerce B2B) Si la compra se cargó a crédito de la empresa, el reembolso se devuelve a la [Cuenta de empresa](../b2b/credit-company.md). |
 
 {style="table-layout:auto"}
 
@@ -282,7 +282,7 @@ Para imprimir o ver el abono completado, debe tener instalado un PDF Reader. Pue
 
 1. En la cuadrícula, abra el abono.
 
-1. Haga clic **[!UICONTROL Print]**.
+1. Clic **[!UICONTROL Print]**.
 
    ![Imprimir la nota de abono](./assets/credit-memo-print.png){width="600" zoomable="yes"}
 

@@ -3,9 +3,9 @@ title: Proceso de cierre de compra y opciones
 description: Descubra cómo el proceso de cierre de compra de Adobe Commerce y el Magento Open Source recopila la información necesaria para completar la transacción y la página Cierre de compra guía al cliente en cada paso del proceso.
 exl-id: f503643b-a0bb-4763-9831-d592afb2c323
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Durante el segundo paso del proceso de cierre de compra, el cliente elige la [fo
 
 ### Revisión y pagos - Pedido de compra
 
-![B2B para Adobe Commerce](../assets/b2b.svg) (Disponible con B2B solo para Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponible solo con Adobe Commerce B2B)
 
 Cuando un cliente está asociado con una compañía que ha habilitado [pedidos de compra](../b2b/purchase-order-flow.md), todos los pedidos se procesan como pedidos de compra. Los métodos de pago disponibles están determinados por la configuración de la cuenta de la empresa.
 
@@ -102,7 +102,7 @@ Los usuarios administradores pueden cambiar el número máximo de artículos mos
 
 1. Para **[!UICONTROL Maximum Number of Items to Display in Order Summary]**, introduzca el número máximo de elementos que se van a mostrar.
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
    Con esta actualización, el resumen del pedido que se muestra durante el cierre de compra se limita a la cantidad especificada de artículos.
 
@@ -127,7 +127,7 @@ Para obtener una descripción detallada de cada una de estas opciones de configu
 1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Checkout]**.
 1. Configure cualquiera de las siguientes opciones que necesite.
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
 1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Checkout Options]** sección.
 
@@ -137,7 +137,7 @@ Para obtener una descripción detallada de cada una de estas opciones de configu
 
 1. Configure las opciones de cierre de compra.
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Clic **[!UICONTROL Save Config]**.
 
 ### Opciones de cierre de compra disponibles
 

@@ -1,16 +1,16 @@
 ---
-title: '[!DNL B2B for Adobe Commerce] notas de la versión'
-description: Revise las notas de la versión para obtener información sobre los cambios en [!DNL B2B for Adobe Commerce] versiones de extensión.
+title: '[!DNL Adobe Commerce B2B] notas de la versión'
+description: Revise las notas de la versión para obtener información sobre los cambios en [!DNL Adobe Commerce B2B] versiones.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 1123cf4b257a83a61914c378104c43e952512e7d
+source-git-commit: e837dded8569cf917be8c36277362f5df77fb708
 workflow-type: tm+mt
-source-wordcount: '6937'
+source-wordcount: '6851'
 ht-degree: 0%
 
 ---
 
-# [!DNL B2B for Adobe Commerce] notas de la versión
+# [!DNL Adobe Commerce B2B] notas de la versión
 
 Estas notas de la versión de la extensión B2B recopilan las adiciones y correcciones que Adobe ha añadido durante un ciclo de lanzamiento de, entre las que se incluyen:
 
@@ -20,7 +20,7 @@ Estas notas de la versión de la extensión B2B recopilan las adiciones y correc
 
 >[!NOTE]
 >
->Consulte [Disponibilidad del producto](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) para obtener información sobre las versiones de la extensión de comercio B2B compatibles con las versiones de Adobe Commerce disponibles.
+>Consulte [Disponibilidad del producto](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) para obtener información sobre las versiones de la extensión de Commerce B2B compatibles con las versiones de Adobe Commerce disponibles.
 
 ## B2B 1.5.0-beta
 
@@ -62,7 +62,7 @@ La versión beta B2B v1.5.0 incluye nuevas funciones, mejoras de calidad y corre
 
 ![Problema corregido](../assets/fix.svg) <!--ACP2E-1825-->Los pedidos de compra ya no pueden ser realizados por un usuario asociado a la empresa después de que la empresa haya sido bloqueada. Anteriormente, un usuario asociado a la compañía podía realizar pedidos de compra cuando se bloqueaba la compañía.
 
-![Problema corregido](../assets/fix.svg)<!--ACP2E-1933-->Los administradores de la empresa ahora pueden agregar usuarios de la empresa desde la tienda. Anteriormente, Commerce registraba un error cuando un usuario administrador intentaba añadir un nuevo usuario: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+![Problema corregido](../assets/fix.svg)<!--ACP2E-1933-->Los administradores de la empresa ahora pueden agregar usuarios de la empresa desde la tienda. Anteriormente, Commerce registraba un error cuando un usuario administrador intentaba agregar un nuevo usuario: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
 ## B2B v1.4.2
 
