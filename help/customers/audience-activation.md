@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: aacba21dc4472b04e87b0a3c5e722b3ecd52770d
+source-git-commit: c9eb7f2b0b28f39ee9039be1e0fba4fe282ba7b3
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1482'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _30 de mayo de 2023_
 ![Nuevo](../assets/new.svg) - Se ha actualizado el [Panel de audiencias de Real-Time CDP](#real-time-cdp-audiences-dashboard) para incluir la capacidad de ordenar, buscar y filtrar las audiencias activas dentro de la instancia de Adobe Commerce.
 
 +++
+
+### 2.2.0
+
+[!BADGE Compatibilidad]{type=Informative tooltip="Compatibilidad"}
+
+_12 de junio de 2024_
+
+![Nuevo](../assets/new.svg) - Versión de GA para [reglas de producto relacionadas](../merchandising-promotions/product-related-rule-create.md) informado por las audiencias.
 
 ### 2.1.1
 
@@ -172,9 +180,11 @@ Con el [!DNL Audience Activation] con la extensión habilitada, puede:
 
 - [Crear una regla de precios de carro](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) informado por audiencias
 - [Creación de un bloque dinámico](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informado por audiencias
-- [(**Beta**) Crear una regla de producto relacionada](../merchandising-promotions/product-related-rule-create.md) informado por audiencias
+- [Crear una regla de producto relacionada](../merchandising-promotions/product-related-rule-create.md) informado por audiencias
 
-Para obtener un caso de uso completo e integral sobre cómo exportar [!DNL Commerce] datos en Real-Time CDP, cree una audiencia y actívela para que [!DNL Commerce], consulte [Creación de una audiencia en Real-Time CDP con [!DNL Commerce] datos de evento](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+>[!TIP]
+>
+>Para obtener un caso de uso completo e integral sobre cómo exportar [!DNL Commerce] datos en Real-Time CDP, cree una audiencia y actívela para que [!DNL Commerce], consulte [Creación de una audiencia en Real-Time CDP con [!DNL Commerce] datos de evento](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
 
 ## Panel de audiencias de Real-Time CDP
 
@@ -195,6 +205,7 @@ El tablero contiene los campos siguientes:
 | `Websites` | Indica qué sitios web están configurados para utilizar las audiencias. |
 | `Dynamic Blocks` | Indica qué bloques dinámicos están configurados para utilizar las audiencias. |
 | `Cart Price Rules` | Indica qué reglas de precios del carro de compras están configuradas para usar las audiencias. |
+| `Related Product Rules` | Indica qué reglas de producto relacionadas están configuradas para usar las audiencias. |
 | `Last updated` | Indica cuándo se modificó la audiencia en Real-Time CDP. |
 | `Sync now` | Recupera audiencias nuevas o actualizadas de Real-Time CDP. |
 | `Customize table` | Permite mostrar u ocultar el `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules`, y `Last updated` columnas. |
