@@ -5,9 +5,9 @@ breadcrumb-title: Tiendas y experiencia de compra
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 3dad65e528716a459839ee7995b38850bf6feca8
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '319'
 ht-degree: 3%
 
 ---
@@ -131,3 +131,5 @@ ht-degree: 3%
       + [Resumen de etiquetas de envío](shipping-labels.md)
       + [Configurar etiquetas de envío](shipping-label-configure.md)
       + [Crear etiquetas de envío](shipping-label-create.md)
++ [Volver a Guías de Comerciantes](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

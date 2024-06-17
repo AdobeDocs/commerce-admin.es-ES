@@ -4,10 +4,10 @@ user-guide-description: Información completa sobre las funciones de administrac
 breadcrumb-title: Administración de catálogos
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 0%
+source-wordcount: '242'
+ht-degree: 1%
 
 ---
 
@@ -99,3 +99,5 @@ ht-degree: 0%
       + [Crear y eliminar atributos](attribute-product-create.md)
       + [Actualizaciones masivas](bulk-product-attribute-update.md)
       + [Conjuntos de atributos](attribute-sets.md)
++ [Volver a Guías de Comerciantes](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+
