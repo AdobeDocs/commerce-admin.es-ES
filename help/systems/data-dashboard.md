@@ -3,9 +3,9 @@ title: Tablero de administración de datos
 description: Obtenga información sobre cómo acceder a perspectivas sobre flujos de datos para [!DNL Catalog Service], [!DNL Live Search], y [!DNL Product Recommendation]s.
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
-source-git-commit: 13f47c8dccb98a721924df716ae0793db6889f3a
+source-git-commit: e883a678885aefaf832cece431e458c5d7741c40
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,10 @@ Al actualizar productos en la base de datos de Commerce, los datos de los produc
 >El tiempo que se tarda en completar la sincronización varía en función del tamaño del catálogo y el volumen de datos actualizados.
 
 Cuando el número de productos procesados coincide con el número de productos actualizados, indica que la sincronización ha finalizado.
+
+>[!NOTE]
+>
+>El Adobe también proporciona una interfaz de línea de comandos y registros del sistema que los desarrolladores e integradores de sistemas pueden utilizar para administrar y rastrear operaciones de sincronización y solucionar errores en los servicios SaaS de Commerce. Para obtener más información, consulte la [Guía de exportación de datos de SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ### Lista de productos sincronizados
 
