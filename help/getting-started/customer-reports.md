@@ -3,9 +3,9 @@ title: Informes del cliente
 description: Los informes de cliente disponibles en Adobe Commerce y Magento Open Source proporcionan una perspectiva de la actividad del cliente durante un período de tiempo o un intervalo de fechas especificados.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: a530d74f8d073f834f310826562407b8f949f17b
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '876'
 ht-degree: 1%
 
 ---
@@ -41,8 +41,8 @@ En el _Administrador_ barra lateral, vaya a **[!UICONTROL Reports]** > _[!UICONT
 | [!UICONTROL Interval] | El intervalo total del pedido, por `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | El nombre del cliente que realizó los pedidos. |
 | [!UICONTROL Orders] | Número de pedidos para el intervalo especificado. |
-| [!UICONTROL Average] | Cantidad de pedido promedio. |
-| [!UICONTROL Total] | La suma de todos los pedidos del periodo. |
+| [!UICONTROL Average] | Cantidad de pedido promedio. Esta cantidad siempre se calcula para los precios del producto **impuesto exclusión** incluso si los precios del producto del catálogo, el subtotal del pedido y el total del pedido incluyen impuestos. Como resultado, el importe que se muestra en el informe es diferente al importe que se muestra en los detalles del pedido en los casos en los que los totales de pedidos incluyen impuestos. |
+| [!UICONTROL Total] | La suma de todos los pedidos del periodo. Esta cantidad siempre se calcula para los precios del producto **impuesto exclusión** incluso si los precios del producto del catálogo, el subtotal del pedido y el total del pedido incluyen impuestos. Como resultado, el total que se muestra en el informe es diferente a la cantidad que se muestra en los detalles del pedido en los casos en que los totales de pedidos incluyen impuestos. |
 
 {style="table-layout:auto"}
 
@@ -73,8 +73,8 @@ En el _Administrador_ barra lateral, vaya a **[!UICONTROL Reports]** > _[!UICONT
 | [!UICONTROL Interval] | El intervalo de recuento de pedidos, por `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | El cliente que realizó el pedido. |
 | [!UICONTROL Orders] | Número de pedidos para el intervalo especificado. |
-| [!UICONTROL Average] | Cantidad de pedido promedio. |
-| [!UICONTROL Total] | La suma de todos los pedidos del periodo. |
+| [!UICONTROL Average] | Cantidad de pedido promedio. Esta cantidad siempre se calcula para los precios del producto **impuesto exclusión** incluso si los precios del producto del catálogo, el subtotal del pedido y el total del pedido incluyen impuestos. Como resultado, el importe que se muestra en el informe es diferente al importe que se muestra en los detalles del pedido en los casos en los que los totales de pedidos incluyen impuestos. |
+| [!UICONTROL Total] | La suma de todos los pedidos del periodo. Esta cantidad siempre se calcula para los precios del producto **impuesto exclusión** incluso si los precios del producto del catálogo, el subtotal del pedido y el total del pedido incluyen impuestos. Como resultado, el total que se muestra en el informe es diferente a la cantidad que se muestra en los detalles del pedido en los casos en que los totales de pedidos incluyen etiquetas. |
 
 {style="table-layout:auto"}
 
