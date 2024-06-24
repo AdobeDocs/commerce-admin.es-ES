@@ -4,9 +4,9 @@ description: Obtenga información acerca de cómo asignar un grupo de clientes a
 exl-id: fba3c17e-95df-4e9e-84b8-67409c6da72d
 feature: B2B, Companies, Configuration, Customers
 role: Admin, User
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: a5a8da076d6cd91eb6c3e573fec5b3fb9d2d3341
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,10 @@ Asignar un grupo de clientes a una empresa es esencialmente lo mismo que asignar
 
    Al cambiar el grupo de clientes asignado a la empresa, se actualizan los perfiles de todos los miembros de la empresa.
 
+   >[!NOTE]
+   >
+   >Después de cambiar el grupo de la compañía, un usuario de la compañía debe cerrar la sesión e iniciar sesión en la Tienda para ver los nuevos precios en el catálogo.
+
    ![Cambiar el grupo de clientes o el catálogo compartido](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 
    >[!NOTE]
@@ -43,4 +47,4 @@ Asignar un grupo de clientes a una empresa es esencialmente lo mismo que asignar
 
 1. Cuando se le pida que confirme, haga clic en **[!UICONTROL Proceed]**.
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
