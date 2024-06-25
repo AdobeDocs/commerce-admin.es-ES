@@ -3,9 +3,9 @@ title: "Configurar [!DNL Inventory Management]"
 description: Obtenga información acerca de la configuración de [!DNL Inventory Management] opciones que determinan la disponibilidad del origen, los productos de la tienda y el envío del pedido.
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Otra forma de utilizar el umbral de disponibilidad de existencias es administrar
 | [!UICONTROL Allow Multiple Boxes for Shipping] | Determina si las partes de un producto se pueden enviar por separado. Esta opción está visible cuando **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
 | [!UICONTROL Backorders] | Indica si se permiten pedidos no satisfechos. Especificado en el nivel de origen, calculado en el nivel de stock según los orígenes asignados. Si está habilitado para permitir pedidos no satisfechos, establezca un valor negativo para el umbral de falta de existencias (consulte [Configuración de Pedidos No Satisfechas](backorders.md)) se recomienda. Opciones:<br />**[!UICONTROL No Backorders]**: No acepta pedidos pendientes cuando el producto está agotado.<br />**[!UICONTROL Allow Qty Below 0]**: Acepta pedidos no satisfechos cuando la cantidad es inferior a cero.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**: acepta pedidos no satisfechos cuando la cantidad es inferior a cero, pero notifica a los clientes que aún se pueden realizar pedidos. |
 | [!UICONTROL Notify for Quantity Below] | Establece la cantidad que déclencheur una notificación Quantity below, con advertencia de stock bajo. Este importe se deduce de la cantidad vendible, no de la cantidad de inventario. |
-| [!UICONTROL Enable Qty Increments] | Determina si el producto se puede vender en incrementos de cantidad. Si está activado, introduzca la cantidad de productos que deben adquirirse en un paso incremental. |
+| [!UICONTROL Enable Qty Increments] | Determina si el producto se puede vender en incrementos de cantidad. Si está activado, introduzca la cantidad de productos que deben adquirirse en un paso incremental. Los incrementos establecen cuántos artículos de producto deben comprarse como un solo producto y como un elemento secundario de productos configurables, agrupados y agrupados. |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | [!DNL Inventory Management] no utiliza este valor. Al finalizar una devolución o una nota de abono, la cantidad del producto se devuelve automáticamente a la cantidad de origen afectada. Consulte [Configuración de opciones de producto](product-options.md). |
 
 ## Restauración y herencia de la configuración

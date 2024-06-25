@@ -3,9 +3,9 @@ title: "Configurar [!DNL Inventory Management] opciones de producto"
 description: Obtenga información sobre cómo configurar el [!DNL Inventory Management] opciones de configuración del producto.
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products
-source-git-commit: ccd93a54b6fa23a7a54fb423f8232c72cd8fe027
+source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,8 @@ Configure las cantidades y la configuración adicional por [fuente añadida](sou
 
    Por ejemplo, un artículo que se vende en incrementos de seis se puede comprar en cantidades de 6, 12, 18, etc.
 
+   **[!UICONTROL Qty Increments]** establece cuántos artículos de producto deben comprarse como un solo producto y como un elemento secundario de productos configurables, agrupados y agrupados.
+
 1. Cuando termine, haga clic en **[!UICONTROL Done]** y luego **[!UICONTROL Save]**.
 
 ### Descripciones de campos
@@ -113,7 +115,7 @@ Configure las cantidades y la configuración adicional por [fuente añadida](sou
 | [!UICONTROL Qty Uses Decimals] | Global | Determina si los clientes pueden utilizar un valor decimal en lugar de un número entero al introducir la cantidad pedida. Opciones:<br />`Yes` : permite introducir valores como decimales, en lugar de números enteros. Los decimales son adecuados para los productos vendidos por peso, volumen o longitud.<br />`No` - Requiere que los valores de cantidad se especifiquen como números enteros. |
 | [!UICONTROL Allow Multiple Boxes for Shipping] | Global | Determina si las partes del producto se pueden enviar por separado. Esta opción está visible cuando **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
 | [!UICONTROL Backorders] | Global | Determina cómo se administran los pedidos pendientes. Los pedidos no satisfechos no cambian el estado de procesamiento del pedido. Los fondos se siguen autorizando o capturando inmediatamente cuando se realiza el pedido, independientemente de si el producto está en stock. Los productos se envían cuando están disponibles. Cuando está activada, se recomienda introducir una cantidad negativa para el umbral de Agotado. Opciones:<br/>`No Backorders` - No acepta pedidos pendientes cuando el producto está agotado.<br />`Allow Qty Below 0` - Acepta pedidos pendientes cuando la cantidad es inferior a cero.<br />`Allow Qty Below 0 and Notify Customer` - Acepta pedidos pendientes cuando la cantidad cae por debajo de cero, pero notifica a los clientes que aún se pueden realizar pedidos. |
-| [!UICONTROL Enable Qty Increments] | Global | Determina si el producto se puede vender en incrementos de cantidad. |
+| [!UICONTROL Enable Qty Increments] | Global | Determina si el producto se puede vender en incrementos de cantidad. Los incrementos establecen cuántos artículos de producto deben comprarse como un solo producto y como un elemento secundario de productos configurables, agrupados y agrupados. |
 
 >[!NOTE]
 >
