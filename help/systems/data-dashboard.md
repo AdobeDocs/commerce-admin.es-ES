@@ -3,7 +3,7 @@ title: Tablero de administración de datos
 description: Obtenga información sobre cómo acceder a perspectivas sobre flujos de datos para [!DNL Catalog Service], [!DNL Live Search], y [!DNL Product Recommendation]s.
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
-source-git-commit: e883a678885aefaf832cece431e458c5d7741c40
+source-git-commit: 4495a27b57c04c6f9c37b2c5237b5f2233cc8532
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 0%
@@ -16,7 +16,7 @@ El panel de administración de datos ofrece una descripción general del estado 
 
 ## Público
 
-El tablero de administración de datos está disponible sin coste adicional para todos los comerciantes de Commerce que utilicen [[!DNL Product Recommendations]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview), o [[!DNL Catalog Service]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview) con una licencia activa.
+El tablero de administración de datos está disponible sin coste adicional para todos los comerciantes de Commerce que utilicen [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview), o [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview) con una licencia activa.
 
 El panel de administración de datos se encuentra en *Sistema* > Transferencia de datos > *Tablero de administración de datos*.
 
