@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: Obtenga información acerca de [!DNL Commerce Marketplace], que ofrece a los comerciantes una selección revisada de soluciones y proporciona a los desarrolladores cualificados las herramientas, la plataforma y la ubicación privilegiada para crear un negocio próspero.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 02e7c71fc47e6850371bfbdc1be50f65ec8015e9
+source-git-commit: 20e1439810891b0d19cda62cc2646701ec5a778c
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -31,14 +31,14 @@ Los siguientes recursos proporcionan un punto de partida para que los nuevos usu
 - [Configuración del SDK de IU de administración](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [Conversión de una extensión en una aplicación](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
-### Recursos del Generador de aplicaciones
+### Recursos de App Builder
 
 - [Información general sobre Commerce App Builder](https://developer.adobe.com/commerce/extensibility/app-development/)
-- [Configuración de la malla de API para el Generador de aplicaciones de Adobe Developer](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
+- [Configuración de la malla de API para Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
 - [Implementación de aplicaciones de App Builder](https://developer.adobe.com/app-builder/docs/guides/deployment/)
 - [CI/CD para aplicaciones de App Builder](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
 - Introducción a App Builder/Developer Console
-   - [Introducción al Generador de aplicaciones](https://developer.adobe.com/app-builder/docs/getting_started/)
+   - [Introducción a App Builder](https://developer.adobe.com/app-builder/docs/getting_started/)
    - [Explicación de proyectos y espacios de trabajo](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
 
 ## [!DNL Marketplace] credenciales
@@ -85,7 +85,7 @@ El proceso de instalación de [!DNL Marketplace] compras son diferentes para _on
 
 ## Asistencia
 
-Si necesita ayuda para instalar o utilizar una extensión, consulte primero la documentación que la acompaña. Si no encuentra la respuesta a su pregunta, utilice la información de contacto del listado de extensiones para ponerse en contacto directamente con el desarrollador. Si lo que compra en Marketplace no satisface sus necesidades, puede [solicitar un reembolso](#refund-requests) en un plazo de 25 días a partir de la fecha de compra. El Adobe revisa todas las solicitudes de reembolso y (si está aprobado) emite el reembolso correspondiente. Para ver los problemas de soporte relacionados con Commerce Marketplace, consulte la [[!DNL Marketplace] Centro de ayuda][5].
+Si necesita ayuda para instalar o utilizar una extensión, consulte primero la documentación que la acompaña. Si no encuentra la respuesta a su pregunta, utilice la información de contacto del listado de extensiones para ponerse en contacto directamente con el desarrollador. Si lo que compra en Marketplace no satisface sus necesidades, puede [solicitar un reembolso](#refund-requests) en un plazo de 25 días a partir de la fecha de compra. El Adobe revisa todas las solicitudes de reembolso y (si está aprobado) emite el reembolso correspondiente. Para problemas relacionados con Commerce Marketplace, póngase en contacto con [Asistencia](mailto:commercemarketplacesupport@adobe.com).
 
 ### Problemas de cierre de compra
 
@@ -139,5 +139,4 @@ Estos permisos especiales otorgan el mismo nivel de acceso en Adobe Commerce que
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[5]: https://marketplacesupport.magento.com/hc/en-us
 [6]: https://business.adobe.com/products/magento/magento-commerce.html
