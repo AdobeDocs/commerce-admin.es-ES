@@ -3,9 +3,9 @@ title: Crear una regla de precios de carro
 description: Aprenda a crear una regla de precios de carro de compras basada en el carro de compras o en los atributos del producto.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 968ccc5eed5b79be8c51b350d6394e358805ad93
+source-git-commit: 6ac8d41de0f97767296216f8239311bc6fbf168e
 workflow-type: tm+mt
-source-wordcount: '3302'
+source-wordcount: '3320'
 ht-degree: 0%
 
 ---
@@ -393,7 +393,7 @@ Especifica las condiciones que deben cumplirse antes de que la regla de precios 
 | [!UICONTROL Apply] | Determina el tipo de cálculo que se aplica a la compra. Opciones: <br/>**[!UICONTROL Percent of product price discount]**- Artículo de descuentos al restar un porcentaje del precio original. Por ejemplo: Intro `10` in _[!UICONTROL Discount Amount]_por un precio actualizado un 10% inferior al precio original.<br/>**[!UICONTROL Fixed amount discount]**- Descuentos de artículos al restar una cantidad fija del precio original de cada artículo que cumple los requisitos del carro de compras. Por ejemplo: Intro `10` in_[!UICONTROL Discount Amount]_ por un precio actualizado que es $10 menos que el precio original. <br/>**[!UICONTROL Fixed amount discount for whole cart]**: Descuenta todo el carro de compras restando una cantidad fija del subtotal del carro de compras. Por ejemplo: Intro `10` in _[!UICONTROL Discount Amount]_para restar 10 $ del subtotal del carrito de compra. De forma predeterminada, el descuento se aplica solo al subtotal del carro de compras. Para aplicar el descuento al subtotal y al envío por separado, consulte_Aplicar al importe de envío _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Define una cantidad que el cliente debe comprar para recibir una cantidad de forma gratuita. (La_[!UICONTROL Discount Amount]_ es Y.) |
 | [!UICONTROL Discount Amount] | (Obligatorio) El importe del descuento ofrecido. |
 | [!UICONTROL Maximum Qty Discount is Applied To] | Establece el número máximo de productos a los que se puede aplicar el descuento en la misma compra. |
-| [!UICONTROL Discount Qty Step (Buy X)] | Establece el número de productos representados por `X` en un `Buy X Get Y Free` promoción. |
+| [!UICONTROL Discount Qty Step (Buy X)] | Establece el número de productos representados por `X` en un `Buy X Get Y Free` promoción. Además, define cuántos productos deben agregarse al carro de compras juntos en lotes para aplicarse `Fixed amount discount` y `Percent of product price discount` promociones. |
 | [!UICONTROL Apply to Shipping Amount] | Determina si el descuento se aplica por separado a los importes de subtotal y envío. De lo contrario, sólo se aplica al subtotal. Opciones: `Yes` / `No` |
 | [!UICONTROL Discard Subsequent Rules] | Determina si se pueden aplicar reglas de prioridad inferior (1 es la prioridad más alta) al producto cuando esta regla de precios del carro de compras coincide. Active esta opción para evitar que se apliquen varios descuentos al mismo producto. Opciones: `Yes` / `No` |
 | [!UICONTROL Free Shipping] | Determina si se incluye el envío gratuito en la promoción y, si es así, para qué artículos. Opciones: <br/>**[!UICONTROL No]**- El envío gratuito no está disponible para la regla actual.<br/>**[!UICONTROL For matching items only]** - El envío gratuito solo está disponible para artículos específicos del carro de compras que coincidan con la regla. <br/>**[!UICONTROL For shipment with matching items]**- Envío gratuito disponible para todos los artículos del carro de compras. El [Envío gratuito](../stores-purchase/shipping-free.md) el método de envío debe estar habilitado para poder utilizar esta opción. |
