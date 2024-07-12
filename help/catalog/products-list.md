@@ -1,24 +1,24 @@
 ---
 title: Lista de productos
-description: Obtenga información acerca de _[!UICONTROL Products]_ página del Administrador, donde puede crear productos y editar los existentes.
+description: Obtenga información acerca de la página _[!UICONTROL Products]_ en el Administrador, donde puede crear productos y editar los existentes.
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
 
 # Lista de productos
 
-Se puede acceder a todos los productos del catálogo desde el _[!UICONTROL Products]_en el Administrador, donde puede crear productos y editar los existentes. Para una instalación de varios sitios, cada sitio web puede ofrecer una selección diferente de productos a la venta desde el mismo catálogo.
+Se puede acceder a todos los productos del catálogo desde la página _[!UICONTROL Products]_del Administrador, donde puede crear productos y editar los existentes. Para una instalación de varios sitios, cada sitio web puede ofrecer una selección diferente de productos a la venta desde el mismo catálogo.
 
-El _[!UICONTROL Products]_Esta lista incluye todos los productos del catálogo, indica los sitios web donde están disponibles y si están actualmente habilitados para la venta. En instalaciones B2B de Adobe Commerce con [catálogos compartidos](../b2b/catalog-shared.md) si está activada, la cuadrícula incluye una columna que indica qué productos tienen precios de descuento alternativos en un catálogo compartido.
+La lista _[!UICONTROL Products]_incluye todos los productos del catálogo, indica los sitios web donde están disponibles y si están actualmente habilitados para la venta. En las instalaciones de Adobe Commerce B2B con [catálogos compartidos](../b2b/catalog-shared.md) habilitados, la cuadrícula incluye una columna que indica qué productos tienen precios de descuento alternativos en un catálogo compartido.
 
-Puede navegar por la lista página por página o buscar productos específicos. Uso del estándar [controles](../getting-started/admin-grid-controls.md) para ordenar y filtrar la lista y aplicar [acciones](../getting-started/admin-actions-control.md) a los productos seleccionados.
+Puede navegar por la lista página por página o buscar productos específicos. Use los [controles](../getting-started/admin-grid-controls.md) estándar para ordenar y filtrar la lista y aplicar [acciones](../getting-started/admin-actions-control.md) a los productos seleccionados.
 
-![Cuadrícula Productos](./assets/products-grid.png){width="700" zoomable="yes"}
+![Cuadrícula de productos](./assets/products-grid.png){width="700" zoomable="yes"}
 
 ## Limitar visualización del producto
 
@@ -34,23 +34,23 @@ Esta configuración para la limitación de visualización del producto está des
 
 >[!NOTE]
 >
->Si no desea que la cuadrícula de productos esté limitada, utilice filtros más precisamente para generar una colección que tenga menos elementos que el número especificado en la variable _[!UICONTROL Records Limit]_field.
+>Si no desea que la cuadrícula de productos esté limitada, utilice filtros con mayor precisión para generar una colección que tenga menos elementos que el número especificado en el campo _[!UICONTROL Records Limit]_.
 
 **_Para configurar la limitación de visualización del producto:_**
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Expandir **[!UICONTROL Advanced]** y elija **[!UICONTROL Admin]**.
+1. Expanda **[!UICONTROL Advanced]** y elija **[!UICONTROL Admin]**.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Admin Grids]** y haga lo siguiente:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Admin Grids]** y haga lo siguiente:
 
-   - Establecer **[!UICONTROL Limit Number of Products in Grid]** hasta `Yes`.
+   - Establezca **[!UICONTROL Limit Number of Products in Grid]** en `Yes`.
 
-   - (Opcional) Introduzca un valor en la variable **[!UICONTROL Records Limit]** para limitar el número de productos en la cuadrícula a un valor específico. El valor mínimo predeterminado es `20000`.
+   - (Opcional) Escriba un valor en el campo **[!UICONTROL Records Limit]** para limitar el número de productos en la cuadrícula a un valor específico. El valor mínimo predeterminado es `20000`.
 
-   ![Ajustes de configuración de cuadrículas de administración](../configuration-reference/advanced/assets/admin-admin-grids.png){width="600" zoomable="yes"}
+   ![Configuración de cuadrículas de administración](../configuration-reference/advanced/assets/admin-admin-grids.png){width="600" zoomable="yes"}
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 ## Controles de página
 
@@ -70,7 +70,7 @@ Esta configuración para la limitación de visualización del producto está des
 
 | Columna | Descripción |
 |--- |--- |
-| (Casilla de verificación) | Selecciona varios registros para que estén sujetos a una acción. La casilla de verificación de la primera columna de cada registro seleccionado está marcada. Opciones: <br/>**[!UICONTROL Select All]**- Selecciona todos los registros encontrados que coinciden con la configuración de filtro actual.<br/>**[!UICONTROL Select All on This Page]** - Selecciona sólo los registros encontrados en la página actual que coinciden con la configuración del filtro. |
+| (Casilla de verificación) | Selecciona varios registros para que estén sujetos a una acción. La casilla de verificación de la primera columna de cada registro seleccionado está marcada. Opciones: <br/>**[!UICONTROL Select All]**- Selecciona todos los registros encontrados que coinciden con la configuración de filtro actual.<br/>**[!UICONTROL Select All on This Page]** - Selecciona solamente los registros encontrados en la página actual que coinciden con la configuración del filtro. |
 | [!UICONTROL ID] | Un número secuencial y único que se asigna cuando se guarda un nuevo producto por primera vez. |
 | [!UICONTROL Thumbnail] | Muestra una miniatura de la imagen principal del producto. |
 | [!UICONTROL Name] | El nombre del producto. |
@@ -83,8 +83,9 @@ Esta configuración para la limitación de visualización del producto está des
 | [!UICONTROL Visibility] | Indica dónde está visible el producto en el catálogo. Opciones: `Not Visible Individually` / `Catalog` / `Search` / `Catalog, Search` |
 | [!UICONTROL Status] | Indica el estado del producto. Opciones: `Enabled` y `Disabled` |
 | [!UICONTROL Websites] | Indica los sitios web donde el producto está disponible. |
+| [!UICONTROL Remote Media URL] | Si los recursos multimedia del producto se administran mediante la [integración de AEM Assets para Commerce](../content-design/aem-assets.md), este campo muestra la dirección URL para ver el recurso de Commerce AEM en el almacén de administración de recursos digitales de recursos de la red, el repositorio centralizado donde se guardan los recursos. Este campo solo se muestra si la integración de AEM Assets está habilitada. |
 | [!UICONTROL Action] | Abre el producto en modo de edición. |
-| [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible con [Adobe Commerce B2B](./b2b/../introduction.md) (solo) Indica los catálogos compartidos que contienen precios personalizados para el producto. |
+| [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponible solo con [Adobe Commerce B2B](./b2b/../introduction.md)) Indica los catálogos compartidos que contienen precios personalizados para el producto. |
 
 {style="table-layout:auto"}
 
