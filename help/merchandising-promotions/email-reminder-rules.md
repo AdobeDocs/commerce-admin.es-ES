@@ -14,13 +14,13 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-El propósito de un recordatorio por correo electrónico es animar a las personas que han visitado su tienda a aprovechar una promoción y hacer una compra. Los recordatorios de correo electrónico se pueden enviar automáticamente a los clientes cuando se cumple un conjunto específico de condiciones. Por ejemplo, puede enviar un recordatorio a los clientes que han agregado algo al carro o a la lista de deseos, pero que aún no han realizado una compra. Puede utilizar recordatorios de correo electrónico para animar a los clientes a volver a su tienda e incluir un [código de cupón](price-rules-cart-coupon.md) como incentivo. Los códigos de cupón se pueden generar automáticamente para cada lote de recordatorios de correo electrónico, para darle control sobre las ofertas asociadas con cada lote.
+El propósito de un recordatorio por correo electrónico es animar a las personas que han visitado su tienda a aprovechar una promoción y hacer una compra. Los recordatorios de correo electrónico se pueden enviar automáticamente a los clientes cuando se cumple un conjunto específico de condiciones. Por ejemplo, puede enviar un recordatorio a los clientes que han agregado algo al carro o a la lista de deseos, pero que aún no han realizado una compra. Puedes usar recordatorios por correo electrónico para animar a los clientes a que regresen a tu tienda e incluir un [código de cupón](price-rules-cart-coupon.md) como incentivo. Los códigos de cupón se pueden generar automáticamente para cada lote de recordatorios de correo electrónico, para darle control sobre las ofertas asociadas con cada lote.
 
 Los recordatorios de correo electrónico se pueden activar después de que haya transcurrido un número específico de días desde que se abandonó un carro de compras o para cualquier otra condición que desee definir. Las condiciones comunes incluyen el valor total del carro de compras, la cantidad, los artículos que contiene, etc.
 
 >[!NOTE]
 >
->Si un cliente tiene más de un carro de compras abandonado, una lista de deseos o una combinación de ambos coincidentes, el recordatorio de correo electrónico se activa solo una vez para ese cliente. Para almacenar en déclencheur el mismo recordatorio de correo electrónico de nuevo, utilice el _[!UICONTROL Repeat Schedule]_para establecer el número de días entre correos electrónicos.
+>Si un cliente tiene más de un carro de compras abandonado, una lista de deseos o una combinación de ambos coincidentes, el recordatorio de correo electrónico se activa solo una vez para ese cliente. Para almacenar en déclencheur el mismo recordatorio de correo electrónico de nuevo, utilice el campo _[!UICONTROL Repeat Schedule]_para establecer el número de días entre correos electrónicos.
 
 ![Recordatorios de correo electrónico](./assets/email-reminders.png){width="700" zoomable="yes"}
 
@@ -28,35 +28,35 @@ Los recordatorios de correo electrónico se pueden activar después de que haya 
 
 Las reglas de recordatorio de correo electrónico se pueden enviar a intervalos regulares por minuto, hora o día. La configuración determina cuántos correos electrónicos se envían en un lote y la identidad del almacén que aparece como remitente del mensaje.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Customers]** y elija **[!UICONTROL Promotions]**.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Automated Email Reminder Rules]** y haga lo siguiente:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Automated Email Reminder Rules]** y haga lo siguiente:
 
-   ![Configuración de clientes: reglas de recordatorio de correo electrónico automatizadas](../configuration-reference/customers/assets/promotions-automated-email-reminder-rules.png){width="600" zoomable="yes"}
+   ![Configuración de clientes - reglas automatizadas de recordatorio por correo electrónico](../configuration-reference/customers/assets/promotions-automated-email-reminder-rules.png){width="600" zoomable="yes"}
 
-   - Establecer **[!UICONTROL Enable Reminder Emails]** hasta `Yes`.
+   - Establezca **[!UICONTROL Enable Reminder Emails]** en `Yes`.
 
-   - Para establecer la frecuencia con la que se ejecutan las comprobaciones de nuevos clientes que califican como recordatorios de correo electrónico automatizado, establezca **[!UICONTROL Frequency]** a uno de los siguientes:
+   - Para establecer la frecuencia con la que se ejecutan las comprobaciones de nuevos clientes que califican como recordatorios de correo electrónico automatizado, establezca **[!UICONTROL Frequency]** en una de las siguientes opciones:
 
       - `Minute Intervals`
       - `Hourly`
       - `Daily`
 
-   - Configure las variables apropiadas **[!UICONTROL Interval]**, basado en el _[!UICONTROL Frequency]_configuración.
+   - Establezca el(la) **[!UICONTROL Interval]** apropiado(a), según la configuración _[!UICONTROL Frequency]_.
 
-   - Establecer **[!UICONTROL Start Time]** a la hora, los minutos y el segundo en que se envía el correo electrónico, en función de un reloj de 24 horas.
+   - Establezca **[!UICONTROL Start Time]** en la hora, el minuto y el segundo en que se envía el correo electrónico, según un reloj de 24 horas.
 
-   - Para limitar el número de correos electrónicos que se pueden enviar en un lote, introduzca el número en la **[!UICONTROL Maximum Emails per One Run]** field.
+   - Para limitar el número de correos electrónicos que se pueden enviar en un lote, introduzca el número en el campo **[!UICONTROL Maximum Emails per One Run]**.
 
-   - Para evitar intentos repetidos de enviar correos electrónicos fallidos, introduzca el número máximo de intentos en la **[!UICONTROL Email Send Failure Threshold]** field.
+   - Para evitar intentos repetidos de enviar un correo electrónico fallido, introduzca el número máximo de intentos en el campo **[!UICONTROL Email Send Failure Threshold]**.
 
-   - Establecer **[!UICONTROL Reminder Email Sender]** a la [contacto de tienda](../getting-started/store-details.md#store-email-addresses) que aparece como el remitente del correo electrónico de recordatorio.
+   - Establece **[!UICONTROL Reminder Email Sender]** en el [contacto de tienda](../getting-started/store-details.md#store-email-addresses) que aparece como el remitente del correo electrónico de recordatorio.
 
-   Para ver una lista detallada de estas opciones, consulte [Reglas de recordatorio de correo electrónico automatizado](../configuration-reference/customers/promotions.md#automated-email-reminder-rules) en el _Referencia de configuración_.
+   Para obtener una lista detallada de estas opciones, consulte [Reglas de recordatorio de correo electrónico automatizadas](../configuration-reference/customers/promotions.md#automated-email-reminder-rules) en la _Referencia de configuración_.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 ## Plantillas de recordatorio de correo electrónico
 
@@ -66,15 +66,15 @@ La plantilla de recordatorio de correo electrónico predeterminada se puede pers
 
 ### Personalizar una plantilla de recordatorio de correo electrónico
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**.
 
-1. Haga clic **[!UICONTROL Add New Template]**.
+1. Haga clic en **[!UICONTROL Add New Template]**.
 
-1. En el **[!UICONTROL Template]** lista debajo de `Magento_Reminder`, elija la **[!UICONTROL Promotion Notification/Reminder]** plantilla.
+1. En la lista **[!UICONTROL Template]** en `Magento_Reminder`, elija la plantilla **[!UICONTROL Promotion Notification/Reminder]**.
 
-1. Haga clic **[!UICONTROL Load Template]**.
+1. Haga clic en **[!UICONTROL Load Template]**.
 
-Siga el estándar [instrucciones](../systems/email-template-custom.md) para personalizar la plantilla.
+Siga las [instrucciones](../systems/email-template-custom.md) estándar para personalizar la plantilla.
 
 ### Variables de recordatorio de correo electrónico
 

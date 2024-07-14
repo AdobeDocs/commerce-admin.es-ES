@@ -4,56 +4,56 @@ description: Aprenda a utilizar un widget de bloque estático para colocar un co
 exl-id: 174deef2-33c4-4f1a-8ca8-4969be209bc7
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
 
 # Uso de un widget para colocar un bloque
 
-El _Bloque estático de CMS_ [widget](widgets.md) le ofrece la posibilidad de colocar un [bloque de contenido](blocks.md) casi en cualquier lugar de su tienda.
+El _Bloque estático de CMS_ [widget](widgets.md) te permite colocar un [bloque de contenido](blocks.md) existente en casi cualquier lugar de tu tienda.
 
 ![Widgets](./assets/widgets.png){width="700" zoomable="yes"}
 
 ## Paso 1: Elija el tipo de widget
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add Widget]**.
 
-1. En el _Configuración_ sección, conjunto **[!UICONTROL Type]** hasta `CMS Static Block` y haga clic en **[!UICONTROL Continue]**.
+1. En la sección _Configuración_, establezca **[!UICONTROL Type]** en `CMS Static Block` y haga clic en **[!UICONTROL Continue]**.
 
-1. Compruebe que la variable **[!UICONTROL Design Theme]** se establece en la temática actual y haga clic en **[!UICONTROL Continue]**.
+1. Compruebe que **[!UICONTROL Design Theme]** está establecido en el tema actual y haga clic en **[!UICONTROL Continue]**.
 
    ![Configuración del widget](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. En el _[!UICONTROL Storefront Properties]_, haga lo siguiente:
+1. En la sección _[!UICONTROL Storefront Properties]_, haga lo siguiente:
 
-   - Para **[!UICONTROL Widget Title]**, introduzca un título descriptivo para el widget.
+   - Para **[!UICONTROL Widget Title]**, escriba un título descriptivo para el widget.
 
-     Este título solo es visible desde _Administrador_.
+     Este título solo está visible desde _Admin_.
 
    - Para **[!UICONTROL Assign to Store Views]**, seleccione las vistas de la tienda donde el widget sea visible.
 
-     Puede seleccionar una vista de tienda específica, o `All Store Views`. Para seleccionar varias vistas, mantenga pulsada la tecla Ctrl (PC) o la tecla Comando (Mac) y haga clic en cada opción.
+     Puede seleccionar una vista de tienda específica o `All Store Views`. Para seleccionar varias vistas, mantenga pulsada la tecla Ctrl (PC) o la tecla Comando (Mac) y haga clic en cada opción.
 
-   - (Opcional) Para **[!UICONTROL Sort Order]**, introduzca un número para determinar el orden en que aparece este elemento con otros en la misma parte de la página. (`0` = primero, `1` = segundo, `3` = tercero, etc.)
+   - (Opcional) Para **[!UICONTROL Sort Order]**, escriba un número para determinar el orden en que aparece este elemento con otros en la misma parte de la página. (`0` = primero, `1` = segundo, `3` = tercero, etc.)
 
      ![Propiedades de tienda](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
 
 ## Paso 2: Completar las actualizaciones del diseño del widget
 
-1. En el _[!UICONTROL Layout Updates]_, haga clic en **[!UICONTROL Add Layout Update]**.
+1. En la sección _[!UICONTROL Layout Updates]_, haga clic en **[!UICONTROL Add Layout Update]**.
 
-1. Establecer **[!UICONTROL Display On]** a la categoría, el producto o la página donde desea que aparezca el bloque.
+1. Establezca **[!UICONTROL Display On]** en la categoría, el producto o la página donde desea que aparezca el bloque.
 
 1. Para colocar el bloque en una página específica, haga lo siguiente:
 
-   - Elija la **[!UICONTROL Page]** donde desea que aparezca el bloque.
+   - Elija el **[!UICONTROL Page]** en el que desea que aparezca el bloque.
 
-   - Elija la **[!UICONTROL Block Reference]** que identifica el lugar donde se muestra el bloque en la página.
+   - Elija el **[!UICONTROL Block Reference]** que identifica el lugar donde se muestra el bloque en la página.
 
-   - Acepte la configuración predeterminada para **[!UICONTROL Template]**, que se establece en `CMS Static Block Default Template`.
+   - Acepte la configuración predeterminada de **[!UICONTROL Template]**, que está establecida en `CMS Static Block Default Template`.
 
      ![Actualizaciones de diseño](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
 
@@ -62,14 +62,14 @@ El _Bloque estático de CMS_ [widget](widgets.md) le ofrece la posibilidad de co
 | Campo | Descripción |
 |--- |--- |
 | **_[!UICONTROL Categories]_** |  |
-| [!UICONTROL Anchor Categories] | Muestra el widget en la página de categoría de anclaje.<br/>**[!UICONTROL Categories]**- Categorías en las que se muestra el anclaje. Opciones: `All` /`Specific Categories`<br/>**[!UICONTROL Container]** : configure el contenedor en la parte del diseño de página donde desee mostrar el widget.<br/>**[!UICONTROL Template]**- Determina la temática del diseño. |
-| [!UICONTROL Non-Anchor Categories] | Muestra el widget en la página de categoría sin anclaje.<br/>**[!UICONTROL Categories]**- Categorías en las que se muestra el anclaje. Opciones: `All` /`Specific Categories`<br/>**[!UICONTROL Container]** : configure el contenedor en la parte del diseño de página donde desee mostrar el widget.<br/>**[!UICONTROL Template]**- Determina la temática del diseño. |
+| [!UICONTROL Anchor Categories] | Muestra el widget en la página de categoría de anclaje.<br/>**[!UICONTROL Categories]**: categorías en las que se muestra el anclaje. Opciones: `All` /`Specific Categories`<br/>**[!UICONTROL Container]**: establezca el contenedor en la parte del diseño de página donde desea mostrar el widget.<br/>**[!UICONTROL Template]**: determina el tema del diseño. |
+| [!UICONTROL Non-Anchor Categories] | Muestra el widget en la página de categoría sin anclaje.<br/>**[!UICONTROL Categories]**: categorías en las que se muestra el anclaje. Opciones: `All` /`Specific Categories`<br/>**[!UICONTROL Container]**: establezca el contenedor en la parte del diseño de página donde desea mostrar el widget.<br/>**[!UICONTROL Template]**: determina el tema del diseño. |
 | **_[!UICONTROL Products]_** |  |
-| Todos los tipos de productos | Muestra el widget en una página de producto específica o en todas las páginas de producto. <br/>**[!UICONTROL Products]**: productos para los que se muestra el widget. Opciones: `All` /` Specific Products`<br/>**[!UICONTROL Container]** : configure el contenedor en la parte del diseño de página donde desee mostrar el widget.<br/>**[!UICONTROL Template]**- Determina la temática del diseño. |
+| Todos los tipos de productos | Muestra el widget en una página de producto específica o en todas las páginas de producto. <br/>**[!UICONTROL Products]**- Productos para los que se muestra el widget. Opciones: `All` /` Specific Products`<br/>**[!UICONTROL Container]** - Establezca el contenedor en la parte del diseño de página donde desea mostrar el widget.<br/>**[!UICONTROL Template]**: determina el tema del diseño. |
 | **_[!UICONTROL Generic Pages]_** |  |
-| [!UICONTROL All Pages] | Muestra el widget en todas las páginas. <br/>**[!UICONTROL Container]**: configure el contenedor en la parte del diseño de página donde desee mostrar el widget.<br/>**[!UICONTROL Template]** - Determina la temática del diseño. |
-| [!UICONTROL Specified Page] | Muestra el widget en una página específica. Opciones:<br/>**[!UICONTROL Page]**- Páginas para las que se muestra el widget.<br/>**[!UICONTROL Container]** : configure el contenedor en la parte del diseño de página donde desee mostrar el widget.<br/>**Plantilla** - Determina la temática del diseño. |
-| [!UICONTROL Page Layouts] | Muestra el widget en páginas con un diseño determinado. <br/>**[!UICONTROL Page]**- Páginas para las que se muestra el widget.<br/>**[!UICONTROL Container]** : configure el contenedor en la parte del diseño de página donde desee mostrar el widget.<br/>**[!UICONTROL Template]**- Determina la temática del diseño. |
+| [!UICONTROL All Pages] | Muestra el widget en todas las páginas. <br/>**[!UICONTROL Container]**: establezca el contenedor en la parte del diseño de página donde desea mostrar el widget.<br/>**[!UICONTROL Template]**: determina el tema del diseño. |
+| [!UICONTROL Specified Page] | Muestra el widget en una página específica. Opciones: <br/>**[!UICONTROL Page]**- Páginas para las que se muestra el widget.<br/>**[!UICONTROL Container]**: establezca el contenedor en la parte del diseño de página donde desea mostrar el widget.<br/>**Plantilla**: determina el tema del diseño. |
+| [!UICONTROL Page Layouts] | Muestra el widget en páginas con un diseño determinado. <br/>**[!UICONTROL Page]**: páginas para las que se muestra el widget.<br/>**[!UICONTROL Container]**: establezca el contenedor en la parte del diseño de página donde desea mostrar el widget.<br/>**[!UICONTROL Template]**: determina el tema del diseño. |
 
 {style="table-layout:auto"}
 
@@ -77,9 +77,9 @@ El _Bloque estático de CMS_ [widget](widgets.md) le ofrece la posibilidad de co
 
 1. En el panel izquierdo, seleccione **[!UICONTROL Widget Options]**.
 
-1. Clic **[!UICONTROL Select Block…]** y elija el bloque que desee colocar en la lista.
+1. Haga clic en **[!UICONTROL Select Block…]** y elija el bloque que desee colocar en la lista.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
 
    La aplicación ahora aparece en la lista.
 

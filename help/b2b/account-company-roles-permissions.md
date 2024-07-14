@@ -13,17 +13,17 @@ ht-degree: 0%
 
 # Roles y permisos de la compañía
 
-Las funciones de los usuarios de la empresa se configuran con varios niveles de permisos para acceder a la información y los recursos de ventas. De forma predeterminada, el administrador de la empresa es un _superusuario_ con permisos completos. El [Acceso denegado](../content-design/pages.md#access-denied) página aparece si el usuario no tiene permiso para acceder a la página.
+Las funciones de los usuarios de la empresa se configuran con varios niveles de permisos para acceder a la información y los recursos de ventas. De manera predeterminada, el administrador de la empresa es un _superusuario_ con permisos completos. La página [Acceso denegado](../content-design/pages.md#access-denied) aparece si el usuario no tiene permiso para acceder a la página.
 
-![Página Roles y permisos con rol predeterminado](./assets/company-roles-permissions.png){width="700" zoomable="yes"}
+![Página de roles y permisos con el rol predeterminado](./assets/company-roles-permissions.png){width="700" zoomable="yes"}
 
-El sistema tiene una función de usuario predeterminado predefinida que puede utilizar _como está_ o modifique para adaptarlo a sus necesidades. Puede crear tantas funciones como sea necesario para adaptarse a la estructura de su empresa y a las responsabilidades organizativas, como las siguientes:
+El sistema tiene una función de usuario predeterminado predefinida, que puede usar _tal cual_ o modificar para adaptarla a sus necesidades. Puede crear tantas funciones como sea necesario para adaptarse a la estructura de su empresa y a las responsabilidades organizativas, como las siguientes:
 
-- **Usuario predeterminado** — El usuario por defecto tiene acceso completo a las actividades relacionadas con las ventas y presupuestos, y acceso de sólo consulta a la información de perfil de la empresa y de crédito.
+- **Usuario predeterminado**: el usuario predeterminado tiene acceso completo a las actividades relacionadas con ventas y presupuestos, así como acceso de sólo lectura a la información de crédito y perfil de la compañía.
 
-- **Comprador principal** — Un comprador principal podría tener acceso a todos los recursos de Ventas y Ofertas y permisos de sólo consulta para el Perfil de la compañía, el Usuario y los equipos, la Información de pago y el Crédito de la compañía.
+- **Comprador sénior**: Un comprador sénior podría tener acceso a todos los recursos de Ventas y Ofertas y permisos de sólo lectura para el Perfil de la compañía, el Usuario y los Equipos, la Información de pago y el Crédito de la compañía.
 
-- **Comprador asistente** — Es posible que un comprador asistente tenga permiso para realizar un pedido utilizando _Cierre de compra con presupuesto_ y para ver pedidos, presupuestos e información en el perfil de la empresa.
+- **Comprador asistente**: un comprador asistente podría tener permiso para realizar un pedido con _Finalizar compra con presupuesto_ y para ver pedidos, presupuestos e información en el perfil de la compañía.
 
 ## Administración de funciones y permisos
 
@@ -39,13 +39,13 @@ El sistema tiene una función de usuario predeterminado predefinida que puede ut
 
    ![Agregar nuevo rol](./assets/company-roles-permissions-add-storefront.png){width="600" zoomable="yes"}
 
-1. Introduce un elemento descriptivo **[!UICONTROL Role Name]**.
+1. Introduce un **[!UICONTROL Role Name]** descriptivo.
 
 1. En _[!UICONTROL Role Permissions]_, realiza una de las siguientes acciones:
 
    - Activa la casilla de verificación de cada recurso o actividad para el que los usuarios asignados a la función tienen permiso de acceso.
 
-   - Selecciona el **[!UICONTROL All]** y borra la casilla de verificación de cada recurso o actividad al que los usuarios asignados a la función no tienen permiso de acceso.
+   - Activa la casilla de verificación **[!UICONTROL All]** y desactiva la de cada recurso o actividad para los que los usuarios asignados a la función no tienen permiso de acceso.
 
 1. Clics **[!UICONTROL Save Role]**.
 
@@ -53,19 +53,19 @@ El sistema tiene una función de usuario predeterminado predefinida que puede ut
 
 ### Modificación de un rol
 
-1. Para modificar la función, el administrador de la empresa hace clic en **[!UICONTROL Edit]** en el _[!UICONTROL Actions]_columna.
+1. Para que se modifique la función, el administrador de la empresa hace clic en **[!UICONTROL Edit]** en la columna _[!UICONTROL Actions]_.
 
 1. Realiza los cambios necesarios en la configuración de nombre y permisos.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Role]**.
+1. Una vez finalizado, hace clic en **[!UICONTROL Save Role]**.
 
 ### Duplicación de un rol
 
-1. Para duplicar la función, el administrador de la empresa hace clic en **[!UICONTROL Duplicate]** en el _[!UICONTROL Actions]_columna.
+1. Para que se duplique la función, el administrador de la empresa hace clic en **[!UICONTROL Duplicate]** en la columna _[!UICONTROL Actions]_.
 
 1. Realiza los cambios necesarios en la configuración de nombre y permisos.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Role]**.
+1. Una vez finalizado, hace clic en **[!UICONTROL Save Role]**.
 
 ### Eliminar un rol
 
@@ -73,15 +73,15 @@ El sistema tiene una función de usuario predeterminado predefinida que puede ut
 
    Solo se pueden eliminar los roles sin usuarios asignados.
 
-1. Clics **[!UICONTROL Delete]** en el _[!UICONTROL Actions]_columna.
+1. Hace clic en **[!UICONTROL Delete]** en la columna _[!UICONTROL Actions]_.
 
-1. Cuando se le pida que confirme, haga clic en **[!UICONTROL OK]**.
+1. Cuando se le pida que confirme, hace clic en **[!UICONTROL OK]**.
 
 ## Acciones
 
 | Acción | Descripción |
 |-----------| ----------- |
-| [!UICONTROL Duplicate] | Crea una copia del rol seleccionado. El nombre de la función duplicada tiene `- Duplicated` se ha añadido al final. |
+| [!UICONTROL Duplicate] | Crea una copia del rol seleccionado. El nombre de la función duplicada tiene `- Duplicated` agregado al final. |
 | [!UICONTROL Edit] | Cambie el nombre o el conjunto de permisos. |
 | [!UICONTROL Delete] | Elimine la función. Solo se pueden eliminar los roles sin usuarios asignados. |
 
@@ -132,11 +132,11 @@ Después de definir las funciones necesarias, el administrador de la empresa asi
 
 1. En el panel izquierdo, elija **[!UICONTROL Company Users]**.
 
-   ![Usuarios de empresa](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
+   ![Usuarios de la compañía](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
-1. Busca el usuario en la lista y hace clic en **[!UICONTROL Edit]**.
+1. Busca al usuario en la lista y hace clic en **[!UICONTROL Edit]**.
 
-1. Elige el adecuado **[!UICONTROL User Role]** para el usuario.
+1. Elige el(la) **[!UICONTROL User Role]** apropiado(a) para el usuario.
 
    ![Editar usuario: elija un rol de usuario](./assets/company-user-assign-role.png){width="700" zoomable="yes"}
 

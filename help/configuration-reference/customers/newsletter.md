@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Newsletter]'
-description: Revise la configuración de en [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] de la administración de Commerce.
+description: Revise la configuración en la página [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] del administrador de Commerce.
 exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 feature: Configuration, Customers, Communications
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->El boletín forma parte de los instrumentos de marketing que permiten enviar a los clientes noticias, descuentos y otros correos electrónicos de marketing. Los clientes registrados pueden administrar su suscripción desde el [tablero de cuentas](../../customers/account-dashboard-my-account.md).
+>El boletín forma parte de los instrumentos de marketing que permiten enviar a los clientes noticias, descuentos y otros correos electrónicos de marketing. Los clientes registrados pueden administrar su suscripción desde su [panel de cuentas](../../customers/account-dashboard-my-account.md).
 
 ## [!UICONTROL General Options]
 

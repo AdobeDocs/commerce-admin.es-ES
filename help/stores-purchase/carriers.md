@@ -5,7 +5,7 @@ exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -16,18 +16,18 @@ Si tiene una cuenta comercial con un transportista admitido, puede ofrecer a sus
 
 >[!NOTE]
 >
->Consulte [Commerce Marketplace](../getting-started/commerce-marketplace.md) para obtener servicios de envío adicionales para su instalación de Commerce.
+>Consulta a [Commerce Marketplace](../getting-started/commerce-marketplace.md) para obtener servicios de envío adicionales para tu instalación de Commerce.
 
 Antes de poder ofrecer a sus clientes una selección de transportistas, debe completar los siguientes pasos:
 
-- Configure las variables [configuración de envío](shipping-settings.md) para establecer el punto de origen de su tienda.
+- Configure [configuración de envío](shipping-settings.md) para establecer el punto de origen de su tienda.
 
 - Configure las opciones de cada servicio de operador que desee ofrecer.
 
-   - [**UPS**](ups.md)  - United Parcel Service (UPS) ofrece servicios de envío nacionales e internacionales por tierra y aire a más de 220 países.
+   - [**UPS**](ups.md) - United Parcel Service (UPS) ofrece servicios de envío nacionales e internacionales por tierra y aire a más de 220 países.
    - [**USPS**](usps.md) - El Servicio Postal de los Estados Unidos (USPS) es el servicio postal independiente del gobierno de los Estados Unidos. USPS ofrece servicios de envío nacionales e internacionales por tierra y aire.
    - [**FedEx**](fedex.md) - FedEx ofrece servicios de envío nacionales e internacionales por tierra y aire a más de 220 países.
-   - [**DHL**](dhl.md) - DHL ofrece servicios internacionales integrados y soluciones personalizadas y centradas en el cliente para gestionar y transportar cartas, bienes e información.
+   - [**DHL**](dhl.md) - DHL ofrece servicios internacionales integrados y soluciones adaptadas y centradas en el cliente para administrar y transportar cartas, bienes e información.
 
 ## Peso dimensional
 

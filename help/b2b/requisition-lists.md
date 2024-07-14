@@ -16,7 +16,7 @@ El uso de una lista de solicitudes ahorra tiempo al comprar productos pedidos co
 
 >[!NOTE]
 >
->Para activar listas de solicitudes para su tienda, consulte [Activar funciones B2B](enable-basic-features.md). Puede permitir el mantenimiento de hasta 999 listas de solicitudes para cada cuenta de cliente, en función de las [configuración](configure-requisition-lists.md).
+>Para habilitar listas de solicitudes para su tienda, consulte [Habilitar características B2B](enable-basic-features.md). Puede permitir que se mantengan hasta 999 listas de solicitudes para cada cuenta de cliente, según la [configuración](configure-requisition-lists.md).
 
 La funcionalidad de la lista de solicitudes es similar a las listas de deseos, con las siguientes diferencias:
 
@@ -29,15 +29,15 @@ La funcionalidad de la lista de solicitudes es similar a las listas de deseos, c
 
 Un cliente conectado que esté asociado a una cuenta de compañía puede crear una lista de solicitudes a partir de su panel de cuentas.
 
-1. En la barra lateral de su cuenta, elija **[!UICONTROL My Requisition Lists]**.
+1. En la barra lateral de su cuenta, elige **[!UICONTROL My Requisition Lists]**.
 
-1. En el _[!UICONTROL Requisition Lists]_página, clics **[!UICONTROL Create New Requisition List]**.
+1. En la página _[!UICONTROL Requisition Lists]_, hace clic en **[!UICONTROL Create New Requisition List]**.
 
-1. Ingresa el **[!UICONTROL Requisition List Name]** y **[!UICONTROL Description]**.
+1. Escribe **[!UICONTROL Requisition List Name]** y **[!UICONTROL Description]**.
 
    ![Crear lista de solicitudes](./assets/requisition-list-create.png){width="300"}
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, hace clic en **[!UICONTROL Save]**.
 
 ## Creación de una lista de solicitudes desde una página de producto
 
@@ -47,9 +47,9 @@ Un cliente conectado que esté asociado a una cuenta de compañía puede crear u
 
 1. Clics **[!UICONTROL Create New Requisition List]**.
 
-1. Ingresa el **[!UICONTROL Requisition List Name]** y **[!UICONTROL Description]**.
+1. Escribe **[!UICONTROL Requisition List Name]** y **[!UICONTROL Description]**.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, hace clic en **[!UICONTROL Save]**.
 
 ## Agregar productos a una lista de solicitudes
 
@@ -64,12 +64,12 @@ Los clientes pueden agregar productos a una lista de solicitudes desde:
 
 1. Desde la tienda, el cliente va a la página de detalles del producto que se va a añadir a la lista de solicitudes.
 
-1. Clics **[!UICONTROL Add to Requisition List]** y realiza una de las siguientes acciones:
+1. Hace clic en **[!UICONTROL Add to Requisition List]** y realiza una de las siguientes acciones:
 
    - Permite seleccionar una lista de solicitudes existente.
    - Crea una lista de solicitudes.
 
-   ![Añadir a la lista de solicitudes](./assets/requisition-list-product-detail.png){width="700" zoomable="yes"}
+   ![Agregar a la lista de solicitudes](./assets/requisition-list-product-detail.png){width="700" zoomable="yes"}
 
 ### Desde una página de catálogo
 
@@ -77,27 +77,27 @@ Los clientes pueden agregar productos a una lista de solicitudes desde:
 
 1. Pase el ratón sobre el producto.
 
-1. Clics **[!UICONTROL Add to Requisition List]** y realiza una de las siguientes acciones:
+1. Hace clic en **[!UICONTROL Add to Requisition List]** y realiza una de las siguientes acciones:
 
    - Permite seleccionar una lista de solicitudes existente.
    - Crea una lista de solicitudes.
 
-   ![Añadir a la lista de solicitudes](./assets/requisition-list-add-product.png){width="700" zoomable="yes"}
+   ![Agregar a la lista de solicitudes](./assets/requisition-list-add-product.png){width="700" zoomable="yes"}
 
 ### A partir de un pedido existente
 
 1. En la barra lateral de su panel de cuentas, el cliente elige **[!UICONTROL My Orders]**.
 
-1. En la parte superior del pedido, haga clic en **[!UICONTROL Add to Requisition List]** y realiza una de las siguientes acciones:
+1. En la parte superior del pedido, hace clic en **[!UICONTROL Add to Requisition List]** y realiza una de las siguientes acciones:
 
    - Permite seleccionar una lista de solicitudes existente.
    - Crea una lista de solicitudes.
 
-   ![Añadir a la lista de solicitudes](./assets/requisition-list-add-from-order.png){width="700" zoomable="yes"}
+   ![Agregar a la lista de solicitudes](./assets/requisition-list-add-from-order.png){width="700" zoomable="yes"}
 
 ### Desde el carro
 
-1. En el artículo, el cliente hace clic en **[!UICONTROL Add to Requisition List]** y realiza una de las siguientes acciones:
+1. En el elemento, el cliente hace clic en el menú **[!UICONTROL Add to Requisition List]** y realiza una de las siguientes acciones:
 
    - Permite seleccionar una lista de solicitudes existente.
    - Crea una lista de solicitudes.
@@ -112,12 +112,12 @@ Cuando un cliente ha iniciado sesión en su cuenta, puede utilizar cualquiera de
 
 ### Desde el panel de cuentas
 
-1. En la barra lateral de su panel de cuentas, elija **[!UICONTROL My Requisition Lists]**.
+1. En la barra lateral de su panel de cuentas, elige **[!UICONTROL My Requisition Lists]**.
 
-1. En la lista de listas de solicitudes, haga clic en **[!UICONTROL View]** en el _Acciones_ columna.
+1. En la lista de listas de solicitudes, hace clic en **[!UICONTROL View]** en la columna _Acciones_.
 
 ### Desde cualquier página de tienda
 
 1. En la barra de vínculos rápidos de la parte superior de la página, hace clic en su nombre de usuario.
 
-1. En el menú, elija **[!UICONTROL My Requisition Lists]**.
+1. En el menú, elige **[!UICONTROL My Requisition Lists]**.

@@ -14,30 +14,30 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-El registro de acciones masivas registra los detalles de las operaciones de masa asíncronas que se ejecutan en segundo plano, como la importación, exportación o asignación [precios aduana](../b2b/catalog-shared-manage.md#update-custom-pricing) a varios productos en una [catálogo compartido](../b2b/catalog-shared.md).
+El registro de acciones masivas registra los detalles de las operaciones masivas asincrónicas que se ejecutan en segundo plano, como la importación/exportación o la asignación de [precios personalizados](../b2b/catalog-shared-manage.md#update-custom-pricing) a varios productos en un [catálogo compartido](../b2b/catalog-shared.md).
 
-![Registro de acciones masivas](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
+![Registro de acciones en lotes](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
 
 ## Configuración de acciones masivas
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Advanced]** y elija **[!UICONTROL System]**.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Bulk Actions]** y establezca la opción de guardado del registro:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Bulk Actions]** y establezca la opción para guardar el registro:
 
-   **[!UICONTROL Days Saved in Log]** — introduzca el número de días durante los cuales se guardan las acciones masivas en un &quot;log&quot;.
+   **[!UICONTROL Days Saved in Log]**: escriba el número de días durante los cuales se guardarán las acciones masivas en un registro.
 
    ![Configuración avanzada: acciones masivas](../configuration-reference/advanced/assets/system-bulk-actions.png){width="600" zoomable="yes"}
 
-   Para obtener una lista detallada de los ajustes de configuración, consulte [_Acciones masivas_](../configuration-reference/advanced/system.md) en el _Referencia de configuración_.
+   Para obtener una lista detallada de las opciones de configuración, consulte [_Acciones masivas_](../configuration-reference/advanced/system.md) en la _Referencia de configuración_.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 ## Ver acciones masivas
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Bulk Actions]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Bulk Actions]**.
 
 1. Busque la acción que desee en el registro.
 
-1. En el _[!UICONTROL Action]_, haga clic en **[!UICONTROL Details]**.
+1. En la columna _[!UICONTROL Action]_, haga clic en **[!UICONTROL Details]**.

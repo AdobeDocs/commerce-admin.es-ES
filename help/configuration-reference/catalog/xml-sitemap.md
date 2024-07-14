@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap]'
-description: Revise la configuración de en [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] de la administración de Commerce.
+description: Revise la configuración en la página [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] del administrador de Commerce.
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 feature: Configuration, Site Navigation
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -23,7 +23,7 @@ ht-degree: 2%
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Vista de tienda | Determina la frecuencia con la que se actualizan las categorías de mapa del sitio. Opciones: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Vista de tienda | Un valor entre `0.0` y `1.0` que determina la prioridad de las actualizaciones del mapa del sitio de categoría en relación con otro contenido. Cero (`0.0`) tiene la prioridad más baja. |
+| [!UICONTROL Priority] | Vista de tienda | Valor entre `0.0` y `1.0` que determina la prioridad de las actualizaciones del mapa del sitio de categoría en relación con otro contenido. Cero (`0.0`) tiene la prioridad más baja. |
 
 {style="table-layout:auto"}
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Vista de tienda | Determina la frecuencia con la que se actualizan los productos de mapa del sitio. Opciones: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Vista de tienda | Un valor entre `0.0` y `1.0` que determina la prioridad de las actualizaciones del mapa del sitio del producto en relación con otro contenido. Cero (`0.0`) tiene la prioridad más baja. |
+| [!UICONTROL Priority] | Vista de tienda | Valor entre `0.0` y `1.0` que determina la prioridad de las actualizaciones del mapa del sitio del producto en relación con otro contenido. Cero (`0.0`) tiene la prioridad más baja. |
 | [!UICONTROL Add Images into Sitemap] | Vista de tienda | Determina el grado en que las imágenes se incluyen en el mapa del sitio. Opciones: `None` / `Base Only` / `All` |
 
 {style="table-layout:auto"}
@@ -50,7 +50,7 @@ ht-degree: 2%
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Vista de tienda | Determina la frecuencia con la que se actualizan las páginas de CMS de mapa del sitio. Opciones: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Vista de tienda | Un valor entre `0.0` y `1.0` que determina la prioridad de las actualizaciones del mapa del sitio de la página de CMS en relación con otro contenido. Cero (`0.0`) tiene la prioridad más baja. |
+| [!UICONTROL Priority] | Vista de tienda | Valor entre `0.0` y `1.0` que determina la prioridad de las actualizaciones del mapa del sitio de la página de CMS en relación con otro contenido. Cero (`0.0`) tiene la prioridad más baja. |
 
 {style="table-layout:auto"}
 
@@ -59,7 +59,7 @@ ht-degree: 2%
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Vista de tienda | Determina la frecuencia con la que se actualizan las direcciones URL del almacén. Opciones: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Vista de tienda | Un valor entre `0.0` y `1.0` que determina la prioridad de las actualizaciones de la dirección URL de la tienda en relación con otro contenido. Cero (`0.0`) tiene la prioridad más baja. |
+| [!UICONTROL Priority] | Vista de tienda | Valor entre `0.0` y `1.0` que determina la prioridad de las actualizaciones de la dirección URL del almacén en relación con otro contenido. Cero (`0.0`) tiene la prioridad más baja. |
 
 {style="table-layout:auto"}
 
@@ -82,7 +82,7 @@ ht-degree: 2%
 
 ## [!UICONTROL Sitemap File Limits]
 
-![Límites de archivos de mapa](./assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
+![Límites de archivos de mapa del sitio](./assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
 
 <!-- [Sitemap File Limits](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
 

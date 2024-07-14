@@ -20,7 +20,7 @@ ht-degree: 6%
 + [Notas de la versión](release-notes.md)
 + [Instalación](install.md)
 + [Activar funciones B2B](enable-basic-features.md)
-+ Cuentas de empresa {#companies}
++ Cuentas de la compañía {#companies}
    + [Información general](account-companies.md)
    + [Configurar opciones de correo electrónico de empresa](email-company-configuration.md)
    + [Crear una cuenta de empresa](account-company-create.md)
@@ -30,7 +30,7 @@ ht-degree: 6%
    + [Asignación de un grupo de clientes a una compañía](account-company-customer-group.md)
    + [Añadir clientes a una compañía](customer-assign-company.md)
    + [Administrar crédito de la empresa](credit-company.md)
-   + Usuarios y estructura de la empresa {#users}
+   + Usuarios de la compañía y estructura {#users}
       + [Cuentas de usuario de empresa](account-company-users.md)
       + [Funciones de la compañía y permisos](account-company-roles-permissions.md)
       + [Definir estructura de la empresa](account-company-structure.md)
@@ -39,7 +39,7 @@ ht-degree: 6%
    + [Administrar jerarquía de empresa](assign-companies.md)
 + Catálogos compartidos {#shared-catalogs}
    + [Información general](catalog-shared.md)
-   + Definición de catálogos compartidos {#define}
+   + Definir catálogos compartidos {#define}
       + [Creación de un catálogo compartido](catalog-shared-create.md)
       + [Añadir productos a un catálogo compartido](catalog-shared-product-add.md)
       + [Establecer estructura y precios de catálogo](catalog-shared-pricing-structure.md)
@@ -64,4 +64,4 @@ ht-degree: 6%
 + Referencia {#reference}
    + [Cambios incompatibles con versiones anteriores](backward-incompatible-changes.md)
    + [Paquetes](packages.md)
-+ [Volver a Guías de Comerciantes](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Volver a las guías del comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

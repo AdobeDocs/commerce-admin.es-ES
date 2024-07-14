@@ -6,7 +6,7 @@ feature: Gift, Storefront, Search
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
 source-wordcount: '436'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -14,47 +14,47 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-El [Widget](../content-design/widgets.md) La herramienta se puede utilizar para colocar un cuadro de búsqueda de registro de regalos en la mayoría de las ubicaciones de su tienda. Puede especificar las opciones de búsqueda que estarán disponibles para los clientes, como el nombre, la dirección de correo electrónico y el ID del registro de regalos. Cuando el cliente hace clic en el botón Buscar, los resultados aparecen en la página Buscar del Registro de regalos. Si la búsqueda no devuelve resultados, el cliente puede intentarlo de nuevo con otros parámetros.
+La herramienta [Widget](../content-design/widgets.md) se puede usar para colocar un cuadro de búsqueda del registro de regalos en cualquier parte de la tienda. Puede especificar las opciones de búsqueda que estarán disponibles para los clientes, como el nombre, la dirección de correo electrónico y el ID del registro de regalos. Cuando el cliente hace clic en el botón Buscar, los resultados aparecen en la página Buscar del Registro de regalos. Si la búsqueda no devuelve resultados, el cliente puede intentarlo de nuevo con otros parámetros.
 
-![Ejemplo de tienda: búsqueda en el registro de regalos](./assets/storefront-gift-registry-search.png){width="700" zoomable="yes"}
+![Ejemplo de tienda - búsqueda en el registro de regalos](./assets/storefront-gift-registry-search.png){width="700" zoomable="yes"}
 
 ## Configurar la búsqueda del registro de regalos
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add Widget]**.
 
-1. Elija la **[!UICONTROL Settings]** y haga lo siguiente:
+1. Elija la ficha **[!UICONTROL Settings]** y haga lo siguiente:
 
-   - Establecer **[!UICONTROL Type]** hasta `Gift Registry Search`.
+   - Establezca **[!UICONTROL Type]** en `Gift Registry Search`.
 
-   - Establecer **[!UICONTROL Design Theme]** al tema que utiliza la tienda.
+   - Establezca **[!UICONTROL Design Theme]** en el tema que usa la tienda.
 
-   - Haga clic **[!UICONTROL Continue]**.
+   - Haga clic en **[!UICONTROL Continue]**.
 
    ![Registro de regalos - configuración de búsqueda](./assets/widget-gift-registry-search-settings.png){width="700" zoomable="yes"}
 
-1. En el _[!UICONTROL Storefront Properties]_, haga lo siguiente:
+1. En la sección _[!UICONTROL Storefront Properties]_, haga lo siguiente:
 
-   - Introduzca una **[!UICONTROL Widget Title]** para consulta interna.
+   - Escriba un(a) **[!UICONTROL Widget Title]** como referencia interna.
 
-   - Establecer **[!UICONTROL Assign to Store Views]** a las vistas de tienda donde la búsqueda en el registro de regalos debe estar disponible.
+   - Establezca **[!UICONTROL Assign to Store Views]** en las vistas del almacén donde la búsqueda del Registro de regalos estará disponible.
 
-   - Establecer **[!UICONTROL Sort Order]** para determinar el orden en que aparece el bloque de búsqueda del Registro de regalos cuando hay otros bloques asignados a la misma ubicación en la página.
+   - Establezca **[!UICONTROL Sort Order]** para determinar el orden en que aparece el bloque de búsqueda del Registro de regalos cuando hay otros bloques asignados a la misma ubicación en la página.
 
    ![Registro de regalos - propiedades de la tienda](./assets/widget-gift-registry-search-storefront-properties.png){width="700" zoomable="yes"}
 
-1. En el **[!UICONTROL Layout Updates]** , haga clic en **[!UICONTROL Add Layout Update]**.
+1. En la sección **[!UICONTROL Layout Updates]**, haga clic en **[!UICONTROL Add Layout Update]**.
 
 1. Para determinar dónde aparece la búsqueda del Registro de regalos en el almacén, haga lo siguiente:
 
-   - Establecer **[!UICONTROL Display On]** Vaya a las páginas de la tienda en las que quiera que aparezca el bloque Búsqueda en el registro de regalos.
+   - Establece **[!UICONTROL Display On]** en las páginas de tu tienda en las que quieras que aparezca el bloque de búsqueda del Registro de regalos.
 
-   - Si procede, elija la **[!UICONTROL Categories]** donde desea que aparezca.
+   - Si corresponde, elija el(la) **[!UICONTROL Categories]** en el lugar donde desea que aparezca.
 
-   - Establecer **[!UICONTROL Container]** a la ubicación de la página para colocar el bloque Búsqueda del Registro de regalos.
+   - Establezca **[!UICONTROL Container]** en la ubicación de la página para colocar el bloque de búsqueda del Registro de regalos.
 
-   ![Registro de regalos: actualizaciones de diseño](./assets/widget-gift-registry-search-layout-updates.png){width="500" zoomable="yes"}
+   ![Registro de regalos - actualizaciones de diseño](./assets/widget-gift-registry-search-layout-updates.png){width="500" zoomable="yes"}
 
 1. En el panel izquierdo, elija **[!UICONTROL Widget Options]**.
 
@@ -65,9 +65,9 @@ El [Widget](../content-design/widgets.md) La herramienta se puede utilizar para 
    - [!UICONTROL Registrant Email Search]
    - [!UICONTROL Gift Registry ID Search]
 
-   ![Registro de regalos: opciones de widget](./assets/widget-gift-registry-search-widget-options.png){width="700" zoomable="yes"}
+   ![Registro de regalos - opciones de widget](./assets/widget-gift-registry-search-widget-options.png){width="700" zoomable="yes"}
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
 
 1. Cuando se le pida que actualice la caché de la página, haga clic en el vínculo del mensaje en la parte superior del espacio de trabajo y siga las instrucciones.
 

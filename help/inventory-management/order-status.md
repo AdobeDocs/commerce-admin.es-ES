@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Estado del pedido y reservas
 
-[!DNL Inventory Management] admite facturación parcial y completa, pagos, envíos y cancelaciones por pedido. A medida que gestiona un pedido mediante procesamiento, facturación, envío y posibles reembolsos, [!DNL Commerce] introduce o cambia automáticamente reservas para actualizar la cantidad vendible de un inventario (o canal de ventas) y la cantidad de inventario disponible por origen. No tiene que acceder ni introducir reservas de forma activa. La realización de acciones para cumplir, cancelar o reembolsar un pedido lo hace por usted.
+[!DNL Inventory Management] admite la facturación, los pagos, los envíos y las cancelaciones parciales y totales por pedido. A medida que administra un pedido mediante procesamiento, facturación, envío y posibles reembolsos, [!DNL Commerce] introduce o cambia automáticamente las reservas para actualizar la cantidad vendible de un inventario (o canal de ventas) y la cantidad de inventario disponible por origen. No tiene que acceder ni introducir reservas de forma activa. La realización de acciones para cumplir, cancelar o reembolsar un pedido lo hace por usted.
 
 Estas reservas siempre ajustan la cantidad vendible, con cantidades positivas o negativas para aumentar o disminuir las cantidades. El resultado es una actualización del inventario disponible y de las cantidades vendibles para obtener una disponibilidad de productos actualizada.
 
-Para obtener más información sobre pedidos y envíos, consulte [Gestión de Pedidos y Envíos](shipments.md).
+Para obtener información específica sobre los pedidos y envíos, consulte [Administración de pedidos y envíos](shipments.md).
 
 ## Opciones de Order Management
 
@@ -32,11 +32,11 @@ Si un cliente cancela su pedido antes del envío (parcial o total), se introduce
 
 ### Pedidos reembolsados
 
-Si un cliente solicita un reembolso, emita la nota de abono para los importes parciales o totales del producto. Cuando reciba los productos devueltos, introduzca una nota de abono para proporcionar los fondos y actualizar los importes del producto. Al seleccionar la opción Volver a Stock, [!DNL Commerce] vuelve a añadir cantidades a los productos y orígenes que enviaron los pedidos y las compensaciones de reserva para actualizar las cantidades vendibles del stock asociado.
+Si un cliente solicita un reembolso, emita la nota de abono para los importes parciales o totales del producto. Cuando reciba los productos devueltos, introduzca una nota de abono para proporcionar los fondos y actualizar los importes del producto. Al seleccionar la opción Devolver a Stock, [!DNL Commerce] vuelve a agregar cantidades a los productos y orígenes que enviaron los pedidos y las compensaciones de reserva para actualizar las cantidades vendibles del stock asociado.
 
 ## Tipos de pedidos
 
-Los pedidos simples comienzan con un carro de compras, continúan con el pago y terminan con una entrega satisfecha. En estas órdenes, [!DNL Inventory Management] procesa fácilmente las reservas con respecto a la disponibilidad (o cantidad vendible) en el carro de compras y el pago, y deduce del inventario disponible en el envío.
+Los pedidos simples comienzan con un carro de compras, continúan con el pago y terminan con una entrega satisfecha. En estos pedidos, [!DNL Inventory Management] procesa fácilmente las reservas con respecto a la disponibilidad (o cantidad vendible) en el carro de compras y el cierre de compra, y deduce del inventario disponible en el envío.
 
 ![Proceso para un pedido simple](assets/diagram-simple-order-flow.png){width="600" zoomable="yes"}
 
@@ -48,7 +48,7 @@ Las reservas de disponibilidad y los cambios de inventario se producen en funci�
 
 ## Estado y reservas
 
-Las siguientes tablas detallan el estado del pedido y de la nota de abono con los cambios de reserva introducidos por [!DNL Commerce] para administrar el inventario.
+Las siguientes tablas detallan el estado del pedido y la nota de abono con los cambios de reserva introducidos por [!DNL Commerce] para administrar el inventario.
 
 | Estado del pedido | Descripción | Reserva de cantidad vendible |
 |--|--|--|
@@ -76,14 +76,14 @@ Compran dos grandes bicicletas de parque para sus hijos pequeños, una bicicleta
 
 ![Pedido complejo](assets/diagram-order-complex.png){width="600" zoomable="yes"}
 
-Muestran a su familia lo que encontraron, pero hacen algunos cambios. Antes de que se complete el pago, cancelan dos de las SKU de 33-BikeFun (a los niños no les gustaban). Se trata de una cancelación parcial debido al pago pendiente, por lo que no se necesita nota de crédito. Para actualizar, [!DNL Commerce] vuelve a añadir al stock de cantidad vendible para Canadá. El pedido se paga, y todos los productos se envían, llegando a tiempo para las vacaciones. [!DNL Commerce] actualiza la cantidad vendible y las cantidades de origen de los almacenes de envío de los productos enviados.
+Muestran a su familia lo que encontraron, pero hacen algunos cambios. Antes de que se complete el pago, cancelan dos de las SKU de 33-BikeFun (a los niños no les gustaban). Se trata de una cancelación parcial debido al pago pendiente, por lo que no se necesita nota de crédito. Para actualizar, [!DNL Commerce] agrega de nuevo el stock de cantidad vendible para Canadá. El pedido se paga, y todos los productos se envían, llegando a tiempo para las vacaciones. [!DNL Commerce] actualiza la cantidad vendible y las cantidades de origen para los almacenes de envío de los productos enviados.
 
 Pero la camisa no le quedaba bien a su esposa. Blake solicita un reembolso y devuelve su camisa. La creación de la nota de crédito agrega una camiseta 54-BikeLife de nuevo al almacén de stock y envío de Canadá.
 
-- **Productos enviados** - Con productos comprados y enviados, [!DNL Commerce] actualiza el inventario. Las compensaciones de reserva se convierten en deducciones de cantidad de inventario disponible del origen enviado. Las actualizaciones de cantidad vendible disponibles para el stock.
+- **Productos enviados** - Con los productos comprados y enviados, [!DNL Commerce] actualiza el inventario. Las compensaciones de reserva se convierten en deducciones de cantidad de inventario disponible del origen enviado. Las actualizaciones de cantidad vendible disponibles para el stock.
 
-- **Productos cancelados** - Mediante la cancelación de existencias, [!DNL Commerce] elimina la reserva de ese producto. La compensación de reserva se introduce al nivel de stock para añadir cantidades vendibles de vuelta para la cancelación parcial de dos camisas. Esto no afecta a la cantidad de inventario en el nivel de origen.
+- **Productos cancelados**: al cancelar el inventario de existencias, [!DNL Commerce] elimina la reserva de ese producto. La compensación de reserva se introduce al nivel de stock para añadir cantidades vendibles de vuelta para la cancelación parcial de dos camisas. Esto no afecta a la cantidad de inventario en el nivel de origen.
 
-- **Nota de abono/producto reembolsado** - Al devolver las existencias, se debe volver a añadir a las cantidades. Al emitir la nota de abono, puede seleccionar volver a stock. [!DNL Commerce] agrega cantidad de inventario de reserva al origen enviado para el producto. Las compensaciones de reserva se introducen para borrar las reservas restantes. La cantidad vendible se vuelve a calcular respecto a la cantidad actualizada.
+- **Producto con abono o reembolso**: al devolver las existencias, se debe volver a agregar a las cantidades. Al emitir la nota de abono, puede seleccionar volver a stock. [!DNL Commerce] vuelve a agregar la cantidad de inventario al origen enviado para el producto. Las compensaciones de reserva se introducen para borrar las reservas restantes. La cantidad vendible se vuelve a calcular respecto a la cantidad actualizada.
 
-![Actualizaciones de cantidad de devolución de pedidos](assets/diagram-order-refund.png){width="600" zoomable="yes"}
+![Actualizaciones de cantidad de devolución de pedido](assets/diagram-order-refund.png){width="600" zoomable="yes"}

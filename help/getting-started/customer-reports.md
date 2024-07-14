@@ -18,9 +18,9 @@ Los informes del cliente proporcionan una perspectiva de la actividad del client
 
 El [!UICONTROL Order Total Report] muestra los pedidos de los clientes para un intervalo de tiempo o intervalo de fechas especificado. El informe incluye el número de pedidos por cliente, el importe promedio del pedido y el importe total.
 
-En el _Administrador_ barra lateral, vaya a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**.
+En la barra lateral _Admin_, vaya a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**.
 
-![Informe Total de Pedido](./assets/customers-order-total.png){width="600"}
+![Informe de total del pedido](./assets/customers-order-total.png){width="600"}
 
 ### Controles de Workspace
 
@@ -38,21 +38,21 @@ En el _Administrador_ barra lateral, vaya a **[!UICONTROL Reports]** > _[!UICONT
 
 | Columna | Descripción |
 |--- |--- |
-| [!UICONTROL Interval] | El intervalo total del pedido, por `Month` / `Day` / `Year`. |
+| [!UICONTROL Interval] | Intervalo total del pedido, por `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | El nombre del cliente que realizó los pedidos. |
 | [!UICONTROL Orders] | Número de pedidos para el intervalo especificado. |
-| [!UICONTROL Average] | Cantidad de pedido promedio. Esta cantidad siempre se calcula para los precios del producto **impuesto exclusión** incluso si los precios del producto del catálogo, el subtotal del pedido y el total del pedido incluyen impuestos. Como resultado, el importe que se muestra en el informe es diferente al importe que se muestra en los detalles del pedido en los casos en los que los totales de pedidos incluyen impuestos. |
-| [!UICONTROL Total] | La suma de todos los pedidos del periodo. Esta cantidad siempre se calcula para los precios del producto **impuesto exclusión** incluso si los precios del producto del catálogo, el subtotal del pedido y el total del pedido incluyen impuestos. Como resultado, el total que se muestra en el informe es diferente a la cantidad que se muestra en los detalles del pedido en los casos en que los totales de pedidos incluyen impuestos. |
+| [!UICONTROL Average] | Cantidad de pedido promedio. Esta cantidad siempre se calcula para los precios de productos **sin incluir impuestos**, incluso si los precios de productos de catálogo, el subtotal de pedidos y el total de pedidos incluyen impuestos. Como resultado, el importe que se muestra en el informe es diferente al importe que se muestra en los detalles del pedido en los casos en los que los totales de pedidos incluyen impuestos. |
+| [!UICONTROL Total] | La suma de todos los pedidos del periodo. Esta cantidad siempre se calcula para los precios de productos **sin incluir impuestos**, incluso si los precios de productos de catálogo, el subtotal de pedidos y el total de pedidos incluyen impuestos. Como resultado, el total que se muestra en el informe es diferente a la cantidad que se muestra en los detalles del pedido en los casos en que los totales de pedidos incluyen impuestos. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Order Count Report]
 
-El [!UICONTROL Order Count Report] muestra el número de pedidos por cliente para un intervalo de tiempo o intervalo de fechas especificado. El informe incluye el número de pedidos por cliente, el importe promedio del pedido y el importe total.
+[!UICONTROL Order Count Report] muestra el número de pedidos por cliente para un intervalo de tiempo o intervalo de fechas especificado. El informe incluye el número de pedidos por cliente, el importe promedio del pedido y el importe total.
 
-En el _Administrador_ barra lateral, vaya a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**.
+En la barra lateral _Admin_, vaya a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**.
 
-![Informe Recuento de Pedidos](./assets/customer-order-count.png){width="600"}
+![Informe de recuento de pedidos](./assets/customer-order-count.png){width="600"}
 
 ### Controles de Workspace
 
@@ -70,19 +70,19 @@ En el _Administrador_ barra lateral, vaya a **[!UICONTROL Reports]** > _[!UICONT
 
 | Columna | Descripción |
 |--- |--- |
-| [!UICONTROL Interval] | El intervalo de recuento de pedidos, por `Month` / `Day` / `Year`. |
+| [!UICONTROL Interval] | Intervalo de recuento de pedidos, por `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | El cliente que realizó el pedido. |
 | [!UICONTROL Orders] | Número de pedidos para el intervalo especificado. |
-| [!UICONTROL Average] | Cantidad de pedido promedio. Esta cantidad siempre se calcula para los precios del producto **impuesto exclusión** incluso si los precios del producto del catálogo, el subtotal del pedido y el total del pedido incluyen impuestos. Como resultado, el importe que se muestra en el informe es diferente al importe que se muestra en los detalles del pedido en los casos en los que los totales de pedidos incluyen impuestos. |
-| [!UICONTROL Total] | La suma de todos los pedidos del periodo. Esta cantidad siempre se calcula para los precios del producto **impuesto exclusión** incluso si los precios del producto del catálogo, el subtotal del pedido y el total del pedido incluyen impuestos. Como resultado, el total que se muestra en el informe es diferente a la cantidad que se muestra en los detalles del pedido en los casos en que los totales de pedidos incluyen etiquetas. |
+| [!UICONTROL Average] | Cantidad de pedido promedio. Esta cantidad siempre se calcula para los precios de productos **sin incluir impuestos**, incluso si los precios de productos de catálogo, el subtotal de pedidos y el total de pedidos incluyen impuestos. Como resultado, el importe que se muestra en el informe es diferente al importe que se muestra en los detalles del pedido en los casos en los que los totales de pedidos incluyen impuestos. |
+| [!UICONTROL Total] | La suma de todos los pedidos del periodo. Esta cantidad siempre se calcula para los precios de productos **sin incluir impuestos**, incluso si los precios de productos de catálogo, el subtotal de pedidos y el total de pedidos incluyen impuestos. Como resultado, el total que se muestra en el informe es diferente a la cantidad que se muestra en los detalles del pedido en los casos en que los totales de pedidos incluyen etiquetas. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL New Accounts Report]
 
-El [!UICONTROL New Accounts Report] muestra el número de cuentas de cliente nuevas abiertas durante un intervalo de tiempo o intervalo de fechas especificado.
+[!UICONTROL New Accounts Report] muestra el número de nuevas cuentas de cliente abiertas durante un intervalo de tiempo o intervalo de fechas especificado.
 
-En el _Administrador_ barra lateral, vaya a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
+En la barra lateral _Admin_, vaya a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
 
 ![Nuevo informe de cuentas](./assets/customers-new-accounts.png){width="600"}
 
@@ -111,9 +111,9 @@ En el _Administrador_ barra lateral, vaya a **[!UICONTROL Reports]** > _[!UICONT
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce)
 
-El [!UICONTROL Customer Wish List Report] proporciona información sobre las listas de deseos de los clientes.
+[!UICONTROL Customer Wish List Report] proporciona información sobre listas de deseos de clientes.
 
-En el _Administrador_ barra lateral, vaya a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**.
+En la barra lateral _Admin_, vaya a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**.
 
 ![Informe de lista de deseos](./assets/customer-wish-list.png){width="600"}
 
@@ -151,9 +151,9 @@ En el _Administrador_ barra lateral, vaya a **[!UICONTROL Reports]** > _[!UICONT
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce)
 
-El [!UICONTROL Customer Segment Report] proporciona información sobre la cantidad de clientes en cada segmento.
+[!UICONTROL Customer Segment Report] proporciona información sobre la cantidad de clientes en cada segmento.
 
-En el _Administrador_ barra lateral, vaya a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
+En la barra lateral _Admin_, vaya a **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
 
 ![Informe de segmentos](./assets/customers-segments.png){width="600"}
 

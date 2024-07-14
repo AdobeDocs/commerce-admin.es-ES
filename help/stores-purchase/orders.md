@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Pedidos
 
-El _Pedidos_ la cuadrícula enumera todas las solicitudes actuales y realiza un seguimiento de su progreso y [estado del pedido](order-status.md) a través de [workflow](order-processing.md). Una manera fácil de entender el proceso básico es que un pedido se convierte en un [factura](invoices.md)y una factura se convierte en [envío](shipments.md). La cuadrícula representa la primera etapa del proceso y es donde puede [actualizar](order-update.md) pedidos existentes y cree pedidos.
+La cuadrícula _Pedidos_ enumera todos los pedidos actuales y rastrea su progreso y [estado de los pedidos](order-status.md) a través del [flujo de trabajo](order-processing.md). Una manera fácil de entender el proceso básico es que un pedido se convierte en una [factura](invoices.md) y una factura se convierte en un [envío](shipments.md). La cuadrícula representa la primera etapa del proceso y es donde puede [actualizar](order-update.md) pedidos existentes y crear pedidos.
 
-Normalmente, los pedidos se crean cuando los clientes completan el proceso de cierre de compra desde la tienda. Sin embargo, si un cliente necesita asistencia, también puede acceder a su [carro de compras](shopping-assisted-cart-manage.md) o [creación de un pedido](customer-account-create-order.md) ya sea desde el _Pedidos_ o directamente desde su cuenta de cliente.
+Normalmente, los pedidos se crean cuando los clientes completan el proceso de cierre de compra desde la tienda. Sin embargo, si un cliente necesita ayuda, también puede acceder a su [carro de compras](shopping-assisted-cart-manage.md) o [crear un pedido](customer-account-create-order.md) desde la cuadrícula _Pedidos_ o directamente desde su cuenta de cliente.
 
 ## Área de trabajo Pedidos
 
-El área de trabajo Pedidos enumera todas las solicitudes actuales y le ofrece la capacidad de editar las solicitudes y [crear](customer-account-create-order.md) pedidos. Cada fila de la cuadrícula representa un pedido del cliente y cada columna representa un atributo o campo de datos. Uso del estándar [controles](../getting-started/admin-grid-controls.md) para ordenar y filtrar la lista, buscar pedidos y aplicar [acciones](../getting-started/admin-actions-control.md) a los pedidos seleccionados. Utilice las pestañas situadas encima de los controles de paginación para filtrar la lista, cambiar la vista predeterminada, cambiar y reorganizar las columnas y exportar datos.
+El área de trabajo Pedidos enumera todos los pedidos actuales y le permite editar los pedidos existentes y [crear](customer-account-create-order.md). Cada fila de la cuadrícula representa un pedido del cliente y cada columna representa un atributo o campo de datos. Use los [controles](../getting-started/admin-grid-controls.md) estándar para ordenar y filtrar la lista, buscar pedidos y aplicar [acciones](../getting-started/admin-actions-control.md) a los pedidos seleccionados. Utilice las pestañas situadas encima de los controles de paginación para filtrar la lista, cambiar la vista predeterminada, cambiar y reorganizar las columnas y exportar datos.
 
-![cuadrícula de pedidos](./assets/orders-grid.png){width="700" zoomable="yes"}
+![Cuadrícula de pedidos](./assets/orders-grid.png){width="700" zoomable="yes"}
 
 ### Diseño de cuadrícula
 
@@ -30,18 +30,18 @@ La selección de columnas y su orden en la cuadrícula se pueden cambiar según 
 
 #### Cambiar la selección de columna
 
-En la esquina superior derecha, haga clic _Columnas_ ( ![Configuración de columna](../assets/icon-columns.png) ) y haga lo siguiente:
+En la esquina superior derecha, haga clic en el control _Columns_ ( ![Column settings](../assets/icon-columns.png) ) y haga lo siguiente:
 
 - Seleccione la casilla de verificación de cualquier columna que desee agregar a la cuadrícula.
 - Desactive la casilla de verificación de cualquier columna que desee quitar de la cuadrícula.
 
 #### Restablecer la selección de columna
 
-1. Haga clic en _Columnas_ ( ![Configuración de columna](../assets/icon-columns.png) ) control.
+1. Haga clic en el control _Columnas_ ( ![Configuración de columna](../assets/icon-columns.png) ).
 
 1. Para restablecer las columnas de la cuadrícula, haga clic en **[!UICONTROL Reset]**.
 
-   El diseño de la cuadrícula cambia a solo mostrar [columnas predeterminadas](#column-descriptions).
+   El diseño de la cuadrícula cambia para mostrar solamente [columnas predeterminadas](#column-descriptions).
 
 #### Mover una columna
 
@@ -51,23 +51,23 @@ En la esquina superior derecha, haga clic _Columnas_ ( ![Configuración de colu
 
 #### Guardar una vista de cuadrícula
 
-1. Haga clic en **[!UICONTROL View]** ( ![Icono de ojo](../assets/icon-view-eye.png) ) control.
+1. Haga clic en el control **[!UICONTROL View]** ( ![Icono de ojo](../assets/icon-view-eye.png) ).
 
-1. Clic **[!UICONTROL Save Current View]**.
+1. Haga clic en **[!UICONTROL Save Current View]**.
 
-1. Introduzca una **[!UICONTROL name]** para las vistas.
+1. Escriba **[!UICONTROL name]** para la vista.
 
-1. Para guardar todos los cambios, haga clic en la flecha ( ![Icono de flecha](../assets/icon-arrow-save.png) ).
+1. Para guardar todos los cambios, haga clic en la flecha ( ![Icono de flecha](../assets/icon-arrow-save.png) ).
 
    El nombre de la vista aparece ahora como la vista actual.
 
 #### Cambio de la vista
 
-Haga clic en **[!UICONTROL View]** ( ![Icono de ojo](../assets/icon-view-eye.png) ) control. A continuación, realice una de las siguientes acciones:
+Haga clic en el control **[!UICONTROL View]** ( ![Icono de ojo](../assets/icon-view-eye.png) ). A continuación, realice una de las siguientes acciones:
 
 - Para utilizar una vista diferente, haga clic en el nombre de la vista.
 
-- Para cambiar el nombre de una vista, haga clic en _Editar_ ( ![Icono de lápiz](../assets/icon-edit-pencil.png) ) y actualice el nombre.
+- Para cambiar el nombre de una vista, haga clic en el icono _Editar_ ( ![Icono de lápiz](../assets/icon-edit-pencil.png) ) y actualice el nombre.
 
 ### Controles de Workspace
 
@@ -78,7 +78,7 @@ Haga clic en **[!UICONTROL View]** ( ![Icono de ojo](../assets/icon-view-eye.png
 | [!UICONTROL Search] | Inicia una búsqueda de pedidos basada en los filtros actuales. |
 | [!UICONTROL Filters] | Define un conjunto de parámetros de búsqueda utilizados para filtrar los registros que aparecen en la cuadrícula. |
 | [!UICONTROL Default View] | Determina el diseño de columna predeterminado de la cuadrícula. |
-| [!UICONTROL Columns] | Determina la selección de columnas y su orden en la cuadrícula. El diseño de columna se puede cambiar y guardar como una _vista_. De forma predeterminada, solo algunas de las columnas se incluyen en la cuadrícula. |
+| [!UICONTROL Columns] | Determina la selección de columnas y su orden en la cuadrícula. El diseño de la columna se puede cambiar y guardar como _vista_. De forma predeterminada, solo algunas de las columnas se incluyen en la cuadrícula. |
 | [!UICONTROL Export] | Exporta los registros seleccionados como un archivo CSV o XML de Excel. |
 
 {style="table-layout:auto"}
@@ -111,7 +111,7 @@ Para aplicar una acción a pedidos específicos, seleccione la casilla de verifi
 | [!UICONTROL Grand Total (Base)] | El total general del pedido. |
 | [!UICONTROL Grand Total (Purchased)] | El total general de productos comprados en el pedido. |
 | [!UICONTROL Status] | El estado actual del pedido. |
-| [!UICONTROL Action] | _[!UICONTROL View]_abre el orden en modo de edición. |
+| [!UICONTROL Action] | _[!UICONTROL View]_abre el pedido en modo de edición. |
 | [!UICONTROL Allocated sources] | Las fuentes asignadas a ese orden específico. |
 
 {style="table-layout:auto"}
@@ -130,8 +130,8 @@ Columnas adicionales disponibles:
 | [!UICONTROL Customer Name] | El nombre y los apellidos del cliente que realizó el pedido. |
 | [!UICONTROL Payment Method] | El método de pago que se utilizará para el pedido. |
 | [!UICONTROL Total Refunded] | Cualquier importe del pedido que deba reembolsarse al cliente. |
-| [!UICONTROL Refunded to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce) Cualquier importe del pedido que se deba reembolsar al crédito de tienda del cliente. |
-| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible con Adobe Commerce B2B) El nombre del [compañía](../b2b/account-companies.md) quién realizó el pedido. |
+| [!UICONTROL Refunded to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Cualquier cantidad del pedido que se deba reembolsar al crédito de tienda del cliente. |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponible con Adobe Commerce B2B) El nombre de la [empresa](../b2b/account-companies.md) que realizó el pedido. |
 
 {style="table-layout:auto"}
 
@@ -149,19 +149,19 @@ El cuadro Buscar de la parte superior izquierda de la cuadrícula Pedidos se pue
 
 ### Filtrado de la búsqueda
 
-1. Para mostrar la selección de filtros de búsqueda, haga clic en _Filtros_ ( ![Icono Embudo](../assets/icon-filter-search.png) ) pestaña.
+1. Para mostrar la selección de filtros de búsqueda, haga clic en la ficha _Filtros_ ( ![Icono de canal](../assets/icon-filter-search.png) ).
 
    ![Filtros de pedidos](./assets/order-search-filter.png){width="600" zoomable="yes"}
 
 1. Complete tantos filtros como desee para describir los pedidos que desea encontrar.
 
-1. Clic **[!UICONTROL Apply Filters]** para mostrar los resultados.
+1. Haga clic en **[!UICONTROL Apply Filters]** para mostrar los resultados.
 
 ### Filtros de búsqueda
 
 | Filtrar | Descripción |
 |--- |--- |
-| [!UICONTROL Purchase Date] | Filtra la búsqueda en función de la fecha de compra. Para buscar pedidos dentro de un rango de fechas, introduzca la variable **[!UICONTROL from]** y **[!UICONTROL to]** fechas. |
+| [!UICONTROL Purchase Date] | Filtra la búsqueda en función de la fecha de compra. Para buscar pedidos dentro de un intervalo de fechas, escriba las fechas **[!UICONTROL from]** y **[!UICONTROL to]**. |
 | [!UICONTROL ID] | Filtra la búsqueda en función del ID de pedido. |
 | [!UICONTROL Grand Total (Base)] | Filtra la búsqueda según el total general de cada pedido, que incluye los créditos aplicados al pedido. |
 | [!UICONTROL Grand Total (Purchased)] | Filtra la búsqueda en función del total general de artículos comprados en cada pedido. |
@@ -189,6 +189,6 @@ Para obtener ayuda sobre la resolución de problemas con los pedidos, consulte l
 
 - [Error de visualización de pedidos](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
 - [Error de 10415 de pedidos duplicados de PayPal](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.html)
-- [Los nuevos pedidos se envían al archivo](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.html)
-- [Pedidos no mostrados en la cuadrícula Pedidos del administrador](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)
+- [Se envían nuevos pedidos al archivo](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.html)
+- [No se muestran los pedidos en la cuadrícula Pedidos del administrador](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)
 - [Estado del pedido: envío incorrecto creado mediante la API de REST](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-7/mdva-30972-magento-patch-order-status-incorrect-shipment-created-via-rest-api.html)

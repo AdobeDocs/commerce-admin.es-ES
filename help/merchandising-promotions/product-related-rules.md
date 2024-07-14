@@ -14,13 +14,13 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Las reglas de productos relacionados permiten seleccionar la selección de productos que se presentan a los clientes como productos relacionados, mejoras en las ventas y ventas cruzadas. Cada regla de producto se puede asociar con una [segmento de cliente](../customers/customer-segments.md) para producir una visualización dinámica de la comercialización de destino.
+Las reglas de productos relacionados permiten seleccionar la selección de productos que se presentan a los clientes como productos relacionados, mejoras en las ventas y ventas cruzadas. Cada regla de producto se puede asociar con un [segmento de cliente](../customers/customer-segments.md) para producir una visualización dinámica de la comercialización segmentada.
 
 Dado que se pueden activar varias reglas activas al mismo tiempo, puede establecer una prioridad para cada regla. Define el orden en el que se aplican las reglas y se muestran los productos en la página.
 
 Para acceder a las reglas de producto relacionadas, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**.
 
-![Lista de reglas de productos relacionadas](./assets/related-products-rules.png){width="700" zoomable="yes"}
+![Lista de reglas de productos relacionados](./assets/related-products-rules.png){width="700" zoomable="yes"}
 
 ## Descripciones de columna
 
@@ -31,23 +31,23 @@ Para acceder a las reglas de producto relacionadas, vaya a **[!UICONTROL Marketi
 | [!UICONTROL Start] | Utilice los campos de calendario dinámico (_[!UICONTROL To:]_y_[!UICONTROL From:]_) para filtrar la lista en función de la fecha de inicio de la regla definida cuando se creó la regla. |
 | [!UICONTROL End] | Utilice los campos de calendario dinámico (_[!UICONTROL To:]_y_[!UICONTROL From:]_) para filtrar la lista en función de la fecha de finalización de la regla definida cuando se creó la regla. |
 | [!UICONTROL Priority] | Introduzca texto en este campo para filtrar la lista en función de la prioridad definida para una regla. |
-| [!UICONTROL Applies To] | Esta opción filtra la lista de reglas aplicables a `Related Products`, `Up-sells`, y `Cross-sells`. |
+| [!UICONTROL Applies To] | Esta opción filtra la lista de reglas aplicables a `Related Products`, `Up-sells` y `Cross-sells`. |
 | [!UICONTROL Status] | Utilice esta opción para filtrar la lista en función del estado de la regla (`Active` o `Inactive`). |
 
 {style="table-layout:auto"}
 
 ## Prioridad de reglas
 
-En cualquier momento dado, puede haber varias reglas activas que se pueden activar para mostrar productos relacionados, mejorar ventas y realizar ventas cruzadas. La prioridad de cada regla determina el orden en que aparecen los productos en la página. El valor puede establecerse en cualquier número entero, con `1` que tengan la prioridad más alta.
+En cualquier momento dado, puede haber varias reglas activas que se pueden activar para mostrar productos relacionados, mejorar ventas y realizar ventas cruzadas. La prioridad de cada regla determina el orden en que aparecen los productos en la página. El valor puede establecerse en cualquier número entero, y `1` tiene la prioridad más alta.
 
-El número de ID de producto que se pueden incluir en una regla de relaciones de producto viene determinado por la variable `Result Limit` , que tiene un máximo de 20. El `Result Limit` , combinado con el valor `Configurable Maximum` para el producto específico basado en reglas, la promoción se convierte en `Real Limit`y determina el número real de productos coincidentes que pueden aparecer en la lista.
+El número de identificadores de producto que se pueden incluir en una regla de relaciones de producto está determinado por el valor `Result Limit`, que tiene un máximo de 20. El valor `Result Limit`, combinado con `Configurable Maximum` para la promoción específica de productos basada en reglas, se convierte en `Real Limit` y determina el número real de productos coincidentes que pueden aparecer en la lista.
 
 [Límite de resultados] + [Máximo configurable] = [Límite real]
 
-Por ejemplo, supongamos que tiene tres reglas con una prioridad de `1`, `2`, y `3`.
+Por ejemplo, suponga que tiene tres reglas con una prioridad de `1`, `2` y `3`.
 
-- Se han devuelto dos productos coincidentes para _Regla 1_, seis productos coincidentes para _Regla 2_, y 20 productos coincidentes para _Regla 3_.
-- En la configuración de, la variable _[!UICONTROL Maximum Number of Products for Related Products List]_se establece en `6`.
+- Se han devuelto dos productos coincidentes para _Regla 1_, seis productos coincidentes para _Regla 2_ y 20 productos coincidentes para _Regla 3_.
+- En la configuración, _[!UICONTROL Maximum Number of Products for Related Products List]_está establecido en `6`.
 
   | Reglas | Prioridad | Productos coincidentes |
   |---|---|-----|
@@ -55,9 +55,9 @@ Por ejemplo, supongamos que tiene tres reglas con una prioridad de `1`, `2`, y `
   | Regla 2 | `2` | `6` |
   | Regla 3 | `3` | `20` |
 
-Si la primera regla devuelve más productos coincidentes que los permitidos por la variable _límite máximo configurable_, pero menor que el _límite real_, se utilizan los productos coincidentes de las demás reglas (por orden de prioridad) hasta que _límite real_ se ha alcanzado.
+Si la primera regla devuelve más productos coincidentes que los permitidos por el _límite máximo configurable_, pero menos que el _límite real_, se usarán los productos coincidentes de las demás reglas (en orden de prioridad) hasta que se alcance el _límite real_.
 
-Por prioridad, los productos coincidentes devueltos de _Regla 1_ puede utilizarse primero para rellenar las 26 ranuras disponibles. Debido a que la Regla 1 devolvió solo dos productos coincidentes, todavía hay espacio para 24 más. _Regla 2_ tiene la siguiente prioridad más alta y devuelve seis productos coincidentes más. Ahora hay 18 espacios disponibles para rellenar. _Regla 3_ tiene el siguiente nivel de prioridad, con suficientes productos coincidentes para llenar las 18 ranuras restantes. Cuando se rellenan todas las ranuras disponibles, y según el modo de rotación configurado, los productos pueden redistribuirse u ordenarse por ID dentro de cada prioridad y luego reducirse al límite máximo configurable. En este caso, los seis productos restantes aparecen en la tienda.
+Por prioridad, los productos coincidentes devueltos por la _regla 1_ pueden usarse primero para llenar las 26 ranuras disponibles. Debido a que la Regla 1 devolvió solo dos productos coincidentes, todavía hay espacio para 24 más. _La regla 2_ tiene la siguiente prioridad más alta y devuelve seis productos más que coinciden. Ahora hay 18 espacios disponibles para rellenar. La _regla 3_ tiene el siguiente nivel de prioridad, con suficientes productos coincidentes para llenar las 18 ranuras restantes. Cuando se rellenan todas las ranuras disponibles, y según el modo de rotación configurado, los productos pueden redistribuirse u ordenarse por ID dentro de cada prioridad y luego reducirse al límite máximo configurable. En este caso, los seis productos restantes aparecen en la tienda.
 
 >[!NOTE]
 >
@@ -67,23 +67,23 @@ Por prioridad, los productos coincidentes devueltos de _Regla 1_ puede utilizars
 
 El comportamiento de las reglas de relación de productos y la visualización de los productos coincidentes están determinados por los ajustes de configuración. Esta configuración determina cuántos productos que coinciden con la regla se pueden mostrar y el orden en que aparecen.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel de la izquierda, expanda **[!UICONTROL Catalog]** y elija **[!UICONTROL Catalog]** debajo.
 
-1. Expandir ![Expansión](../assets/icon-display-expand.png) el **[!UICONTROL Rules-Based Product Relations]** sección.
+1. Expandir ![Expansión](../assets/icon-display-expand.png) de la sección **[!UICONTROL Rules-Based Product Relations]**.
 
    ![Configuración del catálogo: relaciones de producto basadas en reglas](../configuration-reference/catalog/assets/catalog-rule-based-product-relations.png){width="600" zoomable="yes"}
 
-1. Introduzca el **[!UICONTROL Maximum Number of Products in the Related Products List]**.
+1. Escriba **[!UICONTROL Maximum Number of Products in the Related Products List]**.
 
-1. Establecer **[!UICONTROL Show Related Products]** a uno de los siguientes:
+1. Establezca **[!UICONTROL Show Related Products]** en una de las siguientes opciones:
 
    - `Both Selected and Rule Based`
    - `Selected Only`
    - `Rule-Based Only`
 
-1. Establecer **[!UICONTROL Rotation Mode for Products in Related Product List]** a uno de los siguientes:
+1. Establezca **[!UICONTROL Rotation Mode for Products in Related Product List]** en una de las siguientes opciones:
 
    - `By Priority, Then by ID`
    - `By Priority, Then Random`
@@ -91,15 +91,15 @@ El comportamiento de las reglas de relación de productos y la visualización de
 
 1. Para completar la configuración de la venta cruzada de productos, haz lo siguiente:
 
-   - Introduzca el **[!UICONTROL Maximum Number of Products in the Cross-Sell Product List]**.
+   - Escriba **[!UICONTROL Maximum Number of Products in the Cross-Sell Product List]**.
 
-   - Establecer **[!UICONTROL Show Cross-Sell Products]** a uno de los siguientes:
+   - Establezca **[!UICONTROL Show Cross-Sell Products]** en una de las siguientes opciones:
 
       - `Both Selected and Rule Based`
       - `Selected Only`
       - `Rule-Based Only`
 
-   - Establecer **[!UICONTROL Rotation Mode for Products in Cross-Sell Product List]** a uno de los siguientes:
+   - Establezca **[!UICONTROL Rotation Mode for Products in Cross-Sell Product List]** en una de las siguientes opciones:
 
       - `By Priority, Then by ID`
       - `By Priority, Then Random`
@@ -107,21 +107,21 @@ El comportamiento de las reglas de relación de productos y la visualización de
 
 1. Para completar la configuración de la mejora de ventas del producto, haga lo siguiente:
 
-   - Introduzca el **[!UICONTROL Maximum Number of Products in the Upsell Product List]**.
+   - Escriba **[!UICONTROL Maximum Number of Products in the Upsell Product List]**.
 
-   - Establecer **[!UICONTROL Show Upsell Products]** a uno de los siguientes:
+   - Establezca **[!UICONTROL Show Upsell Products]** en una de las siguientes opciones:
 
       - `Both Selected and Rule Based`
       - `Selected Only`
       - `Rule-Based Only`
 
-   - Establecer **[!UICONTROL Rotation Mode for Products in Upsell Product List]** a uno de los siguientes:
+   - Establezca **[!UICONTROL Rotation Mode for Products in Upsell Product List]** en una de las siguientes opciones:
 
       - `By Priority, Then by ID`
       - `By Priority, Then Random`
       - `Weighted Random`
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 ### Modos de rotación
 
@@ -140,4 +140,4 @@ El comportamiento de las reglas de relación de productos y la visualización de
 >Esta función está en versión beta. Si desea unirse al programa beta, envíe una solicitud a [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
 
 
-Obtenga información sobre cómo [activar](../customers/audience-activation.md) Audiencias de Real-Time CDP en la instancia de Adobe Commerce para informar a las reglas de producto relacionadas.
+Aprenda a [activar](../customers/audience-activation.md) audiencias de Real-Time CDP en su instancia de Adobe Commerce para informar sobre reglas de producto relacionadas.

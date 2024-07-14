@@ -14,19 +14,19 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-El [Puntos de recompensa](rewards-loyalty.md) de la cuenta del cliente muestra que el saldo actual de puntos de recompensa obtenidos por el cliente y un historial de su saldo de puntos de recompensa.
+La sección [Puntos de recompensa](rewards-loyalty.md) de la cuenta del cliente muestra que el saldo actual de puntos de recompensa obtenidos por el cliente y un historial de su saldo de puntos de recompensa.
 
 ![Puntos de recompensa](./assets/account-dashboard-reward-points.png){width="700" zoomable="yes"}
 
 ## Canjee los puntos de recompensa durante el pago
 
-If [Tipo de cambio de recompensa](reward-exchange-rates.md) con `Points to Currency` La dirección está configurada, los clientes pueden utilizar puntos de recompensa durante el cierre de compra.
+Si se configura la [tasa de cambio de recompensa](reward-exchange-rates.md) con dirección de `Points to Currency`, los clientes pueden usar puntos de recompensa durante el cierre de compra.
 
 1. Después de agregar todos los productos necesarios al carro de compras, el cliente accede al cierre de compra.
 
-1. Introduce toda la información de envío necesaria y navega a _Revisión y pagos_ paso.
+1. Ingresa toda la información de envío requerida y navega al paso _Revisar y pagar_.
 
-1. En el _[!UICONTROL Reward points]_, comprueba la cantidad de puntos disponibles y su valor monetario.
+1. En la sección _[!UICONTROL Reward points]_, comprueba la cantidad de puntos disponibles y su valor de moneda.
 
 1. Clics **[!UICONTROL Use reward points]**.
 

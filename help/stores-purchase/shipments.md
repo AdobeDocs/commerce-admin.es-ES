@@ -5,16 +5,16 @@ exl-id: 6df83549-ba38-43f7-aab1-dbf3f6b89d74
 feature: Shipping/Delivery, Invoices
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 1%
+source-wordcount: '948'
+ht-degree: 0%
 
 ---
 
 # Envíos
 
-El _[!UICONTROL Shipments]_la cuadrícula muestra el registro de envío de todas las facturas que se han preparado para el envío. Se puede generar un registro de envío cuando se procesa un pedido [facturado](invoices.md) o más tarde.
+La cuadrícula _[!UICONTROL Shipments]_muestra el registro de envío de todas las facturas que se han preparado para el envío. Se puede generar un registro de envío cuando se [factura](invoices.md) o posterior un pedido.
 
-Adobe Commerce y el Magento Open Source admiten el envío parcial y completo de pedidos, con opciones adicionales disponibles en [Inventory management](../inventory-management/introduction.md) y extensiones de terceros.
+Adobe Commerce y el Magento Open Source admiten el envío de pedidos parcial y completo, con opciones adicionales disponibles en [Inventory management](../inventory-management/introduction.md) y extensiones de terceros.
 
 ![Cuadrícula de envíos](./assets/shipments.png){width="600" zoomable="yes"}
 
@@ -51,13 +51,13 @@ Columnas adicionales:
 
 ## Creación de un envío
 
-Las siguientes instrucciones le guían a través del proceso para crear un envío en Adobe Commerce o Magento Open Source. Si tiene Inventory management habilitado, es posible que desee revisarlo [Crear envíos de varios orígenes](../inventory-management/shipments-create.md) y seleccione un origen (o ubicación) y una cantidad para enviar por artículo de línea.
+Las siguientes instrucciones le guían a través del proceso para crear un envío en Adobe Commerce o Magento Open Source. Si tienes Inventory management habilitado, puedes revisar [Crear envíos de varios Source](../inventory-management/shipments-create.md) y seleccionar un origen (o ubicación) y una cantidad para enviar por artículo de línea.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Busque el orden en la cuadrícula y ábralo.
 
-1. Si el pedido está pagado, facturado y listo para enviar, haga clic en **[!UICONTROL Ship]**.
+1. Si el pedido está pagado, facturado y listo para enviarse, haga clic en **[!UICONTROL Ship]**.
 
    Las secciones de la parte superior del envío contienen el nombre, la dirección y la información de pago del pedido de venta.
 
@@ -65,19 +65,19 @@ Las siguientes instrucciones le guían a través del proceso para crear un enví
 
 ### [!UICONTROL Items to Ship]
 
-Para cada elemento de línea del pedido, modifique la variable **[!UICONTROL Qty to Ship]** según sea necesario.
+Para cada elemento de línea del pedido, modifique **[!UICONTROL Qty to Ship]** según sea necesario.
 
 ### [!UICONTROL Shipping Information]
 
-**Método 1:** Uso de la página de pedidos
+**Método 1:** que usa la página de pedidos
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
-1. En el **[!UICONTROL Action]** para el orden seleccionado, haga clic en **[!UICONTROL View]**.
+1. En la columna **[!UICONTROL Action]** del orden seleccionado, haga clic en **[!UICONTROL View]**.
 
-1. Haga clic **[!UICONTROL Ship]**.
+1. Haga clic en **[!UICONTROL Ship]**.
 
-1. Desplácese hacia abajo hasta el _[!UICONTROL Payment & Shipping Method]_block y click **[!UICONTROL Add Tracking Number]**.
+1. Desplácese hasta el bloque _[!UICONTROL Payment & Shipping Method]_y haga clic en **[!UICONTROL Add Tracking Number]**.
 
 1. Establecer **[!UICONTROL Carrier]**:
 
@@ -87,30 +87,30 @@ Para cada elemento de línea del pedido, modifique la variable **[!UICONTROL Qty
    - `United Parcel Service`
    - `United States Postal Service`
 
-1. Para realizar un seguimiento del envío, introduzca la **[!UICONTROL Title]** y **[!UICONTROL Number]** .
+1. Para realizar el seguimiento del envío, escriba **[!UICONTROL Title]** y **[!UICONTROL Number]**
 
-**Método 2:** Uso de la página de envío
+**Método 2:** usando la página de envío
 
 Este método solo se permite si el envío del pedido ya se ha creado desde la página de pedidos.
 Puede modificar la información de envío y seguimiento según sea necesario mediante la página Envío Directo:
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Shipments]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Shipments]**.
 
 1. Busque y abra el envío en modo de edición.
 
-1. Desplácese hacia abajo hasta el _[!UICONTROL Payment & Shipping Method]_Bloque.
+1. Desplácese hacia abajo hasta el bloque _[!UICONTROL Payment & Shipping Method]_.
 
-1. Seleccione el **[!UICONTROL Carrier]**.
+1. Seleccione **[!UICONTROL Carrier]**.
 
-1. Introduzca una **[!UICONTROL Title]** para el paquete.
+1. Escriba un **[!UICONTROL Title]** para el paquete.
 
-1. Introduzca el seguimiento **[!UICONTROL Number]**.
+1. Escriba el seguimiento **[!UICONTROL Number]**.
 
-1. Haga clic **[!UICONTROL Add]**.
+1. Haga clic en **[!UICONTROL Add]**.
 
 1. Para enviar un correo electrónico con información de seguimiento al cliente, haga clic en **[!UICONTROL Send Tracking Information]** y confirme la acción.
 
-   Para realizar un seguimiento de la ubicación de cualquier envío, abra el envío necesario en modo de edición y haga clic en **[!UICONTROL Track this shipment]**.
+   Para rastrear la ubicación de cualquier envío, abra el envío requerido en modo de edición y haga clic en **[!UICONTROL Track this shipment]**.
 
    ![Información de envío y seguimiento](./assets/tracking-information.png){width="600" zoomable="yes"}
 
@@ -126,49 +126,49 @@ Puede modificar la información de envío y seguimiento según sea necesario med
 
 ### Comentarios de envío
 
-1. Entrar **Comentarios** para el envío, si es necesario.
+1. Escriba **Comentarios** para el envío, si es necesario.
 
 1. Cuando el envío esté listo, haga clic en **Enviar envío**.
 
 ## Configuración de comentarios para envíos
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En _[!UICONTROL Sales]_, seleccione **[!UICONTROL Sales Email]**.
 
-1. Expanda el **Comentarios del envío** y modifique la configuración según sea necesario:
+1. Expanda la sección **Comentarios sobre el envío** y modifique la configuración según sea necesario:
 
    ![Configuración de comentarios de envío](../configuration-reference/sales/assets/sales-emails-shipment-comments.png){width="600" zoomable="yes"}
 
-   - El **[!UICONTROL Enabled]** se establece en `Yes` de forma predeterminada, lo que significa que el correo electrónico se envía a un cliente cuando se introduce un comentario de envío.
+   - La opción **[!UICONTROL Enabled]** está establecida en `Yes` de forma predeterminada, lo que significa que el correo electrónico se envía a un cliente cuando se escribe un comentario de envío.
 
-   - Para **[!UICONTROL Shipment Comment Email Sender]**, seleccione la persona desde la que se envía el correo electrónico de comentarios del envío. El valor predeterminado ofrece cinco direcciones de correo electrónico.
+   - Para **[!UICONTROL Shipment Comment Email Sender]**, seleccione la persona desde la que se enviará el correo electrónico de comentarios sobre el envío. El valor predeterminado ofrece cinco direcciones de correo electrónico.
 
-   - Para **[!UICONTROL Shipment Comment Email Template]**, seleccione la plantilla en función de sus necesidades o seleccione la opción predeterminada.
+   - Para **[!UICONTROL Shipment Comment Email Template]**, seleccione la plantilla según sus necesidades o seleccione la opción predeterminada.
 
-   - Para **[!UICONTROL Shipment Comment Email Template for Guests]**, elija la plantilla utilizada para los clientes que no tienen una cuenta en su tienda.
+   - Para **[!UICONTROL Shipment Comment Email Template for Guests]**, elija la plantilla usada para los clientes que no tienen una cuenta en su tienda.
 
-   - Para **[!UICONTROL Shipment Comment Email Copy To]**, introduzca las direcciones de correo electrónico para enviar una copia de correo electrónico de los comentarios del envío. Separe varias direcciones de correo electrónico con una coma.
+   - Para **[!UICONTROL Shipment Comment Email Copy To]**, escriba las direcciones de correo electrónico para enviar una copia del correo electrónico de comentarios de envío. Separe varias direcciones de correo electrónico con una coma.
 
-   - Para **[!UICONTROL Shipment Comment Email Copy Method]**, seleccione `bcc` (copia oculta de carbón) o `separate email copy` en función de sus preferencias.
+   - Para **[!UICONTROL Shipment Comment Email Copy Method]**, seleccione `bcc` (copia oculta) o `separate email copy` método según sus preferencias.
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Haga clic en **[!UICONTROL Save Config]**.
 
 ## Cancelar un envío
 
 Antes de enviar un envío a un transportista, se puede cancelar abriendo el pedido y navegando hasta el envío, siempre que el transportista admita las cancelaciones. Algunos operadores restringen o limitan las cancelaciones después de una reserva. Por ejemplo, UPS permite cancelaciones, pero requiere que espere 24 horas después de que se reserve el envío. Si se cancela un envío, la cancelación no se puede revertir. El único recurso es recrear el orden.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Busque el orden en la cuadrícula.
 
-1. En el _Acción_ columna, elija **[!UICONTROL View]**.
+1. En la columna _Acción_, elija **[!UICONTROL View]**.
 
 1. En el panel izquierdo, elija **[!UICONTROL Shipments]**.
 
    Si el envío se puede cancelar, _[!UICONTROL Cancel Shipment]_aparece como una opción en la barra de botones superior.
 
-1. Haga clic **[!UICONTROL Cancel Shipment]**.
+1. Haga clic en **[!UICONTROL Cancel Shipment]**.
 
 1. Cuando se le pida que confirme, haga clic en **[!UICONTROL OK]**.
 
@@ -183,7 +183,7 @@ El estado del envío cambia a `Canceled`. Si el transportista no admite cancelac
 | [!UICONTROL Carrier] | El nombre del operador seleccionado |
 | [!UICONTROL Title] | Un nombre descriptivo asignado al paquete por el transportista. |
 | [!UICONTROL Number] | El número de seguimiento vinculado asignado al paquete. |
-| [!UICONTROL Action] | ![Icono de papelera](../assets/icon-delete-trashcan-solid.png) - Elimina la información del paquete del registro de envío. |
+| [!UICONTROL Action] | ![Icono de la papelera](../assets/icon-delete-trashcan-solid.png): elimina la información del paquete del registro de envío. |
 | [!UICONTROL Add] | Añada otro paquete al envío. |
 
 {style="table-layout:auto"}

@@ -5,36 +5,36 @@ exl-id: 330fe75a-d901-4696-946e-fa7af9ea3d40
 feature: Orders, Configuration
 source-git-commit: db859c40cd6f052a8f1153e245c23d9f1ea97d33
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
 
 # Operaciones de pedido programado
 
-Uso [Cron](../systems/cron.md) trabajos para programar las siguientes tareas de procesamiento de pedidos:
+Use [Cron](../systems/cron.md) trabajos para programar las siguientes tareas de procesamiento de pedidos:
 
-![cuadrícula de pedidos](./assets/orders-grid.png){width="700" zoomable="yes"}
+![Cuadrícula de pedidos](./assets/orders-grid.png){width="700" zoomable="yes"}
 
 ## Establecer duración de orden de pago pendiente
 
-La duración de los pedidos con pagos pendientes está determinada por la variable _Configuración de pedidos de Cron_ configuración. El valor predeterminado es 480 minutos, es decir, ocho horas.
+La duración de los pedidos con pagos pendientes está determinada por la configuración de _Configuración de pedidos Cron_. El valor predeterminado es 480 minutos, es decir, ocho horas.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Sales]** debajo.
+1. En el panel izquierdo, expanda la sección **[!UICONTROL Sales]** y elija **[!UICONTROL Sales]** debajo.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Orders Cron Settings]** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Orders Cron Settings]**.
 
    ![Configuración de pedidos de Cron](../configuration-reference/sales/assets/sales-orders-cron-settings.png){width="600" zoomable="yes"}
 
-1. Para **[!UICONTROL Pending Payment Order Lifetime (minutes)]**, introduzca el número de minutos antes de que caduque un pago pendiente.
+1. Para **[!UICONTROL Pending Payment Order Lifetime (minutes)]**, ingrese el número de minutos antes de que caduque un pago pendiente.
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Haga clic en **[!UICONTROL Save Config]**.
 
 ## Habilitar las actualizaciones y reindexaciones programadas de la cuadrícula
 
-La configuración de Configuración de rejilla programa actualizaciones para las siguientes rejillas de gestión de pedidos y reindexa los datos según lo programado por [Cron](../systems/cron.md):
+La configuración de Configuración de cuadrícula programa las actualizaciones de las siguientes cuadrículas de administración de pedidos y vuelve a indexar los datos según lo programado por [Cron](../systems/cron.md):
 
 - [Pedidos](orders.md#orders-workspace)
 - [Facturas](invoices.md)
@@ -45,20 +45,20 @@ Al programar estas tareas, puede evitar los bloqueos que se producen cuando se g
 
 **_Para habilitar las actualizaciones y la reindexación:_**
 
-Cuándo [Modo de producción](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) (el modo predeterminado utilizado en Adobe Commerce en la infraestructura en la nube) está habilitado, ejecute el siguiente comando:
+Cuando el [modo de producción](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) (el modo predeterminado usado en Adobe Commerce en la infraestructura en la nube) esté habilitado, ejecute el siguiente comando:
 
 ``bin/magento config:set dev/grid/async_indexing 1``
 
-Cuándo [Modo predeterminado](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode) está activada, complete los siguientes pasos:
+Cuando el [modo predeterminado](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode) esté habilitado, complete los siguientes pasos:
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. En el panel izquierdo, expanda **[!UICONTROL Advanced]** y elija **[!UICONTROL Developer]**.
+1. En el panel izquierdo, expanda la sección **[!UICONTROL Advanced]** y elija **[!UICONTROL Developer]**.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Grid Settings]** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Grid Settings]**.
 
-1. Establecer **[!UICONTROL Asynchronous Indexing]** hasta `Enable`.
+1. Establezca **[!UICONTROL Asynchronous Indexing]** en `Enable`.
 
    ![Configuración de cuadrícula](../configuration-reference/advanced/assets/developer-grid-settings.png){width="600" zoomable="yes"}
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Haga clic en **[!UICONTROL Save Config]**.

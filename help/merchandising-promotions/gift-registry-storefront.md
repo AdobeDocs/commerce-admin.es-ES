@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-El [Registro de regalos](gift-registries.md) de la cuenta del cliente enumera los registros de regalos actuales del cliente y el evento asociado. Los clientes pueden administrar los registros actuales y agregar otros nuevos.
+La sección [Registro de regalos](gift-registries.md) de la cuenta del cliente enumera los registros de regalos actuales del cliente y el evento asociado. Los clientes pueden administrar los registros actuales y agregar otros nuevos.
 
 ![Registro de regalos](./assets/account-dashboard-gift-registry.png){width="700" zoomable="yes"}
 
@@ -22,7 +22,7 @@ El [Registro de regalos](gift-registries.md) de la cuenta del cliente enumera lo
 
 Los clientes pueden crear y administrar registros de regalos desde sus cuentas. Toda la información asociada a cada tipo de registro está disponible en la cuenta del cliente.
 
-![Ejemplo de tienda: información del registro de regalos](./assets/gift-registry-create-baby-storefront.png){width="700" zoomable="yes"}
+![Ejemplo de tienda - información del registro de regalos](./assets/gift-registry-create-baby-storefront.png){width="700" zoomable="yes"}
 
 | Sección | Descripción |
 |--- |--- |
@@ -42,9 +42,9 @@ Los clientes pueden crear y administrar registros de regalos desde sus cuentas. 
 
 1. El cliente selecciona **[!UICONTROL Gift Registry]** en su panel de cuentas.
 
-1. En el _Registro de regalos_ página, clics **[!UICONTROL Add New]**.
+1. En la página _Registro de regalos_, hace clic en **[!UICONTROL Add New]**.
 
-1. Elige un **[!UICONTROL Gift Registry Type]**, como:
+1. Elige un(a) **[!UICONTROL Gift Registry Type]**, como:
 
    - Cumpleaños
 
@@ -54,7 +54,7 @@ Los clientes pueden crear y administrar registros de regalos desde sus cuentas. 
 
 1. Clics **[!UICONTROL Next]**.
 
-1. Introduzca la información necesaria y haga clic en **[!UICONTROL Save]**.
+1. Introduce la información requerida y hace clic en **[!UICONTROL Save]**.
 
 ## Agregar un producto a un registro
 
@@ -62,7 +62,7 @@ Los clientes pueden crear y administrar registros de regalos desde sus cuentas. 
 
 1. Clics **[!UICONTROL Add to Cart]**.
 
-1. Clics **[!UICONTROL View and Edit Cart]** en el minicarrito.
+1. Hace clic en **[!UICONTROL View and Edit Cart]** en el minicarrito.
 
 1. En la página Carro de compras, selecciona el evento que desea y pulsa o hace clic en **[!UICONTROL Add All To Gift Registry]**.
 
@@ -74,7 +74,7 @@ Los clientes pueden crear y administrar registros de regalos desde sus cuentas. 
 
 1. Busca el evento del Registro que desea administrar y hace clic en **[!UICONTROL Share]**.
 
-1. Introduce la información necesaria y hace clic en **[!UICONTROL Share Gift Registry]**.
+1. Ingresa la información requerida y hace clic en **[!UICONTROL Share Gift Registry]**.
 
 ## Editar un registro de regalos
 
@@ -84,7 +84,7 @@ Los clientes pueden crear y administrar registros de regalos desde sus cuentas. 
 
 1. Cambia las opciones según sea necesario.
 
-1. Edita las opciones y los clics necesarios **[!UICONTROL Save]**.
+1. Edita las opciones necesarias y hace clic en **[!UICONTROL Save]**.
 
 ## Administrar elementos del registro de regalos
 
@@ -98,7 +98,7 @@ Los clientes pueden crear y administrar registros de regalos desde sus cuentas. 
 
 1. Si es necesario, quita un elemento del registro de regalos seleccionando la casilla de verificación y haciendo clic en **[!UICONTROL Delete]**.
 
-1. Clics **[!UICONTROL Update Gift Registry]** para guardar los cambios.
+1. Hace clic en **[!UICONTROL Update Gift Registry]** para guardar los cambios.
 
 ## Eliminar un registro de regalos
 
@@ -106,4 +106,4 @@ Los clientes pueden crear y administrar registros de regalos desde sus cuentas. 
 
 1. Busca el evento del Registro que desea administrar y hace clic en **[!UICONTROL Delete]**.
 
-1. Clics **[!UICONTROL OK]** para confirmar.
+1. Hace clic en **[!UICONTROL OK]** para confirmar.

@@ -1,11 +1,11 @@
 ---
 title: '[!DNL Commerce] actualizaciones'
-description: Descubra cómo las actualizaciones de Adobe Commerce y Magento Open Source afectan a los catálogos y a [!DNL Inventory Management] configuraciones.
+description: Descubra cómo las actualizaciones de Adobe Commerce y Magento Open Source afectan a las configuraciones del catálogo y  [!DNL Inventory Management] .
 exl-id: ba640b91-0f29-46df-bfd9-1c43433a751f
 feature: Inventory, Upgrade
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
@@ -14,27 +14,27 @@ ht-degree: 0%
 
 Si ha utilizado inventario de origen único en una versión anterior, esta información proporciona detalles sobre nuevas funciones y cambios en las configuraciones de catálogo e inventario existentes.
 
-[!DNL Inventory Management] para Adobe Commerce y Magento Open Source incluye funciones, mejoras y soporte para desarrolladores que mejora y actualiza la administración de todas las existencias de productos y añade nuevas funciones. Todas las funciones están disponibles de forma predeterminada, incluidos el algoritmo de selección de origen y el cierre de compra simultáneo para hacer coincidir las cantidades de los pedidos con los orígenes y la satisfacción de pedidos. Según los sitios web, las tiendas y el tipo de comerciante, puede crear existencias y orígenes adicionales, asignar cantidades de inventario y mucho más. Para obtener información completa, consulte [Inventory management](introduction.md).
+[!DNL Inventory Management] para Adobe Commerce y Magento Open Source incluye características, mejoras y soporte para desarrolladores que mejora y actualiza la administración de todas las existencias de productos y agrega nuevas características. Todas las funciones están disponibles de forma predeterminada, incluidos el algoritmo de selección de Source y el cierre de compra simultáneo para hacer coincidir las cantidades de los pedidos con los orígenes y la satisfacción de pedidos. Según los sitios web, las tiendas y el tipo de comerciante, puede crear existencias y orígenes adicionales, asignar cantidades de inventario y mucho más. Para obtener información completa, consulte [Inventory management](introduction.md).
 
 Al instalar Magento Open Source 2.4.x o Adobe Commerce 2.4.x, se producen los siguientes cambios iniciales:
 
-- [Inventory management](enable.md) habilita en el nivel de producto o tienda global. La opción Administrar stock permite o desactiva el seguimiento de las cantidades de inventario, los cálculos de las cantidades comercializables agregadas y la gestión de reservas para el seguimiento de las compras hasta la factura y el envío. Puede desactivar esta opción para utilizar un ERP y otros servicios de terceros para administrar existencias, pedidos y envíos. Para obtener más información, consulte [!DNL Inventory Management] Módulos a continuación.
+- [Inventory management](enable.md) habilita en el nivel de producto o tienda global. La opción Administrar stock permite o desactiva el seguimiento de las cantidades de inventario, los cálculos de las cantidades comercializables agregadas y la gestión de reservas para el seguimiento de las compras hasta la factura y el envío. Puede desactivar esta opción para utilizar un ERP y otros servicios de terceros para administrar existencias, pedidos y envíos. Para obtener información adicional, consulte [!DNL Inventory Management] módulos a continuación.
 
-- A [Origen predeterminado](sources-manage.md) y [Stock predeterminado](stocks-manage.md) agregar al sistema. No deshabilite ni elimine estos valores predeterminados. [!DNL Commerce] asigna los productos existentes y recién importados a estos valores predeterminados.
+- [Source predeterminado](sources-manage.md) y [Stock predeterminado](stocks-manage.md) se agregan al sistema. No deshabilite ni elimine estos valores predeterminados. [!DNL Commerce] asigna los productos existentes y recién importados a estos valores predeterminados.
 
   >[!IMPORTANT]
   >
-  >No se recomienda utilizar Valores por Defecto y el Origen por Defecto porque forman parte del `CatalogInventory` , que ahora está obsoleto. En su lugar, se recomienda crear y utilizar recursos y existencias personalizados.
+  >Se desaconseja encarecidamente el uso de Valores predeterminados y Source predeterminado porque forman parte del módulo `CatalogInventory`, que ahora está obsoleto. En su lugar, se recomienda crear y utilizar recursos y existencias personalizados.
 
    - Las existencias proporcionan una cantidad vendible virtual agregada con reservas para rastrear carros de compras y pedidos, lo que garantiza un cierre de compra simultáneo.
 
-   - Todos los productos existentes en el catálogo se asignan al origen predeterminado. Hasta que se añaden nuevas fuentes, la interfaz del producto no cambia. Si solo envía productos desde una ubicación, no hay otras diferencias para las fuentes. Puede crear funciones personalizadas [orígenes](sources-add.md) y [asignar cantidades](quantities-manage.md) por ubicación de envío.
+   - Todos los productos existentes en el catálogo se asignan al Source predeterminado. Hasta que se añaden nuevas fuentes, la interfaz del producto no cambia. Si solo envía productos desde una ubicación, no hay otras diferencias para las fuentes. Puede crear [orígenes](sources-add.md) personalizados y [asignar cantidades](quantities-manage.md) por ubicación de envío.
 
-   - Puede configurar un origen como ubicación de recogida y [asignar cantidades](quantities-manage.md) para esa fuente.
+   - Puede configurar un origen como una ubicación de recogida y [asignar cantidades](quantities-manage.md) para ese origen.
 
-   - El sitio web asigna a Stock predeterminado. Puede crear funciones personalizadas [acciones](stocks-add.md) para conectar canales de ventas (sitios web) y fuentes (ubicaciones).
+   - El sitio web asigna a Stock predeterminado. Puede crear [existencias](stocks-add.md) personalizadas para conectar canales de ventas (sitios web) y fuentes (ubicaciones).
 
-- Adicional [opciones de configuración](configuration.md) añada a sus productos y tienda global. Algunas opciones de configuración existentes reciben opciones y comportamientos actualizados:
+- [opciones de configuración](configuration.md) adicionales se agregan a sus productos y a su tienda global. Algunas opciones de configuración existentes reciben opciones y comportamientos actualizados:
 
    - Notificar para la Cantidad Siguiente envía notificaciones y deducciones de la Cantidad Vendible.
 
@@ -44,21 +44,21 @@ Al instalar Magento Open Source 2.4.x o Adobe Commerce 2.4.x, se producen los si
 
 - Las nuevas reservas realizan un seguimiento de las posibles ventas, convirtiéndolas en deducciones de cantidad cuando se envía el pedido. Nunca accede directamente ni crea reservas. [!DNL Commerce] crea y administra reservas entre bastidores mediante pedidos, envíos y notas de crédito.
 
-- [Pedidos y envíos](shipments.md) incluye nuevas funciones para recomendar envíos mediante el algoritmo de selección de origen y admite envíos parciales de varias fuentes para satisfacer un pedido.
+- [Los pedidos y envíos](shipments.md) incluyen nuevas características para recomendar envíos mediante el algoritmo de selección de Source y admiten envíos parciales de varias fuentes para satisfacer un pedido.
 
-- Nuevo [funciones de importación y exportación](inventory-import-export.md) le permite añadir orígenes de forma masiva, actualizar las cantidades de inventario y establecer el estado de las existencias (dentro/fuera de existencias) para todos los SKU del catálogo. Estas funciones permiten modificar para una, una o todas las fuentes.
+- Las nuevas [funciones de importación y exportación](inventory-import-export.md) le permiten agregar orígenes de forma masiva, actualizar las cantidades de inventario y establecer el estado de existencias (dentro/fuera de existencias) para todas las SKU del catálogo. Estas funciones permiten modificar para una, una o todas las fuentes.
 
-- Las nuevas opciones masivas a través de la página de cuadrícula de productos admiten de forma masiva [asignar y cancelar la asignación de orígenes](bulk-assignment.md), y [transferir inventario al origen](inventory-transfer.md).
+- Las nuevas opciones masivas a través de la página de cuadrícula de productos admiten [la asignación y anulación de la asignación de fuentes](bulk-assignment.md) y [la transferencia del inventario a la fuente](inventory-transfer.md).
 
-- [!DNL Inventory Management] admite catálogos B2B. Actualmente, todos los productos B2B deben asignarse al origen y las existencias predeterminados.
+- [!DNL Inventory Management] admite catálogos B2B. Actualmente, todos los productos B2B deben asignarse a Source predeterminado y a Stock predeterminado.
 
 ## [!DNL Commerce Order Management] y [!DNL Inventory Management]
 
-[Commerce Order Management (MCOM)][1] no es compatible con el [!DNL Inventory Management]. Una vez instalados, los módulos MCOM proporcionan todas las características de administración de inventario a [!DNL Commerce], incluida la administración de fuentes únicas y múltiples, existencias, reservas y mucho más. El [!DNL Inventory Management] módulos están desactivados de forma predeterminada.
+[Commerce Order Management (MCOM)][1] no es compatible con [!DNL Inventory Management]. Una vez instalados, los módulos MCOM proporcionan todas las características de administración de inventario a [!DNL Commerce], incluida la administración de un solo origen y de varios orígenes, existencias, reservas y mucho más. Los módulos [!DNL Inventory Management] están deshabilitados de manera predeterminada.
 
-MCOM ofrece amplias funciones y servicios para la gestión de pedidos omnicanal avanzada, inventario global y múltiples fuentes, cumplimiento de tienda a almacén y servicio al cliente centralizado. Para obtener una lista completa de las funciones, consulte la [Lista de características MCOM][2].
+MCOM ofrece amplias funciones y servicios para la gestión de pedidos omnicanal avanzada, inventario global y múltiples fuentes, cumplimiento de tienda a almacén y servicio al cliente centralizado. Para obtener una lista completa de características, consulte la [lista de características MCOM][2].
 
-[!DNL Inventory Management] amplía los existentes [!DNL Commerce] funciones con opciones adicionales para rastrear pedidos en proceso, inventario disponible, inventario disponible para un inventario y API para el desarrollo de extensiones.
+[!DNL Inventory Management] amplía las características existentes de [!DNL Commerce] con opciones adicionales para rastrear pedidos en proceso, inventario disponible, inventario disponible para un inventario y API para el desarrollo de extensiones.
 
 ## [!DNL Inventory Management] módulos
 
@@ -68,7 +68,7 @@ Es posible que desee deshabilitar [!DNL Inventory Management] módulos para:
 
 - Utilice módulos de administración de pedidos e inventario personalizados o de terceros.
 
-- Uso [!DNL Order Management System] para la administración de inventario. El conector actual no es compatible [!DNL Inventory Management] interfaces. Para los comerciantes de OMS que actualizan a Adobe Commerce 2.4.0, deben desactivar estos módulos.
+- Usar [!DNL Order Management System] para la administración de inventario. El conector actual no admite interfaces [!DNL Inventory Management]. Para los comerciantes de OMS que actualizan a Adobe Commerce 2.4.0, deben desactivar estos módulos.
 
 Para obtener información detallada, consulte [Instalar y actualizar](install-update.md).
 

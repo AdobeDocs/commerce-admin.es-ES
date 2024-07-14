@@ -13,35 +13,35 @@ ht-degree: 0%
 
 # Usar variables predefinidas
 
-[Predefinido](variables-predefined.md) Las variables de facilitan la personalización [email](email-templates.md) y [newsletter](../merchandising-promotions/newsletters.md) plantillas y otros tipos de contenido. La lista de permitidos [predefinido](variables-predefined.md) aparecen al hacer clic en el botón Insertar variable. Como se muestra en la siguiente imagen, la lista de variables disponibles para una plantilla de correo electrónico específica viene determinada por los datos asociados a la plantilla. Consulte la [Referencia de variables](variables-reference.md) para obtener una lista de las plantillas de correo electrónico utilizadas frecuentemente y sus variables asociadas.
+Las variables [Predefined](variables-predefined.md) facilitan la personalización de las plantillas de [correo electrónico](email-templates.md) y [newsletter](../merchandising-promotions/newsletters.md), así como de otros tipos de contenido. La lista de variables [predefinidas](variables-predefined.md) permitidas aparece al hacer clic en el botón Insertar variable. Como se muestra en la siguiente imagen, la lista de variables disponibles para una plantilla de correo electrónico específica viene determinada por los datos asociados a la plantilla. Consulte la [Referencia de variable](variables-reference.md) para obtener una lista de las plantillas de correo electrónico que se usan con frecuencia y sus variables asociadas.
 
-![Variables predefinidas para plantilla de correo electrónico](./assets/email-template-new-pickup-order-predefined-variables.png){width="700" zoomable="yes"}
+![Variables predefinidas para la plantilla de correo electrónico](./assets/email-template-new-pickup-order-predefined-variables.png){width="700" zoomable="yes"}
 
 ## Añadir una variable a una plantilla de correo electrónico
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**.
 
 1. Realice una de las siguientes acciones:
 
    - Para añadir la variable a una plantilla existente, haga clic en la plantilla de la lista para abrirla en modo de edición.
 
-   - Para utilizar la variable en una nueva plantilla, haga clic en **[!UICONTROL Add New Template]** y personalizar el código de plantilla predeterminado. Consulte [Plantillas de mensaje](email-template-custom.md#message-templates).
+   - Para usar la variable en una plantilla nueva, haga clic en **[!UICONTROL Add New Template]** y personalice el código de plantilla predeterminado. Ver [Plantillas de mensajes](email-template-custom.md#message-templates).
 
-1. En _[!UICONTROL Load default template]_, elija la **[!UICONTROL Template]**que desee personalizar.
+1. En _[!UICONTROL Load default template]_, elija el(la)**[!UICONTROL Template]**que desee personalizar.
 
 1. Para aplicar una plantilla, haga clic en **[!UICONTROL Load Template]**.
 
-   El _[!UICONTROL Currently used for]_El campo muestra la ruta de configuración de la plantilla. El_[!UICONTROL Template Subject]_ y _[!UICONTROL Template Content]_se generan automáticamente en relación con la plantilla seleccionada.
+   El campo _[!UICONTROL Currently used for]_muestra la ruta de configuración de la plantilla._[!UICONTROL Template Subject]_ y _[!UICONTROL Template Content]_se generan automáticamente en relación con la plantilla seleccionada.
 
-   - **[!UICONTROL Template Subject]** : Este texto se muestra en la línea de asunto de un correo electrónico.
+   - **[!UICONTROL Template Subject]**: este texto se muestra en la línea de asunto de un correo electrónico.
 
-   - **[!UICONTROL Template Content]** : Este texto se muestra en todo el contenido del correo electrónico enviado.
+   - **[!UICONTROL Template Content]**: este texto se muestra en todo el contenido del correo electrónico enviado.
 
    ![Contenido de plantilla de correo electrónico](./assets/email-template-content.png){width="600" zoomable="yes"}
 
-1. Introduzca una **[!UICONTROL Template Name]**.
+1. Escriba un **[!UICONTROL Template Name]**.
 
-1. Para obtener una lista de [predefinido](variables-predefined.md) que se pueden utilizar con esta plantilla de correo electrónico, haga clic en **[!UICONTROL Insert Variable]**.
+1. Para obtener una lista de las [variables predefinidas](variables-predefined.md) que se pueden usar con esta plantilla de correo electrónico, haga clic en **[!UICONTROL Insert Variable]**.
 
    Determine qué variable desea insertar en la plantilla. A continuación, haga clic en _Cerrar_ (X) en la esquina superior derecha. (Volverá a esto más tarde).
 
@@ -49,13 +49,13 @@ ht-degree: 0%
 
    Cuando la vista previa se abra en una nueva pestaña, determine dónde desea colocar la variable en relación con el otro contenido. A continuación, vuelva a la pestaña original para continuar.
 
-   ![Previsualizar plantilla](./assets/email-template-new-pickup-order-preview.png){width="600" zoomable="yes"}
+   ![Plantilla de vista previa](./assets/email-template-new-pickup-order-preview.png){width="600" zoomable="yes"}
 
-1. En el **[!UICONTROL Template Content]** , coloque el punto de inserción donde desee que aparezca la variable y haga clic en **[!UICONTROL Insert Variable...]**.
+1. En el cuadro **[!UICONTROL Template Content]**, coloque el punto de inserción donde desee que aparezca la variable y haga clic en **[!UICONTROL Insert Variable...]**.
 
 1. En la lista de variables disponibles, haga clic en la que desee insertar en la plantilla.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Template]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Template]**.
 
 ## Convertir la plantilla en texto sin formato
 

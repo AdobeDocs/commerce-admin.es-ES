@@ -1,11 +1,11 @@
 ---
 title: '[!DNL Google Tag Manager]'
-description: Aprenda a utilizar [!DNL Google Tag Manager] para administrar las diversas etiquetas (fragmentos de código) relacionadas con los eventos de campañas de marketing en los sitios de Adobe Commerce.
+description: Aprenda a usar [!DNL Google Tag Manager] para administrar las muchas etiquetas (fragmentos de código) que están relacionadas con los eventos de campañas de marketing en los sitios de Adobe Commerce.
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
 source-git-commit: 7384481d1a4a2a04882d4c99448cca75abc9be31
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1142'
 ht-degree: 0%
 
 ---
@@ -14,37 +14,37 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-[!DNL Google Tag Manager] le ayuda a administrar las numerosas etiquetas (fragmentos de código) relacionadas con los eventos de campañas de marketing. [!DNL Google Tag Manager] permite agregar etiquetas de seguimiento al sitio para medir la audiencia o personalizar, redirigir o llevar a cabo iniciativas de marketing de motores de búsqueda.
+[!DNL Google Tag Manager] le ayuda a administrar las muchas etiquetas (fragmentos de código) que están relacionadas con los eventos de campañas de marketing. [!DNL Google Tag Manager] le permite agregar etiquetas de seguimiento a su sitio para medir la audiencia o personalizar, redirigir o llevar a cabo iniciativas de marketing de motores de búsqueda.
 
-[!DNL Google Tag Manager] transfiere directamente datos y eventos a [!DNL Google Analytics], comercio electrónico mejorado y otras soluciones de análisis de terceros para producir una imagen clara del rendimiento de su sitio, productos y promociones.
+[!DNL Google Tag Manager] transfiere directamente datos y eventos a [!DNL Google Analytics], el comercio electrónico mejorado y otras soluciones de análisis de terceros para obtener una imagen clara del rendimiento de su sitio, productos y promociones.
 
-Usted debe tener un [!DNL Google Analytics] y [!DNL Tag Manager] cuenta para continuar este proceso. Las siguientes instrucciones le guían a través del proceso de configuración de sus cuentas de Google, la configuración de su tienda de Commerce y la creación de una etiqueta de.
+Debe tener una cuenta de [!DNL Google Analytics] y [!DNL Tag Manager] para continuar con este proceso. Las siguientes instrucciones le guían a través del proceso de configuración de las cuentas de Google, la configuración de la tienda de Commerce y la creación de una etiqueta.
 
 >[!NOTE]
 >
->Si su empresa está sujeta a normas de privacidad como las siguientes [Reglamento general de protección de datos](../getting-started/compliance-gdpr.md) y/o el [California Consumer Privacy Act](../getting-started/compliance-ccpa.md), consulte [Configuración de privacidad de Google](google-tools.md#google-privacy-settings).
+>Si su empresa está sujeta a regulaciones de privacidad tales como el [Reglamento General de Protección de Datos](../getting-started/compliance-gdpr.md) y/o la [Ley de Privacidad del Consumidor de California](../getting-started/compliance-ccpa.md), consulte la [Configuración de Privacidad de Google](google-tools.md#google-privacy-settings).
 
-## Paso 1. Configure su [!DNL Google Analytics] account
+## Paso 1. Configurar su cuenta de [!DNL Google Analytics]
 
-Consulte [Configurar la búsqueda del sitio](https://support.google.com/analytics/answer/1012264) en la Ayuda de Google para conocer los conceptos básicos que necesita para empezar. Consulte también las guías de Google para [Google Analytics](https://support.google.com/analytics/answer/9304153) y [Google Tag Manager](https://support.google.com/tagmanager/answer/6102821).
+Consulte [Configurar la búsqueda en el sitio](https://support.google.com/analytics/answer/1012264) en la Ayuda de Google para conocer los conceptos básicos que necesita para empezar. Consulte también las guías de Google para [Google Analytics](https://support.google.com/analytics/answer/9304153) y [Administrador de etiquetas de Google](https://support.google.com/tagmanager/answer/6102821).
 
-1. Inicie sesión en su [!DNL Google Analytics] cuenta.
+1. Inicie sesión en su cuenta de [!DNL Google Analytics].
 
 1. Para habilitar **[!UICONTROL Internal Site Search Tracking]**, haga lo siguiente:
 
    - Vaya a **[!UICONTROL Select View]** > **[!UICONTROL View Settings]**.
 
-   - Establecer **[!UICONTROL Site Search Tracking]** hasta `On`.
+   - Establezca **[!UICONTROL Site Search Tracking]** en `On`.
 
-   - Establecer **[!UICONTROL Query]** parámetro a `q`.
+   - Establezca el parámetro **[!UICONTROL Query]** en `q`.
 
-   - Una vez finalizado, **[!UICONTROL Save]** la configuración.
+   - Una vez completada, **[!UICONTROL Save]** la configuración.
 
 1. Para habilitar las funciones de visualización, haga lo siguiente:
 
-   - Elegir **[!UICONTROL Property Settings]**.
+   - Elija **[!UICONTROL Property Settings]**.
 
-   - En _[!UICONTROL Advertising Features]_, configurado **[!UICONTROL Enable Demographics and Interest Reports]**hasta `On`.
+   - En _[!UICONTROL Advertising Features]_, establezca **[!UICONTROL Enable Demographics and Interest Reports]**en `On`.
 
    - **[!UICONTROL Save]** la configuración.
 
@@ -52,57 +52,57 @@ Consulte [Configurar la búsqueda del sitio](https://support.google.com/analytic
 
    - Vaya a **[!UICONTROL Select View]** > **[!UICONTROL Ecommerce Settings]**.
 
-   - Establecer **[!UICONTROL Enable Ecommerce]** hasta `On`.
+   - Establezca **[!UICONTROL Enable Ecommerce]** en `On`.
 
-   - Establecer **[!UICONTROL Enable Enhanced Ecommerce Reporting]** hasta `On`.
+   - Establezca **[!UICONTROL Enable Enhanced Ecommerce Reporting]** en `On`.
 
    - **[!UICONTROL Save]** la configuración.
 
-1. Vuelva a cargar la página y compruebe que se conserva toda la configuración `On`.
+1. Vuelva a cargar la página y compruebe que todas las opciones de configuración se mantengan en `On`.
 
    >[!NOTE]
    >
-   >Si no todos los ajustes son `On`, repita los pasos anteriores, guarde y vuelva a cargar la página. Repita este proceso hasta que todos los ajustes estén configurados en `On`.
+   >Si no todas las configuraciones son `On`, repita los pasos anteriores, guarde y vuelva a cargar la página. Repita este proceso hasta que toda la configuración esté establecida en `On`.
 
-## Paso 2. Configure su [!DNL Google Tag Manager] account
+## Paso 2. Configurar su cuenta de [!DNL Google Tag Manager]
 
-Las siguientes instrucciones muestran cómo configurar un nuevo contenedor con la configuración básica. Una muestra [Compositor](https://developer.adobe.com/commerce/php/development/composer/) El archivo de configuración (.json) de se utiliza para simplificar el proceso de importación para generar una etiqueta en un nuevo contenedor. Para este ejemplo, se recomienda crear un contenedor, en lugar de modificar un contenedor existente.
+Las siguientes instrucciones muestran cómo configurar un nuevo contenedor con la configuración básica. Se usa un archivo de configuración (.json) de [Composer](https://developer.adobe.com/commerce/php/development/composer/) de muestra para simplificar el proceso de importación con el fin de generar una etiqueta en un contenedor nuevo. Para este ejemplo, se recomienda crear un contenedor, en lugar de modificar un contenedor existente.
 
 >[!NOTE]
 >
->Google Para obtener más información, consulte la [Exportación e importación de contenedores](https://support.google.com/tagmanager/answer/6106997). Estas instrucciones proporcionan una guía para importar un JSON de muestra en un contenedor nuevo.
+>Para obtener más información, consulte [Exportación e importación de contenedores](https://support.google.com/tagmanager/answer/6106997) de Google. Estas instrucciones proporcionan una guía para importar un JSON de muestra en un contenedor nuevo.
 
-1. Descargar el archivo vinculado [GTM_M2_Config_json.txt](./assets/GTM_M2_Config_json.txt), abra el archivo en un editor y guárdelo como `GTM_M2_Config.json`.
+1. Descargue el archivo vinculado [GTM_M2_Config_json.txt](./assets/GTM_M2_Config_json.txt), ábralo en un editor y guárdelo como `GTM_M2_Config.json`.
 
-   El archivo json se carga directamente en [!DNL Google Tag Manager].
+   El archivo json se subió directamente a [!DNL Google Tag Manager].
 
-1. Vaya a **[!UICONTROL Admin]** > **[!UICONTROL Container]** > **[!UICONTROL Import Container]**.
+1. Vaya a **[!UICONTROL Admin]** > **[!UICONTROL Container]** > **[!UICONTROL Import Container]**.
 
-1. Clic **[!UICONTROL Choose container file]** y seleccione el archivo json.
+1. Haga clic en **[!UICONTROL Choose container file]** y seleccione el archivo json.
 
 1. En **[!UICONTROL Choose workspace]**, haga clic en **[!UICONTROL New]**.
 
-1. Introduzca un título y una descripción y haga clic en **[!UICONTROL Save]**.
+1. Escriba un título y una descripción y luego haga clic en **[!UICONTROL Save]**.
 
 1. Para importar el archivo, seleccione una de las siguientes acciones:
 
-   - El **[!UICONTROL Overwrite]** debe seleccionarse para un contenedor nuevo.
+   - La opción **[!UICONTROL Overwrite]** debe estar seleccionada para un nuevo contenedor.
 
-   - El **[!UICONTROL Merge]** La opción debe estar seleccionada si está utilizando un contenedor existente.
+   - La opción **[!UICONTROL Merge]** debe estar seleccionada si está usando un contenedor existente.
 
-1. Clic **[!UICONTROL Preview]** para revisar las etiquetas, los déclencheur y las variables.
+1. Haga clic en **[!UICONTROL Preview]** para revisar las etiquetas, los déclencheur y las variables.
 
-1. Para editar la variable **[!UICONTROL Google Analytics ID]** a la que se hace referencia en las variables, haga lo siguiente:
+1. Para editar **[!UICONTROL Google Analytics ID]** al que se hace referencia en las variables, haga lo siguiente:
 
-   - Vaya a **[!UICONTROL Variables]** > **[!UICONTROL User-Defined Variables]**.
+   - Vaya a **[!UICONTROL Variables]** > **[!UICONTROL User-Defined Variables]**.
 
-   - Elegir **[!UICONTROL Google Analytics]** y actualice el marcador de posición (`UA-xxxxxx-x`) con los suyos **[!UICONTROL GA ID]**.
+   - Elija **[!UICONTROL Google Analytics]** y actualice el marcador de posición (`UA-xxxxxx-x`) con su propio **[!UICONTROL GA ID]**.
 
 1. Siga las instrucciones de Google para agregar etiquetas, déclencheur y variables al nuevo contenedor.
 
    Si tiene configuraciones en otro contenedor que desee utilizar, se pueden mover al nuevo contenedor.
 
-1. Clic **[!UICONTROL Confirm]** cuando se complete.
+1. Haga clic en **[!UICONTROL Confirm]** cuando haya terminado.
 
 1. Siga las instrucciones de Google para publicar el nuevo contenedor.
 
@@ -112,27 +112,27 @@ Las siguientes instrucciones muestran cómo configurar un nuevo contenedor con l
 
 1. Inicie sesión en el administrador de su tienda de Commerce.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Google API]**.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Google Analytics]** y configure lo siguiente:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Google Analytics]** y configure lo siguiente:
 
    ![Configuración de ventas - Google Analytics](../configuration-reference/sales/assets/google-api-analytics-tag-manager.png){width="600" zoomable="yes"}
 
-   - Establecer **[!UICONTROL Enable]** hasta `Yes`.
+   - Establezca **[!UICONTROL Enable]** en `Yes`.
 
-   - Establecer **[!UICONTROL Account type]** hasta `Google Tag Manager`.
+   - Establezca **[!UICONTROL Account type]** en `Google Tag Manager`.
 
-   - En el **[!UICONTROL Container ID]** , introduzca su ID de GTM (`GTM-xxxxxx`).
+   - En el campo **[!UICONTROL Container ID]**, introduzca su ID de GTM (`GTM-xxxxxx`).
 
-   - Si también usa Google Analytics para experimentos de contenido, establezca **Habilitar experimentos de contenido** hasta `Yes`.
+   - Si también usa Google Analytics para experimentos de contenido, establezca **Habilitar experimentos de contenido** en `Yes`.
 
    - Utilice los valores predeterminados para los campos restantes.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
-1. Pruebe su [!DNL Google Tag Manager] y compruebe que todo funciona correctamente.
+1. Pruebe la configuración de [!DNL Google Tag Manager] y compruebe que todo funciona correctamente.
 
 >[!NOTE]
 >
@@ -142,19 +142,19 @@ Las siguientes instrucciones muestran cómo configurar un nuevo contenedor con l
 
 1. Para copiar el código GTM, vaya a **[!UICONTROL Admin]** > **[!UICONTROL Install Google Tag Manager]**.
 
-   Hay dos fragmentos de código GTM que se añaden al sitio de Commerce: el primero para `<head>` y el segundo para la etiqueta `<body>` etiqueta.
+   Hay dos fragmentos de código GTM que se agregarán al sitio de Commerce: el primero para la etiqueta `<head>` y el segundo para la etiqueta `<body>`.
 
-1. En el Administrador de comercio, vaya a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**y abra la vista de la tienda en modo de edición.
+1. En el Administrador de Commerce, vaya a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**y abra la vista de la tienda en modo de edición.
 
-1. En _[!UICONTROL Other Settings]_, expanda **[!UICONTROL HTML Head]**y pegue el código que ha copiado de GTM para `<head>` etiqueta en el **[!UICONTROL Scripts and Style Sheets]**field.
+1. En _[!UICONTROL Other Settings]_, expanda **[!UICONTROL HTML Head]**y pegue el código que copió de GTM para la etiqueta `<head>` en el campo **[!UICONTROL Scripts and Style Sheets]**.
 
-   ![Inserción de código en el encabezado del HTML](./assets/head-tag.png){width="600" zoomable="yes"}
+   ![Insertando código en el encabezado del HTML](./assets/head-tag.png){width="600" zoomable="yes"}
 
-1. Expandir **[!UICONTROL Footer]** y pegue el código GTM de `<body>` en el **[!UICONTROL Miscellaneous HTML]** field.
+1. Expanda **[!UICONTROL Footer]** y pegue el código GTM de `<body>` en el campo **[!UICONTROL Miscellaneous HTML]**.
 
-   ![Inserción de código en el pie de página](./assets/footer-tag-section.png){width="600" zoomable="yes"}
+   ![Insertando código en el pie de página](./assets/footer-tag-section.png){width="600" zoomable="yes"}
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Configuration]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Configuration]**.
 
 ## Descripciones de campos
 
@@ -164,7 +164,7 @@ Las siguientes instrucciones muestran cómo configurar un nuevo contenedor con l
 | [!UICONTROL Account type] | Vista de tienda | Determina el código de seguimiento de Google que se utiliza para supervisar la actividad y el tráfico de la tienda. Opciones: `Google Analytics` / `Google Tag Manager` |
 | [!UICONTROL Anonymize IP] | Vista de tienda | Determina si se elimina la información de identificación de las direcciones IP que aparecen en los resultados de Google Analytics. |
 | [!UICONTROL Enable Content Experiments] | Vista de tienda | Activa los experimentos de contenido de Google, que pueden utilizarse para probar hasta diez versiones diferentes de la misma página. Opciones: `Yes` / `No` |
-| [!UICONTROL Container Id] | Vista de tienda | If [!DNL Google Tag Manager] ya está instalado y configurado para su tienda, el ID de contenedor aparece automáticamente en este campo. |
+| [!UICONTROL Container Id] | Vista de tienda | Si [!DNL Google Tag Manager] ya está instalado y configurado para su tienda, el ID de contenedor aparecerá automáticamente en este campo. |
 | [!UICONTROL List property for the catalog page] | Vista de tienda | Identifica la propiedad del Administrador de etiquetas asociada a la página del catálogo. Valor predeterminado: `Catalog Page` |
 | [!UICONTROL List property for the cross-sell block] | Vista de tienda | Identifica la propiedad del Administrador de etiquetas asociada al bloque de venta cruzada. Valor predeterminado: `Cross-sell` |
 | [!UICONTROL List property for the up-sell block] | Vista de tienda | Identifica la propiedad del Administrador de etiquetas asociada al bloque de ampliación de venta. Valor predeterminado: `Up-sell` |
@@ -176,22 +176,22 @@ Las siguientes instrucciones muestran cómo configurar un nuevo contenedor con l
 
 ## Creación de una etiqueta para el seguimiento de conversiones
 
-Si tiene una cuenta de Google AdWords, puede crear una etiqueta de que realice un seguimiento de las conversiones. El siguiente ejemplo muestra cómo utilizar ambos [!DNL Google Tag Manager] y [!DNL Google Analytics] para crear una etiqueta que se active durante la conversión de la tienda _Correcto_ página.
+Si tiene una cuenta de Google AdWords, puede crear una etiqueta de que realice un seguimiento de las conversiones. El siguiente ejemplo muestra cómo usar [!DNL Google Tag Manager] y [!DNL Google Analytics] para crear una etiqueta que se active en la página de conversión _Success_ de su tienda.
 
 ### Paso 1. Creación de una etiqueta
 
-1. Inicie sesión en su [!DNL Google Tag Manager] y haga clic en el vínculo del contenedor que ha creado para su tienda.
+1. Inicie sesión en su cuenta de [!DNL Google Tag Manager] y haga clic en el vínculo del contenedor que creó para su tienda.
 
-1. En el **[!UICONTROL New Tag]** , haga clic en **[!UICONTROL Add a new tag]**.
+1. En el cuadro **[!UICONTROL New Tag]**, haga clic en **[!UICONTROL Add a new tag]**.
 
 1. Obtenga la siguiente información de su cuenta de AdWords:
 
    - ID de conversión
    - Etiqueta de conversión
 
-   Si necesita ayuda, visite el sitio web de Google [sitio de asistencia](https://support.google.com/tagmanager/answer/6105160).
+   Si necesita ayuda, visite el [sitio de soporte técnico](https://support.google.com/tagmanager/answer/6105160) de Google.
 
-1. Desde el [!DNL Google Tag Manager] panel, haga clic en **[!UICONTROL Google AdWords]** y haga lo siguiente:
+1. En el tablero [!DNL Google Tag Manager], haga clic en **[!UICONTROL Google AdWords]** y haga lo siguiente:
 
    - Haga clic en el marcador de posición de título e introduzca un nombre para la etiqueta nueva.
 
@@ -199,17 +199,17 @@ Si tiene una cuenta de Google AdWords, puede crear una etiqueta de que realice u
 
    - En _[!UICONTROL Choose a Tag Type]_, seleccione **[!UICONTROL AdWords Conversion Tracking]**y haga clic en **[!UICONTROL Continue]**.
 
-1. Introduzca el **[!UICONTROL Conversion ID]** y **[!UICONTROL Conversion Label]** en su cuenta de AdWords y haga clic en **[!UICONTROL Continue]**.
+1. Escriba **[!UICONTROL Conversion ID]** y **[!UICONTROL Conversion Label]** desde su cuenta de AdWords y haga clic en **[!UICONTROL Continue]**.
 
 ### Paso 2. Crear una regla
 
-Continuando desde el [!DNL Google Tag Manager] , el siguiente paso es crear una regla que active la etiqueta en la página de conversión.
+Continuando desde el panel [!DNL Google Tag Manager], el siguiente paso es crear una regla que active la etiqueta en la página de conversión.
 
 1. En **[!UICONTROL Fire On]**, haga clic en **[!UICONTROL Some Pages]**.
 
-1. En el _[!UICONTROL Choose Pages]_, complete la siguiente configuración:
+1. En la sección _[!UICONTROL Choose Pages]_, complete la siguiente configuración:
 
-   - **[!UICONTROL Name]** : introduzca un nombre para la descripción de la página.
+   - **[!UICONTROL Name]** - Escriba un nombre para la descripción de la página.
 
    - **[!UICONTROL Variable]** `url`
 
@@ -223,8 +223,8 @@ Continuando desde el [!DNL Google Tag Manager] , el siguiente paso es crear una 
 
    El déclencheur que ha configurado aparece como un botón azul en la sección Activar.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Tag]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Tag]**.
 
 ### Paso 3. Previsualización y publicación
 
-El siguiente paso del proceso es obtener una vista previa de la etiqueta. Cada vez que se obtiene una vista previa de la etiqueta, se guarda una instantánea de la versión. Cuando esté satisfecho con los resultados, vaya a la versión que desee utilizar y haga clic en **[!UICONTROL Publish]**.
+El siguiente paso del proceso es obtener una vista previa de la etiqueta. Cada vez que se obtiene una vista previa de la etiqueta, se guarda una instantánea de la versión. Cuando esté satisfecho con los resultados, vaya a la versión que desee usar y haga clic en **[!UICONTROL Publish]**.

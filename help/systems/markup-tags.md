@@ -5,14 +5,14 @@ exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
 
 # Etiquetas de marcado
 
-Una etiqueta de marcado es una directiva que contiene un fragmento de código con una referencia relativa a un objeto del almacén, como una variable, una dirección URL, una imagen o un bloque. Las etiquetas de marcado se pueden utilizar en cualquier lugar donde el editor esté disponible e incorporado al HTML de [email](email-templates.md) y [newsletter](../merchandising-promotions/newsletter-template.md) plantillas, así como otros tipos de plantillas [content](../content-design/introduction.md#content).
+Una etiqueta de marcado es una directiva que contiene un fragmento de código con una referencia relativa a un objeto del almacén, como una variable, una dirección URL, una imagen o un bloque. Las etiquetas de marcado se pueden usar en cualquier parte donde el editor esté disponible e incorporado al HTML de las plantillas [email](email-templates.md) y [newsletter](../merchandising-promotions/newsletter-template.md), así como en otros tipos de [contenido](../content-design/introduction.md#content).
 
 Las etiquetas de marcado se encierran entre llaves dobles y se pueden generar mediante la herramienta Widget o escribir directamente en el contenido del HTML. Por ejemplo, en lugar de programar la ruta completa a una página, puede utilizar una etiqueta de marcado para representar la dirección URL de la tienda. Las etiquetas de marcado que aparecen en los siguientes ejemplos incluyen:
 
@@ -20,13 +20,13 @@ Las etiquetas de marcado se encierran entre llaves dobles y se pueden generar me
 
 ## Variable personalizada
 
-La etiqueta de marcado Variable se puede utilizar para insertar una etiqueta [variable personalizada](variables-custom.md) en una plantilla de correo electrónico, bloques, boletines informativos y páginas de contenido.
+La etiqueta Variable markup se puede usar para insertar una [variable personalizada](variables-custom.md) en una plantilla de correo electrónico, bloques, boletines informativos y páginas de contenido.
 
 \{\{CustomVar code= &quot;my_custom_variable&quot;}}
 
 ## URL de tienda
 
-La etiqueta Store URL markup representa la dirección URL base del sitio web y se utiliza como sustituto de la primera parte de una dirección URL completa, incluido el nombre de dominio. Existen dos versiones de esta etiqueta de marcado: una que va directamente a la tienda y otra con una barra diagonal (`/`) al final que se utiliza cuando se añade una ruta.
+La etiqueta Store URL markup representa la dirección URL base del sitio web y se utiliza como sustituto de la primera parte de una dirección URL completa, incluido el nombre de dominio. Hay dos versiones de esta etiqueta de marcado: una que va directamente a su tienda y otra con una barra diagonal (`/`) al final que se usa cuando se agrega una ruta de acceso.
 
 \{\{store url=&#39;vestimenta/zapatos/mujer&#39;}}
 
@@ -70,7 +70,7 @@ Puede utilizar etiquetas de marcado con etiquetas de anclaje de HTML y vincular 
 
 ### Paso 1. Identificación de la dirección URL de destino
 
-Si es posible, vaya a la página a la que desee vincular y copie la dirección URL completa de la barra de direcciones del explorador. La parte de la dirección URL que necesita va después de `.com/`. De lo contrario, copie la clave URL de la página de CMS que desee utilizar como destino del vínculo.
+Si es posible, vaya a la página a la que desee vincular y copie la dirección URL completa de la barra de direcciones del explorador. La parte de la dirección URL que necesita viene después de `.com/`. De lo contrario, copie la clave URL de la página de CMS que desee utilizar como destino del vínculo.
 
 #### Dirección URL completa de la página de categoría
 
@@ -90,13 +90,13 @@ Si es posible, vaya a la página a la que desee vincular y copie la dirección U
 
 La etiqueta Store URL representa la dirección URL base del sitio web y se utiliza como sustituto de la parte de la dirección HTTP de la dirección URL del almacén, incluidos el nombre de dominio y `.com`. Existen dos versiones de la etiqueta que puede utilizar según los resultados que desee lograr.
 
-`store direct_url` - Vínculos directamente a una página.
+`store direct_url`: vincula directamente a una página.
 
-`store url` : coloca una barra diagonal al final, de modo que se puedan anexar referencias adicionales como ruta.
+`store url` - Coloca una barra diagonal al final para que se puedan anexar referencias adicionales como ruta de acceso.
 
 En los ejemplos siguientes, la clave de URL está entre comillas simples y toda la etiqueta de marcado está entre llaves dobles. Cuando se utiliza con una etiqueta de anclaje, la etiqueta de marcado se coloca dentro de las comillas dobles del anclaje. Para evitar confusiones, puede utilizar comillas simples y dobles para cada conjunto anidado de comillas.
 
-Si empieza con una dirección URL completa, elimine la dirección HTTP (`http://` o `https://`) parte de la dirección URL, hasta la dirección URL, incluida `.com/`. En su lugar, introduzca la etiqueta Store URL markup mediante la comilla simple de apertura.
+Si comienza con una dirección URL completa, elimine la parte de la dirección HTTP (`http://` o `https://`) de la dirección URL, hasta la dirección `.com/` inclusive. En su lugar, introduzca la etiqueta Store URL markup mediante la comilla simple de apertura.
 
 #### Etiqueta de marcado de URL de tienda
 
@@ -120,10 +120,10 @@ Envuelva la etiqueta de marcado completada dentro de una etiqueta de anclaje con
 
 #### Marcado en la etiqueta de anclaje
 
-\&lt;a href=&quot;\{\{markup tag goes here}}&quot;>Texto del vínculo\&lt;/a>
+\&lt;a href=&quot;\{\{la etiqueta de marcado se incluye aquí}}&quot;>Texto del vínculo\&lt;/a>
 
 Pegue la etiqueta de anclaje completada en el código de cualquier página, bloque, banner o plantilla de correo electrónico de CMS, donde desee que aparezca el vínculo.
 
 ### Vínculo completo con marcado
 
-\&lt;a href=&quot;\{\{store url=&amp;#39;apparel/shoes&amp;#39;}}&quot;>Venta de zapatos\&lt;/a>
+\&lt;a href=&quot;\{\{store url=&#39;vestir/zapatos&#39;}&quot;>Venta de zapatos\&lt;/a>

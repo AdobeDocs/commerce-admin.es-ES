@@ -5,7 +5,7 @@ exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 feature: Marketing Tools, Integration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -14,27 +14,27 @@ ht-degree: 0%
 
 La configuración de su tienda está integrada con las siguientes herramientas de Google para ayudarle a optimizar su contenido, analizar el tráfico y conectar su catálogo a los agregadores de compras y a los mercados.
 
-- [Google Analytics](google-analytics.md) - Uso _Google Universal Analytics_ para definir dimensiones y métricas personalizadas adicionales para el seguimiento, con compatibilidad para interacciones de aplicaciones móviles y sin conexión, y acceso a actualizaciones en curso.
+- [Google Analytics](google-analytics.md): usa _Google Universal Analytics_ para definir métricas y dimensiones personalizadas adicionales para el seguimiento, con compatibilidad para interacciones de aplicaciones móviles y sin conexión, y acceso a actualizaciones en curso.
 
-- [Experimentos de contenido de Google](google-content-experiments.md) : configure una prueba A/B para productos, categorías o páginas de contenido mediante Experimentos de contenido de Google Analytics.
+- [Experimentos de contenido de Google](google-content-experiments.md): configure una prueba A/B para productos, categorías o páginas de contenido mediante Experimentos de contenido para Google Analytics.
 
-- [Google Tag Manager](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce) Utilice el Administrador de etiquetas de Google para administrar las diversas etiquetas relacionadas con los eventos de campañas de marketing.
+- [Administrador de etiquetas de Google](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Use el Administrador de etiquetas de Google para administrar las muchas etiquetas relacionadas con los eventos de campañas de marketing.
 
-- [Google AdWords](google-adwords.md) : crea una campaña de Google AdWords y realiza un seguimiento de las conversiones de tu tienda.
+- [Google AdWords](google-adwords.md): crea una campaña de Google AdWords y realiza un seguimiento de las conversiones de tu tienda.
 
 {{gtag-api-note}}
 
 ## Configuración de privacidad de Google
 
-Si su empresa debe cumplir con las normas de privacidad como las siguientes [RGPD](../getting-started/compliance-gdpr.md) o [CCPA](../getting-started/compliance-ccpa.md), cambie la configuración predeterminada de las herramientas de Google para cumplir con los requisitos de privacidad. Siga estos pasos para asegurarse de que el uso de los datos del cliente sigue siendo compatible.
+Si su empresa debe cumplir con las regulaciones de privacidad como el [RGPD](../getting-started/compliance-gdpr.md) o la [CCPA](../getting-started/compliance-ccpa.md), cambie la configuración predeterminada de las herramientas de Google para cumplir con los requisitos de privacidad. Siga estos pasos para asegurarse de que el uso de los datos del cliente sigue siendo compatible.
 
 ### Paso 1: Actualizar la configuración de Google
 
-1. [Iniciar sesión][1]{: target=&quot;_blank&quot;} a la cuenta de Google Analytics de su empresa.
+1. [Inicia sesión][1]{: target=&quot;_blank&quot;} en la cuenta de Google Analytics de tu empresa.
 
-1. En la parte inferior de la barra lateral izquierda, elija **[!UICONTROL Admin]** y, a continuación, vaya a la cuenta que desee editar (si corresponde).
+1. En la parte inferior de la barra lateral izquierda, elija **[!UICONTROL Admin]** y luego vaya a la cuenta que desee editar (si corresponde).
 
-1. En el **[!UICONTROL Account]** , haga clic en **[!UICONTROL Account Settings]**.
+1. En la columna **[!UICONTROL Account]**, haga clic en **[!UICONTROL Account Settings]**.
 
 1. Desactive el uso compartido de datos para cumplir con los requisitos de la normativa de privacidad.
 
@@ -45,22 +45,22 @@ Si su empresa debe cumplir con las normas de privacidad como las siguientes [RGP
    - Asistencia técnica
    - Especialistas en cuentas
 
-1. Acepte el _Modificación del procesamiento de datos_.
+1. Acepte la _enmienda de procesamiento de datos_.
 
-   Los Términos de procesamiento de datos de Google Ads describen cómo Google procesa los datos y las medidas que toma para garantizar la seguridad de los datos empresariales sujetos al RGPD. Con la modificación también se mantiene un registro de sus entidades legales e información de contacto. Hasta [obtenga más información][2]{: target=&quot;_blank&quot;}, haga clic en el vínculo del mensaje en la parte superior de la página.
+   Los Términos de procesamiento de datos de Google Ads describen cómo Google procesa los datos y las medidas que toma para garantizar la seguridad de los datos empresariales sujetos al RGPD. Con la modificación también se mantiene un registro de sus entidades legales e información de contacto. Para [obtener más información][2]{: target=&quot;_blank&quot;}, haga clic en el vínculo del mensaje en la parte superior de la página.
 
-   - Desplácese hacia abajo por la página hasta **[!UICONTROL Data Processing Amendment]**.
-   - Clic **[!UICONTROL Review Amendment]** para leer el _Términos de procesamiento de datos de Google Ads_.
-   - Haga clic **[!UICONTROL Accept]**.
-   - Haga clic **[!UICONTROL Save]**.
+   - Desplácese hacia abajo de la página hasta **[!UICONTROL Data Processing Amendment]**.
+   - Haga clic en **[!UICONTROL Review Amendment]** para leer los _Términos de procesamiento de datos de Google Ads_.
+   - Haga clic en **[!UICONTROL Accept]**.
+   - Haga clic en **[!UICONTROL Save]**.
 
-1. Complete la _Administración de DPA_ detalles.
+1. Complete los detalles de la _administración de DPA_.
 
-   - Clic **[!UICONTROL Manage DPA Details]** para abrir una página de administración de DPA donde puede editar contactos y las entidades legales de su organización.
+   - Haga clic en **[!UICONTROL Manage DPA Details]** para abrir una página de administración de DPA en la que podrá editar contactos y las entidades legales de su organización.
 
-   - En el **[!UICONTROL Legal Entities]** , haga clic en _Editar_ ( ![Icono de edición de Google](./assets/google-icon-edit.png) ) y añada uno o más nombres registrados para su organización. Cuando termine, haga clic en **[!UICONTROL Save]**.
+   - En la sección **[!UICONTROL Legal Entities]**, haga clic en el icono _Editar_ ( ![icono de edición de Google](./assets/google-icon-edit.png) ) y agregue uno o más nombres registrados para su organización. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
 
-   - En el **Contactos** , haga clic en _Añadir_ ( ![Icono de añadir de Google](./assets/google-icon-add.png) ) y escriba la información del primer contacto. A continuación, seleccione la casilla de verificación de cada función aplicable y haga clic en **[!UICONTROL Add]**.
+   - En la sección **Contactos**, haga clic en el icono _Agregar_ ( ![icono Agregar Google](./assets/google-icon-add.png) ) e introduzca la información del primer contacto. A continuación, active la casilla de verificación de cada rol aplicable y haga clic en **[!UICONTROL Add]**.
 
       - Contacto principal (dirección de correo electrónico de notificación): contacto al que se envían los avisos.
       - Responsable de protección de datos (si procede): la persona designada para facilitar el cumplimiento de la normativa de privacidad.
@@ -70,11 +70,11 @@ Si su empresa debe cumplir con las normas de privacidad como las siguientes [RGP
 
 ### Paso 2: Modificar las bibliotecas JS de Google
 
-Google admite tres bibliotecas de JavaScript para medir el uso del sitio web, según el producto Google: `gtag.js`, `analytics.js`, y `ga.js`. Para cumplir con los requisitos de privacidad, el código estándar se puede modificar de la siguiente manera:
+Google admite tres bibliotecas JavaScript para medir el uso del sitio web, según el producto Google: `gtag.js`, `analytics.js` y `ga.js`. Para cumplir con los requisitos de privacidad, el código estándar se puede modificar de la siguiente manera:
 
 #### Anonimizar direcciones IP
 
-Para convertir en anónimas las direcciones IP que usa **_Google Universal Analytics_**, agregue el siguiente fragmento de código a `analytics.js` en su servidor web:
+Para convertir en anónimas las direcciones IP que usa **_Google Universal Analytics_**, agregue el siguiente fragmento a la biblioteca `analytics.js` de su servidor web:
 
 analytics.js
 
@@ -84,7 +84,7 @@ analytics.js
 
 Para obtener más información, consulte la [Referencia de campo de Analytics.js][3]{: target=&quot;_blank&quot;} en la Ayuda de Google.
 
-Si utiliza el heredado `ga.js` , agregue el siguiente fragmento de código:
+Si usa la biblioteca `ga.js` heredada, agregue el siguiente fragmento de código:
 
 ga.js
 
@@ -92,7 +92,7 @@ ga.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-Para convertir en anónimas las direcciones IP que usa **_Google Tag Manager_**, configure el `anonymize_ip` parámetro a `true` en el `gtag.js` en el servidor web.
+Para convertir en anónimas las direcciones IP que usa **_Google Tag Manager_**, establezca el parámetro `anonymize_ip` en `true` en la biblioteca `gtag.js` de su servidor web.
 
 gtag.js
 
@@ -104,7 +104,7 @@ Para obtener más información, consulte [Anonimización de IP en Analytics][4] 
 
 #### Forzar SSL
 
-Para forzar que todos los datos de Google se transmitan a través de una capa de socket seguro (SSL), agregue el siguiente fragmento a `analytics.js` en el servidor web.
+Para forzar la transmisión de todos los datos de Google a través de una capa de socket seguro (SSL), agregue el siguiente fragmento a la biblioteca `analytics.js` de su servidor web.
 
 analytics.js
 
@@ -114,7 +114,7 @@ analytics.js
 
 ### Paso 3: Actualizar la política de privacidad
 
-Actualice su [política de privacidad](../getting-started/privacy-policy.md) para indicar que su empresa:
+Actualice su [política de privacidad](../getting-started/privacy-policy.md) para indicar que su compañía:
 
 - Utiliza Google Analytics
 - Enmascara direcciones IP para ocultar información personal

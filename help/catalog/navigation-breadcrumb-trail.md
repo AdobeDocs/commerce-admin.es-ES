@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Rutas de ruta
 
-A _ruta de exploración_ es un conjunto de vínculos que muestra al cliente dónde se encuentra en relación con otras páginas de la tienda. Pueden hacer clic en cualquier vínculo de la ruta de exploración para volver a la página anterior.
+Una ruta de exploración _es un conjunto de vínculos que muestran al cliente dónde se encuentra en relación con otras páginas de la tienda._ Pueden hacer clic en cualquier vínculo de la ruta de exploración para volver a la página anterior.
 
 La ruta de exploración se puede configurar para que aparezca en las páginas de contenido y en las páginas de catálogo. El formato y la posición de la ruta de exploración varían según el tema, pero normalmente se encuentra justo debajo del encabezado. De forma predeterminada, la ruta de exploración aparece en páginas de CMS.
 
-![Ruta de exploración mostrada en la tienda](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"}
+![Se muestra la ruta de exploración en la tienda](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"}
 
 ## Tipos generales de migas de pan
 
@@ -46,20 +46,20 @@ Ejemplo: `Home > Suits > All Suits > Refined by > Slim Fit`
 
 ## Adición o eliminación de las rutas de exploración de las páginas de CMS
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. En el panel izquierdo, debajo de _[!UICONTROL General]_, elija **[!UICONTROL Web]**.
+1. En el panel izquierdo bajo _[!UICONTROL General]_, elija **[!UICONTROL Web]**.
 
-   ![Mostrar rutas para páginas de CMS](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
+   ![Mostrar rutas de exploración para páginas de CMS](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
 
-1. Expanda el _[!UICONTROL Default Pages]_sección.
+1. Expanda la sección _[!UICONTROL Default Pages]_.
 
-1. Anule la selección de **[!UICONTROL Use system value]** casilla de verificación
+1. Anule la selección de la casilla **[!UICONTROL Use system value]**.
 
-1. Establecer **[!UICONTROL Show Breadcrumbs for CMS Pages]** hasta `No` o `Yes`.
+1. Establezca **[!UICONTROL Show Breadcrumbs for CMS Pages]** en `No` o `Yes`.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 >[!NOTE]
 >
->La categoría principal no se muestra en la Ruta de exploración, en la página de categoría secundaria, cuando tiene `Browsing Category`= `Deny` [permiso de categoría](category-permissions.md) configuración.
+>La categoría principal no se muestra en la ruta de exploración, en la página de categoría secundaria, cuando tiene la configuración de `Browsing Category`= `Deny` [permiso de categoría](category-permissions.md).

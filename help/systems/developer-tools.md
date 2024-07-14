@@ -5,7 +5,7 @@ exl-id: 34529aa9-201f-4817-b53b-a15b6a78a923
 role: Admin, Developer
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1677'
 ht-degree: 0%
 
 ---
@@ -24,39 +24,39 @@ Utilice las herramientas avanzadas para desarrolladores para determinar el modo 
 
 ## Modos de funcionamiento
 
-La instancia de Adobe Commerce o de Magento Open Source se puede implementar para ejecutarse en _producción_ o _modo de desarrollador_. Solo se puede acceder a las herramientas y a los ajustes de configuración diseñados específicamente para desarrolladores mientras se ejecuta la tienda en _modo de desarrollador_.
+Su instancia de Adobe Commerce o de Magento Open Source se puede implementar para ejecutarse en _producción_ o en _modo de desarrollador_. Solo se puede tener acceso a las herramientas y opciones de configuración diseñadas específicamente para desarrolladores mientras la tienda se ejecuta en _modo de desarrollador_.
 
-Un usuario con los permisos adecuados solo puede cambiar el modo de operación desde la línea de comandos del servidor. Consulte [Definición del modo de funcionamiento](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) en el _Guía de configuración_ para obtener más información.
+Un usuario con los permisos adecuados solo puede cambiar el modo de operación desde la línea de comandos del servidor. Consulte [Establecer el modo de operación](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) en la _Guía de configuración_ para obtener más información.
 
-La mayoría de los temas de la documentación de comerciante se aplican a una instancia de Commerce que se ejecuta en el modo de producción. Sin embargo, las siguientes opciones de configuración y herramientas sólo se pueden utilizar cuando la instalación se ejecuta en modo de desarrollador.
+La mayoría de los temas de la documentación del comerciante se aplican a una instancia de Commerce que se ejecuta en el modo de producción. Sin embargo, las siguientes opciones de configuración y herramientas sólo se pueden utilizar cuando la instalación se ejecuta en modo de desarrollador.
 
 ## Flujo de trabajo de desarrollo de front-end
 
 El tipo de flujo de trabajo de desarrollo de front-end determina si se produce menos compilación en el lado del cliente o del servidor durante el desarrollo. Less es una extensión de CSS que tiene características y convenciones adicionales y que produce código optimizado. Se recomienda la compilación Less del lado del cliente para el desarrollo de temas. La compilación del lado del servidor es el modo predeterminado. Las opciones del flujo de trabajo de desarrollo no están disponibles para tiendas en modo de producción.
-Consulte [Compilación LESS del lado del cliente frente a la del lado del servidor](https://developer.adobe.com/commerce/frontend-core/guide/css/quickstart/compilation-mode/){:target=&quot;_blank&quot;} en la documentación para desarrolladores de Commerce.
+Consulte [Compilación LESS del lado del cliente frente a compilación del lado del servidor](https://developer.adobe.com/commerce/frontend-core/guide/css/quickstart/compilation-mode/){:target=&quot;_blank&quot;} en la documentación para desarrolladores de Commerce.
 
 >[!NOTE]
 >
->La configuración del flujo de trabajo de desarrollo de front-end está disponible en [Modo de desarrollador](../systems/developer-tools.md#operation-modes) solo.
+>La configuración del flujo de trabajo de desarrollo de front-end solo está disponible en [modo de desarrollador](../systems/developer-tools.md#operation-modes).
 
 ![Configuración avanzada: flujo de trabajo de desarrollo de front-end](../configuration-reference/advanced/assets/developer-frontend-development-workflow.png){width="600" zoomable="yes"}
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Advanced]** y elija **[!UICONTROL Developer]**.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Front-end Development Workflow]** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Front-end Development Workflow]**.
 
-1. Establecer **[!UICONTROL Workflow Type]** a uno de los siguientes:
+1. Establezca **[!UICONTROL Workflow Type]** en una de las siguientes opciones:
 
-   - `Client side less compilation` - La compilación tiene lugar en el navegador utilizando el nativo `less.js` biblioteca.
-   - `Server side less compilation` - La compilación tiene lugar en el servidor utilizando la biblioteca Less PHP. Este es el modo predeterminado para la producción.
+   - `Client side less compilation`: la compilación se realiza en el explorador con la biblioteca nativa `less.js`.
+   - `Server side less compilation`: la compilación se realiza en el servidor utilizando la biblioteca Less PHP. Este es el modo predeterminado para la producción.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 ## Firmas de archivo estáticas
 
-Añadir una firma digital a la URL de los archivos estáticos permite a los exploradores detectar cuándo está disponible una versión más reciente del archivo. Los archivos estáticos que se pueden rastrear con firmas digitales incluyen JavaScript, CSS, imágenes y fuentes. La firma se anexa a la ruta directamente después de la dirección URL base. Si la firma de un archivo difiere de lo que se almacena en la caché del explorador, se utiliza la versión más reciente del archivo.
+Añadir una firma digital a la URL de los archivos estáticos permite a los exploradores detectar cuándo está disponible una versión más reciente del archivo. Los archivos estáticos que se pueden rastrear con firmas digitales son JavaScript, CSS, imágenes y fuentes. La firma se anexa a la ruta directamente después de la dirección URL base. Si la firma de un archivo difiere de lo que se almacena en la caché del explorador, se utiliza la versión más reciente del archivo.
 
 Consulte [Firma de contenido estático](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html){:target=&quot;_blank&quot;} en la documentación para desarrolladores de Commerce.
 
@@ -66,19 +66,19 @@ Consulte [Firma de contenido estático](https://experienceleague.adobe.com/docs/
 
 ![Configuración avanzada: configuración de archivos estáticos](../configuration-reference/advanced/assets/developer-static-files-settings.png){width="600" zoomable="yes"}
 
-Para obtener una lista detallada de los ajustes de configuración, consulte [_Configuración de archivo estático_](../configuration-reference/advanced/developer.md) en el _Referencia de configuración_.
+Para obtener una lista detallada de las opciones de configuración, consulte [_Configuración de archivo estático_](../configuration-reference/advanced/developer.md) en la _Referencia de configuración_.
 
 **_Para habilitar los archivos estáticos firmados:_**
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Advanced]** y elija **[!UICONTROL Developer]**.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Static Files Settings]** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Static Files Settings]**.
 
-1. Establecer **[!UICONTROL Sign Static Files]** hasta `Yes`.
+1. Establezca **[!UICONTROL Sign Static Files]** en `Yes`.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 ## Optimización de archivo de recursos
 
@@ -94,69 +94,69 @@ Consulte [Prácticas recomendadas de rendimiento](https://experienceleague.adobe
 
 >[!NOTE]
 >
->Los archivos CSS y JavaScript se pueden optimizar en [Modo de desarrollador](../systems/developer-tools.md#operation-modes) solo.
+>Los archivos CSS y JavaScript solo se pueden optimizar en [Modo de desarrollador](../systems/developer-tools.md#operation-modes).
 
 | Tipo de archivo | Operaciones compatibles |
 | --------------- | -------------------- |
 | Archivos CSS | `MergeMinify` |
-| Archivos JavaScript | `MergeBundleMinify` |
+| Archivos de JavaScript | `MergeBundleMinify` |
 | Archivos de plantilla | `Minify` |
 
 {style="table-layout:auto"}
 
 **_Para optimizar los archivos de recursos:_**
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Advanced]** y elija **[!UICONTROL Developer]**.
 
-1. Para optimizar los archivos CSS, expanda ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL CSS Settings]** y haga lo siguiente:
+1. Para optimizar los archivos CSS, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL CSS Settings]** y haga lo siguiente:
 
-   - Establecer **[!UICONTROL Merge CSS Files]** hasta `Yes`.
-   - Establecer **[!UICONTROL Minify CSS Files]** hasta `Yes`.
+   - Establezca **[!UICONTROL Merge CSS Files]** en `Yes`.
+   - Establezca **[!UICONTROL Minify CSS Files]** en `Yes`.
 
-   ![Configuración avanzada: configuración de CSS](../configuration-reference/advanced/assets/developer-css-settings.png){width="600" zoomable="yes"}
+   ![Configuración avanzada - Configuración de CSS](../configuration-reference/advanced/assets/developer-css-settings.png){width="600" zoomable="yes"}
 
 [_Configuración de CSS_](../configuration-reference/advanced/developer.md)
 
-1. Para optimizar los archivos JavaScript, expanda ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL JavaScript Settings]** y haga lo siguiente:
+1. Para optimizar los archivos de JavaScript, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL JavaScript Settings]** y haga lo siguiente:
 
-   - Establecer **[!UICONTROL Merge JavaScript Files]** hasta `Yes`.
-   - Establecer **[!UICONTROL Minify JavaScript Files]** hasta `Yes`.
+   - Establezca **[!UICONTROL Merge JavaScript Files]** en `Yes`.
+   - Establezca **[!UICONTROL Minify JavaScript Files]** en `Yes`.
 
-   ![Configuración avanzada: ajustes de JavaScript](../configuration-reference/advanced/assets/developer-javascript-settings.png){width="600" zoomable="yes"}
+   ![Configuración avanzada: configuración de JavaScript](../configuration-reference/advanced/assets/developer-javascript-settings.png){width="600" zoomable="yes"}
 
-1. Para minimizar los archivos de plantilla PHTML, expanda ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Template Settings]** sección y conjunto **[!UICONTROL Minify Html]** hasta `Yes`.
+1. Para minimizar los archivos de plantilla PHTML, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Template Settings]** y establezca **[!UICONTROL Minify Html]** en `Yes`.
 
-   ![Configuración avanzada: ajustes de plantilla](../configuration-reference/advanced/assets/developer-template-settings.png){width="600" zoomable="yes"}
+   ![Configuración avanzada: configuración de plantilla](../configuration-reference/advanced/assets/developer-template-settings.png){width="600" zoomable="yes"}
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 ## Restricciones de cliente
 
-Antes de usar una herramienta como [sugerencias de ruta de plantilla](#template-path-hints), asegúrese de añadir su dirección IP a la lista de permitidos Restricciones de cliente para desarrolladores para evitar interrumpir la experiencia de compra de los clientes en la tienda. Si no conoce su dirección IP, puede buscarla en línea.
+Antes de usar una herramienta como [sugerencias de ruta de plantillas](#template-path-hints), asegúrese de agregar su dirección IP a la lista de permitidos Restricciones de cliente para desarrolladores para evitar que se interrumpa la experiencia de compra de los clientes en la tienda. Si no conoce su dirección IP, puede buscarla en línea.
 
 >[!NOTE]
 >
->Las restricciones de cliente de desarrollador se pueden establecer en [Modo de desarrollador](../systems/developer-tools.md#operation-modes) solo.
+>Las restricciones de cliente para desarrolladores solo se pueden establecer en [Modo para desarrolladores](../systems/developer-tools.md#operation-modes).
 
-Para obtener información técnica, consulte [VCL personalizado para permitir solicitudes](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html) en el _Guía de Commerce en la infraestructura de Cloud_.
+Para obtener información técnica, consulte [VCL personalizado para permitir solicitudes](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html) en la _Guía de infraestructura en la nube de Commerce_.
 
-**_Para añadir su dirección IP a la lista de permitidos:_**
+**_Para agregar su dirección IP a la lista de permitidos:_**
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Advanced]** y elija **[!UICONTROL Developer]**.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Developer Client Restrictions]** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Developer Client Restrictions]**.
 
-   ![Configuración avanzada: restricciones de cliente de desarrollador](../configuration-reference/advanced/assets/developer-developer-client-restrictions.png){width="600" zoomable="yes"}
+   ![Configuración avanzada: restricciones del cliente para desarrolladores](../configuration-reference/advanced/assets/developer-developer-client-restrictions.png){width="600" zoomable="yes"}
 
-1. Para **[!UICONTROL Allow IPs]**, introduzca su dirección IP.
+1. Para **[!UICONTROL Allow IPs]**, ingrese su dirección IP.
 
    Si se necesita acceso desde varias direcciones IP, sepárelas con una coma.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 1. Cuando se le solicite, actualice las cachés no válidas.
 
@@ -166,47 +166,47 @@ Las sugerencias de ruta de plantilla son una herramienta de diagnóstico que agr
 
 >[!NOTE]
 >
->Las sugerencias de ruta de plantilla se pueden editar en [modo de desarrollador](../systems/developer-tools.md#operation-modes) solo.
+>Las sugerencias de ruta de plantillas solo se pueden editar en [modo para desarrolladores](../systems/developer-tools.md#operation-modes).
 
 Consulte [Buscar plantillas, diseños y estilos](https://developer.adobe.com/commerce/frontend-core/guide/themes/debug/){:target=&quot;_blank&quot;} en la documentación para desarrolladores de Commerce.
 
-![Ejemplo de tienda: sugerencias de ruta de plantilla](./assets/storefront-template-path-hints.png){width="700" zoomable="yes"}
+![Ejemplo de tienda - sugerencias de ruta de plantilla](./assets/storefront-template-path-hints.png){width="700" zoomable="yes"}
 
 ### Paso 1: Añadir su dirección IP a la lista de permitidos
 
-Antes de usar sugerencias de ruta de plantilla, agregue su dirección IP al [lista de permitidos](#client-restrictions) para evitar interferencias con los clientes que compran en la tienda. Cuando haya terminado, asegúrese de borrar la caché de Commerce para eliminar todas las sugerencias de la tienda.
+Antes de usar sugerencias para las rutas de plantillas, agrega tu dirección IP a la [lista de permitidos](#client-restrictions) para evitar interferencias con los clientes que están comprando en la tienda. Cuando haya terminado, asegúrese de borrar la caché de Commerce para eliminar todas las sugerencias de la tienda.
 
-![Configuración avanzada: restricciones de cliente de desarrollador](../configuration-reference/advanced/assets/developer-developer-client-restrictions.png){width="600" zoomable="yes"}
+![Configuración avanzada: restricciones del cliente para desarrolladores](../configuration-reference/advanced/assets/developer-developer-client-restrictions.png){width="600" zoomable="yes"}
 
 ### Paso 2: Habilitar sugerencias de ruta de plantilla
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Advanced]** y elija **[!UICONTROL Developer]**.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Debug]** y haga lo siguiente:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Debug]** y haga lo siguiente:
 
    ![Configuración avanzada: depurar](../configuration-reference/advanced/assets/developer-debug.png){width="600" zoomable="yes"}
 
-   - Para activar sugerencias de ruta de plantilla para el almacén, establezca **[!UICONTROL Enabled Template Path Hints for Storefront]** hasta `Yes`.
+   - Para activar sugerencias de ruta de acceso de plantilla para el almacén, establezca **[!UICONTROL Enabled Template Path Hints for Storefront]** en `Yes`.
 
-   - Para habilitar sugerencias de ruta de plantilla para el almacén, solo cuando la dirección URL incluya `templatehints` parámetro, establecer **Habilitar sugerencias para tienda con parámetro de URL** hasta `Yes`. Luego establezca el valor del parámetro si es necesario. El valor predeterminado es `magento`, pero puede utilizar un valor personalizado. Por ejemplo, si cambia el valor a `lorem`, utilizaría `mymagento.com?templatehints=lorem` para mostrar sugerencias de plantilla.
+   - Para habilitar sugerencias de ruta de acceso de plantilla para el almacén solo cuando la dirección URL incluya el parámetro `templatehints`, establezca **Habilitar sugerencias para tienda con el parámetro de dirección URL** en `Yes`. Luego establezca el valor del parámetro si es necesario. El valor predeterminado es `magento`, pero puede usar un valor personalizado. Por ejemplo, si cambia el valor a `lorem`, utilizaría `mymagento.com?templatehints=lorem` para mostrar sugerencias de plantilla.
 
-   - Para activar sugerencias de ruta de plantilla para el administrador, establezca **[!UICONTROL Enabled Template Path Hints for Admin]** hasta `Yes`.
+   - Para activar sugerencias de ruta de acceso de plantilla para el administrador, establezca **[!UICONTROL Enabled Template Path Hints for Admin]** en `Yes`.
 
-   - Para incluir los nombres de los bloques, establezca **[!UICONTROL Add Block Class Type to Hints]** hasta `Yes`.
+   - Para incluir los nombres de los bloques, establezca **[!UICONTROL Add Block Class Type to Hints]** en `Yes`.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 ### Paso 3: Borrar la caché
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**.
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Flush Magento Cache]**.
 
 ## Traducir en línea
 
-Puede utilizar la herramienta Traducir en línea en [modo de desarrollador](../systems/developer-tools.md#operation-modes) para retocar texto en la interfaz y reflejar su voz y marca. Cuando se activa el modo Traducir en línea, cualquier texto de la página que se pueda editar se delineará en rojo. Es fácil editar las etiquetas de campo, los mensajes y otro texto que aparece en la tienda y en el administrador. Por ejemplo, muchos temas utilizan terminología como _Mi cuenta_, _Mi lista de deseos_, y _Mi tablero_, para ayudar a los clientes a encontrar el camino. Sin embargo, es posible que prefiera usar simplemente las palabras _Cuenta_, _Lista de deseos_, y _Tablero_.
+Puede usar la herramienta Traducir en línea en [modo de desarrollador](../systems/developer-tools.md#operation-modes) para retocar texto en la interfaz y reflejar su voz y marca. Cuando se activa el modo Traducir en línea, cualquier texto de la página que se pueda editar se delineará en rojo. Es fácil editar las etiquetas de campo, los mensajes y otro texto que aparece en la tienda y en el administrador. Por ejemplo, muchos temas usan terminología como _Mi cuenta_, _Mi lista de deseos_ y _Mi tablero_ para ayudar a los clientes a encontrar el camino. Sin embargo, es posible que prefiera usar simplemente las palabras _Cuenta_, _Lista de deseos_ y _Tablero_.
 
 >[!NOTE]
 >
@@ -214,9 +214,9 @@ Puede utilizar la herramienta Traducir en línea en [modo de desarrollador](../s
 
 Consulte [Resumen de traducciones](https://developer.adobe.com/commerce/frontend-core/guide/translations/) en la documentación para desarrolladores de Commerce.
 
-![Ejemplo de tienda: texto traducible](./assets/storefront-translate-inline.png){width="700" zoomable="yes"}
+![Ejemplo de tienda - texto traducible](./assets/storefront-translate-inline.png){width="700" zoomable="yes"}
 
-Si su tienda está disponible en varios idiomas, puede realizar ajustes precisos en el texto traducido para la configuración regional. En el servidor, el texto de la interfaz se mantiene en un archivo CSV independiente para cada bloque de salida y se organiza según la configuración regional. Como enfoque alternativo, en lugar de utilizar la variable _Traducir en línea_ , también puede editar los archivos CSV directamente en el servidor. Los archivos de traducción se almacenan en `app/code/Magento/<module_name>/i18n/<language_locale>.csv`.
+Si su tienda está disponible en varios idiomas, puede realizar ajustes precisos en el texto traducido para la configuración regional. En el servidor, el texto de la interfaz se mantiene en un archivo CSV independiente para cada bloque de salida y se organiza según la configuración regional. Como alternativa, en lugar de usar la herramienta _Traducir en línea_, también puede editar los archivos CSV directamente en el servidor. Los archivos de traducción se almacenan en `app/code/Magento/<module_name>/i18n/<language_locale>.csv`.
 
 >[!NOTE]
 >
@@ -224,7 +224,7 @@ Si su tienda está disponible en varios idiomas, puede realizar ajustes precisos
 
 ### Paso 1: Deshabilitar cachés de salida
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**.
 
 1. Seleccione las siguientes casillas de verificación:
 
@@ -232,27 +232,27 @@ Si su tienda está disponible en varios idiomas, puede realizar ajustes precisos
    - `Page Cache`
    - `Translations`
 
-1. Configure las variables **[!UICONTROL Actions]** control a `Disable` y haga clic en **[!UICONTROL Submit]**.
+1. Establezca el control **[!UICONTROL Actions]** en `Disable` y haga clic en **[!UICONTROL Submit]**.
 
 ### Paso 2: Habilitar la herramienta Traducir en línea
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Para trabajar con una vista de tienda específica, establezca el **[!UICONTROL Store View]** para actualizar.
+1. Para trabajar con una vista de tienda específica, configure **[!UICONTROL Store View]** para que se actualice.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Advanced]** y elija **[!UICONTROL Developer]**.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Translate Inline]** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Translate Inline]**.
 
-   Borre la **[!UICONTROL Use Website]** marque la casilla de verificación según sea necesario para modificar esta configuración.
+   Desactive la casilla de verificación **[!UICONTROL Use Website]** según sea necesario para modificar esta configuración.
 
-   El _[!UICONTROL Enabled for Admin]_Esta opción no está disponible al editar una vista de tienda específica.
+   La opción _[!UICONTROL Enabled for Admin]_no está disponible al editar una vista de tienda específica.
 
    ![Configuración avanzada: traducir en línea](../configuration-reference/advanced/assets/developer-translate-inline.png){width="600" zoomable="yes"}
 
-1. Establecer **[!UICONTROL Enabled for Storefront]** hasta `Yes`.
+1. Establezca **[!UICONTROL Enabled for Storefront]** en `Yes`.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 1. Cuando se le solicite, actualice las cachés no válidas, pero deje las cachés deshabilitadas tal y como están por ahora.
 
@@ -260,17 +260,17 @@ Si su tienda está disponible en varios idiomas, puede realizar ajustes precisos
 
 1. Abra la tienda en un navegador y vaya a la página que desee editar.
 
-   Si es necesario, utilice el selector de idioma para cambiar la vista de la tienda. Cada cadena de texto que se puede traducir se destaca en rojo. Cuando pasa el ratón por encima de cualquier cuadro de texto, aparece un icono de libro ( ![Icono de libro](../assets/icon-book.png) ) aparece.
+   Si es necesario, utilice el selector de idioma para cambiar la vista de la tienda. Cada cadena de texto que se puede traducir se destaca en rojo. Cuando pasa el ratón por encima de cualquier cuadro de texto, aparece un icono de libro ( ![Icono de libro](../assets/icon-book.png) ).
 
-1. Haga clic en el icono de libro para abrir _Traducir_ y haga lo siguiente:
+1. Haga clic en el icono de libro para abrir la ventana _Traducir_ y haga lo siguiente:
 
-   - Si el cambio es para la vista de tienda específica, seleccione la opción **[!UICONTROL Store View Specific]** casilla de verificación
+   - Si el cambio es para la vista de tienda específica, seleccione la casilla de verificación **[!UICONTROL Store View Specific]**.
 
-   - Introduzca el nuevo **[!UICONTROL Custom]** texto.
+   - Escriba el nuevo texto de **[!UICONTROL Custom]**.
 
-1. Cuando termine, haga clic en **[!UICONTROL Submit]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Submit]**.
 
-   ![Introducir texto personalizado](./assets/storefront-translate-inline-detail.png){width="700" zoomable="yes"}
+   ![Escribir texto personalizado](./assets/storefront-translate-inline-detail.png){width="700" zoomable="yes"}
 
 1. Para ver los cambios en la tienda, actualice el explorador.
 
@@ -280,19 +280,19 @@ Si su tienda está disponible en varios idiomas, puede realizar ajustes precisos
 
 1. Vuelva al administrador de la tienda.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Establecer **[!UICONTROL Store View]** a la vista específica que se editó.
+1. Establezca **[!UICONTROL Store View]** en la vista específica que se editó.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Advanced]** y elija **[!UICONTROL Developer]**.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Translate Inline]** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Translate Inline]**.
 
-1. Establecer **[!UICONTROL Enabled for Frontend]** hasta `No`.
+1. Establezca **[!UICONTROL Enabled for Frontend]** en `No`.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**.
 
 1. Seleccione la casilla de verificación de las siguientes cachés de salida que estaban deshabilitadas anteriormente:
 
@@ -300,7 +300,7 @@ Si su tienda está disponible en varios idiomas, puede realizar ajustes precisos
    - `Page Cache`
    - `Translations`
 
-1. Configure las variables **[!UICONTROL Actions]** control a `Enable` y haga clic en **[!UICONTROL Submit]**.
+1. Establezca el control **[!UICONTROL Actions]** en `Enable` y haga clic en **[!UICONTROL Submit]**.
 
 1. Cuando se le solicite, actualice las cachés no válidas.
 
@@ -308,4 +308,4 @@ Si su tienda está disponible en varios idiomas, puede realizar ajustes precisos
 
 Vaya a la tienda y examine todas las páginas que se actualizaron para asegurarse de que los cambios son correctos. En este ejemplo, `Customer Login` se cambió a `Customer Sign In`. Si se han realizado cambios en una vista específica, utilice el Selector de idioma para cambiar a la vista correcta.
 
-![Ejemplo de tienda: inicio de sesión de cliente traducido](./assets/storefront-translate-inline-customer-sign-in.png){width="700" zoomable="yes"}
+![Ejemplo de tienda - inicio de sesión de cliente traducido](./assets/storefront-translate-inline-customer-sign-in.png){width="700" zoomable="yes"}

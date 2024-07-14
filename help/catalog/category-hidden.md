@@ -16,14 +16,14 @@ Hay muchas maneras de usar categorías ocultas. Es posible que desee crear nivel
 
 ## Crear categorías ocultas
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. En el árbol de categorías, seleccione la categoría que desee ocultar y haga lo siguiente:
 
-   - Establecer **[!UICONTROL Is Active]** hasta `Yes`.
-   - Establecer **[!UICONTROL Include in Menu]** hasta `No`.
+   - Establezca **[!UICONTROL Is Active]** en `Yes`.
+   - Establezca **[!UICONTROL Include in Menu]** en `No`.
 
-1. En el **[!UICONTROL Display Settings]** sección, conjunto **[!UICONTROL Anchor]** hasta `No`.
+1. En la sección **[!UICONTROL Display Settings]**, establezca **[!UICONTROL Anchor]** en `No`.
 
    ![Categoría oculta](./assets/hidden-categories.png){width="600" zoomable="yes"}
 
@@ -35,9 +35,9 @@ Hay muchas maneras de usar categorías ocultas. Es posible que desee crear nivel
    >
    >Aunque la categoría está oculta, puede crear subcategorías debajo de ella y activarlas.
 
-   - Establecer **[!UICONTROL Enable Category]** hasta `Yes`.
-   - En el **[!UICONTROL Display Settings]** sección, conjunto **[!UICONTROL Anchor]** hasta `Yes`.
+   - Establezca **[!UICONTROL Enable Category]** en `Yes`.
+   - En la sección **[!UICONTROL Display Settings]**, establezca **[!UICONTROL Anchor]** en `Yes`.
 
    Como categorías activas, ahora puedes enlazarlas desde otros lugares de tu tienda, pero no aparecen en el menú.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.

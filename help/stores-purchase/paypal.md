@@ -5,41 +5,41 @@ exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
 feature: Payments
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
 
 # Soluciones de pago PayPal
 
-PayPal es líder mundial en pagos en línea y una forma rápida y segura de que sus clientes paguen en línea. La selección de soluciones de PayPal disponibles varía según la ubicación del comerciante. PayPal Express Checkout y PayPal Payments Standard se pueden utilizar en cualquier parte del mundo. Para obtener más información, consulte [Soluciones PayPal por país](#paypal-solutions-by-country).
+PayPal es líder mundial en pagos en línea y una forma rápida y segura de que sus clientes paguen en línea. La selección de soluciones de PayPal disponibles varía según la ubicación del comerciante. PayPal Express Checkout y PayPal Payments Standard se pueden utilizar en cualquier parte del mundo. Para obtener más información, consulta [Soluciones de PayPal por país](#paypal-solutions-by-country).
 
 >[!IMPORTANT]
 >
->**Requisitos de PSD2:** <br/>
->A partir del 14 de septiembre de 2019, los bancos europeos pueden rechazar los pagos que no cumplan [PSD 2](../getting-started/compliance-payment-services-directive.md) requisitos. Para la mayoría de las soluciones de PayPal, no es necesario realizar ninguna acción para cumplir con PSD2 porque estos requisitos los gestiona PayPal.
+>**Requisitos del PSD 2:** <br/>
+>A partir del 14 de septiembre de 2019, los bancos europeos podrán rechazar los pagos que no cumplan los requisitos de [PSD 2](../getting-started/compliance-payment-services-directive.md). Para la mayoría de las soluciones de PayPal, no es necesario realizar ninguna acción para cumplir con PSD2 porque estos requisitos los gestiona PayPal.
 
 ## Cuenta comercial de PayPal
 
-Para ofrecer PayPal como forma de pago en tu tienda, debes tener un PayPal [cuenta empresarial][1] y/o un [Cuenta PayPal Payflow][2]. Los requisitos de la cuenta se especifican en la descripción de cada solución de PayPal. Tu cuenta comercial de PayPal también se utiliza para gestionar cualquier [filtros de fraude](#paypal-fraud-management-filters) que se aplican a las compras realizadas en su tienda.
+Para ofrecer PayPal como forma de pago en tu tienda, debes tener una [cuenta comercial][1] de PayPal y/o una [cuenta PayPal Payflow][2]. Los requisitos de la cuenta se especifican en la descripción de cada solución de PayPal. Tu cuenta de PayPal también se usa para administrar los [filtros de fraude](#paypal-fraud-management-filters) que se apliquen a las compras realizadas en tu tienda.
 
-Los clientes que utilizan Pago y envío exprés de PayPal o Pago exprés de Payflow Pro deben tener una cuenta de comprador de PayPal. PayPal Payments Standard (Estándar de pagos en sitios web en algunos países) se puede utilizar directamente o a través de una cuenta de comprador cuando el comerciante lo permita _Cuenta PayPal opcional_. De forma predeterminada, este parámetro está habilitado para que los clientes puedan especificar la información de su tarjeta de crédito o crear una cuenta de comprador con PayPal. Si se desactiva, los clientes deben crear primero una cuenta de comprador de PayPal antes de realizar una compra.
+Los clientes que utilizan Pago y envío exprés de PayPal o Pago exprés de Payflow Pro deben tener una cuenta de comprador de PayPal. PayPal Payments Standard (Estándar de pagos en sitios web en algunos países) se puede usar directamente o a través de una cuenta de comprador cuando el comerciante habilite _Cuenta PayPal opcional_. De forma predeterminada, este parámetro está habilitado para que los clientes puedan especificar la información de su tarjeta de crédito o crear una cuenta de comprador con PayPal. Si se desactiva, los clientes deben crear primero una cuenta de comprador de PayPal antes de realizar una compra.
 
 Los pagos de sitio web Pro, los pagos de sitio web Pro Payflow Edition, Payflow Pro Gateway y Payflow Link requieren que los clientes introduzcan la información de la tarjeta de crédito durante el pago.
 
 ## Crédito de PayPal y PayAfter
 
-PayPal PayAfter ofrece a tus clientes un acceso rápido a la financiación, para que puedan comprar ahora y pagar con el tiempo, sin coste adicional para ti. No se te cobrará cuando los clientes elijan las opciones de crédito de PayPal y pagues solo la tarifa normal de transacción de PayPal. Para obtener más información, consulte la [Sitio web de PayPal][3].
+PayPal PayAfter ofrece a tus clientes un acceso rápido a la financiación, para que puedan comprar ahora y pagar con el tiempo, sin coste adicional para ti. No se te cobrará cuando los clientes elijan las opciones de crédito de PayPal y pagues solo la tarifa normal de transacción de PayPal. Para obtener más información, visita el [sitio web de PayPal][3].
 
-Dale un impulso a tus ventas cuando anuncies financiamiento. PayPal ayuda a convertir los navegadores en compradores con financiación mediante PayPal Paylater. Sus clientes pueden pagar con el tiempo, mientras que usted recibe el pago por adelantado, sin costo adicional para usted. Utiliza los anuncios de banner gratuitos de PayPal para anunciar la financiación de PayPal como una opción de pago cuando tus clientes cierren la compra con PayPal. Se ha demostrado que el programa de publicidad de PayPal genera compras adicionales y aumenta el tamaño promedio de las compras en un 15 % o más.
+Dale un impulso a tus ventas cuando anuncies financiamiento. PayPal ayuda a convertir los navegadores en compradores con financiación mediante PayPal Paylater. Sus clientes pueden pagar con el tiempo, mientras que usted recibe el pago por adelantado, sin costo adicional para usted. Utiliza los anuncios de banner gratuitos de PayPal para anunciar la financiación de PayPal como una opción de pago cuando tus clientes cierren la compra con PayPal. Se ha demostrado que el programa PayPal Advertising genera compras adicionales y aumenta el tamaño promedio de las compras en un 15 % o más.
 
-Puede añadir fácilmente anuncios de banner gratuitos y listos para usar a las páginas de su sitio y a la _Crédito de PayPal_ botón en el carro de compras durante el cierre de compra para recordar a sus clientes que el financiamiento está disponible.
+Puedes añadir fácilmente anuncios de banner gratuitos y listos para usar a las páginas de tu sitio y el botón _Crédito PayPal_ al carro de compras durante el cierre de compra para recordar a tus clientes que la financiación está disponible.
 
 >[!NOTE]
 >
 >A partir de la versión 2.4.3, PayPal PayAfter es compatible con las implementaciones que incluyen PayPal. Esta función permite a los compradores pagar un pedido en cuotas quincenales en lugar de pagar el importe completo en el momento de la compra. La experiencia de crédito de PayPal está en desuso.
 
-Para los comerciantes estadounidenses, el crédito de PayPal está habilitado de forma predeterminada para [Pago y envío con PayPal Express](paypal-express-checkout.md) opción de pago. Para desactivarlo para esta forma de pago, consulte la _Funciones_ sección de [Configuración de Pago y envío de PayPal Express](paypal-express-checkout.md#features).
+Para los comerciantes estadounidenses, el crédito de PayPal está habilitado de manera predeterminada para la opción de pago [Pago y envío exprés de PayPal](paypal-express-checkout.md). Para deshabilitarlo para esta forma de pago, consulta la sección _Características_ de la [configuración del Pago y envío de PayPal Express](paypal-express-checkout.md#features).
 
 El crédito de PayPal está desactivado de forma predeterminada para las otras soluciones de pago de PayPal, pero se puede activar en la configuración del método de pago para las soluciones de soporte:
 
@@ -93,17 +93,17 @@ PayPal ofrece una opción de dos soluciones de pasarela de pago para tu negocio.
 - [PayPal Payflow Pro](paypal-payflow-pro.md)
 - [Vínculo de flujo de pago PayPal](paypal-payflow-link.md)
 
-![Configurar puertas de pago de PayPal](./assets/paypal-payment-gateway.png){width="600" zoomable="yes"}
+![Configurar puertas de enlace de pago de PayPal](./assets/paypal-payment-gateway.png){width="600" zoomable="yes"}
 
 ## Filtros de administración de fraude de PayPal
 
-Los filtros de gestión de fraude de PayPal facilitan la detección y la respuesta a transacciones fraudulentas y pueden configurarse para marcar, retener para su revisión o denegar pagos más peligrosos. Acciones relacionadas con Commerce [estado del pedido](order-status.md) Los valores de han cambiado según la configuración del filtro contra el fraude:
+Los filtros de gestión de fraude de PayPal facilitan la detección y la respuesta a transacciones fraudulentas y pueden configurarse para marcar, retener para su revisión o denegar pagos más peligrosos. Las acciones relacionadas con los valores de Commerce [estado del pedido](order-status.md) cambiaron según la configuración del filtro de fraude:
 
 | Acción | Resultado |
 | --- | --- |
-| [!UICONTROL Review] | El pedido sospechoso recibe el estado _Revisión de pago_ cuando se realiza el pedido. Puedes revisar el pedido y aprobarlo, o cancelar el pago en el Administrador o en PayPal. Al hacer clic en **[!UICONTROL Accept Payment]** o **[!UICONTROL Deny Payment]**, no se crean nuevas transacciones para el pedido. <br/><br/>Si cambias el estado de la transacción en el sitio de PayPal, debes hacer clic en **[!UICONTROL Get Payment Update]** en la página Pedido del administrador para aplicar los cambios. Si hace clic **[!UICONTROL Accept Payment]** o **[!UICONTROL Deny Payment]**, se aplican los cambios realizados en el sitio de PayPal. |
-| [!UICONTROL Deny] | El cliente no puede realizar el pedido sospechoso porque PayPal rechaza la transacción correspondiente. <br/><br/>Para denegar el pago al administrador, haga clic en **[!UICONTROL Deny Payment]** en la esquina superior derecha de la página. El estado del pedido cambia a `Canceled`, la transacción se revierte y los fondos se liberan en la cuenta del cliente. La información correspondiente se añade en la variable _[!UICONTROL Comments History]_de la vista de pedidos. |
-| [!UICONTROL Flag] | El pedido sospechoso obtiene el estado `Processing` cuando se coloca. La transacción correspondiente se marca con un indicador en la lista de transacciones de cuentas de comerciante. |
+| [!UICONTROL Review] | El pedido sospechoso recibe el estado _Revisión de pago_ cuando se realiza el pedido. Puedes revisar el pedido y aprobarlo, o cancelar el pago en el Administrador o en PayPal. Al hacer clic en **[!UICONTROL Accept Payment]** o **[!UICONTROL Deny Payment]**, no se crean nuevas transacciones para el pedido. <br/><br/>Si cambias el estado de la transacción en el sitio PayPal, debes hacer clic en **[!UICONTROL Get Payment Update]** en la página de pedidos del administrador para aplicar los cambios. Si hace clic en **[!UICONTROL Accept Payment]** o **[!UICONTROL Deny Payment]**, se aplicarán los cambios realizados en el sitio PayPal. |
+| [!UICONTROL Deny] | El cliente no puede realizar el pedido sospechoso porque PayPal rechaza la transacción correspondiente. <br/><br/>Para rechazar el pago del administrador, haga clic en **[!UICONTROL Deny Payment]** en la esquina superior derecha de la página. El estado del pedido cambia a `Canceled`, la transacción se revierte y los fondos se liberan en la cuenta del cliente. La información correspondiente se agrega en la sección _[!UICONTROL Comments History]_de la vista de pedidos. |
+| [!UICONTROL Flag] | El pedido sospechoso obtiene el estado `Processing` cuando se realiza. La transacción correspondiente se marca con un indicador en la lista de transacciones de cuentas de comerciante. |
 
 {style="table-layout:auto"}
 
@@ -112,7 +112,7 @@ Los filtros de gestión de fraude de PayPal facilitan la detección y la respues
 | País | Solución de pago PayPal |
 |--- |--- |
 | Australia | [!DNL PayPal Website Payments Standard]<br/>[[!DNL PayPal Payflow Pro]](paypal-payflow-pro.md)<br/>[!DNL PayPal Website Payments Pro Hosted Solution]<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
-| Canadá | [!DNL PayPal Website Payments Standard]<br/>[!DNL PayPal Website Payments Pro]<br/>[[!DNL PayPal Payflow Pro]](paypal-payflow-pro.md)<br/>[[!DNL PayPal Payflow Link]](paypal-payflow-link.md) (incluye Pago y envío exprés)<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
+| Canadá | [!DNL PayPal Website Payments Standard]<br/>[!DNL PayPal Website Payments Pro]<br/>[[!DNL PayPal Payflow Pro]](paypal-payflow-pro.md)<br/>[[!DNL PayPal Payflow Link]](paypal-payflow-link.md) (incluye cierre de compra exprés)<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
 | Francia | [!DNL PayPal Integral Evolution]<br/>[!DNL PayPal Website Payments Standard]<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
 | Alemania | [[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
 | RAE de Hong Kong | [!DNL PayPal Website Payments Pro Hosted Solution]<br/>[!DNL PayPal Website Payments Standard]<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
@@ -120,7 +120,7 @@ Los filtros de gestión de fraude de PayPal facilitan la detección y la respues
 | Japón | [!DNL PayPal Website Payments Plus]<br/>[!DNL PayPal Website Payments Standard]<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
 | Nueva Zelanda | [[!DNL PayPal Payflow Pro]](paypal-payflow-pro.md)<br/>[!DNL PayPal Website Payments Standard]<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
 | España | [!DNL PayPal Pasarela Integral]<br/>[!DNL PayPal Website Payments Standard]<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
-| Reino Unido | [!DNL PayPal Payments Pro Hosted Solution] (incluye Pago y envío exprés)<br/>[[!DNL PayPal Payments Standard]](paypal-payments-standard.md)<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
+| Reino Unido | [!DNL PayPal Payments Pro Hosted Solution] (incluye cierre de compra exprés)<br/>[[!DNL PayPal Payments Standard]](paypal-payments-standard.md)<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
 | Estados Unidos | [[!DNL PayPal Payments Advanced]](paypal-payments-advanced.md) (incluye Pago y envío exprés)<br/>[[!DNL PayPal Payments Pro]](paypal-payments-pro.md) (incluye Pago y envío exprés)<br/>[[!DNL PayPal Payments Standard+]](paypal-payments-standard.md)<br/>[[!DNL PayPal Payflow Pro]](paypal-payflow-pro.md) (incluye Pago y envío exprés)<br/>[[!DNL PayPal Payflow Link]](paypal-payflow-link.md) (incluye Pago y envío exprés)<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
 
 {style="table-layout:auto"}

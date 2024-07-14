@@ -1,6 +1,6 @@
 ---
 user-guide-title: Guía de introducción de Adobe Commerce
-user-guide-description: Si es su primera vez en Adobe Commerce o Magento Open Source, descubra los recursos de [!DNL Commerce] ecosistema, siga el recorrido del cliente para explorar su tienda y conozca las funciones clave.
+user-guide-description: Si es nuevo en Adobe Commerce o Magento Open Source, descubra los recursos del ecosistema  [!DNL Commerce] y siga el recorrido del cliente para explorar su tienda y obtener información sobre las características clave.
 breadcrumb-title: Primeros pasos
 role: Admin, Leader, User
 feature: Admin Workspace
@@ -23,7 +23,7 @@ ht-degree: 1%
    + [Proteja su cuenta](commerce-account-secure.md)
    + [Compartir su cuenta](commerce-account-share.md)
    + [Transferir una cuenta](commerce-account-transfer.md)
-+ Conformidad del sitio {#compliance}
++ Cumplimiento del sitio {#compliance}
    + [Preparación para HIPAA en Adobe Commerce](hipaa-ready-service.md)
    + Privacidad {#privacy}
       + [Política de privacidad de tienda](privacy-policy.md)
@@ -56,12 +56,12 @@ ht-degree: 1%
 + La tienda {#storefront}
    + [¿Qué es la tienda?](storefront.md)
    + [Experiencias de tienda mejoradas](enhanced-experiences.md)
-+ Configuración y configuración básicas {#setup}
++ Configuración básica {#setup}
    + [Sitio, almacén y ámbito de visualización](websites-stores-views.md)
    + [Detalles de tienda](store-details.md)
    + [Marca de tienda](storefront-branding.md)
    + [Lista de comprobación previa al lanzamiento](prelaunch-checklist.md)
-+ Informes estándar  {#reporting}
++ Informes estándar {#reporting}
    + [Menú Informes](reports-menu.md)
    + [Informes de marketing](marketing-reports.md)
    + [Revisar informes](review-reports.md)
@@ -75,5 +75,5 @@ ht-degree: 1%
    + [Ecosistema](resources.md)
    + [Extensiones](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Volver a Guías de Comerciantes](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Volver a las guías del comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

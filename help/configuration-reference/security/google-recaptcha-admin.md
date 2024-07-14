@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel]'
-description: Revise la configuración de en [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel] de la administración de Commerce.
+description: Revise la configuración en la página [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel] del administrador de Commerce.
 exl-id: e4e6771a-487a-43ee-8b98-6acee4599aaf
 feature: Configuration, Security
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Antes de poder configurar Google reCAPTCHA, debe asegurarse de que su `PHP.ini` incluye la siguiente configuración: `allow_url_fopen = 1`. Esto puede requerir la asistencia del desarrollador. Consulte [Configuración de PHP requerida](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) en el _Guía de instalación_.
+>Para poder configurar Google reCAPTCHA, debe asegurarse de que el archivo `PHP.ini` incluya la siguiente configuración: `allow_url_fopen = 1`. Esto puede requerir la asistencia del desarrollador. Consulte [Configuración de PHP requerida](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) en la _Guía de instalación_.
 
 {{config}}
 
-Para obtener más información sobre cómo cambiar esta configuración, consulte [Google reCAPTCHA](../../systems/security-google-recaptcha.md) en el _Guía de sistemas de administración_.
+Para obtener más información sobre cómo cambiar esta configuración, consulte [Google reCAPTCHA](../../systems/security-google-recaptcha.md) en la _Guía de sistemas de administración_.
 
 ## [!UICONTROL reCAPTCHA v2 ("I am not a robot")]
 
@@ -30,7 +30,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 | [!UICONTROL Google API Secret Key] | Global | La clave secreta asociada a su cuenta de Google reCAPTCHA. |
 | [!UICONTROL Size] | Global | El tamaño del cuadro reCAPTCHA de Google que aparece durante el inicio de sesión. Opciones: `Normal` (predeterminado) / `Compact` |
 | [!UICONTROL Theme] | Global | Determina el estilo del cuadro reCAPTCHA de Google. Opciones: `Light Theme` (predeterminado) / `Dark Theme` |
-| [!UICONTROL Language Code] | Global | A [código de dos caracteres](https://developers.google.com/recaptcha/docs/language) que especifica el idioma que se utiliza para el texto y la mensajería reCAPTCHA de Google. |
+| [!UICONTROL Language Code] | Global | Un [código de dos caracteres](https://developers.google.com/recaptcha/docs/language) que especifica el idioma que se usa para el texto y los mensajes de Google reCAPTCHA. |
 
 {style="table-layout:auto"}
 
@@ -44,7 +44,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 | [!UICONTROL Google API Secret Key] | Global | La clave secreta asociada a su cuenta de Google reCAPTCHA. |
 | [!UICONTROL Invisible Badge Position] | Global | La posición del distintivo reCAPTCHA invisible en cada página. Opciones: `Inline` / `Bottom Right` / `Bottom Left` |
 | [!UICONTROL Theme] | Global | Determina el estilo del cuadro reCAPTCHA de Google. Opciones: `Light Theme` (predeterminado) / `Dark Theme` |
-| [!UICONTROL Language Code] | Global | A [código de dos caracteres](https://developers.google.com/recaptcha/docs/language) que especifica el idioma que se utiliza para el texto y la mensajería reCAPTCHA de Google. |
+| [!UICONTROL Language Code] | Global | Un [código de dos caracteres](https://developers.google.com/recaptcha/docs/language) que especifica el idioma que se usa para el texto y los mensajes de Google reCAPTCHA. |
 
 {style="table-layout:auto"}
 
@@ -59,7 +59,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 | [!UICONTROL Minimum Score Threshold] | Global | La puntuación mínima que identifica una interacción de usuario como un riesgo potencial, donde 1,0 es una interacción de usuario típica y 0,0 es probablemente un bot. Predeterminado: `0.5` |
 | [!UICONTROL Invisible Badge Position] | Global | La posición del distintivo reCAPTCHA invisible en cada página. Opciones: `Inline` / `Bottom Right` / `Bottom Left` |
 | [!UICONTROL Theme] | Global | Determina el estilo del cuadro reCAPTCHA de Google. Opciones: `Light Theme` (predeterminado) / `Dark Theme` |
-| [!UICONTROL Language Code] | Global | A [código de dos caracteres](https://developers.google.com/recaptcha/docs/language) que especifica el idioma que se utiliza para el texto y la mensajería reCAPTCHA de Google. |
+| [!UICONTROL Language Code] | Global | Un [código de dos caracteres](https://developers.google.com/recaptcha/docs/language) que especifica el idioma que se usa para el texto y los mensajes de Google reCAPTCHA. |
 
 {style="table-layout:auto"}
 
@@ -88,7 +88,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--|--|--|
-| [!UICONTROL Enable for Login] | Global | Determina el tipo de reCAPTCHA habilitado para [Inicio de sesión de administrador](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html). Opciones:<br/>**`No`**- (predeterminado) No valida el inicio de sesión del administrador.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Requiere que el usuario seleccione _No soy un robot_ casilla de verificación <br />**`Invisible reCAPTCHA v2`**: valida el comportamiento del usuario en segundo plano sin requerir interacciones en función de la puntuación.<br/>**`Invisible reCAPTCHA v3`** : (recomendado) valida el comportamiento del usuario en segundo plano en función de la puntuación de interacción. |
-| [!UICONTROL Enable for Forgot Password] | Global | Determina el tipo de reCAPTCHA que está habilitado para solicitar una [Restablecimiento de contraseña de administrador](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password). Opciones:<br/>**`No`**- (predeterminado) No valida la solicitud de restablecimiento de contraseña.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Requiere que el usuario seleccione _No soy un robot_ casilla de verificación <br />**`Invisible reCAPTCHA v2`**: valida el comportamiento del usuario en segundo plano sin requerir interacciones en función de la puntuación.<br/>**`Invisible reCaptcha v3`** : (recomendado) valida el comportamiento del usuario en segundo plano en función de la puntuación de interacción. |
+| [!UICONTROL Enable for Login] | Global | Determina el tipo de reCAPTCHA habilitado para [inicio de sesión de administrador](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html). Opciones: <br/>**`No`**- (predeterminado) No valida el inicio de sesión del administrador.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Requiere que el usuario seleccione la casilla de verificación _No soy un robot_.<br />**`Invisible reCAPTCHA v2`**: valida el comportamiento del usuario en segundo plano sin requerir interacciones en función de la puntuación.<br/>**`Invisible reCAPTCHA v3`** - (Recomendado) Valida el comportamiento del usuario en segundo plano según la puntuación de interacción. |
+| [!UICONTROL Enable for Forgot Password] | Global | Determina el tipo de reCAPTCHA que está habilitado para solicitar un [restablecimiento de contraseña de administrador](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password). Opciones: <br/>**`No`**- (predeterminado) No valida la solicitud de restablecimiento de contraseña.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Requiere que el usuario seleccione la casilla de verificación _No soy un robot_.<br />**`Invisible reCAPTCHA v2`**: valida el comportamiento del usuario en segundo plano sin requerir interacciones en función de la puntuación.<br/>**`Invisible reCaptcha v3`** - (Recomendado) Valida el comportamiento del usuario en segundo plano según la puntuación de interacción. |
 
 {style="table-layout:auto"}

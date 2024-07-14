@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Dentro de la implementación de Adobe Commerce o Magento Open Source, la tienda es la parte externa y pública de la tienda. Proporciona el contenido y los componentes funcionales que sus clientes utilizan para realizar compras y realizar compras.
 
-La ruta que los clientes siguen para llegar a una venta a veces se denomina _ruta de compra_ y la tienda incluye los componentes para que los clientes completen esta ruta. Las siguientes secciones ofrecen una descripción general de los tipos de página básicos que proporcionan un valor estratégico: los lugares que los clientes suelen visitar mientras compran en su tienda. A medida que las revise, tenga en cuenta las diferentes funciones de la tienda que se pueden utilizar en cada fase del recorrido del cliente.
+La ruta que toman los clientes a una venta a veces se denomina _ruta de compra_ y la tienda incluye los componentes para que los clientes completen esta ruta. Las siguientes secciones ofrecen una descripción general de los tipos de página básicos que proporcionan un valor estratégico: los lugares que los clientes suelen visitar mientras compran en su tienda. A medida que las revise, tenga en cuenta las diferentes funciones de la tienda que se pueden utilizar en cada fase del recorrido del cliente.
 
 ## Página de inicio
 
@@ -32,17 +32,17 @@ La descripción inicial del producto suele proporcionar a los compradores inform
 
 ## Resultados de búsqueda
 
-¿Sabía que las personas que utilizan la búsqueda tienen casi el doble de probabilidades de realizar una compra que las personas que dependen solo de la navegación? Puede considerar a estos compradores como _preseleccionado_.
+¿Sabía que las personas que utilizan la búsqueda tienen casi el doble de probabilidades de realizar una compra que las personas que dependen solo de la navegación? Puedes considerar a estos compradores como _preseleccionados_.
 
 ### [!DNL Live Search]
 
-Con [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) para Adobe Commerce, su tienda ofrece una experiencia de búsqueda rápida, relevante e intuitiva, y está disponible para Adobe Commerce sin coste adicional.
+Con [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) para Adobe Commerce, tu tienda ofrece una experiencia de búsqueda rápida, relevante e intuitiva, y está disponible para Adobe Commerce sin cargo adicional.
 
-![Ejemplo de Live Search: buscar mientras escribe](./assets/storefront-search-as-you-type.png){width="700"}
+![Ejemplo de Live Search: busca mientras escribes](./assets/storefront-search-as-you-type.png){width="700"}
 
 ### Búsqueda en el catálogo estándar
 
-Con [búsqueda estándar en el catálogo](../catalog/search.md), la tienda incluye un cuadro de búsqueda en la esquina superior derecha y un vínculo a Búsqueda avanzada en el pie de página. Todos los términos de búsqueda que los compradores envían se guardan para que pueda ver exactamente lo que están buscando. Puede ofrecer sugerencias e introducir sinónimos y errores ortográficos comunes. A continuación, muestre una página específica cuando introduzca un término de búsqueda.
+Con [búsqueda estándar en el catálogo](../catalog/search.md), tu tienda incluye un cuadro de búsqueda en la esquina superior derecha y un vínculo a Búsqueda avanzada en el pie de página. Todos los términos de búsqueda que los compradores envían se guardan para que pueda ver exactamente lo que están buscando. Puede ofrecer sugerencias e introducir sinónimos y errores ortográficos comunes. A continuación, muestre una página específica cuando introduzca un término de búsqueda.
 
 ![Ejemplo de resultados de búsqueda en el catálogo estándar](./assets/storefront-search-results-page-full.png){width="700"}
 
@@ -56,7 +56,7 @@ Con [búsqueda estándar en el catálogo](../catalog/search.md), la tienda inclu
 
 El carrito es donde se puede determinar el total del pedido, junto con cupones de descuento y envíos e impuestos estimados, y un buen lugar para mostrar sus distintivos y sellos de confianza. También es una oportunidad ideal para ofrecer un último artículo. Como venta cruzada, puede seleccionar ciertos artículos para ofrecerlos como compra por impulso siempre que aparezca un artículo específico en el carro de compras.
 
-![Ejemplo de página de carro de compras de tienda](./assets/storefront-cart-full.png){width="700"}
+![Ejemplo de página de carro de compras en tienda](./assets/storefront-cart-full.png){width="700"}
 
 ## Página de cierre de compra
 
@@ -65,9 +65,9 @@ El proceso de cierre de compra consta de dos pasos:
 1. Información de envío
 
    El primer paso del proceso de cierre de compra es que el cliente complete la información de la dirección de envío y elija el método de envío. Si el cliente tiene una cuenta, la dirección de envío se introduce automáticamente, pero se puede cambiar si es necesario.
-Si un cliente invitado introduce una dirección de correo electrónico reconocida como registrada anteriormente, se muestra el mensaje de inicio de sesión si la variable [!UICONTROL Enable Guest Checkout Login] el campo de la configuración de tienda se establece en `Yes` (consulte [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) en el _Guía de referencia de configuración_). Sin embargo, esta configuración puede exponer la información del cliente a usuarios no autenticados.
+Si un cliente invitado escribe una dirección de correo electrónico que se reconoce como registrada anteriormente, se mostrará el mensaje de inicio de sesión si el campo [!UICONTROL Enable Guest Checkout Login] de la configuración del almacén está establecido en `Yes` (consulte [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) en la _Guía de referencia de configuración_). Sin embargo, esta configuración puede exponer la información del cliente a usuarios no autenticados.
 
-   ![Ejemplo de página de cierre de tienda](./assets/storefront-checkout-shipping-full.png){width="700"}
+   ![Ejemplo de página de cierre de compra de tienda](./assets/storefront-checkout-shipping-full.png){width="700"}
 
 1. Revisar e información de pago
 
@@ -75,11 +75,11 @@ Si un cliente invitado introduce una dirección de correo electrónico reconocid
 
    >[!NOTE]
    >
-   >Aunque [!DNL Commerce] permite configurar varios códigos de cupones, ya que los clientes solo pueden aplicar un código de cupón al carro de compras. (Consulte la [Códigos de cupón](../merchandising-promotions/price-rules-cart-coupon.md#coupon-codes) para obtener más información).
+   >Aunque [!DNL Commerce] permite configurar varios códigos de cupones, un cliente puede aplicar únicamente un código de cupón al carro de compras. (Consulte [Códigos de cupón](../merchandising-promotions/price-rules-cart-coupon.md#coupon-codes) para obtener más información).
 
-   ![Ejemplo de página de cierre de tienda](./assets/storefront-checkout-payment-full.png){width="700"}
+   ![Ejemplo de página de cierre de compra de tienda](./assets/storefront-checkout-payment-full.png){width="700"}
 
-La barra de progreso de la parte superior de la página sigue cada paso del proceso de cierre de compra y la barra de _Resumen de pedidos_ muestra la información introducida hasta este punto.
+La barra de progreso situada en la parte superior de la página sigue cada paso del proceso de cierre de compra y _Resumen de pedidos_ muestra la información que se ha introducido hasta este momento.
 
 >[!NOTE]
 >

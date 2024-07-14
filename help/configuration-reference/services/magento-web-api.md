@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Services] &gt; [!UICONTROL Magento Web API]'
-description: Revise la configuración de en [!UICONTROL Services] &gt; [!UICONTROL Magento Web API] de la administración de Commerce.
+description: Revise la configuración en la página [!UICONTROL Services] &gt; [!UICONTROL Magento Web API] del administrador de Commerce.
 exl-id: 9e9857e7-6f5c-4273-9e82-c861e627827a
 feature: Configuration, Integration
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '327'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ## [!UICONTROL SOAP Settings]
 
-![Configuración de SOAP](./assets/web-api-soap-settings.png)<!-- zoom -->
+SOAP ![Configuración de la](./assets/web-api-soap-settings.png)<!-- zoom -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Web Api Input Limits]
 
-![Límites de entrada de API web](./assets/web-api-input-limits.png)<!-- zoom -->
+![Límites de entrada de Web Api](./assets/web-api-input-limits.png)<!-- zoom -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Allow Anonymous Guest Access] | Global | Determina si los invitados pueden acceder de forma anónima a los recursos de CMS, catálogos y tiendas desde las API de SOAP y REST. De forma predeterminada, no se permite el acceso anónimo de invitados. Opciones: `Yes` / `No` |
+| [!UICONTROL Allow Anonymous Guest Access] | Global | SOAP Determina si los invitados pueden acceder de forma anónima a los recursos de CMS, catálogos y tiendas desde las API de REST y de la API de. De forma predeterminada, no se permite el acceso anónimo de invitados. Opciones: `Yes` / `No` |
 
 {style="table-layout:auto"}
 

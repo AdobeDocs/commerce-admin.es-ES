@@ -14,35 +14,35 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Cada tarjeta regalo tiene un código único, que solo un cliente puede canjear durante el pago. A [grupo de códigos](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool) debe establecerse antes de poder vender tarjetas de regalo. Consulte [Flujo de trabajo de tarjeta regalo](../stores-purchase/product-gift-card-workflow.md) para obtener información sobre cómo se canjean las tarjetas regalo en el carro de compras.
+Cada tarjeta regalo tiene un código único, que solo un cliente puede canjear durante el pago. Se debe establecer un grupo de [códigos](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool) para poder vender tarjetas regalo. Consulte [Flujo de trabajo de tarjetas de regalo](../stores-purchase/product-gift-card-workflow.md) para obtener información sobre cómo se canjean las tarjetas de regalo en el carro de compras.
 
 ![Página de productos de tarjeta regalo](./assets/storefront-giftcard-product-page.png){width="700" zoomable="yes"}
 
 Hay tres tipos de productos de tarjeta de regalo:
 
-- **Virtual** - Se envía una tarjeta regalo virtual a la dirección de correo electrónico del destinatario, que es necesaria durante la compra de la tarjeta regalo. No es necesaria una dirección de envío.
+- **Virtual**: se envía una tarjeta regalo virtual a la dirección de correo electrónico del destinatario, que es necesaria durante la compra de la tarjeta regalo. No es necesaria una dirección de envío.
 
-- **Físico** - Se envía una tarjeta de regalo física a la dirección del destinatario, que es necesaria durante la compra de la tarjeta de regalo.
+- **Físico**: se envía una tarjeta de regalo física a la dirección del destinatario, que es necesaria durante la compra de la tarjeta de regalo.
 
-- **Combinado** - Se envía una tarjeta regalo combinada y se envía por correo electrónico al destinatario. El correo electrónico y la dirección de envío del destinatario son obligatorios durante la compra de la tarjeta regalo.
+- **Combinado**: se envía una tarjeta regalo combinada y se envía por correo electrónico al destinatario. El correo electrónico y la dirección de envío del destinatario son obligatorios durante la compra de la tarjeta regalo.
 
 ## Crear un producto de tarjeta regalo
 
-Las siguientes instrucciones muestran el proceso de creación de una tarjeta regalo mediante una [plantilla de producto](attribute-sets.md), campos obligatorios y configuración básica. Cada campo obligatorio está marcado con un asterisco rojo (`*`). Cuando termine los conceptos básicos, puede completar el resto de la configuración del producto según sea necesario.
+Las siguientes instrucciones muestran el proceso de creación de una tarjeta regalo mediante una [plantilla de producto](attribute-sets.md), los campos obligatorios y la configuración básica. Cada campo obligatorio está marcado con un asterisco rojo (`*`). Cuando termine los conceptos básicos, puede completar el resto de la configuración del producto según sea necesario.
 
 ### Paso 1: Elija el tipo de producto
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. En la esquina superior derecha de la _[!UICONTROL Add Product]_( ![Flecha de menú](../assets/icon-menu-down-arrow-red.png){width="25"}  ), seleccione **[!UICONTROL Gift Card]**.
+1. En la esquina superior derecha de _[!UICONTROL Add Product]_( ![Flecha del menú](../assets/icon-menu-down-arrow-red.png){width="25"}  ), seleccione **[!UICONTROL Gift Card]**.
 
-   ![Añadir tarjeta regalo](./assets/product-add-gift-card.png){width="700" zoomable="yes"}
+   ![Agregar tarjeta regalo](./assets/product-add-gift-card.png){width="700" zoomable="yes"}
 
 ### Paso 2: Selección del conjunto de atributos
 
-Puede usar el valor predeterminado `Gift Card` establezca un atributo o elija otro. Para elegir el conjunto de atributos que se utiliza como plantilla para el producto, realice una de las siguientes acciones:
+Puede usar el conjunto de atributos predeterminado `Gift Card` o elegir otro. Para elegir el conjunto de atributos que se utiliza como plantilla para el producto, realice una de las siguientes acciones:
 
-- Haga clic en en **[!UICONTROL Attribute Set]** e introduzca todo o parte del nombre del conjunto de atributos.
+- Haga clic en el campo **[!UICONTROL Attribute Set]** e introduzca todo o parte del nombre del conjunto de atributos.
 
 - En la lista mostrada, elija el conjunto de atributos que desea utilizar.
 
@@ -50,31 +50,31 @@ Puede usar el valor predeterminado `Gift Card` establezca un atributo o elija ot
 
 ### Paso 3: complete la configuración necesaria
 
-1. Introduzca una **[!UICONTROL Product Name]** para la tarjeta regalo.
+1. Escriba un **[!UICONTROL Product Name]** para la tarjeta regalo.
 
-   También puede indicar el tipo de tarjeta regalo en el nombre. Por ejemplo, _Tarjeta de regalo virtual de Luma_.
+   También puede indicar el tipo de tarjeta regalo en el nombre. Por ejemplo, _tarjeta de regalo virtual de Luma_.
 
-1. Introduzca una **[!UICONTROL SKU]** para el producto.
+1. Escriba un **[!UICONTROL SKU]** para el producto.
 
    De forma predeterminada, el Nombre del producto se utiliza como SKU predeterminado.
 
-1. Establecer **[!UICONTROL Card Type]** a uno de los siguientes:
+1. Establezca **[!UICONTROL Card Type]** en una de las siguientes opciones:
 
-   - `Virtual` - Las tarjetas de regalo virtuales se entregan por correo electrónico al destinatario.
-   - `Physical` - Las tarjetas de regalo físicas pueden ser producidas en masa por adelantado y en relieve con códigos únicos.
-   - `Combined` - Una tarjeta de regalo combinada tiene las características de una tarjeta de regalo virtual y física.
+   - `Virtual`: las tarjetas de regalo virtuales se entregan por correo electrónico al destinatario.
+   - `Physical`: las tarjetas de regalo físicas se pueden producir en masa por adelantado y grabar con códigos únicos.
+   - `Combined` - Una tarjeta de regalo combinada tiene las características de una tarjeta de regalo física y virtual.
 
    ![Tipo de tarjeta regalo](./assets/product-create-gift-card-type.png){width="600" zoomable="yes"}
 
-1. Para ofrecer al cliente una opción de importes fijos, haga clic en **[!UICONTROL Add Amount]** e introduzca el primer valor fijo de la tarjeta como decimal.
+1. Para ofrecer al cliente una opción de cantidades fijas, haga clic en **[!UICONTROL Add Amount]** e introduzca el primer valor fijo de la tarjeta como decimal.
 
    Para introducir la selección de importes fijos, repita este paso para cada uno.
 
 1. Para ofrecer a los clientes la posibilidad de establecer el valor de la tarjeta regalo, haga lo siguiente:
 
-   - Establecer **[!UICONTROL Open Amount]** hasta `Yes`.
+   - Establezca **[!UICONTROL Open Amount]** en `Yes`.
 
-   - Para definir el rango de valores mínimos y máximos aceptables, introduzca la variable **[!UICONTROL Open Amount From]** y **[!UICONTROL To]** valores.
+   - Para definir el intervalo de valores mínimos y máximos aceptables, escriba los valores **[!UICONTROL Open Amount From]** y **[!UICONTROL To]**.
 
    Puede crear tarjetas regalo con precios fijos, precios de cantidad abierta o ambos.
 
@@ -86,19 +86,19 @@ Puede usar el valor predeterminado `Gift Card` establezca un atributo o elija ot
 
 ### Paso 4: completar la configuración básica
 
-1. Para una tarjeta regalo física o combinada, ingrese el **[!UICONTROL Quantity]** en stock.
+1. Para una tarjeta regalo física o combinada, ingrese **[!UICONTROL Quantity]** en existencia.
 
-1. Si la tarjeta regalo que se va a enviar, introduzca la **[!UICONTROL Weight]** del paquete.
+1. Si la tarjeta regalo que se va a enviar, escriba el **[!UICONTROL Weight]** del paquete.
 
-1. En el **[!UICONTROL Categories]** , elija `Gift Card`.
+1. En el campo **[!UICONTROL Categories]**, elija `Gift Card`.
 
 Puede haber atributos individuales adicionales que describan el producto. La selección varía según el conjunto de atributos y puede completarlos más adelante.
 
 ### Paso 5: Completar la información de la tarjeta regalo
 
-El _[!UICONTROL Gift Card Information]_de la configuración del producto se puede utilizar para anular la [configuración de tarjeta regalo](../configuration-reference/sales/gift-cards.md) configuración que determina cómo se administra la tarjeta.
+La sección _[!UICONTROL Gift Card Information]_de la configuración del producto se puede usar para anular la configuración de la tarjeta regalo [que determina cómo se administra la tarjeta.](../configuration-reference/sales/gift-cards.md)
 
-1. Desplácese hacia abajo hasta el _[!UICONTROL Gift Card Information]_sección.
+1. Vaya a la sección _[!UICONTROL Gift Card Information]_.
 
    La configuración predeterminada de esta sección viene determinada por la configuración del sistema.
 
@@ -106,13 +106,13 @@ El _[!UICONTROL Gift Card Information]_de la configuración del producto se pued
 
 1. Cambie los campos adicionales según cómo desee que funcione la tarjeta regalo:
 
-   - **[!UICONTROL Treat Balance as Store Credit]** - Determina si el titular de la tarjeta regalo puede canjear el saldo como crédito de la tienda.
+   - **[!UICONTROL Treat Balance as Store Credit]**: determina si el titular de la tarjeta regalo puede canjear el saldo como crédito de la tienda.
 
-   - **[!UICONTROL Lifetime (days)]** - Determina el número de días después de la compra hasta que caduque la tarjeta regalo. Si no desea establecer un límite para la duración de la tarjeta, deje este campo en blanco.
+   - **[!UICONTROL Lifetime (days)]**: determina el número de días después de la compra hasta que caduca la tarjeta regalo. Si no desea establecer un límite para la duración de la tarjeta, deje este campo en blanco.
 
-   - **[!UICONTROL Allow Message]** - Determina si el comprador de la tarjeta regalo puede introducir un mensaje para el destinatario. Se puede incluir un mensaje de regalo para tarjetas de regalo virtuales (por correo electrónico) y físicas (enviadas).
+   - **[!UICONTROL Allow Message]**: determina si el comprador de la tarjeta regalo puede escribir un mensaje para el destinatario. Se puede incluir un mensaje de regalo para tarjetas de regalo virtuales (por correo electrónico) y físicas (enviadas).
 
-   - **[!UICONTROL Email Template]** : Determina la plantilla de correo electrónico que se utiliza para la notificación enviada al destinatario de una tarjeta de regalo.
+   - **[!UICONTROL Email Template]**: determina la plantilla de correo electrónico que se utiliza para la notificación enviada al destinatario de una tarjeta regalo.
 
 ### Paso 6: Completar la información del producto
 
@@ -127,9 +127,9 @@ Rellene la información de las secciones siguientes según sea necesario:
 - [Diseño](settings-advanced-design.md)
 - [Opciones de regalo](product-gift-options.md)
 
-### Paso 7: Publicar el producto
+### Paso 7: Publish del producto
 
-1. Si está listo para publicar el producto en el catálogo, configure el **Activar producto** cambiar a `Yes`.
+1. Si está listo para publicar el producto en el catálogo, establezca el conmutador **Habilitar producto** en `Yes`.
 
 1. Realice una de las siguientes acciones:
 
@@ -137,21 +137,21 @@ Rellene la información de las secciones siguientes según sea necesario:
 
    - En la esquina superior derecha, haga clic en **[!UICONTROL Save]**.
 
-   - Para ver el producto en tu tienda, elige **[!UICONTROL Customer View]** en el _Administrador_ ( ![Flecha de menú](../assets/icon-menu-down-arrow-black.png) ) menú,
+   - Para ver el producto en tu tienda, elige **[!UICONTROL Customer View]** en el menú _Administrador_ ( ![Flecha del menú](../assets/icon-menu-down-arrow-black.png) ),
 
-   ![Vista de cliente](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
+   ![Vista del cliente](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
    **Método 2:** Guardar y cerrar
 
-   En el _[!UICONTROL Save]_( ![Flecha de menú](../assets/icon-menu-down-arrow-red.png){width="25"} ), seleccione **[!UICONTROL Save & Close]**.
+   En el menú _[!UICONTROL Save]_( ![flecha de menú](../assets/icon-menu-down-arrow-red.png){width="25"} ), elija **[!UICONTROL Save & Close]**.
 
 ## Cosas que recordar
 
-- A _grupo de códigos_ Antes de poder ofrecer una tarjeta regalo para la venta, es necesario generar una lista de números únicos.
+- Se debe generar un _grupo de códigos_ de números únicos antes de poder ofrecer una tarjeta regalo para la venta.
 
-- Las tarjetas regalo se pueden configurar en `Redeemable` o `Non-Redeemable`.
+- Las tarjetas de regalo se pueden establecer en `Redeemable` o `Non-Redeemable`.
 
-- Los impuestos son **_no aplicado_** a las tarjetas regalo durante la compra de la tarjeta regalo. Los impuestos se aplican a los productos solo cuando se utiliza una tarjeta de regalo comprada para comprar productos.
+- Los impuestos **_no se aplican_** a las tarjetas regalo durante la compra de la tarjeta regalo. Los impuestos se aplican a los productos solo cuando se utiliza una tarjeta de regalo comprada para comprar productos.
 
 - La duración de una tarjeta regalo puede ser ilimitada o fijarse en un número determinado de días.
 

@@ -5,7 +5,7 @@ exl-id: d618c769-10be-4881-a799-42484d35c57b
 feature: Gift, Storefront
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,17 @@ Se puede crear un registro de regalos para cualquier tipo de evento, como una bo
 
 Al crear un Registro, éste se convierte en una opción de la lista de tipos de Registro de regalos de la cuenta del cliente.
 
-Puede utilizar uno de los tres registros de regalos preparados o crear su propio registro personalizado. Cada tipo de registro de regalos incluye varios atributos, que son los campos de entrada de datos que un cliente completa para crear un registro de regalos. Los atributos proporcionan información adicional sobre el evento, la hora y la ubicación, o cualquier otra información que sea necesaria. Según el tipo de entrada, algunos atributos tienen varias opciones. Por ejemplo, la variable `Wedding` el tipo de registro de regalos tiene el atributo `Role`, con el `Bride`, `Groom`, y `Partner` opciones. Para obtener más información sobre los atributos y los tipos de entrada, consulte [Atributos](../customers/attribute-properties.md).
+Puede utilizar uno de los tres registros de regalos preparados o crear su propio registro personalizado. Cada tipo de registro de regalos incluye varios atributos, que son los campos de entrada de datos que un cliente completa para crear un registro de regalos. Los atributos proporcionan información adicional sobre el evento, la hora y la ubicación, o cualquier otra información que sea necesaria. Según el tipo de entrada, algunos atributos tienen varias opciones. Por ejemplo, el tipo de registro de regalos `Wedding` tiene el atributo `Role`, con las opciones `Bride`, `Groom` y `Partner`. Para obtener más información acerca de los atributos y los tipos de entrada, vea [Atributos](../customers/attribute-properties.md).
 
 ![Tipos de registro de regalos](./assets/gift-registry-types.png){width="700" zoomable="yes"}
 
 ## Utilizar un registro de regalos preparado
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Registry]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Registry]**.
 
    Los registros de cumpleaños, bodas y bebés están listos para que los clientes los usen desde sus cuentas.
 
-1. Asegúrese de completar la [configuración de plantilla de correo electrónico](../systems/email-templates.md#configure-email-templates), para que reflejen su marca.
+1. Asegúrese de completar la [configuración de la plantilla de correo electrónico](../systems/email-templates.md#configure-email-templates) para que refleje su marca.
 
 ## Crear un registro de regalos personalizado
 
@@ -42,7 +42,7 @@ Puede utilizar uno de los tres registros de regalos preparados o crear su propio
 
 1. En **[!UICONTROL General Information]**, complete lo siguiente:
 
-   - Introduzca un único **[!UICONTROL Code]** para identificar internamente el registro de regalos.
+   - Escriba un único **[!UICONTROL Code]** para identificar internamente el registro de regalos.
 
      El código debe comenzar con una letra minúscula. El resto del código puede ser cualquier combinación de letras minúsculas (a-z), números (0-9) y guiones bajos (`_`).
 
@@ -50,9 +50,9 @@ Puede utilizar uno de los tres registros de regalos preparados o crear su propio
 
      Esta etiqueta es una opción de la lista de tipos de registro de regalos que están disponibles para el cliente.
 
-   - Para **[!UICONTROL Sort Order]**, introduzca un número para determinar el orden en que aparece este registro de regalos cuando se enumera con otros tipos.
+   - Para **[!UICONTROL Sort Order]**, escriba un número para determinar el orden en que aparece este registro de regalos cuando se enumera con otros tipos.
 
-   - Para activar el registro de regalos, establezca **[!UICONTROL Is Listed]** hasta `Yes`.
+   - Para activar el registro de regalos, establezca **[!UICONTROL Is Listed]** en `Yes`.
 
      ![Registro de regalos - información general](./assets/gift-registry-new-general-information.png){width="600" zoomable="yes"}
 
@@ -64,27 +64,27 @@ Puede utilizar uno de los tres registros de regalos preparados o crear su propio
 
 1. Para cada atributo, haga lo siguiente:
 
-   - Asignar un único **[!UICONTROL Code]** para identificar el atributo internamente. El código puede tener hasta 15 caracteres de longitud y debe comenzar con una letra minúscula. El resto del código puede incluir letras minúsculas (`a`-`z`), números (`0`-`9`) y el guion bajo (`_`) para separar las palabras.
+   - Asigne un(a) **[!UICONTROL Code]** único(a) para identificar el atributo internamente. El código puede tener hasta 15 caracteres de longitud y debe comenzar con una letra minúscula. El resto del código puede incluir letras minúsculas (`a`-`z`), números (`0`-`9`) y el carácter de subrayado (`_`) para separar palabras.
 
-   - Elija la **[!UICONTROL Input Type]** para la entrada de datos. Puede utilizar uno de los tipos personalizados o estáticos.
+   - Elija **[!UICONTROL Input Type]** que se usará para la entrada de datos. Puede utilizar uno de los tipos personalizados o estáticos.
 
    - Si el tipo de entrada tiene varias opciones, haga clic en **[!UICONTROL Add New Option]** y complete la información de cada opción.
 
      Algunos tipos de entrada tienen propiedades adicionales. Por ejemplo, la Ubicación del evento tiene propiedades adicionales para que el evento pueda buscarse e incluirse en la lista pública de registros de regalos de la tienda.
 
-      - Establecer **[!UICONTROL Attribute Group]** a la sección del registro de regalos en la que desea que aparezca el atributo.
+      - Establezca **[!UICONTROL Attribute Group]** en la sección del registro de regalos en la que desea que aparezca el atributo.
 
-      - Para **[!UICONTROL Label]**, introduzca un nombre para identificar el campo de entrada de datos en el registro.
+      - Para **[!UICONTROL Label]**, escriba un nombre para identificar el campo de entrada de datos en el Registro.
 
-      - Si el cliente debe realizar una selección o introducir un valor en el campo, establezca **[!UICONTROL Is Required]** hasta `Yes`.
+      - Si el cliente debe realizar una selección o escribir un valor en el campo, establezca **[!UICONTROL Is Required]** en `Yes`.
 
-      - Para **[!UICONTROL Sort Order]**, introduzca un número para determinar la secuencia en la que aparece este registro de regalos cuando se enumera con otros registros de regalos que puedan estar disponibles en la tienda.
+      - Para **[!UICONTROL Sort Order]**, escriba un número para determinar la secuencia en la que aparece este registro de regalos cuando se enumera con otros registros de regalos que pueden estar disponibles en la tienda.
 
-1. Para añadir otra opción, haga clic en **Añadir nueva opción**.
+1. Para agregar otra opción, haga clic en **Agregar nueva opción**.
 
    Cada nueva opción añadida aparece en una nueva sección de la parte superior. Repita este proceso para el nuevo atributo.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
 
 ## Descripciones de campos
 
@@ -121,9 +121,9 @@ Seleccione el tipo de datos y el control de entrada asociado al atributo.
 | Campo | Descripción |
 |--- |--- |
 | [!UICONTROL Text] | Muestra el atributo como un campo de texto. |
-| [!UICONTROL Select] | Muestra el atributo como una lista desplegable. Clic **[!UICONTROL Add New Option]** para agregar más condiciones a la lista desplegable:<br/>**[!UICONTROL Code]**: Un nombre único para identificar el atributo internamente.<br/>**[!UICONTROL Label]** : Nombre que identifica el atributo en el panel de cuentas del cliente.<br/>**[!UICONTROL Is Default]**- Configure este conmutador para seleccionar la condición predeterminada.<br/>**[!UICONTROL Delete Option]** : haga clic en para eliminar la opción. |
+| [!UICONTROL Select] | Muestra el atributo como una lista desplegable. Haga clic en **[!UICONTROL Add New Option]** para agregar más condiciones a la lista desplegable: <br/>**[!UICONTROL Code]**- Un nombre único para identificar el atributo internamente.<br/>**[!UICONTROL Label]**: nombre que identifica el atributo en el panel de cuentas del cliente.<br/>**[!UICONTROL Is Default]**: configure este modificador para seleccionar la condición predeterminada.<br/>**[!UICONTROL Delete Option]** - Haga clic para eliminar la opción. |
 | [!UICONTROL Date] | Muestra el atributo como un campo de fecha. Opciones: `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
-| [!UICONTROL Country] | Muestra el atributo como una lista desplegable de países. Establecer **[!UICONTROL Show Region]** hasta: `Yes` / `No`. |
+| [!UICONTROL Country] | Muestra el atributo como una lista desplegable de países. Establezca **[!UICONTROL Show Region]** en: `Yes` / `No`. |
 
 {style="table-layout:auto"}
 
@@ -131,10 +131,10 @@ Seleccione el tipo de datos y el control de entrada asociado al atributo.
 
 | Campo | Descripción |
 |--- |--- |
-| [!UICONTROL Event Date] | Determina cómo se utiliza el atributo de fecha en el almacén. Opciones: <br/>**[!UICONTROL Searchable]**: Determina si el atributo está disponible para la búsqueda avanzada. Opciones: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** : Determina si el evento se incluye en la lista de eventos disponibles en la tienda. Opciones: `Yes` / `No`. <br/>**[!UICONTROL Date Format]**- Determina el formato de la fecha del evento. Opciones: `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
-| [!UICONTROL Event Country] | Muestra el atributo como una lista de países. Opciones: <br/>**[!UICONTROL Searchable]**: Determina si el atributo está disponible para la búsqueda avanzada. Opciones: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** : Determina si el evento se incluye en la lista de eventos disponibles en la tienda. Opciones: `Yes` / `No`. <br/>**[!UICONTROL Show Region]**: Determina la región del evento. |
-| [!UICONTROL Event Location] | La ubicación del evento relacionado con el registro de regalos. <br/>Establecer **[!UICONTROL Is Searcheable]** hasta: `Yes` / `No` <br/>Establecer **[!UICONTROL Is Listed]** hasta: `Yes` / `No` |
-| [!UICONTROL Role] | La función que identifica al destinatario del regalo. Por ejemplo, `Bride`, `Groom`, o `Partner`.<br/>**[!UICONTROL Is Searcheable]**- Configurado como `Yes`/ `No`<br/>** Está en la lista **- Configurado como `Yes` / `No`<br/>**[!UICONTROL Add New Option]** - Haga clic en para añadir más condiciones al menú desplegable:<br/>**Código** : Un nombre único para identificar el atributo internamente.<br/>**[!UICONTROL Label]**: Nombre que identifica el atributo en el panel de cuentas del cliente.<br/>**[!UICONTROL Is Default]** - Configure este conmutador para seleccionar la condición predeterminada.<br/>**[!UICONTROL Delete Option]**: haga clic en para eliminar la opción. |
+| [!UICONTROL Event Date] | Determina cómo se utiliza el atributo de fecha en el almacén. Opciones: <br/>**[!UICONTROL Searchable]**- Determina si el atributo está disponible para la búsqueda avanzada. Opciones: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]**: determina si el evento se incluye en la lista de eventos disponibles en el almacén. Opciones: `Yes` / `No`. <br/>**[!UICONTROL Date Format]**: determina el formato de la fecha del evento. Opciones: `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
+| [!UICONTROL Event Country] | Muestra el atributo como una lista de países. Opciones: <br/>**[!UICONTROL Searchable]**- Determina si el atributo está disponible para la búsqueda avanzada. Opciones: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]**: determina si el evento se incluye en la lista de eventos disponibles en el almacén. Opciones: `Yes` / `No`. <br/>**[!UICONTROL Show Region]**: determina la región del evento. |
+| [!UICONTROL Event Location] | La ubicación del evento relacionado con el registro de regalos. <br/>Establecer **[!UICONTROL Is Searcheable]** en: `Yes` / `No` <br/>Establecer **[!UICONTROL Is Listed]** en: `Yes` / `No` |
+| [!UICONTROL Role] | La función que identifica al destinatario del regalo. Por ejemplo, `Bride`, `Groom` o `Partner`.<br/>**[!UICONTROL Is Searcheable]**- Establecido en `Yes`/ `No`<br/>** Está en la lista **- Establecido en `Yes` / `No`<br/>**[!UICONTROL Add New Option]** - Haga clic para agregar más condiciones al menú desplegable:<br/>**Código** - Un nombre único para identificar el atributo internamente.<br/>**[!UICONTROL Label]**: nombre que identifica el atributo en el panel de cuentas del cliente.<br/>**[!UICONTROL Is Default]**: configure este modificador para seleccionar la condición predeterminada.<br/>**[!UICONTROL Delete Option]**- Haga clic para eliminar la opción. |
 
 {style="table-layout:auto"}
 

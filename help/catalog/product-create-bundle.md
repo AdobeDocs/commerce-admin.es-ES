@@ -12,12 +12,12 @@ ht-degree: 0%
 
 # Paquete de productos
 
-Un paquete es un _construya su propio_, producto personalizable. Cada elemento de un paquete se puede basar en uno de los siguientes tipos de productos:
+Un paquete es un _producto personalizable_ que puedes crear tú mismo. Cada elemento de un paquete se puede basar en uno de los siguientes tipos de productos:
 
 - [Producto sencillo](product-create-simple.md)
 - [Producto virtual](product-create-virtual.md)
 
-![Paquete de productos](./assets/product-bundle.png){width="700" zoomable="yes"}
+![Producto en paquete](./assets/product-bundle.png){width="700" zoomable="yes"}
 
 Las opciones aparecen cuando el cliente hace clic en **[!UICONTROL Customize]** o **[!UICONTROL Add to Cart]**. Dado que los productos incluidos en el paquete varían, el SKU, el precio y el peso se pueden establecer en un valor dinámico o fijo.
 
@@ -29,25 +29,25 @@ Las opciones aparecen cuando el cliente hace clic en **[!UICONTROL Customize]** 
 >
 >El producto del paquete principal siempre se muestra como un producto de mejora de ventas para todos sus productos secundarios automáticamente.
 
-If [Compra instantánea](../stores-purchase/checkout-instant-purchase.md) está disponible, la variable _Compra instantánea_ aparece debajo de _Añadir al carro_ para cada elemento del paquete.
+Si [Compra instantánea](../stores-purchase/checkout-instant-purchase.md) está disponible, el botón _Compra instantánea_ aparece debajo del botón _Agregar al carro_ para cada elemento del paquete.
 
 ![Personalizar paquete](./assets/product-bundle-customize.png){width="600" zoomable="yes"}
 
-Las siguientes instrucciones le guían a través del proceso de creación de un producto agrupado mediante una [plantilla de producto](attribute-sets.md), campos obligatorios y configuración básica. Cada campo obligatorio está marcado con un asterisco rojo (`*`). Cuando termine los conceptos básicos, puede completar el resto de la configuración del producto según sea necesario.
+Las siguientes instrucciones lo guían a través del proceso de creación de un paquete de productos usando una [plantilla de producto](attribute-sets.md), campos obligatorios y configuración básica. Cada campo obligatorio está marcado con un asterisco rojo (`*`). Cuando termine los conceptos básicos, puede completar el resto de la configuración del producto según sea necesario.
 
 ## Paso 1: Elija el tipo de producto
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. En la esquina superior derecha de la _[!UICONTROL Add Product]_( ![Flecha de menú](../assets/icon-menu-down-arrow-red.png){width="25"} ), seleccione **[!UICONTROL Bundle Product]**.
+1. En la esquina superior derecha del menú _[!UICONTROL Add Product]_( ![Flecha del menú](../assets/icon-menu-down-arrow-red.png){width="25"} ), elija **[!UICONTROL Bundle Product]**.
 
-   ![Añadir producto del paquete](./assets/product-add-bundle.png){width="700" zoomable="yes"}
+   ![Agregar producto del paquete](./assets/product-add-bundle.png){width="700" zoomable="yes"}
 
 ## Paso 2: Selección del conjunto de atributos
 
-Para elegir el [conjunto de atributos](attribute-sets.md) que se utiliza como plantilla para el producto, realice una de las siguientes acciones:
+Para elegir el [conjunto de atributos](attribute-sets.md) que se usa como plantilla para el producto, siga uno de estos procedimientos:
 
-- Para **[!UICONTROL Search]**, introduzca el nombre del conjunto de atributos,
+- Para **[!UICONTROL Search]**, escriba el nombre del conjunto de atributos,
 - En la lista, elija el conjunto de atributos que desea utilizar.
 
 El formulario se actualiza para reflejar el cambio.
@@ -56,66 +56,66 @@ El formulario se actualiza para reflejar el cambio.
 
 ## Paso 3: complete la configuración necesaria
 
-1. Introduzca el producto **[!UICONTROL Product Name]**.
+1. Escriba el producto **[!UICONTROL Product Name]**.
 
-1. Acepte el valor predeterminado **[!UICONTROL SKU]** que se basa en el nombre del producto o introduzca un valor diferente.
+1. Acepte el valor predeterminado **[!UICONTROL SKU]** basado en el nombre del producto o escriba un valor diferente.
 
    Para determinar el tipo de SKU asignado a cada elemento del paquete, haga lo siguiente:
 
-   - A **[!UICONTROL Dynamic SKU]** se puede asignar automáticamente a cada elemento del paquete añadiendo un sufijo al SKU predeterminado. De forma predeterminada, se establece en `Yes`.
+   - Se puede asignar automáticamente un **[!UICONTROL Dynamic SKU]** a cada elemento del paquete agregando un sufijo al SKU predeterminado. De manera predeterminada, se establece en `Yes`.
 
-   - Si prefiere asignar un SKU único para cada elemento del paquete, establezca **[!UICONTROL Dynamic SKU]** hasta `No`.
+   - Si prefiere asignar un SKU único para cada elemento del paquete, establezca **[!UICONTROL Dynamic SKU]** en `No`.
 
    ![SKU dinámico y precio](./assets/product-bundle-manual-sku.png){width="600" zoomable="yes"}
 
 1. Para determinar el precio del paquete, realice una de las siguientes acciones:
 
-   - Para que el precio refleje las opciones elegidas por el cliente, establezca **[!UICONTROL Dynamic Price]** hasta `Yes` y salir **[!UICONTROL Price]** en blanco. En este caso, un producto agrupado no tiene su propio precio del catálogo y el precio del producto se deriva del precio de los productos individuales incluidos en el agrupamiento.
+   - Para que el precio refleje las opciones elegidas por el cliente, establezca **[!UICONTROL Dynamic Price]** en `Yes` y deje **[!UICONTROL Price]** en blanco. En este caso, un producto agrupado no tiene su propio precio del catálogo y el precio del producto se deriva del precio de los productos individuales incluidos en el agrupamiento.
 
-   - Para cargar un precio fijo por el paquete, establezca **[!UICONTROL Dynamic Price]** hasta `No` e introduzca la variable **[!UICONTROL Price]** que desea cobrar por el paquete.
+   - Para cargar un precio fijo para el paquete, establezca **[!UICONTROL Dynamic Price]** en `No` e introduzca el **[!UICONTROL Price]** que desea cargar para el paquete.
 
    >[!NOTE]
    >
-   >[!UICONTROL Special Price] y [!UICONTROL Customer Group Price] (Precio de nivel) siempre se establecen como porcentaje de descuento para todos los tipos de productos de paquete.
+   >[!UICONTROL Special Price] y [!UICONTROL Customer Group Price] (Precio de nivel) siempre se establecen como porcentaje de descuento para todos los tipos de productos de paquetes.
 
-1. Como el producto aún no está listo para publicar, establezca **[!UICONTROL Enable Product]** hasta `No`.
+1. Dado que el producto aún no está listo para publicarse, establezca **[!UICONTROL Enable Product]** en `No`.
 
-1. Clic **[!UICONTROL Save]** y continuar.
+1. Haga clic en **[!UICONTROL Save]** y continúe.
 
-   Cuando se guarda el producto, la variable [Vista de tienda](introduction.md#product-scope) el selector aparece en la esquina superior izquierda.
+   Cuando se guarda el producto, aparece el selector [Vista de tienda](introduction.md#product-scope) en la esquina superior izquierda.
 
-1. Elija la **[!UICONTROL Store View]** donde vaya a estar disponible el producto.
+1. Elija el **[!UICONTROL Store View]** en el que el producto estará disponible.
 
    ![Elegir vista de tienda](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ## Paso 4: completar la configuración básica
 
-1. Si el paquete tiene Precios fijos, establezca **[!UICONTROL Tax Class]** a uno de los siguientes:
+1. Si el paquete tiene precios fijos, establezca **[!UICONTROL Tax Class]** en uno de los siguientes:
 
    - `None`
    - `Taxable Goods`
 
-   Si el paquete tiene Asignación de Precios Dinámica, el impuesto se determina para **_cada_** artículo agrupado. Si el paquete tiene Precios fijos, el impuesto se determina para la variable **_entero_** paquete de producto.
+   Si el paquete tiene precios dinámicos, el impuesto se determina para **_cada_** artículo del paquete. Si el paquete tiene Precio fijo, el impuesto se determina para el paquete **_entero_**.
 
 1. Tome nota de lo siguiente:
 
-   - El **[!UICONTROL Quantity]** no está disponible porque el valor se determina para cada elemento del paquete.
+   - **[!UICONTROL Quantity]** no está disponible porque el valor se determina para cada elemento del paquete.
 
-   - De forma predeterminada, la variable **[!UICONTROL Stock Status]** se establece en `In Stock`.
+   - De manera predeterminada, **[!UICONTROL Stock Status]** está establecido en `In Stock`.
 
 1. Para determinar el peso del paquete, realice una de las siguientes acciones:
 
-   - Para que el peso refleje las opciones elegidas por el cliente, establezca **[!UICONTROL Dynamic Weight]** set `Yes` y salir **[!UICONTROL Weight]** en blanco.
+   - Para que el peso refleje las opciones elegidas por el cliente, establezca **[!UICONTROL Dynamic Weight]**, establezca `Yes` y deje **[!UICONTROL Weight]** en blanco.
 
-   - Para asignar un peso fijo al paquete, establezca **[!UICONTROL Dynamic Weight]** hasta `No` e introduzca la variable **[!UICONTROL Weight]** del paquete.
+   - Para asignar un peso fijo al paquete, establezca **[!UICONTROL Dynamic Weight]** en `No` e introduzca **[!UICONTROL Weight]** del paquete.
 
    ![Peso dinámico](./assets/product-bundle-dynamic-weight.png){width="600" zoomable="yes"}
 
-1. Para incluir el producto en la lista de [nuevos productos](../content-design/widget-new-products-list.md), seleccione la **[!UICONTROL Set Product as New]** casilla de verificación
+1. Para incluir el producto en la lista de [nuevos productos](../content-design/widget-new-products-list.md), seleccione la casilla de verificación **[!UICONTROL Set Product as New]**.
 
-1. Aceptar el valor predeterminado **[!UICONTROL Visibility]** configuración de `Catalog, Search`.
+1. Acepte la configuración predeterminada **[!UICONTROL Visibility]** de `Catalog, Search`.
 
-1. Para asignar _[!UICONTROL Categories]_para seleccionar el producto, haga clic en **[!UICONTROL Select…]**y realice una de las acciones siguientes:
+1. Para asignar _[!UICONTROL Categories]_al producto, haga clic en el cuadro **[!UICONTROL Select…]**y realice una de las acciones siguientes:
 
    **Elija una categoría existente:**
 
@@ -127,80 +127,80 @@ El formulario se actualiza para reflejar el cambio.
 
    **Crear una categoría:**
 
-   - Clic **[!UICONTROL New Category]**.
+   - Haga clic en **[!UICONTROL New Category]**.
 
-   - Introduzca el **[!UICONTROL Category Name]** y elija la **[!UICONTROL Parent Category]**, que determina su posición en la estructura de menú.
+   - Escriba **[!UICONTROL Category Name]** y elija **[!UICONTROL Parent Category]**, que determina su posición en la estructura de menú.
 
-   - Clic **[!UICONTROL Create Category]**.
+   - Haga clic en **[!UICONTROL Create Category]**.
 
-1. Elija la **[!UICONTROL Country of Manufacture]**.
+1. Elija **[!UICONTROL Country of Manufacture]**.
 
    Puede haber atributos adicionales que describan el producto. La selección varía según el conjunto de atributos y puede completarlos más adelante.
 
 ## Paso 5: Añadir los elementos del paquete
 
-El _[!UICONTROL Bundle Items]_se utiliza para añadir elementos a un tipo de producto Paquete y editar la selección actual de elementos.
+La sección _[!UICONTROL Bundle Items]_se usa para agregar elementos a un tipo de producto Paquete y editar la selección actual de elementos.
 
 ![Elementos de paquete definidos para un producto](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
 
-1. Desplácese hacia abajo hasta el _Elementos de paquete_ sección y conjunto **[!UICONTROL Ship Bundle Items]** a uno de los siguientes:
+1. Desplácese hacia abajo hasta la sección _Elementos del paquete_ y establezca **[!UICONTROL Ship Bundle Items]** en una de las siguientes opciones:
 
    - `Separately`
    - `Together`
 
    Si selecciona `Together`, todos los elementos del paquete deben asignarse al mismo [origen](../inventory-management/sources-manage.md).
 
-1. Clic **[!UICONTROL Add Option]** y haga lo siguiente:
+1. Haga clic en **[!UICONTROL Add Option]** y haga lo siguiente:
 
-   - Introduzca una **[!UICONTROL Option Title]** para utilizarse como etiqueta de campo.
+   - Escriba un(a) **[!UICONTROL Option Title]** para utilizarlo como etiqueta de campo.
 
-   - Establecer **[!UICONTROL Input Type]** a uno de los siguientes:
+   - Establezca **[!UICONTROL Input Type]** en una de las siguientes opciones:
 
       - `Drop-down`
       - `Radio buttons`
       - `Checkbox`
       - `Multiple Select`
 
-   - Para que el campo sea una entrada obligatoria, seleccione la **[!UICONTROL Required]** casilla de verificación
+   - Para que el campo sea una entrada obligatoria, active la casilla de verificación **[!UICONTROL Required]**.
 
-   - Clic **[!UICONTROL Add Products to Option]** y active la casilla de verificación de cada producto que desee incluir en esta opción.
+   - Haga clic en **[!UICONTROL Add Products to Option]** y seleccione la casilla de verificación de cada producto que desee incluir en esta opción.
 
      Si hay muchos productos, utilice los filtros de lista y los controles de paginación para encontrar los productos que necesita.
 
-   - Clic **[!UICONTROL Add Selected Products]**.
+   - Haga clic en **[!UICONTROL Add Selected Products]**.
 
-     ![Añadir productos seleccionados](./assets/product-bundle-add-products-to-option.png){width="600" zoomable="yes"}
+     ![Agregar productos seleccionados](./assets/product-bundle-add-products-to-option.png){width="600" zoomable="yes"}
 
-   - Después de que los elementos aparezcan en la _Opciones_ , elija un elemento para que sea el **[!UICONTROL Default]** selección.
+   - Una vez que los elementos aparezcan en la sección _Opciones_, elija un elemento que será la selección **[!UICONTROL Default]**.
 
-   - En el _Cantidad predeterminada_ , introduzca la cantidad de cada artículo que se añadirá al paquete cuando un cliente elija el artículo.
+   - En la columna _Cantidad predeterminada_, escriba la cantidad de cada artículo que se agregará al paquete cuando un cliente elija el artículo.
 
-   - Para permitir que los clientes cambien la cantidad de un artículo agrupado, seleccione **[!UICONTROL User Defined]**.
+   - Para permitir que los clientes cambien la cantidad de un artículo del paquete, seleccione **[!UICONTROL User Defined]**.
 
 
      >[!NOTE]
      >
-     >La cantidad puede ser un valor preestablecido o definido por el usuario. Sin embargo, no asigne los _[!UICONTROL User Defined]_propiedad para marcar la casilla de verificación o seleccionar varios tipos de entrada.
+     >La cantidad puede ser un valor preestablecido o definido por el usuario. Sin embargo, no asigne la propiedad _[!UICONTROL User Defined]_a tipos de entrada de selección múltiple o casilla de verificación.
 
      De forma predeterminada, el cliente no puede cambiar la cantidad predeterminada que se incluye en un artículo agrupado. Sin embargo, el cliente puede introducir la cantidad del artículo que se va a incluir en el paquete.
 
-     Por ejemplo, si la cantidad predeterminada de la bola de estado de Sprite está definida en `2` y los pedidos de los clientes `4` de esa opción de paquete, el número total de bolas compradas es `8`.
+     Por ejemplo, si la cantidad predeterminada de la bola de estado de Sprite está establecida en `2` y el cliente solicita `4` de esa opción de paquete, el número total de bolas compradas es `8`.
 
-     ![Detalles del elemento](./assets/product-bundle-item-detail.png){width="600" zoomable="yes"}
+     ![Detalle del elemento](./assets/product-bundle-item-detail.png){width="600" zoomable="yes"}
 
 1. Repita estos pasos para cada elemento que desee agregar al paquete.
 
-1. Para cambiar el orden de los elementos en una sección del paquete, haga clic en _Mover_ ( ![Icono Mover](../assets/icon-move.png) ) icono al principio de la fila y arrastre el elemento a su posición.
+1. Para cambiar el orden de los elementos en una sección del paquete, haga clic en el icono _Mover_ ( ![Icono Mover](../assets/icon-move.png) ) al principio de la fila y arrastre el elemento a su posición.
 
    ![Cambiar el orden de los elementos del paquete](./assets/product-bundle-items-move.png){width="600" zoomable="yes"}
 
-   El orden de los elementos también se puede cambiar en los datos de un paquete de productos exportado y, a continuación, volver a importarse en el catálogo. Para obtener más información, consulte [Importación de productos agrupados](../systems/data-transfer-bundle-products.md).
+   El orden de los elementos también se puede cambiar en los datos de un paquete de productos exportado y, a continuación, volver a importarse en el catálogo. Para obtener más información, consulte [Importación de productos en paquete](../systems/data-transfer-bundle-products.md).
 
    Para obtener una mejor vista del espacio de trabajo, contraiga primero cada sección y, a continuación, arrástrela a su posición.
 
-1. Para eliminar cualquier elemento del paquete, haga clic en **[!UICONTROL Delete]** ( ![Icono de papelera](../assets/icon-delete-trashcan.png) ) icono.
+1. Para quitar cualquier elemento del paquete, haga clic en el icono **[!UICONTROL Delete]** ( ![icono de papelera](../assets/icon-delete-trashcan.png) ).
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
 
 ## Paso 6: Completar la información del producto
 
@@ -215,9 +215,9 @@ Desplácese hacia abajo y complete la información de las siguientes secciones s
 - [Diseño](settings-advanced-design.md)
 - [Opciones de regalo](product-gift-options.md)
 
-## Paso 7: Publicar el producto
+## Paso 7: Publish del producto
 
-1. Si está listo para publicar el producto en el catálogo, establezca **[!UICONTROL Enable Product]** hasta `Yes` ( ![Alternar sí](../assets/toggle-yes.png) ).
+1. Si está listo para publicar el producto en el catálogo, establezca **[!UICONTROL Enable Product]** en `Yes` ( ![Alternar sí](../assets/toggle-yes.png) ).
 
 1. Realice una de las siguientes acciones:
 
@@ -225,23 +225,23 @@ Desplácese hacia abajo y complete la información de las siguientes secciones s
 
    - En la esquina superior derecha, haga clic en **[!UICONTROL Save]**.
 
-   - Para ver el producto en tu tienda, elige **[!UICONTROL Customer View]** en el _Administrador_ ( ![Flecha de menú](../assets/icon-menu-down-arrow-black.png) ) menú.
+   - Para ver el producto en tu tienda, elige **[!UICONTROL Customer View]** en el menú _Administrador_ ( ![Flecha de menú](../assets/icon-menu-down-arrow-black.png) ).
 
      La tienda se abre en una nueva pestaña del explorador.
 
-   ![Vista de cliente](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
+   ![Vista del cliente](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
    **Método 2:** Guardar y cerrar
 
-   En el _[!UICONTROL Save]_( ![Flecha de menú](../assets/icon-menu-down-arrow-red.png){width="25"} ), seleccione **[!UICONTROL Save & Close]**.
+   En el menú _[!UICONTROL Save]_( ![flecha de menú](../assets/icon-menu-down-arrow-red.png){width="25"} ), elija **[!UICONTROL Save & Close]**.
 
 ## Controles de entrada
 
 | Control | Descripción | Ejemplo |
 |--- |--- |--- |
-| [!UICONTROL Drop-down] | Muestra una lista desplegable de opciones con el nombre del producto y el precio. Solo se puede seleccionar un elemento. | ![Desplegable](./assets/product-bundle-input-type-drop-down.png){width="200"} |
+| [!UICONTROL Drop-down] | Muestra una lista desplegable de opciones con el nombre del producto y el precio. Solo se puede seleccionar un elemento. | ![Lista desplegable](./assets/product-bundle-input-type-drop-down.png){width="200"} |
 | [!UICONTROL Radio Buttons] | Muestra un botón de opción para cada opción, seguido del nombre y el precio del producto. Solo se puede seleccionar un elemento. | ![Botones de opción](./assets/product-bundle-input-type-radio-buttons.png){width="200"} |
-| [!UICONTROL Checkbox] | Muestra una casilla de verificación para cada opción, seguida del nombre y el precio del producto. Se pueden seleccionar varios elementos. | ![Casilla](./assets/product-bundle-input-type-checkbox.png){width="200"} |
+| [!UICONTROL Checkbox] | Muestra una casilla de verificación para cada opción, seguida del nombre y el precio del producto. Se pueden seleccionar varios elementos. | ![Casilla de verificación](./assets/product-bundle-input-type-checkbox.png){width="200"} |
 | [!UICONTROL Multiple Select] | Muestra una lista de opciones con el nombre del producto y el precio. Para seleccionar varios elementos, mantenga presionada la tecla Ctrl (PC) o la tecla Comando (Mac) y haga clic en cada elemento. | ![Selección múltiple](./assets/product-bundle-input-type-multiple-select.png){width="200"} |
 
 {style="table-layout:auto"}
@@ -259,32 +259,32 @@ Desplácese hacia abajo y complete la información de las siguientes secciones s
 
 ## Estado de stock del producto agrupado
 
-El estado de stock del paquete es **_se cambia automáticamente a Agotado_** cuando se produce cualquiera de estos escenarios:
+El estado de existencias del paquete de productos se **_cambia automáticamente a Agotado_** cuando se produce cualquiera de estas situaciones:
 
-- Todas las opciones son opcionales y todos los productos asociados son _Sin existencias_.
+- Todas las opciones son opcionales y todos los productos asociados están _Agotados_.
 
-- Algunas opciones son obligatorias y los productos asociados a cualquier opción requerida son _Sin existencias_.
+- Se requieren algunas opciones y los productos asociados con las opciones requeridas son _Agotado_.
 
-El estado de stock del paquete es **_no se cambia automáticamente a Agotado_** cuando se produce cualquiera de estos escenarios:
+El estado de las existencias del paquete de productos es **_no se cambió automáticamente a Agotado_** cuando se produce cualquiera de estas situaciones:
 
-- Todas las opciones son opcionales y al menos un producto asociado es _En stock_.
+- Todas las opciones son opcionales y al menos un producto asociado está _En existencia_.
 
-- Se requieren algunas opciones y al menos un producto asociado en cada opción requerida es _En stock_.
+- Se requieren algunas opciones y al menos un producto asociado en cada opción requerida es _En existencia_.
 
 ## Cosas que recordar
 
-![Casilla](../assets/checkbox.png) Los clientes pueden _construyan los suyos_ paquete de producto.
+![Casilla de verificación](../assets/checkbox.png) Los clientes pueden _crear su propio paquete de productos_.
 
-![Casilla](../assets/checkbox.png) Los artículos agrupados pueden ser productos simples o virtuales sin opciones personalizadas.
+![Casilla de verificación](../assets/checkbox.png) Los elementos del paquete pueden ser productos simples o virtuales sin opciones personalizadas.
 
-![Casilla](../assets/checkbox.png) La Vista de precios se puede establecer en `Price Range` o `As Low As`.
+![Casilla de verificación](../assets/checkbox.png) La vista de precio puede establecerse en `Price Range` o `As Low As`.
 
-![Casilla](../assets/checkbox.png) El SKU y el peso pueden ser `Fixed` o `Dynamic`.
+El SKU y el peso de la ![casilla de verificación](../assets/checkbox.png) pueden ser `Fixed` o `Dynamic`.
 
-![Casilla](../assets/checkbox.png) La cantidad puede ser un valor preestablecido o definido por el usuario. Sin embargo, no asigne los _[!UICONTROL User Defined]_propiedad para marcar la casilla de verificación o seleccionar varios tipos de entrada.
+![Casilla de verificación](../assets/checkbox.png) La cantidad puede ser un valor preestablecido o definido por el usuario. Sin embargo, no asigne la propiedad _[!UICONTROL User Defined]_a tipos de entrada de selección múltiple o casilla de verificación.
 
-![Casilla](../assets/checkbox.png) Los artículos agrupados se pueden enviar juntos o por separado.
+![Casilla de verificación](../assets/checkbox.png) Los artículos del paquete se pueden enviar juntos o por separado.
 
-![Casilla](../assets/checkbox.png) El producto del paquete principal siempre se muestra como un producto de mejora de ventas para todos sus productos secundarios automáticamente.
+![Casilla de verificación](../assets/checkbox.png) El producto del paquete principal siempre se muestra como un producto de ampliación de venta para todos sus productos secundarios de forma automática.
 
-![Casilla](../assets/checkbox.png) [!UICONTROL Special Price] y [!UICONTROL Customer Group Price] (Precio de nivel) siempre se establecen como porcentaje de descuento para todos los tipos de productos de paquete.
+![Casilla de verificación](../assets/checkbox.png) [!UICONTROL Special Price] y [!UICONTROL Customer Group Price] (Precio de nivel) siempre se establecen como porcentaje de descuento para todos los tipos de productos de paquete.

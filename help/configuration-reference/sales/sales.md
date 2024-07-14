@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
-description: Revise la configuración de en [!UICONTROL Sales] &gt; [!UICONTROL Sales] de la administración de Commerce.
+description: Revise la configuración en la página [!UICONTROL Sales] &gt; [!UICONTROL Sales] del administrador de Commerce.
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
 source-git-commit: 9827b08e5b0123f84c87cbac672ce9bbec86f511
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Checkout Totals Sort Order]
 
-![Orden de totales de cierre](./assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
+![Orden de totales de cierre de compra](./assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
 
 <!-- [Checkout Totals Sort Order](https://docs.magento.com/user-guide/sales/checkout-totals-sort-order.html) -->
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Invoice and Packing Slip Design]
 
-![Diseño de facturas y albaranes](./assets/sales-invoice-packing-slip-design.png)<!-- zoom -->
+![Diseño de factura y albarán](./assets/sales-invoice-packing-slip-design.png)<!-- zoom -->
 
 <!-- [Invoice and Packing Slip Design](https://docs.magento.com/user-guide/marketing/sales-document-pdf-logo.html) -->
 
@@ -79,7 +79,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Minimum Order Amount]
 
-![Cantidad mínima del pedido](./assets/sales-minimum-order-amount.png)<!-- zoom -->
+![Importe mínimo del pedido](./assets/sales-minimum-order-amount.png)<!-- zoom -->
 
 <!-- [Minimum Order Amount](https://docs.magento.com/user-guide/sales/cart-minimum-order-amount.html) -->
 
@@ -131,24 +131,24 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Allow Gift Messages on Order Level] | Sitio web | Especifique si se puede añadir un mensaje de regalo para todo el pedido. |
 | [!UICONTROL Allow Gift Messages on Order Items] | Sitio web | Especifique si se puede añadir un mensaje de regalo para un artículo de pedido individual. |
-| [!UICONTROL Allow Gift Wrapping on Order Level] | Sitio web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Solo Adobe Commerce) Especifique si se puede añadir un envoltorio para regalos para todo el pedido. |
-| [!UICONTROL Allow Gift Wrapping for Order Items] | Sitio web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Solo Adobe Commerce) Especifique si se puede añadir un envoltorio para regalos para el artículo de pedido individual. |
-| [!UICONTROL Allow Gift Receipt] | Sitio web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Solo Adobe Commerce) Especifique si se puede añadir un recibo de regalo para el pedido. |
-| [!UICONTROL Allow Printed Card] | Sitio web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Solo Adobe Commerce) Especifique si se puede añadir una tarjeta impresa para el pedido. |
-| [!UICONTROL Default Price for Printed Card] | Sitio web | ![Adobe Commerce](../../assets/adobe-logo.svg) (Solo Adobe Commerce) Especifique el precio predeterminado para la tarjeta impresa. |
+| [!UICONTROL Allow Gift Wrapping on Order Level] | Sitio web | ![Adobe Commerce](../../assets/adobe-logo.svg) (solo Adobe Commerce) Especifique si se puede agregar un envoltorio para regalos para todo el pedido. |
+| [!UICONTROL Allow Gift Wrapping for Order Items] | Sitio web | ![Adobe Commerce](../../assets/adobe-logo.svg) (solo Adobe Commerce) Especifique si se puede agregar un envoltorio para regalos para el artículo de pedido individual. |
+| [!UICONTROL Allow Gift Receipt] | Sitio web | ![Adobe Commerce](../../assets/adobe-logo.svg) (solo Adobe Commerce) Especifique si se puede agregar un recibo de regalo para el pedido. |
+| [!UICONTROL Allow Printed Card] | Sitio web | ![Adobe Commerce](../../assets/adobe-logo.svg) (solo Adobe Commerce) Especifique si se puede agregar una tarjeta impresa para el pedido. |
+| [!UICONTROL Default Price for Printed Card] | Sitio web | ![Adobe Commerce](../../assets/adobe-logo.svg) (solo Adobe Commerce) Especifique el precio predeterminado de la tarjeta impresa. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Minimum Advertised Price]
 
-![Precio Mínimo Anunciado](./assets/sales-minimum-advertised-price.png)<!-- zoom -->
+![Precio mínimo anunciado](./assets/sales-minimum-advertised-price.png)<!-- zoom -->
 
 <!-- [Minimum Advertised Price](https://docs.magento.com/user-guide/catalog/product-price-minimum-advertised.html) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Enable MAP] | Sitio web | Activa el precio mínimo anunciado para su tienda. Opciones: `Yes` / `No` |
-| [!UICONTROL Display Actual Price] | Sitio web | Determina si el cliente puede ver el precio real de un producto. Opciones: <br/>**`In Cart`**- Muestra el precio real del producto en el carro de compras.<br/>**`Before Order Confirmation`** : Muestra el precio real del producto al final del proceso de cierre de compra, justo antes de que se confirme el pedido. <br/>**`On Gesture`**- Muestra el precio real del producto en una ventana emergente cuando el cliente hace clic en &quot;Click for price&quot; o &quot;What&#39;s this?&quot; vínculo. |
+| [!UICONTROL Display Actual Price] | Sitio web | Determina si el cliente puede ver el precio real de un producto. Opciones: <br/>**`In Cart`**- Muestra el precio real del producto en el carro de compras.<br/>**`Before Order Confirmation`** - Muestra el precio real del producto al final del proceso de cierre de compra, justo antes de que se confirme el pedido. <br/>**`On Gesture`**- Muestra el precio real del producto en una ventana emergente cuando el cliente hace clic en &quot;Clic por precio&quot; o &quot;¿Qué es esto?&quot; vínculo. |
 | [!UICONTROL Default Popup Text Message] | Vista de tienda | El mensaje de texto que aparece cuando el cliente selecciona el vínculo &quot;Clic por precio&quot; de una lista de categorías o una página de vista de productos. |
 | [!UICONTROL Default "What's This" Text Message] | Vista de tienda | El mensaje de texto que aparece cuando el cliente hace clic en &quot;¿Qué es esto?&quot; desde la página de vista del producto. |
 | [!UICONTROL Manufacturer's Suggested Retail Price] | Global | El precio al por menor sugerido por el fabricante (MSRP). |
@@ -159,11 +159,11 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![Configuración de multicupón](./assets/sales-multicoupon-settings.png)<!-- zoom -->
+![Configuración de cupones múltiples](./assets/sales-multicoupon-settings.png)<!-- zoom -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Maximum number of coupons per order] | Sitio web | Determina el número máximo de cupones permitidos por pedido. Esta función solo está disponible en las API de administración, GraphQL y REST. Y lo es **_no disponible_** en Tienda. |
+| [!UICONTROL Maximum number of coupons per order] | Sitio web | Determina el número máximo de cupones permitidos por pedido. Esta función solo está disponible en las API de administración, GraphQL y REST. Y **_no está disponible_** en Storefront. |
 
 {style="table-layout:auto"}
 
@@ -179,7 +179,7 @@ ht-degree: 1%
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Enable Order by SKU on My Account in Storefront] | Sitio web | Determina si Ordenar por SKU está disponible en el panel de cuentas del cliente. Opciones: <br/>**`Yes, for Everyone`**: la pestaña Ordenar por SKU aparece en el panel de cuentas de todos los clientes.<br/>**`Yes, for Specified Customer Groups`** : la pestaña Ordenar por SKU aparece en el panel de cuentas para los miembros de grupos especificados o de un catálogo compartido. <br/>**`No`**- La pestaña Ordenar por SKU no está disponible en la cuenta del cliente. |
+| [!UICONTROL Enable Order by SKU on My Account in Storefront] | Sitio web | Determina si Ordenar por SKU está disponible en el panel de cuentas del cliente. Opciones: <br/>**`Yes, for Everyone`**- La ficha Ordenar por SKU aparece en el panel de cuentas de todos los clientes.<br/>**`Yes, for Specified Customer Groups`**: la pestaña Ordenar por SKU aparece en el panel de cuentas para los miembros de grupos especificados o de un catálogo compartido. <br/>**`No`**: la pestaña Ordenar por SKU no está disponible en la cuenta del cliente. |
 | [!UICONTROL Customer Groups] | Sitio web | Determina los grupos de clientes. Opciones: `General` / `Retailer` / `Wholesale` |
 
 {style="table-layout:auto"}
@@ -199,7 +199,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Rate Limiting]
 
-![Limitación de velocidad](assets/sales-rate-limiting.png)<!-- zoom -->
+![Límite de velocidad](assets/sales-rate-limiting.png)<!-- zoom -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--------------------------------------------------------|--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -214,15 +214,15 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![Pedidos, Facturas, Envíos, Archivado de Notas de Abono](./assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
+![Pedidos, Facturas, Envíos, Archivado De Notas De Abono](./assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
 
-Para obtener más información sobre cómo cambiar esta configuración, consulte [Configuración del archivo de pedidos](../../stores-purchase/order-archive.md#configure-the-order-archive) en el _Guía de experiencia de compra y tienda_.
+Para obtener más información sobre cómo cambiar esta configuración, consulte [Configurar el archivo de pedidos](../../stores-purchase/order-archive.md#configure-the-order-archive) en la _Guía de tiendas y compras_.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Enable Archiving] | Global | Determina si el archivado está habilitado. Opciones: `Yes` / `No` |
 | [!UICONTROL Archive Orders Purchased] | Global | Determina el número de días que transcurren antes de que se archive un pedido completado. Valor predeterminado: `30` |
-| [!UICONTROL Order  Statuses to be Archived] | Global | Determina el [status](../../stores-purchase/order-status.md) de pedidos para archivar. De forma predeterminada, se archivan los pedidos con un estado Completo o Cerrado. Opciones: `Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
+| [!UICONTROL Order  Statuses to be Archived] | Global | Determina el [estado](../../stores-purchase/order-status.md) de los pedidos que se van a archivar. De forma predeterminada, se archivan los pedidos con un estado Completo o Cerrado. Opciones: `Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
 
 {style="table-layout:auto"}
 
@@ -232,12 +232,12 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 ![Configuración de RMA](./assets/sales-rma-settings.png)<!-- zoom -->
 
-Para obtener más información sobre cómo cambiar esta configuración, consulte [Configuración de devoluciones](../../stores-purchase/rma-configure.md) en el _Guía de experiencia de compra y tienda_.
+Para obtener más información sobre cómo cambiar esta configuración, consulte [Configurar devoluciones](../../stores-purchase/rma-configure.md) en la _Guía de tiendas y compras_.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Enable RMA on Storefront] | Sitio web | Determina si los clientes pueden crear y ver solicitudes de RMA desde la tienda. La autorización de devolución de material se puede aplicar tanto a pedidos nuevos como existentes. De forma predeterminada, RMA no está activada para la tienda. Opciones: `Yes` / `No` |
 | [!UICONTROL Enable RMA on Product Level] | Sitio web | Determina el valor predeterminado para el campo Habilitar RMA en la información del producto. |
-| [!UICONTROL Use Store Address] | Sitio web | Determina el nombre y la dirección de contacto que se utilizan para los envíos de la mercancía devuelta. Opciones: <br/>**`Yes`**- Utiliza el [Punto de origen](../../stores-purchase/shipping-settings.md#point-of-origin) Dirección de Configuración de envío.<br/>**`No`** : abre el formulario de direcciones para que pueda introducir una dirección alternativa. |
+| [!UICONTROL Use Store Address] | Sitio web | Determina el nombre y la dirección de contacto que se utilizan para los envíos de la mercancía devuelta. Opciones: <br/>**`Yes`**- Utiliza la dirección [Punto de origen](../../stores-purchase/shipping-settings.md#point-of-origin) de Configuración de envío.<br/>**`No`**: abre el formulario de direcciones para que pueda escribir una dirección alternativa. |
 
 {style="table-layout:auto"}

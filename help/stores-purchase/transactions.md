@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Transacciones
 
-El _Transacciones_ Esta página enumera todas las actividades de pago que han tenido lugar entre su tienda y un sistema de pago, y proporciona acceso a información más detallada.
+La página _Transacciones_ enumera toda la actividad de pago que se ha realizado entre su tienda y un sistema de pago, y proporciona acceso a información más detallada.
 
 ## Ver transacciones
 
-En el _Administrador_ barra lateral, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**.
+En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**.
 
 ![Cuadrícula de transacciones](./assets/transactions.png){width="600" zoomable="yes"}
 
@@ -41,7 +41,7 @@ En la página de detalles de transacción, puede ver la cuadrícula de detalles 
 
 ### Datos de transacción
 
-Esta sección incluye información sobre la transacción y proporciona un vínculo a la página de pedidos en la **ID de pedido** columna.
+Esta sección incluye información sobre la transacción y proporciona un vínculo a la página de pedidos en la columna **Id. de pedido**.
 
 | Columna | Descripción |
 |--- |--- |

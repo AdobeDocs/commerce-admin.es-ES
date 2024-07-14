@@ -1,25 +1,25 @@
 ---
 title: Administrar las cuentas de cliente
-description: Utilice el [!UICONTROL Customers] cuadrícula para buscar cualquier cuenta de cliente y acceder a la información de cuentas de cliente individuales.
+description: Utilice la cuadrícula [!UICONTROL Customers] para buscar cualquier cuenta de cliente y obtener acceso a la información de cuentas de cliente individuales.
 exl-id: 5f817ca8-9d1f-4498-b3bd-989713f0b6ad
 source-git-commit: 0316475a37ee09948b9ba3649e059155212ab1ae
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
 
 # Administrar las cuentas de cliente
 
-Utilice el _[!UICONTROL Customers]_cuadrícula para buscar cualquier cuenta de cliente. Puede utilizar el estándar de [controles del lugar de trabajo](../getting-started/admin-workspace.md) para filtrar la lista, cambie el [diseño de columna](../getting-started/admin-grid-controls.md), guarde vistas y exporte datos. El [Control de acciones](../getting-started/admin-actions-control.md) encima de la cuadrícula se puede utilizar para aplicar una operación a varios registros de clientes.
+Utilice la cuadrícula _[!UICONTROL Customers]_para encontrar cualquier cuenta de cliente. Puede usar los [controles de área de trabajo](../getting-started/admin-workspace.md) estándar para filtrar la lista, cambiar el [diseño de la columna](../getting-started/admin-grid-controls.md), guardar vistas y exportar datos. El control [Actions](../getting-started/admin-actions-control.md) sobre la cuadrícula se puede usar para aplicar una operación a varios registros de clientes.
 
 ![Todos los clientes](assets/customers-all-customers.png){width="700" zoomable="yes"}
 
-Consulte [Actualizar perfil de cliente](update-account.md) para obtener información sobre cómo realizar actualizaciones manuales en una cuenta de cliente.
+Consulte [Actualizar el perfil del cliente](update-account.md) para obtener información sobre cómo realizar actualizaciones manuales en una cuenta de cliente.
 
 ## Acciones de cuenta de cliente
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
 1. En la primera columna de la cuadrícula, active la casilla de verificación de cada registro que desee actualizar.
 
@@ -29,27 +29,27 @@ Consulte [Actualizar perfil de cliente](update-account.md) para obtener informac
    >
    >Las siguientes acciones se pueden aplicar a registros únicos o múltiples.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 ### Suscribirse a la newsletter
 
-En configuraciones de varias tiendas y sitios con un [ámbito de cuenta de cliente](../customers/customer-account-scope.md), una cuenta de cliente se puede suscribir a boletines de varios sitios o tiendas. Si aplica el _Suscribirse_ acción a una cuenta de cliente, activa la suscripción al boletín informativo solo para la vista predeterminada del sitio o la tienda.
+En configuraciones de varias tiendas y sitios con un [ámbito de cuenta de cliente](../customers/customer-account-scope.md) global, se puede suscribir una cuenta de cliente a boletines de varios sitios o tiendas. Si aplica la acción _Suscribirse_ a una cuenta de cliente, se activa la suscripción al boletín informativo únicamente para la vista predeterminada del sitio o la tienda.
 
-* Configure las variables **[!UICONTROL Actions]** control a `Subscribe to newsletter`.
+* Establezca el control **[!UICONTROL Actions]** en `Subscribe to newsletter`.
 
-Consulte [Administración de suscriptores](../merchandising-promotions/newsletter-subscribers.md) para obtener más información sobre la administración de suscripciones a boletines informativos para un cliente.
+Consulte [Administrar suscriptores](../merchandising-promotions/newsletter-subscribers.md) para obtener más información sobre la administración de suscripciones a boletines para un cliente.
 
 ### Cancelar suscripción a la newsletter
 
-En configuraciones de varias tiendas y sitios con un [ámbito de cuenta de cliente](customer-account-scope.md), una cuenta de cliente se puede suscribir a boletines para varios sitios o tiendas. Si aplica el _Cancelar suscripción_ acción a una cuenta de cliente, se cancelan todas las suscripciones activas.
+En configuraciones de varias tiendas y sitios con un [ámbito de cuenta de cliente](customer-account-scope.md) global, se puede suscribir una cuenta de cliente a boletines para varios sitios o tiendas. Si aplica la acción _Cancelar la suscripción_ a una cuenta de cliente, se cancelará la suscripción a todas las suscripciones activas.
 
-1. Configure las variables **[!UICONTROL Actions]** control a `Unsubscribe to newsletter`.
+1. Establezca el control **[!UICONTROL Actions]** en `Unsubscribe to newsletter`.
 
-1. Cuando se le pida que confirme, haga clic en **OK**.
+1. Cuando se le pida que confirme, haga clic en **Aceptar**.
 
 ### Asignar un grupo de clientes
 
-1. Configure las variables **[!UICONTROL Actions]** control a `Assign a customer group`.
+1. Establezca el control **[!UICONTROL Actions]** en `Assign a customer group`.
 
 1. Elija el grupo de clientes al que se deben asignar todos los registros de clientes seleccionados.
 
@@ -59,20 +59,20 @@ En configuraciones de varias tiendas y sitios con un [ámbito de cuenta de clien
 
 Las cuentas de cliente eliminadas no se pueden restaurar. La información sobre la actividad y las transacciones del cliente se conserva en el sistema.
 
-1. Configure las variables **[!UICONTROL Actions]** control a `Delete`.
+1. Establezca el control **[!UICONTROL Actions]** en `Delete`.
 
 1. Cuando se le pida que confirme, haga clic en **[!UICONTROL OK]**.
 
 ## Exportar cuentas de clientes
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
 1. En el menú Encabezado de tabla, haga clic en **[!UICONTROL Export]** y seleccione el formato que desee:
 
    * CSV
    * XML de Excel
 
-1. Haga clic **[!UICONTROL OK]**.
+1. Haga clic en **[!UICONTROL OK]**.
 
    El archivo va a la carpeta de descargas predeterminada.
 
@@ -108,7 +108,7 @@ La instrucción anterior exporta todas las cuentas de cliente. Si desea exportar
 | **[!UICONTROL Confirmed Email]** | Indica si se requiere un correo electrónico de confirmación. |
 | **[!UICONTROL Account Created In]** | Indica la vista de tienda desde la que se creó la cuenta de cliente. |
 | **[!UICONTROL Date of Birth]** | La fecha de nacimiento del cliente. De acuerdo con las prácticas recomendadas actuales de seguridad y privacidad, tenga en cuenta cualquier posible riesgo legal y de seguridad asociado con el almacenamiento de la fecha de nacimiento completa de los clientes (mes, día, año) con otros identificadores personales. Se recomienda limitar el almacenamiento de las fechas de nacimiento completas de los clientes y sugerir el uso del año de nacimiento del cliente como alternativa. |
-| **[!UICONTROL Tax / VAT Number]** | Si procede, el número de impuesto o [impuesto sobre el valor añadido](../stores-purchase/vat.md) número asignado al cliente. <br/><br/> Este campo no es el mismo que el número de IVA. |
+| **[!UICONTROL Tax / VAT Number]** | Si corresponde, el número de impuesto o el número de [impuesto al valor agregado](../stores-purchase/vat.md) que se ha asignado al cliente. <br/><br/> Este campo no es el mismo que el número de IVA. |
 | **[!UICONTROL Gender]** | El sexo del cliente. |
 | **[!UICONTROL Action]** | Editar: abre la cuenta de la empresa en modo de edición. |
 
@@ -128,8 +128,8 @@ Estas columnas están disponibles al cambiar el [diseño de columna](../getting-
 | **[!UICONTROL Billing Lastname]** | El apellido en la dirección de facturación del cliente. |
 | **[!UICONTROL Billing Address]** | La dirección a la que se enviará la información de facturación. |
 | **[!UICONTROL Shipping Address]** | La dirección a la que se enviarán los pedidos. |
-| **[!UICONTROL VAT Number]** | El número de impuesto al valor agregado asociado con la dirección del cliente. Para [bienes digitales](../stores-purchase/taxes.md) vendido en la UE, el IVA se basa en la dirección de facturación del cliente. <br/><br/> Este campo no es el mismo que el Número de IVA/impuesto. |
-| **[!UICONTROL Account Lock]** | Indica el estado de la cuenta. Como medida de seguridad, las cuentas de cliente pueden [bloqueado](../customers/password-options.md) después de demasiados intentos de inicio de sesión. Valores: `Locked` / `Unlocked` |
+| **[!UICONTROL VAT Number]** | El número de impuesto al valor agregado asociado con la dirección del cliente. Para [bienes digitales](../stores-purchase/taxes.md) vendidos en la UE, el IVA se basa en la dirección de facturación del cliente. <br/><br/> Este campo no es el mismo que el número de IVA/impuesto. |
+| **[!UICONTROL Account Lock]** | Indica el estado de la cuenta. Como medida de seguridad, las cuentas de cliente pueden [bloquearse](../customers/password-options.md) después de demasiados intentos de inicio de sesión. Valores: `Locked` / `Unlocked` |
 | **[!UICONTROL Status]** | El estado del usuario actual. Opciones: `Active` / `Inactive` |
 | **[!UICONTROL Customer Type]** | Clasificación del cliente. Opciones: `Individual user` / `Company admin` / `Company user` |
 | **[!UICONTROL Sales Representative]** | El representante de ventas asignado como punto de contacto para una cuenta de empresa y que recibe todos los mensajes de correo electrónico automatizados relacionados con la empresa. |

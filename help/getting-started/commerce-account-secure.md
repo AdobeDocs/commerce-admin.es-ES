@@ -1,24 +1,24 @@
 ---
-title: Proteja su [!DNL Commerce] account
-description: Aprenda a utilizar la autenticación de doble factor para proteger su [!DNL Commerce] cuenta.
+title: Protege tu cuenta de  [!DNL Commerce]
+description: Aprenda a utilizar la autenticación de doble factor para proteger su cuenta de  [!DNL Commerce] .
 exl-id: 4847b5cb-a93a-40d0-8c31-c30afa27c0ce
 feature: User Account
 source-git-commit: fff3464c9da50927bbe9773a17b0f6858360d788
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
 
-# Proteja su [!DNL Commerce] account
+# Proteja su cuenta de [!DNL Commerce]
 
-La autenticación de doble factor (TFA o 2FA) es una capa adicional de seguridad para proteger mejor su [!DNL Commerce] de acceso no autorizado. Para completar el proceso de inicio de sesión, TFA requiere un _segundo factor_ además del nombre de usuario y las credenciales de contraseña estándar. Este segundo factor adopta la forma de códigos de verificación temporales que se generan continuamente mediante una aplicación TFA instalada en su dispositivo móvil y emparejada con su [!DNL Commerce] cuenta.
+La autenticación de doble factor (TFA o 2FA) es una capa adicional de seguridad para proteger mejor su cuenta de [!DNL Commerce] del acceso no autorizado. Para completar el proceso de inicio de sesión, TFA requiere un _segundo factor_ además de las credenciales de nombre de usuario y contraseña estándar. Este segundo factor adopta la forma de códigos de verificación temporales que genera continuamente una aplicación TFA instalada en su dispositivo móvil y emparejada con su cuenta de [!DNL Commerce].
 
 Con TFA habilitado, su cuenta es más segura. Un usuario no autorizado no puede iniciar sesión a menos que tenga sus credenciales de nombre de usuario y contraseña (primer factor) y un código de verificación válido de la aplicación TFA en su dispositivo personal (segundo factor).
 
 >[!NOTE]
 >
->La autenticación de doble factor que protege al _Administrador_ de su tienda tiene una configuración separada. Para obtener más información, consulte [Autenticación de doble factor](../systems/security-two-factor-authentication.md).
+>La autenticación de doble factor que protege a _Admin_ de tu tienda tiene una configuración por separado. Para obtener más información, consulte [Autenticación de doble factor](../systems/security-two-factor-authentication.md).
 
 ## Antes de empezar
 
@@ -26,53 +26,53 @@ Para usar TFA, debes tener una aplicación TFA instalada en tu dispositivo perso
 
 - Google Authenticator (iOS, Android™, BlackBerry®)
 
-- Autor (iOS, Android™)
+- Autoridad (iOS, Android™)
 
 - Microsoft® Authenticator (iOS, Android™, Windows Phone)
 
 ## Habilitar autenticación de doble factor
 
-1. Inicie sesión en su [[!DNL Commerce] account][1]{:target=&quot;_blank&quot;}.
+1. Inicie sesión en su [[!DNL Commerce] cuenta][1]{:target=&quot;_blank&quot;}.
 
-1. En el panel de navegación izquierdo, seleccione **[!UICONTROL Account Settings]**, y luego seleccione **[!UICONTROL Two-factor Authentication]**.
+1. En el panel de navegación izquierdo, seleccione **[!UICONTROL Account Settings]** y, a continuación, seleccione **[!UICONTROL Two-factor Authentication]**.
 
    ![Habilitar TFA](./assets/2fa-enable.png){width="600" zoomable="yes"}
 
-1. Seleccionar **[!UICONTROL Enable]** para iniciar el proceso de configuración de autenticación de doble factor.
+1. Seleccione **[!UICONTROL Enable]** para iniciar el proceso de configuración de autenticación de doble factor.
 
-1. Introduzca el **[!UICONTROL Verification Code]** enviado a su correo electrónico y seleccione **[!UICONTROL Verify Code]** para continuar.
+1. Escriba el(la) **[!UICONTROL Verification Code]** enviado(a) a su correo electrónico y seleccione **[!UICONTROL Verify Code]** para continuar.
 
-   ![Introduzca el código de verificación](./assets/2fA-verification-code-prompt.png){width="400"}
+   ![Escriba el código de verificación](./assets/2fA-verification-code-prompt.png){width="400"}
 
 1. Abra la aplicación de autenticación de doble factor que descargó e instaló en su dispositivo personal.
 
-1. En el [!UICONTROL SETUP TWO-FACTOR AUTHENTICATION] del formulario, utilice el **[!UICONTROL Setup Code]** para agregar Adobe Commerce a la aplicación TFA.
+1. En el formulario [!UICONTROL SETUP TWO-FACTOR AUTHENTICATION], use **[!UICONTROL Setup Code]** para agregar Adobe Commerce a su aplicación TFA.
 
-   ![Añadir Adobe Commerce a la aplicación TFA](./assets/commerce-account-2fa-setup-app.png){width="400"}
+   ![Agregar Adobe Commerce a la aplicación TFA](./assets/commerce-account-2fa-setup-app.png){width="400"}
 
-   Puede agregar el código escaneando el código QR usando la aplicación TFA o ingresándolo manualmente. Este código empareja su aplicación de TFA con su [!DNL Commerce] y permite a los permisos generar la aplicación TFA para generar códigos de verificación para el acceso seguro a la cuenta.
+   Puede agregar el código escaneando el código QR usando la aplicación TFA o ingresándolo manualmente. Este código empareja su aplicación TFA con su cuenta [!DNL Commerce] y permite que los permisos generen la aplicación TFA para generar códigos de verificación para el acceso seguro a la cuenta.
 
 1. Complete la configuración.
 
-   - En el [!UICONTROL SETUP TWO FACTOR-AUTHENTICATION] , introduzca el código de verificación desde la aplicación de autenticación de doble factor.
+   - En el formulario [!UICONTROL SETUP TWO FACTOR-AUTHENTICATION], escriba el código de verificación de su aplicación de autenticación de doble factor.
 
-   - Seleccionar **[!UICONTROL Verify Code]**.
+   - Seleccione **[!UICONTROL Verify Code]**.
 
    >[!NOTE]
    >
-   >Por motivos de seguridad, los códigos de verificación de la aplicación TFA caducan y se regeneran continuamente. **_Siempre_** utilice el código que se muestra actualmente.
+   >Por motivos de seguridad, los códigos de verificación de la aplicación TFA caducan y se regeneran continuamente. **_Siempre_** usa el código que se muestra actualmente.
 
-1. Guarde el **[!UICONTROL Recovery Codes]** se presenta en un lugar seguro y accesible.
+1. Guarde el(la) **[!UICONTROL Recovery Codes]** presentado(a) en un lugar seguro y accesible.
 
    ![Almacenar códigos de recuperación](./assets/commerce-account-2fa-store-recovery-codes.png){width="400"}
 
-   Si no puede proporcionar un código de verificación al iniciar sesión en su [!DNL Commerce] Para recuperar el acceso a la cuenta, debe utilizar un código de recuperación.
+   Si no puede proporcionar un código de verificación al iniciar sesión en su cuenta de [!DNL Commerce], debe usar un código de recuperación para recuperar el acceso a la cuenta.
 
-   Cada código de recuperación solo se puede utilizar una vez, pero puede [generar](#generate-new-recovery-codes) nuevas. Los códigos de recuperación distinguen entre mayúsculas y minúsculas.
+   Cada código de recuperación se puede usar una sola vez, pero [puede generar](#generate-new-recovery-codes) nuevos. Los códigos de recuperación distinguen entre mayúsculas y minúsculas.
 
 1. Seleccione la casilla de verificación de confirmación y seleccione **[!UICONTROL Submit]** para continuar.
 
-1. Para asegurarse de que puede recuperar el acceso a su cuenta, introduzca un **[!UICONTROL Recovery Email]**.
+1. Para asegurarse de que puede recuperar el acceso a su cuenta, escriba un **[!UICONTROL Recovery Email]**.
 
    Esta dirección de correo electrónico es necesaria si no puede generar un código de verificación a partir de la aplicación de autenticación de doble factor y no tiene acceso a un código de recuperación generado previamente que no se utilice.
 
@@ -86,81 +86,81 @@ Para usar TFA, debes tener una aplicación TFA instalada en tu dispositivo perso
 
 1. Seleccione la casilla de verificación de confirmación y seleccione **[!UICONTROL Submit]** para completar el proceso de configuración de autenticación de doble factor.
 
-   - Se envía una notificación a la dirección de correo electrónico asociada con su [!DNL Commerce] cuenta para confirmar que ha habilitado correctamente la autenticación de doble factor.
+   - Se envía una notificación a la dirección de correo electrónico asociada a su cuenta de [!DNL Commerce] para confirmar que ha habilitado correctamente la autenticación de doble factor.
 
    - Se envía una notificación a la cuenta de correo electrónico de recuperación para confirmar la configuración.
 
 >[!TIP]
 >
->Si pierde su dispositivo personal o consigue uno nuevo, puede [cambie su aplicación de autenticación de doble factor](#change-your-two-factor-authentication-application) y generar nuevos códigos de recuperación.
+>Si pierdes tu dispositivo personal o consigues uno nuevo, puedes [cambiar tu aplicación de autenticación de doble factor](#change-your-two-factor-authentication-application) y generar nuevos códigos de recuperación.
 
 ## Iniciar sesión con un código de verificación
 
-1. Vaya a la [!DNL Commerce] [inicio de sesión de cuenta][1]{:target=&quot;_blank&quot;}.
+1. Vaya a [!DNL Commerce] [inicio de sesión con la cuenta][1]{:target=&quot;_blank&quot;}.
 
-1. Introduzca las credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
+1. Escriba sus credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
 
-1. Introduzca el **[!UICONTROL Verification Code]** se muestra en la aplicación de autenticación de doble factor cuando se le solicita.
+1. Escriba el(la) **[!UICONTROL Verification Code]** mostrado(a) en su aplicación de autenticación de doble factor cuando se le solicite.
 
    ![Introducir código de verificación](./assets/commerce-account-2fa-login-verification-code.png){width="600"}
 
-1. Seleccionar **[!UICONTROL Submit]** para completar el proceso de inicio de sesión.
+1. Seleccione **[!UICONTROL Submit]** para completar el proceso de inicio de sesión.
 
 ## Inicie sesión con un código de recuperación
 
-1. Vaya a la [!DNL Commerce] [inicio de sesión de cuenta][1]{:target=&quot;_blank&quot;}.
+1. Vaya a [!DNL Commerce] [inicio de sesión con la cuenta][1]{:target=&quot;_blank&quot;}.
 
-1. Introduzca las credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
+1. Escriba sus credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
 
-1. Seleccionar **[!UICONTROL Use recovery code]** para omitir el símbolo del sistema del código de verificación.
+1. Seleccione **[!UICONTROL Use recovery code]** para omitir la solicitud de código de verificación.
 
-1. Introducir un no utilizado **[!UICONTROL Recovery Code]** cuando se le solicite.
+1. Escriba un(a) **[!UICONTROL Recovery Code]** sin usar cuando se le solicite.
 
    ![Introducir código de recuperación](./assets/2fa-recovery-code.png){width="600"}
 
-1. Seleccionar **[!UICONTROL Submit]** para completar el proceso de inicio de sesión.
+1. Seleccione **[!UICONTROL Submit]** para completar el proceso de inicio de sesión.
 
 ## Inicie sesión con el correo electrónico de recuperación
 
-1. Inicie sesión en su [[!DNL Commerce] account][1]{:target=&quot;_blank&quot;}.
+1. Inicie sesión en su [[!DNL Commerce] cuenta][1]{:target=&quot;_blank&quot;}.
 
-1. Introduzca las credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
+1. Escriba sus credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
 
-1. Seleccionar **[!UICONTROL Use recovery code]** para omitir el símbolo del sistema del código de verificación.
+1. Seleccione **[!UICONTROL Use recovery code]** para omitir la solicitud de código de verificación.
 
-1. Para obtener un código de recuperación temporal por correo electrónico, seleccione la **[!UICONTROL recovery email]** vínculo.
+1. Para obtener un código de recuperación temporal por correo electrónico, seleccione el vínculo **[!UICONTROL recovery email]**.
 
    ![Usar correo electrónico de recuperación](./assets/2fa-recovery-email.png){width="600"}
 
 1. Abra la cuenta de correo electrónico de recuperación para obtener el código temporal y, a continuación, introduzca el código en los campos designados.
 
-1. Seleccionar **[!UICONTROL Submit]** para completar el proceso de inicio de sesión.
+1. Seleccione **[!UICONTROL Submit]** para completar el proceso de inicio de sesión.
 
-Después de usar un código de recuperación temporal para acceder a su cuenta, [generar nuevos códigos de recuperación](#generate-new-recovery-codes) y guárdelos para evitar más problemas de acceso a la cuenta.
+Después de usar un código de recuperación temporal para tener acceso a tu cuenta, [genera nuevos códigos de recuperación](#generate-new-recovery-codes) y guárdalos para evitar más problemas de acceso a la cuenta.
 
 ## Ver los códigos de recuperación
 
-1. Vaya a la [!DNL Commerce] [inicio de sesión de cuenta][1]{:target=&quot;_blank&quot;}.
+1. Vaya a [!DNL Commerce] [inicio de sesión con la cuenta][1]{:target=&quot;_blank&quot;}.
 
-1. Introduzca las credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
+1. Escriba sus credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
 
 1. Complete el proceso de inicio de sesión utilizando uno de los métodos de autenticación de doble factor descritos anteriormente.
 
-1. En el panel de navegación izquierdo, seleccione **[!UICONTROL Account Settings]**, y luego seleccione **[!UICONTROL Two-factor Authentication]**.
+1. En el panel de navegación izquierdo, seleccione **[!UICONTROL Account Settings]** y, a continuación, seleccione **[!UICONTROL Two-factor Authentication]**.
 
    ![Configuración de 2FA](./assets/commerce-account-2fa-manage.png){width="600" zoomable="yes"}
 
 1. Para ver los códigos de recuperación generados previamente, seleccione **Ver códigos de recuperación**.
 
-1. Introduzca el **[!UICONTROL Verification Code]** enviado a su correo electrónico y seleccione **[!UICONTROL Verify Code]** para continuar.
+1. Escriba el(la) **[!UICONTROL Verification Code]** enviado(a) a su correo electrónico y seleccione **[!UICONTROL Verify Code]** para continuar.
 
    ![Introducir código de verificación](./assets/2fA-verification-code-prompt.png){width="400"}
 
-1. Guarde el **Códigos de recuperación** se presenta en un lugar seguro y accesible.
+1. Guarde los **códigos de recuperación** que se presentan en un lugar seguro y accesible.
 
-   Si no puede proporcionar un código de verificación para iniciar sesión en su [!DNL Commerce] Cuenta de, el uso de un código de recuperación es la única manera de recuperar el acceso a la cuenta.
+   Si no puede proporcionar un código de verificación para iniciar sesión en su cuenta de [!DNL Commerce], el único modo de recuperar el acceso a la cuenta es utilizar un código de recuperación.
 
-   Cada código de recuperación es de un solo uso, pero siempre puede [generar](#generate-new-recovery-codes) nuevas. Los códigos de recuperación distinguen entre mayúsculas y minúsculas.
+   Cada código de recuperación es de un solo uso, pero siempre puede [generar](#generate-new-recovery-codes) nuevos. Los códigos de recuperación distinguen entre mayúsculas y minúsculas.
 
    ![Ver códigos de recuperación](./assets/2fa-view-recovery.png){width="400"}
 
@@ -168,21 +168,21 @@ Después de usar un código de recuperación temporal para acceder a su cuenta, 
 
 ## Generar nuevos códigos de recuperación
 
-1. Vaya a la [!DNL Commerce] [inicio de sesión de cuenta][1]{:target=&quot;_blank&quot;}.
+1. Vaya a [!DNL Commerce] [inicio de sesión con la cuenta][1]{:target=&quot;_blank&quot;}.
 
-1. Introduzca las credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
+1. Escriba sus credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
 
 1. Complete el proceso de inicio de sesión utilizando uno de los métodos de autenticación de doble factor descritos anteriormente.
 
-1. En el panel de navegación izquierdo, seleccione **[!UICONTROL Account Settings]**, y luego seleccione **[!UICONTROL Two-factor Authentication]**.
+1. En el panel de navegación izquierdo, seleccione **[!UICONTROL Account Settings]** y, a continuación, seleccione **[!UICONTROL Two-factor Authentication]**.
 
 1. Para generar nuevos códigos de recuperación generados previamente, seleccione **Generar nuevos códigos de recuperación**.
 
-1. Introduzca el **[!UICONTROL Verification Code]** enviado a su correo electrónico y seleccione **[!UICONTROL Verify Code]** para continuar.
+1. Escriba el(la) **[!UICONTROL Verification Code]** enviado(a) a su correo electrónico y seleccione **[!UICONTROL Verify Code]** para continuar.
 
-1. Guarde el **Códigos de recuperación** se presenta en un lugar seguro y accesible.
+1. Guarde los **códigos de recuperación** que se presentan en un lugar seguro y accesible.
 
-   Si no puede proporcionar un código de verificación al iniciar sesión en su [!DNL Commerce] Cuenta de, el uso de un código de recuperación es la única manera de recuperar el acceso a la cuenta.
+   Si no puede proporcionar un código de verificación al iniciar sesión en su cuenta de [!DNL Commerce], el único modo de recuperar el acceso a la cuenta es utilizar un código de recuperación.
 
    Todos los códigos de recuperación generados anteriormente ahora se representan como no válidos y deben descartarse (solo funciona el conjunto actual de códigos de recuperación generados). Los códigos de recuperación distinguen entre mayúsculas y minúsculas.
 
@@ -190,19 +190,19 @@ Después de usar un código de recuperación temporal para acceder a su cuenta, 
 
 ## Cambiar el correo electrónico de recuperación
 
-1. Vaya a la [!DNL Commerce] [inicio de sesión de cuenta][1]{:target=&quot;_blank&quot;}.
+1. Vaya a [!DNL Commerce] [inicio de sesión con la cuenta][1]{:target=&quot;_blank&quot;}.
 
-1. Introduzca las credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
+1. Escriba sus credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
 
 1. Complete el proceso de inicio de sesión utilizando uno de los métodos de autenticación de doble factor descritos anteriormente.
 
-1. En el panel de navegación izquierdo, seleccione **[!UICONTROL Account Settings]**, y luego seleccione **[!UICONTROL Two-factor Authentication]**.
+1. En el panel de navegación izquierdo, seleccione **[!UICONTROL Account Settings]** y, a continuación, seleccione **[!UICONTROL Two-factor Authentication]**.
 
-1. Seleccionar **Cambiar correo electrónico de recuperación** para cambiar el correo electrónico de recuperación registrado en la cuenta.
+1. Seleccione **Cambiar correo electrónico de recuperación** para cambiar el correo electrónico de recuperación del archivo de su cuenta.
 
-1. Introduzca el **[!UICONTROL Verification Code]** enviado a su correo electrónico y seleccione **[!UICONTROL Verify Code]** para continuar.
+1. Escriba el(la) **[!UICONTROL Verification Code]** enviado(a) a su correo electrónico y seleccione **[!UICONTROL Verify Code]** para continuar.
 
-1. Para garantizar que puede recuperar el acceso a su cuenta, escriba un **Correo electrónico de recuperación**.
+1. Para asegurarte de que puedes recuperar el acceso a tu cuenta, escribe un **Correo electrónico de recuperación**.
 
    Esta dirección de correo electrónico es necesaria si no puede generar un código de verificación a partir de la aplicación de autenticación de doble factor y no tiene acceso a un código de recuperación generado previamente que no se utilice.
 
@@ -218,39 +218,39 @@ Después de usar un código de recuperación temporal para acceder a su cuenta, 
 
 ## Cambiar la aplicación de autenticación de doble factor
 
-1. Vaya a la [!DNL Commerce] [inicio de sesión de cuenta][1]{:target=&quot;_blank&quot;}.
+1. Vaya a [!DNL Commerce] [inicio de sesión con la cuenta][1]{:target=&quot;_blank&quot;}.
 
-1. Introduzca las credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
+1. Escriba sus credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
 
 1. Complete el proceso de inicio de sesión utilizando uno de los métodos de autenticación de doble factor descritos anteriormente.
 
-1. En el panel de navegación izquierdo, seleccione **[!UICONTROL Account Settings]**, y luego seleccione **[!UICONTROL Two-factor Authentication]**.
+1. En el panel de navegación izquierdo, seleccione **[!UICONTROL Account Settings]** y, a continuación, seleccione **[!UICONTROL Two-factor Authentication]**.
 
-1. Seleccionar **Cambiar aplicación de TFA** para utilizar una aplicación TFA diferente con su cuenta magento.com.
+1. Seleccione **Cambiar aplicación TFA** para usar una aplicación TFA diferente con su cuenta de magento.com.
 
-1. Introduzca el **[!UICONTROL Verification Code]** enviado a su correo electrónico y seleccione **[!UICONTROL Verify Code]** para continuar.
+1. Escriba el(la) **[!UICONTROL Verification Code]** enviado(a) a su correo electrónico y seleccione **[!UICONTROL Verify Code]** para continuar.
 
 1. Abra la aplicación de autenticación de doble factor en su dispositivo personal.
 
-1. Introduzca el **Código de configuración** en la aplicación de autenticación de doble factor.
+1. Escriba el **código de instalación** en la aplicación de autenticación de doble factor.
 
-   Puede añadir el código escaneando el código QR usando la aplicación TFA o introduciéndolo manualmente. Este código empareja su aplicación de TFA con su [!DNL Commerce] y habilita los permisos para que la aplicación TFA genere códigos de verificación para el acceso seguro a la cuenta.
+   Puede añadir el código escaneando el código QR usando la aplicación TFA o introduciéndolo manualmente. Este código empareja su aplicación TFA con su cuenta [!DNL Commerce] y habilita los permisos para que la aplicación TFA genere códigos de verificación para el acceso seguro a la cuenta.
 
    >[!NOTE]
    >
-   >Por motivos de seguridad, los códigos de verificación de la aplicación TFA caducan y se regeneran continuamente. **_Siempre_** utilice el código que se muestra actualmente.
+   >Por motivos de seguridad, los códigos de verificación de la aplicación TFA caducan y se regeneran continuamente. **_Siempre_** usa el código que se muestra actualmente.
 
-1. Con la aplicación TFA ahora asociada con su [!DNL Commerce] cuenta, introduzca el **[!UICONTROL Verification Code]** se muestra en la aplicación TFA y seleccione **[!UICONTROL Verify Code]** para continuar.
+1. Ahora que su aplicación TFA está emparejada con su cuenta [!DNL Commerce], ingrese el **[!UICONTROL Verification Code]** que se muestra en su aplicación TFA y seleccione **[!UICONTROL Verify Code]** para continuar.
 
-1. Guarde el **Códigos de recuperación** se presenta en un lugar seguro y accesible.
+1. Guarde los **códigos de recuperación** que se presentan en un lugar seguro y accesible.
 
-   Si no puede proporcionar un código de verificación al iniciar sesión en su [!DNL Commerce] cuenta, la única manera de recuperar el acceso a la cuenta es utilizar un código de recuperación.
+   Si no puede proporcionar un código de verificación al iniciar sesión en su cuenta de [!DNL Commerce], la única manera de recuperar el acceso a la cuenta es utilizar un código de recuperación.
 
-   Cada código de recuperación es de un solo uso, pero siempre puede [generar](#generate-new-recovery-codes) nuevas. Los códigos de recuperación distinguen entre mayúsculas y minúsculas. Los códigos de recuperación distinguen entre mayúsculas y minúsculas.
+   Cada código de recuperación es de un solo uso, pero siempre puede [generar](#generate-new-recovery-codes) nuevos. Los códigos de recuperación distinguen entre mayúsculas y minúsculas. Los códigos de recuperación distinguen entre mayúsculas y minúsculas.
 
-1. Seleccione la casilla de verificación para confirmar y seleccionar **[!UICONTROL Submit]** para continuar.
+1. Seleccione la casilla de verificación para confirmar y seleccione **[!UICONTROL Submit]** para continuar.
 
-1. Para garantizar que puede recuperar el acceso a su cuenta, escriba un **Correo electrónico de recuperación**.
+1. Para asegurarte de que puedes recuperar el acceso a tu cuenta, escribe un **Correo electrónico de recuperación**.
 
    Esta dirección de correo electrónico es necesaria si no puede generar un código de verificación a partir de la aplicación de autenticación de doble factor y no tiene acceso a un código de recuperación generado previamente que no se utilice.
 
@@ -270,21 +270,21 @@ Después de usar un código de recuperación temporal para acceder a su cuenta, 
 >
 >Si la directiva de seguridad de la organización requiere autenticación multifactor en las cuentas de Adobe Commerce, no puede deshabilitar la autenticación de doble factor.
 
-1. Vaya a la [!DNL Commerce] [inicio de sesión de cuenta][1]{:target=&quot;_blank&quot;}.
+1. Vaya a [!DNL Commerce] [inicio de sesión con la cuenta][1]{:target=&quot;_blank&quot;}.
 
-1. Introduzca las credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
+1. Escriba sus credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
 
 1. Complete el proceso de inicio de sesión utilizando uno de los métodos de autenticación de doble factor descritos anteriormente.
 
 1. En el panel de navegación izquierdo, seleccione **[!UICONTROL Account Settings]** y seleccione **[!UICONTROL Two-factor Authentication]** debajo.
 
-1. Seleccionar **[!UICONTROL Disable]** para comenzar el proceso de desactivación de TFA.
+1. Seleccione **[!UICONTROL Disable]** para iniciar el proceso de desactivación de TFA.
 
-1. Introduzca el **[!UICONTROL Verification Code]** enviado a su correo electrónico y seleccione **[!UICONTROL Verify Code]** para continuar.
+1. Escriba el(la) **[!UICONTROL Verification Code]** enviado(a) a su correo electrónico y seleccione **[!UICONTROL Verify Code]** para continuar.
 
-1. Seleccione la casilla de verificación de confirmación y seleccione **[!UICONTROL Submit]** para completar la desactivación para la autenticación de doble factor.
+1. Seleccione la casilla de verificación de confirmación y seleccione **[!UICONTROL Submit]** para completar la desactivación de la autenticación de doble factor.
 
-   El sistema envía un correo electrónico de confirmación indicando que TFA se ha desactivado en su [!DNL Commerce] cuenta.
+   El sistema enviará una confirmación por correo electrónico indicando que el TFA se ha deshabilitado en su cuenta de [!DNL Commerce].
 
    ![Deshabilitar TFA](./assets/2fa-disable.png){width="400"}
 

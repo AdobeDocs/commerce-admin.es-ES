@@ -6,7 +6,7 @@ feature: Returns, Storefront
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -23,9 +23,9 @@ Como práctica recomendada, asegúrese de incluir una descripción de los requis
 
 >[!NOTE]
 >
->Si desea recopilar información adicional relacionada con las devoluciones, puede añadir su propia [devuelve atributos](attributes-returns.md).
+>Si desea recopilar información adicional relacionada con las devoluciones, puede agregar sus propios atributos personalizados [returns](attributes-returns.md).
 
-Toda la información de la RMA del cliente se muestra en la **[!UICONTROL My Returns]** en el panel de la cuenta del cliente.
+Toda la información de RMA del cliente se muestra en la página **[!UICONTROL My Returns]** del panel de cuentas del cliente.
 
 ![Mis devoluciones](./assets/my-returns-page.png){width="700" zoomable="yes"}
 
@@ -33,7 +33,7 @@ Toda la información de la RMA del cliente se muestra en la **[!UICONTROL My Ret
 
 El cliente completa los siguientes pasos en la tienda para enviar una autorización de devolución de material:
 
-1. En el pie de página, haga clic en **[!UICONTROL Orders and Returns]**.
+1. En el pie de página, hace clic en **[!UICONTROL Orders and Returns]**.
 
 1. Introduce la información del pedido:
 
@@ -45,25 +45,25 @@ El cliente completa los siguientes pasos en la tienda para enviar una autorizaci
 
    ![Pedidos y devoluciones](./assets/storefront-orders-and-returns.png){width="700" zoomable="yes"}
 
-1. Debajo de la fecha de pedido, hace clic en **[!UICONTROL Return]**.
+1. Bajo la fecha de pedido, hace clic en **[!UICONTROL Return]**.
 
-   ![Detalles del pedido](./assets/storefront-orders-and-returns-order-information.png){width="700" zoomable="yes"}
+   ![Detalle del pedido](./assets/storefront-orders-and-returns-order-information.png){width="700" zoomable="yes"}
 
-1. Elige el elemento que se va a devolver e introduce el **[!UICONTROL Quantity to Return]**.
+1. Elige el elemento que se va a devolver e introduce **[!UICONTROL Quantity to Return]**.
 
-1. Conjuntos **[!UICONTROL Resolution]** a uno de los siguientes:
+1. Establece **[!UICONTROL Resolution]** en una de las siguientes opciones:
 
    - Exchange
    - [Reembolso](../customers/refunds-customer-account.md)
    - [Crédito de tienda](../customers/store-credit-using.md)
 
-1. Conjuntos **[!UICONTROL Item Condition]** a uno de los siguientes:
+1. Establece **[!UICONTROL Item Condition]** en una de las siguientes opciones:
 
    - `Unopened`
    - `Opened`
    - `Damaged`
 
-1. Conjuntos **[!UICONTROL Reason to Return]** a uno de los siguientes:
+1. Establece **[!UICONTROL Reason to Return]** en una de las siguientes opciones:
 
    - `Wrong Color`
    - `Wrong Size`
@@ -76,6 +76,6 @@ El cliente completa los siguientes pasos en la tienda para enviar una autorizaci
 
    >[!NOTE]
    >
-   >Si el pedido contiene varios artículos y el cliente desea devolver otro, puede hacer clic en **[!UICONTROL Add Item To Return]**, seleccione el elemento y, a continuación, defina todas las opciones mencionadas.
+   >Si el pedido contiene varios artículos y el cliente desea devolver otro, puede hacer clic en **[!UICONTROL Add Item To Return]**, seleccionar el artículo y establecer todas las opciones mencionadas.
 
 1. Clics **[!UICONTROL Submit]**.

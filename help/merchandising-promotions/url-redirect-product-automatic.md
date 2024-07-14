@@ -1,6 +1,6 @@
 ---
 title: Redirecciones automáticas
-description: Obtenga información sobre cómo configurar las redirecciones automáticas que se generan cada vez que la clave URL de un producto o categoría cambia en la tienda de Commerce.
+description: Obtenga información sobre cómo configurar las redirecciones automáticas que se generan cada vez que la clave URL de un producto o categoría cambia en la tienda Commerce.
 exl-id: fbde09d3-a1a3-4bac-a850-4c74c99fe714
 feature: Categories, Products, Configuration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
@@ -20,35 +20,35 @@ Su tienda se puede configurar para que genere automáticamente una redirección 
 
 ## Configurar redirecciones automáticas
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Catalog]** y elija **[!UICONTROL Catalog]** debajo.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Search Engine Optimization]** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Search Engine Optimization]**.
 
-   ![Configuración del catálogo: optimización de los motores de búsqueda](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![Configuración del catálogo: optimización del motor de búsqueda](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
-1. Establecer **[!UICONTROL Create Permanent Redirect for URLs if URL Key Changed]** hasta `Yes`.
+1. Establezca **[!UICONTROL Create Permanent Redirect for URLs if URL Key Changed]** en `Yes`.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 ## Redirigir automáticamente las direcciones URL del producto
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Busque el producto en la lista y haga clic en para abrir el registro.
 
-1. Expandir ![Selector de expansión ](../assets/icon-display-expand.png) el **[!UICONTROL Search Engine Optimization]** sección.
+1. Expanda ![El selector de expansión ](../assets/icon-display-expand.png) en la sección **[!UICONTROL Search Engine Optimization]**.
 
    ![Optimización del motor de búsqueda de productos: redirección permanente](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 
 1. Para **[!UICONTROL URL Key]**, haga lo siguiente:
 
-   - Asegúrese de que la variable **[!UICONTROL Create Permanent Redirect for old URL]** La casilla de verificación está seleccionada. Si no es así, siga las instrucciones a [habilitar redirecciones automáticas](url-rewrite.md#configure-url-rewrites).
+   - Asegúrese de que la casilla de verificación **[!UICONTROL Create Permanent Redirect for old URL]** esté seleccionada. Si no, siga las instrucciones para [habilitar las redirecciones automáticas](url-rewrite.md#configure-url-rewrites).
 
-   - Actualice el **[!UICONTROL URL Key]** según sea necesario, utilice todos los caracteres en minúsculas y guiones no finales entre estos caracteres en lugar de espacios.
+   - Actualice **[!UICONTROL URL Key]** según sea necesario, usando todos los caracteres en minúsculas y guiones no finales entre estos caracteres en lugar de espacios.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
 
 1. Cuando se le pida que actualice la caché, siga los vínculos del mensaje situado en la parte superior del espacio de trabajo.
 
@@ -56,19 +56,19 @@ Su tienda se puede configurar para que genere automáticamente una redirección 
 
 ## Redirigir automáticamente las direcciones URL de categoría
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Busque la categoría en el árbol y haga clic en para abrir el registro.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Search Engine Optimization]** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Search Engine Optimization]**.
 
 1. Para **[!UICONTROL URL Key]**, haga lo siguiente:
 
-   - Asegúrese de que la variable **[!UICONTROL Create Permanent Redirect for old URL]** La casilla de verificación está seleccionada. Si no es así, siga las instrucciones a [habilitar redirecciones automáticas](url-rewrite.md#configure-url-rewrites).
+   - Asegúrese de que la casilla de verificación **[!UICONTROL Create Permanent Redirect for old URL]** esté seleccionada. Si no, siga las instrucciones para [habilitar las redirecciones automáticas](url-rewrite.md#configure-url-rewrites).
 
-   - Actualice el **[!UICONTROL URL Key]** según sea necesario, utilice todos los caracteres en minúsculas y guiones no finales entre estos caracteres en lugar de espacios.
+   - Actualice **[!UICONTROL URL Key]** según sea necesario, usando todos los caracteres en minúsculas y guiones no finales entre estos caracteres en lugar de espacios.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
 
 1. Cuando se le pida que actualice la caché, siga los vínculos del mensaje situado en la parte superior del espacio de trabajo.
 
@@ -80,16 +80,16 @@ Su tienda se puede configurar para que genere automáticamente una redirección 
 >
 >Si se desactiva la generación automática de reescrituras de URL de categorías/productos, se eliminan de forma permanente todas las reescrituras de URL de categorías/tipos de productos existentes, las cuales no se pueden restaurar. Esto podría causar conflictos de URL de categoría/tipo de producto sin resolver que requieren una actualización manual de la clave URL para resolverlos.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Catalog]** y elija **[!UICONTROL Catalog]** debajo.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Search Engine Optimization]** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Search Engine Optimization]**.
 
-1. Establecer **[!UICONTROL Generate "category/product" URL Rewrites]** hasta `No`.
+1. Establezca **[!UICONTROL Generate "category/product" URL Rewrites]** en `No`.
 
-1. En el diálogo de confirmación, haga clic en **[!UICONTROL OK]** para confirmar el cambio y la eliminación de las reescrituras de URL existentes.
+1. En el cuadro de diálogo de confirmación, haga clic en **[!UICONTROL OK]** para confirmar el cambio y la eliminación de las reescrituras de URL existentes.
 
-   ![Desactivar reescrituras de categoría/URL del producto: confirmar](./assets/seo-rewrite-off.png){width="350"}
+   ![Desactivar reescrituras de URL de productos/categorías: confirmar](./assets/seo-rewrite-off.png){width="350"}
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.

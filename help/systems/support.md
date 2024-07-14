@@ -23,29 +23,29 @@ El recopilador de datos recopila la información sobre el sistema que nuestro eq
 
 ### Ejecutar el recopilador de datos
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**.
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL New Backup]**.
 
-   Se tarda unos minutos en generar la copia de seguridad. Puede monitorizar los resultados del procesamiento haciendo clic en **[!UICONTROL Refresh Status]**. Cuando se completa, la copia de seguridad aparece en el _[!UICONTROL Data Collector]_rejilla.
+   Se tarda unos minutos en generar la copia de seguridad. Puede supervisar los resultados del procesamiento haciendo clic en **[!UICONTROL Refresh Status]**. Una vez completada, la copia de seguridad aparecerá en la cuadrícula _[!UICONTROL Data Collector]_.
 
 1. Para ver un registro con los detalles de la copia de seguridad, haga lo siguiente:
 
-   - En el _[!UICONTROL Action]_columna, seleccione **[!UICONTROL Show Log]**.
+   - En la columna _[!UICONTROL Action]_, seleccione **[!UICONTROL Show Log]**.
 
-   - Clic **[!UICONTROL Back]** para volver a la cuadrícula.
+   - Haga clic en **[!UICONTROL Back]** para regresar a la cuadrícula.
 
-   ![registro de recopilación de datos](./assets/data-collector-log.png){width="600" zoomable="yes"}
+   ![registro de recopilador de datos](./assets/data-collector-log.png){width="600" zoomable="yes"}
 
 ### Exportar datos de copia de seguridad
 
 1. En la primera columna, seleccione la casilla de la copia de seguridad que desea exportar.
 
-1. Utilice el **[!UICONTROL Export]** para elegir el formato de los datos exportados.
+1. Utilice el menú **[!UICONTROL Export]** para elegir el formato de los datos exportados.
 
    ![Formato de exportación](./assets/data-collector-export.png){width="600" zoomable="yes"}
 
-1. Acceda al archivo desde la ubicación de descarga del explorador web y **[!UICONTROL Save]** it.
+1. Acceda al archivo desde la ubicación de descarga del explorador web y **[!UICONTROL Save]** desde ella.
 
 ### Descargar datos de copia de seguridad
 
@@ -53,7 +53,7 @@ Una vez generada la copia de seguridad, puede descargar la copia de los datos de
 
 1. Busque la entidad de copia de seguridad necesaria en la cuadrícula.
 
-1. Asegúrese de que tiene un `Complete` estado.
+1. Asegúrese de que tenga un estado `Complete`.
 
 1. Haga clic en el nombre de la entidad en _[!UICONTROL Code Dump]_o_[!UICONTROL DB Dump]_ columnas.
 
@@ -61,11 +61,11 @@ El proceso de descarga debería iniciarse automáticamente.
 
 ## Eliminar datos de copia de seguridad
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**.
 
 1. Busque y seleccione los datos de copia de seguridad que desea eliminar.
 
-1. En el _[!UICONTROL Action]_, haga clic en **[!UICONTROL Delete]**.
+1. En la columna _[!UICONTROL Action]_, haga clic en **[!UICONTROL Delete]**.
 
 1. Para confirmar la acción, haga clic en **[!UICONTROL OK]**.
 
@@ -77,15 +77,15 @@ Desde la cuadrícula Informes del sistema, puede ver y descargar informes existe
 
 ### Acceso a informes del sistema
 
-En el _Administrador_ barra lateral, vaya a **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**.
+En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**.
 
-![Administrador - Informes del sistema](./assets/reports.png){width="600" zoomable="yes"}
+![Administrador - informes del sistema](./assets/reports.png){width="600" zoomable="yes"}
 
 ### Generación de un informe
 
-1. Haga clic **[!UICONTROL New Report]**.
+1. Haga clic en **[!UICONTROL New Report]**.
 
-1. En el **[!UICONTROL Groups]** , seleccione cada conjunto de información que desee incluir en el informe. De forma predeterminada, se seleccionan todos los grupos.
+1. En la lista **[!UICONTROL Groups]**, seleccione cada conjunto de información que desee incluir en el informe. De forma predeterminada, se seleccionan todos los grupos.
 
    ![Informe del sistema - seleccionar grupos](./assets/report-create.png){width="600" zoomable="yes"}
 
@@ -99,24 +99,24 @@ Puede encontrar información útil sobre los módulos instalados.
 
 **_Para ver la información del informe de cada módulo instalado:_**
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**.
-1. Haga clic **[!UICONTROL New Report]**.
-1. Seleccionar `Modules` desde el **[!UICONTROL Groups]** lista.
-1. Haga clic **[!UICONTROL Create]**.
-1. Una vez generado el informe, haga clic en **[!UICONTROL Select]** y luego **[!UICONTROL View]** para ver todas las versiones de los módulos.
-1. Clic **[!UICONTROL Download]** para descargar el informe.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**.
+1. Haga clic en **[!UICONTROL New Report]**.
+1. Seleccione `Modules` de la lista **[!UICONTROL Groups]**.
+1. Haga clic en **[!UICONTROL Create]**.
+1. Una vez generado el informe, haga clic en **[!UICONTROL Select]** y luego en **[!UICONTROL View]** para ver todas las versiones de los módulos.
+1. Haga clic en **[!UICONTROL Download]** para descargar el informe.
 
 ### Administrar informes del sistema
 
-En el **[!UICONTROL Action]** de la cuadrícula, seleccione una de las siguientes opciones:
+En la columna **[!UICONTROL Action]** de la cuadrícula, seleccione una de las siguientes opciones:
 
-- `View` : Utilice esta función para ver los detalles del informe.
-- `Delete` : Utilice esta función para eliminar el informe generado de la lista.
-- `Download` : Utilice esta función para guardar el informe como archivo de HTML.
+- `View`: utilice esta función para ver los detalles del informe.
+- `Delete` - Utilice esta función para eliminar el informe generado de la lista.
+- `Download`: utilice esta función para guardar el informe como archivo de HTML.
 
 ### Ver detalles del informe del sistema
 
-1. Para el informe que necesite, seleccione **[!UICONTROL View]** en el _[!UICONTROL Actions]_columna.
+1. Para el informe que necesita, seleccione **[!UICONTROL View]** en la columna _[!UICONTROL Actions]_.
 
 1. En el panel izquierdo, expanda ![Selector de expansión](../assets/icon-display-expand.png) cada sección del informe para ver los detalles.
 
@@ -126,17 +126,17 @@ En el **[!UICONTROL Action]** de la cuadrícula, seleccione una de las siguiente
 
 | Grupo de informes | Información incluida |
 | ------------ | -------------------- |
-| [!UICONTROL General] | Versión de Adobe Commerce<br>Recuento de datos<br>Estado de caché<br>Estado del índice |
+| [!UICONTROL General] | Versión de Adobe Commerce<br>Recuento de datos<br>Estado de la caché<br>Estado del índice |
 | [!UICONTROL Environment] | Información del entorno<br>Estado de MySQL |
-| [!UICONTROL Data] | Duplicar categorías por clave de URL<br>Duplicar productos por clave URL<br>Duplicar productos por SKU<br>Duplicar Pedidos Por Id De Incremento<br>Duplicar usuarios por correo electrónico<br>Datos de categorías dañadas |
+| [!UICONTROL Data] | Duplicar categorías por clave URL<br>Duplicar productos por clave URL<br>Duplicar productos por SKU<br>Duplicar pedidos por id. de incremento<br>Duplicar usuarios por correo electrónico<br>Datos de categorías dañadas |
 | [!UICONTROL Modules] | Lista de módulos personalizados<br>Lista de módulos deshabilitados<br>Lista de todos los módulos |
-| [!UICONTROL Configuration] | Configuración<br>Datos de `app/etc/env.php`<br>Métodos de envío<br>Métodos de pago<br>Matriz de funciones de pagos |
-| [!UICONTROL Logs] | Archivos de registro<br>Mensajes principales del sistema<br>Mensajes principales del sistema de hoy<br>Mensajes de depuración principales<br>Principales mensajes de depuración de hoy<br>Principales mensajes de excepción<br>Principales mensajes de excepción de hoy |
-| [!UICONTROL Attributes] | Atributos EAV definidos por el usuario<br>Nuevos atributos de EAV<br>Tipos de entidad<br>Todos los atributos de EAV<br>Atributos de EAV de categoría<br>Atributos EAV del producto<br>Atributos EAV del cliente<br>Atributo EAV de la dirección del cliente<br>Atributos EAV de artículos RMA |
-| [!UICONTROL Events] | Eventos globales personalizados<br>Eventos de administración personalizados<br>Eventos de front-end personalizados<br>Eventos de documentos personalizados<br>Eventos personalizados de Crontab<br>Eventos REST personalizados<br>Eventos SOAP personalizados<br>Eventos globales principales<br>Eventos de administración principal<br>Eventos de front-end principales<br>Eventos de documentos principales<br>Eventos principales de Crontab<br>Eventos de REST principales<br>Eventos SOAP principales<br>Todos los eventos globales<br>Todos los eventos de administración<br>Todos los eventos de front-end<br>Todos los eventos del documento<br>Todos los eventos REST<br>Todos los eventos SOAP<br>Todos los eventos de Crontab |
-| [!UICONTROL Cron] | Programaciones de Cron por código de estado<br>Programaciones de Cron por código de trabajo<br>Errores en la cola de programaciones de Cron<br>Lista de horarios de Cron<br>Trabajos Cron globales personalizados<br>Trabajos Cron configurables personalizados<br>Trabajos Cron globales principales<br>Trabajos Cron Core Configurables<br>Todos los trabajos de Cron globales<br>Todos los trabajos de Cron configurables |
-| [!UICONTROL Design] | Lista de temas de Adminhtml<br>Lista de temas de front-end |
-| [!UICONTROL Stores] | Árbol de sitios web<br>Lista de sitios web<br>Lista de tiendas<br>Lista de vistas de tienda |
+| [!UICONTROL Configuration] | Configuración<br>Datos de `app/etc/env.php`<br>Métodos de envío<br>Métodos de pago<br>Matriz de funcionalidad de pagos |
+| [!UICONTROL Logs] | Archivos de registro<br>Mensajes principales del sistema<br>Mensajes principales del sistema de hoy<br>Mensajes principales de depuración<br>Mensajes principales de depuración de hoy<br>Mensajes principales de excepción de hoy<br>Mensajes principales de excepción de hoy |
+| [!UICONTROL Attributes] | Atributos EAV definidos por el usuario<br>Nuevos atributos EAV<br>Tipos de entidad<br>Todos los atributos EAV<br>Atributos EAV de la categoría<br>Atributos EAV del producto<br>Atributos EAV del cliente<br>Atributo EAV de la dirección del cliente<br>Atributos EAV del elemento RMA |
+| [!UICONTROL Events] | SOAP SOAP SOAP Eventos globales personalizados<br>Eventos de administración personalizados<br>Eventos de front-end personalizados<br>Eventos de doc personalizados<br>Eventos de crontab personalizados<br>Eventos de REST personalizados<br>Eventos de administración personalizados<br>Eventos globales de núcleo<br>Eventos de administración de núcleo<br>Eventos de front-end de núcleo<br>Eventos de doc de núcleo<br>Eventos de crontab de núcleo<br>Eventos de rest de núcleo<br>Eventos de núcleo<br>Todos los eventos globales<br>Todos los eventos de administración<br>Todos los eventos de front<br>Todos los eventos de REST 8}Todos los eventos de la<br>Todos los eventos de Crontab<br><br> |
+| [!UICONTROL Cron] | Programaciones de Cron por código de estado<br>Programaciones de Cron por código de trabajo<br>Errores en la cola de programaciones de Cron<br>Lista de programaciones de Cron<br>Trabajos de Cron globales personalizados<br>Trabajos de Cron configurables personalizados<br>Trabajos de Cron globales principales<br>Trabajos de Cron configurables principales<br>Todos los trabajos de Cron globales<br>Todos los trabajos de Cron configurables |
+| [!UICONTROL Design] | Lista de temas de Adminhtml<br>Lista de temas de FrontEnd |
+| [!UICONTROL Stores] | Árbol de sitios web<br>Lista de sitios web<br>Lista de tiendas<br>Lista de vistas de tiendas |
 | Conector de OMS <br>_(visible con la integración de OMS)_ | Versión del conector<br>Supervisión del conector<br>Resultados del procesamiento de mensajes |
 
 {style="table-layout:auto"}

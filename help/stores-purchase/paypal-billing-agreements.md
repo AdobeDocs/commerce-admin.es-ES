@@ -12,51 +12,51 @@ ht-degree: 0%
 
 # Acuerdos de facturación de PayPal
 
-Para simplificar el proceso de pago y envío, los clientes pueden firmar un acuerdo de facturación con PayPal como proveedor de servicios de pago. Durante el proceso de pago, el cliente elige el acuerdo de facturación como forma de pago. El sistema de pago verifica el acuerdo de facturación por su número único y carga la cuenta del cliente. Cuando se establece un acuerdo de facturación, ya no es necesario que el cliente introduzca la información de pago de cada compra. Los clientes pueden administrar sus acuerdos de facturación desde el panel de su cuenta de cliente, donde el estado de cada uno de ellos se muestra como _Activo_ o _Cancelado_. Cuando se cancela un acuerdo de facturación, no se puede reactivar.
+Para simplificar el proceso de pago y envío, los clientes pueden firmar un acuerdo de facturación con PayPal como proveedor de servicios de pago. Durante el proceso de pago, el cliente elige el acuerdo de facturación como forma de pago. El sistema de pago verifica el acuerdo de facturación por su número único y carga la cuenta del cliente. Cuando se establece un acuerdo de facturación, ya no es necesario que el cliente introduzca la información de pago de cada compra. Los clientes pueden administrar sus contratos de facturación desde el panel de su cuenta de cliente, donde el estado de cada uno de ellos se muestra como _Activo_ o _Cancelado_. Cuando se cancela un acuerdo de facturación, no se puede reactivar.
 
 ## Flujo de trabajo del acuerdo de facturación
 
-1. **El cliente se suscribe a un acuerdo de facturación**. Una vez establecido un acuerdo de facturación, los acuerdos de facturación adicionales solo se pueden agregar desde la cuenta del cliente. No hay límite en el número de acuerdos de facturación que puede crear un cliente. Los clientes pueden utilizar cualquiera de los siguientes métodos para suscribirse a contratos de facturación:
+1. **El cliente se suscribe a un contrato de facturación**. Una vez establecido un acuerdo de facturación, los acuerdos de facturación adicionales solo se pueden agregar desde la cuenta del cliente. No hay límite en el número de acuerdos de facturación que puede crear un cliente. Los clientes pueden utilizar cualquiera de los siguientes métodos para suscribirse a contratos de facturación:
 
-   - **Registrarse en la cuenta de cliente** - Los clientes pueden suscribirse a un acuerdo de facturación desde sus cuentas de cliente.
-   - **Registrarse al finalizar la compra** - Los clientes que pagan por una compra con PayPal Express Checkout pueden marcar una casilla de verificación para crear un acuerdo de facturación. Aunque el acuerdo de facturación no se utiliza para el pedido actual, estará disponible como opción de método de pago la próxima vez que el cliente realice un pedido.
-   - **Registrarse por el administrador de la tienda** - A petición del cliente, el administrador de la tienda puede crear un pedido de ventas utilizando el acuerdo de facturación del cliente.
+   - **Registrarse en la cuenta de cliente**: los clientes pueden suscribirse a un acuerdo de facturación desde sus cuentas de cliente.
+   - **Registrarse al finalizar la compra** - Los clientes que paguen una compra con Pago y envío de PayPal Express pueden marcar una casilla de verificación para crear un acuerdo de facturación. Aunque el acuerdo de facturación no se utiliza para el pedido actual, estará disponible como opción de método de pago la próxima vez que el cliente realice un pedido.
+   - **Registrarse por el administrador de la tienda**: a petición del cliente, el administrador de la tienda puede crear un pedido de ventas utilizando el acuerdo de facturación del cliente.
 
 1. **PayPal verifica y registra el acuerdo**. Cuando el cliente realiza el pedido con pago por acuerdo de facturación, el ID de referencia del acuerdo de facturación y los detalles del pago del pedido de venta se transfieren a PayPal y se registran en la cuenta del cliente, junto con la información de referencia. Si el pago está autorizado, se crea un pedido en Commerce. El ID de referencia del acuerdo de facturación se envía al cliente y a la tienda.
 
 ## Administrar acuerdos de facturación
 
-El _[!UICONTROL Billing Agreements]_Esta página enumera todos los acuerdos de facturación entre su tienda y sus clientes. Los comerciantes pueden filtrar los registros según la información del acuerdo de facturación o del cliente, incluidos el ID de referencia del acuerdo de facturación, el estado y la fecha de creación. Cada registro incluye información general sobre el acuerdo de facturación y todos los pedidos de venta que lo han utilizado como método de pago. Puede consultar, cancelar o suprimir acuerdos de facturación de clientes. Solamente el administrador de la tienda puede eliminar un acuerdo de facturación cancelado.
+La página _[!UICONTROL Billing Agreements]_enumera todos los contratos de facturación entre su tienda y sus clientes. Los comerciantes pueden filtrar los registros según la información del acuerdo de facturación o del cliente, incluidos el ID de referencia del acuerdo de facturación, el estado y la fecha de creación. Cada registro incluye información general sobre el acuerdo de facturación y todos los pedidos de venta que lo han utilizado como método de pago. Puede consultar, cancelar o suprimir acuerdos de facturación de clientes. Solamente el administrador de la tienda puede eliminar un acuerdo de facturación cancelado.
 
 ### Ver un acuerdo de facturación
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
 
 1. Busque el acuerdo de facturación en la lista y haga clic en para abrirlo.
 
-Cada página de acuerdo de facturación consta de dos pestañas: _[!UICONTROL General Information]_y_[!UICONTROL Related Orders]_.
+Cada página de acuerdo de facturación consta de dos fichas: _[!UICONTROL General Information]_y_[!UICONTROL Related Orders]_.
 
 #### Información general
 
 Esta pestaña incluye la información general sobre el acuerdo de facturación:
 
-- [!UICONTROL Reference ID]: Un identificador numérico único asignado al acuerdo de facturación actual.
-- [!UICONTROL Customer]: Cuenta del cliente asignada al acuerdo de facturación actual.
-- [!UICONTROL Status]: Estado del acuerdo de pago.
-- [!UICONTROL Created At]: Fecha de creación.
-- [!UICONTROL Updated At]: Fecha de actualización.
+- [!UICONTROL Reference ID]: identificador numérico único asignado al contrato de facturación actual.
+- [!UICONTROL Customer]: cuenta del cliente asignada al contrato de facturación actual.
+- [!UICONTROL Status]: estado del acuerdo de pago.
+- [!UICONTROL Created At]: fecha de creación.
+- [!UICONTROL Updated At]: fecha de actualización.
 
-![Consulta de acuerdo de facturación](./assets/billing-agreement-view.png){width="600" zoomable="yes"}
+![Vista del contrato de facturación](./assets/billing-agreement-view.png){width="600" zoomable="yes"}
 
 #### Pedidos relacionados
 
 Esta pestaña muestra la lista de los pedidos realizados con el acuerdo de facturación actual.
 
-![Consulta de acuerdo de facturación](./assets/billing-agreement-related-orders.png){width="600" zoomable="yes"}
+![Vista del contrato de facturación](./assets/billing-agreement-related-orders.png){width="600" zoomable="yes"}
 
 ### Cancelar un acuerdo de facturación
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
 
 1. Busque el acuerdo de facturación en la lista y haga clic en para abrirlo.
 
@@ -66,7 +66,7 @@ Esta pestaña muestra la lista de los pedidos realizados con el acuerdo de factu
 
 ### Eliminar un acuerdo de facturación
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
 
 1. Busque el acuerdo de facturación en la lista y haga clic en para abrirlo.
 
@@ -108,32 +108,32 @@ Los clientes que suscriban un acuerdo de facturación con un proveedor de pago p
 
 ### Crear un acuerdo de facturación
 
-1. En el panel de cuentas, el cliente selecciona **[!UICONTROL Billing Agreements]**.
+1. En su panel de cuentas, el cliente selecciona **[!UICONTROL Billing Agreements]**.
 
-1. En **[!UICONTROL New Billing Agreement]**, selecciona un proveedor de pagos.
+1. En **[!UICONTROL New Billing Agreement]**, selecciona un proveedor de pago.
 
-1. Haga clic **[!UICONTROL Create]**.
+1. Haga clic en **[!UICONTROL Create]**.
 
 Esta acción redirige al cliente al sitio web del sistema de pago.
 
-![Nuevo acuerdo de facturación en el panel de cuenta del cliente](./assets/create-billing-agreement-dashboard.png){width="700" zoomable="yes"}
+![Nuevo acuerdo de facturación en el panel de cuentas del cliente](./assets/create-billing-agreement-dashboard.png){width="700" zoomable="yes"}
 
 ### Ver un acuerdo de facturación
 
-1. En el panel de cuentas, el cliente selecciona **[!UICONTROL Billing Agreements]**.
+1. En su panel de cuentas, el cliente selecciona **[!UICONTROL Billing Agreements]**.
 
-1. Selecciona el acuerdo de facturación y hace clic en **[!UICONTROL View]**.
+1. Selecciona el contrato de facturación y hace clic en **[!UICONTROL View]**.
 
 ![Ver acuerdo de facturación en el panel del cliente](./assets/view-billing-agreement.png){width="700" zoomable="yes"}
 
 ### Cancelar un acuerdo de facturación
 
-1. En el panel de cuentas, el cliente selecciona **[!UICONTROL Billing Agreements]**.
+1. En su panel de cuentas, el cliente selecciona **[!UICONTROL Billing Agreements]**.
 
-1. Selecciona el acuerdo de facturación y hace clic en **[!UICONTROL View]**.
+1. Selecciona el contrato de facturación y hace clic en **[!UICONTROL View]**.
 
-1. En la esquina superior derecha, haga clic en **[!UICONTROL Cancel]** y luego **[!UICONTROL OK]** para confirmar.
+1. En la esquina superior derecha, haga clic en **[!UICONTROL Cancel]** y luego en **[!UICONTROL OK]** para confirmar.
 
 >[!NOTE]
 >
->Si un usuario administrador (comerciante) cancela el acuerdo de facturación, no se puede cancelar en la tienda. El _Cancelado_ se muestra el estado de este acuerdo.
+>Si un usuario administrador (comerciante) cancela el acuerdo de facturación, no se puede cancelar en la tienda. Se muestra el estado _Cancelado_ para este contrato.

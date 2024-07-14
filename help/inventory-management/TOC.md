@@ -1,6 +1,6 @@
 ---
 user-guide-title: "[!DNL Inventory Management] Guía del usuario"
-user-guide-description: Aprenda a utilizar [!DNL Inventory Management] funciones para mantener las cantidades para las ventas y gestionar los envíos que se van a completar [!DNL Commerce] pedidos.
+user-guide-description: Aprenda a utilizar las características  [!DNL Inventory Management] para mantener las cantidades de ventas y controlar los envíos para completar  [!DNL Commerce] pedidos.
 breadcrumb-title: "[!DNL Inventory Management]"
 role: Admin, Leader, User
 feature: Inventory
@@ -12,14 +12,14 @@ ht-degree: 5%
 ---
 
 
-# [!DNL Inventory Management] Guía del usuario {#inventory}
+# Guía del usuario de [!DNL Inventory Management] {#inventory}
 
 - [Guía de Inventory management](guide-overview.md)
-- [Introducción a [!DNL Inventory Management]](introduction.md)
+- [Introducción a  [!DNL Inventory Management]](introduction.md)
 - [Notas de la versión](release-notes.md)
 - Conceptos básicos de inventario {#basics}
    - [Fuentes y existencias](sources-stocks.md)
-   - [Selección de fuentes y reservas](selection-reservations.md)
+   - [Selección y reservas de Source](selection-reservations.md)
    - [Estado del pedido y la reserva](order-status.md)
    - [Tipos de productos](product-types.md)
 - Introducción a {#get-started}
@@ -29,16 +29,16 @@ ht-degree: 5%
    - [Expandir y reestructurar el inventario](expand-restructure.md)
 - Configuración {#configuration}
    - [Información general](configuration.md)
-   - [Activar [!DNL Inventory Management]](enable.md)
+   - [Habilitar  [!DNL Inventory Management]](enable.md)
    - [Configurar opciones globales](global-options.md)
    - [Configuración de opciones de producto](product-options.md)
    - [Configurar pedidos pendientes](backorders.md)
    - [Configurar prioridad de origen](source-priority-algorithm.md)
    - [Configurar prioridad de distancia](distance-priority-algorithm.md)
-   - Alertas de productos {#product-alerts}
+   - Alertas de producto {#product-alerts}
       - [Configurar alertas de productos](alert-setup.md)
       - [Escenarios de mensajes de stock](stock-messages.md)
-- Administrar fuentes {#sources}
+- Administrar orígenes {#sources}
    - [Información general](sources-manage.md)
    - [Añadir fuentes](sources-add.md)
    - [Deshabilitar orígenes](sources-disable.md)
@@ -58,5 +58,5 @@ ht-degree: 5%
    - [Información general](shipments.md)
    - [Creación de envíos](shipments-create.md)
 - [Referencia de CLI](cli.md)
-- [Volver a Guías de Comerciantes](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Volver a las guías del comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

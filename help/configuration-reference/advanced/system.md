@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Advanced] &gt; [!UICONTROL System]'
-description: Revise la configuración de en [!UICONTROL Advanced] &gt; [!UICONTROL System] de la administración de Commerce.
+description: Revise la configuración en la página [!UICONTROL Advanced] &gt; [!UICONTROL System] del administrador de Commerce.
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 ![Configuración avanzada - Cron (Tareas programadas)](./assets/system-cron.png)<!-- zoom -->
 
-Para obtener más información sobre cómo cambiar estas opciones de configuración, consulte [Cron (tareas programadas)](../../systems/cron.md).
+Para obtener más información acerca de cómo cambiar esta configuración, vea [Cron (tareas programadas)](../../systems/cron.md).
 
 ### [!UICONTROL index]
 
-![Configuración avanzada - Grupo Cron: Índice](./assets/system-cron-group-index.png)<!-- zoom -->
+![Configuración avanzada - Grupo Cron: Index](./assets/system-cron-group-index.png)<!-- zoom -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -57,7 +57,7 @@ Para obtener más información sobre cómo cambiar estas opciones de configuraci
 
 {{ee-feature}}
 
-![Configuración avanzada - Limpieza de la cola de mensajes MySQL](./assets/system-mysql-message-queue-cleanup.png)<!-- zoom -->
+![Configuración avanzada - Limpieza de cola de mensajes MySQL](./assets/system-mysql-message-queue-cleanup.png)<!-- zoom -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -70,13 +70,13 @@ Para obtener más información sobre cómo cambiar estas opciones de configuraci
 
 ## [!UICONTROL Mail Sending Settings]
 
-![Configuración avanzada: configuración de envío de correo](./assets/system-mail-sending-settings.png)<!-- zoom -->
+![Configuración avanzada - Configuración de envío de correo](./assets/system-mail-sending-settings.png)<!-- zoom -->
 
-Para obtener más información sobre cómo cambiar esta configuración, consulte [Configurar comunicaciones por correo electrónico](../../systems/email-communications.md) en el _Guía de sistemas de administración_.
+Para obtener más información sobre cómo cambiar esta configuración, consulte [Configurar comunicaciones por correo electrónico](../../systems/email-communications.md) en la _Guía de sistemas de administración_.
 
 >[!IMPORTANT]
 >
->**Aviso de seguridad** Recomendamos que todos los comerciantes establezcan inmediatamente su configuración de envío de correo para protegerse de un posible ataque de ejecución de código remoto identificado recientemente. Hasta que se resuelva, es muy recomendable que evite utilizar [!DNL Sendmail] para comunicaciones por correo electrónico. En el [!UICONTROL Mail Sending Settings], asegúrese de que [!UICONTROL Set Return Path] se establece en `No`.
+>**Aviso de seguridad** Recomendamos que todos los comerciantes establezcan inmediatamente su configuración de envío de correo para protegerse contra un posible ataque de ejecución de código remoto identificado recientemente. Hasta que se resuelva este problema, es muy recomendable que evite usar [!DNL Sendmail] para comunicaciones por correo electrónico. En [!UICONTROL Mail Sending Settings], asegúrese de que [!UICONTROL Set Return Path] está establecido en `No`.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -92,7 +92,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 Al seleccionar SMTP en el tipo de transporte, hay opciones adicionales disponibles para configurar la conexión del servidor SMTP.
 
-![Configuración avanzada: configuración de envío de correo con SMTP](./assets/system-mail-sending-settings-smtp.png)<!-- zoom -->
+![Configuración avanzada - Configuración de envío de correo con SMTP](./assets/system-mail-sending-settings-smtp.png)<!-- zoom -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -107,32 +107,32 @@ Al seleccionar SMTP en el tipo de transporte, hay opciones adicionales disponibl
 
 ![Configuración avanzada - Moneda](./assets/system-currency.png)<!-- zoom -->
 
-Para obtener más información sobre cómo cambiar esta configuración, consulte [Configuración de moneda](../../stores-purchase/currency-configuration.md) en el _Guía de experiencia de compra y tienda_.
+Para obtener más información acerca de cómo cambiar esta configuración, consulte [Configuración de moneda](../../stores-purchase/currency-configuration.md) en la _Guía de tiendas y experiencia de compra_.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Installed Currencies] | Global | Indica las monedas que están disponibles actualmente para la instalación de Commerce. Las opciones incluyen todas las monedas disponibles, con las monedas instaladas seleccionadas. |
+| [!UICONTROL Installed Currencies] | Global | Indica las divisas disponibles actualmente para la instalación de Commerce. Las opciones incluyen todas las monedas disponibles, con las monedas instaladas seleccionadas. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Security]
 
-![Configuración avanzada: seguridad](./assets/system-security.png)<!-- zoom -->
+![Configuración avanzada - Seguridad](./assets/system-security.png)<!-- zoom -->
 
-Para obtener más información sobre cómo cambiar esta configuración, consulte [Administración de sesiones](../../systems/security-session-management.md) en el _Guía de sistemas de administración_.
+Para obtener más información sobre cómo cambiar esta configuración, consulte [Administración de sesiones](../../systems/security-session-management.md) en la _Guía de sistemas de administración_.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Max Session Size in Admin] | Global | Limitar el tamaño máximo de la sesión en bytes. Uso `0` para deshabilitar. |
-| [!UICONTROL Max Session Size in Storefront] | Global | Limitar el tamaño máximo de la sesión en bytes. Uso `0` para deshabilitar. |
+| [!UICONTROL Max Session Size in Admin] | Global | Limitar el tamaño máximo de la sesión en bytes. Use `0` para deshabilitar. |
+| [!UICONTROL Max Session Size in Storefront] | Global | Limitar el tamaño máximo de la sesión en bytes. Use `0` para deshabilitar. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Notifications]
 
-![Configuración avanzada: notificaciones](./assets/system-notifications.png)<!-- zoom -->
+![Configuración avanzada - Notificaciones](./assets/system-notifications.png)<!-- zoom -->
 
-Para obtener más información sobre cómo cambiar esta configuración, consulte [Notificaciones del sistema](../../systems/notifications.md) en el _Guía de sistemas de administración_.
+Para obtener más información sobre cómo cambiar esta configuración, consulte [Notificaciones del sistema](../../systems/notifications.md) en la _Guía de sistemas de administración_.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -144,20 +144,20 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 ## [!UICONTROL Backup Settings]
 
-![Configuración avanzada: ajustes de copia de seguridad](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
+![Configuración avanzada - Configuración de copia de seguridad](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
 
 {{$include /help/_includes/backups-note.md}}
 
-Para obtener más información sobre cómo cambiar esta configuración, consulte [Copias de seguridad del sistema](../../systems/backups.md) en el _Guía de sistemas de administración_.
+Para obtener más información acerca de cómo cambiar esta configuración, consulte [Copias de seguridad del sistema](../../systems/backups.md) en la _Guía de sistemas de administración_.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | Global | Determina si la instancia de Commerce permite copias de seguridad. Opciones: `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | Global | (Se muestra cuando _[!UICONTROL Enable Backup]_se establece en `Yes`.) Determina si se realiza automáticamente una copia de seguridad de la instancia de Commerce según una programación regular. Opciones: `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | Global | (Se muestra cuando _[!UICONTROL Enable Scheduled Backup]_se establece en `Yes`.) Determina los elementos de la instancia de Commerce que se incluyen en la copia de seguridad. Opciones: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
-| [!UICONTROL Start Time] | Global | (Se muestra cuando [!UICONTROL Enable Scheduled Backup] se establece en `Yes`.) Especifica la hora, el minuto y el segundo en que comienza la copia de seguridad programada. |
-| [!UICONTROL Frequency] | Global | (Se muestra cuando [!UICONTROL Enable Scheduled Backup] se establece en `Yes`.) Determina con qué frecuencia se realiza la copia de seguridad programada. Opciones: `Daily` / `Weekly` / `Monthly` |
-| [!UICONTROL Maintenance Mode] | Global | (Se muestra cuando [!UICONTROL Enable Scheduled Backup] se establece en `Yes`.) Determina si la tienda se pone en modo de mantenimiento durante la copia de seguridad programada. Opciones: `Yes` / `No` |
+| [!UICONTROL Enable Scheduled Backup] | Global | (Se muestra cuando _[!UICONTROL Enable Backup]_está establecido en `Yes`.) Determina si se realiza automáticamente una copia de seguridad de la instancia de Commerce según una programación regular. Opciones: `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | Global | (Se muestra cuando _[!UICONTROL Enable Scheduled Backup]_está establecido en `Yes`.) Determina los elementos de la instancia de Commerce incluidos en la copia de seguridad. Opciones: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Start Time] | Global | (Se muestra cuando [!UICONTROL Enable Scheduled Backup] está establecido en `Yes`.) Especifica la hora, el minuto y el segundo en que comienza la copia de seguridad programada. |
+| [!UICONTROL Frequency] | Global | (Se muestra cuando [!UICONTROL Enable Scheduled Backup] está establecido en `Yes`.) Determina con qué frecuencia se realiza la copia de seguridad programada. Opciones: `Daily` / `Weekly` / `Monthly` |
+| [!UICONTROL Maintenance Mode] | Global | (Se muestra cuando [!UICONTROL Enable Scheduled Backup] está establecido en `Yes`.) Determina si la tienda se pone en modo de mantenimiento durante la copia de seguridad programada. Opciones: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -165,9 +165,9 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 {{ee-feature}}
 
-![Configuración avanzada: archivado del registro de acciones de administración](./assets/system-admin-actions-log-archiving.png)<!-- zoom -->
+![Configuración avanzada - Archivado del registro de acciones de administración](./assets/system-admin-actions-log-archiving.png)<!-- zoom -->
 
-Para obtener más información sobre cómo cambiar esta configuración, consulte [Archivo de registro de acciones](../../systems/action-log-archive.md) en el _Guía de sistemas de administración_.
+Para obtener más información acerca de cómo cambiar esta configuración, consulte [Archivo de registro de acciones](../../systems/action-log-archive.md) en la _Guía de sistemas de administración_.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -178,26 +178,26 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 ## [!UICONTROL Full Page Cache]
 
-![Configuración avanzada: caché de página completa](./assets/system-full-page-cache.png)<!-- zoom -->
+![Configuración avanzada - Caché de página completa](./assets/system-full-page-cache.png)<!-- zoom -->
 
-Para obtener más información sobre cómo cambiar esta configuración, consulte [Almacenamiento en caché de página completa](../../systems/cache-management.md#full-page-caching) en el _Guía de sistemas de administración_.
+Para obtener más información sobre cómo cambiar esta configuración, consulte [Almacenamiento en caché de página completa](../../systems/cache-management.md#full-page-caching) en la _Guía de sistemas de administración_.
 
 ![Configuración avanzada - Configuración de barniz](./assets/system-full-page-cache-varnish.png)<!-- zoom -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Caching Application] | Global | Determina la aplicación que se utiliza para administrar la caché de página completa. Opciones: <br/>**`Built-in Application`**- No recomendado para el entorno de producción.<br/>**`Varnish Caching`** - Recomendado para el entorno de producción. |
+| [!UICONTROL Caching Application] | Global | Determina la aplicación que se utiliza para administrar la caché de página completa. Opciones: <br/>**`Built-in Application`**- No recomendado para el entorno de producción.<br/>**`Varnish Caching`**: recomendado para el entorno de producción. |
 | [!UICONTROL TTL for public content] | Global | Determina la duración de la caché de contenido público en segundos. Valor predeterminado: `120` |
-| [!UICONTROL Handles param size] | global | Especifica el número máximo de [controladores de diseño](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) para procesar en [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) Extremo HTTP. Restringir el tamaño puede mejorar la seguridad y el rendimiento. Valor predeterminado: `100` |
+| [!UICONTROL Handles param size] | global | Especifica el número máximo de [controladores de diseño](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) que se procesarán en el extremo HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html). Restringir el tamaño puede mejorar la seguridad y el rendimiento. Valor predeterminado: `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | Global | Especifica las direcciones IP que pueden purgar la configuración de Barniz para generar un archivo de configuración. Separe las distintas entradas con comas. Valor predeterminado: `localhost` |
 | [!UICONTROL Backend host] | Global | Especifica el host backend que genera los archivos de configuración. Valor predeterminado: `localhost` |
 | [!UICONTROL Backend port] | Global | Especifica el puerto back-end que se utiliza para generar archivos de configuración. Valor predeterminado: `8080` |
 | [!UICONTROL Grace period] | Global | Determina cuánto tiempo sirve Barnish al contenido obsoleto si el backend no responde. Valor predeterminado: `300` |
 | **[!UICONTROL Export Configuration]** |  |  |
-| [!UICONTROL Export VCL for Varnish 4] | Global | Exporta el `varnish.vcl` para la versión 4. |
-| [!UICONTROL Export VCL for Varnish 5] | Global | Exporta el `varnish.vcl` para la versión 5. |
-| [!UICONTROL Export VCL for Varnish 6] | Global | Exporta el `varnish.vcl` para la versión 6. |
+| [!UICONTROL Export VCL for Varnish 4] | Global | Exporta el archivo `varnish.vcl` para la versión 4. |
+| [!UICONTROL Export VCL for Varnish 5] | Global | Exporta el archivo `varnish.vcl` para la versión 5. |
+| [!UICONTROL Export VCL for Varnish 6] | Global | Exporta el archivo `varnish.vcl` para la versión 6. |
 
 {style="table-layout:auto"}
 
@@ -205,7 +205,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 ![Configuración avanzada - Configuración de almacenamiento para medios - Sistema de archivos](./assets/system-storage-config-media.png)<!-- zoom -->
 
-Para obtener más información sobre cómo cambiar esta configuración, consulte [Usar una base de datos de medios](../../content-design/media-storage-database.md) en el _Guía de diseño y contenido_.
+Para obtener más información acerca de cómo cambiar esta configuración, consulte [Usar una base de datos multimedia](../../content-design/media-storage-database.md) en la _Guía de contenido y diseño_.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -233,13 +233,13 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 {{ee-feature}}
 
-![Configuración avanzada: acciones masivas](./assets/system-bulk-actions.png)<!-- zoom -->
+![Configuración avanzada - Acciones en masa](./assets/system-bulk-actions.png)<!-- zoom -->
 
-Para obtener más información sobre cómo cambiar esta configuración, consulte [Acciones masivas](../../systems/action-log-bulk-actions.md) en el _Guía de sistemas de administración_.
+Para obtener más información sobre cómo cambiar esta configuración, consulte [Acciones masivas](../../systems/action-log-bulk-actions.md) en la _Guía de sistemas de administración_.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Days Saved in Log] | Global | Determina el número de días que se conservan las acciones masivas en el _Registro de acciones masivas_ archive. Predeterminado: `60` |
+| [!UICONTROL Days Saved in Log] | Global | Determina el número de días que se guardan las acciones masivas en el archivo _Registro de acciones masivas_. Predeterminado: `60` |
 
 {style="table-layout:auto"}
 
@@ -249,7 +249,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 ![Configuración avanzada - Limpieza programada del historial de importación/exportación de archivos](./assets/system-schedule-history-cleaning.png)<!-- zoom -->
 
-Para obtener más información sobre cómo cambiar esta configuración, consulte [Importación y exportación programadas](../../systems/data-scheduled-import-export.md) en el _Guía de sistemas de administración_.
+Para obtener más información sobre cómo cambiar esta configuración, consulte [Importación y exportación programadas](../../systems/data-scheduled-import-export.md) en la _Guía de sistemas de administración_.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -266,14 +266,14 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 ## [!UICONTROL Image Upload Configuration]
 
-![Configuración avanzada: configuración de carga de imagen](./assets/system-image-upload-configuration.png)<!-- zoom -->
+![Configuración avanzada - Configuración de carga de imagen](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
 <!-- [Image Upload Configuration](https://docs.magento.com/user-guide/system/action-log-bulk-actions.html) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Quality] | Global | Determina la calidad del JPG para la imagen cuyo tamaño se ha cambiado. Una calidad menor reduce el tamaño del archivo. Utilice del 80 al 90% para reducir el tamaño del archivo con alta calidad. Predeterminado: `80` |
-| [!UICONTROL Enable Frontend Resize] | Global | Active esta configuración para permitir que Commerce cambie el tamaño de las imágenes grandes y sobredimensionadas que puede cargar para _Detalles del producto_ página. Commerce cambia el tamaño de los archivos de imagen mediante JavaScript antes de cargar el archivo. Cuando se cambia el tamaño de la imagen, se conservan las proporciones exactas para cumplir y no superar el tamaño más grande para la anchura máxima o la altura máxima. Predeterminado: `Yes` |
+| [!UICONTROL Quality] | Global | JPG Determina la calidad de la imagen que se ha cambiado de tamaño en la que se ha obtenido la. Una calidad menor reduce el tamaño del archivo. Utilice del 80 al 90% para reducir el tamaño del archivo con alta calidad. Predeterminado: `80` |
+| [!UICONTROL Enable Frontend Resize] | Global | Active esta configuración para permitir que Commerce cambie el tamaño de las imágenes grandes y sobredimensionadas que puede cargar para la página _Detalles del producto_. Commerce cambia el tamaño de los archivos de imagen mediante JavaScript antes de cargar el archivo. Cuando se cambia el tamaño de la imagen, se conservan las proporciones exactas para cumplir y no superar el tamaño más grande para la anchura máxima o la altura máxima. Predeterminado: `Yes` |
 | [!UICONTROL Maximum Width] | Global | Determina la anchura máxima en píxeles de la imagen. Cuando se cambia el tamaño de la imagen, no se supera esta anchura. Predeterminado: `1920` |
 | [!UICONTROL Maximum Height] | Global | Determina la altura máxima en píxeles de la imagen. Cuando se cambia el tamaño de la imagen, no se supera esta altura. Predeterminado: `1200` |
 
@@ -281,7 +281,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 ## [!UICONTROL Media Gallery]
 
-![Configuración avanzada: Galería de medios](./assets/system-media-gallery.png)<!-- zoom -->
+![Configuración avanzada - Galería multimedia](./assets/system-media-gallery.png)<!-- zoom -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -303,9 +303,9 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 ## [!UICONTROL Adobe Stock Integration]
 
-![Configuración avanzada: integración con Adobe Stock](./assets/system-adobe-stock-integration.png)<!-- zoom -->
+![Configuración avanzada: integración de Adobe Stock](./assets/system-adobe-stock-integration.png)<!-- zoom -->
 
-Para obtener más información sobre la configuración de estos ajustes, consulte [Integración de Adobe Stock](../../content-design/adobe-stock.md) en el _Guía de diseño y contenido_.
+Para obtener más información acerca de cómo establecer esta configuración, consulte [Integración de Adobe Stock](../../content-design/adobe-stock.md) en la _Guía de contenido y diseño_.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |

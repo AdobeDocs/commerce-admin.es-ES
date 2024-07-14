@@ -4,7 +4,7 @@ description: Los segmentos de cliente le permiten mostrar dinámicamente conteni
 exl-id: b254a6ac-cb0b-46c1-9ef7-ffc97360a98e
 source-git-commit: 0b9f394a792171e93ee72f3b4ebb904b96ea1051
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Para comprender mejor la diferencia entre [grupos de clientes](../customers/cust
 
 ## Atributos de segmento de clientes
 
-Los atributos del segmento de clientes se definen de manera similar a las reglas de precios del catálogo y del carro de compras. Para que un atributo se utilice en una condición de segmento de cliente, la variable _[!UICONTROL Use in Customer Segment]_[propiedad](attribute-properties.md#) se debe establecer en `Yes`. Las condiciones de los segmentos de cliente pueden incorporar los siguientes tipos de atributos:
+Los atributos del segmento de clientes se definen de manera similar a las reglas de precios del catálogo y del carro de compras. Para que se use un atributo en una condición de segmento de cliente, la _[!UICONTROL Use in Customer Segment]_[propiedad](attribute-properties.md#) debe establecerse en `Yes`. Las condiciones de los segmentos de cliente pueden incorporar los siguientes tipos de atributos:
 
 | Atributo | Descripción |
 |---|---|
@@ -42,9 +42,9 @@ Los atributos del segmento de clientes se definen de manera similar a las reglas
 
 {style="table-layout:auto"}
 
-Consulte [Crear y eliminar segmentos de clientes](../customers/customer-segment-create.md) para obtener más información sobre la definición de segmentos de clientes.
+Consulte [Crear y eliminar segmentos de clientes](../customers/customer-segment-create.md) para obtener más información sobre cómo definir segmentos de clientes.
 
 ## eBooks
 
-- **Segmentación de clientes** — Obtenga la [eBook](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html) para aprender a aumentar los beneficios y la satisfacción general del cliente.
-- **Tácticas de segmentación** — Obtenga la [eBook](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html) para mejorar la segmentación de sus mensajes y promociones y crear conversaciones significativas con sus clientes.
+- **Segmentación de clientes**: obtenga el [libro electrónico](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html) para aprender a aumentar las ganancias y la satisfacción general del cliente.
+- **Tácticas de segmentación**: obtenga el [libro electrónico](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html) para mejorar el direccionamiento de sus mensajes y promociones y crear conversaciones significativas con sus clientes.

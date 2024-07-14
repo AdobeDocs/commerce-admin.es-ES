@@ -5,14 +5,14 @@ exl-id: 5255fb63-a615-4b05-8b00-5c5a089cbb2d
 feature: Currency, Storefront
 source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
 
 # Moneda
 
-Adobe Commerce le permite aceptar divisas de más de 200 países de todo el mundo. Si el almacén admite varias monedas, _selector de moneda_ aparece en el encabezado después de que se cambien las tasas de cambio [actualizado](currency-update.md).
+Adobe Commerce le permite aceptar divisas de más de 200 países de todo el mundo. Si el almacén admite varias monedas, aparecerá un _selector de moneda_ en el encabezado después de que se hayan [actualizado las tarifas de moneda](currency-update.md).
 
 >[!NOTE]
 >

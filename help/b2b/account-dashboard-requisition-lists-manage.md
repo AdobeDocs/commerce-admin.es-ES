@@ -6,7 +6,7 @@ feature: B2B, Companies
 source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -18,9 +18,9 @@ El motivo principal para mantener una lista de solicitudes es facilitar la reorg
 
 ## Abrir una lista de solicitudes
 
-1. En su panel de cuentas, el cliente elige **[!UICONTROL My Requisition Lists]**.
+1. Desde su panel de cuentas, el cliente elige **[!UICONTROL My Requisition Lists]**.
 
-1. Busca la lista de solicitudes que desea abrir y hace clic en **[!UICONTROL View]** y realice una de las acciones siguientes:
+1. Busca la lista de solicitudes que desea abrir y hace clic en **[!UICONTROL View]** y realiza una de las acciones siguientes:
 
 ### Añadir productos al carro de compras
 
@@ -29,23 +29,23 @@ El motivo principal para mantener una lista de solicitudes es facilitar la reorg
    - Selecciona la casilla de verificación de cada elemento.
    - Clics **[!UICONTROL Select All]**.
 
-1. Ingresa el **[!UICONTROL Qty]** para que se añadan al carro de compras.
+1. Ingresa el(la) **[!UICONTROL Qty]** que se agregará al carrito.
 
 1. Para cambiar cualquier opción de producto, haga lo siguiente:
 
-   - En el elemento de línea, hace clic en _Editar_ (![Icono de lápiz](../assets/icon-edit-pencil.png)) icono.
+   - En el elemento de línea, hace clic en el icono _Editar_ (![Icono de lápiz](../assets/icon-edit-pencil.png)).
    - Cambia las opciones que sean necesarias.
    - Clics **[!UICONTROL Update Requisition List]**.
 
 1. Clics **[!UICONTROL Add to Cart]**.
 
-   ![Detalles de lista de solicitudes](./assets/requisition-list-view.png){width="700" zoomable="yes"}
+   ![Detalle de lista de solicitudes](./assets/requisition-list-view.png){width="700" zoomable="yes"}
 
 ### Copiar elementos en una lista diferente
 
 1. El cliente selecciona la casilla de verificación de cada elemento que se va a mover.
 
-1. Clics **[!UICONTROL Copy Selected]** y realiza una de las siguientes acciones:
+1. Hace clic en **[!UICONTROL Copy Selected]** y realiza una de las siguientes acciones:
 
    - Permite seleccionar una lista de solicitudes existente.
    - Clics **[!UICONTROL Create New Requisition List]**.
@@ -54,7 +54,7 @@ El motivo principal para mantener una lista de solicitudes es facilitar la reorg
 
 1. El cliente abre la lista de solicitudes que desea exportar.
 
-1. Hace clic en **[!UICONTROL Export]** vínculo.
+1. Hace clic en el vínculo **[!UICONTROL Export]**.
 
 Adobe Commerce genera y descarga una lista CSV con `sku` y `qty` valores.
 
@@ -62,7 +62,7 @@ Adobe Commerce genera y descarga una lista CSV con `sku` y `qty` valores.
 
 1. El cliente selecciona la casilla de verificación de cada elemento que se va a mover.
 
-1. Clics **[!UICONTROL Move Selected]** y realice una de las siguientes acciones:
+1. Hace clic en **[!UICONTROL Move Selected]** y realice una de las acciones siguientes:
 
    - Permite seleccionar una lista de solicitudes existente.
    - Clics **[!UICONTROL Create New Requisition List]**.
@@ -79,7 +79,7 @@ Adobe Commerce genera y descarga una lista CSV con `sku` y `qty` valores.
 
 Para editar las opciones de producto de la lista, el cliente hace lo siguiente:
 
-1. Hace clic en _Lápiz_ (![Icono de lápiz](../assets/icon-edit-pencil.png)) icono para abrir la página del producto.
+1. Hace clic en el icono _Lápiz_ (![Icono de lápiz](../assets/icon-edit-pencil.png)) para abrir la página del producto.
 
 1. Cambia las opciones que sean necesarias.
 
@@ -93,7 +93,7 @@ Un producto de la lista de solicitudes se puede editar cuando:
 
   El producto es **[!UICONTROL added to this Requisition List]**.
 
-- El producto es [un producto sencillo con opciones](../catalog/settings-advanced-custom-options.md)
+- El producto es [un producto simple con opciones](../catalog/settings-advanced-custom-options.md)
 
 - Se permite la edición para el tipo de producto.
 
@@ -103,13 +103,13 @@ Un producto de la lista de solicitudes se puede editar cuando:
 
 1. Clics **[!UICONTROL Remove Selected]**.
 
-1. Cuando se le pida que confirme, haga clic en **[!UICONTROL Delete]**.
+1. Cuando se le pida que confirme, hace clic en **[!UICONTROL Delete]**.
 
 ### Cambiar nombre de lista
 
 1. Después del título de la lista, el cliente hace clic en **[!UICONTROL Rename]**.
 
-1. Introduce un valor diferente **[!UICONTROL Requisition List Name]**.
+1. Escribe un(a) **[!UICONTROL Requisition List Name]** diferente.
 
 1. Clics **[!UICONTROL Save]**.
 
@@ -122,7 +122,7 @@ Un producto de la lista de solicitudes se puede editar cuando:
 
 1. Clics **[!UICONTROL Delete Requisition List]**.
 
-1. Cuando se le pida que confirme, haga clic en **[!UICONTROL Delete]**.
+1. Cuando se le pida que confirme, hace clic en **[!UICONTROL Delete]**.
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ Un producto de la lista de solicitudes se puede editar cuando:
 | [!UICONTROL Rename] | Permite cambiar el nombre de la lista de solicitudes y actualizar la descripción. |
 | [!UICONTROL Export] | Exporta la lista de solicitudes a un archivo CSV. |
 | [!UICONTROL Print] | Imprime la lista de solicitudes actual. |
-| [!UICONTROL Select] | Administra las selecciones de elementos que deben ser objeto de una acción. <br/>**[!UICONTROL Select All]**- Selecciona todos los artículos de la lista de solicitudes.<br/>**[!UICONTROL Remove Selected]** - Elimina todos los artículos seleccionados de la lista de solicitudes. <br/>**[!UICONTROL Copy Selected]**- Copia todos los artículos seleccionados en otra lista de solicitudes. |
+| [!UICONTROL Select] | Administra las selecciones de elementos que deben ser objeto de una acción. <br/>**[!UICONTROL Select All]**- Selecciona todos los elementos de la lista de solicitudes.<br/>**[!UICONTROL Remove Selected]** - Elimina todos los elementos seleccionados de la lista de solicitudes. <br/>**[!UICONTROL Copy Selected]**- Copia todos los elementos seleccionados en otra lista de solicitudes. |
 | [!UICONTROL Add to Cart] | Agrega los elementos seleccionados al carro de compras. |
 | [!UICONTROL Update List] | Vuelve a calcular el subtotal para reflejar un cambio en la cantidad. |
 | [!UICONTROL Delete Requisition List] | Elimina la lista de solicitudes de la cuenta del usuario de la empresa. |

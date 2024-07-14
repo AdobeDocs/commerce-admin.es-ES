@@ -5,7 +5,7 @@ exl-id: 4e88b253-f320-4c94-9996-94d7005effc6
 feature: Page Content, Promotions/Events
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -20,49 +20,49 @@ Un widget de carrusel de eventos de catálogo muestra un control deslizante de l
 
 ## Paso 1: Habilitar el widget de carrusel de catálogo
 
-Antes de empezar, siga las [instrucciones](../merchandising-promotions/event-configure.md) para configurar el _Evento de catálogo_ widget para que esté habilitado para la tienda.
+Antes de empezar, sigue las [instrucciones](../merchandising-promotions/event-configure.md) para configurar el widget _Evento de catálogo_ de modo que esté habilitado para la tienda.
 
 ![Configuración de evento de catálogo](./assets/config-catalog-catalog-events-1.png){width="500" zoomable="yes"}
 
 ## Paso 2: Crear el widget
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add Widget]**.
 
-1. En el _[!UICONTROL Settings]_, haga lo siguiente:
+1. En la sección _[!UICONTROL Settings]_, haga lo siguiente:
 
-   - Establecer **[!UICONTROL Type]** hasta `Catalog Events Carousel`.
+   - Establezca **[!UICONTROL Type]** en `Catalog Events Carousel`.
 
-   - Elija la **[!UICONTROL Design Theme]** que utiliza la tienda.
+   - Elija el **[!UICONTROL Design Theme]** que usa la tienda.
 
-1. Haga clic **[!UICONTROL Continue]**.
+1. Haga clic en **[!UICONTROL Continue]**.
 
    ![Configuración de widget para un carrusel de eventos](./assets/widget-event-carousel-settings.png){width="500" zoomable="yes"}
 
-1. En el _[!UICONTROL Storefront Properties]_, haga lo siguiente:
+1. En la sección _[!UICONTROL Storefront Properties]_, haga lo siguiente:
 
-   - Para **[!UICONTROL Widget Title]**, introduzca un título descriptivo para el widget.
+   - Para **[!UICONTROL Widget Title]**, escriba un título descriptivo para el widget.
 
-     Este título solo es visible desde _Administrador_.
+     Este título solo está visible desde _Admin_.
 
-   - Para **[!UICONTROL Assign to Store Views]**, seleccione las vistas de tienda en las que desea que el widget sea visible.
+   - Para **[!UICONTROL Assign to Store Views]**, seleccione las vistas de la tienda donde desee que el widget sea visible.
 
-     Puede seleccionar una vista de tienda específica, o `All Store Views`. Para seleccionar varias vistas, mantenga pulsada la tecla Ctrl (PC) o la tecla Comando (Mac) y haga clic en cada opción.
+     Puede seleccionar una vista de tienda específica o `All Store Views`. Para seleccionar varias vistas, mantenga pulsada la tecla Ctrl (PC) o la tecla Comando (Mac) y haga clic en cada opción.
 
-   - (Opcional) Para **[!UICONTROL Sort Order]**, introduzca un número para determinar el orden en que aparece este elemento con otros en la misma parte de la página. (`0` = primero, `1` = segundo, `3` = tercero, etc.)
+   - (Opcional) Para **[!UICONTROL Sort Order]**, escriba un número para determinar el orden en que aparece este elemento con otros en la misma parte de la página. (`0` = primero, `1` = segundo, `3` = tercero, etc.)
 
-     ![Propiedades de tienda de widget](./assets/widget-event-carousel-storefront-properties.png){width="600" zoomable="yes"}
+     ![Propiedades de tienda de widgets](./assets/widget-event-carousel-storefront-properties.png){width="600" zoomable="yes"}
 
 ## Paso 3: Elija la ubicación
 
-1. En el _Actualizaciones de diseño_ , haga clic en **[!UICONTROL Add Layout Update]**.
+1. En la sección _Actualizaciones de diseño_, haga clic en **[!UICONTROL Add Layout Update]**.
 
-1. Establecer **[!UICONTROL Display On]** hasta `Specified Page`.
+1. Establezca **[!UICONTROL Display On]** en `Specified Page`.
 
-1. Establecer **[!UICONTROL Page]** hasta `CMS Home Page`.
+1. Establezca **[!UICONTROL Page]** en `CMS Home Page`.
 
-1. Establecer **[!UICONTROL Container]** una de las siguientes:
+1. Establezca **[!UICONTROL Container]** una de las siguientes opciones:
 
    - `Main Content Area`
    - `Sidebar Additional`
@@ -70,13 +70,13 @@ Antes de empezar, siga las [instrucciones](../merchandising-promotions/event-con
 
    >[!NOTE]
    >
-   >Los resultados varían según la temática y el diseño de la página. También debe especificar la variable _[!UICONTROL Catalog Events Carousel Default Template]_en la configuración de categoría.
+   >Los resultados varían según la temática y el diseño de la página. También debe especificar _[!UICONTROL Catalog Events Carousel Default Template]_en la configuración de categoría.
 
 1. Si desea que el carrusel de eventos aparezca en otra ubicación de la tienda, haga clic en **[!UICONTROL Add Layout Update]** y repita estos pasos para esa ubicación.
 
    ![Actualizaciones de diseño](./assets/widget-event-carousel-layout-updates-catalog-category-sidebar.png){width="600" zoomable="yes"}
 
-1. Haga clic **[!UICONTROL Save and Continue Edit]**.
+1. Haga clic en **[!UICONTROL Save and Continue Edit]**.
 
    Por ahora, puede ignorar el mensaje para actualizar la caché.
 
@@ -84,20 +84,20 @@ Antes de empezar, siga las [instrucciones](../merchandising-promotions/event-con
 
 1. En el panel izquierdo, elija **[!UICONTROL Widget Options]**.
 
-1. Para **[!UICONTROL Frame Size]**, introduzca el número de eventos que desea enumerar en el control deslizante al mismo tiempo.
+1. Para **[!UICONTROL Frame Size]**, escriba el número de eventos que desea enumerar en el control deslizante al mismo tiempo.
 
-   Para ver solo un evento a la vez, escriba `1`.
+   Para ver solo un evento a la vez, ingrese `1`.
 
-1. Para **[!UICONTROL Scroll]**, introduzca el número de listados de eventos que desea desplazar por clic.
+1. Para **[!UICONTROL Scroll]**, escriba el número de listados de eventos que desea desplazar por clic.
 
    Para desplazarse al siguiente evento, escriba `1`.
 
-1. Para una anchura personalizada, introduzca el número de píxeles para **[!UICONTROL Block Custom Width]**.
+1. Para una anchura personalizada, escriba el número de píxeles de **[!UICONTROL Block Custom Width]**.
 
    En la siguiente página de ejemplo, la anchura personalizada se establece en 250 píxeles.
 
-   ![Opciones del widget de anchura personalizado](./assets/widget-options-custom-width.png){width="400" zoomable="yes"}
+   ![Opciones de widget de ancho personalizado](./assets/widget-options-custom-width.png){width="400" zoomable="yes"}
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
 
 1. Cuando se le pida que actualice la caché, haga clic en el vínculo del mensaje en la parte superior de la página y siga las instrucciones.

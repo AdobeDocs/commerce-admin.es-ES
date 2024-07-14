@@ -14,26 +14,26 @@ ht-degree: 0%
 
 Tu tienda se puede configurar para que exija a los compradores que abran una cuenta antes de realizar una compra. La configuración predeterminada permite a los huéspedes realizar compras, con la opción de registrarse para obtener una cuenta después de completar el proceso de pago y envío.
 
-![La tienda de Luma muestra Desproteger como invitado](./assets/storefront-checkout-as-guest.png){width="600" zoomable="yes"}
+![La tienda Luma muestra Desproteger como invitado](./assets/storefront-checkout-as-guest.png){width="600" zoomable="yes"}
 
-**_Para deshabilitar el cierre de compra de invitado:_**
+**_Para deshabilitar la desprotección de invitados:_**
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Checkout]**.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Checkout Options]** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Checkout Options]**.
 
-   ![Opciones de extracción expandidas en la página de configuración](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
+   ![Opciones de cierre de compra expandidas en la página de configuración](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
-Para obtener una descripción detallada de cada una de estas opciones de configuración, consulte [Opciones de desprotección](../configuration-reference/sales/checkout.md#checkout-options) en el _Guía de referencia de configuración_.
+Para obtener una descripción detallada de cada una de estas opciones de configuración, consulte [Opciones de desprotección](../configuration-reference/sales/checkout.md#checkout-options) en la _Guía de referencia de configuración_.
 
-1. Si la configuración es para una vista de tienda específica, [elija la vista de la tienda](../configuration-reference/scope-change.md#set-the-scope) donde se aplica la configuración.
+1. Si la configuración es para una vista de tienda específica, [elija la vista de tienda](../configuration-reference/scope-change.md#set-the-scope) donde se aplica la configuración.
 
-   Cuando se le solicite, haga clic en **[!UICONTROL OK]** para continuar.
+   Cuando se le solicite, haga clic en **[!UICONTROL OK]** para continuar.
 
-1. Establecer **[!UICONTROL Allow Guest Checkout]** hasta `No`.
+1. Establezca **[!UICONTROL Allow Guest Checkout]** en `No`.
 
-   Si es necesario, borre la **[!UICONTROL Use system value]** para activar los cambios en esta configuración.
+   Si es necesario, desactive la casilla de verificación **[!UICONTROL Use system value]** para habilitar los cambios en esta configuración.
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Haga clic en **[!UICONTROL Save Config]**.

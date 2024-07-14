@@ -1,12 +1,12 @@
 ---
 title: '[!UICONTROL General] &gt; [!UICONTROL Store Email Addresses]'
-description: Revise la configuración de en [!UICONTROL General] &gt; [!UICONTROL Store Email Addresses] de la administración de Commerce.
+description: Revise la configuración en la página [!UICONTROL General] &gt; [!UICONTROL Store Email Addresses] del administrador de Commerce.
 exl-id: 7c9e519c-dfc9-4de4-a0a4-1770b7c58145
 feature: Configuration, Communications
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '206'
+ht-degree: 2%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{config}}
 
-Consulte [Almacenar direcciones de correo electrónico](../../getting-started/store-details.md#store-email-addresses) para obtener información detallada sobre estos campos de configuración y estas opciones.
+Consulte [Almacenar direcciones de correo electrónico](../../getting-started/store-details.md#store-email-addresses) para obtener información detallada sobre estos campos y opciones de configuración.
 
 ## [!UICONTROL General Contact]
 
@@ -22,30 +22,30 @@ Consulte [Almacenar direcciones de correo electrónico](../../getting-started/st
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Sender Name] | Vista de tienda | El nombre que aparece como el remitente del correo electrónico enviado por el `General Contact` identidad. |
-| [!UICONTROL Sender Email] | Vista de tienda | La dirección de correo electrónico asociada con el `General Contact` identidad. |
+| [!UICONTROL Sender Name] | Vista de tienda | Nombre que aparece como remitente del correo electrónico enviado por la identidad `General Contact`. |
+| [!UICONTROL Sender Email] | Vista de tienda | La dirección de correo electrónico asociada con la identidad `General Contact`. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Sales Representative]
 
-![Direcciones de correo electrónico de tienda > Representante de ventas](./assets/store-email-addresses-sales-rep.png)<!-- zoom -->
+![Almacenar direcciones de correo electrónico > Representante de ventas](./assets/store-email-addresses-sales-rep.png)<!-- zoom -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Sender Name] | Vista de tienda | El nombre que aparece como el remitente del correo electrónico enviado por el `Sales Representative` identidad. |
-| [!UICONTROL Sender Email] | Vista de tienda | La dirección de correo electrónico asociada con el `Sales Representative` identidad. |
+| [!UICONTROL Sender Name] | Vista de tienda | Nombre que aparece como remitente del correo electrónico enviado por la identidad `Sales Representative`. |
+| [!UICONTROL Sender Email] | Vista de tienda | La dirección de correo electrónico asociada con la identidad `Sales Representative`. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Customer Support]
 
-![Direcciones de correo electrónico de tienda > Asistencia al cliente](./assets/store-email-addresses-customer-support.png)<!-- zoom -->
+![Almacenar direcciones de correo electrónico > Atención al cliente](./assets/store-email-addresses-customer-support.png)<!-- zoom -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Sender Name] | Vista de tienda | El nombre que aparece como el remitente del correo electrónico enviado por el `Customer Support` identidad. |
-| [!UICONTROL Sender Email] | Vista de tienda | La dirección de correo electrónico asociada con el `Customer Support` identidad. |
+| [!UICONTROL Sender Name] | Vista de tienda | Nombre que aparece como remitente del correo electrónico enviado por la identidad `Customer Support`. |
+| [!UICONTROL Sender Email] | Vista de tienda | La dirección de correo electrónico asociada con la identidad `Customer Support`. |
 
 {style="table-layout:auto"}
 
@@ -55,8 +55,8 @@ Consulte [Almacenar direcciones de correo electrónico](../../getting-started/st
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Sender Name] | Vista de tienda | El nombre que aparece como el remitente del correo electrónico enviado por el `Custom 1` identidad. |
-| [!UICONTROL Sender Email] | Vista de tienda | La dirección de correo electrónico asociada con el `Custom 1` identidad. |
+| [!UICONTROL Sender Name] | Vista de tienda | Nombre que aparece como remitente del correo electrónico enviado por la identidad `Custom 1`. |
+| [!UICONTROL Sender Email] | Vista de tienda | La dirección de correo electrónico asociada con la identidad `Custom 1`. |
 
 {style="table-layout:auto"}
 
@@ -66,7 +66,7 @@ Consulte [Almacenar direcciones de correo electrónico](../../getting-started/st
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Sender Name] | Vista de tienda | El nombre que aparece como el remitente del correo electrónico enviado por el `Custom 2` identidad. |
-| [!UICONTROL Sender Email] | Vista de tienda | La dirección de correo electrónico asociada con el `Custom 2` identidad. |
+| [!UICONTROL Sender Name] | Vista de tienda | Nombre que aparece como remitente del correo electrónico enviado por la identidad `Custom 2`. |
+| [!UICONTROL Sender Email] | Vista de tienda | La dirección de correo electrónico asociada con la identidad `Custom 2`. |
 
 {style="table-layout:auto"}

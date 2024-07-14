@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds]'
-description: Revise la configuración de en [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] de la administración de Commerce.
+description: Revise la configuración en la página [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] del administrador de Commerce.
 exl-id: 3d71b1b9-08aa-495c-a269-b6e336f7ba06
 feature: Configuration, Communications
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 ## [!UICONTROL Rss Config]
 
-![Configuración de Rss](./assets/rss-feeds-rss-config.png)<!-- zoom -->
+![Configuración Rss](./assets/rss-feeds-rss-config.png)<!-- zoom -->
 
 <!-- [Rss Config](https://docs.magento.com/user-guide/marketing/rss-feed.html) -->
 

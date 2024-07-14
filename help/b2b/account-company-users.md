@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Administrar cuentas de usuario de empresa
 
-El administrador de la empresa asigna los usuarios de la empresa y estos son visibles desde el Administrador en _[!UICONTROL Customers]_cuadrícula por tipo de cliente,_[!UICONTROL Company User]_. Estas personas suelen ser compradores con diferentes niveles de permiso para acceder a los servicios y recursos de la tienda.
+El administrador de la compañía asigna los usuarios de la compañía y el tipo de cliente _[!UICONTROL Company User]_los puede ver desde el Administrador en la cuadrícula_[!UICONTROL Customers]_. Estas personas suelen ser compradores con diferentes niveles de permiso para acceder a los servicios y recursos de la tienda.
 
-El administrador de la empresa configura primero [estructura de la empresa](account-company-structure.md)y, a continuación, completa las tareas siguientes según sea necesario:
+El administrador de la empresa configura primero la [estructura de la empresa](account-company-structure.md) y, a continuación, completa las tareas siguientes según sea necesario:
 
 - Crear usuarios de la empresa y asignar usuarios a equipos
 
@@ -31,15 +31,15 @@ El administrador de la empresa configura primero [estructura de la empresa](acco
 
 1. En el panel izquierdo, elija **[!UICONTROL Company Users]**.
 
-   ![Usuarios de empresa](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
+   ![Usuarios de la compañía](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
-1. Clics **[!UICONTROL Add New User]** y hace lo siguiente:
+1. Hace clic en **[!UICONTROL Add New User]** y realiza las siguientes acciones:
 
-   - Ingresa el **[!UICONTROL Job Title]** del nuevo usuario.
+   - Escribe el(la) **[!UICONTROL Job Title]** del nuevo usuario.
 
-   - Elige el adecuado **[!UICONTROL User Role]** si las funciones y los permisos están definidos. De lo contrario, pueden volver más tarde para asignar la función.
+   - Elige el(la) **[!UICONTROL User Role]** apropiado(a) si se definen los roles y permisos. De lo contrario, pueden volver más tarde para asignar la función.
 
-     ![Añadir nuevo usuario](./assets/company-structure-users-add.png){width="700" zoomable="yes"}
+     ![Agregar nuevo usuario](./assets/company-structure-users-add.png){width="700" zoomable="yes"}
 
    - Completa los campos restantes según sea necesario para el usuario:
 
@@ -47,15 +47,15 @@ El administrador de la empresa configura primero [estructura de la empresa](acco
       - **[!UICONTROL Email]**
       - **[!UICONTROL Phone Number]**
 
-   De forma predeterminada, la variable **[!UICONTROL Status]** de la cuenta es `Active`.
+   De manera predeterminada, **[!UICONTROL Status]** de la cuenta es `Active`.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, hace clic en **[!UICONTROL Save]**.
 
 1. Repite el proceso para crear tantos usuarios de la compañía como sea necesario.
 
    Los nuevos usuarios aparecen en la lista Usuarios de la empresa, junto con el Administrador de la empresa.
 
-Para ahorrar tiempo durante el primer pedido, el administrador de la empresa puede recordar a cada usuario de la empresa que debe añadir la dirección de facturación y envío predeterminada de la empresa a su [agenda](../customers/account-dashboard-address-book.md).
+Para ahorrar tiempo durante el primer pedido, el administrador de la compañía puede recordarle a cada usuario de la compañía que agregue la dirección de facturación y envío predeterminada de la compañía a su [libreta de direcciones](../customers/account-dashboard-address-book.md).
 
 ## Editar usuarios de la empresa
 
@@ -67,7 +67,7 @@ Para ahorrar tiempo durante el primer pedido, el administrador de la empresa pue
 
 1. Realiza los cambios necesarios.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, hace clic en **[!UICONTROL Save]**.
 
 ## Eliminar un usuario de la empresa
 
@@ -81,16 +81,16 @@ Para ahorrar tiempo durante el primer pedido, el administrador de la empresa pue
 
    ![Eliminar usuario](./assets/company-structure-delete-user.png){width="600" zoomable="yes"}
 
-1. Cuando se le pida que confirme, haga clic en **[!UICONTROL Delete]**.
+1. Cuando se le pida que confirme, hace clic en **[!UICONTROL Delete]**.
 
-En el Administrador, el usuario de la empresa permanece en la lista de [Clientes](../customers/customers-all.md) cuadrícula, pero con un `Inactive` estado.
+En el Administrador, el usuario de la compañía permanece en la lista de la cuadrícula [Clientes](../customers/customers-all.md), pero con el estado `Inactive`.
 
 ## Descripciones de campos
 
 | Campo | Descripción |
 |--------------|---------------|
 | [!UICONTROL Job Title] | El puesto del usuario de la empresa. |
-| [!UICONTROL User Role] | El [función](account-company-roles-permissions.md) asignado al usuario de la empresa. Opciones: `Default User` / (otras funciones) |
+| [!UICONTROL User Role] | [rol](account-company-roles-permissions.md) asignado al usuario de la compañía. Opciones: `Default User` / (otros roles) |
 | [!UICONTROL First Name] | El nombre del usuario de la empresa. |
 | [!UICONTROL Last Name] | El apellido del usuario de la empresa. |
 | [!UICONTROL Email] | La dirección de correo electrónico del usuario de la empresa. |

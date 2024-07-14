@@ -5,7 +5,7 @@ exl-id: 9fd32c0a-ff9a-47f9-84e2-f5d6bf307d8c
 feature: Customers, Configuration
 source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Puede modificar la plantilla que controla el formato de las direcciones de facturación y envío del cliente que aparecen en las facturas impresas, envíos y devoluciones, así como en la libreta de direcciones de la cuenta del cliente. Si desea incluir información adicional, puede crear lo siguiente [atributos personalizados](attribute-properties.md) que están asociados a la cuenta del cliente y [dirección](address-attributes.md)e incorporarlos a la plantilla.
+Puede modificar la plantilla que controla el formato de las direcciones de facturación y envío del cliente que aparecen en las facturas impresas, envíos y devoluciones, así como en la libreta de direcciones de la cuenta del cliente. Si desea incluir información adicional, puede crear [atributos personalizados](attribute-properties.md) asociados con la cuenta del cliente y la [dirección](address-attributes.md), e incorporarlos a la plantilla.
 
 ## Ejemplo 1: formato corto
 
-Para [!UICONTROL Text One Line] plantilla de dirección:
+Para la plantilla de dirección [!UICONTROL Text One Line]:
 
 ```text
 {{depend prefix}}{{var prefix}} {{/depend}}{{var firstname}} {{depend middlename}}{{var middlename}} {{/depend}}{{var lastname}}{{depend suffix}} {{var suffix}}{{/depend}}, {{var street}}, {{var city}}, {{var region}} {{var postcode}}, {{var country}}
@@ -26,7 +26,7 @@ Para [!UICONTROL Text One Line] plantilla de dirección:
 
 ## Ejemplo 2: formato largo
 
-Para [!UICONTROL Text], [!UICONTROL HTML], y [!UICONTROL PDF] plantillas de dirección:
+Para las plantillas de direcciones [!UICONTROL Text], [!UICONTROL HTML] y [!UICONTROL PDF]:
 
 ```text
 {{depend prefix}}{{var prefix}} {{/depend}}{{var firstname}} {{depend middlename}}{{var middlename}} {{/depend}}{{var lastname}}{{depend suffix}} {{var suffix}}{{/depend}}{{depend company}}{{var company}}{{/depend}}{{if street1}}{{var street1}}{{/if}}{{depend street2}}{{var street2}}{{/depend}}{{depend street3}}{{var street3}}{{/depend}}{{depend street4}}{{var street4}}{{/depend}}{{if city}}{{var city}},  {{/if}}{{if region}}{{var region}}, {{/if}}{{if postcode}}{{var postcode}}{{/if}}{{var country}}{{depend telephone}}T: {{var telephone}}{{/depend}}{{depend fax}}F: {{var fax}}{{/depend}}{{depend vat_id}}VAT: {{var vat_id}}{{/depend}}
@@ -36,11 +36,11 @@ Para [!UICONTROL Text], [!UICONTROL HTML], y [!UICONTROL PDF] plantillas de dir
 
 ## Cambiar el orden de los campos de dirección
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel lateral izquierdo, expanda **[!UICONTROL Customers]** y seleccione **[!UICONTROL Customer Configuration]**.
 
-1. Haga clic en para expandir **[!UICONTROL Address Templates]** sección.
+1. Haga clic para expandir la sección **[!UICONTROL Address Templates]**.
 
    La sección incluye un conjunto independiente de instrucciones de formato para cada una de las siguientes opciones:
 
@@ -51,4 +51,4 @@ Para [!UICONTROL Text], [!UICONTROL HTML], y [!UICONTROL PDF] plantillas de dir
 
 1. Edite cada plantilla según sea necesario, utilizando los ejemplos como referencia.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.

@@ -47,7 +47,7 @@ ht-degree: 1%
       - [Creación de una regla de precios de catálogo](price-rules-catalog-create.md)
       - [Cambios programados para reglas de precios de catálogo](price-rule-catalog-scheduled-changes.md)
       - [Regla de precio con varios SKU](price-rule-multiple-sku.md)
-   - Reglas de precios del carrito {#cart-rules}
+   - Reglas de precio de carro {#cart-rules}
       - [Resumen de reglas de precios del carro](price-rules-cart.md)
       - [Crear una regla de precios de carro](price-rules-cart-create.md)
       - [Códigos de cupón](price-rules-cart-coupon.md)
@@ -74,18 +74,18 @@ ht-degree: 1%
    - [Información general de SEO y prácticas recomendadas](seo-overview.md)
    - [Metadatos](meta-data.md)
    - [Mapas del sitio](sitemap-xml.md)
-   - Reescrituras de URL {#url-rewrites}
+   - Reescribe la URL {#url-rewrites}
       - [Información general y configuración](url-rewrite.md)
       - [Reescrituras de categoría](url-rewrite-category.md)
       - [Reescrituras de productos](url-rewrite-product.md)
       - [Reescribe la página de CMS](url-rewrite-cms-page.md)
       - [Reescrituras personalizadas](url-rewrite-custom.md)
       - [Redirecciones automáticas](url-redirect-product-automatic.md)
-- Herramientas del sitio de Google {#google-tools}
+- Herramientas del sitio Google {#google-tools}
    - [Información general](google-tools.md)
    - [Google Analytics](google-analytics.md)
    - [Google Tag Manager](google-tag-manager.md)
    - [Google AdWords](google-adwords.md)
    - [Experimentos de contenido de Google](google-content-experiments.md)
-- [Volver a Guías de Comerciantes](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Volver a las guías del comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

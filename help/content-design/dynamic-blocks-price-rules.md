@@ -14,15 +14,15 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Cualquiera [bloque dinámico](dynamic-blocks.md) que cree se puede asociar a una promoción. Para realizar la asociación, primero debe crear el bloque dinámico y el [regla de precios de catálogo](../merchandising-promotions/price-rules-catalog.md) o [regla de precios de carrito](../merchandising-promotions/price-rules-cart.md). La asociación se puede realizar mientras se trabaja en una regla de precios o cuando se trabaja en un bloque dinámico.
+Cualquier [bloque dinámico](dynamic-blocks.md) que cree se puede asociar con una promoción. Para realizar la asociación, primero debe crear el bloque dinámico y la [regla de precio de catálogo](../merchandising-promotions/price-rules-catalog.md) o [regla de precio de carro de compras](../merchandising-promotions/price-rules-cart.md). La asociación se puede realizar mientras se trabaja en una regla de precios o cuando se trabaja en un bloque dinámico.
 
 >[!IMPORTANT]
 >
->Después de crear esta asociación, se muestra el bloque dinámico **solamente** cuando se activa la regla. Si la promoción está dirigida al segmento A, el bloque se muestra al segmento A. Si la promoción no está activa, el bloque no se muestra.
+>Después de crear esta asociación, el bloque dinámico se muestra **solamente** cuando se activa la regla. Si la promoción está dirigida al segmento A, el bloque se muestra al segmento A. Si la promoción no está activa, el bloque no se muestra.
 
 ## Asociación de un bloque dinámico a una regla de precio
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_y elija una de las siguientes opciones:
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_y elija una de las siguientes opciones:
 
    - **[!UICONTROL Catalog Price Rules]**
    - **[!UICONTROL Cart Price Rules]**
@@ -37,13 +37,13 @@ Cualquiera [bloque dinámico](dynamic-blocks.md) que cree se puede asociar a una
 
 1. Seleccione la casilla de verificación de cada bloque dinámico que desee asociar a la regla.
 
-   ![Adición de bloques dinámicos seleccionados](./assets/price-rule-cart-related-dynamic-blocks-any.png){width="600" zoomable="yes"}
+   ![Agregando bloques dinámicos seleccionados](./assets/price-rule-cart-related-dynamic-blocks-any.png){width="600" zoomable="yes"}
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
 
 ## Asociación de una regla de precio a un bloque dinámico
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**.
 
 1. Busque el bloque dinámico en la cuadrícula y ábralo en modo de edición.
 
@@ -59,8 +59,8 @@ Cualquiera [bloque dinámico](dynamic-blocks.md) que cree se puede asociar a una
 
 1. En la cuadrícula, seleccione la casilla de verificación de cada regla que desee asociar al bloque dinámico.
 
-1. Haga clic **[!UICONTROL Add Selected]**.
+1. Haga clic en **[!UICONTROL Add Selected]**.
 
-   ![Adición de las reglas de precio seleccionadas a un bloque dinámico](./assets/pb-dynamic-block-add-related-cart-price-rules.png){width="600" zoomable="yes"}
+   ![Agregando reglas de precio seleccionadas a un bloque dinámico](./assets/pb-dynamic-block-add-related-cart-price-rules.png){width="600" zoomable="yes"}
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.

@@ -5,7 +5,7 @@ exl-id: 0cfcee67-a2e2-41cb-ac70-304452f5db6d
 feature: Catalog Management, Products, Media
 source-git-commit: e439c1082834cbc81f6ccc7ca99e240d649c8b81
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ Para añadir un vídeo de producto, primero debe obtener una clave de API de su 
 
 ## Paso 1: Obtención de la clave de API de YouTube
 
-1. Inicie sesión en su cuenta de Google y visite [Consola de desarrolladores de Google][1].
+1. Inicie sesión en su cuenta de Google y visite [Google Developers Console][1].
 
-1. En el campo de búsqueda de la parte superior, introduzca `YouTube Data API v3` y haga clic en el icono de búsqueda.
+1. En el campo de búsqueda en la parte superior, ingrese `YouTube Data API v3` y haga clic en el icono de búsqueda.
 
 1. Cuando se muestre la página de la API, asegúrese de que esté activada.
 
@@ -26,9 +26,9 @@ Para añadir un vídeo de producto, primero debe obtener una clave de API de su 
 
 1. Dependiendo de si tiene credenciales o no, realice una de las siguientes acciones:
 
-   - Si ya tiene las credenciales necesarias, copie la clave en la _Claves de API_ tabla.
+   - Si ya tiene las credenciales necesarias, copie la clave en la tabla _claves API_.
 
-   - Si aún no tiene credenciales para esta API, haga clic en **[!UICONTROL Create Credentials]**  en la parte superior y siga las indicaciones para crear las credenciales necesarias. En _Obtenga sus credenciales_, copie la clave de API y haga clic en **[!UICONTROL Done]**.
+   - Si todavía no tiene credenciales para esta API, haga clic en **[!UICONTROL Create Credentials]** en la parte superior y siga las indicaciones para crear las credenciales necesarias. En _Obtener sus credenciales_, copie la clave de API y haga clic en **[!UICONTROL Done]**.
 
 1. Copie la clave de API en el portapapeles.
 
@@ -38,17 +38,17 @@ Para añadir un vídeo de producto, primero debe obtener una clave de API de su 
 
    En el siguiente paso, pegará la clave en la configuración de la tienda.
 
-## Paso 2: Configurar la clave en Commerce
+## Paso 2: Configuración de la clave en Commerce
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Catalog]** y elija **[!UICONTROL Catalog]** debajo.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el _[!UICONTROL Product Video]_y pegue su **[!UICONTROL YouTube API key]**.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Product Video]_y pegue su **[!UICONTROL YouTube API key]**.
 
    ![Configuración de vídeo del producto](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 1. Cuando se le solicite, actualice la caché.
 
@@ -56,25 +56,25 @@ Para añadir un vídeo de producto, primero debe obtener una clave de API de su 
 
 1. Abra un producto en modo de edición.
 
-1. Desplácese hasta y expanda _[!UICONTROL Images and Videos]_sección.
+1. Desplácese hasta y expanda la sección _[!UICONTROL Images and Videos]_.
 
    ![Imágenes y vídeos](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 
-1. click **[!UICONTROL Add Video]**.
+1. haga clic en **[!UICONTROL Add Video]**.
 
-   Si aún no ha configurado la clave de API de YouTube, haga clic en **[!UICONTROL OK]** para continuar. No puede vincular a un vídeo de YouTube, pero puede pasar por el proceso.
+   Si todavía no ha configurado su clave de API de YouTube, haga clic en **[!UICONTROL OK]** para continuar. No puede vincular a un vídeo de YouTube, pero puede pasar por el proceso.
 
-1. Para **[!UICONTROL Url]**, introduzca la URL del vídeo de YouTube o Vimeo.
+1. Para **[!UICONTROL Url]**, ingrese la URL del video de YouTube o Vimeo.
 
-   ![Nuevo vídeo del producto](./assets/product-video-add.png){width="600" zoomable="yes"}
+   ![Nuevo vídeo para el producto](./assets/product-video-add.png){width="600" zoomable="yes"}
 
 1. Haga clic fuera del campo y espere comentarios sobre la clave de API o el vídeo.
 
    Si todo se desprotege, YouTube proporciona información básica del vídeo
 
-1. Introduzca el **[!UICONTROL Title]** y **[!UICONTROL Description]** del vídeo.
+1. Escriba **[!UICONTROL Title]** y **[!UICONTROL Description]** del vídeo.
 
-1. Para cargar una **[!UICONTROL Preview Image]**, busque la imagen y seleccione el archivo.
+1. Para cargar un(a) **[!UICONTROL Preview Image]**, busque la imagen y seleccione el archivo.
 
    >[!NOTE]
    >
@@ -82,7 +82,7 @@ Para añadir un vídeo de producto, primero debe obtener una clave de API de su 
 
 1. Si prefiere usar los metadatos del vídeo, haga clic en **[!UICONTROL Get Video Information]**.
 
-1. Para determinar cómo se utiliza el vídeo en la tienda, seleccione la casilla de verificación de cada **[!UICONTROL Role]** que se aplica:
+1. Para determinar cómo se usa el vídeo en la tienda, active la casilla de verificación de cada **[!UICONTROL Role]** que corresponda:
 
    - `Base Image`
    - `Small Image`
@@ -90,15 +90,15 @@ Para añadir un vídeo de producto, primero debe obtener una clave de API de su 
    - `Thumbnail`
    - `Hide from Product Page`
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
 
    >[!NOTE]
    >
-   >Si la variable _[!UICONTROL Autostart base video]_La opción de configuración se ha definido en `Yes` pero el vídeo no empieza a reproducirse automáticamente, podría deberse a las políticas de reproducción automática que aplica el explorador y que Adobe Commerce no puede controlar. Cada navegador compatible tiene sus propias políticas de reproducción automática que pueden cambiar con el tiempo y es posible que el vídeo no se reproduzca automáticamente en el futuro. Como práctica recomendada, no debe depender de la reproducción automática para la funcionalidad empresarial crítica y debe probar el comportamiento de reproducción automática de vídeo en su tienda con cada explorador compatible.
+   >Si la opción de configuración _[!UICONTROL Autostart base video]_se establece en `Yes` pero el vídeo no empieza a reproducirse automáticamente, podría deberse a las políticas de reproducción automática que aplica el explorador y que Adobe Commerce no puede controlar. Cada navegador compatible tiene sus propias políticas de reproducción automática que pueden cambiar con el tiempo y es posible que el vídeo no se reproduzca automáticamente en el futuro. Como práctica recomendada, no debe depender de la reproducción automática para la funcionalidad empresarial crítica y debe probar el comportamiento de reproducción automática de vídeo en su tienda con cada explorador compatible.
 
 ## Mantener acceso a API
 
-Según el desarrollador de Google [Términos y condiciones]Sin embargo, YouTube puede deshabilitar el acceso a la API para cuentas que hayan estado inactivas durante más de 90 días. Esto podría provocar que sus vídeos no se muestren. Para mantener el acceso a la API actualizado, utilice un trabajo cron para hacer ping a la API a intervalos regulares:
+Según los [Términos y condiciones] del desarrollador de Google, YouTube puede deshabilitar el acceso a la API para cuentas que hayan estado inactivas durante más de 90 días. Esto podría provocar que sus vídeos no se muestren. Para mantener el acceso a la API actualizado, utilice un trabajo cron para hacer ping a la API a intervalos regulares:
 
 ```code
 30 10 1 * * curl -i -G -e https://yourdomain.com/ -d "part=snippet&maxResults=1&q=test&key=YOUTUBEAPIKEY" https://www.googleapis.com/youtube/v3/search >/dev/null 2>&1

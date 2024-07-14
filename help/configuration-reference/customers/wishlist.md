@@ -1,12 +1,12 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Wish List]'
-description: Revise la configuración de en [!UICONTROL Customers] &gt; [!UICONTROL Wish List] de la administración de Commerce.
+description: Revise la configuración en la página [!UICONTROL Customers] &gt; [!UICONTROL Wish List] del administrador de Commerce.
 exl-id: 33ff428c-03e3-4698-a01e-f007b4e1688e
 feature: Configuration, Customers, Storefront
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Vista de tienda | Activa el módulo de la lista de artículos deseados de la tienda. Opciones: `Yes` / `No` |
 | [!UICONTROL Show in Sidebar] | Vista de tienda | Especifica la visibilidad de las listas de deseos en la barra lateral. <br/>Opciones: `Yes` / `No` |
-| [!UICONTROL Enable Multiple Wish Lists] | Vista de tienda | ![Adobe Commerce](../../assets/adobe-logo.svg) (Solo Adobe Commerce) Cuando se establece en `Yes`, permite a los clientes crear y mantener varias listas de deseos. Opciones: `Yes` / `No` |
-| [!UICONTROL Number of Multiple Wish Lists] | Vista de tienda | ![Adobe Commerce](../../assets/adobe-logo.svg) (Solo Adobe Commerce) Si se habilitan varias listas de deseos, determina el número máximo de listas de deseos que los clientes pueden tener asociadas a su cuenta. |
+| [!UICONTROL Enable Multiple Wish Lists] | Vista de tienda | ![Adobe Commerce](../../assets/adobe-logo.svg) (solo Adobe Commerce) Cuando se establece en `Yes`, permite a los clientes crear y mantener varias listas de deseos. Opciones: `Yes` / `No` |
+| [!UICONTROL Number of Multiple Wish Lists] | Vista de tienda | ![Adobe Commerce](../../assets/adobe-logo.svg) (solo Adobe Commerce): si se habilitan varias listas de deseos, determina la cantidad máxima de listas de deseos que los clientes pueden tener asociadas a su cuenta. |
 
 {style="table-layout:auto"}
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## [!UICONTROL My Wish List Link]
 
-![Mi vínculo de lista de deseos](./assets/wishlist-my-wishlist-link.png)<!-- zoom -->
+![Vínculo Mi lista de deseos](./assets/wishlist-my-wishlist-link.png)<!-- zoom -->
 
 <!--[My Wish List Link](https://docs.magento.com/user-guide/marketing/wishlist-configuration.html) -->
 

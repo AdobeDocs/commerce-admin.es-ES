@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # Ámbito de cuenta de cliente
 
-El encabezado de cada página de la tienda extiende una invitación a los compradores para que _Iniciar sesión o registrarse_ para obtener una cuenta en su tienda. Los clientes que abren una cuenta de disfrutan de una serie de ventajas, entre las que se incluyen:
+El encabezado de cada página de tu tienda extiende una invitación para que los compradores _inicien sesión o registren_ una cuenta en tu tienda. Los clientes que abren una cuenta de disfrutan de una serie de ventajas, entre las que se incluyen:
 
-* **Crear cuenta de cliente** - Los visitantes pueden crear una cuenta de cliente para que puedan usar la tienda como cliente registrado.
-* **Crear una cuenta de empresa** Según la configuración, un visitante de la tienda puede elegir crear una cuenta de empresa. Para obtener más información, consulte [Adobe Commerce B2B](../b2b/introduction.md).
-* **Cierre más rápido** — Los clientes registrados pasan el proceso de cierre de compra más rápido porque gran parte de la información ya está en sus cuentas.
-* **Autoservicio** — Los clientes registrados pueden actualizar su información, comprobar el estado de los pedidos e incluso reordenar desde sus cuentas.
+* **Crear cuenta de cliente**: los visitantes pueden crear una cuenta de cliente para que puedan usar la tienda como cliente registrado.
+* **Crear una cuenta de compañía** Según la configuración, un visitante de su tienda puede elegir crear una cuenta de compañía. Para obtener más información, consulte [Adobe Commerce B2B](../b2b/introduction.md).
+* **Cierre de compra más rápido**: Los clientes registrados pasan por el cierre de compra más rápido porque gran parte de la información ya está en sus cuentas.
+* **Autoservicio**: los clientes registrados pueden actualizar su información, comprobar el estado de los pedidos e incluso reordenar desde sus cuentas.
 
-Los clientes pueden acceder a su cuenta haciendo clic en **[!UICONTROL My Account]** en el encabezado de la tienda. Desde su cuenta, los clientes pueden ver y modificar información, como direcciones actuales y pasadas, preferencias de facturación y envío, suscripciones a boletines informativos, listas de deseos y mucho más.
+Los clientes pueden acceder a su cuenta haciendo clic en el vínculo **[!UICONTROL My Account]** en el encabezado de la tienda. Desde su cuenta, los clientes pueden ver y modificar información, como direcciones actuales y pasadas, preferencias de facturación y envío, suscripciones a boletines informativos, listas de deseos y mucho más.
 
 ![Mi cuenta](assets/account-dashboard-my-account.png){width="600" zoomable="yes"}
 
@@ -31,15 +31,15 @@ El ámbito de las cuentas de cliente puede limitarse al sitio web en el que se c
 >
 >Si el sitio web se excluye del grupo de clientes, el cliente no puede iniciar sesión en el sitio web cuando el ámbito de las cuentas de cliente se limita al sitio web o se comparte con todos los sitios web. Consulte [Crear un grupo de clientes](customer-groups.md#create-a-customer-group) para obtener más información sobre cómo excluir sitios web de grupos.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > [!UICONTROL _[!UICONTROL Settings]_] > **[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > [!UICONTROL _[!UICONTROL Settings]_] > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Customers]** y elija **[!UICONTROL Customer Configuration]**.
 
-1. Expanda el **[!UICONTROL Account Sharing Options]** sección.
+1. Expanda la sección **[!UICONTROL Account Sharing Options]**.
 
    ![Opciones de uso compartido de cuentas](assets/customer-configuration-account-sharing-options.png){width="600" zoomable="yes"}
 
-1. Establecer **[!UICONTROL Share Customer Accounts]** a uno de los siguientes:
+1. Establezca **[!UICONTROL Share Customer Accounts]** en una de las siguientes opciones:
 
    | Opción | Descripción |
    | --- | --- |
@@ -50,10 +50,10 @@ El ámbito de las cuentas de cliente puede limitarse al sitio web en el que se c
 
    >[!INFO]
    >
-   > Si es necesario, borre la **[!UICONTROL User system value]** para realizar el cambio.
+   > Si es necesario, desactive la casilla de verificación **[!UICONTROL User system value]** para realizar el cambio.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
    >[!NOTE]
    >
-   >Cuándo `Global` se selecciona en la información del cliente en **Mi cuenta** (direcciones e información de la cuenta, como datos de contacto) se comparte.
+   >Cuando se selecciona `Global`, se comparte la información del cliente en **Mi cuenta** (direcciones e información de la cuenta como los detalles de contacto).

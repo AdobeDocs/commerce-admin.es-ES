@@ -18,15 +18,15 @@ Cualquier día o período de tiempo durante una campaña se puede previsualizar 
 
 1. Utilice uno de estos métodos para abrir una ventana de vista previa:
 
-   - _Desde el panel de ensayo de contenido_
+   - _Del panel de ensayo de contenido_
 
-      - En el _Administrador_ barra lateral, vaya a  **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
-      - Haga clic en cualquier elemento de la página y, a continuación, en **[!UICONTROL Preview]** en la información de resumen mostrada para la campaña.
+      - En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
+      - Haga clic en cualquier elemento de la página y, a continuación, haga clic en **[!UICONTROL Preview]** en la información de resumen de la campaña que se muestra.
 
    - _Desde cualquier página con cambios programados_
 
-      - Abra cualquier página con un _[!UICONTROL Scheduled Changes]_en la parte superior.
-      - Haga clic **[!UICONTROL Preview]**.
+      - Abra cualquier página que tenga el cuadro _[!UICONTROL Scheduled Changes]_en la parte superior.
+      - Haga clic en **[!UICONTROL Preview]**.
 
    La vista previa se abre en una nueva pestaña del explorador y muestra cómo aparece el producto durante la campaña programada.
 
@@ -36,11 +36,11 @@ Cualquier día o período de tiempo durante una campaña se puede previsualizar 
 
 1. Vista previa de un día u hora específicos:
 
-   - Haga clic en **[!UICONTROL Date & Time]** calendario (![Icono de calendario](../assets/icon-calendar.png){width="10" zoomable="no"}).
+   - Haga clic en el calendario **[!UICONTROL Date & Time]** (![icono de calendario](../assets/icon-calendar.png){width="10" zoomable="no"}).
 
    - Elija una fecha u hora diferente.
 
-   - Haga clic **[!UICONTROL Preview]**.
+   - Haga clic en **[!UICONTROL Preview]**.
 
 1. Cambiar el ámbito de la vista previa para una vista de tienda diferente:
 
@@ -50,16 +50,16 @@ Cualquier día o período de tiempo durante una campaña se puede previsualizar 
 
    >[!NOTE]
    >
-   >Las previsualizaciones siempre comienzan desde **predeterminado** vista de tienda que emula la experiencia del cliente al navegar por la campaña. Las campañas de una sola etapa pueden incluir cambios que afectan a varias vistas de tiendas y sitios web. Asegúrese de que estas vistas o sitios web muestren la campaña correctamente.
+   >Las vistas previas siempre comienzan desde la vista de tienda **default** que emula la experiencia del cliente al navegar por la campaña. Las campañas de una sola etapa pueden incluir cambios que afectan a varias vistas de tiendas y sitios web. Asegúrese de que estas vistas o sitios web muestren la campaña correctamente.
 
 1. Compartir un vínculo a la vista previa:
 
-   - Clic **[!UICONTROL Share]** y copie el vínculo al portapapeles.
+   - Haga clic en **[!UICONTROL Share]** y copie el vínculo al portapapeles.
 
    - Pegue el vínculo en el cuerpo de un mensaje de correo electrónico.
 
      >[!NOTE]
      >
-     >Se requiere una cuenta de usuario administrador para ver una vista previa compartida. Si tiene permiso para [crear una cuenta de usuario de administrador](../systems/permissions-users-all.md#create-a-user), debe crear la cuenta para un nuevo usuario antes de compartir.
+     >Se requiere una cuenta de usuario administrador para ver una vista previa compartida. Si tiene permiso para [crear una cuenta de usuario administrador](../systems/permissions-users-all.md#create-a-user), debe crear la cuenta para un nuevo usuario antes de compartir.
 
 1. Para volver al calendario de campañas, haga clic en **[!UICONTROL Calendar]** en el encabezado de la página Vista previa.

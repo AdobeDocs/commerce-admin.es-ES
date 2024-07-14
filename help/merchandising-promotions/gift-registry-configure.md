@@ -5,7 +5,7 @@ exl-id: 48193621-731d-4640-8ea8-5b201915cdf1
 feature: Gift, Storefront, Configuration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -24,47 +24,47 @@ Adobe Commerce tiene plantillas predefinidas para cada uno de estos mensajes de 
 
 ## Paso 1. Activar registros de regalos
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Customers]** y elija **[!UICONTROL Gift Registry]**
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL General Options]** y haga lo siguiente:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL General Options]** y haga lo siguiente:
 
-   ![Configuración de clientes: Registro de regalos general](../configuration-reference/customers/assets/gift-registry-general-options.png){width="600" zoomable="yes"}
+   ![Configuración de clientes - Registro general de regalos](../configuration-reference/customers/assets/gift-registry-general-options.png){width="600" zoomable="yes"}
 
-   - El Registro de regalos está habilitado de forma predeterminada. Si es necesario, establezca **[!UICONTROL Enable Gift Registry]** hasta `Yes`.
+   - El Registro de regalos está habilitado de forma predeterminada. Si es necesario, establezca **[!UICONTROL Enable Gift Registry]** en `Yes`.
 
-   - Para **[!UICONTROL Maximum Registrants]**, introduzca el número máximo de personas que pueden ser invitadas a participar en un evento del registro de regalos.
+   - Para **[!UICONTROL Maximum Registrants]**, escriba el número máximo de personas que pueden ser invitadas a participar en un evento del registro de regalos.
 
 ## Paso 2. Configurar notificaciones por correo electrónico
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Owner Notification]** y haga lo siguiente:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Owner Notification]** y haga lo siguiente:
 
-   ![Configuración de clientes: notificación al propietario del registro de regalos](../configuration-reference/customers/assets/gift-registry-owner-notification.png){width="600" zoomable="yes"}
+   ![Configuración de clientes - notificación al propietario del registro de regalos](../configuration-reference/customers/assets/gift-registry-owner-notification.png){width="600" zoomable="yes"}
 
-   - Elija la **[!UICONTROL Email Template]** que notifica a los propietarios del registro de regalos cuando se crean sus registros.
+   - Elija el **[!UICONTROL Email Template]** que notifica a los propietarios del registro de regalos cuando se crean sus registros.
 
-   - Elija la [contacto de tienda](../getting-started/store-details.md#store-email-addresses) que aparece como el **[!UICONTROL Email Sender]** del mensaje.
+   - Elija el [contacto de tienda](../getting-started/store-details.md#store-email-addresses) que aparece como **[!UICONTROL Email Sender]** del mensaje.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Gift Registry Sharing]** y haga lo siguiente:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Gift Registry Sharing]** y haga lo siguiente:
 
-   ![Configuración de clientes: uso compartido del registro de regalos](../configuration-reference/customers/assets/gift-registry-gift-registry-sharing.png){width="600" zoomable="yes"}
+   ![Configuración de clientes - uso compartido del registro de regalos](../configuration-reference/customers/assets/gift-registry-gift-registry-sharing.png){width="600" zoomable="yes"}
 
-   - Elija la **[!UICONTROL Email Template]** que notifica a los destinatarios del registro de regalos cuando se comparte un registro con ellos.
+   - Elija el **[!UICONTROL Email Template]** que notifica a los destinatarios del registro de regalos cuando se comparte un registro con ellos.
 
-   - Elija la identificación de tienda que aparece como **[!UICONTROL Email Sender]** del mensaje.
+   - Elija el identificador de almacén que aparece como **[!UICONTROL Email Sender]** del mensaje.
 
-   - Para **[!UICONTROL Maximum Sent Emails Threshold]**, introduzca el número máximo de correos electrónicos que se pueden enviar al mismo tiempo.
+   - Para **[!UICONTROL Maximum Sent Emails Threshold]**, escriba el número máximo de correos electrónicos que se pueden enviar al mismo tiempo.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Gift Registry Update]** y haga lo siguiente:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Gift Registry Update]** y haga lo siguiente:
 
-   ![Configuración de clientes: actualización del registro de regalos](../configuration-reference/customers/assets/gift-registry-gift-registry-update.png){width="600" zoomable="yes"}
+   ![Configuración de clientes - actualización del registro de regalos](../configuration-reference/customers/assets/gift-registry-gift-registry-update.png){width="600" zoomable="yes"}
 
-   - Elija la **[!UICONTROL Email Template]** que notifica a los propietarios del registro de regalos de los cambios realizados en el registro.
+   - Elija el **[!UICONTROL Email Template]** que notifica a los propietarios del registro de regalos de los cambios realizados en el registro.
 
-   - Elija la identificación de tienda que aparece como **[!UICONTROL Email Sender]** del mensaje.
+   - Elija el identificador de almacén que aparece como **[!UICONTROL Email Sender]** del mensaje.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 1. Cuando se le solicite, actualice la caché.
 

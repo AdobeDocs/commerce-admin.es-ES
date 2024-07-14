@@ -16,7 +16,7 @@ Según las necesidades comerciales y el estado de la ubicación, los comerciante
 
 Esta opción permite seleccionar uno o varios productos, el origen de origen para transferir inventario y el origen de destino para recibir cantidades:
 
-- Las cantidades de inventario, el estado del artículo de origen (En stock/Fuera de stock) y la cantidad de notificación del origen seleccionado se mueven por producto.
+- Las cantidades de inventario, el estado de artículo de Source (en stock/sin stock) y la cantidad de notificación del origen seleccionado se mueven por producto.
 
 - Si un producto no tiene esa fuente, se omite.
 
@@ -32,24 +32,24 @@ También puede anular la asignación del origen al transferir cantidades de inve
 
 ![Transferir inventario a otro origen](assets/inventory-bulk-transfer-source.gif)
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Seleccione los productos para los que desea modificar las fuentes.
 
    Busca o busca productos y selecciona casillas de verificación para la transferencia.
 
-1. Haga clic en **[!UICONTROL Actions]** en la parte superior y elija **[!UICONTROL Transfer Inventory to Source]**.
+1. Haga clic en el menú **[!UICONTROL Actions]** en la parte superior y elija **[!UICONTROL Transfer Inventory to Source]**.
 
-1. Clic **[!UICONTROL OK]** en el cuadro de diálogo de confirmación.
+1. Haga clic en **[!UICONTROL OK]** en el cuadro de diálogo de confirmación.
 
-1. Para transferir productos a un nuevo destino, seleccione el origen (_[!UICONTROL from]_) origen.
+1. Para transferir productos a un nuevo destino, seleccione el origen (_[!UICONTROL from]_).
 
-1. para transferir productos a un nuevo destino, seleccione el destino (_[!UICONTROL to]_) origen.
+1. para transferir productos a un nuevo destino, seleccione el origen de destino (_[!UICONTROL to]_).
 
-1. Para quitar el origen de los productos, seleccione la casilla de verificación opcional **[!UICONTROL Unassign from origin source after transfer]**.
+1. Para quitar el origen de los productos, active la casilla de verificación opcional **[!UICONTROL Unassign from origin source after transfer]**.
 
    ![Seleccionar origen y destino para transferencia](assets/inventory-bulk-transfer-summary.png){width="600" zoomable="yes"}
 
-1. Haga clic **[!UICONTROL Transfer Inventory]**.
+1. Haga clic en **[!UICONTROL Transfer Inventory]**.
 
    Todas las cantidades de productos se deducen del origen y se añaden al origen de destino. La cantidad y la cantidad vendible se actualizan automáticamente.

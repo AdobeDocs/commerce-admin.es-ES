@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Advanced] &gt; [!UICONTROL Admin]'
-description: Revise la configuración de en [!UICONTROL Advanced] &gt; [!UICONTROL Admin] del Administrador de Commerce.
+description: Revise la configuración en la página [!UICONTROL Advanced] &gt; [!UICONTROL Admin] del administrador de Commerce.
 exl-id: 546b8d01-9611-4415-ab2b-29be560316f5
 role: Admin
 feature: Configuration, Admin Workspace
@@ -17,14 +17,14 @@ ht-degree: 0%
 
 ## [!UICONTROL Admin User Emails]
 
-![Correos electrónicos de usuario administrador](./assets/admin-admin-user-emails.png)<!-- zoom -->
+![Correos electrónicos de usuarios administradores](./assets/admin-admin-user-emails.png)<!-- zoom -->
 
-Para obtener más información sobre cómo cambiar esta configuración, consulte [Contraseña olvidada y correo electrónico restablecido](../../systems/permissions-users-all.md#forgotten-password-and-reset-emails).
+Para obtener más información acerca de cómo cambiar esta configuración, vea [Contraseña olvidada y restablecer correo electrónico](../../systems/permissions-users-all.md#forgotten-password-and-reset-emails).
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |---------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Forgot Password Email Template] | Global | Identifica la plantilla de correo electrónico que se utiliza para el mensaje que se envía cuando un usuario administrador olvida su contraseña. Plantilla predeterminada: `Forgot Admin Password` |
-| [!UICONTROL Forgot and Reset Email Sender] | Global | Identifica al contacto de tienda que aparece como remitente del mensaje _Contraseña olvidada_ correo electrónico. Remitente predeterminado: `General Contact`<br/>Otras opciones de remitente: `Sales Representative`, `Customer Support`, `Custom Email` |
+| [!UICONTROL Forgot and Reset Email Sender] | Global | Identifica al contacto de la tienda que aparece como remitente del correo electrónico _Olvidé la contraseña_. Remitente predeterminado: `General Contact`<br/>Otras opciones de remitente: `Sales Representative`, `Customer Support`, `Custom Email` |
 | [!UICONTROL User Notification Template] | Global | Determina la plantilla de correo electrónico que se utiliza de forma predeterminada para las notificaciones a los administradores. Plantilla predeterminada: `User Notification` |
 
 {style="table-layout:auto"}
@@ -33,7 +33,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 ![Página de inicio](./assets/admin-startup-page.png)<!-- zoom -->
 
-Para obtener más información sobre cómo cambiar esta configuración, consulte [Cambiar la página de inicio](../../getting-started/admin-dashboard.md#change-the-startup-page) en el _Guía de introducción_.
+Para obtener más información sobre cómo cambiar esta configuración, consulte [Cambiar la página de inicio](../../getting-started/admin-dashboard.md#change-the-startup-page) en la _Guía de introducción_.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |---------------------------|------------------------------------------------------------------------|------------------------------------------------------------------|
@@ -102,14 +102,14 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ## [!UICONTROL Admin Base URL]
 
-![URL básica de administración](./assets/admin-admin-base-url.png)<!-- zoom -->
+![URL de base de administración](./assets/admin-admin-base-url.png)<!-- zoom -->
 
-Para obtener más información sobre la configuración de estas opciones, consulte [Configuración de la dirección URL base](../../stores-purchase/store-urls.md#configure-the-base-url) en el _Guía de experiencia de compra y tienda_.
+Para obtener más información acerca de cómo configurar estas opciones, consulte [Configurar la dirección URL base](../../stores-purchase/store-urls.md#configure-the-base-url) en la _Guía de tiendas y compras_.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Use Custom Admin URL] | Global | Determina si se utiliza una dirección URL personalizada para acceder al administrador. Opciones: `Yes` / `No` |
-| [!UICONTROL Custom Admin URL] | Global | Especifica una dirección URL personalizada para acceder al administrador. De forma predeterminada, la URL de administración es la misma que la URL base.<br/>**Importante:** La URL de administrador debe estar en la misma instalación de Commerce y tener la misma raíz de documento que la tienda. |
+| [!UICONTROL Custom Admin URL] | Global | Especifica una dirección URL personalizada para acceder al administrador. De forma predeterminada, la URL de administración es la misma que la URL base.<br/>**Importante:** La dirección URL del administrador debe estar en la misma instalación de Commerce y tener la misma raíz de documento que la tienda. |
 | [!UICONTROL Use Custom Admin Path] | Global | Determina si se utiliza una ruta personalizada para acceder al administrador. La ruta predeterminada es `admin`. Opciones: `Yes` / `No` |
 | [!UICONTROL Custom Admin Path] | Global | Cambia el nombre de la ruta de administración predeterminada a algo difícil de adivinar. Escriba el nombre de la ruta personalizada en caracteres en minúsculas. Por ejemplo: `aardvark` |
 
@@ -119,12 +119,12 @@ Para obtener más información sobre la configuración de estas opciones, consul
 
 ![Seguridad](./assets/admin-security.png)<!-- zoom -->
 
-Para obtener más información sobre la configuración de estas opciones, consulte [Configurar la seguridad de administración](../../systems/security-admin.md) en el _Guía de sistemas de administración_.
+Para obtener más información sobre cómo configurar estas opciones, consulte [Configurar la seguridad de administración](../../systems/security-admin.md) en la _Guía de sistemas de administración_.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--------------------------------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Admin Account Sharing] | Vista de tienda | Determina si un usuario administrador puede iniciar sesión en la misma cuenta simultáneamente desde distintos dispositivos. Opciones: <br/>**`Yes`**: permite varias sesiones activas desde la misma cuenta de administrador.<br/>**`No`** - Solo permite una sesión activa por cuenta de administrador. |
-| [!UICONTROL Password Reset Protection Type] | Vista de tienda | Determina el método que se utiliza para administrar las solicitudes de restablecimiento de contraseña. Opciones: <br/>**`By IP and Email`**: la contraseña se puede restablecer en línea después de recibir una respuesta de la notificación a la dirección de correo electrónico asociada a la cuenta del administrador.<br/>**`By IP`** - La contraseña se puede restablecer en línea sin confirmación adicional. <br/>**`By Email`**: la contraseña solo se puede restablecer respondiendo por correo electrónico a la notificación que se envía a la dirección de correo electrónico asociada a la cuenta de administrador.<br/>**`None`** : solo el administrador del almacén puede restablecer la contraseña. |
+| [!UICONTROL Admin Account Sharing] | Vista de tienda | Determina si un usuario administrador puede iniciar sesión en la misma cuenta simultáneamente desde distintos dispositivos. Opciones: <br/>**`Yes`**: permite varias sesiones activas desde la misma cuenta de administrador.<br/>**`No`** - Permite solamente una sesión activa por cuenta de administrador. |
+| [!UICONTROL Password Reset Protection Type] | Vista de tienda | Determina el método que se utiliza para administrar las solicitudes de restablecimiento de contraseña. Opciones: <br/>**`By IP and Email`**: la contraseña se puede restablecer en línea después de recibir una respuesta de la notificación y enviarla a la dirección de correo electrónico asociada a la cuenta de administrador.<br/>**`By IP`** - La contraseña se puede restablecer en línea sin confirmación adicional. <br/>**`By Email`**: la contraseña solo se puede restablecer respondiendo por correo electrónico a la notificación que se envía a la dirección de correo electrónico asociada a la cuenta de administrador.<br/>**`None`**: solo el administrador del almacén puede restablecer la contraseña. |
 | [!UICONTROL Recovery Link Expiration Period (hours)] | Global | Determina el número de horas que un vínculo de recuperación de contraseña sigue siendo válido. |
 | [!UICONTROL Max Number of Password Reset Requests] | Vista de tienda | Determina la cantidad máxima de solicitudes de contraseña que se pueden enviar por hora. |
 | [!UICONTROL Min Time Between Password Reset Requests] | Vista de tienda | Determina el número mínimo de minutos entre solicitudes de restablecimiento de contraseña. |
@@ -134,7 +134,7 @@ Para obtener más información sobre la configuración de estas opciones, consul
 | [!UICONTROL Maximum Login Failures to Lockout Account] | Global | Determina la cantidad de veces que los usuarios administradores pueden intentar iniciar sesión antes de que se bloqueen sus cuentas. Si el campo está vacío, no se establece ningún mínimo. Valor predeterminado: `6` |
 | [!UICONTROL Lockout Time (minutes)] | Global | Determina la cantidad de minutos que una cuenta de administrador está bloqueada antes de que el usuario pueda intentar iniciar sesión de nuevo. Valor predeterminado: `30` |
 | [!UICONTROL Password Lifetime (days)] | Global | Determina el número de días antes de que caduque una contraseña de administrador. Si el campo está vacío, no se establece ningún período de duración. Valor predeterminado: `90` |
-| [!UICONTROL Password Change] | Global | Determina si los usuarios administradores deben cambiar sus contraseñas. Opciones: <br/>**`Forced`**- Requiere que los usuarios administradores cambien sus contraseñas una vez configurada la cuenta.<br/>**`Recommended`** - Recomienda que los usuarios administradores cambien sus contraseñas una vez configurada la cuenta. |
+| [!UICONTROL Password Change] | Global | Determina si los usuarios administradores deben cambiar sus contraseñas. Opciones: <br/>**`Forced`**- Requiere que los usuarios administradores cambien sus contraseñas después de configurar la cuenta.<br/>**`Recommended`** - Recomienda que los usuarios administradores cambien sus contraseñas después de configurar la cuenta. |
 
 {style="table-layout:auto"}
 
@@ -142,7 +142,7 @@ Para obtener más información sobre la configuración de estas opciones, consul
 
 ![Tablero](./assets/admin-dashboard.png)<!-- zoom -->
 
-Para obtener más información sobre la configuración de estas opciones, consulte [Tablero de administración](../../getting-started/admin-dashboard.md) en el _Guía de introducción_.
+Para obtener más información sobre cómo configurar estas opciones, consulte [Panel de administración](../../getting-started/admin-dashboard.md) en la _Guía de introducción_.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |----------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
@@ -154,7 +154,7 @@ Para obtener más información sobre la configuración de estas opciones, consul
 
 ![Cuadrículas de administración](./assets/admin-admin-grids.png)<!-- zoom -->
 
-Para obtener más información sobre la configuración de estas opciones, consulte [Limitar visualización del producto](../../catalog/products-list.md#limit-product-display) en el _Guía de administración de catálogos_.
+Para obtener más información sobre cómo configurar estas opciones, consulte [Limitar la visualización del producto](../../catalog/products-list.md#limit-product-display) en la _Guía de administración de catálogos_.
 
 >[!NOTE]
 >
@@ -162,21 +162,21 @@ Para obtener más información sobre la configuración de estas opciones, consul
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |-----------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Limit Number of Products in Grid] | Global | Determina si el número de productos mostrados en la cuadrícula está limitado al _[!UICONTROL Records Limit]_valor. Opciones: `Yes` / `No` |
+| [!UICONTROL Limit Number of Products in Grid] | Global | Determina si el número de productos mostrados en la cuadrícula está limitado al valor _[!UICONTROL Records Limit]_. Opciones: `Yes` / `No` |
 | [!UICONTROL Records Limit] | Global | Establece el límite de número de productos en la cuadrícula de productos. El valor mínimo predeterminado es `20000`. |
 
 ## [!UICONTROL CAPTCHA]
 
 ![CAPTCHA](./assets/admin-captcha.png)<!-- zoom -->
 
-Para obtener más información sobre la configuración de estas opciones, consulte [CAPTCHA](../../systems/security-captcha.md) en el _Guía de sistemas de administración_.
+Para obtener más información sobre cómo configurar estas opciones, consulte [CAPTCHA](../../systems/security-captcha.md) en la _Guía de sistemas de administración_.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |-------------------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable CAPTCHA in Admin] | Global | Habilita CAPTCHA para el inicio de sesión del administrador. Opciones: `Yes` / `No` |
-| [!UICONTROL Font] | Global | Determina la fuente utilizada para mostrar el CAPTCHA. Para añadir su propia fuente, coloque el archivo de fuente en el mismo directorio que la instancia de Commerce y añada la declaración al archivo config.xml en `app/code/Magento/Captcha/etc` Fuente predeterminada:` LinLibertine` |
+| [!UICONTROL Font] | Global | Determina la fuente utilizada para mostrar el CAPTCHA. Para agregar su propia fuente, coloque el archivo de fuente en el mismo directorio que la instancia de Commerce y agregue la declaración al archivo config.xml en `app/code/Magento/Captcha/etc` Fuente predeterminada: ` LinLibertine` |
 | [!UICONTROL Forms] | Global | Determina los formularios donde se utiliza CAPTCHA. Opciones: `Admin Login` / `Admin Forgot Password` |
-| [!UICONTROL Displaying Mode] | Global | Determina cuándo aparecerá el CAPTCHA. Opciones: <br/>**`Always`**- Siempre se requiere CAPTCHA para iniciar sesión.<br/>**`After number of attempts to login`** - Muestra el [!UICONTROL Number of Unsuccessful Attempts to Login] field. Introduzca el número de intentos de inicio de sesión permitidos. Un valor de 0 (cero) es similar a establecer el Modo de visualización en Siempre. Esta opción no cubre los formularios Olvidé la contraseña y Crear usuario. Si CAPTCHA está habilitado y configurado para aparecer, siempre se incluye en el formulario.<br />**Nota**: Para rastrear el número de intentos de inicio de sesión erróneos, se cuenta cada intento de inicio de sesión con una dirección de correo electrónico y desde una dirección IP. El número máximo de intentos de inicio de sesión permitidos desde la misma dirección IP es de 1000. Esta limitación se aplica solamente cuando CAPTCHA está habilitado. |
+| [!UICONTROL Displaying Mode] | Global | Determina cuándo aparecerá el CAPTCHA. Opciones: <br/>**`Always`**- siempre se requiere CAPTCHA para iniciar sesión.<br/>**`After number of attempts to login`** - Muestra el campo [!UICONTROL Number of Unsuccessful Attempts to Login]. Introduzca el número de intentos de inicio de sesión permitidos. Un valor de 0 (cero) es similar a establecer el Modo de visualización en Siempre. Esta opción no cubre los formularios Olvidé la contraseña y Crear usuario. Si CAPTCHA está habilitado y configurado para aparecer, siempre se incluye en el formulario.<br />**Nota**: Para hacer un seguimiento del número de intentos de inicio de sesión erróneos, se cuenta cada intento de inicio de sesión en una dirección de correo electrónico y desde una dirección IP. El número máximo de intentos de inicio de sesión permitidos desde la misma dirección IP es de 1000. Esta limitación se aplica solamente cuando CAPTCHA está habilitado. |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | Global | Determina la cantidad de veces que una persona puede intentar iniciar sesión antes de que se bloquee la cuenta. Para realizar un seguimiento del número de intentos de inicio de sesión erróneos, el sistema realiza un seguimiento de los intentos desde una dirección de correo electrónico desde una sola dirección IP. El número máximo de intentos permitidos desde la misma dirección IP es de 1000. Esta limitación se aplica solo si CAPTCHA está habilitado. |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | Global | Determina la duración del CAPTCHA actual. Cuando caduca el CAPTCHA, el usuario debe volver a cargar la página. |
 | [!UICONTROL Number of Symbols] | Global | Determina el número de símbolos que se utilizan en el CAPTCHA. El valor máximo permitido es `8`. También puede especificar un rango, por ejemplo, `5-8`. |
@@ -191,11 +191,11 @@ Para obtener más información sobre la configuración de estas opciones, consul
 
 ![Registro de acciones de administración](./assets/admin-actions-logging.png)<!-- zoom -->
 
-Para obtener más información sobre la configuración de estas opciones, consulte [Archivo de registro de acciones](../../systems/action-log-archive.md) en el _Guía de sistemas de administración_.
+Para obtener más información sobre cómo configurar estas opciones, consulte [Archivo de registro de acciones](../../systems/action-log-archive.md) en la _Guía de sistemas de administración_.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |-----------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Enable Actions] | Global | Habilita el registro de acciones para cada una de las acciones seleccionadas: <br/>`Admin My Account` <br/>`Admin Permission Roles` <br/>`Admin Permission Users` <br/>`Admin Sign In` <br/>`CMS Blocks` <br/>`CMS Hierarchy` <br/>`CMS Pages` <br/>`Cache Management` <br/>`Cart Price Rules` <br/>`Catalog Attributes` <br/>`Catalog Categories` <br/>`Catalog Events` <br/>`Catalog Price Rules` <br/>`Catalog Product Tax Classes` <br/>`Catalog Product Templates` <br/>`Catalog Products` <br/>`Catalog Ratings` <br/>`Catalog Reviews` <br/>`Catalog Search` <br/>`Checkout Terms and Conditions` <br/>`Companies` <br/>`Company Credit` <br/>`Custom Variables` <br/>`Customer Groups` <br/>`Customer Invitations` <br/>`Customer Tax Classes` <br/>`Customers` <br/>`Design Configuration` <br/>`Gift Card Accounts` <br/>`Gift Registry Entity` <br/>`Gift Registry Type` <br/>`Index Management` <br/>`Login as a Customer` <br/>`Manage Currency Rates` <br/>`Manage Customer Address Attributes` <br/>`Manage Customer Attributes` <br/>`Manage Design` <br/>`Manage Dynamic Blocks` <br/>`Manage Segments` <br/>`Manage Store Views` <br/>`Manage Stores` <br/>`Manage Websites` <br/>`Negotiable Quotes` <br/>`Newsletter Queue` <br/>`Newsletter Subscribers` <br/>`Newsletter Templates` <br/>`PayPal Settlement Reports` <br/>`Reports` <br/> `Reward Points Rates` <br/>`Rule-Based Product Relations` <br/>`Sales Archive` <br/>`Sales Credit Memos` <br/>`Sales Invoices` <br/>`Sales Order Status` <br/>`Sales Orders` <br/>`Sales Shipments` <br/>`Shared Catalog` <br/>`Shopping Cart Management` <br/>`Store Credit` <br/>`System Backups` <br/>`System Configuration` <br/>`Tax Rates` <br/>`Tax Rules` <br/>`Transactional Emails` <br/>`URL Rewrites` <br/>`Widget` <br/>`XML Sitemap` |
+| [!UICONTROL Enable Actions] | Global | Activa el registro de acciones para cada una de las acciones seleccionadas: <br/>`Admin My Account` <br/>`Admin Permission Roles` <br/>`Admin Permission Users` <br/>`Admin Sign In` <br/>`CMS Blocks` <br/>`CMS Hierarchy` <br/>`CMS Pages` <br/>`Cache Management` <br/>`Cart Price Rules` <br/>`Catalog Attributes` <br/>`Catalog Categories` <br/>`Catalog Events` <br/>`Catalog Price Rules` <br/>`Catalog Product Tax Classes` <br/>`Catalog Product Templates` <br/>`Catalog Products` <br/>`Catalog Ratings` <br/>`Catalog Reviews` <br/>`Catalog Search` <br/>`Checkout Terms and Conditions` <br/>`Companies` <br/>`Company Credit` <br/>`Custom Variables` <br/>`Customer Groups` <br/>`Customer Invitations` <br/>`Customer Tax Classes` <br/>`Customers` <br/>`Design Configuration` <br/>`Gift Card Accounts` <br/>`Gift Registry Entity` <br/>`Gift Registry Type` <br/>`Index Management` <br/>`Login as a Customer` <br/>`Manage Currency Rates` <br/>`Manage Customer Address Attributes` <br/>`Manage Customer Attributes` <br/>`Manage Design` <br/>`Manage Dynamic Blocks` <br/>`Manage Segments` <br/>`Manage Store Views` <br/>`Manage Stores` <br/>`Manage Websites` <br/>`Negotiable Quotes` <br/>`Newsletter Queue` <br/>`Newsletter Subscribers` <br/>`Newsletter Templates` <br/>`PayPal Settlement Reports` <br/>`Reports` <br/> `Reward Points Rates` <br/>`Rule-Based Product Relations` <br/>`Sales Archive` <br/>`Sales Credit Memos` <br/>`Sales Invoices` <br/>`Sales Order Status` <br/>`Sales Orders` <br/>`Sales Shipments` <br/>`Shared Catalog` <br/>`Shopping Cart Management` <br/>`Store Credit` <br/>`System Backups` <br/>`System Configuration` <br/>`Tax Rates` <br/>`Tax Rules` <br/>`Transactional Emails` <br/>`URL Rewrites` <br/>`Widget` <br/>`XML Sitemap` |
 
 {style="table-layout:auto"}
 
@@ -203,10 +203,10 @@ Para obtener más información sobre la configuración de estas opciones, consul
 
 ![Uso de administrador](./assets/admin-usage.png)<!-- zoom -->
 
-Para obtener más información sobre la configuración de estas opciones, consulte [Recopilación de datos de uso](../../getting-started/admin.md#usage-data-collection) en el _Guía de introducción_.
+Para obtener más información sobre cómo configurar estas opciones, consulte [Recopilación de datos de uso](../../getting-started/admin.md#usage-data-collection) en la _Guía de introducción_.
 
 | Campo | Ámbito | Descripción |
 |------------------------------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Enable Admin Usage Tracking] | Global | Concede permiso para que el Adobe recopile datos de uso del administrador para mejorar la experiencia de uso del _Administrador_ y productos y servicios relacionados. Al permitir la recopilación de datos, también se habilita _Guía interna del producto_ que está diseñado para ofrecer contenido interactivo como ayuda, información sobre herramientas, guías de introducción, información de incorporación, anuncios de funciones y mucho más a _Administrador_. Los administradores individuales no se identifican en los datos de uso. Opciones:<br />**`Yes`**- Permite la recopilación de datos y habilita _Guía interna del producto_.<br />**`No`** - No permite la recopilación de datos ni activa _Guía interna del producto_. |
+| [!UICONTROL Enable Admin Usage Tracking] | Global | Concede permiso de Adobe para recopilar datos de uso del administrador con el fin de mejorar la experiencia de uso de _Admin_, así como los productos y servicios relacionados. Al permitir la recopilación de datos, también se habilita la _Guía interna del producto_, que está diseñada para ofrecer contenido interactivo como ayuda, información sobre herramientas, guías de introducción, información de incorporación, anuncios de características y más al _administrador_. Los administradores individuales no se identifican en los datos de uso. Opciones:<br />**`Yes`**- Permite la recopilación de datos y habilita la _Guía interna del producto_.<br />**`No`** - No permite la recopilación de datos ni habilita la _Guía interna del producto_. |
 
 {style="table-layout:auto"}

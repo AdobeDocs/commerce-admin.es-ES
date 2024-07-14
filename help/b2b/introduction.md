@@ -1,5 +1,5 @@
 ---
-title: Introducción a [!DNL Adobe Commerce B2B]
+title: Introducción a  [!DNL Adobe Commerce B2B]
 description: Aprenda a utilizar las funciones B2B integradas para satisfacer sus necesidades para los clientes que son empresas.
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
@@ -12,9 +12,9 @@ ht-degree: 2%
 
 # Introducción a [!DNL Adobe Commerce B2B]
 
-A diferencia del modelo estándar de empresa a consumidor, las funciones B2B (de empresa a empresa) integradas están diseñadas para satisfacer las necesidades de los vendedores (comerciantes de Adobe Commerce) que tienen clientes que son empresas. Se adapta a las empresas con estructuras organizativas complejas y a varios usuarios con diversas funciones y niveles de permiso de compra. Un cliente B2B típico puede ser el gerente de una tienda minorista o un comprador que realiza compras en nombre de una compañía. En ambos casos, la transacción tiene lugar entre su negocio y el de ellos. También puede vender productos directamente al consumidor. [!DNL Adobe Commerce B2B] es una solución integrada que admite modelos B2B y B2C.
+A diferencia del modelo estándar de empresa a consumidor, las funciones B2B (de empresa a empresa) integradas están diseñadas para satisfacer las necesidades de los vendedores (comerciantes de Adobe Commerce) que tienen clientes que son empresas. Se adapta a las empresas con estructuras organizativas complejas y a varios usuarios con diversas funciones y niveles de permiso de compra. Un cliente B2B típico puede ser el gerente de una tienda minorista o un comprador que realiza compras en nombre de una compañía. En ambos casos, la transacción tiene lugar entre su negocio y el de ellos. También puede vender productos directamente al consumidor. [!DNL Adobe Commerce B2B] es una solución integrada que admite los modelos B2B y B2C.
 
-Con el [instalación](install.md) y [habilitación](enable-basic-features.md) Con la extensión B2B de su tienda Adobe Commerce, la experiencia de compra se puede personalizar con catálogos y precios específicos del cliente, así como con contenido y promociones segmentados.
+Con la [instalación](install.md) y la [habilitación](enable-basic-features.md) de la extensión B2B en tu tienda Adobe Commerce, la experiencia de compra se puede personalizar con catálogos y precios específicos del cliente, y contenido de destino y promociones.
 
 ## Cuentas de empresa
 
@@ -22,29 +22,29 @@ El componente Cuenta de compañía es una entidad clave dentro de B2B de la que 
 
 Desde Admin, el administrador del sitio de Commerce puede configurar el funcionamiento de la empresa en el sitio web. La configuración determina las capacidades B2B disponibles para los usuarios de la empresa, incluidos los métodos de pago, los niveles de precios, la capacidad de negociar precios mediante ofertas, la capacidad de crear listas de solicitudes, etc.
 
-Para obtener más información, consulte [Cuentas de empresa](account-companies.md).
+Para obtener más información, consulte [Cuentas de la compañía](account-companies.md).
 
 >[!NOTE]
 >
->Cuando está activada, su tienda puede dar a las empresas la opción de _Pagar a cuenta_, lo que significa realizar compras en una línea de crédito de la empresa. Como comerciante, puede asignar crédito para una cuenta de compañía y administrar la configuración de crédito de una compañía, así como el reembolso de crédito.
+>Cuando está habilitada, tu tienda puede dar a las compañías la opción de _Pagar en la cuenta_, lo que significa realizar compras en una línea de crédito de la compañía. Como comerciante, puede asignar crédito para una cuenta de compañía y administrar la configuración de crédito de una compañía, así como el reembolso de crédito.
 
 ## Administración de empresa
 
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponible solo para participantes del programa beta"}
+[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponible solo para participantes del programa Beta"}
 
 La gestión de la empresa ayuda a los administradores de los comerciantes a optimizar la administración y gestión de las organizaciones B2B con modelos operativos complejos.
 
-Desde Admin, los usuarios con los permisos adecuados pueden crear una **[!UICONTROL Company Hierarchy]** que refleja la estructura organizativa de una empresa empresarial compuesta por varias empresas. Esta jerarquía les permite ver y administrar compañías como un grupo. Por ejemplo, el administrador puede designar una compañía matriz y asignar todas las compañías que operan como filiales de la compañía matriz. A continuación, el administrador de la compañía principal puede ver y administrar las cuentas de compañía de todas las compañías asignadas.
+Desde el Administrador, los usuarios con los permisos apropiados pueden generar un(a) **[!UICONTROL Company Hierarchy]** que refleje la estructura organizativa de una empresa comercial compuesta por varias empresas. Esta jerarquía les permite ver y administrar compañías como un grupo. Por ejemplo, el administrador puede designar una compañía matriz y asignar todas las compañías que operan como filiales de la compañía matriz. A continuación, el administrador de la compañía principal puede ver y administrar las cuentas de compañía de todas las compañías asignadas.
 
-Para obtener más información, consulte [Administración de empresa](manage-companies.md).
+Para obtener más información, consulte [Administración de la compañía](manage-companies.md).
 
 ## Servicios para Adobe Commerce
 
 Los servicios para Adobe Commerce son servicios alojados que proporcionan funcionalidades ampliadas a Adobe Commerce y a Magento Open Source. Los servicios que admiten flujos de trabajo B2B son:
 
 * [Servicio de catálogo](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html)
-* [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html)
-* [Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)
+* [Búsqueda en directo](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html)
+* [Recommendations del producto](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)
 
 ## Catálogos compartidos
 
@@ -66,17 +66,17 @@ Utilice la función Ofertas para iniciar la negociación de precios entre un com
 
 * Un vendedor puede iniciar un presupuesto para un comprador desde Admin.
 
-Los compradores y vendedores utilizan la oferta para gestionar el proceso de negociación (por ejemplo, añadiendo artículos, actualizando cantidades, solicitando y aplicando descuentos) hasta que lleguen a un acuerdo. El _Comillas_ En la cuadrícula Administrador se muestra cada presupuesto recibido y se mantiene un historial de la comunicación entre el comprador y el vendedor.
+Los compradores y vendedores utilizan la oferta para gestionar el proceso de negociación (por ejemplo, añadiendo artículos, actualizando cantidades, solicitando y aplicando descuentos) hasta que lleguen a un acuerdo. La cuadrícula _Ofertas_ del Administrador enumera todas las ofertas recibidas y mantiene un historial de la comunicación entre el comprador y el vendedor.
 
 La compatibilidad con ofertas negociables solo está disponible para tiendas Commerce configuradas para admitir cuentas de compañía.
 
-Para obtener más información, consulte [Comillas negociables](quotes.md).
+Para obtener más información, consulte [Ofertas negociables](quotes.md).
 
 ## Aprobaciones de pedidos de compra
 
 Cuando se activan los pedidos de compra para una cuenta de empresa, todos los pedidos se crean automáticamente como pedidos de compra. Los usuarios de la compañía con los permisos necesarios pueden crear, editar y eliminar los PC que crean y los creados por los usuarios subordinados. Según su función y el orden, los usuarios de la empresa podrían estar sujetos a varias reglas de aprobación.
 
-Para obtener más información, consulte [Pedidos de compra para empresas](purchase-order-flow.md).
+Para obtener más información, vea [Pedidos de compra para compañías](purchase-order-flow.md).
 
 ## Listas de solicitudes
 

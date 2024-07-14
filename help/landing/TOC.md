@@ -13,11 +13,11 @@ ht-degree: 38%
 # Documentación de Adobe Commerce Merchant {#user-guides}
 
 - [Documentación de Adobe Commerce Merchant](home.md)
-- [Primeros pasos](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html)
+- [Introducción](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html)
 - [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html)
 - [Administración de catálogos](https://experienceleague.adobe.com/docs/commerce-admin/catalog/guide-overview.html)
 - [[!DNL Inventory Management]](https://experienceleague.adobe.com/docs/commerce-admin/inventory/guide-overview.html)
-- [Comercialización y promociones](https://experienceleague.adobe.com/docs/commerce-admin/marketing/guide-overview.html)
+- [Promociones y comercialización](https://experienceleague.adobe.com/docs/commerce-admin/marketing/guide-overview.html)
 - [Contenido y diseño](https://experienceleague.adobe.com/docs/commerce-admin/content-design/guide-overview.html)
 - [[!DNL Page Builder]](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html)
 - [Administración de clientes](https://experienceleague.adobe.com/docs/commerce-admin/customers/guide-overview.html)

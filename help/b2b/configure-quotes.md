@@ -6,47 +6,47 @@ feature: B2B, Companies, Configuration, Quotes
 role: Admin
 source-git-commit: d4c3ea4b49e30ae3af249516d32fb28437d218b8
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
 
 # Configuración de presupuestos
 
-Si las comillas están habilitadas en la versión general [Funciones B2B](enable-basic-features.md), puede configurar la compatibilidad con las comillas en el Administrador. La configuración de oferta determina la cantidad mínima de pedido necesaria para las solicitudes de oferta, la duración de la oferta y los formatos de archivo admitidos para los archivos adjuntos.
+Si las comillas están habilitadas en las [características B2B](enable-basic-features.md) generales, puede configurar la compatibilidad con las comillas en el Administrador. La configuración de oferta determina la cantidad mínima de pedido necesaria para las solicitudes de oferta, la duración de la oferta y los formatos de archivo admitidos para los archivos adjuntos.
 
 >[!NOTE]
 >
->Las opciones de configuración de oferta y la capacidad de utilizar las funciones de negociación de oferta se controlan mediante el [recursos de rol](../systems/permissions-user-roles.md#role-resources). Estos recursos de rol deben seleccionarse para el rol de usuario Administrador que se asigna a la cuenta de usuario Administrador. Para conceder acceso a las funciones de presupuesto en el Administrador, vaya a **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**, seleccione la función y vaya a [!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes] en el_ Recursos de rol _árbol.
+>Las opciones de configuración de oferta y la capacidad de usar las funciones de negociación de oferta se controlan mediante los [recursos de rol](../systems/permissions-user-roles.md#role-resources). Estos recursos de rol deben seleccionarse para el rol de usuario Administrador que se asigna a la cuenta de usuario Administrador. Para conceder acceso a las funciones de presupuesto en Admin, vaya a **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**, seleccione el rol y vaya a [!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes] en el árbol_ Recursos de rol _.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Quotes]**.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL General]** y haga lo siguiente:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL General]** y haga lo siguiente:
 
-   ![Configuración de presupuestos de ventas: general](./assets/quotes-general.png){width="700" zoomable="yes"}
+   ![Configuración de presupuestos de ventas - general](./assets/quotes-general.png){width="700" zoomable="yes"}
 
-   Consulte [Comillas](../configuration-reference/sales/quotes.md) en el _Referencia de configuración_ para obtener una lista completa de las opciones de la función Comillas y sus funciones.
+   Consulte [Comillas](../configuration-reference/sales/quotes.md) en _Referencia de configuración_ para obtener una lista completa de las opciones de la característica Comillas y sus funciones.
 
-   - Introduzca el **[!UICONTROL Minimum Amount]** en el carro de compras que debe cumplirse antes de poder enviar una solicitud de presupuesto.
+   - Escriba **[!UICONTROL Minimum Amount]** en el carro de compras que debe satisfacerse antes de que se pueda enviar una solicitud de presupuesto.
 
-   - Para **[!UICONTROL Minimum Amount Message]**, introduzca el mensaje que desea que aparezca cuando el total del carro de compras no alcance la cantidad mínima requerida.
+   - Para **[!UICONTROL Minimum Amount Message]**, escriba el mensaje que desea que aparezca cuando el total del carro de compras no alcance la cantidad mínima requerida.
 
-   - Para **[!UICONTROL Default Expiration Period]**, introduzca el número de **[!UICONTROL days]**, **[!UICONTROL weeks]**, o **[!UICONTROL months]** que una oferta debe seguir siendo válida.
+   - Para **[!UICONTROL Default Expiration Period]**, escriba el número de **[!UICONTROL days]**, **[!UICONTROL weeks]** o **[!UICONTROL months]** para que una oferta siga siendo válida.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Attached files]** y haga lo siguiente:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Attached files]** y haga lo siguiente:
 
-   - Para **[!UICONTROL File formats for upload]**, introduzca el sufijo de cada tipo de archivo compatible con los archivos adjuntos a una oferta.
+   - Para **[!UICONTROL File formats for upload]**, escriba el sufijo de cada tipo de archivo compatible con los archivos adjuntos a un presupuesto.
 
      Escriba cada sufijo de archivo en minúsculas y separado por una coma.
 
-     De forma predeterminada, se admiten los siguientes formatos: `doc`, `docx`, `xls`, `xlsx`, `pdf`, `txt`, `jpg`, `png`, y `jpeg`
+     De manera predeterminada, se admiten los siguientes formatos: `doc`, `docx`, `xls`, `xlsx`, `pdf`, `txt`, `jpg`, `png` y `jpeg`
 
-   - Para **[!UICONTROL Maximum file size]**, introduzca el tamaño máximo de un archivo adjunto en megabytes.
+   - Para **[!UICONTROL Maximum file size]**, escriba el tamaño máximo de un archivo adjunto en megabytes.
 
      El valor que introduzca puede ser anulado por la configuración del servidor.
 
      ![Configuración de presupuestos de ventas - archivos adjuntos](./assets/quotes-attached-files.png){width="600" zoomable="yes"}
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.

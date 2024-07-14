@@ -5,7 +5,7 @@ exl-id: 4850d853-fb86-4f64-bfee-47915ea028e2
 feature: Rewards, Promotions/Events, Customers
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -32,41 +32,41 @@ Al convertir una moneda en puntos, el número de puntos no se puede dividir. Cua
 
 ![Tasas de cambio de recompensa](./assets/reward-exchange-rates.png){width="700" zoomable="yes"}
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Reward Exchange Rates]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Reward Exchange Rates]**.
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add New Rate]**.
 
-1. En el **[!UICONTROL Reward Exchange Rate Information]** , haga lo siguiente:
+1. En la sección **[!UICONTROL Reward Exchange Rate Information]**, haga lo siguiente:
 
-   ![Tipos de cambio de recompensa - información](./assets/reward-exchange-rate-new.png){width="600" zoomable="yes"}
+   ![Tasas de cambio de recompensa - información](./assets/reward-exchange-rate-new.png){width="600" zoomable="yes"}
 
-   - Establecer **[!UICONTROL Website]** a los sitios donde se aplica el tipo de cambio de recompensa.
+   - Establezca **[!UICONTROL Website]** en los sitios donde se aplica la tasa de cambio de recompensa.
 
-   - Establecer **[!UICONTROL Customer Group]** a los grupos a los que se aplique el tipo de cambio de recompensa.
+   - Establezca **[!UICONTROL Customer Group]** en los grupos a los que se aplica la tasa de cambio de recompensa.
 
-   - Establecer **[!UICONTROL Direction]** a uno de los siguientes:
+   - Establezca **[!UICONTROL Direction]** en una de las siguientes opciones:
 
       - `Points to Currency`
       - `Currency to Points`
 
    Para cualquier configuración de Dirección, la cantidad se representa en la moneda base del sitio web.
 
-1. Introduzca el **[!UICONTROL Rate]** valores según la variable _[!UICONTROL Direction]_configuración.
+1. Escriba los valores de **[!UICONTROL Rate]** según la configuración de _[!UICONTROL Direction]_.
 
    | Dirección | Configuración de velocidad |
    |---------|-------------|
-   | [!UICONTROL Points to Currency] | En la primera _[!UICONTROL Rate]_, introduzca el número de puntos. En el segundo_[!UICONTROL Rate]_ , introduzca el valor monetario de los puntos. |
-   | [!UICONTROL Currency to Points] | En la primera  _[!UICONTROL Rate]_, introduzca el valor monetario. En el segundo_[!UICONTROL Rate]_ , introduzca el número de puntos que representa el valor monetario. |
+   | [!UICONTROL Points to Currency] | En el primer campo _[!UICONTROL Rate]_, escriba el número de puntos. En el segundo campo_[!UICONTROL Rate]_, introduzca el valor monetario de los puntos. |
+   | [!UICONTROL Currency to Points] | En el primer campo _[!UICONTROL Rate]_, introduzca el valor monetario. En el segundo campo_[!UICONTROL Rate]_, escriba el número de puntos que representa el valor monetario. |
 
    Al convertir puntos en moneda, el número de puntos no se puede dividir. Por ejemplo, si diez puntos se convierten en 2,00 $, los puntos deben canjearse en grupos de diez. Por lo tanto, 25 puntos se canjearían por $4.00, con 5 puntos restantes en el saldo del cliente.
 
-   Se recomienda configurar una conversión para ambos `Points to Currency` y `Currency to Points`.
+   Se recomienda configurar una conversión para `Points to Currency` y `Currency to Points`.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
 
 ## Eliminar un tipo de cambio de recompensa
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Reward Exchange Rates]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Reward Exchange Rates]**.
 
 1. Busque el tipo de cambio de recompensa que desea eliminar y ábralo en modo de edición.
 
@@ -80,4 +80,4 @@ Al convertir una moneda en puntos, el número de puntos no se puede dividir. Cua
 |--- |--- |
 | [!UICONTROL Website] | Los sitios web donde se aplican las tasas de recompensa. |
 | [!UICONTROL Customer Group] | Los grupos de clientes a los que se aplican las tarifas de recompensa. |
-| [!UICONTROL Direction] | Determina qué tipo de transacción define el tipo de cambio. Opciones: <br/>**[!UICONTROL Points to Currency]**: define el número de puntos que pueden aplicarse como crédito al importe de un pedido. En la primera _[!UICONTROL Rate]_, introduzca el número de puntos. En el segundo_[!UICONTROL Rate]_ , introduzca el valor monetario de los puntos.<br/>**[!UICONTROL Currency to Points]** : define la cantidad de un pedido que puede obtener puntos del cliente. En la primera  _[!UICONTROL Rate]_, introduzca el valor monetario. En el segundo_[!UICONTROL Rate]_ , introduzca el número de puntos que representa el valor monetario. |
+| [!UICONTROL Direction] | Determina qué tipo de transacción define el tipo de cambio. Opciones: <br/>**[!UICONTROL Points to Currency]**: define el número de puntos que se pueden aplicar como crédito al importe de un pedido. En el primer campo _[!UICONTROL Rate]_, escriba el número de puntos. En el segundo campo_[!UICONTROL Rate]_, introduzca el valor monetario de los puntos.<br/>**[!UICONTROL Currency to Points]**: define la cantidad de un pedido que puede obtener puntos del cliente. En el primer campo _[!UICONTROL Rate]_, introduzca el valor monetario. En el segundo campo_[!UICONTROL Rate]_, escriba el número de puntos que representa el valor monetario. |

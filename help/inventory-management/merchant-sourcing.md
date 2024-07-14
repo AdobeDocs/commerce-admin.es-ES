@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Tipos de fuentes de comerciante
 
-[!DNL Commerce] admite [!DNL Inventory Management] para empresas de todos los tamaños, incluida una sola tienda con un sitio web a una red internacional de sitios web, tiendas, almacenes y empresas de envío directo. Todos los comerciantes que utilizan Adobe Commerce o Magento Open Source se dividen en dos tipos en función del número de ubicaciones o fuentes de su empresa.
+[!DNL Commerce] admite [!DNL Inventory Management] para empresas de todos los tamaños, incluida una sola tienda con un sitio web a una red internacional de sitios web, tiendas, almacenes y distribuidores directos. Todos los comerciantes que utilizan Adobe Commerce o Magento Open Source se dividen en dos tipos en función del número de ubicaciones o fuentes de su empresa.
 
 - Los comerciantes de origen único envían productos desde una ubicación. Se le considera un comerciante/modo de un solo origen hasta que empiece a añadir fuentes y existencias personalizadas a su instalación.
 
@@ -26,29 +26,29 @@ Por ejemplo, tiene un sitio web o una implementación de varios sitios con sitio
 
 Para empezar:
 
-- Configurar [configuración global y de producto](configuration.md) para el inventario de su tienda, según sea necesario.
+- Configura [la configuración global y de producto](configuration.md) para el inventario de tu tienda según sea necesario.
 
-- Actualice el [Origen predeterminado](sources-manage.md) con información para su ubicación de inventario única. No es necesario crear fuentes adicionales.
+- Actualice [Source predeterminado](sources-manage.md) con información para su ubicación de inventario única. No es necesario crear fuentes adicionales.
 
-- Actualice el [Stock predeterminado](stocks-manage.md). Asegúrese de que todos los sitios web estén seleccionados como canales de ventas. A medida que agrega nuevos sitios web, [!DNL Commerce] las añade automáticamente al Stock predeterminado. No es necesario crear stock adicionales.
+- Actualizar [Stock predeterminado](stocks-manage.md). Asegúrese de que todos los sitios web estén seleccionados como canales de ventas. A medida que agrega nuevos sitios web, [!DNL Commerce] los agrega automáticamente al Stock predeterminado. No es necesario crear stock adicionales.
 
 >[!NOTE]
 >
->A medida que su empresa se expanda, añada fuentes y existencias adicionales y actualice su [!DNL Inventory Management] para convertirse en un comerciante de varios orígenes. Consulte [Expandir y reestructurar el inventario](expand-restructure.md) para todos los detalles.
+>A medida que su empresa se expanda, agregue fuentes y existencias adicionales y actualice su configuración de [!DNL Inventory Management] para convertirla en un comerciante de múltiples fuentes. Consulte [Expandir y reestructurar inventario](expand-restructure.md) para todos los detalles.
 
 ## Comerciantes de varias fuentes
 
 Los comerciantes de varias fuentes tienen un sitio web o una implementación de varios sitios y administran el inventario disponible y el cumplimiento de pedidos a través de varias ubicaciones.
 
-Por ejemplo, tiene una implementación de varios sitios con sitios web para Estados Unidos, Alemania, Francia y Brasil. Su negocio incluye múltiples almacenes y tiendas en estos países y servicios de envío directo que administran todas las existencias de inventario y cumplen con los pedidos. Estas ubicaciones y sitios web se convierten en fuentes y existencias en [!DNL Commerce]. Puede crear un inventario para América y otro para Europa, y asignar sitios web y fuentes basados en configuraciones regionales y ubicaciones. Los clientes que compran cada sitio web solo tienen acceso a los inventarios vendibles de las fuentes asignadas.
+Por ejemplo, tiene una implementación de varios sitios con sitios web para Estados Unidos, Alemania, Francia y Brasil. Su negocio incluye múltiples almacenes y tiendas en estos países y servicios de envío directo que administran todas las existencias de inventario y cumplen con los pedidos. Estas ubicaciones y sitios web se convierten en orígenes y existencias en [!DNL Commerce]. Puede crear un inventario para América y otro para Europa, y asignar sitios web y fuentes basados en configuraciones regionales y ubicaciones. Los clientes que compran cada sitio web solo tienen acceso a los inventarios vendibles de las fuentes asignadas.
 
 Para empezar:
 
 - Configure las opciones globales del inventario de su tienda según sea necesario.
 
-- Añadir [fuentes personalizadas](sources-add.md) para las ubicaciones de inventario: almacenes, tiendas, centros de distribución y distribuidores directos.
+- Agregue [fuentes personalizadas](sources-add.md) para sus ubicaciones de inventario: almacenes, tiendas, centros de distribución y distribuidores directos entre terceros.
 
-- Añadir [existencias aduana](stocks-add.md) para que cada región asigne sus sitios web con varias fuentes. Reordene las fuentes en cada stock en la prioridad de ubicación, lo que resulta útil al cumplir sus pedidos.
+- Agregue [existencias personalizadas](stocks-add.md) a cada región para asignar sus sitios web con múltiples orígenes. Reordene las fuentes en cada stock en la prioridad de ubicación, lo que resulta útil al cumplir sus pedidos.
 
 - Asignar orígenes a productos, agregando cantidades por ubicación.
 

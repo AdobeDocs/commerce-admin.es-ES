@@ -5,14 +5,14 @@ exl-id: 5da03cf9-5e92-4bb8-ba53-67c6469665ed
 feature: Shipping/Delivery, Orders
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
 # Etiquetas de envío
 
-Commerce incluye un alto nivel de integración con los principales transportistas, lo que le permite acceder a los sistemas de envío de los transportistas para rastrear pedidos, crear etiquetas de envío y mucho más. Se pueden crear etiquetas de envío para envíos regulares y productos con autorización de devolución de mercancía. Además de la información proporcionada por el transportista, la etiqueta también incluye el número de pedido de comercio, el número del paquete y la cantidad total de paquetes para el envío.
+Commerce incluye un alto nivel de integración con los principales transportistas, lo que le permite acceder a los sistemas de envío de los transportistas para rastrear pedidos, crear etiquetas de envío y mucho más. Se pueden crear etiquetas de envío para envíos regulares y productos con autorización de devolución de mercancía. Además de la información proporcionada por el transportista, la etiqueta también incluye el número de pedido de Commerce, el número del paquete y la cantidad total de paquetes para el envío.
 
 ![Etiqueta de envío con prioridad USPS](./assets/shipping-usps-priority-label.png){width="300"}
 

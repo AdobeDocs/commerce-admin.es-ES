@@ -13,13 +13,13 @@ ht-degree: 0%
 ## Función de solo EE {#ee-feature}
 
 <table style="border:1px solid red">
-<tr><td><img alt="Función Adobe Commerce" src="../assets/adobe-logo.svg" width="20" height="20" /> Función exclusiva solo en Adobe Commerce (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Más información</a>)</td></tr>
+<tr><td><img alt="Función Adobe Commerce" src="../assets/adobe-logo.svg" width="20" height="20" /> Característica exclusiva solamente en Adobe Commerce (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Más información</a>)</td></tr>
 </table>
 
 ## Función exclusiva de B2B {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Función Adobe Commerce B2B" src="../assets/b2b.svg" width="20" height="20" /> Función exclusiva disponible solo con <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">Adobe Commerce B2B</a></td></tr>
+<tr><td><img alt="Función Adobe Commerce B2B" src="../assets/b2b.svg" width="20" height="20" /> Característica exclusiva disponible solo con <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">Adobe Commerce B2B</a></td></tr>
 </table>
 
 ## Función de solo CE {#ce-feature}
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->A partir de la versión 2.4.5, la integración de servicios de Google se actualiza para admitir el uso de las API de GTag. GTag es un mecanismo unificado para la integración con la funcionalidad de Google para páginas web y admite las funciones y oportunidades más recientes para el seguimiento y la administración de contenido mediante los servicios de Google. Para obtener más información, consulte la [Documentación para desarrolladores de Google Analytics](https://developers.google.com/analytics/devguides/collection/gtagjs).
+>A partir de la versión 2.4.5, la integración de servicios de Google se actualiza para admitir el uso de las API de GTag. GTag es un mecanismo unificado para la integración con la funcionalidad de Google para páginas web y admite las funciones y oportunidades más recientes para el seguimiento y la administración de contenido mediante los servicios de Google. Para obtener más información, consulte la [documentación para desarrolladores de Google Analytics](https://developers.google.com/analytics/devguides/collection/gtagjs).
 
 ## Reescribir URL omitir nota automáticamente {#url-rewrite-skip}
 
@@ -56,19 +56,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Las reglas de precios se procesan automáticamente con otras reglas del sistema. La frecuencia de procesamiento depende del [configuración de cron](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html). Cuando cree una regla de precios, deje tiempo suficiente para que entre en el sistema. Cuando esté seguro de que está en el sistema, pruebe la regla.
+>Las reglas de precios se procesan automáticamente con otras reglas del sistema. La frecuencia de procesamiento depende de la [configuración de cron](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html). Cuando cree una regla de precios, deje tiempo suficiente para que entre en el sistema. Cuando esté seguro de que está en el sistema, pruebe la regla.
 
 ## Ajustes de configuración {#config}
 
-Para acceder a las opciones de configuración de la tienda, elija **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**desde el_ Administrador _barra lateral.
+Para acceder a las opciones de configuración de la tienda, elige **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**en la barra lateral de_ Admin _.
 
 ## Desaprobación de API de UPS {#ups-api}
 
 >[!IMPORTANT]
 >
->A partir de junio de 2024, los comerciantes de Adobe Commerce ya no podrán realizar transacciones con la integración actual de UPS. Esto se debe a que las API de United Parcel Service (UPS) utilizadas por la integración nativa de Adobe Commerce no admiten actualmente el modelo de seguridad OAuth 2.0 requerido. Para obtener más información, consulte [_Guía de migración de claves de acceso al portal para desarrolladores_](https://developer.ups.com/oauth-developer-guide). <br/>
+>A partir de junio de 2024, los comerciantes de Adobe Commerce ya no podrán realizar transacciones con la integración actual de UPS. Esto se debe a que las API de United Parcel Service (UPS) utilizadas por la integración nativa de Adobe Commerce no admiten actualmente el modelo de seguridad OAuth 2.0 requerido. Para obtener más información sobre este cambio, consulte [_Guía de migración de claves de acceso al portal para desarrolladores_](https://developer.ups.com/oauth-developer-guide). <br/>
 >
->Los comerciantes deben [aplicar una actualización de parche de calidad](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html) a su almacén para migrar de la API de SOAP a la API de RESTful, que admite protocolos de autenticación OAuth 2.0.
+>SOAP Los comerciantes deben [aplicar una actualización de revisión de calidad](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html) a su almacén para migrar de la API de la a la API de RESTful, que admite los protocolos de autenticación OAuth 2.0.
 
 
 ## Documentación disponible {#docs-links}
@@ -77,7 +77,7 @@ Para acceder a las opciones de configuración de la tienda, elija **[!UICONTROL 
 |----------------------- | ----------- |
 | [Documentación de Adobe Commerce 2.4 Merchant](../landing/home.md) | Documentación centrada en el comerciante para Adobe Commerce |
 | [Servicios para la documentación de Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Documentación para ofrecer compatibilidad con una colección de servicios que ayudan a los comerciantes a integrar componentes clave de su negocio en su tienda. |
-| [Guía de Commerce sobre infraestructura en la nube](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Procedimientos paso a paso para implementar Adobe Commerce en una plataforma en la nube administrada y automatizada. |
+| [Guía de infraestructura de Commerce en la nube](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Procedimientos paso a paso para implementar Adobe Commerce en una plataforma en la nube administrada y automatizada. |
 | [Guías operativas de Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Documentación del sistema sobre los conceptos, procesos, herramientas y prácticas recomendadas para desarrollar, implementar y mantener proyectos de Adobe Commerce. |
 | [Documentación para desarrolladores de Adobe Commerce 2.4](https://developer.adobe.com/commerce/docs) | Documentación centrada en el desarrollador que se utiliza para personalizar Adobe Commerce e integrarla con sistemas de terceros |
 

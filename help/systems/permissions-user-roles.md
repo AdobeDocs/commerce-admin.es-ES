@@ -18,7 +18,7 @@ Para conceder a alguien acceso restringido al administrador, el primer paso es c
 
 ## Definir una función
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add New Role]**.
 
@@ -26,11 +26,11 @@ Para conceder a alguien acceso restringido al administrador, el primer paso es c
 
 ### Paso 1: Añadir el nombre de la función
 
-1. En _[!UICONTROL Role Information]_, introduzca una descripción **[!UICONTROL Role Name]**.
+1. En _[!UICONTROL Role Information]_, escriba un **[!UICONTROL Role Name]**descriptivo.
 
-1. En _[!UICONTROL Current User Identity Verification]_, introduzca su contraseña.
+1. En _[!UICONTROL Current User Identity Verification]_, escriba su contraseña.
 
-   ![Permisos del sistema: información de funciones](./assets/permissions-role-info.png){width="600" zoomable="yes"}
+   ![Permisos del sistema - información de función](./assets/permissions-role-info.png){width="600" zoomable="yes"}
 
 ### Paso 2: Asignación de recursos
 
@@ -38,62 +38,62 @@ Para conceder a alguien acceso restringido al administrador, el primer paso es c
 >
 >Al asignar recursos, asegúrese de deshabilitar el acceso a la herramienta Permisos si está limitando el acceso a una función determinada. De lo contrario, los usuarios pueden modificar sus propios permisos.
 
-1. Establecer **[!UICONTROL Role Scopes]** a uno de los siguientes:
+1. Establezca **[!UICONTROL Role Scopes]** en una de las siguientes opciones:
 
    - `All`
    - `Custom`
 
-   Si se establece en `Custom` para una instalación de varios sitios, seleccione la casilla del sitio web y la tienda donde se utilizará el rol.
+   Si se establece en `Custom` para una instalación de varios sitios, active la casilla de verificación del sitio web y el almacén donde se va a utilizar el rol.
 
-   ![Recursos de función de usuario: ámbito personalizado](./assets/permissions-role-scope-custom.png){width="600" zoomable="yes"}
+   ![Recursos de función de usuario - ámbito personalizado](./assets/permissions-role-scope-custom.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Usuarios con un `Custom` los ámbitos de funciones no pueden crear sitios web y categorías, asignar productos a categorías ni editar productos en _[!UICONTROL All Store Views]_ámbito cuando se asignan a tiendas restringidas. Estos usuarios tampoco pueden realizar otras acciones_ global _acciones que afectan a ámbitos en los que no tienen acceso.
+   >Los usuarios con un ámbito de rol `Custom` no pueden crear sitios web y categorías, asignar productos a categorías o editar productos en el ámbito _[!UICONTROL All Store Views]_cuando se les asigna a tiendas restringidas. Estos usuarios no pueden realizar otras_ acciones globales _que afecten a ámbitos en los que no tengan acceso.
 
-1. En _[!UICONTROL Roles Resources]_, configurado **[!UICONTROL Resource Access]**hasta `Custom`.
+1. En _[!UICONTROL Roles Resources]_, establezca **[!UICONTROL Resource Access]**en `Custom`.
 
-1. En el **[!UICONTROL Resource]** En la estructura de árbol, seleccione la casilla de verificación de cada capacidad de Administración a la que el rol puede acceder.
+1. En la estructura de árbol **[!UICONTROL Resource]**, seleccione la casilla de verificación de cada capacidad de administración a la que el rol puede acceder.
 
-   Para crear un rol de administrador con acceso a la configuración de impuestos, seleccione los recursos de ventas/impuestos y de sistema/impuestos. Si configura un sitio web para una región que difiere de la predeterminada [punto de origen del envío](../stores-purchase/shipping-settings.md#point-of-origin), debe permitir el acceso a los recursos de sistema/envío para el rol. La configuración de envío determina la tasa de impuestos de la tienda que se utiliza para los precios del catálogo.
+   Para crear un rol de administrador con acceso a la configuración de impuestos, seleccione los recursos de ventas/impuestos y de sistema/impuestos. Si configura un sitio web para una región que difiere de su [punto de origen de envío](../stores-purchase/shipping-settings.md#point-of-origin) predeterminado, debe permitir el acceso a los recursos de sistema/envío para el rol. La configuración de envío determina la tasa de impuestos de la tienda que se utiliza para los precios del catálogo.
 
-   ![Recursos de rol de usuario asignados](./assets/permissions-role-resources-product.png){width="600" zoomable="yes"}
+   ![Recursos de funciones de usuario asignados](./assets/permissions-role-resources-product.png){width="600" zoomable="yes"}
 
    La lista de permisos disponibles puede incluir opciones adicionales para extensiones agrupadas e instaladas. Al seleccionar el permiso más alto para cada función, se asignan todos los permisos disponibles para el usuario.
 
    >[!NOTE]
    >
-   >Un usuario administrador debe tener **[!UICONTROL Sales / Archive]** permisos para su ámbito de función para ver el _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_, y _[!UICONTROL Shipments]_pedido [pestañas](../stores-purchase/order-processing.md).
+   >Un usuario administrador debe tener permisos de **[!UICONTROL Sales / Archive]** para el ámbito de su rol con el fin de ver las _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_ y _[!UICONTROL Shipments]_, así como [fichas](../stores-purchase/order-processing.md).
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Role]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Role]**.
 
    La función aparece ahora en la cuadrícula y se puede asignar a cuentas de usuario.
 
 ## Asignar una función a los usuarios
 
-1. Desde el _[!UICONTROL Roles]_, abra el registro en modo de edición.
+1. En la cuadrícula _[!UICONTROL Roles]_, abra el registro en modo de edición.
 
-1. En _[!UICONTROL Current User Identity Verification]_, introduzca la contraseña de su cuenta de usuario.
+1. En _[!UICONTROL Current User Identity Verification]_, escriba la contraseña de su cuenta de usuario.
 
 1. En el panel izquierdo, elija **[!UICONTROL Role Users]**.
 
-   El _[!UICONTROL Role Users]_aparece solo después de guardar una función nueva.
+   La opción _[!UICONTROL Role Users]_solo aparece después de guardar un nuevo rol.
 
-   ![Cuentas de usuario asignadas a la función](./assets/permissions-role-users.png){width="600" zoomable="yes"}
+   ![Cuentas de usuario asignadas al rol](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 
 1. Para buscar un registro de usuario específico, haga lo siguiente:
 
-   - Introduzca el valor en el filtro de búsqueda en la parte superior de una columna y pulse **Entrar**.
+   - Escriba el valor en el filtro de búsqueda en la parte superior de una columna y presione **Entrar**.
 
    - Cuando esté listo para volver a la lista completa, haga clic en **[!UICONTROL Reset Filter]**.
 
 1. Seleccione la casilla de verificación de los usuarios que se van a asignar al rol.
 
-1. Clic **[!UICONTROL Save Role]**.
+1. Haga clic en **[!UICONTROL Save Role]**.
 
 ## Editar una función
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
 
 1. Localice la función con filtros encima de la cuadrícula y haga clic en el nombre de la función.
 
@@ -107,7 +107,7 @@ Para conceder a alguien acceso restringido al administrador, el primer paso es c
 
 ## Eliminar un rol
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
 
 1. Localice la función con filtros sobre la cuadrícula y ábrala en modo de edición.
 

@@ -6,14 +6,14 @@ role: Admin
 feature: Admin Workspace, Configuration, Security
 source-git-commit: e301cfaeec3a8427fff6138ba041bdbd7433c137
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
 
 # Configurar la seguridad de administración
 
-Le recomendamos que adopte un enfoque multifacético para proteger la seguridad de su tienda. Puede empezar por usar una [URL de administrador personalizada](../stores-purchase/store-urls.md#use-a-custom-admin-url) esto no es fácil de adivinar, más que el obvio &quot;Admin&quot; o &quot;Backend&quot;. De forma predeterminada, las contraseñas utilizadas para [iniciar sesión](../getting-started/admin-signin.md) para el administrador debe tener siete caracteres o más e incluir letras y números. As a [práctica recomendada](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), utilice únicamente contraseñas de administrador seguras que incluyan una combinación de letras, números y símbolos. Adobe Commerce y Magento Open Source no permiten la reutilización de las últimas cuatro contraseñas asignadas a la cuenta.
+Le recomendamos que adopte un enfoque multifacético para proteger la seguridad de su tienda. Puede empezar por usar una [URL de administrador personalizada](../stores-purchase/store-urls.md#use-a-custom-admin-url) que no sea fácil de adivinar, en lugar de las obvias &quot;Admin&quot; o &quot;Backend&quot;. De manera predeterminada, las contraseñas que se usan para [iniciar sesión](../getting-started/admin-signin.md) en el administrador deben contener siete o más caracteres e incluir letras y números. Como [práctica recomendada](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), use solamente contraseñas de administrador seguras que incluyan una combinación de letras, números y símbolos. Adobe Commerce y Magento Open Source no permiten la reutilización de las últimas cuatro contraseñas asignadas a la cuenta.
 
 La configuración de seguridad de administración le permite:
 
@@ -21,15 +21,15 @@ La configuración de seguridad de administración le permite:
 - Requerir que las contraseñas distingan entre mayúsculas y minúsculas
 - Limitar la duración de las sesiones de administración
 - Limitar la duración de las contraseñas
-- Limitar el número de intentos de inicio de sesión que se pueden realizar antes de que se abra la cuenta de usuario Administrador [bloqueado](permissions-users-all.md#locked-users).
+- Limite el número de intentos de inicio de sesión que pueden realizarse antes de que la cuenta de usuario administrador esté [bloqueada](permissions-users-all.md#locked-users).
 
 Para aumentar la seguridad, puede configurar la duración de la inactividad del teclado antes de que caduque la sesión actual y requerir que el nombre de usuario y la contraseña distingan entre mayúsculas y minúsculas.
 
-Además de la configuración de seguridad de esta sección, [autenticación de doble factor](security-two-factor-authentication.md) (2FA) es necesario para verificar la identidad de los usuarios con una contraseña única generada por una aplicación o dispositivo. Se le pedirá que configure 2FA la primera vez que inicie sesión en el administrador. Para mayor seguridad, el inicio de sesión de administrador también se puede configurar para requerir una [CAPTCHA](security-captcha.md).
+Además de la configuración de seguridad de esta sección, se requiere [autenticación de doble factor](security-two-factor-authentication.md) (2FA) para comprobar la identidad de los usuarios con una contraseña de un solo uso generada por una aplicación o dispositivo. Se le pedirá que configure 2FA la primera vez que inicie sesión en el administrador. Para mayor seguridad, el inicio de sesión de administrador también puede configurarse para requerir un [CAPTCHA](security-captcha.md).
 
 >[!NOTE]
 >
->Tiendas que han activado [!DNL Adobe Identity Management Services] La autenticación (IMS) tiene Adobe Commerce nativo y el Magento Open Source 2FA deshabilitado. Los usuarios administradores que han iniciado sesión en su instancia de Commerce con sus credenciales de Adobe no necesitan volver a autenticarse en muchas tareas de administración. La autenticación la gestiona Adobe IMS cuando el usuario administrador inicia sesión en su sesión actual. Consulte [[!DNL Adobe Identity Management Service] (IMS) Resumen de la integración](../getting-started/adobe-ims-integration-overview.md).
+>Las tiendas que han habilitado la autenticación [!DNL Adobe Identity Management Services] (IMS) tienen Adobe Commerce nativo y el Magento Open Source 2FA deshabilitado. Los usuarios administradores que han iniciado sesión en su instancia de Commerce con sus credenciales de Adobe no necesitan volver a autenticarse en muchas tareas de administración. La autenticación la gestiona Adobe IMS cuando el usuario administrador inicia sesión en su sesión actual. Ver [[!DNL Adobe Identity Management Service] (IMS) Descripción general de la integración](../getting-started/adobe-ims-integration-overview.md).
 
 Para obtener información técnica, consulte [Información general de seguridad](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target=&quot;_blank&quot;} en la documentación para desarrolladores.
 
@@ -37,49 +37,49 @@ Para obtener información técnica, consulte [Información general de seguridad]
 
 ## Configurar la seguridad de administración
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. En el panel izquierdo, debajo de _[!UICONTROL Advanced]_, elija **[!UICONTROL Admin]**.
+1. En el panel izquierdo bajo _[!UICONTROL Advanced]_, elija **[!UICONTROL Admin]**.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Security]** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Security]**.
 
-1. Para evitar que los usuarios administradores inicien sesión desde la misma cuenta en distintos dispositivos, establezca **[!UICONTROL Admin Account Sharing]** hasta `No`.
+1. Para evitar que los usuarios administradores inicien sesión desde la misma cuenta en distintos dispositivos, establezca **[!UICONTROL Admin Account Sharing]** en `No`.
 
-1. Para determinar el método que se utiliza para administrar las solicitudes de restablecimiento de contraseña, establezca **[!UICONTROL Password Reset Protection Type]** a uno de los siguientes:
+1. Para determinar el método que se usa para administrar las solicitudes de restablecimiento de contraseña, establezca **[!UICONTROL Password Reset Protection Type]** en uno de los siguientes:
 
-   - `By IP and Email` — La contraseña se puede restablecer en línea después de recibir una respuesta de la notificación a la dirección de correo electrónico asociada a la cuenta de administrador.
-   - `By IP` — La contraseña se puede restablecer en línea sin confirmación adicional.
-   - `By Email` — La contraseña solo se puede restablecer respondiendo por correo electrónico a la notificación que se envía a la dirección de correo electrónico asociada a la cuenta de administrador.
-   - `None` — La contraseña sólo puede ser restablecida por el administrador del almacén.
+   - `By IP and Email`: la contraseña se puede restablecer en línea después de recibir una respuesta de la notificación y enviarla a la dirección de correo electrónico asociada a la cuenta de administrador.
+   - `By IP`: la contraseña se puede restablecer en línea sin confirmación adicional.
+   - `By Email`: la contraseña solo se puede restablecer respondiendo por correo electrónico a la notificación que se envía a la dirección de correo electrónico asociada a la cuenta de administrador.
+   - `None`: la contraseña solo la puede restablecer el administrador del almacén.
 
 1. Establecer opciones de seguridad de inicio de sesión:
 
-   - Para **[!UICONTROL Recovery Link Expiration Period (hours)]**, introduzca el número de horas que un vínculo de recuperación de contraseña sigue siendo válido.
+   - Para **[!UICONTROL Recovery Link Expiration Period (hours)]**, escriba el número de horas que un vínculo de recuperación de contraseña será válido.
 
-   - Para determinar el número máximo de solicitudes de contraseña que se pueden enviar por hora, introduzca el número de **[!UICONTROL Max Number of Password Reset Requests]**.
+   - Para determinar la cantidad máxima de solicitudes de contraseña que se pueden enviar por hora, ingrese el número de **[!UICONTROL Max Number of Password Reset Requests]**.
 
-   - Para **[!UICONTROL Min Time Between Password Reset Requests]**, introduzca el número mínimo de minutos que deben transcurrir entre solicitudes de restablecimiento de contraseña.
+   - Para **[!UICONTROL Min Time Between Password Reset Requests]**, escriba el número mínimo de minutos que deben transcurrir entre solicitudes de restablecimiento de contraseña.
 
-   - Para anexar una clave secreta a la URL de administración como medida de precaución frente a ataques de explotación, establezca **[!UICONTROL Add Secret Key to URLs]** hasta `Yes`. Esta opción está habilitada de forma predeterminada.
+   - Para anexar una clave secreta a la dirección URL del administrador como medida de precaución contra ataques de explotación, establezca **[!UICONTROL Add Secret Key to URLs]** en `Yes`. Esta opción está habilitada de forma predeterminada.
 
-   - Para requerir que el uso de caracteres en mayúsculas y minúsculas en las credenciales de inicio de sesión especificadas coincidan con lo que se almacena en el sistema, establezca **[!UICONTROL Login is Case Sensitive]** hasta `Yes`.
+   - Para requerir que el uso de caracteres en mayúsculas y minúsculas en las credenciales de inicio de sesión especificadas coincidan con lo que está almacenado en el sistema, establezca **[!UICONTROL Login is Case Sensitive]** en `Yes`.
 
-   - Para determinar la duración de una sesión de administrador antes de que se agote el tiempo de espera, introduzca la duración de la sesión en segundos para **[!UICONTROL Admin Session Lifetime (seconds)]** field. El valor debe ser de 60 segundos o más.
+   - Para determinar la duración de una sesión de administrador antes de que se agote el tiempo de espera, escriba la duración de la sesión en segundos para el campo **[!UICONTROL Admin Session Lifetime (seconds)]**. El valor debe ser de 60 segundos o más.
 
-   - Para **[!UICONTROL Maximum Login Failures to Lockout Account]**, introduzca el número de veces que un usuario puede intentar iniciar sesión en el administrador antes de que se bloquee la cuenta. De forma predeterminada, se permiten seis intentos. Deje el campo vacío para intentos de inicio de sesión ilimitados.
+   - Para **[!UICONTROL Maximum Login Failures to Lockout Account]**, escriba el número de veces que un usuario puede intentar iniciar sesión en el Administrador antes de que se bloquee la cuenta. De forma predeterminada, se permiten seis intentos. Deje el campo vacío para intentos de inicio de sesión ilimitados.
 
    - Para **[!UICONTROL Lockout Time (minutes)]**, introduzca el número de minutos que una cuenta de administrador está bloqueada cuando se cumple el número máximo de intentos.
 
 1. Establecer opciones de contraseña:
 
-   - Para limitar la duración de las contraseñas de administrador, introduzca el número de días durante los cuales una contraseña es válida **[!UICONTROL Password Lifetime (days)]**. Deje el campo en blanco durante un tiempo ilimitado.
+   - Para limitar la duración de las contraseñas de administrador, escriba el número de días durante los cuales una contraseña será válida para **[!UICONTROL Password Lifetime (days)]**. Deje el campo en blanco durante un tiempo ilimitado.
 
-   - Establecer **[!UICONTROL Password Change]** a uno de los siguientes:
+   - Establezca **[!UICONTROL Password Change]** en una de las siguientes opciones:
 
       - `Forced` — Requiere que los usuarios administradores cambien sus contraseñas después de configurar la cuenta.
       - `Recommended` — Recomienda que los usuarios administradores cambien sus contraseñas después de configurar la cuenta.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 ## Requisitos de contraseña de administrador
 

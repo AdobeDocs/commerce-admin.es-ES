@@ -4,8 +4,8 @@ description: Aprenda a crear y administrar los widgets que actualizan automátic
 exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 1%
+source-wordcount: '554'
+ht-degree: 0%
 
 ---
 
@@ -17,52 +17,52 @@ Los widgets son componentes reutilizables. Puede crear fácilmente widgets y mod
 
 ## Crear un widget
 
-El proceso de creación de un widget es casi el mismo para cada uno [tipo de widget](widgets.md#widget-types). Puede seguir la primera parte de las instrucciones y, a continuación, completar la última parte para el tipo específico de widget que desee.
+El proceso de creación de un widget es casi el mismo para cada [tipo de widget](widgets.md#widget-types). Puede seguir la primera parte de las instrucciones y, a continuación, completar la última parte para el tipo específico de widget que desee.
 
 ### Paso 1: Elija el tipo
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
 
-1. Haga clic **[!UICONTROL Add Widget]**.
+1. Haga clic en **[!UICONTROL Add Widget]**.
 
-1. En el _[!UICONTROL Settings]_sección:
+1. En la sección _[!UICONTROL Settings]_:
 
-   - Establecer **[!UICONTROL Type]** al tipo de widget que desea crear.
+   - Establezca **[!UICONTROL Type]** en el tipo de widget que desea crear.
 
-   - Compruebe que la variable **[!UICONTROL Design Theme]** se establece en la temática actual.
+   - Compruebe que **[!UICONTROL Design Theme]** esté establecido en el tema actual.
 
      ![Configuración del widget](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. Haga clic **[!UICONTROL Continue]**.
+1. Haga clic en **[!UICONTROL Continue]**.
 
 ### Paso 2: Especificar las propiedades y el diseño de la tienda
 
-1. En el _[!UICONTROL Storefront Properties]_sección:
+1. En la sección _[!UICONTROL Storefront Properties]_:
 
-   - Para **[!UICONTROL Widget Title]**, introduzca un título descriptivo para el widget.
+   - Para **[!UICONTROL Widget Title]**, escriba un título descriptivo para el widget.
 
      Este título solo es visible desde Admin.
 
-   - Para **[!UICONTROL Assign to Store Views]**, seleccione las vistas de tienda en las que desea que el widget sea visible.
+   - Para **[!UICONTROL Assign to Store Views]**, seleccione las vistas de la tienda donde desee que el widget sea visible.
 
-     Puede seleccionar una vista de tienda específica, o `All Store Views`. Para seleccionar varias vistas, mantenga pulsada la tecla Ctrl (PC) o la tecla Comando (Mac) y haga clic en cada opción.
+     Puede seleccionar una vista de tienda específica o `All Store Views`. Para seleccionar varias vistas, mantenga pulsada la tecla Ctrl (PC) o la tecla Comando (Mac) y haga clic en cada opción.
 
-   - (Opcional) Para **[!UICONTROL Sort Order]**, introduzca un número para determinar el orden en que aparece este elemento con otros en la misma parte de la página. (`0` = primero, `1` = segundo, `3` = tercero, etc.)
+   - (Opcional) Para **[!UICONTROL Sort Order]**, escriba un número para determinar el orden en que aparece este elemento con otros en la misma parte de la página. (`0` = primero, `1` = segundo, `3` = tercero, etc.)
 
      ![Propiedades de tienda](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
 
-1. En el _[!UICONTROL Layout Updates]_, haga clic en **[!UICONTROL Add Layout Update]**.
+1. En la sección _[!UICONTROL Layout Updates]_, haga clic en **[!UICONTROL Add Layout Update]**.
 
-1. Establecer **[!UICONTROL Display On]** al tipo de página donde va a aparecer.
+1. Establezca **[!UICONTROL Display On]** en el tipo de página donde debe aparecer.
 
-1. En el **[!UICONTROL Container]** , elija el área del diseño de página donde se va a colocar.
+1. En la lista **[!UICONTROL Container]**, elija el área del diseño de página donde se colocará.
 
    ![Actualizaciones de diseño](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
 
-1. Si el widget es un vínculo, establezca **[!UICONTROL Template]** a uno de los siguientes:
+1. Si el widget es un vínculo, establezca **[!UICONTROL Template]** en una de las siguientes opciones:
 
-   - `Block Template` - Formatea el contenido para que se pueda colocar como unidad independiente en la página.
-   - `Inline Template` - Formatea el contenido para que se pueda colocar dentro de otro contenido. Por ejemplo, un vínculo que va dentro de un párrafo de texto.
+   - `Block Template`: da formato al contenido para que se pueda colocar como unidad independiente en la página.
+   - `Inline Template`: da formato al contenido para que se pueda colocar dentro de otro contenido. Por ejemplo, un vínculo que va dentro de un párrafo de texto.
 
 ### Paso 3: Completar las opciones del widget
 
@@ -70,23 +70,23 @@ Las opciones de cada tipo de widget varían ligeramente, pero el proceso es bás
 
 1. En el panel izquierdo, elija **[!UICONTROL Widget Options]**.
 
-1. Haga clic **[!UICONTROL Select Block]**.
+1. Haga clic en **[!UICONTROL Select Block]**.
 
-1. Introduzca una **[!UICONTROL Title]** para aparecer encima de la lista, como `Featured Products`.
+1. Escriba un(a) **[!UICONTROL Title]** para que aparezca sobre la lista, como `Featured Products`.
 
-1. Para los controles de paginación, establezca **[!UICONTROL Display Page Control]** hasta `Yes`  y haga lo siguiente:
+1. Para los controles de paginación, establezca **[!UICONTROL Display Page Control]** en `Yes` y haga lo siguiente:
 
-   - Introduzca el **[!UICONTROL Number of Products per Page]**.
+   - Escriba **[!UICONTROL Number of Products per Page]**.
 
-   - Introduzca el total **[!UICONTROL Number of Products to Display]**.
+   - Escriba el total **[!UICONTROL Number of Products to Display]**.
 
-   - Establecer **[!UICONTROL Condition]** a la categoría de productos que se va a mostrar.
+   - Establezca **[!UICONTROL Condition]** en la categoría de productos que se mostrarán.
 
-     El proceso es el mismo que establecer una condición para una [regla de precios](../merchandising-promotions/price-rules-catalog.md).
+     El proceso es el mismo que establecer una condición para una [regla de precio](../merchandising-promotions/price-rules-catalog.md).
 
 ### Paso 4: guardar y comprobar el resultado
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
 
 1. Cuando se le solicite, siga las instrucciones de la parte superior del espacio de trabajo para actualizar la caché según sea necesario.
 
@@ -102,7 +102,7 @@ Para obtener más información sobre la creación de widgets, vea este vídeo:
 
 ## Edición de un widget
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
 
 1. Localice el widget mediante los filtros situados encima de la cuadrícula y, a continuación, haga clic en el nombre del widget.
 
@@ -114,12 +114,12 @@ Para obtener más información sobre la creación de widgets, vea este vídeo:
 
 ## Eliminar un widget
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
 
 1. Busque los widgets mediante los filtros situados encima de la cuadrícula y, a continuación, active la casilla de los widgets que desea eliminar.
 
-1. En la esquina superior izquierda de la lista, establezca **[!UICONTROL Actions]** hasta `Delete`.
+1. En la esquina superior izquierda de la lista, establezca **[!UICONTROL Actions]** en `Delete`.
 
-1. Cuando termine, haga clic en **[!UICONTROL Submit]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Submit]**.
 
 1. Para confirmar la acción, haga clic en **[!UICONTROL OK]**.

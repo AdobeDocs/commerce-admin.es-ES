@@ -5,7 +5,7 @@ exl-id: f8caff04-38fd-4195-ab11-77dae900976d
 feature: Products, Gift, Configuration
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -22,33 +22,33 @@ La configuración de tarjetas regalo establece la configuración predeterminada 
 
 ### Paso 1: Configurar las notificaciones por correo electrónico
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Gift Cards]**.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el _[!UICONTROL Gift Card Email Settings]_y haga lo siguiente:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Gift Card Email Settings]_y haga lo siguiente:
 
-   - Establecer **[!UICONTROL Gift Card Notification Email Sender]** a la identidad de la tienda que aparece como remitente de las notificaciones de tarjetas de regalo.
+   - Establezca **[!UICONTROL Gift Card Notification Email Sender]** en la identidad de la tienda que aparece como remitente de las notificaciones de tarjetas de regalo.
 
-   - Establecer **[!UICONTROL Gift Card Notification Email Template]** a la plantilla que se utiliza para la notificación.
+   - Establezca **[!UICONTROL Gift Card Notification Email Template]** en la plantilla que se usa para la notificación.
 
    ![Configuración de correo electrónico de tarjeta regalo](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png){width="600" zoomable="yes"}
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el _[!UICONTROL Email Sent from Gift Card Account Management]_y haga lo siguiente:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Email Sent from Gift Card Account Management]_y haga lo siguiente:
 
-   - Establecer **[!UICONTROL Gift Card Email Sender]** a la identidad de la tienda para que aparezca como el remitente de las tarjetas de regalo.
+   - Establezca **[!UICONTROL Gift Card Email Sender]** en la identidad de la tienda para que aparezca como el remitente de las tarjetas de regalo.
 
-   - Establecer **[!UICONTROL Gift Card Template]** a la plantilla que desee utilizar para la tarjeta regalo.
+   - Establezca **[!UICONTROL Gift Card Template]** en la plantilla que desee usar para la tarjeta regalo.
 
-Consulte [Almacenar direcciones de correo electrónico](../configuration-reference/general/store-email-addresses.md) para campos y opciones de configuración específicos.
+Consulte [Almacenar direcciones de correo electrónico](../configuration-reference/general/store-email-addresses.md) para ver opciones y campos de configuración específicos.
 
 ### Paso 2: Completar la configuración general
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el _[!UICONTROL Gift Card General Settings]_sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Gift Card General Settings]_.
 
-1. Para permitir que el cliente canjee el valor de la tarjeta por efectivo, establezca **[!UICONTROL Redeemable]** hasta `Yes`.
+1. Para permitir que el cliente canjee el valor de la tarjeta por efectivo, establezca **[!UICONTROL Redeemable]** en `Yes`.
 
-1. Para **[!UICONTROL Lifetime (days)]**, introduzca el número de días antes de que caduque la tarjeta.
+1. Para **[!UICONTROL Lifetime (days)]**, ingrese el número de días antes de que caduque la tarjeta.
 
    Si no hay fecha de caducidad, deje el campo en blanco.
 
@@ -56,20 +56,20 @@ Consulte [Almacenar direcciones de correo electrónico](../configuration-referen
    >
    >Dependiendo de su ubicación, puede ser ilegal que las tarjetas de regalo caduquen. Compruebe las leyes locales antes de establecer una duración para sus tarjetas de regalo.
 
-1. Para dar a los clientes la opción de introducir un mensaje que acompañe a la tarjeta regalo, establezca **[!UICONTROL Allow Gift Message]** hasta `Yes` e introduzca el número de caracteres disponibles para el mensaje de **[!UICONTROL Gift Message Maximum Length]**.
+1. Para dar a los clientes la opción de escribir un mensaje que acompañe a la tarjeta regalo, establezca **[!UICONTROL Allow Gift Message]** en `Yes` e introduzca el número de caracteres disponibles para el mensaje de **[!UICONTROL Gift Message Maximum Length]**.
 
-1. Establecer **[!UICONTROL Generate Gift Card Account when Orders Item is]** a uno de los siguientes:
+1. Establezca **[!UICONTROL Generate Gift Card Account when Orders Item is]** en una de las siguientes opciones:
 
-   - `Ordered` - La cuenta de la tarjeta regalo se crea cuando se realiza el pedido.
-   - `Invoiced` - La cuenta de la tarjeta regalo se crea después de que se haya capturado el pago y se haya facturado el pedido.
+   - `Ordered` - La cuenta de tarjeta regalo se crea cuando se realiza el pedido.
+   - `Invoiced`: la cuenta de tarjeta regalo se crea después de capturar el pago y de facturar el pedido.
 
    ![Configuración general de la tarjeta regalo](../configuration-reference/sales/assets/gift-cards-gift-card-general-settings.png){width="600" zoomable="yes"}
 
 ### Paso 3: Establecer el grupo de códigos de tarjeta de regalo
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el _[!UICONTROL Gift Card Account General Settings]_y haga lo siguiente:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Gift Card Account General Settings]_y haga lo siguiente:
 
-   ![Configuración general de la cuenta de tarjeta regalo](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png){width="600" zoomable="yes"}
+   ![Configuración general de la cuenta de la tarjeta regalo](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png){width="600" zoomable="yes"}
 
    - Para personalizar el código, complete lo siguiente según sus preferencias:
 
@@ -81,49 +81,49 @@ Consulte [Almacenar direcciones de correo electrónico](../configuration-referen
 
    - Para determinar el número de códigos que se van a generar, escriba **[!UICONTROL New Pool Size]**.
 
-   - Para especificar cuándo recibirá una notificación para volver a almacenar el grupo de códigos, introduzca el **[!UICONTROL Low Code Pool Threshold]**.
+   - Para especificar cuándo recibirá una notificación para volver a almacenar el grupo de códigos, escriba **[!UICONTROL Low Code Pool Threshold]**.
 
 1. Antes de generar el grupo de código, haga clic en **[!UICONTROL Save Config]**.
 
-1. Haga clic **[!UICONTROL Generate]**.
+1. Haga clic en **[!UICONTROL Generate]**.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 ## Revisar una cuenta de tarjeta regalo existente
 
 1. Para encontrar el número de la cuenta de la tarjeta regalo de un pedido actual, haga lo siguiente:
 
-   - En el _Administrador_ barra lateral, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+   - En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
 
-   - Busque el orden en la lista y haga clic en **[!UICONTROL View]** en el _[!UICONTROL Action]_columna.
+   - Busque el orden en la lista y haga clic en **[!UICONTROL View]** en la columna _[!UICONTROL Action]_.
 
-   - Desplácese hacia abajo hasta el _[!UICONTROL Items Ordered]_sección.
+   - Vaya a la sección _[!UICONTROL Items Ordered]_.
 
-   El número se encuentra en _[!UICONTROL Product]_columna, debajo de **[!UICONTROL Gift Card Accounts]**.
+   El número se encuentra en la columna _[!UICONTROL Product]_, en **[!UICONTROL Gift Card Accounts]**.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
 
 1. Busque la cuenta de la tarjeta regalo en la cuadrícula y ábrala en modo de edición.
 
-   El código de la tarjeta regalo aparece en la parte superior de la _Información_ sección.
+   El código de la tarjeta regalo aparece en la parte superior de la sección _Información_.
 
    ![Información de cuenta de tarjeta regalo](./assets/gift-card-account-information.png){width="600" zoomable="yes"}
 
 ## Crear una cuenta de tarjeta regalo
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add Gift Card Account]**.
 
-1. En el _[!UICONTROL Information]_sección, conjunto **[!UICONTROL Active]**hasta `Yes` y haga lo siguiente:
+1. En la sección _[!UICONTROL Information]_, establezca **[!UICONTROL Active]**en `Yes` y haga lo siguiente:
 
-   - Para que el saldo de la tarjeta se pueda canjear al pagar o transferir al crédito de la tienda del cliente, establezca **[!UICONTROL Redeemable]** hasta `Yes`.
+   - Para que el saldo de la tarjeta se pueda canjear en el cierre de compra o se transfiera al crédito de la tienda del cliente, establezca **[!UICONTROL Redeemable]** en `Yes`.
 
-   - Elija la **[!UICONTROL Website]** donde se puede utilizar la cuenta de tarjeta regalo.
+   - Elija el **[!UICONTROL Website]** en el que se puede usar la cuenta de tarjeta regalo.
 
-   - Introduzca la inicial **[!UICONTROL Balance]** en la tarjeta regalo.
+   - Escriba el **[!UICONTROL Balance]** inicial en la tarjeta de regalo.
 
-   - _(Opcional)_ Para establecer un **[!UICONTROL Expiration Date]** para la tarjeta regalo, seleccione la fecha en el calendario ![Icono de calendario](../assets/icon-calendar.png).
+   - _(Opcional)_ Para establecer un **[!UICONTROL Expiration Date]** para la tarjeta regalo, seleccione la fecha en el ![icono del calendario](../assets/icon-calendar.png).
 
      Si se deja en blanco, la cuenta de la tarjeta regalo no caduca.
 
@@ -131,29 +131,29 @@ Consulte [Almacenar direcciones de correo electrónico](../configuration-referen
 
 1. En el panel izquierdo, elija **[!UICONTROL Send Gift Card]** y haga lo siguiente:
 
-   - Introduzca el **[!UICONTROL Recipient Email]** dirección.
+   - Escriba la dirección **[!UICONTROL Recipient Email]**.
 
-   - Introduzca el **[!UICONTROL Recipient Name]**.
+   - Escriba **[!UICONTROL Recipient Name]**.
 
-   - Establecer **[!UICONTROL Send Email from the Following Store View]** a la vista de tienda que aparece como remitente de la notificación de la tarjeta regalo.
+   - Establezca **[!UICONTROL Send Email from the Following Store View]** en la vista de la tienda que aparece como remitente de la notificación de la tarjeta regalo.
 
-   ![Configuración de envío de tarjeta regalo](./assets/marketing-gift-card-accounts-new-send.png){width="600" zoomable="yes"}
+   ![Enviar configuración de tarjeta regalo](./assets/marketing-gift-card-accounts-new-send.png){width="600" zoomable="yes"}
 
 1. Realice una de las siguientes acciones para guardar la nueva cuenta:
 
    - Si no está listo para enviar la tarjeta regalo, haga clic en **[!UICONTROL Save]**.
 
-   - Para guardar los cambios y enviar la tarjeta regalo por correo electrónico al destinatario, haga clic en **Guardar y enviar correo electrónico**.
+   - Para guardar los cambios y enviar la tarjeta regalo por correo electrónico al destinatario, haz clic en **Guardar y enviar correo electrónico**.
 
 ## Ver historial de cuenta de tarjeta regalo
 
-1. Ir a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. Vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
 
 1. Abra la tarjeta regalo en modo de edición.
 
-1. El **[!UICONTROL History]** de la tarjeta regalo se muestra.
+1. Se muestra el **[!UICONTROL History]** de la tarjeta regalo.
 
-   ![Historial de tarjeta regalo](./assets/gift-card-history.png){width="600" zoomable="yes"}
+   ![Historial de tarjetas de regalo](./assets/gift-card-history.png){width="600" zoomable="yes"}
 
 | Columna | Descripción |
 |--- |--- |
@@ -168,7 +168,7 @@ Consulte [Almacenar direcciones de correo electrónico](../configuration-referen
 
 ## Eliminar una cuenta de tarjeta regalo
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
 
 1. Seleccione la cuenta de la tarjeta regalo que desea eliminar y ábrala en modo de edición.
 

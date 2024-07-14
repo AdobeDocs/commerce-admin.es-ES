@@ -18,59 +18,59 @@ El proceso de creación de una regla de producto relacionada es similar a la con
 
 >[!NOTE]
 >
->Para que un atributo se utilice en una regla de destino, la variable [_[!UICONTROL Use for Promo Rule Conditions]_](../catalog/product-attributes.md) la propiedad debe establecerse en `Yes`.
+>Para utilizar un atributo en una regla de destino, la propiedad [_[!UICONTROL Use for Promo Rule Conditions]_](../catalog/product-attributes.md) debe establecerse en `Yes`.
 
 >[!NOTE]
 >
->El `All Store Views` el valor de ámbito siempre se utiliza para ambos [!UICONTROL Products to Match] y [!UICONTROL Products to Display] condiciones para todos los atributos del producto. Esto también se aplica cuando los atributos del producto tienen valores diferentes para vistas de tiendas y sitios web diferentes.
+>El valor de ámbito `All Store Views` siempre se usa para las condiciones [!UICONTROL Products to Match] y [!UICONTROL Products to Display] de todos los atributos de producto. Esto también se aplica cuando los atributos del producto tienen valores diferentes para vistas de tiendas y sitios web diferentes.
 
 ## Crear una regla de producto relacionada
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**.
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add Rule]**.
 
-   ![Regla de productos relacionados: información](./assets/catalog-related-products-rule-information.png){width="600" zoomable="yes"}
+   ![Regla de productos relacionados - información](./assets/catalog-related-products-rule-information.png){width="600" zoomable="yes"}
 
-1. Complete la **[!UICONTROL Rule Information]** como sigue:
+1. Complete **[!UICONTROL Rule Information]** de la siguiente manera:
 
-   - Introduzca una **[!UICONTROL Rule Name]** para identificar la regla cuando se trabaja en el administrador.
+   - Escriba un **[!UICONTROL Rule Name]** para identificar la regla cuando trabaje en el administrador.
 
-   - Para **[!UICONTROL Priority]**, introduzca un número que determine el orden en que aparecen los resultados en la página cuando los resultados de otras reglas se dirijan a la misma ubicación. Número `1` es la prioridad principal.
+   - Para **[!UICONTROL Priority]**, escriba un número que determine el orden en que aparecen los resultados en la página cuando los resultados de otras reglas se dirijan a la misma ubicación. El número `1` es la prioridad principal.
 
-   - Para habilitar la regla, establezca **[!UICONTROL Status]** hasta `Active`.
+   - Para habilitar la regla, establezca **[!UICONTROL Status]** en `Active`.
 
-   - Establecer **[!UICONTROL Apply To]** a uno de los siguientes:
+   - Establezca **[!UICONTROL Apply To]** en una de las siguientes opciones:
 
       - `Related Products`
       - `Up-sells`
       - `Cross-sells`
 
-   - Si la regla va a estar activa durante un intervalo de tiempo específico, introduzca la variable **[!UICONTROL From]** y **[!UICONTROL To]** fechas.
+   - Si la regla va a estar activa durante un intervalo de tiempo específico, escriba las fechas **[!UICONTROL From]** y **[!UICONTROL To]**.
 
    - Para **[!UICONTROL Result Limit]**, introduzca el número de registros que aparecerán en la lista de resultados. El número máximo es 20.
 
-   - Si la regla se aplica a un [segmento de cliente](../customers/customer-segments.md), configurado **[!UICONTROL Customer Segments]** hasta `Specified` y seleccione el segmento cliente de la lista.
+   - Si la regla se aplica a un [segmento de cliente](../customers/customer-segments.md) específico, establezca **[!UICONTROL Customer Segments]** en `Specified` y elija el segmento de cliente de la lista.
 
-   - Si la regla se aplica a un [Audiencia de Real-Time CDP](../customers/audience-activation.md), configurado **[!UICONTROL Real-Time CDP Audience]** hasta `Specified` y elija la audiencia de Real-Time CDP en la lista. Esta función está en versión beta. Si desea unirse al programa beta, envíe una solicitud a [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+   - Si la regla se aplica a una [audiencia de Real-Time CDP](../customers/audience-activation.md) específica, establezca **[!UICONTROL Real-Time CDP Audience]** en `Specified` y elija la audiencia de Real-Time CDP en la lista. Esta función está en versión beta. Si desea unirse al programa beta, envíe una solicitud a [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
 
-     ![Regla de productos relacionados: audiencia de Real-Time CDP](./assets/rtcdp-related-products.png){width="500"}
+     ![Regla de productos relacionados - Audiencia de Real-Time CDP](./assets/rtcdp-related-products.png){width="500"}
 
-1. En el panel izquierdo, elija **[!UICONTROL Products to Match]** y cree las condiciones que desee para una [regla de precios de catálogo](price-rules-catalog.md).
+1. En el panel izquierdo, elija **[!UICONTROL Products to Match]** y genere las condiciones como lo haría para una [regla de precio de catálogo](price-rules-catalog.md).
 
-   ![Regla de productos relacionados: productos que deben coincidir](./assets/catalog-related-products-match.png){width="500"}
+   ![Regla de productos relacionados - productos que deben coincidir](./assets/catalog-related-products-match.png){width="500"}
 
-1. En el panel izquierdo, elija **[!UICONTROL Products to Display]** y generar las condiciones de resultados como lo haría para una [regla de precios de catálogo](price-rules-catalog.md).
+1. En el panel izquierdo, elija **[!UICONTROL Products to Display]** y genere las condiciones de los resultados como lo haría para una [regla de precio de catálogo](price-rules-catalog.md).
 
-   ![Regla de productos relacionados: productos que mostrar](./assets/catalog-related-products-to-display.png){width="500"}
+   ![Regla de productos relacionados - productos que se mostrarán](./assets/catalog-related-products-to-display.png){width="500"}
 
    Complete la condición para describir los productos que desea incluir en los resultados mostrados.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
 
 ## Eliminar una regla de producto relacionada
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**.
 
 1. Busque la regla de producto relacionada que desee eliminar.
 

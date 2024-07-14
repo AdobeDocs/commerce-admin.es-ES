@@ -17,8 +17,8 @@ ht-degree: 2%
 
 - [Guía de sistemas de administración](guide-overview.md)
 - [Introducción a los sistemas de administración](introduction.md)
-- [[!UICONTROL System] menú](system-menu.md)
-- Cuentas de usuario de administrador {#user-accounts}
+- [Menú [!UICONTROL System]](system-menu.md)
+- Cuentas de usuario administrador {#user-accounts}
    - [Permisos de administración](permissions.md)
    - [Administrar cuentas de usuario](permissions-users-all.md)
    - [Funciones de usuario](permissions-user-roles.md)
@@ -77,6 +77,6 @@ ht-degree: 2%
    - [Administración de sesiones](security-session-management.md)
    - [Detección de funcionalidades del explorador](security-browser-capabilities-detection.md)
    - [Informes de problemas de seguridad](security-issue-reporting.md)
-- [Volver a Guías de Comerciantes](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Volver a las guías del comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
 

@@ -5,8 +5,8 @@ exl-id: 63114305-e695-445b-91cd-9e0fb2729ec4
 feature: Inventory, Configuration
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 2%
+source-wordcount: '351'
+ht-degree: 1%
 
 ---
 
@@ -68,7 +68,7 @@ Cuando las existencias no se administran para un producto, esta combinación de 
 
 Las siguientes opciones de visualización son posibles para las listas de categorías y resultados de búsqueda, según la disponibilidad del producto y la configuración.
 
-![Mensaje agotado en la página Categoría](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
+![Mensaje agotado en la página de categoría](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
 
 ### Ejemplo 1: Mostrar producto con el mensaje &quot;Agotado&quot;
 

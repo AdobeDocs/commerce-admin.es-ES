@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # Emitir una nota de crédito
 
-Para poder imprimir una nota de abono, primero debe generarse para una [pedido facturado](invoices.md#create-an-invoice). Puede emitir reembolsos en línea y sin conexión (parciales o totales) a partir de una nota de crédito abierta, dependiendo del método de pago.
+Para poder imprimir un abono, primero debe generarse para un [pedido facturado](invoices.md#create-an-invoice). Puede emitir reembolsos en línea y sin conexión (parciales o totales) a partir de una nota de crédito abierta, dependiendo del método de pago.
 
-- ![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce) Los reembolsos se pueden aplicar al crédito del almacén.
-- ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible con Adobe Commerce B2B) Los reembolsos se pueden aplicar al crédito de la empresa.
+- ![Los reembolsos de Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) se pueden aplicar al crédito del almacén.
+- ![Adobe Commerce B2B](../assets/b2b.svg) (disponible con Adobe Commerce B2B) Los reembolsos se pueden aplicar al crédito de la compañía.
 - Las compras realizadas con tarjeta de crédito pueden ser reembolsadas en línea o sin conexión.
 - Las compras realizadas por cheque o giro postal deben ser reembolsadas sin conexión.
 
-Cualquier nota de crédito con un [estado abierto](order-status.md) tiene un reembolso pendiente de pago.
+Cualquier nota de crédito con un [estado de apertura](order-status.md) tiene un reembolso pendiente.
 
 Con las notas de abono puede:
 
@@ -33,64 +33,64 @@ Consulte [Crear una factura](invoices.md#create-an-invoice) para obtener más in
 
 ## Configuración de acción de pago
 
-El flujo de trabajo de devolución de los pedidos pagados con tarjeta de crédito está determinado por la variable [Configuración de acción de pago](../configuration-reference/sales/payment-methods.md#payment-actions) en la configuración de cada método de pago disponible. Los reembolsos no pueden emitirse hasta que se liquide la transacción.
+El flujo de trabajo de devolución de los pedidos pagados con tarjeta de crédito está determinado por la configuración [Acción de pago](../configuration-reference/sales/payment-methods.md#payment-actions) de la configuración de cada método de pago disponible. Los reembolsos no pueden emitirse hasta que se liquide la transacción.
 
 ![Configuración de acción de pago](./assets/payment-action-setting.png){width="600" zoomable="yes"}
 
-- Si la Acción de pago de la forma de pago configurada está establecida en `Authorize`, primero debe generar la factura desde el administrador antes de crear una nota de abono.
-- Si Acción de pago para el método de pago configurado está establecido en `Authorize and Capture`, la factura ya ha sido generada por el procesador de pagos, pero los fondos no están disponibles hasta que se liquide la transacción. Muchos procesadores de pagos recomiendan este breve período de espera como medida de seguridad y, por lo general, se puede gestionar automáticamente. Las transacciones también se pueden liquidar manualmente desde su cuenta de comerciante con el procesador de pagos.
-- ![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce) Si crea un abono para un pedido que incluye opciones de regalo, el reembolso del envoltorio para regalos o de la tarjeta impresa aparecerá en la sección Totales de reembolso del abono. Para excluir estos costes del importe que se va a reembolsar, introduzca el importe como comisión de ajuste. Si se emiten varios abonos para el mismo pedido, el reembolso de las opciones de regalo solo aparece en el primer abono.
+- Si la acción de pago para el método de pago configurado está establecida en `Authorize`, primero debe generar la factura del administrador antes de crear una nota de abono.
+- Si Acción de pago para el método de pago configurado está establecido en `Authorize and Capture`, el procesador de pagos ya ha generado la factura, pero los fondos no estarán disponibles hasta que se liquide la transacción. Muchos procesadores de pagos recomiendan este breve período de espera como medida de seguridad y, por lo general, se puede gestionar automáticamente. Las transacciones también se pueden liquidar manualmente desde su cuenta de comerciante con el procesador de pagos.
+- ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Si crea un abono para un pedido que incluye opciones de regalo, el reembolso del envoltorio para regalos y/o de la tarjeta impresa aparecerá en la sección Totales de reembolso del abono. Para excluir estos costes del importe que se va a reembolsar, introduzca el importe como comisión de ajuste. Si se emiten varios abonos para el mismo pedido, el reembolso de las opciones de regalo solo aparece en el primer abono.
 
 ## Crear un abono
 
-Determine el tipo de reembolso que desea emitir, para un [compra a crédito](#issue-a-refund-for-a-credit-purchase) o para [cheque o giro postal](#issue-an-offline-refund-for-check-or-money-order): y generar el abono y emitir un reembolso.
+Determine el tipo de reembolso que desea emitir (por una [compra a crédito](#issue-a-refund-for-a-credit-purchase) o por [cheque o giro postal](#issue-an-offline-refund-for-check-or-money-order)) y genere la nota de crédito y emita un reembolso.
 
 ### Emitir un reembolso por una compra a crédito
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
-   ![cuadrícula de pedidos](./assets/orders-grid.png){width="700" zoomable="yes"}
+   ![Cuadrícula de pedidos](./assets/orders-grid.png){width="700" zoomable="yes"}
 
 1. Busque el orden en la cuadrícula y haga clic en **[!UICONTROL View]**.
 
-1. Si la variable _[!UICONTROL Credit Memo]_Botón visible en la barra de botones, realice una de las siguientes acciones:
+1. Si el botón _[!UICONTROL Credit Memo]_está visible en la barra de botones, siga uno de estos procedimientos:
 
-   - Para emitir un `offline` reembolso, vaya al paso #6.
-   - Para emitir un `online` reembolso, continúe con el paso #4.
+   - Para emitir un reembolso de `offline`, vaya al paso #6.
+   - Para emitir un reembolso de `online`, continúe con el paso #4.
 
-   Consulte [Notas de abono](credit-memos.md) para obtener más información sobre los reembolsos sin conexión y en línea.
+   Consulta [Notas de crédito](credit-memos.md) para obtener más información sobre los reembolsos sin conexión y en línea.
 
-1. Clic **[!UICONTROL Invoices]** en el panel izquierdo.
+1. Haga clic en **[!UICONTROL Invoices]** en el panel izquierdo.
 
 1. Busque la factura en la cuadrícula y haga clic en **[!UICONTROL View]**.
 
-   ![Cuadrícula Facturas](./assets/order-invoices-grid.png){width="700" zoomable="yes"}
+   ![Cuadrícula de facturas](./assets/order-invoices-grid.png){width="700" zoomable="yes"}
 
-1. Desplácese hacia abajo hasta el **[!UICONTROL Invoice Totals]** de la factura, compruebe que la factura está configurada en `Capture Online`y haga clic en **[!UICONTROL Submit Invoice]**.
+1. Desplácese hacia abajo hasta la sección **[!UICONTROL Invoice Totals]** de la factura, compruebe que la factura está configurada en `Capture Online` y haga clic en **[!UICONTROL Submit Invoice]**.
 
    ![Capturar en línea](./assets/order-invoice-capture-online.png){width="600" zoomable="yes"}
 
    Si esa opción no está disponible, la factura ya se ha creado. Continúe con el paso siguiente.
 
-1. En la barra de botones de la parte superior de la factura, haga clic en **[!UICONTROL Credit Memo]**.
+1. En la barra de botones situada en la parte superior de la factura, haga clic en **[!UICONTROL Credit Memo]**.
 
-1. Compruebe la información de la **[!UICONTROL Items to Refund]** y haga lo siguiente, si corresponde:
+1. Compruebe la información de la sección **[!UICONTROL Items to Refund]** y haga lo siguiente, si corresponde:
 
-   - Para devolver el producto al inventario, seleccione la **[!UICONTROL Return to Stock]** casilla de verificación
+   - Para devolver el producto al inventario, active la casilla de verificación **[!UICONTROL Return to Stock]**.
 
-     El producto vuelve a estar en stock automáticamente si _Opciones de stock de productos_ se establece en `Automatically Return Credit Memo Item to Stock`. Con [Inventory management habilitado](../inventory-management/enable.md), el artículo vuelve al origen que envió el envío.
+     El producto vuelve a estar en existencias automáticamente si _Opciones de existencias del producto_ está establecido en `Automatically Return Credit Memo Item to Stock`. Con [Inventory management habilitado](../inventory-management/enable.md), el elemento vuelve al origen que envió el envío.
 
-   - Actualice el **[!UICONTROL Qty to Refund]** y haga clic en **[!UICONTROL Update Qty's]**.
+   - Actualice **[!UICONTROL Qty to Refund]** y haga clic en **[!UICONTROL Update Qty's]**.
 
      ![Elementos a reembolsar](./assets/invoice-credit-memo-items-to-refund.png){width="600" zoomable="yes"}
 
-1. Actualice el **[!UICONTROL Refunds Totals]** como sigue:
+1. Actualice la sección **[!UICONTROL Refunds Totals]** de la siguiente manera:
 
-   - Para **[!UICONTROL Refund Shipping]**, introduzca cualquier cantidad que deba reembolsarse de la tarifa de envío.
+   - Para **[!UICONTROL Refund Shipping]**, ingrese cualquier cantidad que deba reembolsarse de la tarifa de envío.
 
      Este campo muestra inicialmente el importe total de envío del pedido que está disponible para devolución. Es igual al importe total de envío del pedido, menos cualquier importe de envío que ya se haya reembolsado. Al igual que la cantidad, la cantidad se puede reducir, pero no aumentar.
 
-   - Para **[!UICONTROL Adjustment Refund]**, introduzca un valor que se añadirá al importe total reembolsado como un reembolso adicional que no se aplique a ninguna parte concreta del pedido (envío, artículos o impuestos). También se puede utilizar para el reembolso parcial con dinero virtual, como una tarjeta regalo, cuando un administrador desea reembolsar primero un método de pago no virtual.
+   - Para **[!UICONTROL Adjustment Refund]**, introduzca un valor que se agregará al importe total reembolsado como un reembolso adicional que no se aplique a ninguna parte en particular del pedido (envío, artículos o impuestos). También se puede utilizar para el reembolso parcial con dinero virtual, como una tarjeta regalo, cuando un administrador desea reembolsar primero un método de pago no virtual.
 
      El importe introducido no puede aumentar el reembolso total por encima del importe pagado.
 
@@ -98,61 +98,61 @@ Determine el tipo de reembolso que desea emitir, para un [compra a crédito](#is
 
      Este importe no se resta de una sección específica del pedido, como envíos, artículos o impuestos.
 
-1. Para añadir un comentario, escriba el texto en la **[!UICONTROL Credit Memo Comments]** cuadro.
+1. Para agregar un comentario, escriba el texto en el cuadro **[!UICONTROL Credit Memo Comments]**.
 
-   - Para enviar una notificación por correo electrónico al cliente, seleccione la **[!UICONTROL Email Copy of Credit Memo]** casilla de verificación
+   - Para enviar una notificación por correo electrónico al cliente, marque la casilla de verificación **[!UICONTROL Email Copy of Credit Memo]**.
 
-1. Clic **[!UICONTROL Update Totals]**.
+1. Haga clic en **[!UICONTROL Update Totals]**.
 
 1. Haga lo siguiente, según corresponda:
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce) Para devolver el importe al crédito de tienda del cliente, seleccione **[!UICONTROL Refund to Store Credit]** casilla de verificación
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Para devolver la cantidad al crédito de tienda del cliente, active la casilla de verificación **[!UICONTROL Refund to Store Credit]**.
 
-   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible con Adobe Commerce B2B) Para devolver el importe al crédito de empresa del cliente, seleccione **[!UICONTROL Refund to Company Credit]** casilla de verificación
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (disponible con Adobe Commerce B2B) Para devolver el importe al crédito de compañía del cliente, active la casilla de verificación **[!UICONTROL Refund to Company Credit]**.
 
    - Para emitir un reembolso sin conexión, haz clic en **[!UICONTROL Refund Offline]**.
 
    - Para emitir un reembolso en línea, haga clic en **[!UICONTROL Refund]**.
 
-   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible con Adobe Commerce B2B) Si la compra se pagó con crédito de la empresa, haga clic en **[!UICONTROL Refund to Company Credit]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (disponible con Adobe Commerce B2B) Si la compra se pagó con crédito de la compañía, haga clic en **[!UICONTROL Refund to Company Credit]**.
 
-   Consulte [Notas de abono](credit-memos.md) para obtener más información sobre los reembolsos sin conexión y en línea.
+   Consulta [Notas de crédito](credit-memos.md) para obtener más información sobre los reembolsos sin conexión y en línea.
 
    ![Reembolso total del pedido](./assets/credit-memo-order-total-refund.png){width="600" zoomable="yes"}
 
 ### Emitir un reembolso fuera de línea para cheque o giro postal
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
-1. Busque el pedido completado en la cuadrícula y ábralo haciendo clic en el **[!UICONTROL View]** vínculo.
+1. Busque el pedido completado en la cuadrícula y ábralo haciendo clic en el vínculo **[!UICONTROL View]**.
 
-1. En la barra de botones situada en la parte superior de la página, haga clic en **[!UICONTROL Invoice]**.
+1. En la barra de botones de la parte superior de la página, haga clic en **[!UICONTROL Invoice]**.
 
 1. Desplácese hasta la parte inferior de la página y haga clic en **[!UICONTROL Submit Invoice]**.
 
-1. En la barra de botones de la parte superior de la factura, haga clic en **[!UICONTROL Credit Memo]**.
+1. En la barra de botones situada en la parte superior de la factura, haga clic en **[!UICONTROL Credit Memo]**.
 
-   ![Crear nota de abono](./assets/order-invoice-info-company.png){width="600" zoomable="yes"}
+   ![Crear nota de crédito](./assets/order-invoice-info-company.png){width="600" zoomable="yes"}
 
-1. Compruebe la información de la **[!UICONTROL Items to Refund]** y haga lo siguiente, si corresponde:
+1. Compruebe la información de la sección **[!UICONTROL Items to Refund]** y haga lo siguiente, si corresponde:
 
    ![Elementos a reembolsar](./assets/credit-memo-items-to-refund.png){width="600" zoomable="yes"}
 
-   - Seleccione el **[!UICONTROL Return to Stock]** casilla de verificación si desea devolver el producto devuelto al inventario.
+   - Seleccione la casilla de verificación **[!UICONTROL Return to Stock]** si desea devolver el producto devuelto al inventario.
 
-     Con Inventory management activado, la cantidad de inventario vuelve al origen que envió el envío. El producto vuelve a estar en stock automáticamente si [Opciones de stock de productos](../inventory-management/enable.md) se establece en `Automatically Return Credit Memo Item to Stock`.
+     Con Inventory management activado, la cantidad de inventario vuelve al origen que envió el envío. El producto vuelve a estar en existencias automáticamente si [Opciones de existencias del producto](../inventory-management/enable.md) está establecido en `Automatically Return Credit Memo Item to Stock`.
 
-   - Actualice el **[!UICONTROL Qty to Refund]** y haga clic en **[!UICONTROL Update Qty's]**.
+   - Actualice **[!UICONTROL Qty to Refund]** y haga clic en **[!UICONTROL Update Qty's]**.
 
      El importe que se va a abonar no puede superar el importe máximo disponible para el reembolso.
 
-1. Actualice el **[!UICONTROL Refunds Totals]** según corresponda:
+1. Actualice la sección **[!UICONTROL Refunds Totals]** según corresponda:
 
-   - Para **[!UICONTROL Refund Shipping]**, introduzca cualquier cantidad que deba reembolsarse de la tarifa de envío.
+   - Para **[!UICONTROL Refund Shipping]**, ingrese cualquier cantidad que deba reembolsarse de la tarifa de envío.
 
      Este campo muestra inicialmente el importe total de envío del pedido que está disponible para devolución. Es igual al importe total de envío del pedido, menos cualquier importe de envío que ya se haya reembolsado. Al igual que la cantidad, la cantidad se puede reducir, pero no aumentar.
 
-   - Para **[!UICONTROL Adjustment Refund]**, introduzca un valor que se añadirá al importe total reembolsado como un reembolso adicional que no se aplique a ninguna parte concreta del pedido (envío, artículos o impuestos). También se puede utilizar para el reembolso parcial con dinero virtual, como una tarjeta regalo, cuando un administrador desea reembolsar primero un método de pago no virtual.
+   - Para **[!UICONTROL Adjustment Refund]**, introduzca un valor que se agregará al importe total reembolsado como un reembolso adicional que no se aplique a ninguna parte en particular del pedido (envío, artículos o impuestos). También se puede utilizar para el reembolso parcial con dinero virtual, como una tarjeta regalo, cuando un administrador desea reembolsar primero un método de pago no virtual.
 
      El importe introducido no puede aumentar el reembolso total por encima del importe pagado.
 
@@ -160,13 +160,13 @@ Determine el tipo de reembolso que desea emitir, para un [compra a crédito](#is
 
      Este importe no se resta de una sección específica del pedido, como envíos, artículos o impuestos.
 
-   - Si la compra se pagó con crédito de tienda, seleccione la **[!UICONTROL Refund to Store Credit]** para abonar el importe en el saldo de la cuenta del cliente.
+   - Si la compra se pagó con crédito de tienda, active la casilla de verificación **[!UICONTROL Refund to Store Credit]** para abonar el importe al saldo de la cuenta del cliente.
 
-1. Para añadir un comentario, escriba el texto en la **[!UICONTROL Credit Memo Comments]** y haga lo siguiente:
+1. Para agregar un comentario, escriba el texto en el cuadro **[!UICONTROL Credit Memo Comments]** y haga lo siguiente:
 
-   - Para enviar una notificación por correo electrónico al cliente, seleccione la **[!UICONTROL Email Copy of Credit Memo]** casilla de verificación
+   - Para enviar una notificación por correo electrónico al cliente, marque la casilla de verificación **[!UICONTROL Email Copy of Credit Memo]**.
 
-   - Para incluir los comentarios introducidos en el correo electrónico, seleccione **[!UICONTROL Append Comments]** casilla de verificación
+   - Para incluir los comentarios introducidos en el correo electrónico, active la casilla de verificación **[!UICONTROL Append Comments]**.
 
      El estado de una notificación de nota de abono aparece en la nota de abono terminada junto al número de nota de abono.
 
@@ -180,7 +180,7 @@ Determine el tipo de reembolso que desea emitir, para un [compra a crédito](#is
 
 | Campo | Descripción |
 |--- |--- |
-| [!UICONTROL Order Number] | El número de pedido aparece en la _Información de pedido y cuenta_, seguido de una nota que indica si se envió el correo electrónico de confirmación. |
+| [!UICONTROL Order Number] | El número de pedido aparece en _Información de pedido y cuenta_, seguido de una nota que indica si se envió el correo electrónico de confirmación. |
 | [!UICONTROL Order Date] | La fecha y la hora en que se realizó el pedido. |
 | [!UICONTROL Order Status] | Indica el estado del pedido como `Complete`. |
 | [!UICONTROL Purchased From] | Indica el sitio web, la tienda y la vista de la tienda donde se realizó el pedido. |
@@ -195,7 +195,7 @@ Determine el tipo de reembolso que desea emitir, para un [compra a crédito](#is
 | [!UICONTROL Customer Name] | El nombre del cliente o comprador que realizó el pedido. El nombre del cliente está vinculado al perfil del cliente. |
 | [!UICONTROL Email] | La dirección de correo electrónico del cliente o comprador. La dirección de correo electrónico está vinculada para abrir un nuevo mensaje. |
 | [!UICONTROL Customer Group] | El nombre del grupo de clientes o del catálogo compartido al que está asignado el cliente. |
-| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible con Adobe Commerce B2B) El nombre de la empresa asociada con el comprador y en cuyo nombre se realiza el pedido. El nombre de la empresa está vinculado al perfil de la empresa. |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponible con Adobe Commerce B2B) El nombre de la compañía asociada con el comprador y en cuyo nombre se realiza el pedido. El nombre de la empresa está vinculado al perfil de la empresa. |
 
 {style="table-layout:auto"}
 
@@ -203,7 +203,7 @@ Determine el tipo de reembolso que desea emitir, para un [compra a crédito](#is
 
 | Campo | Descripción |
 |--- |--- |
-| [!UICONTROL Billing Address] | El nombre del cliente o comprador que realizó el pedido, seguido de la dirección de facturación, el número de teléfono y el código de identificación del cliente. [IVA](vat.md), si procede. El número de teléfono está vinculado al marcado automático en un dispositivo móvil. |
+| [!UICONTROL Billing Address] | El nombre del cliente o comprador que hizo el pedido, seguido de la dirección de facturación, el número de teléfono y [IVA](vat.md), si corresponde. El número de teléfono está vinculado al marcado automático en un dispositivo móvil. |
 | [!UICONTROL Shipping Address] | El nombre de la persona a cuya atención debe enviarse el pedido, seguido de la dirección de envío y el número de teléfono. El número de teléfono está vinculado al marcado automático en un dispositivo móvil. |
 
 {style="table-layout:auto"}
@@ -212,7 +212,7 @@ Determine el tipo de reembolso que desea emitir, para un [compra a crédito](#is
 
 | Campo | Descripción |
 |--- |--- |
-| [!UICONTROL Payment Information] | El método de pago que se va a utilizar para el pedido y el número de pedido de compra, si corresponde, seguido de la divisa utilizada para realizar el pedido. Si el pedido se carga al crédito de la empresa mediante [Pago a cuenta](../b2b/enable-basic-features.md#configure-payment-on-account), se indica el importe cargado en la cuenta. |
+| [!UICONTROL Payment Information] | El método de pago que se va a utilizar para el pedido y el número de pedido de compra, si corresponde, seguido de la divisa utilizada para realizar el pedido. Si el pedido se carga al crédito de la compañía mediante [Pago a cuenta](../b2b/enable-basic-features.md#configure-payment-on-account), se indica la cantidad cargada a la cuenta. |
 | [!UICONTROL Shipping & Handling Information] | El método de envío que se va a utilizar y cualquier tarifa de manipulación que sea aplicable. |
 
 {style="table-layout:auto"}
@@ -253,8 +253,8 @@ Determine el tipo de reembolso que desea emitir, para un [compra a crédito](#is
 | [!UICONTROL Grand Total] | El importe total a reembolsar |
 | [!UICONTROL Append Comments] | Casilla de verificación que determina si se incluyen comentarios en la nota de abono. |
 | [!UICONTROL Email Copy of Credit Memo] | Casilla de verificación que determina si se envía por correo electrónico una copia de la nota de crédito. |
-| [!UICONTROL Refund to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Solo Adobe Commerce) Casilla de verificación que determina si el total se reembolsará a [crédito de tienda](../customers/store-credit-using.md). |
-| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible con Adobe Commerce B2B) El total de todos los elementos de línea que se van a reembolsar. |
+| [!UICONTROL Refund to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Casilla de verificación que determina si el total se devolverá a [crédito de tienda](../customers/store-credit-using.md). |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponible con Adobe Commerce B2B) El total de todos los elementos de línea que se reembolsarán. |
 
 {style="table-layout:auto"}
 
@@ -266,15 +266,15 @@ El método de pago utilizado para el pedido determina los botones de devolución
 |--- |--- |
 | **[!UICONTROL Refund]** | Si la compra original se pagó con tarjeta de crédito a través de una pasarela de pago, el procesador de pagos administra el importe del reembolso. Para gestionar los reembolsos, consulte la documentación proporcionada por su proveedor de pagos. |
 | **[!UICONTROL Refund Offline]** | Si la compra original se pagó mediante cheque o giro postal, el reembolso se paga directamente al cliente, mediante la emisión de un cheque, tarjeta de regalo o efectivo si tiene una tienda de ladrillo y mortero. La nota de crédito sirve como registro de la transacción sin conexión. |
-| **[!UICONTROL Refund to Company Credit]** | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponible con Adobe Commerce B2B) Si la compra se cargó a crédito de la empresa, el reembolso se devuelve a la [Cuenta de empresa](../b2b/credit-company.md). |
+| **[!UICONTROL Refund to Company Credit]** | ![Adobe Commerce B2B](../assets/b2b.svg) (disponible con Adobe Commerce B2B) Si la compra se cargó al crédito de la compañía, el reembolso se devuelve a [Cuenta de la compañía](../b2b/credit-company.md). |
 
 {style="table-layout:auto"}
 
 ## Imprimir un abono
 
-Para imprimir o ver el abono completado, debe tener instalado un PDF Reader. Puede descargar [Adobe Reader][1] sin costo alguno.
+Para imprimir o ver el abono completado, debe tener instalado un PDF Reader. Puedes descargar [Adobe Reader][1] sin cargo.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Credit Memos]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Credit Memos]**.
 
 1. Utilice uno de los siguientes métodos para imprimir la nota de abono:
 
@@ -282,15 +282,15 @@ Para imprimir o ver el abono completado, debe tener instalado un PDF Reader. Pue
 
 1. En la cuadrícula, abra el abono.
 
-1. Clic **[!UICONTROL Print]**.
+1. Haga clic en **[!UICONTROL Print]**.
 
-   ![Imprimir la nota de abono](./assets/credit-memo-print.png){width="600" zoomable="yes"}
+   ![Imprimir el abono](./assets/credit-memo-print.png){width="600" zoomable="yes"}
 
 ### Método 2: Imprimir varios abonos
 
 1. En la lista, active la casilla de verificación de cada abono que desee imprimir.
 
-1. Configure las variables **[!UICONTROL Actions]** control a `PDF Credit Memos` y haga clic en **[!UICONTROL Submit]**.
+1. Establezca el control **[!UICONTROL Actions]** en `PDF Credit Memos` y haga clic en **[!UICONTROL Submit]**.
 
    ![Imprimir notas de abono seleccionadas](./assets/credit-memos-print.png){width="600" zoomable="yes"}
 

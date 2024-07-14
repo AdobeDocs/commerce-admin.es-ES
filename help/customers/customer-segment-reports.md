@@ -5,7 +5,7 @@ exl-id: a767ee80-7b6e-4acd-9772-2f8adcf3233e
 source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -39,7 +39,7 @@ Para asegurarse de que tiene los datos más recientes, se deben actualizar los d
    * CSV: archivo de valores separados por comas que contiene datos de texto sin formato.
    * XML de Excel: formato de datos de hoja de cálculo basado en XML.
 
-1. Haga clic **[!UICONTROL Export]**.
+1. Haga clic en **[!UICONTROL Export]**.
 
    | Columna | Descripción |
    |--- |--- |

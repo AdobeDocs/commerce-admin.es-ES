@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Devuelve
 
-A _autorización de mercancía devuelta_ (RMA) se puede conceder a los clientes que soliciten la devolución de un artículo para su sustitución o reembolso. Normalmente, el cliente se pone en contacto con el comerciante para solicitar un reembolso. Si se aprueba, se asigna un número de autorización de devolución de material único para identificar el producto devuelto. En la configuración, puede activar la autorización de devolución de material para todos los productos o permitir la autorización de devolución de material solo para determinados productos. El _[!UICONTROL Returns]_La cuadrícula muestra las solicitudes de devolución (RMA) actuales y se utiliza para introducir nuevas solicitudes de devolución.
+Se puede otorgar una _autorización de devolución de mercancía_ (RMA) a los clientes que soliciten la devolución de un artículo para su reemplazo o reembolso. Normalmente, el cliente se pone en contacto con el comerciante para solicitar un reembolso. Si se aprueba, se asigna un número de autorización de devolución de material único para identificar el producto devuelto. En la configuración, puede activar la autorización de devolución de material para todos los productos o permitir la autorización de devolución de material solo para determinados productos. La cuadrícula _[!UICONTROL Returns]_enumera las solicitudes de mercancía devueltas (RMA) actuales y se usa para introducir nuevas solicitudes de devolución.
 
 ![Devuelve cuadrícula](./assets/return.png){width="600" zoomable="yes"}
 
@@ -35,13 +35,13 @@ Las RMA se pueden emitir para tipos de producto simples, agrupados, configurable
 
 ## RMA y flujo de trabajo de devolución
 
-1. **Recibir solicitud** - Si [activado](rma-configure.md#enable-rmas-for-your-store) para la tienda, tanto los clientes registrados como los invitados pueden solicitar una RMA. También puede [enviar una solicitud de autorización de devolución de material en Admin](#create-a-return-request-in-the-admin).
+1. **Recibir solicitud** - Si [habilitaste](rma-configure.md#enable-rmas-for-your-store) para la tienda, tanto los clientes registrados como los invitados pueden solicitar una RMA. También puede [enviar una solicitud de RMA en el administrador](#create-a-return-request-in-the-admin).
 
 2. **RMA emitido** - Después de considerar la solicitud, puede autorizarla parcial, total o cancelar la solicitud. Si autoriza la devolución y acepta pagar el envío de devolución, puede crear una orden de envío desde el administrador con un transportista admitido.
 
-3. **Mercancía recibida y devolución del producto procesada** - El siguiente diagrama describe el orden operativo para completar el proceso de devolución:
+3. **Mercancía recibida y devolución de producto procesada** - El siguiente diagrama de flujo describe el orden operativo para completar el proceso de devolución:
 
-   ![Flujo de trabajo de devolución](./assets/workflow-customer-returns.png){width="500"}
+   ![Flujo de trabajo de devolución del producto](./assets/workflow-customer-returns.png){width="500"}
 
 ## Estado de RMA
 
@@ -64,38 +64,38 @@ Durante su ciclo de vida, una autorización de devolución de mercancía (RMA) p
 
 ## Cree una solicitud de retorno en el administrador
 
-Un comerciante puede crear una solicitud de devolución en nombre del cliente desde el administrador. Los clientes pueden [creación de una solicitud de retorno](rma-customer-experience.md) en la tienda de una tienda Adobe Commerce.
+Un comerciante puede crear una solicitud de devolución en nombre del cliente desde el administrador. Los clientes pueden [crear una solicitud de devolución](rma-customer-experience.md) en la tienda de una tienda Adobe Commerce.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Returns]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Returns]**.
 
-1. Haga clic **[!UICONTROL New Return Request]**.
+1. Haga clic en **[!UICONTROL New Return Request]**.
 
-1. Para crear una solicitud de devolución, haga clic en una solicitud con un `Complete` estado.
+1. Para crear una solicitud de devolución, haga clic en un pedido con un estado `Complete`.
 
-1. En el _[!UICONTROL Return Information]_, seleccione la **[!UICONTROL Return Items]**pestaña.
+1. En la sección _[!UICONTROL Return Information]_, seleccione la ficha **[!UICONTROL Return Items]**.
 
-1. Para añadir elementos que se devolverán, haga clic en **[!UICONTROL Add Items]**.
+1. Para agregar elementos que se van a devolver, haga clic en **[!UICONTROL Add Items]**.
 
-1. Seleccione la casilla de verificación del producto requerido y haga clic en **[!UICONTROL Add Selected Product to returns]**.
+1. Seleccione la casilla del producto requerido y haga clic en **[!UICONTROL Add Selected Product to returns]**.
 
-1. Para **[!UICONTROL Requested]**, introduzca el número de elementos que desea devolver.
+1. Para **[!UICONTROL Requested]**, escriba el número de elementos que desea devolver.
 
-1. Establecer **[!UICONTROL Return Reason]** a uno de los siguientes:
+1. Establezca **[!UICONTROL Return Reason]** en una de las siguientes opciones:
 
    - `Wrong Color`
    - `Wrong Size`
    - `Out of Service`
    - `Other`
 
-   Si el motivo de la devolución es diferente de las opciones enumeradas, puede introducir las suyas propias si selecciona la opción `Other` opción.
+   Si el motivo de la devolución es diferente de las opciones enumeradas, puede escribir las suyas propias si selecciona la opción `Other`.
 
-1. Establecer **[!UICONTROL Item Condition]** a uno de los siguientes:
+1. Establezca **[!UICONTROL Item Condition]** en una de las siguientes opciones:
 
    - `Unopened`
    - `Opened`
    - `Damaged`
 
-1. Establecer **[!UICONTROL Resolution]** a uno de los siguientes:
+1. Establezca **[!UICONTROL Resolution]** en una de las siguientes opciones:
 
    - `Exchange`
    - `Refund`
@@ -105,4 +105,4 @@ Un comerciante puede crear una solicitud de devolución en nombre del cliente de
 
    ![Elementos de RMA solicitados](./assets/return-item-request.png){width="600" zoomable="yes"}
 
-   La solicitud de autorización de devolución de material recién enviada aparece en el **[!UICONTROL Returns]** página con un `Pending` estado.
+   La solicitud de autorización de devolución de material recién enviada aparece en la página **[!UICONTROL Returns]** con el estado `Pending`.

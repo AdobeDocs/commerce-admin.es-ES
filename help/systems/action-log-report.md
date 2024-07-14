@@ -14,19 +14,19 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-El _Registros de acciones_ Este informe muestra un registro detallado de todas las acciones de administrador habilitadas para el registro. Cada registro tiene una marca de hora y registra la dirección IP y el nombre del usuario. El detalle del registro incluye los datos de usuario de administración y los cambios relacionados que se realizaron durante la acción.
+El informe _Registros de acciones_ muestra un registro detallado de todas las acciones de administración que están habilitadas para el registro. Cada registro tiene una marca de hora y registra la dirección IP y el nombre del usuario. El detalle del registro incluye los datos de usuario de administración y los cambios relacionados que se realizaron durante la acción.
 
-Las acciones que desee mostrar en el informe deben estar habilitadas en la variable [Registro de acciones de administración](action-log.md) en la configuración de la tienda. Si el tipo de acción está activado (habilitado), estos tipos de acciones de Administración se muestran en el informe Registros de acciones.
+Las acciones que desee mostrar en el informe deben habilitarse en la pantalla [Registro de acciones de administración](action-log.md) de la configuración del almacén. Si el tipo de acción está activado (habilitado), estos tipos de acciones de Administración se muestran en el informe Registros de acciones.
 
 El informe se puede filtrar mediante las opciones de cada columna. Puede establecer una sola opción de filtro o definir opciones de filtro para varias columnas para reducir el informe a acciones específicas de la lista. También puede exportar los datos del informe en formato CSV o en formato XML de Excel.
 
 El informe Registros de acciones incluye la siguiente información:
 
-- **[!UICONTROL Time]** - La fecha y la hora en que se produjo la acción
-- **[!UICONTROL Action Group]** - Muestra el tipo de acción, se correlaciona con las acciones habilitadas en _Registro de acciones de administración_ pantalla en la configuración de la tienda
+- **[!UICONTROL Time]**: fecha y hora en que se produjo la acción
+- **[!UICONTROL Action Group]**: muestra el tipo de acción, se correlaciona con las acciones habilitadas en la pantalla _Registro de acciones de administración_ de la configuración de la tienda
 - **[!UICONTROL Action]** - Muestra la acción que se registró
 - **[!UICONTROL IP Address]** - Muestra la dirección IP del equipo en el que se realizó la acción
-- **[!UICONTROL Username]** - Muestra el ID de inicio de sesión del usuario que realizó la acción
+- **[!UICONTROL Username]** - Muestra el identificador de inicio de sesión del usuario que realizó la acción
 - **[!UICONTROL Result]** - Muestra el éxito o el fracaso de la acción del usuario
 - **[!UICONTROL Full Action Name]** - Muestra el nombre de la acción del servidor
 - **[!UICONTROL Details]** - Muestra la categoría de acción del servidor
@@ -34,17 +34,17 @@ El informe Registros de acciones incluye la siguiente información:
 
 ## Ver el informe Registros de acciones
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Report]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Report]**.
 
    ![Registros de acciones](./assets/action-log-report.png){width="600" zoomable="yes"}
 
 1. Para ver todos los detalles de una acción de administración enumerada, haga clic en **[!UICONTROL View]**.
 
-   ![Detalles de entrada del registro de acciones](./assets/action-log-report-view.png){width="600" zoomable="yes"}
+   ![Detalles de la entrada del registro de acciones](./assets/action-log-report-view.png){width="600" zoomable="yes"}
 
 ## Filtrado del informe Registros de acciones
 
-Puede definir los campos de opciones de filtro y, a continuación, hacer clic en **[!UICONTROL Search]** para reducir las acciones mostradas.
+Puede definir los campos de opciones de filtro y luego hacer clic en **[!UICONTROL Search]** para reducir las acciones mostradas.
 
 Para borrar las opciones de filtro y volver al informe completo, haga clic en **[!UICONTROL Reset Filter]**.
 
@@ -52,7 +52,7 @@ Para borrar las opciones de filtro y volver al informe completo, haga clic en **
 
 | Campo | description |
 |--- |--- |
-| [!UICONTROL Time] | Entrada **[!UICONTROL From]**, haga clic en para seleccionar una fecha del calendario dinámico y definir la fecha de inicio del filtro. Entrada **[!UICONTROL To]**, haga clic en para seleccionar una fecha y definir la fecha final del filtro. |
+| [!UICONTROL Time] | En **[!UICONTROL From]**, haga clic para seleccionar una fecha del calendario dinámico y definir la fecha de inicio del filtro. En **[!UICONTROL To]**, haga clic para seleccionar una fecha y definir la fecha final del filtro. |
 | [!UICONTROL Action Group] | Elija un grupo de acción. |
 | [!UICONTROL Action] | Elija una acción. |
 | [!UICONTROL IP Address] | Introduzca la dirección IP del equipo utilizado para una acción. |
@@ -67,10 +67,10 @@ Para borrar las opciones de filtro y volver al informe completo, haga clic en **
 
 1. Para **[!UICONTROL Export to]**, elija un formato de exportación:
 
-   - `CSV` : archivo de valores separados por comas que contiene datos de texto sin formato
-   - `Excel XML` : formato de datos de hoja de cálculo basado en XML
+   - `CSV`: archivo de valores separados por comas que contiene datos de texto sin formato
+   - `Excel XML`: formato de datos de hoja de cálculo basado en XML
 
-1. Haga clic **[!UICONTROL Export]**.
+1. Haga clic en **[!UICONTROL Export]**.
 
    El archivo generado se guarda automáticamente en la carpeta designada para las descargas.
 

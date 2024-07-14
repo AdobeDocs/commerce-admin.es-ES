@@ -5,8 +5,8 @@ exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
 source-git-commit: 8d5cd6fa586feb5e44819755245814bff7678d34
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 1%
+source-wordcount: '897'
+ht-degree: 0%
 
 ---
 
@@ -14,38 +14,38 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-Crear un segmento de clientes es similar a crear un segmento de [regla de precios de carrito](../merchandising-promotions/price-rules-cart.md), excepto que las opciones incluyen [atributos específicos de segmentos del cliente](../customers/customer-segments.md).
+Crear un segmento de cliente es similar a crear una [regla de precio del carro de compras](../merchandising-promotions/price-rules-cart.md), con la diferencia de que las opciones incluyen [atributos específicos del segmento del cliente](../customers/customer-segments.md).
 
 ![Lista de segmentos de clientes](assets/customer-segments.png){width="700" zoomable="yes"}
 
-_**[!UICONTROL Customer Segments]rejilla **_
+_**[!UICONTROL Customer Segments]cuadrícula **_
 
 | Columna | Descripción |
 |--- |--- |
 | **[!UICONTROL ID]** | El ID único del segmento de cliente. |
 | **[!UICONTROL Segment]** | El nombre del segmento de cliente. |
-| **[!UICONTROL Status]** | Indica si el segmento de cliente es _[!UICONTROL Active]_o_[!UICONTROL Inactive]_. |
+| **[!UICONTROL Status]** | Indica si el segmento de clientes es _[!UICONTROL Active]_o_[!UICONTROL Inactive]_. |
 | **[!UICONTROL Website]** | Indica el sitio web al que pertenece el segmento de clientes. |
 
 {style="table-layout:auto"}
 
 ## Requisito previo: Habilitar segmentos de clientes
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]**  > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Customers]** y elija **[!UICONTROL Customer Configuration]**.
 
-1. Expanda el **[!UICONTROL Customer Segments]** sección.
+1. Expanda la sección **[!UICONTROL Customer Segments]**.
 
-1. Compruebe que **[!UICONTROL Enable Customer Segment Functionality]** se establece en `Yes`.
+1. Compruebe que **[!UICONTROL Enable Customer Segment Functionality]** está establecido en `Yes`.
 
-   ![Configuración de clientes: segmentos de clientes](../configuration-reference/customers/assets/customer-configuration-customer-segments.png){width="600" zoomable="yes"}
+   ![Configuración de clientes - segmentos de clientes](../configuration-reference/customers/assets/customer-configuration-customer-segments.png){width="600" zoomable="yes"}
 
-1. (Opcional) Para deshabilitar la validación en tiempo real de los segmentos del cliente, establezca **[!UICONTROL Real-time Check if Customer is Matched by Segment]** hasta `No`.
+1. (Opcional) Para deshabilitar la validación en tiempo real de los segmentos del cliente, establezca **[!UICONTROL Real-time Check if Customer is Matched by Segment]** en `No`.
 
    Cuando se desactiva la validación en tiempo real, los segmentos del cliente se validan mediante una única consulta SQL de condición combinada. Deshabilitar esta función mejora el rendimiento de la validación de segmentos si hay muchos segmentos de clientes en el sistema. Sin embargo, la validación no funciona con una base de datos dividida o cuando no hay clientes registrados.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 ## Crear un segmento
 
@@ -53,23 +53,23 @@ Los siguientes pasos utilizan un ejemplo para crear un segmento de cliente dirig
 
 ### Paso 1: Añadir un segmento de cliente
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Customers]** > **[!UICONTROL Segments]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Customers]** > **[!UICONTROL Segments]**.
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add Segment]**.
 
-1. Introduzca una **[!UICONTROL Segment Name]** que identifica el segmento del cliente cuando trabaja en el administrador.
+1. Escriba un **[!UICONTROL Segment Name]** que identifique el segmento de clientes cuando trabaje en el Administrador.
 
-1. Escriba una descripción breve **[!UICONTROL Description]** esto explica el propósito del segmento.
+1. Escriba un breve **[!UICONTROL Description]** que explique el propósito del segmento.
 
-1. Establecer **[!UICONTROL Assigned to Website]** al sitio web donde se puede utilizar el segmento cliente.
+1. Establezca **[!UICONTROL Assigned to Website]** en el sitio web donde se puede usar el segmento de cliente.
 
-1. Configure las variables **[!UICONTROL Status]** hasta _Activo_ o _Inactivo_.
+1. Establezca **[!UICONTROL Status]** en _Activo_ o _Inactivo_.
 
-1. Para identificar los tipos de clientes que desea utilizar para aplicar el segmento, establezca **[!UICONTROL Apply to]** a uno de los siguientes:
+1. Para identificar los tipos de clientes que desea utilizar para aplicar el segmento, establezca **[!UICONTROL Apply to]** en uno de los siguientes:
 
-   - `Visitors and Registered Customers` - Incluye a todos los compradores, independientemente de si han iniciado sesión en una cuenta.
-   - `Registered Customers` - Incluye solo los compradores que han iniciado sesión en una cuenta.
-   - `Visitors` - Incluye solo los compradores que no han iniciado sesión en una cuenta.
+   - `Visitors and Registered Customers`: incluye a todos los compradores, independientemente de si han iniciado sesión en una cuenta.
+   - `Registered Customers`: incluye solo los compradores que iniciaron sesión en una cuenta.
+   - `Visitors`: incluye solo los compradores que no han iniciado sesión en una cuenta.
 
    >[!TIP]
    >
@@ -77,12 +77,12 @@ Los siguientes pasos utilizan un ejemplo para crear un segmento de cliente dirig
 
    >[!NOTE]
    >
-   > Si un segmento se aplica a `Visitors and Registered Customers`, el [!UICONTROL Matched Customers] solo muestra `Registered Customers`. Este es el caso incluso si los visitantes pueden ser objetivos en función de las condiciones que se les apliquen. Para `Visitors` solo segmentos, no `Matched Customers` se muestra.
+   > Si un segmento se aplica a `Visitors and Registered Customers`, [!UICONTROL Matched Customers] solo muestra `Registered Customers`. Este es el caso incluso si los visitantes pueden ser objetivos en función de las condiciones que se les apliquen. No se muestra la ficha `Matched Customers` para los segmentos que solo son de `Visitors`.
 
 
-1. Haga clic **[!UICONTROL Save and Continue Edit]**.
+1. Haga clic en **[!UICONTROL Save and Continue Edit]**.
 
-   Después de guardar el segmento _[!UICONTROL General Properties]_, las opciones adicionales están disponibles en el panel izquierdo.
+   Después de guardar el segmento _[!UICONTROL General Properties]_, hay opciones adicionales disponibles en el panel izquierdo.
 
    ![Propiedades del segmento](assets/customer-segment-saved.png){width="600" zoomable="yes"}
 
@@ -113,35 +113,35 @@ Los siguientes pasos utilizan un ejemplo para crear un segmento de cliente dirig
 
 1. Cree una condición que se dirija a clientes mujeres:
 
-   - Haga clic en **[!UICONTROL Add]** para mostrar la lista de condiciones y seleccione `Gender`.
+   - Haga clic en el icono **[!UICONTROL Add]** para mostrar la lista de condiciones y seleccione `Gender`.
 
-   - Mantenga el valor predeterminado **es** opción de control de condición.
+   - Deje la opción de control de condición predeterminada **is**.
 
-   - Clic **...** y seleccione `female`.
+   - Haga clic en **...** y seleccione `female`.
 
    ![Línea de condición 1](assets/customer-segment-condition-line1.png){width="600" zoomable="yes"}
 
 1. Cree otra condición que se dirija a los residentes de Los Ángeles:
 
-   - En la línea siguiente, haga clic en **[!UICONTROL Add]** y seleccione `Customer Address`.
+   - En la línea siguiente, haga clic en el icono **[!UICONTROL Add]** y seleccione `Customer Address`.
 
      Esta acción crea una condición principal en la que se pueden definir uno o varios campos de dirección para que coincidan.
 
-   - Haga clic en **[!UICONTROL Add]** para mostrar la lista de campos de dirección y seleccionar `City`.
+   - Haga clic en el icono **[!UICONTROL Add]** para mostrar la lista de campos de dirección y seleccione `City`.
 
-   - Clic **es** para mostrar las opciones de control de condición y seleccione `contains`.
+   - Haga clic en **is** para mostrar las opciones de control de condición y seleccione `contains`.
 
-   - Clic **...** y escriba `Los Angeles`.
+   - Haga clic en **...** y escriba `Los Angeles`.
 
-   - En la línea siguiente, haga clic en **[!UICONTROL Add]** y seleccione `State/Province`.
+   - En la línea siguiente, haga clic en el icono **[!UICONTROL Add]** y seleccione `State/Province`.
 
-   - Mantenga el valor predeterminado **es** opción de control de condición.
+   - Deje la opción de control de condición predeterminada **is**.
 
-   - Clic **...** y seleccione `United States > California`.
+   - Haga clic en **...** y seleccione `United States > California`.
 
    ![Condiciones para las mujeres en Los Ángeles, California](assets/customer-segment-conditions-la-ladies.png){width="600" zoomable="yes"}
 
-1. Haga clic **[!UICONTROL Save and Continue Edit]**.
+1. Haga clic en **[!UICONTROL Save and Continue Edit]**.
 
 ### Paso 3: Revisar la lista de clientes coincidentes
 
@@ -153,7 +153,7 @@ Los siguientes pasos utilizan un ejemplo para crear un segmento de cliente dirig
 
 1. El segmento de clientes ahora se puede utilizar para dirigir promociones, contenido y envíos de correo.
 
-_**[!UICONTROL Matched Customers]rejilla **_
+_**[!UICONTROL Matched Customers]cuadrícula **_
 
 | Columna | Descripción |
 |--- |--- |
@@ -171,11 +171,11 @@ _**[!UICONTROL Matched Customers]rejilla **_
 
 ## Quitar un segmento de cliente
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Customers]** > **[!UICONTROL Segments]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Customers]** > **[!UICONTROL Segments]**.
 
 1. Busque el segmento que desea eliminar y selecciónelo.
 
-1. En la barra de menús, haga clic en **[!UICONTROL Delete]** botón.
+1. En la barra de menús, haga clic en el botón **[!UICONTROL Delete]**.
 
 1. Para confirmar la acción, haga clic en **[!UICONTROL OK]**.
 
@@ -183,7 +183,7 @@ _**[!UICONTROL Matched Customers]rejilla **_
 
 | Botón | Descripción |
 |--- |--- |
-| **[!UICONTROL Back]** | Vuelve a la _[!UICONTROL Customer Segments]_página sin guardar los cambios. |
+| **[!UICONTROL Back]** | Vuelve a la página _[!UICONTROL Customer Segments]_sin guardar los cambios. |
 | **[!UICONTROL Delete]** | Elimina el segmento de cliente actual. Los clientes o los pedidos completados asociados con el cliente en el segmento no se eliminan. |
 | **[!UICONTROL Reset]** | Restablece los cambios no guardados en el formulario de segmentos del cliente a sus valores anteriores. |
 | **[!UICONTROL Refresh Segment Data]** | Actualiza los datos del segmento a los valores guardados más recientemente. Relevante si algún dato de segmento no está disponible o no está actualizado. |

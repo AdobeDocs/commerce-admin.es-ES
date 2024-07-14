@@ -5,7 +5,7 @@ exl-id: 09c66a5d-57d4-4e78-a8d8-e3047c1bd35a
 feature: Catalog Management, Categories, Products
 source-git-commit: 14c3eb7d54776382bfa196efdac446d42c8dc940
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -14,21 +14,21 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-La posición de los productos en una categoría se puede especificar manualmente arrastrando y soltando los productos en la posición o aplicando un criterio de ordenación predefinido. De forma predeterminada, los productos se pueden ordenar por nivel de stock, edad, color, nombre, SKU y precio. La ordenación automática anula el orden de clasificación actual y restablece las posiciones de arrastrar y soltar establecidas manualmente. El orden de los colores y el nivel de stock mínimo que se pueden requerir para que los productos se incluyan en la lista se establecen en la variable [Visual Merchandiser](../configuration-reference/catalog/visual-merchandiser.md) configuración.
+La posición de los productos en una categoría se puede especificar manualmente arrastrando y soltando los productos en la posición o aplicando un criterio de ordenación predefinido. De forma predeterminada, los productos se pueden ordenar por nivel de stock, edad, color, nombre, SKU y precio. La ordenación automática anula el orden de clasificación actual y restablece las posiciones de arrastrar y soltar establecidas manualmente. El criterio de ordenación de colores y el nivel mínimo de existencias que pueden ser necesarios para que los productos se incluyan en la lista se establecen en la configuración de [Visual Merchandiser](../configuration-reference/catalog/visual-merchandiser.md).
 
 >[!NOTE]
 >
->En las páginas de categoría, `Out of stock` los productos siempre se muestran **_después_** `In Stock` productos en la lista de productos con todos los tipos de clasificación.
+>En las páginas de categoría, `Out of stock` productos siempre se muestran **_después de_** `In Stock` productos en la lista de productos con todos los tipos de clasificación.
 
-Puede configurar las opciones de categoría por separado para cada una [vista de tienda](../stores-purchase/stores.md#add-stores) para determinar la selección de productos, su posición relativa en la lista y los atributos disponibles para las reglas de categoría. Sin embargo, hay una sola, **_global_** el criterio de ordenación y la posición del producto en el catálogo y se comparten en todas las [vistas de tienda](../stores-purchase/store-views.md), tiendas y sitios web.
+Puede configurar las opciones de categoría por separado para cada [vista de tienda](../stores-purchase/stores.md#add-stores) para determinar la selección de productos, su posición relativa en la lista y los atributos disponibles para las reglas de categoría. Sin embargo, hay un único criterio de ordenación **_global_** y una posición de producto en el catálogo, y se comparten en [vistas de tiendas](../stores-purchase/store-views.md), tiendas y sitios web.
 
 ## Paso 1: establecer el ámbito de la configuración
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
-1. Si es necesario, elija la **[!UICONTROL Store View]** donde se aplica la configuración.
+1. Si es necesario, elija el **[!UICONTROL Store View]** donde se aplica la configuración.
 
-   Para una instalación de varias tiendas, la variable _[!UICONTROL Store View]_aplica el criterio de ordenación a todas las vistas disponibles en la tienda.
+   Para una instalación de varias tiendas, la configuración _[!UICONTROL Store View]_aplica el criterio de ordenación a todas las vistas disponibles en la tienda.
 
 1. En el árbol de categorías de la izquierda, elija la categoría que desea editar.
 
@@ -38,17 +38,17 @@ Puede configurar las opciones de categoría por separado para cada una [vista de
 
 >[!NOTE]
 >
->Al ordenar una categoría por un atributo de producto, los productos con los mismos valores de atributo también se ordenan por su _[!UICONTROL Product ID]_en orden de subida.
+>Al ordenar una categoría por un atributo de producto, los productos con los mismos valores de atributo también se ordenan por su _[!UICONTROL Product ID]_en orden ascendente.
 
-En el _[!UICONTROL Products in Category]_, haga clic en los mosaicos ( ![Ver mosaicos](../assets/icon-view-tiles.png) ) icono para mostrar los mosaicos del producto en una cuadrícula. Utilice el método manual o automático para ordenar los productos.
+En la sección _[!UICONTROL Products in Category]_, haga clic en el icono de mosaicos ( ![Ver mosaicos](../assets/icon-view-tiles.png) ) para mostrar los mosaicos del producto en una cuadrícula. Utilice el método manual o automático para ordenar los productos.
 
-![Mosaicos del producto](./assets/category-products-tiles.png){width="600" zoomable="yes"}
+![Mosaicos de productos](./assets/category-products-tiles.png){width="600" zoomable="yes"}
 
 ### Método 1: orden manual
 
-1. Establecer **[!UICONTROL Sort Order]** según sus preferencias.
+1. Establezca **[!UICONTROL Sort Order]** según sus preferencias.
 
-   ![Orden de clasificación](./assets/category-edit-sort-order.png){width="600" zoomable="yes"}
+   ![Orden](./assets/category-edit-sort-order.png){width="600" zoomable="yes"}
 
 1. Para aplicar el nuevo orden, haga clic en **[!UICONTROL Sort]**.
 
@@ -61,7 +61,7 @@ En el _[!UICONTROL Products in Category]_, haga clic en los mosaicos ( ![Ver mos
 1. Establecer **[!UICONTROL Match products by rule]** (![Alternar sí](../assets/toggle-yes.png)) a `Yes`.
 
 
-1. Establecer **[!UICONTROL Automatic Sorting]** según sus preferencias.
+1. Establezca **[!UICONTROL Automatic Sorting]** según sus preferencias.
 
 1. Para crear una regla de categoría, siga las instrucciones del paso siguiente.
 
@@ -69,11 +69,11 @@ En el _[!UICONTROL Products in Category]_, haga clic en los mosaicos ( ![Ver mos
 
 1. Establecer **[!UICONTROL Match products by rule]** (![Alternar sí](../assets/toggle-yes.png)) a `Yes`.
 
-1. Haga clic **[!UICONTROL Add Condition]**.
+1. Haga clic en **[!UICONTROL Add Condition]**.
 
-1. Elija la **[!UICONTROL Attribute]** esa es la base de la condición.
+1. Elija **[!UICONTROL Attribute]** que es la base de la condición.
 
-1. Establecer **[!UICONTROL Operator]** a uno de los siguientes:
+1. Establezca **[!UICONTROL Operator]** en una de las siguientes opciones:
 
    - `Equal`
    - `Not equal`
@@ -83,15 +83,15 @@ En el _[!UICONTROL Products in Category]_, haga clic en los mosaicos ( ![Ver mos
    - `Less than or equal to`
    - `Contains`
 
-1. Introduzca el adecuado **[!UICONTROL Value]**.
+1. Escriba el **[!UICONTROL Value]** apropiado.
 
    ![Condición de categoría](./assets/category-rule-create.png){width="600" zoomable="yes"}
 
-1. Para añadir otra condición, haga clic en **[!UICONTROL Add Condition]** y repita el proceso.
+1. Para agregar otra condición, haga clic en **[!UICONTROL Add Condition]** y repita el proceso.
 
 ## Paso 4: guardar, actualizar y verificar
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Category]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Category]**.
 
 1. Cuando se le pida que actualice la caché, haga clic en **[!UICONTROL Cache Management]** y actualice cada caché no válida.
 

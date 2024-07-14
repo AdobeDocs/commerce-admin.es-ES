@@ -1,6 +1,6 @@
 ---
 user-guide-title: Guía de referencia de configuración
-user-guide-description: Esta guía proporciona información de referencia para todos los ajustes de configuración de tienda a los que se accede desde la barra lateral _Admin_ en **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+user-guide-description: Esta guía proporciona información de referencia para todas las opciones de configuración de tienda a las que se accede desde la barra lateral _Admin_ en **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 breadcrumb-title: Referencia de configuración
 hide: false
 role: Admin, Developer, User
@@ -80,9 +80,9 @@ ht-degree: 1%
    - [API web](./services/magento-web-api.md)
    - [Servicios de Commerce](./services/saas.md)
    - [OAuth](./services/oauth.md)
-- Avanzadas {#advanced}
+- Avanzado {#advanced}
    - [Administrador](./advanced/admin.md)
    - [Sistema](./advanced/system.md)
    - [Desarrollador](./advanced/developer.md)
-- [Volver a Guías de Comerciantes](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Volver a las guías del comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

@@ -15,31 +15,31 @@ ht-degree: 0%
 
 El administrador de la empresa se asigna inicialmente cuando se crea la cuenta de la empresa por primera vez y solo un administrador de tienda de Admin puede modificarla.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
 1. Busque la empresa en la lista y haga clic en **[!UICONTROL Edit]**.
 
    ![Compañías](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Company Admin]** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Company Admin]**.
 
-   ![Administrador de empresa](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
+   ![Administrador de la empresa](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
-1. Introduzca el **[!UICONTROL Job Title]** del nuevo administrador de la empresa y haga clic en **[!UICONTROL Proceed]** para continuar.
+1. Escriba **[!UICONTROL Job Title]** del nuevo administrador de la empresa y haga clic en **[!UICONTROL Proceed]** para continuar.
 
-   Esta acción borra el formulario y los campos obligatorios. _[!UICONTROL First Name]_y_[!UICONTROL Last Name]_ Los campos están resaltados.
+   Esta acción borra el formulario y se resaltan los campos obligatorios _[!UICONTROL First Name]_y_[!UICONTROL Last Name]_.
 
-1. Introduzca el **[!UICONTROL Email]** dirección del nuevo administrador de la empresa.
+1. Escriba la dirección **[!UICONTROL Email]** del nuevo administrador de la compañía.
 
    Si el sistema no encuentra la dirección de correo electrónico en la base de datos, se le pedirá que confirme que desea reemplazar al administrador de la empresa.
 
-   - Si no existe una cuenta de usuario para el nuevo administrador de la empresa, el sistema crea una cuenta de `Company Admin` escriba.
+   - Si no existe una cuenta de usuario para el nuevo administrador de la empresa, el sistema crea una cuenta del tipo `Company Admin`.
 
    - Si la cuenta de usuario existe en el sistema, se mueve a la posición de administrador de la empresa en la estructura de la empresa.
 
-1. Introduzca el **[!UICONTROL First Name]** y **[!UICONTROL Last Name]** y cualquier otra información que corresponda al nuevo administrador de la empresa.
+1. Escriba **[!UICONTROL First Name]** y **[!UICONTROL Last Name]**, así como cualquier otra información que corresponda para el nuevo administrador de la compañía.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
 
    La cuenta individual del antiguo administrador de la empresa permanece en el sistema como una cuenta de usuario individual activa en la estructura de la empresa, asignada a la función de usuario predeterminada.
 

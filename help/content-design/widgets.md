@@ -17,11 +17,11 @@ Puede utilizar widgets para crear páginas de aterrizaje para campañas de marke
 
 {{$include /help/_includes/directives-caution.md}}
 
-![Widget de nueva lista de productos](./assets/storefront-home-page-new-products.png){width="700" zoomable="yes"}
+![Widget de lista de productos nuevos](./assets/storefront-home-page-new-products.png){width="700" zoomable="yes"}
 
 ## Tipos de widget
 
-Cuando usted [crear un widget](widget-create.md), debe establecer el tipo. Este tipo determina cómo funciona el widget.
+Cuando [crea un widget](widget-create.md), debe establecer el tipo. Este tipo determina cómo funciona el widget.
 
 | Tipo | Descripción |
 |--- |--- |

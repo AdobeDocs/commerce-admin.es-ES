@@ -6,7 +6,7 @@ feature: B2B, Companies, Configuration
 role: Admin
 source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Según la función de la compañía y los permisos, los usuarios pueden crear, e
 
 >[!IMPORTANT]
 >
->La configuración de reglas de aprobación requiere un definido [estructura de la empresa](account-company-structure.md) para especificar la aprobación por parte del gestor del cliente comprador.
+>La configuración de la regla de aprobación requiere una [estructura de la compañía](account-company-structure.md) definida para especificar la aprobación por parte del administrador del cliente de compra.
 
 ## Métodos de pago
 
@@ -36,47 +36,47 @@ Los flujos de aprobación de pedidos de compra admiten métodos de pago en líne
 
 ## Configuración de regla de aprobación
 
-Con el requerido [permisos para su función](account-company-roles-permissions.md), los clientes B2B pueden configurar reglas de aprobación para aplicar directivas de compañía haciendo clic en **[!UICONTROL Approval Rules]** en el panel izquierdo de su cuenta de cliente.
+Con los [permisos necesarios para su función](account-company-roles-permissions.md), los clientes B2B pueden configurar reglas de aprobación para aplicar directivas de compañía haciendo clic en **[!UICONTROL Approval Rules]** en el panel izquierdo de su cuenta de cliente.
 
-![Reglas de aprobación de empresa](./assets/approval-rules.png){width="700" zoomable="yes"}
+![Reglas de aprobación de la compañía](./assets/approval-rules.png){width="700" zoomable="yes"}
 
 Para crear una regla de aprobación, un cliente completa los siguientes pasos:
 
-1. Clics **[!UICONTROL Add New Rule]** para crear una regla.
+1. Hace clic en **[!UICONTROL Add New Rule]** para crear una regla.
 
-1. Si es necesario, cambia la regla de **[!UICONTROL Enabled]** hasta **[!UICONTROL Disabled]**.
+1. Si es necesario, cambia la regla de **[!UICONTROL Enabled]** a **[!UICONTROL Disabled]**.
 
    La regla está tan habilitada como la predeterminada, pero un cliente puede crear la regla con una configuración deshabilitada y luego habilitarla más tarde cuando esté listo para aplicarla.
 
-1. Para **[!UICONTROL Rule name]**, introduce un nombre corto pero descriptivo para la regla, como `Orders less than $100`.
+1. Para **[!UICONTROL Rule name]**, escribe un nombre corto pero descriptivo para la regla, como `Orders less than $100`.
 
    Los nombres de las reglas deben ser únicos.
 
 1. Para **[!UICONTROL Description]**, introduce una explicación más larga de la regla.
 
-1. Para **[!UICONTROL Applies to]**, elige uno o varios roles de compañía utilizados para aplicar la regla.
+1. Para **[!UICONTROL Applies to]**, elige uno o más roles de compañía utilizados para aplicar la regla.
 
-1. Elige el **[!UICONTROL Rule Type]** y define la regla.
+1. Elige **[!UICONTROL Rule Type]** y define la regla.
 
    Las secciones siguientes proporcionan una explicación detallada y un ejemplo para cada tipo de regla.
 
-   ![Creación de una nueva regla de aprobación](./assets/approval-rules-create.png){width="700" zoomable="yes"}
+   ![Creando nueva regla de aprobación](./assets/approval-rules-create.png){width="700" zoomable="yes"}
 
-1. Para **[!UICONTROL Requires approval from]**, elige uno o varios aprobadores necesarios según el tipo de aprobación.
+1. Para **[!UICONTROL Requires approval from]**, elige uno o más aprobadores necesarios según el tipo de aprobación.
 
    >[!NOTE]
    >
    >* Al asignar una función como aprobador, asegúrese de que haya al menos un usuario en esa función.
-   >* Si hay dos o más usuarios con la misma función de aprobador, el creador de la orden de compra no puede aprobarla. En este caso, cualquier otro usuario con esta función de aprobador requiere la aprobación manual. Sin embargo, si `Auto-approve POs created within this role` se configura en la variable [Permisos de roles](account-company-roles-permissions.md), el pedido de compra se aprueba automáticamente.
-   >* Si solo hay un usuario con la función de aprobador y ese usuario es el creador, la orden de compra siempre se aprueba automáticamente: `Auto-approve POs created within this role` se omite la configuración de permisos.
+   >* Si hay dos o más usuarios con la misma función de aprobador, el creador de la orden de compra no puede aprobarla. En este caso, cualquier otro usuario con esta función de aprobador requiere la aprobación manual. Sin embargo, si la opción `Auto-approve POs created within this role` está establecida en [Permisos de funciones](account-company-roles-permissions.md), el pedido de compra se aprueba automáticamente.
+   >* Si solo hay un usuario con la función de aprobador y ese usuario es el creador, la orden de compra siempre se aprueba automáticamente; se omite la configuración de permisos de `Auto-approve POs created within this role`.
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 ### [!UICONTROL Order Total]
 
 Este tipo de regla se utiliza para requerir una aprobación de pedido de compra basada en el total del pedido, incluidos los impuestos.
 
-1. Elige un **[!UICONTROL Order Total amount]** opción:
+1. Elige una opción **[!UICONTROL Order Total amount]**:
 
    * `is more than`
    * `is less than`
@@ -91,7 +91,7 @@ Este tipo de regla se utiliza para requerir una aprobación de pedido de compra 
 
 Este tipo de regla se utiliza para requerir una aprobación de pedido de compra basada en los costes de envío, que muchas empresas necesitan.
 
-1. Establece el **[!UICONTROL Shipping cost value]**:
+1. Establece **[!UICONTROL Shipping cost value]**:
 
    * `is more than`
    * `is less than`
@@ -100,7 +100,7 @@ Este tipo de regla se utiliza para requerir una aprobación de pedido de compra 
 
 1. Establece el importe de envío deseado.
 
-![Regla de aprobación de gastos de envío](./assets/approval-rules-shipping-cost.png){width="600" zoomable="yes"}
+![Regla de aprobación de costos de envío](./assets/approval-rules-shipping-cost.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Number of SKUs]
 
@@ -111,7 +111,7 @@ Este tipo de regla se utiliza para requerir una aprobación de pedido en funció
 
 Este ejemplo especifica cinco elementos, pero dos SKU distintas.
 
-1. Establece el **[!UICONTROL Number of SKUs]** valor:
+1. Establece el valor **[!UICONTROL Number of SKUs]**:
 
    * `is more than`
    * `is less than`
@@ -132,7 +132,7 @@ Para modificar una regla de aprobación existente, un cliente puede completar lo
 
 1. Clics **[!UICONTROL Edit]**.
 
-1. Realiza todos los cambios y clics necesarios **[!UICONTROL Save]**.
+1. Realiza todos los cambios necesarios y hace clic en **[!UICONTROL Save]**.
 
 ## Eliminar reglas de aprobación
 

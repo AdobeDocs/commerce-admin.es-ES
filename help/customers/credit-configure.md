@@ -16,23 +16,23 @@ ht-degree: 0%
 
 La configuración de crédito de tienda controla los reembolsos automáticos, la visualización del crédito disponible en las cuentas de cliente y la plantilla de correo electrónico que se utiliza para las notificaciones enviadas a los clientes.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Customers]** y elija **[!UICONTROL Customer Configuration]**.
 
-1. Expanda el **[!UICONTROL Store Credit Options]** sección.
+1. Expanda la sección **[!UICONTROL Store Credit Options]**.
 
    ![Opciones de crédito de tienda](../configuration-reference/customers/assets/customer-configuration-store-credit-options.png){width="600" zoomable="yes"}
 
-1. Establecer **[!UICONTROL Enable Store Credit Functionality]** hasta `Yes`.
+1. Establezca **[!UICONTROL Enable Store Credit Functionality]** en `Yes`.
 
 1. Configure lo siguiente según sus preferencias:
 
    * **[!UICONTROL Show Store Credit History to Customers]**
    * **[!UICONTROL Refund Store Credit Automatically]**
 
-1. Establecer **[!UICONTROL Store Credit Update Email Sender]** a la identidad de la tienda que aparece como el remitente de las notificaciones por correo electrónico enviadas a los clientes.
+1. Establezca **[!UICONTROL Store Credit Update Email Sender]** en la identidad de la tienda que aparece como el remitente de las notificaciones por correo electrónico enviadas a los clientes.
 
-1. Establecer **[!UICONTROL Store Credit Update Email Template]** a la plantilla que se utiliza para las notificaciones por correo electrónico enviadas a los clientes.
+1. Establezca **[!UICONTROL Store Credit Update Email Template]** en la plantilla que se usa para las notificaciones por correo electrónico enviadas a los clientes.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.

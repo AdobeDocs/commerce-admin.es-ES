@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Política de privacidad de tienda
 
-Su tienda incluye una política de privacidad de ejemplo que debe actualizarse con su propia información. Su política de privacidad debe describir el tipo de información que recopila su compañía y cómo se utiliza. También debe enumerar los nombres de archivo de [galletas](compliance-cookie-law.md#default-cookies) que se colocan en los equipos de las personas que visitan su tienda. Cualquier cookie adicional asociada con extensiones y complementos de terceros debe incluirse en la lista.
+Su tienda incluye una política de privacidad de ejemplo que debe actualizarse con su propia información. Su política de privacidad debe describir el tipo de información que recopila su compañía y cómo se utiliza. También debería enumerar los nombres de archivo de [cookies](compliance-cookie-law.md#default-cookies) que se colocan en los equipos de las personas que visitan su tienda. Cualquier cookie adicional asociada con extensiones y complementos de terceros debe incluirse en la lista.
 
 ## Datos personales
 
@@ -26,7 +26,7 @@ Cualquier información que razonablemente identifique o pueda utilizarse para id
 
 Toda representación de información que permita inferir razonablemente por medios directos o indirectos la identidad de una persona a la que se aplique la información. La PII se define como la información que identifica directamente a una persona (como el nombre, la dirección, el número de la seguridad social u otro número de identificación). También es información mediante la cual una agencia pretende identificar a individuos específicos con otros elementos de datos (identificación indirecta). Estos elementos de datos pueden incluir una combinación de sexo, raza, fecha de nacimiento, indicador geográfico y otros descriptores. Además, incluye información que permite que el contacto físico o en línea de una persona específica sea lo mismo que la información de identificación personal. Esta información se puede mantener en papel, electrónico u otros medios.
 
-![Ejemplo de tienda: política de privacidad](./assets/storefront-privacy-policy.png){width="600" zoomable="yes"}
+![Ejemplo de tienda - política de privacidad](./assets/storefront-privacy-policy.png){width="600" zoomable="yes"}
 
 ## Editar su política de privacidad
 
@@ -34,18 +34,18 @@ Toda representación de información que permita inferir razonablemente por medi
 >
 >Los datos de ejemplo de Luma incluyen una política de privacidad de ejemplo que puede modificar para su uso.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. En la cuadrícula, busque **[!UICONTROL Privacy Policy]**. A continuación, en la _[!UICONTROL Action]_, haga clic en **[!UICONTROL Select]**y elija **[!UICONTROL Edit]**.
+1. En la cuadrícula, busque **[!UICONTROL Privacy Policy]**. A continuación, en la columna _[!UICONTROL Action]_, haga clic en **[!UICONTROL Select]**y elija **[!UICONTROL Edit]**.
 
    >[!NOTE]
    >
-   >Si cambia la clave URL de la página de política de privacidad, también debe crear una [reescritura de URL personalizada](../merchandising-promotions/url-rewrite-custom.md) para redirigir el tráfico a la nueva clave URL. De lo contrario, el vínculo del pie de página devuelve `404 Page Not Found`.
+   >Si cambia la clave URL de la página de la directiva de privacidad, también debe crear una [reescritura personalizada de URL](../merchandising-promotions/url-rewrite-custom.md) para redirigir el tráfico a la nueva clave URL. De lo contrario, el vínculo del pie de página devuelve `404 Page Not Found`.
 
-1. Expanda el **[!UICONTROL Content]** y realice los cambios necesarios en el contenido.
+1. Expanda la sección **[!UICONTROL Content]** y realice los cambios necesarios en el contenido.
 
-   Para obtener más información sobre el uso de las herramientas de contenido de página, consulte [Completar el contenido](../content-design/page-add.md#step-2-complete-the-content) en el _Guía de diseño y contenido_.
+   Para obtener más información acerca del uso de las herramientas de contenido de página, consulte [Completar el contenido](../content-design/page-add.md#step-2-complete-the-content) en la _Guía de contenido y diseño_.
 
-   ![Página de política de privacidad: editar contenido](./assets/page-privacy-content-edit.png){width="600" zoomable="yes"}
+   ![Página de directiva de privacidad - editar contenido](./assets/page-privacy-content-edit.png){width="600" zoomable="yes"}
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Page]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Page]**.

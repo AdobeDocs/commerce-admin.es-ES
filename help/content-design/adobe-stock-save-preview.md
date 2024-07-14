@@ -6,33 +6,33 @@ feature: CMS, Media
 source-git-commit: d3b9b4cd0d12f8d5feb2bad0bf601970f9ee1a36
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # Guardar una previsualización de imagen de Adobe Stock
 
-Una previsualización de imagen es una versión con marca de agua de un recurso de Adobe Stock. Las vistas previas de imágenes son gratuitas y son una buena manera de experimentar con diferentes imágenes antes de decidir [adquirir una licencia][stock-license] para imágenes específicas y utilícelas en sus tiendas de producción.
+Una previsualización de imagen es una versión con marca de agua de un recurso de Adobe Stock. Las vistas previas de imágenes son gratis y son una buena manera de experimentar con diferentes imágenes antes de decidir [adquirir una licencia][stock-license] para imágenes específicas y usarlas en las tiendas de producción.
 
-Cuando esté listo para autorizar una imagen, el nuevo [[!DNL Media Gallery]](media-gallery.md) proporciona una integración directa con Adobe Stock, lo que facilita la obtención de licencias de la imagen directamente desde la página de la galería.
+Cuando esté listo para autorizar una imagen, el nuevo [[!DNL Media Gallery]](media-gallery.md) proporciona una integración directa con Adobe Stock, lo que facilita la autorización de la imagen directamente desde la página de la galería.
 
 ## Requisitos previos
 
-Esta función requiere lo siguiente [Integración de Adobe Stock][adobe-stock-integration] módulo y configuración.
+Esta característica requiere el módulo [Adobe Stock Integration][adobe-stock-integration] y la configuración.
 
 ## Guardar una imagen de previsualización
 
-1. [Acceso a la cuadrícula de búsqueda de Adobe Stock][access-search].
+1. [Acceder a la cuadrícula de búsqueda de Adobe Stock][access-search].
 
-1. Hasta [ver los detalles de la imagen][view-details], haga clic en una imagen de la cuadrícula de búsqueda.
+1. Para [ver los detalles de la imagen][view-details], haga clic en una imagen en la cuadrícula de búsqueda.
 
-1. Haga clic **[!UICONTROL Save Preview]**.
+1. Haga clic en **[!UICONTROL Save Preview]**.
 
-   Esta acción muestra una solicitud para que especifique un nombre de archivo que se utilice para guardar la imagen en [almacenamiento de medios][media-storage]. Se proporciona un nombre de archivo predeterminado, pero puede personalizarlo según sus preferencias.
+   Esta acción muestra una solicitud para que especifique un nombre de archivo que se use para guardar la imagen en el [almacenamiento de medios][media-storage]. Se proporciona un nombre de archivo predeterminado, pero puede personalizarlo según sus preferencias.
 
    ![Guardar imagen de vista previa de Adobe Stock](./assets/adobe-stock-save-preview.png){width="500" zoomable="yes"}
 
-1. Haga clic **[!UICONTROL Confirm]**.
+1. Haga clic en **[!UICONTROL Confirm]**.
 
    La página redirige al almacenamiento de medios y se muestra la previsualización guardada.
 

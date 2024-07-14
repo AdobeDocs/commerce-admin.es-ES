@@ -18,7 +18,7 @@ El espacio de trabajo de páginas incluye herramientas que le ayudarán a encont
 
 ## Actualizar rápidamente las propiedades de página
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 1. Haga clic en cualquier fila de la cuadrícula.
 
    ![Las propiedades de página se pueden editar en la cuadrícula Páginas](./assets/page-grid-properties-update.png){width="600" zoomable="yes"}
@@ -32,7 +32,7 @@ El espacio de trabajo de páginas incluye herramientas que le ayudarán a encont
    - **[!UICONTROL Status]**
    - **[!UICONTROL Layout]**
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
 
 ## Controles de Workspace
 
@@ -57,10 +57,10 @@ El espacio de trabajo de páginas incluye herramientas que le ayudarán a encont
 | [!UICONTROL URL Key] | La clave URL es similar al nombre de un archivo e identifica la página en la dirección URL. |
 | [!UICONTROL Layout] | Determina si la página aparece con barras laterales a la derecha o a la izquierda del área de contenido principal. Opciones: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
 | [!UICONTROL Store View] | Se utiliza para asociar la página con una vista de tienda específica. |
-| [!UICONTROL Status] | Indica si la página está en línea o sin conexión. Opciones: `Enabled` / `Disabled` |
+| [!UICONTROL Status] | Indica si la página está en línea o sin conexión. Opciones: `Enabled` / `Disabled` |
 | [!UICONTROL Created] | La fecha de creación de la página. |
 | [!UICONTROL Modified] | Fecha de la última modificación de la página. |
-| [!UICONTROL Action] | Las acciones que se pueden aplicar a un registro individual incluyen:<br/>**[!UICONTROL Edit]**: abre la página en modo de edición.<br/>**[!UICONTROL Delete]** - Elimina la página.<br/>**[!UICONTROL View]**- Muestra la página en modo de vista previa. |
+| [!UICONTROL Action] | Las acciones que se pueden aplicar a un registro individual incluyen:<br/>**[!UICONTROL Edit]**- Abre la página en modo de edición.<br/>**[!UICONTROL Delete]** - Elimina la página.<br/>**[!UICONTROL View]**- Muestra la página en modo de vista previa. |
 
 {style="table-layout:auto"}
 
@@ -79,13 +79,13 @@ El espacio de trabajo de páginas incluye herramientas que le ayudarán a encont
 
 ## Búsqueda de página
 
-El cuadro Buscar en la parte superior izquierda de la _[!UICONTROL Pages]_la cuadrícula se puede utilizar para buscar páginas específicas por palabra clave. Para realizar una búsqueda más avanzada, puede [filter](../getting-started/admin-grid-controls.md) la búsqueda por varios parámetros.
+El cuadro Buscar de la parte superior izquierda de la cuadrícula _[!UICONTROL Pages]_se puede utilizar para buscar páginas específicas por palabra clave. Para una búsqueda más avanzada, puedes [filtrar](../getting-started/admin-grid-controls.md) la búsqueda por varios parámetros.
 
 ### Buscar por palabra clave
 
 1. Introduzca un término de búsqueda en el cuadro de búsqueda de la página.
 
-1. Para mostrar los resultados, haga clic en el botón Buscar (![Icono de lupa](../assets/icon-magnify-search.png)) icono.
+1. Para mostrar los resultados, haga clic en el icono Buscar (![Icono de lupa](../assets/icon-magnify-search.png)).
 
    Los resultados incluyen todas las páginas que contienen la palabra clave.
 
@@ -93,11 +93,11 @@ El cuadro Buscar en la parte superior izquierda de la _[!UICONTROL Pages]_la cua
 
 1. Si es necesario, haga clic en **[!UICONTROL Clear All]** para borrar los criterios de búsqueda anteriores.
 
-1. Para mostrar la selección de filtros de búsqueda, haga clic en **[!UICONTROL Filters]** !([Icono Embudo](../assets/icon-filter-search.png)) pestaña.
+1. Para mostrar la selección de filtros de búsqueda, haga clic en **[!UICONTROL Filters]** !Pestaña ([Icono de canal](../assets/icon-filter-search.png)).
 
 1. Complete tantos filtros como sea necesario para describir las páginas que desea encontrar.
 
-1. Clic **[!UICONTROL Apply Filters]** para mostrar los resultados.
+1. Haga clic en **[!UICONTROL Apply Filters]** para mostrar los resultados.
 
 ### Filtros de búsqueda
 
@@ -110,7 +110,7 @@ El cuadro Buscar en la parte superior izquierda de la _[!UICONTROL Pages]_la cua
 | [!UICONTROL Modified] | Filtre la búsqueda en función de la fecha en la que se modificó la página por última vez. |
 | [!UICONTROL Store View] | Filtre la búsqueda según la vista de la tienda. Opciones: `All available` / `Store Views` |
 | [!UICONTROL Layout] | Filtre la búsqueda según el diseño de la página. Opciones: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
-| [!UICONTROL Status] | Filtre la búsqueda por el estado de la página. Opciones: `Disabled` / `Published` |
+| [!UICONTROL Status] | Filtre la búsqueda por el estado de la página. Opciones: `Disabled` / `Published` |
 | [!UICONTROL Custom design from / to] | Filtre la búsqueda por la fecha de inicio y finalización cuando se aplique el diseño seleccionado a la página. ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source). |
 | [!UICONTROL Asset] | Filtrar la búsqueda por los recursos de título de página |
 | [!UICONTROL Custom Layout] | Filtre la búsqueda en función de un diseño personalizado. Opciones: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` / `Page -- Full Width` / `Category -- Full Width` / `Product -- Full Width` |
@@ -139,22 +139,22 @@ Las páginas se pueden editar, deshabilitar, habilitar y eliminar. Para aplicar 
 
 ### Acción única
 
-Utilice el _[!UICONTROL Action]_en el extremo derecho para aplicar cualquiera de las siguientes acciones a la página individual:
+Utilice la columna _[!UICONTROL Action]_en el extremo derecho para aplicar cualquiera de las siguientes acciones a la página individual:
 
-- [!UICONTROL Edit] : abre la página en modo de edición
+- [!UICONTROL Edit] - abre la página en modo de edición
 - [!UICONTROL Delete] - elimina la página (requiere confirmación)
 - [!UICONTROL View] - abre una página directamente en la tienda
 
-![Acciones de página única](./assets/page-grid-actions.png){width="600" zoomable="yes"}
+![Acciones de una sola página](./assets/page-grid-actions.png){width="600" zoomable="yes"}
 
 ### Acciones masivas
 
-Aplique cualquiera de las siguientes acciones a varias páginas seleccionadas al mismo tiempo mediante la variable _[!UICONTROL Action]_selector en la esquina superior izquierda:
+Aplique cualquiera de las siguientes acciones a varias páginas seleccionadas al mismo tiempo utilizando el selector _[!UICONTROL Action]_en la esquina superior izquierda:
 
 - [!UICONTROL Delete] - elimina las páginas (requiere confirmación)
-- [!UICONTROL Disable] - desactiva las páginas de la tienda
-- [!UICONTROL Enable] - habilita las páginas de la tienda
-- [!UICONTROL Edit] : abre columnas en la cuadrícula en modo de edición (**[!UICONTROL Title]**, **[!UICONTROL URL Key]**, **[!UICONTROL Layout]**, y **[!UICONTROL Status]**)
+- [!UICONTROL Disable]: deshabilita las páginas de la tienda
+- [!UICONTROL Enable] - habilita las páginas en la tienda
+- [!UICONTROL Edit]: abre columnas en la cuadrícula en modo de edición (**[!UICONTROL Title]**, **[!UICONTROL URL Key]**, **[!UICONTROL Layout]** y **[!UICONTROL Status]**)
 
 ## Diseño de cuadrícula de página
 
@@ -162,7 +162,7 @@ La selección de columnas y su orden en la cuadrícula se pueden cambiar según 
 
 ### Cambiar la selección de columnas
 
-En la esquina superior derecha, haga clic _Columnas_ (![Icono de columna](../assets/icon-columns.png)) y haga lo siguiente:
+En la esquina superior derecha, haga clic en el control _Columns_ (![Icono de columna](../assets/icon-columns.png)) y haga lo siguiente:
 
 - Seleccione la casilla de verificación de cualquier columna que desee agregar a la cuadrícula.
 
@@ -176,21 +176,21 @@ En la esquina superior derecha, haga clic _Columnas_ (![Icono de columna](../ass
 
 ### Guardar una vista
 
-1. Haga clic en _Ver_ (![Icono de ojo](../assets/icon-view-eye.png)) y haga clic en **[!UICONTROL Save View As]**.
+1. Haga clic en el control _Ver_ (![Icono de ojo](../assets/icon-view-eye.png)) y, a continuación, haga clic en **[!UICONTROL Save View As]**.
 
 1. Introduzca un nombre para la vista.
 
-1. Para guardar la vista, haga clic en _Flecha_ (![Icono de flecha](../assets/icon-arrow-save.png)).
+1. Para guardar la vista, haga clic en la _flecha_ (![icono de flecha](../assets/icon-arrow-save.png)).
 
    El nombre de la vista aparece ahora como la vista actual.
 
 ### Cambio de la vista
 
-Haga clic en _Ver_ (![Icono de ojo](../assets/icon-view-eye.png)) y realice una de las siguientes acciones:
+Haga clic en el control _Ver_ (![Icono de ojo](../assets/icon-view-eye.png)) y realice una de las siguientes acciones:
 
 - Elija la vista que desee utilizar.
 
-- Para cambiar el nombre de una vista, haga clic en Editar (![Icono de lápiz](../assets/icon-edit-pencil.png)) y actualizando el nombre.
+- Para cambiar el nombre de una vista, haga clic en el icono Editar (![Icono de lápiz](../assets/icon-edit-pencil.png)) y actualice el nombre.
 
   ![La vista guardada aparece en los controles de vista con un icono de edición](./assets/pages-default-grid-control.png){width="600" zoomable="yes"}
 
@@ -202,16 +202,16 @@ Los cambios de página se pueden aplicar según lo programado y agrupar con otro
 
 >[!NOTE]
 >
->El [!UICONTROL Custom Design Update] se ha eliminado en ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce y no se pueden modificar directamente en la página. Debe crear una actualización programada para estas activaciones.
+>La ficha [!UICONTROL Custom Design Update] se ha eliminado en ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce y no se puede modificar directamente en la página. Debe crear una actualización programada para estas activaciones.
 
 >[!NOTE]
 >
 >Todas las actualizaciones programadas se aplican de forma consecutiva, lo que significa que cualquier entidad solo puede tener una actualización programada en un momento dado. Cualquier actualización programada se aplica a todas las vistas de la tienda dentro de su lapso de tiempo. Como resultado, una entidad no puede tener una actualización programada diferente para diferentes vistas de tienda al mismo tiempo. Todos los valores de atributo de entidad dentro de todas las vistas de tienda, que no se ven afectados por la actualización programada actual, se toman de los valores predeterminados y no de la actualización programada anterior.
 
-![La página Inicio muestra los cambios programados en la parte superior](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
+![La página de inicio muestra los cambios programados en la parte superior](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->La fecha de inicio y de finalización de la campaña deben definirse utilizando **_predeterminado_** Zona horaria de administración, que se convierte a partir de la zona horaria local de cada sitio web. Pongamos un ejemplo en el que tiene varios sitios web en diferentes zonas horarias, pero quiere iniciar una campaña basada en una zona horaria de EE. UU. En este caso, debe programar una actualización independiente para cada zona horaria local y establecer **[!UICONTROL Start Date]** y **[!UICONTROL End Date]** se convierten de cada zona horaria del sitio web local a la zona horaria de administración predeterminada.
+>La fecha de inicio y la fecha de finalización de la campaña deben definirse usando la zona horaria del administrador **_default_**, que se convierte a partir de la zona horaria local de cada sitio web. Pongamos un ejemplo en el que tiene varios sitios web en diferentes zonas horarias, pero quiere iniciar una campaña basada en una zona horaria de EE. UU. En este caso, debe programar una actualización independiente para cada zona horaria local y establecer **[!UICONTROL Start Date]** y **[!UICONTROL End Date]** en convertidas desde cada zona horaria de sitio web local a la zona horaria de administración predeterminada.
 
-Además, puede programar y previsualizar cambios para actualizaciones de productos. Para obtener más información, consulte [Programando una actualización](content-staging-scheduled-update.md).
+Además, puede programar y previsualizar cambios para actualizaciones de productos. Para obtener más información, consulte [Programar una actualización](content-staging-scheduled-update.md).

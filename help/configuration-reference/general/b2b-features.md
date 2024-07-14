@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL General] &gt; [!UICONTROL B2B Features]'
-description: Revise la configuración de en [!UICONTROL General] &gt; [!UICONTROL B2B Features] del Administrador de Commerce.
+description: Revise la configuración en la página [!UICONTROL General] &gt; [!UICONTROL B2B Features] del administrador de Commerce.
 exl-id: fc07a067-b92a-49c7-8512-2dfcc1c6ba0c
 feature: Configuration, B2B
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
@@ -18,11 +18,11 @@ ht-degree: 1%
 
 >[!TIP]
 >
->Con la instalación y activación de Adobe Commerce B2B, la experiencia de compra se puede personalizar con funciones específicas de la empresa. Adobe Commerce B2B es una solución integrada que admite modelos B2B y B2C. Para obtener más información sobre las funciones de B2B, consulte la [_Guía del usuario de Adobe Commerce B2B_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Con la instalación y activación de Adobe Commerce B2B, la experiencia de compra se puede personalizar con funciones específicas de la empresa. Adobe Commerce B2B es una solución integrada que admite modelos B2B y B2C. Para obtener más información acerca de las características de B2B, consulte la [_Guía del usuario de Adobe Commerce B2B_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 ## [!UICONTROL B2B Features]
 
-![Funciones B2B](./assets/b2b-features.png)<!-- zoom -->
+![Características B2B](./assets/b2b-features.png)<!-- zoom -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |------- |----------------------------------------------------------------------- |------------ |
@@ -32,21 +32,21 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-![Funciones B2B con empresas y catálogos compartidos activados](./assets/b2b-features-company-enabled.png)<!-- zoom -->
+![Características B2B con empresas y catálogos compartidos habilitados](./assets/b2b-features-company-enabled.png)<!-- zoom -->
 
 Cuando la función Compañía está activada, hay campos adicionales disponibles para Catálogo compartido y Cotización B2B.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Shared Catalog]](../../b2b/catalog-shared.md) | Sitio web | Cuando se habilita, permite crear catálogos depurados con precios personalizados disponibles globalmente o limitados a empresas específicas. Opciones: `Yes` / `No` |
-| [!UICONTROL Enable Shared Catalog direct products price assigning] | Sitio web | Si la variable _[!UICONTROL Enable Shared Catalog]_el campo está configurado como `Yes`, esta opción está disponible. Cuando está activada, solo los productos asignados a un catálogo compartido se almacenan en el índice de precios. Los productos que no están asignados al catálogo compartido no se muestran en la tienda. Opciones: `Yes` / `No` |
+| [!UICONTROL Enable Shared Catalog direct products price assigning] | Sitio web | Cuando el campo _[!UICONTROL Enable Shared Catalog]_está establecido en `Yes`, esta opción está disponible. Cuando está activada, solo los productos asignados a un catálogo compartido se almacenan en el índice de precios. Los productos que no están asignados al catálogo compartido no se muestran en la tienda. Opciones: `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | Sitio web | Cuando está activada, permite a los compradores de la empresa enviar una solicitud de presupuesto desde el carro de compras. Opciones: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
 ### [!UICONTROL Default B2B Payment Methods]
 
-![Configuración B2B: configuración de método de pago por defecto](./assets/b2b-features-default-payment-methods.png)<!-- zoom -->
+![Configuración B2B - configuración predeterminada del método de pago](./assets/b2b-features-default-payment-methods.png)<!-- zoom -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |------- |----------------------------------------------------------------------- |------------ |
@@ -57,18 +57,18 @@ Cuando la función Compañía está activada, hay campos adicionales disponibles
 
 ### [!UICONTROL Default B2B Shipping Methods]
 
-![Configuración B2B: métodos de envío predeterminados](./assets/b2b-features-shipping-methods.png)<!-- zoom -->
+![Configuración B2B - métodos de envío predeterminados](./assets/b2b-features-shipping-methods.png)<!-- zoom -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |------- |----------------------------------------------------------------------- |------------ |
 | [!UICONTROL Applicable Shipping Methods] | Global | Determina la selección de los métodos de envío que están disponibles de forma predeterminada para los compradores B2B. Opciones: `All Shipping Methods` / `Specific Shipping Methods` |
-| [!UICONTROL Shipping Methods] | Global | Especifica todos los métodos de envío que están disponibles de forma predeterminada para los compradores B2B. <br/>**_Nota:_**También puede limitar los métodos de envío para un específico [cuenta de empresa](../../b2b/account-companies.md). |
+| [!UICONTROL Shipping Methods] | Global | Especifica todos los métodos de envío que están disponibles de forma predeterminada para los compradores B2B. <br/>**_Nota:_**También puedes limitar los métodos de envío para una [cuenta de compañía](../../b2b/account-companies.md) específica. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Order Approval Configuration]
 
-![Funciones B2B: Configuración de aprobación de pedidos](./assets/b2b-features-order-approval.png)<!-- zoom -->
+![Funciones B2B - Configuración de aprobación de pedido](./assets/b2b-features-order-approval.png)<!-- zoom -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |------- |----------------------------------------------------------------------- |------------ |

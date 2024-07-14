@@ -16,11 +16,11 @@ Una lista de deseos es una lista de productos que un cliente registrado puede co
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce admite el uso de varias listas de deseos por cuenta de cliente.
 
-![Magento Open Source](../assets/open-source.svg) El Magento Open Source admite el uso de una sola lista de deseos por cuenta de cliente.
+El Magento Open Source ![Magento Open Source](../assets/open-source.svg) admite el uso de una sola lista de deseos por cuenta de cliente.
 
 Las listas de deseos compartidas se envían desde una dirección de correo electrónico de la tienda, pero el cuerpo del mensaje contiene una nota personalizada del cliente. Puede personalizar la plantilla de correo electrónico que se utiliza cuando se comparten las listas de deseos y elegir el contacto de tienda que aparece como el remitente.
 
-Las listas de deseos se pueden actualizar desde el panel del [cuenta de cliente](../customers/account-dashboard.md). El cliente o el administrador de la tienda pueden añadir o transferir artículos entre la lista de artículos deseados y el carro de compras.
+Las listas de deseos se pueden actualizar desde el panel de la [cuenta de cliente](../customers/account-dashboard.md). El cliente o el administrador de la tienda pueden añadir o transferir artículos entre la lista de artículos deseados y el carro de compras.
 
 ![Ejemplo de tienda - Mi lista de deseos](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
 
@@ -32,22 +32,22 @@ Los clientes pueden [administrar sus listas de deseos](wishlist-storefront.md) i
 
 **_Para actualizar los elementos de la lista de artículos deseados del administrador:_**
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Busque el cliente en la lista y haga clic en **[!UICONTROL Edit]** en el _[!UICONTROL Action]_columna.
+1. Busque el cliente en la lista y haga clic en **[!UICONTROL Edit]** en la columna _[!UICONTROL Action]_.
 
 1. En el panel izquierdo, elija **[!UICONTROL Wish List]** y busque el elemento que desea editar en la lista.
 
    Todas las opciones seleccionadas para el producto aparecen debajo del nombre del producto.
 
-   ![Administrador de comercio: lista de deseos del cliente](./assets/customer-wishlist-edit-admin.png){width="600" zoomable="yes"}
+   ![Administrador de Commerce - lista de deseos del cliente](./assets/customer-wishlist-edit-admin.png){width="600" zoomable="yes"}
 
 1. Para editar las opciones del producto, haga lo siguiente:
 
-   - En el **[!UICONTROL Action]** , haga clic en **[!UICONTROL Configure]**.
+   - En la columna **[!UICONTROL Action]**, haga clic en **[!UICONTROL Configure]**.
 
    - En la página del producto, actualice las opciones y **[!UICONTROL Quantity]** según sea necesario.
 
-   - Clic **[!UICONTROL OK]**.
+   - Haga clic en **[!UICONTROL OK]**.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Customer]** o **[!UICONTROL Save and Continue Edit]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Customer]** o **[!UICONTROL Save and Continue Edit]**.

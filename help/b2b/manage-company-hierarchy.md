@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 source-git-commit: 6ec075d9cbce41ebc056e631b1ae7b4f2749c161
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -23,16 +23,16 @@ Cree una jerarquía de compañías desde la página de detalles Compañía.
 
 ## Abrir la página de detalles de la compañía
 
-1. Desde el _Administrador_ barra lateral, vaya a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Abra la página de detalles de la compañía en la cuadrícula Compañías de la compañía matriz seleccionando la **[!UICONTROL Edit]** acción.
+1. Abra la página de detalles de la compañía en la cuadrícula Compañías de la compañía principal seleccionando la acción **[!UICONTROL Edit]**.
 
-Consulte la [Administrar cuentas de empresa](account-company-manage.md) para obtener más información sobre la cuadrícula Compañías.
+Consulte [Administrar cuentas de compañía](account-company-manage.md) para obtener más información sobre la cuadrícula Compañías.
 
 ## [!UICONTROL Company Hierarchy]
 
-En la creación inicial de la empresa, la variable [!UICONTROL Company Hierarchy] la cuadrícula está vacía al expandirla. Una vez creada la empresa, los usuarios administradores con los permisos adecuados pueden utilizar el [!UICONTROL Company Hierarchy] para crear una organización de compañía matriz editando la compañía matriz designada y asignando compañías relacionadas.
+En la creación inicial de la compañía, la cuadrícula [!UICONTROL Company Hierarchy] está vacía al expandirla. Una vez creada una compañía, los usuarios administradores con los permisos apropiados pueden usar [!UICONTROL Company Hierarchy] para crear una organización de compañía primaria editando la compañía primaria designada y asignando compañías relacionadas.
 
 ![Cuadrícula de jerarquía de compañías](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
 
-Consulte [asignar y desasignar compañías](assign-companies.md) para obtener más información sobre las acciones disponibles en [!UICONTROL Company Hierarchy] rejilla.
+Consulte [asignar y desasignar compañías](assign-companies.md) para obtener más información sobre las acciones disponibles en la cuadrícula [!UICONTROL Company Hierarchy].

@@ -1,11 +1,11 @@
 ---
 title: Reescrituras de URL
-description: Obtenga información acerca de las reescrituras de URL y el uso de la herramienta de reescritura de URL de comercio para cambiar las URL asociadas a una página de producto, categoría o CMS.
+description: Obtenga información acerca de las reescrituras de URL y el uso de la herramienta de reescritura de URL de Commerce para cambiar las URL asociadas a una página de producto, categoría o CMS.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ La herramienta de reescritura de URL le permite cambiar cualquier URL asociada a
 
 >[!NOTE]
 >
->Para actualizar las reescrituras de URL de varios o todos los productos simultáneamente, consulte [Varias reescrituras de URL](url-rewrite-product.md#multiple-url-rewrites).
+>Para actualizar las reescrituras de URL de varios o todos los productos simultáneamente, consulte [Reescrituras de URL múltiples](url-rewrite-product.md#multiple-url-rewrites).
 
-Los términos _reescribir_ y _redireccionamiento_ suelen utilizarse indistintamente, pero hacen referencia a procesos ligeramente diferentes. Una reescritura de URL cambia la forma en que aparece la dirección URL en el explorador. Un redireccionamiento de URL actualiza la dirección URL almacenada en el servidor. Una redirección de URL puede ser temporal o permanente. Tu tienda usa reescrituras y redirecciones de URL para facilitar el cambio de la clave URL de un producto, categoría o página y la conservación de los vínculos existentes.
+Los términos _rewrite_ y _redirect_ se utilizan a menudo de forma intercambiable, pero hacen referencia a procesos ligeramente diferentes. Una reescritura de URL cambia la forma en que aparece la dirección URL en el explorador. Un redireccionamiento de URL actualiza la dirección URL almacenada en el servidor. Una redirección de URL puede ser temporal o permanente. Tu tienda usa reescrituras y redirecciones de URL para facilitar el cambio de la clave URL de un producto, categoría o página y la conservación de los vínculos existentes.
 
-De forma predeterminada, [redirecciones automáticas de URL](url-redirect-product-automatic.md) están activados para su tienda y el **Crear redireccionamiento permanente para URL antigua** La casilla de verificación se selecciona en el campo Clave de URL de cada producto.
+De manera predeterminada, las [redirecciones automáticas de URL](url-redirect-product-automatic.md) están habilitadas para su tienda y la casilla de verificación **Crear redireccionamiento permanente para la URL antigua** está seleccionada en el campo Clave de URL de cada producto.
 
 {{url-rewrite-skip}}
 
 {{url-rewrite-params}}
 
-![Optimización del motor de búsqueda: crear redireccionamiento de URL permanente](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
+![Optimización del motor de búsqueda: crear redirección de URL permanente](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 
 ## URL canónicas
 
@@ -48,7 +48,7 @@ Para especificar una página canónica, consulte [Documentación de Google Searc
 
 ## Configuración de reescrituras de URL
 
-La activación de las reescrituras de Apache del servidor web forma parte de la configuración inicial de Commerce. Commerce utiliza habitualmente las reescrituras de URL para eliminar el nombre del archivo `index.php` que normalmente aparece en la dirección URL justo después de la carpeta raíz. Cuando las reescrituras del servidor web están habilitadas, el sistema reescribe cada URL para omitirla `index.php`. La reescritura elimina las palabras que no transmiten nada de valor a los motores de búsqueda o a los clientes, y no afecta al rendimiento ni a la clasificación del sitio.
+La activación de las reescrituras de Apache del servidor web forma parte de la configuración inicial de Commerce. Commerce usa de forma rutinaria las reescrituras de direcciones URL para quitar el nombre de archivo `index.php` que normalmente aparece en la dirección URL justo después de la carpeta raíz. Cuando las reescrituras del servidor web están habilitadas, el sistema reescribe cada URL para omitir `index.php`. La reescritura elimina las palabras que no transmiten nada de valor a los motores de búsqueda o a los clientes, y no afecta al rendimiento ni a la clasificación del sitio.
 
 URL sin reescritura de servidor web
 
@@ -58,17 +58,17 @@ URL con reescritura de servidor web
 
     http://www.yourdomain.com/magento/storeview/url-identifier
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo donde **[!UICONTROL General]** está expandido, elija **[!UICONTROL Web]**.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Search Engine Optimization]** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Search Engine Optimization]**.
 
-   ![Configuración general: optimización de los motores de búsqueda web](../configuration-reference/general/assets/web-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![Configuración general: optimización del motor de búsqueda web](../configuration-reference/general/assets/web-search-engine-optimization.png){width="600" zoomable="yes"}
 
-1. Establecer **[!UICONTROL Use Web Server Rewrites]** según sus preferencias.
+1. Establezca **[!UICONTROL Use Web Server Rewrites]** según sus preferencias.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 ## Crear reescrituras de URL
 

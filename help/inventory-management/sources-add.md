@@ -5,7 +5,7 @@ exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -14,81 +14,81 @@ ht-degree: 0%
 
 Administre el inventario y la satisfacción de pedidos desde varias ubicaciones con fuentes personalizadas. Cree una fuente para cada ubicación, como almacenes, tiendas físicas, centros de distribución y empresas de envío directo. Asignación de orígenes y actualización de cantidades por producto
 
-Si edita el origen predeterminado, puede editar todas las configuraciones excepto el nombre y el código. Se recomienda que los comerciantes de un solo origen agreguen información que coincida con su ubicación.
+Si edita la Source predeterminada, puede editar todas las configuraciones excepto el nombre y el código. Se recomienda que los comerciantes de un solo origen agreguen información que coincida con su ubicación.
 
 ## Agregar un origen de inventario
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
 
-1. Haga clic **[!UICONTROL Add New Source]**.
+1. Haga clic en **[!UICONTROL Add New Source]**.
 
-   ![Administrar fuentes](assets/inventory-sources.png)
+   ![Administrar orígenes](assets/inventory-sources.png)
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL General]** y haga lo siguiente:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL General]** y haga lo siguiente:
 
-   - Para identificar el origen del inventario, introduzca un valor único **[!UICONTROL Name]**.
+   - Para identificar el origen del inventario, escriba un **[!UICONTROL Name]** único.
 
-   - Introduzca un único **[!UICONTROL Code]**.
+   - Escriba un(a) **[!UICONTROL Code]** único.
 
      El código admite letras mayúsculas y minúsculas, números, guiones y guiones bajos. El código es un ID único que se utiliza al asignar a stock y exportar e importar datos.
 
-   - Si este origen de inventario está listo para usarse, establezca **[!UICONTROL Is Enabled]** hasta `Yes`.
+   - Si este origen de inventario está listo para usarse, establezca **[!UICONTROL Is Enabled]** en `Yes`.
 
-   - Escriba una descripción breve **[!UICONTROL Description]** para esta ubicación, para obtener una referencia rápida o más detalles.
+   - Escriba un **[!UICONTROL Description]** breve para esta ubicación para obtener una referencia rápida o detalles adicionales.
 
    - Para **[!UICONTROL Latitude]** y **[!UICONTROL Longitude]**, introduzca las coordenadas del Sistema de posicionamiento global (GPS) de la ubicación de la instalación.
 
-     Para encontrar las coordenadas GPS con [Mapas de Google][1], introduzca la dirección en el cuadro de búsqueda. Haga clic con el botón derecho en el marcador del mapa y elija **[!UICONTROL What's here?]**. Las coordenadas GPS aparecen en el cuadro de detalles debajo de la dirección.
+     Para encontrar las coordenadas GPS con [Google Maps][1], ingrese la dirección en el cuadro de búsqueda. Haga clic con el botón secundario en el marcador del mapa y elija **[!UICONTROL What's here?]**. Las coordenadas GPS aparecen en el cuadro de detalles debajo de la dirección.
 
      ![Opciones generales de origen](assets/inventory-source-general.png)
 
-   - Si este origen de inventario es una ubicación de recogida, establezca **[!UICONTROL Use as Pickup Location]** hasta `Yes`.
+   - Si este origen de inventario es una ubicación de recogida, establezca **[!UICONTROL Use as Pickup Location]** en `Yes`.
 
-     El origen predeterminado no se puede usar como ubicación de recogida para pedidos de recogida en tienda.
+     El Source predeterminado no se puede usar como ubicación de recogida para pedidos de recogida en tienda.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Contact Info]** y haga lo siguiente:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Contact Info]** y haga lo siguiente:
 
-   - Para **[!UICONTROL Contact Name]**, introduzca el nombre completo del contacto principal en la ubicación.
+   - Para **[!UICONTROL Contact Name]**, escriba el nombre completo del contacto principal en la ubicación.
 
-   - Introduzca una **[!UICONTROL Email]** dirección para ponerse en contacto con la ubicación.
+   - Escriba una dirección **[!UICONTROL Email]** para ponerse en contacto con la ubicación.
 
-   - Para **[!UICONTROL Phone]**, introduzca el código de área y el número de teléfono.
+   - Para **[!UICONTROL Phone]**, escriba el código de área y el número de teléfono.
 
-   - Para **[!UICONTROL Fax]**, introduzca el código de área y el número de teléfono del fax, si está disponible.
+   - Para **[!UICONTROL Fax]**, escriba el código de área y el número de teléfono del fax, si están disponibles.
 
      ![Información de contacto](assets/inventory-source-contact-info.png)
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Address Data]** y haga lo siguiente:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Address Data]** y haga lo siguiente:
 
-   - Elija la **[!UICONTROL Country]**.
+   - Elija **[!UICONTROL Country]**.
 
-   - Para **[!UICONTROL State/Province]**, introduzca la abreviatura estándar para el estado o la provincia.
+   - Para **[!UICONTROL State/Province]**, escriba la abreviatura estándar para el estado o la provincia.
 
-   - Introduzca el **[!UICONTROL City]**.
+   - Escriba **[!UICONTROL City]**.
 
-   - Introduzca el físico **[!UICONTROL Street]** dirección.
+   - Escriba la dirección física **[!UICONTROL Street]**.
 
-   - Para **[!UICONTROL Postcode]**, introduzca el código postal.
+   - Para **[!UICONTROL Postcode]**, escriba el código postal.
 
      ![Datos de dirección](assets/inventory-source-address.png)
 
-1. Si establece el origen como ubicación de recogida en el paso anterior, expanda ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Pickup Location]** y proporcione información descriptiva sobre la ubicación:
+1. Si establece el origen como ubicación de recogida en el paso anterior, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Pickup Location]** y proporcione información descriptiva sobre la ubicación:
 
-   - Introduzca el **[!UICONTROL Frontend Name]** de la ubicación de recogida.
+   - Escriba **[!UICONTROL Frontend Name]** de la ubicación de recogida.
 
-   - Introduzca una **[!UICONTROL Frontend Description]** de la ubicación de recogida. Utilice este cuadro de texto para mostrar las horas de la tienda, la ubicación relativa a otros puntos de referencia u otra información útil que ayude al cliente a seleccionar la ubicación de recogida correcta.
+   - Escriba **[!UICONTROL Frontend Description]** de la ubicación de recogida. Utilice este cuadro de texto para mostrar las horas de la tienda, la ubicación relativa a otros puntos de referencia u otra información útil que ayude al cliente a seleccionar la ubicación de recogida correcta.
 
      ![Ubicación de recogida](assets/inventory-pickup-location.png)
 
-   Para obtener más información sobre cómo configurar las notificaciones por correo electrónico al utilizar un origen como ubicación de recogida, consulte [Correos electrónicos de ventas](../configuration-reference/sales/sales-emails.md) en el _Guía de referencia de configuración_.
+   Para obtener más información sobre cómo configurar las notificaciones por correo electrónico al usar un origen como ubicación de recogida, consulte [Correos electrónicos de ventas](../configuration-reference/sales/sales-emails.md) en la _Guía de referencia de configuración_.
 
 1. Para guardar el trabajo, realice una de las siguientes acciones:
 
-   - Para guardar el trabajo y seguir editando, haga clic en **[!UICONTROL Save & Continue]**.
+   - Para guardar su trabajo y seguir editando, haga clic en **[!UICONTROL Save & Continue]**.
 
-   - Para guardar su trabajo y volver a la página Administrar fuentes, haga clic en la flecha abajo (![Flecha de menú](../assets/icon-menu-down-arrow-red.png)) y elija **[!UICONTROL Save & Close]**.
+   - Para guardar su trabajo y volver a la página Administrar orígenes, haga clic en la flecha abajo (![Flecha de menú](../assets/icon-menu-down-arrow-red.png)) y elija **[!UICONTROL Save & Close]**.
 
-   - Para guardar el trabajo en el registro de origen actual e introducir un nuevo origen, elija **[!UICONTROL Save & New]**.
+   - Para guardar su trabajo en el registro de origen actual e introducir un nuevo origen, elija **[!UICONTROL Save & New]**.
 
 ## Barra de botones
 
@@ -96,7 +96,7 @@ Si edita el origen predeterminado, puede editar todas las configuraciones except
 |--|--|
 | [!UICONTROL Back] | Vuelve a la página Administrar fuentes. |
 | [!UICONTROL Reset] | Restaura todos los campos del formulario a sus valores en el momento de la última vez que se guardaron. |
-| [!UICONTROL Save & Continue] | Guarda todos los cambios y mantiene el formulario abierto para seguir editándolo. Haga clic en la flecha hacia abajo para ver opciones adicionales:<br/>**[!UICONTROL Save & Close]**: Guarda los cambios realizados en el registro actual, cierra el formulario y vuelve a la página Administrar orígenes.<br/>**[!UICONTROL Save & New]** - Guarda los cambios, cierra el registro actual y abre un nuevo formulario en blanco. |
+| [!UICONTROL Save & Continue] | Guarda todos los cambios y mantiene el formulario abierto para seguir editándolo. Haga clic en la flecha hacia abajo para obtener opciones adicionales: <br/>**[!UICONTROL Save & Close]**: guarda los cambios en el registro actual, cierra el formulario y vuelve a la página Administrar orígenes.<br/>**[!UICONTROL Save & New]**: guarda los cambios, cierra el registro actual y abre un nuevo formulario en blanco. |
 
 ## Descripciones de campos
 

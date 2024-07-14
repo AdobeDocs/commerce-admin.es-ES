@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Referencia de variables
 
-Más [plantillas de correo electrónico](email-template-custom.md) tener una sección de [variables predefinidas](variables-predefined.md) que son específicos de la plantilla. La siguiente lista incluye ejemplos de plantillas de correo electrónico utilizadas frecuentemente y sus variables asociadas.
+La mayoría de las [plantillas de correo electrónico](email-template-custom.md) tienen una sección de [variables predefinidas](variables-predefined.md) específicas de la plantilla. La siguiente lista incluye ejemplos de plantillas de correo electrónico utilizadas frecuentemente y sus variables asociadas.
 
 ## Variables de plantilla de correo electrónico
 

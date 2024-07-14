@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # URL de Dynamic Media
 
-Una URL de medios dinámicos es una referencia relativa a una imagen u otro recurso multimedia. Cuando se habilita, se pueden usar direcciones URL de medios dinámicos para vincularse directamente a recursos del servidor o a archivos almacenados en un [red de distribución de contenido](media-storage-content-delivery-network.md). El uso de direcciones URL de medios dinámicos puede afectar al rendimiento del catálogo y al [editor](editor.md#configure-the-editor) se puede configurar para que utilice direcciones URL de medios estáticos o dinámicos.
+Una URL de medios dinámicos es una referencia relativa a una imagen u otro recurso multimedia. Si se habilita, se pueden usar direcciones URL de medios dinámicos para vincularlas directamente a recursos del servidor o a archivos almacenados en una [red de distribución de contenido](media-storage-content-delivery-network.md). El uso de direcciones URL de medios dinámicos puede afectar el rendimiento del catálogo, y el [editor](editor.md#configure-the-editor) se puede configurar para usar direcciones URL de medios estáticos o dinámicos.
 
-Como con todos [etiquetas de marcado](../systems/markup-tags.md), la directiva está encerrada entre llaves dobles. El formato de una URL de medios dinámicos es el siguiente:
+Al igual que con todas las [etiquetas de marcado](../systems/markup-tags.md), la directiva está encerrada entre llaves dobles. El formato de una URL de medios dinámicos es el siguiente:
 
 `\{\{media url="path/to/image.jpg"}}`
 
-Las directivas de URL dinámicas se procesan a partir del contenido del HTML guardado cuando la página se procesa en la tienda. Cada vez que se representa la página, se analiza el contenido para `\{\{media url="..."}}` y cada directiva se reemplaza con la URL de medios correspondiente.
+Las directivas de URL dinámicas se procesan a partir del contenido del HTML guardado cuando la página se procesa en la tienda. Cada vez que se representa la página, el contenido se analiza para `\{\{media url="..."}}` y cada directiva se reemplaza con la URL de medios correspondiente.
 
 {{$include /help/_includes/directives-caution.md}}
 
@@ -26,18 +26,18 @@ Las directivas de URL dinámicas se procesan a partir del contenido del HTML gua
 
 De forma predeterminada, las imágenes insertadas en el catálogo desde el editor WYSIWYG tienen direcciones URL relativas y dinámicas. Si prefiere utilizar una dirección URL estática, puede cambiar el valor de configuración.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. En el panel izquierdo, debajo de _[!UICONTROL General]_, elija **[!UICONTROL Content Management]**.
+1. En el panel izquierdo bajo _[!UICONTROL General]_, elija **[!UICONTROL Content Management]**.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL WYSIWYG Options]** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL WYSIWYG Options]**.
 
    ![Opciones WYSIWYG](./assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
 
-1. Establecer **[!UICONTROL Use Static URLs for Media Content in WYSIWYG]** a uno de los siguientes:
+1. Establezca **[!UICONTROL Use Static URLs for Media Content in WYSIWYG]** en una de las siguientes opciones:
 
-   - `Yes` : utiliza direcciones URL estáticas para el contenido multimedia insertado con el editor WYSIWYG. Las direcciones URL estáticas son absolutas y se rompen si [URL base](../stores-purchase/store-urls.md) de los cambios de almacén.
+   - `Yes`: utiliza direcciones URL estáticas para el contenido multimedia insertado con el editor WYSIWYG. Las direcciones URL estáticas son absolutas y se rompen si cambia la [dirección URL base](../stores-purchase/store-urls.md) del almacén.
 
-   - `No` - (Predeterminado) Utiliza direcciones URL dinámicas para el contenido multimedia insertado con el editor WYSIWYG, según el `\{\{media url="..."}}` Directiva. Las direcciones URL dinámicas son relativas y no se rompen si cambia la dirección URL base del almacén.
+   - `No` - (Predeterminado) Utiliza direcciones URL dinámicas para el contenido multimedia insertado con el editor WYSIWYG, según la directiva `\{\{media url="..."}}`. Las direcciones URL dinámicas son relativas y no se rompen si cambia la dirección URL base del almacén.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.

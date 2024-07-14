@@ -16,24 +16,24 @@ ht-degree: 0%
 
 La configuración de Visual Merchandiser determina los atributos que se pueden utilizar en la ventana de comercialización y el umbral de existencias mínimo. La configuración también identifica el atributo utilizado para el color y el orden de los valores de color.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Catalog]** y elija **[!UICONTROL Visual Merchandiser]** debajo.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL General Options]** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL General Options]**.
 
-   ![Configuración del catálogo: visual merchandiser](../configuration-reference/catalog/assets/catalog-visual-merchandiser-general-options.png){width="600" zoomable="yes"}
+   ![Configuración del catálogo - comerciante visual](../configuration-reference/catalog/assets/catalog-visual-merchandiser-general-options.png){width="600" zoomable="yes"}
 
-1. En el **[!UICONTROL Attributes for Category Rules]** , seleccione cada atributo que desee que esté disponible para la comercialización visual.
+1. En la lista **[!UICONTROL Attributes for Category Rules]**, seleccione cada atributo que desee que esté disponible para la comercialización visual.
 
    Para seleccionar varios atributos, mantenga presionada la tecla Ctrl (PC) o la tecla Comando (Mac) y haga clic en cada elemento.
 
-1. Introduzca el **[!UICONTROL Minimum Stock Threshold]** para que un producto aparezca en la ventana de Visual Merchandiser.
+1. Escriba **[!UICONTROL Minimum Stock Threshold]** para que un producto aparezca en la ventana de Visual Merchandiser.
 
-1. Introduzca el **[!UICONTROL Color Attribute Code]**.
+1. Escriba **[!UICONTROL Color Attribute Code]**.
 
    El valor predeterminado es `color`. Si el catálogo utiliza un atributo diferente, introduzca el nombre del atributo en minúsculas.
 
 1. Para **[!UICONTROL Color Order]**, introduzca cada valor de color en una línea independiente y en secuencia para determinar la prioridad de cada color.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.

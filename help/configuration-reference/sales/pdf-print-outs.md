@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs]'
-description: Revise la configuración de en [!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs] de la administración de Commerce.
+description: Revise la configuración en la página [!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs] del administrador de Commerce.
 exl-id: aa30ee9a-4201-4054-82f0-2f42d7b4ba4f
 feature: Configuration, Orders
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf

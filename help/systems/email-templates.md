@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Las plantillas de correo electrónico definen el diseño, el contenido y el formato de los mensajes automatizados enviados desde su tienda. Se denominan correos electrónicos transaccionales porque cada uno está asociado a un tipo específico de transacción o evento.
 
-Commerce incluye un conjunto de plantillas de correo electrónico adaptables que se activan mediante varios eventos que tienen lugar durante el funcionamiento de la tienda. Cada plantilla está optimizada para cualquier tamaño de pantalla y se puede ver desde el escritorio, así como en tabletas y dispositivos móviles. Hay varias plantillas de correo electrónico preparadas relacionadas con actividades de clientes, ventas, alertas de productos, acciones de administración y mensajes del sistema que puede [personalizar](email-template-custom.md) para reflejar su marca.
+Commerce incluye un conjunto de plantillas de correo electrónico adaptables que se activan mediante varios eventos que tienen lugar durante el funcionamiento de la tienda. Cada plantilla está optimizada para cualquier tamaño de pantalla y se puede ver desde el escritorio, así como en tabletas y dispositivos móviles. Hay varias plantillas de correo electrónico preparadas relacionadas con actividades de clientes, ventas, alertas de productos, acciones de administración y mensajes del sistema que puedes [personalizar](email-template-custom.md) para que reflejen tu marca.
 
 Los clientes de correo electrónico de texto sin formato y HTML pueden procesar los correos electrónicos de Commerce. Puede haber alguna variación entre los clientes en la forma en que se procesan los correos electrónicos.
 
@@ -43,37 +43,37 @@ Como regla general, puede hacer que una imagen sea más pequeña que la original
 
 ## Configurar plantillas de correo electrónico
 
-La configuración determina el logotipo que aparece en la plantilla de encabezado predeterminada y cualquier elemento personalizado [encabezado](email-template-custom.md#header-template) y [pie de página](email-template-custom.md#footer-template) plantillas que desea utilizar para mensajes de correo electrónico transaccionales enviados desde sus tiendas.
+La configuración determina el logotipo que aparece en la plantilla de encabezado predeterminada y cualquier plantilla [header](email-template-custom.md#header-template) y [footer](email-template-custom.md#footer-template) personalizada que desee usar para los mensajes de correo electrónico transaccionales enviados desde sus tiendas.
 
 ![Diseño de correo electrónico transaccional](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
 
-Para obtener una lista detallada de los ajustes de configuración, consulte [_Correos electrónicos transaccionales_](../content-design/configuration.md) en el _Guía de diseño y contenido_.
+Para obtener una lista detallada de las opciones de configuración, consulte [_Correos electrónicos transaccionales_](../content-design/configuration.md) en la _Guía de contenido y diseño_.
 
 ## Paso 1. Cargar el logotipo
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Busque la vista de tienda que desee configurar y haga clic en **[!UICONTROL Edit]** en el _[!UICONTROL Action]_columna.
+1. Busque la vista de tienda que desea configurar y haga clic en **[!UICONTROL Edit]** en la columna _[!UICONTROL Action]_.
 
-1. En _[!UICONTROL Other Settings]_, expanda ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Transactional Emails]**sección.
+1. En _[!UICONTROL Other Settings]_, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Transactional Emails]**.
 
-1. Para cargar los archivos preparados **[!UICONTROL Logo Image]**, haga clic en **[!UICONTROL Upload]** y seleccione el archivo de su sistema.
+1. Para cargar su **[!UICONTROL Logo Image]** preparado, haga clic en **[!UICONTROL Upload]** y seleccione el archivo de su sistema.
 
-1. Para **[!UICONTROL Logo Image Alt]**, introduzca un texto alternativo para identificar la imagen.
+1. Para **[!UICONTROL Logo Image Alt]**, escriba un texto alternativo para identificar la imagen.
 
-1. Introduzca el **[!UICONTROL Logo Width]** y **[!UICONTROL Logo Height]** en píxeles.
+1. Escriba **[!UICONTROL Logo Width]** y **[!UICONTROL Logo Height]** en píxeles.
 
-   Introduzca cada valor como un número, sin `px` abreviatura. Estos valores hacen referencia a las dimensiones de visualización del logotipo en el encabezado y no al tamaño real de la imagen.
+   Escriba cada valor como un número, sin la abreviatura `px`. Estos valores hacen referencia a las dimensiones de visualización del logotipo en el encabezado y no al tamaño real de la imagen.
 
 ## Paso 2. Elija las plantillas de encabezado y pie de página
 
-Si tiene plantillas de encabezado y pie de página personalizadas para su tienda o para diferentes tiendas, puede especificar qué plantillas se utilizan para cada una, según el [ámbito](../getting-started/websites-stores-views.md#scope-settings) de la configuración. De lo contrario, se utilizan las plantillas predeterminadas. Para obtener más información, consulte [Personalizar plantillas de correo electrónico](email-template-custom.md).
+Si tiene plantillas personalizadas de encabezado y pie de página para su tienda o para diferentes tiendas, puede especificar qué plantillas se usan para cada una, según el [ámbito](../getting-started/websites-stores-views.md#scope-settings) de la configuración. De lo contrario, se utilizan las plantillas predeterminadas. Para obtener más información, consulte [Personalizar plantillas de correo electrónico](email-template-custom.md).
 
-1. Elija la **[!UICONTROL Header Template]** para su uso en todos los mensajes de correo electrónico transaccionales.
+1. Elija **[!UICONTROL Header Template]** para usar en todos los mensajes de correo electrónico transaccionales.
 
-1. Elija la **[!UICONTROL Footer Template]** para su uso en todos los mensajes de correo electrónico transaccionales.
+1. Elija **[!UICONTROL Footer Template]** para usar en todos los mensajes de correo electrónico transaccionales.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 ## Lista de plantillas de correo electrónico
 
@@ -98,12 +98,12 @@ La lista de plantillas de correo electrónico se organiza alfabéticamente por m
 
 ### [!DNL Magento_Company]
 
-![Adobe Commerce B2B](../assets/b2b.svg) (Disponible solo con Adobe Commerce B2B)
+![Adobe Commerce B2B](../assets/b2b.svg) (disponible solo con Adobe Commerce B2B)
 
 | Plantilla | Ruta de configuración |
 |--- |--- |
 | `Assign Company Admin` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Sección:** [!UICONTROL Customer-Related Emails]<br/>**Campo:** [!UICONTROL Default 'Assign Company Admin' Email] |
-| `Assign Company to Customer` | **Página:** [!UICONTROL Customers] > [Configuración de empresa ](../configuration-reference/customers/company-configuration.md)<br/>**Sección:** [!UICONTROL Customer-Related Emails] <br/>**Campo:** [!UICONTROL Default 'Assign Company to Customer' Email] |
+| `Assign Company to Customer` | **Página:** [!UICONTROL Customers] > [Configuración de la compañía ](../configuration-reference/customers/company-configuration.md)<br/>**Sección:** [!UICONTROL Customer-Related Emails] <br/>**Campo:** [!UICONTROL Default 'Assign Company to Customer' Email] |
 | `Company Admin Changed to Member` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Sección:** [!UICONTROL Customer-Related Emails]<br/>**Campo:** [!UICONTROL Default 'Company Admin Changed To Member' Email] |
 | `Company Admin Set Inactive` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Sección:** [!UICONTROL Customer-Related Emails]<br/>**Campo:** [!UICONTROL Default 'Customer Status Inactive' Email] |
 | `Company Invite` | n/a |
@@ -121,7 +121,7 @@ La lista de plantillas de correo electrónico se organiza alfabéticamente por m
 
 ### [!DNL Magento_CompanyCredit]
 
-![Adobe Commerce B2B](../assets/b2b.svg) (Disponible solo con Adobe Commerce B2B)
+![Adobe Commerce B2B](../assets/b2b.svg) (disponible solo con Adobe Commerce B2B)
 
 | Plantilla | Ruta de configuración |
 |--- |--- |
@@ -147,14 +147,14 @@ La lista de plantillas de correo electrónico se organiza alfabéticamente por m
 |--- |--- |
 | `Change Email` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Sección:** [!UICONTROL Account Information Options]<br/>**Campo:** [!UICONTROL Change Email Template] |
 | Cambiar correo electrónico y contraseña | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Sección:** [!UICONTROL Account Information Options]<br/>**Campo:** [!UICONTROL Change Email and Password Template] |
-| `Forgot Password` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Sección:** [!UICONTROL Password Options]<br/>**Campo:** Plantilla de correo electrónico olvidado |
+| `Forgot Password` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Sección:** [!UICONTROL Password Options]<br/>**Campo:** Plantilla de correo electrónico olvidada |
 | `New Account` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Sección:** [!UICONTROL Create New Account Options]<br/>**Campo:** Correo electrónico de bienvenida predeterminado |
 | `New Account (Magento/luma)` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Sección:** [!UICONTROL Create New Account Options]<br/>**Campo:** Correo electrónico de bienvenida predeterminado |
 | `New Account Confirmation Key` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Sección:** [!UICONTROL Create New Account Options]<br/>**Campo:** Correo electrónico de vínculo de confirmación |
 | `New Account Confirmed` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Sección:** [!UICONTROL Create New Account Options]<br/>**Campo:** Correo electrónico de bienvenida |
 | `New Account Without Password` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Sección:** [!UICONTROL Create New Account Options]<br/>**Campo:** Correo electrónico de bienvenida predeterminado sin contraseña |
-| `Remind Password` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Sección:** [!UICONTROL Password Options]<br/>**Campo:** Recordar plantilla de correo electrónico |
-| `Reset Password` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Sección:** [!UICONTROL Password Options] <br/>**Campo:** Plantilla para restablecer contraseña |
+| `Remind Password` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Sección:** [!UICONTROL Password Options]<br/>**Campo:** Plantilla de correo electrónico de recordatorio |
+| `Reset Password` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Sección:** [!UICONTROL Password Options] <br/>**Campo:** Restablecer plantilla de contraseña |
 
 {style="table-layout:auto"}
 
@@ -233,7 +233,7 @@ La lista de plantillas de correo electrónico se organiza alfabéticamente por m
 
 ### [!DNL Magento_NegotiableQuote]
 
-![Adobe Commerce B2B](../assets/b2b.svg) (Disponible solo con Adobe Commerce B2B)
+![Adobe Commerce B2B](../assets/b2b.svg) (disponible solo con Adobe Commerce B2B)
 
 | Plantilla | Ruta de configuración |
 |--- |--- |
@@ -374,7 +374,7 @@ La lista de plantillas de correo electrónico se organiza alfabéticamente por m
 
 | Plantilla | Ruta de configuración |
 |--- |--- |
-| `Send Product Link to Friend` | **Página:** [!UICONTROL Catalog] > [[!UICONTROL Email to a Friend]](../configuration-reference/catalog/email-to-a-friend.md)<br/>**Sección:** [!UICONTROL Email Templates]<br/>**Campo:** [!UICONTROL Select Email Template] |
+| `Send Product Link to Friend` | **Página:** [!UICONTROL Catalog] > [[!UICONTROL Email to a Friend]](../configuration-reference/catalog/email-to-a-friend.md)<br/>**Sección:** [!UICONTROL Email Templates]<br/>**Campo:** [!UICONTROL Select Email Template] |
 
 {style="table-layout:auto"}
 

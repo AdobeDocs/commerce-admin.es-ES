@@ -18,38 +18,38 @@ Los informes de productos le proporcionan información sobre los productos visto
 
 El [!UICONTROL Product Views Report] muestra los productos que se han visto durante un intervalo de tiempo o un intervalo de fechas. El informe incluye el nombre del producto, el precio y el número de vistas.
 
-En el _Administrador_ barra lateral, vaya a **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Views]**.
+En la barra lateral _Admin_, vaya a **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Views]**.
 
 ![Informe de vistas del producto](./assets/product-views.png){width="600"}
 
 ## [!UICONTROL Bestsellers Report]
 
-El [!UICONTROL Bestsellers Report] muestra los cinco más vendidos durante un intervalo de tiempo o intervalo de fechas. El informe incluye el nombre del producto, el precio y la cantidad solicitada.
+[!UICONTROL Bestsellers Report] muestra los cinco más vendidos durante un intervalo de tiempo o intervalo de fechas. El informe incluye el nombre del producto, el precio y la cantidad solicitada.
 
-En el _Administrador_ barra lateral, vaya a **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Bestsellers]**.
+En la barra lateral _Admin_, vaya a **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Bestsellers]**.
 
 ![Informe de superventas](./assets/bestsellers.png){width="600"}
 
 ## [!UICONTROL Low Stock Report]
 
-El [!UICONTROL Low Stock Report] enumera todos los productos con niveles de stock dentro de un rango especificado. Con [[!DNL Inventory Management]](../inventory-management/introduction.md) si está activado, el informe incluye cantidades bajas de inventario de stock por origen con el código fuente enumerado.
+El [!UICONTROL Low Stock Report] enumera todos los productos con niveles de stock dentro de un rango especificado. Con [[!DNL Inventory Management]](../inventory-management/introduction.md) habilitado, el informe incluye cantidades bajas de inventario de existencias por origen con el código fuente enumerado.
 
-En el _Administrador_ barra lateral, vaya a **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Low Stock]**.
+En la barra lateral _Admin_, vaya a **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Low Stock]**.
 
-![Informe de stock bajo](./assets/low-stock.png){width="600"}
+![Informe de existencias bajas](./assets/low-stock.png){width="600"}
 
 ## [!UICONTROL Ordered Products Report]
 
-El [!UICONTROL Ordered Products Report] enumera todos los productos pedidos para un intervalo de tiempo o un intervalo de fechas especificados. El informe incluye el nombre del producto y la cantidad solicitada.
+El [!UICONTROL Ordered Products Report] enumera todos los productos pedidos para un intervalo de tiempo o un intervalo de fecha especificados. El informe incluye el nombre del producto y la cantidad solicitada.
 
-En el _Administrador_ barra lateral, vaya a **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Ordered]**.
+En la barra lateral _Admin_, vaya a **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Ordered]**.
 
 ![Informe de productos pedidos](./assets/products-ordered.png){width="600"}
 
 ## [!UICONTROL Downloads Report]
 
-El [!UICONTROL Downloads Report] enumera todas las descargas durante el intervalo de tiempo o el intervalo de fecha especificados. El informe incluye el nombre del producto, el vínculo de descarga y el SKU, con el número de compras y descargas.
+[!UICONTROL Downloads Report] enumera todas las descargas durante el intervalo de tiempo o el intervalo de fecha especificados. El informe incluye el nombre del producto, el vínculo de descarga y el SKU, con el número de compras y descargas.
 
-En el _Administrador_ barra lateral, vaya a **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Downloaded]**.
+En la barra lateral _Admin_, vaya a **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Downloaded]**.
 
 ![Informe de descargas](./assets/downloads.png){width="600"}

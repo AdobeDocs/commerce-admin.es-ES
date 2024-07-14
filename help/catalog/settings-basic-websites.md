@@ -1,6 +1,6 @@
 ---
 title: Configuración del producto - [!UICONTROL Product in Websites]
-description: Para un producto, la variable [!UICONTROL Product in Websites] la configuración identifica cada sitio web donde el producto está disponible.
+description: Para un producto, la configuración de [!UICONTROL Product in Websites] identifica cada sitio web donde el producto está disponible.
 exl-id: dd4751db-5d68-426c-bfb0-43fc82df05f5
 feature: Catalog Management, Products
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Configuración del producto - [!UICONTROL Product in Websites]
 
-El _[!UICONTROL Product in Websites]_identifica cada sitio web donde está disponible el producto, según la sección [jerarquía de tienda](../stores-purchase/stores.md).
+La sección _[!UICONTROL Product in Websites]_identifica cada sitio web donde el producto está disponible, según la [jerarquía de tiendas](../stores-purchase/stores.md).
 
 ![Diagrama del ámbito del sitio web del producto](./assets/scope-product-website.svg){width="550"}
 
@@ -20,7 +20,7 @@ El _[!UICONTROL Product in Websites]_identifica cada sitio web donde está dispo
 
 1. Abra el producto en modo de edición.
 
-1. Desplazarse hacia abajo y expandir ![Selector de expansión](../assets/icon-display-expand.png) el _[!UICONTROL Product in Websites]_sección.
+1. Desplácese hacia abajo y expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Product in Websites]_.
 
    ![Producto en sitios web](./assets/catalog-product-in-websites-multisite-main-french.png){width="600" zoomable="yes"}
 
@@ -28,14 +28,14 @@ El _[!UICONTROL Product in Websites]_identifica cada sitio web donde está dispo
 
    Para una sola instalación de sitio web, la casilla de verificación del sitio web está seleccionada de forma predeterminada.
 
-1. Elija la **[!UICONTROL Store View]** donde desee realizar una copia del producto existente.
+1. Elija el **[!UICONTROL Store View]** en el que desea realizar una copia del producto existente.
 
-1. Clic **[!UICONTROL Save]** y haga lo siguiente:
+1. Haga clic en **[!UICONTROL Save]** y haga lo siguiente:
 
-   - Cuando vuelva al registro del producto, configure el **[!UICONTROL Store View]** Seleccione la vista de tienda en la que se copió el producto. Cuando se le pida que confirme el cambio de ámbito, haga clic en **[!UICONTROL OK]**.
+   - Cuando vuelva al registro de producto, establezca el selector de **[!UICONTROL Store View]** en la vista de tienda en la que se copió el producto. Cuando se le pida que confirme el cambio de ámbito, haga clic en **[!UICONTROL OK]**.
 
-   - Introduzca el **[!UICONTROL Price]** del producto para esta vista de tienda.
+   - Escriba el **[!UICONTROL Price]** del producto para esta vista de tienda.
 
-   Debido a que el ámbito de la moneda base está establecido en `website`Por lo tanto, es posible vender el producto a un precio diferente en cada sitio web.
+   Dado que el ámbito de la moneda base está establecido en `website`, es posible vender el producto a un precio diferente en cada sitio web.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.

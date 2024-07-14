@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Gift Cards]'
-description: Revise la configuración de en [!UICONTROL Sales] &gt; [!UICONTROL Gift Cards] de la administración de Commerce.
+description: Revise la configuración en la página [!UICONTROL Sales] &gt; [!UICONTROL Gift Cards] del administrador de Commerce.
 exl-id: 95bfdbde-633e-44d0-9d43-00dde671ab6d
 feature: Configuration, Gift
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '335'
 ht-degree: 1%
 
 ---
@@ -24,8 +24,8 @@ ht-degree: 1%
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Gift Card Notification Email Sender] | Vista de tienda | Identifica el [contacto de tienda](../../getting-started/store-details.md#store-email-addresses) que aparece como el remitente del correo electrónico de notificación de la tarjeta de regalo. Valor predeterminado: `General Contact` |
-| [!UICONTROL Gift Card Notification Email Template] | Vista de tienda | Determina el [plantilla](../../systems/email-templates.md) que se utiliza para el correo electrónico de notificación de la tarjeta regalo. |
+| [!UICONTROL Gift Card Notification Email Sender] | Vista de tienda | Identifica al [contacto de tienda](../../getting-started/store-details.md#store-email-addresses) que aparece como remitente del correo electrónico de notificación de la tarjeta regalo. Valor predeterminado: `General Contact` |
+| [!UICONTROL Gift Card Notification Email Template] | Vista de tienda | Determina la [plantilla](../../systems/email-templates.md) que se usa para el correo electrónico de notificación de la tarjeta regalo. |
 
 {style="table-layout:auto"}
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Redeemable] | Global | Determina si el titular de la tarjeta de regalo puede canjear su valor por dinero en efectivo. Opciones: `Yes` / `No`. |
-| [!UICONTROL Lifetime (days)] | Global | Determina el número de días que la tarjeta es válida. Si se deja en blanco, la tarjeta no caduca. <br/><br/>**_Importante:_**En algunos lugares, es ilegal establecer una caducidad de datos en tarjetas de regalo. Compruebe las leyes locales antes de establecer una duración para sus tarjetas de regalo. |
+| [!UICONTROL Lifetime (days)] | Global | Determina el número de días que la tarjeta es válida. Si se deja en blanco, la tarjeta no caduca. <br/><br/>**_Importante:_**En algunos lugares, es ilegal establecer datos de caducidad en tarjetas regalo. Compruebe las leyes locales antes de establecer una duración para sus tarjetas de regalo. |
 | [!UICONTROL Allow Gift Message] | Vista de tienda | Determina si la opción de incluir un mensaje de regalo está disponible para los clientes que compran una tarjeta regalo. Opciones: `Yes` / `No`. |
 | [!UICONTROL Gift Message Maximum Length] | Vista de tienda | Determina el número máximo de caracteres permitidos en un mensaje de tarjeta regalo. Valor predeterminado: 255 |
 | [!UICONTROL Generate Gift Card Account when Order Item is] | Global | Determina si se genera una cuenta de tarjeta regalo cuando un cliente realiza un pedido o cuando se factura el pedido. Opciones: `Ordered` / `Invoiced` |
@@ -47,20 +47,20 @@ ht-degree: 1%
 
 ## [!UICONTROL Email Sent from Gift Card Account Management]
 
-![Correo electrónico enviado desde la administración de cuentas de tarjetas de regalo](./assets/gift-cards-email-sent-from-account.png)<!-- zoom -->
+![Correo electrónico enviado desde la administración de cuenta de tarjeta regalo](./assets/gift-cards-email-sent-from-account.png)<!-- zoom -->
 
 <!-- [Email Sent from Gift Card Account Management](https://docs.magento.com/user-guide/catalog/product-gift-card-account-configuration.html) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Gift Card Email Sender] | Vista de tienda | Identifica el [contacto de tienda](../../getting-started/store-details.md#store-email-addresses) que aparece como el remitente del correo electrónico de la tarjeta regalo. Valor predeterminado: `General Contact` |
-| [!UICONTROL Gift Card Template] | Vista de tienda | Determina el [plantilla](../../systems/email-templates.md) que se utiliza para el correo electrónico de la tarjeta de regalo. |
+| [!UICONTROL Gift Card Email Sender] | Vista de tienda | Identifica al [contacto de tienda](../../getting-started/store-details.md#store-email-addresses) que aparece como remitente del correo electrónico de la tarjeta regalo. Valor predeterminado: `General Contact` |
+| [!UICONTROL Gift Card Template] | Vista de tienda | Determina la [plantilla](../../systems/email-templates.md) que se usa para el correo electrónico de la tarjeta regalo. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card Account General Settings]
 
-![Configuración general de la cuenta de tarjeta regalo](./assets/gift-cards-gift-card-account-general-settings.png)<!-- zoom -->
+![Configuración general de la cuenta de la tarjeta regalo](./assets/gift-cards-gift-card-account-general-settings.png)<!-- zoom -->
 
 <!-- [Gift Card Account General Settings](https://docs.magento.com/user-guide/catalog/product-gift-card-account-configuration.html) -->
 

@@ -1,11 +1,11 @@
 ---
 title: Documentos de ventas
-description: Aprenda a configurar documentos de ventas para satisfacer los pedidos de los clientes y la satisfacción de pedidos de su tienda de Commerce.
+description: Aprenda a configurar los documentos de ventas para satisfacer los pedidos de los clientes y la satisfacción de pedidos de su tienda Commerce.
 exl-id: 869d79ca-688a-4032-a95c-c66ebf7f2775
 feature: Invoices
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -24,31 +24,31 @@ Una forma de cambiar el tamaño del logotipo para que se ajuste al tamaño reque
 
 **_Para actualizar el logotipo:_**
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Sales]** debajo.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Invoice and Packing Slip Design]** y haga lo siguiente:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Invoice and Packing Slip Design]** y haga lo siguiente:
 
-   ![Configuración de ventas: diseño de facturas de ventas y albaranes](../configuration-reference/sales/assets/sales-invoice-packing-slip-design.png){width="600" zoomable="yes"}
+   ![Configuración de ventas - diseño de factura de ventas y albarán](../configuration-reference/sales/assets/sales-invoice-packing-slip-design.png){width="600" zoomable="yes"}
 
-   - Para cargar el **[!UICONTROL Logo for PDF Print-outs]**, haga clic en **[!UICONTROL Choose File]**, busque el logotipo que ha preparado y haga clic en **[!UICONTROL Open]**.
+   - Para cargar **[!UICONTROL Logo for PDF Print-outs]**, haga clic en **[!UICONTROL Choose File]**, busque el logotipo que ha preparado y haga clic en **[!UICONTROL Open]**.
 
-   - Para cargar el **[!UICONTROL Logo for HTML Print View]**, haga clic en **[!UICONTROL Choose File]**, busque el logotipo que ha preparado y haga clic en **[!UICONTROL Open]**.
+   - Para cargar **[!UICONTROL Logo for HTML Print View]**, haga clic en **[!UICONTROL Choose File]**, busque el logotipo que ha preparado y haga clic en **[!UICONTROL Open]**.
 
    - Escriba la dirección tal como desea que aparezca en las facturas y en los albaranes.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
    Como referencia, antes de cada campo aparece una miniatura de la imagen cargada. No se preocupe si la miniatura aparece distorsionada. La proporción del logotipo es correcta en la factura.
 
 ### Reemplazar una imagen
 
-1. Clic **[!UICONTROL Choose File]** y elija un archivo de logotipo diferente.
+1. Haga clic en **[!UICONTROL Choose File]** y elija un archivo de logotipo diferente.
 
-1. Seleccione el **[!UICONTROL Delete Image]** casilla de verificación de la imagen que desea reemplazar.
+1. Seleccione la casilla de verificación **[!UICONTROL Delete Image]** de la imagen que desea reemplazar.
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Haga clic en **[!UICONTROL Save Config]**.
 
 ### Formatos de imagen
 
@@ -71,30 +71,30 @@ El ID de pedido y la dirección IP del cliente se pueden incluir en el encabezad
 
 ![Configuración de ventas - impresiones de PDF](./assets/config-sales-pdf-print-outs.png){width="600" zoomable="yes"}
 
-**_Para cambiar la configuración del ID de pedido:_**
+**_Para cambiar la configuración del identificador de pedido:_**
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL PDF Print-outs]**.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **Factura** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **Factura**.
 
-1. Establecer **[!UICONTROL Display Order ID in Header]** según sus preferencias.
+1. Establezca **[!UICONTROL Display Order ID in Header]** según sus preferencias.
 
-1. Repita el para el **[!UICONTROL Shipment]** y **[!UICONTROL Credit Memo]** secciones.
+1. Repita el proceso para las secciones **[!UICONTROL Shipment]** y **[!UICONTROL Credit Memo]**.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 **_Para cambiar la configuración de la dirección IP del cliente:_**
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Sales]** debajo.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL General]** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL General]**.
 
-   ![Configuración de ventas: configuración general de ventas](../configuration-reference/sales/assets/sales-general.png){width="600" zoomable="yes"}
+   ![Configuración de ventas - configuración general de ventas](../configuration-reference/sales/assets/sales-general.png){width="600" zoomable="yes"}
 
-1. Establecer **[!UICONTROL Hide Customer IP]** según sus preferencias.
+1. Establezca **[!UICONTROL Hide Customer IP]** según sus preferencias.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.

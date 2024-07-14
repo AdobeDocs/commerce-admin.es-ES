@@ -5,14 +5,14 @@ exl-id: 28949cfc-2c96-4d0a-a35b-b37b3aa2d1e9
 feature: Customers, Configuration
 source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
 
 # Opciones de nombre y dirección del cliente
 
-El _Opciones de nombre y dirección_ determinar qué campos se incluyen en los formularios de nombre y dirección cuando los clientes crean un [account](../customers/account-create.md) con tu tienda.
+Las _Opciones de nombre y dirección_ determinan qué campos se incluyen en los formularios de nombre y dirección cuando los clientes crean una [cuenta](../customers/account-create.md) con su tienda.
 
 ![Formulario de registro de cuenta de cliente](assets/storefront-customer-account-address-book.png){width="500" zoomable="yes"}
 
@@ -24,15 +24,15 @@ Puede configurar las opciones de nombre y dirección que se presentan a los clie
 
 ### Paso 1: establecer el ámbito de la configuración
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Customers]** y elija **[!UICONTROL Customer Configuration]**.
 
-1. Expanda el **[!UICONTROL Name and Address Options]** sección.
+1. Expanda la sección **[!UICONTROL Name and Address Options]**.
 
    >[!INFO]
    >
-   >Observe que el ámbito de las opciones de nombre y dirección se aplica al `website` nivel.
+   >Observe que el ámbito de las opciones de nombre y dirección se aplica al nivel `website`.
 
 1. Desplácese hasta la parte superior de la página y establezca el ámbito de la configuración en una de las siguientes opciones:
 
@@ -41,29 +41,29 @@ Puede configurar las opciones de nombre y dirección que se presentan a los clie
 
    >[!INFO]
    >
-   >El _[!UICONTROL Name and Address Options]_no aparece cuando el ámbito está establecido en `Default Store View`.
+   >La sección _[!UICONTROL Name and Address Options]_no aparece cuando el ámbito está establecido en `Default Store View`.
 
    ![Ámbito de configuración](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 
 ### Paso 2: Configurar las opciones de nombre y dirección
 
-1. Vuelva a la [!UICONTROL _Opciones de nombre y dirección_] de la página Configuración del cliente.
+1. Vuelva a la sección [!UICONTROL _Opciones de nombre y dirección_] de la página Configuración del cliente.
 
    >[!INFO]
    >
-   > Si no utiliza el `Default config` configuración de ámbito, debe borrar la variable `Use Default` para cada campo antes de cambiar el valor.
+   > Si no usa la configuración de ámbito `Default config`, debe desactivar la casilla de verificación `Use Default` para cada campo antes de cambiar el valor.
 
    ![Opciones de nombre y dirección](../configuration-reference/customers/assets/customer-configuration-name-address-options-ee.png){width="600" zoomable="yes"}
 
-1. Para **[!UICONTROL Prefix Dropdown Options]**, introduzca cada prefijo que desee que aparezca en la lista, separado por un punto y coma.
+1. Para **[!UICONTROL Prefix Dropdown Options]**, escriba cada prefijo que desee que aparezca en la lista, separado por un punto y coma.
 
    >[!IMPORTANT]
    >
    >Coloque un punto y coma antes del primer valor para mostrar un valor en blanco en la parte superior de la lista.
 
-1. Para **[!UICONTROL Suffix Dropdown Options]**, introduzca cada sufijo que desee que aparezca en la lista, separado por un punto y coma.
+1. Para **[!UICONTROL Suffix Dropdown Options]**, escriba cada sufijo que desee que aparezca en la lista, separado por un punto y coma.
 
-1. Para incluir los siguientes campos en los formularios de cliente, establezca el valor de cada uno en `Optional` o `Required`, según sea necesario.
+1. Para incluir los campos siguientes en los formularios de cliente, establezca el valor de cada uno en `Optional` o `Required`, según sea necesario.
 
    - **[!UICONTROL Show Telephone]**
    - **[!UICONTROL Show Company]**
@@ -71,9 +71,9 @@ Puede configurar las opciones de nombre y dirección que se presentan a los clie
 
 ### Paso 3: Guardar y actualizar
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
-1. En el mensaje que aparece en la parte superior de la página, haga clic en **[!UICONTROL Cache Management]** y [actualizar](../systems/cache-management.md) cada caché no válida.
+1. En el mensaje que aparece en la parte superior de la página, haga clic en **[!UICONTROL Cache Management]** y [actualice](../systems/cache-management.md) cada caché no válida.
 
 ## Configuración de las opciones de nombre y dirección del Magento Open Source
 
@@ -83,15 +83,15 @@ Configure las opciones de nombre y dirección que se presentan a los clientes en
 
 ### Paso 1: establecer el ámbito de la configuración
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Customers]** y elija **[!UICONTROL Customer Configuration]**.
 
-1. Expanda el **[!UICONTROL Name and Address Options]** sección.
+1. Expanda la sección **[!UICONTROL Name and Address Options]**.
 
    >[!IMPORTANT]
    >
-   > Observe que el ámbito de las opciones de nombre y dirección se aplica al `website` nivel.
+   > Observe que el ámbito de las opciones de nombre y dirección se aplica al nivel `website`.
 
    ![Opciones de nombre y dirección](../configuration-reference/customers/assets/customer-configuration-name-address-options-ce.png){width="600" zoomable="yes"}
 
@@ -102,44 +102,44 @@ Configure las opciones de nombre y dirección que se presentan a los clientes en
 
    >[!NOTE]
    >
-   >El _Opciones de nombre y dirección_ no aparece cuando el ámbito está establecido en `Default Store View`.
+   >La sección _Opciones de nombre y dirección_ no aparece cuando el ámbito se establece en `Default Store View`.
 
    ![Ámbito de configuración](assets/configuration-scope.png){width="600" zoomable="yes"}
 
 ### Paso 2: Configurar las opciones de nombre y dirección
 
-1. Vuelva a la [!UICONTROL _Opciones de nombre y dirección_] de la página Configuración del cliente.
+1. Vuelva a la sección [!UICONTROL _Opciones de nombre y dirección_] de la página Configuración del cliente.
 
    >[!INFO]
    >
-   >Si no utiliza el `Default config` configuración de ámbito, debe borrar la variable `Use Default` para cada campo antes de cambiar el valor.
+   >Si no usa la configuración de ámbito `Default config`, debe desactivar la casilla de verificación `Use Default` para cada campo antes de cambiar el valor.
 
-1. Para **Número de líneas de una dirección**, introduzca un número del 1 al 4.
+1. Para **Número de líneas en una dirección de calle**, escriba un número del 1 al 4.
 
    >[!WARNING]
    >
    >De forma predeterminada, la dirección de la calle es de tres líneas.
 
-1. Para incluir un prefijo (como Sr. o Sra.) como parte del nombre, establezca **Mostrar prefijo** hasta `Yes`.
+1. Para incluir un prefijo (como Sr. o Sra.) como parte del nombre, establezca **Mostrar prefijo** en `Yes`.
 
    ![Prefijo en el formulario de registro de cliente](assets/storefront-customer-account-prefix.png){width="600" zoomable="yes"}
 
    >[!INFO]
    >
-   >Para **Opciones desplegables de prefijo**, introduzca cada prefijo que desee que aparezca en la lista, separado por un punto y coma. Puede colocar un punto y coma antes del primer valor para mostrar un valor en blanco en la parte superior de la lista.
+   >Para **Opciones desplegables de prefijo**, escriba cada prefijo que desee que aparezca en la lista, separado por un punto y coma. Puede colocar un punto y coma antes del primer valor para mostrar un valor en blanco en la parte superior de la lista.
 
-1. Para incluir un campo opcional para el segundo nombre o la inicial del cliente, establezca **[!UICONTROL Show Middle Name (initial)]** hasta `Yes`.
+1. Para incluir un campo opcional para el segundo nombre o la inicial del cliente, establezca **[!UICONTROL Show Middle Name (initial)]** en `Yes`.
 
-1. Para incluir un sufijo (como Jr. o Sr.) después del nombre del cliente, establezca **[!UICONTROL Show Suffix]** a uno de los siguientes:
+1. Para incluir un sufijo (como Jr. o Sr.) después del nombre del cliente, establezca **[!UICONTROL Show Suffix]** en uno de los siguientes:
 
    - `Optional`
    - `Required`
 
    >[!INFO]
    >
-   >Para **Opciones desplegables de sufijo**, introduzca cada sufijo que desee que aparezca en la lista, separado por un punto y coma. Puede colocar un punto y coma antes del primer valor para mostrar un valor en blanco en la parte superior de la lista.
+   >Para **Opciones desplegables de sufijo**, escriba cada sufijo que desee que aparezca en la lista, separado por un punto y coma. Puede colocar un punto y coma antes del primer valor para mostrar un valor en blanco en la parte superior de la lista.
 
-1. Para incluir la fecha de nacimiento, establezca **[!UICONTROL Show Date of Birth]** a uno de los siguientes:
+1. Para incluir la fecha de nacimiento, establezca **[!UICONTROL Show Date of Birth]** en una de las siguientes opciones:
 
    - `Optional`
    - `Required`
@@ -152,19 +152,19 @@ Configure las opciones de nombre y dirección que se presentan a los clientes en
 
    ![Fecha de nacimiento en el formulario de registro de cliente](assets/storefront-customer-account-date-of-birth.png){width="600" zoomable="yes"}
 
-1. Para permitir que los clientes introduzcan sus impuestos o [IVA](../stores-purchase/vat.md) número, establecer **[!UICONTROL Show Tax/VAT Number]** a uno de los siguientes:
+1. Para permitir que los clientes indiquen su número de impuesto o [IVA](../stores-purchase/vat.md), establezca **[!UICONTROL Show Tax/VAT Number]** en una de las siguientes opciones:
 
    - `Optional`
    - `Required`
 
-1. Para incluir un campo para el sexo en el formulario de cliente, establezca **[!UICONTROL Show Gender]** a uno de los siguientes:
+1. Para incluir un campo para el género en el formulario de cliente, establezca **[!UICONTROL Show Gender]** en uno de los siguientes:
 
    - `Optional`
    - `Required`
 
    ![Opciones de género en el formulario de registro de cliente](assets/storefront-customer-account-gender.png){width="600" zoomable="yes"}
 
-1. Para incluir los siguientes campos en los formularios de cliente, establezca el valor de cada uno en `Optional` o `Required`, según sea necesario.
+1. Para incluir los campos siguientes en los formularios de cliente, establezca el valor de cada uno en `Optional` o `Required`, según sea necesario.
 
    - **[!UICONTROL Show Telephone]**
    - **[!UICONTROL Show Company]**
@@ -172,6 +172,6 @@ Configure las opciones de nombre y dirección que se presentan a los clientes en
 
 ### Paso 3: Guardar y actualizar
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
-1. En el mensaje que aparece en la parte superior de la página, haga clic en **[!UICONTROL Cache Management]** y [actualizar](../systems/cache-management.md) cada caché no válida.
+1. En el mensaje que aparece en la parte superior de la página, haga clic en **[!UICONTROL Cache Management]** y [actualice](../systems/cache-management.md) cada caché no válida.

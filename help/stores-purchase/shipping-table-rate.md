@@ -5,14 +5,14 @@ exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1002'
 ht-degree: 3%
 
 ---
 
 # Envío de tarifa de tabla
 
-El _tarifa de tabla_ el método de envío hace referencia a una tabla de datos para calcular las tarifas de envío en función de una combinación de condiciones, entre las que se incluyen:
+El método de envío _tarifa de tabla_ hace referencia a una tabla de datos para calcular las tarifas de envío en función de una combinación de condiciones, entre las que se incluyen:
 
 - Peso frente al destino
 - Precio frente a destino
@@ -26,39 +26,39 @@ Los datos que se utilizan para calcular las tasas de tablas se preparan en una h
 >
 >Solo puede haber un conjunto de datos de tasa de tabla activos a la vez.
 
-![Opción de envío Tarifa de tabla en el resumen de pedidos del carro de compras](./assets/storefront-cart-table-rate.png){width="700" zoomable="yes"}
+![Opción de envío de tarifa de tabla en el resumen del pedido del carro de compras](./assets/storefront-cart-table-rate.png){width="700" zoomable="yes"}
 
 ## Paso 1: Completar la configuración predeterminada
 
 El primer paso es completar la configuración predeterminada para las tasas de tabla. Puede completar este paso sin cambiar el ámbito de la configuración.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. En el _[!UICONTROL Sales]_del panel izquierdo, elija **[!UICONTROL Delivery Methods]**.
+1. En la sección _[!UICONTROL Sales]_del panel izquierdo, elija **[!UICONTROL Delivery Methods]**.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Table Rates]** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Table Rates]**.
 
    >[!NOTE]
    >
-   >Si es necesario, borre primero la **[!UICONTROL Use system value]** para cambiar la siguiente configuración como se describe.
+   >Si es necesario, primero desmarque la casilla de verificación **[!UICONTROL Use system value]** para cambiar la siguiente configuración como se describe.
 
    ![Tarifas de tabla](../configuration-reference/sales/assets/delivery-methods-table-rates.png){width="600" zoomable="yes"}
 
-1. Establecer **[!UICONTROL Enabled]** hasta `Yes`.
+1. Establezca **[!UICONTROL Enabled]** en `Yes`.
 
-1. Introduzca el **[!UICONTROL Title]** que desea que aparezca para la sección tarifas de tabla durante el cierre de compra.
+1. Escriba el(la) **[!UICONTROL Title]** que desea que aparezca para la sección de tarifas de tabla durante el cierre de compra.
 
    El título predeterminado es `Best Way`.
 
-1. Introduzca el **[!UICONTROL Method Name]** que desea que aparezca como una etiqueta junto a la tarifa calculada en el carro de compras.
+1. Escriba el(la) **[!UICONTROL Method Name]** que desea que aparezca como una etiqueta junto a la tarifa calculada en el carro de compras.
 
-1. Establecer **[!UICONTROL Condition]** a uno de los siguientes métodos de cálculo:
+1. Establezca **[!UICONTROL Condition]** en uno de los siguientes métodos de cálculo:
 
    - `Weight v. Destination`
    - `Price v. Destination`
    - `Number of Items v. Destination`
 
-1. Para pedidos que incluyen productos virtuales, establezca **[!UICONTROL Include Virtual Products in Price Calculation]** hasta `Yes` si desea poder incluir los productos virtuales en el cálculo.
+1. Para pedidos que incluyen productos virtuales, establezca **[!UICONTROL Include Virtual Products in Price Calculation]** en `Yes` si desea poder incluir los productos virtuales en el cálculo.
 
    >[!NOTE]
    >
@@ -73,67 +73,67 @@ El primer paso es completar la configuración predeterminada para las tasas de t
       - `Fixed`
       - `Percent`
 
-   - Introduzca el **[!UICONTROL Handling Fee]** tarifa según el método utilizado para calcular la tarifa.
+   - Escriba la tarifa **[!UICONTROL Handling Fee]** según el método usado para calcular la tarifa.
 
-     Por ejemplo, si el cargo se basa en una tarifa fija, introduzca la cantidad como decimal, por ejemplo `4.90`. Sin embargo, si la tarifa de manipulación se basa en un porcentaje del pedido, introduzca la cantidad como porcentaje. Por ejemplo, si va a cargar el seis por ciento del pedido, introduzca el valor como `.06`.
+     Por ejemplo, si el cargo se basa en una tarifa fija, introduzca la cantidad como decimal; por ejemplo, `4.90`. Sin embargo, si la tarifa de manipulación se basa en un porcentaje del pedido, introduzca la cantidad como porcentaje. Por ejemplo, si está cargando el seis por ciento del pedido, introduzca el valor como `.06`.
 
-1. Si es necesario, cambie el **[!UICONTROL Displayed Error Message]**.
+1. Si es necesario, cambie **[!UICONTROL Displayed Error Message]**.
 
    Este cuadro de texto está preestablecido con un mensaje predeterminado, pero puede escribir un mensaje diferente que desee que aparezca si este método de entrega deja de estar disponible.
 
 1. Establecer **[!UICONTROL Ship to Applicable Countries]**:
 
-   - `All Allowed Countries` - Clientes de todos [países](../getting-started/store-details.md#country-options) especificado en la configuración de la tienda puede utilizar este método de envío.
-   - `Specific Countries` - Al elegir esta opción, la variable _[!UICONTROL Ship to Specific Countries]_aparece una lista. Seleccione cada país de la lista donde se pueda utilizar este método de entrega.
+   - `All Allowed Countries`: los clientes de todos los [países](../getting-started/store-details.md#country-options) especificados en la configuración de su tienda pueden usar este método de entrega.
+   - `Specific Countries` - Cuando elige esta opción, aparece la lista _[!UICONTROL Ship to Specific Countries]_. Seleccione cada país de la lista donde se pueda utilizar este método de entrega.
 
-1. Establecer **[!UICONTROL Show Method if Not Applicable]** hasta `Yes` si desea mostrar las tarifas de tabla todo el tiempo
+1. Establezca **[!UICONTROL Show Method if Not Applicable]** en `Yes` si desea mostrar las tarifas de tabla todo el tiempo
 
-1. Para **[!UICONTROL Sort Order]**, introduzca un número para determinar la secuencia en la que aparece la Tabla de Tasa de Envío cuando se enumera con otros métodos de envío durante la comprobación.
+1. Para **[!UICONTROL Sort Order]**, introduzca un número para determinar la secuencia en la que aparece la Tabla Tasa de envío cuando se enumera con otros métodos de envío durante el cierre de compra.
 
    `0` = primero, `1` = segundo, `2` = tercero, etc.
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Haga clic en **[!UICONTROL Save Config]**.
 
 ## Paso 2: Preparar los datos de tasa de tabla
 
-1. En la esquina superior izquierda, establezca **[!UICONTROL Store View]** hasta `Main Website`o a cualquier otro sitio web donde se aplique la configuración.
+1. En la esquina superior izquierda, establezca **[!UICONTROL Store View]** en `Main Website` o en cualquier otro sitio web donde se aplique la configuración.
 
    >[!NOTE]
    >
-   >Si es necesario, anule primero la selección del **[!UICONTROL Use system value]** para cambiar la siguiente configuración como se describe.
+   >Si es necesario, anule primero la selección de la casilla de verificación **[!UICONTROL Use system value]** para cambiar la siguiente configuración como se describe a continuación.
 
-1. Cambie el **[!UICONTROL Condition]** según sea necesario.
+1. Cambie **[!UICONTROL Condition]** según sea necesario.
 
-1. Haga clic **[!UICONTROL Export CSV]**.
+1. Haga clic en **[!UICONTROL Export CSV]**.
 
    ![Exportar CSV](./assets/shipping-table-rates-export.png){width="700" zoomable="yes"}
 
-1. Guarde el `tablerates.csv` en su sistema.
+1. Guarde el archivo `tablerates.csv` en el sistema.
 
 1. Abra el archivo en una aplicación de hoja de cálculo.
 
 1. Complete la tabla con los valores adecuados para la condición de cálculo de envío.
 
    - Utilice un asterisco (*) como comodín que represente todos los valores posibles de cualquier categoría.
-   - El _[!UICONTROL Country]_la columna debe contener un [código válido de tres caracteres][1] para cada fila.
-   - Ordenar los datos por _[!UICONTROL Region/State]_por lo tanto, las ubicaciones específicas se encuentran en la parte superior de la lista y las ubicaciones comodín en la parte inferior. Al utilizar este método, se procesan primero las reglas con los valores absolutos y, después, los valores comodín.
-   - Valores en _[!UICONTROL Weight (and above)]_puede tener un máximo de cuatro decimales (por ejemplo, `2.5075`). Si utiliza más decimales en los datos, la importación fallará.
+   - La columna _[!UICONTROL Country]_debe contener [un código de tres caracteres válido][1] para cada fila.
+   - Ordene los datos por _[!UICONTROL Region/State]_de modo que las ubicaciones específicas estén en la parte superior de la lista y las ubicaciones de los comodines en la parte inferior. Al utilizar este método, se procesan primero las reglas con los valores absolutos y, después, los valores comodín.
+   - Los valores de la columna _[!UICONTROL Weight (and above)]_pueden tener un máximo de cuatro decimales (como `2.5075`). Si utiliza más decimales en los datos, la importación fallará.
 
    ![Peso vs. Destino (Australia)](./assets/table-rates-weight-destination-csv.png){width="500"}
 
-1. Guarde el `tablerates.csv` archivo.
+1. Guarde el archivo `tablerates.csv`.
 
 ## Paso 3: Importación de los datos de tasa de tabla
 
-1. Vuelva a la **[!UICONTROL Table Rates]** de la configuración de la tienda.
+1. Vuelva a la sección **[!UICONTROL Table Rates]** de la configuración de la tienda.
 
-1. En la esquina superior izquierda, establezca **[!UICONTROL Store View]** al sitio web donde se utiliza este método.
+1. En la esquina superior izquierda, establezca **[!UICONTROL Store View]** en el sitio web donde se utiliza este método.
 
-1. Para **[!UICONTROL Import]**, haga clic en **[!UICONTROL Choose File]** y seleccione el completado `tablerates.csv` para importar las tarifas.
+1. Para **[!UICONTROL Import]**, haga clic en **[!UICONTROL Choose File]** y seleccione el archivo `tablerates.csv` completado para importar las tarifas.
 
    ![Importar tarifas de tabla](./assets/shipping-table-rates-import.png){width="600" zoomable="yes"}
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Haga clic en **[!UICONTROL Save Config]**.
 
 ## Paso 4: Verificar las tarifas
 
@@ -163,20 +163,20 @@ En este ejemplo se utiliza la condición Weight v. Destination para crear tarifa
 
 | PAÍS | REGIÓN/ESTADO | CÓDIGO POSTAL | PESO (y superior) | PRECIO DE ENVÍO |
 |--- |--- |--- |--- |--- |
-| AUS | NT | * | 9 | 39.95 |
-| AUS | NT | * | 0 | 19.95 |
-| AUS | VIC | * | 9 | 19.95 |
-| AUS | VIC | * | 0 | 5.95 |
-| AUS | WA | * | 9 | 39.95 |
-| AUS | WA | * | 0 | 19.95 |
-| AUS | * | * | 9 | 29.95 |
-| AUS | * | * | 0 | 9.95 |
+| AUS | NT | * | 9 | 39,95 |
+| AUS | NT | * | 0 | 19,95 |
+| AUS | VIC | * | 9 | 19,95 |
+| AUS | VIC | * | 0 | 5,95 |
+| AUS | WA | * | 9 | 39,95 |
+| AUS | WA | * | 0 | 19,95 |
+| AUS | * | * | 9 | 29,95 |
+| AUS | * | * | 0 | 9,95 |
 
 {style="table-layout:auto"}
 
 ### Ejemplo 3: Restringir el envío gratuito a Estados Unidos continental
 
-1. Crear un `tablerates.csv` que incluye todos los destinos de estado a los que está dispuesto a proporcionar envío gratuito.
+1. Cree un archivo de `tablerates.csv` que incluya todos los destinos de estado a los que desea proporcionar el envío gratuito.
 
 1. Complete la configuración de tasa de tabla con las siguientes opciones:
 
@@ -190,9 +190,9 @@ En este ejemplo se utiliza la condición Weight v. Destination para crear tarifa
 
    {style="table-layout:auto"}
 
-1. En la esquina superior izquierda, establezca **[!UICONTROL Store View]** hasta `Main Website`o a cualquier otro sitio web donde se aplique la configuración.
+1. En la esquina superior izquierda, establezca **[!UICONTROL Store View]** en `Main Website` o en cualquier otro sitio web donde se aplique la configuración.
 
-1. Para **[!UICONTROL Import]**, haga clic en **[!UICONTROL Choose File]** y seleccione el completado `tablerates.csv` para importar las tarifas.
+1. Para **[!UICONTROL Import]**, haga clic en **[!UICONTROL Choose File]** y seleccione el archivo `tablerates.csv` completado para importar las tarifas.
 
 
 [1]: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3

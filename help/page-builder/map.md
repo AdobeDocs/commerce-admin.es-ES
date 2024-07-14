@@ -1,20 +1,20 @@
 ---
 title: 'Medios: mapa'
-description: Obtenga información acerca del tipo de contenido Mapa, utilizado para agregar un mapa desde [!DNL Google Maps] Plataforma a la [!DNL Page Builder] escenario.
+description: Obtenga información acerca del tipo de contenido Mapa que se usa para agregar un mapa de  [!DNL Google Maps] Platform al escenario [!DNL Page Builder] stage.
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1571'
 ht-degree: 0%
 
 ---
 
 # Medios: mapa
 
-Utilice el _Mapa_ tipo de contenido desde el que añadir un mapa [[!DNL Google Maps] Plataforma][1] a la [[!DNL Page Builder] stage](workspace.md#stage). Por ejemplo, puede agregar una asignación a un bloque y, a continuación, agregar el bloque al [Acerca de nosotros](../content-design/pages.md#about-us) y [Contáctenos.](../getting-started/store-details.md#contact-us-form) páginas.
+Use el tipo de contenido _Map_ para agregar un mapa de [[!DNL Google Maps] Platform][1] al [[!DNL Page Builder] stage](workspace.md#stage). Por ejemplo, podría agregar un mapa a un bloque y luego agregar el bloque a las páginas [Acerca de nosotros](../content-design/pages.md#about-us) y [Contáctenos](../getting-started/store-details.md#contact-us-form).
 
-Para sacar el máximo partido a [!DNL Google Maps] Platform, puede personalizar el mapa, resaltar las ubicaciones de las tiendas y utilizar Google [Places][2] para agregar información enriquecida acerca de su tienda a todos [!DNL Google Maps].
+Para aprovechar al máximo la plataforma [!DNL Google Maps], puede personalizar el mapa, resaltar las ubicaciones de las tiendas y usar Google [Places][2] para agregar información enriquecida sobre la tienda a todos los [!DNL Google Maps].
 
 ## Ventajas de incrustar un mapa de Google
 
@@ -26,7 +26,7 @@ Para sacar el máximo partido a [!DNL Google Maps] Platform, puede personalizar 
 
 1. Si tiene una cadena de tiendas físicas, añadir un Google Map en el sitio ayuda a aumentar la imagen de marca y la credibilidad en forma de elementos destacados.
 
-![Ejemplo de tienda: mapa con ubicación](./assets/pb-media-maps-storefront.png){width="700" zoomable="yes"}
+![Ejemplo de tienda - mapa con ubicación](./assets/pb-media-maps-storefront.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -36,89 +36,89 @@ El cuadro de herramientas de asignación aparece cuando pasa el ratón por encim
 
 | Herramienta | Icono | Descripción |
 |--- |--- |--- |
-| Mover | ![Icono Mover](./assets/pb-icon-move.png){width="25"} | Mueve el mapa a otra posición en el escenario. |
+| Mover | ![Icono de mover](./assets/pb-icon-move.png){width="25"} | Mueve el mapa a otra posición en el escenario. |
 | (etiqueta) | [!UICONTROL Map] | Identifica el contenedor de contenido actual como un mapa. Pase el ratón sobre el contenedor del mapa para ver el cuadro de herramientas. |
 | Configuración | ![Icono de configuración](./assets/pb-icon-settings.png){width="25"} | Abre la página Editar mapa, donde puede cambiar las propiedades del mapa y del contenedor. |
-| Hide | ![Icono Ocultar](./assets/pb-icon-hide.png){width="25"} | Oculta el mapa actual. |
+| Hide | ![Ocultar icono](./assets/pb-icon-hide.png){width="25"} | Oculta el mapa actual. |
 | Mostrar | ![Mostrar icono](./assets/pb-icon-show.png){width="25"} | Muestra el mapa oculto. |
-| Duplicar | ![Icono Duplicar](./assets/pb-icon-duplicate.png){width="25"} | Realiza una copia del mapa. |
-| Eliminar | ![Icono Eliminar](./assets/pb-icon-remove.png){width="25"} | Elimina el mapa de la fase. |
+| Duplicar | ![Icono duplicado](./assets/pb-icon-duplicate.png){width="25"} | Realiza una copia del mapa. |
+| Eliminar | ![Quitar icono](./assets/pb-icon-remove.png){width="25"} | Elimina el mapa de la fase. |
 
 {style="table-layout:auto"}
 
 {{$include /help/_includes/page-builder-hidden-element-note.md}}
 
-## Configurar [!DNL Google Maps] para su administrador
+## Configure [!DNL Google Maps] para su administrador
 
-Antes de añadir un mapa, primero debe abrir un [account][3] para una prueba gratuita de [!DNL Google Maps] Plataforma. La prueba gratuita dura 12 meses e incluye un crédito de $300. Si usas tu crédito, Google no factura tu cuenta sin tu permiso.
+Antes de agregar un mapa, primero debes abrir una [cuenta][3] para obtener una versión de prueba gratuita de la plataforma [!DNL Google Maps]. La prueba gratuita dura 12 meses e incluye un crédito de $300. Si usas tu crédito, Google no factura tu cuenta sin tu permiso.
 
-### Paso 1: Obtenga su [!DNL Google Maps] Clave de API
+### Paso 1: Obtener la clave de API [!DNL Google Maps]
 
-Dependiendo de si ya tiene un [!DNL Google Maps] utilice uno de los siguientes procedimientos para obtener la clave de API necesaria para la configuración. Para configurar un [!DNL Google Maps] clave, debe ser un administrador del sitio autorizado para habilitar la facturación para su cuenta. Si no está listo para configurar una [!DNL Google Maps] En la cuenta de Platform, puede omitir este paso y utilizar el mapa de marcador de posición por ahora.
+Dependiendo de si ya tiene una clave [!DNL Google Maps], utilice uno de los siguientes procedimientos para obtener la clave de API necesaria para la configuración. Para configurar una clave [!DNL Google Maps], debe ser un administrador del sitio autorizado para habilitar la facturación en su cuenta. Si no está listo para configurar una cuenta de [!DNL Google Maps] Platform, puede omitir este paso y utilizar la asignación de marcador de posición por ahora.
 
-1. Vaya a la [Consola de Google Cloud Platform](https://cloud.google.com/console/google/maps-apis/overview).
+1. Vaya a la [consola de Google Cloud Platform](https://cloud.google.com/console/google/maps-apis/overview).
 
 1. Haga clic en el menú desplegable del proyecto y seleccione o cree el proyecto para el que desea agregar una clave de API.
 
-1. Para configurar las credenciales de la API, siga los [instrucciones][4] en el [!DNL Google Maps] documentaciones.
+1. Para configurar sus credenciales de API, siga las [instrucciones][4] de la documentación de [!DNL Google Maps].
 
 1. Copie la clave API en el portapapeles.
 
-### Paso 2: Configuración [!DNL Google Maps] in [!DNL Commerce]
+### Paso 2: Configurar [!DNL Google Maps] en [!DNL Commerce]
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. En el panel izquierdo, debajo de _[!UICONTROL General]_, elija **[!UICONTROL Content Management]**.
+1. En el panel izquierdo bajo _[!UICONTROL General]_, elija **[!UICONTROL Content Management]**.
 
 1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
    ![Herramientas de contenido avanzadas](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
 
-   Para obtener más información sobre las opciones de configuración de las Herramientas avanzadas de administración de contenido, consulte la [Guía de referencia de configuración](../configuration-reference/general/content-management.md).
+   Para obtener más información acerca de las opciones de configuración de las Herramientas avanzadas de administración de contenido, consulte la [Guía de referencia de configuración](../configuration-reference/general/content-management.md).
 
-1. Para **[!UICONTROL Google Maps API Key]**, pegue la clave copiada en el paso 1.
+1. Para **[!UICONTROL Google Maps API Key]**, pegue la clave que copió en el paso 1.
 
-1. Haga clic **[!UICONTROL Test Key]**.
+1. Haga clic en **[!UICONTROL Test Key]**.
 
-   Si hay algún problema con la clave, vuelva al [!DNL Google Maps] Sitio de Platform para resolver el problema. A continuación, inténtelo de nuevo.
+   Si hay algún problema con su clave, vuelva al sitio de [!DNL Google Maps] Platform para resolver el problema. A continuación, inténtelo de nuevo.
 
-1. Tras comprobar la clave, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez verificada su clave, haga clic en **[!UICONTROL Save Config]**.
 
 ## Añadir un mapa al escenario
 
-1. Abra la página, el bloque o el bloque dinámico en [!DNL Page Builder] workspace.
+1. Abra la página, bloque o bloque dinámico en el área de trabajo [!DNL Page Builder].
 
-1. En el [!DNL Page Builder] panel, expandir **[!UICONTROL Media]** y arrastre un **[!UICONTROL Map]** marcador de posición al escenario.
+1. En el panel [!DNL Page Builder], expanda **[!UICONTROL Media]** y arrastre un marcador de posición **[!UICONTROL Map]** al escenario.
 
-   ![Arrastrar un mapa al escenario](./assets/pb-media-map-drag.png){width="600" zoomable="yes"}
+   ![Arrastrando un mapa al escenario](./assets/pb-media-map-drag.png){width="600" zoomable="yes"}
 
-   If [!DNL Google Maps] Platform está configurado para su tienda y aparece un mapa para su ubicación.
+   Si la plataforma [!DNL Google Maps] está configurada para su tienda, aparecerá un mapa para la ubicación de la tienda.
 
    ![[!DNL Google Maps]](./assets/pb-tutorial2-google-map.png){width="600" zoomable="yes"}
 
-   If [!DNL Google Maps] Platform aún no se ha configurado para su tienda; en su lugar, aparecerá un mapa de marcador de posición.
+   Si la plataforma [!DNL Google Maps] aún no está configurada para su tienda, aparecerá un mapa de marcador de posición en su lugar.
 
-   ![[!DNL Google Maps] Marcador](./assets/pb-tutorial2-media-map-not-configured.png){width="600" zoomable="yes"}
+   ![[!DNL Google Maps] marcador de posición](./assets/pb-tutorial2-media-map-not-configured.png){width="600" zoomable="yes"}
 
 ## Añadir una ubicación de mapa personalizada
 
-1. Pase el ratón sobre el contenedor de mapas para mostrar el cuadro de herramientas y elegir la _Configuración_ ( ![Icono de configuración](./assets/pb-icon-settings.png){width="20"} ) icono.
+1. Pase el ratón sobre el contenedor del mapa para ver la caja de herramientas y elija el icono _Configuración_ ( ![icono Configuración](./assets/pb-icon-settings.png){width="20"} ).
 
-1. En la esquina superior derecha de la _[!UICONTROL Edit Map]_página, haga clic en **[!UICONTROL Add Location]**.
+1. En la esquina superior derecha de la página _[!UICONTROL Edit Map]_, haga clic en **[!UICONTROL Add Location]**.
 
-1. Introduzca el **[!UICONTROL Location Name]** que desea que se asocie con el pin del mapa.
+1. Escriba el(la) **[!UICONTROL Location Name]** que desea asociar con el pin en el mapa.
 
 1. Recopile las coordenadas de ubicación que desee utilizar para la ubicación personalizada.
 
-   Alternativamente, en la variable **[!UICONTROL Position]** , puede arrastrar el pin en el mapa mostrado.
+   Como alternativa, en el cuadro **[!UICONTROL Position]**, puede arrastrar el fijador en el mapa mostrado.
 
    Si es necesario, vaya a [[!DNL Google Maps]][5] en una nueva ventana del explorador y utilice uno de los siguientes métodos para obtener las coordenadas:
 
    ![Coordenadas de mapa](./assets/pb-media-maps-settings-add-location-coordinates.png){width="600" zoomable="yes"}
 
-   **Método 1:** Copiar desde URL
+   **Método 1:** Copiar de la dirección URL
 
-   - En la esquina superior izquierda, introduzca la dirección en la **[!UICONTROL Search]** y haga clic en el _Buscar_ ( ![Icono de búsqueda](../assets/icon-magnify-search.png){width="20"} ) icono.
+   - En la esquina superior izquierda, escriba la dirección en el cuadro **[!UICONTROL Search]** y haga clic en el icono _Buscar_ ( ![Icono de búsqueda](../assets/icon-magnify-search.png){width="20"} ).
 
    - Copie las coordenadas en la dirección URL y péguelas en un bloc de notas.
 
@@ -128,7 +128,7 @@ Dependiendo de si ya tiene un [!DNL Google Maps] utilice uno de los siguientes p
 
    - En la etiqueta mostrada, copie el texto, incluidas las coordenadas, y péguelo en un bloc de notas.
 
-1. Introduzca los números, sin comas, en cada una de las **[!UICONTROL Coordinates]** cajas.
+1. Escriba los números, sin comas, en cada uno de los cuadros **[!UICONTROL Coordinates]**.
 
    También puede introducir la mayor parte de la información restante que desee que esté disponible en el mapa.
 
@@ -146,47 +146,47 @@ Dependiendo de si ya tiene un [!DNL Google Maps] utilice uno de los siguientes p
 
    {style="table-layout:auto"}
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
 
-   La nueva ubicación aparece en el mapa y en la cuadrícula de ubicación del mapa, en la _[!UICONTROL Edit Map]_página.
+   La nueva ubicación aparece en el mapa y en la cuadrícula de ubicación del mapa, en la página _[!UICONTROL Edit Map]_.
 
    ![[!DNL Page Builder] - asigna la cuadrícula de ubicación](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"}
 
 ## Aplicar estilo al mapa {#styling}
 
-Utilice el [!DNL Google Maps] Asistente para estilos de plataforma para aplicar una de las seis temáticas predefinidas o para crear una temática personalizada. Puede generar un archivo JSON con las propiedades de estilo de asignación o un vínculo al mapa con estilo.
+Use el Asistente para estilo de plataforma [!DNL Google Maps] para aplicar una de las seis temáticas predefinidas o para crear una temática personalizada. Puede generar un archivo JSON con las propiedades de estilo de asignación o un vínculo al mapa con estilo.
 
 ### Cambio del estilo del mapa
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. En el panel izquierdo, debajo de _[!UICONTROL General]_, elija **[!UICONTROL Content Management]**.
+1. En el panel izquierdo bajo _[!UICONTROL General]_, elija **[!UICONTROL Content Management]**.
 
 1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
-1. En el **[!UICONTROL Google Maps Style]** , haga clic en [Crear estilo de mapa][6].
+1. En el cuadro de texto **[!UICONTROL Google Maps Style]**, haga clic en [Crear estilo de mapa][6].
 
-   Esta acción abre el [[!DNL Google Maps] Asistente de estilo de plataforma][6] en una pestaña independiente, donde puede definir un estilo para su [!DNL Google Maps] Proyecto de plataforma.
+   Esta acción abre el [[!DNL Google Maps] Asistente para estilo de plataforma][6] en una ficha independiente, donde puede definir un estilo para el proyecto de plataforma [!DNL Google Maps].
 
-1. Clic **[!UICONTROL Create a Style]** y siga las instrucciones proporcionadas.
+1. Haga clic en **[!UICONTROL Create a Style]** y siga las instrucciones proporcionadas.
 
-   Cuando termine, haga clic en **[!UICONTROL Finish]**.
+   Una vez finalizado, haga clic en **[!UICONTROL Finish]**.
 
-1. Exporte el estilo completado como código JSON o como URL para poder agregarlo al [!DNL Commerce] configuración.
+1. Exporte el estilo completado como código JSON o como URL para poder agregarlo a la configuración [!DNL Commerce].
 
    - **JSON**: Debajo del cuadro con el código JSON generado, haga clic en **[!UICONTROL Copy JSON]**.
 
-   - **[!UICONTROL URL]**: Debajo del cuadro con la dirección URL generada, haga clic en **[!UICONTROL Copy URL]**.
+   - **[!UICONTROL URL]**: debajo del cuadro con la dirección URL generada, haga clic en **[!UICONTROL Copy URL]**.
 
-1. Vuelva a la pestaña del explorador de administración y pegue el código o la dirección URL generados en la **Estilo de mapas de Google** cuadro.
+1. Vuelva a la pestaña del explorador de administración y pegue el código o la dirección URL generados en el cuadro **Estilo de Google Maps**.
 
-   Si utiliza una dirección URL, sustituya el `YOUR_API_KEY` marcador de posición con [!DNL Google Maps] Clave de API. Esta dirección URL está vinculada al mapa de Google con estilo.
+   Si está usando una dirección URL, reemplace el marcador de posición `YOUR_API_KEY` por su clave de API [!DNL Google Maps]. Esta dirección URL está vinculada al mapa de Google con estilo.
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Save Config]**.
 
 ### Cambio de la configuración del mapa
 
-1. Pase el ratón sobre el contenedor del mapa para mostrar el cuadro de herramientas y elija la _Configuración_ ( ![Icono de configuración](./assets/pb-icon-settings.png){width="20"} ) icono.
+1. Pase el ratón sobre el contenedor del mapa para ver el cuadro de herramientas y elija el icono _Configuración_ ( ![icono Configuración](./assets/pb-icon-settings.png){width="20"} ).
 
 1. Cambie la configuración básica según sea necesario:
 
@@ -197,9 +197,9 @@ Utilice el [!DNL Google Maps] Asistente para estilos de plataforma para aplicar 
 
    {style="table-layout:auto"}
 
-1. Modifique la _[!UICONTROL Advanced]_ajustes según sea necesario:
+1. Modifique la configuración de _[!UICONTROL Advanced]_según sea necesario:
 
-   - Para controlar la posición horizontal del contenido del mapa que se ha agregado al contenedor, elija un **[!UICONTROL Alignment]**:
+   - Para controlar la posición horizontal del contenido del mapa que se agregó al contenedor, elija un **[!UICONTROL Alignment]**:
 
      | Opción | Descripción |
      | ------ | ----------- |
@@ -210,7 +210,7 @@ Utilice el [!DNL Google Maps] Asistente para estilos de plataforma para aplicar 
 
      {style="table-layout:auto"}
 
-   - Configure las variables **[!UICONTROL Border]** estilo aplicado a los cuatro lados del contenedor de mapas:
+   - Establezca el estilo **[!UICONTROL Border]** aplicado a los cuatro lados del contenedor de mapas:
 
      | Opción | Descripción |
      | ------ | ----------- |
@@ -227,7 +227,7 @@ Utilice el [!DNL Google Maps] Asistente para estilos de plataforma para aplicar 
 
      {style="table-layout:auto"}
 
-   - Si establece un estilo de borde distinto de `None`, complete las opciones de visualización de bordes:
+   - Si establece un estilo de borde distinto de `None`, complete las opciones de visualización de borde:
 
      ![Color del borde](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
@@ -239,11 +239,11 @@ Utilice el [!DNL Google Maps] Asistente para estilos de plataforma para aplicar 
 
      {style="table-layout:auto"}
 
-   - (Opcional) Especifique los nombres de **[!UICONTROL CSS classes]** de la hoja de estilos actual para aplicarla al contenedor de mapas.
+   - (Opcional) Especifique los nombres de **[!UICONTROL CSS classes]** de la hoja de estilos actual para aplicarlos al contenedor de asignaciones.
 
      Separe los distintos nombres de clase con un espacio.
 
-   - Introduzca valores, en píxeles, para **[!UICONTROL Margins and Padding]** para especificar los márgenes externos y el relleno interno del contenedor de mapas.
+   - Escriba valores, en píxeles, para que **[!UICONTROL Margins and Padding]** especifique los márgenes exteriores y el margen interior del contenedor de mapas.
 
      Introduzca cada valor correspondiente en el diagrama del contenedor de asignaciones.
 
@@ -258,15 +258,15 @@ Utilice el [!DNL Google Maps] Asistente para estilos de plataforma para aplicar 
      >
      >El relleno no está disponible para el tipo de contenido Asignar.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]** para aplicar la configuración de y volver a [!DNL Page Builder] workspace.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]** para aplicar la configuración y volver al área de trabajo [!DNL Page Builder].
 
 ### Cambiar el tamaño de la cuadrícula
 
-El tamaño de la cuadrícula determina el tamaño del mapa relacionado con una [columna](column.md) en el [!DNL Page Builder] escenario. De forma predeterminada, el mapa tiene 12 columnas de ancho, con un máximo de 16 columnas.
+El tamaño de la cuadrícula determina el tamaño del mapa relacionado con una [columna](column.md) en el escenario [!DNL Page Builder]. De forma predeterminada, el mapa tiene 12 columnas de ancho, con un máximo de 16 columnas.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. En el panel izquierdo, debajo de _[!UICONTROL General]_, elija **[!UICONTROL Content Management]**.
+1. En el panel izquierdo bajo _[!UICONTROL General]_, elija **[!UICONTROL Content Management]**.
 
 1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
@@ -274,15 +274,15 @@ El tamaño de la cuadrícula determina el tamaño del mapa relacionado con una [
 
    >[!NOTE]
    >
-   >Si es necesario, borre la **[!UICONTROL Use system value]** para modificar esta configuración.
+   >Si es necesario, desactive la casilla de verificación **[!UICONTROL Use system value]** para modificar esta configuración.
 
-   - Para **[!UICONTROL Default Column Grid Size]**, introduzca un nuevo valor para el tamaño predeterminado de la cuadrícula.
+   - Para **[!UICONTROL Default Column Grid Size]**, escriba un nuevo valor para el tamaño predeterminado de la cuadrícula.
 
-   - Para **[!UICONTROL Maximum Column Grid Size]**, introduzca un nuevo valor para el tamaño máximo de cuadrícula predeterminado.
+   - Para **[!UICONTROL Maximum Column Grid Size]**, escriba un nuevo valor para el tamaño de cuadrícula máximo predeterminado.
 
-   ![Configuración de tamaño de cuadrícula de columna](./assets/pb-configure-advanced-content-tools-grid-size.png){width="600" zoomable="yes"}
+   ![Configuración del tamaño de la cuadrícula de columna](./assets/pb-configure-advanced-content-tools-grid-size.png){width="600" zoomable="yes"}
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 [1]: https://cloud.google.com/maps-platform/
 [2]: https://cloud.google.com/maps-platform/places/

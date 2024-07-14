@@ -6,7 +6,7 @@ role: Admin, User
 feature: Configuration, Security, User Account
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -19,91 +19,91 @@ Para obtener instrucciones completas, consulte [Inicio de sesión de administrad
 
 >[!NOTE]
 >
->Tiendas que han activado [!DNL Adobe Identity Management Services] La autenticación (IMS) tiene Adobe Commerce nativo y el Magento Open Source 2FA deshabilitado. Los usuarios administradores que han iniciado sesión en su instancia de Commerce con sus credenciales de Adobe no necesitan volver a autenticarse en muchas tareas de administración. La autenticación la gestiona Adobe IMS cuando el usuario administrador inicia sesión en su sesión actual. Consulte [[!DNL Adobe Identity Management Service] (IMS) Resumen de la integración](../getting-started/adobe-ims-integration-overview.md).
+>Las tiendas que han habilitado la autenticación [!DNL Adobe Identity Management Services] (IMS) tienen Adobe Commerce nativo y el Magento Open Source 2FA deshabilitado. Los usuarios administradores que han iniciado sesión en su instancia de Commerce con sus credenciales de Adobe no necesitan volver a autenticarse en muchas tareas de administración. La autenticación la gestiona Adobe IMS cuando el usuario administrador inicia sesión en su sesión actual. Ver [[!DNL Adobe Identity Management Service] (IMS) Descripción general de la integración](../getting-started/adobe-ims-integration-overview.md).
 
 ## [!DNL Google Authenticator]
 
-### Paso 1: Configuración [!DNL Google Authenticator]
+### Paso 1: Configurar [!DNL Google Authenticator]
 
-1. Introduzca las credenciales de su cuenta de e inicie sesión en _Administrador_. Aparece una nueva pantalla de autenticador con un código QR.
+1. Escriba las credenciales de su cuenta e inicie sesión en _Admin_. Aparece una nueva pantalla de autenticador con un código QR.
 
-1. Abra el **[!UICONTROL Google Authenticator]** en su dispositivo móvil.
+1. Abra la aplicación **[!UICONTROL Google Authenticator]** en su dispositivo móvil.
 
-1. Haga clic en el signo más ( **+** ) para añadir una entrada y alinear la caja roja con el código QR para escanear con la cámara en el teléfono inteligente.
+1. Haga clic en el signo más ( **+** ) para agregar una entrada y alinear el cuadro rojo con el código QR para escanear con la cámara del smartphone.
 
-1. Cuando el teléfono reconozca el código QR y agregue una entrada, introduzca ese código de 6 dígitos en la _Administrador_ **[!UICONTROL Authenticator code]** field.
+1. Cuando el teléfono reconozca el código QR y agregue una entrada, escribe ese código de 6 dígitos en el campo _Admin_ **[!UICONTROL Authenticator code]**.
 
-1. Cuando termine, haga clic en **[!UICONTROL Confirm]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Confirm]**.
 
    ![Código QR de Google Authenticator](./assets/storefront-2fa-google-qrcode.png){width="300"}
 
 ### Paso 2: Iniciar sesión con [!DNL Google Authenticator]
 
-1. Introduzca las credenciales de su cuenta e inicie sesión en Commerce _Administrador_.
+1. Escriba las credenciales de su cuenta e inicie sesión en Commerce _Admin_.
 
-   ![Google Authenticator: inicio de sesión](./assets/storefront-2fa-google-code.png){width="300"}
+   ![Autenticador de Google - iniciando sesión](./assets/storefront-2fa-google-code.png){width="300"}
 
-1. Abrir [!DNL Google Authenticator] en su dispositivo móvil.
+1. Abra [!DNL Google Authenticator] en su dispositivo móvil.
 
 1. Cuando se le solicite, introduzca el código de autenticación de seis dígitos.
 
-1. Para guardar la autenticación para futuros inicios de sesión, seleccione la **[!UICONTROL Trust this device, do not ask again]** casilla de verificación
+1. Para guardar la autenticación para futuros inicios de sesión, marque la casilla de verificación **[!UICONTROL Trust this device, do not ask again]**.
 
-1. Cuando termine, haga clic en **[!UICONTROL Confirm]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Confirm]**.
 
 ## [!DNL Duo Security]
 
-[!DNL Duo] ofrece una prueba gratuita y cobra según la cantidad de usuarios asociados a la cuenta. Siga sus [instrucciones para configurar su cuenta y descargar la aplicación](https://duo.com/product/multi-factor-authentication-mfa/duo-mobile-app).
+[!DNL Duo] ofrece una versión de prueba gratuita y cargos según el número de usuarios asociados a la cuenta. Siga sus [instrucciones para configurar su cuenta y descargar la aplicación](https://duo.com/product/multi-factor-authentication-mfa/duo-mobile-app).
 
-### Paso 1: Configuración [!DNL Duo Security]
+### Paso 1: Configurar [!DNL Duo Security]
 
-1. Introduzca las credenciales de su cuenta de e inicie sesión en _Administrador_.
+1. Escriba las credenciales de su cuenta e inicie sesión en _Admin_.
 
-1. Si la variable [!DNL Duo] Aparecerá la página Configuración, haga clic en **[!UICONTROL Start setup]** y haga lo siguiente:
+1. Cuando aparezca la página de instalación de [!DNL Duo], haga clic en **[!UICONTROL Start setup]** y haga lo siguiente:
 
    ![Ejemplo de tienda - Configuración de Duo](./assets/storefront-2fa-duo-user1.png){width="300"}
 
 1. Seleccione el dispositivo.
 
-1. Cuando se le solicite, introduzca su número de teléfono y haga clic en **[!UICONTROL Continue]**.
+1. Cuando se le solicite, escriba su número de teléfono y haga clic en **[!UICONTROL Continue]**.
 
    En este ejemplo se solicita el número de teléfono, ya que se utiliza un dispositivo móvil.
 
-1. Cuando se le pida que instale [!DNL Duo Mobile] para el tipo de teléfono, haga clic en **[!UICONTROL I have Duo Mobile]**.
+1. Cuando se le pida que instale [!DNL Duo Mobile] para su tipo de teléfono, haga clic en **[!UICONTROL I have Duo Mobile]**.
 
-1. Abrir [!DNL Duo Mobile] y escanee el código QR para sincronizar el autenticador con Adobe Commerce. Cuando se completa la activación, aparece una marca de verificación.
+1. Abra [!DNL Duo Mobile] y escanee el código QR para sincronizar el autenticador con Adobe Commerce. Cuando se completa la activación, aparece una marca de verificación.
 
 1. Para establecer la configuración del dispositivo, elija la acción que desea que tenga lugar al iniciar sesión.
 
-   - `Ask me to choose an authenticator method` — Permite al usuario seleccionar al iniciar sesión y autenticarse en el _Administrador_.
-   - `Automatically send this device a Duo Push` — envía un mensaje al dispositivo para que acepte o deniegue el acceso.
-   - `Automatically call this device` — Llama a y proporciona un código de acceso para el acceso.
+   - `Ask me to choose an authenticator method`: permite al usuario seleccionar al iniciar sesión y autenticarse en _Admin_.
+   - `Automatically send this device a Duo Push`: envía un mensaje al dispositivo para que acepte o deniegue el acceso.
+   - `Automatically call this device`: llama a y proporciona un código de acceso para el acceso.
 
-   ![Acciones de verificación de Duo](./assets/storefront-2fa-duo-user7.png){width="300"}
+   ![Acciones de verificación Duo](./assets/storefront-2fa-duo-user7.png){width="300"}
 
 ### Paso 2: Iniciar sesión con [!DNL Duo Security]
 
 El siguiente ejemplo muestra las opciones de `Ask me to choose an authenticator method`:
 
-1. Cuando se le solicite, introduzca su _Administrador_ credenciales para iniciar sesión.
+1. Cuando se le solicite, escriba sus credenciales de _Admin_ para iniciar sesión.
 
-   ![Duo - inicio de sesión](./assets/storefront-2fa-duo-auth.png){width="300"}
+   ![Duo - iniciando sesión](./assets/storefront-2fa-duo-auth.png){width="300"}
 
 1. Elija el método que desee utilizar para autenticarse:
 
-   - `Send Me a Push` — Haga clic en para recibir un aviso push en [!DNL Duo Mobile]. Aceptar para autenticarse.
-   - `Call Me` — Haga clic en esta opción, reciba una llamada con un código e introduzca el código de acceso.
-   - `Enter a Passcode` — Haga clic en esta opción para recibir e introducir un código de acceso.
+   - `Send Me a Push` — Haga clic para recibir un aviso push para [!DNL Duo Mobile]. Aceptar para autenticarse.
+   - `Call Me`: haga clic en esta opción, reciba una llamada con un código e introduzca el código de acceso.
+   - `Enter a Passcode`: haga clic en esta opción para recibir e introducir un código de acceso.
 
-1. Complete el push o el código para iniciar sesión por completo en _Administrador_.
+1. Complete la inserción o el código para iniciar sesión por completo en _Admin_.
 
 ## [!DNL Authy]
 
-[!DNL Authy] ofrece su aplicación y servicio sin coste alguno a los usuarios. Siga las instrucciones para descargar y configurar la aplicación para su dispositivo o explorador. Para obtener más información, consulte la [[!DNL Authy] documentación](https://authy.com/features/setup/).
+[!DNL Authy] ofrece su aplicación y servicio sin cargo a los usuarios. Siga las instrucciones para descargar y configurar la aplicación para su dispositivo o explorador. Para obtener más información, consulte la [[!DNL Authy] documentación](https://authy.com/features/setup/).
 
 ### Paso 1: Configuración de la autoridad
 
-1. Introduzca las credenciales de su cuenta de e inicie sesión en _Administrador_.
+1. Escriba las credenciales de su cuenta e inicie sesión en _Admin_.
 
    ![[!DNL Authy] registro](./assets/storefront-2fa-authy-auth.png){width="300"}
 
@@ -113,33 +113,33 @@ El siguiente ejemplo muestra las opciones de `Ask me to choose an authenticator 
 
    - Introduzca su número de teléfono.
 
-   - Seleccione el **[!UICONTROL Verification method]**: `SMS` o `Call Me`
+   - Seleccione **[!UICONTROL Verification method]**: `SMS` o `Call Me`
 
-   Haga clic **[!UICONTROL Continue]**. Se envía un mensaje al teléfono a través de un mensaje de texto SMS o una llamada.
+   Haga clic en **[!UICONTROL Continue]**. Se envía un mensaje al teléfono a través de un mensaje de texto SMS o una llamada.
 
-1. Introduzca el código de verificación que recibe y haga clic en **[!UICONTROL Verify]**.
+1. Escriba el código de verificación que recibió y haga clic en **[!UICONTROL Verify]**.
 
-1. Cuando termine, haga clic en **[!UICONTROL Confirm]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Confirm]**.
 
    ![[!DNL Authy] código de verificación](./assets/storefront-2fa-authy-verify.png){width="300"}
 
 ### Paso 2: Iniciar sesión con [!DNL Authy]
 
-1. Introduzca las credenciales de su cuenta de e inicie sesión en _Administrador_.
+1. Escriba las credenciales de su cuenta e inicie sesión en _Admin_.
 
-   ![[!DNL Authy] - inicio de sesión](./assets/storefront-2fa-authy-access.png){width="300"}
+   ![[!DNL Authy] - iniciando sesión](./assets/storefront-2fa-authy-access.png){width="300"}
 
 1. Elija uno de los siguientes métodos para autenticarse:
 
-   - `Use one touch` — envía una alerta a su [!DNL Authy] aplicación. En la aplicación, acepte el acceso.
-   - `Use authy token` — le solicita que introduzca un código de su [!DNL Authy] aplicación.
+   - `Use one touch` — envía una alerta a su aplicación [!DNL Authy]. En la aplicación, acepte el acceso.
+   - `Use authy token`: solicita escribir un código desde su aplicación [!DNL Authy].
 
-1. Si tiene problemas para iniciar sesión, elija el método que desee utilizar para recibir el código. A continuación, introduzca el código que recibe para acceder a _Administrador_.
+1. Si tiene problemas para iniciar sesión, elija el método que desee utilizar para recibir el código. A continuación, escriba el código que recibirá para obtener acceso a _Admin_.
 
    La aplicación incluye estos métodos de emergencia adicionales.
 
-   - `Send me a code via SMS` — Se envía un mensaje SMS de texto al dispositivo móvil configurado.
-   - `Send me a code via phone call` — El usuario recibe una llamada telefónica con un código.
+   - `Send me a code via SMS`: se envía un mensaje SMS de texto al dispositivo móvil configurado.
+   - `Send me a code via phone call`: el usuario recibe una llamada telefónica con un código.
 
    Su cuenta se verifica y abre.
 
@@ -147,12 +147,12 @@ El siguiente ejemplo muestra las opciones de `Ask me to choose an authenticator 
 
 Siga las instrucciones del proveedor de soluciones para configurar el dispositivo U2F. Para obtener más información, consulte la documentación del proveedor, como [[!DNL YubiKey]](https://support.yubico.com/hc/en-us/articles/360013790339-Getting-Started-with-Your-YubiKey) por [!UICONTROL Yubico].
 
-1. Introduzca las credenciales de su cuenta de e inicie sesión en _Administrador_.
+1. Escriba las credenciales de su cuenta e inicie sesión en _Admin_.
 
-   ![Acceso con clave U2F](./assets/storefront-2fa-u2f.png){width="300"}
+   ![acceso a la clave U2F](./assets/storefront-2fa-u2f.png){width="300"}
 
 1. Presione el botón de la tecla.
 
-   La autenticación déclencheur y abre inmediatamente el _Administrador_.
+   La autenticación déclencheur inmediatamente y abre _Admin_.
 
-1. Inserte el **[!UICONTROL U2F key]** en un puerto USB del equipo.
+1. Inserte **[!UICONTROL U2F key]** en un puerto USB del equipo.

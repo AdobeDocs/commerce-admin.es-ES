@@ -12,35 +12,35 @@ ht-degree: 0%
 
 # Configurar la búsqueda en el catálogo
 
-Existen dos variaciones de la configuración de Búsqueda en el catálogo. El primer método describe la configuración disponible cuando [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) está instalado. El segundo método describe los ajustes de configuración para Adobe Commerce nativo con [Elasticsearch][1]{:target=&quot;_blank&quot;}.
+Existen dos variaciones de la configuración de Búsqueda en el catálogo. El primer método describe la configuración disponible cuando está instalado [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). El segundo método describe las opciones de configuración para Adobe Commerce nativo con [Elasticsearch][1]{:target=&quot;_blank&quot;}.
 
 ## Método 1: Adobe Commerce con [!DNL Live Search]
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Catalog]** y elija **[!UICONTROL Catalog]** debajo.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Catalog Search]** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Catalog Search]**.
 
    ![Búsqueda en el catálogo de Live Search](../configuration-reference/catalog/assets/catalog-search-live-search.png){width="600" zoomable="yes"}
 
-   Para ver una lista detallada de estas opciones, consulte [Adobe Commerce con Live Search](../configuration-reference/catalog/catalog.md#adobe-commerce-with-live-search) en el _Referencia de configuración_.
+   Para obtener una lista detallada de estas opciones, consulte [Adobe Commerce con Live Search](../configuration-reference/catalog/catalog.md#adobe-commerce-with-live-search) en la _Referencia de configuración_.
 
-1. Para limitar la longitud y el número de palabras del texto de la consulta de búsqueda, defina un valor para **[!UICONTROL Minimal Query Length]** y **[!UICONTROL Maximum Query Length]**.
+1. Para limitar la longitud y el número de palabras del texto de la consulta de búsqueda, establezca un valor para **[!UICONTROL Minimal Query Length]** y **[!UICONTROL Maximum Query Length]**.
 
 1. Para limitar la cantidad de resultados de búsqueda populares que se almacenarán en caché para obtener respuestas más rápidas, establezca una cantidad para **[!UICONTROL Number of top search results to cache]**.
 
-   El valor predeterminado es `100`. Introducción de un valor de `0` almacena en caché todos los términos y resultados de búsqueda cuando se introducen por segunda vez.
+   El valor predeterminado es `100`. Si se introduce un valor de `0`, se almacenarán en la memoria caché todos los términos de búsqueda y resultados cuando se introduzcan por segunda vez.
 
-1. Para cambiar el número máximo de líneas disponibles para los resultados devueltos en el [tienda pop over](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html), introduzca una diferente **[!UICONTROL Autocomplete Limit]** valor.
+1. Para cambiar el número máximo de líneas disponibles para los resultados devueltos en la [ventana emergente de la tienda](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html), escriba un valor de **[!UICONTROL Autocomplete Limit]** diferente.
 
    Restringir el número de líneas mejora el rendimiento de las búsquedas y reduce el tamaño de la lista devuelta. El valor predeterminado es `8` líneas.
 
-## Método 2: comercio con Elasticsearch
+## Método 2: Commerce con Elasticsearch
 
 >[!IMPORTANT]
 >
->Debido a la [!DNL Elasticsearch 7] anuncio de fin de soporte para agosto de 2023, se recomienda que todos los clientes de Adobe Commerce migren al motor de búsqueda OpenSearch 2.x. Para obtener información sobre la migración del motor de búsqueda durante la actualización del producto, consulte [Migración a OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) en el _Guía de actualización_.
+>Debido al anuncio de fin de soporte de [!DNL Elasticsearch 7] para agosto de 2023, se recomienda que todos los clientes de Adobe Commerce migren al motor de búsqueda OpenSearch 2.x. Para obtener información sobre cómo migrar el motor de búsqueda durante la actualización del producto, consulte [Migración a OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) en la _Guía de actualización_.
 
 ### Paso 1: Configurar las opciones generales de búsqueda
 
@@ -48,17 +48,17 @@ Existen dos variaciones de la configuración de Búsqueda en el catálogo. El pr
 >
 >Con Elasticsearch, no hay compatibilidad predeterminada para la búsqueda por el sufijo. Por ejemplo, la búsqueda por SKU puede no devolver el resultado esperado si la palabra clave contiene solo la parte final del SKU.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Catalog]** y elija **[!UICONTROL Catalog]** debajo.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Catalog Search]** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Catalog Search]**.
 
-   ![Configuración del Elasticsearch](../configuration-reference/catalog/assets/catalog-search-elasticsearch.png){width="600" zoomable="yes"}
+   ![Configuración de Elasticsearch](../configuration-reference/catalog/assets/catalog-search-elasticsearch.png){width="600" zoomable="yes"}
 
-   Para obtener más información sobre estas opciones, consulte [Adobe Commerce con Elasticsearch](../configuration-reference/catalog/catalog.md#adobe-commerce-with-elasticsearch) en el _Referencia de configuración_.
+   Para obtener más información sobre estas opciones, consulte [Adobe Commerce con Elasticsearch](../configuration-reference/catalog/catalog.md#adobe-commerce-with-elasticsearch) en la _Referencia de configuración_.
 
-1. Para limitar la longitud y el número de palabras del texto de la consulta de búsqueda, defina un valor para **[!UICONTROL Minimal Query Length]** y **[!UICONTROL Maximum Query Length]**.
+1. Para limitar la longitud y el número de palabras del texto de la consulta de búsqueda, establezca un valor para **[!UICONTROL Minimal Query Length]** y **[!UICONTROL Maximum Query Length]**.
 
    >[!IMPORTANT]
    >
@@ -66,13 +66,13 @@ Existen dos variaciones de la configuración de Búsqueda en el catálogo. El pr
 
 1. Para limitar la cantidad de resultados de búsqueda populares que se almacenarán en caché para obtener respuestas más rápidas, establezca una cantidad para **[!UICONTROL Number of top search results to cache]**.
 
-   El valor predeterminado es `100`. Introducción de un valor de `0` almacena en caché todos los términos y resultados de búsqueda cuando se introducen por segunda vez.
+   El valor predeterminado es `100`. Si se introduce un valor de `0`, se almacenarán en la memoria caché todos los términos de búsqueda y resultados cuando se introduzcan por segunda vez.
 
-1. Si desea habilitar o deshabilitar el indizador EAV de productos, establezca el **[!UICONTROL Enable EAV Indexer]**.
+1. Si desea habilitar o deshabilitar el indizador EAV del producto, establezca **[!UICONTROL Enable EAV Indexer]**.
 
    Esta función mejora la velocidad de indexación y restringe el uso del indexador por extensiones de terceros.
 
-1. Para limitar el número máximo de resultados de búsqueda que se mostrarán para el completado automático de búsqueda, defina una cantidad para **[!UICONTROL Autocomplete Limit]**.
+1. Para limitar el número máximo de resultados de búsqueda que se mostrarán para el completado automático de búsqueda, establezca una cantidad para **[!UICONTROL Autocomplete Limit]**.
 
    Restringir esta cantidad aumenta el rendimiento de las búsquedas y reduce el tamaño de la lista mostrada. El valor predeterminado es `8`.
 
@@ -80,7 +80,7 @@ Existen dos variaciones de la configuración de Búsqueda en el catálogo. El pr
 
 >[!IMPORTANT]
 >
->El **[!UICONTROL Search Engine]**, **[!UICONTROL Elasticsearch Server Hostname]**, **[!UICONTROL Elasticsearch Server Port]**, **[!UICONTROL Elasticsearch Index Prefix]**, **[!UICONTROL Enable Elasticsearch HTTP Auth]**, y **[!UICONTROL Elasticsearch Server Timeout]** Los campos de se configuraron al instalar o actualizar Commerce. Estos valores solo deben cambiarse al actualizar o modificar el Elasticsearch.
+>Los campos **[!UICONTROL Search Engine]**, **[!UICONTROL Elasticsearch Server Hostname]**, **[!UICONTROL Elasticsearch Server Port]**, **[!UICONTROL Elasticsearch Index Prefix]**, **[!UICONTROL Enable Elasticsearch HTTP Auth]** y **[!UICONTROL Elasticsearch Server Timeout]** se configuraron al instalar o actualizar Commerce. Estos valores solo deben cambiarse al actualizar o modificar el Elasticsearch.
 
 1. Para **[!UICONTROL Search Engine]**, acepte el valor predeterminado `Elasticsearch 7`.
 
@@ -94,13 +94,13 @@ Existen dos variaciones de la configuración de Búsqueda en el catálogo. El pr
 
    En este ejemplo, el valor predeterminado es `9200`.
 
-1. Para **[!UICONTROL Elasticsearch Index Prefix]**, introduzca un prefijo para identificar el índice del Elasticsearch.
+1. Para **[!UICONTROL Elasticsearch Index Prefix]**, escriba un prefijo para identificar el índice del Elasticsearch.
 
    El valor predeterminado es `magento2`.
 
-1. Para utilizar la autenticación HTTP para solicitar un nombre de usuario y una contraseña para acceder al servidor Elasticsearch, establezca **[!UICONTROL Enable Elasticsearch HTTP Auth]** hasta `Yes`.
+1. Para usar la autenticación HTTP para solicitar un nombre de usuario y una contraseña para acceder al servidor Elasticsearch, establezca **[!UICONTROL Enable Elasticsearch HTTP Auth]** en `Yes`.
 
-1. Para **[!UICONTROL Elasticsearch Server Timeout]**, introduzca el número de segundos antes de que se agote el tiempo de espera del sistema.
+1. Para **[!UICONTROL Elasticsearch Server Timeout]**, escriba el número de segundos antes de que se agote el tiempo de espera del sistema.
 
    El valor predeterminado es `15`.
 
@@ -112,23 +112,23 @@ Existen dos variaciones de la configuración de Búsqueda en el catálogo. El pr
 >
 >Las sugerencias y recomendaciones de búsqueda pueden afectar al rendimiento del servidor.
 
-1. Para ofrecer recomendaciones, establezca **[!UICONTROL Enable Search Recommendations]** hasta `Yes` y haga lo siguiente:
+1. Para ofrecer recomendaciones, establezca **[!UICONTROL Enable Search Recommendations]** en `Yes` y haga lo siguiente:
 
-   - Para **[!UICONTROL Search Recommendation Count]**, introduzca el número de recomendaciones que desea ofrecer.
+   - Para **[!UICONTROL Search Recommendation Count]**, ingrese el número de recomendaciones que desea ofrecer.
 
-   - Para mostrar el número de resultados encontrados para cada recomendación, establezca **[!UICONTROL Show Results Count for Each Recommendation]** hasta `Yes`.
+   - Para mostrar el número de resultados encontrados para cada recomendación, establezca **[!UICONTROL Show Results Count for Each Recommendation]** en `Yes`.
 
-1. Establecer **[!UICONTROL Enable Search Suggestions]** hasta `Yes` y haga lo siguiente:
+1. Establezca **[!UICONTROL Enable Search Suggestions]** en `Yes` y haga lo siguiente:
 
-   - Para **[!UICONTROL Search Suggestions Count]**, introduzca el número de sugerencias de búsqueda que desea ofrecer.
+   - Para **[!UICONTROL Search Suggestions Count]**, ingrese el número de sugerencias de búsqueda que desea ofrecer.
 
-   - Para mostrar el número de resultados encontrados para cada sugerencia, establezca **[!UICONTROL Show Results for Each Suggestion]** hasta `Yes`.
+   - Para mostrar el número de resultados encontrados para cada sugerencia, establezca **[!UICONTROL Show Results for Each Suggestion]** en `Yes`.
 
 ### Paso 4: Configurar los términos mínimos de coincidencia
 
-Para controlar el número mínimo de términos de la consulta que los resultados de la búsqueda deben coincidir para la devolución, especifique un valor para **[!UICONTROL Minimum Terms to Match]**. Especificar este valor garantiza una relevancia óptima de los resultados para los compradores. Para ver una lista de los valores aceptados, consulte [parámetro minimum_should_match](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) en la documentación del Elasticsearch.
+Para controlar el número mínimo de términos de la consulta que los resultados de la búsqueda deben coincidir para la devolución, especifique un valor para **[!UICONTROL Minimum Terms to Match]**. Especificar este valor garantiza una relevancia óptima de los resultados para los compradores. Para obtener una lista de los valores aceptados, consulte [minimum_should_match_parameter](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) en la documentación del Elasticsearch.
 
-Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 [1]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html
 [2]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/search/overview-search.html

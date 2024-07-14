@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo configurar los valores predetermin
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -17,23 +17,23 @@ Las secciones principales de la página están controladas, en parte, por un con
 - [Header](#header)
 - [Pie](#footer)
 
-![Secciones de página del HTML](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
+![secciones de página del HTML](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
 
 ## Cabeza de HTML
 
-Los ajustes de la sección Cabezal de HTML corresponden a la variable `<head>` de una página de HTML y se puede configurar para cada vista de tienda. Además de los metadatos del título de página, la descripción y las palabras clave, la sección incluye un vínculo al icono de favoritos y varios scripts. Las instrucciones para los robots de motores de búsqueda y la visualización del aviso de demostración de la tienda también se configuran en esta sección.
+La configuración de la sección Encabezado del HTML corresponde a la etiqueta `<head>` de una página del HTML y se puede configurar para cada vista de tienda. Además de los metadatos del título de página, la descripción y las palabras clave, la sección incluye un vínculo al icono de favoritos y varios scripts. Las instrucciones para los robots de motores de búsqueda y la visualización del aviso de demostración de la tienda también se configuran en esta sección.
 
 ### Configuración del encabezado del HTML
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Busque la vista de tienda que desee configurar y haga clic en **[!UICONTROL Edit]** en el _[!UICONTROL Action]_columna.
+1. Busque la vista de tienda que desea configurar y haga clic en **[!UICONTROL Edit]** en la columna _[!UICONTROL Action]_.
 
-1. En _Otra configuración_, expanda ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL HTML Head]** sección.
+1. En _Otra configuración_, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL HTML Head]**.
 
-   ![Ajustes de configuración de cabezal de HTML](./assets/configuration-html-head.png){width="500" zoomable="yes"}
+   ![Configuración del encabezado del HTML](./assets/configuration-html-head.png){width="500" zoomable="yes"}
 
-1. Actualice el [favicon](../getting-started/storefront-branding.md#add-a-favicon) si es necesario.
+1. Actualice [favicon](../getting-started/storefront-branding.md#add-a-favicon) si es necesario.
 
 1. Actualice la configuración del título de página según sus necesidades:
 
@@ -48,11 +48,11 @@ Los ajustes de la sección Cabezal de HTML corresponden a la variable `<head>` d
    - **[!UICONTROL Default Meta Description]**
    - **[!UICONTROL Default Meta Keywords]**
 
-1. Introduzca cualquiera **[!UICONTROL Scripts and Style Sheets]** según sea necesario.
+1. Escriba cualquier **[!UICONTROL Scripts and Style Sheets]** según sea necesario.
 
-1. Habilitar o deshabilitar el [aviso de almacén de demostración](../getting-started/storefront-branding.md#set-the-store-demo-notice) si es necesario.
+1. Habilite o deshabilite el [aviso de almacén de demostración](../getting-started/storefront-branding.md#set-the-store-demo-notice) si es necesario.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Configuration]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Configuration]**.
 
 ### Descripciones de los campos de Cabeza de HTML
 
@@ -64,7 +64,7 @@ Los ajustes de la sección Cabezal de HTML corresponden a la variable `<head>` d
 | [!UICONTROL Page Title Suffix] | Vista de tienda | Se puede agregar un sufijo después del título para crear un título de dos o tres partes. Se puede utilizar una barra vertical o dos puntos como separador al final del prefijo para diferenciarlo del texto del título principal. |
 | [!UICONTROL Default Meta Description] | Vista de tienda | La descripción proporciona un resumen del sitio para los anuncios de motores de búsqueda y no debe tener más de 160 caracteres de longitud. |
 | [!UICONTROL Default Meta Keywords] | Vista de tienda | Una serie de palabras clave que describen el almacén, cada una separada por una coma. |
-| [!UICONTROL Scripts and Style Sheets] | Vista de tienda | Contiene secuencias de comandos que deben incluirse en el HTML antes de la `<head>` etiqueta. Por ejemplo, cualquier JavaScript de terceros que deba colocarse antes de `<body>` puede introducirse la etiqueta aquí. |
+| [!UICONTROL Scripts and Style Sheets] | Vista de tienda | Contiene scripts que deben incluirse en el HTML antes de la etiqueta de cierre `<head>`. Por ejemplo, cualquier JavaScript de terceros que deba colocarse antes de la etiqueta `<body>` puede introducirse aquí. |
 | [!UICONTROL Display Demo Store Notice] | Vista de tienda | Controla la visualización del aviso de almacén de demostración en la parte superior de la página. Opciones: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -73,60 +73,60 @@ Los ajustes de la sección Cabezal de HTML corresponden a la variable `<head>` d
 
 La configuración del encabezado identifica la ruta al logotipo de la tienda y especifica el texto alternativo del logotipo y el mensaje de bienvenida.
 
-![Ajustes de configuración de encabezado](./assets/configuration-header.png){width="400" zoomable="yes"}
+![Configuración del encabezado](./assets/configuration-header.png){width="400" zoomable="yes"}
 
 ### Configuración del encabezado
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Busque la vista de tienda que desee configurar y haga clic en **[!UICONTROL Edit]** en el _[!UICONTROL Action]_columna.
+1. Busque la vista de tienda que desea configurar y haga clic en **[!UICONTROL Edit]** en la columna _[!UICONTROL Action]_.
 
-1. En _Otra configuración_, expanda ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Header]** sección.
+1. En _Otra configuración_, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Header]**.
 
 1. Realice los cambios necesarios en la vista de la tienda:
 
-   - [Logotipo](../getting-started/storefront-branding.md#upload-your-logo) configuración
-   - [Mensaje de bienvenida](../getting-started/storefront-branding.md#change-the-welcome-message) configuración
+   - Configuración de [logotipo](../getting-started/storefront-branding.md#upload-your-logo)
+   - Configuración de [mensaje de bienvenida](../getting-started/storefront-branding.md#change-the-welcome-message)
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Configuration]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Configuration]**.
 
 ### Descripciones de campos de encabezado
 
 | Campo | Ámbito | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Logo Image] | Vista de tienda | Identifica la ruta al logotipo que aparece en el encabezado. Tipos de archivo admitidos: PNG, GIF, JPG (JPEG) |
+| [!UICONTROL Logo Image] | Vista de tienda | Identifica la ruta al logotipo que aparece en el encabezado. Tipos de archivo admitidos: PNG, GIF, JPG de la (JPEG) |
 | [!UICONTROL Logo Attribute Width] | Vista de tienda | Ancho de la imagen del logotipo en píxeles. |
 | [!UICONTROL Logo Attribute Height] | Vista de tienda | Altura de la imagen del logotipo en píxeles. |
 | [!UICONTROL Welcome Text] | Vista de tienda | El mensaje de bienvenida aparece en el encabezado de la página e incluye el nombre de los clientes que han iniciado sesión. |
 | [!UICONTROL Logo Image Alt] | Vista de tienda | Texto alternativo asociado con el logotipo. |
-| [!UICONTROL Translate Title] | Vista de tienda | Determina si la variable `Page Title` o `Meta Title` debe traducirse. |
+| [!UICONTROL Translate Title] | Vista de tienda | Determina si `Page Title` o `Meta Title` deben traducirse. |
 
 {style="table-layout:auto"}
 
 ## Pie
 
-En la sección Configuración del pie de página es donde puede actualizar el [aviso de copyright](../getting-started/storefront-branding.md#change-the-copyright-notice) que aparece en la parte inferior de la página e introduzca varios scripts que deben colocarse antes de la `<body>` etiqueta.
+En la sección Configuración del pie de página puede actualizar el [aviso de copyright](../getting-started/storefront-branding.md#change-the-copyright-notice) que aparece en la parte inferior de la página e introducir scripts que deben colocarse antes de la etiqueta de cierre `<body>`.
 
-![Ajustes de configuración del pie](./assets/configuration-footer.png){width="400" zoomable="yes"}
+![Configuración del pie de página](./assets/configuration-footer.png){width="400" zoomable="yes"}
 
 ### Configuración del pie de página
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Busque la vista de tienda que desee configurar y haga clic en **[!UICONTROL Edit]** en el _[!UICONTROL Action]_columna.
+1. Busque la vista de tienda que desea configurar y haga clic en **[!UICONTROL Edit]** en la columna _[!UICONTROL Action]_.
 
-1. En _Otra configuración_, expanda ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Footer]** sección.
+1. En _Otra configuración_, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Footer]**.
 
-1. Realice los cambios necesarios en la **[!UICONTROL Copyright]** y **[!UICONTROL Miscellaneous HTML]** configuración.
+1. Realice los cambios necesarios en la configuración de **[!UICONTROL Copyright]** y **[!UICONTROL Miscellaneous HTML]**.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Configuration]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Configuration]**.
 
 ## Descripciones de campos de pie
 
 | Campo | Ámbito | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Miscellaneous HTML] | Vista de tienda | Un cuadro de entrada en el que puede cargar scripts varios en el servidor que deben colocarse justo antes del cierre `<body>` etiqueta. |
-| [!UICONTROL Copyright] | Vista de tienda | Declaración de copyright que aparece en la parte inferior de cada página. Para incluir el símbolo de copyright, utilice la entidad de carácter HTML `\&copy;` como en el siguiente ejemplo: `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` Asegúrese de reemplazar el aviso de copyright de ejemplo por el suyo propio. |
+| [!UICONTROL Miscellaneous HTML] | Vista de tienda | Un cuadro de entrada donde puede cargar scripts varios en el servidor que deben colocarse justo antes de la etiqueta de cierre `<body>`. |
+| [!UICONTROL Copyright] | Vista de tienda | Declaración de copyright que aparece en la parte inferior de cada página. Para incluir el símbolo de copyright, utilice la entidad de carácter HTML `\&copy;` como se muestra a continuación: `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` Asegúrese de reemplazar el aviso de copyright de ejemplo por el suyo propio. |
 | [!UICONTROL Display Report Bugs Link] | Vista de tienda | Determina si el vínculo del informe de errores (compatible con algunas temáticas) está habilitado o deshabilitado. |
 
 {style="table-layout:auto"}

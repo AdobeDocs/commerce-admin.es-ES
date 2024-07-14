@@ -2,13 +2,13 @@
 title: Permitir orden de cancelación
 description: Aprenda a proporcionar funciones de cancelación a sus clientes.
 feature: Orders, Storefront
-source-git-commit: 613c081c02dd9b5e55de37dccd021af4e429d424
+exl-id: 5a8ef668-f929-4188-8574-0bccdd076f3e
+source-git-commit: a9d1dc4fe50e98f0f1dfc8ec204930e2cc885d6e
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 0%
 
 ---
-
 
 # Permitir orden de cancelación
 
@@ -16,36 +16,36 @@ Cuando está activada, puede cancelar un pedido directamente desde la cuenta del
 
 ## Criterios para activar la cancelación de un pedido
 
-- El _Permitir Cancelar pedido_ La opción de configuración debe estar activada.
+- La opción de configuración _Permitir cancelar pedido_ debe estar habilitada.
 
-- Si el orden está en `Hold`, `Canceled`, `Complete`, o `Closed` estado, la opción cancelar está desactivada en la tienda.
+- Si el pedido está en estado `Hold`, `Canceled`, `Complete` o `Closed`, la opción de cancelación se deshabilita en la tienda.
 
 - Si alguno de los artículos del pedido se ha enviado, la opción de cancelación se desactiva en la tienda.
 
 - Si hay algún artículo pagado, la opción de cancelación se activa y se crea el reembolso para ese artículo.
 
-- Si el orden está en `Pending` o `Processing` estado, la opción cancelar está activada en la tienda.
+- Si el pedido está en estado `Pending` o `Processing`, la opción de cancelación se habilita en la tienda.
 
 ## Configure para permitir la cancelación del cliente y personalizar los motivos de cancelación
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y seleccione **[!UICONTROL Sales]**.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Order cancellation]** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Order cancellation]**.
 
    ![Opciones de cancelación de pedidos](../configuration-reference/sales/assets/sales-order-cancellation.png){width="600" zoomable="yes"}
 
-1. Establecer **[!UICONTROL Order cancellation through GraphQL]** hasta `Yes`.
+1. Establezca **[!UICONTROL Order cancellation through GraphQL]** en `Yes`.
 
    Esta configuración habilita la funcionalidad de cancelación desde la cuenta de cliente en la tienda.
 
-1. En el **[!UICONTROL Order Order cancellation reasons]** puede agregar, eliminar o modificar cualquier motivo de cancelación.
+1. En **[!UICONTROL Order Order cancellation reasons]** puede agregar, eliminar o modificar cualquier motivo de cancelación.
 
    Con esta configuración, los motivos de cancelación se muestran en la tienda al cliente cuando cancela un pedido.
 Asegúrese de haber especificado al menos un motivo.
 
-1. Clic **[!UICONTROL Save Config]**.
+1. Haga clic en **[!UICONTROL Save Config]**.
 
 ## Cancelar desde la tienda
 
@@ -55,24 +55,22 @@ Un cliente puede iniciar la funcionalidad de cancelación para un pedido especí
 
 - _Vista de pedidos_ página
 
-- _Mi cuenta_ página
+- _Página de Mi cuenta_
 
 ### Mis pedidos
 
-El _Cancelar pedido_ El botón se muestra en la página Mis pedidos si el pedido se puede cancelar.
+El botón _Cancelar pedido_ se muestra en la página Mis pedidos si es posible cancelar el pedido.
 
-![Ejemplo de tienda: página Mis pedidos](./assets/my-order-page-view-cancel.png){width="700" zoomable="yes"}
+![Ejemplo de tienda - Página Mis pedidos](./assets/my-order-page-view-cancel.png){width="700" zoomable="yes"}
 
 ### Página de vista de pedidos
 
-El _Cancelar pedido_ El botón se muestra en la página Ver Pedido si se puede cancelar el pedido.
+El botón _Cancelar pedido_ se muestra en la página Ver pedido si el pedido se puede cancelar.
 
 ![Página de detalles del pedido](./assets/order-view-page-cancel.png){width="700" zoomable="yes"}
 
 ### Mi cuenta
 
-El _Cancelar pedido_ El botón se muestra en la sección Pedidos recientes de la página Mi cuenta, si se puede cancelar la solicitud.
+El botón _Cancelar pedido_ se muestra en la sección Pedidos recientes de la página Mi cuenta, si el pedido se puede cancelar.
 
-![Página Mi cuenta](./assets/my-account-page-view-cancel.png){width="700" zoomable="yes"}
-
-
+![Página de Mi cuenta](./assets/my-account-page-view-cancel.png){width="700" zoomable="yes"}

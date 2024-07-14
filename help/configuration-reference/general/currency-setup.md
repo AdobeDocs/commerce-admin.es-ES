@@ -1,13 +1,13 @@
 ---
 title: '[!UICONTROL General] &gt; [!UICONTROL Currency Setup]'
-description: Revise la configuración de en [!UICONTROL General] &gt; [!UICONTROL Currency Setup] de la administración de Commerce.
+description: Revise la configuración en la página [!UICONTROL General] &gt; [!UICONTROL Currency Setup] del administrador de Commerce.
 exl-id: a84be30f-f2eb-4c86-942c-2d49e5cf23af
 role: Admin
 feature: Currency, Configuration, Data Import/Export
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 3%
+source-wordcount: '351'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Base Currency] | Sitio web | La divisa principal utilizada para todas las transacciones de pago en línea. Para varias vistas de tienda, el ámbito del precio debe establecerse en la variable [Catálogo](../catalog/catalog.md) configuración. |
+| [!UICONTROL Base Currency] | Sitio web | La divisa principal utilizada para todas las transacciones de pago en línea. Para varias vistas de tienda, el ámbito del precio debe establecerse en la configuración de [Catalog](../catalog/catalog.md). |
 | [!UICONTROL Default Display Currency] | Vista de tienda | La divisa principal utilizada para mostrar los precios. |
 | [!UICONTROL Allowed Currencies] | Vista de tienda | Las divisas aceptadas por su tienda para el pago. |
 
@@ -35,25 +35,25 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->A partir de la versión 2.4.6 de, la [[!DNL Fixer.io]](https://fixer.io/) El servicio está obsoleto y se ha sustituido por [[!DNL Fixer API] (APILayer)](https://apilayer.com/marketplace/fixer-api) servicio. Se recomienda encarecidamente que utilice una cuenta APILayer en lugar de una obsoleta [!DNL Fixer.io] cuenta.
+>A partir de la versión 2.4.6, el servicio [[!DNL Fixer.io]](https://fixer.io/) queda obsoleto y se ha sustituido por el servicio [[!DNL Fixer API] (APILayer)](https://apilayer.com/marketplace/fixer-api). Se recomienda encarecidamente que utilice una cuenta APILayer en lugar de una cuenta [!DNL Fixer.io] obsoleta.
 
 ![Configuración de moneda > Fixer.io](./assets/currency-setup-fixer.png)<!-- zoom -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL API key] | Global | La clave utilizada para acceder al servicio de conversión a través de su [!DNL fixer.io] cuenta. Para obtener más información, consulte [[!DNL fixer.io]](https://fixer.io/). |
+| [!UICONTROL API key] | Global | Clave utilizada para obtener acceso al servicio de conversión a través de su cuenta de [!DNL fixer.io]. Para obtener más información, vea [[!DNL fixer.io]](https://fixer.io/). |
 | [!UICONTROL Connection Timeout in Seconds] | Global | Determina el número de segundos de inactividad antes de que se agote el tiempo de espera de una sesión de Fixer.io. Valor predeterminado: `100` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Fixer Api (APILayer)]
 
-![Configuración de moneda > Api de fijador (APILayer)](./assets/currency-setup-fixer-api.png)<!-- zoom -->
+![Configuración de moneda > API de fijador (APILayer)](./assets/currency-setup-fixer-api.png)<!-- zoom -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL API key] | Global | La clave utilizada para acceder al servicio de conversión a través de su [!DNL APILayer] cuenta. Para obtener más información, consulte [[!DNL APILayer]](https://apilayer.com/). |
-| [!UICONTROL Connection Timeout in Seconds] | Global | Determina el número de segundos de inactividad antes de una [!DNL APILayer] tiempo de espera de sesión. El valor predeterminado es `100`. |
+| [!UICONTROL API key] | Global | Clave utilizada para obtener acceso al servicio de conversión a través de su cuenta de [!DNL APILayer]. Para obtener más información, vea [[!DNL APILayer]](https://apilayer.com/). |
+| [!UICONTROL Connection Timeout in Seconds] | Global | Determina el número de segundos de inactividad antes de que se agote el tiempo de espera de una sesión [!DNL APILayer]. El valor predeterminado es `100`. |
 
 {style="table-layout:auto"}
 
@@ -64,7 +64,7 @@ ht-degree: 3%
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL API key] | Global | La clave utilizada para acceder al servicio de conversión. Para obtener más información, consulte [[!DNL Currency Convertor] API](https://free.currencyconverterapi.com/). |
-| [!UICONTROL Connection Timeout in Seconds] | Global | Determina el número de segundos de inactividad antes de una [!DNL Currency Converter] tiempo de espera de sesión. Valor predeterminado:`100` |
+| [!UICONTROL Connection Timeout in Seconds] | Global | Determina el número de segundos de inactividad antes de que se agote el tiempo de espera de una sesión de [!DNL Currency Converter]. Valor predeterminado:`100` |
 
 {style="table-layout:auto"}
 

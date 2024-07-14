@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >La navegación por capas estándar descrita en esta sección difiere de la navegación filtrada por Live Search con [facetas](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html).
 
-La navegación por capas facilita la búsqueda de productos en función de la categoría, el intervalo de precios o cualquier otro atributo disponible. La navegación por capas suele aparecer en la columna izquierda de los resultados de búsqueda y las páginas de categoría y, a veces, en la página de inicio. La navegación estándar incluye un _Comprar por_ lista de categorías y rango de precios. Puede configurar la visualización de la navegación por capas, incluido el recuento de productos y el intervalo de precios.
+La navegación por capas facilita la búsqueda de productos en función de la categoría, el intervalo de precios o cualquier otro atributo disponible. La navegación por capas suele aparecer en la columna izquierda de los resultados de búsqueda y las páginas de categoría y, a veces, en la página de inicio. La navegación estándar incluye una lista de categorías y un rango de precios de _Comprar por_. Puede configurar la visualización de la navegación por capas, incluido el recuento de productos y el intervalo de precios.
 
 ![Navegación por niveles por categoría y precio](./assets/navigation-layered-basic.png){width="700" zoomable="yes"}
 
@@ -24,37 +24,37 @@ La navegación por capas facilita la búsqueda de productos en función de la ca
 
 >[!NOTE]
 >
->Los requisitos de atributos filtrables que se describen en este tema son diferentes para [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). Para obtener más información, consulte [Facetas](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html).
+>Los requisitos de atributos filtrables que se describen en este tema difieren para [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). Para obtener más información, consulte [Facetas](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html).
 
 La navegación por capas se puede utilizar para buscar productos por categoría o por atributo. Por ejemplo, cuando un comprador elige la categoría Hombres/Pantalones cortos de la barra de navegación superior, los resultados iniciales incluyen todos los productos de la categoría. La lista se puede filtrar aún más eligiendo un estilo, un clima, un color, un material, un patrón o un precio específicos, o una combinación de valores. Los atributos filtrables aparecen en una sección en expansión que enumera cada valor de atributo. Como opción, la lista de productos con resultados coincidentes se puede configurar para incluir productos con o sin coincidencia.
 
-Las propiedades del atributo, combinadas con el tipo de entrada del producto, determinan qué atributos se pueden utilizar para la navegación por capas. La navegación por capas solo está disponible para [_anclaje_](categories-display-settings.md) categorías, pero también se puede agregar a las páginas de resultados de búsqueda. El **Tipo de entrada de catálogo del propietario de la tienda** La propiedad de cada atributo debe establecerse en `Yes/No`, `Dropdown`, `Multiple Select`, o `Price`. Para que los atributos sean filtrables, la variable **Uso en la navegación por capas** La propiedad de cada debe establecerse en `Filterable (with results)` o `Filterable (no results)`.
+Las propiedades del atributo, combinadas con el tipo de entrada del producto, determinan qué atributos se pueden utilizar para la navegación por capas. La navegación por capas solo está disponible para [_anclaje_](categories-display-settings.md) categorías, pero también se puede agregar a las páginas de resultados de búsqueda. El tipo de entrada de catálogo **para el propietario de tienda** de cada atributo debe establecerse en `Yes/No`, `Dropdown`, `Multiple Select` o `Price`. Para que los atributos se puedan filtrar, la propiedad **Usar en navegación por capas** de cada uno debe establecerse en `Filterable (with results)` o `Filterable (no results)`.
 
-_Ejemplo: Atributos filtrables con resultados_
+_Ejemplo: atributos filtrables con resultados_
 
 ![Atributos filtrables en la navegación por capas](./assets/storefront-layered-navigation-filtered.png){width="700" zoomable="yes"}
 
-_Ejemplo: Valores de muestra filtrables mostrados sin resultado_
+_Ejemplo: valores de muestra filtrables mostrados sin resultado_
 
 ![Valor de muestra filtrable sin resultados](./assets/storefront-product-attribute-filter-no-results.png){width="700" zoomable="yes"}
 
-Las siguientes instrucciones muestran cómo configurar la navegación básica por capas con atributos que se pueden filtrar. Para obtener información sobre la navegación por capas avanzada con pasos de precio, consulte [Navegación de precios](navigation-layered.md#configure-price-navigation).
+Las siguientes instrucciones muestran cómo configurar la navegación básica por capas con atributos que se pueden filtrar. Para obtener información sobre la navegación por niveles avanzada con pasos de precio, consulte [Navegación por precios](navigation-layered.md#configure-price-navigation).
 
 ## Paso 1: Configurar las propiedades del atributo
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
 
 1. Examine o utilice la búsqueda filtrada para buscar un atributo en la lista y abrirlo en modo de edición.
 
-   ![Introduzca términos de búsqueda por columna para utilizar la búsqueda filtrada](./assets/attribute-search.png){width="700" zoomable="yes"}
+   ![Escriba términos de búsqueda por columna para utilizar la búsqueda filtrada](./assets/attribute-search.png){width="700" zoomable="yes"}
 
-1. En el panel izquierdo, elija **[!UICONTROL Storefront Properties]** y establecer **[!UICONTROL Use In Layered Navigation]** a uno de los siguientes:
+1. En el panel izquierdo, elija **[!UICONTROL Storefront Properties]** y establezca **[!UICONTROL Use In Layered Navigation]** en una de las siguientes opciones:
 
-   - `Filterable (with results)` - La navegación por capas incluye solo los filtros para los que se pueden encontrar productos coincidentes. Cualquier valor de atributo que ya se aplique a todos los productos mostrados en la lista debe aparecer como filtro disponible. Los valores de atributo con un recuento de cero (0) coincidencias de producto se omiten de la lista de filtros disponibles. La lista filtrada incluye solo los productos que coinciden con el filtro. La lista de productos se actualiza únicamente si los filtros seleccionados cambian lo que se muestra.
+   - `Filterable (with results)`: la navegación por capas incluye solo los filtros para los que se pueden encontrar productos coincidentes. Cualquier valor de atributo que ya se aplique a todos los productos mostrados en la lista debe aparecer como filtro disponible. Los valores de atributo con un recuento de cero (0) coincidencias de producto se omiten de la lista de filtros disponibles. La lista filtrada incluye solo los productos que coinciden con el filtro. La lista de productos se actualiza únicamente si los filtros seleccionados cambian lo que se muestra.
 
-   - `Filterable (no results)` : La navegación por capas incluye filtros para todos los valores de atributos disponibles y sus recuentos de productos, incluidos los productos con cero (0) coincidencias de productos. Si el valor del atributo es una muestra, el valor aparece como un filtro, pero se tachará. Esta opción no admite el filtrado por niveles de precio y no afecta a los filtros de precio.
+   - `Filterable (no results)`: la navegación por capas incluye filtros para todos los valores de atributo disponibles y sus recuentos de productos, incluidos los productos con cero (0) coincidencias de productos. Si el valor del atributo es una muestra, el valor aparece como un filtro, pero se tachará. Esta opción no admite el filtrado por niveles de precio y no afecta a los filtros de precio.
 
-1. Establecer **[!UICONTROL Use In Search Results Layered Navigation]** hasta `Yes`.
+1. Establezca **[!UICONTROL Use In Search Results Layered Navigation]** en `Yes`.
 
    ![Propiedades de tienda](./assets/attribute-storefront-properties.png){width="600" zoomable="yes"}
 
@@ -62,23 +62,23 @@ Las siguientes instrucciones muestran cómo configurar la navegación básica po
 
 >[!NOTE]
 >
->Si la variable _[!UICONTROL Use in Search]_se establece en `No`, el_[!UICONTROL Use in Search Results Layered Navigation]_ no se muestra y el atributo de producto no se utiliza en la búsqueda con ningún [!UICONTROL Use in Layered Navigation] valor de configuración.
+>Cuando la configuración de _[!UICONTROL Use in Search]_está establecida en `No`, no se muestra la configuración de_[!UICONTROL Use in Search Results Layered Navigation]_ y no se usa el atributo de producto en la búsqueda con ningún valor de configuración de [!UICONTROL Use in Layered Navigation].
 
 >[!NOTE]
 >
->El [!UICONTROL Position] El campo está atenuado de forma predeterminada, por lo que debe guardar el atributo antes de poder modificar esta configuración.
+>El campo [!UICONTROL Position] está atenuado de forma predeterminada, por lo que debe guardar el atributo para poder modificar esta configuración.
 
 ## Paso 2: Hacer de la categoría un anclaje
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. En el árbol de categorías, seleccione la categoría en la que desea utilizar la navegación por capas.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Display Settings]** sección y conjunto **[!UICONTROL Anchor]** hasta `Yes`.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Display Settings]** y establezca **[!UICONTROL Anchor]** en `Yes`.
 
    ![Configuración de visualización de categoría](./assets/category-layered-navigation-anchor.png){width="600" zoomable="yes"}
 
-1. Clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 ## Paso 3: Prueba de los resultados
 
@@ -90,13 +90,13 @@ Busque, filtre y revise los productos mostrados.
 
 La navegación por capas incluye filtros para todos los valores de atributos disponibles y sus recuentos de productos, incluidos los productos con cero (0) coincidencias de productos (como se muestra en la siguiente imagen).
 
-![Visualización de cero filtros](./assets/filterable-attributes-on-plp.png){width="700" zoomable="yes"}
+![Se muestran cero filtros](./assets/filterable-attributes-on-plp.png){width="700" zoomable="yes"}
 
 Este resultado puede dificultar que los clientes seleccionen un producto preferido y no es necesario mostrar valores de atributo con 0 productos en el front-end.
 
 Puede seguir los siguientes pasos para eliminar de la navegación por capas los valores de atributos que se pueden filtrar con 0 productos:
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
 
 1. Examine o utilice la búsqueda filtrada para buscar un atributo en la lista y abrirlo en modo de edición.
 
@@ -104,9 +104,9 @@ Puede seguir los siguientes pasos para eliminar de la navegación por capas los 
 
 1. Para **[!UICONTROL Layered Navigation]**, elija `Filterable (with results)`.
 
-   ![Sección Información de Atributos](./assets/storefront-properties-tab.png){width="600" zoomable="yes"}
+   ![Sección de información de atributo](./assets/storefront-properties-tab.png){width="600" zoomable="yes"}
 
-1. Clic **[!UICONTROL Save Attribute]**.
+1. Haga clic en **[!UICONTROL Save Attribute]**.
 
 ## Navegación de precios
 
@@ -145,37 +145,37 @@ La división iterativa proporciona la mejor distribución de productos entre ran
 
 >[!IMPORTANT]
 >
->Para mostrar correctamente los productos y sus precios según _filtros de precio_ en la navegación por capas, asegúrese de que los ajustes del precio se muestran en la [Configuración de impuestos](../configuration-reference/sales/tax.md) tienen el mismo valor (`Excluding Tax` **o** `Including Tax`). Para el _[!UICONTROL Calculation Settings]_, marque la **[!UICONTROL Catalog Prices]**valor. Y para_[!UICONTROL Price Display Settings]_, marque la **[!UICONTROL Display Product Prices in Catalog]** valor. Si estos tienen valores diferentes, es posible que los filtros de precio de la navegación por capas no filtren y ordenen correctamente los productos por precio.
+>Para mostrar correctamente los productos y sus precios según los _filtros de precio_ en la navegación por capas, asegúrese de que la configuración del precio que se muestra en la [configuración de impuestos sobre ventas](../configuration-reference/sales/tax.md) tenga el mismo valor (`Excluding Tax` **o** `Including Tax`). Para _[!UICONTROL Calculation Settings]_, compruebe el valor **[!UICONTROL Catalog Prices]**. Y para_[!UICONTROL Price Display Settings]_, compruebe el valor **[!UICONTROL Display Product Prices in Catalog]**. Si estos tienen valores diferentes, es posible que los filtros de precio de la navegación por capas no filtren y ordenen correctamente los productos por precio.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Catalog]** y elija **[!UICONTROL Catalog]** debajo.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el _Navegación por capas_ sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _Navegación por capas_.
 
-   De forma predeterminada, **[!UICONTROL Display Product Count]** se establece en `Yes`. Si es necesario, anule la selección del **[!UICONTROL Use system value]** para cambiar esta configuración.
+   De manera predeterminada, **[!UICONTROL Display Product Count]** está establecido en `Yes`. Si es necesario, anule la selección de la casilla de verificación **[!UICONTROL Use system value]** para cambiar esta configuración.
 
    ![Navegación por capas](../configuration-reference/catalog/assets/layered-navigation.png){width="600" zoomable="yes"}
 
-   Para obtener una lista detallada de estas opciones de configuración, consulte [Navegación por capas](../configuration-reference/catalog/catalog.md#layered-navigation) en el _Referencia de configuración_.
+   Para obtener una lista detallada de estas opciones de configuración, consulte [Navegación por capas](../configuration-reference/catalog/catalog.md#layered-navigation) en la _Referencia de configuración_.
 
-1. Establecer **[!UICONTROL Price Navigation Steps Calculation]** para uno de los métodos de las secciones siguientes.
+1. Establezca **[!UICONTROL Price Navigation Steps Calculation]** para uno de los métodos de las secciones siguientes.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 ### Método 1: Automático (igualar intervalos de precios)
 
-Salir **[!UICONTROL Price Navigation Steps Calculation]** establezca en `Automatic (Equalize Price Ranges)` (valor predeterminado). Esta configuración utiliza el algoritmo estándar para la navegación de precios.
+Deje **[!UICONTROL Price Navigation Steps Calculation]** establecido en `Automatic (Equalize Price Ranges)` (predeterminado). Esta configuración utiliza el algoritmo estándar para la navegación de precios.
 
 ### Método 2: automático (igualar los recuentos de productos)
 
 >[!TIP]
 >
->Si es necesario, anule primero la selección del **[!UICONTROL Use system value]** para cambiar esta configuración.
+>Si es necesario, anule primero la selección de la casilla de verificación **[!UICONTROL Use system value]** para cambiar esta configuración.
 
-1. Establecer **[!UICONTROL Price Navigation Steps Calculation]** hasta `Automatic (equalize product counts)`.
+1. Establezca **[!UICONTROL Price Navigation Steps Calculation]** en `Automatic (equalize product counts)`.
 
-1. Para mostrar un solo precio cuando hay varios productos con el mismo precio, establezca **[!UICONTROL Display Price Interval as One Price]** hasta `Yes`.
+1. Para mostrar un solo precio cuando hay varios productos con el mismo precio, establezca **[!UICONTROL Display Price Interval as One Price]** en `Yes`.
 
 1. Para **[!UICONTROL Interval Division Limit]**, introduzca el umbral para el número de productos dentro de un rango de precios.
 
@@ -187,13 +187,13 @@ Salir **[!UICONTROL Price Navigation Steps Calculation]** establezca en `Automat
 
 >[!NOTE]
 >
->Si es necesario, anule primero la selección del **[!UICONTROL Use system value]** para cambiar esta configuración.
+>Si es necesario, anule primero la selección de la casilla de verificación **[!UICONTROL Use system value]** para cambiar esta configuración.
 
-1. Establecer **[!UICONTROL Price Navigation Steps Calculation]** hasta `Manual`.
+1. Establezca **[!UICONTROL Price Navigation Steps Calculation]** en `Manual`.
 
-1. Introduzca un valor que determine el **[!UICONTROL Default Price Navigation Step]**.
+1. Escriba un valor que determine **[!UICONTROL Default Price Navigation Step]**.
 
-1. Introduzca el **[!UICONTROL Maximum Number of Price Intervals]** permitido, hasta `100`.
+1. Escriba el **[!UICONTROL Maximum Number of Price Intervals]** permitido, hasta `100`.
 
    ![Manual](../configuration-reference/catalog/assets/layered-navigation-manual.png){width="600" zoomable="yes"}
 
@@ -205,18 +205,18 @@ Salir **[!UICONTROL Price Navigation Steps Calculation]** establezca en `Automat
 
 La configuración de navegación por capas determina si aparece un recuento de productos entre paréntesis después de cada atributo y el tamaño del cálculo del paso que se utiliza en la navegación de precios.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. En el panel izquierdo, expanda _[!UICONTROL Catalog]_y elija **[!UICONTROL Catalog]**debajo.
+1. En el panel izquierdo, expanda la sección _[!UICONTROL Catalog]_y elija **[!UICONTROL Catalog]**debajo.
 
-1. Expanda el _[!UICONTROL Layered Navigation]_sección.
+1. Expanda la sección _[!UICONTROL Layered Navigation]_.
 
    >[!NOTE]
    >
-   >Si es necesario, anule primero la selección del **[!UICONTROL Use system value]** para cambiar esta configuración.
+   >Si es necesario, anule primero la selección de la casilla de verificación **[!UICONTROL Use system value]** para cambiar esta configuración.
 
-1. Para mostrar el número de productos encontrados para cada atributo, establezca **[!UICONTROL Display Product Count]** hasta `Yes`.
+1. Para mostrar el número de productos encontrados para cada atributo, establezca **[!UICONTROL Display Product Count]** en `Yes`.
 
-1. Establecer **[!UICONTROL Price Navigation Step Calculation]** hasta `Automatic (equalize price ranges)`.
+1. Establezca **[!UICONTROL Price Navigation Step Calculation]** en `Automatic (equalize price ranges)`.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.

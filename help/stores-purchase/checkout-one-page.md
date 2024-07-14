@@ -18,22 +18,22 @@ El cierre de compra de una página está habilitado de forma predeterminada. Si 
 
 **_Para deshabilitar el cierre de compra de una página:_**
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Checkout]**.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Checkout Options]** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Checkout Options]**.
 
-   ![Configuración: opciones de cierre de compra](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
+   ![Configuración - opciones de cierre de compra](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
-   Para obtener una descripción detallada de cada una de estas opciones de configuración, consulte [Opciones de desprotección](../configuration-reference/sales/checkout.md#checkout-options) en el _Guía de referencia de configuración_.
+   Para obtener una descripción detallada de cada una de estas opciones de configuración, consulte [Opciones de desprotección](../configuration-reference/sales/checkout.md#checkout-options) en la _Guía de referencia de configuración_.
 
-1. Si la configuración es para una vista de tienda específica, [elija la vista de la tienda](../configuration-reference/scope-change.md#set-the-scope) donde se aplica la configuración.
+1. Si la configuración es para una vista de tienda específica, [elija la vista de tienda](../configuration-reference/scope-change.md#set-the-scope) donde se aplica la configuración.
 
-   Cuando se le solicite, haga clic en **[!UICONTROL OK]** para continuar.
+   Cuando se le solicite, haga clic en **[!UICONTROL OK]** para continuar.
 
-1. Establecer **[!UICONTROL Enable Onepage Checkout]** hasta `No`.
+1. Establezca **[!UICONTROL Enable Onepage Checkout]** en `No`.
 
-   Si es necesario, borre la **[!UICONTROL Use system value]** para cambiar esta configuración.
+   Si es necesario, desactive la casilla de verificación **[!UICONTROL Use system value]** para cambiar esta configuración.
 
-1. Haga clic **[!UICONTROL Save Config]**.
+1. Haga clic en **[!UICONTROL Save Config]**.

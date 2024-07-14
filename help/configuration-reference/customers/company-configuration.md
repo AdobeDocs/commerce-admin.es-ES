@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Company Configuration]'
-description: Revise la configuración de en [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] del Administrador de Commerce.
+description: Revise la configuración en la página [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] del administrador de Commerce.
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Con la instalación y activación de Adobe Commerce B2B, la experiencia de compra se puede personalizar con funciones específicas de la empresa. Adobe Commerce B2B es una solución integrada que admite modelos B2B y B2C. Para obtener más información sobre las funciones de B2B, consulte la [Guía del usuario de Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Con la instalación y activación de Adobe Commerce B2B, la experiencia de compra se puede personalizar con funciones específicas de la empresa. Adobe Commerce B2B es una solución integrada que admite modelos B2B y B2C. Para obtener más información sobre las características de B2B, consulte la [Guía del usuario de Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 >[!NOTE]
 >
->El acceso a estas opciones de configuración para funciones B2B se controla mediante la variable [recursos de rol](../../systems/permissions-user-roles.md#role-resources). Estos recursos de rol deben configurarse para la función de usuario asignada al usuario Administrador.
+>El acceso a estas opciones de configuración para características B2B está controlado por los [recursos de rol](../../systems/permissions-user-roles.md#role-resources). Estos recursos de rol deben configurarse para la función de usuario asignada al usuario Administrador.
 
-Para obtener más información sobre la configuración de estos ajustes, consulte [Habilitar funciones básicas B2B](../../b2b/enable-basic-features.md) en el _Guía del usuario de Adobe Commerce B2B_.
+Para obtener más información acerca de cómo establecer esta configuración, consulte [Habilitar características básicas de B2B](../../b2b/enable-basic-features.md) en la _Guía del usuario de Adobe Commerce B2B_.
 
 ## [!UICONTROL General]
 
@@ -32,7 +32,7 @@ Para obtener más información sobre la configuración de estos ajustes, consult
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Allow Company Registration from the Storefront] | Sitio web | Determina si los visitantes de la tienda pueden elegir [registrar](../../customers/customer-sign-in.md) para una cuenta de empresa o una cuenta individual. Opciones: `Yes` / `No` |
+| [!UICONTROL Allow Company Registration from the Storefront] | Sitio web | Determina si los visitantes de tu tienda tienen la opción de [registrar](../../customers/customer-sign-in.md) una cuenta de empresa o una cuenta individual. Opciones: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -67,24 +67,24 @@ Para obtener más información sobre la configuración de estos ajustes, consult
 
 ## [!UICONTROL Company Status Change]
 
-![Cambio de estado de compañía](./assets/company-email-options-company-status-change.png)<!-- zoom -->
+![Cambio de estado de la compañía](./assets/company-email-options-company-status-change.png)<!-- zoom -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Company Status Change Email Recipient] | Vista de tienda | El contacto de tienda al que se notifica cada vez que cambia el estado de una compañía. Opciones: `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
 | [!UICONTROL Send Company Status Change Email Copy To] | Vista de tienda | La dirección de correo electrónico de cada persona que va a recibir una copia de la notificación de cambio de estado de la compañía. Separe varias direcciones de correo electrónico con una coma. |
 | [!UICONTROL Send Email Copy Method] | Vista de tienda | El método de correo electrónico que se utiliza para enviar la copia de la notificación de cambio de estado. Opciones: `Bcc` / `Separate Email` |
-| [!UICONTROL Default "Company Status Change to Active 1' Email] | Vista de tienda | La plantilla de correo electrónico que se utiliza cuando el estado de una empresa cambia de _Pendiente de aprobación_ hasta _Activo_. Plantilla predeterminada: `Company Status Active 1` |
-| [!UICONTROL Default 'Company Status Change to Active 2' Email] | Vista de tienda | La plantilla de correo electrónico que se utiliza de forma predeterminada cuando el estado de una empresa cambia de _Rechazado_ o _Bloqueado_ hasta _Activo_. Plantilla predeterminada: `Company Status Active 2` |
-| [!UICONTROL Default 'Company Status Change to Rejected' Email] | Vista de tienda | La plantilla de correo electrónico que se utiliza de forma predeterminada cuando el estado de una empresa cambia a _Rechazado_. Plantilla predeterminada: `Company Status Rejected` |
-| [!UICONTROL Default 'Company Status Change to Blocked' Email] | Vista de tienda | La plantilla de correo electrónico que se utiliza de forma predeterminada cuando el estado de una empresa cambia a _Bloqueado_. Plantilla predeterminada: `Company Status Blocked` |
-| [!UICONTROL Default 'Company Status Change to Pending Approval' Email] | Vista de tienda | La plantilla de correo electrónico que se utiliza de forma predeterminada cuando el estado de una empresa cambia a _Pendiente de aprobación_. Plantilla predeterminada: `Company Status Pending Approval` |
+| [!UICONTROL Default "Company Status Change to Active 1' Email] | Vista de tienda | Plantilla de correo electrónico que se usa cuando el estado de una compañía cambia de _Aprobación pendiente_ a _Activo_. Plantilla predeterminada: `Company Status Active 1` |
+| [!UICONTROL Default 'Company Status Change to Active 2' Email] | Vista de tienda | Plantilla de correo electrónico que se usa de forma predeterminada cuando el estado de una compañía cambia de _Rechazado_ o _Bloqueado_ a _Activo_. Plantilla predeterminada: `Company Status Active 2` |
+| [!UICONTROL Default 'Company Status Change to Rejected' Email] | Vista de tienda | Plantilla de correo electrónico que se usa de forma predeterminada cuando el estado de una compañía cambia a _Rechazado_. Plantilla predeterminada: `Company Status Rejected` |
+| [!UICONTROL Default 'Company Status Change to Blocked' Email] | Vista de tienda | Plantilla de correo electrónico que se usa de forma predeterminada cuando el estado de una compañía cambia a _Bloqueado_. Plantilla predeterminada: `Company Status Blocked` |
+| [!UICONTROL Default 'Company Status Change to Pending Approval' Email] | Vista de tienda | Plantilla de correo electrónico que se usa de forma predeterminada cuando el estado de una compañía cambia a _Aprobación pendiente_. Plantilla predeterminada: `Company Status Pending Approval` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Company Credit]
 
-![Crédito de empresa](./assets/company-email-options-company-credit.png)<!-- zoom -->
+![Crédito de la compañía](./assets/company-email-options-company-credit.png)<!-- zoom -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -93,7 +93,7 @@ Para obtener más información sobre la configuración de estos ajustes, consult
 | [!UICONTROL Send Email Copy Method] | Vista de tienda | El método de correo electrónico que se utiliza para enviar la copia de la notificación de cambio de crédito. Opciones: `Bcc` / `Separate Email` |
 | [!UICONTROL Allocated Email Template] | Vista de tienda | Plantilla de correo electrónico que se utiliza de forma predeterminada cuando se asigna crédito de compañía. Este correo electrónico se envía al administrador de la empresa. Plantilla predeterminada: `Credit Limit Allocated` |
 | [!UICONTROL Updated Email Template] | Vista de tienda | Plantilla de correo electrónico que se utiliza de forma predeterminada cuando se actualiza el límite de crédito de una empresa. Este correo electrónico se envía al administrador de la empresa. Plantilla predeterminada: `Credit Limit Updated` |
-| [!UICONTROL Reimbursed Email Template] | Vista de tienda | La plantilla de correo electrónico que se utiliza de forma predeterminada cuando [reembolso](../../b2b/credit-company.md#apply-a-payment-to-a-company-account) se hace a crédito de la compañía. Este correo electrónico se envía al administrador de la empresa. Plantilla predeterminada: `Credit Reimbursed` |
+| [!UICONTROL Reimbursed Email Template] | Vista de tienda | La plantilla de correo electrónico que se usa de manera predeterminada cuando se hace un [reembolso](../../b2b/credit-company.md#apply-a-payment-to-a-company-account) al crédito de la compañía. Este correo electrónico se envía al administrador de la empresa. Plantilla predeterminada: `Credit Reimbursed` |
 | [!UICONTROL Refunded Email Template] | Vista de tienda | La plantilla de correo electrónico que se utiliza de forma predeterminada cuando se devuelve una cantidad de un pedido al crédito de la empresa. Este correo electrónico se envía al administrador de la empresa. Plantilla predeterminada: `Order Refunded to Company Credit` |
 | [!UICONTROL Reverted Email Template] | Vista de tienda | Plantilla de correo electrónico que se utiliza de forma predeterminada cuando se revierte un pedido a crédito de la compañía. Este correo electrónico se envía al administrador de la empresa. Plantilla predeterminada: `Order Reverted to Company Credit` |
 

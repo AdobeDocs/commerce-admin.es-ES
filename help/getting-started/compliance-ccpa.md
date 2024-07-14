@@ -5,7 +5,7 @@ exl-id: 165c8b78-683e-4015-b3c4-d3211750799e
 feature: Compliance
 source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
 workflow-type: tm+mt
-source-wordcount: '2260'
+source-wordcount: '2256'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 0%
 >
 >Esta información es uno de una serie de temas para ayudar a los comerciantes y desarrolladores de Adobe Commerce a comprender las implicaciones de la Ley de Privacidad del Consumidor de California. La información se basa en el texto del estatuto. Para confirmar si la CCPA se aplica a su negocio, consulte con su abogado.
 
-El [California Consumer Privacy Act][5] (CCPA) amplía los derechos de los consumidores de California para determinar cómo se recopila, almacena y utiliza su información personal. Su énfasis es la protección de los consumidores de la venta o intercambio no autorizado o de su información personal. La CCPA se promulgó en 2018 y entró en vigor el 1 de enero de 2020.
+La [Ley de Privacidad del Consumidor de California][5] (CCPA) amplía los derechos de los consumidores de California para determinar cómo se recopila, almacena y utiliza su información personal. Su énfasis es la protección de los consumidores de la venta o intercambio no autorizado o de su información personal. La CCPA se promulgó en 2018 y entró en vigor el 1 de enero de 2020.
 
 La CCPA otorga los siguientes derechos nuevos a los consumidores:
 
-- **Derecho a saber** las categorías de información personal sobre ellos que se ha recopilado, utilizado, compartido o vendido en los últimos 12 meses.
+- **Derecho a conocer** las categorías de información personal sobre ellos que se han recopilado, utilizado, compartido o vendido en los últimos 12 meses.
 - **Derecho a eliminar** ciertos tipos de información personal que posee una empresa y/o sus proveedores de servicios.
-- **Derecho de exclusión** de la venta de sus datos personales.
-- **Derecho a la no discriminación** en términos de precio o servicio por haber ejercido un derecho de privacidad conforme a la CCPA.
+- **Derecho de exclusión** de la venta de su información personal.
+- **Derecho a la no discriminación** en términos de precio o servicio por haber ejercido un derecho de privacidad según CCPA.
 
 A efectos de la CCPA, la información personal en este contexto se define como:
 
@@ -31,7 +31,7 @@ A efectos de la CCPA, la información personal en este contexto se define como:
 
 A este respecto, abarca ciertos elementos de datos que no pueden considerarse datos personales en el contexto de otras leyes o regulaciones. Los comerciantes deben tener esto en cuenta al determinar si deben cumplir con la ley y cómo deben hacerlo.
 
-La CCPA también exige a las empresas que proporcionen _seguridad razonable_, e incluye disposiciones ampliadas de protección de datos para los consumidores, incluido el derecho a emprender acciones legales si se produce una violación de datos.
+La CCPA también requiere que las empresas proporcionen _seguridad razonable_, e incluye disposiciones ampliadas de protección de datos para los consumidores, incluido el derecho a iniciar acciones legales si se produce una violación de datos.
 
 Consulte con su asesor legal para determinar si debe cumplir con cualquier requisito de la CCPA que pueda ser aplicable a usted y a su empresa y cómo debe hacerlo. Esto incluye los nuevos requisitos de notificación, exclusión y mantenimiento de registros que las empresas deben implementar de acuerdo con la ley.
 
@@ -49,22 +49,22 @@ Esta sección proporciona una descripción de alto nivel de los pasos necesarios
 
 ### RGPD y CCPA
 
-Si su empresa está obligada a cumplir con las dos [Reglamento general de protección de datos](compliance-gdpr.md) (RGPD) y la CCPA, puede utilizar parte del trabajo de su programa de cumplimiento del RGPD para la CCPA. Aunque las regulaciones tienen algunas similitudes, algunas diferencias incluyen:
+Si su empresa debe cumplir con el [Reglamento General de Protección de Datos](compliance-gdpr.md) (RGPD) y la CCPA, puede usar parte del trabajo de su programa de cumplimiento del RGPD para la CCPA. Aunque las regulaciones tienen algunas similitudes, algunas diferencias incluyen:
 
 - La definición de información personal difiere según la normativa.
 - El RGPD requiere que los consumidores acepten la inclusión antes de que sus datos personales puedan utilizarse para determinados fines; la CCPA otorga a los consumidores el derecho de exclusión.
 - La CCPA incluye requisitos adicionales de asignación e inventario de datos.
 - Las regulaciones tienen diferentes requisitos de política de privacidad.
 
-Las empresas que cumplan con el RGPD podrían tener obligaciones adicionales según la CCPA. Para obtener más información, consulte la [Hoja informativa de CCPA][3]{:target=&quot;_blank&quot;}.
+Las empresas que cumplan con el RGPD podrían tener obligaciones adicionales según la CCPA. Para obtener más información, consulte la [Hoja informativa de la CCPA][3]{:target=&quot;_blank&quot;}.
 
 ### Plan de cumplimiento
 
-Se requiere un esfuerzo coordinado para elaborar y aplicar un plan para abordar el cumplimiento. Utilice esta hoja de ruta como guía para movilizar recursos y priorizar tareas para que pueda avanzar en varios frentes. El proceso es esencialmente el mismo para todos [!DNL Commerce] instalaciones, con la siguiente excepción:
+Se requiere un esfuerzo coordinado para elaborar y aplicar un plan para abordar el cumplimiento. Utilice esta hoja de ruta como guía para movilizar recursos y priorizar tareas para que pueda avanzar en varios frentes. El proceso es esencialmente el mismo para todas las instalaciones de [!DNL Commerce], con la siguiente excepción:
 
-- **Adobe Commerce en la infraestructura en la nube**: Comerciantes con tiendas alojadas en el Adobe [infraestructura en la nube][4]{:target=&quot;_blank&quot;} puede solicitar ayuda a su administrador de cuentas técnico de Adobe Commerce o a la asistencia al cliente para responder a las solicitudes de los consumidores.
+- **Adobe Commerce Adobe en la infraestructura en la nube**: Los comerciantes con tiendas alojadas en la [infraestructura en la nube][4]{:target=&quot;_blank&quot;} pueden pedir ayuda a su administrador de cuentas técnico de Adobe Commerce o al servicio de atención al cliente para responder a las solicitudes de los consumidores.
 
-- **On-Premise**: Los comerciantes con instalaciones on-premise de Adobe Commerce o Magento Open Source deben desarrollar sus propios procesos y herramientas para responder y administrar las solicitudes de los consumidores relacionadas con las normas de privacidad.
+- **Local**: los comerciantes con instalaciones locales de Adobe Commerce o Magento Open Source deben desarrollar sus propios procesos y herramientas para responder y administrar las solicitudes de los consumidores relacionadas con las normas de privacidad.
 
 #### Paso 1: Reunir un equipo interfuncional para abordar el cumplimiento de la normativa
 
@@ -89,9 +89,9 @@ Haga un inventario de sus propiedades digitales, incluidas todas las integracion
 
    - **Público**: Listas de deseos, críticas de productos
 
-   - **Privado**: Información del cliente, Información del pedido, Puntos de recompensa, Registro de regalos, Libreta de direcciones, Crédito de la tienda, Métodos de pago, Acuerdos de facturación, Suscripciones a boletines informativos, Invitaciones.
+   - **Privado**: Información Del Cliente, Información Del Pedido, Puntos De Recompensa, Registro De Regalos, Libreta De Direcciones, Crédito De Tienda, Métodos De Pago, Contratos De Facturación, Suscripciones A Boletines Informativos, Invitaciones.
 
-     Si su [!DNL Commerce] la instalación se ha personalizado, por lo que podría recopilarse información personal adicional. La información personal también puede residir en [galletas](./compliance-cookie-law.md), etiquetas y otras tecnologías que recopilan información.
+     Si se ha personalizado la instalación de [!DNL Commerce], podría recopilarse información personal adicional. La información personal también puede residir en [cookies](./compliance-cookie-law.md), etiquetas y otras tecnologías que recopilan información.
 
 1. Identifique a las partes con las que comparte datos. La lista debe incluir proveedores de servicios y terceros. Los terceros incluyen redes publicitarias, proveedores de servicios de Internet, proveedores de análisis de datos, entidades gubernamentales, sistemas operativos y plataformas, redes sociales y distribuidores de datos de consumo que no recopilan directamente información personal de sus consumidores.
 
@@ -99,13 +99,13 @@ Haga un inventario de sus propiedades digitales, incluidas todas las integracion
 
      Compruebe la configuración predeterminada de Google Universal Analytics, Google Tag Manager y cualquier otro servicio de datos que utilice, y realice los cambios necesarios para cumplir con la normativa. Para obtener más información, consulte [Configuración de privacidad de Google](../merchandising-promotions/google-tools.md#google-privacy-settings).
 
-   - **Otros terceros**: entidades con las que comparte o vende datos de consumo. Por ejemplo, podría compartir datos de consumidores con una red de publicidad a cambio de publicidad.
+   - **Otros terceros**: Entidades con las que comparte o vende datos de consumidores. Por ejemplo, podría compartir datos de consumidores con una red de publicidad a cambio de publicidad.
 
 #### Paso 3: Asignar el recorrido del cliente y el proceso de recopilación de datos en sus tiendas
 
 **Partes interesadas:** Experiencia del usuario, tecnología de la información, soporte administrativo
 
-1. Identificar cada punto del [recorrido del cliente] dónde se recopila la información personal y el tipo de información que se recopila en cada paso.
+1. Identifique cada punto del [recorrido del cliente] donde se recopila información personal y el tipo de información que se recopila en cada paso.
 
    Se debe notificar a los visitantes del sitio con antelación o en el momento de la recopilación de datos. Por ejemplo, una tienda sin integraciones personalizadas recopila información personal cuando se crea una cuenta de cliente y durante el cierre de compra. Si su tienda tiene integraciones personalizadas, es posible que haya elementos de datos y atributos adicionales que identificar.
 
@@ -122,11 +122,11 @@ Haga un inventario de sus propiedades digitales, incluidas todas las integracion
 
 Desde la perspectiva de la gestión de datos, cada solicitud de información personal implica a las siguientes partes:
 
-- **Sujetos de datos** (Consumidores): Según la CCPA, cualquier persona en California que proporcione información personal para realizar una compra o para mantener una cuenta de cliente puede enviar una solicitud para acceder a sus datos personales o eliminarlos.
+- **Sujetos de datos** (consumidores): según la CCPA, cualquier persona en California que proporcione información personal para realizar una compra o mantener una cuenta de cliente, puede enviar una solicitud para acceder a sus datos personales o eliminarlos.
 
-- **Entidades que actúan como empresas en el ámbito de la CCPA** (Marcas): [!DNL Commerce] los comerciantes recopilan y almacenan información personal de sus clientes e invitados que realizan compras en sus tiendas.
+- **Entidades que actúan como empresas en el ámbito de la CCPA** (marcas): [!DNL Commerce] comerciantes recopilan y almacenan información personal de sus clientes e invitados que realizan compras en sus tiendas.
 
-- **Procesador de datos** (Proveedores de tecnología): Adobe Commerce y Magento Open Source actúan como procesadores de los datos personales almacenados como parte de los servicios prestados a los comerciantes. Como encargado del tratamiento, el Adobe procesa los datos personales de acuerdo con los permisos e instrucciones del comerciante, según el acuerdo de licencia.
+- **Procesador de datos** (proveedores de tecnología): Adobe Commerce y Magento Open Source actúan como procesadores de los datos personales almacenados como parte de los servicios proporcionados a los comerciantes. Como encargado del tratamiento, el Adobe procesa los datos personales de acuerdo con los permisos e instrucciones del comerciante, según el acuerdo de licencia.
 
 Los comerciantes son responsables de lo siguiente:
 
@@ -140,9 +140,9 @@ Los comerciantes son responsables de lo siguiente:
 
 1. Establezca procedimientos de respuesta y documente cada una de las siguientes solicitudes:
 
-   - **Solicitudes de información** - Los visitantes de su tienda deben ser informados de cualquier acuerdo que tenga para vender o compartir su información personal con terceros, y se les permitirá optar por no participar. Los detalles de su uso de la información personal, y las partes con las que comparte o vende datos se pueden mantener en su política de privacidad.
+   - **Solicitudes para saber**: se debe informar a los visitantes de su tienda de cualquier acuerdo que tenga para vender o compartir su información personal con terceros y se les debe permitir excluirse. Los detalles de su uso de la información personal, y las partes con las que comparte o vende datos se pueden mantener en su política de privacidad.
 
-   - **Solicitudes de exclusión** - Si los datos personales se venden o transfieren a terceros a cambio de una consideración valiosa, la CCPA requiere una _No vender mi información_ vínculo en cada punto donde se recopile. Se pueden utilizar controles de entrada adicionales habilitados por el usuario, como casillas de verificación y botones, en las comunicaciones por correo electrónico, la configuración de preferencias de sitios web o en los formularios de sitios web en el momento de la recopilación de datos para que las personas envíen una solicitud de exclusión válida.
+   - **Solicitudes de exclusión**: si los datos personales se venden o transfieren a terceros a cambio de una consideración valiosa, la CCPA requiere un vínculo de _No vender mi información_ en cada punto donde se recopilen. Se pueden utilizar controles de entrada adicionales habilitados por el usuario, como casillas de verificación y botones, en las comunicaciones por correo electrónico, la configuración de preferencias de sitios web o en los formularios de sitios web en el momento de la recopilación de datos para que las personas envíen una solicitud de exclusión válida.
 
    - **Solicitudes para eliminar**
 
@@ -151,17 +151,17 @@ Los comerciantes son responsables de lo siguiente:
 
 #### Paso 5: escribir el contenido para las notificaciones requeridas al cliente
 
-**Partes interesadas:** Legal, Servicio al cliente, Experiencia del usuario, Tecnología de la información, Soporte administrativo
+**Partes interesadas:** asistencia legal, servicio al cliente, experiencia del usuario, tecnología de la información, soporte administrativo
 
 1. En colaboración con su asesor legal, determine los tipos de avisos que deben agregarse a su sitio web para cumplir con las obligaciones de la CCPA.
 
-   - **Aviso de colección**: Un aviso dado en o antes del momento en que se recopila la información personal del consumidor. El aviso debe escribirse en un lenguaje sencillo y ser fácil de entender para la persona promedio. El aviso debe ser visible y se debe proporcionar en uno o más idiomas que el contenido del sitio web.
+   - **Aviso de colección**: Un aviso que se da en el momento en que se recopila la información personal del consumidor o antes de este. El aviso debe escribirse en un lenguaje sencillo y ser fácil de entender para la persona promedio. El aviso debe ser visible y se debe proporcionar en uno o más idiomas que el contenido del sitio web.
 
-   - **Aviso de derecho de exclusión**: un aviso que informa a los consumidores de su derecho a excluirse de la venta de su información personal.
+   - **Aviso de derecho de exclusión**: Un aviso que informa a los consumidores de su derecho a no participar en la venta de su información personal.
 
    - **Aviso de incentivo financiero**: Un aviso que explica cada incentivo financiero, precio o diferencia de servicio que su compañía recibe a cambio de información personal.
 
-   - **Cómo enviar una solicitud de recopilación y uso de información personal**: Instrucciones para que las personas envíen una solicitud para que usted divulgue la información personal que ha recopilado sobre la persona, que incluye:
+   - **Cómo enviar una solicitud de recopilación y uso de información personal**: instrucciones para que las personas envíen una solicitud de que usted divulgue la información personal que ha recopilado sobre la persona, incluyendo:
 
       - Información personal específica que ha recopilado sobre el consumidor
       - Categorías de información personal que ha recopilado sobre el consumidor
@@ -178,27 +178,27 @@ Los comerciantes son responsables de lo siguiente:
 
 #### Paso 6: Revisar los acuerdos con los proveedores de servicios
 
-**Partes interesadas:** Asistencia legal y administrativa
+**Partes interesadas:** asistencia legal y administrativa
 
 Revise y, si es necesario, actualice todos los contratos de proveedor de servicios para reflejar los requisitos de la CCPA.
 
 #### Paso 7: Actualizar la política de privacidad
 
-**Partes interesadas:** Asistencia legal y administrativa
+**Partes interesadas:** asistencia legal y administrativa
 
 Revise su política de privacidad actual y considere qué divulgaciones adicionales son necesarias, si las hay.
 
-- **Uso de información personal**: Debe revelar qué información personal se recopila y los incentivos financieros que reciba a cambio de la venta de información personal. También es necesario que explique cómo se permite el incentivo según la CCPA y cómo se calcula el valor de la información personal.
+- **Uso de información personal**: debe revelar qué información personal se recopila y los incentivos financieros que reciba a cambio de la venta de información personal. También es necesario que explique cómo se permite el incentivo según la CCPA y cómo se calcula el valor de la información personal.
 
-- **Edad del consentimiento**: Si recopila o utiliza información personal sobre menores, puede estar sujeto a los siguientes requisitos:
+- **Edad del consentimiento**: Si recopila o usa información personal sobre menores, puede estar sujeto a los siguientes requisitos:
 
-   - **Menores &lt; 13**: Se requiere la autorización de los padres para que los menores de 13 años se incluyan en la venta de su información personal.
+   - **Menores &lt; 13**: se requiere la autorización de los padres para que los menores de 13 años se incluyan en la venta de su información personal.
 
-   - **Menores de 13 a &lt; 16 años**: Los menores de 13 y menos de 16 años de edad pueden optar por la venta de su información personal, siempre que la empresa establezca un proceso razonable para documentar la acción. El proceso debe describirse en el [política de privacidad](privacy-policy.md). Cuando una empresa recibe solicitudes de menores de este rango de edad, debe informarles de su derecho a optar por la exclusión más tarde y explicarles cómo hacerlo.
+   - **Menores de 13 a &lt; 16**: Los menores de 13 años y menores de 16 años pueden optar por la venta de su información personal, siempre y cuando el negocio establezca un proceso razonable para documentar la acción. El proceso debe describirse en la [política de privacidad](privacy-policy.md) de la compañía. Cuando una empresa recibe solicitudes de menores de este rango de edad, debe informarles de su derecho a optar por la exclusión más tarde y explicarles cómo hacerlo.
 
   >[!IMPORTANT]
   >
-  >Los comerciantes tienen prohibido almacenar los datos personales de los niños en [!DNL Commerce] plataforma o sistemas. Si hay motivos para creer que los datos recopilados pertenecen a un menor de edad, deben eliminarse de un [!DNL Commerce] plataforma inmediatamente para evitar el incumplimiento de los términos de licencia de Adobe.
+  >Los comerciantes tienen prohibido almacenar los datos personales de los niños en la plataforma o los sistemas [!DNL Commerce]. Si hay razones para creer que los datos recopilados pertenecen a un menor, deben eliminarse de una plataforma de [!DNL Commerce] inmediatamente para evitar el incumplimiento de los términos de licencia de Adobe.
 
 #### Paso 8: Documentar todos los procedimientos relacionados y mantener registros
 

@@ -1,30 +1,30 @@
 ---
 title: 'Diseño: columna'
-description: Obtenga información acerca del tipo de contenido Columna, utilizado para dividir una página en varias columnas en la [!DNL Page Builder] escenario.
+description: Obtenga información acerca del tipo de contenido Columna, utilizado para dividir una página en varias columnas en el escenario  [!DNL Page Builder] .
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
 source-git-commit: 63b620f2af106108c672a9a91cb66923c5231c53
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1574'
 ht-degree: 0%
 
 ---
 
 # Diseño: columna
 
-Utilice el _Columna_ tipo de contenido para dividir una página en varias columnas en la [[!DNL Page Builder] stage](workspace.md#stage). Cuando se agrega una columna a una fila o pestaña o directamente al escenario, el grupo de columnas se divide inicialmente en dos columnas de igual ancho. Puede agregar o quitar columnas según sea necesario. Se puede cambiar el tamaño de una columna arrastrando el borde entre dos columnas. La anchura de la siguiente columna se ajusta para rellenar el espacio disponible dentro de la fila, la pestaña o el escenario. Una sola columna amplía el ancho completo del escenario o su contenedor.
+Utilice el tipo de contenido _Column_ para dividir una página en varias columnas en la [[!DNL Page Builder] fase](workspace.md#stage). Cuando se agrega una columna a una fila o pestaña o directamente al escenario, el grupo de columnas se divide inicialmente en dos columnas de igual ancho. Puede agregar o quitar columnas según sea necesario. Se puede cambiar el tamaño de una columna arrastrando el borde entre dos columnas. La anchura de la siguiente columna se ajusta para rellenar el espacio disponible dentro de la fila, la pestaña o el escenario. Una sola columna amplía el ancho completo del escenario o su contenedor.
 
-![Adición de una columna](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
+![Agregando una columna](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## Actualizaciones en la versión 2.4.5
 
-Las funciones de Page Builder se actualizan en la versión 2.4.5 para que los usuarios ahora utilicen _[!DNL Columns]_como contenedor principal para columnas individuales. Este nuevo contenedor también admite propiedades para el fondo y elimina la necesidad de ajustar las columnas en una fila. Reduce el marcado innecesario y proporciona un control más preciso sobre la visualización y la experiencia de la tienda.
+Las funcionalidades de Page Builder se actualizaron en la versión 2.4.5 para que los usuarios ahora usen _[!DNL Columns]_como contenedor principal para columnas individuales. Este nuevo contenedor también admite propiedades para el fondo y elimina la necesidad de ajustar las columnas en una fila. Reduce el marcado innecesario y proporciona un control más preciso sobre la visualización y la experiencia de la tienda.
 
-Puede cambiar el diseño de la [!DNL Columns] contenedor arrastrando una columna por encima o por debajo de otras columnas del grupo y apilándolas. Esto abre una nueva variedad de posibles combinaciones de diseños que se pueden lograr sin necesidad de que los desarrolladores los personalicen.
+Puede cambiar el diseño del contenedor [!DNL Columns] arrastrando una columna por encima o por debajo de otras columnas del grupo y apilarlas. Esto abre una nueva variedad de posibles combinaciones de diseños que se pueden lograr sin necesidad de que los desarrolladores los personalicen.
 
-Vea este vídeo para ver una demostración de cómo [!DNL Columns] El contenedor se puede utilizar para restringir los diseños de página:
+Vea este vídeo para ver una demostración de cómo se puede utilizar el contenedor [!DNL Columns] para restringir los diseños de página:
 
 >[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12)
 
@@ -34,17 +34,17 @@ Cada columna tiene una caja de herramientas de opciones que aparece al pasar el 
 
 | Herramienta | Icono | Descripción |
 |--- |--- |--- |
-| Mover | ![Icono Mover](./assets/pb-icon-move.png){width="25"} | Mueve la columna y su contenido a otra posición en relación con otras columnas. |
+| Mover | ![Icono de mover](./assets/pb-icon-move.png){width="25"} | Mueve la columna y su contenido a otra posición en relación con otras columnas. |
 | (etiqueta) | Columna | Identifica el contenedor actual como una columna. Pase el ratón sobre el contenedor de columnas para ver el cuadro de herramientas. |
 | Configuración | ![Icono de configuración](./assets/pb-icon-settings.png){width="25"} | Abre la página Editar columna, donde puede cambiar las propiedades del contenedor. |
-| Duplicar | ![Icono Duplicar](./assets/pb-icon-duplicate.png){width="25"} | Realiza una copia de la columna actual. |
-| Eliminar | ![Icono Eliminar](./assets/pb-icon-remove.png){width="25"} | Elimina la columna actual y su contenido. |
+| Duplicar | ![Icono duplicado](./assets/pb-icon-duplicate.png){width="25"} | Realiza una copia de la columna actual. |
+| Eliminar | ![Quitar icono](./assets/pb-icon-remove.png){width="25"} | Elimina la columna actual y su contenido. |
 
 {style="table-layout:auto"}
 
 ## Cuadrícula de columnas
 
-El [rejilla](workspace.md) garantiza que el contenido se alinee de forma coherente en una columna y ayuda a que la página se represente correctamente tanto en el escritorio como en los dispositivos móviles. Para obtener más información, consulte la [Herramientas de contenido avanzadas](setup.md) de la sección [!DNL Page Builder] configuración.
+La [cuadrícula](workspace.md) garantiza que el contenido se alinee de manera consistente en una columna y ayuda a que la página se represente correctamente tanto en el escritorio como en los dispositivos móviles. Para obtener más información, consulte la sección [Herramientas de contenido avanzadas](setup.md) de la configuración de [!DNL Page Builder].
 
 ![Divisiones de cuadrícula en una fila con una columna](./assets/pb-layout-column-one-grid.png){width="500" zoomable="yes"}
 
@@ -54,17 +54,17 @@ En el siguiente ejemplo de dos columnas, los números entre paréntesis (6/12) e
 
 ## Añadir una columna
 
-1. En el [!DNL Page Builder] panel debajo de _[!UICONTROL Layout]_, arrastre un **[!UICONTROL Column]**al escenario.
+1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un(a)**[!UICONTROL Column]**al escenario.
 
-   ![Arrastrar una columna al escenario](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
+   ![Arrastrando una columna al escenario](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
    El grupo de columnas ahora se divide en dos columnas de igual anchura. Cada columna es un contenedor independiente para el contenido y tiene su propio conjunto de opciones de cuadro de herramientas.
 
    ![Dos columnas iguales](./assets/pb-layout-columns-two-empty.png){width="600" zoomable="yes"}
 
-1. En la esquina superior izquierda del grupo de columnas, haga clic en _Cuadrícula_ herramienta (![Control de cuadrícula](./assets/pb-icon-grid-control.png)) y ajuste el tamaño de la cuadrícula según sea necesario.
+1. En la esquina superior izquierda del grupo de columnas, haga clic en la herramienta _Cuadrícula_ (![Control de cuadrícula](./assets/pb-icon-grid-control.png)) y ajuste el tamaño de la cuadrícula según sea necesario.
 
-   Colocar el contenido en la cuadrícula ayuda a alinear el contenido de forma coherente y procesa la página correctamente tanto en el escritorio como en los dispositivos móviles. Para obtener más información, consulte la [Herramientas de contenido avanzadas](../configuration-reference/general/content-management.md) de la sección [!DNL Page Builder] configuración.
+   Colocar el contenido en la cuadrícula ayuda a alinear el contenido de forma coherente y procesa la página correctamente tanto en el escritorio como en los dispositivos móviles. Para obtener más información, consulte la sección [Herramientas de contenido avanzadas](../configuration-reference/general/content-management.md) de la configuración de [!DNL Page Builder].
 
    ![Divisiones de cuadrícula en dos columnas](./assets/pb-layout-column-two-grid.png){width="600" zoomable="yes"}
 
@@ -84,13 +84,13 @@ En el siguiente ejemplo de dos columnas, los números entre paréntesis (6/12) e
 
 ## Eliminación de una columna
 
-1. Pase el ratón sobre la columna que quiera quitar para mostrar el cuadro de herramientas y elija la _Eliminar_ ( ![Icono Eliminar](./assets/pb-icon-remove.png){width="20"} ) icono.
+1. Pase el ratón sobre la columna que quiera quitar para mostrar el cuadro de herramientas y elija el icono _Quitar_ (![Quitar icono](./assets/pb-icon-remove.png){width="20"} ).
 
-   ![Cuadro de herramientas Columna](./assets/pb-column-toolbox-remove.png){width="600" zoomable="yes"}
+   ![Cuadro de herramientas de columna](./assets/pb-column-toolbox-remove.png){width="600" zoomable="yes"}
 
-1. Si la columna incluye contenido, haga clic en **[!UICONTROL OK]** para confirmar.
+1. Si la columna contiene contenido, haga clic en **[!UICONTROL OK]** para confirmar.
 
-   Para acelerar el proceso en el futuro, puede omitir el paso de confirmación seleccionando la **[!UICONTROL Do not show this again]** casilla de verificación
+   Para acelerar el proceso en el futuro, puede omitir el paso de confirmación seleccionando la casilla de verificación **[!UICONTROL Do not show this again]**.
 
    El grupo de columnas ahora tiene una sola columna (12/12) y cuadrícula. Dado que la cuadrícula sólo está disponible para columnas, puede utilizar esta técnica para mostrarla.
 
@@ -98,23 +98,23 @@ En el siguiente ejemplo de dos columnas, los números entre paréntesis (6/12) e
 
 1. Si desea que el grupo de columnas amplíe la columna restante hasta el ancho completo de la fila o etapa:
 
-   - Pase el ratón sobre la columna para mostrar el cuadro de herramientas y elegir la _Configuración_ ( ![Icono de configuración](./assets/pb-icon-settings.png){width="20"} ) icono.
+   - Pase el ratón sobre la columna para ver el cuadro de herramientas y elija el icono _Configuración_ ( ![icono Configuración](./assets/pb-icon-settings.png){width="20"} ).
 
-   - Desplácese hacia abajo hasta el _[!UICONTROL Advanced]_y establezca las cuatro **[!UICONTROL Padding]**valores para `0`.
+   - Desplácese hacia abajo hasta la sección _[!UICONTROL Advanced]_y establezca los cuatro valores de **[!UICONTROL Padding]**en `0`.
 
-     ![Uso del relleno cero](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
+     ![Con relleno cero](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-   - En la esquina superior derecha, haga clic en **[!UICONTROL Save]** para cerrar el _[!UICONTROL Edit Column]_página.
+   - En la esquina superior derecha, haga clic en **[!UICONTROL Save]** para cerrar la página _[!UICONTROL Edit Column]_.
 
-1. Haga clic en _Cerrar pantalla completa_ ( ![Icono Cerrar pantalla completa](./assets/pb-icon-reduce.png){width="20"} ) icono en la esquina superior derecha del área de trabajo y, a continuación, haga clic en **[!UICONTROL Save]** en la esquina superior derecha.
+1. Haga clic en el icono _Cerrar pantalla completa_ (![Icono de cerrar pantalla completa](./assets/pb-icon-reduce.png){width="20"} ) en la esquina superior derecha del área de trabajo y, a continuación, haga clic en **[!UICONTROL Save]** en la esquina superior derecha.
 
 ## Cambiar configuración de columna
 
-1. Pase el ratón sobre la columna para mostrar el cuadro de herramientas y elegir la _Configuración_ ( ![Icono de configuración](./assets/pb-icon-settings.png){width="20"} ) icono.
+1. Pase el ratón sobre la columna para ver el cuadro de herramientas y elija el icono _Configuración_ ( ![icono Configuración](./assets/pb-icon-settings.png){width="20"} ).
 
-   ![Cuadro de herramientas Columna](./assets/pb-column-toolbox-settings.png){width="600" zoomable="yes"}
+   ![Cuadro de herramientas de columna](./assets/pb-column-toolbox-settings.png){width="600" zoomable="yes"}
 
-1. Cambie el **[!UICONTROL Appearance]** ajustes según sea necesario.
+1. Cambie la configuración de **[!UICONTROL Appearance]** según sea necesario.
 
    - Elija la configuración de alineación que determina la posición de la columna en relación con su contenedor.
 
@@ -127,15 +127,15 @@ En el siguiente ejemplo de dos columnas, los números entre paréntesis (6/12) e
 
      {style="table-layout:auto"}
 
-   - Si es necesario, introduzca el **[!UICONTROL Minimum Height]** para la columna. Por ejemplo, puede establecer la altura mínima para que coincida con la altura de una imagen de fondo.
+   - Si es necesario, escriba **[!UICONTROL Minimum Height]** para la columna. Por ejemplo, puede establecer la altura mínima para que coincida con la altura de una imagen de fondo.
 
-   - Si establece la altura mínima, establezca la variable **[!UICONTROL Vertical Alignment]**  para controlar la posición de los contenedores de contenido que se agregan a la columna (`Top`, `Center`, o `Bottom`).
+   - Si establece la altura mínima, establezca **[!UICONTROL Vertical Alignment]** para controlar la posición de los contenedores de contenido que se agregan a la columna (`Top`, `Center` o `Bottom`).
 
 1. Cambie el fondo del contenido de la columna.
 
-   - **[!UICONTROL Background Color]** - Especifique el color seleccionando una muestra, haciendo clic en el selector de color o introduciendo un nombre de color válido o un valor hexadecimal equivalente. Esta configuración determina el color de fondo de la columna.
+   - **[!UICONTROL Background Color]**: especifique el color eligiendo una muestra, haciendo clic en el selector de color o introduciendo un nombre de color válido o un valor hexadecimal equivalente. Esta configuración determina el color de fondo de la columna.
 
-   - **[!UICONTROL Background Image]** - Si es necesario, utilice las herramientas proporcionadas para elegir una imagen de fondo que aplicar a la columna:
+   - **[!UICONTROL Background Image]**: si es necesario, utilice las herramientas proporcionadas para elegir una imagen de fondo que aplicar a la columna:
 
      | Herramienta | Descripción |
      | ------ | ----------- |
@@ -145,9 +145,9 @@ En el siguiente ejemplo de dos columnas, los números entre paréntesis (6/12) e
 
      {style="table-layout:auto"}
 
-   - **[!UICONTROL Background Mobile Image]** : Si es necesario, utilice las mismas herramientas para elegir una imagen de fondo diferente para utilizarla en la visualización en dispositivos móviles.
+   - **[!UICONTROL Background Mobile Image]**: si es necesario, utilice las mismas herramientas para elegir una imagen de fondo diferente para usarla en dispositivos móviles.
 
-   - **[!UICONTROL Background Size]** - Cambie esta configuración para determinar cómo se escala la imagen de fondo en relación con la anchura de la columna:
+   - **[!UICONTROL Background Size]**: cambie esta configuración para determinar cómo se escala la imagen de fondo en relación con el ancho de la columna:
 
      | Opción | Descripción |
      | ------ | ----------- |
@@ -157,7 +157,7 @@ En el siguiente ejemplo de dos columnas, los números entre paréntesis (6/12) e
 
      {style="table-layout:auto"}
 
-   - **[!UICONTROL Background Position]** : cambie este ajuste para determinar el punto de ancla de la imagen en relación con la columna. Opciones: `Top Left`, `Top Center`, `Top Right`, `Center Left`, `Center`, `Center Right`, `Bottom Left`, `Bottom Center`, o `Bottom Right`
+   - **[!UICONTROL Background Position]**: cambie esta configuración para determinar el punto de anclaje de la imagen en relación con la columna. Opciones: `Top Left`, `Top Center`, `Top Right`, `Center Left`, `Center`, `Center Right`, `Bottom Left`, `Bottom Center` o `Bottom Right`
 
    - **[!UICONTROL Background Attachment]** - Cambie esta configuración para determinar cómo se mueve la imagen de fondo en relación con la página de desplazamiento:
 
@@ -168,11 +168,11 @@ En el siguiente ejemplo de dos columnas, los números entre paréntesis (6/12) e
 
      {style="table-layout:auto"}
 
-   - **[!UICONTROL Background Repeat]** - Si desea repetir la imagen de fondo para rellenar el espacio, cambie este ajuste `Yes`.
+   - **[!UICONTROL Background Repeat]**: si desea repetir la imagen de fondo para rellenar el espacio, cambie esta configuración `Yes`.
 
-1. Actualice el _[!UICONTROL Advanced]_ajustes según sea necesario.
+1. Actualice la configuración de _[!UICONTROL Advanced]_según sea necesario.
 
-   - Para controlar la posición horizontal de los contenedores de contenido que se añaden a la columna, elija un **[!UICONTROL Alignment]**:
+   - Para controlar la posición horizontal de los contenedores de contenido que se agregan a la columna, elija un **[!UICONTROL Alignment]**:
 
      | Opción | Descripción |
      | ------ | ----------- |
@@ -183,7 +183,7 @@ En el siguiente ejemplo de dos columnas, los números entre paréntesis (6/12) e
 
      {style="table-layout:auto"}
 
-   - Configure las variables **[!UICONTROL Border]** estilo, que se aplica a los cuatro lados del contenedor de columnas:
+   - Establezca el estilo **[!UICONTROL Border]**, que se aplica a los cuatro lados del contenedor de columnas:
 
      | Opción | Descripción |
      | ------ | ----------- |
@@ -200,7 +200,7 @@ En el siguiente ejemplo de dos columnas, los números entre paréntesis (6/12) e
 
      {style="table-layout:auto"}
 
-   - Si establece un estilo de borde distinto de `None`, complete las opciones de visualización de bordes:
+   - Si establece un estilo de borde distinto de `None`, complete las opciones de visualización de borde:
 
      | Opción | Descripción |
      | ------ |------------ |
@@ -210,11 +210,11 @@ En el siguiente ejemplo de dos columnas, los números entre paréntesis (6/12) e
 
      {style="table-layout:auto"}
 
-   - (Opcional) Especifique los nombres de **[!UICONTROL CSS classes]** de la hoja de estilos actual para aplicarla al contenedor de columnas.
+   - (Opcional) Especifique los nombres de **[!UICONTROL CSS classes]** de la hoja de estilos actual para aplicarlos al contenedor de columnas.
 
      Separe los distintos nombres de clase con un espacio.
 
-   - Introduzca valores, en píxeles, para **[!UICONTROL Margins and Padding]** para especificar los márgenes externos y el relleno interno de la columna.
+   - Escriba valores, en píxeles, para que **[!UICONTROL Margins and Padding]** especifique los márgenes exteriores y el margen interior de la columna.
 
      Introduzca cada valor correspondiente en el diagrama de contenedor de columnas.
 
@@ -225,4 +225,4 @@ En el siguiente ejemplo de dos columnas, los números entre paréntesis (6/12) e
 
      {style="table-layout:auto"}
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]** para aplicar la configuración de y volver a [!DNL Page Builder] workspace.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]** para aplicar la configuración y volver al área de trabajo [!DNL Page Builder].

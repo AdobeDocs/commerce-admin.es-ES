@@ -19,16 +19,16 @@ Esta guía está dirigida al personal de servicio de atención al cliente que tr
 | Asunto | Descripción |
 | ------- | ----------- |
 | [Introducción](customers-introduction.md) | Información general sobre el uso de las funciones de administración de clientes en el administrador de Commerce. |
-| Herramientas de administración de clientes | Aprenda a utilizar el [[!UICONTROL Customers] rejilla](customers-all.md) y [[!UICONTROL Now Online] característica](now-online.md) en el Administrador de Commerce, que puede utilizar para administrar los clientes de la tienda. |
-| Cuentas de cliente | Aprenda a proporcionar una experiencia óptima para los clientes registrados en la tienda, desde [inicios de sesión](login-landing-page.md) hasta [rests de contraseña](password-reset.md), y [proporcionar asistencia al comprador](login-as-customer.md). |
-| [Personalización a escala](personalize-scale.md) | Obtenga información acerca de las funciones disponibles para personalizar la experiencia de compra para cada punto de contacto del cliente en función del contexto inmediato y el comportamiento observado anteriormente. |
-| [[!DNL Audience Activation]](audience-activation.md) | Obtenga información acerca de [!DNL Audience Activation] extensión de que permite activar audiencias de Real-Time CDP en Adobe Commerce para informar sobre ofertas únicas en el carro de compras, bloques dinámicos y productos relacionados. |
+| Herramientas de administración de clientes | Aprenda a usar la cuadrícula [[!UICONTROL Customers]](customers-all.md) y la característica [[!UICONTROL Now Online]](now-online.md) en el administrador de Commerce que puede usar para administrar a los clientes de su tienda. |
+| Cuentas de cliente | Aprenda a proporcionar una experiencia óptima a los clientes registrados en la tienda, desde [inicios de sesión](login-landing-page.md) hasta [reposos de contraseña](password-reset.md) y [proporcionar asistencia al comprador](login-as-customer.md). |
+| [Personalization a escala](personalize-scale.md) | Obtenga información acerca de las funciones disponibles para personalizar la experiencia de compra para cada punto de contacto del cliente en función del contexto inmediato y el comportamiento observado anteriormente. |
+| [[!DNL Audience Activation]](audience-activation.md) | Obtenga información acerca de la extensión [!DNL Audience Activation] que le permite activar audiencias de Real-Time CDP en Adobe Commerce para informar ofertas únicas en el carro de compras, bloques dinámicos y productos relacionados. |
 | [Grupos de clientes](customer-groups.md) | Aprenda a utilizar grupos de clientes para determinar qué descuentos están disponibles para los clientes asignados a un grupo y la clase de impuestos asociada al grupo. |
 | [Segmentos de cliente](customer-segments.md) | Defina segmentos de clientes que pueda utilizar para mostrar dinámicamente contenido y promociones a clientes específicos, en función de varias propiedades. |
 
 >[!TIP]
 >
->Adobe Commerce B2B le permite mantener cuentas de empresa vinculadas a cuentas de cliente de tiendas individuales. Para obtener más información sobre la función de cuentas de empresa, consulte la [Guía del usuario de Adobe Commerce B2B](../b2b/account-companies.md).
+>Adobe Commerce B2B le permite mantener cuentas de empresa vinculadas a cuentas de cliente de tiendas individuales. Para obtener más información acerca de la característica de cuentas de compañía, consulte la [Guía del usuario de Adobe Commerce B2B](../b2b/account-companies.md).
 
 ## Documentación adicional
 

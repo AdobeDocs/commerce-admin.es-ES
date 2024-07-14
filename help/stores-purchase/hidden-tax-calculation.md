@@ -5,7 +5,7 @@ exl-id: be2000b1-09d7-4a28-814a-f5da7591e387
 feature: Invoices, Taxes
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ _Impuesto oculto_ es el importe de IVA que tiene un importe de descuento. Es dis
 - El tipo de IVA no es cero
 - Hay un descuento presente
 
-Cuando hay un descuento con impuestos incorporados, Commerce calcula un _impuesto oculto_ que se vuelve a añadir para calcular el precio con descuento.
+Cuando hay un descuento con impuestos incorporados, Commerce calcula un _impuesto oculto_ que se vuelve a agregar para calcular el precio con descuento.
 
 `discountedItemPrice = fullPriceWithoutTax - discountAmountOnFullPriceWithoutTax + vatAmountOnDiscountedPrice + hiddenTax`
 
@@ -34,22 +34,22 @@ Cuando hay un descuento con impuestos incorporados, Commerce calcula un _impuest
 - Precio del artículo antes de impuestos sin descuento=100/1.2=83.33 USD
 - Descuento=83,33 \ *0,1=8,33 USD
 - Impuesto=(83.33-8.33) \ *0.2=**15 USD (no válido)**
-- Total del pedido, impuestos excluidos=83.33-8.33=**75 USD (no válido)**
+- Total de pedido sin impuestos=83.33-8.33=**75 USD (no válido)**
 - Total de pedido con impuestos incluidos=75+15=**90 USD (no válido)**
 
 ### Resultado real válido en el carro
 
-![Cálculo de Impuestos Ocultos en el Carro](./assets/hidden-tax.png){width="700" zoomable="yes"}
+![Cálculo de impuestos ocultos en el carro](./assets/hidden-tax.png){width="700" zoomable="yes"}
 
 ### Cálculos válidos
 
-1. El precio total del artículo sin impuestos es: $100 / 1.2 = **83,33 $**
+1. El precio total del artículo sin impuestos es: $100 / 1.2 = **$83.33**
 
 1. El importe de IVA del precio total del artículo es de: 100 $ - 83,33 $ = 16,67 $
 
-   _También se puede calcular como: 100 $ \ * (1 - 1/1,2)._
+   _También se puede calcular como: $100 \ * (1 - 1/1.2)._
 
-1. Descuento del 10% en $83.33 es: **8,33 USD** (cuando no se descuenta el impuesto)
+1. El descuento del 10% en $83.33 es: **$8.33** (cuando no se descuenta el impuesto)
 
 1. El precio con descuento del artículo con impuestos es: $100 - $8.33 = $91.67
 
@@ -59,18 +59,18 @@ Cuando hay un descuento con impuestos incorporados, Commerce calcula un _impuest
 
 1. El precio con descuento del artículo sin impuestos es: $91.67 / 1.2 = $76.39
 
-1. El importe de IVA en el precio con descuento es: $91.67 - $76.39 = **15,28 $ (válido)**
+1. El importe de IVA del precio con descuento es: $91.67 - $76.39 = **$15.28 (válido)**
 
-   _También se puede calcular como: 91,67 $ \ * (1 - 1/1,2)._
+   _También se puede calcular como: $91.67 \ * (1 - 1/1.2)._
 
-1. Impuesto oculto o _Compensación fiscal de descuento_ es la diferencia entre el importe de IVA del precio total y el precio con descuento: 16,67 $ - 15,28 $ = **1,39 USD**
+1. Impuestos ocultos o _Compensación fiscal por descuento_ es la diferencia entre el importe de IVA del precio total y el precio con descuento: $16,67 - $15,28 = **$1,39**
 
    _Otra forma de verlo: el impuesto oculto es el importe de IVA incluido en el descuento de 8,33 $: 8,33 $ \* (1 - 1/1,2)._
 
 1. Cómo el cliente suele entender el precio con descuento (Total del pedido):
 
-   _Precio total del artículo, impuestos incluidos **menos**el importe del descuento: de 100 a 8,33 $ = 91,67 $_
+   _Precio total del artículo que incluye impuestos **menos**el importe del descuento: $100 - $8.33 = $91.67_
 
-1. **Cómo calcula Commerce el precio de descuento** (consulte la fórmula anteriormente):
+1. **Cómo calcula Commerce el precio con descuento** (consulta la fórmula anteriormente):
 
    _$83.33 - $8.33 + 15.28 + 1.39 =**$91.67***_

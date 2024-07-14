@@ -11,20 +11,20 @@ ht-degree: 0%
 
 # Introducción a la administración de clientes
 
-El _[!UICONTROL Customers]_El menú proporciona acceso a las herramientas de administración de cuentas de cliente y le permite ver quién está en línea en su tienda.
+El menú _[!UICONTROL Customers]_proporciona acceso a las herramientas de administración de cuentas de clientes y permite ver quién está conectado en la tienda.
 
-![Menú Clientes](assets/admin-menu-customers.png){width="300" zoomable="yes"}
+![Menú de clientes](assets/admin-menu-customers.png){width="300" zoomable="yes"}
 
-## Mostrar el [!UICONTROL Customers] menú
+## Mostrar el menú [!UICONTROL Customers]
 
-En el _Administrador_ barra lateral, haga clic en [!UICONTROL Customers] para mostrar las opciones de menú:
+En la barra lateral _Admin_, haga clic en [!UICONTROL Customers] para mostrar las opciones de menú:
 
 | Campo | Descripción |
 |---|---|
-| [!UICONTROL All Customers] | Enumera todos [clientes](../customers/customers-all.md) que se han registrado para obtener una cuenta en su tienda o que el administrador ha añadido. |
-| [!UICONTROL Now Online] | Enumera todos los clientes y visitantes que están actualmente en [en línea](../customers/now-online.md) en su tienda. |
-| [!UICONTROL Segments] | Enumera las [segmentos del cliente](../customers/customer-segments.md) que se utilizan para mostrar dinámicamente contenido y promociones a clientes específicos en función de varias propiedades. |
-| [!UICONTROL Customer Groups] | El [grupos de clientes](../customers/customer-groups.md) determine qué descuentos están disponibles para los compradores y la clase de impuestos de la compra. |
-| [!UICONTROL Companies] | (Requiere Adobe Commerce B2B) Muestra todas las páginas activas [cuentas de empresa](../b2b/account-companies.md) y las solicitudes pendientes, independientemente de la configuración de estado, y proporciona las herramientas utilizadas para crear y [administrar](../b2b/account-company-manage.md) cuentas de empresa. |
+| [!UICONTROL All Customers] | Enumera a todos [los clientes](../customers/customers-all.md) que se han registrado para obtener una cuenta en su tienda o que el administrador agregó. |
+| [!UICONTROL Now Online] | Enumera todos los clientes y visitantes que están [en línea](../customers/now-online.md) actualmente en su tienda. |
+| [!UICONTROL Segments] | Enumera los [segmentos de clientes](../customers/customer-segments.md) que se usan para mostrar contenido y promociones de manera dinámica a clientes específicos según diversas propiedades. |
+| [!UICONTROL Customer Groups] | Los [grupos de clientes](../customers/customer-groups.md) determinan qué descuentos están disponibles para los compradores y la clase de impuestos de la compra. |
+| [!UICONTROL Companies] | (Requiere Adobe Commerce B2B) Enumera todas las [cuentas de compañía](../b2b/account-companies.md) activas y las solicitudes pendientes, independientemente de la configuración de estado, y proporciona las herramientas utilizadas para crear y [administrar](../b2b/account-company-manage.md) cuentas de compañía. |
 
 {style="table-layout:auto"}

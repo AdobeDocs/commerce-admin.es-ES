@@ -1,6 +1,6 @@
 ---
 title: 'Añadir contenido: bloque dinámico'
-description: Obtenga información acerca del tipo de contenido Bloque dinámico, utilizado para agregar un bloque dinámico reutilizable a [!DNL Page Builder] escenario.
+description: Obtenga información acerca del tipo de contenido Bloque dinámico, utilizado para agregar un bloque dinámico reutilizable al escenario  [!DNL Page Builder] .
 exl-id: 04c90f47-9e32-4d34-ac0d-a2f2cec95ffc
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Añadir contenido: bloque dinámico
 
-Utilice el tipo de contenido Bloque dinámico para agregar un existente [bloque dinámico](../content-design/dynamic-blocks.md) a la [[!DNL Page Builder] stage](workspace.md#stage).
+Utilice el tipo de contenido Bloque dinámico para agregar un [bloque dinámico](../content-design/dynamic-blocks.md) existente al [[!DNL Page Builder] escenario](workspace.md#stage).
 
 ![Bloque dinámico en la tienda](./assets/pb-tutorial2-dynamic-block-storefront.png){width="700" zoomable="yes"}
 
@@ -22,12 +22,12 @@ Utilice el tipo de contenido Bloque dinámico para agregar un existente [bloque 
 
 | Herramienta | Icono | Descripción |
 | --------- | ------------- | ----------------- |
-| Mover | ![Icono Mover](./assets/pb-icon-move.png){width="25"} | Mueve el contenedor de bloque y su contenido a otra posición del escenario. |
-| Configuración | ![Icono de configuración](./assets/pb-icon-settings.png){width="25"} | Abre el _Editar bloque_ , donde puede elegir el bloque y cambiar las propiedades del contenedor. |
-| Hide | ![Icono Ocultar](./assets/pb-icon-hide.png){width="25"} | Oculta el contenedor de bloques actual y su contenido. |
+| Mover | ![Icono de mover](./assets/pb-icon-move.png){width="25"} | Mueve el contenedor de bloque y su contenido a otra posición del escenario. |
+| Configuración | ![Icono de configuración](./assets/pb-icon-settings.png){width="25"} | Abre la página _Editar bloque_, donde puede elegir el bloque y cambiar las propiedades del contenedor. |
+| Hide | ![Ocultar icono](./assets/pb-icon-hide.png){width="25"} | Oculta el contenedor de bloques actual y su contenido. |
 | Mostrar | ![Mostrar icono](./assets/pb-icon-show.png){width="25"} | Muestra el contenedor de bloques oculto y su contenido. |
-| Duplicar | ![Icono Duplicar](./assets/pb-icon-duplicate.png){width="25"} | Realiza una copia del contenedor de bloques y de su contenido. |
-| Eliminar | ![Icono Eliminar](./assets/pb-icon-remove.png){width="25"} | Elimina el contenedor de bloques y su contenido del escenario. |
+| Duplicar | ![Icono duplicado](./assets/pb-icon-duplicate.png){width="25"} | Realiza una copia del contenedor de bloques y de su contenido. |
+| Eliminar | ![Quitar icono](./assets/pb-icon-remove.png){width="25"} | Elimina el contenedor de bloques y su contenido del escenario. |
 
 {style="table-layout:auto"}
 
@@ -35,29 +35,29 @@ Utilice el tipo de contenido Bloque dinámico para agregar un existente [bloque 
 
 ## Añadir un bloque dinámico existente al escenario
 
-1. Vaya a [!DNL Page Builder] espacio de trabajo en la página, bloque, producto o categoría de destino.
+1. Vaya al área de trabajo [!DNL Page Builder] en la página, bloque, producto o categoría de destino.
 
-1. En el [!DNL Page Builder] panel, expandir **[!UICONTROL Add Content]** y arrastre un **[!UICONTROL Dynamic Block]** marcador de posición al escenario.
+1. En el panel [!DNL Page Builder], expanda **[!UICONTROL Add Content]** y arrastre un marcador de posición **[!UICONTROL Dynamic Block]** al escenario.
 
-   ![Arrastrar un marcador de posición de bloque dinámico al escenario](./assets/pb-dynamic-block-drag.png){width="600" zoomable="yes"}
+   ![Arrastrando un marcador de posición de bloque dinámico al escenario](./assets/pb-dynamic-block-drag.png){width="600" zoomable="yes"}
 
-1. Pase el ratón sobre el contenedor de bloques dinámicos vacío para mostrar el cuadro de herramientas y elegir el _Configuración_ ( ![Icono de configuración](./assets/pb-icon-settings.png){width="20"} ) icono.
+1. Pase el ratón sobre el contenedor de bloques dinámicos vacío para mostrar la caja de herramientas y elija el icono _Configuración_ ( ![icono Configuración](./assets/pb-icon-settings.png){width="20"} ).
 
-   ![Cuadro de herramientas Bloque dinámico](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
+   ![Cuadro de herramientas de bloques dinámicos](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
 
-1. En el _Editar bloque dinámico_ página, haga clic en **[!UICONTROL Select Dynamic Block]** y utilice la lista para seleccionar el bloque.
+1. En la página _Editar bloque dinámico_, haga clic en **[!UICONTROL Select Dynamic Block]** y use la lista para seleccionar el bloque.
 
-   ![Selección de un bloque dinámico](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
+   ![Seleccionar un bloque dinámico](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
 
    En la lista, busque el bloque dinámico que desea insertar y haga clic en **[!UICONTROL Select]**. A continuación, haga clic en **[!UICONTROL Add Selected]**.
 
-   ![Selección de un bloque dinámico en la lista](./assets/pb-add-content-dynamic-block-select-list.png){width="600" zoomable="yes"}
+   ![Seleccionar un bloque dinámico en la lista](./assets/pb-add-content-dynamic-block-select-list.png){width="600" zoomable="yes"}
 
    A continuación, aparece un resumen de la información del bloque dinámico.
 
    ![Resumen de bloques dinámicos](./assets/pb-add-content-dynamic-block-summary.png){width="600" zoomable="yes"}
 
-1. Establecer **[!UICONTROL Template]** a uno de los siguientes:
+1. Establezca **[!UICONTROL Template]** en una de las siguientes opciones:
 
    | Opción | Descripción |
    | ------ | ----------- |
@@ -70,11 +70,11 @@ Utilice el tipo de contenido Bloque dinámico para agregar un existente [bloque 
 
 1. Complete la Configuración avanzada según sea necesario.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]** para aplicar la configuración de y volver a [!DNL Page Builder] workspace.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]** para aplicar la configuración y volver al área de trabajo [!DNL Page Builder].
 
 ### Configuración avanzada
 
-1. Para controlar la posición del bloque dinámico dentro del contenedor principal, elija una **[!UICONTROL Alignment]**:
+1. Para controlar la posición del bloque dinámico dentro del contenedor principal, elija un **[!UICONTROL Alignment]**:
 
    | Opción | Descripción |
    | ------ | ----------- |
@@ -85,7 +85,7 @@ Utilice el tipo de contenido Bloque dinámico para agregar un existente [bloque 
 
    {style="table-layout:auto"}
 
-1. Configure las variables **[!UICONTROL Border]** estilo que se aplica a los cuatro lados del contenedor de bloques dinámico:
+1. Establezca el estilo **[!UICONTROL Border]** que se aplica a los cuatro lados del contenedor de bloques dinámico:
 
    | Opción | Descripción |
    | ------ | ----------- |
@@ -102,7 +102,7 @@ Utilice el tipo de contenido Bloque dinámico para agregar un existente [bloque 
 
    {style="table-layout:auto"}
 
-1. Si establece un estilo de borde distinto de `None`, complete las opciones de visualización de bordes:
+1. Si establece un estilo de borde distinto de `None`, complete las opciones de visualización de borde:
 
    | Opción | Descripción |
    | ------ |------------ |
@@ -112,11 +112,11 @@ Utilice el tipo de contenido Bloque dinámico para agregar un existente [bloque 
 
    {style="table-layout:auto"}
 
-1. (Opcional) Especifique los nombres de **[!UICONTROL CSS classes]** de la hoja de estilos actual para aplicarla al contenedor.
+1. (Opcional) Especifique los nombres de **[!UICONTROL CSS classes]** de la hoja de estilos actual para aplicarlos al contenedor.
 
    Separe los distintos nombres de clase con un espacio.
 
-1. Introduzca valores, en píxeles, para **[!UICONTROL Margins and Padding]** para determinar los márgenes exteriores y el relleno interno del contenedor de bloques dinámico.
+1. Escriba valores, en píxeles, para que **[!UICONTROL Margins and Padding]** determine los márgenes externos y el relleno interno del contenedor de bloques dinámico.
 
    Introduzca los valores correspondientes en el diagrama.
 
@@ -129,31 +129,31 @@ Utilice el tipo de contenido Bloque dinámico para agregar un existente [bloque 
 
 ## Editar configuración del contenedor de bloques dinámicos
 
-1. Pase el ratón sobre el contenedor de bloques dinámicos para mostrar el cuadro de herramientas y elegir el _Configuración_ ( ![Icono de configuración](./assets/pb-icon-settings.png){width="20"} ) icono.
+1. Pase el ratón sobre el contenedor de bloques dinámicos para mostrar la caja de herramientas y elija el icono _Configuración_ ( ![icono Configuración](./assets/pb-icon-settings.png){width="20"} ).
 
-   ![Cuadro de herramientas Bloque dinámico](./assets/pb-add-content-dynamic-block-toolbox.png){width="500" zoomable="yes"}
+   ![Cuadro de herramientas de bloques dinámicos](./assets/pb-add-content-dynamic-block-toolbox.png){width="500" zoomable="yes"}
 
 1. Si es necesario, cambie el bloque dinámico:
 
-   - Haga clic **[!UICONTROL Select Dynamic Block]**.
+   - Haga clic en **[!UICONTROL Select Dynamic Block]**.
 
-     ![Selección de otro bloque dinámico](./assets/pb-add-content-dynamic-block-select.png){width="20"}
+     ![Seleccionar otro bloque dinámico](./assets/pb-add-content-dynamic-block-select.png){width="20"}
 
-   - En la lista de bloques dinámicos activos, haga clic en **[!UICONTROL Select]** para el bloque que desea agregar.
+   - En la lista de bloques dinámicos activos, haga clic en **[!UICONTROL Select]** para el bloque que desee agregar.
 
 1. Actualice los ajustes restantes según sea necesario.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]** para aplicar la configuración de y volver a [!DNL Page Builder] workspace.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]** para aplicar la configuración y volver al área de trabajo [!DNL Page Builder].
 
 ## Duplicación de un bloque dinámico
 
-1. Pase el ratón sobre el contenedor de bloques dinámicos para mostrar el cuadro de herramientas y elegir el _Duplicar_ ( ![Icono Duplicar](./assets/pb-icon-duplicate.png){width="20"} ) icono.
+1. Pase el ratón sobre el contenedor de bloques dinámicos para mostrar la caja de herramientas y elija el icono _Duplicate_ ( ![Icono de duplicado](./assets/pb-icon-duplicate.png){width="20"} ).
 
    El duplicado aparece justo debajo del original.
 
-   ![Duplicación de un bloque dinámico](./assets/pb-add-content-dynamic-block-duplicate.png){width="500" zoomable="yes"}
+   ![Duplicado de un bloque dinámico](./assets/pb-add-content-dynamic-block-duplicate.png){width="500" zoomable="yes"}
 
-1. Para mover el nuevo bloque dinámico a una posición diferente, pase el ratón sobre su contenedor y, a continuación, elija _Mover_ ( ![Icono Mover](./assets/pb-icon-move.png){width="20"} ) en el cuadro de herramientas.
+1. Para mover el nuevo bloque dinámico a una posición diferente, pasa el ratón sobre su contenedor y, a continuación, elige _Mover_ ( ![Icono Mover](./assets/pb-icon-move.png){width="20"} ) en el cuadro de herramientas.
 
 1. Seleccione y arrastre el bloque dinámico hasta que aparezca la guía roja en la nueva posición.
 
@@ -161,6 +161,6 @@ Utilice el tipo de contenido Bloque dinámico para agregar un existente [bloque 
 
 ## Eliminación de un bloque dinámico del escenario
 
-1. Pase el ratón sobre el contenedor de bloques dinámicos para mostrar el cuadro de herramientas y elegir el _Eliminar_ ( ![Icono Eliminar](./assets/pb-icon-remove.png){width="20"} ) icono.
+1. Pase el ratón sobre el contenedor de bloques dinámicos para mostrar la caja de herramientas y elija el icono _Quitar_ ( ![Quitar icono](./assets/pb-icon-remove.png){width="20"} ).
 
 1. Cuando se le pida que confirme, haga clic en **[!UICONTROL OK]**.

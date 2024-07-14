@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Proporcionar asistencia al comprador
 
-A veces, los clientes necesitan ayuda con su pedido. Los administradores de tienda pueden utilizar _Iniciar sesión como cliente_, que les permite ver lo que ve el cliente y realizar actualizaciones para ayudarles.
+A veces, los clientes necesitan ayuda con su pedido. Los administradores de la tienda pueden usar _Iniciar sesión como cliente_, lo cual les permite ver lo que ve el cliente y hacer actualizaciones para ayudarles.
 
 Cualquier acción realizada mientras se inició sesión como cliente se aplica a la cuenta del cliente real.
 
-Cuando está habilitado para un _Administrador_ usuario, el _[!UICONTROL Login as Customer]_aparece en varias páginas:
+Cuando está habilitado para un usuario de _Admin_, el botón _[!UICONTROL Login as Customer]_aparece en varias páginas:
 
 * [Página Editar cliente](../customers/update-account.md)
 * [Página Vista de pedidos](../stores-purchase/order-processing.md)
@@ -24,64 +24,64 @@ Cuando está habilitado para un _Administrador_ usuario, el _[!UICONTROL Login a
 * [Página Vista de Envío](../stores-purchase/shipments.md)
 * [Página de visualización de nota de abono](../stores-purchase/credit-memo-create.md)
 
-![Iniciar sesión como cliente](assets/login-as-customer.png){width="600" zoomable="yes"}
+![Iniciar Sesión Como Cliente](assets/login-as-customer.png){width="600" zoomable="yes"}
 
 ## Habilitar inicio de sesión como cliente
 
-Habilitando _Iniciar sesión como cliente_ requiere que habilite la función en la instancia de Commerce y que, a continuación, habilite el acceso para los usuarios administradores en los permisos de función de usuario.
+Para habilitar _Iniciar sesión como cliente_, es necesario que habilite la característica en la instancia de Commerce y, a continuación, habilite el acceso para los usuarios administradores en los permisos de funciones de usuario.
 
 ### Habilitar la función
 
-1. En la barra lateral de Administración, vaya a  **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral de Administración, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. En el panel izquierdo, expanda **[!UICONTROL Customers]** y elija  **[!UICONTROL Login as Customer]**.
+1. En el panel izquierdo, expanda **[!UICONTROL Customers]** y elija **[!UICONTROL Login as Customer]**.
 
    ![Opciones de configuración: iniciar sesión como cliente](../configuration-reference/customers/assets/login-as-customer.png){width="600" zoomable="yes"}
 
-1. Establecer **[!UICONTROL Enable Login as Customer]** hasta `Yes`.
+1. Establezca **[!UICONTROL Enable Login as Customer]** en `Yes`.
 
-1. _(Opcional)_ Establecer **[!UICONTROL Disable Page Cache for Admin User]** hasta `No` para habilitar la caché de la página cuando el usuario administrador inicie sesión como cliente.
+1. _(Opcional)_ Establezca **[!UICONTROL Disable Page Cache for Admin User]** en `No` para habilitar la caché de la página cuando el usuario administrador inicie sesión como cliente.
 
    >[!WARNING]
    >
-   > Desactivación de la caché de la página (`Yes` - predeterminado) garantiza que el usuario que inicia sesión como cliente obtenga datos nuevos y sin almacenar en caché.
+   > Al deshabilitar la caché de la página (`Yes` - predeterminado) se garantiza que el usuario que inicia sesión como cliente obtenga datos nuevos y sin almacenar en caché.
 
-1. _(Opcional)_ Establecer **[!UICONTROL Store View to Log in]** hasta `Manual Selection` si tiene una configuración de varios sitios o tiendas y desea que el usuario administrador seleccione la vista de la tienda al iniciar sesión como cliente.
+1. _(Opcional)_ Establezca **[!UICONTROL Store View to Log in]** en `Manual Selection` si tiene una configuración de varios sitios o tiendas y desea que el usuario administrador seleccione la vista de la tienda al iniciar sesión como cliente.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 ### Habilitar acceso para usuarios administradores
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL System]** > _Permisos_ > **[!UICONTROL User Roles]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _Permisos_ > **[!UICONTROL User Roles]**.
 
 1. Haga clic en el rol de la lista.
 
-1. En el [!UICONTROL _Información de rol_] panel izquierdo, haga clic en **[!UICONTROL Role Resources]**.
+1. En el panel izquierdo de [!UICONTROL _Información de la función_], haga clic en **[!UICONTROL Role Resources]**.
 
-1. Cambiar **[!UICONTROL Role Resources]** en la página para `Custom`.
+1. Cambiar **[!UICONTROL Role Resources]** en la página a `Custom`.
 
    >[!INFO]
    >
    > Con esta opción seleccionada, la jerarquía de recursos se muestra en la página.
 
-1. Desplácese hasta  **[!UICONTROL Customers]** elemento principal y el **[!UICONTROL Login as Customer]** elemento inferior. A continuación, seleccione los recursos que desea habilitar para la función:
+1. Desplácese hasta el elemento principal **[!UICONTROL Customers]** y el elemento **[!UICONTROL Login as Customer]** inferior. A continuación, seleccione los recursos que desea habilitar para la función:
 
-   * **[!UICONTROL Allow Login as Customer]** - Permite al usuario administrador utilizar el _Iniciar sesión como cliente_ función.
-   * **[!UICONTROL View Login as Customer Log]** - Permite al usuario administrador ver el _Iniciar sesión como cliente_ Registro.
+   * **[!UICONTROL Allow Login as Customer]**: permite al usuario administrador usar la función _Iniciar sesión como cliente_.
+   * **[!UICONTROL View Login as Customer Log]** - Permite al usuario administrador ver el registro de _Iniciar sesión como cliente_.
 
-   ![Recursos de funciones: iniciar sesión como cliente](assets/customers-login-as-customer-role-resources.png){width="400" zoomable="yes"}
+   ![Recursos de rol - Iniciar sesión como cliente](assets/customers-login-as-customer-role-resources.png){width="400" zoomable="yes"}
 
-1. Haga clic **[!UICONTROL Save Role]**.
+1. Haga clic en **[!UICONTROL Save Role]**.
 
 ## Inicie sesión como cliente desde el administrador
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Customers]** > [!UICONTROL _Todos los clientes_].
+1. En la barra lateral de _Administración_, vaya a **[!UICONTROL Customers]** > [!UICONTROL _Todos los clientes_].
 
 1. Abra un usuario en modo de edición.
 
-1. En el **[!UICONTROL Customer Information]** , elija el **[!UICONTROL Account Information]** sección.
+1. En el panel **[!UICONTROL Customer Information]**, elija la sección **[!UICONTROL Account Information]**.
 
-1. Configure las variables **[!UICONTROL Allow remote shopping assistance]** hasta `Yes`.
+1. Establezca **[!UICONTROL Allow remote shopping assistance]** en `Yes`.
 
    >[!INFO]
    >
@@ -91,13 +91,13 @@ Habilitando _Iniciar sesión como cliente_ requiere que habilite la función en 
 
 Para habilitar el acceso a la cuenta para el personal de asistencia técnica de la tienda desde el administrador, los clientes deben habilitar la siguiente función para su cuenta:
 
-1. El cliente va al **[!UICONTROL Account Information]** página.
+1. El cliente va a la página **[!UICONTROL Account Information]**.
 
-1. Selecciona el **[!UICONTROL Allow remote shopping assistance]** casilla de verificación
+1. Selecciona la casilla de verificación **[!UICONTROL Allow remote shopping assistance]**.
 
 1. El cliente hace clic en **[!UICONTROL Save]**.
 
-![Página de información de cuenta](assets/permission.png){width="700" zoomable="yes"}
+![Página de información de la cuenta](assets/permission.png){width="700" zoomable="yes"}
 
 >[!WARNING]
 >
@@ -107,23 +107,23 @@ Para habilitar el acceso a la cuenta para el personal de asistencia técnica de 
 
 >[!INFO]
 >
->Para usar _Iniciar sesión como cliente_, asegúrese de que el administrador está configurado tal como se describió anteriormente.
+>Para usar _Iniciar sesión como cliente_, asegúrese de que su administrador esté configurado tal como se describió anteriormente.
 
-_Iniciar sesión como cliente_ permite ver el sitio tal como lo hace el cliente, así como solucionar problemas y realizar otras acciones para el cliente. Si tiene una función de usuario asignada con los permisos necesarios:
+_Iniciar sesión como cliente_ le permite ver el sitio del mismo modo que lo hace el cliente, así como solucionar problemas y llevar a cabo otras acciones para el cliente. Si tiene una función de usuario asignada con los permisos necesarios:
 
-1. Puede hacer clic en **[!UICONTROL Login as Customer]** en las páginas enumeradas en la sección anterior.
+1. Puede hacer clic en **[!UICONTROL Login as Customer]** en las páginas que aparecen en la sección anterior.
 1. Las acciones Iniciar sesión como cliente están disponibles en el informe Acciones.
 
 >[!WARNING]
 >
->Cualquier acción realizada mientras se inició sesión [!UICONTROL _como cliente_] (como agregar o quitar productos) se aplican al pedido real del cliente. En la tienda, se mostrará un banner cuando esté `logged in as customer_name` para proporcionar un recordatorio del estado especial.
+>Cualquier acción realizada mientras se inició sesión [!UICONTROL _como cliente_] (como agregar o quitar productos) se aplica al pedido real del cliente. En la tienda, se mostrará un banner cuando usted sea `logged in as customer_name` para proporcionar un recordatorio del estado especial.
 
 ## Iniciar sesión como registro de cliente
 
 {{ee-feature}}
 
-Adobe Commerce proporciona un registro para _Iniciar sesión como cliente_ acciones. Enumera todas las sesiones en las que un usuario administrador accede a la función. Para acceder a las acciones registradas, vaya a [Informe de acciones de administrador](../systems/action-log-report.md).
+Adobe Commerce proporciona un registro para las acciones _Iniciar sesión como cliente_. Enumera todas las sesiones en las que un usuario administrador accede a la función. Para acceder a las acciones registradas, vaya a [Informe de acciones de administración](../systems/action-log-report.md).
 
-Puede filtrar la configuración del informe **[!UICONTROL Action Group]** hasta `Login As Customer` en la parte superior de la página y haciendo clic en **[!UICONTROL Search]**.
+Puede filtrar la configuración del informe **[!UICONTROL Action Group]** a `Login As Customer` en la parte superior de la página y hacer clic en **[!UICONTROL Search]**.
 
-![Filtrado del informe de acciones](assets/customers-login-as-customer-log-filter.png){width="700" zoomable="yes"}
+![Filtrar el informe de acciones](assets/customers-login-as-customer-log-filter.png){width="700" zoomable="yes"}

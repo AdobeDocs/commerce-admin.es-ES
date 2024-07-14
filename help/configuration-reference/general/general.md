@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL General] &gt; [!UICONTROL General]'
-description: Revise la configuración de en [!UICONTROL General] &gt; [!UICONTROL General] de la administración de Commerce.
+description: Revise la configuración en la página [!UICONTROL General] &gt; [!UICONTROL General] del administrador de Commerce.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
 source-git-commit: 17006d71d73329abcf7c7d34a0b699172d645fa1
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Country Options]
 
-Consulte [Opciones de país](../../getting-started/store-details.md#country-options) para obtener más información sobre estos campos de configuración y estas opciones.
+Consulte [Opciones de país](../../getting-started/store-details.md#country-options) para obtener más información sobre estos campos y opciones de configuración.
 
 ![General > Opciones de país](./assets/general-country-options.png)<!-- zoom -->
 
@@ -32,20 +32,20 @@ Consulte [Opciones de país](../../getting-started/store-details.md#country-opti
 
 ## [!UICONTROL State Options]
 
-Consulte [Opciones de estado](../../getting-started/store-details.md#state-options) para obtener más información sobre estos campos de configuración y estas opciones.
+Consulte [Opciones de estado](../../getting-started/store-details.md#state-options) para obtener más información sobre estos campos y opciones de configuración.
 
 ![General > Opciones de estado](./assets/general-state-options.png)<!-- zoom -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL State is required for] | Global | Los países (donde realiza negocios) que requieren que se incluya una región o un estado en la dirección postal. |
-| [!UICONTROL Allow to Choose State if It is Optional for Country] | Global | En el caso de países en los que no es obligatorio, determina si la variable _Región o estado_ Este campo se incluye en la dirección postal del cliente.<br /> <br />**`Yes`**- Incluye el _Región o estado_ en la dirección del cliente, aunque el país no lo requiera.<br />**`No`** - Omite el campo Región/Estado de la dirección del cliente si el país no lo requiere. |
+| [!UICONTROL Allow to Choose State if It is Optional for Country] | Global | En el caso de los países donde no es obligatorio, determina si el campo _Región/Estado_ se incluye en la dirección postal del cliente.<br /> <br />**`Yes`**: incluye el campo _Región/Estado_ en la dirección del cliente, aunque el país no lo requiera.<br />**`No`** - Omite el campo Región/Estado de la dirección del cliente si el país no lo requiere. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Locale Options]
 
-Consulte [Opciones de configuración regional](../../getting-started/store-details.md#locale-options) para obtener más información sobre estos campos de configuración y estas opciones.
+Consulte [Opciones de configuración regional](../../getting-started/store-details.md#locale-options) para obtener más información sobre estos campos y opciones de configuración.
 
 ![General > Opciones de configuración regional](./assets/general-locale-options.png)<!-- zoom -->
 
@@ -63,18 +63,18 @@ Consulte [Opciones de configuración regional](../../getting-started/store-detai
 
 {{ee-feature}}
 
-![General > Restricciones de sitios web](./assets/general-website-restrictions.png)<!-- zoom -->
+![General > Restricciones de sitio web](./assets/general-website-restrictions.png)<!-- zoom -->
 
-Para obtener más información sobre cómo cambiar esta configuración, consulte [Restricciones de acceso](../../merchandising-promotions/event-configure.md#access-restrictions) en el _Guía de promociones y comercialización_.
+Para obtener más información acerca de cómo cambiar esta configuración, consulte [Restricciones de acceso](../../merchandising-promotions/event-configure.md#access-restrictions) en la _Guía de promociones y comercialización_.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Access Restriction] | Sitio web | Determina si el sitio web funciona en modo restringido.<br /> <br />**`Yes`**- El acceso al sitio web está restringido de la manera establecida en los campos siguientes.<br />**`No`** - Las restricciones están desactivadas y la siguiente configuración no tiene efecto. |
-| [!UICONTROL Restriction Mode] | Sitio web | Determina el tipo de restricción de acceso que se aplica al sitio web.<br /> <br />**`Website Closed`**: todo acceso a la tienda está restringido y las direcciones URL de la tienda se redirigen temporalmente a la página de aterrizaje. Esta configuración puede resultar útil durante el mantenimiento del sitio o antes del lanzamiento.<br />**`Private Sales: Login Only`** - Solo los clientes registrados pueden iniciar sesión para acceder a la tienda. Todas las URL de la tienda se redirigen temporalmente a la página de aterrizaje especificada o al formulario de inicio de sesión. Los usuarios no pueden crear una cuenta en este modo.<br />**`Private Sales: Login and Register`**- Los usuarios deben iniciar sesión para acceder a la tienda. Todas las URL de tienda se redirigen temporalmente al formulario de inicio de sesión hasta que el usuario inicia sesión. Los usuarios pueden registrarse para obtener una cuenta mientras el sitio se encuentra en este modo. |
-| [!UICONTROL Startup Page] | Vista de tienda | Cuando el sitio web se encuentra en modo de ventas privadas, esta configuración determina la página que aparece hasta que el cliente inicia sesión.<br />  <br />**`To login form`**- Los usuarios son redirigidos al formulario de inicio de sesión hasta que inician sesión.<br />**`To landing page`** - Los usuarios se redirigen a la página estática especificada a continuación hasta que inician sesión.<br /> <br />**_¡Importante!_**Asegúrese de incluir un vínculo a la página de inicio de sesión de la página de aterrizaje especificada para que los clientes puedan iniciar sesión y acceder al sitio completo. |
+| [!UICONTROL Access Restriction] | Sitio web | Determina si el sitio web funciona en modo restringido.<br /> <br />**`Yes`**: el acceso al sitio web está restringido de la manera establecida en los campos siguientes.<br />**`No`**: las restricciones están deshabilitadas y la siguiente configuración no tiene ningún efecto. |
+| [!UICONTROL Restriction Mode] | Sitio web | Determina el tipo de restricción de acceso que se aplica al sitio web.<br /> <br />**`Website Closed`**: todo acceso a la tienda está restringido y las direcciones URL de la tienda se redirigen temporalmente a la página de aterrizaje. Esta configuración puede resultar útil durante el mantenimiento del sitio o antes del lanzamiento.<br />**`Private Sales: Login Only`**: solo los clientes registrados pueden iniciar sesión para acceder a la tienda. Todas las URL de la tienda se redirigen temporalmente a la página de aterrizaje especificada o al formulario de inicio de sesión. Los usuarios no pueden crear una cuenta en este modo.<br />**`Private Sales: Login and Register`**: los usuarios deben iniciar sesión para tener acceso a la tienda. Todas las URL de tienda se redirigen temporalmente al formulario de inicio de sesión hasta que el usuario inicia sesión. Los usuarios pueden registrarse para obtener una cuenta mientras el sitio se encuentra en este modo. |
+| [!UICONTROL Startup Page] | Vista de tienda | Cuando el sitio web se encuentra en modo de ventas privadas, esta configuración determina la página que aparece hasta que el cliente inicia sesión.<br />  <br />**`To login form`**: se redirige a los usuarios al formulario de inicio de sesión hasta que inicien sesión.<br />**`To landing page`**: se redirigirá a los usuarios a la página estática especificada a continuación hasta que inicien sesión.<br /> <br />**_¡Importante!_**Asegúrese de incluir un vínculo a la página de inicio de sesión desde la página de aterrizaje especificada para que los clientes puedan iniciar sesión y acceder al sitio completo. |
 | [!UICONTROL Landing Page] | Vista de tienda | Determina la primera página que aparece cuando el sitio web se encuentra en modo Ventas privadas. |
-| [!UICONTROL HTTP Response] | Sitio web | Determina la respuesta HTTP que se envía cuando se cierra el sitio web y un bot, rastreador o araña intenta establecer una conexión.<br /> <br />**`503 Service unavailable`**: la página no está disponible, pero la araña no debe actualizar el índice.<br />**`200 OK`** - La página de aterrizaje es correcta y la araña debe tratarla como la única página del sitio. |
-| [!UICONTROL Enable Autocomplete on login/forgot password forms] | Sitio web | Determina si los campos del _Iniciar sesión_ y _Contraseña olvidada_ los formularios se rellenan automáticamente a partir de entradas anteriores. Opciones: `Yes` / `No` |
+| [!UICONTROL HTTP Response] | Sitio web | Determina la respuesta HTTP que se envía cuando se cierra el sitio web y un bot, rastreador o araña intenta establecer una conexión.<br /> <br />**`503 Service unavailable`**: la página no está disponible, pero la araña no debe actualizar el índice.<br />**`200 OK`**: la página de aterrizaje es correcta y la araña debe tratarla como la única página del sitio. |
+| [!UICONTROL Enable Autocomplete on login/forgot password forms] | Sitio web | Determina si los campos de los formularios _Iniciar sesión_ y _Olvidé la contraseña_ se rellenan automáticamente a partir de las entradas anteriores. Opciones: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -82,7 +82,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 ![General > Información de la tienda](./assets/general-store-information.png)<!-- zoom -->
 
-Para obtener más información sobre cómo cambiar esta configuración, consulte [Información de tienda](../../getting-started/store-details.md) en el _Guía de introducción_.
+Para obtener más información acerca de cómo cambiar esta configuración, consulte [Información de la tienda](../../getting-started/store-details.md) en la _Guía de introducción_.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -101,12 +101,12 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 ## [!UICONTROL Single-Store Mode]
 
-![General > Modo de una sola tienda](./assets/general-single-store-mode.png)<!-- zoom -->
+![General > Modo de tienda única](./assets/general-single-store-mode.png)<!-- zoom -->
 
-Para obtener más información sobre cómo cambiar esta configuración, consulte [Modo de tienda única](../../getting-started/websites-stores-views.md#single-store-mode) en el _Guía de introducción_.
+Para obtener más información sobre cómo cambiar esta configuración, consulte [Modo de tienda única](../../getting-started/websites-stores-views.md#single-store-mode) en la _Guía de introducción_.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Enable Single-Store Mode] | Global | Cuando se habilita para instalaciones de una sola tienda, oculta el cuadro Ámbito de configuración y las etiquetas de campo relacionadas Opciones: `Yes` / `No` <br/>**_Nota:_**El modo de tienda única se omite en las tiendas con más de una vista.<br/> Al habilitar el modo de tienda única, se copiarán todos los datos específicos del catálogo y del almacén de productos de la vista de almacén predeterminada en todo el ámbito de la vista de almacén. Solo copiará los datos de catálogo y producto si la tienda solo tiene una vista de tienda. Si la tienda tiene una vista de tienda deshabilitada y una vista de tienda habilitada, no se copiarán los datos del catálogo y del producto.<br/> Al habilitar el modo de almacenamiento único, se omiten las opciones de configuración específicas de la vista de tienda para los datos específicos del contenido. En su lugar, utiliza ajustes de configuración definidos en el ámbito de nivel global para garantizar la coherencia entre la IU de administración y la tienda. |
+| [!UICONTROL Enable Single-Store Mode] | Global | Cuando se habilita para instalaciones de una sola tienda, oculta el cuadro Ámbito de configuración y las etiquetas de campo relacionadas Opciones: `Yes` / `No` <br/>**_Nota:_**El modo de una sola tienda se omite para tiendas con más de una vista.<br/> Al habilitar el modo de un solo almacén, se copiarán todos los datos específicos del catálogo y del almacén de productos de la vista de almacén predeterminada en todo el ámbito de la vista de almacén. Solo copiará los datos de catálogo y producto si la tienda solo tiene una vista de tienda. Si la tienda tiene una vista de tienda deshabilitada y una vista de tienda habilitada, no se copiarán los datos del catálogo y del producto.<br/> Al habilitar el modo de tienda única se omiten las opciones de configuración específicas de la vista de tienda para los datos específicos del contenido. En su lugar, utiliza ajustes de configuración definidos en el ámbito de nivel global para garantizar la coherencia entre la IU de administración y la tienda. |
 
 {style="table-layout:auto"}

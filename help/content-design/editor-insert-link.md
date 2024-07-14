@@ -11,31 +11,31 @@ ht-degree: 0%
 
 # Inserción de un vínculo en el editor
 
-Una forma sencilla de insertar un vínculo es utilizar _Vínculo_ botón en el [editor](editor.md) barra de herramientas. No requiere ningún conocimiento de HTML y el resultado es el mismo.
+Una manera fácil de insertar un vínculo es usar el botón _Vínculo_ de la barra de herramientas de [editor](editor.md). No requiere ningún conocimiento de HTML y el resultado es el mismo.
 
 1. Seleccione el texto en el que desea crear el vínculo.
 
-1. Haga clic en _Insertar/editar vínculo_ en la barra de herramientas del editor.
+1. Haga clic en el icono _Insertar/editar vínculo_ en la barra de herramientas del editor.
 
-   ![Barra de herramientas del editor: Insertar vínculo](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
+   ![Barra de herramientas del editor - Insertar vínculo](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
 
-   Esta acción abre el _[!UICONTROL Insert link]_diálogo.
+   Esta acción abre el diálogo _[!UICONTROL Insert link]_.
 
    ![Editor - Cuadro de diálogo Insertar vínculo](./assets/editor-dialog-insert-link.png){width="250" zoomable="yes"}
 
-1. Para **[!UICONTROL Url]**, introduzca una de las siguientes opciones:
+1. Para **[!UICONTROL Url]**, escriba una de las siguientes opciones:
 
    - La clave URL de una página de su tienda.
 
    - Dirección URL completa de una página externa que se va a vincular.
 
-1. Si es necesario, modifique la **[!UICONTROL Text to display]**.
+1. Si es necesario, modifique **[!UICONTROL Text to display]**.
 
    El valor predeterminado es el texto seleccionado para el vínculo. Puede cambiarlo en el cuadro de texto.
 
-1. Para **[!UICONTROL Title]**, introduzca el texto de información de objeto que aparecerá cuando alguien pase el ratón sobre el vínculo.
+1. Para **[!UICONTROL Title]**, escriba el texto de información de objeto que aparecerá cuando alguien pase el ratón sobre el vínculo.
 
-1. Establecer **[!UICONTROL Target]** a uno de los siguientes:
+1. Establezca **[!UICONTROL Target]** en una de las siguientes opciones:
 
    - `Open link in the same window`
 

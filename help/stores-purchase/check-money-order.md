@@ -12,49 +12,49 @@ ht-degree: 0%
 
 # Cheques y giro postal
 
-Adobe Commerce y Magento Open Source permiten aceptar pagos mediante cheque o giro postal. El _Cheque / giro postal_ la forma de pago está activada de forma predeterminada en tu tienda. Solo puede aceptar cheques y giros postales de países específicos, y puede ajustar la configuración con límites totales de pedidos mínimos y máximos.
+Adobe Commerce y Magento Open Source permiten aceptar pagos mediante cheque o giro postal. El método de pago _cheque / giro postal_ está habilitado para tu tienda de forma predeterminada. Solo puede aceptar cheques y giros postales de países específicos, y puede ajustar la configuración con límites totales de pedidos mínimos y máximos.
 
 **_Para configurar el pago mediante cheque o giro postal:_**
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Payment Methods]**.
 
-1. En _[!UICONTROL Other Payment Methods]_, expanda ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Check / Money Order]**sección.
+1. En _[!UICONTROL Other Payment Methods]_, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Check / Money Order]**.
 
    ![Cheque / giro postal](../configuration-reference/sales/assets/payment-methods-check-money-order.png){width="600" zoomable="yes"}
 
-   Para obtener una descripción detallada de cada una de estas opciones de configuración, consulte [Cheque / giro postal](../configuration-reference/sales/payment-methods.md#check--money-order) en el _Guía de referencia de configuración_.
+   Para obtener una descripción detallada de cada una de estas opciones de configuración, consulte [Cheque / giro postal](../configuration-reference/sales/payment-methods.md#check--money-order) en la _Guía de referencia de configuración_.
 
    >[!NOTE]
    >
-   >Si es necesario, borre primero la **[!UICONTROL Use system value]** para cambiar esta configuración.
+   >Si es necesario, primero borre la casilla de verificación **[!UICONTROL Use system value]** para cambiar esta configuración.
 
-1. Para aceptar el pago mediante cheque o giro postal, establezca **[!UICONTROL Enabled]** hasta `Yes`.
+1. Para aceptar el pago mediante cheque o giro postal, establezca **[!UICONTROL Enabled]** en `Yes`.
 
-1. Para **[!UICONTROL Title]**, introduzca un título que identifique el método de pago del cheque/giro postal durante el pago.
+1. Para **[!UICONTROL Title]**, escriba un título que identifique el método de pago del cheque o giro postal durante el cierre de compra.
 
-1. Si las solicitudes suelen esperar la aprobación, acepte el valor predeterminado **[!UICONTROL New Order Status]** as `Pending"` hasta que se apruebe.
+1. Si los pedidos suelen esperar la aprobación, acepte el valor predeterminado **[!UICONTROL New Order Status]** como `Pending"` hasta que se apruebe.
 
-   Si lo prefiere, puede utilizar el `Processing` o `Suspected Fraud` estado de los nuevos pedidos con esta forma de pago.
+   Si lo prefiere, puede utilizar el estado `Processing` o `Suspected Fraud` para nuevos pedidos con esta forma de pago.
 
-1. Establecer **[!UICONTROL Payment from Applicable Countries]** a uno de los siguientes:
+1. Establezca **[!UICONTROL Payment from Applicable Countries]** en una de las siguientes opciones:
 
-   - `All Allowed Countries` - Clientes de todos [países](../getting-started/store-details.md#country-options) especificado en la configuración de tu tienda puede utilizar este método de pago.
-   - `Specific Countries` - Después de elegir esta opción, la variable _[!UICONTROL Payment from Specific Countries]_aparece una lista. Para seleccionar varios países, mantenga pulsada la tecla Ctrl (PC) o la tecla Comando (Mac) y haga clic en cada opción.
+   - `All Allowed Countries`: los clientes de todos los [países](../getting-started/store-details.md#country-options) especificados en la configuración de su tienda pueden usar este método de pago.
+   - `Specific Countries` - Después de elegir esta opción, aparece la lista _[!UICONTROL Payment from Specific Countries]_. Para seleccionar varios países, mantenga pulsada la tecla Ctrl (PC) o la tecla Comando (Mac) y haga clic en cada opción.
 
-1. Para **[!UICONTROL Make Check Payable To]**, introduzca el nombre de la parte a la que debe pagarse el cheque.
+1. Para **[!UICONTROL Make Check Payable To]**, escriba el nombre de la parte a la que debe pagarse el cheque.
 
-1. Para **[!UICONTROL Send Check To]**, introduzca la dirección de la calle o el apartado de correos donde se envían los cheques.
+1. Para **[!UICONTROL Send Check To]**, escriba la dirección de la calle o el apartado de correos donde se enviarán los cheques.
 
-1. Establecer **[!UICONTROL Minimum Order Total]** y **[!UICONTROL Maximum Order Total]** a los importes de pedido necesarios para cumplir los requisitos de este método de pago.
+1. Establezca **[!UICONTROL Minimum Order Total]** y **[!UICONTROL Maximum Order Total]** en los importes de pedido necesarios para calificar para este método de pago.
 
    >[!NOTE]
    >
    >Una solicitud cualifica si el total se encuentra entre los valores totales mínimo o máximo, o si coincide exactamente con ellos.
 
-1. Para **[!UICONTROL Sort Order]**, introduce un número que determina la posición de este artículo en la lista de métodos de pago que se muestra durante el pago y envío.
+1. Para **[!UICONTROL Sort Order]**, escribe un número que determine la posición de este artículo en la lista de métodos de pago que se muestra durante el cierre de compra.
 
    Este número es relativo a las otras formas de pago. (`0` = primero, `1` = segundo, `2` = tercero, etc.)
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.

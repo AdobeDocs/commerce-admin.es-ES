@@ -15,15 +15,15 @@ Al eliminar las existencias, todos los sitios web asignados se asignan a las exi
 
 >[!IMPORTANT]
 >
->Eliminación de un [existencias](stocks-manage.md) puede afectar a las cantidades vendibles y a los pedidos sin procesar de un canal de ventas. Si sigue utilizando un canal de ventas, agregue el canal de ventas a otro inventario existente o nuevo.
+>Eliminar un [inventario](stocks-manage.md) puede afectar las cantidades vendibles y los pedidos sin procesar de un canal de ventas. Si sigue utilizando un canal de ventas, agregue el canal de ventas a otro inventario existente o nuevo.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**.
 
 1. Seleccione uno o más inventarios para eliminar.
 
    Examine o busque y seleccione las casillas de verificación de los inventarios que desee eliminar.
 
-1. Desde el **[!UICONTROL Actions]** menú, seleccione **[!UICONTROL Delete]**.
+1. En el menú **[!UICONTROL Actions]**, seleccione **[!UICONTROL Delete]**.
 
    ![Seleccione Eliminar en el menú Acciones](assets/inventory-stock-delete.png){width="350" zoomable="yes"}
 

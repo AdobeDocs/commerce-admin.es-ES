@@ -16,23 +16,23 @@ La información básica de la cuenta del cliente incluye su nombre, dirección d
 
 ![Información de la cuenta en la tienda](assets/account-dashboard-account-information-storefront.png){width="700" zoomable="yes"}
 
-En la barra lateral de la cuenta, el cliente puede elegir **[!UICONTROL Account Information]** y realice una de las acciones siguientes para actualizar la información de su cuenta.
+En la barra lateral de la cuenta, el cliente puede elegir **[!UICONTROL Account Information]** y realizar cualquiera de las siguientes acciones para actualizar la información de su cuenta.
 
 ## Actualizar el nombre de la cuenta
 
-Para actualizar el nombre de la cuenta, el cliente cambia los valores en la variable **[!UICONTROL First Name]** y **[!UICONTROL Last Name]** campos según sea necesario.
+Para actualizar el nombre de la cuenta, el cliente cambia los valores de los campos **[!UICONTROL First Name]** y **[!UICONTROL Last Name]** según sea necesario.
 
 >[!INFO]
 >
->Los campos adicionales aparecen como parte del nombre si la variable [configuración del cliente](../configuration-reference/customers/customer-configuration.md) incluye un prefijo, una inicial central y un sufijo.
+>Los campos adicionales aparecen como parte del nombre si la [configuración del cliente](../configuration-reference/customers/customer-configuration.md) incluye un prefijo, una inicial media y un sufijo.
 
 ## Cambiar dirección de correo electrónico
 
-1. El cliente selecciona el **[!UICONTROL Change Email]** casilla de verificación
+1. El cliente selecciona la casilla de verificación **[!UICONTROL Change Email]**.
 
-1. Introduce su nuevo **[!UICONTROL Email]** dirección.
+1. Escribe su nueva dirección **[!UICONTROL Email]**.
 
-1. Introduce su **[!UICONTROL Current Password]**.
+1. Escribe su **[!UICONTROL Current Password]**.
 
    ![Cambiar dirección de correo electrónico](assets/account-dashboard-account-information-change-email-address.png){width="700" zoomable="yes"}
 
@@ -40,11 +40,11 @@ Para actualizar el nombre de la cuenta, el cliente cambia los valores en la vari
 
 ## Cambiar contraseña
 
-1. El cliente selecciona el **[!UICONTROL Change Password]** casilla de verificación
+1. El cliente selecciona la casilla de verificación **[!UICONTROL Change Password]**.
 
-1. Introduce su **[!UICONTROL Current Password]**.
+1. Escribe su **[!UICONTROL Current Password]**.
 
-1. Introduce su **[!UICONTROL New Password]**.
+1. Escribe su **[!UICONTROL New Password]**.
 
    >[!INFO]
    >

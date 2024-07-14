@@ -14,15 +14,15 @@ ht-degree: 0%
 
 FedEx es una de las compañías de servicios de transporte marítimo más grandes del mundo, que proporciona servicios de transporte aéreo, de carga y terrestre con varios niveles de prioridades.
 
-![Opciones de envío de FedEx al pagar](./assets/storefront-checkout-shipping-fedex.png){width="700" zoomable="yes"}
+![Opciones de envío de FedEx al finalizar la compra](./assets/storefront-checkout-shipping-fedex.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->FedEx puede utilizar [peso dimensional](carriers.md#dimensional-weight) para determinar algunas tarifas de envío. Sin embargo, Adobe Commerce y Magento Open Source solo admiten el cálculo de los costes de envío en función del peso.
+>FedEx puede usar [peso dimensional](carriers.md#dimensional-weight) para determinar algunas tarifas de envío. Sin embargo, Adobe Commerce y Magento Open Source solo admiten el cálculo de los costes de envío en función del peso.
 
 ## Paso 1: Regístrese para la producción de servicios web de FedEx
 
-A [Cuenta de comerciante de FedEx][1] Se requiere un registro para el acceso de producción a los servicios web de FedEx. Después de crear una cuenta de FedEx, lea la página de información de la cuenta de producción y haga clic en _Obtener clave de producción_ en la parte inferior de la página para registrarse y obtener una clave.
+Se requiere una [cuenta comercial de FedEx][1] y el registro para el acceso de producción a los servicios web de FedEx. Después de crear una cuenta de FedEx, lea la página de información de la cuenta de producción y luego haga clic en el vínculo _Obtener clave de producción_ en la parte inferior de la página para registrarse y obtener una clave.
 
 >[!NOTE]
 >
@@ -30,15 +30,15 @@ A [Cuenta de comerciante de FedEx][1] Se requiere un registro para el acceso de 
 
 ## Paso 2: Habilitar FedEx para su tienda
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Delivery Methods]**.
 
-1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL FedEx]** sección.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL FedEx]**.
 
-1. Establecer **[!UICONTROL Enabled for Checkout]** hasta `Yes`.
+1. Establezca **[!UICONTROL Enabled for Checkout]** en `Yes`.
 
-1. Para **[!UICONTROL Title]**, introduzca un título que identifique el método de envío de FedEx durante el cierre de compra.
+1. Para **[!UICONTROL Title]**, escriba un título que identifique el método de envío de FedEx durante el cierre de compra.
 
 1. Introduzca la siguiente información de su cuenta de FedEx:
 
@@ -46,7 +46,7 @@ A [Cuenta de comerciante de FedEx][1] Se requiere un registro para el acceso de 
    - **[!UICONTROL Api Key]**
    - **[!UICONTROL Secret Key]**
 
-1. Si ha configurado una zona protegida de FedEx y desea trabajar en el entorno de prueba, establezca **[!UICONTROL Sandbox Mode]** hasta `Yes`.
+1. Si ha configurado una zona protegida de FedEx y desea trabajar en el entorno de prueba, establezca **[!UICONTROL Sandbox Mode]** en `Yes`.
 
    >[!NOTE]
    >
@@ -56,29 +56,29 @@ A [Cuenta de comerciante de FedEx][1] Se requiere un registro para el acceso de 
 
 ## Paso 3: Descripción del paquete y gastos de manipulación
 
-1. Establecer **[!UICONTROL Pickup Type]** al método de recogida utilizado para los envíos.
+1. Establezca **[!UICONTROL Pickup Type]** en el método de recogida utilizado para los envíos.
 
-   - `DropOff at Fedex Location` - (Predeterminado) Indica que usted entrega los envíos en su estación local de FedEx.
-   - `Contact Fedex to Schedule` - Indica que se debe contactar con FedEx para solicitar una recogida.
+   - `DropOff at Fedex Location` - (Predeterminado) Indica que entrega envíos en su estación FedEx local.
+   - `Contact Fedex to Schedule`: indica que se ha puesto en contacto con FedEx para solicitar una recogida.
    - `Use Scheduled Pickup` - Indica que el envío se recoge como parte de una recogida programada normal.
-   - `On Call` - Indica que la recogida está programada llamando a FedEx.
-   - `Package Return Program` - Indica que el envío es recogido por el Programa de Devoluciones de Paquete Terrestre de FedEx.
-   - `Regular Stop` - Indica que el envío se recoge en el horario normal de recogida.
-   - `Tag` - Indica que la recogida del envío es específica de una solicitud de recogida de etiquetas Express o Ground call. Esto solo es aplicable a una etiqueta de envío de devolución.
+   - `On Call`: indica que la recogida está programada llamando a FedEx.
+   - `Package Return Program` - Indica que el programa FedEx Ground Package Devuelve el envío.
+   - `Regular Stop` - Indica que el envío se recoge en el horario de recogida habitual.
+   - `Tag` - Indica que la recogida del envío es específica de una solicitud de recogida de etiqueta Express o Ground call. Esto solo es aplicable a una etiqueta de envío de devolución.
 
 1. Para **[!UICONTROL Packages Request Type]**, seleccione el tipo de solicitud que mejor describa sus preferencias al dividir un pedido en varios envíos:
 
    - `Divide to equal weight (one request)`
    - `Use origin weight (few requests)`
 
-1. Para **[!UICONTROL Packaging]**, seleccione el tipo de embalaje de FedEx que normalmente utiliza para enviar productos desde su tienda.
+1. Para **[!UICONTROL Packaging]**, seleccione el tipo de empaque de FedEx que usa normalmente para enviar productos desde su tienda.
 
-1. Establecer **[!UICONTROL Weight Unit]** a la unidad de medida que se utiliza en su configuración regional.
+1. Establezca **[!UICONTROL Weight Unit]** en la unidad de medida que se usa en su configuración regional.
 
    - `Pounds`
    - `Kilograms`
 
-1. Introduzca el **[!UICONTROL Maximum Package Weight]** permitido para envíos de FedEx.
+1. Introduzca los **[!UICONTROL Maximum Package Weight]** permitidos para envíos de FedEx.
 
    El peso máximo predeterminado de FedEx es de 150 libras. Consulte a su transportista para obtener más información. Se recomienda el valor predeterminado, a menos que haya realizado acuerdos especiales con FedEx. Consulte [Peso dimensional](carriers.md#dimensional-weight) para obtener más información.
 
@@ -93,14 +93,14 @@ A [Cuenta de comerciante de FedEx][1] Se requiere un registro para el acceso de 
       - `Fixed Fee`
       - `Percentage`
 
-   - Para **[!UICONTROL Handling Applied]**, elija uno de los siguientes métodos para administrar las tarifas de manipulación:
+   - Para **[!UICONTROL Handling Applied]**, elija uno de los siguientes métodos para administrar las tarifas de administración:
 
       - `Per Order`
       - `Per Package`
 
-   - Introduzca el **[!UICONTROL Handling Fee]** como a `fixed` importe o `percentage`, según el método de cálculo.
+   - Escriba **[!UICONTROL Handling Fee]** como un importe de `fixed` o `percentage`, según el método de cálculo.
 
-1. Establecer **[!UICONTROL Residential Delivery]** a una de las siguientes, en función de si vende de empresa a consumidor (B2C) o de empresa a empresa (B2B).
+1. Establezca **[!UICONTROL Residential Delivery]** en una de las siguientes opciones, en función de si vende de empresa a consumidor (B2C) o de empresa a empresa (B2B).
 
    - `Yes` - Para entregas residenciales B2C.
    - `No` - Para entregas residenciales B2B.
@@ -109,7 +109,7 @@ A [Cuenta de comerciante de FedEx][1] Se requiere un registro para el acceso de 
 
 ## Paso 4: Métodos permitidos y países aplicables
 
-1. Establecer **[!UICONTROL Allowed Methods]** a cada método de envío que desee ofrecer.
+1. Establezca **[!UICONTROL Allowed Methods]** en cada método de envío que desee ofrecer.
 
    Al elegir los métodos, considere su cuenta de FedEx, la frecuencia y el tamaño de sus envíos y si permite envíos internacionales. Puede ofrecer tantos métodos como desee, o tan pocos como desee, como:
 
@@ -118,18 +118,18 @@ A [Cuenta de comerciante de FedEx][1] Se requiere un registro para el acceso de 
    - Opciones nacionales: Express Saver, Ground, First, Overnight, Home Delivery, Standard Overnight
    - Opciones internacionales-Economía internacional, Economía internacional, Flete, Internacional primero, Internacional terrestre, Internacional, Prioridad internacional
    - Opciones de prioridad: flete, prioridad a la vista
-   - Smart Post-If que ofrece el método Smart Post (introduzca la variable **ID de concentrador**)
+   - Smart Post: si ofrece el método Smart Post (escriba el **identificador de concentrador**)
    - Opciones de flete-Flete, Flete nacional
 
-1. Si desea proporcionar un [Envío gratuito](shipping-free.md) a través de FedEx, establezca las opciones de envío gratuitas.
+1. Si desea proporcionar una opción de [envío gratis](shipping-free.md) a través de FedEx, establezca las opciones de envío gratis.
 
-   - Establecer **[!UICONTROL Free Method]** al método que desea utilizar para el envío gratuito. Si no desea ofrecer envío gratuito a través de FedEx, elija `None`.
+   - Establezca **[!UICONTROL Free Method]** en el método que desee utilizar para el envío gratuito. Si no desea ofrecer el envío gratuito a través de FedEx, elija `None`.
 
-   - Para requerir una cantidad mínima de pedido que califique un pedido para el envío gratuito con FedEx, establezca **[!UICONTROL Enable Free Shipping Threshold]** hasta `Enable`. A continuación, introduzca el valor mínimo en **[!UICONTROL Free Shipping Amount Threshold]**.
+   - Para requerir una cantidad mínima de pedido que permita un envío gratuito con FedEx, establezca **[!UICONTROL Enable Free Shipping Threshold]** en `Enable`. A continuación, escriba el valor mínimo en **[!UICONTROL Free Shipping Amount Threshold]**.
 
    Esta configuración es similar a la del método de envío gratuito estándar, pero aparece en la sección FedEx durante el cierre de compra, por lo que los clientes saben qué método se utiliza para su pedido.
 
-1. Si es necesario, cambie el **[!UICONTROL Displayed Error Message]**.
+1. Si es necesario, cambie **[!UICONTROL Displayed Error Message]**.
 
    Este cuadro de texto está preestablecido con un mensaje predeterminado, pero puede escribir un mensaje diferente que desee que aparezca si FedEx deja de estar disponible.
 
@@ -137,27 +137,27 @@ A [Cuenta de comerciante de FedEx][1] Se requiere un registro para el acceso de 
 
 1. Establecer **[!UICONTROL Ship to Applicable Countries]**:
 
-   - `All Allowed Countries` - Clientes de todos [países](../getting-started/store-details.md#country-options) especificado en la configuración de la tienda puede utilizar este método de envío.
+   - `All Allowed Countries`: los clientes de todos los [países](../getting-started/store-details.md#country-options) especificados en la configuración de su tienda pueden usar este método de entrega.
 
-   - `Specific Countries` - Al elegir esta opción, la variable _Enviar a países específicos_ aparece una lista. Seleccione cada país de la lista donde se pueda utilizar este método de entrega.
+   - `Specific Countries` - Al elegir esta opción, aparece la lista _Enviar a países específicos_. Seleccione cada país de la lista donde se pueda utilizar este método de entrega.
 
-1. Si desea mantener un registro de todas las comunicaciones entre su tienda y el sistema de FedEx, establezca **[!UICONTROL Debug]** hasta `Yes`.
+1. Si desea mantener un registro de todas las comunicaciones entre su tienda y el sistema de FedEx, establezca **[!UICONTROL Debug]** en `Yes`.
 
 1. Establecer **[!UICONTROL Show Method if Not Applicable]**:
 
-   - `Yes` - Muestra todos los métodos de envío de FedEx a los clientes, independientemente de su disponibilidad.
-   - `No` - Muestra únicamente los métodos de envío de FedEx que se aplican al pedido.
+   - `Yes`: muestra todos los métodos de envío de FedEx a los clientes, independientemente de su disponibilidad.
+   - `No`: muestra únicamente los métodos de envío de FedEx que se aplican al pedido.
 
-1. Para **[!UICONTROL Sort Order]**, introduzca un número para determinar la secuencia en la que aparece FedEx cuando aparece junto con otros métodos de envío durante el cierre de compra.
+1. Para **[!UICONTROL Sort Order]**, introduzca un número para determinar la secuencia en la que aparece FedEx cuando aparece en la lista con otros métodos de envío durante el cierre de compra.
 
    `0` = primero, `1` = segundo, `2` = tercero, etc.
 
-1. Clic **[!UICONTROL Save Config]**.
+1. Haga clic en **[!UICONTROL Save Config]**.
 
-   ![Países aplicables de FedEx](../configuration-reference/sales/assets/delivery-methods-fedex-applicable-countries.png){width="600" zoomable="yes"}
+   ![Países Aplicables a FedEx](../configuration-reference/sales/assets/delivery-methods-fedex-applicable-countries.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Commerce siempre declara el precio completo del pedido a FedEx cuando calcula los gastos de envío. Este comportamiento no se puede cambiar.
+>Commerce siempre declara el precio total del pedido a FedEx al calcular los gastos de envío. Este comportamiento no se puede cambiar.
 
 [1]: https://www.fedex.com/login/web/jsp/contactInfo1.jsp

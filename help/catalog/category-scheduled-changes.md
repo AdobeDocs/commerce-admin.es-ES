@@ -18,7 +18,7 @@ Las actualizaciones de categoría se pueden aplicar según lo programado y agrup
 
 >[!NOTE]
 >
->El [!UICONTROL Schedule Design Update] se ha eliminado en ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce y no se pueden modificar directamente en la categoría. Debe crear una actualización programada para estas activaciones.
+>La ficha [!UICONTROL Schedule Design Update] se ha quitado en ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce y no se puede modificar directamente en la categoría. Debe crear una actualización programada para estas activaciones.
 
 >[!NOTE]
 >
@@ -26,46 +26,46 @@ Las actualizaciones de categoría se pueden aplicar según lo programado y agrup
 
 ## Programar una actualización a una categoría
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. En el árbol de categorías de la izquierda, elija la categoría que desea modificar.
 
-1. En el _Cambios programados_ en la parte superior de la página, haga clic en **[!UICONTROL Schedule New Update]**.
+1. En el cuadro _Cambios programados_ de la parte superior de la página, haga clic en **[!UICONTROL Schedule New Update]**.
 
    ![Cambios programados](./assets/category-scheduled-changes.png){width="600" zoomable="yes"}
 
-1. Con el **[!UICONTROL Save as a New Update]** opción seleccionada, establezca los parámetros básicos para la actualización:
+1. Con la opción **[!UICONTROL Save as a New Update]** seleccionada, establezca los parámetros básicos para la actualización:
 
-   - Para **[!UICONTROL Update Name]**, introduzca un nombre para la nueva campaña de ensayo de contenido.
+   - Para **[!UICONTROL Update Name]**, escriba un nombre para la nueva campaña de ensayo de contenido.
 
-   - Escriba una descripción breve **[!UICONTROL Description]** de la actualización y cómo se va a utilizar.
+   - Escriba un breve **[!UICONTROL Description]** de la actualización y cómo se va a usar.
 
-   - Utilizar el calendario ( ![Icono de calendario](../assets/icon-calendar.png) ) para elegir la **[!UICONTROL Start Date]** y **[!UICONTROL End Date]** para la campaña.
+   - Use la herramienta Calendario (![Icono de calendario](../assets/icon-calendar.png) ) para elegir **[!UICONTROL Start Date]** y **[!UICONTROL End Date]** para la campaña.
 
    >[!IMPORTANT]
    >
-   >Campaign **[!UICONTROL Start Date]** y **[!UICONTROL End Date]** debe definirse utilizando la variable **_predeterminado_** Zona horaria de administración, que se convierte a partir de la zona horaria local de cada sitio web. Por ejemplo, con varios sitios web en diferentes zonas horarias en los que desee iniciar una campaña en función de una zona horaria de EE. UU., debe programar una actualización independiente para cada zona horaria local. Usted establece el **[!UICONTROL Start Date]** y **[!UICONTROL End Date]** para cada, que se convierte de la zona horaria del sitio web local a la zona horaria del administrador predeterminada.
+   >Las campañas **[!UICONTROL Start Date]** y **[!UICONTROL End Date]** se deben definir usando la zona horaria de administración **_default_**, que se convierte a partir de la zona horaria local de cada sitio web. Por ejemplo, con varios sitios web en diferentes zonas horarias en los que desee iniciar una campaña en función de una zona horaria de EE. UU., debe programar una actualización independiente para cada zona horaria local. Usted establece **[!UICONTROL Start Date]** y **[!UICONTROL End Date]** para cada uno, lo cual se convierte de la zona horaria del sitio web local a la zona horaria de administración predeterminada.
 
    ![Cambios programados](./assets/category-scheduled-changes-new-update.png){width="600" zoomable="yes"}
 
 1. Realice los cambios necesarios en la actualización programada.
 
-1. Para previsualizar los cambios, haga clic en **[!UICONTROL Preview]** en la barra de botones superior derecha.
+1. Para obtener una vista previa de los cambios, haga clic en **[!UICONTROL Preview]** en la barra de botones superior derecha.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
 
 ## Asignar a una actualización existente
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. En el árbol de categorías de la izquierda, elija la categoría que desea modificar.
 
-1. En el _Cambios programados_ en la parte superior de la página, haga clic en **[!UICONTROL Schedule New Update]**.
+1. En el cuadro _Cambios programados_ de la parte superior de la página, haga clic en **[!UICONTROL Schedule New Update]**.
 
-1. Seleccionar **[!UICONTROL Assign to Existing Campaign]**.
+1. Seleccione **[!UICONTROL Assign to Existing Campaign]**.
 
 1. En la lista, busque la campaña necesaria y haga clic en **[!UICONTROL Select]**.
 
 1. Realice los cambios necesarios en la actualización programada.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.

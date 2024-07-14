@@ -18,7 +18,7 @@ La casilla Cambios programados aparece en la parte superior de la página cuando
 
 >[!NOTE]
 >
->El [!UICONTROL From] y [!UICONTROL To] Se han eliminado campos en ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce y no se pueden modificar directamente en la regla de precios de catálogo. Debe crear una actualización programada para estas activaciones.
+>Los campos [!UICONTROL From] y [!UICONTROL To] se han eliminado en ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce y no se pueden modificar directamente en la regla de precios del catálogo. Debe crear una actualización programada para estas activaciones.
 
 >[!NOTE]
 >
@@ -30,23 +30,23 @@ Si se ejecutan varias reglas de precios en la misma campaña, la configuración 
 >
 >Si una campaña que incluye una regla de precio se crea inicialmente sin una fecha de finalización, la campaña no se puede editar más adelante para incluir una fecha de finalización. Se recomienda añadir una fecha de finalización al crear la campaña o crear una versión duplicada de la campaña existente y añadir la fecha de finalización al duplicado según sea necesario.
 
-![Regla de precios de catálogo: cambios programados](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
+![Regla de precios de catálogo - cambios programados](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
 
 ## Programar una actualización a una regla de precios de catálogo
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**Regla de precio de catálogo**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**Regla de precio de catálogo**.
 
 1. Abra la regla en modo de edición.
 
-1. En el **[!UICONTROL Scheduled Changes]** en la parte superior de la página, haga clic en **[!UICONTROL Schedule New Update]**.
+1. En el cuadro **[!UICONTROL Scheduled Changes]** de la parte superior de la página, haga clic en **[!UICONTROL Schedule New Update]**.
 
-1. Con el **[!UICONTROL Save as a New Update]** opción seleccionada, haga lo siguiente:
+1. Con la opción **[!UICONTROL Save as a New Update]** seleccionada, haga lo siguiente:
 
-   - Para **[!UICONTROL Update Name]**, introduzca un nombre para la actualización de la regla.
+   - Para **[!UICONTROL Update Name]**, escriba un nombre para la actualización de la regla.
 
-   - Escriba una descripción breve **[!UICONTROL Description]** de la actualización, incluido cómo y por qué se aplica.
+   - Escriba un breve **[!UICONTROL Description]** de la actualización, incluyendo cómo o por qué se aplica.
 
-   - Utilice el _Calendario_ (![Icono de calendario](../assets/icon-calendar.png)) para elegir el **[!DNL Start Date]** y **[!UICONTROL End Date]** para que el cambio programado entre en vigor. Para crear un cambio abierto, deje en blanco la fecha de finalización.
+   - Use el _Calendario_ (![Icono del calendario](../assets/icon-calendar.png)) para elegir **[!DNL Start Date]** y **[!UICONTROL End Date]** para que el cambio programado entre en vigencia. Para crear un cambio abierto, deje en blanco la fecha de finalización.
 
    ![Reglas de precios de catálogo: nuevos cambios programados](./assets/price-rule-catalog-schedule-update.png){width="600" zoomable="yes"}
 
@@ -54,29 +54,29 @@ Si se ejecutan varias reglas de precios en la misma campaña, la configuración 
    >
    >La fecha y la hora de inicio y finalización están determinadas por la fecha y la zona horaria predeterminadas del panel de administración, no por la zona horaria de un sitio web en particular. Tenga en cuenta la zona horaria del sitio web para determinar correctamente las horas de inicio y finalización. Cree reglas independientes para sitios web en diferentes zonas horarias que necesiten iniciarse o detenerse en horas locales específicas.
 
-1. Desplácese hacia abajo hasta el **[!UICONTROL Rule Information]** y cambie la regla según sea necesario.
+1. Desplácese hacia abajo hasta la sección **[!UICONTROL Rule Information]** y cambie la regla según sea necesario.
 
-   Puede programar cambios para cualquier parámetro de regla, incluidos los sitios web (ámbito)/grupos de clientes para la regla, las condiciones de la regla y las acciones aplicadas por la regla. Para obtener más información, consulte [Creación de una Regla de Precio de Catálogo](price-rules-catalog-create.md).
+   Puede programar cambios para cualquier parámetro de regla, incluidos los sitios web (ámbito)/grupos de clientes para la regla, las condiciones de la regla y las acciones aplicadas por la regla. Para obtener más información, consulte [Creación de una regla de precio de catálogo](price-rules-catalog-create.md).
 
    >[!NOTE]
    >
-   >Si cambia a cualquiera de los parámetros de información de regla, asegúrese de que la variable _[!UICONTROL Status]_está configurado correctamente. Si desea que el cambio genere una regla aplicada activamente, el estado debe ser`Active`.
+   >Si cambia a cualquiera de los parámetros de información de regla, asegúrese de que _[!UICONTROL Status]_está configurado correctamente. Si desea que el cambio genere una regla aplicada activamente, el estado debe ser `Active`.
 
-1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
 
    El cambio programado aparece en la parte superior de la página, con las fechas de inicio y finalización de la campaña.
 
 ## Editar un cambio de regla programado
 
-1. En el **[!UICONTROL Scheduled Changes]** en la parte superior de la página, haga clic en **[!UICONTROL View/Edit]**.
+1. En el cuadro **[!UICONTROL Scheduled Changes]** de la parte superior de la página, haga clic en **[!UICONTROL View/Edit]**.
 
 1. Realice los cambios necesarios en la actualización programada.
 
-1. Clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 ## Previsualizar el cambio de regla programado
 
-1. En el **[!UICONTROL Scheduled Changes]** en la parte superior de la página, haga clic en **[!UICONTROL Preview]**.
+1. En el cuadro **[!UICONTROL Scheduled Changes]** de la parte superior de la página, haga clic en **[!UICONTROL Preview]**.
 
    La vista previa abre una nueva pestaña del explorador que carga la tienda con el cambio programado aplicado. Vaya a un producto afectado por el cambio.
 
@@ -88,11 +88,11 @@ Si se ejecutan varias reglas de precios en la misma campaña, la configuración 
 
    ![Lista de actualizaciones programadas para una fecha específica](./assets/price-rule-catalog-scheduled-preview-calendar.png){width="600" zoomable="yes"}
 
-1. Para obtener una vista previa de un día u hora diferente, haga clic en **[!UICONTROL Date & Time]** calendario ![Icono de calendario](../assets/icon-calendar.png) y haga lo siguiente:
+1. Para obtener una vista previa de un día u hora diferente, haga clic en el ![icono del calendario](../assets/icon-calendar.png) de **[!UICONTROL Date & Time]** y haga lo siguiente:
 
    - Elija una fecha u hora diferente.
 
-   - Clic **[!UICONTROL Preview]**.
+   - Haga clic en **[!UICONTROL Preview]**.
 
 1. Para volver al calendario, haga clic en **[!UICONTROL Calendar]** en el encabezado de la página Vista previa.
 
@@ -104,10 +104,10 @@ Si se ejecutan varias reglas de precios en la misma campaña, la configuración 
 
    >[!NOTE]
    >
-   >Se requiere una cuenta de usuario administrador para ver una vista previa compartida. Si su [la función tiene acceso](../systems/permissions-user-roles.md) para crear una cuenta de usuario Admin, debe crear la cuenta para un usuario nuevo antes de compartir.
+   >Se requiere una cuenta de usuario administrador para ver una vista previa compartida. Si la función [tiene acceso](../systems/permissions-user-roles.md) para crear una cuenta de usuario administrador, debe crear la cuenta para un nuevo usuario antes de compartir.
 
-   **Cambio del ámbito de la vista previa**
+   **Cambiar el ámbito de la vista previa**
 
-   Para ver los cambios programados en las distintas vistas de la tienda, haga clic en **[!UICONTROL Scope]** en el encabezado de la página Vista previa. Elija el sitio web, la tienda o la vista de la tienda que desea previsualizar.
+   Para ver los cambios programados para diferentes vistas de la tienda, haga clic en **[!UICONTROL Scope]** en el encabezado de la página Vista previa. Elija el sitio web, la tienda o la vista de la tienda que desea previsualizar.
 
-1. Si es necesario, vuelva al calendario y haga clic en **[!UICONTROL View/Edit]** en el _[!UICONTROL Action]_para abrir otra actualización programada.
+1. Si es necesario, vuelva al calendario y haga clic en **[!UICONTROL View/Edit]** en la columna _[!UICONTROL Action]_para abrir otra actualización programada.

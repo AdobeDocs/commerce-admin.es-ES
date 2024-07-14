@@ -12,45 +12,45 @@ ht-degree: 0%
 
 # Pedidos de compra
 
-A _pedido de compra_ (PO) permite a los clientes comerciales pagar las compras autorizadas haciendo referencia al número de PO. La orden de compra está autorizada y emitida por adelantado por la compañía que realiza la compra. Durante el cierre de compra, el cliente elige el pedido de compra como forma de pago. Una vez recibida la factura, la empresa procesa el pago en su sistema de cuentas a pagar y paga la compra.
+Un _pedido de compra_ (PC) permite a los clientes comerciales pagar las compras autorizadas haciendo referencia al número de PC. La orden de compra está autorizada y emitida por adelantado por la compañía que realiza la compra. Durante el cierre de compra, el cliente elige el pedido de compra como forma de pago. Una vez recibida la factura, la empresa procesa el pago en su sistema de cuentas a pagar y paga la compra.
 
 Antes de aceptar el pago por orden de compra, establezca siempre la solvencia del cliente comercial.
 
 **_Para configurar el pago por pedido de compra:_**
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Payment Methods]**.
 
-1. En _[!UICONTROL Other Payment Methods]_, expanda ![Selector de expansión](../assets/icon-display-expand.png) el **[!UICONTROL Purchase Order]**sección.
+1. En _[!UICONTROL Other Payment Methods]_, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Purchase Order]**.
 
    ![Pedido de compra](../configuration-reference/sales/assets/payment-methods-purchase-order.png){width="600" zoomable="yes"}
 
-   Para obtener una descripción detallada de cada una de estas opciones de configuración, consulte [Pedido de compra](../configuration-reference/sales/payment-methods.md#purchase-order) en el _Guía de referencia de configuración_.
+   Para obtener una descripción detallada de cada una de estas opciones de configuración, consulte [Pedido de compra](../configuration-reference/sales/payment-methods.md#purchase-order) en la _Guía de referencia de configuración_.
 
    >[!NOTE]
    >
-   >Si es necesario, borre primero la **[!UICONTROL Use system value]** para cambiar esta configuración.
+   >Si es necesario, primero borre la casilla de verificación **[!UICONTROL Use system value]** para cambiar esta configuración.
 
-1. Para activar esta forma de pago, configure **[!UICONTROL Enabled]** hasta `Yes`.
+1. Para activar este método de pago, establezca **[!UICONTROL Enabled]** en `Yes`.
 
-1. Para **[!UICONTROL Title]**, introduce un título que identifique esta forma de pago durante el proceso de pago.
+1. Para **[!UICONTROL Title]**, escribe un título que identifique este método de pago durante el cierre de compra.
 
-1. Establecer **[!UICONTROL New Order Status]** hasta `Pending` hasta que se autorice el pago.
+1. Establezca **[!UICONTROL New Order Status]** en `Pending` hasta que se autorice el pago.
 
-1. Establecer **[!UICONTROL Payment from Applicable Countries]** a uno de los siguientes:
+1. Establezca **[!UICONTROL Payment from Applicable Countries]** en una de las siguientes opciones:
 
-   - `All Allowed Countries` - Clientes de todos [países](../getting-started/store-details.md#country-options) especificado en la configuración de tu tienda puede utilizar este método de pago.
-   - `Specific Countries` - Después de elegir esta opción, la variable _[!UICONTROL Payment from Specific Countries]_aparece una lista. Para seleccionar varios países, mantenga pulsada la tecla Ctrl (PC) o la tecla Comando (Mac) y haga clic en cada opción.
+   - `All Allowed Countries`: los clientes de todos los [países](../getting-started/store-details.md#country-options) especificados en la configuración de su tienda pueden usar este método de pago.
+   - `Specific Countries` - Después de elegir esta opción, aparece la lista _[!UICONTROL Payment from Specific Countries]_. Para seleccionar varios países, mantenga pulsada la tecla Ctrl (PC) o la tecla Comando (Mac) y haga clic en cada opción.
 
-1. Establecer **[!UICONTROL Minimum Order Total]** y **[!UICONTROL Maximum Order Total]** a los importes necesarios para optar a esta forma de pago.
+1. Establezca **[!UICONTROL Minimum Order Total]** y **[!UICONTROL Maximum Order Total]** a los montos requeridos para calificar para este método de pago.
 
    >[!NOTE]
    >
    >Una solicitud cualifica si el total se encuentra entre los valores totales mínimo o máximo, o si coincide exactamente con ellos.
 
-1. Para **[!UICONTROL Sort Order]**, introduce un número que determina la posición de este artículo en la lista de métodos de pago que se muestra durante el pago y envío.
+1. Para **[!UICONTROL Sort Order]**, escribe un número que determine la posición de este artículo en la lista de métodos de pago que se muestra durante el cierre de compra.
 
    Este número es relativo a las otras formas de pago. (`0` = primero, `1` = segundo, `2` = tercero, etc.)
 
-1. Cuando termine, haga clic en **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.

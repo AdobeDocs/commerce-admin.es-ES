@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Notificaciones del sistema
 
-El _Notificaciones_ Esta página enumera todos los mensajes clasificados por gravedad, con los más recientes en la parte superior. Los comandos de acción se pueden utilizar para marcar mensajes individuales como leídos, ver información más detallada o quitar el mensaje de la bandeja de entrada.
+La página _Notificaciones_ enumera todos los mensajes clasificados por gravedad, con los más recientes en la parte superior. Los comandos de acción se pueden utilizar para marcar mensajes individuales como leídos, ver información más detallada o quitar el mensaje de la bandeja de entrada.
 
-1. Realice una de las siguientes acciones para abrir _[!UICONTROL Notifications]_página:
+1. Realice una de las siguientes acciones para abrir la página _[!UICONTROL Notifications]_:
 
-   - Haga clic en _Notificación_ en el encabezado. Si se muestran uno o más mensajes nuevos, haga clic en **[!UICONTROL See All]**.
+   - Haga clic en el icono _Notificación_ del encabezado. Si se muestran uno o más mensajes nuevos, haga clic en **[!UICONTROL See All]**.
 
-   - En el _Administrador_ barra lateral, vaya a **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**.
+   - En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**.
 
-1. En el **[!UICONTROL Action]** , realice una de las siguientes acciones:
+1. En la columna **[!UICONTROL Action]**, realice una de las acciones siguientes:
 
    - Para obtener más información, haga clic en **[!UICONTROL Read Details]** para abrir la página vinculada en una nueva ventana.
 
@@ -33,11 +33,11 @@ El _Notificaciones_ Esta página enumera todos los mensajes clasificados por gra
 1. Para aplicar una acción a varios mensajes, realice una de las siguientes acciones:
 
    - Seleccione la casilla de verificación de la primera columna para cada mensaje que desea administrar.
-   - Para seleccionar varios mensajes, establezca **[!UICONTROL Mass Actions]** controle según sea necesario.
+   - Para seleccionar varios mensajes, establezca el control **[!UICONTROL Mass Actions]** según sea necesario.
 
-1. Configure las variables **[!UICONTROL Actions]** a una de las siguientes opciones:
+1. Establezca el control **[!UICONTROL Actions]** en uno de los siguientes:
 
    - `Mark as Read`
    - `Remove`
 
-1. Clic **[!UICONTROL Submit]** para completar el proceso.
+1. Haga clic en **[!UICONTROL Submit]** para completar el proceso.

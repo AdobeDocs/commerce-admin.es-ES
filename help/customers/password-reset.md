@@ -5,7 +5,7 @@ exl-id: bca1ef3e-2bc6-4146-ac86-d6c58c8995e4
 feature: Customers, Configuration, Security
 source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Los clientes suelen restablecer sus contraseñas desde la tienda haciendo clic e
 | Función | Descripción |
 | --- | --- |
 | Restablecer contraseña | Se envía un correo electrónico de restablecimiento de contraseña directamente a la cuenta de correo electrónico del cliente. El administrador del almacén no puede obtener acceso a la contraseña del cliente. |
-| Forzar inicio de sesión | Revoca los tokens de acceso de OAuth asociados a la cuenta del cliente. Esto solo se puede utilizar con cuentas de cliente a las que se hayan asignado tokens de OAuth, como parte de una API web [integración](../systems/integrations.md). Para obtener más información, consulte [Autenticación basada en OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) en la documentación para desarrolladores. <br/><br/>Las cuentas de cliente estándar creadas desde la tienda o desde el administrador no tienen tokens de OAuth. |
+| Forzar inicio de sesión | Revoca los tokens de acceso de OAuth asociados a la cuenta del cliente. Esto solo se puede usar con cuentas de cliente a las que se les hayan asignado tokens de OAuth, como parte de una integración de API web [integration](../systems/integrations.md). Para obtener más información, consulte [Autenticación basada en OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) en la documentación para desarrolladores. <br/><br/>Las cuentas de cliente estándar creadas desde la tienda o desde el administrador no tienen tokens de OAuth. |
 
 {style="table-layout:auto"}
 
@@ -25,7 +25,7 @@ Los clientes suelen restablecer sus contraseñas desde la tienda haciendo clic e
 
 1. En la página de inicio de sesión, el cliente hace clic en **[!UICONTROL Forgot Your Password?]**.
 
-1. Cuando se le solicite, introduzca la variable **[!UICONTROL Email Address]** que está asociado con su cuenta y hace clic en **[!UICONTROL Reset My Password]**.
+1. Cuando se le solicite, escribe **[!UICONTROL Email Address]** que está asociado con su cuenta y hace clic en **[!UICONTROL Reset My Password]**.
 
    ![Olvidé su contraseña](assets/forgot-password.png){width="600" zoomable="yes"}
 
@@ -33,23 +33,23 @@ Los clientes suelen restablecer sus contraseñas desde la tienda haciendo clic e
    >
    >Si la dirección de correo electrónico introducida coincide con la asociada a la cuenta, el cliente recibe un correo electrónico de confirmación de restablecimiento de contraseña con un vínculo para restablecer su contraseña.
 
-1. Cuando llega el correo electrónico, el cliente hace clic en _restablecer contraseña_ vínculo e introduce su **[!UICONTROL New Password]** cuando se le solicite.
+1. Cuando llega el correo electrónico, el cliente hace clic en el vínculo _restablecer contraseña_ e introduce su **[!UICONTROL New Password]** cuando se le solicita.
 
-1. Lo vuelve a introducir para confirmar y hace clic en **[!UICONTROL Reset Password]**.
+1. Vuelve a escribirlo para confirmar y hace clic en **[!UICONTROL Reset Password]**.
 
    >[!IMPORTANT]
    >
-   >La nueva contraseña debe tener seis o más caracteres de longitud sin espacios. Cuando reciban la confirmación de que la contraseña se ha actualizado, podrán utilizar la nueva contraseña para iniciar sesión en su cuenta. De forma predeterminada, la variable _restablecer contraseña_ El vínculo es válido durante 24 horas.
+   >La nueva contraseña debe tener seis o más caracteres de longitud sin espacios. Cuando reciban la confirmación de que la contraseña se ha actualizado, podrán utilizar la nueva contraseña para iniciar sesión en su cuenta. De manera predeterminada, el vínculo _restablecer contraseña_ es válido durante 24 horas.
 
 ## Restablecer una contraseña desde el administrador
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Busque la cuenta del cliente en la cuadrícula y haga clic en **[!UICONTROL Edit]** en el _Acción_ columna.
+1. Busque la cuenta de cliente en la cuadrícula y haga clic en **[!UICONTROL Edit]** en la columna _Acción_.
 
 1. En el conjunto de opciones de la parte superior de la página, haga clic en **[!UICONTROL Reset Password]**.
 
-   El número de solicitudes de restablecimiento de contraseña permitidas en una hora se establece en la variable [configuración](../configuration-reference/customers/customer-configuration.md) tema.
+   El número de solicitudes de restablecimiento de contraseña permitidas en una hora se establece en el tema [configuración](../configuration-reference/customers/customer-configuration.md).
 
 ## Revocar tokens de OAuth de un cliente
 
@@ -57,10 +57,10 @@ Los clientes suelen restablecer sus contraseñas desde la tienda haciendo clic e
 >
 >No continúe a menos que tenga una comprensión completa de la autenticación de API.
 
-1. En el _Administrador_ barra lateral, vaya a **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Busque la cuenta del cliente en la cuadrícula y haga clic en **[!UICONTROL Edit]** en el _Acción_ columna.
+1. Busque la cuenta de cliente en la cuadrícula y haga clic en **[!UICONTROL Edit]** en la columna _Acción_.
 
 1. En el conjunto de opciones de la parte superior de la página, haga clic en **[!UICONTROL Force Sign In]**.
 
-1. Cuando se le pida que confirme, haga clic en **OK**.
+1. Cuando se le pida que confirme, haga clic en **Aceptar**.

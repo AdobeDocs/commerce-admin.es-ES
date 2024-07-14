@@ -1,12 +1,12 @@
 ---
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser]'
-description: Revise la configuración de en [!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser] de la administración de Commerce.
+description: Revise la configuración en la página [!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser] del administrador de Commerce.
 exl-id: 264f0f21-7324-4e37-938e-9f0cdbb3dfe8
 feature: Configuration, Merchandising
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '95'
+ht-degree: 1%
 
 ---
 

@@ -17,7 +17,7 @@ ht-degree: 2%
 + Herramientas de administración de clientes {#customers-menu}
    + [Lista de clientes](customers-all.md)
    + [Ahora en línea](now-online.md)
-   + [Personalización a escala](personalize-scale.md)
+   + [Personalization a escala](personalize-scale.md)
 + Cuentas de cliente {#customer-accounts}
    + [Ámbito de cuenta](customer-account-scope.md)
    + Opciones de cuenta {#configure}
@@ -37,13 +37,13 @@ ht-degree: 2%
       + [Propiedades de atributo](attribute-properties.md)
       + [Atributos de dirección](address-attributes.md)
       + [Plantillas de direcciones](address-templates.md)
-   + Almacenar crédito {#store-credit}
+   + Crédito de tienda {#store-credit}
       + [Flujo de trabajo de crédito de tienda](store-credit.md)
       + [Configurar crédito de tienda](credit-configure.md)
       + [Aplicar crédito de tienda](store-credit-using.md)
       + [Almacenar crédito en el panel de cuentas](account-dashboard-store-credit.md)
       + [Reembolsos en el panel de cuentas](refunds-customer-account.md)
-   + Panel de cuenta del cliente {#storefront}
+   + Tablero de cuenta de cliente {#storefront}
       + [Administrar el tablero de cuentas](account-dashboard.md)
       + [[!UICONTROL My Account]](account-dashboard-my-account.md)
       + [[!UICONTROL Address Book]](account-dashboard-address-book.md)
@@ -55,5 +55,5 @@ ht-degree: 2%
    + [Crear y eliminar segmentos de clientes](customer-segment-create.md)
    + [Segmentos de cliente en reglas de precios](customer-segment-price-rule.md)
    + [Informe de segmento de cliente](customer-segment-reports.md)
-+ [Volver a Guías de Comerciantes](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Volver a las guías del comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Pedidos de compra para empresas
 
-Las órdenes de compra (PO) son una forma común para que las compañías rastreen y controlen el gasto. [Pedido de compra](../stores-purchase/purchase-order.md) es uno de los métodos de pago sin conexión estándar admitidos en Adobe Commerce y Magento Open Source. Cuando se instala B2B de Adobe Commerce y [_Activar pedidos de compra_](account-company-manage.md#advanced-settings) se activa para una cuenta de empresa, todos los pedidos se crean automáticamente como pedidos de compra. Usuarios de la empresa con los [permissions](account-company-roles-permissions.md) Puede crear, editar y suprimir PC que hayan creado y PC creados por usuarios subordinados.
+Las órdenes de compra (PO) son una forma común para que las compañías rastreen y controlen el gasto. [El pedido de compra](../stores-purchase/purchase-order.md) es uno de los métodos de pago sin conexión estándar admitidos en Adobe Commerce y Magento Open Source. Cuando se instala B2B de Adobe Commerce y se activa [_Habilitar pedidos de compra_](account-company-manage.md#advanced-settings) para una cuenta de compañía, todos los pedidos se crean automáticamente como pedidos de compra. Los usuarios de la compañía con los [permisos](account-company-roles-permissions.md) necesarios pueden crear, editar y eliminar PC que creen y PC creados por usuarios subordinados.
 
 ## Flujo de pedido de compra
 
@@ -30,7 +30,7 @@ El flujo de trabajo del pedido de compra de una empresa puede variar en varios a
 
   >[!NOTE]
   >
-  >De forma predeterminada, una `Purchase order has been submitted for approval` El mensaje siempre se muestra a los usuarios de la empresa, incluso cuando no se han establecido reglas de aprobación. Cuando no se requiere ningún proceso de aprobación, los usuarios de la empresa reciben automáticamente un correo electrónico que les informa de que la solicitud se ha creado y aprobado.
+  >De manera predeterminada, siempre se muestra un mensaje `Purchase order has been submitted for approval` a los usuarios de la compañía, incluso cuando no se hayan establecido reglas de aprobación. Cuando no se requiere ningún proceso de aprobación, los usuarios de la empresa reciben automáticamente un correo electrónico que les informa de que la solicitud se ha creado y aprobado.
 
 - Si el administrador de la empresa define las reglas de aprobación, los usuarios pasan por el proceso de aprobación.
 - Los detalles de pago sin conexión se introducen al crear el pedido de compra.
@@ -38,7 +38,7 @@ El flujo de trabajo del pedido de compra de una empresa puede variar en varios a
 
 >[!NOTE]
 >
->Pedidos de Compra crear un _instantánea_ de precios de artículos, descuentos y precios de envío en el momento en que se creó el pedido. Si el precio de un artículo cambia después de crear el pedido, se utiliza el precio original.
+>Los pedidos de compra crean una _instantánea_ de los precios de los artículos, los descuentos y los precios de envío en el momento en que se creó el pedido. Si el precio de un artículo cambia después de crear el pedido, se utiliza el precio original.
 
 ### Ejemplo de flujo de trabajo básico
 
@@ -57,7 +57,7 @@ Las reglas de aprobación se utilizan para controlar el gasto en función de las
 - Cualquier pedido superior a $1000 necesita la aprobación de su gerente y del administrador de la empresa.
 - Cualquier pedido con más de 30 SKU únicas necesita la aprobación del administrador de la empresa.
 
-Con estas reglas implementadas para una compañía, un usuario de la compañía puede completar el pedido inmediatamente cuando este sea inferior a 100 dólares. Para conocer la definición de reglas de aprobación, consulte [Reglas de aprobación](account-dashboard-approval-rules.md)
+Con estas reglas implementadas para una compañía, un usuario de la compañía puede completar el pedido inmediatamente cuando este sea inferior a 100 dólares. Para conocer la definición de la regla de aprobación, consulte [Reglas de aprobación](account-dashboard-approval-rules.md)
 
 ### Tipos de usuarios de tiendas
 
@@ -71,7 +71,7 @@ Todos estos factores pueden influir en el proceso de pago y envío exacto.
 
 ## [!UICONTROL My Purchase Orders]
 
-Cuando los pedidos de compra están habilitados para una compañía, la variable **[!UICONTROL My Purchase Orders]** el elemento se muestra en el panel izquierdo para los clientes que iniciaron sesión en una cuenta de usuario de empresa. Existen tres pestañas que proporcionan diferentes listas y funciones de pedidos:
+Cuando los pedidos de compra están habilitados para una empresa, el elemento **[!UICONTROL My Purchase Orders]** se muestra en el panel izquierdo para los clientes que iniciaron sesión en una cuenta de usuario de la empresa. Existen tres pestañas que proporcionan diferentes listas y funciones de pedidos:
 
 - **[!UICONTROL My Purchase Orders]**: pedidos creados por el cliente.
 - **[!UICONTROL Company Purchase Orders]**: pedidos realizados por usuarios subordinados dentro de la compañía (dependen de la estructura y las funciones de la compañía).
@@ -79,15 +79,15 @@ Cuando los pedidos de compra están habilitados para una compañía, la variable
 
 ![Mis pedidos de compra](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
 
-Para obtener más información sobre las funciones de pedidos de compra compatibles disponibles para los usuarios de la empresa en la tienda, consulte [Mis pedidos de compra](account-dashboard-my-purchase-orders.md).
+Para obtener más información acerca de las funciones de pedidos de compra compatibles disponibles para los usuarios de la compañía en la tienda, vea [Mis pedidos de compra](account-dashboard-my-purchase-orders.md).
 
 ## Métodos de pago sin conexión o en línea
 
-Los flujos de trabajo pueden variar según la forma de pago. Para obtener más información sobre los métodos de pago de Adobe Commerce, consulte [Métodos de pago](../stores-purchase/payments.md) en el _Guía de ventas y experiencia de compra_.
+Los flujos de trabajo pueden variar según la forma de pago. Para obtener más información acerca de los métodos de pago de Adobe Commerce, consulte [Métodos de pago](../stores-purchase/payments.md) en la _Guía de ventas y compras_.
 
 >[!IMPORTANT]
 >
->Los pedidos de compra deben utilizar un _En contexto_ experiencia de cierre de compra. _Fuera de contexto_ las desprotecciones no son compatibles porque omiten el flujo de desprotección normal. Generalmente, _En contexto_ significa que el cliente permanece en el sitio de comercio para completar el proceso. _Fuera de contexto_ es cuando se lleva al cliente a otro sitio para completar la compra.
+>Los pedidos de compra deben usar una experiencia de cierre de compra _en contexto_. No se admiten desprotecciones de _Fuera de contexto_ porque omiten el flujo de desprotección normal. Por lo general, _en contexto_ significa que el cliente permanece en su sitio de comercio para completar el proceso. _Fuera de contexto_ es cuando el cliente es llevado a otro sitio para completar la compra.
 
 ### Pagos en línea
 

@@ -1,59 +1,59 @@
 ---
-title: '[!UICONTROL Reports] menu'
+title: '[!UICONTROL Reports] menú'
 description: Adobe Commerce y Magento Open Source ofrecen una amplia selección de informes para mantenerle informado sobre sus esfuerzos de marketing, productos de ventas y actividad con los clientes.
 feature: Admin Workspace, Reporting
 exl-id: f6356590-ba89-4c97-a9fc-efbd0dacf31a
 source-git-commit: 35025c69bf9ba3902693cb9694bcf2b4e7882c7f
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Reports] menú
+# Menú [!UICONTROL Reports]
 
 Adobe Commerce proporciona una amplia selección de informes para mantenerle informado sobre sus esfuerzos de marketing, productos de ventas y actividad de los clientes. El menú Informes permite acceder fácilmente a la información actual sobre sus ventas, productos, clientes y promociones.
 
 ![Menú Informes](./assets/overview.png){width="600"}
 
-## Mostrar el [!UICONTROL Reports] menú
+## Mostrar el menú [!UICONTROL Reports]
 
-En el _Administrador_ barra lateral, elija **[!UICONTROL Reports]**.
+En la barra lateral _Admin_, elija **[!UICONTROL Reports]**.
 
 ## Opciones de menú
 
 ### [!UICONTROL Marketing]
 
-Una selección de [informes de marketing](marketing-reports.md), incluidos los productos del carro de compras, los términos de búsqueda, los carros de compras abandonados y los informes de problemas de boletines informativos.
+Una selección de [informes de mercadotecnia](marketing-reports.md), incluidos los informes Productos en el carro de compras, Términos de búsqueda, Carros de compras abandonados e Informes de problemas de boletines.
 
 ### [!UICONTROL Reviews]
 
-La selección del producto [revisar informes](review-reports.md) incluye Por cliente y Por producto.
+La selección de [informes de revisión](review-reports.md) del producto incluye Por cliente y Por producto.
 
 ### [!UICONTROL Sales]
 
-La selección de [informes de ventas](sales-reports.md) incluye los informes Pedidos, Impuestos, Facturados, Envío, Devoluciones, Cupones y Liquidación de PayPal y Braintree.
+La selección de [informes de ventas](sales-reports.md) incluye informes de pedidos, impuestos, facturaciones, envíos, reembolsos, cupones y liquidaciones para PayPal y Braintree.
 
 ### [!UICONTROL System Insights]
 
-(Solo Adobe Commerce) La variable [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) proporciona perspectivas del sistema para instalaciones de Adobe Commerce en infraestructuras en la nube con monitorización del rendimiento, informes y recomendaciones en tiempo real las 24 horas del día, los 7 días de la semana.
+(Solo Adobe Commerce) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) proporciona información del sistema para instalaciones de Adobe Commerce en infraestructura en la nube con supervisión del rendimiento, informes y recomendaciones en tiempo real las 24 horas del día, los 7 días de la semana.
 
 ### [!UICONTROL Customers]
 
-(Solo Adobe Commerce) La selección de [informes de clientes](customer-reports.md) incluye Total de pedido, Cuenta de pedido, Nuevo, Listas de deseos y Segmentos.
+(Solo Adobe Commerce) La selección de [informes de clientes](customer-reports.md) incluye Total de pedidos, Cuenta de pedidos, Nuevo, Listas de deseos y Segmentos.
 
 ### [!UICONTROL Products]
 
-La selección de [informes de producto](product-reports.md) incluye Vistas, Más vendidos, Bajo stock, Ordenado y Descargas.
+La selección de [informes de productos](product-reports.md) incluye vistas, productos superventas, existencias bajas, pedidos y descargas.
 
 ### [!UICONTROL Private Sales]
 
-(Solo Adobe Commerce) Selección de informes para [eventos y ventas privadas](private-sales-reports.md) incluye invitaciones, clientes invitados y conversiones.
+(Solo Adobe Commerce) La selección de informes para [ventas y eventos privados](private-sales-reports.md) incluye Invitaciones, Clientes invitados y Conversiones.
 
 ### [!UICONTROL Statistics]
 
-[Estadísticas](sales-reports.md#refresh-statistics) es una herramienta que reduce el impacto de la generación de informes en el rendimiento al calcular y almacenar datos estadísticos. En lugar de volver a calcular las estadísticas cada vez que se genera un informe, las estadísticas almacenadas se utilizan hasta que se actualizan las estadísticas.
+[Estadísticas](sales-reports.md#refresh-statistics) es una herramienta que reduce el impacto en el rendimiento de la generación de informes mediante el cálculo y almacenamiento de datos estadísticos. En lugar de volver a calcular las estadísticas cada vez que se genera un informe, las estadísticas almacenadas se utilizan hasta que se actualizan las estadísticas.
 
 ### [!DNL Commerce Intelligence]
 
-Integrado [[!DNL Commerce Intelligence]](business-intelligence.md) Las herramientas de proporcionan la perspectiva que necesita para tomar decisiones empresariales estratégicas.
+Las herramientas integradas de [[!DNL Commerce Intelligence]](business-intelligence.md) le proporcionan la perspectiva que necesita para tomar decisiones empresariales estratégicas.

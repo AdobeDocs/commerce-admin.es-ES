@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Solicitud de presupuesto
 
-Si las comillas están habilitadas en la variable [Configuración de funciones de ventas](configure-quotes.md), un comprador autorizado de una empresa puede iniciar el proceso de negociación de precios solicitando un presupuesto de su carro de compras. Si un comprador no está preparado para enviar una oferta para su negociación, puede guardarla como borrador.
+Si las ofertas están habilitadas en la [configuración de características de ventas](configure-quotes.md), un comprador autorizado de una compañía puede iniciar el proceso de negociación de precios solicitando una oferta de su carro de compras. Si un comprador no está preparado para enviar una oferta para su negociación, puede guardarla como borrador.
 
 >[!NOTE]
 >
@@ -27,28 +27,28 @@ Si las comillas están habilitadas en la variable [Configuración de funciones d
 
    >[!TIP]
    > 
-   >Los clientes pueden añadir una lista de SKU de productos al carro de compras más rápidamente mediante [Pedido rápido](quick-order.md).
+   >Los clientes pueden agregar una lista de SKU de productos al carro de compras más rápidamente si usan [Pedido rápido](quick-order.md).
 
 1. Selecciona **[!UICONTROL Request a Quote]**.
 
-   ![Solicitud de una cotización del carro de compras](./assets/quote-request-from-cart.png){width="700" zoomable="yes"}
+   ![Solicitando presupuesto del carro de compras](./assets/quote-request-from-cart.png){width="700" zoomable="yes"}
 
-1. En el **[!UICONTROL Add your comment]** , el cliente introduce una breve nota para describir la solicitud.
+1. En el cuadro **[!UICONTROL Add your comment]**, el cliente escribe una breve nota para describir la solicitud.
 
-1. Introduce un **[!UICONTROL Quote Name]**.
+1. Escribe un **[!UICONTROL Quote Name]**.
 
-   ![Introducción de los comentarios y el nombre del presupuesto](./assets/quote-request-from-cart-name-comments.png){width="400" zoomable="yes"}
+   ![Escribiendo los comentarios del presupuesto y el nombre](./assets/quote-request-from-cart-name-comments.png){width="400" zoomable="yes"}
 
 1. Si es necesario, adjunta un documento o una imagen de apoyo a la cita:
 
    - Selecciona **[!UICONTROL Attach file]**.
    - Selecciona el archivo de su sistema.
 
-   De forma predeterminada, una [archivo adjunto](configure-quotes.md) puede tener hasta 2 MB, en cualquiera de los siguientes formatos de archivo: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG o JPEG, PNG.
+   De manera predeterminada, un [archivo adjunto](configure-quotes.md) puede tener hasta 2 MB, en cualquiera de los siguientes formatos de archivo: DOC, DOCX, XLS, XLSX, PDF, TXT, JPEG o JPG, PNG.
 
 1. Crea y procesa la oferta:
 
-   - Envía la oferta al vendedor seleccionando **[!UICONTROL Request a Quote]**.
-   - [!BADGE Capacidad beta 1.5.0]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponible solo para participantes del programa beta"}**[!UICONTROL Save as Draft]**.
+   - Envía la cotización al Vendedor seleccionando **[!UICONTROL Request a Quote]**.
+   - [!BADGE Capacidad beta de 1.5.0]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponible solo para participantes del programa Beta"}**[!UICONTROL Save as Draft]**.
 
-     Si el comprador guarda la oferta como borrador, la oferta estará disponible en [!UICONTROL My Quotes] in `Draft` estado. El vendedor no puede ver los borradores de presupuestos hasta que el comprador los envíe para su revisión.
+     Si el comprador guarda la oferta como borrador, la oferta estará disponible en [!UICONTROL My Quotes] en estado `Draft`. El vendedor no puede ver los borradores de presupuestos hasta que el comprador los envíe para su revisión.
