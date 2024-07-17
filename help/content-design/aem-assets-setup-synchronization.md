@@ -1,10 +1,10 @@
 ---
-title: Configuración del servicio de sincronización
+title: Habilitar sincronización de recursos
 description: '"Aprenda a conectar sus proyectos de Adobe Commerce y Experience Manager Assets con el servicio del motor de reglas de Assets para habilitar la sincronización de recursos entre estos dos sistemas".'
 feature: CMS, Media
-source-git-commit: 939fa5caeeb7a8913457c3492484362a1d3471be
+source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---

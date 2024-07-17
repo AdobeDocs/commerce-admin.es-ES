@@ -2,9 +2,9 @@
 title: Instalación y configuración de la integración de Experience Manager Assets
 description: "Obtenga información sobre cómo instalar y configurar  [!DNL AEM Assets Integration for Adobe Commerce]"
 feature: CMS, Media
-source-git-commit: 81910c45f85cde9c7b2264a55ea6fb2759107d40
+source-git-commit: 65a4339f0f6d4e9eb280ce90d6173caf671fde0f
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,12 @@ Instale y configure la integración de AEM Assets para Commerce añadiendo la ex
 - PHP 8.1, 8.2, 8.3
 - Compositor: 2.x
 
-## Requisitos previos
+**Requisitos de configuración**
 
 - Adobe Commerce debe estar configurado para usar [autenticación IMS de Adobe](/help/getting-started/adobe-ims-config.md).
-- Aprovisionamiento de cuentas y permisos: los administradores deben tener acceso a los siguientes recursos para configurar la integración de Experience Manager Assets:
-   - Administrador de aplicaciones de Commerce: instale las extensiones necesarias y configure el servidor de aplicaciones de Commerce desde el administrador o desde la línea de comandos
+- Aprovisionamiento de cuentas y permisos
+   - [Administrador de proyectos en la nube de Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access): instale las extensiones necesarias y configure el servidor de aplicaciones de Commerce desde el administrador o la línea de comandos
    - [Administrador de Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview): actualice la configuración de la tienda y administre las cuentas de usuario de Commerce
-   - [Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/introduction): cuenta de usuario o administrador de aplicaciones de Adobe IMS. La cuenta debe tener permisos para crear y administrar carpetas y crear colecciones públicas, cargar recursos, configurar permisos y configurar metadatos.
 
 ## Información general de configuración
 
