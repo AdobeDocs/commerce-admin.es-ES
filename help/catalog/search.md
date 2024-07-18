@@ -3,9 +3,9 @@ title: Resumen de búsqueda en catálogo
 description: Obtenga información acerca de las herramientas Búsqueda rápida y Búsqueda avanzada que los clientes pueden utilizar para localizar productos en la tienda.
 exl-id: a796fa48-212a-47c7-ab6e-98edd4d040f4
 feature: Catalog Management, Search
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 65d295694e13be2e0a0de29b8b396faa9f2c9cd4
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Las secciones siguientes describen las funciones básicas de búsqueda en el cat
 
 >[!NOTE]
 >
->Cuando se instala [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html), el cuadro de búsqueda devuelve &quot;buscar mientras escribe&quot; y el resultado es una ventana emergente.
+>Cuando [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) está instalado y el widget [[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/storefront-popover) está habilitado, el cuadro de búsqueda devuelve el resultado &quot;buscar mientras escribe&quot; en una ventana emergente.
 
 El cuadro de búsqueda en el encabezado de la tienda ayuda a los visitantes a encontrar productos en su catálogo. El texto de búsqueda puede ser el nombre completo o parcial del producto o cualquier otra palabra o frase que describa el producto. Los términos de búsqueda que usan los usuarios para encontrar los productos se pueden administrar desde el Administrador.
 
