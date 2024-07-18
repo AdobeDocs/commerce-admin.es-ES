@@ -4,9 +4,9 @@ description: Aprenda a generar o agregar automáticamente su propia clave de cif
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: 21be3c7a56cb72d685b2b3605bc27266e8e55f37
+source-git-commit: 2469b3853d074f7a7adfe822b645e41d1420259a
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,33 @@ Durante la instalación inicial, se le pedirá que deje que Commerce genere una 
 
 Para obtener información técnica, consulte [Instalación local avanzada](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) en la _Guía de instalación_.
 
-## Paso 1: Hacer que el archivo sea editable
+>[!IMPORTANT]
+>
+>Antes de seguir estas instrucciones para cambiar la clave de cifrado, asegúrese de que el siguiente archivo se puede escribir: `[your store]/app/etc/env.php`
 
-Para cambiar la clave de cifrado, asegúrese de que el siguiente archivo se puede escribir: `[your store]/app/etc/env.php`
+**Para cambiar una clave de cifrado:**
 
-## Paso 2: Cambiar la clave de cifrado
+Las siguientes instrucciones requieren acceso a un terminal.
+
+1. Habilitar [modo de mantenimiento](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode).
+
+   ```bash
+   bin/magento maintenance:enable
+   ```
+
+1. Deshabilitar trabajos cron.
+
+   _Proyectos de infraestructura en la nube:_
+
+   ```bash
+   ./vendor/bin/ece-tools cron:disable
+   ```
+
+   _Proyectos locales_
+
+   ```bash
+   crontab -e
+   ```
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**.
 
@@ -36,6 +58,40 @@ Para cambiar la clave de cifrado, asegúrese de que el siguiente archivo se pued
 
 1. Haga clic en **[!UICONTROL Change Encryption Key]**.
 
-1. Mantenga un registro de la nueva clave en una ubicación segura.
+   >[!NOTE]
+   >
+   >Mantenga un registro de la nueva clave en una ubicación segura. Es necesario descifrar los datos si se produce algún problema con los archivos.
 
-   Es necesario descifrar los datos si se produce algún problema con los archivos.
+1. Vaciar la caché.
+
+   _Proyectos de infraestructura en la nube:_
+
+   ```bash
+   magento-cloud cc
+   ```
+
+   _Proyectos locales:_
+
+   ```bash
+   bin/magento cache:flush
+   ```
+
+1. Habilitar trabajos cron.
+
+   _Proyectos de infraestructura en la nube:_
+
+   ```bash
+   ./vendor/bin/ece-tools cron:enable
+   ```
+
+   _Proyectos locales:_
+
+   ```bash
+   crontab -e
+   ```
+
+1. Desactive el modo de mantenimiento.
+
+   ```bash
+   bin/magento maintenance:disable
+   ```
