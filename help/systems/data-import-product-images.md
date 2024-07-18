@@ -3,7 +3,7 @@ title: Importación de imagen de producto
 description: Obtenga información sobre cómo importar imágenes de productos utilizando la ruta y el nombre de archivo de cada imagen.
 exl-id: 991550e6-9ce2-4472-becb-3492bd4c9582
 feature: Products, Data Import/Export, Media
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Antes de intentar importar muchas imágenes, revise los pasos del método de imp
 
 1. En el servidor de Commerce, cargue los archivos de imagen en la carpeta `var/import/images` o en una subcarpeta, como `var/import/images/product_images`. Esta es la carpeta raíz predeterminada para importar imágenes de productos.
 
-   ```terminal
+   ```
    <Magento root folder>/var/import/images
    ```
 
@@ -50,7 +50,7 @@ Antes de intentar importar muchas imágenes, revise los pasos del método de imp
 
 1. Después de seleccionar el archivo a importar, ingrese la ruta relativa que sigue a **[!UICONTROL Images File Directory]**.
 
-   ```terminal
+   ```
    var/import/images
    ```
 
@@ -68,7 +68,7 @@ Antes de intentar importar muchas imágenes, revise los pasos del método de imp
 
 1. En los datos CSV, escriba la dirección URL completa de cada archivo de imagen en la columna correcta por tipo de imagen (`base_image`, `small_image`, `thumbnail_image` o `additional_images`).
 
-   ```terminal
+   ```
    https://example.com/images/image.jpg
    ```
 
@@ -78,7 +78,7 @@ Antes de intentar importar muchas imágenes, revise los pasos del método de imp
 
 1. En el módulo Almacenamiento remoto, cargue los archivos de imagen en la carpeta `var/import/images` o en una subcarpeta, como `var/import/images/product_images`. Esta es la carpeta raíz predeterminada para importar imágenes de productos.
 
-   ```terminal
+   ```bash
    <remote-storage-root-folder>/var/import/images
    ```
 
@@ -100,7 +100,7 @@ Antes de intentar importar muchas imágenes, revise los pasos del método de imp
 
 1. Después de seleccionar el archivo a importar, ingrese la ruta relativa que sigue a **[!UICONTROL Images File Directory]**.
 
-   ```terminal
+   ```
    var/import/images/product_images
    ```
 

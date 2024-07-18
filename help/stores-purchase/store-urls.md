@@ -3,7 +3,7 @@ title: URL de tienda
 description: Obtenga información sobre las direcciones URL de tienda y cómo configurar la dirección URL base y los códigos de tienda.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-source-git-commit: 555c54e9a980aa181e0b4380412ad027d80ee10f
+source-git-commit: c7839f0a86be4459ba7f555fd2d2e748d81c4ebb
 workflow-type: tm+mt
 source-wordcount: '1512'
 ht-degree: 0%
@@ -222,7 +222,7 @@ Aunque es posible cambiar la URL y la ruta de administración a otra ubicación,
    - En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**. A continuación, haga clic en **[!UICONTROL Flush Magento Cache]**.
    - En el servidor, ejecute lo siguiente:
 
-     ```terminal
+     ```bash
      php bin/magento cache:flush
      ```
 
@@ -234,7 +234,7 @@ Aunque es posible cambiar la URL y la ruta de administración a otra ubicación,
 
 Puede utilizar el comando CLI `setup:config:set` para cambiar la ruta de administración. El ejemplo siguiente utiliza la opción `--backend-frontname` para cambiar la ruta de acceso de la raíz de Commerce a una nueva ruta de acceso de administrador:
 
-```terminal
+```bash
 bin/magento setup:config:set --backend-frontname="backend_front_name"
 ```
 
@@ -246,13 +246,13 @@ Si ha establecido una URL de administración no válida o una Ruta de administra
 
 1. Para volver a la URL de administración predeterminada, ejecute este comando:
 
-   ```terminal
+   ```bash
    php bin/magento config:set admin/url/use_custom 0
    ```
 
 1. Para volver a la ruta de acceso de administración predeterminada (establecida en `app/etc/env.php` como se describe en el Método 2), ejecute este comando:
 
-   ```terminal
+   ```bash
    php bin/magento config:set admin/url/use_custom_path 0
    ```
 
@@ -261,7 +261,7 @@ Si ha establecido una URL de administración no válida o una Ruta de administra
    - En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**. A continuación, haga clic en **[!UICONTROL Flush Magento Cache]**.
    - En el servidor, ejecute lo siguiente:
 
-     ```terminal
+     ```bash
      php bin/magento cache:flush
      ```
 
