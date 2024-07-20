@@ -3,9 +3,9 @@ title: Envío de tarifa de tabla
 description: Aprenda a configurar una opción de envío de tarifa de tabla para su tienda.
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 0f368e87275a85e3801e6770b8985184e2071384
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1032'
 ht-degree: 3%
 
 ---
@@ -117,6 +117,7 @@ El primer paso es completar la configuración predeterminada para las tasas de t
    - Utilice un asterisco (*) como comodín que represente todos los valores posibles de cualquier categoría.
    - La columna _[!UICONTROL Country]_debe contener [un código de tres caracteres válido][1] para cada fila.
    - Ordene los datos por _[!UICONTROL Region/State]_de modo que las ubicaciones específicas estén en la parte superior de la lista y las ubicaciones de los comodines en la parte inferior. Al utilizar este método, se procesan primero las reglas con los valores absolutos y, después, los valores comodín.
+   - No se admiten intervalos de código postal. Use un asterisco (*) para permitir todos los códigos de la región o el estado, o especifique un solo código para una ubicación específica en la columna _[!UICONTROL Zip/Postal Code]_.
    - Los valores de la columna _[!UICONTROL Weight (and above)]_pueden tener un máximo de cuatro decimales (como `2.5075`). Si utiliza más decimales en los datos, la importación fallará.
 
    ![Peso vs. Destino (Australia)](./assets/table-rates-weight-destination-csv.png){width="500"}
