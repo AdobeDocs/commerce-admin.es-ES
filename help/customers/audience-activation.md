@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: c9eb7f2b0b28f39ee9039be1e0fba4fe282ba7b3
+source-git-commit: 9f351ab659b21377310f8327fef5bc29cc9f7c89
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -359,10 +359,34 @@ Una vez recuperados los datos, puedes usarlos para crear [reglas de precio del c
 
 Si las audiencias de Real-Time CDP no se muestran en Commerce, puede deberse a lo siguiente:
 
+- Conexión no válida
 - Se seleccionó un tipo de autenticación incorrecto en la página de configuración **Conexión de datos**
 - Privilegios insuficientes en el token generado
 
-Las dos secciones siguientes describen cómo solucionar problemas en cualquiera de los casos.
+Las secciones siguientes describen cómo solucionar estos problemas.
+
+### Validación de la conexión
+
+Para validar las credenciales y la respuesta de Adobe Experience Platform, ejecute el siguiente comando:
+
+```bash
+bin/magento audiences:config:status
+```
+
+Este comando devuelve el estado de la conexión. Agregue el indicador `-v` para proporcionar información detallada adicional:
+
+```
+./bin/magento audiences:config:status -v  
+```
+
+Por ejemplo:
+
+```
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| Client ID                        | Client secret | Technical account ID                        | Technical account email                                 | Sandbox name |
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| 1234bd57fac8497d8933327c535347d8 | *****         | 12341E116638D6B00A495C80@techacct.adobe.com | 12345-b95b-4894-a41c-a4130d26bd80@techacct.adobe.com | dev          |
+```
 
 ### Tipo de autenticación incorrecto seleccionado en la configuración
 
