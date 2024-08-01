@@ -4,14 +4,18 @@ description: Aprenda a generar o agregar automáticamente su propia clave de cif
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: 2469b3853d074f7a7adfe822b645e41d1420259a
+source-git-commit: cbe4cfd59b1cacbac22a01ca96617f52bcdd7d3a
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
 
 # Clave de cifrado
+
+>[!NOTE]
+>
+>Si ha intentado completar estos pasos y tiene problemas, consulte el artículo de la base de conocimiento [Resolución de problemas de rotación de clave de cifrado: CVE-2024-34102](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102).
 
 Adobe Commerce y Magento Open Source utilizan una clave de cifrado para proteger contraseñas y otros datos confidenciales. Se utiliza un algoritmo [!DNL ChaCha20-Poly1305] estándar del sector con una clave de 256 bits para cifrar todos los datos que requieren cifrado. Esto incluye datos de tarjetas de crédito y contraseñas de integración (módulo de pago y envío). Además, se utiliza un algoritmo hash seguro (SHA-256) para cifrar todos los datos que no requieren descifrado.
 
