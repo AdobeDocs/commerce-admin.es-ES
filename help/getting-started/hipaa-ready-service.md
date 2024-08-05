@@ -3,9 +3,9 @@ title: Preparación para HIPAA en Adobe Commerce
 description: Descubra cómo puede añadir la extensión de preparación para HIPAA de Adobe Commerce y obtener funciones y funcionalidades adicionales que le permiten cumplir con sus obligaciones HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: b7ce092f843992b1e4d0ca23981c70d854ded5f9
+source-git-commit: bce0e581e89139875e09b671038a21976eccebca
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1568'
 ht-degree: 1%
 
 ---
@@ -213,7 +213,6 @@ Para cumplir con los requisitos de HIPAA, algunos servicios y funciones compatib
    - Live Search
    - API Mesh
    - App Builder
-   - Servicio de catálogo
 
 - **[Servicio SendGrid](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**: este servicio está deshabilitado de manera predeterminada porque la aplicación no es compatible con HIPAA.
 
