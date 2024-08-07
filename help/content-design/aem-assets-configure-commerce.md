@@ -1,8 +1,9 @@
 ---
 title: Instalación y configuración de la integración de Experience Manager Assets
-description: "Obtenga información sobre cómo instalar y configurar  [!DNL AEM Assets Integration for Adobe Commerce]"
+description: Obtenga información sobre cómo instalar y configurar  [!DNL AEM Assets Integration for Adobe Commerce]
 feature: CMS, Media
-source-git-commit: 65a4339f0f6d4e9eb280ce90d6173caf671fde0f
+exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
+source-git-commit: da98c253d0d3f773551c7b58b5eedbb1db622ac6
 workflow-type: tm+mt
 source-wordcount: '1261'
 ht-degree: 0%
@@ -34,7 +35,7 @@ Instale y configure la integración de AEM Assets para Commerce añadiendo la ex
 
 Habilite la integración realizando las siguientes tareas:
 
-1. [Instale la extensión de integración de AEM Assets (`aem-assets-integration`)](#install-the-aem-assets-integration-extension).
+1. [Instale la extensión AEM Assets Integration (`aem-assets-integration`)](#install-the-aem-assets-integration-extension).
 1. [Configure Commerce Service Connector](#configure-the-commerce-services-connector) para conectar su instancia de Adobe Commerce y con los servicios que permiten la transmisión de datos entre Adobe Commerce y AEM Assets.
 1. [Configuración de eventos de Adobe I/O para Commerce](#configure-adobe-io-events-for-commerce)
 1. [Obtener credenciales de autenticación para el acceso a API](#get-authentication-credentials-for-api-access)
