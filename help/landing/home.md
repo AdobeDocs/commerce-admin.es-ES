@@ -5,9 +5,9 @@ seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
 breadcrumb-title: Documentación del comerciante
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: c9dfc5385a008619a5ab1eceeec93df2c00df059
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,3 @@ Magento Open Source es la base de código a la que Adobe contribuye oficialmente
 | **Nuevo tema** - Se agregó el tema [Transferir una cuenta de Commerce](../getting-started/commerce-account-transfer.md) a la _Guía de introducción_. | Nuevo | 27/02/23 |
 
 {style="table-layout:auto"}
-
-## Documentación de 2.3.x
-
-La [Guía del usuario de Adobe Commerce 2.3](https://docs.magento.com/user-guide/v2.3/) sigue disponible en el dominio `docs.magento.com` para los clientes de Adobe Commerce 2.3 que tienen un contrato de soporte extendido.
