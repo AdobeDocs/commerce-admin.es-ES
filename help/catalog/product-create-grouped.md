@@ -3,9 +3,9 @@ title: Producto agrupado
 description: Aprenda a crear un producto agrupado que consta de productos independientes simples que se presentan como un grupo.
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
-source-git-commit: 140930df515d1e0604b18a4ebf689254b9487b53
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -187,6 +187,8 @@ Si tiene una imagen diferente para cada producto del grupo, puede definir la con
 ## Cosas que recordar
 
 - Un producto agrupado es esencialmente una colección de productos asociados simples.
+
+- Se han asignado y desasignado todos los productos secundarios del producto agrupado **_globalmente_** para todos los sitios web, tiendas y vistas de tiendas al mismo tiempo.
 
 - Los productos secundarios agrupados pueden ser productos simples, descargables o virtuales **[!UICONTROL without custom options]**.
 

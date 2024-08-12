@@ -3,9 +3,9 @@ title: Producto configurable
 description: Aprenda a crear un producto configurable que proporcione a los compradores variaciones para su selección.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: f6140fda2769e109d2b38c2f9c458f67097dff0a
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2506'
 ht-degree: 0%
 
 ---
@@ -377,6 +377,8 @@ El _estado de existencias_ del producto configurable está parcialmente controla
 - [Estado de stock](../inventory-management/sources-stocks.md) para un producto configurable es una configuración controlada de forma semimanual. Es diferente al estado de stock del producto simple, donde es una representación directa de la disponibilidad del producto. Para un producto configurable, el estado de las existencias forma parte de un cálculo del estado de las existencias con varios criterios.
 
 - Los productos secundarios configurables pueden ser productos simples o virtuales **sin opciones personalizadas**. Para hacer virtuales los productos secundarios personalizados, debe seleccionar `Тhis item has no weight` para la configuración **[!UICONTROL Weight]** de cada uno de ellos.
+
+- Todos los productos secundarios se asignan y quitan la asignación del producto configurable **_globalmente_** para todos los sitios web, tiendas y vistas de tiendas al mismo tiempo.
 
 - Un producto configurable no tiene su propio precio en el catálogo. El precio de producto configurable se deriva de sus [!UICONTROL In Stock] productos secundarios.
 

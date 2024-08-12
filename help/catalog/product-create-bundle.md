@@ -3,9 +3,9 @@ title: Paquete de productos
 description: Aprenda a crear un paquete de productos que permita a los compradores crear un producto personalizado en su tienda.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: e16fdc9f55cada17f82777fdaaaca44780c91e4b
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -274,6 +274,8 @@ El estado de las existencias del paquete de productos es **_no se cambi처 autom�
 ## Cosas que recordar
 
 ![Casilla de verificaci처n](../assets/checkbox.png) Los clientes pueden _crear su propio paquete de productos_.
+
+![Casilla de verificaci처n](../assets/checkbox.png): todos los productos secundarios se asignan y se quitan de la asignaci처n del producto del paquete **_globalmente_** para todos los sitios web, tiendas y vistas de tiendas al mismo tiempo.
 
 ![Casilla de verificaci처n](../assets/checkbox.png) Los elementos del paquete pueden ser productos simples o virtuales sin opciones personalizadas.
 
