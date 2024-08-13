@@ -4,9 +4,9 @@ description: Aprenda a generar o agregar automáticamente su propia clave de cif
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: cbe4cfd59b1cacbac22a01ca96617f52bcdd7d3a
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Adobe Commerce y Magento Open Source utilizan una clave de cifrado para proteger contraseñas y otros datos confidenciales. Se utiliza un algoritmo [!DNL ChaCha20-Poly1305] estándar del sector con una clave de 256 bits para cifrar todos los datos que requieren cifrado. Esto incluye datos de tarjetas de crédito y contraseñas de integración (módulo de pago y envío). Además, se utiliza un algoritmo hash seguro (SHA-256) para cifrar todos los datos que no requieren descifrado.
 
-Durante la instalación inicial, se le pedirá que deje que Commerce genere una clave de cifrado o que introduzca una suya. La herramienta de clave de cifrado permite cambiar la clave según sea necesario. La clave de cifrado debe cambiarse regularmente para mejorar la seguridad y, en cualquier momento, la clave original puede verse comprometida. Cada vez que se cambia la clave, todos los datos heredados se vuelven a codificar con la nueva clave.
+Durante la instalación inicial, se le pedirá que deje que Commerce genere una clave de cifrado o que introduzca una suya. La herramienta de clave de cifrado permite cambiar la clave según sea necesario. La clave de cifrado debe cambiarse regularmente para mejorar la seguridad y, en cualquier momento, la clave original puede verse comprometida.
 
 Para obtener información técnica, consulte [Instalación local avanzada](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) en la _Guía de instalación_.
 

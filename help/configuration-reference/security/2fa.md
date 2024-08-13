@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
 description: Revise la configuración en la página [!UICONTROL Security] &gt; [!UICONTROL 2FA] del administrador de Commerce.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: d6f9c5186276b28cada318cbe765e2271d34bb58
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '310'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ Para obtener más información acerca de cómo cambiar esta configuración, cons
 |--- |--- |--- |
 | [!UICONTROL Providers to use] | Global | Indica los métodos de autenticación de doble factor que necesita. Si selecciona más de un proveedor, cada usuario deberá configurar cada método 2FA la próxima vez que inicie sesión. |
 | [!UICONTROL Configuration Email URL for Web API] | Global | Para implementaciones personalizadas, la URL de un vínculo de configuración de correo electrónico alternativo que se envía a los usuarios de _Admin_ la primera vez que inician sesión. En la plantilla de correo electrónico, utilice el marcador de posición `:tfat` para indicar dónde se ha insertado el token. |
+| [!UICONTROL Retry attempt limit for Two-Factor Authentication] | Global | Determina cuántas veces un administrador puede escribir un [!DNL one-time password (OTP)] antes de que su cuenta se deshabilite temporalmente. Predeterminado: `10` |
+| [!UICONTROL Two-Factor Authentication lockout time (seconds)] | Global | Determina cuánto tiempo (en segundos) puede esperar un administrador para escribir un [!DNL one-time password (OTP)] antes de que su cuenta se deshabilite temporalmente. Predeterminado: `300` |
 
 {style="table-layout:auto"}
 
@@ -37,7 +39,7 @@ Para obtener más información acerca de cómo cambiar esta configuración, cons
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL OTP Window] | Global | Determina el tiempo (en segundos) que el sistema acepta una contraseña única (OTP) de administrador una vez caducada. No puede ser superior a la duración de un único OTP (normalmente 30 segundos). Predeterminado: `29` |
+| [!UICONTROL OTP Window] | Global | Determina cuánto tiempo (en segundos) acepta el sistema un(a) [!DNL one-time-password (OTP)] de administrador después de que haya caducado. No puede ser superior a la duración de un único OTP (normalmente 30 segundos). Predeterminado: `29` |
 
 {style="table-layout:auto"}
 

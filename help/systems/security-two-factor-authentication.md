@@ -4,7 +4,7 @@ description: Obtenga información acerca de la compatibilidad con la autenticaci
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: b31ed0e76df67a486012d8ec4997d9f19e17d371
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Puede ver esta [demostración en vídeo](https://video.tv.adobe.com/v/339104?qua
 
    Para seleccionar varios métodos, mantenga presionada la tecla Ctrl (PC) o la tecla Comando (Mac) y haga clic en cada elemento.
 
-1. Complete la configuración de cada método 2FA requerido.
+1. Complete la [configuración](../configuration-reference/security/2fa.md) para cada método 2FA requerido.
 
    ![Configuración de seguridad - 2FA](../configuration-reference/security/assets/2fa-general.png){width="600" zoomable="yes"}
 
