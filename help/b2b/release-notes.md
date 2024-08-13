@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] notas de la versión'
 description: Revise las notas de la versión para obtener información acerca de los cambios en  [!DNL Adobe Commerce B2B] versiones.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 5e9aaa4ff59b34a1ff76083eeae82f87e457f23b
+source-git-commit: d717a16f3ca20e51b002c6de19c696e090553052
 workflow-type: tm+mt
-source-wordcount: '6967'
+source-wordcount: '7033'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,20 @@ La versión beta B2B v1.5.0 incluye nuevas funciones, mejoras de calidad y corre
 ![Problema corregido](../assets/fix.svg) <!--ACP2E-1825-->Un usuario asociado a la compañía ya no puede realizar pedidos de compra una vez que la compañía ha sido bloqueada. Anteriormente, un usuario asociado a la compañía podía realizar pedidos de compra cuando se bloqueaba la compañía.
 
 ![Se ha corregido un problema](../assets/fix.svg)<!--ACP2E-1933-->Los administradores de la empresa ahora pueden agregar usuarios de la empresa desde la tienda. Anteriormente, Commerce registraba un error cuando un usuario administrador intentaba agregar un nuevo usuario: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+
+## B2B v1.4.2-p2
+
+[!BADGE Compatible]{type=Informative tooltip="Admitido"}
+
+![Nuevo](../assets/new.svg) Se ha agregado compatibilidad con las versiones de parches de seguridad de Adobe Commerce 2.4.7-p2+ y 2.4.6-p7+. La versión B2B 1.4.2-p2 no
+admite [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B versión 1.4.2+ es compatible con PHP 8.2. Si actualiza la instancia de Commerce a la versión 2.4.7 o posterior, asegúrese de que la instancia utiliza la versión 8.2 de PHP para mantener la compatibilidad con la versión B2B de Adobe Commerce.
+
+
+https://wiki.corp.adobe.com/display/3DI/How+to+Create+and+Update+a+New+HelpX+Page#HowtoCreateandUpdateaNewHelpXPage-LinkstoupdateHelpXdocumentation:
 
 ## B2B v1.4.2-p1
 
