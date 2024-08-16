@@ -3,9 +3,9 @@ title: Conjuntos de atributos
 description: Obtenga información sobre cómo organizar los atributos en grupos, que determinan dónde aparecen en el registro del producto.
 exl-id: de0c5fa2-158c-44ff-b84d-e4904ed8aa7d
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 43550b9370f4ed4b631ae7773324ed0913718a79
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Los atributos están organizados en grupos que determinan dónde aparecen en el 
 
 1. Establezca **[!UICONTROL Based On]** en un conjunto de atributos existente para utilizarlo como plantilla.
 
-1. haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
    La página siguiente muestra lo siguiente:
 
@@ -38,7 +38,7 @@ Los atributos están organizados en grupos que determinan dónde aparecen en el 
    - El centro de la página muestra la selección actual de grupos de atributos.
    - La columna de la derecha muestra la selección de atributos que no están asignados actualmente al conjunto de atributos.
 
-1. Para agregar un atributo al conjunto, arrástrelo desde la lista **[!UICONTROL Unassigned Attributes]** a la carpeta correspondiente de la columna **[!UICONTROL Groups]**.
+1. Para agregar un atributo al conjunto, arrástrelo desde la lista **[!UICONTROL Unassigned Attributes]** a la carpeta correspondiente de la columna **[!UICONTROL Groups]**. Para quitar un atributo del conjunto, arrástrelo a la lista **[!UICONTROL Unassigned Attributes]**.
 
    >[!NOTE]
    >
@@ -54,10 +54,11 @@ Los atributos están organizados en grupos que determinan dónde aparecen en el 
 
 1. Escriba un **[!UICONTROL Name]** para el nuevo grupo y haga clic en **[!UICONTROL OK]**.
 
-1. Realice una de las acciones siguientes:
+1. Realice una de las siguientes acciones:
 
    - Arrastre **[!UICONTROL Unassigned Attributes]** al nuevo grupo.
    - Arrastre atributos de cualquier otro grupo al nuevo grupo.
+   - Arrastre atributos innecesarios a **[!UICONTROL Unassigned Attributes]**.
 
    El nuevo grupo se convierte en una sección de atributos de cualquier producto basada en el conjunto de atributos.
 
