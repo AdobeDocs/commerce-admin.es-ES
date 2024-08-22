@@ -2,9 +2,9 @@
 title: Configuración de página
 description: Obtenga información sobre cómo configurar los valores predeterminados de las partes principales de una página de la tienda.
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 6958da6a87f9088bb292d58f23fa1d0c34beb70b
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,11 @@ La configuración de la sección Encabezado del HTML corresponde a la etiqueta `
    - **[!UICONTROL Default Meta Keywords]**
 
 1. Escriba cualquier **[!UICONTROL Scripts and Style Sheets]** según sea necesario.
+
+   >[!NOTE]
+   >
+   >Todos los JavaScript introducidos en el campo [!UICONTROL Scripts and Style Sheets] deben estar en la lista blanca de la configuración de la Política de seguridad de contenido (CSP); de lo contrario, no se ejecutarán en las páginas de Cierre de compra. Para obtener más información, consulte [Política de seguridad de contenido](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+
 
 1. Habilite o deshabilite el [aviso de almacén de demostración](../getting-started/storefront-branding.md#set-the-store-demo-notice) si es necesario.
 
@@ -118,6 +123,10 @@ En la sección Configuración del pie de página puede actualizar el [aviso de c
 1. En _Otra configuración_, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Footer]**.
 
 1. Realice los cambios necesarios en la configuración de **[!UICONTROL Copyright]** y **[!UICONTROL Miscellaneous HTML]**.
+
+   >[!NOTE]
+   >
+   >Todos los JavaScript introducidos en el campo [!UICONTROL Miscellaneous HTML] deben estar en la lista blanca de la configuración de la Política de seguridad de contenido (CSP); de lo contrario, no se ejecutarán en las páginas de Cierre de compra. Para obtener más información, consulte [Política de seguridad de contenido](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Configuration]**.
 
