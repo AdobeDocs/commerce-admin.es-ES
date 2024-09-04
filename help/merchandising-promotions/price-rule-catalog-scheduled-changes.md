@@ -3,9 +3,9 @@ title: Cambios programados para reglas de precios de catálogo
 description: Aprenda a aplicar reglas de precios de catálogo según lo programado como parte de una campaña y agrupadas con otros cambios de contenido.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,10 @@ Si se ejecutan varias reglas de precios en la misma campaña, la configuración 
 1. En el cuadro **[!UICONTROL Scheduled Changes]** de la parte superior de la página, haga clic en **[!UICONTROL View/Edit]**.
 
 1. Realice los cambios necesarios en la actualización programada.
+
+   >[!NOTE]
+   >
+   >Si una campaña está vinculada a más de una regla de precios de catálogo, la campaña solo se puede editar desde el [Panel de ensayo de contenido](../content-design/content-staging-dashboard.md).
 
 1. Haga clic en **[!UICONTROL Save]**.
 

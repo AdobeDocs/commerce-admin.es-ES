@@ -3,9 +3,9 @@ title: Controles de Page Workspace
 description: Obtenga información acerca de las herramientas de Workspace utilizadas para localizar y actualizar páginas de contenido.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -199,6 +199,10 @@ Haga clic en el control _Ver_ (![Icono de ojo](../assets/icon-view-eye.png)) y r
 {{ee-feature}}
 
 Los cambios de página se pueden aplicar según lo programado y agrupar con otros cambios de contenido. Puede crear una campaña basada en cambios programados realizados en una página o aplicar los cambios a una campaña existente. Para obtener más información, consulte [Ensayo de contenido](content-staging.md).
+
+>[!NOTE]
+>
+>Si una campaña está vinculada a más de una página, la campaña solo se puede editar desde el [Panel de ensayo de contenido](content-staging-dashboard.md).
 
 >[!NOTE]
 >

@@ -3,9 +3,9 @@ title: Actualizaciones programadas de productos
 description: Aprenda a programar cambios en las listas de productos para que sean compatibles con campañas y programas promocionales.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,10 @@ El cambio programado aparece en la parte superior de la página del producto, co
 1. En el cuadro _[!UICONTROL Scheduled Changes]_de la parte superior de la página, haga clic en **[!UICONTROL View/Edit]**.
 
 1. Realice los cambios necesarios en la actualización programada.
+
+>[!NOTE]
+>
+>Si una campaña está vinculada a más de un producto, la campaña solo se puede editar desde el [Panel de ensayo de contenido](../content-design/content-staging-dashboard.md).
 
 1. Haga clic en **[!UICONTROL Save]**.
 

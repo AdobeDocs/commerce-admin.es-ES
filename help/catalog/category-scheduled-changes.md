@@ -3,9 +3,9 @@ title: Cambios programados para categorías
 description: Aprenda a programar cambios de categoría para admitir campañas de marketing y promociones de tiendas.
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -69,3 +69,7 @@ Las actualizaciones de categoría se pueden aplicar según lo programado y agrup
 1. Realice los cambios necesarios en la actualización programada.
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
+
+   >[!NOTE]
+   >
+   >Si una campaña está vinculada a más de una categoría, la campaña solo se puede editar desde el [Panel de ensayo de contenido](../content-design/content-staging-dashboard.md).
