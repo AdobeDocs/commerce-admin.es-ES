@@ -3,9 +3,9 @@ title: Crear una regla de precios de carro
 description: Aprenda a crear una regla de precios de carro de compras basada en el carro de compras o en los atributos del producto.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7058e08de0de72999b3baf7762126be4e9040dba
+source-git-commit: a8971c883c39dcea515e966a57102f63f7781446
 workflow-type: tm+mt
-source-wordcount: '3347'
+source-wordcount: '3379'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Complete los siguientes pasos para agregar una regla, describir las condiciones 
 
    >[!NOTE]
    >
-   >Las reglas de precios del carro de compras que tienen la misma prioridad no resultan en un descuento combinado. Cada regla se aplica a los productos coincidentes por separado, uno a uno.
+   >Las reglas de precios del carro de compras que tienen la misma prioridad no resultan en un descuento combinado. Cada regla (cupón) se aplica a los productos coincidentes por separado, uno a uno, según el ID de regla de precios del carro de compras de la base de datos. Para controlar el orden en que se aplican los descuentos, Adobe recomienda establecer una prioridad diferente para cada regla de precio del carro de compras agregada.
 
 1. Para aplicar la regla a las [fuentes RSS](social-rss.md#rss-feeds) publicadas, establezca **Público en la fuente RSS** en `Yes`.
 

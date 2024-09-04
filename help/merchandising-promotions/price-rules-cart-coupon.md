@@ -3,9 +3,9 @@ title: Códigos de cupón
 description: Aprenda a utilizar códigos de cupones con reglas de precio de carro de compras para aplicar un descuento cuando se cumpla un conjunto de condiciones.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7407df02ca62e36b4dd60dba418eae3e6aa34491
+source-git-commit: f6f3dba7a43cbadd5ca8bdac15af8141cbf2d260
 workflow-type: tm+mt
-source-wordcount: '1839'
+source-wordcount: '1895'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ Los códigos de cupones se utilizan con [reglas de precio de carro de compras](p
 Los códigos de cupones se pueden enviar por correo electrónico o incluir en boletines informativos, catálogos y anuncios. La lista de códigos de cupones se puede exportar y enviar a una imprenta comercial. También puede crear cupones en la tienda con un código de respuesta rápida que los compradores pueden escanear con sus teléfonos inteligentes. El código QR puede vincular a una página del sitio con más información sobre la promoción.
 
 A partir de Commerce 2.4.7, los compradores pueden aplicar varios cupones a un carro de compras. Los comerciantes también pueden aplicar varios cupones utilizando la asistencia de compras.
+
+>[!NOTE]
+>
+>Las reglas de precios del carro de compras que tienen la misma prioridad no resultan en un descuento combinado. Cada regla (cupón) se aplica a los productos coincidentes por separado, uno a uno, según el ID de regla de precios del carro de compras de la base de datos. Para controlar el orden en que se aplican los descuentos, Adobe recomienda establecer una prioridad diferente para cada regla de precio del carro de compras agregada.
 
 ## Configuración de códigos de cupones
 
