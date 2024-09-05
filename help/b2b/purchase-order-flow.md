@@ -3,9 +3,9 @@ title: Pedidos de compra para empresas
 description: Obtenga información sobre los flujos de trabajo de pedidos de compra que permiten a las empresas rastrear y controlar el gasto.
 exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 feature: B2B, Purchase Orders
-source-git-commit: 4b34645377102e890779059e57c61cf23f71f34c
+source-git-commit: c1d8bdcd2d09567846ef6819660c57468062ab01
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ El flujo de trabajo del pedido de compra de una empresa puede variar en varios a
   >De manera predeterminada, siempre se muestra un mensaje `Purchase order has been submitted for approval` a los usuarios de la compañía, incluso cuando no se hayan establecido reglas de aprobación. Cuando no se requiere ningún proceso de aprobación, los usuarios de la empresa reciben automáticamente un correo electrónico que les informa de que la solicitud se ha creado y aprobado.
 
 - Si el administrador de la empresa define las reglas de aprobación, los usuarios pasan por el proceso de aprobación.
+- Si se aplican varias reglas de aprobación a un pedido, todos los aprobadores únicos necesarios deben aprobarlo.
 - Los detalles de pago sin conexión se introducen al crear el pedido de compra.
 - Los detalles de pago en línea se introducen después de aprobar el pedido de compra.
 
@@ -57,7 +58,7 @@ Las reglas de aprobación se utilizan para controlar el gasto en función de las
 - Cualquier pedido superior a $1000 necesita la aprobación de su gerente y del administrador de la empresa.
 - Cualquier pedido con más de 30 SKU únicas necesita la aprobación del administrador de la empresa.
 
-Con estas reglas implementadas para una compañía, un usuario de la compañía puede completar el pedido inmediatamente cuando este sea inferior a 100 dólares. Para conocer la definición de la regla de aprobación, consulte [Reglas de aprobación](account-dashboard-approval-rules.md)
+Con estas reglas implementadas para una compañía, un usuario de la compañía puede completar el pedido inmediatamente cuando este sea inferior a 100 dólares. Para conocer la definición de la regla de aprobación, consulte [Reglas de aprobación](account-dashboard-approval-rules.md).
 
 ### Tipos de usuarios de tiendas
 
