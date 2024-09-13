@@ -3,9 +3,9 @@ title: United Parcel Service (UPS)
 description: Aprenda a configurar UPS como transportista para su tienda.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 59daaca469ca1bf21c420ce8520efea6c54166fa
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ Para ofrecer este método de envío a sus clientes, primero debe abrir una cuent
 
    - Establezca **[!UICONTROL Mode]** en `Live` para enviar datos al sistema de envío de UPS a través de una conexión segura. (El modo de desarrollo no envía datos a través de una conexión segura).
 
-   - Compruebe **[!UICONTROL Gateway URL]** que es necesario para enviar solicitudes. Utilice una URL de zona protegida para el modo de prueba y una URL de producción para las solicitudes activas.
+   - Compruebe **[!UICONTROL Gateway URL]** que es necesario para enviar solicitudes. Use una dirección URL de zona protegida (`https://wwwcie.ups.com/`) para el modo de prueba y una dirección URL de producción para solicitudes activas (`https://onlinetools.ups.com`). Asegúrese de utilizar los puntos de conexión respectivos para cada solicitud con el host determinado.
 
-   - Compruebe **[!UICONTROL Tracking URL]** que es necesario para obtener información de seguimiento. Utilice una URL de zona protegida para el modo de prueba y una URL de producción para las solicitudes activas.
+   - Compruebe **[!UICONTROL Tracking URL]** que es necesario para obtener información de seguimiento. Use una dirección URL de zona protegida (`https://wwwcie.ups.com/`) para el modo de prueba y una dirección URL de producción para solicitudes activas (`https://onlinetools.ups.com`). Asegúrese de utilizar los puntos de conexión respectivos para cada solicitud con el host determinado.
 
    - Establezca **[!UICONTROL Origin of the Shipment]** en la región donde se origina el envío.
 
@@ -50,8 +50,8 @@ Para ofrecer este método de envío a sus clientes, primero debe abrir una cuent
 
    - Establezca **[!UICONTROL Live Account]** en una de las siguientes opciones:
 
-      - `Yes`: ejecuta UPS en modo de producción y ofrece UPS como método de envío a sus clientes.
-      - `No` - Ejecuta UPS en modo de prueba.
+      - `Yes`: ejecuta UPS en modo de producción y ofrece UPS como método de envío a sus clientes. Asegúrese de utilizar los puntos de conexión correctos en URL de puerta de enlace y URL de seguimiento.
+      - `No` - Ejecuta UPS en modo de prueba. Asegúrese de utilizar los puntos de conexión correctos en URL de puerta de enlace y URL de seguimiento.
 
    >[!NOTE]
    >
