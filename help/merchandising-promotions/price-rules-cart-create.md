@@ -3,9 +3,9 @@ title: Crear una regla de precios de carro
 description: Aprenda a crear una regla de precios de carro de compras basada en el carro de compras o en los atributos del producto.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: a8971c883c39dcea515e966a57102f63f7781446
+source-git-commit: 83f341c59ab9517a076eaaba71f4988e21abf826
 workflow-type: tm+mt
-source-wordcount: '3379'
+source-wordcount: '3386'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Complete los siguientes pasos para agregar una regla, describir las condiciones 
 
    >[!NOTE]
    >
-   >La configuración Prioridad es importante cuando dos reglas de carro de compras/códigos de cupones son válidos para el mismo producto al mismo tiempo. La regla con la configuración de prioridad más alta (`1` es la más alta) controla la acción del carro de compras. Consulte _Descartar reglas de precios subsiguientes_ en el paso _Definir las acciones_.
+   >La configuración de _[!UICONTROL Priority]_es importante cuando dos reglas de carro de compras o códigos de cupones son válidos para el mismo producto al mismo tiempo. Regla con la configuración [!UICONTROL Priority] más alta que controla la acción del carro de compras.  Las prioridades de mayor a menor son `0,1,2,3...`. Consulte_ Descartar reglas de precios subsiguientes _en el paso_[ Definir las acciones ](#step-3-define-the-actions)_.
 
    >[!NOTE]
    >
@@ -350,7 +350,7 @@ Vea este vídeo para obtener más información sobre la creación de reglas de p
 | [!UICONTROL Coupon] | (Obligatorio) Indica si hay un cupón asociado a la regla. Opciones: <br/>**[!UICONTROL No Coupon]**- No hay ningún cupón asociado con la regla.<br/>**[!UICONTROL Specific Coupon]** - Hay un cupón específico asociado con la regla. <br/>**[!UICONTROL Coupon Code]**: cuando se le solicite, introduzca el código de cupón que debe introducir el cliente para aprovechar la promoción.<br/>**[!UICONTROL Use Auto Generation]**: seleccione la casilla de verificación para generar automáticamente varios códigos de cupones que se puedan utilizar con la promoción. <br/>**[!UICONTROL Auto]**- Muestra la sección _[!UICONTROL Manage Coupon Codes]_para definir el formato de los códigos de cupón que se van a generar. |
 | [!UICONTROL Uses per Coupon] | Determina cuántas veces se puede utilizar el código de cupón. Si no hay límite, deje el campo en blanco. |
 | [!UICONTROL Uses per Customer] | Determina cuántas veces el mismo cliente registrado que pertenece a un grupo de clientes seleccionado puede utilizar la regla de precio del carro de compras. No se aplica a los compradores invitados que sean miembros del grupo de clientes NOT LOGGED IN, ni a los clientes que compren sin iniciar sesión en sus cuentas. Si no hay límite, déjelo en blanco. |
-| [!UICONTROL Priority] | Un número que indica la prioridad de esta regla en relación con otras. La prioridad más alta es el número `1`. |
+| [!UICONTROL Priority] | Un número que indica la prioridad de esta regla en relación con otras. Las prioridades de mayor a menor son `0,1,2,3...` |
 | [!UICONTROL Public in RSS Feed] | Determina si la promoción está incluida en la fuente RSS pública de la tienda. Opciones:  `Yes` / `No` |
 | [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) La primera fecha en que se puede usar el cupón. |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) La última fecha en que se puede usar el cupón. |
