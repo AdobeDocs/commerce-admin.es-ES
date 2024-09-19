@@ -3,9 +3,9 @@ title: Licencia de una imagen de Adobe Stock
 description: Para garantizar que tenga acceso legal y eliminar la marca de agua de Adobe Stock, conceda una licencia a sus imágenes de Adobe Stock.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: ee619d6a46948a714789dfbc275735df8669cdcb
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,13 @@ Los recursos de Adobe Stock que desee utilizar para sus tiendas de producción d
 
 El nuevo [[!DNL Media Gallery]](media-gallery.md) proporciona una integración directa con Adobe Stock, lo que facilita la licencia de las imágenes directamente desde la página de la galería.
 
-## Requisitos previos
+>[!BEGINSHADEBOX]
 
-Esta característica requiere el módulo [Adobe Stock Integration][adobe-stock-integration] y la configuración. Para autorizar [imágenes de Adobe Stock][adobe-stock] se necesita un plan Adobe Stock de pago y una [cuenta de Adobe][adobe-signin].
+**Requisitos previos**
+
+La característica de licencias de Adobe Stock solo está disponible si [Adobe Stock Integration][adobe-stock-integration] está instalado y configurado. Para autorizar [imágenes de Adobe Stock][adobe-stock] se necesita un plan Adobe Stock de pago y una [cuenta de Adobe][adobe-signin].
+
+>[!ENDSHADEBOX]
 
 ## Otorgar licencia a una imagen del nuevo [!DNL Media Gallery]
 
