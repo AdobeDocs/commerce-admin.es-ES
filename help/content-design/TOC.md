@@ -3,9 +3,9 @@ user-guide-title: Guía de diseño y contenido
 user-guide-description: Información completa sobre el contenido y las funciones de diseño para administradores de Adobe Commerce y Magento Open Source, y especialistas en marketing por correo electrónico.
 breadcrumb-title: Contenido y diseño
 feature: CMS, Page Content
-source-git-commit: ea1532d326d3e787ba36cb98ced708f2bc2776e4
+source-git-commit: 102f39faada1b303ce5736c9f31bcc673e9e7720
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '239'
 ht-degree: 4%
 
 ---
@@ -72,14 +72,14 @@ ht-degree: 4%
       - [Administración de recursos](media-gallery-asset-management.md)
       - [Administración de carpetas](media-gallery-folder-management.md)
       - [Optimización de imagen](media-gallery-image-optimization.md)
-- Administración avanzada de recursos {#aem-assets}
-   - [Integración de AEM Assets para Commerce](aem-assets.md)
+- Administración de recursos mediante AEM Assets {#aem-asset-management}
+   - [Integración de AEM Assets para Commerce](aem-assets-integration.md)
    - Configurar la integración {#onboarding}
       - [Información general](aem-assets-setup.md)
       - [Configuración de AEM Assets](aem-assets-configure-aem.md)
       - [Configuración de Adobe Commerce](aem-assets-configure-commerce.md)
       - [Habilitar sincronización de recursos](aem-assets-setup-synchronization.md)
-   - [Uso de AEM Assets](aem-assets-manage.md)
+   - [Administrar recursos](aem-assets-manage.md)
 - Medios {#media}
 - Ensayo de contenido {#staging}
    - [Información general](content-staging.md)
