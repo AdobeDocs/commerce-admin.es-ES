@@ -3,7 +3,7 @@ title: Transferir una cuenta de Commerce
 description: Aprenda a transferir su cuenta de Commerce a otro propietario o dirección de correo electrónico.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 03a16730eebe3979157bc9eb847ac2b232d938bf
+source-git-commit: 5c7fbeaa0f09cb106c3105e3c36871df7e1bc368
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -69,6 +69,8 @@ Este tipo de transferencia requiere que cree primero un Adobe ID asociado y, a c
 1. Introduzca el código de confirmación enviado a la nueva dirección de correo electrónico.
 
 1. Haga clic en **[!UICONTROL Verify]**.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
 
 ## Cambio de correo electrónico
 
