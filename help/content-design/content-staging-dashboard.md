@@ -3,9 +3,9 @@ title: Panel de ensayo de contenido
 description: Utilice el panel de ensayo de contenido para acceder a una descripción general de todas las campañas activas y próximas.
 exl-id: 67c18c1c-94c3-4d89-ae1e-868a465431e3
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Los objetos de campaña existentes se pueden editar desde el panel de ensayo, ex
 
 >[!NOTE]
 >
->Si una campaña que incluye una regla de precio se crea inicialmente sin una fecha de finalización, la campaña no se puede editar más adelante para incluir una fecha de finalización. En tal caso, es necesario crear una campaña duplicada e introducir la fecha de finalización que sea necesaria.
+>Si inicialmente se crea una campaña activa sin una fecha de finalización, la campaña no se puede editar más adelante para incluir una fecha de finalización. En tal caso, es necesario crear una campaña duplicada e introducir la fecha de finalización que sea necesaria.
 
 ![Detalles de campaña](./assets/content-staging-dashboard-view-edit.png){width="600" zoomable="yes"}
 

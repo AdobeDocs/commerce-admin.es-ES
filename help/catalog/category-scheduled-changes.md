@@ -3,9 +3,9 @@ title: Cambios programados para categorías
 description: Aprenda a programar cambios de categoría para admitir campañas de marketing y promociones de tiendas.
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 714904d6d81bde6374a5ce644262de252c70a391
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,17 @@ ht-degree: 0%
 
 Las actualizaciones de categoría se pueden aplicar según lo programado y agrupar con otros cambios de contenido. Puede crear una campaña basada en los cambios programados en la categoría o aplicar los cambios a una campaña existente. Para obtener más información, consulte [Ensayo de contenido](../content-design/content-staging.md).
 
->[!NOTE]
->
->La ficha [!UICONTROL Schedule Design Update] se ha quitado en ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce y no se puede modificar directamente en la categoría. Debe crear una actualización programada para estas activaciones.
+Cuando programe cambios para categorías, tenga en cuenta lo siguiente:
+
+- Todas las actualizaciones programadas se aplican de forma consecutiva, lo que significa que cualquier entidad solo puede tener una actualización programada a la vez. Cualquier actualización programada se aplica a todas las vistas de la tienda dentro de su lapso de tiempo. Como resultado, una entidad no puede tener varias actualizaciones programadas para diferentes vistas de tienda al mismo tiempo. Todos los valores de atributo de entidad dentro de todas las vistas de tienda, que no se ven afectados por la actualización programada actual, se toman de los valores predeterminados y no de la actualización programada anterior.
+
+- Si una campaña está vinculada a más de una categoría, la campaña solo se puede editar desde el [Panel de ensayo de contenido](../content-design/content-staging-dashboard.md).
+
+- Si una campaña está vinculada a más de una categoría, la campaña solo se puede editar desde el [Panel de ensayo de contenido](../content-design/content-staging-dashboard.md).
 
 >[!NOTE]
 >
->Todas las actualizaciones programadas se aplican de forma consecutiva, lo que significa que cualquier entidad solo puede tener una actualización programada a la vez. Cualquier actualización programada se aplica a todas las vistas de la tienda dentro de su lapso de tiempo. Como resultado, una entidad no puede tener varias actualizaciones programadas para diferentes vistas de tienda al mismo tiempo. Todos los valores de atributo de entidad dentro de todas las vistas de tienda, que no se ven afectados por la actualización programada actual, se toman de los valores predeterminados y no de la actualización programada anterior.
+>La ficha [!UICONTROL Schedule Design Update] se ha quitado en ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce y no se puede modificar directamente en la categoría. Debe crear una actualización programada para estas activaciones.
 
 ## Programar una actualización a una categoría
 
@@ -69,7 +73,3 @@ Las actualizaciones de categoría se pueden aplicar según lo programado y agrup
 1. Realice los cambios necesarios en la actualización programada.
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
-
-   >[!NOTE]
-   >
-   >Si una campaña está vinculada a más de una categoría, la campaña solo se puede editar desde el [Panel de ensayo de contenido](../content-design/content-staging-dashboard.md).

@@ -3,9 +3,9 @@ title: Controles de Page Workspace
 description: Obtenga información acerca de las herramientas de Workspace utilizadas para localizar y actualizar páginas de contenido.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: fc8ebeeae56378967e95bda9bbf898c469b3a4c0
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
@@ -200,22 +200,21 @@ Haga clic en el control _Ver_ (![Icono de ojo](../assets/icon-view-eye.png)) y r
 
 Los cambios de página se pueden aplicar según lo programado y agrupar con otros cambios de contenido. Puede crear una campaña basada en cambios programados realizados en una página o aplicar los cambios a una campaña existente. Para obtener más información, consulte [Ensayo de contenido](content-staging.md).
 
->[!NOTE]
->
->Si una campaña está vinculada a más de una página, la campaña solo se puede editar desde el [Panel de ensayo de contenido](content-staging-dashboard.md).
+Al configurar programaciones para cambios de página y editar campañas, tenga en cuenta lo siguiente:
+
+- Todas las actualizaciones programadas se aplican de forma consecutiva, lo que significa que cualquier entidad solo puede tener una actualización programada en un momento dado. Cualquier actualización programada se aplica a todas las vistas de la tienda dentro de su lapso de tiempo. Como resultado, una entidad no puede tener una actualización programada diferente para diferentes vistas de tienda al mismo tiempo. Todos los valores de atributo de entidad dentro de todas las vistas de tienda, que no se ven afectados por la actualización programada actual, se toman de los valores predeterminados y no de la actualización programada anterior.
+
+- Si una campaña está vinculada a más de una página, la campaña solo se puede editar desde el [Panel de ensayo de contenido](content-staging-dashboard.md).
+
+- Si inicialmente se crea una campaña activa sin una fecha de finalización, la campaña no se puede editar más adelante para incluir una fecha de finalización. En tal caso, es necesario crear una campaña duplicada e introducir la fecha de finalización que sea necesaria.
+
+- La fecha de inicio y la fecha de finalización de la campaña deben definirse usando la zona horaria del administrador **_default_**, que se convierte a partir de la zona horaria local de cada sitio web. Pongamos un ejemplo en el que tiene varios sitios web en diferentes zonas horarias, pero quiere iniciar una campaña basada en una zona horaria de EE. UU. En este caso, debe programar una actualización independiente para cada zona horaria local y establecer **[!UICONTROL Start Date]** y **[!UICONTROL End Date]** en convertidas desde cada zona horaria de sitio web local a la zona horaria de administración predeterminada.
+
+- Puede programar y previsualizar cambios para actualizaciones de productos. Para obtener más información, consulte [Programar una actualización](content-staging-scheduled-update.md).
 
 >[!NOTE]
 >
 >La ficha [!UICONTROL Custom Design Update] se ha eliminado en ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce y no se puede modificar directamente en la página. Debe crear una actualización programada para estas activaciones.
 
->[!NOTE]
->
->Todas las actualizaciones programadas se aplican de forma consecutiva, lo que significa que cualquier entidad solo puede tener una actualización programada en un momento dado. Cualquier actualización programada se aplica a todas las vistas de la tienda dentro de su lapso de tiempo. Como resultado, una entidad no puede tener una actualización programada diferente para diferentes vistas de tienda al mismo tiempo. Todos los valores de atributo de entidad dentro de todas las vistas de tienda, que no se ven afectados por la actualización programada actual, se toman de los valores predeterminados y no de la actualización programada anterior.
-
 ![La página de inicio muestra los cambios programados en la parte superior](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
 
->[!NOTE]
->
->La fecha de inicio y la fecha de finalización de la campaña deben definirse usando la zona horaria del administrador **_default_**, que se convierte a partir de la zona horaria local de cada sitio web. Pongamos un ejemplo en el que tiene varios sitios web en diferentes zonas horarias, pero quiere iniciar una campaña basada en una zona horaria de EE. UU. En este caso, debe programar una actualización independiente para cada zona horaria local y establecer **[!UICONTROL Start Date]** y **[!UICONTROL End Date]** en convertidas desde cada zona horaria de sitio web local a la zona horaria de administración predeterminada.
-
-Además, puede programar y previsualizar cambios para actualizaciones de productos. Para obtener más información, consulte [Programar una actualización](content-staging-scheduled-update.md).

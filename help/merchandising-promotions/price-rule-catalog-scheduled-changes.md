@@ -3,9 +3,9 @@ title: Cambios programados para reglas de precios de catálogo
 description: Aprenda a aplicar reglas de precios de catálogo según lo programado como parte de una campaña y agrupadas con otros cambios de contenido.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 11f8fcba70491f9dcb6c20d14b406fba4b14cab4
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Si se ejecutan varias reglas de precios en la misma campaña, la configuración 
 
 >[!IMPORTANT]
 >
->Si una campaña que incluye una regla de precio se crea inicialmente sin una fecha de finalización, la campaña no se puede editar más adelante para incluir una fecha de finalización. Se recomienda añadir una fecha de finalización al crear la campaña o crear una versión duplicada de la campaña existente y añadir la fecha de finalización al duplicado según sea necesario.
+>Si inicialmente se crea una campaña activa sin una fecha de finalización, la campaña no se puede editar más adelante para incluir una fecha de finalización. En tal caso, es necesario crear una campaña duplicada e introducir la fecha de finalización que sea necesaria.
 
 ![Regla de precios de catálogo - cambios programados](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
 

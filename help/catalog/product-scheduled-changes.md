@@ -3,9 +3,9 @@ title: Actualizaciones programadas de productos
 description: Aprenda a programar cambios en las listas de productos para que sean compatibles con campañas y programas promocionales.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 2cdf3452f1648dc1ed607d6dfb5ade4be5ed5ce9
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,20 @@ ht-degree: 0%
 
 Las actualizaciones de productos se pueden aplicar según lo programado y agrupar con otros cambios de contenido. Puede usar [ensayo de contenido](../content-design/content-staging.md) para crear una campaña basada en cambios programados en el producto o aplicar los cambios a una campaña existente.
 
+Al configurar programaciones para actualizaciones de productos y editar campañas, tenga en cuenta lo siguiente:
+
+- Todas las actualizaciones programadas se aplican de forma consecutiva, lo que significa que cualquier entidad solo puede tener una actualización programada a la vez. Cualquier actualización programada se aplica a todas las vistas de la tienda dentro de su lapso de tiempo. Como resultado, una entidad no puede tener diferentes actualizaciones programadas para diferentes vistas de tienda al mismo tiempo. Todos los valores de atributo de entidad dentro de todas las vistas de tienda, que no se ven afectados por la actualización programada actual, se toman de los valores predeterminados y no de la actualización programada anterior.
+
+- Una vista previa de ensayo para una actualización programada siempre comienza desde la vista de tienda **default**, que emula la experiencia del cliente al navegar por la campaña de actualización de ensayo.
+
+- Si una campaña está vinculada a más de un producto, la campaña solo se puede editar desde el [Panel de ensayo de contenido](../content-design/content-staging-dashboard.md).
+
+- Si inicialmente se crea una campaña activa sin una fecha de finalización, la campaña no se puede editar más adelante para incluir una fecha de finalización. En tal caso, es necesario crear una campaña duplicada e introducir la fecha de finalización que sea necesaria.
+
+
 >[!NOTE]
 >
 >Los campos [!UICONTROL Set Product as New From] y [!UICONTROL To], así como la ficha [!UICONTROL Schedule Design Update], se han eliminado en el Adobe Commerce ![Adobe Commerce](../assets/adobe-logo.svg) y no se pueden modificar directamente en el producto. Debe crear una actualización programada para estas activaciones.
-
->[!NOTE]
->
->Todas las actualizaciones programadas se aplican de forma consecutiva, lo que significa que cualquier entidad solo puede tener una actualización programada a la vez. Cualquier actualización programada se aplica a todas las vistas de la tienda dentro de su lapso de tiempo. Como resultado, una entidad no puede tener diferentes actualizaciones programadas para diferentes vistas de tienda al mismo tiempo. Todos los valores de atributo de entidad dentro de todas las vistas de tienda, que no se ven afectados por la actualización programada actual, se toman de los valores predeterminados y no de la actualización programada anterior.
-
->[!NOTE]
->
->Una vista previa de ensayo para una actualización programada siempre comienza desde la vista de tienda **default**, que emula la experiencia del cliente al navegar por la campaña de actualización de ensayo.
 
 ## Creación de una actualización programada
 
@@ -86,10 +89,6 @@ El cambio programado aparece en la parte superior de la página del producto, co
 
 1. Realice los cambios necesarios en la actualización programada.
 
->[!NOTE]
->
->Si una campaña está vinculada a más de un producto, la campaña solo se puede editar desde el [Panel de ensayo de contenido](../content-design/content-staging-dashboard.md).
-
 1. Haga clic en **[!UICONTROL Save]**.
 
 ## Eliminar el cambio programado
@@ -102,9 +101,7 @@ El cambio programado aparece en la parte superior de la página del producto, co
 
 1. En el diálogo, seleccione **[!UICONTROL Delete the Update]** y haga clic en **[!UICONTROL Done]**.
 
-   >[!NOTE]
-   >
-   >El producto se elimina de la actualización y se pierden todos los cambios programados.
+   El producto se elimina de la actualización y se pierden todos los cambios programados.
 
 ## Programar una actualización de diseño
 
