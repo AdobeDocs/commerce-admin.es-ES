@@ -4,9 +4,9 @@ description: Descubra cómo los clientes asociados a una cuenta de compañía pu
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: b53d77364f09e587813c50221ebd85ac633f1296
+source-git-commit: c3a54d4574ec6aaf580d97563165c63c55711f15
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,6 @@ Si las ofertas están habilitadas en la [configuración de características de v
 1. Crea y procesa la oferta:
 
    - Envía la cotización al Vendedor seleccionando **[!UICONTROL Request a Quote]**.
-   - [!BADGE Capacidad beta de 1.5.0]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponible solo para participantes del programa Beta"}**[!UICONTROL Save as Draft]**.
+   - Guarda la oferta como borrador al seleccionar **[!UICONTROL Save as Draft]**.
 
      Si el comprador guarda la oferta como borrador, la oferta estará disponible en [!UICONTROL My Quotes] en estado `Draft`. El vendedor no puede ver los borradores de presupuestos hasta que el comprador los envíe para su revisión.

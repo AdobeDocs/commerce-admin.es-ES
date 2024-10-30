@@ -4,9 +4,9 @@ description: Obtenga información acerca de la activación de funciones B2B en s
 exl-id: aed203ef-f39b-4f7e-b32f-ded53eca09a8
 feature: B2B, Configuration
 role: Admin
-source-git-commit: 7e36d0b7c9b414cb072118b87cd903b3374bb9de
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ De forma predeterminada, todas las funciones B2B se desactivan inicialmente. Un 
 
 Al habilitar la compatibilidad para las empresas de los clientes, se habilitan automáticamente las siguientes funciones B2B adicionales:
 
-- [!DNL Shared Catalog]
+- [[!DNL Shared Catalog]](catalog-shared.md)
 
   Admite la configuración de precios personalizada para diferentes empresas y también habilita permisos de categoría para todas las tiendas.
 
@@ -25,7 +25,7 @@ Al habilitar la compatibilidad para las empresas de los clientes, se habilitan a
 
   Mejora el rendimiento del sitio al almacenar únicamente los productos asignados a un catálogo compartido en el índice de precios. Habilitar esta función es una práctica recomendada para los comerciantes que tienen muchos catálogos compartidos para administrar los precios personalizados para diferentes empresas.
 
-- [!DNL B2B Quotes]
+- [[!DNL B2B Quotes]](quotes.md)
 
   Permite a los vendedores y compradores de la empresa negociar precios.
 
@@ -35,7 +35,7 @@ Al habilitar la compatibilidad para las empresas de los clientes, se habilitan a
 
 Las opciones de configuración de estas características solo son visibles cuando [!DNL Enable Company] se establece en `Yes`.
 
-Las características B2B [!DNL Quick Order] y [!DNL Requisition List] se pueden habilitar y deshabilitar de forma independiente.
+Las características B2B [[!DNL Quick Order]](quick-order.md) y [[!DNL Requisition List]](requisition-lists.md) se pueden habilitar y deshabilitar de forma independiente.
 
 ## Configuración de funciones B2B
 
@@ -52,6 +52,8 @@ Las opciones para configurar las características de Adobe Commerce B2B solo est
    - Permitir que los clientes administren sus propias cuentas de compañía y habilitar la compatibilidad con características B2B adicionales estableciendo **[!UICONTROL Enable Company]** en `Yes`.
 
      Al activar la asistencia técnica de la empresa, se activan automáticamente el catálogo compartido, la oferta B2B, los métodos de pago B2B y los métodos de envío B2B.
+
+     ![Configuración B2B - características de la compañía](assets/b2b-additional-features.png){width="600"}
 
    - Para permitir que los clientes e invitados realicen pedidos rápidamente según el SKU o el nombre del producto, establezca **[!UICONTROL Enable Quick Order]** en `Yes`.
 

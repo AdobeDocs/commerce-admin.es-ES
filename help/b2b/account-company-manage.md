@@ -3,22 +3,26 @@ title: Administrar cuentas de empresa
 description: Aprenda a administrar las cuentas de empresa de su tienda Adobe Commerce mediante la página Compañías y las herramientas disponibles en la cuadrícula.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: fa8083570a4637c4bf67f7657ef9d0d48f962c50
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
-source-wordcount: '2493'
+source-wordcount: '2706'
 ht-degree: 0%
 
 ---
 
 # Administrar cuentas de empresa
 
-La página _[!UICONTROL Companies]_enumera todas las cuentas de compañía actuales, independientemente del estado. Cualquier solicitud de aprobación pendiente aparecerá en la parte superior de la lista. Los [controles estándar del área de trabajo](../getting-started/admin-workspace.md) se pueden usar para filtrar la lista, cambiar el [diseño de la columna](../getting-started/admin-grid-controls.md), guardar vistas o exportar datos.
-
-El control _[!UICONTROL Actions]_sobre la cuadrícula se puede usar para aplicar una acción a varios registros de compañía. Por ejemplo: en lugar de aprobar cada solicitud individual de empresa, puede seleccionar varias solicitudes y activar las cuentas en una sola acción. Las acciones disponibles dependen de los [permisos](../systems/permissions.md) para la función asignada a su cuenta de usuario administrador.
-
-Utilice la función _[!UICONTROL Search]_para buscar compañías en la cuadrícula **Compañías**por palabra clave. La búsqueda indiza palabras clave de las columnas **Nombre de la compañía**y **Principal**. Puede filtrar por **Tipo de compañía**para mostrar solo compañías individuales, solo compañías principales o solo compañías secundarias.
+La página _[!UICONTROL Companies]_enumera todas las cuentas de compañía actuales, independientemente del estado. Cualquier solicitud de aprobación pendiente aparecerá en la parte superior de la lista.
 
 ![Cuadrícula de compañías](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+
+Utilice el control *[!UICONTROL Columns]* para personalizar las columnas mostradas en la cuadrícula. Personalice las empresas mostradas en la vista mediante las funciones de búsqueda y filtrado.
+
+- Busque compañías en la cuadrícula **Compañías** usando _[!UICONTROL Search]_. La búsqueda indiza las columnas **Nombre de la compañía**y **Principal**.
+
+- Personalice la vista para incluir registros que cumplan criterios específicos utilizando [!UICONTROL Filter]. Por ejemplo, si el sitio B2B está configurado para administrar cuentas de una sola compañía y [jerarquías de compañías](manage-companies.md), puede filtrar por `[!UICONTROL Company Type - Company]` para mostrar solo compañías individuales, o por `[!UICONTROL Company Type - Parent]` para mostrar solo la compañía principal de cada jerarquía.
+
+Aplicar una acción a varios registros de compañía utilizando el control _[!UICONTROL Actions]_sobre la cuadrícula. Por ejemplo: en lugar de aprobar cada solicitud individual de empresa, puede seleccionar varias solicitudes para activar las cuentas en una sola acción. Las acciones disponibles dependen de los [permisos](../systems/permissions.md) para la función asignada a su cuenta de usuario administrador.
 
 ## Recursos de funciones de compañía
 
@@ -29,15 +33,23 @@ La configuración de [Recursos de rol](../systems/permissions-user-roles.md#role
 - Aplicar un reembolso de saldo
 - Ver compañías
 
-Estos recursos de rol deben establecerse para la [Función de usuario](../systems/permissions-user-roles.md) asignada para la cuenta de usuario de administrador.
+Estos recursos de rol deben establecerse para el [Rol de usuario](../systems/permissions-user-roles.md) que se ha asignado a la cuenta de usuario de administrador.
 
-## Aplicar una acción
+## Administrar cuentas de compañía desde la cuadrícula Compañías
 
-Las siguientes acciones se pueden aplicar a registros únicos o múltiples.
+Vea y administre las cuentas de usuario para empresas desde el menú Administración seleccionando **[!UICONTROL Customers]** > **[!UICONTROL Companies]** para abrir la página *[!UICONTROL Companies]*.
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+Puede administrar cuentas de forma individual o en grupos.
 
-1. En la primera columna de la cuadrícula, active la casilla de verificación de cada registro que desee actualizar y siga las instrucciones de la acción que desee aplicar:
+- Vea o cambie las opciones de configuración de una cuenta de compañía individual seleccionando **[!UICONTROL Edit]** en la columna **[!UICONTROL Action]** del registro de cuenta de compañía.
+
+  ![Seleccionar acción para aplicar a las empresas seleccionadas](assets/companies-change-settings-edit-selection.png){width="675" zoomable="yes"}
+
+- Ver o cambiar un grupo de cuentas de compañía seleccionadas mediante las opciones disponibles en el control [!UICONTROL Actions]** situado sobre la cuadrícula.
+
+  ![Seleccionar acción para aplicar a las empresas seleccionadas](assets/companies-change-settings-mass-action-selection.png){width="675" zoomable="yes"}
+
+Consulte las secciones siguientes para obtener instrucciones sobre cómo aplicar cada acción.
 
 ### Activar cuentas de empresa
 
@@ -90,6 +102,30 @@ Las cuentas de empresa eliminadas no se pueden restaurar. El estado de las cuent
 
 1. Cuando se le pida que confirme, haga clic en **[!UICONTROL OK]**.
 
+### Cambiar configuración de empresa
+
+Actualice la configuración de [Configuración avanzada](account-company-create.md#advanced-settings) para aplicar la misma configuración a varias empresas seleccionadas en la cuadrícula *Compañías*.
+
+>[!NOTE]
+>
+>Administre la configuración avanzada para una organización de compañía con una compañía principal y compañías secundarias asociadas desde la [vista Jerarquía de la compañía](manage-company-hierarchy.md#change-company-settings).
+
+1. En el control **[!UICONTROL Actions]**, seleccione **[!UICONTROL Change company settings]**.
+
+   En el formulario *[!UICONTROL Change company settings]*, la configuración inicial se establece en los valores predeterminados.
+
+1. Para que cambie cada configuración, active la casilla de verificación **[!UICONTROL Change]** para habilitar la configuración. A continuación, actualice la configuración según sea necesario.
+
+   ![Cambiar la configuración de la empresa para varias empresas](assets/companies-change-advanced-settings-action.png){width="675" zoomable="yes"}
+
+1. Después de actualizar las opciones de configuración, seleccione **[!UICONTROL Apply Changes]**.
+
+1. Cuando se le pida, seleccione **[!UICONTROL Change settings]** para actualizar la configuración de las empresas seleccionadas.
+
+>[!TIP]
+>
+>Puede cambiar la configuración de configuración avanzada de una sola compañía seleccionando **[!UICONTROL Edit]** en la columna **[!UICONTROL Action]** del registro de cuenta de compañía.
+
 ### Conversión de la moneda de crédito
 
 El crédito en las cuentas de las empresas seleccionadas se convierte al tipo de cambio actual de la divisa seleccionada.
@@ -114,7 +150,7 @@ Método 1: **edición rápida**
 
    Cada valor que se puede actualizar aparece en un cuadro de texto.
 
-   ![Edición rápida de una cuenta de compañía](./assets/companies-grid-quick-edit.png){width="700" zoomable="yes"}
+   ![Edición rápida de una cuenta de compañía](./assets/companies-grid-quick-edit.png){width="675" zoomable="yes"}
 
 1. Actualice cualquiera de los siguientes valores según sea necesario:
 
@@ -134,7 +170,7 @@ Método 2: **edición completa**
 
 1. Realice los cambios necesarios en la información de la compañía.
 
-Para obtener descripciones de los campos, consulte [Crear una cuenta de empresa](account-company-create.md).
+   Para obtener descripciones de los campos, consulte [Crear una cuenta de empresa](account-company-create.md).
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
 
@@ -176,13 +212,11 @@ Para obtener más información sobre la administración de cuentas de empresa, c
 
 ## Administración de empresa
 
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponible solo para participantes del programa Beta"}
-
 Una vez creada una compañía, los usuarios administradores con los permisos adecuados pueden utilizar la sección [!UICONTROL Company Hierarchy] para crear una organización de compañía principal editando la compañía principal designada y asignando compañías relacionadas.
 
 Si se ha agregado una compañía a una jerarquía, la cuadrícula [!UICONTROL Company Hierarchy] muestra la compañía principal y todas las compañías asignadas en la cuadrícula.
 
-Consulte [Administrar la jerarquía de la compañía](assign-companies.md) para obtener más información.
+Consulte [Administrar la jerarquía de la compañía](manage-company-hierarchy.md) para obtener más información.
 
 ## Opciones y columnas de la empresa
 
@@ -191,11 +225,12 @@ Las secciones siguientes proporcionan una referencia sobre las acciones, opcione
 ### Opciones de control de acciones
 
 | Opción | Descripción |
-|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Set Active] | Establece el estado de todos los registros de empresa seleccionados en `Active`. Los administradores de la empresa reciben instrucciones para establecer sus contraseñas de modo que puedan acceder a sus cuentas y administrar sus empresas desde la tienda. |
 | [!UICONTROL Block] | Restringe las cuentas de compañía que no están al día, conservando al mismo tiempo la cuenta. Los miembros de la compañía pueden iniciar sesión y acceder al catálogo, pero no pueden realizar pedidos en nombre de la compañía. |
 | [!UICONTROL Delete] | Elimina las cuentas de empresa seleccionadas. El estado de las cuentas de usuario asociadas con una compañía eliminada se establece en `Inactive` y el identificador de compañía se elimina de los perfiles de las cuentas de usuario. La información sobre la actividad y las transacciones de la empresa se conserva en el sistema. |
 | [!UICONTROL Edit] | Permite editar algunos valores del registro de empresa seleccionado desde la cuadrícula. De forma predeterminada, los valores Nombre de la empresa, Correo electrónico de la empresa y Número de teléfono están disponibles para una edición rápida. |
+| [!UICONTROL Change company settings] | Abre el formulario *Cambiar configuración de la compañía* para actualizar la configuración de [Configuración avanzada](account-company-create.md#advanced-settings) y aplicar los cambios a las empresas seleccionadas. |
 | [!UICONTROL Convert Credit] | Convierte el crédito a cuenta para las empresas seleccionadas según las tasas de la moneda especificada. |
 
 {style="table-layout:auto"}
@@ -250,7 +285,6 @@ Las siguientes columnas están disponibles si cambia el [diseño de columna](../
 | Botón | Descripción |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Back] | Vuelve a la página Compañías sin guardar los cambios. |
-| [!UICONTROL Login as Customer] | Permite que un usuario administrador [inicie sesión en la tienda como cliente](../customers/login-as-customer.md) y le ayude con sus pedidos. |
 | [!DNL Delete Company] | Elimina la cuenta de compañía. El estado de las cuentas de usuario asociadas con la compañía se establece en `Inactive` y el Id. de compañía se elimina de los perfiles de las cuentas de usuario. La información sobre la actividad y las transacciones de la empresa se conserva en el sistema. |
 | [!DNL Reset] | Restaura los valores originales en cualquier campo con cambios no guardados. |
 | [!DNL Reimburse Balance] | Permite al administrador reembolsar el saldo del crédito del almacén, al que se hace referencia mediante el número de pedido. |
@@ -278,19 +312,10 @@ Las siguientes columnas están disponibles si cambia el [diseño de columna](../
 | [!UICONTROL VAT / TAX ID] | El número de impuesto o [impuesto al valor agregado](../stores-purchase/vat.md) que se ha asignado a la compañía con fines de informes de impuestos. |
 | [!UICONTROL Reseller ID] | El número de reventa asignado a la compañía con fines de información fiscal. |
 | [!UICONTROL Comment] | Estas notas sobre la cuenta de la compañía son de referencia y visibles solo desde el administrador. |
-| **[!UICONTROL Legal Address]** |                                                                                                                            |
-| [!UICONTROL Street Address] | Dirección de la calle donde está registrada la empresa para realizar actividades comerciales. |
-| [!UICONTROL City] | La ciudad donde está registrada la compañía para realizar negocios. |
-| [!UICONTROL Country] | El país donde está registrada la compañía para llevar a cabo sus negocios. |
-| [!UICONTROL State/Province] | El estado o provincia donde la compañía está registrada para llevar a cabo actividades comerciales. |
-| [!UICONTROL ZIP/Postal Code] | El código postal en el que la empresa está registrada para llevar a cabo actividades comerciales. |
-| [!UICONTROL Phone Number] | El número de teléfono principal de la empresa. |
 
 {style="table-layout:auto"}
 
 #### [!UICONTROL Company Hierarchy]
-
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponible solo para participantes del programa Beta"}
 
 | Columnas | Descripción |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -306,10 +331,24 @@ Las siguientes columnas están disponibles si cambia el [diseño de columna](../
 
 {style="table-layout:auto"}
 
+#### [!UICONTROL Legal Address]
+
+| Columnas | Descripción |
+|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Street Address] | Dirección de la calle donde está registrada la empresa para realizar actividades comerciales. |
+| [!UICONTROL City] | La ciudad donde está registrada la compañía para realizar negocios. |
+| [!UICONTROL Country] | El país donde está registrada la compañía para llevar a cabo sus negocios. |
+| [!UICONTROL State/Province] | El estado o provincia donde la compañía está registrada para llevar a cabo actividades comerciales. |
+| [!UICONTROL ZIP/Postal Code] | El código postal en el que la empresa está registrada para llevar a cabo actividades comerciales. |
+| [!UICONTROL Phone Number] | El número de teléfono principal de la empresa. |
+
+{style="table-layout:auto"}
+
 #### [!UICONTROL Company Admin]
 
 | Campo | Descripción |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Website] | Establezca el [ámbito del sitio web](../getting-started/websites-stores-views.md) para la cuenta de la compañía. El valor predeterminado es *[!UICONTROL Main Website]*. |
 | [!UICONTROL Job Title] | El título del administrador de la empresa que administra la cuenta de la empresa. |
 | [!UICONTROL Email] | La dirección de correo electrónico del administrador de la empresa puede ser la misma que la dirección de correo electrónico de la empresa. Si se introduce una dirección de correo electrónico diferente, se crea una cuenta individual independiente para el administrador de la empresa además de la cuenta de la empresa. |
 | [!UICONTROL Prefix] | Si corresponde, el prefijo asociado al nombre del administrador de la empresa (como `Mr.`, `Ms.`, `Mrs.` o `Dr.`). Según la configuración, el campo de entrada puede ser un campo de texto o una lista. |
@@ -318,6 +357,7 @@ Las siguientes columnas están disponibles si cambia el [diseño de columna](../
 | [!UICONTROL Last Name] | Apellidos del administrador de la empresa. |
 | [!UICONTROL Suffix] | Si procede, el sufijo asociado al nombre del administrador de la empresa (como `Jr.`, `Sr.` o `III`). Según la configuración, el campo de entrada puede ser un campo de texto o una lista. |
 | [!UICONTROL Gender] | El sexo del administrador de la empresa. Opciones: `Male` / `Female` / `Not Specified` |
+| [!UICONTROL Send Welcome Email From] | Configure la vista de tienda para usarla al enviar el correo electrónico de bienvenida al nuevo administrador de la empresa si no desea usar *[!UICONTROL Default Store View]*. |
 
 {style="table-layout:auto"}
 

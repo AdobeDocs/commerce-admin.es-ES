@@ -4,9 +4,9 @@ description: Aprenda cómo un vendedor puede crear una oferta para que un compra
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 8130ccb809a6aec80db63c5a6ea9f47488248805
+source-git-commit: 69396421bae610ff02b12054bdea2278a8c0efe5
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,15 @@ Después de crear el presupuesto provisional, añade artículos de producto, apl
 
    - En el campo [!UICONTROL Discount], introduzca el valor del tipo de descuento. Por ejemplo, si seleccionó un porcentaje de descuento, introduzca 10 para aplicar un descuento del 10% al artículo de línea.
 
-   - [!BADGE Funciones beta de 1.5.0]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponible solo para participantes del programa Beta"}
+   - De forma opcional, bloquee el valor de descuento de artículo de línea para que el precio del producto no se reduzca aún más por los descuentos aplicados en el nivel de oferta.
 
      Después de confirmar el cambio, los atributos de artículo de línea de la cuadrícula de productos se actualizan para mostrar el importe de descuento aplicado. Si el descuento está bloqueado, aparece un icono de bloqueo.
+
+   Un representante de ventas puede solicitar un descuento de un artículo de línea específico de una oferta.
+
+   >[!NOTE]
+   >
+   >Para ver una demostración en vídeo de cómo funcionan los descuentos en el elemento de línea, consulte [El representante de ventas aplica un descuento a un elemento de línea de presupuesto](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html) en _Vídeos y Tutorials de Commerce_.
 
 1. Aplique un descuento de nivel de oferta según sea necesario:
 
@@ -90,6 +96,14 @@ Después de crear el presupuesto provisional, añade artículos de producto, apl
    ![El vendedor agrega información para el comprador](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
    De manera predeterminada, un [archivo adjunto](configure-quotes.md) puede tener hasta 2 MB, en cualquiera de los siguientes formatos de archivo: DOC, DOCX, XLS, XLSX, PDF, TXT, JPEG o JPG, PNG.
+
+1. Agregar dirección de envío durante las negociaciones.
+
+   Un representante de ventas puede realizar una selección de envío y entrega una vez que el comprador haya añadido una dirección de envío a la oferta.
+
+   Las opciones de envío están bloqueadas en el cierre de compra.
+
+   Para obtener más información, vea [Mis comillas](account-dashboard-my-quotes.md#adding-a-shipping-address).
 
 1. Procese la oferta.
 

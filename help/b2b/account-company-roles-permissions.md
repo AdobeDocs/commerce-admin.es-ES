@@ -4,9 +4,9 @@ description: Obtenga información sobre las funciones y los permisos que un admi
 exl-id: 9fe20d6a-2c9c-4618-a395-805d64dcf0de
 feature: B2B, Companies, Roles/Permissions
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: bad59798a1a6d97826dc421fe8614ef511e067bd
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -89,40 +89,9 @@ El sistema tiene una función de usuario predeterminado predefinida, que puede u
 
 ## Permisos de funciones
 
-- Todo
-   - Ventas
-      - Permitir cierre de compra (realizar pedido)
-         - Utilizar el método de pago a cuenta
-      - Ver pedidos
-         - Ver pedidos de usuarios subordinados
-- Comillas
-   - Ver
-      - Solicitar, Editar, Eliminar
-      - Cierre de compra con cotización
-      - Ver las comillas de los usuarios subordinados
-- Aprobaciones de pedidos
-   - Ver mis pedidos de compra
-      - Ver para subordinados
-      - Ver para toda la compañía
-   - Aprobación automática de pedidos creados dentro de este rol
-   - Aprobar pedidos sin otras aprobaciones
-   - Ver reglas de aprobación
-      - Crear, editar y eliminar
-- Perfil de empresa
-   - Información de la cuenta (vista)
-      - Editar
-   - Dirección legal
-      - Editar
-   - Contactos (vista)
-   - Información de pago (vista)
-   - Información de envío (vista)
-- Administración de usuarios de empresa
-   - Ver funciones y permisos
-      - Administración de funciones y permisos
-   - Ver usuarios y equipos
-      - Administrar usuarios y equipos
-- Crédito de empresa
-   - Ver
+Los administradores de la compañía pueden actualizar la configuración de permisos para una función seleccionando [!UICONTROL Edit action] y, a continuación, seleccionando o eliminando permisos en la lista **Permisos de funciones**.
+
+![Lista de roles y permisos](./assets/role-permissions-list.png){width="700" zoomable="yes"}
 
 ## Asignar una función a un usuario de la empresa
 

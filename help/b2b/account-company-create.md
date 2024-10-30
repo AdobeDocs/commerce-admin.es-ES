@@ -4,9 +4,9 @@ description: Obtenga información acerca de la creación de cuentas de empresa e
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
+source-git-commit: 30c988ac7d4108ae85980498472d96363107212c
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1750'
 ht-degree: 0%
 
 ---
@@ -15,21 +15,21 @@ ht-degree: 0%
 
 El cliente o el administrador pueden configurar las cuentas de la compañía desde la tienda. El administrador de la tienda debe aprobar todas las solicitudes para crear una cuenta de empresa antes de que la cuenta se active.
 
-A la persona que configura una cuenta de compañía desde la tienda se le asigna una función como [administrador de la compañía](account-company-admin.md). Una vez aprobada la solicitud para crear una cuenta de empresa, el administrador de la empresa puede establecer una contraseña de cuenta e iniciar sesión en ella.
+A la persona que configura un cuenta de compañía desde el escaparate se le asigna un función como administrador](account-company-admin.md) de compañía[. Una vez aprobado el solicitud para crear un cuenta de compañía, el administrador de compañía puede establecer un contraseña de cuenta e iniciar sesión en el cuenta.
 
-## Método 1: el cliente crea la cuenta a partir de la tienda
+## Método 1: El cliente crea el cuenta desde el escaparate
 
 >[!IMPORTANT]
 >
->Para admitir este método (que permite a los clientes registrar su compañía desde la tienda), asegúrese de que las [características B2B](enable-basic-features.md) están configuradas de forma que **[!UICONTROL Allow Company Registration from the Storefront]** esté establecido en `Yes`.
+>Para admitir este método (que permite a los clientes registrar sus compañía desde el escaparate), asegúrese de que las funciones](enable-basic-features.md) de [B2B estén habilitadas.
 
-1. En la esquina superior derecha del encabezado de la tienda, el cliente hace clic en **[!UICONTROL Create an Account]** y elige **[!UICONTROL Create New Company Account]**.
+1. En la esquina superior derecha del encabezado del escaparate, el cliente hace clic **[!UICONTROL Create an Account]** y elige **[!UICONTROL Create New Company Account]**.
 
-   ![Crear nueva cuenta de compañía](./assets/company-account-create-storefront-options.png){width="700" zoomable="yes"}
+   ![Crear Nuevo cuenta de empresa](./assets/company-account-create-storefront-options.png){width="700" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Si un visitante inició sesión en una cuenta de usuario registrada, puede crear una cuenta de compañía navegando hasta _[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**. Al crear la cuenta de compañía, la cuenta del cliente se asigna como contacto principal. De lo contrario, el sistema crea un cliente, que recibe un correo electrónico para establecer una contraseña.
+   >Si un visitante inició sesión en una cuenta de usuario registrada, puede crear una cuenta de compañía navegando hasta _[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**.
 
 1. En la sección _[!UICONTROL Company Information]_, el cliente hace lo siguiente:
 
@@ -99,9 +99,9 @@ El proceso de creación de una empresa desde el administrador es esencialmente e
 
    - Si no está listo para que la cuenta se active, establezca **[!UICONTROL Status]** en `Pending Approval`. (De forma predeterminada, se establece en `Active`.)
 
-   - Si corresponde, elija la cuenta de administrador de **[!UICONTROL Sales Representative]** que va a administrar la cuenta.
+   - Si corresponde, elija el cuenta de administración de quién **[!UICONTROL Sales Representative]** va a administrar el cuenta.
 
-1. En la sección _[!UICONTROL Account Information]_, haga lo siguiente:
+1. En la _[!UICONTROL Account Information]_sección, haga lo siguiente:
 
    - Rellene los campos siguientes según corresponda:
 
@@ -115,7 +115,7 @@ El proceso de creación de una empresa desde el administrador es esencialmente e
 
    ![Información de la cuenta](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
 
-1. En la creación inicial de la compañía, la cuadrícula _[!UICONTROL Company Hierarchy]_está vacía al expandirla. Una vez guardada la compañía, puede incluirla en una jerarquía de compañías. Consulte [Administración de la compañía](manage-companies.md).
+1. En la creación inicial de la compañía, la cuadrícula _[!UICONTROL Company Hierarchy]_está vacía al expandirla. Una vez guardada la compañía, puede incluirla en una jerarquía de compañías. Consulte [Administración de](manage-companies.md) la empresa.
 
 1. En la sección _[!UICONTROL Legal Address]_, complete estos campos obligatorios:
 
@@ -180,12 +180,12 @@ El proceso de creación de una empresa desde el administrador es esencialmente e
 
      {style="table-layout:auto"}
 
-   - Para cambiar los **[!UICONTROL Applicable Shipping Methods]** que están disponibles para la compañía, desactive la casilla de verificación **[!UICONTROL Use config settings]** y elija una de las siguientes opciones:
+   - Para cambiar los **[!UICONTROL Applicable Shipping Methods]** elementos que están disponibles para el compañía, desmarque la **[!UICONTROL Use config settings]** casilla de verificación y seleccione una de las siguientes opciones:
 
      | Opción | Descripción |
      |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-     | `B2B Shipping Methods` | (Predeterminado) Habilita todos los [métodos de envío establecidos como predeterminados](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods) para pedidos B2B. |
-     | `All Enabled Shipping Methods` | Hace que todos los [métodos de envío habilitados](../configuration-reference/sales/delivery-methods.md) estén disponibles para las cuentas de cliente asociadas con la cuenta de compañía. |
+     | `B2B Shipping Methods` | (Valor predeterminado) Habilita todos los [métodos de envío configurados como predeterminados](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods) para B2B pedidos. |
+     | `All Enabled Shipping Methods` | Pone a disposición todos los [métodos](../configuration-reference/sales/delivery-methods.md) de envío habilitados para las cuentas de cliente asociadas con el compañía cuenta. |
      | `Selected Shipping Methods` | Permite seleccionar los métodos de envío disponibles para las cuentas de cliente asociadas a la cuenta de compañía. Para seleccionar varios métodos de envío, mantenga pulsada la tecla Ctrl (PC) o la tecla Comando (Mac) y seleccione cada opción. |
 
      {style="table-layout:auto"}
@@ -222,8 +222,8 @@ El proceso de creación de una empresa desde el administrador es esencialmente e
 
 | Campo | Descripción |
 |---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Company Legal Name] | El nombre legal completo de la compañía. |
-| [!UICONTROL VAT / TAX ID] | El número de [impuesto al valor agregado](../stores-purchase/vat.md) que algunas jurisdicciones asignan a la compañía con fines de informes de impuestos. Para configurar el ID. IVA/IMPUESTO del cliente para que aparezca en la tienda, consulte [Crear nuevas opciones de cuenta](../configuration-reference/customers/customer-configuration.md). <br/> **_Nota:_** El administrador de la compañía y otros usuarios de la compañía no tienen sus propios números de identificación fiscal/IVA separados en sus cuentas de cliente. |
+| [!UICONTROL Company Legal Name] | Nombre legal completo de la compañía. |
+| [!UICONTROL VAT / TAX ID] | El [número de impuesto](../stores-purchase/vat.md) sobre el valor añadido que algunas jurisdicciones asignan al compañía a efectos sistema de informes fiscales. Para configurar el número de identificación fiscal del cliente para que aparezca en el escaparate, consulte [Crear Nuevo cuenta Opciones](../configuration-reference/customers/customer-configuration.md). <br/> **_Nota:_** El administrador compañía y otros usuarios de compañía no tienen sus propios números de identificación fiscal en sus cuentas de cliente. |
 | [!UICONTROL Reseller ID] | El número de reventa asignado a la compañía con fines de información fiscal. |
 | [!UICONTROL Comment] | (Solo administrador) Estas notas sobre la cuenta de la compañía son de referencia y visibles solo desde el administrador. |
 
@@ -255,7 +255,7 @@ El proceso de creación de una empresa desde el administrador es esencialmente e
 | [!UICONTROL Country] | El país donde está registrada la compañía para llevar a cabo sus negocios. |
 | [!UICONTROL State/Province] | El estado o provincia donde la compañía está registrada para llevar a cabo actividades comerciales. |
 | [!UICONTROL ZIP/Postal Code] | El código postal en el que la empresa está registrada para llevar a cabo actividades comerciales. |
-| [!UICONTROL Phone Number] | El número de teléfono principal de la empresa. |
+| [!UICONTROL Phone Number] | Número de teléfono principal de la compañía. |
 
 {style="table-layout:auto"}
 
@@ -265,11 +265,11 @@ El proceso de creación de una empresa desde el administrador es esencialmente e
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Website] | Determina el sitio web al que pertenece el administrador de la empresa. |
 | [!UICONTROL Job Title] | El título del administrador de la empresa que administra la cuenta de la empresa. |
-| [!UICONTROL Email] | La dirección de correo electrónico del administrador de la empresa puede ser la misma que la dirección de correo electrónico de la empresa. Si se introduce una dirección de correo electrónico diferente, se crea una cuenta individual independiente para el administrador de la empresa, además de la cuenta de la empresa. |
-| [!UICONTROL Prefix] | Si corresponde, el prefijo asociado al nombre del administrador de la empresa (como `Mr.`, `Ms.`, `Mrs.` o `Dr.`). Según la configuración, el campo de entrada puede ser un campo de texto o una lista. |
-| [!UICONTROL First Name] | El nombre del administrador de la empresa. |
-| [!UICONTROL Middle Name/Initial] | El segundo nombre o la inicial del administrador de la empresa. |
-| [!UICONTROL Last Name] | Apellidos del administrador de la empresa. |
+| [!UICONTROL Email] | La dirección de correo electrónico del administrador de la empresa puede ser la misma que la dirección de correo electrónico de la empresa. Si se introduce una dirección de correo electrónico diferente, se crea una cuenta individual independiente para el administrador de compañía, además del cuenta compañía. |
+| [!UICONTROL Prefix] | Si corresponde, el prefijo asociado al nombre del administrador de compañía (por `Mr.`ejemplo, , `Ms.``Mrs.`, , o `Dr.`). En función de la configuración, el campo de entrada puede ser un campo de texto o lista. |
+| [!UICONTROL First Name] | Nombre del administrador de compañía. |
+| [!UICONTROL Middle Name/Initial] | El segundo nombre o la inicial del administrador de compañía. |
+| [!UICONTROL Last Name] | Apellido del administrador de compañía. |
 | [!UICONTROL Suffix] | Si procede, el sufijo asociado al nombre del administrador de la empresa (como `Jr.`, `Sr.` o `III.`). Según la configuración, el campo de entrada puede ser un campo de texto o una lista. |
 | [!UICONTROL Gender] | El sexo del administrador de la empresa. Opciones: `Male` / `Female` / `Not Specified` |
 | [!UICONTROL Send Welcome Email From] | La vista de tienda desde la que se enviará el correo electrónico de bienvenida. |

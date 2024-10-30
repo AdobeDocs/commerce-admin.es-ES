@@ -3,9 +3,9 @@ title: '[!UICONTROL My Quotes]'
 description: Obtenga información acerca de la experiencia del cliente con las ofertas, que está disponible en su panel de cuentas.
 exl-id: 137f0a99-8f24-4838-b54b-b0ef2c39a32a
 feature: B2B, Companies, Quotes
-source-git-commit: 27b0c43f72faa2c2e8717fd5929f36d12f9e1b08
+source-git-commit: 6cf53c7caf37c24be473afecfba829595c14cb8c
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
@@ -19,30 +19,44 @@ Si las ofertas están habilitadas, la sección _[!UICONTROL My Quotes]_del panel
 
 El comprador inicia el proceso al [enviar una solicitud](quote-request.md) para obtener un presupuesto del carro de compras. El correo electrónico se intercambia entre el comprador y el vendedor durante el [proceso de negociación](quote-price-negotiation.md). Para el comprador, la página [!UICONTROL My Quotes] es el punto focal de todas las comunicaciones entre el comprador y el vendedor durante el proceso de negociación. Un comprador que acepta el precio negociado ofrecido por el vendedor puede ir directamente a la página de pago desde la oferta. No se pueden añadir descuentos adicionales al presupuesto negociado.
 
-Un comprador puede llevar a cabo las siguientes acciones cuando negocie un presupuesto:
+Al negociar una oferta, el comprador tiene varias opciones para gestionarla o para actualizar los detalles de la oferta.
 
-* Revisar precios y actualizaciones de artículos
-* Rastrear el proceso de negociación de [!UICONTROL Comments] y [!UICONTROL History] secciones
-* Modifique la oferta para eliminar elementos
-* Comunicarse y negociar con el vendedor añadiendo notas en el nivel de artículo de línea y presupuesto
-* Enviar presupuesto al vendedor para que lo revise
-* Convierta la oferta en un pedido si los términos son aceptables
-* Cerrar la cotización
-* Eliminar el presupuesto
-* [!BADGE Funciones beta de 1.5.0]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponible solo para participantes del programa Beta"}
+* Acciones relacionadas con la gestión de la oferta:
+
+   * Crear una copia del presupuesto
+   * Cerrar la cotización
+   * Eliminar el presupuesto
+   * Cambie el nombre del presupuesto
+   * Imprimir el presupuesto
+   * Creación de una plantilla
+
+* Acciones para actualizar los detalles de la oferta:
+
+   * Revisar precios y actualizaciones de artículos
+   * Rastrear el proceso de negociación de [!UICONTROL Comments] y [!UICONTROL History] secciones
+   * Modifique la oferta para eliminar elementos
+   * Comunicarse y negociar con el vendedor añadiendo notas en el nivel de artículo de línea y presupuesto
+   * Añadir una dirección de envío
+   * Mover artículos de línea a una lista de solicitudes
+   * Convierta la oferta en un pedido si los términos son aceptables
+
+* Acciones generales durante la negociación:
+
+   * Enviar presupuesto al vendedor para que lo revise
+   * Continuar con el cierre
 
 En el siguiente ejemplo se muestra una oferta que el comprador ha actualizado y que se ha devuelto al vendedor para que la revise.
 
 
-![Vista del comprador del presupuesto](./assets/account-dashboard-my-quote-detail.png){width="700" zoomable="yes"}
+![Vista del comprador del presupuesto](./assets/account-dashboard-my-quote-detailed.png){width="700" zoomable="yes"}
 
 Las ofertas con el estado `Updated` se bloquean hasta que el vendedor las devuelva.
 
 ## Mostrar comillas
 
-Con los [permisos requeridos para su rol](account-company-roles-permissions.md), los clientes asociados con una cuenta de compañía pueden ver las ofertas solicitadas por [usuarios subordinados](account-company-structure.md). Los administradores de la empresa pueden ver todas las ofertas de la cuenta de la empresa.
+Con los [permisos requeridos para su rol](account-company-roles-permissions.md), los compradores asociados con una cuenta de compañía pueden ver las ofertas solicitadas por [usuarios subordinados](account-company-structure.md). Los administradores de la empresa pueden ver todas las ofertas de la cuenta de la empresa.
 
-1. El cliente inicia sesión en su cuenta de la tienda.
+1. El comprador inicia sesión en su cuenta de la tienda.
 
 1. Hace clic en **[!UICONTROL My Quotes]** en el panel de navegación izquierdo.
 
@@ -52,15 +66,89 @@ Con los [permisos requeridos para su rol](account-company-roles-permissions.md),
 
 ## Ver un presupuesto
 
-1. El cliente inicia sesión en su cuenta.
+1. El comprador inicia sesión en su cuenta.
 
 1. En el panel izquierdo, elija **[!UICONTROL My Quotes]**.
 
 1. Busca el presupuesto en la lista y hace clic en **[!UICONTROL View]** en la columna _[!UICONTROL Action]_.
 
+## Copiar un presupuesto
+
+1. El comprador inicia sesión en su cuenta de la empresa en la tienda.
+
+1. En el panel izquierdo, elija **[!UICONTROL My Quotes]**.
+
+1. Busque y acceda al presupuesto deseado en la lista y haga clic en **[!UICONTROL Create Copy]** en el presupuesto original.
+
+## Crear plantilla
+
+1. El comprador inicia sesión en su cuenta.
+
+1. En el panel izquierdo, elija **[!UICONTROL My Quote Templates]**.
+
+1. Busca el presupuesto en la lista **[!UICONTROL My Quotes]** y hace clic en **[!UICONTROL Create Quote Template]** en la columna _[!UICONTROL Action]_.
+
+## Mover artículos de línea de una oferta a una lista de solicitudes
+
+1. El comprador inicia sesión en su cuenta.
+
+1. En el panel izquierdo, elija **[!UICONTROL My Quotes]**.
+
+1. Busque y acceda al presupuesto deseado en la lista.
+
+1. Seleccione los elementos de línea.
+
+1. Haga clic en **[!UICONTROL Move to Requisition list]** en la lista desplegable _[!UICONTROL Actions]_.
+
+1. Seleccione una lista de solicitudes existente para mover los artículos seleccionados.
+
+1. Haga clic en **[!UICONTROL Move item]**.
+
+Consulte [Agregar productos a una lista de solicitudes](requisition-lists.md) para obtener más información sobre este proceso.
+
+>[!NOTE]
+>
+> No se puede crear una nueva lista de solicitudes al mover artículos. Los artículos sólo se pueden mover a una lista de solicitudes existente.
+
+## Mover elementos de línea a una nueva oferta
+
+1. El comprador inicia sesión en su cuenta.
+
+1. En el panel izquierdo, elija **[!UICONTROL My Quotes]**.
+
+1. Busque y acceda al presupuesto deseado en la lista.
+
+1. Seleccione los elementos de línea.
+
+1. Haga clic en **[!UICONTROL Move item to new quote]** en la lista desplegable _[!UICONTROL Actions]_.
+
+1. Asigne un nombre a la nueva oferta en el modal.
+
+1. Seleccione **[!UICONTROL Move to quote]** para mover el elemento seleccionado a la nueva oferta.
+
+>[!NOTE]
+>
+> Al seleccionar varios elementos, el modal se muestra como **[!UICONTROL Move selected items to new quote]**.
+
+## Adición de una dirección de envío
+
+1. El comprador inicia sesión en su cuenta.
+
+1. En el panel izquierdo, elija **[!UICONTROL My Quotes]**.
+
+1. Selecciona la cotización deseada.
+
+1. En la sección **[!UICONTROL Shipping Information]**, hace clic en **[!UICONTROL Add New Address]**.
+
+1. Completa los detalles de la nueva dirección.
+
+1. Clics **[!UICONTROL Save Address]**.
+
+Cuando el comprador añade la dirección, el vendedor proporciona las opciones de envío y entrega. Estas actualizaciones pueden afectar a los precios de las ofertas negociadas. Las opciones de envío están bloqueadas en el cierre de compra.
+
 ## Imprimir una oferta
 
-1. En la oferta abierta a la derecha de la sección _[!UICONTROL Items Quoted]_, el cliente hace clic en **[!UICONTROL Print]**.
+1. En la oferta abierta a la derecha de la sección _[!UICONTROL Items Quoted]_, el comprador hace clic en **[!UICONTROL Print]**.
 
 1. Comprueba **[!UICONTROL Destination]** como impresora o como PDF.
 
@@ -82,9 +170,10 @@ Con los [permisos requeridos para su rol](account-company-roles-permissions.md),
 
 | Acción | Descripción |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Cambiar nombre | [!BADGE 1.5.0-beta capability]{type=Informative url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;Disponible solo para participantes del programa Beta&quot;} Cambiar el nombre de la cotización |
-| Crear una copia | [!BADGE Funcionalidades beta de la versión 1.5.0]{type=Informative url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;Disponible solo para participantes del programa Beta&quot;} Un comprador puede crear una nueva cotización a partir de la cotización actual copiándola y renombrándola. |
+| Cambiar nombre | Cambiar el nombre de la oferta |
+| Crear copia | Un comprador puede crear una oferta a partir de la oferta actual copiándola y cambiando su nombre. |
 | Cerrar cita | Una vez que el comprador cierra una oferta, no se puede volver a abrir. Si es necesario, el comprador puede volver a crearlo con la acción [!UICONTROL Create Copy]. Esta opción no está disponible si el estado de la oferta es `Draft`. |
+| Crear plantilla | Cree una plantilla de oferta basada en la oferta actual. Las plantillas de oferta agilizan la negociación de ofertas al permitir que los compradores y los vendedores acuerden las condiciones de contrato y asignación de precios que se pueden aplicar a varias ofertas.  En el momento del acuerdo, el comprador puede generar una oferta vinculada y aprobada previamente a partir de la plantilla para pedidos posteriores en lugar de reiniciar el proceso de solicitud de oferta. |
 | Eliminar presupuesto | Cuando un comprador elimina una oferta, esta se elimina del sistema y ya no está disponible. |
 | Imprimir | Abre un formulario de impresión para guardar el presupuesto como un PDF, archivo o imprimirlo en una impresora configurada. |
 

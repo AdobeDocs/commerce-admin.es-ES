@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] notas de la versión'
 description: Revise las notas de la versión para obtener información acerca de los cambios en  [!DNL Adobe Commerce B2B] versiones.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: a63af8ac948422e4c6dd64408eaa48252b771d7f
+source-git-commit: b3892e2b34aae1579472f3562e479267cca2dce3
 workflow-type: tm+mt
-source-wordcount: '7198'
+source-wordcount: '7776'
 ht-degree: 0%
 
 ---
@@ -22,47 +22,84 @@ Estas notas de la versión de la extensión B2B recopilan las adiciones y correc
 >
 >Consulte [Disponibilidad del producto](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) para obtener información sobre las versiones de la extensión de Commerce B2B compatibles con las versiones de Adobe Commerce disponibles.
 
-## B2B 1.5.0-beta
 
-{{$include /help/_includes/b2b-beta-note.md}}
+## B2B 1.5.0
 
-*13 de noviembre de 2023*
+*30 de octubre de 2024*
 
 [!BADGE Compatible]{type=Informative tooltip="Admitido"}
+Compatible con las versiones de Adobe Commerce 2.4.8-beta1, 2.4.7 a 2.4.7-p2, 2.4.6 a 2.4.6-p7
 
-La versión beta B2B v1.5.0 incluye nuevas funciones, mejoras de calidad y correcciones de errores.
+La versión B2B v1.5.0 incluye nuevas funciones, mejoras de calidad y correcciones de errores.
 
-![Nuevas](../assets/new.svg) mejoras en las capacidades de cotización ayudan a los compradores y vendedores a administrar las ofertas y la negociación de presupuestos de manera más eficaz.
+### Administración de empresa
 
-- **Guardar presupuesto como borrador**<!--B2B-2566-->: al crear una [solicitud de presupuesto](quote-request.md) desde el carro de compras, los compradores ahora pueden guardar el presupuesto como borrador al seleccionar **[!UICONTROL Save as Draft]** en el formulario [!UICONTROL Request a Quote].
+![Nuevo](../assets/new.svg) **Administración de la compañía**<!--B2B-2901-->: los comerciantes ahora pueden ver y administrar las compañías de Adobe Commerce como organizaciones jerárquicas al asignar compañías a compañías principales designadas. Una vez asignada una compañía a una matriz, el administrador de la compañía matriz puede administrar la cuenta de la compañía. Solo los usuarios administradores autorizados pueden agregar y administrar asignaciones de la compañía. Para obtener más información, consulte [Administrar la jerarquía de la compañía](manage-company-hierarchy.md).
 
-  El borrador de la oferta no tiene fecha de caducidad. Los compradores pueden revisar y actualizar los borradores de presupuestos desde la sección [!UICONTROL My Quotes] de su panel de cuentas.
+- Agregue y administre asignaciones de compañía desde la nueva sección *[!UICONTROL Company Hierarchy]* en la página *[!UICONTROL Company Account]* del Administrador.
+
+- Ordenar y filtrar compañías por la nueva configuración de *[!UICONTROL Company Type]*. En la cuadrícula Compañías, la columna *[!UICONTROL Company Type]* indica si una compañía es una compañía individual o parte de una jerarquía organizativa (principal o secundaria).
+
+![Nuevo](../assets/new.svg) **Administrar configuración de empresa a escala**<!--B2B-2849-->—Cambiar rápidamente la configuración de empresa para las empresas seleccionadas mediante la acción masiva de *[!UICONTROL Change company setting]* ahora disponible al administrar empresas desde la cuadrícula de *[!UICONTROL Companies]* o *[!UICONTROL Company Hierarchy]*. Por ejemplo, si crea un nuevo catálogo compartido para un grupo de empresas, puede cambiar la configuración del catálogo compartido en una sola acción en lugar de editar cada empresa individualmente.
+
+![Nuevos](../assets/new.svg) desarrolladores de API pueden usar el nuevo extremo de API de REST de relaciones con la compañía `/V1/company/{parentId}/relations` para crear, ver y quitar asignaciones de la compañía. Consulte [Administrar objetos de empresa](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) en la *Guía para desarrolladores de API web*.
+
+### Cuentas de empresa
+
+![Nuevo](../assets/new.svg)<!--B2B-2828--> **Asignación de varias empresas**: simplifica el acceso a la cuenta de la empresa para los usuarios de la empresa asignando un usuario a varias empresas. Por ejemplo, si tiene un comprador que realiza pedidos desde varias direcciones de empresa, cree una sola cuenta y asigne todas las empresas con las que trabaja el comprador a esa cuenta. A continuación, el comprador puede iniciar sesión una sola vez y cambiar entre las cuentas de la empresa eligiendo la empresa en la tienda.
+
+>[!NOTE]
+>
+>Se puede asignar un usuario de empresa a varias empresas, pero solo puede ser el administrador de empresa de una empresa.
+
+![Nuevo](../assets/new.svg) <!--B2B-2747--> **Selector de ámbito de compañía**: permite a los usuarios de la compañía asignados a varias compañías cambiar de compañía en la tienda. Cuando se cambia el ámbito, los datos se actualizan para mostrar la información en función del nuevo contexto de la empresa. Por ejemplo, si la nueva empresa utiliza un catálogo compartido diferente, el usuario de la empresa verá productos, precios y otra información basada en el nuevo catálogo compartido. El contenido relacionado con pedidos, presupuestos y plantillas de presupuestos también se actualiza en función del contexto de la empresa seleccionada.
+
+>[!NOTE]
+>
+>Si el usuario de la empresa cambia de una empresa a otra con artículos en el carro de compras, actualice el carro de compras para reflejar el surtido de productos, los precios y los descuentos promocionales en función del nuevo contexto de la empresa.
+
+![Se ha corregido un problema](../assets/fix.svg)<!--ACP2E-1933--> Los administradores de la empresa ahora pueden agregar usuarios de la empresa desde la tienda. Anteriormente, Commerce registraba un error cuando un usuario administrador intentaba agregar un nuevo usuario: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+
+### Plantillas de Ofertas y Ofertas
+
+Las mejoras en las capacidades de cotización ayudan a los compradores y vendedores a gestionar las ofertas y la negociación de presupuestos de forma más eficaz.
+
+![Nuevas](../assets/new.svg) **plantillas de presupuesto**—<!--B2B-3367-->Los compradores y vendedores ahora pueden optimizar el proceso de presupuesto creando plantillas de presupuesto reutilizables y personalizables. Con las plantillas de oferta, el proceso de negociación de oferta puede completarse una vez y los compradores pueden generar ofertas vinculadas preaprobadas para pedidos recurrentes en lugar de pasar por el proceso de negociación de oferta para cada pedido. Las plantillas de oferta amplían la funcionalidad de oferta existente al añadir las siguientes funciones avanzadas:
+
+- **Umbrales de pedidos** permiten a los vendedores establecer compromisos de pedidos mínimos y máximos, lo que garantiza que el comprador se adhiera a los volúmenes de compras acordados.
+- **Al establecer las cantidades de pedido de artículo mínimas y máximas**, el comprador tiene la flexibilidad de ajustar las cantidades de pedido en la oferta vinculada sin necesidad de una nueva plantilla o de una negociación posterior.
+- **Rastree el número de ofertas vinculadas generadas y completadas correctamente** para obtener información sobre el cumplimiento de los acuerdos negociados.
+- **Las ofertas vinculadas** son ofertas aprobadas previamente que el comprador genera a partir de una plantilla de oferta activa para enviar pedidos recurrentes basados en las condiciones negociadas en la plantilla de oferta.
+
+![Nuevo](../assets/new.svg) **Mejoras en las capacidades de presupuesto existentes**
+
+- **Las reglas actualizadas de la Lista de control de acceso (ACL) de Commerce** permiten a los administradores y supervisores de B2B administrar las ofertas y las plantillas de ofertas de los usuarios subordinados. Las reglas independientes admiten la configuración granular para el acceso de visualización, edición y eliminación.
+
+- **Guardar oferta como borrador**<!--B2B-2566-->: al crear una [solicitud de oferta](quote-request.md) desde el carro de compras, los compradores ahora pueden guardar la oferta como borrador para que puedan revisarla y actualizarla antes de iniciar el proceso de negociación de oferta con el vendedor. El borrador de la oferta no tiene fecha de caducidad. Los compradores pueden revisar y actualizar los borradores de presupuestos desde la sección [!UICONTROL My Quotes] de su panel de cuentas.
 
 - **Cambiar nombre de presupuesto**<!--B2B-2596-->: los compradores ahora pueden cambiar el nombre de un presupuesto de la página [Detalle del presupuesto](account-dashboard-my-quotes.md#quote-actions) seleccionando la opción **[!UICONTROL Rename]**. Esta opción está disponible para los compradores autorizados cuando editan la oferta. Los eventos de cambio de nombre se registran en el Registro del historial de ofertas.
 
 - **Oferta duplicada**<!--B2B-2701-->: los compradores y vendedores ahora pueden crear una nueva oferta copiando una oferta existente. Se crea una copia de la vista de detalles de la oferta seleccionando **[!UICONTROL Create Copy]** en la [vista de detalles de la oferta](quote-price-negotiation.md#button-bar) en el Administrador o en la [Tienda](account-dashboard-my-quotes.md#quote-actions).
 
-- **Bloqueo de descuento de artículo de línea**<!--B2B-2597-->: durante la negociación de la oferta, los vendedores pueden usar el bloqueo de descuento de artículo de línea para obtener más flexibilidad al aplicar descuentos. Por ejemplo, un vendedor puede aplicar un descuento especial por artículo de línea a un artículo y bloquearlo para evitar descuentos adicionales. Cuando un artículo está bloqueado, el precio del artículo no se puede actualizar cuando se aplica un descuento de nivel de oferta. Ver [Iniciar presupuesto para un comprador](sales-rep-initiates-quote.md).
+- **Mover artículo de oferta a la lista de solicitudes**<!--B2B-2755-->: los compradores tienen ahora la flexibilidad de quitar productos de una oferta y guardarlos en una lista de solicitudes si deciden no incluirlos en el proceso de negociación de ofertas.
 
-![Nueva ](../assets/new.svg)**administración de la compañía**<!--B2B-2901-->: los comerciantes ahora pueden ver y administrar las compañías de Adobe Commerce como organizaciones jerárquicas al asignar compañías a compañías principales designadas. Una vez asignada una compañía a una matriz, el administrador de la compañía matriz puede administrar la cuenta de la compañía. Solo los usuarios administradores autorizados pueden agregar y administrar asignaciones de la compañía. Para obtener más información, consulte [Administrar la jerarquía de la compañía](assign-companies.md).
+- **Quitar varios productos de una oferta**<!--B2B-2881-->: en las ofertas con un gran número de productos, los compradores ahora pueden quitar varios productos de la oferta seleccionándolos y utilizando la opción *[!UICONTROL Remove]* del control *[!UICONTROL Actions]* en la página Detalles de la oferta. En versiones anteriores, un comprador tenía que eliminar productos de uno en uno.
 
-- En la página Compañías, un nuevo campo **[!UICONTROL Company Type]** identifica las compañías principales y secundarias. Los comerciantes pueden filtrar la vista de la empresa por tipo de empresa y administrar las empresas mediante elementos de línea o acciones masivas.
+- **Bloqueo de descuento de artículo de línea**<!--B2B-2597-->: durante la negociación de la oferta, los vendedores pueden utilizar el bloqueo de descuento de artículo de línea para obtener más flexibilidad al aplicar descuentos durante el proceso de negociación de la oferta. Por ejemplo, un vendedor puede aplicar un descuento especial por artículo de línea a un artículo y bloquearlo para evitar descuentos adicionales. Cuando un artículo está bloqueado, el precio del artículo no se puede actualizar cuando se aplica un descuento de nivel de oferta. Ver [Iniciar presupuesto para un comprador](sales-rep-initiates-quote.md).
 
-- Los comerciantes pueden agregar y administrar asignaciones de compañía desde la nueva sección **[!UICONTROL Company Hierarchy]** en la página [!UICONTROL Company Account].
+![Problema corregido](../assets/fix.svg) **Correcciones para las capacidades de presupuesto existentes**
 
-- Los desarrolladores de API pueden usar el nuevo extremo de API de REST de relaciones con la compañía `/V1/company/{parentId}/relations` para crear, ver y quitar asignaciones de la compañía. Consulte [Administrar objetos de empresa](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) en la *Guía para desarrolladores de API web*.
+- Ahora, los comerciantes que hagan clic en el botón *[!UICONTROL Print]* de la vista de detalles de Oferta del Administrador deberán guardar la oferta como PDF. Anteriormente, se redirigía a los comerciantes a una página que contenía detalles de comillas. <!--ACP2E-1984-->
 
-![Problema corregido](../assets/fix.svg)<!--ACP2E-1984-->A los comerciantes que hacen clic en el botón **[!UICONTROL Print]** en la vista de detalles de Oferta en el Administrador se les pide ahora que guarden la oferta como PDF. Anteriormente, se redirigía a los comerciantes a una página que contenía detalles de comillas.
+- Anteriormente, al enviar una oferta de cliente con un porcentaje de `0` y cambiar la cantidad, el administrador emite una excepción, pero guarda la cantidad. Una vez que se aplique esta corrección, se generará una excepción adecuada para `0 percentage` con un mensaje. <!--ACP2E-1742-->
 
-![Se corrigió un problema](../assets/fix.svg) <!--ACP2E-1742-->Anteriormente, al enviar una oferta de cliente con 0 porcentaje y cambiar la cantidad, el administrador emite una excepción, pero guarda la cantidad. Una vez que se aplique esta corrección, se generará una excepción adecuada para `0 percentage` con un mensaje.
+- Durante la negociación de la oferta, un vendedor ahora puede especificar un descuento de `0%` en el campo de descuento de oferta negociada y devolver la oferta al comprador. Anteriormente, si el vendedor introducía un descuento del 0% y devolvía la oferta al comprador, el administrador devolvía un mensaje de error de `Exception occurred during quote sending`. <!--ACP2E-1742-->
 
-![Problema solucionado](../assets/fix.svg) <!--ACP2E-1742-->Durante la negociación del presupuesto, un vendedor ahora puede especificar un descuento de `0%` en el campo de descuento de presupuesto negociado y enviar el presupuesto de vuelta al comprador. Anteriormente, si el vendedor introducía un descuento del 0% y devolvía la oferta al comprador, el administrador devolvía un mensaje de error de `Exception occurred during quote sending`.
+- La validación de ReCaptcha ahora funciona correctamente durante el proceso de cierre de compra de una cotización B2B cuando ReCaptcha V3 está configurado para el cierre de compra de tienda. Anteriormente, la validación fallaba con un mensaje de error `recaptcha validation failed, please try again`.  <!--ACP2E-2097-->
 
-![Se ha corregido un problema](../assets/fix.svg) <!--ACP2E-2097-->La validación de ReCaptcha ahora funciona correctamente durante el proceso de cierre de compra de una cotización B2B cuando ReCaptcha V3 está configurado para el cierre de compra de tienda. Anteriormente, la validación fallaba con un mensaje de error `recaptcha validation failed, please try again`.
+### Pedidos de compra
 
 ![Problema corregido](../assets/fix.svg) <!--ACP2E-1825-->Un usuario asociado a la compañía ya no puede realizar pedidos de compra una vez que la compañía ha sido bloqueada. Anteriormente, un usuario asociado a la compañía podía realizar pedidos de compra cuando se bloqueaba la compañía.
-
-![Se ha corregido un problema](../assets/fix.svg)<!--ACP2E-1933-->Los administradores de la empresa ahora pueden agregar usuarios de la empresa desde la tienda. Anteriormente, Commerce registraba un error cuando un usuario administrador intentaba agregar un nuevo usuario: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
 ## B2B v1.4.2-p3
 
@@ -332,11 +369,11 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 *29 de agosto de 2022*
 
-[!BADGE Compatible]{type=Informative tooltip="Admitido"}
+[!BADGE Compatible]{type=Informative tooltip="Soportado"}
 
-![Nuevo](../assets/new.svg) agregó compatibilidad con Adobe Commerce 2.4.3.
+![](../assets/new.svg) Nuevo Se ha agregado compatibilidad con Adobe Systems Commerce 2.4.3.
 
-![Problema corregido](../assets/fix.svg) <!--- MC-39862--> Adobe Commerce ahora envía correctamente correos electrónicos de actualización sobre presupuestos negociables vencidos. Anteriormente, cuando caducaba una cotización negociable, Adobe Commerce no enviaba correos electrónicos de actualización.
+![Se ha corregido el problema](../assets/fix.svg) <!--- MC-39862--> Adobe Systems ahora Commerce ahora envía correctamente correos electrónicos de actualización sobre cotizaciones negociables caducadas. Anteriormente, cuando caducaba una cotización negociable, Adobe Commerce no enviaba correos electrónicos de actualización.
 
 ![Se ha corregido el problema](../assets/fix.svg) <!--- MC-40682--> Adobe Commerce ahora envía correctamente correos electrónicos de actualización sobre las ofertas negociables caducadas y que caducan pronto cuando falta un trabajo de `cron`.
 
@@ -344,9 +381,9 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 ![Se ha corregido un problema](../assets/fix.svg) <!--- MC-41542--> El campo desplegable Crear nueva página de cuenta de compañía por país ya no enumera valores de opción vacíos. Anteriormente, los dos primeros valores de opción y el código de país `AN` estaban vacíos.
 
-![Problema corregido](../assets/fix.svg) <!--- MC-41260--> Al hacer clic en el botón **[!UICONTROL Return]** para un pedido creado por un usuario de la compañía, ahora se redirige a un usuario administrativo a la página Crear devolución según lo esperado. Anteriormente, se redirigía al administrador a la página Historial de pedidos.
+![Problema](../assets/fix.svg) <!--- MC-41260--> corregido Al hacer clic en el **[!UICONTROL Return]** botón de un pedido creado por un usuario de compañía, ahora se redirige un usuario administrativo al Página de devolución de Crear según lo esperado. Anteriormente, se redirigía al administrador a la página Historial de pedidos.
 
-![Se corrigió un problema](../assets/fix.svg) <!--- MC-40798--> Adobe Commerce ya no produce un error de memoria insuficiente al ejecutar el método `app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` durante `bin/magento setup:upgrade`. Anteriormente, Adobe Commerce no utilizaba el tamaño del lote para la colección al inicializar los permisos, sino que cargaba una colección de todas las funciones de la empresa.
+![Se ha corregido el problema](../assets/fix.svg) <!--- MC-40798--> Adobe Systems Commerce ya no falla con un error de memoria insuficiente al ejecutar el método durante .`app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` `bin/magento setup:upgrade` Anteriormente, Adobe Systems Commerce no utilizaba el tamaño de lote para colección al inicializar los permisos, sino que cargaba un colección de todos los roles compañía.
 
 ![Problema corregido](../assets/fix.svg) <!--- MC-40551--> Los usuarios de la compañía ahora pueden editar y actualizar los valores de atributos personalizados del cliente. Anteriormente, estos atributos no se enlazaban correctamente con el formulario de usuario de creación y edición. Un usuario de la empresa podía introducir valores de atributo diferentes, pero Adobe Commerce no los guardaba correctamente.
 
@@ -426,9 +463,9 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 ## B2B v1.3.1
 
-*9 de febrero de 2021*
+*febrero 9, 2021*
 
-[!BADGE Compatible]{type=Informative tooltip="Admitido"}
+[!BADGE Soportado]{type=Informative tooltip="Admitido"}
 
 ![Nuevo](../assets/new.svg) agregó compatibilidad con Adobe Commerce 2.4.2.
 
@@ -440,7 +477,7 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 ![Problema corregido](../assets/fix.svg) Adobe Commerce ahora muestra detalles acerca de los productos agrupados y la tarjeta regalo al ver los pedidos de compra.
 
-![Problema corregido](../assets/fix.svg): ahora se redirige a los compradores como se espera después de iniciar sesión en su cuenta mientras navegan en una tienda donde **[!UICONTROL Website Restriction]** está habilitado y **[!UICONTROL Restriction Mode]** está establecido en `Private Sales: Login Only`. Anteriormente, los compradores se redirigían a la página principal de la tienda. <!--- MC-38934-->
+![Problema](../assets/fix.svg) solucionado Los compradores ahora son redirigidos como se esperaba después de registro a su cuenta mientras navegan en un tienda donde **[!UICONTROL Website Restriction]** está habilitado y **[!UICONTROL Restriction Mode]** está configurado en `Private Sales: Login Only`. Anteriormente, se redirigía a los compradores al página de inicio tienda. <!--- MC-38934-->
 
 ![Problema corregido](../assets/fix.svg) El historial de pedidos ahora se carga según lo esperado en la página del panel de cuentas del administrador de una empresa en implementaciones con una jerarquía empresarial B2B que contiene muchos clientes (más de 13000). Anteriormente, el historial de pedidos se cargaba lentamente o no se cargaba, y Adobe Commerce mostraba un error 503. <!--- MC-38830-->
 
@@ -516,11 +553,11 @@ Esta versión incluye mejoras en las aprobaciones de pedidos, los métodos de en
 
 ![Nuevos](../assets/new.svg) comerciantes ahora pueden filtrar la cuadrícula Clientes ahora en línea por Compañía. <!--- BUNDLE-137 -->
 
-![Nuevos](../assets/new.svg) administradores ahora pueden filtrar clientes en el Administrador por representante de ventas. <!--- BUNDLE-110 -->
+![](../assets/new.svg) Nuevo Los administradores ahora pueden filtrar clientes en la administración por representante de ventas.<!--- BUNDLE-110 -->
 
-![Nuevo](../assets/new.svg) Para reducir la creación de cuentas fraudulentas o de correo no deseado, los comerciantes ahora pueden habilitar Google reCAPTCHA en el formulario de nueva solicitud de la empresa que se encuentra en la tienda. <!--- BUNDLE-154 -->
+![](../assets/new.svg) Nuevo Para reducir la creación de cuentas fraudulentas o spam, los comerciantes ahora pueden habilitar Google reCAPTCHA en el formulario de solicitud de empresa de Nuevo en la tienda.<!--- BUNDLE-154 -->
 
-![Las nuevas](../assets/new.svg) acciones de administración realizadas en los módulos de la compañía ahora se registran en el registro de acciones de administración. Las acciones se registran desde todos los módulos relevantes de la compañía: `Company`, `NegotiableQuote`, `CompanyCredit`, `SharedCatalog`. <!--- BUNDLE-180 181 182 183 -->
+![](../assets/new.svg) Nuevo acciones de administración tomadas en los módulos de la empresa ahora se registran en el registro de acciones de administración. Las acciones se registran desde todos los módulos de compañía relevantes: `Company`, `NegotiableQuote`, `CompanyCredit`, . `SharedCatalog`<!--- BUNDLE-180 181 182 183 -->
 
 ![Se ha corregido un problema](../assets/fix.svg): Adobe Commerce ya no muestra el botón **[!UICONTROL Delete customer]** en la página **Clientes** cuando el administrador que ha iniciado sesión no tiene derechos para eliminar clientes en implementaciones en las que B2B está instalado. <!--- MC-35655-->
 
@@ -530,7 +567,7 @@ Esta versión incluye mejoras en las aprobaciones de pedidos, los métodos de en
 
 ![Se ha corregido un problema](../assets/fix.svg). Los permisos de la categoría de catálogo compartido ya no se sobrescriben cuando se edita un producto desde la página de edición del producto.<!--- MC-34777-->
 
-![Problema corregido](../assets/fix.svg) Adobe Commerce ahora envía una notificación por correo electrónico confirmando que un cliente tiene permiso para exceder el límite de crédito designado cuando un comerciante habilita la configuración **[!UICONTROL Allow To Exceed Credit Limit]**. Anteriormente, el correo electrónico de notificación enviado por Adobe Commerce indicaba que el cliente no tenía permiso para superar el límite. <!--- MC-34584-->
+![Se ha corregido el problema](../assets/fix.svg) Adobe Systems Commerce ahora envía un notificación correo electrónico confirmando que un cliente ha permiso que exceder el límite de crédito designado cuando un comerciante habilita la **[!UICONTROL Allow To Exceed Credit Limit]** configuración. Anteriormente, el correo electrónico de notificación enviado por Adobe Systems Commerce indicaba que el cliente no tenía que permiso a exceder el límite. <!--- MC-34584-->
 
 ![Problema corregido](../assets/fix.svg) El contenedor de HTML que rodea el precio del producto en las listas de solicitudes ahora se representa correctamente para los elementos secundarios de los productos agrupados. <!--- MC-36331-->
 
@@ -610,11 +647,11 @@ Se mejoraron y se volvieron a escribir ![nuevos](../assets/new.svg) pedidos de c
 
 ![Se ha corregido un problema](../assets/fix.svg). Con B2B instalado, aparecía un error SQL al asignar categorías a catálogos compartidos. Este problema se ha corregido.
 
-![Se ha corregido un problema](../assets/fix.svg) Debido a un valor de tipo de variable incorrecto, los administradores no pudieron agregar productos configurables a un pedido. Los desplegables de opciones no se rellenaban. Esta función ahora funciona correctamente.
+![Se ha corregido un problema](../assets/fix.svg) Debido a un valor de tipo de variable incorrecto, los administradores no pudieron agregar productos configurables a un pedido. Las listas desplegables de opciones no se rellenarán. Esta función ahora funciona correctamente.
 
-![Se ha corregido un problema](../assets/fix.svg) Anteriormente, al editar los permisos de categoría para el grupo Sin sesión iniciada, se producía un error al guardar los cambios. Este problema se ha corregido.
+![Problema](../assets/fix.svg) corregido Anteriormente, al editar Categoría permisos para el grupo No ha iniciado sesión, se producía un error al guardar los cambios. Este problema se ha solucionado.
 
-![Problema corregido](../assets/fix.svg) Se ha agregado una corrección para permitir a los administradores de tiendas agregar productos a un pedido que no se encuentra en el catálogo compartido. Anteriormente, aparecía un mensaje de error al añadir un elemento que no estaba en el catálogo.
+![Problema](../assets/fix.svg) solucionado Se agrega una corrección para permitir a los administradores de tienda agregar productos a un pedido que no están en el catálogo compartido. Anteriormente, aparecía un mensaje de error al añadir un artículo que no estaba en el catálogo.
 
 ![Se ha corregido un problema](../assets/fix.svg) Anteriormente, después de ejecutar el comando `php bin/magento indexer:set-dimensions-mode catalog_product_price website` y de intentar crear un catálogo compartido, se producía un error. Este problema se ha corregido.
 
@@ -622,7 +659,7 @@ Se mejoraron y se volvieron a escribir ![nuevos](../assets/new.svg) pedidos de c
 
 ![Se ha corregido un problema](../assets/fix.svg) Anteriormente, después de que un cliente se moviera a otro grupo de clientes, si agregaba un producto a un pedido mediante _Pedido rápido_ se producía un error. Este problema se ha corregido.
 
-![Se ha corregido un problema](../assets/fix.svg) Anteriormente, al intentar realizar la desprotección con la API web con un presupuesto B2B, se enviaba un valor incorrecto a la API, lo que provocaba que se produjera un error. Este problema se ha corregido.
+![Problema](../assets/fix.svg) corregido Anteriormente, al intentar realizar la comprobación mediante WebAPI con un presupuesto B2B, se enviaba un valor incorrecto a la API, lo que provocaba un error. Este problema se ha solucionado.
 
 ![Se corrigió un problema](../assets/fix.svg) Anteriormente, al configurar una compañía como &quot;Activa&quot; a través de la API, se producía un error. Este problema se ha corregido.
 

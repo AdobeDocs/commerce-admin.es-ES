@@ -5,9 +5,9 @@ breadcrumb-title: "[!DNL Adobe Commerce B2B]"
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: c88e5be54ac4af04302abbb25cc3f7db7b6b2606
+source-git-commit: 7f4993ff8b16beda2a371737fb5a8ecb5f9c9396
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '161'
 ht-degree: 6%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 6%
       + [Definir estructura de la empresa](account-company-structure.md)
 + Administración de empresa {#company-management}
    + [Información general](manage-companies.md)
-   + [Administrar jerarquía de empresa](assign-companies.md)
+   + [Administrar jerarquía de empresa](manage-company-hierarchy.md)
 + Catálogos compartidos {#shared-catalogs}
    + [Información general](catalog-shared.md)
    + Definir catálogos compartidos {#define}
@@ -56,7 +56,11 @@ ht-degree: 6%
    + [Solicitud de presupuesto](quote-request.md)
    + [Iniciar presupuesto para un comprador](sales-rep-initiates-quote.md)
    + [Negociación de una cotización](quote-price-negotiation.md)
+   + [Creación de una plantilla de presupuesto](quote-templates.md)
    + [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md)
++ Plantillas de presupuesto {#templates}
+   + [Caso de uso y flujo de trabajo](quote-templates-overview.md)
+   + [[!UICONTROL My Quote Templates]](account-dashboard-my-quote-templates.md)
 + Listas de solicitudes {#requisition-lists}
    + [Información general](requisition-lists.md)
    + [Configuración del máximo de lista](configure-requisition-lists.md)

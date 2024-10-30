@@ -4,9 +4,9 @@ description: Obtenga información sobre las estructuras de la empresa y cómo un
 exl-id: 4724b208-b6ac-4de5-9a4c-bc4d68402506
 feature: B2B, Companies
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: fec72b792cf3149c05803874795c45f9f4e28673
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -17,25 +17,23 @@ Se puede configurar una cuenta de compañía para reflejar la estructura de la e
 
 ![Estructura de la compañía con divisiones](./assets/company-structure-diagram.svg){width="500"}
 
-En el panel de cuentas del administrador de la empresa, la estructura de la empresa se representa como un árbol y consiste inicialmente solo en el administrador de la empresa.
+En el tablero de cuentas del administrador de la empresa, en la tienda, la estructura de la empresa se representa en forma de árbol y consiste inicialmente únicamente en el administrador de la empresa.
 
-![Estructura de la compañía con el administrador](./assets/company-structure-tree-admin.png){width="600" zoomable="yes"}
+![Estructura de la compañía con el administrador](./assets/company-structure-tree-admin.png){width="700" zoomable="yes"}
 
-Cuando se crea y aprueba la cuenta, el administrador de la empresa puede utilizar la dirección de correo electrónico de la empresa o tener asignada una dirección de correo electrónico diferente.
-
-Es posible que la persona que sirve como administrador de la compañía tenga varias funciones dentro de la compañía. Si se introduce una dirección de correo electrónico independiente para el administrador de la empresa, la estructura inicial de la empresa incluye el administrador de la empresa más una cuenta de usuario individual en el nombre del administrador de la empresa. En tal caso, el administrador de la empresa puede iniciar sesión en la cuenta como empresa o como usuario individual.
-
-![Estructura de la compañía con cuenta de administrador y usuario](./assets/company-structure-tree-admin-user.png){width="600" zoomable="yes"}
-
-Para los comerciantes, la estructura completa de la compañía se refleja en las cuadrículas de _Empresas_ y _Clientes_ dentro del Administrador. La cuadrícula Compañías enumera todas las compañías independientemente de su estado. El siguiente ejemplo muestra las cuentas de dos compañías: la compañía _ACME_ y la compañía _Vendelay_.
+Para los comerciantes, la estructura completa de la compañía se refleja en las cuadrículas de _Empresas_ y _Clientes_ dentro del Administrador. La cuadrícula Compañías enumera todas las compañías independientemente de su estado.
 
 ![Cuadrícula de compañías](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-El siguiente ejemplo muestra la cuadrícula [!UICONTROL Customers] con las cuentas iniciales de administrador de la empresa para estas empresas.
+En el siguiente ejemplo se muestra la cuadrícula [!UICONTROL Customers] con las cuentas iniciales de administrador de la compañía para cada compañía.
 
-![Cuadrícula de clientes con cuenta de administrador de empresa](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
+![Cuadrícula de clientes con cuentas de administrador de empresa](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-Después de crear la cuenta, el administrador de la compañía debe definir la estructura de la compañía de [equipos](account-company-structure.md), configurar los [usuarios de la compañía](account-company-users.md) y establecer [roles y permisos](account-company-roles-permissions.md) para cada uno.
+Después de crear la cuenta, el administrador de la compañía puede definir una estructura de compañía con [equipos](account-company-structure.md), configurar los [usuarios de la compañía](account-company-users.md) y establecer [roles y permisos](account-company-roles-permissions.md) para cada uno.
+
+>[!NOTE]
+>
+>Cuando se agrega un usuario de compañía, el usuario de compañía se agrega inicialmente a la estructura raíz de la compañía, subordinado al administrador de la compañía. Si el administrador de la empresa desempeña varias funciones dentro de la empresa, cree cuentas de usuario de empresa independientes con una dirección de correo electrónico diferente para cada función.
 
 ## Iconos de estructura de empresa
 
@@ -74,9 +72,7 @@ Si el almacén está [configurado](enable-basic-features.md) para permitir que l
 
    - Crea tantos equipos como sea necesario.
 
-     ![Estructura de la compañía con equipos](./assets/company-structure-teams.png){width="600" zoomable="yes"}
-
-1. Para crear una jerarquía de equipos, haga lo siguiente:
+1. Para crear una jerarquía de equipos, el administrador hace lo siguiente:
 
    - Selecciona el equipo principal y hace clic en **[!UICONTROL Add Team]**.
 
@@ -129,7 +125,7 @@ Cuando los equipos y usuarios se agregan por primera vez a la [estructura de la 
 | [!UICONTROL Collapse All / Expand All] | Contrae o expande el árbol de estructura empresarial |
 | [!UICONTROL Add User] | Crea un usuario debajo del equipo actual |
 | [!UICONTROL Add Team] | Crea un equipo |
-| [!UICONTROL Edit Selected / Delete Selected] | Edita o elimina usuarios del árbol de negocios |
+| [!UICONTROL Edit Selected / Remove from Structure] | Edita la información del usuario o quita usuarios del árbol de negocios. Para obtener más información, consulte [Administrar cuentas de usuario de la compañía](account-company-users.md). |
 
 {style="table-layout:auto"}
 

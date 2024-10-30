@@ -6,16 +6,14 @@ role: Admin
 hide: false
 hidefromtoc: false
 exl-id: 8246be3d-ff9f-4f9f-875d-1b999befc534
-source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
+source-git-commit: 6b06f52eb4ee8ca136a1c60fd6dc04a9ac96bbfa
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
 
 # Administración de empresa
-
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponible solo para participantes del programa Beta"}
 
 La administración de empresas optimiza las operaciones comerciales para empresas con estructuras organizativas complejas. Los usuarios administradores pueden crear una jerarquía de compañías para reflejar una organización B2B asignando compañías a la compañía principal designada. Esta asignación permite al administrador de la empresa matriz ver y administrar las empresas de la organización.
 
@@ -23,7 +21,7 @@ Iniciar tareas de administración de la compañía desde la vista *[!UICONTROL C
 
 ![Cuadrícula B2B de administración de compañías](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-En *[!UICONTROL Companies grid]*, la columna *[!UICONTROL Company Type]* indica si una compañía está administrada como parte de una organización o como una compañía independiente.
+La columna *[!UICONTROL Company Type]* indica si una empresa está administrada como parte de una organización o como una empresa independiente.
 
 - `Parent` es una organización empresarial con una o más empresas asignadas. No se puede asignar una compañía principal como hijo de otra compañía.
 
@@ -35,16 +33,18 @@ Cuando edita una compañía principal o secundaria, expanda *[!UICONTROL Company
 
 ![Cuadrícula de jerarquía de compañía B2B](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
 
-
 ## Ver y configurar [!UICONTROL Company Hierarchy]
 
-En la creación inicial de la compañía, la cuadrícula [!UICONTROL Company Hierarchy] está vacía. También está vacío si la empresa es una sola empresa.
+En la creación inicial de la compañía, la cuadrícula *[!UICONTROL Company Hierarchy]* está vacía. También está vacío si la empresa es una sola empresa.
 
 ![Cuadrícula de jerarquía de la compañía B2B](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
 
-Para las empresas principales, los usuarios administradores con los permisos adecuados pueden completar las siguientes tareas:
+Si la compañía es una compañía matriz de una organización y las cuentas de compañía de otras empresas de la organización ya se han configurado en Adobe Commerce, los usuarios administradores con los permisos adecuados pueden asignar compañías y utilizar la cuadrícula *[!UICONTROL Company Hierarchy]* para completar otras tareas de administración de la compañía:
 
-- Genere la jerarquía de compañías creando una nueva organización principal o actualizando una existente.
-- Administre una organización existente para agregar o quitar compañías.
+- Ver todas las compañías asociadas con la compañía matriz.
+- En la página de detalles de una compañía matriz, asigne más compañías a la organización.
+- Quitar una compañía de una organización mediante la acción *[!UICONTROL Unassign from parent]*.
+- Actualice la configuración de *[!UICONTROL Advanced Settings]* para aplicar la misma configuración a varias empresas.
 
-Para obtener más información, consulte [Administrar la jerarquía de la compañía](assign-companies.md).
+Para obtener instrucciones detalladas, consulte [Administrar la jerarquía de la compañía](manage-company-hierarchy.md).
+

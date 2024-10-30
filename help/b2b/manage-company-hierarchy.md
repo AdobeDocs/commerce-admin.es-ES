@@ -1,38 +1,108 @@
 ---
-title: Administración de empresa
-description: Obtenga información acerca de la administración de empresas y cómo funcionan entre empresas en B2B.
-feature: B2B, Companies, Storefront
+title: Administrar la jerarquía de la compañía
+description: Cree y gestione jerarquías empresariales para apoyar a las organizaciones B2B con modelos operativos complejos.
+feature: B2B, Companies
 role: Admin
-hide: true
-hidefromtoc: true
-source-git-commit: 6ec075d9cbce41ebc056e631b1ae7b4f2749c161
+hide: false
+hidefromtoc: false
+exl-id: a277ed95-7935-4d27-adb2-35116972732b
+source-git-commit: 6b06f52eb4ee8ca136a1c60fd6dc04a9ac96bbfa
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
+# Administrar [!UICONTROL Company Hierarchy]
 
-# Administración de empresa
+Los administradores pueden crear un(a) [!UICONTROL Company Hierarchy] asignando compañías relacionadas a una compañía primaria designada, que es la compañía en la parte superior de la jerarquía organizativa.
 
-La capacidad de gestión de la empresa optimiza las operaciones comerciales para las empresas con estructuras organizativas complejas. Los usuarios administradores pueden administrar compañías como un grupo mediante la creación de una jerarquía de compañías que asigne compañías relacionadas a una compañía principal designada. Esta asignación permite al administrador de la compañía matriz administrar su propia cuenta y las cuentas de compañía de todas las compañías asignadas.
+Desde el Administrador, cree una compañía principal editando una compañía individual (`[!UICONTROL Company Type] = Company`) y asignando compañías relacionadas en la configuración de [!UICONTROL Company Hierarchy].
 
-Cree una jerarquía de compañías desde la página de detalles Compañía.
+![Cuadrícula de jerarquía de la compañía](./assets/company-hierarchy-grid.png){width="700"}
 
-![Cuadrícula de compañías](./assets/company-detail-view.png){width="700" zoomable="yes"}
 
-## Abrir la página de detalles de la compañía
+>[!NOTE]
+>
+>Para obtener más información acerca de la cuadrícula [!UICONTROL Company Hierarchy], consulte las descripciones de los campos [Jerarquía de la compañía](account-company-create.md#company-hierarchy).
+
+Administre las asignaciones de la compañía editando una compañía principal y utilizando la cuadrícula *[!UICONTROL Company Hierarchy]* para agregar o quitar compañías. Use el control *[!UICONTROL Actions]* para administrar la [configuración avanzada](#change-company-settings) para las empresas de la organización.
+
+## Asignar compañías a una compañía matriz
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Abra la página de detalles de la compañía en la cuadrícula Compañías de la compañía principal seleccionando la acción **[!UICONTROL Edit]**.
+   ![Cuadrícula de compañías](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-Consulte [Administrar cuentas de compañía](account-company-manage.md) para obtener más información sobre la cuadrícula Compañías.
+1. En la cuadrícula [!UICONTROL Companies], abra la página de detalles de la compañía para crear las asignaciones.
 
-## [!UICONTROL Company Hierarchy]
+   - Para asignar compañías adicionales a una compañía principal existente, seleccione la acción **[!UICONTROL Edit]** para la compañía principal.
+   - Para crear una compañía primaria, seleccione la acción **[!UICONTROL Edit]** para la compañía designada como la compañía primaria.
 
-En la creación inicial de la compañía, la cuadrícula [!UICONTROL Company Hierarchy] está vacía al expandirla. Una vez creada una compañía, los usuarios administradores con los permisos apropiados pueden usar [!UICONTROL Company Hierarchy] para crear una organización de compañía primaria editando la compañía primaria designada y asignando compañías relacionadas.
+     No se puede crear una nueva empresa principal a partir de una empresa principal o secundaria existente.
 
-![Cuadrícula de jerarquía de compañías](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+1. En la página Detalles de la compañía, expanda **[!UICONTROL Company Hierarchy]** y, a continuación, seleccione **[!UICONTROL Assign Companies]**.
 
-Consulte [asignar y desasignar compañías](assign-companies.md) para obtener más información sobre las acciones disponibles en la cuadrícula [!UICONTROL Company Hierarchy].
+   ![Crear empresa principal](./assets/company-hierarchy-grid.png){width="675" zoomable="yes"}
+
+1. En la lista de empresas disponibles, elija las empresas que desea asignar y, a continuación, seleccione **[!UICONTROL Assign Selected Companies]**.
+
+   ![Seleccionar empresas para asignar](./assets/company-hierarchy-select-companies-assign.png){width="675" zoomable="yes"}
+
+1. Cuando se le solicite, complete la asignación de la compañía seleccionando **[!UICONTROL Assign]**.
+
+## Quitar la asignación de compañías de una compañía matriz
+
+1. En la página Compañías, abra la página de detalles de la compañía para la compañía principal seleccionando la acción **[!UICONTROL Edit]**.
+
+   ![Página de detalles de la empresa principal](./assets/company-update.png){width="700" zoomable="yes"}
+
+1. Vea la lista de empresas asignadas expandiendo **[!UICONTROL Company Hierarchy]**.
+
+1. Elimine la empresa de la organización.
+
+   - En la columna [!UICONTROL Action] para que la compañía elimine, **[!UICONTROL Select]** > **[!UICONTROL Unassign from parent]**.
+
+     ![Quitar una compañía de una organización](./assets/company-hierarchy-grid-unassign.png){width="640" zoomable="yes"}
+
+   - Cuando se le solicite, quite la compañía asignada de la jerarquía seleccionando **[!UICONTROL Unassign]**.
+
+## Administrar la configuración de empresa de una organización
+
+Actualice la configuración [Configuración avanzada](account-company-create.md#advanced-settings) de una organización para aplicar la configuración principal a todas las compañías secundarias o para aplicar la misma configuración a las compañías seleccionadas de la organización.
+
+Durante el proceso de actualización, los valores de configuración inicial se establecen de forma predeterminada en los valores actuales configurados para la empresa principal. Debe cambiar al menos una configuración para actualizar la configuración de las empresas seleccionadas.
+
+**Cambiar la configuración de configuración avanzada para varias empresas**
+
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+
+1. En la cuadrícula [!UICONTROL Companies], edite la compañía principal seleccionando **[!UICONTROL Edit]** en la columna **[!UICONTROL Action]**.
+
+1. En la página de detalles de la empresa principal, expanda la sección **[!UICONTROL Company Hierarchy]** para ver las empresas incluidas en la organización.
+
+1. Seleccione las empresas que desea configurar.
+
+   ![Seleccionar compañías de la jerarquía de compañías](assets/company-hierarchy-select-companies.png){width="675" zoomable="yes"}
+
+1. Desde el control **[!UICONTROL Actions]** situado sobre la cuadrícula, seleccione **[!UICONTROL Change company settings]**.
+
+   ![Cambiar la configuración de la empresa para la jerarquía de la empresa](assets/company-hierarchy-change-company-settings-action.png){width="675" zoomable="yes"}
+
+1. Cambie la configuración.
+
+   - En la página [!UICONTROL Change company settings], busque la opción de configuración que desea modificar.
+
+   - Seleccione la casilla de verificación **[!UICONTROL Change]** para habilitar la configuración.
+
+   - Actualice el valor según sea necesario.
+
+     ![Cambiar la configuración de la empresa para varias empresas](assets/company-hierarchy-change-settings-config.png){width="575" zoomable="yes"}
+
+1. Después de actualizar la configuración, seleccione **[!UICONTROL Apply Changes]**.
+
+1. Cuando se le pida, seleccione **[!UICONTROL Change settings]** para actualizar la configuración de las empresas seleccionadas.
+
+>[!TIP]
+>
+>Administre la configuración avanzada de una sola empresa editando el elemento de línea de la empresa.
