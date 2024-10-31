@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Reports]'
 description: Revise la configuración en la página [!UICONTROL General] &gt; [!UICONTROL Reports] del administrador de Commerce.
 exl-id: 0ca75585-eb5d-4497-9f4e-22a788c3a2c2
 feature: Configuration, Admin Workspace, Reporting
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ![Tablero](./assets/reports-dashboard.png)<!-- zoom -->
 
-<!-- [Dashboard](https://docs.magento.com/user-guide/stores/admin-dashboard.html) -->
+<!-- [Dashboard](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |

@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Web]'
 description: Revise la configuración en la página [!UICONTROL General] &gt; [!UICONTROL Web] del administrador de Commerce.
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![Web > Opciones generales](./assets/web-url-options.png)<!-- zoom -->
 
-<!-- [URL Options configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [URL Options configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Campo | Ámbito | Descripción |
 |  ---  |  ---  |  ---  |
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![Web > Optimización del motor de búsqueda](./assets/web-search-engine-optimization.png)<!-- zoom -->
 
-<!-- [Search Engine Optimization configuration settings](https://docs.magento.com/user-guide/marketing/url-rewrite.html) -->
+<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ![Web > URL base](./assets/web-base-urls.png)<!-- zoom -->
 
-<!-- [Base URLS configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ![Web > Direcciones URL base (seguras)](./assets/web-base-urls-secure.png)<!-- zoom -->
 
-<!-- [Base URLs (Secure) configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -79,14 +79,14 @@ ht-degree: 0%
 
 ![Web > Páginas predeterminadas](./assets/web-default-pages.png)<!-- zoom -->
 
-<!-- [Default Pages configuration settings](https://docs.magento.com/user-guide/cms/pages-default.html) -->
+<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Default Web URL] | Vista de tienda | Indica la página de aterrizaje asociada a la dirección URL base. Esto se establece de forma predeterminada en &quot;cms&quot; para indicar una página del sistema de administración de contenido (CMS) de Commerce. También puede utilizar un tipo diferente de página de aterrizaje, como un blog. Por ejemplo, si un blog está instalado en el servidor en `magento/blog`, puede introducir el nombre de la carpeta &quot;blog&quot; como una ruta relativa a la selección de páginas. |
+| [!UICONTROL Default Web URL] | Vista de tienda | Indica la página de aterrizaje asociada a la dirección URL base. Esto se establece de forma predeterminada en &quot;cms&quot; para indicar una página del sistema de administración de contenido de Commerce (CMS). También puede utilizar un tipo diferente de página de aterrizaje, como un blog. Por ejemplo, si un blog está instalado en el servidor en `magento/blog`, puede introducir el nombre de la carpeta &quot;blog&quot; como una ruta relativa a la selección de páginas. |
 | [!UICONTROL CMS Home Page] | Vista de tienda | Para elegir la página de inicio de la tienda, simplemente seleccione la página de CMS en la lista. De forma predeterminada, la página principal de CMS muestra toda la selección de páginas de CMS disponibles para su tienda. |
 | [!UICONTROL Default No-route URL] | Vista de tienda | Contiene la dirección URL de la página predeterminada que desea que aparezca cuando se produzca un error `404 Page not Found`. El valor predeterminado es `cms/noroute/index`. |
-| [!UICONTROL CMS No Route Page] | Vista de tienda | Identifica una página CMS específica que desea que aparezca cuando se produzca un error 404 Página no encontrada. La página predeterminada es 404 Not Found. |
+| [!UICONTROL CMS No Route Page] | Vista de tienda | Identifica una página de CMS específica que desea que aparezca cuando se produzca un error 404 Página no encontrada. La página predeterminada es 404 Not Found. |
 | [!UICONTROL CMS No Cookies Page] | Vista de tienda | Identifica una página de CMS específica que aparece cuando las cookies no están habilitadas para el explorador. La página explica por qué se utilizan las cookies y cómo habilitarlas para cada explorador. La página predeterminada es Habilitar cookies. |
 | [!UICONTROL Show Breadcrumbs for CMS Pages] | Vista de tienda | Determina si aparece una ruta de exploración en todas las páginas de CMS del catálogo. Opciones: `Yes` / `No` |
 
@@ -96,13 +96,13 @@ ht-degree: 0%
 
 ![Diseños predeterminados](./assets/web-default-layouts.png)<!-- zoom -->
 
-<!--[Default Layouts](https://docs.magento.com/user-guide/design/page-layout.html) -->
+<!--[Default Layouts](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/design/layout/page-layout) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Default Product Layout] | Global | Determina el [diseño](../../content-design/page-layout.md) que se usa de forma predeterminada para las páginas de productos. Opciones: <br/>**`No layout updates`**: de forma predeterminada, las actualizaciones de diseño no están disponibles para las páginas de productos.<br/>**`Empty`**: de forma predeterminada, utiliza un diseño en blanco para las páginas de productos. <br/>**`1 column`**: de forma predeterminada, utiliza un diseño de columna única para las páginas de producto.<br/>**`2 columns with left bar`**: de forma predeterminada, utiliza un diseño de dos columnas con la barra lateral a la izquierda para las páginas de productos. <br/>**`2 columns with right bar`**: de forma predeterminada, utiliza un diseño de dos columnas con la barra lateral a la derecha para las páginas de productos.<br/>**`3 columns`**: de forma predeterminada, utiliza un diseño de tres columnas con barras laterales a la izquierda y a la derecha para las páginas de productos.<br/>**`Page -- Full Width`**- (Requiere [!DNL Page Builder]) De forma predeterminada, utiliza el diseño Página — Anchura completa para las páginas de productos.<br/>**`Category - Full Width`** - (Requiere [!DNL Page Builder]) De forma predeterminada, utiliza el diseño Categoría - Anchura completa para las páginas de productos. <br/>**`Product - Full Width`**- (Requiere [!DNL Page Builder]) De forma predeterminada, utiliza el diseño Producto - Anchura completa para las páginas de productos. |
 | [!UICONTROL Default Category Layout] | Global | Determina el [diseño](../../content-design/page-layout.md) que se usa de forma predeterminada para las páginas de categoría. Opciones: <br/>**`No layout updates`**: de forma predeterminada, las actualizaciones de diseño no están disponibles para las páginas de categoría.<br/>**`Empty`**: de forma predeterminada, utiliza un diseño en blanco para las páginas de categoría. <br/>**`1 column`**: de forma predeterminada, utiliza un diseño de columna única para las páginas de categoría.<br/>**`2 columns with left bar`**: de forma predeterminada, utiliza un diseño de dos columnas con la barra lateral a la izquierda para las páginas de categoría. <br/>**`2 columns with right bar`**: de forma predeterminada, utiliza un diseño de dos columnas con la barra lateral a la derecha para las páginas de categoría.<br/>**`3 columns`**: de forma predeterminada, utiliza un diseño de tres columnas con barras laterales a la izquierda y a la derecha para las páginas de categoría.<br/>**`Page - Full Width`**- (Requiere [!DNL Page Builder]) De forma predeterminada, utiliza el diseño Página - Anchura completa para las páginas de categoría.<br/>**`Category - Full Width`** - (Requiere [!DNL Page Builder]) De forma predeterminada, utiliza el diseño Categoría - Anchura completa para las páginas de categoría. <br/>**`Product - Full Width`**- (Requiere [!DNL Page Builder]) De forma predeterminada, utiliza el diseño Producto - Anchura completa para las páginas de categoría. |
-| Diseño de página predeterminado | Global | Determina el [diseño](../../content-design/page-layout.md) que se usa de forma predeterminada para las páginas de CMS. Opciones: <br/>**`No layout updates`**: de forma predeterminada, las actualizaciones de diseño no están disponibles para las páginas de CMS.<br/>**`Empty`**: de forma predeterminada, utiliza un diseño en blanco para las páginas de CMS. <br/>**`1 column`**: de forma predeterminada, utiliza un diseño de columna única para las páginas de CMS.<br/>**`2 columns with left bar`**: de forma predeterminada, utiliza un diseño de dos columnas con la barra lateral izquierda para las páginas de CMS.<br/>**`2 columns with right bar`**: de forma predeterminada, utiliza un diseño de dos columnas con la barra lateral a la derecha para páginas de CMS.<br/>**`3 columns`**: de forma predeterminada, utiliza un diseño de tres columnas con barras laterales a la izquierda y a la derecha para las páginas de CMS.<br/>**`Page - Full Width`**- (Requiere [!UICONTROL Page Builder]) De forma predeterminada, utiliza el diseño Página - Anchura completa para las páginas de CMS.<br/>**`Category - Full Width`** - (Requiere [!UICONTROL Page Builder]) De forma predeterminada, utiliza el diseño Categoría - Anchura completa para las páginas de CMS. <br/>**`Product - Full Width`**- (Requiere [!DNL Page Builder]) De forma predeterminada, utiliza el diseño Producto - Anchura completa para las páginas de CMS. |
+| Diseño de página predeterminado | Global | Determina el [diseño](../../content-design/page-layout.md) que se usa de forma predeterminada para las páginas de CMS. Opciones: <br/>**`No layout updates`**: de forma predeterminada, las actualizaciones de diseño no están disponibles para las páginas de CMS.<br/>**`Empty`**: de forma predeterminada, utiliza un diseño en blanco para las páginas de CMS. <br/>**`1 column`**: de forma predeterminada, utiliza un diseño de columna única para las páginas de CMS.<br/>**`2 columns with left bar`**: de forma predeterminada, utiliza un diseño de dos columnas con la barra lateral izquierda para las páginas de CMS.<br/>**`2 columns with right bar`**: de forma predeterminada, utiliza un diseño de dos columnas con la barra lateral a la derecha para las páginas de CMS.<br/>**`3 columns`**: de forma predeterminada, utiliza un diseño de tres columnas con barras laterales a la izquierda y a la derecha para las páginas de CMS.<br/>**`Page - Full Width`**- (Requiere [!UICONTROL Page Builder]) De forma predeterminada, utiliza el diseño Página - Anchura completa para las páginas de CMS.<br/>**`Category - Full Width`** - (Requiere [!UICONTROL Page Builder]) De forma predeterminada, utiliza el diseño Categoría - Anchura completa para las páginas de CMS. <br/>**`Product - Full Width`**- (Requiere [!DNL Page Builder]) De forma predeterminada, utiliza el diseño Producto - Anchura completa para las páginas de CMS. |
 
 {style="table-layout:auto"}
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ![Web > Configuración de cookies predeterminada](./assets/web-default-cookie-settings.png)<!-- zoom -->
 
-<!-- [Default Cookie configuration settings](https://docs.magento.com/user-guide/stores/compliance-cookie-law.html) -->
+<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ![Web > Validación de sesión](./assets/web-session-validation-settings.png)<!-- zoom -->
 
-<!-- [Session Validation configuration settings](https://docs.magento.com/user-guide/stores/security-session-validation.html) -->
+<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 ![Web > Detección de capacidades del explorador](./assets/web-browser-capabilities-detection.png)<!-- zoom -->
 
-<!-- [Browser Capabilities Detection configuration settings](https://docs.magento.com/user-guide/stores/security-browser-capabilities-detection.html) -->
+<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |

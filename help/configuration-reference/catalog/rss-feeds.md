@@ -3,7 +3,7 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds]'
 description: Revise la configuración en la página [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] del administrador de Commerce.
 exl-id: 3d71b1b9-08aa-495c-a269-b6e336f7ba06
 feature: Configuration, Communications
-source-git-commit: 239295ada2bdb3b94d9654b960a31ad8e102f93e
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ![Configuración Rss](./assets/rss-feeds-rss-config.png)<!-- zoom -->
 
-<!-- [Rss Config](https://docs.magento.com/user-guide/marketing/rss-feed.html) -->
+<!-- [Rss Config](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/social-rss) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -32,7 +32,7 @@ Para obtener más información sobre cómo usar las fuentes RSS una vez habilita
 
 ![Lista de deseos](./assets/rss-feeds-wishlist.png)<!-- zoom -->
 
-<!-- [Wish List](https://docs.magento.com/user-guide/marketing/wishlists.html) -->
+<!-- [Wish List](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -44,7 +44,7 @@ Para obtener más información sobre cómo usar las fuentes RSS una vez habilita
 
 ![Catálogo](./assets/rss-feeds-catalog.png)<!-- zoom -->
 
-<!-- [Catalog](https://docs.magento.com/user-guide/catalog/catalog-menu.html) -->
+<!-- [Catalog](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -59,7 +59,7 @@ Para obtener más información sobre cómo usar las fuentes RSS una vez habilita
 
 ![Pedido](./assets/rss-feeds-order.png)<!-- zoom -->
 
-<!-- [Order](https://docs.magento.com/user-guide/sales/order-status-notification.html) -->
+<!-- [Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-status#notification) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |

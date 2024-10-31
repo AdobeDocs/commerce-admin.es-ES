@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Content Management]'
 description: Revise la configuración en la página [!UICONTROL General] &gt; [!UICONTROL Content Management] del administrador de Commerce.
 exl-id: 67c5e89b-0a7c-4e4f-a5ad-10376c3ef6f9
 feature: Configuration, Page Content
-source-git-commit: 5eef49c10680a47574afe3d3ecfa430dca7ad9ff
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 ## [!UICONTROL WYSIWYG Options]
 
-![Opciones WYSIWYG](./assets/content-management-wysiwyg-options.png)<!-- zoom -->
+![Opciones de WYSIWYG](./assets/content-management-wysiwyg-options.png)<!-- zoom -->
 
-<!-- [WYSIWYG Options](https://docs.magento.com/user-guide/cms/editor.html) -->
+<!-- [WYSIWYG Options](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/editor) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Enable WYSIWYG Editor] | Vista de tienda | Determina si el editor está habilitado para la tienda. Opciones: Habilitado por defecto/Deshabilitado por defecto/Deshabilitado por completo |
-| [!UICONTROL WYSIWYG Editor] | Sitio web | Determina la versión del editor TinyMCE que se utiliza para el editor WYSIWYG. Opciones: <br/>**`TinyMCE 5`**- (Predeterminado) Utiliza TinyMCE versión 5 como editor WYSIWYG predeterminado.<br><br>_** Nota:**_Una actualización de la biblioteca TinyMCE 5.10 en Adobe Commerce y el Magento Open Source 2.4.5 resuelve una vulnerabilidad que permitía la ejecución arbitraria de JavaScript al actualizar una imagen o un vínculo mediante algunos tipos de direcciones URL. TinyMCE 3 quedó obsoleto en la versión 2.4.0 y se eliminó en la versión 2.4.3. TinyMCE 4 se eliminó en la versión 2.4.4. |
-| [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | Global | Determina si se utilizan [direcciones URL estáticas](../../content-design/catalog-urls-dynamic-media.md) para el contenido multimedia al que se hace referencia desde el editor WYSIWYG. La configuración se aplica a todos los lugares donde el editor WYSIWYG está disponible, incluidos productos, categorías, páginas y bloques. Opciones: <br/>**`Yes`**: utiliza direcciones URL estáticas para el contenido multimedia insertado con el editor WYSIWYG. Las direcciones URL estáticas son absolutas y se rompen si cambia la [dirección URL base](../../stores-purchase/store-urls.md) del almacén.<br/>**`No`** (predeterminado): utiliza direcciones URL dinámicas para el contenido multimedia insertado con el editor WYSIWYG, según la directiva `{{media url="..."}}`. Las direcciones URL dinámicas son relativas y no se rompen si cambia la dirección URL base del almacén. |
+| [!UICONTROL WYSIWYG Editor] | Sitio web | Determina la versión del editor TinyMCE que se utiliza para el editor de WYSIWYG. Opciones: <br/>**`TinyMCE 5`**- (Predeterminado) Utiliza TinyMCE versión 5 como editor de WYSIWYG predeterminado.<br><br>_** Nota:**_Una actualización de la biblioteca TinyMCE 5.10 en Adobe Commerce y el Magento Open Source 2.4.5 resuelve una vulnerabilidad que permitía la ejecución arbitraria de JavaScript al actualizar una imagen o un vínculo mediante algunos tipos de direcciones URL. TinyMCE 3 quedó obsoleto en la versión 2.4.0 y se eliminó en la versión 2.4.3. TinyMCE 4 se eliminó en la versión 2.4.4. |
+| [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | Global | Determina si se utilizan [direcciones URL estáticas](../../content-design/catalog-urls-dynamic-media.md) para el contenido multimedia al que se hace referencia desde el editor de WYSIWYG. La configuración se aplica a todos los lugares donde el editor de WYSIWYG está disponible, incluidos productos, categorías, páginas y bloques. Opciones: <br/>**`Yes`**: utiliza direcciones URL estáticas para el contenido multimedia insertado con el editor de WYSIWYG. Las direcciones URL estáticas son absolutas y se rompen si cambia la [dirección URL base](../../stores-purchase/store-urls.md) del almacén.<br/>**`No`** (predeterminado): utiliza direcciones URL dinámicas para el contenido multimedia insertado con el editor de WYSIWYG, según la directiva `{{media url="..."}}`. Las direcciones URL dinámicas son relativas y no se rompen si cambia la dirección URL base del almacén. |
 
 {style="table-layout:auto"}
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ![Jerarquía de páginas de CMS](./assets/content-management-cms-page-hierarchy.png)<!-- zoom -->
 
-<!--[CMS Page Hierarchy](https://docs.magento.com/user-guide/cms/page-hierarchy.html) -->
+<!--[CMS Page Hierarchy](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-hierarchy) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ![Herramientas de contenido avanzadas](./assets/content-management-advanced-content-tools.png)<!-- zoom -->
 
-<!-- [Advanced Content Tools](https://docs.magento.com/user-guide/cms/page-builder-workspace.html) -->
+<!-- [Advanced Content Tools](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/walkthrough/3-catalog-content) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
