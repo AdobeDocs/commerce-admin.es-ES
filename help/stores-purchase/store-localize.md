@@ -3,9 +3,9 @@ title: Localización de tiendas
 description: Obtenga información sobre cómo localizar una tienda o vista de tienda.
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 248c60b20d8554fc73f94cfd249ac3fd7b677f62
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 La mayor parte del texto que parece estar codificado en las páginas de la tienda se puede cambiar instantáneamente a un idioma diferente cambiando la configuración regional de la vista. Cambiar la configuración regional no traduce realmente el texto palabra por palabra, sino que simplemente hace referencia a una tabla de traducción diferente que proporciona el texto de la interfaz que se utiliza en todo el almacén. El texto que se puede cambiar incluye títulos de navegación, etiquetas, botones y vínculos como _Mi carro_ y _Mi cuenta_. También puede usar la herramienta [Traducción en línea](../configuration-reference/advanced/developer.md) para retocar texto en la interfaz.
 
-Los paquetes de idiomas se encuentran en [Traducciones y localización][1]{:target=&quot;_blank&quot;} en Commerce Marketplace. Las nuevas extensiones se añaden continuamente al Marketplace, por lo que vuelva a consultarlas con frecuencia.
+Los paquetes de idiomas se encuentran en [Traducciones y localización][1]{:target="_blank"} en el Commerce Marketplace. Las nuevas extensiones se añaden continuamente al Marketplace, por lo que vuelva a consultarlas con frecuencia.
 
 ## Paso 1: Instalar un paquete de idioma
 
@@ -46,11 +46,9 @@ Siga las instrucciones estándar para instalar la extensión del paquete de idio
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. En la esquina superior izquierda, establezca **[!UICONTROL Store View]** en la vista específica donde se aplicará la configuración.
+1. En el menú desplegable **[!UICONTROL Scope]**, seleccione la vista de tienda que desea configurar y haga clic en **[!UICONTROL OK]** cuando se le solicite.
 
-1. Cuando se le pida que confirme el cambio de ámbito, haga clic en **[!UICONTROL OK]**.
-
-1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Locale Options]**.
+1. En la página de configuración *[!UICONTROL General]*, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Locale Options]**.
 
 1. Desactive la casilla de verificación **[!UICONTROL Use Website]** y establezca **[!UICONTROL Locale]** en el idioma que desee asignar a la vista.
 
