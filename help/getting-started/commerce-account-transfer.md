@@ -3,9 +3,9 @@ title: Transferir una cuenta de Commerce
 description: Aprenda a transferir su cuenta de Commerce a otro propietario o dirección de correo electrónico.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 5c7fbeaa0f09cb106c3105e3c36871df7e1bc368
+source-git-commit: 00994f506056bf5504df758a44a7cd56f590750d
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -31,10 +31,6 @@ La forma de completar esta transferencia depende de cuál de las siguientes situ
 >[!NOTE]
 >
 >A medida que Adobe Commerce continúa integrándose con otras soluciones de Adobe, una cuenta de Commerce (MAGEID) ahora requiere una asociación con un inicio de sesión con Adobe. Este Adobe ID utiliza la misma dirección de correo electrónico conectada a su cuenta de Commerce.
-
->[!NOTE]
->
->Si el propietario actual o el nuevo propietario tiene una cuenta de inicio de sesión de Adobe asociada con otros productos o servicios de Adobe, puede abrir un [ticket de asistencia](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) para obtener ayuda con la transferencia de una cuenta de Commerce a otro Adobe ID.
 
 ## Nuevo cambio de Adobe ID y correo electrónico
 
