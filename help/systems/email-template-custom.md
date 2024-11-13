@@ -3,16 +3,16 @@ title: Personalizar plantillas de correo electrónico
 description: Aprenda a personalizar las plantillas de correo electrónico para cada sitio web, tienda o vista de tienda.
 exl-id: d328b84d-fab7-4956-9071-2d8848f7c21e
 feature: Communications, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: c0d6523f820558c8cd6cfa6b745568784b9e784c
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
 
 # Personalizar plantillas de correo electrónico
 
-Commerce incluye una plantilla de correo electrónico predeterminada para la sección del cuerpo de cada mensaje que envía el sistema. La plantilla para el contenido del cuerpo se combina con las plantillas de encabezado y pie de página para crear el mensaje completo. El contenido tiene formato de HTML y CSS, y se puede editar y personalizar fácilmente agregando [variables](variables-predefined.md) y [widgets](../content-design/widgets.md). Las plantillas de correo electrónico se pueden personalizar para cada sitio web, tienda o vista de tienda. Si usa plantillas personalizadas, asegúrese de actualizar la [configuración del sistema](email-templates.md#configure-email-templates) para asegurarse de que se usa la plantilla correcta.
+Commerce incluye una plantilla de correo electrónico predeterminada para la sección del cuerpo de cada mensaje que envía el sistema. La plantilla para el contenido del cuerpo se combina con las plantillas de encabezado y pie de página para crear el mensaje completo. El contenido tiene formato de HTML y CSS, y se puede editar y personalizar fácilmente agregando [variables](variables-predefined.md). Las plantillas de correo electrónico se pueden personalizar para cada sitio web, tienda o vista de tienda. Si usa plantillas personalizadas, asegúrese de actualizar la [configuración del sistema](email-templates.md#configure-email-templates) para asegurarse de que se usa la plantilla correcta. Para obtener información sobre cómo usar afirmaciones condicionales al personalizar la plantilla de correo electrónico, consulte la [documentación para desarrolladores](https://developer.adobe.com/commerce/frontend-core/guide/templates/email/#theme-based-customizations-1).
 
 ![Ejemplo: vista previa del correo electrónico de bienvenida](./assets/email-template-preview.png){width="500" zoomable="yes"}
 
