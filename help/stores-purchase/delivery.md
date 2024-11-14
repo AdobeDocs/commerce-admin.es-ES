@@ -3,9 +3,9 @@ title: Envío y entrega
 description: Obtenga información acerca de la compatibilidad con varios métodos de entrega y transportistas de envío que puede ofrecer a sus clientes.
 exl-id: 79fce11c-d45d-4176-94ac-80261c65b7ad
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Los estudios demuestran que las tiendas que ofrecen a los clientes la opción de
 
 >[!NOTE]
 >
->Debido al cierre de Temando, se ha eliminado la compatibilidad con [!DNL Magento Shipping] en 2.4.0. Para obtener información detallada del estado y recomendaciones sobre las nuevas implementaciones de envío en Commerce, consulte la página [información del producto](https://business.adobe.com/products/magento/shipping.html){:target=&quot;_blank&quot;}.
+>Debido al cierre de Temando, se ha eliminado la compatibilidad con [!DNL Magento Shipping] en 2.4.0. Para obtener información detallada del estado y recomendaciones sobre las nuevas implementaciones de envío en Commerce, consulte la página [información del producto](https://business.adobe.com/products/magento/shipping.html){:target="_blank"}.
 
 ## Métodos básicos de envío
 
@@ -40,4 +40,4 @@ Si tiene una cuenta comercial con uno o más [proveedores de servicios de soport
 
 Para obtener más información sobre los métodos de envío y entrega, consulte este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12&learn=on)

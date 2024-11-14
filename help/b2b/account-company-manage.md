@@ -3,7 +3,7 @@ title: Administrar cuentas de empresa
 description: Aprenda a administrar las cuentas de empresa de su tienda Adobe Commerce mediante la página Compañías y las herramientas disponibles en la cuadrícula.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: d930c2294f0313cfa36d81c8a153b3cb35183f85
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '2726'
 ht-degree: 0%
@@ -208,7 +208,7 @@ El administrador de la empresa y también un administrador de la tienda pueden m
 
 Para obtener más información sobre la administración de cuentas de empresa, consulte este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
 
 ## Administración de empresa
 

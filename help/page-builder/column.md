@@ -3,7 +3,7 @@ title: 'Diseño: columna'
 description: Obtenga información acerca del tipo de contenido Columna, utilizado para dividir una página en varias columnas en el escenario  [!DNL Page Builder] .
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
-source-git-commit: 63b620f2af106108c672a9a91cb66923c5231c53
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Puede cambiar el diseño del contenedor [!DNL Columns] arrastrando una columna p
 
 Vea este vídeo para ver una demostración de cómo se puede utilizar el contenedor [!DNL Columns] para restringir los diseños de página:
 
->[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12&learn=on)
 
 ## Cuadro de herramientas Columna
 

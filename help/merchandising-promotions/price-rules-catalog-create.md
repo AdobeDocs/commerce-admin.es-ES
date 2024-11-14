@@ -3,7 +3,7 @@ title: Creación de una regla de precios de catálogo
 description: Aprenda a crear una regla de precios de catálogo que aplique un descuento a productos específicos siempre que se cumpla un conjunto de condiciones.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 0f26e981a1ba5bffb1acdeeb4320415772826aba
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 0%
@@ -224,7 +224,7 @@ La mayoría de las condiciones disponibles se basan en valores de atributo exist
 
 Vea este vídeo para obtener más información sobre la creación de reglas de precios de catálogo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## Descripciones de campos
 

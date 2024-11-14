@@ -3,7 +3,7 @@ title: Crear y eliminar segmentos de clientes
 description: Los clientes pueden ver la información de reembolsos asociada con el pedido en el panel de control de su cuenta de cliente.
 exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
-source-git-commit: 8d5cd6fa586feb5e44819755245814bff7678d34
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '897'
 ht-degree: 0%
@@ -196,4 +196,4 @@ _**[!UICONTROL Matched Customers]cuadrícula **_
 
 Vea este vídeo para ver una demostración de la creación de segmentos de clientes:
 
->[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)

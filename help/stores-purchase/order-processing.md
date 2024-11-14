@@ -3,7 +3,7 @@ title: Flujo de trabajo y procesamiento de pedidos
 description: Obtenga información sobre el flujo de trabajo de pedidos, el estado que se aplica en cada paso y cómo mover las solicitudes a través de este proceso.
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1718'
 ht-degree: 0%
@@ -230,4 +230,4 @@ En la sección **[!UICONTROL Order Total]**, haga lo siguiente:
 
 Vea este vídeo y obtenga más información sobre el procesamiento y el estado de los pedidos:
 
->[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)

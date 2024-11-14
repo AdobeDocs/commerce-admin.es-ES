@@ -3,7 +3,7 @@ title: Reglas fiscales
 description: Obtenga información sobre cómo definir las reglas fiscales mediante la clase de producto, la clase de cliente y el tipo impositivo.
 exl-id: 38d65998-7769-49ce-9814-e65df9d77bba
 feature: Taxes, Currency
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -96,4 +96,4 @@ Las reglas fiscales incorporan una combinación de clase de producto, clase de c
 
 Obtenga información acerca de la administración de reglas monetarias y fiscales con este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12&learn=on)

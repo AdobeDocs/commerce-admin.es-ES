@@ -3,7 +3,7 @@ title: Propiedades de atributos del cliente
 description: Obtenga información sobre cómo configurar las propiedades de atributos del cliente.
 exl-id: d464f846-6a1f-43bd-876a-6834605ef794
 feature: Customers, Configuration
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1796'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Los atributos del cliente proporcionan la información necesaria para respaldar 
      | Tipo | Descripción |
      |----|-----------|
      | `Text Field` | Campo de texto de una sola línea. |
-     | `Text Area` | Campo de entrada de varias líneas para introducir párrafos de texto, como una descripción del producto. Puede utilizar el editor WYSIWYG para dar formato al texto con etiquetas de HTML o introducir las etiquetas directamente en el texto. |
+     | `Text Area` | Campo de entrada de varias líneas para introducir párrafos de texto, como una descripción del producto. Puede utilizar el editor de WYSIWYG para dar formato al texto con etiquetas de HTML o introducir las etiquetas directamente en el texto. |
      | `Multiple Line` | Crea varias líneas de texto para el atributo, de forma similar a una dirección de calle de varias líneas. El número de líneas de entrada de datos independientes puede ser de dos a 20. Use `Default Value` para especificar el valor inicial del campo. |
      | `Date` | Muestra un valor de fecha en el formato de fecha y zona horaria preferidos. Los valores de fecha se pueden seleccionar de una lista o un calendario ( ![Icono de calendario](../assets/icon-calendar.png)). <br/><br/>**_Nota:_**Según la configuración del sistema, los usuarios de_Admin _pueden introducir fechas directamente en un campo o seleccionar una fecha del calendario o lista. Para obtener información acerca de cómo especificar valores de fecha y hora, vea [Opciones de fecha y hora](../catalog/attributes-input-types.md#date-and-time-options). |
      | `Yes/No` | Muestra una lista desplegable con opciones predefinidas de `Yes` y `No`. |
@@ -171,4 +171,4 @@ Los atributos del cliente proporcionan la información necesaria para respaldar 
 
 Vea este vídeo para ver una demostración de la creación de atributos del cliente:
 
->[!VIDEO](https://video.tv.adobe.com/v/343661?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343661?quality=12&learn=on)

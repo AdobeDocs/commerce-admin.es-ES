@@ -3,7 +3,7 @@ title: '[!DNL Page Builder] plantillas'
 description: Aprenda a guardar el contenido existente de  [!DNL Page Builder] como plantilla y, a continuación, aplique esa plantilla a otra área.
 exl-id: 02c1a93f-4186-4af9-ad35-bd0f5734f979
 feature: Page Builder, Page Content
-source-git-commit: 06c8864e35dc37997bc26720ee9a95aff97f7987
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -91,4 +91,4 @@ La cuadrícula _Aplicar plantilla_ y la cuadrícula de página _Plantillas_ prop
 
 Vea este vídeo para obtener más información sobre las plantillas de contenido de Page Builder:
 
->[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12&learn=on)

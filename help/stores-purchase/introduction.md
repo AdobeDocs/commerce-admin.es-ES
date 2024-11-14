@@ -2,7 +2,7 @@
 title: Introducción a las tiendas y a la experiencia de compra
 description: Conozca las funciones utilizadas para construir y gestionar sus tiendas en línea y la experiencia de compra para sus clientes.
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Los clientes a veces necesitan ayuda para completar una compra. A algunos client
 
 Consulta este vídeo para obtener más información sobre las compras asistidas por el vendedor:
 
->[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12&learn=on)
 
 ## Gestión de pedidos y operaciones
 

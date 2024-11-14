@@ -2,7 +2,7 @@
 title: Creación y administración de widgets
 description: Aprenda a crear y administrar los widgets que actualizan automáticamente el contenido de su tienda.
 exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Las opciones de cada tipo de widget varían ligeramente, pero el proceso es bás
 
 Para obtener más información sobre la creación de widgets, vea este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12&learn=on)
 
 ## Edición de un widget
 
