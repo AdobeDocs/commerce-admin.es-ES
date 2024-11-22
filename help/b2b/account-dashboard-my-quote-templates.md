@@ -2,13 +2,13 @@
 title: '[!UICONTROL My Quote Templates]'
 description: Obtenga información acerca de la experiencia del cliente con las plantillas de presupuesto, que está disponible en el panel de cuentas de tienda.
 feature: B2B, Companies, Quotes
-source-git-commit: c2cb4db24effa764996b0fb77fbda67727392efe
+exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
+source-git-commit: 71b9326aa5a8c3d7656b3c0f166cf25291b2abba
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
 
 ---
-
 
 # [!UICONTROL My Quote Templates]
 
@@ -114,7 +114,3 @@ Los compradores pueden completar las siguientes acciones desde una oferta vincul
 En la página de plantilla de oferta, haga clic en **[!UICONTROL Cancel Quote Template]**.
 
 La plantilla de presupuesto se cancela y el estado de la oferta cambia a `Closed`. La oferta cerrada permanece en su lista de *[!UICONTROL Inactive]* comillas y permanece en la lista _[!UICONTROL Quote Templates]_de la administración.
-
-
-
-
