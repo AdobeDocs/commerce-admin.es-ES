@@ -3,9 +3,9 @@ title: Detalles de tienda
 description: Aprenda a actualizar la información básica de su tienda.
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1780'
 ht-degree: 0%
 
 ---
@@ -170,7 +170,6 @@ También puede configurar el envío a determinados países para cada [método de
 Para obtener ayuda con la resolución de problemas de configuración de país, consulte los siguientes artículos de la Base de conocimiento de asistencia de [!DNL Commerce]:
 
 - [Cómo agregar un país](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
-- [El countryId proporcionado no existe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-15/mdva-33393-magento-patch-provided-countryid-does-not-exist.html)
 
 ## [!UICONTROL Merchant Location]
 
@@ -324,7 +323,7 @@ Los datos de ejemplo de Luma incluyen un bloque de _Información de contacto_ qu
 
 >[!IMPORTANT]
 >
->A partir de la versión 2.4.0, el formulario de contacto ya no puede llamar dentro de un bloque CMS o una página CMS. Toda personalización del formulario de contacto debe realizarse utilizando el xml de diseño o plantillas de temas personalizadas.
+>A partir de la versión 2.4.0, el formulario de contacto ya no puede llamar a dentro de un bloque de CMS o de una página de CMS. Toda personalización del formulario de contacto debe realizarse utilizando el xml de diseño o plantillas de temas personalizadas.
 
 De manera predeterminada, los compradores tienen acceso al formulario de contacto mediante el _vínculo de contacto_ que aparece al pie de las páginas de la tienda. Para obtener más información sobre cómo personalizar la página de contacto, consulte la [Guía para desarrolladores de FrontEnd][theme-guide].
 

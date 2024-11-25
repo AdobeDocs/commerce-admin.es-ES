@@ -3,7 +3,8 @@ title: Servicios SaaS de Commerce
 description: Obtenga información acerca de los servicios SaaS de Commerce disponibles para ampliar las funciones de tienda de Commerce
 seo-title: Commerce Services
 seo-description: Get an overview of available services that help Adobe Commerce merchants extend storefront capabilities to support key components of their business.
-source-git-commit: ab886855f087186bb1598ab4a780f49c15757c16
+exl-id: 2e673eb2-a90b-491a-b320-e9bd089d19f2
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Adobe proporciona una colección de servicios de Commerce, servicios de integrac
 
 ![Buscar](../landing/assets/icon-magnify.svg){width="40"}**[Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)**: implementa una herramienta de búsqueda con tecnología de IA que ofrece resultados más inteligentes, rápidos y relevantes para los compradores de B2C.
 
-![ThumbsUp](../landing/assets/icon-thumbs-up.svg){width="40"}**[Product Recommendations](https://experienceleague.adobe.com/en/en/docs/commerce-merchant-services/product-recommendations/overview)**: agrega recomendaciones impulsadas por IA basadas en el comportamiento de los compradores, las tendencias populares, la similitud de los productos y mucho más.
+![ThumbsUp](../landing/assets/icon-thumbs-up.svg){width="40"}**[Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview)**: agrega recomendaciones impulsadas por IA basadas en el comportamiento de los compradores, las tendencias populares, la similitud de los productos y mucho más.
 
 ![Datos de catálogo para servicios conectados](../landing/assets/icon-data-book.svg){width="40"}**[Servicio de catálogo](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/overview)**: ofrezca a sus clientes una experiencia de producto optimizada a la vez que aumenta el rendimiento, mejora la escalabilidad y aumenta las conversiones.
 

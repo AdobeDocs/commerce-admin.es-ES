@@ -3,9 +3,9 @@ title: FedEx
 description: Aprenda a configurar FedEx como transportista para su tienda.
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ FedEx es una de las compañías de servicios de transporte marítimo más grande
 
 ## Paso 1: Regístrese para la producción de servicios web de FedEx
 
-Se requiere una [cuenta comercial de FedEx][1] y el registro para el acceso de producción a los servicios web de FedEx. Después de crear una cuenta de FedEx, lea la página de información de la cuenta de producción y luego haga clic en el vínculo _Obtener clave de producción_ en la parte inferior de la página para registrarse y obtener una clave.
+Se requiere una cuenta de comerciante de FedEx y el registro para el acceso a la producción de servicios web de FedEx. Después de crear una cuenta de FedEx, lea la página de información de la cuenta de producción y luego haga clic en el vínculo _Obtener clave de producción_ en la parte inferior de la página para registrarse y obtener una clave.
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ Se requiere una [cuenta comercial de FedEx][1] y el registro para el acceso de p
    - Opciones nacionales: Express Saver, Ground, First, Overnight, Home Delivery, Standard Overnight
    - Opciones internacionales-Economía internacional, Economía internacional, Flete, Internacional primero, Internacional terrestre, Internacional, Prioridad internacional
    - Opciones de prioridad: flete, prioridad a la vista
-   - Smart Post: si ofrece el método Smart Post (escriba el **identificador de concentrador**)
+   - Publicación inteligente si ofrece el método de publicación inteligente (escriba el **identificador de concentrador**)
    - Opciones de flete-Flete, Flete nacional
 
 1. Si desea proporcionar una opción de [envío gratis](shipping-free.md) a través de FedEx, establezca las opciones de envío gratis.
@@ -159,5 +159,3 @@ Se requiere una [cuenta comercial de FedEx][1] y el registro para el acceso de p
 >[!NOTE]
 >
 >Commerce siempre declara el precio total del pedido a FedEx al calcular los gastos de envío. Este comportamiento no se puede cambiar.
-
-[1]: https://www.fedex.com/login/web/jsp/contactInfo1.jsp

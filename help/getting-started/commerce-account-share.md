@@ -3,7 +3,7 @@ title: Compartir una [!DNL Commerce] cuenta
 description: Aprenda a conceder acceso limitado a su cuenta de  [!DNL Commerce] para otros titulares de la cuenta de [!DNL Commerce] .
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 8f8cb141c79b8b5a57363faf7ec5c8f2e75bb473
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 0%
@@ -91,11 +91,11 @@ Las siguientes instrucciones se escriben desde la perspectiva de un usuario comp
 
    ![Asistencia](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   Puede usar el [Centro de ayuda de Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html) de la cuenta compartida para buscar artículos e información de solución de problemas, buscar parches para problemas conocidos y crear vales de soporte técnico.
+   Puede usar el [Centro de ayuda de Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) de la cuenta compartida para buscar artículos e información de solución de problemas, buscar parches para problemas conocidos y crear vales de soporte técnico.
 
    >[!NOTE]
    >
-   >Después de recibir el acceso compartido, el usuario debe iniciar sesión en su [[!DNL Commerce] cuenta](https://account.magento.com/customer/account/login), navegar a _Acceso compartido_ y hacer clic en la ficha **[!UICONTROL Support]**. Esta acción solo es necesaria la primera vez para garantizar que la [Base de conocimiento de soporte técnico de Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html) esté configurada correctamente mediante la llamada a `SSO`.
+   >Después de recibir el acceso compartido, el usuario debe iniciar sesión en su [[!DNL Commerce] cuenta](https://account.magento.com/customer/account/login), navegar a _Acceso compartido_ y hacer clic en la ficha **[!UICONTROL Support]**. Esta acción solo es necesaria la primera vez para garantizar que la [Base de conocimiento de soporte técnico de Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) esté configurada correctamente mediante la llamada a `SSO`.
 
 1. Para volver a su cuenta, haga clic en **Atrás** en los controles del explorador y establezca **[!UICONTROL Switch Accounts]** en `My Account`.
 
@@ -113,11 +113,11 @@ Las siguientes instrucciones se escriben desde la perspectiva de un usuario comp
    > 
    > Si es así, pídale al propietario de la cuenta que modifique la cuenta de acceso compartido para borrar los permisos de la cuenta. Después de esta actualización, el usuario no podrá acceder a ningún recurso de la cuenta.
    >
-   > Además, asegúrese de que los usuarios se eliminen del proyecto para que ya no reciban notificaciones por correo electrónico: [Los integrantes anteriores del equipo reciben notificaciones por correo electrónico de Adobe Commerce Cloud](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+   > Además, asegúrese de que los usuarios se eliminen del proyecto para que ya no reciban notificaciones por correo electrónico: [Los integrantes anteriores del equipo reciben notificaciones por correo electrónico de Adobe Commerce Cloud](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. Cuando se le pida que confirme, haga clic en **[!UICONTROL Delete User]**.
 
 >[!NOTE]
 >
->No puede eliminar usuarios con el nombre compartido de _Acceso compartido en la nube de MAG[XYZ]_ en esta interfaz. Consulte [¿Cómo eliminar usuarios a los que se les concedió acceso compartido a través de un proyecto de Cloud?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users).
+>No puede eliminar usuarios con el nombre compartido de _Acceso compartido en la nube de MAG[XYZ]_ en esta interfaz. Consulte [¿Cómo eliminar usuarios a los que se les concedió acceso compartido a través de un proyecto de Cloud?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting).
