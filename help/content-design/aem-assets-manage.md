@@ -1,8 +1,9 @@
 ---
 title: Uso de AEM Assets
-description: Administre sus recursos multimedia de la tienda con AEM Assets.
+description: Administre sus recursos multimedia de la tienda con los AEM Assets.
 feature: CMS, Media
-source-git-commit: f04648a41fc16154d5f10278f810114d707b670c
+exl-id: 55144019-8ba2-4392-b5dd-216e2ee9daf2
+source-git-commit: 508b5003e6f5d2772109fd73aca545bce411101a
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%
@@ -13,6 +14,8 @@ ht-degree: 0%
 
 {{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
+<!--In ACAP-844, this topic was linked to from the Commerce Admin products images and videos when the Assets integration is enabled. If the URL to the topic changes, be sure to add a redirect.-->
+
 ## Actualizar un recurso
 
 Después de editar un recurso en AEM Assets, envíe las actualizaciones a Commerce aprobando y reprocesando el recurso. Solo se envían a la instancia de Commerce los recursos aprobados. El reprocesamiento del recurso garantiza que los cambios finales y las actualizaciones de metadatos se capturen antes de que el recurso se envíe a Adobe Commerce.
@@ -22,4 +25,3 @@ Para obtener más información, consulte la siguiente documentación de AEM Asse
 - [Reprocesando recursos digitales](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
 - [Aprobar un recurso](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
-
