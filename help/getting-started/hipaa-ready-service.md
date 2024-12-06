@@ -3,9 +3,9 @@ title: Preparación para HIPAA en Adobe Commerce
 description: Descubra cómo puede añadir la extensión de preparación para HIPAA de Adobe Commerce y obtener funciones y funcionalidades adicionales que le permiten cumplir con sus obligaciones HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: c74d05e4a26f46f1aca5d82936a4bb61f8764084
+source-git-commit: cbcdaf8f5c531ba10a95e9455a5ebc28bd61c3b5
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1597'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ Adobe Commerce debe implementarse en Adobe Commerce en la infraestructura en la 
 
 >[!ENDSHADEBOX]
 
-Instale la última versión de la extensión de servicios preparados para HIPAA de Adobe (`magento/hipaa-ee`) en una instancia que ejecute Adobe Commerce versión 2.4.6-p3 o posterior. La extensión se entrega como un metapaquete de composición desde el repositorio [repo.magento.com](https://repo.magento.com). El metapaquete incluye la colección de módulos que habilitan las capacidades HIPAA para una instancia de Adobe Commerce.
+Instale la última versión de la extensión de servicios preparados para HIPAA de Adobe (`magento/hipaa-ee`) en una instancia que ejecute Adobe Commerce versión 2.4.6-p3 - 2.4.6-p8. La extensión se entrega como un metapaquete de composición desde el repositorio [repo.magento.com](https://repo.magento.com). El metapaquete incluye la colección de módulos que habilitan las capacidades HIPAA para una instancia de Adobe Commerce.
 
 1. En la estación de trabajo local, cambie al directorio del proyecto para su proyecto de Adobe Commerce en la nube.
 
