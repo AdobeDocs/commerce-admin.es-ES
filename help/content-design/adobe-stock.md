@@ -3,7 +3,7 @@ title: Integración de Adobe Stock
 description: Integra Adobe Stock con tu instancia  [!DNL Commerce] para acceder a innumerables recursos multimedia para usarlos en tu tienda.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-source-git-commit: 6666073a48741cb494f408a61401f46fc20cedc4
+source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Para obtener acceso a innumerables recursos multimedia para usar en tu tienda, i
 
 ![Resultados de búsqueda de Adobe Stock](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
 
-El servicio Adobe Stock proporciona a las empresas acceso a millones de fotos, vectores, ilustraciones, vídeos, plantillas y recursos 3D de alta calidad, depurados y libres de derechos para todos sus proyectos creativos. Los usuarios de [!DNL Commerce] pueden buscar, previsualizar y obtener licencias de recursos de Adobe Stock rápidamente. Los usuarios también pueden guardarlos en [almacenamiento de medios][media-storage], sin salir del área de trabajo de administración.
+El servicio Adobe Stock proporciona a las empresas acceso a millones de fotos, vectores, ilustraciones, vídeos, plantillas y recursos 3D de alta calidad, depurados y libres de derechos para todos sus proyectos creativos. Los usuarios de [!DNL Commerce] pueden buscar, previsualizar y obtener licencias de recursos de Adobe Stock rápidamente. Los usuarios también pueden guardarlos en [almacenamiento de medios](./media-storage.md), sin salir del área de trabajo de administración.
 
 ## Requisitos previos
 
@@ -97,6 +97,5 @@ Para establecer la configuración del sistema en su administrador de [!DNL Comme
 
 [adobe-stock]: https://stock.adobe.com
 [adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
-[media-storage]: media-storage.md
 [dev-console]: https://developer.adobe.com/console/home
 [create-integration]: #create-an-adobeio-integration
