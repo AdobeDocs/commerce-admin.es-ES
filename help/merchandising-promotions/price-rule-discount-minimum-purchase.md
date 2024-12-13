@@ -3,14 +3,14 @@ title: 'Ejemplo de regla de precio del carro de compras: descuento con precio m�
 description: Consulte un ejemplo de uso de una regla de precio del carro de compras para ofrecer un descuento con un precio mínimo del producto.
 exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 6bc76c76bc7a17e115696911cc2499075d35c541
+source-git-commit: 2a370dc38b54ee668513bc738b7e8c99f660deae
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
 
-# Ejemplo de regla de precio del carro de compras: descuento con compra mínima
+# Ejemplo de regla de precio del carro de compras: descuento con precio mínimo del producto
 
 Las reglas de precio del carro de compras se pueden usar para ofrecer un descuento porcentual basado en un precio mínimo del producto en el carro de compras. En el siguiente ejemplo, se aplica un descuento del 10 % a todos los productos de todo el carro de compras cuando se agrega al menos un producto con un precio superior a 30,00 $ de una categoría especificada. El formato del descuento es el siguiente:
 
