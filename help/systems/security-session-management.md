@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo configurar la administración de s
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: aabbf6d37a2c7fa730e1f3673edfb414685008b6
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -104,25 +104,7 @@ Como medida de seguridad, _Admin_ se ha configurado inicialmente para que agote 
 
 1. Haga clic en **[!UICONTROL Admin]**.
 
-1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Security]_.
-
-1. Para **[!UICONTROL Admin Session Lifetime (seconds)]**, escriba el número de segundos que una sesión permanecerá activa antes de que se agote el tiempo de espera.
-
-   ![Configuración avanzada - Configuración de seguridad de administración](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
-
-1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.## Duración de la sesión de administrador
-
-Como medida de seguridad, _Admin_ se ha configurado inicialmente para que agote el tiempo de espera tras 900 segundos (15 minutos) de inactividad del teclado. Puede ajustar la duración de la sesión para adaptarla al estilo de trabajo.
-
-**_Para ajustar la duración de la sesión de administración:_**
-
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
-
-1. Desplácese hacia abajo y expanda **[!UICONTROL Advanced]** en el panel lateral izquierdo.
-
-1. Haga clic en **[!UICONTROL Admin]**.
-
-1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _Seguridad_.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Security]**.
 
 1. Para **[!UICONTROL Admin Session Lifetime (seconds)]**, escriba el número de segundos que una sesión permanecerá activa antes de que se agote el tiempo de espera.
 
