@@ -3,7 +3,7 @@ title: 'Ejemplo de regla de precio del carro de compras: descuento con precio m√
 description: Consulte un ejemplo de uso de una regla de precio del carro de compras para ofrecer un descuento con un precio m√≠nimo del producto.
 exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 2a370dc38b54ee668513bc738b7e8c99f660deae
+source-git-commit: 1a784e894e02090cfa3bc9edc47149b35d935e8e
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -75,5 +75,4 @@ Complete [Paso 4](price-rules-cart.md) de las instrucciones de la regla de preci
 {{new-price-rule}}
 
 1. Una vez completada la regla, haga clic en **[!UICONTROL Save Rule]**.
-
 1. Pruebe la regla para asegurarse de que funciona correctamente.
