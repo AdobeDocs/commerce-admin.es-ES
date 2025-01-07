@@ -3,9 +3,9 @@ title: Transferir una cuenta de Commerce
 description: Aprenda a transferir su cuenta de Commerce a otro propietario o dirección de correo electrónico.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 89637c8f2c4ff725499c27ebe0feb91bf3f9a0ef
+source-git-commit: e436bbe8f4c2ed913489df22fdc3915d37d9185a
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ La forma de completar esta transferencia depende de cuál de las siguientes situ
 | Tipo de transferencia | Propietario actual | Nuevo propietario |
 | ------------- | ------------- | --------- |
 | [Nuevo cambio de Adobe ID y correo electrónico](#new-adobe-id-and-email-change) | Tiene un MAGEID **_no conectado_** con una cuenta de inicio de sesión de Adobe. | No tiene un MAGEID y no está conectado a una cuenta de inicio de sesión de Adobe. |
-| [Cambio de correo electrónico](#email-change) | Tiene un MAGEID **_conectado_** con una cuenta de inicio de sesión de Adobe sin otros productos o servicios de Adobe asociados. | No tiene un MAGEID y no está conectado a una cuenta de inicio de sesión de Adobe. |
-| [conmutador de Adobe ID](#adobe-id-account-switch) | Tiene un MAGEID **_conectado_** con una cuenta de inicio de sesión de Adobe sin otros productos o servicios de Adobe asociados. | Tiene un MAGEID y está conectado a una cuenta de inicio de sesión de Adobe sin ningún otro producto o servicio de Adobe asociado. |
+| [Cambio de correo electrónico](#email-change) | Tiene un MAGEID **_conectado_** con una cuenta de inicio de sesión de Adobe. | No tiene un MAGEID y no está conectado a una cuenta de inicio de sesión de Adobe. |
+| [conmutador de Adobe ID](#adobe-id-account-switch) | Tiene un MAGEID **_conectado_** con una cuenta de inicio de sesión de Adobe. | Tiene un MAGEID y está conectado a una cuenta de inicio de sesión de Adobe sin ningún otro producto o servicio de Adobe asociado. |
 
 {style="table-layout:auto"}
 
