@@ -3,9 +3,9 @@ title: Su cuenta de usuario administrador
 description: Obtenga información acerca de su cuenta de administrador y cómo utilizar la autenticación de doble factor para iniciar sesión en el administrador.
 exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
-source-git-commit: fff3464c9da50927bbe9773a17b0f6858360d788
+source-git-commit: 54fdc97156c602337c983de5fddfafd7c50a67e1
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -157,3 +157,21 @@ El administrador proporciona acceso para administrar las funciones de pedidos, c
 1. Haga clic en **[!UICONTROL Save Config]**.
 
 [1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en_US
+
+## Mantener un acceso seguro al administrador
+
+Para garantizar la seguridad de su administrador, realice auditorías regulares de los usuarios y las funciones con acceso de administrador.
+
+Además, considere [actualizar la configuración de la URL de Admin Base](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url) para cambiar el punto de conexión `/admin` predeterminado a una ruta de acceso personalizada. La configuración de una ruta personalizada ofrece las siguientes ventajas de seguridad:
+
+**Seguridad mejorada**: La ruta de acceso &quot;admin&quot; predeterminada es ampliamente conocida y a menudo está dirigida por agentes malintencionados que intentan realizar ataques por fuerza bruta. Al cambiarlo a un valor único y personalizado, se reduce significativamente el riesgo de intentos de acceso no autorizados.
+
+**Vulnerabilidad reducida**: los bots automatizados suelen buscar rutas comunes como &quot;admin&quot; para aprovechar las vulnerabilidades. Una ruta personalizada dificulta la localización de la página de inicio de sesión del administrador por parte de estos bots, lo que reduce la probabilidad de ataques.
+
+**Privacidad mejorada**: una ruta de acceso de administrador personalizada agrega una capa adicional de oscuridad, lo que dificulta que los atacantes potenciales identifiquen y segmenten su página de inicio de sesión de administrador.
+
+**Cumplimiento de las prácticas recomendadas**: Las siguientes prácticas recomendadas de seguridad, como personalizar la ruta de administración, muestran un enfoque proactivo para proteger el sitio de comercio electrónico y los datos de los clientes.
+
+>[!NOTE]
+>
+>Si se sospecha una infracción, asegúrese de eliminar todos los usuarios administradores desconocidos, restablecer todas las contraseñas de administración y revisar el [plan de acción de seguridad](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security) para ver los pasos siguientes.
