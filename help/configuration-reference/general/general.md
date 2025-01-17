@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Revise la configuración en la página [!UICONTROL General] &gt; [!UICONTROL General] del administrador de Commerce.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 17006d71d73329abcf7c7d34a0b699172d645fa1
+source-git-commit: 54f6c7abf38e4368a843b7cf042ccd9af19239b2
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -108,5 +108,15 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Enable Single-Store Mode] | Global | Cuando se habilita para instalaciones de una sola tienda, oculta el cuadro Ámbito de configuración y las etiquetas de campo relacionadas Opciones: `Yes` / `No` <br/>**_Nota:_**El modo de una sola tienda se omite para tiendas con más de una vista.<br/> Al habilitar el modo de un solo almacén, se copiarán todos los datos específicos del catálogo y del almacén de productos de la vista de almacén predeterminada en todo el ámbito de la vista de almacén. Solo copiará los datos de catálogo y producto si la tienda solo tiene una vista de tienda. Si la tienda tiene una vista de tienda deshabilitada y una vista de tienda habilitada, no se copiarán los datos del catálogo y del producto.<br/> Al habilitar el modo de tienda única se omiten las opciones de configuración específicas de la vista de tienda para los datos específicos del contenido. En su lugar, utiliza ajustes de configuración definidos en el ámbito de nivel global para garantizar la coherencia entre la IU de administración y la tienda. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Data Services]
+
+![General > Servicios de datos](./assets/general-data-services.png)<!-- zoom -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Commerce Events Enabled] | Global | Esta configuración está desactivada de forma predeterminada si es cliente de atención médica y ha instalado la extensión [Data Services HIPAA](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/hipaa-readiness.html#installation). Como resultado, los datos de evento de tienda que usan Live Search y Product Recommendations ya no se capturan. Esto se debe a que los datos de evento de tienda se generan en el lado del cliente. Para seguir capturando y enviando datos de evento de tienda para su uso por los servicios [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) y [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), establezca **Eventos de Commerce habilitados** en `Yes`. |
 
 {style="table-layout:auto"}
