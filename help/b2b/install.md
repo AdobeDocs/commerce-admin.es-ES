@@ -1,12 +1,12 @@
 ---
-title: Instalar la extensión  [!DNL Adobe Commerce B2B]
+title: 'Instalar la extensión  [!DNL Adobe Commerce B2B] '
 description: Aprenda a instalar el  [!DNL Adobe Commerce B2B] metapackage.
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: 97717f367e2709c6b940ef16dec788027704799e
+source-git-commit: df3f01bb8e6dab61523d5cb7e0e430b61f87145b
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ La extensión B2B de Adobe Commerce `magento/extension-b2b` está disponible par
 ## Requisitos
 
 - [Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html), todas las versiones compatibles
-- PHP 8.1 y 8.2
+- PHP 8.1, 8.2 y 8.3 (requiere B2B 1.5.0)
 - [!DNL Composer]
 
 >[!IMPORTANT]
