@@ -3,7 +3,7 @@ title: Instalación y configuración de la integración de Experience Manager As
 description: Obtenga información sobre cómo instalar y configurar  [!DNL AEM Assets Integration for Adobe Commerce]  en una instancia de Adobe Commerce.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 521dd5c333e5753211127567532508156fbda5b4
+source-git-commit: a2b9fc6584b9d8a57f24d87a9b5ebcdc2f29cbae
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 0%
@@ -28,8 +28,10 @@ La integración de AEM Assets para Commerce tiene los siguientes requisitos de s
 
 **Requisitos de configuración**
 
-- Aprovisionamiento de cuentas y permisos
+- Aprovisionamiento de cuentas y permisos:
+
    - [Administrador de proyectos en la nube de Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access): instale las extensiones necesarias y configure el servidor de aplicaciones de Commerce desde el administrador o la línea de comandos
+
    - [Administrador de Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview): actualice la configuración de la tienda y administre las cuentas de usuario de Commerce
 
 >[!TIP]
@@ -42,7 +44,7 @@ Habilite la integración realizando las siguientes tareas:
 
 1. [Instale la extensión de integración de AEM Assets (`aem-assets-integration`)](#install-the-aem-assets-integration-extension).
 1. [Configure Commerce Services Connector](#configure-the-commerce-services-connector) para conectar su instancia de Adobe Commerce y con los servicios que permiten la transmisión de datos entre Adobe Commerce y los AEM Assets.
-1. [Configuración de eventos de Adobe I/O para Commerce](#configure-adobe-io-events-for-commerce)
+1. [Configuración de Adobe I/O Events para Commerce](#configure-adobe-io-events-for-commerce)
 1. [Obtener credenciales de autenticación para el acceso a API](#get-authentication-credentials-for-api-access)
 
 ## Instalación de la extensión de integración de AEM Assets
@@ -157,9 +159,9 @@ Después de configurar Commerce Services Connector, el sistema genera los ID de 
 
 ![Id. de espacio de datos y proyecto SaaS para la integración de AEM Assets](assets/aem-saas-project-config.png){width="600" zoomable="yes"}
 
-## Configuración de eventos de Adobe I/O para Commerce
+## Configuración de Adobe I/O Events para Commerce
 
-La integración de AEM Assets utiliza el servicio Eventos de Adobe I/O para enviar datos de evento personalizados entre la instancia de Commerce y el Experience Cloud. Los datos de evento se utilizan para coordinar los flujos de trabajo de la integración de AEM Assets.
+La integración de AEM Assets utiliza el servicio Adobe I/O Events para enviar datos de evento personalizados entre la instancia de Commerce y el Experience Cloud. Los datos de evento se utilizan para coordinar los flujos de trabajo de la integración de AEM Assets.
 
 >[!BEGINSHADEBOX]
 
@@ -180,13 +182,13 @@ La integración de AEM Assets utiliza el servicio Eventos de Adobe I/O para envi
 
 Habilite el marco de eventos desde el administrador de Commerce.
 
-1. Desde el administrador, vaya a **[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **Eventos de Adobe I/O**.
+1. Desde el administrador, vaya a **[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **Adobe I/O Events**.
 
 1. Expandir **[!UICONTROL Commerce events]**.
 
 1. Establezca **[!UICONTROL Enabled]** en `Yes`.
 
-   ![Configuración de administración de Commerce de eventos de Adobe I/O: habilitar eventos de Commerce](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
+   ![Configuración de administración de Adobe I/O Events Commerce - habilitar eventos de Commerce](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
 
 1. Escriba el nombre de la compañía comerciante en **[!UICONTROL Merchant ID]** y el nombre del entorno en **[!UICONTROL Environment ID]** campos. Utilice únicamente caracteres alfanuméricos y guiones bajos al configurar estos valores.
 
