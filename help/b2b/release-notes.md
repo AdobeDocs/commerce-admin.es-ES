@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] notas de la versión'
 description: Revise las notas de la versión para obtener información acerca de los cambios en  [!DNL Adobe Commerce B2B] versiones.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 0b7200331b9b7aa59636a0ff6fd6b98194054a32
+source-git-commit: e872a121b624d718dd60c128177abb6640f85b58
 workflow-type: tm+mt
-source-wordcount: '7820'
+source-wordcount: '7879'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,7 @@ La versión B2B v1.5.0 incluye nuevas funciones, mejoras de calidad y correccion
 ![Nuevo](../assets/new.svg) <!--B2B-2747--> **Selector de ámbito de compañía**: permite a los usuarios de la compañía asignados a varias compañías cambiar de compañía en la tienda. Cuando se cambia el ámbito, los datos se actualizan para mostrar la información en función del nuevo contexto de la empresa. Por ejemplo, si la nueva empresa utiliza un catálogo compartido diferente, el usuario de la empresa verá productos, precios y otra información basada en el nuevo catálogo compartido. El contenido relacionado con pedidos, presupuestos y plantillas de presupuestos también se actualiza en función del contexto de la empresa seleccionada.
 
 >[!NOTE]
->
->Si el usuario de la empresa cambia de una empresa a otra con artículos en el carro de compras, actualice el carro de compras para reflejar el surtido de productos, los precios y los descuentos promocionales en función del nuevo contexto de la empresa.
+>El contenido del carro de compras refleja los artículos seleccionados por el cliente actual. Si el cliente tiene un carro de compras activo y selecciona una compañía diferente, se le pedirá que actualice el carro de compras para reflejar el surtido de productos, los precios y los descuentos promocionales en función del nuevo contexto de la compañía. Los productos que no están disponibles en el catálogo asociado con la nueva compañía se eliminan del carro de compras. Si el producto tiene un precio o una disponibilidad diferentes, el carro se actualiza para reflejar los datos disponibles en el contexto de la compañía seleccionada.<!--B2B-4222-->
 
 ![Se ha corregido un problema](../assets/fix.svg)<!--ACP2E-1933--> Los administradores de la empresa ahora pueden agregar usuarios de la empresa desde la tienda. Anteriormente, Commerce registraba un error cuando un usuario administrador intentaba agregar un nuevo usuario: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
