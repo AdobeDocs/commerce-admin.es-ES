@@ -3,7 +3,7 @@ title: Instalación y configuración de la integración de Experience Manager As
 description: Obtenga información sobre cómo instalar y configurar  [!DNL AEM Assets Integration for Adobe Commerce]  en una instancia de Adobe Commerce.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: a2b9fc6584b9d8a57f24d87a9b5ebcdc2f29cbae
+source-git-commit: b6f95cd23bbeb5200f31a23d7ff9216b0c21a53c
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 0%
@@ -11,8 +11,6 @@ ht-degree: 0%
 ---
 
 # Instalación y configuración de la integración de AEM Assets para Commerce
-
-{{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
 Prepare su entorno de Commerce para utilizar la integración de AEM Assets para Commerce instalando la extensión PHP `aem-assets-integration`. A continuación, actualice la configuración de Administración para habilitar la comunicación y los flujos de trabajo entre Adobe Commerce y los AEM Assets.
 

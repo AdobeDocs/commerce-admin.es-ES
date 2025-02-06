@@ -3,7 +3,7 @@ title: Configuración de Experience Manager Assets
 description: Añada los metadatos de recursos necesarios para permitir que la integración de AEM Assets para Commerce sincronice recursos entre proyectos de Adobe Commerce y Experience Manager Assets.
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: 8a150c79c2e15ce5bd2cb2037f94c94f90b7a1df
+source-git-commit: 6b0c8054e86ae697025626ad2eb575d633003578
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 0%
@@ -11,8 +11,6 @@ ht-degree: 0%
 ---
 
 # Configuración de Experience Manager Assets
-
-{{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
 Prepare el entorno de AEM as a Cloud Service para administrar los recursos de Commerce. Para ello, actualice la configuración del entorno y configure los metadatos de Assets para identificar y administrar los recursos de Commerce.
 
@@ -36,13 +34,13 @@ Adobe AEM proporciona una plantilla de proyecto de para agregar el área de nomb
 
 Para obtener información adicional sobre el proyecto Commerce-AssetsAEM, consulte [Léame](https://github.com/ankumalh/assets-commerce).
 
-## Personalizar la configuración del entorno de AEM Assets
+## Personalización de la configuración del entorno de AEM Assets
 
 >[!BEGINSHADEBOX]
 
 **Requisitos previos**
 
-- [Acceso al programa AEM Assets Cloud Manager y a los entornos](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo) con los roles de administrador de implementación y programa.
+- [Acceso al Programa Cloud Manager de AEM Assets y a los entornos](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo) con los roles de Administrador de implementación y Programa.
 
 - AEM AEM Un [entorno de desarrollo local](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview) y familiaridad con el proceso de desarrollo local de la comunidad de la comunidad de la comunidad de la que se dispone en la comunidad de la comunidad de.
 
@@ -70,7 +68,7 @@ Establezca los valores predeterminados para los metadatos de recursos de Commerc
 
 1. En Adobe Experience Manager Workspace, vaya al espacio de trabajo de administración de contenido de autor para AEM Assets haciendo clic en el icono Adobe Experience Manager.
 
-   ![Creación de AEM Assets](./assets/aem-assets-authoring.png){width="600" zoomable="yes"}
+   ![AEM Assets creando](./assets/aem-assets-authoring.png){width="600" zoomable="yes"}
 
 1. Abra las Herramientas de administración seleccionando el icono de martillo.
 
