@@ -3,7 +3,7 @@ title: Configuración de la integración de administración de Commerce con ID
 description: Siga este procedimiento opcional para integrar los inicios de sesión de cuenta de usuario de administrador de Adobe Commerce con Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 9a9106cde5184823755fb1f44fe7eae300442abc
+source-git-commit: 446fe9a5c7cc7178f5bbac0045bdea7e93a73699
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -61,8 +61,8 @@ Para crear proyectos para una organización, la cuenta Administrador de Adobe de
 1. Haga clic en **[!UICONTROL Add API]** en la página de proyecto recién creada.
 1. Seleccione **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**.
 1. Seleccione **[!UICONTROL Oauth 2.0 Web]**.
-1. Especifique **[!UICONTROL Redirect URI]**: `https://<hostname>/`
-1. Especifique **[!UICONTROL Redirect URI pattern]**: `https://<hostname>/.*`
+1. Especifique **[!UICONTROL Redirect URI]**: `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
+1. Especifique **[!UICONTROL Redirect URI pattern]**: `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
 
    Evite los puntos del nombre de host anteponiendo `\\` a los puntos. Añadir un comodín al final de la URL admite la clave secreta de administrador de Adobe Commerce.
 
