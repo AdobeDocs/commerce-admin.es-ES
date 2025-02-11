@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] notas de la versión'
 description: Revise las notas de la versión para obtener información acerca de los cambios en  [!DNL Adobe Commerce B2B] versiones.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: e872a121b624d718dd60c128177abb6640f85b58
+source-git-commit: 2d98c6c5de28ea2103e1299aea5cc886d866c6e0
 workflow-type: tm+mt
-source-wordcount: '7879'
+source-wordcount: '8177'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,34 @@ Estas notas de la versión de la extensión B2B recopilan las adiciones y correc
 >
 >Consulte [Disponibilidad del producto](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) para obtener información sobre las versiones de la extensión de Commerce B2B compatibles con las versiones de Adobe Commerce disponibles.
 
+## B2B 1.5.1
+
+*11 de febrero de 2025*
+
+[!BADGE Compatible]{type=Informative tooltip="Admitido"}
+Compatible con las versiones de Adobe Commerce 2.4.8-beta1 a 2.4.8-beta2, 2.4.7 a 2.4.7-p3, 2.4.6 a 2.4.9-p8
+
+La versión B2B v1.5.1 incluye mejoras de calidad y correcciones de errores.
+
+### Compañía
+
+![Problema corregido](../assets/fix.svg)<!-- B2B-4422 --> Si un cliente intenta cambiar de empresa en la página Detalles del presupuesto, el sistema ahora redirige al cliente a una página *Acceso denegado* para garantizar que un presupuesto creado para una empresa no se pueda usar para realizar un pedido con los precios de otra empresa. Anteriormente, un usuario podía crear una cotización con el precio de una compañía y luego cambiar a otra compañía para realizar un pedido con precios diferentes.
+
+### Descuentos de artículo de línea
+
+![Se corrigió un problema](../assets/fix.svg)<!-- B2B-2938 --> Se mejoró la eficiencia del sistema al abordar una degradación del rendimiento observada en el escenario de recálculo de presupuesto. Anteriormente, se agregaban dos nuevas entidades a cada elemento de línea de carro de compras, lo que provocaba un notable aumento en las solicitudes de base de datos, lo que producía un rendimiento más lento.
+
+### Cotización negociable
+
+![Se ha corregido un problema](../assets/fix.svg)<!-- B2B-3820 --> El sistema ahora mantiene la posición de los elementos de la interfaz de usuario cuando se aplica la validación de JavaScript a los campos *[!UICONTROL min/max qty]* de la página Plantilla de presupuesto de tienda de Luma. Anteriormente, la aplicación de la validación de JavaScript a estos campos provocaba que otros elementos de la interfaz de usuario de la página cambiaran.
+
+### Carro de compras
+
+![Se ha solucionado un problema](../assets/fix.svg)<!-- B2B-4222 -->. Se ha introducido un nuevo sistema de administración del carro de compras diseñado para optimizar la experiencia de compra de los usuarios que administran varias cuentas de compañía. El nuevo sistema asocia los carros de compras con empresas individuales, en lugar de con la cuenta del cliente, para optimizar la experiencia de compra y mejorar el flujo de trabajo mediante la compatibilidad con las siguientes capacidades.
+
+- **Carros de compras específicos de la compañía:**: los carros de compras ahora están vinculados a compañías individuales para admitir precios y opciones de productos específicos de la compañía.
+- **Conmutación sin problemas**: los usuarios pueden cambiar fácilmente entre distintas cuentas de compañía sin que el contenido del carro de compras de cada compañía se vea afectado.
+- **Integridad contextual**: todos los detalles del carro de compras permanecen en el contexto de la compañía correspondiente, lo que proporciona una experiencia de compra coherente y confiable.
 
 ## B2B 1.5.0
 
@@ -94,7 +122,7 @@ Las mejoras en las capacidades de cotización ayudan a los compradores y vendedo
 
 ![Problema corregido](../assets/fix.svg) **Correcciones para las capacidades de presupuesto existentes**
 
-- Ahora, los comerciantes que hagan clic en el botón *[!UICONTROL Print]* de la vista de detalles de Oferta del Administrador deberán guardar la oferta como PDF. Anteriormente, se redirigía a los comerciantes a una página que contenía detalles de comillas. <!--ACP2E-1984-->
+- Ahora, los comerciantes que hagan clic en el botón *[!UICONTROL Print]* en la vista de detalles de Oferta del Administrador deberán guardar la oferta como PDF. Anteriormente, se redirigía a los comerciantes a una página que contenía detalles de comillas. <!--ACP2E-1984-->
 
 - Anteriormente, al enviar una oferta de cliente con un porcentaje de `0` y cambiar la cantidad, el administrador emite una excepción, pero guarda la cantidad. Una vez que se aplique esta corrección, se generará una excepción adecuada para `0 percentage` con un mensaje. <!--ACP2E-1742-->
 
@@ -192,7 +220,7 @@ Esta versión incluye nuevas funciones y mejoras para presupuestos negociables B
 
 ![Problema corregido](../assets/fix.svg) Adobe Commerce ahora muestra los detalles correctos durante el pago cuando la opción Pedidos de compra está habilitada y se ha seleccionado una oferta virtual que se creó con la opción de pago PayPal. Anteriormente, los totales se mostraban como cero en estas condiciones.
 
-![Se ha corregido un problema](../assets/fix.svg) <!--ACP2E-1504-->: ya no se producen errores de validación al intentar guardar una empresa con un límite de crédito superior a 999. Anteriormente, para los límites de crédito de empresa superiores a 999, el comercio de Adobe insertaba un separador de comas, lo que provocaba un error de validación que impedía guardar las actualizaciones.
+![Se ha corregido un problema](../assets/fix.svg) <!--ACP2E-1504-->: ya no se producen errores de validación al intentar guardar una empresa con un límite de crédito superior a 999. Anteriormente, para los límites de crédito de empresa superiores a 999, Adobe Commerce insertaba un separador de comas, lo que provocaba un error de validación que impedía guardar las actualizaciones.
 
 ![Problema corregido](../assets/fix.svg) <!--ACP2E-1474--> La dirección de envío seleccionada ahora permanece sin cambios cuando realiza un pedido con un presupuesto negociable. Anteriormente, al realizar un pedido, la dirección de envío seleccionada se cambiaba a la dirección de envío predeterminada.
 
@@ -296,7 +324,7 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 ![Problema corregido](../assets/fix.svg) <!--- ACP2E-406-->Adobe Commerce ahora calcula correctamente un total general de una cotización negociable cuando la configuración de cálculo de impuestos de **[!UICONTROL Enable Cross Border Trade]** está habilitada.
 
-![Se ha corregido un problema](../assets/fix.svg) <!--- ACP2E-322-->Los productos configurables ahora se mueven a la última posición de la lista de productos después de que se hayan actualizado las existencias cuando la configuración de **[!UICONTROL Move out of stock to the bottom]** esté habilitada. Se implementa una nueva consulta de base de datos personalizada para garantizar que el orden de clasificación de índices de Elasticsearch ahora respeta el orden de clasificación habilitado por el administrador. Anteriormente, los productos configurables y sus productos secundarios no se movían al final de la lista cuando esta configuración estaba habilitada.
+![Se ha corregido un problema](../assets/fix.svg) <!--- ACP2E-322-->Los productos configurables ahora se mueven a la última posición de la lista de productos después de que se hayan actualizado las existencias cuando la configuración de **[!UICONTROL Move out of stock to the bottom]** esté habilitada. Se implementa una nueva consulta de base de datos personalizada para garantizar que el criterio de ordenación de índices de Elasticsearch ahora respeta el criterio de ordenación habilitado por el administrador. Anteriormente, los productos configurables y sus productos secundarios no se movían al final de la lista cuando esta configuración estaba habilitada.
 
 ![Se ha corregido un problema](../assets/fix.svg) <!--- ACP2E-308-->El correo electrónico de la orden de compra ahora respeta la configuración de envío de correo electrónico de cada sitio web en una implementación de varios sitios. Se agregó una comprobación para la configuración **[!UICONTROL Disable Email Communications]** a la lógica personalizada para colas de correo electrónico. Anteriormente, Adobe Commerce no respetaba la configuración de envío de correo electrónico del sitio web secundario.
 
@@ -328,7 +356,7 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 ![Se ha corregido un problema](../assets/fix.svg) <!--- MC-41985--> El tiempo necesario para actualizar de Adobe Commerce 2.3.x a Adobe Commerce 2.4.x en implementaciones con más de 100 000 roles de compañía se ha reducido sustancialmente.
 
-![Problema corregido](../assets/fix.svg) <!--- MC-42153--> La solicitud del POST `V1/order/:orderId/invoice` ahora admite la creación de facturas parciales cuando el método de pago **[!UICONTROL Payment on Account]** está habilitado. Anteriormente, Adobe Commerce arrojó este error: `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`. [GitHub-32428](https://github.com/magento/magento2/issues/32428)
+![Problema corregido](../assets/fix.svg) <!--- MC-42153--> La solicitud POST `V1/order/:orderId/invoice` ahora admite la creación de facturas parciales cuando el método de pago **[!UICONTROL Payment on Account]** está habilitado. Anteriormente, Adobe Commerce arrojó este error: `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`. [GitHub-32428](https://github.com/magento/magento2/issues/32428)
 
 ![Problema corregido](../assets/fix.svg) <!--- MC-41975--> PayPal Payflow Pro ahora funciona como se espera con un presupuesto negociable B2B cuando el carro de compras del cliente contiene otros productos. Adobe Commerce ahora procesa correctamente el pedido y envía un correo electrónico al cliente según lo esperado. Anteriormente, Adobe Commerce arrojaba un error grave y enviaba un correo electrónico de confirmación al cliente que contenía valores cero.
 
@@ -438,7 +466,7 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 ### Listas de solicitudes
 
-![Problema corregido](../assets/fix.svg) <!--- MC-40426--> Los comerciantes ahora pueden usar el extremo del POST `rest/all/V1/requisition_lists` para crear una lista de solicitudes para un cliente. Anteriormente, Adobe Commerce arrojaba este error 400 al intentar crear una lista de solicitudes: `Could not save Requisition List`.
+![Problema corregido](../assets/fix.svg) <!--- MC-40426--> Los comerciantes ahora pueden usar el extremo POST `rest/all/V1/requisition_lists` para crear una lista de solicitudes para un cliente. Anteriormente, Adobe Commerce arrojaba este error 400 al intentar crear una lista de solicitudes: `Could not save Requisition List`.
 
 ![Problema corregido](../assets/fix.svg) <!--- MC-41123--> El botón **[!UICONTROL Add to Requisition List]** aparece ahora para los productos en stock de un carro de compras cuando el carro también contiene productos sin existencias. Anteriormente, si un carro de compras contenía dos productos, uno de los cuales estaba agotado, el botón _[!UICONTROL Add to Requisition List]_no aparecía en ninguno de los productos.
 
@@ -458,7 +486,7 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 ![Problema corregido](../assets/fix.svg) <!--- MC-41337--> Los resultados de navegación por capas ahora incluyen un recuento preciso de productos con atributos filtrados, y los compradores ahora pueden aplicar varios filtros. Anteriormente, solo se podía aplicar un filtro y Adobe Commerce mostraba un recuento de productos impreciso en la navegación por capas.
 
-![Se ha corregido un problema](../assets/fix.svg) <!--- MC-40779-->: Adobe Commerce ahora muestra correctamente los recuentos de productos en los filtros de navegación por capas en los resultados de búsqueda. Anteriormente, un complemento para la página de resultados de búsqueda no utilizaba el Elasticsearch, sino que enviaba una nueva consulta a la base de datos.
+![Se ha corregido un problema](../assets/fix.svg) <!--- MC-40779-->: Adobe Commerce ahora muestra correctamente los recuentos de productos en los filtros de navegación por capas en los resultados de búsqueda. Anteriormente, un complemento para la página de resultados de búsqueda no utilizaba Elasticsearch, pero sí enviaba una nueva consulta a la base de datos.
 
 ![Problema corregido](../assets/fix.svg) <!--- MC-39978--> Adobe Commerce ya no elimina los precios de nivel cuando un comerciante elimina todos los productos de un catálogo compartido predeterminado.
 
@@ -582,7 +610,7 @@ Esta versión incluye mejoras en las aprobaciones de pedidos, los métodos de en
 
 ![Problema corregido](../assets/fix.svg): la pestaña de configuración de características B2B ahora se abre correctamente. <!--- MC-35458-->Los invitados ahora pueden usar QuickOrder para agregar productos al carro de compras y, a continuación, quitar artículos correctamente. Anteriormente, cuando un comprador utilizaba QuickOrder para agregar varios productos al carro de compras y, a continuación, eliminaba un producto, el producto no se eliminaba. <!--- MC-35327-->
 
-![Se ha corregido un problema](../assets/fix.svg) Ahora se puede actualizar una compañía mediante la solicitud de PUT de API de REST `/V1/company/:companyId` sin especificar `region_id` cuando el estado se configura como **no obligatorio**. Anteriormente, aunque `region_id` no era obligatorio, Adobe Commerce arrojaba un error si no se especificaba. <!--- MC-35304-->
+![Se ha corregido un problema](../assets/fix.svg) Ahora se puede actualizar una compañía mediante la solicitud de PUT `/V1/company/:companyId` de la API de REST sin especificar `region_id` cuando el estado se configura como **no obligatorio**. Anteriormente, aunque `region_id` no era obligatorio, Adobe Commerce arrojaba un error si no se especificaba. <!--- MC-35304-->
 
 ![Se ha corregido un problema](../assets/fix.svg) Cuando crea o actualiza una compañía B2B mediante la API de REST (`http://magento.local/rest/V1/company/2`, donde `2` representa el identificador de la compañía), la respuesta ahora incluye la configuración de `applicable_payment_method` o `available_payment_methods` según lo esperado. <!--- MC-35248-->
 
@@ -590,7 +618,7 @@ Esta versión incluye mejoras en las aprobaciones de pedidos, los métodos de en
 
 ![Se ha corregido un problema](../assets/fix.svg) Los permisos de categoría ya no cambian cuando se asigna un nuevo producto a un catálogo compartido público. Anteriormente, los permisos de categoría estaban duplicados. <!--- MC-34386-->
 
-![Se ha corregido un problema](../assets/fix.svg) El PUT de extremo de API de REST `rest/default/V1/company/{id}`, que se usa para actualizar el correo electrónico de la compañía, ya no distingue entre mayúsculas y minúsculas. <!--- MC-34308-->
+![Se ha corregido un problema](../assets/fix.svg) El extremo de la API de REST PUT `rest/default/V1/company/{id}`, que se usa para actualizar el correo electrónico de la compañía, ya no distingue entre mayúsculas y minúsculas. <!--- MC-34308-->
 
 ![Se ha solucionado un problema](../assets/fix.svg). La desactivación de los módulos de recompensa ya no afecta a las funciones B2B de las cuentas de los clientes. Anteriormente, cuando se deshabilitaban los módulos de recompensa, no se mostraban las siguientes fichas relacionadas con B2B: Perfil de compañía, Usuarios de compañía y Roles y permisos.<!--- MC-34191-->
 
@@ -632,7 +660,7 @@ Se mejoraron y se volvieron a escribir ![nuevos](../assets/new.svg) pedidos de c
 
 ![Nuevo](../assets/new.svg) Iniciar sesión como cliente ahora se incluye de forma predeterminada en Adobe Commerce. Esta función permite a los empleados del sitio ayudar a los clientes iniciando sesión como clientes para ver lo que ven.
 
-![Se ha corregido un problema](../assets/fix.svg). Las agregaciones de atributos ahora funcionan correctamente para la navegación por capas con el Elasticsearch
+![Se ha corregido un problema](../assets/fix.svg). Las agregaciones de atributos ahora funcionan correctamente para la navegación por capas con Elasticsearch
 
 ![Se ha solucionado un problema](../assets/fix.svg). La búsqueda de pedidos por caracteres especiales ya funciona correctamente.
 
