@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] notas de la versión'
 description: Revise las notas de la versión para obtener información acerca de los cambios en  [!DNL Adobe Commerce B2B] versiones.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 2d98c6c5de28ea2103e1299aea5cc886d866c6e0
+source-git-commit: f91d3b669fcb6112510b9845535c4373a05ce8fe
 workflow-type: tm+mt
-source-wordcount: '8177'
+source-wordcount: '8313'
 ht-degree: 0%
 
 ---
@@ -134,6 +134,21 @@ Las mejoras en las capacidades de cotización ayudan a los compradores y vendedo
 
 ![Problema corregido](../assets/fix.svg) <!--ACP2E-1825-->Un usuario asociado a la compañía ya no puede realizar pedidos de compra una vez que la compañía ha sido bloqueada. Anteriormente, un usuario asociado a la compañía podía realizar pedidos de compra cuando se bloqueaba la compañía.
 
+## B2B v1.4.2-p4
+
+*11 de febrero de 2025*
+
+[!BADGE Compatible]{type=Informative tooltip="Admitido"}
+
+![Se ha agregado compatibilidad con las versiones de parches de seguridad de Adobe Commerce 2.4.7-p4+ y 2.4.6-p9+.](../assets/new.svg)
+
+![Problema corregido](../assets/fix.svg) Incluye las correcciones de seguridad documentadas en [Boletín de seguridad APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B versión 1.4.2+ es compatible con PHP 8.2. Si actualiza la instancia de Commerce a la versión 2.4.7 o posterior, asegúrese de que la instancia utiliza la versión 8.2 de PHP para mantener la compatibilidad con la versión B2B de Adobe Commerce. Además, la versión B2B 1.4.2 o posterior no es compatible con [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+
+
 ## B2B v1.4.2-p3
 
 *8 de octubre de 2024*
@@ -248,6 +263,16 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 Para solucionar este problema, agregue dependencias manuales para el paquete de seguridad B2B. Agregue dependencias manuales para el paquete de seguridad B2B con una [etiqueta de estabilidad](https://getcomposer.org/doc/04-schema.md#package-links). Para obtener instrucciones, consulte la [Base de conocimiento de Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html).
 
+## B2B v1.3.5-p9
+
+*11 de febrero de 2025*
+
+[!BADGE Compatible]{type=Informative tooltip="Admitido"}
+
+![Nuevo](../assets/new.svg) Se agregó compatibilidad con las versiones de parches de seguridad de Adobe Commerce 2.4.6-p9.
+
+![Problema corregido](../assets/fix.svg) Incluye las correcciones de seguridad documentadas en [Boletín de seguridad APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
+
 ## B2B v1.3.5-p8
 
 *8 de octubre de 2024*
@@ -301,6 +326,16 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 ![Se ha corregido un problema](../assets/fix.svg) <!--- ACP2E-2456--> Las consultas de categoría ahora devuelven precios de producto según la configuración de la tienda cuando no hay permisos de categoría establecidos explícitamente en la categoría que se está consultando.
 
 ![Problema corregido](../assets/fix.svg) <!--- ACP2E-6829--> El botón **[!UICONTROL Place Order]** ahora funciona como se espera al completar una compra con una solicitud de presupuesto aprobada. Se han resuelto los problemas con el complemento de presupuesto negociable `negotiableQuoteCheckoutSessionPlugin`.
+
+## B2B v1.3.4-p11
+
+*11 de febrero de 2025*
+
+[!BADGE Compatible]{type=Informative tooltip="Admitido"}
+
+![Nuevo](../assets/new.svg) agregó compatibilidad con Adobe Commerce 2.4.5-p11.
+
+![Problema corregido](../assets/fix.svg) Incluye las correcciones de seguridad documentadas en [Boletín de seguridad APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
 
 ## B2B v1.3.4-p10
 
