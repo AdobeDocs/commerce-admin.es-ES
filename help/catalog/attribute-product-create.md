@@ -3,9 +3,9 @@ title: Crear y eliminar atributos de producto
 description: Obtenga información sobre cómo crear y eliminar atributos de producto, que se utilizan para describir características específicas de los productos en su catálogo.
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3768fc8896dd353e5cc29b4fe82862d6653d6348
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Puede crear atributos mientras trabaja en un producto o desde la página _[!UICO
    | Propiedad | Descripción |
    |--- |--- |
    | `Text Field` | Campo de entrada de una sola línea para texto. |
-   | `Text Area` | Campo de entrada de varias líneas para introducir párrafos de texto, como una descripción del producto. Puede utilizar el Editor WYSIWYG para dar formato al texto con etiquetas de HTML o introducirlas directamente en el texto. |
+   | `Text Area` | Campo de entrada de varias líneas para introducir párrafos de texto, como una descripción del producto. Puede utilizar el Editor de WYSIWYG para dar formato al texto con etiquetas de HTML o introducir las etiquetas directamente en el texto. |
    | `Text Editor` | Un editor de texto que funcione completamente en la ubicación del atributo. |
    | Fecha | Muestra un valor de fecha en el [formato preferido](attributes-input-types.md#date-and-time-options) y en la [zona horaria](../getting-started/store-details.md#locale-options). Los valores de fecha se pueden seleccionar de una lista o un calendario ( ![Icono de calendario](../assets/icon-calendar.png)). <br/><br/>**_Nota:_**Según la configuración del sistema, los usuarios de_Admin _pueden introducir fechas directamente en un campo o seleccionar una fecha del calendario o lista. Para obtener información acerca de cómo especificar valores de fecha y hora, vea [Opciones de fecha y hora](attributes-input-types.md#date-and-time-options). |
    | `Yes/No` | Muestra una lista desplegable con opciones predefinidas de `Yes` y `No`. |
@@ -63,6 +63,10 @@ Puede crear atributos mientras trabaja en un producto o desde la página _[!UICO
 ## Paso 2: Describa las propiedades avanzadas (si es necesario)
 
 1. Escriba un **[!UICONTROL Attribute Code]** único en caracteres en minúsculas y sin espacios.
+
+   >[!NOTE]
+   >
+   >No se recomienda usar el valor `type` en el campo [!UICONTROL Attribute Code]. Esto puede causar errores porque el valor `type` está reservado para el uso del sistema.
 
    ![Atributo del producto - propiedades avanzadas](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
@@ -126,9 +130,9 @@ Puede crear atributos mientras trabaja en un producto o desde la página _[!UICO
 
 1. Para usar el atributo en las reglas de precios, establezca **[!UICONTROL Use for Promo Rule Conditions]** en `Yes`.
 
-1. Para permitir que se aplique formato al texto con el HTML, establezca **[!UICONTROL Allow HTML Tags on Frontend]** en `Yes`.
+1. Para permitir que se dé formato al texto con HTML, establezca **[!UICONTROL Allow HTML Tags on Frontend]** en `Yes`.
 
-   Esta configuración hace que el editor WYSIWYG esté disponible para el campo.
+   Esta configuración hace que el editor de WYSIWYG esté disponible para el campo.
 
 1. Para incluir el atributo en la página de productos, establezca **[!UICONTROL Visible on Catalog Pages on Storefront]** en `Yes`.
 
