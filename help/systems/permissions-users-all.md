@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo crear cuentas de usuario de admini
 exl-id: 65cca7a8-3d44-4c8c-a758-c0de03d53e11
 role: Admin
 feature: Admin Workspace, Roles/Permissions, User Account, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: ad75c77ada34c4d66b1a58a666edadd44d054e17
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Cuando se instala la tienda por primera vez, se crea una cuenta de administrador predeterminada con credenciales de inicio de sesión que le proporciona acceso administrativo completo. Se recomienda crear otra cuenta de usuario con acceso completo de administrador. De este modo, puede utilizar una cuenta para sus actividades administrativas diarias y reservar la otra como una cuenta de &quot;superadministrador&quot;. Esto puede resultar útil si olvida sus credenciales normales o si, de alguna manera, se vuelven inutilizables.
 
-Si hay otros miembros de su equipo o proveedores de servicios que necesitan acceso, puede crear una cuenta de usuario independiente para cada uno y asignar un acceso restringido según lo que necesiten saber sus empresas. Para limitar los sitios web o tiendas a los que los usuarios pueden acceder en el Admin, primero debe [crear un rol](permissions-user-roles.md) con ámbito limitado y solo los recursos necesarios seleccionados. A continuación, puede asignar la función a una cuenta de usuario específica. Los usuarios administradores asignados a una función restringida solo pueden ver y cambiar los datos de los sitios web o tiendas asociados a la función, pero no pueden cambiar la configuración global ni los datos.
+Si otros integrantes del equipo o proveedores de servicios necesitan acceso, puede crear cuentas de usuario individuales para ellos y asignar acceso restringido según sus necesidades comerciales específicas. Para limitar los sitios web o tiendas a los que los usuarios pueden acceder en el Admin, primero debe [crear un rol](permissions-user-roles.md) con ámbito limitado y solo los recursos necesarios seleccionados. A continuación, puede asignar la función a una cuenta de usuario específica. Los usuarios administradores asignados a una función restringida solo pueden ver y cambiar los datos de los sitios web o tiendas asociados a la función, pero no pueden cambiar la configuración global ni los datos.
 
 >[!NOTE]
 >
->Los comerciantes de Adobe Commerce que tengan un Adobe ID y deseen un inicio de sesión optimizado en los productos de Adobe Commerce y Adobe Business pueden integrar la autenticación de Commerce con el flujo de trabajo de autenticación IMS de Adobe. Una vez habilitada esta integración en la tienda de Commerce, los usuarios administradores deben usar sus credenciales de Adobe (no las de Commerce) para iniciar sesión. Consulte [Resumen de integración del servicio Identity Management de Adobe (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
+>Los comerciantes de Adobe Commerce que tengan un Adobe ID y deseen un inicio de sesión optimizado en los productos de Adobe Commerce y Adobe Business pueden integrar la autenticación de Commerce con el flujo de trabajo de autenticación IMS de Adobe. Una vez habilitada esta integración en la tienda Commerce, los usuarios administradores deben usar sus credenciales de Adobe, no sus credenciales de Commerce, para iniciar sesión. Consulte [Información general sobre la integración de Adobe Identity Management Service (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
 
 Para los usuarios o roles temporales, también puede establecer una fecha de caducidad para la cuenta de usuario.
 
