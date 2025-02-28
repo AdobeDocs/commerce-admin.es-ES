@@ -3,9 +3,9 @@ title: Uso de AEM Assets
 description: Administre sus recursos multimedia de la tienda con los AEM Assets.
 feature: CMS, Media
 exl-id: 55144019-8ba2-4392-b5dd-216e2ee9daf2
-source-git-commit: 304669de832224bc6a0c97fc9ab1f72e29cad4cd
+source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Para obtener más información, consulte la siguiente documentación de AEM Asse
 
 - [Aprobar un recurso](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
 
-## Administrar categorías
+## Añadir recursos al contenido de las categorías
 
 Puede añadir recursos al contenido de las categorías del catálogo una vez que haya activado y configurado la integración de AEM Assets:
 

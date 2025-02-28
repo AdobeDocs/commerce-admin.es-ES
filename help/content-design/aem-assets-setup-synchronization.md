@@ -3,20 +3,20 @@ title: Habilitar sincronización de recursos
 description: Obtenga información sobre cómo conectar los proyectos de Adobe Commerce y Experience Manager Assets para habilitar la sincronización de recursos entre estos dos sistemas.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: e9b3ede8945de0a6ed0cdb02e5675d736764d3e4
+source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
 
 # Habilitar sincronización de recursos
 
-AEM Durante el proceso de habilitación, registre el ID de inquilino para el proyecto mediante el ID de programa y entorno para el entorno de creación de. Estos ID identifican el proyecto de AEM Assets al que se está conectando y proporcionan las credenciales para habilitar la comunicación entre Commerce y los entornos de AEM Assets.
+Habilite la sincronización de recursos actualizando la configuración del entorno de Commerce para conectar Commerce a la instancia de AEM Assets. La integración permite la sincronización de recursos entre Commerce y los AEM Assets, lo que garantiza que las imágenes de los productos y otros recursos estén siempre actualizados.
 
-AEM Después de identificar el proyecto de recursos de la, seleccione la regla coincidente para sincronizar los recursos entre Adobe Commerce y los AEM Assets.
+Después de identificar el proyecto de recursos de AEM, seleccione la regla de coincidencia para sincronizar los recursos entre Adobe Commerce y los AEM Assets.
 
-- **[!UICONTROL Match by product SKU]**: regla predeterminada que coincide con el SKU de los metadatos del recurso con el [SKU del producto de Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-playbook/glossary#sku) para garantizar que los recursos estén asociados con los productos correctos.
+- **[!UICONTROL Match by product SKU]**: regla predeterminada que coincide con el SKU de los metadatos del recurso con el [SKU del producto de Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#sku) para garantizar que los recursos estén asociados con los productos correctos.
 
 - **[!UICONTROL Custom match]**: regla de coincidencia para escenarios más complejos o requisitos empresariales específicos que requieren una lógica de coincidencia personalizada. La implementación de la coincidencia personalizada requiere el desarrollo de código personalizado en Adobe Developer App Builder para definir cómo se comparan los recursos con los productos. Próximamente más detalles...
 
@@ -24,15 +24,15 @@ Para la incorporación inicial, usa la regla predeterminada *Coincidir con el SK
 
 ## Requisitos previos
 
-- [AEM Configuración de Experience Manager Assets para administrar recursos de Commerce](#aem-assets-configure-aem)
+- [Configuración de AEM Assets para administrar recursos de Commerce](aem-assets-configure-aem.md)
 
-- [Instale y configure la integración de AEM Assets para Commerce](#aem-assets-configure-commerce.md) a fin de agregar la extensión y generar las credenciales y conexiones necesarias para usar la extensión.
+- [Instale y configure la integración de AEM Assets para Commerce](aem-assets-configure-commerce.md) a fin de agregar la extensión y generar las credenciales y conexiones necesarias para usar la extensión.
 
-- Cree un ticket de asistencia para solicitar la habilitación de la integración de AEM Assets. Debe proporcionar **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** y **[!UICONTROL IMS Org ID]**.
+- Cree un ticket de asistencia para solicitar la habilitación de la integración de AEM Assets. Debe proporcionar **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** y **[!UICONTROL IMS Org ID]** para el entorno de creación de AEM Assets que desea conectar a Commerce.
 
   >[!TIP]
   >
-  > (Opcional) Proporcione **[!UICONTROL Asset Selector IMS Client ID]** si está disponible.
+  > (Opcional) Proporcione **[!UICONTROL Asset Selector IMS Client ID]** si está disponible. Consulte [ImsAuthProps](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app) en la documentación de *Selector de AEM Assets*.
 
 ## Configuración de la conexión
 
@@ -40,8 +40,7 @@ Para la incorporación inicial, usa la regla predeterminada *Coincidir con el SK
 
    1. Abra la consola AEM Sites y seleccione **[!UICONTROL Assets]**.
 
-   1. Copie y guarde los identificadores de proyecto y entorno desde la dirección URL: <br>`https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/`|
-
+   1. Copie y guarde los identificadores de proyecto y entorno desde la dirección URL:<br>`https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/`
 1. En el Administrador de Commerce, abra la configuración Integración de AEM Assets.
 
    1. Vaya a **[!UICONTROL Store]** > Configuración > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**.
@@ -50,24 +49,28 @@ Para la incorporación inicial, usa la regla predeterminada *Coincidir con el SK
 
 1. Introduzca el entorno de AEM Assets **[!UICONTROL Program ID]** y **[!UICONTROL Environment ID]**.
 
-1. Escriba **[!UICONTROL Asset Selector IMS Client ID]** si está disponible.
+   Edite los valores de configuración eliminando la selección de *[!UICONTROL Use system value]*.
 
-   [[!UICONTROL Assets Selector]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector) requiere el [ID de IMS](../getting-started/adobe-ims-config.md), que selecciona imágenes para categorías o [!DNL Page Builder].
+1. Escriba **[!UICONTROL Asset Selector IMS Client ID]**, si está disponible.
+
+   [Asset Selector IMS Client ID](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app#ims-auth-props) es requerido por [!UICONTROL Assets Selector], una característica de AEM Assets que permite a los usuarios incrustar recursos visuales directamente en páginas de productos de Commerce.
 
 1. Seleccione [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment) para autenticar solicitudes entre Commerce y el servicio de coincidencia de recursos.
 
-1. Permitir que Commerce acepte actualizaciones entrantes de AEM Assets estableciendo **[!UICONTROL Integration enabled]** en `Yes`.
+1. Establezca **[!UICONTROL Integration enabled]** en `Yes` para permitir que Commerce acepte actualizaciones entrantes de los AEM Assets.
 
-   Después de activar la integración, configure la regla de coincidencia de recursos.
-
-   ![Integración de AEM Assets selecciona la regla de coincidencia de recursos](assets/aem-assets-config-matching-rule.png){width="600" zoomable="yes"}
+   Después de habilitar la integración, hay opciones de configuración adicionales disponibles para especificar criterios coincidentes de recursos.
 
 1. Defina la regla de coincidencia para la sincronización de recursos.
 
-   1. Seleccione **[!UICONTROL Match by product SKU]**.
+   1. Seleccione **[!UICONTROL Match by product SKU]** o **[!UICONTROL Custom match (Requires App Builder)]**.
 
    1. Agregue el nombre de campo de metadatos [AEM Assets](aem-assets-configure-aem.md#configure-metadata) definido para las SKU de productos Commerce en el campo **[!UICONTROL Match by product SKU attribute name]**, `commerce:skus` por ejemplo.
 
-   ![Integración de AEM Assets selecciona la regla de coincidencia de recursos](assets/aem-assets-config-matching-rule.png){width="600" zoomable="yes"}
+1. Seleccione **[!UICONTROL Save Config]** para aplicar actualizaciones e iniciar la sincronización de recursos.
 
-1. Seleccione **[!UICONTROL Save Config]** para aplicar actualizaciones e iniciar la sincronización de recursos
+   La actualización de configuración crea un déclencheur con el proceso de sincronización inicial, lo que permite a Commerce aceptar las actualizaciones entrantes de los AEM Assets. El tiempo necesario para la sincronización depende del volumen de recursos y de las configuraciones específicas. La integración aprovecha los procesos automatizados para minimizar el tiempo necesario para la sincronización.
+
+## Siguiente paso
+
+[Uso de AEM Assets con Commerce](aem-assets-manage.md)
