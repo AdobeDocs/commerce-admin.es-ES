@@ -1,22 +1,24 @@
 ---
-title: Instalación y configuración de la integración de Experience Manager Assets
-description: Obtenga información sobre cómo instalar y configurar  [!DNL AEM Assets Integration for Adobe Commerce]  en una instancia de Adobe Commerce.
+title: Instalación de paquetes de Adobe Commerce
+description: Obtenga información sobre cómo instalar la extensión  [!DNL AEM Assets Integration for Adobe Commerce] y en una instancia de Adobe Commerce.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: bdfff57ed5bbf2ae460c382d9cfbaef0ebcaa2e8
+source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1463'
 ht-degree: 0%
 
 ---
 
-# Instalación y configuración de la integración de AEM Assets para Commerce
+# Instalación de paquetes de Adobe Commerce
 
-Prepare su entorno de Commerce para utilizar la integración de AEM Assets para Commerce instalando la extensión PHP `aem-assets-integration`. A continuación, actualice la configuración de Administración para habilitar la comunicación y los flujos de trabajo entre Adobe Commerce y los AEM Assets.
+La extensión AEM Assets Integration for Commerce (`aem-assets-integration`) habilita la sincronización de recursos entre Adobe Commerce y Adobe Experience Manager Assets. La extensión proporciona un conjunto de herramientas y servicios para administrar recursos, incluidas imágenes de productos, vídeos y otros recursos de medios, en ambas plataformas.
+
+Agregue esta extensión al entorno de Commerce instalando la extensión PHP `aem-assets-integration`. También debe habilitar Adobe I/O Events para Commerce y generar las credenciales necesarias para la comunicación y los flujos de trabajo entre Adobe Commerce y Adobe Experience Manager Assets.
 
 ## Requisitos del sistema
 
-La integración de AEM Assets para Commerce tiene los siguientes requisitos de sistema y configuración.
+La extensión de integración de AEM Assets para Commerce tiene los siguientes requisitos de sistema y configuración.
 
 **Requisitos de software**
 
@@ -24,38 +26,32 @@ La integración de AEM Assets para Commerce tiene los siguientes requisitos de s
 - PHP 8.1, 8.2, 8.3
 - Compositor: 2.x
 
-**Requisitos de configuración**
+**Requisitos de acceso**
 
-- Aprovisionamiento de cuentas y permisos:
+Necesita las siguientes funciones y permisos para configurar la integración.
 
-   - [Administrador de proyectos en la nube de Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access): instale las extensiones necesarias y configure el servidor de aplicaciones de Commerce desde el administrador o la línea de comandos
+- [Administrador de proyectos en la nube de Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access): instale las extensiones necesarias y configure el servidor de aplicaciones de Commerce desde el administrador o la línea de comandos.
 
-   - [Administrador de Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview): actualice la configuración de la tienda y administre las cuentas de usuario de Commerce
+   - Acceda a [repo.magento.com](https://repo.magento.com/admin/dashboard) para instalar la extensión.
+
+     Para obtener la generación de claves y los derechos necesarios, consulta [Obtener tus claves de autenticación](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Para instalaciones en la nube, consulte la [Guía de Commerce en infraestructura en la nube](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
+
+- [Administrador de Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview): actualice la configuración de la tienda y administre las cuentas de usuario de Commerce.
 
 >[!TIP]
 >
 > Adobe Commerce se puede configurar para usar [autenticación IMS de Adobe](/help/getting-started/adobe-ims-config.md).
 
-## Flujo de trabajo de configuración
+## Flujo de trabajo de instalación y configuración
 
-Habilite la integración realizando las siguientes tareas:
+Instale el paquete de Adobe Commerce y prepare el entorno de Commerce realizando las siguientes tareas:
 
-1. [Instale la extensión de integración de AEM Assets (`aem-assets-integration`)](#install-the-aem-assets-integration-extension).
+1. [Instale la integración de AEM Assets para la extensión de Commerce (`aem-assets-integration`)](#install-the-aem-assets-integration-extension).
 1. [Configure Commerce Services Connector](#configure-the-commerce-services-connector) para conectar su instancia de Adobe Commerce y con los servicios que permiten la transmisión de datos entre Adobe Commerce y los AEM Assets.
 1. [Configuración de Adobe I/O Events para Commerce](#configure-adobe-io-events-for-commerce)
 1. [Obtener credenciales de autenticación para el acceso a API](#get-authentication-credentials-for-api-access)
 
 ## Instalar la extensión `aem-assets-integration`
-
-La instalación de la extensión de requiere los siguientes permisos:
-
-- Acceda a [repo.magento.com](https://repo.magento.com/admin/dashboard) para instalar la extensión.
-
-  Para obtener la generación de claves y los derechos necesarios, consulta [Obtener tus claves de autenticación](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Para instalaciones en la nube, consulte la [Guía de Commerce en infraestructura en la nube](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
-
-- Acceso a la línea de comandos del servidor de aplicaciones de Adobe Commerce.
-
-### Añada la extensión al entorno de Commerce.
 
 Instale la última versión de la extensión de integración de AEM Assets (`aem-assets-integration`) en una instancia de Adobe Commerce con versión Adobe Commerce 2.4.5+. La integración de recursos de AEM se entrega como un metapaquete de composición desde el repositorio [repo.magento.com](https://repo.magento.com/admin/dashboard).
 
@@ -159,7 +155,7 @@ Al guardar la configuración, el sistema genera los ID de proyecto SaaS y de bas
 
 La integración de AEM Assets utiliza el servicio Adobe I/O Events para enviar datos de evento personalizados entre la instancia de Commerce y Experience Cloud. Los datos de evento se utilizan para coordinar los flujos de trabajo de la integración de AEM Assets.
 
-Antes de configurar eventos de Adobe I/O, compruebe la configuración del trabajo de RabbitMQ y cron para su proyecto de Commerce:
+Antes de configurar Adobe I/O Events, compruebe la configuración del trabajo de RabbitMQ y cron para su proyecto de Commerce:
 
 - Asegúrese de que RabbitMQ esté habilitado y atento a los eventos.
    - [Configuración de RabbitMQ para Adobe Commerce local](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
@@ -175,6 +171,10 @@ Antes de configurar eventos de Adobe I/O, compruebe la configuración del trabaj
 
 Habilite el marco de eventos desde el administrador de Commerce.
 
+>[!NOTE]
+>
+>La configuración de App Builder solo es necesaria si planea utilizar una estrategia de coincidencia personalizada para sincronizar recursos entre Commerce y los AEM Assets.
+
 1. Desde el administrador, vaya a **[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **Adobe I/O Events**.
 
 1. Expandir **[!UICONTROL Commerce events]**.
@@ -183,7 +183,7 @@ Habilite el marco de eventos desde el administrador de Commerce.
 
    ![Configuración de administración de Adobe I/O Events Commerce - habilitar eventos de Commerce](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
 
-1. Escriba el nombre de la compañía comerciante en **[!UICONTROL Merchant ID]** y el nombre del entorno en **[!UICONTROL Environment ID]** campos. Utilice únicamente caracteres alfanuméricos y guiones bajos al configurar estos valores.
+1. Escriba el nombre de la compañía comerciante en **[!UICONTROL Merchant ID]** y el nombre de entorno en los campos **[!UICONTROL Environment ID]**. Utilice únicamente caracteres alfanuméricos y guiones bajos al configurar estos valores.
 
 >[!BEGINSHADEBOX]
 
@@ -209,11 +209,11 @@ El siguiente código de fragmento de VCL personalizado (formato JSON) muestra un
 
 Antes de crear un fragmento basado en este ejemplo, revise los valores para determinar si necesita realizar algún cambio:
 
-- `name`: nombre del fragmento de VCL. Para este ejemplo, se usó el nombre `blockbyuseragent`.
+- `name`: nombre del fragmento de VCL. Este ejemplo usa el nombre `blockbyuseragent`.
 
-- `dynamic`: establece la versión del fragmento. Para este ejemplo, usamos `0`. Consulte los [fragmentos de VCL de Fastly](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/) para obtener información detallada del modelo de datos.
+- `dynamic`: establece la versión del fragmento. Este ejemplo utiliza `0`. Consulte los [fragmentos de VCL de Fastly](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/) para obtener información detallada del modelo de datos.
 
-- `type`: especifica el tipo de fragmento de VCL, que determina la ubicación del fragmento en el código de VCL generado. En este ejemplo, utilizamos `recv`, vea la [referencia de fragmento VCL de Fastly](https://docs.fastly.com/api/config#api-section-snippet) para la lista de tipos de fragmento.
+- `type`: especifica el tipo de fragmento de VCL, que determina la ubicación del fragmento en el código de VCL generado. Este ejemplo utiliza `recv`. Consulte [Fastly VCL snippet reference](https://www.fastly.com/documentation/reference/api/#api-section-snippet) para obtener la lista de tipos de fragmentos.
 
 - `priority`: Determina cuándo se ejecuta el fragmento de VCL. Este ejemplo utiliza la prioridad `5` para ejecutarse inmediatamente y comprobar si una solicitud de administrador proviene de una dirección IP permitida.
 
@@ -253,7 +253,7 @@ Para generar las credenciales, agregue la integración a la instancia de Commerc
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-### Generar credenciales
+### Generar credenciales de OAuth
 
 En la página Integraciones, genere las credenciales de autenticación de OAuth haciendo clic en **Activar** para la integración de Assets. Necesita estas credenciales para registrar el proyecto de Commerce con el servicio del motor de reglas de Assets y enviar solicitudes de API para administrar recursos entre Adobe Commerce y los AEM Assets.
 
@@ -273,4 +273,4 @@ En la página Integraciones, genere las credenciales de autenticación de OAuth 
 
 ## Siguiente paso
 
-[Habilite la sincronización de recursos para transferir recursos entre el entorno del proyecto de Adobe Commerce y el entorno del proyecto de AEM Assets](aem-assets-setup-synchronization.md)
+[Conecte los entornos de proyecto de Adobe Commerce y AEM Assets y seleccione la estrategia de coincidencia para sincronizar los recursos](aem-assets-setup-synchronization.md)
