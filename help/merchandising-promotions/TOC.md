@@ -4,9 +4,9 @@ user-guide-description: Adobe Commerce y Magento Open Source incluyen muchas her
 breadcrumb-title: Comercialización y promociones
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '268'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 1%
       - [Información general y configuración](url-rewrite.md)
       - [Reescrituras de categoría](url-rewrite-category.md)
       - [Reescrituras de productos](url-rewrite-product.md)
-      - [Reescribe la página de CMS](url-rewrite-cms-page.md)
+      - [Reescrituras de páginas de CMS](url-rewrite-cms-page.md)
       - [Reescrituras personalizadas](url-rewrite-custom.md)
       - [Redirecciones automáticas](url-redirect-product-automatic.md)
 - Herramientas del sitio Google {#google-tools}
@@ -87,5 +87,5 @@ ht-degree: 1%
    - [Google Tag Manager](google-tag-manager.md)
    - [Google AdWords](google-adwords.md)
    - [Experimentos de contenido de Google](google-content-experiments.md)
-- [Volver a las guías del comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Volver a las guías del usuario administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

@@ -3,7 +3,7 @@ title: Creación de un pedido
 description: Obtenga información sobre cómo crear un pedido para un cliente en el Administrador de Commerce.
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Puede transferir artículos al carro de compras desde la lista de artículos des
 
 >[!NOTE]
 >
->Consulte la [Guía de servicios de pago](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview) para obtener más información acerca de los métodos de pago que admiten esta funcionalidad cuando se instala y configura la extensión de servicios de pago.
+>Consulte la [Guía de servicios de pago](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) para obtener más información acerca de los métodos de pago que admiten esta funcionalidad cuando se instala y configura la extensión de servicios de pago.
 
 ## Paso 3: Enviar el pedido
 

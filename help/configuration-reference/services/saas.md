@@ -3,7 +3,7 @@ title: '[!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector]'
 description: Revise la configuración en la página [!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector] del administrador de Commerce.
 exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-Para saber cómo conectar tu tienda a los servicios de Adobe Commerce, consulta [Servicios de Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html).
+Para saber cómo conectar tu tienda a los servicios de Adobe Commerce, consulta [Servicios de Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html).
 
 {{config}}
 
@@ -45,7 +45,7 @@ Para saber cómo conectar tu tienda a los servicios de Adobe Commerce, consulta 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Project] | Global | Nombre del proyecto de SaaS que agrupa todos los espacios de datos de SaaS. Aparece el botón _Crear proyecto_ si no existen proyectos SaaS. |
-| [!UICONTROL Data Space] | Global | Muestra los espacios de datos SaaS del proyecto SaaS especificado. El número de espacios de datos SaaS depende de su [licencia de Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html):<br />Adobe Commerce: un espacio de datos de producción; dos espacios de datos de prueba;<br />Magento Open Source: un espacio de datos de producción; sin espacios de datos de prueba |
+| [!UICONTROL Data Space] | Global | Muestra los espacios de datos SaaS del proyecto SaaS especificado. El número de espacios de datos SaaS depende de su [licencia de Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html):<br />Adobe Commerce: un espacio de datos de producción; dos espacios de datos de prueba;<br />Magento Open Source: un espacio de datos de producción; sin espacios de datos de prueba |
 
 {style="table-layout:auto"}
 

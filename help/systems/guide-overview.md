@@ -2,16 +2,16 @@
 title: Guía de sistemas de administración
 description: Conozca las prácticas de seguridad recomendadas para proteger su tienda de Commerce y administrar permisos, y cómo importar y exportar datos, administrar integraciones y extensiones y ocuparse del mantenimiento rutinario.
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
-source-git-commit: 13f8858768b412d1ca2eb92e628331d9a45a347d
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
 # Guía de Adobe Commerce Admin Systems
 
-Esta guía está destinada a administradores de sistemas e integradores que trabajan en Adobe Commerce y Magento Open Source. Proporciona información detallada sobre la seguridad de administración, las operaciones de mantenimiento y los recursos de todo el sistema que admiten actividades en varias funciones organizativas para su negocio de comercio electrónico. Supone una comprensión básica de la configuración y la funcionalidad principales de Commerce.
+Esta guía está destinada a administradores de sistemas e integradores que trabajan en Adobe Commerce y en Magento Open Source Admin. Proporciona información detallada sobre la seguridad de administración, las operaciones de mantenimiento y los recursos de todo el sistema que admiten actividades en varias funciones organizativas para su negocio de comercio electrónico. Supone una comprensión básica de la configuración y la funcionalidad principales de Commerce.
 
 Esta guía describe:
 

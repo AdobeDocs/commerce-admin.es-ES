@@ -3,7 +3,7 @@ title: Administrar términos de búsqueda
 description: Aprenda a administrar los términos de búsqueda de su tienda para redirigir a los clientes utilizando términos mal escritos o alternativos.
 exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
-source-git-commit: 3851258543ba829a4bdbfdb5d3d053ec4627184a
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 0%
@@ -124,7 +124,7 @@ Una forma de mejorar la eficacia de la [búsqueda en el catálogo](search-config
 
 Adobe Commerce admite dos soluciones de administración de sinónimos diferentes:
 
-- La característica [Sinónimos](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/synonyms/synonyms.html) de Live Search está disponible para instalaciones de Adobe Commerce con Live Search instalado.
+- La característica [Sinónimos](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html) de Live Search está disponible para instalaciones de Adobe Commerce con Live Search instalado.
 - La función estándar Buscar Sinónimos (descrita en esta página) está disponible de forma predeterminada para todas las instalaciones de Adobe Commerce.
 
 >[!NOTE]

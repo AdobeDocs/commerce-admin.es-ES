@@ -1,12 +1,12 @@
 ---
-user-guide-title: "[!DNL Inventory Management] Guía del usuario"
+user-guide-title: Guía del usuario de [!DNL Inventory Management]
 user-guide-description: Aprenda a utilizar las características  [!DNL Inventory Management] para mantener las cantidades de ventas y controlar los envíos para completar  [!DNL Commerce] pedidos.
-breadcrumb-title: "[!DNL Inventory Management]"
+breadcrumb-title: '[!DNL Inventory Management]'
 role: Admin, Leader, User
 feature: Inventory
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '138'
 ht-degree: 5%
 
 ---
@@ -58,5 +58,5 @@ ht-degree: 5%
    - [Información general](shipments.md)
    - [Creación de envíos](shipments-create.md)
 - [Referencia de CLI](cli.md)
-- [Volver a las guías del comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Volver a las guías del usuario administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

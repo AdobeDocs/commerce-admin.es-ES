@@ -3,16 +3,16 @@ title: Configurar la búsqueda en el catálogo
 description: Aprenda a configurar la búsqueda en el catálogo de su tienda.
 exl-id: b4f22bce-39e2-4269-99a4-eb2d647df939
 feature: Catalog Management, Search
-source-git-commit: 279f54d41264a081166cfda7d2216172ac22cd26
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
 
 # Configurar la búsqueda en el catálogo
 
-Existen dos variaciones de la configuración de Búsqueda en el catálogo. El primer método describe la configuración disponible cuando está instalado [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). El segundo método describe las opciones de configuración para Adobe Commerce nativo con [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){:target=&quot;_blank&quot;}.
+Existen dos variaciones de la configuración de Búsqueda en el catálogo. El primer método describe la configuración disponible cuando está instalado [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html). El segundo método describe las opciones de configuración para Adobe Commerce nativo con [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){:target="_blank"}.
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ Existen dos variaciones de la configuración de Búsqueda en el catálogo. El pr
 
    El valor predeterminado es `100`. Si se introduce un valor de `0`, se almacenarán en la memoria caché todos los términos de búsqueda y resultados cuando se introduzcan por segunda vez.
 
-1. Para cambiar el número máximo de líneas disponibles para los resultados devueltos en la [ventana emergente de la tienda](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html), escriba un valor de **[!UICONTROL Autocomplete Limit]** diferente.
+1. Para cambiar el número máximo de líneas disponibles para los resultados devueltos en la [ventana emergente de la tienda](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html), escriba un valor de **[!UICONTROL Autocomplete Limit]** diferente.
 
    Restringir el número de líneas mejora el rendimiento de las búsquedas y reduce el tamaño de la lista devuelta. El valor predeterminado es `8` líneas.
 
@@ -95,7 +95,7 @@ Existen dos variaciones de la configuración de Búsqueda en el catálogo. El pr
 
    En este ejemplo, el valor predeterminado es `9200`.
 
-1. Para **[!UICONTROL OpenSearch Index Prefix]**, escriba un prefijo para identificar el índice del Elasticsearch.
+1. Para **[!UICONTROL OpenSearch Index Prefix]**, escriba un prefijo para identificar el índice de Elasticsearch.
 
    El valor predeterminado es `magento2`.
 

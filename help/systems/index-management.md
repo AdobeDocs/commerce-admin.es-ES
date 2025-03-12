@@ -3,23 +3,23 @@ title: Administración de índices
 description: Déclencheur Obtenga información acerca de la administración de índices, incluidas las acciones que afectan a la reindexación y las prácticas recomendadas.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1279'
 ht-degree: 0%
 
 ---
 
 # Administración de índices
 
-Adobe Commerce y Magento Open Source reindexan automáticamente cada vez que cambian uno o más elementos. Las acciones que tienen como déclencheur la reindexación incluyen cambios de precio, la creación de reglas de precio de catálogo o de carro de compras, la adición de nuevas categorías, etc. Para optimizar el rendimiento, Commerce acumula datos en tablas especiales utilizando indexadores. A medida que los datos cambian, las tablas indizadas deben actualizarse o reindexarse. Commerce vuelve a indexar como un proceso en segundo plano y se puede acceder a su tienda durante los procesos.
+Adobe Commerce y Magento Open Source se reindexan automáticamente cada vez que cambian uno o más elementos. Las acciones que tienen como déclencheur la reindexación incluyen cambios de precio, la creación de reglas de precio de catálogo o de carro de compras, la adición de nuevas categorías, etc. Para optimizar el rendimiento, Commerce acumula datos en tablas especiales utilizando indexadores. A medida que los datos cambian, las tablas indizadas deben actualizarse o reindexarse. Commerce vuelve a indexar como un proceso en segundo plano y se puede acceder a su tienda durante los procesos.
 
 La reindexación de datos acelera el procesamiento y reduce el tiempo de espera del cliente. Por ejemplo, si cambia el precio de un artículo de 4,99 a 3,99 dólares, Commerce vuelve a indexar los datos para mostrar el cambio de precio en la tienda. Sin la indexación, Commerce tendría que calcular el precio de cada producto sobre la marcha; administrar las reglas de precios del carro de compras, los precios de paquetes, los descuentos, los precios de nivel, etc. Cargar el precio de un producto puede llevar más tiempo del que el cliente está dispuesto a esperar.
 
 Los indexadores se pueden configurar para que se actualicen al guardarlos o según lo programado. Todos los índices pueden utilizar cualquiera de las opciones, excepto Customer Grid, que solo admite al guardar. Al indexar al guardar, Commerce inicia una reindexación al guardar las acciones. La página Administración de índices completa la actualización y vacía la caché. El mensaje de reindexación aparece en un minuto o dos. Al reindexar en una programación, se ejecuta una reindexación según una programación como trabajo cron. Aparecerá un mensaje del sistema si no hay un [trabajo cron](cron.md) disponible para actualizar los indizadores que no sean válidos. Se puede acceder a su tienda durante los procesos de reindexación.
 
 >[!NOTE]
-> Los comerciantes de Adobe Commerce que usen Live Search, el servicio de catálogo o Product Recommendations tienen la opción de usar un [indexador de precios basado en SaaS](https://experienceleague.adobe.com/docs/commerce-merchant-services/price-indexer/index.html).
+> Los comerciantes de Adobe Commerce que usan Live Search, Servicio de catálogo o Product Recommendations tienen la opción de usar un [indexador de precios basado en SaaS](https://experienceleague.adobe.com/docs/commerce/price-indexer/index.html).
 
 Cuando es necesario reindexar, aparece una notificación en la parte superior de la página. El índice y el mensaje se borran según el modo de reindexación y las posibles acciones que realice. Para obtener información más detallada sobre la indexación , consulte [Cómo implementa la aplicación la indexación](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing) en la _Guía para desarrolladores de PHP_.
 
@@ -43,7 +43,7 @@ La reindexación y el almacenamiento en caché tienen diferentes propósitos en 
 
 >[!IMPORTANT]
 >
->En tiendas que usan [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) y han establecido el Elasticsearch como indizador de texto completo (`catalogsearch_fulltext`): el índice de texto completo debe volver a ejecutarse después de cualquier cambio de permisos en masa o cuando el indizador &#39;permisos&#39; esté en modo &#39;Programado&#39;.
+>En tiendas que usan [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) y han establecido Elasticsearch como indizador de texto completo (`catalogsearch_fulltext`): el índice de texto completo debe volver a ejecutarse después de cualquier cambio de permisos en masa o cuando el indizador &#39;permisos&#39; esté en modo &#39;Programado&#39;.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 
@@ -76,7 +76,7 @@ La reindexación y el almacenamiento en caché tienen diferentes propósitos en 
 
 ## Reindexe utilizando la línea de comandos
 
-Commerce proporciona opciones de reindexación adicionales mediante la línea de comandos. Para obtener información y opciones de comandos completas, consulte [Reindex](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target=&quot;blank&quot;} en la _Guía de configuración_.
+Commerce proporciona opciones de reindexación adicionales mediante la línea de comandos. Para obtener información detallada y opciones de comando completas, consulte [Reindex](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"} en la _Guía de configuración_.
 
 ## Eventos de déclencheur de índice
 
@@ -102,7 +102,7 @@ Commerce proporciona opciones de reindexación adicionales mediante la línea de
 
 | Acción | Resultado | Controles |
 | ------ | ------ | -------- |
-| Creando una tienda, un nuevo grupo de clientes o cualquier acción enumerada en `Actions that Cause a Full Reindex` | Reindexación completa | La reindexación completa se realiza en la programación determinada por el trabajo cron de Adobe Commerce o de Magento Open Source. |
+| Creando una tienda, un nuevo grupo de clientes o cualquier acción enumerada en `Actions that Cause a Full Reindex` | Reindexación completa | La reindexación completa se realiza según la programación determinada por el trabajo cron de Adobe Commerce o Magento Open Source. |
 | Carga masiva de elementos (importación o exportación de Commerce, consulta SQL directa y cualquier otro método que agregue, cambie o elimine datos directamente) | Reindexación parcial (solo se reindexan los elementos modificados) | Con la frecuencia determinada por su trabajo cron de Commerce. |
 | Cambio del ámbito (por ejemplo, de global a sitio web) | Reindexación parcial (solo se reindexan los elementos modificados) | Con la frecuencia determinada por su trabajo cron de Commerce. |
 

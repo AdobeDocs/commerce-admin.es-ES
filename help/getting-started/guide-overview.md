@@ -1,26 +1,25 @@
 ---
-title: Guía de introducción de Adobe Commerce
-description: Información completa para comerciantes que son nuevos en Adobe Commerce.
-seo-title: Adobe Commerce Getting Started Guide
-seo-description: Describes basic tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
+title: Guía de introducción al administrador de Adobe Commerce
+description: Información completa para comerciantes nuevos en el administrador de Adobe Commerce.
+seo-title: Adobe Commerce Admin Getting Started Guide
+seo-description: Describes basic Admin tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
 exl-id: 1397872f-d5d0-46e4-9bb6-ab6b0c07255d
 recommendations: noCatalog
-source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
+source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 4%
+source-wordcount: '254'
+ht-degree: 0%
 
 ---
 
 # Guía de introducción de Adobe Commerce
 
-Esta guía está dirigida a los comerciantes y administradores de sistemas recién llegados a Adobe Commerce. Proporciona información general de la plataforma desde su perspectiva e información detallada sobre las funciones básicas que habilitan una tienda funcional.
+Esta guía está dirigida a los comerciantes y administradores de sistemas recién llegados al administrador de Adobe Commerce. Proporciona información general de la plataforma desde su perspectiva e información detallada sobre las funciones básicas que habilitan una tienda funcional.
 
 Esta guía describe:
 
 | Asunto | Descripción |
 | ------- | ----------- |
-| [Acerca de Commerce](about.md) | Obtenga información acerca de la versión actual de Adobe Commerce. |
 | [Credenciales y direcciones URL de inicio de sesión](login-urls.md) | Obtenga información acerca de las [!DNL Commerce] direcciones URL y credenciales de cuenta utilizadas para obtener acceso a su administrador y a su tienda. |
 | [[!DNL Commerce] cuentas](commerce-account-create.md) | Obtenga información acerca de las cuentas de [!DNL Commerce] que administran los productos y servicios que ha adquirido. |
 | [El administrador](admin.md) | Obtenga información acerca del administrador de [!DNL Commerce], el lugar donde los comerciantes configuran productos y promociones, administran pedidos y realizan otras tareas administrativas. |

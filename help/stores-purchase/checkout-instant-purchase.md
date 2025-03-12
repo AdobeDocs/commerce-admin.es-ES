@@ -3,7 +3,7 @@ title: Compra instantánea
 description: Obtenga información acerca de la compra instantánea y cómo puede proporcionar un cierre de compra rápido para las cuentas de cliente registradas.
 exl-id: f299f364-d7e3-4567-8c7b-955129011a19
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -28,8 +28,8 @@ _Compra instantánea_ permite a los clientes acelerar el proceso de cierre de co
 
   Los siguientes métodos de pago se pueden utilizar para proporcionar acceso seguro a la información guardada de la tarjeta de crédito:
 
-   - [Tarjetas de crédito de Braintree](braintree.md) (la compra instantánea no se puede usar con tarjetas de crédito de Braintree si 3D Secure está habilitado).
-   - [Braintree con PayPal activado](braintree.md)
+   - [Tarjetas de crédito Braintree](braintree.md) (compra instantánea no se puede usar con tarjetas de crédito Braintree si 3D Secure está habilitado).
+   - [Braintree con PayPal habilitado](braintree.md)
    - [PayPal Payflow Pro](paypal-payflow-pro.md)
 
 ## Compra instantánea en la tienda
@@ -52,12 +52,12 @@ _Compra instantánea_ permite a los clientes acelerar el proceso de cierre de co
 
 ### Paso 2: Configuración del almacén de métodos de pago
 
-Puede utilizar la compra instantánea con Braintree o Servicios de pago para Adobe Commerce y Magento Open Source. Debe habilitarse el depósito antes de que un comprador pueda utilizar la función de compra instantánea.
+Puede utilizar la compra instantánea con Braintree o los servicios de pago para Adobe Commerce y Magento Open Source. Debe habilitarse el depósito antes de que un comprador pueda utilizar la función de compra instantánea.
 
 Obtenga información sobre cómo configurar el método de pago y habilitar el depósito para Braintree o Servicios de pago:
 
 - [Braintree](braintree.md)
-- [Documentación de servicios de pago](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)
+- [Documentación de servicios de pago](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
 
 ### Paso 3: Activar compra instantánea
 

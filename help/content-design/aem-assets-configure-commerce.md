@@ -3,7 +3,7 @@ title: Instalación de paquetes de Adobe Commerce
 description: Obtenga información sobre cómo instalar la extensión  [!DNL AEM Assets Integration for Adobe Commerce] y en una instancia de Adobe Commerce.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 0%
@@ -135,7 +135,7 @@ Utilice este método para instalar la extensión [!DNL AEM Assets Integration] p
 
 >[!NOTE]
 >
->La configuración del Conector de servicios de Commerce es un proceso único necesario para usar [Servicios SaaS de Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#availableservices). Si ya ha configurado el conector para otro servicio, puede ver la configuración existente desde el administrador de Commerce seleccionando **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**.
+>La configuración del Conector de servicios de Commerce es un proceso único necesario para usar [Servicios SaaS de Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#availableservices). Si ya ha configurado el conector para otro servicio, puede ver la configuración existente desde el administrador de Commerce seleccionando **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**.
 
 Para transmitir datos entre su instancia de Adobe Commerce y los servicios que habilitan la integración de AEM Assets, configure Commerce Services Connector desde el administrador (**[!UICONTROL System]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**).
 
@@ -147,7 +147,7 @@ Proporcione los siguientes valores en la configuración
 - Nombre del espacio de datos (identificador SaaS) para el almacenamiento seguro en la nube
 - ID de la organización IMS donde se aprovisionan los entornos Commerce y AEM Assets.
 
-Para obtener instrucciones detalladas, vea el [vídeo de configuración del Conector de servicios de Commerce](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs); consulte la [documentación del Conector de servicios de Commerce](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#organizationid).
+Para obtener instrucciones detalladas, vea el [vídeo de configuración del Conector de servicios de Commerce](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs); consulte la [documentación del Conector de servicios de Commerce](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#organizationid).
 
 Al guardar la configuración, el sistema genera los ID de proyecto SaaS y de base de datos para su entorno. Estos valores son necesarios para habilitar la sincronización de recursos entre Adobe Commerce y los AEM Assets.
 

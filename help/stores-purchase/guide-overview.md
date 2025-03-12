@@ -1,18 +1,18 @@
 ---
 title: Guía de experiencia de compra y tienda
-description: Información completa sobre la definición de la tienda y las funciones de procesamiento de ventas para los agentes de servicio al cliente y los directores de ventas que trabajan en Adobe Commerce y el administrador de Magento Open Source.
+description: Información completa sobre la definición de la tienda y las funciones de procesamiento de ventas para los agentes de servicio al cliente y los gestores de ventas que trabajan en Adobe Commerce y en el administrador de Magento Open Source.
 exl-id: 01c075a5-d9ac-4edb-82de-35a52748b800
 recommendations: noCatalog
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
 
 # Guía de experiencia de compra y tiendas Adobe Commerce
 
-Esta guía está dirigida a los agentes de servicio de atención al cliente y a los directores de ventas que trabajan en Adobe Commerce y Magento Open Source. Proporciona información detallada acerca de la administración de pedidos y las funciones de compra, incluido cómo se puede configurar el carro de compras para ayudar a los clientes y promocionar las ventas. Supone una comprensión básica de la configuración y la funcionalidad principales de [!DNL Commerce].
+Esta guía está dirigida a los agentes de servicio de atención al cliente y a los gestores de ventas que trabajan en Adobe Commerce y en el administrador de Magento Open Source. Proporciona información detallada acerca de la administración de pedidos y las funciones de compra, incluido cómo se puede configurar el carro de compras para ayudar a los clientes y promocionar las ventas. Supone una comprensión básica de la configuración y la funcionalidad principales de [!DNL Commerce].
 
 Esta guía describe:
 

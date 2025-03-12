@@ -3,7 +3,7 @@ title: Configuración del producto - [!UICONTROL Related Products, Up-Sells, and
 description: Para un producto, la configuración de [!UICONTROL Related Products, Up-Sells, and Cross-Sells] define bloques promocionales simples en la página del producto que resaltan una selección de productos adicionales.
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -33,9 +33,9 @@ Cada bloque consta de una lista de productos que pertenecen a una opción espec�
 
 >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) **Recommendations de producto con tecnología Adobe Sensei** simplifica el proceso de definición de relaciones de productos mediante inteligencia artificial y algoritmos de aprendizaje automático para realizar un análisis profundo de los datos de visitantes agregados. Estos datos, cuando se combinan con su catálogo de Adobe Commerce, generan experiencias muy atractivas, relevantes y personalizadas para el comprador.
+>![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) **Product Recommendations con tecnología Adobe Sensei** simplifica el proceso de definición de relaciones de productos mediante inteligencia artificial y algoritmos de aprendizaje automático para realizar un análisis profundo de los datos de visitantes agregados. Estos datos, cuando se combinan con su catálogo de Adobe Commerce, generan experiencias muy atractivas, relevantes y personalizadas para el comprador.
 ><br/>
->Para obtener más información acerca del uso de esta extensión desarrollada por Adobes como alternativa a las recomendaciones de productos configuradas manualmente y a las ventas adicionales, consulte la _[Guía de Recommendations de productos](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)_.
+>Para obtener más información acerca del uso de esta extensión desarrollada por Adobe como alternativa a las recomendaciones de productos configuradas manualmente y las ventas adicionales, consulte la _[Guía de recomendaciones de productos](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_.
 
 ## Productos relacionados
 

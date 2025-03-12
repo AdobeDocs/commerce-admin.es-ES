@@ -3,9 +3,9 @@ title: ¿Qué es la tienda?
 description: Obtenga información acerca de las páginas y los elementos funcionales que su tienda puede proporcionar para ofrecer a sus clientes la experiencia de compra.
 exl-id: 1c64888f-2bc0-4e2e-b7da-0e7182ea67e0
 feature: Storefront
-source-git-commit: 3b359ed43e81a2771a372c8e3c7557853b3eecad
+source-git-commit: 8145531bf9aa2764bd52a6e121112beca2e25158
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,51 @@ ht-degree: 0%
 Dentro de la implementación de Adobe Commerce o Magento Open Source, la tienda es la parte externa y pública de la tienda. Proporciona el contenido y los componentes funcionales que sus clientes utilizan para realizar compras y realizar compras.
 
 La ruta que toman los clientes a una venta a veces se denomina _ruta de compra_ y la tienda incluye los componentes para que los clientes completen esta ruta. Las siguientes secciones ofrecen una descripción general de los tipos de página básicos que proporcionan un valor estratégico: los lugares que los clientes suelen visitar mientras compran en su tienda. A medida que las revise, tenga en cuenta las diferentes funciones de la tienda que se pueden utilizar en cada fase del recorrido del cliente.
+
+## Commerce Storefront
+
+Con la presentación de [!DNL **Commerce Storefront con tecnología Edge Delivery Services**], Adobe ofrece una tienda confiable, escalable y de alto rendimiento que aprovecha la tecnología de vanguardia para ofrecer velocidad y experiencia de usuario superiores.
+
+- **Rendimiento mejorado**: Alojar tiendas en Edge Delivery Services garantiza tiempos de carga más rápidos y un rendimiento del sitio mejorado, lo que puede llevar a tasas de conversión más altas y mejores clasificaciones de SEO.
+
+- **Escalabilidad**: la arquitectura admite escalado sin problemas para gestionar el tráfico en aumento y catálogos de productos más grandes sin poner en riesgo el rendimiento.
+
+- **Flexibilidad**: la tienda es altamente personalizable, lo que permite a las empresas adaptar la experiencia de compra a sus necesidades únicas.
+
+- **Experiencia del usuario mejorada**: Algunas características, como el almacenamiento en caché avanzado, las actualizaciones en tiempo real y la entrega de contenido personalizado, contribuyen a que la experiencia de compra sea más fluida y atractiva.
+
+### Características principales
+
+Commerce Storefront con tecnología Edge Delivery Services ofrece varias funciones clave que benefician tanto a los comerciantes como a los desarrolladores. Estas funciones permiten a las empresas crear experiencias de compra atractivas a la vez que mantienen la flexibilidad para personalizar y escalar sus tiendas según sus necesidades.
+
+Para obtener información e instrucciones más detalladas sobre cómo configurar y optimizar tu tienda Commerce, consulta la [Documentación de Adobe Commerce Storefront](https://experienceleague.adobe.com/en/docs/commerce).
+
+>[!BEGINTABS]
+
+>[!TAB Comerciantes]
+
+Commerce Storefront con tecnología Edge Delivery Services ofrece una experiencia de creación intuitiva basada en documentos que facilita a los comerciantes la creación y administración de contenido. Con herramientas familiares como Microsoft Word o Google Docs, los comerciantes pueden crear contenido enriquecido manteniendo el control de versiones y colaborando con los integrantes del equipo.
+
+- **Creación de contenido simplificada**: cree y edite contenido con herramientas conocidas de creación basada en documentos, como Microsoft Word o Google Docs.
+- **Vista previa en tiempo real**: Vea los cambios al instante con las capacidades de vista previa en vivo antes de publicar.
+- **Control de versiones**: Rastrea cambios de contenido y vuelve fácilmente a las versiones anteriores.
+- **Flujo de trabajo colaborativo**: varios integrantes del equipo pueden trabajar en el contenido simultáneamente con procesos de revisión integrados.
+- **Reutilización de contenido**: cree bloques de contenido que se puedan reutilizar en varias páginas para mantener la coherencia.
+
+>[!TAB Desarrolladores]
+
+La implementación sin encabezado permite a los desarrolladores desvincular la capa de presentación de front-end de la funcionalidad de comercio back-end, lo que permite tiendas personalizadas flexibles creadas con tecnologías modernas y, al mismo tiempo, aprovechar los sólidos servicios back-end de Commerce.
+
+- **Arquitectura API-First**: cree experiencias de front-end personalizadas con marcos modernos mientras aprovecha los servicios back-end de Commerce.
+- **Componentes componibles**: cree e implemente componentes modulares reutilizables que se puedan ensamblar en diferentes diseños de página.
+- **Plataforma ampliable**: agregue funcionalidad personalizada a través de API y webhooks sin modificar el código principal.
+- **Herramientas modernas de desarrollo**: use las herramientas y los flujos de trabajo de desarrollo estándar del sector para una implementación más rápida.
+
+>[!ENDTABS]
+
+>[!NOTE]
+>
+>Aunque la tienda de Commerce ofrece numerosas ventajas, Adobe sigue siendo compatible con la tienda original basada en Luma. Las empresas que actualmente utilizan Luma pueden seguir funcionando sin interrupciones y tienen la opción de pasar a la nueva tienda a su propio ritmo. Las secciones restantes de esta página se basan en ejemplos de Luma.
 
 ## Página de inicio
 
@@ -36,7 +81,7 @@ La descripción inicial del producto suele proporcionar a los compradores inform
 
 ### [!DNL Live Search]
 
-Con [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) para Adobe Commerce, tu tienda ofrece una experiencia de búsqueda rápida, relevante e intuitiva, y está disponible para Adobe Commerce sin cargo adicional.
+Con [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) para Adobe Commerce, tu tienda ofrece una experiencia de búsqueda rápida, relevante e intuitiva, y está disponible para Adobe Commerce sin cargo adicional.
 
 ![Ejemplo de Live Search: busca mientras escribes](./assets/storefront-search-as-you-type.png){width="700"}
 
@@ -54,7 +99,7 @@ Con [búsqueda estándar en el catálogo](../catalog/search.md), tu tienda inclu
 
 ## Carro de compras
 
-El carrito es donde se puede determinar el total del pedido, junto con cupones de descuento y envíos e impuestos estimados, y un buen lugar para mostrar sus distintivos y sellos de confianza. También es una oportunidad ideal para ofrecer un último artículo. Como venta cruzada, puede seleccionar ciertos artículos para ofrecerlos como compra por impulso siempre que aparezca un artículo específico en el carro de compras.
+El carro de compras muestra el total del pedido, incluidos los cupones de descuento, el envío estimado y los impuestos. Estas características lo convierten en un buen lugar para mostrar distintivos y sellos de confianza. También puede utilizar la página del carro de compras como una oportunidad para una oferta final. Por ejemplo, puede configurar artículos de venta cruzada que aparezcan como opciones de compra por impulso cuando haya productos específicos en el carro de compras.
 
 ![Ejemplo de página de carro de compras en tienda](./assets/storefront-cart-full.png){width="700"}
 
@@ -83,4 +128,4 @@ La barra de progreso situada en la parte superior de la página sigue cada paso 
 
 >[!NOTE]
 >
->La excepción a un cierre de compra de dos pasos se aplica a los productos virtuales o descargables. Si solo hay estos tipos de productos en el carro de compras, el cierre de compra se transforma automáticamente en un procedimiento de un paso, ya que no se requiere información de envío.
+>La excepción a un cierre de compra de dos pasos se aplica a los productos virtuales o descargables. Si solo hay estos tipos de productos en el carro de compras, el cierre de compra se transforma automáticamente en un procedimiento de un solo paso, ya que no se requiere información de envío.

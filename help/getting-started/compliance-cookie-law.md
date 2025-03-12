@@ -3,7 +3,7 @@ title: Cumplimiento de la ley de cookies
 description: Para mantenerse al día con la legislación en muchos países sobre el uso de cookies, Adobe Commerce y Magento Open Source ofrecen a los comerciantes una selección de métodos para obtener el consentimiento del cliente.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: 04e8fe7cf303f434bab748df447eef8ac1097196
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Cumplimiento de la ley de cookies
 
-Las cookies son pequeños archivos que se guardan en el equipo de cada visitante del sitio y que se utilizan como lugares de retención temporales para la información. La información que se guarda en las cookies se utiliza para personalizar la experiencia de compra, vincular a los visitantes con sus carros de compras, medir los patrones de tráfico y mejorar la eficacia de las promociones. Para mantenerse al día con la legislación en muchos países sobre el uso de cookies, Adobe Commerce y Magento Open Source ofrecen a los comerciantes una selección de métodos para obtener el consentimiento del cliente. Para obtener una lista de las cookies predeterminadas de Adobe Commerce y Magento Open Source, consulte [Referencia de cookies](#default-cookies).
+Las cookies son pequeños archivos que se guardan en el equipo de cada visitante del sitio y que se utilizan como lugares de retención temporales para la información. La información que se guarda en las cookies se utiliza para personalizar la experiencia de compra, vincular a los visitantes con sus carros de compras, medir los patrones de tráfico y mejorar la eficacia de las promociones. Para mantenerse al día con la legislación en muchos países sobre el uso de cookies, Adobe Commerce y Magento Open Source ofrecen a los comerciantes una selección de métodos para obtener el consentimiento del cliente. Para obtener una lista de las cookies predeterminadas en Adobe Commerce y Magento Open Source, consulte [Referencia de cookies](#default-cookies).
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ Algunas de estas cookies pueden proporcionar opciones de configuración, incluid
 
 #### `add_to_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Registra el SKU, el nombre, el precio y la cantidad del producto que se quitó del carro de compras. Permite a los Google Analytics saber cuándo se ha agregado un producto al carro de compras.
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Registra el SKU, el nombre, el precio y la cantidad del producto que se quitó del carro de compras. Permite a Google Analytics saber cuándo se ha agregado un producto al carro de compras.
 
 #### `guest-view`
 
@@ -112,7 +112,7 @@ Almacena los ID de productos de productos vistos recientemente para facilitar la
 
 #### `remove_from_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) permite a los Google Analytics saber cuándo se ha eliminado un producto de un carro de compras.
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) permite que Google Analytics sepa cuándo se ha eliminado un producto de un carro de compras.
 
 #### `stf`
 
@@ -210,11 +210,11 @@ La establece el módulo Page Builder. Contiene un indicador que evita que las so
 
 Se utiliza como parte de la implementación de la funcionalidad de pestañas solo en un área administrativa de una tienda. No aplicable a los compradores.
 
-## Cookies de Recommendations del producto
+## Cookies de Product Recommendations
 
-![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Los clientes de Product Recommendations utilizan las siguientes cookies para Adobe Commerce. Estas cookies se instalan con el [módulo DataServices](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Las siguientes cookies las usan Product Recommendations para clientes de Adobe Commerce. Estas cookies se instalan con el [módulo DataServices](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
-- `mg_dnt`: le permite [restringir la recopilación de datos de Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie) si tiene código personalizado para administrar el consentimiento de cookies en su sitio.
+- `mg_dnt`: le permite [restringir la recopilación de datos de Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie) si tiene código personalizado para administrar el consentimiento de cookies en su sitio.
 - `user_allowed_save_cookie`: se usa para [modo de restricción de cookies](#cookie-restriction-mode).
 - `authentication_flag`: indica si un comprador ha iniciado sesión o ha cerrado sesión. Esta cookie se actualiza al mismo tiempo que la cookie `dataservices_customer_id`.
 - `dataservices_customer_id`: indica si un comprador ha iniciado sesión o ha cerrado sesión. Esta cookie contiene el ID único del cliente en el sistema.
@@ -224,10 +224,10 @@ Se utiliza como parte de la implementación de la funcionalidad de pestañas sol
 
 ## Cookies adicionales
 
-![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Las siguientes cookies están configuradas para los clientes de Adobe Commerce. Estas cookies se instalan con el [módulo DataServices](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Las siguientes cookies están configuradas para los clientes de Adobe Commerce. Estas cookies se instalan con el [módulo DataServices](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
 - `mg`: configurado por el rastreador de JavaScript de Snowplow. Encontrará más información en la [documentación de Snowplow](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/web-tracker/tracker-setup/initialization-options).
-- `com.adobe.alloy.getTld`: dado el nombre de host de la página web actual, este es el dominio de primer nivel que no es un &quot;sufijo público&quot; como se describe en https://publicsuffix.org. Básicamente, este es el dominio de primer nivel que puede aceptar cookies. Esta cookie forma parte del [SDK web de Alloy](https://github.com/adobe/alloy).
+- `com.adobe.alloy.getTld`: dado el nombre de host de la página web actual, este es el dominio de primer nivel que no es un &quot;sufijo público&quot; como se describe en https://publicsuffix.org. Básicamente, este es el dominio de primer nivel que puede aceptar cookies. Esta cookie es parte de [Alloy Web SDK](https://github.com/adobe/alloy).
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
 [2]: https://support.google.com/adwords/answer/7521212

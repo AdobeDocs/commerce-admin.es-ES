@@ -3,7 +3,7 @@ title: Resumen de búsqueda en catálogo
 description: Obtenga información acerca de las herramientas Búsqueda rápida y Búsqueda avanzada que los clientes pueden utilizar para localizar productos en la tienda.
 exl-id: a796fa48-212a-47c7-ab6e-98edd4d040f4
 feature: Catalog Management, Search
-source-git-commit: 65d295694e13be2e0a0de29b8b396faa9f2c9cd4
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) ofrece una experiencia de búsqueda rápida, relevante e intuitiva, y está disponible para Adobe Commerce sin cargo adicional. Esta sección describe la funcionalidad de búsqueda estándar que podría diferir de [!DNL Live Search].
+>[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) ofrece una experiencia de búsqueda rápida, relevante e intuitiva, y está disponible para Adobe Commerce sin cargo adicional. Esta sección describe la funcionalidad de búsqueda estándar que podría diferir de [!DNL Live Search].
 
 Los estudios muestran que las personas que utilizan la búsqueda tienen más probabilidades de realizar una compra que los clientes que dependen únicamente de la navegación. De hecho, según algunos estudios, las personas que utilizan la búsqueda tienen casi el doble de probabilidades de realizar una compra.
 
@@ -32,7 +32,7 @@ Las secciones siguientes describen las funciones básicas de búsqueda en el cat
 
 >[!NOTE]
 >
->Cuando [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) está instalado y el widget [[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/storefront-popover) está habilitado, el cuadro de búsqueda devuelve el resultado &quot;buscar mientras escribe&quot; en una ventana emergente.
+>Cuando [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) está instalado y el widget [[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/storefront-popover) está habilitado, el cuadro de búsqueda devuelve el resultado &quot;buscar mientras escribe&quot; en una ventana emergente.
 
 El cuadro de búsqueda en el encabezado de la tienda ayuda a los visitantes a encontrar productos en su catálogo. El texto de búsqueda puede ser el nombre completo o parcial del producto o cualquier otra palabra o frase que describa el producto. Los términos de búsqueda que usan los usuarios para encontrar los productos se pueden administrar desde el Administrador.
 
@@ -48,7 +48,7 @@ El cuadro de búsqueda en el encabezado de la tienda ayuda a los visitantes a en
 
 >[!NOTE]
 >
->La funcionalidad de búsqueda avanzada de formularios descrita aquí no se aplica a [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
+>La funcionalidad de búsqueda avanzada de formularios descrita aquí no se aplica a [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
 
 La búsqueda avanzada permite a los compradores buscar en el catálogo en función de los valores introducidos en un formulario. Dado que el formulario contiene varios campos, una sola búsqueda puede incluir varios parámetros. El resultado es una lista de todos los productos del catálogo que coinciden con los criterios. Hay un vínculo a Búsqueda avanzada al pie de página de la tienda.
 

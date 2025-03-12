@@ -1,11 +1,11 @@
 ---
-title: "[!DNL Audience Activation]"
+title: '[!DNL Audience Activation]'
 description: Obtenga información sobre cómo activar audiencias de Real-Time CDP en Adobe Commerce para impulsar la personalización en su tienda.
 exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 39d49ac4efd4d00f0f8d22bf469126b748c08173
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 1%
@@ -113,7 +113,7 @@ _16 de noviembre de 2023_
 
 _10 de octubre de 2023_
 
-![Nuevo](../assets/new.svg): se agregó compatibilidad con OAuth 2.0 al [configurar](#configure-the-extension) la extensión de Audience Activation.
+![Nuevo](../assets/new.svg): Se agregó compatibilidad con OAuth 2.0 al [configurar](#configure-the-extension) la extensión de Audience Activation.
 ![Corrección](../assets/fix.svg): estabilidad mejorada.
 
 ### 1.2.0
@@ -172,23 +172,23 @@ Después de instalar la extensión [!DNL Audience Activation], debe iniciar sesi
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL Commerce Services Connector]**.
 
-1. [Inicia sesión](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#organizationid) en tu cuenta de Adobe y selecciona tu ID de organización.
+1. [Inicia sesión](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html#organizationid) en tu cuenta de Adobe y selecciona tu ID de organización.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL [!DNL Data Connection]]**.
 
 1. En el campo **[!UICONTROL Datastream ID]**, pegue el ID de la secuencia de datos que creó al [activar](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce como destino en Real-Time CDP.
 
-   Esta secuencia de datos envía datos del sitio web de Commerce a Real-Time CDP para determinar si un comprador pertenece a una audiencia. Si aún no ha creado una secuencia de datos, [cree](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) una en el Experience Platform, [agréguela](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) al destino de Commerce en Real-Time CDP y a la extensión [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) en el administrador.
+   Esta secuencia de datos envía datos del sitio web de Commerce a Real-Time CDP para determinar si un comprador pertenece a una audiencia. Si aún no ha creado una secuencia de datos, [cree](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) una en Experience Platform, [agréguela](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) al destino de Commerce en Real-Time CDP y a la extensión [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection) en el administrador.
 
    >[!NOTE]
    >
-   >Cuando especifica un ID de secuencia de datos, [lo asocia a un sitio web específico](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) en la extensión [!DNL Data Connection]. Si tu tienda Commerce tiene varios sitios web, [crea un destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) para cada sitio web en Real-Time CDP y usa un identificador de flujo de datos diferente para cada uno.
+   >Cuando especifica un ID de secuencia de datos, [lo asocia a un sitio web específico](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection) en la extensión [!DNL Data Connection]. Si tu tienda Commerce tiene varios sitios web, [crea un destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) para cada sitio web en Real-Time CDP y usa un identificador de flujo de datos diferente para cada uno.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Expanda **[!UICONTROL Services]** y seleccione **[!UICONTROL [!DNL Data Connection]]**.
 
-1. [Agregar](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) detalles de cuenta de servicio y credenciales.
+1. [Agregar](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) detalles de cuenta de servicio y credenciales.
 
 ## Dónde usar las audiencias de Real-Time CDP en Commerce
 
@@ -200,7 +200,7 @@ Con la extensión [!DNL Audience Activation] habilitada, puede:
 
 >[!TIP]
 >
->Para ver un caso de uso completo e integral sobre cómo exportar datos de [!DNL Commerce] a Real-Time CDP, generar una audiencia y activar esa audiencia en [!DNL Commerce], consulte [Crear una audiencia en Real-Time CDP con [!DNL Commerce] datos de evento](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+>Para ver un caso de uso completo e integral sobre cómo exportar datos de [!DNL Commerce] a Real-Time CDP, generar una audiencia y activar esa audiencia en [!DNL Commerce], consulte [Crear una audiencia en Real-Time CDP con [!DNL Commerce] datos de evento](https://experienceleague.adobe.com/en/docs/commerce/data-connection/use-cases/create-audience).
 
 ## Panel de audiencias de Real-Time CDP
 
@@ -230,19 +230,19 @@ El tablero contiene los campos siguientes:
 
 ## Compatibilidad sin encabezado
 
-Puede activar audiencias en una instancia de Adobe Commerce AEM sin encabezado, como el de la aplicación y el de PWA, para mostrar reglas de precios del carro de compras, reglas de productos relacionadas o bloques dinámicos basados en las audiencias.
+Puede activar audiencias en una instancia de Adobe Commerce sin encabezado, como AEM y PWA, para mostrar reglas de precios del carro de compras, reglas de productos relacionadas o bloques dinámicos basados en las audiencias.
 
 ### Reglas de precios del carro de compras y reglas de productos relacionadas
 
-Para las reglas de precios del carro de compras y las reglas de productos relacionadas, una tienda sin encabezado se comunica con el Experience Platform a través del [Commerce integration framework CIF ()](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). El marco de trabajo proporciona una API del lado del servidor que se implementa mediante GraphQL. La información de audiencia, como el segmento de un comprador, pasa a Commerce a través de un parámetro de encabezado de GraphQL denominado: `aep-segments-membership`.
+Para las reglas de precios del carro de compras y las reglas de productos relacionadas, una tienda sin encabezado se comunica con Experience Platform a través de [Commerce integration framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). El marco de trabajo proporciona una API del lado del servidor que se implementa mediante GraphQL. La información de audiencia, como el segmento de un comprador, pasa a Commerce a través de un parámetro de encabezado de GraphQL denominado: `aep-segments-membership`.
 
 La arquitectura general es la siguiente:
 
 ![Envío de datos de tienda sin encabezado al servidor](./assets/aem-commerce-architecture.png){width="700" zoomable="yes"}
 
-Después de [instalar](#install-the-extension) y [configurar](#configure-the-extension) la extensión, el SDK web de Experience Platform contiene la información de audiencia en forma de abono a segmentos.
+Después de [instalar](#install-the-extension) y [configurar](#configure-the-extension) la extensión, Experience Platform Web SDK contiene la información de la audiencia en forma de abono a segmentos.
 
-Para capturar esas pertenencias a segmentos desde el SDK, consulte este [fragmento de código](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html#example-response-for-custom-personalization-with-attributes).
+Para capturar esas pertenencias a segmentos desde SDK, consulte este [fragmento de código](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html#example-response-for-custom-personalization-with-attributes).
 
 Una vez recuperado, puede pasar esos segmentos a Commerce dentro del encabezado de GraphQL. Por ejemplo:
 
@@ -330,18 +330,18 @@ La siguiente consulta devuelve todos los bloques dinámicos asociados con varios
 
 Obtenga más información acerca de la consulta de GraphQL `dynamicBlocks` en la [documentación para desarrolladores](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks/).
 
-## Recuperación de audiencias mediante el SDK para móviles de Adobe Experience Platform
+## Recuperación de audiencias con Adobe Experience Platform Mobile SDK
 
-Puede recuperar audiencias de Real-Time CDP mediante el SDK para móviles de Adobe Experience Platform.
+Puede recuperar audiencias de Real-Time CDP mediante Adobe Experience Platform Mobile SDK.
 
 1. [Instalar](#install-the-extension) la extensión de Audience Activation.
-1. [instale y configure el SDK para su sitio de Commerce móvil](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
+1. [instale y configure SDK para su sitio de Commerce móvil](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >
->El SDK de Adobe Experience Platform Mobile para iOS es compatible con iOS 11 o posterior.
+>Adobe Experience Platform Mobile SDK para iOS es compatible con iOS 11 o versiones posteriores.
 
-Una vez completada la configuración, utilice las operaciones del SDK móvil para recuperar los datos de audiencia. Por ejemplo:
+Una vez completada la configuración, utilice las operaciones de SDK móvil para recuperar los datos de audiencia. Por ejemplo:
 
 ```swift
 Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) in
@@ -409,7 +409,7 @@ Por ejemplo:
 1. Abra la instancia de Commerce.
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 1. Expanda **[!UICONTROL Services]** y seleccione **[!UICONTROL [!DNL Data Connection]]**.
-1. Asegúrese de que el método de autorización de servidor a servidor especificado en el campo **[!UICONTROL Authentication Type]** sea correcto. El Adobe recomienda usar **OAuth**. JWT se ha desaprobado. [Más información](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
+1. Asegúrese de que el método de autorización de servidor a servidor especificado en el campo **[!UICONTROL Authentication Type]** sea correcto. Adobe recomienda usar **OAuth**. JWT se ha desaprobado. [Más información](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
 
 ### Privilegios insuficientes en el token generado
 

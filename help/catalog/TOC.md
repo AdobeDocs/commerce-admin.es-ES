@@ -1,12 +1,12 @@
 ---
 user-guide-title: Guía de administración de catálogos
-user-guide-description: Información completa sobre las funciones de administración de catálogos para los administradores de Adobe Commerce y Magento Open Source, así como para los especialistas en marketing de comercio electrónico.
+user-guide-description: Información completa sobre las funciones de administración de catálogos para administradores de Adobe Commerce y Magento Open Source y especialistas en marketing de comercio electrónico.
 breadcrumb-title: Administración de catálogos
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '243'
 ht-degree: 1%
 
 ---
@@ -99,5 +99,5 @@ ht-degree: 1%
       + [Crear y eliminar atributos](attribute-product-create.md)
       + [Actualizaciones masivas](bulk-product-attribute-update.md)
       + [Conjuntos de atributos](attribute-sets.md)
-+ [Volver a las guías del comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Volver a las guías del usuario administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

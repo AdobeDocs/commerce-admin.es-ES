@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Revise la configuración en la página [!UICONTROL General] &gt; [!UICONTROL General] del administrador de Commerce.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 7e18b0b0ea308a6126b6cd35f943b133c75adff3
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 0%
@@ -117,6 +117,6 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Commerce Events Enabled] | Global | Esta configuración está desactivada de forma predeterminada si es cliente de atención médica y ha instalado la extensión [Data Services HIPAA](https://experienceleague.adobe.com/en/docs/commerce/data-connection/hipaa-readiness). Como resultado, los datos de evento de tienda que usan Live Search y Recomendaciones de productos ya no se capturan. Esto se debe a que los datos de evento de tienda se generan en el lado del cliente. Para seguir capturando y enviando datos de evento de tienda para su uso por los servicios [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) y [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), establezca **Eventos de Commerce habilitados** en `Yes`. |
+| [!UICONTROL Commerce Events Enabled] | Global | Esta configuración está desactivada de forma predeterminada si es cliente de atención médica y ha instalado la extensión [Data Services HIPAA](https://experienceleague.adobe.com/en/docs/commerce/data-connection/hipaa-readiness). Como resultado, los datos de evento de tienda que usan Live Search y Recomendaciones de productos ya no se capturan. Esto se debe a que los datos de evento de tienda se generan en el lado del cliente. Para seguir capturando y enviando datos de evento de tienda para su uso por los servicios [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) y [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview), establezca **Eventos de Commerce habilitados** en `Yes`. |
 
 {style="table-layout:auto"}

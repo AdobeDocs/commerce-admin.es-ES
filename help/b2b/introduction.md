@@ -3,7 +3,7 @@ title: Introducción a  [!DNL Adobe Commerce B2B]
 description: Aprenda a utilizar las funciones B2B integradas para satisfacer sus necesidades para los clientes que son empresas.
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
-source-git-commit: c3a54d4574ec6aaf580d97563165c63c55711f15
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 2%
@@ -38,11 +38,11 @@ Para obtener más información, consulte [Administración de la compañía](mana
 
 ## Servicios para Adobe Commerce
 
-Los servicios para Adobe Commerce son servicios alojados que proporcionan funcionalidades ampliadas a Adobe Commerce y a Magento Open Source. Los servicios que admiten flujos de trabajo B2B son:
+Los servicios para Adobe Commerce son servicios alojados que proporcionan funcionalidades ampliadas a Adobe Commerce y Magento Open Source. Los servicios que admiten flujos de trabajo B2B son:
 
-* [Servicio de catálogo](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html)
-* [Búsqueda en directo](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html)
-* [Recommendations del producto](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)
+* [Servicio de catálogo](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html)
+* [Búsqueda en directo](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html)
+* [Recomendaciones de productos](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)
 
 ## Catálogos compartidos
 

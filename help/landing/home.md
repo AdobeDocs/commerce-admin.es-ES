@@ -1,22 +1,22 @@
 ---
-title: Documentación de Adobe Commerce Merchant
+title: Guías del usuario de administración de Adobe Commerce
 description: Examinar la documentación de productos de Adobe Commerce
 seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
-breadcrumb-title: Documentación del comerciante
+breadcrumb-title: Guías de usuario de administración
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
-source-git-commit: c9dfc5385a008619a5ab1eceeec93df2c00df059
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
 
-# <!-- use banner as heading -->![Documentación de comerciante](./assets/banner-user-home.png) {#documentation}
+# <!-- use banner as heading -->![Documentación de administración](./assets/banner-user-home.png) {#documentation}
 
 Bienvenido a la próxima generación de la plataforma de comercio digital más importante del mundo. Adobe Commerce proporciona a los comerciantes en línea una flexibilidad y un control incomparables sobre la apariencia, el contenido y la funcionalidad de sus tiendas en línea. El administrador cuenta con potentes herramientas de marketing, optimización de motores de búsqueda y administración de productos que le permiten crear sitios adaptados a sus necesidades empresariales únicas.
 
-La información de la documentación de comerciante está diseñada para dar cabida a los usuarios empresariales que trabajan en Adobe Commerce o en la base de código de Magento Open Source. Hay anotaciones para funciones que son exclusivas de Adobe Commerce o de un conjunto de funciones ampliado.
+La información de las Guías del usuario de administración está diseñada para dar cabida a los usuarios empresariales que trabajan en la administración de Adobe Commerce o en la base de código de Magento Open Source. Hay anotaciones para funciones que son exclusivas de Adobe Commerce o de un conjunto de funciones ampliado.
 
 ## Adobe Commerce {#product-editions}
 
@@ -24,11 +24,11 @@ Adobe Commerce es una plataforma de comercio ágil B2B y B2C que permite a los c
 
 Para obtener una lista de las funciones avanzadas incluidas con Adobe Commerce, consulte [Funciones de Commerce](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=en) en la _Información de la versión_.
 
-## base de código del Magento Open Source
+## Código base de Magento Open Source
 
-Magento Open Source es la base de código a la que Adobe contribuye oficialmente y garantiza la compatibilidad para la transición a Adobe Commerce. Esta base de código forma parte de la iniciativa de Adobe para potenciar a los desarrolladores individuales y fomentar las pequeñas empresas que aspiran a crecer rápidamente.
+Magento Open Source es la base de código a la que Adobe contribuye oficialmente y garantiza la compatibilidad para la transición a Adobe Commerce. Esta base de código forma parte de la iniciativa de Adobe para potenciar a los desarrolladores individuales y fomentar las pequeñas empresas que aspiran a crecer con rapidez.
 
-## Guías de comerciantes
+## Guías de usuario de administración
 
 <table>
 <tr>
@@ -37,7 +37,7 @@ Magento Open Source es la base de código a la que Adobe contribuye oficialmente
    <td valign="top">
    <a href="https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html"><strong>Introducción</strong></a>
     <div>
-    <em>Las preguntas de "por qué, dónde y cómo" que tienen la mayoría de los comerciantes al aprender a utilizar Adobe Commerce o Magento Open Source por primera vez, así como recursos e información de referencia. Esta guía es un trampolín para temas más avanzados.</em>
+    <em>Las preguntas de "por qué, dónde y cómo" que la mayoría de los comerciantes tienen al enterarse por primera vez al administrador, así como los recursos y la información de referencia. Esta guía es un trampolín para temas más avanzados.</em>
     <br> </div>
   </td>
   </tr>
@@ -115,11 +115,11 @@ Magento Open Source es la base de código a la que Adobe contribuye oficialmente
 </tr>
 </table>
 
-## Novedades de las guías para comerciantes
+## Novedades de las guías del usuario de administración
 
 >[!TIP]
 >
->También puede revisar [las novedades de la documentación de Commerce Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html#what%E2%80%99s-new) y [las novedades de las guías operativas](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new).
+>También puede revisar [las novedades de la documentación de Commerce Services](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html#what%E2%80%99s-new) y [las novedades de las guías operativas](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new).
 
 | Descripción | Tipo | Fecha |
 | ----------- | ---- | ---- |
@@ -127,12 +127,12 @@ Magento Open Source es la base de código a la que Adobe contribuye oficialmente
 | **Versión 1.4.0 de B2B** - El tema [Iniciar presupuesto para un comprador](../b2b/sales-rep-initiates-quote.md) ahora está incluido en la _Guía B2B de Adobe Commerce_. Describe cómo un vendedor puede crear una oferta para que un comprador específico inicie el proceso de negociación. | Nuevo | 06/13/23 |
 | **Versión B2B 1.4.0** - [Negociar una oferta](../b2b/quote-price-negotiation.md), [Ofertas negociables](../b2b/quotes.md) y [Habilitar características B2B](../b2b/enable-basic-features.md) temas actualizados para reflejar los cambios para las ofertas iniciadas por el vendedor y las características predeterminadas. | Actualizar | 06/13/23 |
 | **Versión 2.2.0 de integración de Adobe IMS** - El tema [Deshabilitar la integración de administración de Commerce con Adobe ID](../getting-started/adobe-ims-disable.md) ahora se incluye en la _Guía de introducción_. Describe un procedimiento opcional para desactivar la integración de Adobe Commerce Admin con Adobe IMS. | Nuevo | 06/13/23 |
-| **Versión de integración de Adobe IMS 2.2.0** - Cambios en la [descripción general de la integración del servicio Identity Management de Adobe (IMS)](../getting-started/adobe-ims-integration-overview.md) y en [Configuración de la integración de administración de Commerce con Adobe ID](../getting-started/adobe-ims-config.md) temas para reflejar la funcionalidad actualizada. | Actualizar | 06/13/23 |
+| **Versión 2.2.0 de integración de Adobe IMS** - Cambios en la [descripción general de la integración del servicio Adobe Identity Management (IMS)](../getting-started/adobe-ims-integration-overview.md) y en los temas [Configuración de la integración de administración de Commerce con Adobe ID](../getting-started/adobe-ims-config.md) para reflejar la funcionalidad actualizada. | Actualizar | 06/13/23 |
 | **[!DNL Audience Activation]**: en el tema [[!DNL Audience Activation]](../customers/audience-activation.md) se incluye información nueva, actualizada y mejorada para reflejar la interfaz de usuario de configuración de [!DNL Experience Platform Connector] y cómo utilizar una instancia de Commerce sin encabezado con reglas de precios de carro de compras y bloques dinámicos. | Actualizar | 06/13/23 |
 | **Degradación de la API de UPS**: se ha actualizado el tema [Servicio de paquete de United (UPS)](../stores-purchase/ups.md) y la página de referencia de configuración de [Métodos de envío](../configuration-reference/sales/delivery-methods.md#ups) para reflejar la obsolescencia temporal de las API de UPS para generar nuevas claves de API. | Actualizar | 06/08/23 |
 | **Versión 2.4.6** - Se han actualizado los temas de [Lista de productos](../catalog/products-list.md) y [Referencia de configuración del administrador](../configuration-reference/advanced/admin.md) para incluir información sobre las limitaciones de visualización de productos que se pueden usar para mejorar el rendimiento de catálogos grandes. | Actualizar | 03/14/23 |
 | **Versión 2.4.6** - Se han actualizado los temas [Crear y eliminar segmentos de clientes](../customers/customer-segment-create.md) y [Referencia de configuración del cliente](../configuration-reference/customers/customer-configuration.md) para incluir información sobre la validación en tiempo real de segmentos. | Actualizar | 03/14/23 |
-| **Versión 2.4.6** - Se han actualizado los temas de [Referencia de configuración del Braintree](../stores-purchase/braintree.md) y [Braintree](../configuration-reference/sales/braintree.md) para reflejar las nuevas opciones de pago y las opciones actualizadas que admite la integración de Braintree integrada. | Actualizar | 03/14/23 |
+| **Versión 2.4.6** - Se han actualizado los temas de [Braintree](../stores-purchase/braintree.md) y [referencia de configuración de Braintree](../configuration-reference/sales/braintree.md) para que reflejen las nuevas opciones de pago y las opciones actualizadas que admite la integración de Braintree integrada. | Actualizar | 03/14/23 |
 | **Versión 2.4.6** - Se han actualizado los temas [Configuración de moneda](../stores-purchase/currency-configuration.md) y [Configuración de moneda](../configuration-reference/general/currency-setup.md) para incluir la nueva opción [!DNL Fixer API] (APILayer). | Actualizar | 03/14/23 |
 | **Versión 2.4.6** - Se han actualizado los temas [Configurar comunicaciones por correo electrónico](../systems/email-communications.md) y [Referencia de configuración del sistema](../configuration-reference/advanced/system.md#uicontrol-mail-sending-settings) para incluir la nueva opción SMTP para comunicaciones por correo electrónico. | Actualizar | 03/14/23 |
 | **Versión 2.4.6** - Se han actualizado las [Notas de la versión de Inventory management](../inventory-management/release-notes.md) con una lista descriptiva de correcciones incluidas en la última versión de extensión empaquetada (v1.2.6). | Actualizar | 03/14/23 |

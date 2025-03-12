@@ -1,14 +1,14 @@
 ---
-user-guide-title: "[!DNL Page Builder] Guía del usuario"
+user-guide-title: Guía del usuario de [!DNL Page Builder]
 user-guide-description: Aprenda a utilizar las características de  [!DNL Page Builder] para crear páginas con contenido enriquecido con diseños personalizados que mejoren su narración visual y promuevan la participación y lealtad de los clientes.
-breadcrumb-title: "[!DNL Page Builder]"
+breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 5%
+source-wordcount: '81'
+ht-degree: 7%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 5%
    - [Encabezado](heading.md)
    - [Botones](buttons.md)
    - [Divisor](divider.md)
-   - [Código de HTML](html-code.md)
+   - [Código HTML](html-code.md)
 - Medios {#media}
    - [Imagen](image.md)
    - [Vídeo](video.md)
@@ -44,7 +44,7 @@ ht-degree: 5%
    - [Bloquear](block.md)
    - [Bloque dinámico](dynamic-block.md)
    - [Productos](products.md)
-   - [Product Recommendations](recommendations.md)
+   - [Recomendaciones de productos](recommendations.md)
 - [Plantillas](templates.md)
-- [Volver a las guías del comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Volver a las guías del usuario administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

@@ -1,13 +1,13 @@
 ---
 user-guide-title: Guía de experiencia de compra y tienda
-user-guide-description: Información completa para administradores de sitios, agentes de servicio al cliente y gestores de ventas que trabajan en Adobe Commerce y Magento Open Source.
+user-guide-description: Información completa para administradores de sitios, agentes de servicio de atención al cliente y administradores de ventas que trabajan en Adobe Commerce y Magento Open Source.
 breadcrumb-title: Tiendas y experiencia de compra
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '320'
 ht-degree: 3%
 
 ---
@@ -131,5 +131,5 @@ ht-degree: 3%
       + [Resumen de etiquetas de envío](shipping-labels.md)
       + [Configurar etiquetas de envío](shipping-label-configure.md)
       + [Crear etiquetas de envío](shipping-label-create.md)
-+ [Volver a las guías del comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Volver a las guías del usuario administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

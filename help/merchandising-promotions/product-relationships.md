@@ -3,7 +3,7 @@ title: Relaciones de producto
 description: Obtenga información acerca de los tipos de relación de productos que puede usar para promocionar productos a compradores segmentados.
 exl-id: 180352dc-65bf-4264-8287-9bf30f368ca1
 feature: Merchandising, Products
-source-git-commit: f9d1f66f8fb8d5c00bfa298234ab22becec33f56
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
@@ -34,6 +34,6 @@ Al crear o actualizar un producto, la [configuración del producto](../catalog/p
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) [Las reglas de productos relacionados](product-related-rules.md) le permiten seleccionar la selección de productos que se presentan a los clientes como productos relacionados, ventas adicionales y ventas cruzadas.
 
-## Recommendations de productos con tecnología de Adobe Sensei
+## Recomendaciones de productos con tecnología de Adobe Sensei
 
-![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) [Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html) con tecnología Adobe Sensei simplifica el proceso de definición de relaciones de productos mediante inteligencia artificial y algoritmos de aprendizaje automático para realizar un análisis profundo de los datos de visitantes agregados. Estos datos, cuando se combinan con su catálogo de Adobe Commerce, generan experiencias muy atractivas, relevantes y personalizadas para el comprador.
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) [Product Recommendations](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html) con tecnología de Adobe Sensei simplifica el proceso de definición de relaciones de productos mediante inteligencia artificial y algoritmos de aprendizaje automático para realizar un análisis profundo de los datos de visitantes agregados. Estos datos, cuando se combinan con su catálogo de Adobe Commerce, generan experiencias muy atractivas, relevantes y personalizadas para el comprador.

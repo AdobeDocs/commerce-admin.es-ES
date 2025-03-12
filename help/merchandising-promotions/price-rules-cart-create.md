@@ -3,7 +3,7 @@ title: Crear una regla de precios de carro
 description: Aprenda a crear una regla de precios de carro de compras basada en el carro de compras o en los atributos del producto.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '3386'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Complete los siguientes pasos para agregar una regla, describir las condiciones 
 
      ![Regla de precio del carro de compras - configuración del cupón](./assets/price-rule-cart-coupon-settings-ee.png){width="600" zoomable="yes"}
 
-   - ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Usa _Calendario_ (![Icono de calendario](../assets/icon-calendar.png)) para elegir el intervalo de fechas de **[!UICONTROL From]** y **[!UICONTROL To]** para la promoción.
+   - ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Usa el _Calendario_ (![icono de calendario](../assets/icon-calendar.png)) para elegir el intervalo de fechas de **[!UICONTROL From]** y **[!UICONTROL To]** para la promoción.
 
 1. Introduzca un número para definir el **[!UICONTROL Priority]** de esta regla de precio en relación con la configuración de acción de otras reglas de precio que estén activas al mismo tiempo.
 
@@ -71,7 +71,7 @@ Complete los siguientes pasos para agregar una regla, describir las condiciones 
 
 1. Haga clic en **[!UICONTROL Save and Continue Edit]**.
 
-   - ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source): una vez guardada la regla, el nombre de la regla de precios del carro de compras aparecerá en la parte superior de la página.
+   - ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Una vez guardada la regla, el nombre de la regla de precios del carro de compras aparecerá en la parte superior de la página.
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Una vez guardada la regla, el nombre de la regla de precios del carro de compras y el cuadro [Cambios programados](price-rule-cart-scheduled-changes.md) aparecerán en la parte superior de la página.
 
@@ -219,7 +219,7 @@ Puede establecer una condición para una regla de precio del carro de compras ba
    | `Name` | Nombre de la audiencia, como `Orders over $50` |
    | `Description` | Descripción de la audiencia, como `People who placed an order over $50 in the last month.`. |
    | `Source` | Indica la procedencia de la audiencia, como `Experience Platform`. |
-   | `Website` | Indica qué sitio web ha vinculado al conjunto de datos que contiene las audiencias. Este vínculo se crea al conectar la instancia de Commerce al Experience Platform mediante la extensión [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html). |
+   | `Website` | Indica qué sitio web ha vinculado al conjunto de datos que contiene las audiencias. Este vínculo se crea al conectar la instancia de Commerce a Experience Platform mediante la extensión [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html). |
 
    {style="table-layout:auto"}
 

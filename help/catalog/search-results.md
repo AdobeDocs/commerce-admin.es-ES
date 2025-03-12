@@ -3,7 +3,7 @@ title: Resultados de búsqueda
 description: Obtenga información sobre cómo configurar el modo en que los productos coinciden con los criterios de búsqueda introducidos en el cuadro Búsqueda rápida o en el formulario Búsqueda avanzada.
 exl-id: c721fb3b-ee31-4d2b-b4ea-9ae2c80aa800
 feature: Catalog Management, Search
-source-git-commit: 4b2e1dd87a39c9be1adc49d867e44d306a969854
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Esta página describe la funcionalidad de búsqueda estándar que podría diferir de [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
+>Esta página describe la funcionalidad de búsqueda estándar que podría diferir de [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
 
 La lista _Resultados de búsqueda_ incluye todos los productos que coinciden con los criterios de búsqueda especificados en el cuadro Búsqueda rápida o en el formulario Búsqueda avanzada. Cada lista de productos del catálogo tiene esencialmente los mismos controles. La única diferencia es que uno es el resultado de una consulta de búsqueda y la otra diferencia es el resultado de [navegación](navigation.md).
 

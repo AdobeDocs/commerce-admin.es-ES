@@ -3,7 +3,7 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL Pa
 description: Revise las opciones de configuración en la sección [!UICONTROL Payment Services] de la página [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] del administrador de Commerce.
 exl-id: 255b7bd8-1d32-4393-9eba-43dc7754c752
 feature: Configuration, Payments
-source-git-commit: bf166c1debd7f10a4d988d231a1a47f32c4cea9e
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 
 
-Payment Services proporciona una solución de autoservicio llave en mano, que incluye pruebas de zona protegida y una configuración sencilla para proporcionar un procesamiento de pagos sólido y seguro. Para obtener más información, consulte la [_Guía del usuario de servicios de pago_](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
+Payment Services proporciona una solución de autoservicio llave en mano, que incluye pruebas de zona protegida y una configuración sencilla para proporcionar un procesamiento de pagos sólido y seguro. Para obtener más información, consulte la [_Guía del usuario de servicios de pago_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html).
 
 Para acceder a los ajustes de configuración de Payment Services, en la barra lateral de _Admin_, ve a **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** y haz clic en **[!UICONTROL Settings]**.
 
@@ -22,7 +22,7 @@ Para acceder a los ajustes de configuración de Payment Services, en la barra la
 
 >[!NOTE]
 >
->Para usar la configuración heredada en lugar de [Configuración](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/settings.html), consulte [Configuración heredada](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html).
+>Para usar la configuración heredada en lugar de [Configuración](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html), consulte [Configuración heredada](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/configure-admin.html).
 
 ## [!UICONTROL General]
 
@@ -46,10 +46,10 @@ Para acceder a los ajustes de configuración de Payment Services, en la barra la
 |---|---|---|
 | [!UICONTROL Title] | vista de tienda | Añade el texto que se mostrará como el título de esta opción de pago en la vista Método de pago durante el cierre de compra. |
 | [!UICONTROL Payment Action] | sitio web | La [acción de pago](payment-methods.md#payment-actions) para el método de pago especificado. Opciones: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
-| [!UICONTROL 3DS Secure authentication] | sitio web | Habilitar o deshabilitar la [autenticación segura de 3DS](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/security-compliance/security.html#3ds). Opciones: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
+| [!UICONTROL 3DS Secure authentication] | sitio web | Habilitar o deshabilitar la [autenticación segura de 3DS](https://experienceleague.adobe.com/docs/commerce/payment-services/security-compliance/security.html#3ds). Opciones: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
 | [!UICONTROL Show on checkout page] | sitio web | Habilitar o deshabilitar los campos de tarjeta de crédito para mostrar en la página de cierre de compra. Opciones: [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Vault enabled] | vista de tienda | Habilitar o deshabilitar el depósito de [tarjetas de crédito](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html). Opciones: [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show vaulted payment methods in Admin] | vista de tienda | Habilite o deshabilite la capacidad para completar pedidos de clientes del administrador [mediante un método de pago abovedado](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html). Opciones: [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Vault enabled] | vista de tienda | Habilitar o deshabilitar el depósito de [tarjetas de crédito](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html). Opciones: [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show vaulted payment methods in Admin] | vista de tienda | Habilite o deshabilite la capacidad para completar pedidos de clientes del administrador [mediante un método de pago abovedado](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html). Opciones: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | sitio web | Habilite o deshabilite el modo de depuración. Opciones: [!UICONTROL Yes] / [!UICONTROL No] |
 
 {style="table-layout:auto"}

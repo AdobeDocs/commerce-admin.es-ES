@@ -1,22 +1,21 @@
 ---
-user-guide-title: Guía de introducción de Adobe Commerce
-user-guide-description: Si es nuevo en Adobe Commerce o Magento Open Source, descubra los recursos del ecosistema  [!DNL Commerce] y siga el recorrido del cliente para explorar su tienda y obtener información sobre las características clave.
+user-guide-title: Guía de introducción al administrador de Adobe Commerce
+user-guide-description: Si es nuevo en el administrador de Adobe Commerce o Magento Open Source, descubra los recursos del ecosistema  [!DNL Commerce] y siga el recorrido del cliente para explorar su tienda y obtener información sobre las funciones de administración clave.
 breadcrumb-title: Primeros pasos
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 0c634e3c87dc2dca76cc915bc56356f0d825cfa8
+source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '217'
 ht-degree: 1%
 
 ---
 
 
-# Guía de introducción de Adobe Commerce {#start}
+# Guía de introducción al administrador de Adobe Commerce {#start}
 
-+ [Guía de introducción de Adobe Commerce](guide-overview.md)
-+ [¿Qué es Adobe Commerce?](about.md)
++ [Guía de introducción al administrador de Adobe Commerce](guide-overview.md)
 + [Credenciales y direcciones URL de inicio de sesión](login-urls.md)
 + Cuentas de Commerce {#commerce-account}
    + [Cree y acceda a su cuenta](commerce-account-create.md)
@@ -39,7 +38,7 @@ ht-degree: 1%
 + El administrador {#admin}
    + [¿Qué es el administrador?](admin.md)
    + [Su cuenta de usuario administrador](admin-signin.md)
-   + Integración del servicio Identity Management de Adobe (IMS) {#ims}
+   + Integración del servicio Adobe Identity Management (IMS) {#ims}
       + [Resumen de integración de IMS](adobe-ims-integration-overview.md)
       + [Configuración de la integración de administración con IMS](adobe-ims-config.md)
       + [Desactivación de la integración de administración con IMS](adobe-ims-disable.md)
@@ -77,5 +76,5 @@ ht-degree: 1%
    + [Ecosistema](resources.md)
    + [Extensiones](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Volver a las guías del comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Volver a las guías del usuario administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

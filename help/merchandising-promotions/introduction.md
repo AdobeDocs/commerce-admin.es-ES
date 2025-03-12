@@ -2,7 +2,7 @@
 title: Introducción a las promociones y comercialización de Commerce
 description: Conozca las herramientas de Commerce para crear promociones segmentadas y oportunidades para la captación de clientes.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 1%
@@ -27,7 +27,7 @@ _Comercialización_ es un término que se usa en el comercio minorista para desc
 
 >[!TIP]
 >
->Para obtener más información sobre Product Recommendations y cómo pueden proporcionarle la información y el control que necesita para crear la mejor experiencia para sus compradores, consulte la [Guía del usuario de Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html).
+>Para obtener más información sobre las recomendaciones de productos y cómo pueden proporcionarte la información y el control que necesitas para crear la mejor experiencia para tus compradores, consulta la [Guía del usuario de recomendaciones de productos](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
 
 ## Promociones
 
@@ -66,7 +66,7 @@ Una de las tareas a completar antes de lanzar su tienda es revisar las plantilla
 
 >[!NOTE]
 >
->Las versiones 2.4.0 a 2.4.3 de Adobe Commerce y Magento Open Source incluían la extensión dotdigital desarrollada por el proveedor que se utilizó para integrarse con dotdigital Engagement Cloud. A partir de la versión 2.4.4, esta extensión ya no se integra con la versión principal y debe instalarse y actualizarse desde el Commerce Marketplace. Marketplace también proporciona acceso a la documentación actual proporcionada por el desarrollador de extensiones.
+>Las versiones 2.4.0 a 2.4.3 de Adobe Commerce y Magento Open Source incluían la extensión dotdigital desarrollada por el proveedor que se utilizó para integrarse con dotdigital Engagement Cloud. A partir de la versión 2.4.4, esta extensión ya no se integra con la versión principal y debe instalarse y actualizarse desde Commerce Marketplace. Marketplace también proporciona acceso a la documentación actual proporcionada por el desarrollador de extensiones.
 ><br><br>
 >Si tiene la extensión agrupada habilitada y configurada, debe actualizar el archivo composer.json como parte del proceso de actualización de la versión 2.4.4 y administrar las actualizaciones de extensión que se realicen. Consulte [Módulos de actualización](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) en la _Guía de actualización_ para obtener más información.
 
@@ -84,7 +84,7 @@ La configuración de su tienda está integrada con las siguientes herramientas d
 >
 >A partir de la versión 2.4.5, la integración de servicios de Google se actualiza para admitir el uso de las API de GTag. GTag es un mecanismo unificado para la integración con la funcionalidad de Google para páginas web y admite las funciones y oportunidades más recientes para el seguimiento y la administración de contenido mediante los servicios de Google. Para obtener más información, consulte la [documentación para desarrolladores de Google Analytics](https://developers.google.com/analytics/devguides/collection/gtagjs).
 
-- [Google Analytics](google-analytics.md): use Google Universal Analytics para definir métricas y dimensiones personalizadas adicionales para el seguimiento, con compatibilidad para interacciones de aplicaciones móviles y sin conexión, y acceso a actualizaciones en curso.
+- [Google Analytics](google-analytics.md): utiliza Google Universal Analytics para definir dimensiones y métricas personalizadas adicionales para el seguimiento, con compatibilidad para interacciones de aplicaciones móviles y sin conexión, y acceso a actualizaciones en curso.
 
 - [Experimentos con contenido de Google](google-content-experiments.md): configure una prueba A/B de productos, categorías o páginas de contenido con contenido de Google Analytics
 

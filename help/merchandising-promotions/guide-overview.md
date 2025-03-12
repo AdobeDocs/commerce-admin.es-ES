@@ -2,16 +2,16 @@
 title: Guía de promociones y comercialización
 description: Explore información detallada acerca de las funciones promocionales y de comercialización de Adobe Commerce, incluidos los descuentos y eventos segmentados.
 exl-id: 76ba1e08-3afd-409c-8376-d07e98095d26
-source-git-commit: 06c3676d4446dedd44b1be2cff021fabe0ad6fe3
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
 
 # Guía de promociones y comercialización de Adobe Commerce
 
-Esta guía está dirigida a los comerciantes y al personal de marketing que trabajan en Adobe Commerce y Magento Open Source. Proporciona información detallada sobre las funciones promocionales y de comercialización, incluidos los descuentos y eventos segmentados. Supone una comprensión básica de la configuración y la funcionalidad principales de [!DNL Commerce].
+Esta guía está dirigida a los comerciantes y al personal de marketing que trabajan en Adobe Commerce y en el administrador de Magento Open Source. Proporciona información detallada sobre las funciones promocionales y de comercialización, incluidos los descuentos y eventos segmentados. Supone una comprensión básica de la configuración y la funcionalidad principales de [!DNL Commerce].
 
 Esta guía describe:
 
@@ -26,7 +26,7 @@ Esta guía describe:
 | [Reglas de precios de catálogo](price-rules-catalog.md) | Ofrecer productos a los compradores a un precio con descuento basado en un conjunto de condiciones definidas. |
 | [Reglas de precio del carro](price-rules-cart.md) | Aplicar descuentos a artículos del carro de compras en función de un conjunto de condiciones o cuando el cliente introduzca un código de cupón válido. |
 | [Relaciones de producto](product-relationships.md) | Promocione productos en su catálogo en otras páginas definiendo la naturaleza de la relación entre los productos. |
-| [Boletines y suscripciones](newsletters.md) | Publish y distribuya boletines informativos a los clientes suscriptores para aumentar el tráfico hacia su tienda. |
+| [Boletines y suscripciones](newsletters.md) | Publique y distribuya boletines informativos a los clientes suscriptores para aumentar el tráfico hacia su tienda. |
 | [Recordatorios de correo electrónico](email-reminder-rules.md) | Envíe recordatorios automáticamente a los clientes para que aprovechen una promoción y realicen una compra. |
 | [Optimización del motor de búsqueda](seo-overview.md) | Implemente funciones de Commerce para ajustar el contenido y la presentación del sitio y mejorar la forma en que los motores de búsqueda indexan las páginas. |
 | [Herramientas del sitio Google](google-tools.md) | Configure integraciones con las herramientas de Google para optimizar el contenido, analizar el tráfico y conectar el catálogo a los agregadores de compras y mercados. |
