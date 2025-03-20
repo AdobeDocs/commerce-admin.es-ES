@@ -3,7 +3,7 @@ title: Configuración de la integración de administración de Commerce con ID
 description: Siga este procedimiento opcional para integrar los inicios de sesión de cuenta de usuario de administrador de Adobe Commerce con Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 446fe9a5c7cc7178f5bbac0045bdea7e93a73699
+source-git-commit: 8589444a126c82f033c5b852b20493d1cf83c338
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Esta integración es compatible con los comerciantes de Commerce con usuarios administradores que tengan un Adobe ID y que deseen optimizar el inicio de sesión en los productos de Adobe Commerce y Adobe Business. Es opcional y se habilita en función de cada instancia. Solo los flujos de trabajo de usuarios administradores se ven afectados cuando está habilitada. 
+Esta integración es compatible con los comerciantes de Commerce con usuarios administradores que tengan un Adobe ID y que deseen optimizar el inicio de sesión en los productos empresariales de Adobe Commerce y Adobe. Es opcional y se habilita en función de cada instancia. Solo los flujos de trabajo de usuarios administradores se ven afectados cuando está habilitada. 
 
 >[!IMPORTANT]
 >
@@ -50,19 +50,19 @@ Una vez que un administrador o desarrollador con acceso al sistema haya completa
 
 ### Paso 1: Obtención del ID de organización de Adobe
 
-Se requiere la pertenencia a al menos una organización de IMS para habilitar esta función. Si tiene una Adobe ID, pertenece al menos a una organización de Adobe de forma predeterminada. Inicie sesión en [Adobe Admin Console](https://adminconsole.adobe.com/) para recuperar su ID de organización.
+Se requiere la pertenencia a al menos una organización de IMS para habilitar esta función. Si tiene un Adobe ID, pertenece al menos a una organización de Adobe de forma predeterminada. Inicie sesión en [Adobe Admin Console](https://adminconsole.adobe.com/) para recuperar su ID de organización.
 
 ### Paso 2: Generar un nuevo proyecto, claves de API de IMS y secreto
 
-Para crear proyectos para una organización, la cuenta Administrador de Adobe de la organización debe tener la función Administrador del sistema o Desarrollador. Consulte la [Guía de Developer Console](https://developer.adobe.com/developer-console/docs/guides/projects/).
+Para crear proyectos para una organización, la cuenta de administrador de Adobe de la organización debe tener la función de administrador del sistema o desarrollador. Consulte la [Guía de Developer Console](https://developer.adobe.com/developer-console/docs/guides/projects/).
 
 1. Inicie sesión en [Adobe Developer Console](https://developer.adobe.com/).
 1. Vaya a la ficha **[!UICONTROL Projects]** (adobe.io/projects) y haga clic en **[!UICONTROL Create a new project]**.
 1. Haga clic en **[!UICONTROL Add API]** en la página de proyecto recién creada.
 1. Seleccione **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**.
 1. Seleccione **[!UICONTROL Oauth 2.0 Web]**.
-1. Especifique **[!UICONTROL Redirect URI]**: `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
-1. Especifique **[!UICONTROL Redirect URI pattern]**: `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
+1. Especifique **[!UICONTROL Redirect URI]**: `https://<commerce_base_url>/`
+1. Especifique **[!UICONTROL Redirect URI pattern]**: `https://<commerce_base_url>/.*`
 
    Evite los puntos del nombre de host anteponiendo `\\` a los puntos. Añadir un comodín al final de la URL admite la clave secreta de administrador de Adobe Commerce.
 
@@ -71,7 +71,7 @@ Para crear proyectos para una organización, la cuenta Administrador de Adobe de
 
 ### Paso 3: Configuración de los usuarios de Adobe Commerce en Adobe Admin Console
 
-Antes de habilitar la integración, compruebe que cada cuenta de usuario de administrador de Adobe Commerce tenga una cuenta de IMS de Adobe correspondiente. Los usuarios de Adobe Commerce deben pertenecer a una organización de Adobe específica para iniciar sesión con un Adobe ID.
+Antes de habilitar la integración, compruebe que cada cuenta de usuario de administrador de Adobe Commerce tenga una cuenta de IMS de Adobe correspondiente. Los usuarios de Adobe Commerce deben pertenecer a una organización específica de Adobe para iniciar sesión con un Adobe ID.
 
 >[!TIP]
 >
