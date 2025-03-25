@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: Obtenga información acerca de [!DNL Commerce Marketplace], que ofrece a los comerciantes una selección revisada de soluciones y proporciona a los desarrolladores cualificados las herramientas, la plataforma y la ubicación privilegiada para crear un negocio próspero.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 20e1439810891b0d19cda62cc2646701ec5a778c
+source-git-commit: 7b5c331625e4c4dab0e41156722c4a8deb4aa4c0
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1293'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [Adobe Commerce Marketplace][1] es la tienda de aplicaciones que ofrece a los comerciantes una selección revisada de soluciones y proporciona a los desarrolladores calificados las herramientas, la plataforma y la ubicación idónea para crear un negocio próspero. [!DNL Commerce Marketplace] ofrece una selección de extensiones disponibles de forma gratuita, así como otras que se encuentran a la venta. Las compras se pueden pagar con tarjeta de crédito o con [PayPal][2].
 
-Todas las extensiones disponibles en [!DNL Commerce Marketplace] han pasado una revisión exhaustiva. El [Programa de calidad de la extensión][3] (EQP) combina la experiencia de [!DNL Commerce], las directrices de desarrollo y las herramientas de verificación para garantizar que todas las extensiones de Commerce Marketplace cumplan los estándares de codificación y las prácticas recomendadas. El proceso de revisión incluye tanto una comprobación automatizada como una revisión manual del control de calidad. Durante el proceso, la estructura y el código de cada extensión se examinan y prueban para detectar pruebas de infección por virus/malware y cualquier indicio de plagio. La revisión incluye un examen técnico profundo y una comprobación de coherencia realizados por un ingeniero de [!DNL Commerce], que se centran en la documentación, la estructura de codificación, el rendimiento, la escalabilidad, la seguridad y la compatibilidad con el núcleo de [!DNL Commerce].
+Todas las extensiones disponibles en [!DNL Commerce Marketplace] han pasado una revisión exhaustiva. El [Programa de calidad de extensión][3] (EQP) combina la experiencia de [!DNL Commerce], las directrices de desarrollo y las herramientas de verificación para garantizar que todas las extensiones de Commerce Marketplace cumplan los estándares de codificación y las prácticas recomendadas. El proceso de revisión incluye tanto una comprobación automatizada como una revisión manual del control de calidad. Durante el proceso, la estructura y el código de cada extensión se examinan y prueban para detectar pruebas de infección por virus/malware y cualquier indicio de plagio. La revisión incluye un examen técnico profundo y una comprobación de coherencia realizados por un ingeniero de [!DNL Commerce], que se centran en la documentación, la estructura de codificación, el rendimiento, la escalabilidad, la seguridad y la compatibilidad con el núcleo de [!DNL Commerce].
 
 Aunque puede comprar extensiones de otras fuentes, solo las extensiones disponibles en [!DNL Commerce Marketplace] se verifican mediante una amplia revisión técnica y de marketing dentro del Programa de calidad de la extensión.
 
@@ -28,7 +28,7 @@ Los siguientes recursos proporcionan un punto de partida para que los nuevos usu
 
 - [Configuración de eventos de E/S para Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
 - [Configuración de eventos para Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
-- [Configurando el SDK de la IU de administración](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
+- [Configurando SDK de IU de administración](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [Conversión de una extensión en una aplicación](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
 ### Recursos de App Builder
@@ -79,13 +79,17 @@ Puede crear varias claves de acceso para distintos fines y habilitarlas o deshab
 >
 >A partir de Adobe Commerce y Magento Open Source 2.4.0, se eliminará el Asistente para instalación web y deberá usar la línea de comandos para [instalar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) o [actualizar](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) su instancia. Este requisito también incluye [módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) y [extensiones](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
-El proceso de instalación de [!DNL Marketplace] compras es diferente para _instalaciones locales_ de Commerce que para instalaciones hospedadas en [la arquitectura de Adobe Cloud][4].
+El proceso de instalación de [!DNL Marketplace] compras es diferente para _instalaciones locales_ de Commerce que para instalaciones hospedadas en [la arquitectura de nube de Adobe][4].
 
 ![Commerce Marketplace](./assets/marketplace.png){width="600"}
 
 ## Asistencia
 
-Si necesita ayuda para instalar o utilizar una extensión, consulte primero la documentación que la acompaña. Si no encuentra la respuesta a su pregunta, utilice la información de contacto del listado de extensiones para ponerse en contacto directamente con el desarrollador. Si lo que compras en Marketplace no satisface tus necesidades, puedes [solicitar un reembolso](#refund-requests) en un plazo de 25 días a partir de la fecha de compra. El Adobe revisa todas las solicitudes de reembolso y (si está aprobado) emite el reembolso correspondiente. Para problemas relacionados con el Commerce Marketplace, comuníquese con [Soporte técnico](mailto:commercemarketplacesupport@adobe.com).
+Si necesita ayuda para instalar o utilizar una extensión, consulte primero la documentación que la acompaña. Si no encuentra la respuesta a su pregunta, utilice la información de contacto del listado de extensiones para ponerse en contacto directamente con el desarrollador. Si lo que compras en Marketplace no satisface tus necesidades, puedes [solicitar un reembolso](#refund-requests) en un plazo de 25 días a partir de la fecha de compra. Adobe revisa todas las solicitudes de reembolso y (si está aprobado) emite el reembolso correspondiente. Para problemas relacionados con Commerce Marketplace:
+
+Método 1: vaya a [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/), navegue hasta la parte inferior de la página y haga clic en [!UICONTROL Contact Us], que abrirá un formulario para enviar un ticket.
+
+Método 2: [Compatibilidad con correo electrónico](mailto:commercemarketplacesupport@adobe.com).
 
 ### Problemas de cierre de compra
 
@@ -105,7 +109,7 @@ Los problemas de inicio de sesión suelen estar relacionados con una discrepanci
 
 ### Preguntas de código abierto
 
-El equipo de soporte técnico de Marketplace resuelve problemas relacionados únicamente con los sitios [commerce.adobe.com/](https://commercemarketplace.adobe.com/) y [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Envíe preguntas sobre el Magento Open Source al [Foro de la comunidad](https://community.magento.com/) o [póngase en contacto con un socio](https://business.adobe.com/products/magento/partners.html) que pueda ayudarle con el Magento Open Source.
+El equipo de soporte técnico de Marketplace resuelve problemas relacionados únicamente con los sitios [commerce.adobe.com/](https://commercemarketplace.adobe.com/) y [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Envíe sus preguntas sobre Magento Open Source al [Foro de la comunidad](https://community.magento.com/) o [póngase en contacto con un socio](https://business.adobe.com/products/magento/partners.html) que pueda ayudarle con Magento Open Source.
 
 ### Solicitudes de reembolso
 
