@@ -3,9 +3,9 @@ title: Configuración de la integración
 description: Obtenga información sobre cómo conectar los proyectos de Adobe Commerce y Experience Manager Assets para habilitar la sincronización de recursos entre estos dos sistemas.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
+source-git-commit: 8db3e4b039ed8e020a1a2400e400df01c34f1943
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,18 @@ Para la configuración inicial, usa la regla predeterminada *Coincidir con el SK
 1. Seleccione **[!UICONTROL Save Config]** para aplicar actualizaciones e iniciar la sincronización de recursos.
 
    La actualización de configuración crea un déclencheur con el proceso de sincronización inicial, lo que permite a Commerce aceptar las actualizaciones entrantes de los AEM Assets. El tiempo necesario para la sincronización depende del volumen de recursos y de las configuraciones específicas. La integración aprovecha los procesos automatizados para minimizar el tiempo necesario para la sincronización.
+
+### Configuración de la URL del dominio personalizado
+
+Si un comerciante establece un [nombre de dominio personalizado](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name){target=_blank} en su panel de AEM, es necesario agregar esta **URL de dominio personalizado** en Commerce para que la integración de AEM Assets pueda utilizarlo.
+
+1. Vaya a **[!UICONTROL Store]** > Configuración > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**.
+
+   La integración de ![AEM Assets habilitó la integración](assets/aem-assets-view.png){width="600" zoomable="yes"}
+
+1. Agregue la **URL de dominio personalizado** al campo **[!UICONTROL Asset Custom Domain]**.
+
+1. Haga clic en **[!UICONTROL Save Config]** para aplicar actualizaciones e iniciar la sincronización de recursos.
 
 ## Siguiente paso
 
