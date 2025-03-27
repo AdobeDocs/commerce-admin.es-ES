@@ -3,9 +3,9 @@ title: Direcciones URL del catálogo y del producto
 description: Obtenga información sobre los tipos de formato de URL de los productos de catálogo y cómo configurarlos.
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-source-git-commit: 11d78b7d7b548c373cfe0ec398814994c3e99e7a
+source-git-commit: 1edab49fd8d52a1b7414eb207a21c5c03200e75e
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ La clave de URL debe constar de caracteres en minúsculas con guiones no finales
 >
 >Para ampliar las personalizaciones de URL, como las URL localizadas, consulte [Reescrituras de URL](../merchandising-promotions/url-rewrite.md) para obtener más información.
 
-### sufijo de HTML
+### Sufijo de HTML
 
 El catálogo se puede configurar para incluir o excluir el sufijo como parte de las direcciones URL de categorías y productos. Existen varias razones por las que las personas pueden elegir utilizar o omitir el sufijo. Algunos creen que el sufijo ya no sirve para ningún propósito útil, y que las páginas sin un sufijo son indexadas de manera más efectiva por los motores de búsqueda. Sin embargo, es posible que su empresa tenga un formato estandarizado para las direcciones URL que requieran un sufijo.
 
@@ -62,13 +62,13 @@ Como el sufijo está controlado por la configuración del sistema, nunca debe es
 
 ### Ruta de categoría
 
-Puede configurar la dirección URL para incluir o excluir la ruta de la categoría. De forma predeterminada, la ruta de la categoría se incluye en todas las categorías y páginas de productos. Los siguientes ejemplos muestran la misma dirección URL del producto con y sin la ruta de la categoría.
+Puede configurar las direcciones URL del producto para incluir o excluir la ruta de la categoría en función de sus preferencias. De forma predeterminada, la ruta de la categoría no se incluye en las direcciones URL de los productos. Sin embargo, las categorías anidadas siempre mostrarán la ruta de categoría completa en sus direcciones URL en la tienda, lo que garantiza claridad y coherencia en la navegación de categorías. Los siguientes ejemplos muestran la misma dirección URL del producto con y sin la ruta de la categoría.
 
-#### URL con ruta de categoría
+#### URL del producto con ruta de categoría
 
 - `http://mystore.com/women/tops-women/hoodies-and-sweatshirts-women/helena-hooded-fleece.html`
 
-#### URL sin ruta de categoría
+#### URL del producto sin ruta de categoría
 
 - `http://mystore.com/helena-hooded-fleece.html`
 
