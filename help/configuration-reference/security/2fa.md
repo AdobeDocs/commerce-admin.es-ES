@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
 description: Revise la configuración en la página [!UICONTROL Security] &gt; [!UICONTROL 2FA] del administrador de Commerce.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
+source-git-commit: 22bfff98a9189f3020de21b31705351510dcf1be
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '326'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Las tiendas que han habilitado la autenticación de Adobe Identity Management Services (IMS) tienen deshabilitada la autenticación de doble factor (2FA) nativa de Adobe Commerce y del Magento Open Source. Los usuarios administradores que han iniciado sesión en su instancia de Adobe Commerce con sus credenciales de Adobe no necesitan volver a autenticarse en muchas tareas de administración. La autenticación la gestiona Adobe IMS cuando el usuario administrador inicia sesión en su sesión actual. Consulte [Información general sobre la integración de Adobe Commerce con Adobe IMS](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
+>Las tiendas que han habilitado la autenticación de Adobe Identity Management Services (IMS) tienen deshabilitada la autenticación de doble factor (2FA) nativa de Adobe Commerce y Magento Open Source. Los usuarios administradores que han iniciado sesión en su instancia de Adobe Commerce con sus credenciales de Adobe no necesitan volver a autenticarse en muchas tareas de administración. La autenticación la gestiona Adobe IMS cuando el usuario administrador inicia sesión en su sesión actual. Consulte [Información general sobre la integración de Adobe Commerce con Adobe IMS](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
 
 {{config}}
 
@@ -49,8 +49,10 @@ Para obtener más información acerca de cómo cambiar esta configuración, cons
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Integration Key] | Global | La clave de integración de su cuenta de [!DNL Duo Security]. |
-| [!UICONTROL Secret Key] | Global | La clave secreta de su cuenta de [!DNL Duo Security]. |
+| [!UICONTROL Client Id] | Global | Identificador de cliente de su cuenta de [!DNL Duo Security]. |
+| [!UICONTROL Client Secret] | Global | Secreto de cliente de su cuenta de [!DNL Duo Security]. |
+| [!UICONTROL Integration Key] | Global | La clave de integración de su cuenta de API [!DNL Duo Security]. |
+| [!UICONTROL Secret Key] | Global | La clave secreta de su cuenta de API [!DNL Duo Security]. |
 | [!UICONTROL API Hostname] | Global | El nombre de host API de su cuenta de [!DNL Duo Security]. |
 
 {style="table-layout:auto"}

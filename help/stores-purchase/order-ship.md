@@ -3,7 +3,7 @@ title: Envío de un pedido
 description: Obtenga información sobre cómo completar la información de envío de un pedido de procesamiento y consultar la información de envío y seguimiento.
 exl-id: 60b0e66a-8ee6-4091-94ce-179cc2fdf57a
 feature: Orders, Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: abd125cc6e61850db55fb31dbcbd9dc38ac0fca5
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Un pedido que se ha pagado pero que está a la espera de envío tiene el estado 
 
    - Para publicar el comentario en la cuenta del cliente, marque la casilla de verificación **[!UICONTROL Visible on Frontend]**.
 
-1. Haga clic en **[!UICONTROL Submit Comment]**.
+1. Haga clic en **[!UICONTROL Update]**.
 
 ## Seguimiento del envío
 

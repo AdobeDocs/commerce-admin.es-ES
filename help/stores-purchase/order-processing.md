@@ -3,7 +3,7 @@ title: Flujo de trabajo y procesamiento de pedidos
 description: Obtenga información sobre el flujo de trabajo de pedidos, el estado que se aplica en cada paso y cómo mover las solicitudes a través de este proceso.
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 2c12405bbe965883179bb103bc9d746ad02cc615
 workflow-type: tm+mt
 source-wordcount: '1718'
 ht-degree: 0%
@@ -20,13 +20,13 @@ Cuando un cliente realiza un pedido, se crea un pedido de venta como un registro
 
 **Paso 3: Recibir pago** - El estado del pedido cambia a `Processing` cuando se recibe o se autoriza el pago. Según la forma de pago, podría recibir una notificación cuando la transacción se autorice o procese. Este estado se produce automáticamente cuando el método de pago se configura para el modo de captura o venta por intención.
 
-**Paso 4: Pedido de factura**: un pedido se suele facturar después de recibir el pago. El método de pago determina qué opciones de facturación son necesarias para el pedido. Una vez generada y enviada la factura, se envía una copia al cliente. Si el método de pago está configurado con la acción de pago `capture` o `intent sale`, se genera automáticamente una factura cuando se autoriza y captura el pago.
+**Paso 4: Orden** de factura: un pedido generalmente se factura después de recibir el pago. El método de pago determina qué opciones de facturación son necesarias para el pedido. Una vez generada y enviada la factura, se envía una copia al cliente. Si el método de pago está configurado con la `capture` acción de pago `intent sale` , se genera automáticamente una factura cuando se autoriza y captura el pago.
 
 >[!NOTE]
 >
->Las facturas no se crean automáticamente para los pedidos realizados mediante `Gift Card`, `Store Credit`, `Reward Points` u otros métodos de pago sin conexión.
+>Las facturas no se crean automáticamente para pedidos realizados mediante `Gift Card`, `Store Credit`, `Reward Points`u otros métodos de pago sin conexión.
 
-**Paso 5: reservar un solo envío** - El estado del pedido cambia a `Complete` cuando se completa el detalle del envío, se reserva el envío y se establece el envío. El requisito de envío se cumple con un albarán impreso y una etiqueta de envío o se selecciona _Notificar listo para la recogida_ (método de envío en tienda). El cliente recibe una notificación y se envía el paquete. Si se utilizan números de seguimiento, se puede realizar el seguimiento del envío desde la cuenta del cliente.
+**Paso 5: Reserve un solo envío** : el estado del pedido cambia a `Complete` cuando se completan los detalles del envío, se reserva el envío y se configura el envío. El requisito de envío se cumple con un albarán impreso y una etiqueta de envío o se selecciona Notificar _listo para recoger_ (método de envío en tienda). El cliente recibe notificación y el paquete es enviado. Si se utilizan números seguimiento, el envío se puede rastrear desde la cuenta del cliente.
 
 >[!NOTE]
 >
@@ -38,25 +38,25 @@ Cuando un cliente realiza un pedido, se crea un pedido de venta como un registro
 
 1. Busque el orden en la cuadrícula.
 
-1. En la columna _[!UICONTROL Action]_, haga clic en **[!UICONTROL View]**.
+1. En la _[!UICONTROL Action]_columna, haga clic en **[!UICONTROL View]**.
 
-1. Comprobar estado del pedido:
+1. Check order status:
 
-   - Un pedido `Pending` se puede modificar, retener, cancelar o facturar y enviar.
+   - A `Pending` order can be modified, put on hold, canceled, or invoiced and shipped.
 
-   - Un pedido de `Processing` ya no se puede editar ni cancelar de manera sustancial, pero sí editar la dirección de facturación y envío.
+   - A `Processing` order can no longer be substantially edited or canceled, but the billing and shipping address can be edited.
 
    - Se puede reordenar un pedido de `Completed`.
 
 El correo electrónico del cliente se puede editar en cualquier momento del flujo de trabajo del pedido editando el cliente. El correo electrónico no se puede editar si un invitado ha realizado el pedido.
 
-El panel izquierdo de una solicitud abierta proporciona acceso a diferentes tipos de información relacionados con la solicitud.
+The left panel for an open order provides access to different types of information that is related to the order.
 
-![Ver pedido](./assets/order-view.png){width="700" zoomable="yes"}
+![View Order](./assets/order-view.png){width="700" zoomable="yes"}
 
-## Procesamiento de un pedido
+## Process an order
 
-Cuando un cliente realiza un pedido, se crea un pedido de venta como un registro temporal de la transacción. El pedido de ventas tiene un estado de `Pending` hasta que se reciba el pago. Mientras se encuentre en estado `Pending`, los pedidos se pueden editar o cancelar hasta el momento en que se reciba el pago y se genere una factura. Una manera fácil de pensarlo es que los pedidos se convierten en facturas y las facturas se convierten en envíos. La cuadrícula Pedidos enumera todas las solicitudes, independientemente de su ubicación en el flujo de trabajo. Para obtener información sobre cómo ayudar a los clientes con un pedido, consulte [Actualizar un pedido](order-update.md).
+When a customer places an order, a sales order is created as a temporary record of the transaction. The sales order has a status of `Pending` until payment is received. While in `Pending` status, orders can be edited or canceled up until the time that payment is received and an invoice is generated. An easy way to think of it is that orders become invoices, and invoices become shipments. The Orders grid lists all orders, regardless of where they are in the workflow. Para obtener información sobre cómo ayudar a los clientes con un pedido, consulte [Actualizar un pedido](order-update.md).
 
 ![Pedidos](./assets/orders-grid.png){width="700" zoomable="yes"}
 
@@ -126,32 +126,32 @@ Solo los pedidos de ventas que no se facturan, tienen un estado de `Processing` 
 
 | Campo | Descripción |
 |--- |--- |
-| [!UICONTROL Order Number] | El número de pedido aparece en la parte superior del pedido de ventas, seguido de una nota que indica si se envió el correo electrónico de confirmación. |
+| [!UICONTROL Order Number] | El número de pedido aparece en la parte superior del pedido de cliente, seguido de una nota que indica si se correo electrónico enviado la confirmación. |
 | [!UICONTROL Order Date] | La fecha y la hora en que se realizó el pedido. |
 | [!UICONTROL Purchased From] | Indica el sitio web, la tienda y la vista de la tienda donde se realizó el pedido. |
 | [!UICONTROL Placed from IP] | Indica la dirección IP del equipo desde el que se realizó el pedido. |
-| [!UICONTROL Order Placed from Quote] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponible con Adobe Commerce B2B) indica el [presupuesto](../b2b/quotes.md) a partir del cual se generó el pedido, si corresponde. El nombre de la oferta está vinculado a la oferta. |
+| [!UICONTROL Order Placed from Quote] | ![Adobe Systems B2B](../assets/b2b.svg) de comercio (disponible con Adobe Systems B2B de comercio) Indica la cotización](../b2b/quotes.md) a partir de la [cual se generó el pedido, si corresponde. El nombre de la oferta está vinculado a la oferta. |
 
 {style="table-layout:auto"}
 
-#### Información de cuenta
+#### Información de la cuenta
 
 | Campo | Descripción |
 |--- |--- |
-| [!UICONTROL Customer Name] | El nombre del cliente o comprador que realizó el pedido. El nombre del cliente está vinculado al perfil del cliente. |
+| [!UICONTROL Customer Name] | The name of the customer or buyer who placed the order. The Customer Name is linked to the customer profile. |
 | [!UICONTROL Email] | La dirección de correo electrónico del cliente o comprador. La dirección de correo electrónico está vinculada para abrir un nuevo mensaje. |
 | [!UICONTROL Customer Group] | El nombre del grupo de clientes o del catálogo compartido al que está asignado el cliente. |
-| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponible con Adobe Commerce B2B) El nombre de la compañía con la que está asociado el comprador y en cuyo nombre se realiza el pedido. El nombre de la compañía está enlazado al [perfil de compañía](../b2b/account-companies.md). |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponible con Adobe Commerce B2B) El nombre de la compañía con la que está asociado el comprador y en cuyo nombre se realiza el pedido. The company name is linked to the [company profile](../b2b/account-companies.md). |
 
 {style="table-layout:auto"}
 
 ### [!UICONTROL Address Information]
 
-![Información de dirección](./assets/order-address-information.png){width="600" zoomable="yes"}
+![Address Information](./assets/order-address-information.png){width="600" zoomable="yes"}
 
-| Campo | Descripción |
+| Field | Descripción |
 |--- |--- |
-| [!UICONTROL Billing Address] | El nombre del cliente o comprador que hizo el pedido, seguido de la dirección de facturación, el número de teléfono y [IVA](vat.md), si corresponde. El número de teléfono está vinculado al marcado automático en un dispositivo móvil. |
+| [!UICONTROL Billing Address] | The name of the customer or buyer who placed the order, followed by the billing address, telephone number, and [VAT](vat.md), if applicable. The telephone number is linked to autodial on a mobile device. |
 | [!UICONTROL Shipping Address] | El nombre de la persona a cuya atención debe enviarse el pedido, seguido de la dirección de envío y el número de teléfono. El número de teléfono está vinculado al marcado automático en un dispositivo móvil. |
 
 {style="table-layout:auto"}
@@ -167,25 +167,25 @@ Solo los pedidos de ventas que no se facturan, tienen un estado de `Processing` 
 
 {style="table-layout:auto"}
 
-### Revisar artículos pedidos
+### Review items ordered
 
-![Elementos pedidos](./assets/order-items-ordered-tee.png){width="600" zoomable="yes"}
+![Items Ordered](./assets/order-items-ordered-tee.png){width="600" zoomable="yes"}
 
-En la sección **[!UICONTROL Order Total]**, haga lo siguiente:
+In the **[!UICONTROL Order Total]** section, do the following:
 
 1. Escriba un(a) **[!UICONTROL Comment]** para incluirlo en el pedido.
 
 1. Si desea enviar el comentario por correo electrónico al cliente, active la casilla de verificación **[!UICONTROL Notify Customer by Email]**.
 
-1. Si desea que el comentario esté visible en la cuenta de cliente, active la casilla de verificación **[!UICONTROL Visible on Storefront]**.
+1. If you want the comment to be visible in the customer account, select the **[!UICONTROL Visible on Storefront]** checkbox.
 
-   ![Total de pedido](./assets/order-total.png){width="600" zoomable="yes"}
+   ![Order Total](./assets/order-total.png){width="600" zoomable="yes"}
 
-1. Si está listo para facturar el pedido, haga clic en **[!UICONTROL Invoice]** y siga las instrucciones para [crear una factura](invoices.md#create-an-invoice).
+1. If you are ready to invoice the order, click **[!UICONTROL Invoice]** and follow the instructions to [create an invoice](invoices.md#create-an-invoice).
 
 #### [!UICONTROL Items Ordered]
 
-| Campo | Descripción |
+| Field | Descripción |
 |--- |--- |
 | [!UICONTROL Product] | El nombre del producto, SKU y opciones, si corresponde. |
 | [!UICONTROL Item Status] | Indica el estado del elemento. Valor: `Ordered` |
@@ -205,7 +205,7 @@ En la sección **[!UICONTROL Order Total]**, haga lo siguiente:
 | Campo | Descripción |
 |--- |--- |
 | [!UICONTROL Status] | Muestra el estado del pedido de venta. |
-| [!UICONTROL Comment] | Cuadro de texto que se utiliza para escribir un comentario para el cliente que acompaña al pedido. <br/>**[!UICONTROL Notify Customer by Email]**: seleccione la casilla de verificación si desea enviar el comentario al cliente como un correo electrónico independiente.<br/>**[!UICONTROL Visible on Storefront]**: seleccione la casilla de verificación si desea que el comentario sea visible desde la cuenta del cliente. <br/>**[!UICONTROL Submit Comment]**: envía el comentario y lo envía por correo electrónico, si corresponde. |
+| [!UICONTROL Comment] | Cuadro de texto que se utiliza para escribir un comentario para el cliente que acompaña al pedido. <br/>**[!UICONTROL Notify Customer by Email]**: seleccione la casilla de verificación si desea enviar el comentario al cliente como un correo electrónico independiente.<br/>**[!UICONTROL Visible on Storefront]**: seleccione la casilla de verificación si desea que el comentario sea visible desde la cuenta del cliente. <br/>**[!UICONTROL Update]**- Agrega el comentario y envía un correo electrónico, si corresponde. |
 
 {style="table-layout:auto"}
 
@@ -218,15 +218,15 @@ En la sección **[!UICONTROL Order Total]**, haga lo siguiente:
 | [!UICONTROL Grand Total] | El total del pedido. |
 | [!UICONTROL Total Paid] | El importe total pagado para el pedido, si corresponde. |
 | [!UICONTROL Total Refunded] | El importe total reembolsado del pedido, si corresponde. |
-| [!UICONTROL Total Due] | El importe total que vence. |
-| [!UICONTROL Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) La cantidad de crédito de tienda disponible que se aplica al pedido, si corresponde. |
-| [!UICONTROL Catalog Total Price] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponible con Adobe Commerce B2B) El precio total de los artículos de la oferta sin impuestos, según los precios del catálogo compartido o estándar que se use como base de la oferta. Si la divisa de visualización de la tienda difiere de la moneda base, el valor aparecerá en ambas divisas y la tienda se mostrará entre corchetes. |
+| [!UICONTROL Total Due] | El monto total que se debe. |
+| [!UICONTROL Store Credit] | ![Adobe Systems de Comercio](../assets/adobe-logo.svg) (solo Adobe Systems Comercio) La cantidad de crédito tienda disponible que se aplica al pedido, si corresponde. |
+| [!UICONTROL Catalog Total Price] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponible con Adobe Commerce B2B) El precio total de los artículos de la oferta sin impuestos, según los precios del catálogo compartido o estándar que se use como base de la oferta. Si la moneda de exhibición del escaparate difiere de la moneda base, el valor aparece en ambas monedas, con la pantalla del escaparate entre corchetes. |
 | [!UICONTROL Negotiated Discount] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponible con Adobe Commerce B2B) El descuento resultante de un presupuesto negociado entre el comprador y el vendedor. Si la divisa de visualización de la tienda difiere de la moneda base, el valor aparecerá en ambas divisas y la tienda se mostrará entre corchetes. |
-| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (disponible con Adobe Commerce B2B) El precio total del catálogo menos el descuento negociado. |
+| [!UICONTROL Subtotal] | ![Adobe Systems B2B](../assets/b2b.svg) de comercio (disponible con Adobe Systems B2B de comercio) El precio total del catálogo menos el descuento negociado. |
 
 {style="table-layout:auto"}
 
-## Demostración del procesamiento de pedidos
+## Demostración de procesamiento de pedidos
 
 Vea este vídeo y obtenga más información sobre el procesamiento y el estado de los pedidos:
 

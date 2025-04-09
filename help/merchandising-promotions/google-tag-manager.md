@@ -3,9 +3,9 @@ title: '[!DNL Google Tag Manager]'
 description: Aprenda a usar [!DNL Google Tag Manager] para administrar las muchas etiquetas (fragmentos de código) que están relacionadas con los eventos de campañas de marketing en los sitios de Adobe Commerce.
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
-source-git-commit: be426ca16fb7a72ebeda4a2f92c0f0062a9acc62
+source-git-commit: 22a619db0b0673dc520b9bdc5d6cd0c8ffecdf08
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Debe tener una cuenta de [!DNL Google Analytics] y [!DNL Tag Manager] para conti
 
 ## Paso 1. Configurar su cuenta de [!DNL Google Analytics]
 
-Consulte [Configurar la búsqueda en el sitio](https://support.google.com/analytics/answer/1012264) en la Ayuda de Google para conocer los conceptos básicos que necesita para empezar. Consulte también las guías de Google para [Google Analytics](https://support.google.com/analytics/answer/9304153) y [Administrador de etiquetas de Google](https://support.google.com/tagmanager/answer/6102821).
+Consulte [Configurar la búsqueda en el sitio](https://support.google.com/analytics/answer/1012264) en la Ayuda de Google para conocer los conceptos básicos que necesita para empezar. Consulte también las guías de Google para [Google Analytics](https://support.google.com/analytics/answer/9304153) y [Google Tag Manager](https://support.google.com/tagmanager/answer/6102821).
 
 1. Inicie sesión en su cuenta de [!DNL Google Analytics].
 
@@ -142,7 +142,7 @@ Las siguientes instrucciones muestran cómo configurar un nuevo contenedor con l
 
 | Campo | Ámbito | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Enable] | Vista de tienda | Determina si se puede utilizar el comercio electrónico mejorado de Google Analytics para analizar la actividad en la tienda. Opciones: `Yes` / `No` |
+| [!UICONTROL Enable] | Vista de tienda | Determina si se puede utilizar Google Analytics Enhanced Ecommerce para analizar la actividad de la tienda. Opciones: `Yes` / `No` |
 | [!UICONTROL Account type] | Vista de tienda | Determina el código de seguimiento de Google que se utiliza para supervisar la actividad y el tráfico de la tienda. Opciones: `Google Analytics` / `Google Tag Manager` |
 | [!UICONTROL Anonymize IP] | Vista de tienda | Determina si se elimina la información de identificación de las direcciones IP que aparecen en los resultados de Google Analytics. |
 | [!UICONTROL Enable Content Experiments] | Vista de tienda | Activa los experimentos de contenido de Google, que pueden utilizarse para probar hasta diez versiones diferentes de la misma página. Opciones: `Yes` / `No` |
@@ -210,3 +210,55 @@ Continuando desde el panel [!DNL Google Tag Manager], el siguiente paso es crear
 ### Paso 3. Previsualización y publicación
 
 El siguiente paso del proceso es obtener una vista previa de la etiqueta. Cada vez que se obtiene una vista previa de la etiqueta, se guarda una instantánea de la versión. Cuando esté satisfecho con los resultados, vaya a la versión que desee usar y haga clic en **[!UICONTROL Publish]**.
+
+## Etiqueta personalizada de HTML con JavaScript
+
+En esta sección se explica cómo agregar un nonce de CSP a HTML Tag JavaScript personalizado para su ejecución en la página de cierre de compra, lo que garantiza el cumplimiento de los requisitos de la Política de seguridad de contenido (CSP). Esta adición mejora la seguridad del sitio al evitar la ejecución de scripts no autorizados. Para obtener información más detallada, consulte la documentación de [Política de seguridad de contenido](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+
+>[!NOTE]
+>
+>La importación de la variable global `cspNonce` en Google Tag Manager solo es compatible con la versión 2.4.8 y posteriores de Adobe Commerce.
+
+>[!WARNING]
+>
+>Añadir secuencias de comandos desconocidas a la tienda puede poner en peligro los datos. Los scripts autorizados en la página de pago pueden robar información confidencial del cliente, incluidos los detalles de pago. Es esencial tomar precauciones para proteger la cuenta de Google Tag Manager. Agregue solo scripts de confianza, revise y audite regularmente sus etiquetas e implemente medidas de seguridad sólidas como autenticación de doble factor (2FA) y controles de acceso.
+
+### Paso 1. Crear una variable nonce de CSP
+
+Puede crear una variable nonce CSP que se puede utilizar en el Administrador de etiquetas de Google importando la configuración de la variable o configurándola manualmente.
+
+#### Importar la configuración de la variable
+
+La variable de seguridad CSP está incluida en el contenedor de ejemplo [GTM_M2_Config_json.txt](./assets/GTM_M2_Config_json.txt). Puede crear la variable importando este código en el espacio de trabajo.
+
+#### Crear la variable manualmente
+
+Si no puede importar la configuración de la variable, complete los siguientes pasos para crearla.
+
+1. En su área de trabajo, vaya a la sección **Variables** de la barra lateral.
+1. Haga clic en el botón **Nuevo** en la parte inferior de la página en la sección **Variables definidas por el usuario**.
+1. Asigne un nombre a la variable `gtmNonce`.
+1. Haga clic en el icono de lápiz para editar la variable.
+1. Seleccione **Variable JavaScript** de la sección **Variable de página**.
+1. En el campo **Nombre de variable global**, escriba `window.cspNonce`.
+1. Guarde la variable.
+
+Para obtener más información acerca de [Variables de Google Tag Manager](https://support.google.com/tagmanager/answer/7683056?hl=en), consulte [Tipos de variables definidas por el usuario para la web](https://support.google.com/tagmanager/answer/7683362?hl=en) en la documentación de Google. Esta documentación ofrece instrucciones detalladas sobre la creación y administración de variables personalizadas para adaptar la administración de etiquetas a necesidades específicas de marketing y análisis.
+
+### Paso 2. Crear una etiqueta personalizada de HTML
+
+1. En su área de trabajo, vaya a la sección **Etiquetas** de la barra lateral.
+1. Haga clic en el botón **Nuevo**.
+1. En la sección **Configuración de etiqueta**, seleccione **Etiqueta personalizada de HTML**.
+1. Escriba el JavaScript necesario en el área de texto y agregue un atributo nonce a la etiqueta `<script>` de apertura que apunte a la variable que creó en el paso anterior. Por ejemplo:
+
+   ```html
+   <script nonce="{{gtmNonce}}">
+       // Your JavaScript code here
+   </script>
+   ```
+
+1. Seleccione **Documento de asistencia.write**.
+1. En la sección **Activación**, seleccione el déclencheur que desee. Por ejemplo, **Inicialización del consentimiento - Todas las páginas**.
+
+Para obtener más información sobre [Etiquetas](https://support.google.com/tagmanager/answer/3281060) en el Administrador de etiquetas de Google, consulte [Etiquetas personalizadas](https://support.google.com/tagmanager/answer/6107167) en la documentación de Google.

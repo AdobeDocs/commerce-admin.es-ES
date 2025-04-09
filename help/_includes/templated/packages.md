@@ -1,7 +1,7 @@
 ---
-source-git-commit: 5e1777aad33e743340c7fdf90cbdb473b6c23689
+source-git-commit: fefaf699dda58e9c908c6b85b0cc16432edb90b6
 workflow-type: tm+mt
-source-wordcount: '2000'
+source-wordcount: '2078'
 ht-degree: 0%
 
 ---
@@ -23,59 +23,75 @@ Adobe Commerce B2B usa Composer para administrar paquetes PHP.
 
 El archivo `composer.json` declara la lista de paquetes, mientras que el archivo `composer.lock` almacena una lista completa de los paquetes (una versión completa de cada paquete y sus dependencias) utilizados para generar una instalación de Adobe Commerce B2B.
 
-La siguiente documentación de referencia se genera a partir del archivo `composer.lock` y abarca los paquetes necesarios incluidos en Adobe Commerce B2B 1.4.2.
+La siguiente documentación de referencia se genera a partir del archivo `composer.lock` y abarca los paquetes necesarios incluidos en Adobe Commerce B2B 1.5.2.
 
 ## Dependencias
 
-`magento/extension-b2b 1.4.2` tiene las dependencias siguientes:
+`magento/extension-b2b 1.5.2` tiene las dependencias siguientes:
 
 ```config
-magento/framework: >=103.0.6 <=103.0.7
-magento/magento2-b2b-base: 1.4.2
-magento/module-b2b: 100.4.1
-magento/module-bundle-negotiable-quote: 100.4.0
-magento/module-bundle-requisition-list: 100.4.0
-magento/module-bundle-requisition-list-graph-ql: 1.4.0
-magento/module-bundle-shared-catalog: 100.4.0
-magento/module-checkout-address-search-negotiable-quote: 100.4.1
-magento/module-checkout-agreements-negotiable-quote: 100.4.0
-magento/module-checkout-agreements-purchase-order: 1.4.0
-magento/module-company: 101.2.1
-magento/module-company-credit: 100.4.0
-magento/module-company-credit-graph-ql: 1.4.0
-magento/module-company-graph-ql: 1.4.0
-magento/module-company-payment: 100.4.0
-magento/module-company-shipping: 1.4.0
-magento/module-configurable-negotiable-quote: 100.4.0
-magento/module-configurable-requisition-list: 100.4.1
-magento/module-configurable-requisition-list-graph-ql: 1.4.0
-magento/module-configurable-shared-catalog: 100.4.0
-magento/module-downloadable-requisition-list-graph-ql: 1.4.0
-magento/module-gift-card-negotiable-quote: 100.4.0
-magento/module-gift-card-requisition-list: 100.4.0
-magento/module-gift-card-requisition-list-graph-ql: 1.4.0
-magento/module-gift-card-shared-catalog: 100.4.0
-magento/module-grouped-requisition-list: 100.4.0
-magento/module-grouped-shared-catalog: 100.4.0
-magento/module-negotiable-quote: 100.4.2
-magento/module-negotiable-quote-async-order: 1.4.1
-magento/module-negotiable-quote-graph-ql: 1.4.0
-magento/module-negotiable-quote-shared-catalog: 100.4.1
-magento/module-negotiable-quote-weee: 100.4.1
-magento/module-order-history-search: 100.4.2
-magento/module-paypal-negotiable-quote: 1.4.1
-magento/module-paypal-purchase-order: 1.4.0
-magento/module-purchase-order: 100.4.1
-magento/module-purchase-order-graph-ql: 1.4.0
-magento/module-purchase-order-rule: 100.4.0
-magento/module-purchase-order-rule-graph-ql: 1.4.0
-magento/module-quick-order: 100.4.0
-magento/module-quick-order-graph-ql: 1.4.0
-magento/module-requisition-list: 100.4.1
-magento/module-requisition-list-graph-ql: 1.4.0
-magento/module-shared-catalog: 100.4.1
-magento/module-shared-catalog-graph-ql: 1.4.0
-magento/security-package-b2b: 1.0.4
+magento/framework: >=103.0.6 <103.0.9
+magento/magento2-b2b-base: 1.5.2
+magento/module-b2b: 100.5.2
+magento/module-bundle-negotiable-quote: 100.5.1
+magento/module-bundle-requisition-list: 100.5.1
+magento/module-bundle-requisition-list-graph-ql: 1.5.1
+magento/module-bundle-shared-catalog: 100.5.1
+magento/module-checkout-address-search-negotiable-quote: 100.5.1
+magento/module-checkout-agreements-negotiable-quote: 100.5.1
+magento/module-checkout-agreements-purchase-order: 1.5.1
+magento/module-company: 102.0.2
+magento/module-company-asynchronous-operations: 1.5.1
+magento/module-company-credit: 100.5.2
+magento/module-company-credit-graph-ql: 1.5.1
+magento/module-company-customer-import-export: 1.5.0
+magento/module-company-graph-ql: 1.5.2
+magento/module-company-negotiable-quote: 1.5.1
+magento/module-company-negotiable-quote-template: 1.5.1
+magento/module-company-payment: 100.5.1
+magento/module-company-quote: 1.5.2
+magento/module-company-quote-graph-ql: 1.5.2
+magento/module-company-relation: 1.5.2
+magento/module-company-relation-shared-catalog: 1.5.1
+magento/module-company-shipping: 1.5.1
+magento/module-configurable-negotiable-quote: 100.5.1
+magento/module-configurable-requisition-list: 100.5.1
+magento/module-configurable-requisition-list-graph-ql: 1.5.1
+magento/module-configurable-shared-catalog: 100.5.1
+magento/module-downloadable-company: 1.5.1
+magento/module-downloadable-requisition-list-graph-ql: 1.5.1
+magento/module-gift-card-negotiable-quote: 100.5.1
+magento/module-gift-card-requisition-list: 100.5.1
+magento/module-gift-card-requisition-list-graph-ql: 1.5.1
+magento/module-gift-card-shared-catalog: 100.5.1
+magento/module-grouped-requisition-list: 100.5.1
+magento/module-grouped-shared-catalog: 100.5.1
+magento/module-negotiable-quote: 101.0.2
+magento/module-negotiable-quote-async-order: 1.5.1
+magento/module-negotiable-quote-duplicate: 1.5.2
+magento/module-negotiable-quote-duplicate-graph-ql: 1.5.1
+magento/module-negotiable-quote-graph-ql: 1.5.1
+magento/module-negotiable-quote-requisition-list: 1.5.1
+magento/module-negotiable-quote-requisition-list-graph-ql: 1.5.1
+magento/module-negotiable-quote-shared-catalog: 100.5.1
+magento/module-negotiable-quote-template: 1.5.2
+magento/module-negotiable-quote-template-graph-ql: 1.5.2
+magento/module-negotiable-quote-template-shared-catalog: 1.5.1
+magento/module-negotiable-quote-weee: 100.5.1
+magento/module-order-history-search: 100.5.2
+magento/module-paypal-negotiable-quote: 1.5.1
+magento/module-paypal-purchase-order: 1.5.1
+magento/module-purchase-order: 100.5.2
+magento/module-purchase-order-graph-ql: 1.5.1
+magento/module-purchase-order-rule: 100.5.2
+magento/module-purchase-order-rule-graph-ql: 1.5.1
+magento/module-quick-order: 100.5.1
+magento/module-quick-order-graph-ql: 1.5.1
+magento/module-requisition-list: 100.5.2
+magento/module-requisition-list-graph-ql: 1.5.1
+magento/module-shared-catalog: 100.5.2
+magento/module-shared-catalog-graph-ql: 1.5.1
+magento/security-package-b2b: 1.0.6
 ```
 
 ## Licencias de terceros
@@ -91,13 +107,6 @@ magento/security-package-b2b: 1.0.4
     </tr>
   </thead>
   <tbody>
-  <tr>
-    <td>
-      <a href="https://github.com/elastic/elasticsearch-php.git">elasticsearch/elasticsearch</a>
-    </td>
-    <td>biblioteca</td>
-    <td>Cliente PHP para Elasticsearch</td>
-  </tr>
   <tr>
     <td>
       <a href="https://github.com/opensearch-project/opensearch-php.git">opensearch-project/opensearch-php</a>
@@ -142,10 +151,24 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/opentelemetry-php/api.git">telemetría abierta/api</a>
+    </td>
+    <td>biblioteca</td>
+    <td>API para OpenTelemetry PHP.</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/opentelemetry-php/context.git">telemetría abierta/contexto</a>
+    </td>
+    <td>biblioteca</td>
+    <td>Implementación de contexto para OpenTelemetry PHP.</td>
+  </tr>
+  <tr>
+    <td>
       paypal/module-braintree
     </td>
     <td>metapaquete</td>
-    <td>Magento Braintree</td>
+    <td>Braintree Magento</td>
   </tr>
   <tr>
     <td>
@@ -219,17 +242,17 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/duosecurity/duo_universal_php.git">duosecurity/duo_universal_php</a>
+    </td>
+    <td>biblioteca</td>
+    <td>Una implementación PHP del Duo Universal SDK.</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/firebase/php-jwt.git">firebase/php-jwt</a>
     </td>
     <td>biblioteca</td>
     <td>Una sencilla biblioteca para codificar y descodificar tokens web JSON (JWT) en PHP. Debe ajustarse a la especificación actual.</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/google/recaptcha.git">google/recaptcha</a>
-    </td>
-    <td>biblioteca</td>
-    <td>Biblioteca de cliente para reCAPTCHA, un servicio gratuito que protege los sitios web del correo no deseado y del uso indebido.</td>
   </tr>
   <tr>
     <td>
@@ -254,20 +277,6 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-crypt.git">laminas/laminas-crypt</a>
-    </td>
-    <td>biblioteca</td>
-    <td>Herramientas criptográficas sólidas y hash de contraseñas</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/laminas/laminas-db.git">laminas/laminas-db</a>
-    </td>
-    <td>biblioteca</td>
-    <td>Capa de abstracción de base de datos, abstracción de SQL, abstracción de conjunto de resultados e implementaciones RowDataGateway y TableDataGateway</td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://github.com/laminas/laminas-di.git">laminas/laminas-di</a>
     </td>
     <td>biblioteca</td>
@@ -278,7 +287,7 @@ magento/security-package-b2b: 1.0.4
       <a href="https://github.com/laminas/laminas-escaper.git">laminas/laminas-escaper</a>
     </td>
     <td>biblioteca</td>
-    <td>Escape de forma segura del HTML, los atributos del HTML, JavaScript, CSS y direcciones URL</td>
+    <td>Escape de forma segura a HTML, atributos HTML, JavaScript, CSS y URL</td>
   </tr>
   <tr>
     <td>
@@ -293,13 +302,6 @@ magento/security-package-b2b: 1.0.4
     </td>
     <td>biblioteca</td>
     <td>proporciona funcionalidad para crear y consumir fuentes RSS y Atom</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/laminas/laminas-file.git">archivo laminas/laminas</a>
-    </td>
-    <td>biblioteca</td>
-    <td>Localizar archivos de clase PHP</td>
   </tr>
   <tr>
     <td>
@@ -338,27 +340,6 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-mail.git">laminas/laminas-mail</a>
-    </td>
-    <td>biblioteca</td>
-    <td>Proporciona funcionalidad generalizada para componer y enviar mensajes de correo electrónico de varias partes compatibles con MIME y texto</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/laminas/laminas-math.git">laminas/laminas-math</a>
-    </td>
-    <td>biblioteca</td>
-    <td>Cree números pseudoaleatorios criptográficamente seguros y administre números enteros grandes</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/laminas/laminas-mime.git">laminas/laminas-mime</a>
-    </td>
-    <td>biblioteca</td>
-    <td>Crear y analizar mensajes y partes MIME</td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://github.com/laminas/laminas-modulemanager.git">laminas/laminas-modulemanager</a>
     </td>
     <td>biblioteca</td>
@@ -370,13 +351,6 @@ magento/security-package-b2b: 1.0.4
     </td>
     <td>biblioteca</td>
     <td>Capa de MVC impulsada por eventos de Laminas, que incluye aplicaciones, controladores y complementos de MVC</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/laminas/laminas-oauth.git">laminas/laminas-oauth</a>
-    </td>
-    <td>biblioteca</td>
-    <td></td>
   </tr>
   <tr>
     <td>
@@ -415,10 +389,10 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-session.git">laminas/laminas-session</a>
+      <a href="https://github.com/laminas/laminas-session.git">sesión de láminas/láminas</a>
     </td>
     <td>biblioteca</td>
-    <td>Interfaz orientada a objetos para sesiones y almacenamiento de PHP</td>
+    <td>Interfaz orientada a objetos para sesiones PHP y almacenamiento</td>
   </tr>
   <tr>
     <td>
@@ -432,7 +406,7 @@ magento/security-package-b2b: 1.0.4
       <a href="https://github.com/laminas/laminas-stdlib.git">laminas/laminas-stdlib</a>
     </td>
     <td>biblioteca</td>
-    <td>Extensiones SPL, utilidades de matriz, controladores de errores y más</td>
+    <td>Extensiones SPL, utilidades de matrices, controladores de errores y más</td>
   </tr>
   <tr>
     <td>
@@ -440,6 +414,13 @@ magento/security-package-b2b: 1.0.4
     </td>
     <td>biblioteca</td>
     <td>Crear FIGlets y tablas basadas en texto</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/laminas/laminas-translator.git">laminas/laminas-translator</a>
+    </td>
+    <td>biblioteca</td>
+    <td>Interfaces para el componente Translator de laminas-i18n</td>
   </tr>
   <tr>
     <td>
@@ -464,6 +445,13 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/marc-mabe/php-enum.git">marc-mabe/php-enum</a>
+    </td>
+    <td>biblioteca</td>
+    <td>Implementación sencilla y rápida de enumeraciones con PHP nativo</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/nikic/PHP-Parser.git">nikic/php-parser</a>
     </td>
     <td>biblioteca</td>
@@ -471,10 +459,17 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/phpfui/recaptcha.git">phpfui/recaptcha</a>
+    </td>
+    <td>biblioteca</td>
+    <td>Biblioteca de cliente para reCAPTCHA de Google para PHP 8.4 y superior</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/tedious/JShrink.git">tedivm/jshrink</a>
     </td>
     <td>biblioteca</td>
-    <td>Minifier Javascript integrado en PHP</td>
+    <td>Minifier de Javascript incorporado en PHP</td>
   </tr>
   <tr>
     <td>
@@ -544,7 +539,7 @@ magento/security-package-b2b: 1.0.4
       <a href="https://github.com/ezyang/htmlpurifier.git">ezyang/htmlpurifier</a>
     </td>
     <td>biblioteca</td>
-    <td>Filtro de HTML compatible con estándares escrito en PHP</td>
+    <td>Filtro HTML compatible con estándares escrito en PHP</td>
   </tr>
   <tr>
     <td>
@@ -597,7 +592,7 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/colinmollenhour/credis.git">colinmollenhour/credis</a>
+      <a href="https://github.com/colinmollenhour/credis.git">ColinmollenHora/Credis</a>
     </td>
     <td>biblioteca</td>
     <td>Credis es una interfaz ligera para el almacén de valor clave de Redis que ajusta la biblioteca phpredis cuando está disponible para obtener un mejor rendimiento.</td>
@@ -607,7 +602,7 @@ magento/security-package-b2b: 1.0.4
       <a href="https://github.com/composer/ca-bundle.git">compositor/ca-paquete</a>
     </td>
     <td>biblioteca</td>
-    <td>Le permite encontrar una ruta al paquete de CA del sistema e incluye una alternativa al paquete de CA de Mozilla.</td>
+    <td>Permite encontrar una ruta de acceso a la paquete de CA del sistema e incluye una alternativa a la paquete de CA de Mozilla.</td>
   </tr>
   <tr>
     <td>
@@ -632,14 +627,14 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/composer/pcre.git">compositor/pcre</a>
+      <a href="https://github.com/composer/pcre.git">Compositor/PCRE</a>
     </td>
     <td>biblioteca</td>
-    <td>Biblioteca de envoltorio PCRE que ofrece reemplazos preg_* seguros para tipos.</td>
+    <td>biblioteca de envoltura de PCRE que ofrece reemplazos de preg_* seguros para el tipo.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/composer/semver.git">compositor/servidor</a>
+      <a href="https://github.com/composer/semver.git">Compositor/Semver</a>
     </td>
     <td>biblioteca</td>
     <td>Biblioteca de servidor que ofrece utilidades, análisis de restricción de versión y validación.</td>
@@ -657,6 +652,34 @@ magento/security-package-b2b: 1.0.4
     </td>
     <td>biblioteca</td>
     <td>Reinicia un proceso sin Xdebug.</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/doctrine/lexer.git">Doctrina/Lexer</a>
+    </td>
+    <td>biblioteca</td>
+    <td>Biblioteca del analizador de PHP Doctrine Lexer que se puede utilizar en analizadores descendentes recursivos descendentes verticales.</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/egulias/EmailValidator.git">egulias/email-validator</a>
+    </td>
+    <td>biblioteca</td>
+    <td>Biblioteca para validar correos electrónicos con varios RFC</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/elastic/elastic-transport-php.git">elástico/transporte</a>
+    </td>
+    <td>biblioteca</td>
+    <td>Biblioteca PHP de transporte HTTP para productos elásticos</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/elastic/elasticsearch-php.git">elasticsearch/elasticsearch</a>
+    </td>
+    <td>biblioteca</td>
+    <td>Cliente PHP para Elasticsearch</td>
   </tr>
   <tr>
     <td>
@@ -684,11 +707,11 @@ magento/security-package-b2b: 1.0.4
       <a href="https://github.com/guzzle/guzzle.git">guzzlehttp/guzzle</a>
     </td>
     <td>biblioteca</td>
-    <td>Guzzle es una biblioteca de cliente HTTP PHP</td>
+    <td>Guzzle es un cliente HTTP PHP biblioteca</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/guzzle/promises.git">guzzlehttp/promise</a>
+      <a href="https://github.com/guzzle/promises.git">guzzlehttp/promesas</a>
     </td>
     <td>biblioteca</td>
     <td>Guzzle promete biblioteca</td>
@@ -702,24 +725,31 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/justinrainbow/json-schema.git">justinrainbow/json-schema</a>
+      <a href="https://github.com/jsonrainbow/json-schema.git">justinrainbow/json-schema</a>
     </td>
     <td>biblioteca</td>
     <td>Una biblioteca para validar un esquema json.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/thephpleague/flysystem.git">liga/sistema de archivos</a>
+      <a href="https://github.com/thephpleague/flysystem.git">Liga/FlySystem</a>
     </td>
     <td>biblioteca</td>
-    <td>Abstracción de almacenamiento de archivos para PHP</td>
+    <td>Archivo almacenamiento abstracción para PHP</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/thephpleague/flysystem-aws-s3-v3.git">league/flysystem-aws-s3-v3</a>
+      <a href="https://github.com/thephpleague/flysystem-aws-s3-v3.git">liga/flysystem-aws-s3-v3</a>
     </td>
     <td>biblioteca</td>
     <td>Adaptador del sistema de archivos AWS S3 para Flysystem.</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/thephpleague/flysystem-local.git">liga/flysystem-local</a>
+    </td>
+    <td>biblioteca</td>
+    <td>Adaptador del sistema de archivos local para Flysystem.</td>
   </tr>
   <tr>
     <td>
@@ -761,7 +791,28 @@ magento/security-package-b2b: 1.0.4
       <a href="https://github.com/MyIntervals/emogrifier.git">pelago/emogrificador</a>
     </td>
     <td>biblioteca</td>
-    <td>Convierte estilos CSS en atributos de estilo en línea en el código del HTML</td>
+    <td>Convierte los estilos CSS en atributos de estilo en línea en el código HTML</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/php-http/discovery.git">php-http/discovery</a>
+    </td>
+    <td>composer-plugin</td>
+    <td>Busca e instala las implementaciones de PSR-7, PSR-17, PSR-18 y HTTPlug</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/php-http/httplug.git">php-http/httplug</a>
+    </td>
+    <td>biblioteca</td>
+    <td>HTTPlug, la abstracción de cliente HTTP para PHP</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/php-http/promise.git">php-http/promesa</a>
+    </td>
+    <td>biblioteca</td>
+    <td>Promesa utilizada para solicitudes HTTP asíncronas</td>
   </tr>
   <tr>
     <td>
@@ -838,7 +889,7 @@ magento/security-package-b2b: 1.0.4
       <a href="https://github.com/php-fig/http-factory.git">psr/http-factory</a>
     </td>
     <td>biblioteca</td>
-    <td>Interfaces comunes para las fábricas de mensajes HTTP PSR-7</td>
+    <td>PSR-17: Interfaces comunes para las fábricas de mensajes HTTP PSR-7</td>
   </tr>
   <tr>
     <td>
@@ -856,17 +907,17 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/ralouphie/getallheaders.git">ralouphie/getallheaders</a>
+      <a href="https://github.com/ralouphie/getallheaders.git">Ralouphie/getAllHeaders</a>
     </td>
     <td>biblioteca</td>
     <td>Un polyfill para getallheaders.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/ramsey/collection.git">ramsey/collection</a>
+      <a href="https://github.com/ramsey/collection.git">Ramsey/colección</a>
     </td>
     <td>biblioteca</td>
-    <td>Una biblioteca PHP para representar y manipular colecciones.</td>
+    <td>Un biblioteca PHP para representar y manipular colecciones.</td>
   </tr>
   <tr>
     <td>
@@ -1038,6 +1089,20 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/symfony/mailer.git">symfony/mailer</a>
+    </td>
+    <td>biblioteca</td>
+    <td>Ayuda a enviar correos electrónicos</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/symfony/mime.git">symfony/mime</a>
+    </td>
+    <td>biblioteca</td>
+    <td>Permite manipular mensajes MIME</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/symfony/polyfill-ctype.git">symfony/polyfill-ctype</a>
     </td>
     <td>biblioteca</td>
@@ -1073,13 +1138,6 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/polyfill-php72.git">symfony/polyfill-php72</a>
-    </td>
-    <td>biblioteca</td>
-    <td>Symfony polyfill backporting algunas características de PHP 7.2+ a versiones más bajas de PHP</td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://github.com/symfony/polyfill-php73.git">symfony/polyfill-php73</a>
     </td>
     <td>biblioteca</td>
@@ -1098,6 +1156,13 @@ magento/security-package-b2b: 1.0.4
     </td>
     <td>biblioteca</td>
     <td>Symfony polyfill backporting algunas características de PHP 8.1+ a versiones más bajas de PHP</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/symfony/polyfill-php82.git">symfony/polyfill-php82</a>
+    </td>
+    <td>biblioteca</td>
+    <td>Symfony polyfill backporting algunas características de PHP 8.2+ a versiones más bajas de PHP</td>
   </tr>
   <tr>
     <td>
@@ -1143,17 +1208,17 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/symfony/yaml.git">symfony/yaml</a>
+    </td>
+    <td>biblioteca</td>
+    <td>Carga y descarga archivos YAML</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/web-token/jwt-framework.git">web-token/jwt-framework</a>
     </td>
     <td>paquete Symfony</td>
     <td>Biblioteca de firma y cifrado de objetos JSON para el paquete PHP y Symfony.</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/webmozarts/assert.git">webmozart/assert</a>
-    </td>
-    <td>biblioteca</td>
-    <td>Afirmaciones para validar la entrada/salida del método con mensajes de error correctos.</td>
   </tr>
   <tr>
     <td>
@@ -1185,6 +1250,13 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
+      paypal/module-braintree-gif-card
+    </td>
+    <td>magento2-module</td>
+    <td>N/D</td>
+  </tr>
+  <tr>
+    <td>
       paypal/module-braintree-gif-card-account
     </td>
     <td>magento2-module</td>
@@ -1200,6 +1272,13 @@ magento/security-package-b2b: 1.0.4
   <tr>
     <td>
       paypal/module-braintree-graph-ql
+    </td>
+    <td>magento2-module</td>
+    <td>N/D</td>
+  </tr>
+  <tr>
+    <td>
+      paypal/module-braintree-premio
     </td>
     <td>magento2-module</td>
     <td>N/D</td>

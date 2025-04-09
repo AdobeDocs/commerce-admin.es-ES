@@ -3,9 +3,9 @@ title: FedEx
 description: Aprenda a configurar FedEx como transportista para su tienda.
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: ad5da1d77b63bf6bcc0227a5c467e369b7bb8d89
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,15 @@ Se requiere una cuenta de comerciante de FedEx y el registro para el acceso a la
    - **[!UICONTROL Account ID]**
    - **[!UICONTROL Api Key]**
    - **[!UICONTROL Secret Key]**
+
+1. Si tiene credenciales de API de seguimiento independientes, habilite la siguiente configuración:
+
+   - **[!UICONTROL Enable Tracking API credentials]**
+
+1. Introduzca la siguiente información de su cuenta de FedEx:
+
+   - **[!UICONTROL Tracking API Key]**
+   - **[!UICONTROL Tracking API Secret Key]**
 
 1. Si ha configurado una zona protegida de FedEx y desea trabajar en el entorno de prueba, establezca **[!UICONTROL Sandbox Mode]** en `Yes`.
 
