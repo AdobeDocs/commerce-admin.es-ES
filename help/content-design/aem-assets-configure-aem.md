@@ -3,9 +3,9 @@ title: Instalación del paquete de AEM Assets para Commerce
 description: Añada los metadatos de recursos necesarios para permitir que la integración de AEM Assets para Commerce sincronice recursos entre proyectos de Adobe Commerce y Experience Manager Assets.
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
+source-git-commit: d0599505bf99954c425ad3f2c7107744491f3446
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,9 @@ Necesita los siguientes recursos y permisos para utilizar este proyecto de AEM p
 
 ## Configuración de un perfil de metadatos
 
-En el entorno de creación de AEM Assets, establezca los valores predeterminados para los metadatos de recursos de Commerce creando un perfil de metadatos. A continuación, aplique el nuevo perfil a las carpetas de recursos de AEM para utilizar estos valores predeterminados automáticamente. Esta configuración optimiza el procesamiento de recursos al reducir los pasos manuales.
+En el entorno de creación de AEM Assets, establezca los valores predeterminados para los metadatos de recursos de Commerce creando un perfil de metadatos. A continuación, aplique el nuevo perfil a las carpetas de recursos de AEM para utilizar automáticamente estos valores predeterminados. Esta configuración optimiza el procesamiento de recursos al reducir los pasos manuales.
+
+1. Inicie sesión en el entorno de creación de Adobe Experience Manager.
 
 1. En Adobe Experience Manager Workspace, vaya al espacio de trabajo Administración de contenido de autor para AEM Assets haciendo clic en el icono Adobe Experience Manager.
 

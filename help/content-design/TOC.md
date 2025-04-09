@@ -3,9 +3,9 @@ user-guide-title: Guía de diseño y contenido
 user-guide-description: Información completa sobre el contenido y las funciones de diseño para administradores de Adobe Commerce y Magento Open Source y especialistas en marketing de comercio electrónico.
 breadcrumb-title: Contenido y diseño
 feature: CMS, Page Content
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: d0599505bf99954c425ad3f2c7107744491f3446
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '256'
 ht-degree: 4%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 4%
       - [Uso de imágenes de Adobe Stock](adobe-stock-manage.md)
       - [Guardar una previsualización de imagen de Stock](adobe-stock-save-preview.md)
       - [Licencia de una imagen de Stock](adobe-stock-license-image.md)
-   - Galería multimedia {#gallery}
+   - Galería de medios {#gallery}
       - [Información general](media-gallery.md)
       - [Administración de recursos](media-gallery-asset-management.md)
       - [Administración de carpetas](media-gallery-folder-management.md)
@@ -75,12 +75,13 @@ ht-degree: 4%
 - Integración de AEM Assets para Commerce {#aem-asset-management}
    - [Resumen de integración](aem-assets-integration.md)
    - [Notas de la versión](aem-assets-release-notes.md)
-   - Introducción a {#getting-started}
+   - Primeros pasos {#getting-started}
       - [Configuración de entornos](aem-assets-getting-started.md)
       - [Instalación del paquete de AEM Assets](aem-assets-configure-aem.md)
       - [Instalación de paquetes de Adobe Commerce](aem-assets-configure-commerce.md)
       - [Configuración de la integración](aem-assets-setup-synchronization.md)
       - [Visualización y administración de registros](aem-assets-log-files.md)
+   - [Migración de archivos multimedia a AEM Assets](aem-assets-migrate-data.md)
    - Administrar recursos {#manage}
       - [Uso de AEM Assets con Commerce](aem-assets-manage.md)
 - Medios {#media}
