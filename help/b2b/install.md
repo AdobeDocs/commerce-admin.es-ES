@@ -4,9 +4,10 @@ description: Aprenda a instalar el  [!DNL Adobe Commerce B2B] metapackage.
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: df3f01bb8e6dab61523d5cb7e0e430b61f87145b
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 25964363ca5c4ec849e231d4eccb5f60b682a499
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -185,7 +186,7 @@ La extensión Adobe Commerce B2B utiliza MySQL para la administración de colas 
 
 Evite posibles problemas o retrasos en el procesamiento agregando los siguientes parámetros al [iniciar los consumidores de mensajes](#start-message-consumers) para las capacidades B2B.
 
-- `--max-messages <value>`: especifica el número máximo de mensajes que cada consumidor debe procesar antes de finalizar (predeterminado = 10000). Aunque el Adobe no lo recomienda, puede utilizar 0 para evitar que el consumidor finalice. La práctica recomendada para una aplicación PHP es reiniciar los procesos de larga ejecución para evitar posibles fugas de memoria.
+- `--max-messages <value>`: especifica el número máximo de mensajes que cada consumidor debe procesar antes de finalizar (predeterminado = 10000). Aunque Adobe no lo recomienda, puede utilizar 0 para evitar que el consumidor finalice. La práctica recomendada para una aplicación PHP es reiniciar los procesos de larga ejecución para evitar posibles fugas de memoria.
 
 - `--batch-size <value>`: permite limitar los recursos del sistema consumidos por los consumidores (CPU, memoria). El uso de lotes más pequeños reduce el uso de recursos y, por lo tanto, ralentiza el procesamiento.  Si se especifica, los mensajes de una cola se consumen en lotes de `<value>` cada uno. Esta opción solo se aplica al consumidor de lotes. Si `--batch-size` no está definido, el consumidor por lotes recibe todos los mensajes disponibles en una cola.
 
