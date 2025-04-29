@@ -3,9 +3,10 @@ title: Programar una actualización de contenido
 description: Revise este ejemplo de campaña utilizado para programar un cambio temporal de precio para un producto.
 exl-id: 36b7d7f6-4590-4192-a82b-e5f645b05f62
 feature: Page Content, Staging
-source-git-commit: b3897ba034770229ef8f3117231bed286abdddb9
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 El siguiente ejemplo muestra cómo programar un cambio de precio temporal para un producto. Incluye la programación y previsualización de cambios, así como la visualización de actualizaciones programadas en el calendario. Aunque este ejemplo incluye un solo cambio, una campaña puede incluir varios cambios en productos, reglas de precios, páginas de CMS y otras entidades programadas para realizarse al mismo tiempo. Siga un método similar para especificar las fechas de inicio y finalización para el atributo [!UICONTROL Set Product As New].
 
 >[!NOTE]
->Debe crear una actualización programada para especificar una fecha de inicio (y finalización) para [!UICONTROL Set Product As New]. Para [!UICONTROL Special Price] y [!UICONTROL Design Change], los campos desde/hasta la fecha se eliminan de Adobe Commerce y solo están disponibles en el Magento Open Source.
+>Debe crear una actualización programada para especificar una fecha de inicio (y finalización) para [!UICONTROL Set Product As New]. Para [!UICONTROL Special Price] y [!UICONTROL Design Change], los campos desde/hasta la fecha se eliminan de Adobe Commerce y solo están disponibles en Magento Open Source.
 >
 >Todas las actualizaciones programadas se aplican de forma consecutiva, lo que significa que cualquier entidad solo puede tener una actualización programada a la vez. Cualquier actualización programada se aplica a todas las vistas de la tienda dentro de su lapso de tiempo. Como resultado, una entidad no puede tener una actualización programada diferente para diferentes vistas de tienda al mismo tiempo. Todos los valores de atributo de entidad dentro de todas las vistas de tienda, que no se ven afectados por la actualización programada actual, se toman de los valores predeterminados y no de la actualización programada anterior.
 

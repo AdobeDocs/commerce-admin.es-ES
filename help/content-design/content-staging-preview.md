@@ -3,9 +3,10 @@ title: Previsualización de una campaña
 description: Cree una vista previa de cualquier día o período de tiempo durante una campaña y compártala con los integrantes del equipo.
 exl-id: f05589ae-9fc8-4e51-a504-ab90772b3c3d
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---

@@ -3,9 +3,10 @@ title: Ensayo de contenido
 description: El ensayo de contenido permite a su equipo empresarial crear, previsualizar y programar fácilmente una amplia gama de actualizaciones de contenido para su tienda, directamente desde el administrador.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
