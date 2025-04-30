@@ -6,9 +6,9 @@ seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 feature: B2B
-source-git-commit: a893a33a14d33106bb9291ceeff96dc155bb017a
+source-git-commit: 09e1ef6be9eed9bcf1d562f0490dfb7d28b18171
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '372'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Esta guía describe:
 | [Habilitar características básicas B2B](enable-basic-features.md) | Después de instalar [!DNL Adobe Commerce B2B], debe habilitar las características que desea activar para su tienda. |
 | [Cuentas de la compañía](account-companies.md) | Obtenga información acerca de las cuentas de empresa y cómo constituyen el principal bloque de creación para ofrecer asistencia a los compradores de B2B en su tienda. |
 | [Administración de la compañía](manage-companies.md) | Descubra cómo los administradores del sitio de B2B Commerce pueden crear jerarquías empresariales para optimizar la administración de varias empresas que pertenecen a la misma empresa empresarial. |
-| [Catálogos compartidos](catalog-shared.md) | Obtenga información sobre el uso de catálogos compartidos para mantener catálogos cerrados con precios personalizados para diferentes empresas. [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} |
+| [Catálogos compartidos](catalog-shared.md) | Obtenga información sobre el uso de catálogos compartidos para mantener catálogos cerrados con precios personalizados para diferentes empresas. |
 | [Pedidos rápidos](quick-order.md) | Obtenga información sobre la funcionalidad de pedidos rápidos y cómo habilitarla para sus clientes. |
 | [Pedidos de compra](purchase-order-flow.md) | Obtenga información sobre los flujos de trabajo de pedidos de compra que permiten a las empresas rastrear y controlar su gasto. |
 | [Comillas](quotes.md) | Obtenga información sobre los flujos de trabajo de presupuestos y cómo puede proporcionar este servicio a las cuentas de su empresa. |
