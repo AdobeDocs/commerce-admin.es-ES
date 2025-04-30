@@ -3,9 +3,9 @@ title: Configuración de la integración
 description: Obtenga información sobre cómo conectar los proyectos de Adobe Commerce y Experience Manager Assets para habilitar la sincronización de recursos entre estos dos sistemas.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: 8db3e4b039ed8e020a1a2400e400df01c34f1943
+source-git-commit: f01ba239d885d96285186e35361a8d40f2f68e4e
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,7 @@ Para la configuración inicial, usa la regla predeterminada *Coincidir con el SK
 
 - Cree un ticket de asistencia para solicitar la habilitación de AEM Assets para la integración de Commerce. En el ticket, incluya **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** y **[!UICONTROL IMS Org ID]** para el entorno de creación de AEM Assets que desea conectar a Commerce.
 
-  >[!TIP]
-  >
-  > (Opcional) Proporcione **[!UICONTROL Asset Selector IMS Client ID]** si está disponible. Consulte [ImsAuthProps](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app) en la documentación de *Selector de AEM Assets*.
+- Proporcione **[!UICONTROL Asset Selector IMS Client ID]**. Consulte [ImsAuthProps](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app) en la documentación de *Selector de AEM Assets*.
 
 ## Configuración de la conexión
 
@@ -51,7 +49,7 @@ Para la configuración inicial, usa la regla predeterminada *Coincidir con el SK
 
    Edite los valores de configuración eliminando la selección de *[!UICONTROL Use system value]*.
 
-1. Escriba **[!UICONTROL Asset Selector IMS Client ID]**, si está disponible.
+1. Escriba **[!UICONTROL Asset Selector IMS Client ID]**.
 
    [Asset Selector IMS Client ID](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app#ims-auth-props) es requerido por [!UICONTROL Assets Selector], una característica de AEM Assets que permite a los usuarios incrustar recursos visuales directamente en páginas de productos de Commerce.
 
