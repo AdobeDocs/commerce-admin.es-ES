@@ -3,16 +3,17 @@ title: Reescrituras de URL
 description: Obtenga información acerca de las reescrituras de URL y el uso de la herramienta de reescritura de URL de Commerce para cambiar las URL asociadas a una página de producto, categoría o CMS.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
 
 # Reescrituras de URL
 
-La herramienta de reescritura de URL le permite cambiar cualquier URL asociada a un producto, categoría o página de CMS. Cuando la reescritura entra en vigor, los vínculos que apunten a la dirección URL anterior se redirigirán a la nueva dirección.
+La herramienta de reescritura de URL permite cambiar cualquier URL asociada a un producto, categoría o página de CMS. Cuando la reescritura entra en vigor, los vínculos que apunten a la dirección URL anterior se redirigirán a la nueva dirección.
 
 >[!NOTE]
 >
@@ -99,7 +100,7 @@ Commerce ofrece estos tipos de reescritura de URL:
 
 * [Reescrituras de productos](url-rewrite-product.md)
 * [Reescrituras de categoría](url-rewrite-category.md)
-* [Reescrituras de página de CMS](url-rewrite-cms-page.md)
+* [Reescrituras de páginas de CMS](url-rewrite-cms-page.md)
 * [Reescrituras personalizadas](url-rewrite-custom.md)
 
 ## La URL reescribe la demostración

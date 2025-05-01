@@ -3,9 +3,10 @@ title: Reescribe la URL de la página de contenido
 description: Aprenda a utilizar las reescrituras de URL de páginas de contenido para redirigir vínculos a la URL de otra página de contenido de su tienda de Commerce.
 exl-id: e29c45fd-cf25-4b51-a8ae-9e188dc2a61c
 feature: Page Content, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Antes de empezar, asegúrese de comprender exactamente para qué sirve la redirección. Piense en términos de _destino_ / _origen_ o _redireccionamiento a_ / _redireccionamiento desde_. Aunque es posible que los visitantes sigan navegando a la página anterior desde motores de búsqueda o vínculos obsoletos, la redirección hace que la tienda cambie al nuevo destino.
 
-![Reescrituras de URL: página CMS](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
+![Reescrituras de URL: página de CMS](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
 
 ## Paso 1. Planificar la reescritura
 
@@ -48,7 +49,7 @@ Redirigir desde: `old-page`
 
 1. Busque la nueva página de destino en la cuadrícula y ábrala en modo de edición.
 
-   ![Agregar reescritura de URL: para la página CMS](./assets/url-rewrite-cms-page-add.png){width="700" zoomable="yes"}
+   ![Agregar reescritura de URL - para la página de CMS](./assets/url-rewrite-cms-page-add.png){width="700" zoomable="yes"}
 
 1. En Información de reescritura de URL, haga lo siguiente:
 

@@ -3,9 +3,10 @@ title: Reescrituras de URL personalizadas
 description: Aprenda a utilizar las reescrituras de URL personalizadas para administrar redirecciones diversas en su tienda de Commerce.
 exl-id: b15054be-e463-48e6-b6c1-0a8a2141cc01
 feature: Search, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -60,7 +61,7 @@ Redirigir desde:
 
    - Si tiene varias vistas de tienda, seleccione la **[!UICONTROL Store]** donde se aplica la reescritura.
 
-   - Para **[!UICONTROL Request Path]**, escriba la clave de URL y la ruta (si corresponde) de la página del producto, categoría o CMS que se va a redirigir.
+   - Para **[!UICONTROL Request Path]**, escriba la clave de dirección URL y la ruta de acceso (si corresponde) del producto, categoría o página de CMS que se va a redirigir.
 
      >[!NOTE]
      >

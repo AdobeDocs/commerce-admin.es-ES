@@ -2,9 +2,9 @@
 title: Introducción a las promociones y comercialización de Commerce
 description: Conozca las herramientas de Commerce para crear promociones segmentadas y oportunidades para la captación de clientes.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 7774aa82149faff55591303c7ff2fe2c84797a4a
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1111'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ Dirija promociones y cree oportunidades para la participación de los clientes, 
 
 _Comercialización_ es un término que se usa en el comercio minorista para describir el arte y la ciencia del desarrollo de planos de planta y la presentación de productos. Podríamos considerar la navegación basada en [categorías](../catalog/navigation-top.md) como el plano de planta de la tienda, y la presentación dinámica de productos como las condiciones que se pueden aplicar a la lista de productos en la tienda. Además, puede implementar programas que impulsen más ventas de productos:
 
-- [Visual Merchandiser](visual-merchandiser.md): conjunto de herramientas avanzadas que le permiten colocar productos y aplicar condiciones que determinan qué productos aparecen en la lista de categorías.
+- [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} [Visual Merchandiser](visual-merchandiser.md): conjunto de herramientas avanzadas que le permiten colocar productos y aplicar condiciones que determinan qué productos aparecen en la lista de categorías.
 
 - [Registros de regalos](gift-registries.md) - Proporcione a sus clientes la capacidad de crear registros de regalos para ocasiones especiales y de invitar a sus amigos y familiares a comprar sus regalos del registro de regalos.
 
@@ -27,7 +27,7 @@ _Comercialización_ es un término que se usa en el comercio minorista para desc
 
 >[!TIP]
 >
->Para obtener más información sobre las recomendaciones de productos y cómo pueden proporcionarte la información y el control que necesitas para crear la mejor experiencia para tus compradores, consulta la [Guía del usuario de recomendaciones de productos](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
+>Para obtener más información sobre Product Recommendations y cómo pueden proporcionarte el control y la insight que necesitas para crear la mejor experiencia para tus compradores, consulta la [Guía del usuario de Product Recommendations](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
 
 ## Promociones
 
