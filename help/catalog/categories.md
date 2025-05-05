@@ -34,5 +34,5 @@ Antes de añadir productos al catálogo, debe establecer la estructura básica d
 
 Para obtener ayuda sobre la resolución de problemas de categorías, consulte los siguientes artículos de la Base de conocimiento de asistencia de Commerce:
 
-- [Los cambios en las categorías no se están guardando](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
-- [El menú principal (Categorías) no se muestra en las subpáginas con Fastly enabled](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html)
+- [Los cambios en las categorías no se están guardando](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html?lang=es)
+- [El menú principal (Categorías) no se muestra en las subpáginas con Fastly enabled](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html?lang=es)

@@ -58,5 +58,5 @@ ht-degree: 5%
    - [Información general](shipments.md)
    - [Creación de envíos](shipments-create.md)
 - [Referencia de CLI](cli.md)
-- [Volver a las guías del usuario administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Volver a las guías del usuario administrador](https://experienceleague.adobe.com/es/docs/commerce-admin/user-guides/home)
 

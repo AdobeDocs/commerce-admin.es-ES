@@ -62,7 +62,7 @@ La configuración controla la longitud y el formato de los códigos de cupón ge
 
 >[!NOTE]
 >
->Antes de crear cupones, utilice el comando `bin/magento cron:run` para comprobar que cron se está ejecutando. Consulte [Ejecutar cron desde la línea de comandos](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) en la _Guía de configuración_ para obtener más información.
+>Antes de crear cupones, utilice el comando `bin/magento cron:run` para comprobar que cron se está ejecutando. Consulte [Ejecutar cron desde la línea de comandos](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=es#run-cron-from-the-command-line) en la _Guía de configuración_ para obtener más información.
 
 ### Método 1: Creación de un cupón específico
 

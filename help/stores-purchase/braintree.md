@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Si necesita ayuda con cargos inesperados en su tarjeta, visita la Página cancelar suscripción [&#128279;](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) para obtener ayuda.
+>Si necesita ayuda con cargos inesperados en su tarjeta, visita la Página cancelar suscripción [&#128279;](https://helpx.adobe.com/es/manage-account/using/cancel-subscription.html) para obtener ayuda.
 
 Braintree ofrece un experiencia de pago totalmente personalizable con detección de fraude e integración PayPal. Es compatible con [!DNL Apple Pay], [!DNL Google Pay], ACH, Venmo y métodos de pago locales. Braintree reduce la carga de cumplimiento PCI para los comerciantes porque la transacción se realiza en el sistema Braintree. La integración de Braintree Payments es desarrollada por [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/).
 

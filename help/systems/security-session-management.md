@@ -64,7 +64,7 @@ Si se supera el tamaño máximo de sesión, no se muestra ningún error, pero el
 
 Adobe Commerce y Magento Open Source permiten validar variables de sesión como medida de protección contra posibles ataques de fijación de sesión o intentos de envenenar o secuestrar sesiones de usuario. La configuración de validación de sesión determina cómo se validan las variables de sesión durante cada visita al almacén y si el ID de sesión se incluye en la dirección URL del almacén.
 
-Para obtener información técnica, consulte [Usar Redis para el almacenamiento de sesión](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) en la _Guía de configuración_.
+Para obtener información técnica, consulte [Usar Redis para el almacenamiento de sesión](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=es) en la _Guía de configuración_.
 
 ![Configuración general: validación de sesión web](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 

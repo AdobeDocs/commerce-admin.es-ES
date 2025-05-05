@@ -53,7 +53,7 @@ Para usar [!DNL New Relic APM Pro] para recopilar y transmitir datos, el agente
 >[!NOTE]
 >Estas opciones de configuración no se aplican a Adobe Commerce en la infraestructura de la nube.
 >
->Si está en el plan Pro, New Relic ya está [preconfigurado y habilitado de manera predeterminada](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). Si se encuentra en el plan inicial, debe completar los [pasos de configuración de New Relic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) que forman parte del proceso de instalación.
+>Si está en el plan Pro, New Relic ya está [preconfigurado y habilitado de manera predeterminada](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=es). Si se encuentra en el plan inicial, debe completar los [pasos de configuración de New Relic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html?lang=es#configure-new-relic-for-starter-environment) que forman parte del proceso de instalación.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -337,6 +337,6 @@ Devuelve el número total de elementos de línea pedidos durante el período de 
 
 [1]: https://newrelic.com/
 [3]: https://docs.newrelic.com/docs/agents/php-agent/getting-started/new-relic-php
-[4]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html
-[5]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html
+[4]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=es
+[5]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=es
 [6]: https://docs.newrelic.com/docs/insights/new-relic-insights/using-new-relic-query-language/nrql-reference

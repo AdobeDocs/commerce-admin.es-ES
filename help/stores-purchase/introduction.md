@@ -25,7 +25,7 @@ Adobe Commerce y el Magento Open Source reducen los errores de pedidos al verifi
 
 >[!TIP]
 >
->![Adobe Commerce B2B](../assets/b2b.svg) Con la instalación y habilitación de Adobe Commerce B2B, puede configurar _Quick Order_ para clientes asociados a una cuenta de compañía. Esta función reduce el proceso de pedido a varios clics cuando conocen el nombre o el SKU de los productos que desean solicitar. También puede configurar la compatibilidad con Ofertas negociables para las cuentas de su compañía. Para obtener más información sobre las características de B2B, consulte la [Guía del usuario de Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>![Adobe Commerce B2B](../assets/b2b.svg) Con la instalación y habilitación de Adobe Commerce B2B, puede configurar _Quick Order_ para clientes asociados a una cuenta de compañía. Esta función reduce el proceso de pedido a varios clics cuando conocen el nombre o el SKU de los productos que desean solicitar. También puede configurar la compatibilidad con Ofertas negociables para las cuentas de su compañía. Para obtener más información sobre las características de B2B, consulte la [Guía del usuario de Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=es).
 
 ## Asistencia de compras
 

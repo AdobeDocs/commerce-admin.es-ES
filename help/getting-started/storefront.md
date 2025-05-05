@@ -32,7 +32,7 @@ Con la presentación de [!DNL **Commerce Storefront con tecnología Edge Deliver
 
 Commerce Storefront con tecnología Edge Delivery Services ofrece varias funciones clave que benefician tanto a los comerciantes como a los desarrolladores. Estas funciones permiten a las empresas crear experiencias de compra atractivas a la vez que mantienen la flexibilidad para personalizar y escalar sus tiendas según sus necesidades.
 
-Para obtener información e instrucciones más detalladas sobre cómo configurar y optimizar tu tienda Commerce, consulta la [Documentación de Adobe Commerce Storefront](https://experienceleague.adobe.com/en/docs/commerce).
+Para obtener información e instrucciones más detalladas sobre cómo configurar y optimizar tu tienda Commerce, consulta la [Documentación de Adobe Commerce Storefront](https://experienceleague.adobe.com/es/docs/commerce).
 
 >[!BEGINTABS]
 
@@ -81,7 +81,7 @@ La descripción inicial del producto suele proporcionar a los compradores inform
 
 ### [!DNL Live Search]
 
-Con [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) para Adobe Commerce, tu tienda ofrece una experiencia de búsqueda rápida, relevante e intuitiva, y está disponible para Adobe Commerce sin cargo adicional.
+Con [[!DNL Live Search]](https://experienceleague.adobe.com/es/docs/commerce/live-search/overview) para Adobe Commerce, tu tienda ofrece una experiencia de búsqueda rápida, relevante e intuitiva, y está disponible para Adobe Commerce sin cargo adicional.
 
 ![Ejemplo de Live Search: busca mientras escribes](./assets/storefront-search-as-you-type.png){width="700"}
 

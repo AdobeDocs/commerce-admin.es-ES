@@ -26,7 +26,7 @@ Utilice las herramientas avanzadas para desarrolladores para determinar el modo 
 
 Su instancia de Adobe Commerce o de Magento Open Source se puede implementar para ejecutarse en _producción_ o en _modo de desarrollador_. Solo se puede tener acceso a las herramientas y opciones de configuración diseñadas específicamente para desarrolladores mientras la tienda se ejecuta en _modo de desarrollador_.
 
-Un usuario con los permisos adecuados solo puede cambiar el modo de operación desde la línea de comandos del servidor. Consulte [Establecer el modo de operación](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) en la _Guía de configuración_ para obtener más información.
+Un usuario con los permisos adecuados solo puede cambiar el modo de operación desde la línea de comandos del servidor. Consulte [Establecer el modo de operación](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=es) en la _Guía de configuración_ para obtener más información.
 
 La mayoría de los temas de la documentación del comerciante se aplican a una instancia de Commerce que se ejecuta en el modo de producción. Sin embargo, las siguientes opciones de configuración y herramientas sólo se pueden utilizar cuando la instalación se ejecuta en modo de desarrollador.
 
@@ -58,7 +58,7 @@ Consulte [Compilación LESS del lado del cliente frente a compilación del lado 
 
 Añadir una firma digital a la URL de los archivos estáticos permite a los exploradores detectar cuándo está disponible una versión más reciente del archivo. Los archivos estáticos que se pueden rastrear con firmas digitales son JavaScript, CSS, imágenes y fuentes. La firma se anexa a la ruta directamente después de la dirección URL base. Si la firma de un archivo difiere de lo que se almacena en la caché del explorador, se utiliza la versión más reciente del archivo.
 
-Consulte [Firma de contenido estático](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html){:target=&quot;_blank&quot;} en la documentación para desarrolladores de Commerce.
+Consulte [Firma de contenido estático](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html?lang=es){:target=&quot;_blank&quot;} en la documentación para desarrolladores de Commerce.
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ El tiempo que se tarda en cargar archivos de recursos se puede reducir combinand
 
 De forma predeterminada, Adobe Commerce y Magento Open Source no combinan, agrupan ni minimizan archivos, y el desarrollador del proyecto debe determinar qué métodos de optimización de archivos se deben utilizar.
 
-Consulte [Prácticas recomendadas de rendimiento](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html) para obtener más información.
+Consulte [Prácticas recomendadas de rendimiento](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=es) para obtener más información.
 
 >[!NOTE]
 >
@@ -140,7 +140,7 @@ Antes de usar una herramienta como [sugerencias de ruta de plantillas](#template
 >
 >Las restricciones de cliente para desarrolladores solo se pueden establecer en [Modo para desarrolladores](../systems/developer-tools.md#operation-modes).
 
-Para obtener información técnica, consulte [VCL personalizado para permitir solicitudes](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html) en la _Guía de infraestructura en la nube de Commerce_.
+Para obtener información técnica, consulte [VCL personalizado para permitir solicitudes](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=es) en la _Guía de infraestructura en la nube de Commerce_.
 
 **_Para agregar su dirección IP a la lista de permitidos:_**
 

@@ -16,7 +16,7 @@ Configure la integración conectando Commerce a la instancia de AEM Assets y sel
 
 Después de identificar el proyecto de AEM Assets, seleccione la regla de coincidencia para sincronizar los recursos entre Adobe Commerce y los AEM Assets.
 
-- **[!UICONTROL Match by product SKU]**: regla predeterminada que coincide con el SKU de los metadatos del recurso con el [SKU del producto de Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#sku) para garantizar que los recursos estén asociados con los productos correctos.
+- **[!UICONTROL Match by product SKU]**: regla predeterminada que coincide con el SKU de los metadatos del recurso con el [SKU del producto de Commerce](https://experienceleague.adobe.com/es/docs/commerce-operations/implementation-playbook/glossary#sku) para garantizar que los recursos estén asociados con los productos correctos.
 
 - **[!UICONTROL Custom match]**: regla de coincidencia para escenarios más complejos o requisitos empresariales específicos que requieren una lógica de coincidencia personalizada. La implementación de la coincidencia personalizada requiere el desarrollo de código personalizado en Adobe Developer App Builder para definir cómo se comparan los recursos con los productos. Próximamente más detalles...
 
@@ -30,11 +30,11 @@ Para la configuración inicial, usa la regla predeterminada *Coincidir con el SK
 
 - Cree un ticket de asistencia para solicitar la habilitación de AEM Assets para la integración de Commerce. En el ticket, incluya **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** y **[!UICONTROL IMS Org ID]** para el entorno de creación de AEM Assets que desea conectar a Commerce.
 
-- Proporcione **[!UICONTROL Asset Selector IMS Client ID]**. Consulte [ImsAuthProps](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app) en la documentación de *Selector de AEM Assets*.
+- Proporcione **[!UICONTROL Asset Selector IMS Client ID]**. Consulte [ImsAuthProps](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app) en la documentación de *Selector de AEM Assets*.
 
 ## Configuración de la conexión
 
-1. Obtenga el proyecto [Entorno de creación de AEM Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) y el ID de entorno.
+1. Obtenga el proyecto [Entorno de creación de AEM Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) y el ID de entorno.
 
    1. Abra la consola AEM Sites y seleccione **[!UICONTROL Assets]**.
 
@@ -51,7 +51,7 @@ Para la configuración inicial, usa la regla predeterminada *Coincidir con el SK
 
 1. Escriba **[!UICONTROL Asset Selector IMS Client ID]**.
 
-   [Asset Selector IMS Client ID](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app#ims-auth-props) es requerido por [!UICONTROL Assets Selector], una característica de AEM Assets que permite a los usuarios incrustar recursos visuales directamente en páginas de productos de Commerce.
+   [Asset Selector IMS Client ID](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app#ims-auth-props) es requerido por [!UICONTROL Assets Selector], una característica de AEM Assets que permite a los usuarios incrustar recursos visuales directamente en páginas de productos de Commerce.
 
 1. Seleccione [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment) para autenticar solicitudes entre Commerce y el servicio de coincidencia de recursos.
 

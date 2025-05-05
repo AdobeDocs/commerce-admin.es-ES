@@ -219,7 +219,7 @@ Puede establecer una condición para una regla de precio del carro de compras ba
    | `Name` | Nombre de la audiencia, como `Orders over $50` |
    | `Description` | Descripción de la audiencia, como `People who placed an order over $50 in the last month.`. |
    | `Source` | Indica la procedencia de la audiencia, como `Experience Platform`. |
-   | `Website` | Indica qué sitio web ha vinculado al conjunto de datos que contiene las audiencias. Este vínculo se crea al conectar la instancia de Commerce a Experience Platform mediante la extensión [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html). |
+   | `Website` | Indica qué sitio web ha vinculado al conjunto de datos que contiene las audiencias. Este vínculo se crea al conectar la instancia de Commerce a Experience Platform mediante la extensión [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=es). |
 
    {style="table-layout:auto"}
 

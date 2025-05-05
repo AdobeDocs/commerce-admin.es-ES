@@ -188,7 +188,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | Global | Determina la aplicación que se utiliza para administrar la caché de página completa. Opciones: <br/>**`Built-in Application`**- No recomendado para el entorno de producción.<br/>**`Varnish Caching`**: recomendado para el entorno de producción. |
 | [!UICONTROL TTL for public content] | Global | Determina la duración de la caché de contenido público en segundos. Valor predeterminado: `120` |
-| [!UICONTROL Handles param size] | global | Especifica el número máximo de [controladores de diseño](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) que se procesarán en el extremo HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html). Restringir el tamaño puede mejorar la seguridad y el rendimiento. Valor predeterminado: `100` |
+| [!UICONTROL Handles param size] | global | Especifica el número máximo de [controladores de diseño](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) que se procesarán en el extremo HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=es). Restringir el tamaño puede mejorar la seguridad y el rendimiento. Valor predeterminado: `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | Global | Especifica las direcciones IP que pueden purgar la configuración de Barniz para generar un archivo de configuración. Separe las distintas entradas con comas. Valor predeterminado: `localhost` |
 | [!UICONTROL Backend host] | Global | Especifica el host backend que genera los archivos de configuración. Valor predeterminado: `localhost` |
@@ -268,7 +268,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 ![Configuración avanzada - Configuración de carga de imagen](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/es/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |

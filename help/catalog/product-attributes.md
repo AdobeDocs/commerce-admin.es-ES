@@ -47,4 +47,4 @@ Elimine las propiedades del producto no utilizadas para una mejor estructuració
 
 >[NOTA!]
 >
->Para obtener información sobre cómo optimizar la configuración de atributos de producto para obtener rendimiento, consulte [Prácticas recomendadas de administración de catálogos](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) en el _Manual de implementación_.
+>Para obtener información sobre cómo optimizar la configuración de atributos de producto para obtener rendimiento, consulte [Prácticas recomendadas de administración de catálogos](https://experienceleague.adobe.com/es/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) en el _Manual de implementación_.

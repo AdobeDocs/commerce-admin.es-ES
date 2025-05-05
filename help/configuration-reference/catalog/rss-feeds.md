@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ![Configuración Rss](./assets/rss-feeds-rss-config.png)<!-- zoom -->
 
-<!-- [Rss Config](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/social-rss) -->
+<!-- [Rss Config](https://experienceleague.adobe.com/es/docs/commerce-admin/marketing/communications/social-rss) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -32,7 +32,7 @@ Para obtener más información sobre cómo usar las fuentes RSS una vez habilita
 
 ![Lista de deseos](./assets/rss-feeds-wishlist.png)<!-- zoom -->
 
-<!-- [Wish List](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists) -->
+<!-- [Wish List](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -44,7 +44,7 @@ Para obtener más información sobre cómo usar las fuentes RSS una vez habilita
 
 ![Catálogo](./assets/rss-feeds-catalog.png)<!-- zoom -->
 
-<!-- [Catalog](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu) -->
+<!-- [Catalog](https://experienceleague.adobe.com/es/docs/commerce-admin/catalog/catalog-menu) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -59,7 +59,7 @@ Para obtener más información sobre cómo usar las fuentes RSS una vez habilita
 
 ![Pedido](./assets/rss-feeds-order.png)<!-- zoom -->
 
-<!-- [Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-status#notification) -->
+<!-- [Order](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/order-management/orders/order-status#notification) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |

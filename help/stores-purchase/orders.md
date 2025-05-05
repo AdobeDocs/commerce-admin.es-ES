@@ -187,5 +187,5 @@ El cuadro Buscar de la parte superior izquierda de la cuadrícula Pedidos se pue
 
 Para obtener ayuda sobre la resolución de problemas con los pedidos, consulte los siguientes artículos de la Base de conocimiento de asistencia de Commerce:
 
-- [Error de visualización de pedidos](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
+- [Error de visualización de pedidos](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html?lang=es)
 - [No se muestran los pedidos en la cuadrícula Pedidos del administrador](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)

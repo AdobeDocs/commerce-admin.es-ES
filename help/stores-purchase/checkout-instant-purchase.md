@@ -57,7 +57,7 @@ Puede utilizar la compra instantánea con Braintree o los servicios de pago para
 Obtenga información sobre cómo configurar el método de pago y habilitar el depósito para Braintree o Servicios de pago:
 
 - [Braintree](braintree.md)
-- [Documentación de servicios de pago](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
+- [Documentación de servicios de pago](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=es)
 
 ### Paso 3: Activar compra instantánea
 

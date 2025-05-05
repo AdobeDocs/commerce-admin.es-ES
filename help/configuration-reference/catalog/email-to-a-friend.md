@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![Plantillas de correo electrónico](./assets/email-to-a-friend-email-templates.png)<!-- zoom -->
 
-<!-- [Email Templates](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/communications/email-templates#configure-email-templates) -->
+<!-- [Email Templates](https://experienceleague.adobe.com/es/docs/commerce-admin/systems/communications/email-templates#configure-email-templates) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |

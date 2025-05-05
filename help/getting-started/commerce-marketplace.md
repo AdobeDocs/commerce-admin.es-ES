@@ -77,7 +77,7 @@ Puede crear varias claves de acceso para distintos fines y habilitarlas o deshab
 
 >[!IMPORTANT]
 >
->A partir de Adobe Commerce y Magento Open Source 2.4.0, se eliminará el Asistente para instalación web y deberá usar la línea de comandos para [instalar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) o [actualizar](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) su instancia. Este requisito también incluye [módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) y [extensiones](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
+>A partir de Adobe Commerce y Magento Open Source 2.4.0, se eliminará el Asistente para instalación web y deberá usar la línea de comandos para [instalar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=es) o [actualizar](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=es) su instancia. Este requisito también incluye [módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=es) y [extensiones](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=es).
 
 El proceso de instalación de [!DNL Marketplace] compras es diferente para _instalaciones locales_ de Commerce que para instalaciones hospedadas en [la arquitectura de nube de Adobe][4].
 

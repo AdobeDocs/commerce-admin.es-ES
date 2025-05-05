@@ -187,4 +187,4 @@ Todas las acciones relacionadas con los puntos de recompensa se muestran en el b
 
 Para obtener ayuda sobre la resolución de problemas con los puntos de recompensa, consulte los siguientes artículos de la Base de conocimiento de asistencia de Commerce:
 
-- [Error 404: eliminando puntos de recompensa en el pago con envío múltiple](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html)
+- [Error 404: eliminando puntos de recompensa en el pago con envío múltiple](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html?lang=es)

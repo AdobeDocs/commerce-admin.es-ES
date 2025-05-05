@@ -31,6 +31,6 @@ Cuando la funcionalidad de optimización de imágenes de la Galería multimedia 
 
 Cuando se cambian los valores _Anchura máxima_ y _Altura máxima_ en la configuración, se actualizan todas las imágenes optimizadas existentes que se insertaron anteriormente.
 
-La optimización de imágenes de la Galería multimedia requiere que los consumidores de cola de `media.gallery.renditions.update` se estén ejecutando para regenerar imágenes optimizadas cuando se cambie la configuración. Consulte [Administrar colas de mensajes](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) en la _Guía de configuración_ para obtener más información.
+La optimización de imágenes de la Galería multimedia requiere que los consumidores de cola de `media.gallery.renditions.update` se estén ejecutando para regenerar imágenes optimizadas cuando se cambie la configuración. Consulte [Administrar colas de mensajes](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=es) en la _Guía de configuración_ para obtener más información.
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}

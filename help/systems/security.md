@@ -22,11 +22,11 @@ Existen varias formas de proteger su tienda y mantener la seguridad de sus datos
 >
 >Las tiendas que han habilitado la autenticación [!DNL Adobe Identity Management Services] (IMS) tienen Adobe Commerce nativo y el Magento Open Source 2FA deshabilitado. Los usuarios administradores que han iniciado sesión en su instancia de Commerce con sus credenciales de Adobe no necesitan volver a autenticarse en muchas tareas de administración. La autenticación la gestiona Adobe IMS cuando el usuario administrador inicia sesión en su sesión actual. Ver [[!DNL Adobe Identity Management Service] (IMS) Descripción general de la integración](../getting-started/adobe-ims-integration-overview.md).
 
-Visite el [Centro de seguridad](https://helpx.adobe.com/security.html){:target=&quot;_blank&quot;} para obtener las últimas noticias sobre posibles vulnerabilidades, registrarse para recibir notificaciones de Seguridad de Adobe y acceder al Centro de confianza de Adobe.
+Visite el [Centro de seguridad](https://helpx.adobe.com/es/security.html){:target=&quot;_blank&quot;} para obtener las últimas noticias sobre posibles vulnerabilidades, registrarse para recibir notificaciones de Seguridad de Adobe y acceder al Centro de confianza de Adobe.
 
 ![Centro de seguridad](./assets/product-security-home.png){width="700" zoomable="yes"}
 
-Para obtener información acerca de las prácticas recomendadas de seguridad, consulte [Proteger el sitio e infraestructura de Commerce](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) en el _Libro de estrategias de implementación_.
+Para obtener información acerca de las prácticas recomendadas de seguridad, consulte [Proteger el sitio e infraestructura de Commerce](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=es) en el _Libro de estrategias de implementación_.
 
 ## Plan de acción de seguridad
 

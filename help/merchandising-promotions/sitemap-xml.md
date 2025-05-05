@@ -97,7 +97,7 @@ Para crear mapas del sitio para una instancia de varias tiendas, haga lo siguien
    
 >[!NOTE]
 >
->Si su sitio usa el motor de servidor web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html), debe actualizar el archivo [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) en la raíz del sitio web para dirigir cualquier otra solicitud de mapa del sitio al lugar apropiado.
+>Si su sitio usa el motor de servidor web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=es), debe actualizar el archivo [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) en la raíz del sitio web para dirigir cualquier otra solicitud de mapa del sitio al lugar apropiado.
 
 ## Descripciones de columna
 
@@ -223,6 +223,6 @@ El mapa del sitio debe actualizarse con la frecuencia con la que cambia el conte
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
-[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html
+[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=es
 [2]: https://support.google.com/webmasters/answer/183669?hl=en
 [3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed

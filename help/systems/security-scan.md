@@ -22,7 +22,7 @@ El análisis de seguridad mejorado le permite supervisar cada uno de sus sitios 
 - Acceda a informes de seguridad históricos que rastrean y supervisan el progreso de sus sitios.
 - Acceda al informe de análisis que muestra las comprobaciones correctas y fallidas, con las acciones recomendadas.
 
-La herramienta de análisis de seguridad está disponible de forma gratuita en el panel de tu [cuenta de Commerce/Magento](../getting-started/commerce-account-create.md). Para obtener información técnica, consulte [Configurar la herramienta de análisis de seguridad](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) en la _Guía de infraestructura de Commerce en la nube_.
+La herramienta de análisis de seguridad está disponible de forma gratuita en el panel de tu [cuenta de Commerce/Magento](../getting-started/commerce-account-create.md). Para obtener información técnica, consulte [Configurar la herramienta de análisis de seguridad](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html?lang=es#set-up-the-security-scan-tool) en la _Guía de infraestructura de Commerce en la nube_.
 
 ![Herramienta de exploración de seguridad](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 

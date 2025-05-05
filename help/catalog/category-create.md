@@ -116,7 +116,7 @@ Defina también cualquier palabra clave y atributo asociado, como:
 
 1. Si desea que la página de categoría incluya la sección _`Filter by Attribute`_de navegación por capas, establezca **[!UICONTROL Anchor]**&#x200B;en `Yes`.
 
-1. Para las opciones **[!UICONTROL Available Product Listing Sort By]**, seleccione uno o más de los valores disponibles para que los clientes ordenen la lista. Esta configuración no se aplica al [!DNL Live Search] [widget de página de lista de productos](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
+1. Para las opciones **[!UICONTROL Available Product Listing Sort By]**, seleccione uno o más de los valores disponibles para que los clientes ordenen la lista. Esta configuración no se aplica al [!DNL Live Search] [widget de página de lista de productos](https://experienceleague.adobe.com/es/docs/commerce/live-search/live-search-storefront/plp-styling).
 
    De forma predeterminada, se incluyen todos los valores disponibles. Anule la selección de la casilla de verificación **[!UICONTROL Use All]** para cambiar las selecciones. Por ejemplo, los valores pueden incluir:
 
@@ -124,7 +124,7 @@ Defina también cualquier palabra clave y atributo asociado, como:
    - `Product Name`
    - `Price`
 
-1. Para establecer el criterio de ordenación predeterminado de la categoría, elija el valor **[!UICONTROL Default Product Listing Sort By]**. Esta configuración no se aplica al [!DNL Live Search] [widget de página de lista de productos](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
+1. Para establecer el criterio de ordenación predeterminado de la categoría, elija el valor **[!UICONTROL Default Product Listing Sort By]**. Esta configuración no se aplica al [!DNL Live Search] [widget de página de lista de productos](https://experienceleague.adobe.com/es/docs/commerce/live-search/live-search-storefront/plp-styling).
 
 1. Para cambiar la configuración predeterminada de la navegación por capas [price step](navigation-layered.md#configure-price-navigation), haga lo siguiente:
 

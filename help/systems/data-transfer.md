@@ -19,7 +19,7 @@ Por ejemplo, puede agregar nuevos productos al inventario, actualizar los datos 
 
 >[!NOTE]
 >
->Adobe Commerce también admite la exportación de datos SaaS para transferir datos de productos del servidor de Commerce a los servicios SaaS. La exportación de datos SaaS está integrada con los servicios SaaS de Commerce, que incluyen [Recomendaciones de productos](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html), [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) y [Servicio de catálogo](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview). Para obtener más información, consulte la [Guía de exportación de datos SaaS](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview).
+>Adobe Commerce también admite la exportación de datos SaaS para transferir datos de productos del servidor de Commerce a los servicios SaaS. La exportación de datos SaaS está integrada con los servicios SaaS de Commerce, que incluyen [Recomendaciones de productos](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=es), [Live Search](https://experienceleague.adobe.com/es/docs/commerce/live-search/overview) y [Servicio de catálogo](https://experienceleague.adobe.com/es/docs/commerce/catalog-service/guide-overview). Para obtener más información, consulte la [Guía de exportación de datos SaaS](https://experienceleague.adobe.com/es/docs/commerce/saas-data-export/overview).
 
 ## Validación de datos
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Uso de una red de entrega de contenido
 
-Se puede utilizar una red de entrega de contenido (CDN) para almacenar archivos multimedia. Adobe Commerce en la infraestructura en la nube incluye la red de distribución de contenido (CDN) de Fastly (consulte [Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html) en la _Guía de infraestructura de Commerce en la nube_). Una instancia de Commerce que está instalada _on-premise_ no incluye una integración con ningún CDN específico, puede utilizar el CDN que elija.
+Se puede utilizar una red de entrega de contenido (CDN) para almacenar archivos multimedia. Adobe Commerce en la infraestructura en la nube incluye la red de distribución de contenido (CDN) de Fastly (consulte [Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=es) en la _Guía de infraestructura de Commerce en la nube_). Una instancia de Commerce que está instalada _on-premise_ no incluye una integración con ningún CDN específico, puede utilizar el CDN que elija.
 
 Después de configurar la CDN, debe completar la configuración desde el Administrador. Los cambios se pueden realizar a nivel global o de sitio web. Cuando se utiliza una CDN para el almacenamiento de medios, todas las rutas a medios en páginas de la tienda Commerce se cambian a las rutas de CDN especificadas en la configuración.
 

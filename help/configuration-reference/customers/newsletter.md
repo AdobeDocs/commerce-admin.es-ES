@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![Opciones de suscripción](./assets/newsletter-subscription-options.png)<!-- zoom -->
 
-<!-- [Subscription Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/newsletters/newsletters) -->
+<!-- [Subscription Options](https://experienceleague.adobe.com/es/docs/commerce-admin/marketing/communications/newsletters/newsletters) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |

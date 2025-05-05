@@ -169,7 +169,7 @@ También puede configurar el envío a determinados países para cada [método de
 
 Para obtener ayuda con la resolución de problemas de configuración de país, consulte los siguientes artículos de la Base de conocimiento de asistencia de [!DNL Commerce]:
 
-- [Cómo agregar un país](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
+- [Cómo agregar un país](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=es)
 
 ## [!UICONTROL Merchant Location]
 

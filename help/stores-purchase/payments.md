@@ -16,7 +16,7 @@ Adobe Commerce y Magento Open Source admiten varios métodos y servicios de pago
 
 >[!TIP]
 >
->Payment Services para Adobe Commerce y Magento Open Source proporciona una solución de autoservicio llave en mano que incluye pruebas de zona protegida y una configuración sencilla para proporcionar un procesamiento de pagos sólido y seguro. Para obtener más información sobre este potente conjunto de herramientas y cómo puede proporcionarte la perspectiva y el control que necesitas para crear la mejor experiencia para tus compradores, consulta la [Guía del usuario de servicios de pago](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html).
+>Payment Services para Adobe Commerce y Magento Open Source proporciona una solución de autoservicio llave en mano que incluye pruebas de zona protegida y una configuración sencilla para proporcionar un procesamiento de pagos sólido y seguro. Para obtener más información sobre este potente conjunto de herramientas y cómo puede proporcionarte la perspectiva y el control que necesitas para crear la mejor experiencia para tus compradores, consulta la [Guía del usuario de servicios de pago](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=es).
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Algunas integraciones de pago y extensiones agrupadas se han eliminado en las ve
 
 - **Amazon Pay** y **Klarna**: las versiones 2.4.0 a 2.4.3 de Adobe Commerce y Magento Open Source incluían estas extensiones desarrolladas por el proveedor. A partir de la versión 2.4.4, estas extensiones ya no se incluyen en la versión principal y deben instalarse y actualizarse desde Commerce Marketplace. Marketplace también proporciona acceso a la documentación actual proporcionada por el desarrollador de extensiones.
 
-  Si tiene alguna de estas extensiones agrupadas habilitada y configurada, debe actualizar el archivo composer.json como parte del proceso de actualización 2.4.4 y administrar las actualizaciones de extensión a partir de ahora. Consulte [Módulos de actualización](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) en la _Guía de actualización_ para obtener más información.
+  Si tiene alguna de estas extensiones agrupadas habilitada y configurada, debe actualizar el archivo composer.json como parte del proceso de actualización 2.4.4 y administrar las actualizaciones de extensión a partir de ahora. Consulte [Módulos de actualización](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=es) en la _Guía de actualización_ para obtener más información.
 
 - **Worldpay**, **Eway**, **CyberSource** y **Authorize.Net**: Para obtener más información acerca de cómo realizar una transición segura a partir de estas integraciones de pago, consulta [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
 
@@ -49,7 +49,7 @@ Adobe Commerce y Magento Open Source admiten numerosas soluciones de pago que of
 
 ### Soluciones recomendadas
 
-- [Servicios de pago](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
+- [Servicios de pago](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=es)
 - [Pago y envío con PayPal Express](paypal-express-checkout.md)
 - [Braintree](braintree.md)
 
@@ -82,6 +82,6 @@ Los servicios y filtros de protección contra el fraude examinan las solicitudes
 
 ## Solución de problemas de recursos
 
-Para obtener ayuda para solucionar problemas de pago, consulte la [Base de conocimiento de soporte técnico](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=en).
+Para obtener ayuda para solucionar problemas de pago, consulte la [Base de conocimiento de soporte técnico](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=es).
 
 [1]: https://marketplace.magento.com/catalogsearch/result?q=fraud%20protection

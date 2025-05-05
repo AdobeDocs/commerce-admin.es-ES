@@ -4,7 +4,7 @@ description: Aprenda a instalar el  [!DNL Adobe Commerce B2B] metapackage.
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 source-git-commit: 25964363ca5c4ec849e231d4eccb5f60b682a499
 workflow-type: tm+mt
 source-wordcount: '1149'
@@ -39,16 +39,16 @@ La extensión B2B de Adobe Commerce `magento/extension-b2b` está disponible par
 
 **Requisitos previos**
 
-- Acceda a [repo.magento.com](https://repo.magento.com/) para descargar la extensión. Para obtener la generación de claves y los derechos necesarios, consulta [Obtener tus claves de autenticación](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
+- Acceda a [repo.magento.com](https://repo.magento.com/) para descargar la extensión. Para obtener la generación de claves y los derechos necesarios, consulta [Obtener tus claves de autenticación](https://experienceleague.adobe.com/es/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
 
   Guarde las claves de autenticación para la instalación definiéndolas globalmente en el directorio [COMPOSER_HOME](https://getcomposer.org/doc/03-cli.md#composer-home). O bien, guárdelos en un archivo [auth.json](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/#authentication-file) en el directorio raíz de la aplicación de Adobe Commerce.
 
-- [Versión compatible de la extensión B2B](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability)- Determine la versión más reciente de la extensión B2B compatible con la versión implementada de Adobe Commerce.
+- [Versión compatible de la extensión B2B](https://experienceleague.adobe.com/es/docs/commerce-operations/release/product-availability)- Determine la versión más reciente de la extensión B2B compatible con la versión implementada de Adobe Commerce.
 
 - Consulte las notas de la versión para obtener la información más actual acerca de la compatibilidad de versiones, actualizaciones o cambios que pueden afectar a los requisitos de instalación o actualización.
 
    - [Notas de la versión B2B](release-notes.md)
-   - [Notas de la versión de Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/release/versions)
+   - [Notas de la versión de Adobe Commerce](https://experienceleague.adobe.com/es/docs/commerce-operations/release/versions)
 
 >[!ENDSHADEBOX]
 
@@ -62,7 +62,7 @@ Instale la extensión B2B (`magento/b2b-extension`) mediante Composer. La extens
 >
 >Al instalar Adobe Commerce B2B en la infraestructura en la nube, Adobe recomienda implementar la aplicación de Adobe Commerce en un entorno de integración o ensayo antes de comenzar.
 
-Adobe recomienda trabajar en una rama de desarrollo al añadir la extensión B2B al proyecto. Si no tiene una rama, consulte [Crear una rama para desarrollo](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches). Al instalar la extensión B2B, el nombre de la extensión `Magento_B2b` se inserta automáticamente en el archivo `app/etc/config.php`. No es necesario editar el archivo directamente.
+Adobe recomienda trabajar en una rama de desarrollo al añadir la extensión B2B al proyecto. Si no tiene una rama, consulte [Crear una rama para desarrollo](https://experienceleague.adobe.com/es/docs/commerce-cloud-service/user-guide/develop/cli-branches). Al instalar la extensión B2B, el nombre de la extensión `Magento_B2b` se inserta automáticamente en el archivo `app/etc/config.php`. No es necesario editar el archivo directamente.
 
 **Para instalar la extensión B2B**:
 
@@ -98,7 +98,7 @@ Adobe recomienda trabajar en una rama de desarrollo al añadir la extensión B2B
 
    >[!NOTE]
    >
-   >Al insertar actualizaciones en el entorno de la nube de, se inicia el proceso de implementación de la nube de Commerce para aplicar los cambios. Compruebe el estado de implementación desde el [registro de implementación](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process). Si encuentra errores de implementación, consulte [Error al recuperar del componente](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment).
+   >Al insertar actualizaciones en el entorno de la nube de, se inicia el proceso de implementación de la nube de Commerce para aplicar los cambios. Compruebe el estado de implementación desde el [registro de implementación](https://experienceleague.adobe.com/es/docs/commerce-cloud-service/user-guide/develop/deploy/process). Si encuentra errores de implementación, consulte [Error al recuperar del componente](https://experienceleague.adobe.com/es/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment).
 
 1. Una vez finalizada la generación y la implementación, utilice SSH para iniciar sesión en el entorno remoto y comprobar que la extensión B2B está instalada y habilitada.
 
@@ -130,7 +130,7 @@ Adobe recomienda trabajar en una rama de desarrollo al añadir la extensión B2B
 
    Compruebe la ortografía del paquete, la restricción de versión y que el paquete está disponible y coincide con el requisito de estabilidad mínima (estable).
 
-1. Si se le solicita, escriba sus [claves de autenticación](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
+1. Si se le solicita, escriba sus [claves de autenticación](https://experienceleague.adobe.com/es/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
 
    Su _clave pública_ es su nombre de usuario; su _clave privada_ es su contraseña. Si ha almacenado las claves pública y privada en `auth.json`, no se le pedirá que se autentique.
 
@@ -173,14 +173,14 @@ La extensión Adobe Commerce B2B utiliza MySQL para la administración de colas 
 | `purchaseorder.transactional.email` | Enviar correos electrónicos de pedidos de compra. Necesario cuando la opción [**[!UICONTROL Purchase Orders]**](purchase-order-flow.md) está habilitada en las opciones de configuración de Admin System. |
 | `purchaseorder.validation` | Valida el pedido de compra con [reglas de aprobación](account-dashboard-approval-rules.md) relevantes. Necesario cuando la opción [**[!UICONTROL Purchase Orders]**](purchase-order-flow.md) está habilitada en las opciones de configuración de Admin System. |
 | `quoteItemCleaner` | Elimina las ofertas de precios no válidas o inactivas cuando un producto se elimina del catálogo o del carro de compras. Necesario cuando la opción [**[!UICONTROL Quotes]**](quotes.md) está habilitada en las opciones de configuración de Admin System. |
-| `inventoryQtyCounter` | Corrige de forma asíncrona el índice de existencias después de realizar un pedido o de eliminar un producto. Necesario cuando la opción [**[!UICONTROL Use deferred stock update]**](../configuration-reference/catalog/inventory.md#product-stock-options) está habilitada para Inventory management en las opciones de configuración de administración. Consulte [Prácticas recomendadas de rendimiento](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/configuration#deferred-stock-update). |
+| `inventoryQtyCounter` | Corrige de forma asíncrona el índice de existencias después de realizar un pedido o de eliminar un producto. Necesario cuando la opción [**[!UICONTROL Use deferred stock update]**](../configuration-reference/catalog/inventory.md#product-stock-options) está habilitada para Inventory management en las opciones de configuración de administración. Consulte [Prácticas recomendadas de rendimiento](https://experienceleague.adobe.com/es/docs/commerce-operations/performance-best-practices/configuration#deferred-stock-update). |
 | `async.operations.all` | Crea mensajes para cada tarea individual de una [operación masiva](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/), como importar o exportar artículos, cambiar precios a escala masiva y asignar productos a un almacén. Necesario cuando la opción [**Operaciones masivas de administración**](../configuration-reference/catalog/inventory.md#admin-bulk-operations) para [!DNL Inventory Management] está establecida en **Ejecutar asincrónicamente** en los ajustes de configuración del sistema de administración. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->Para obtener una lista de todos los consumidores de mensajes de Adobe Commerce, consulte [Consumidores de colas de mensajes](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/consumers) en la _Guía de configuración_.
+>Para obtener una lista de todos los consumidores de mensajes de Adobe Commerce, consulte [Consumidores de colas de mensajes](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/message-queues/consumers) en la _Guía de configuración_.
 
 ### Configuración de consumidores de mensajes
 
@@ -190,7 +190,7 @@ Evite posibles problemas o retrasos en el procesamiento agregando los siguientes
 
 - `--batch-size <value>`: permite limitar los recursos del sistema consumidos por los consumidores (CPU, memoria). El uso de lotes más pequeños reduce el uso de recursos y, por lo tanto, ralentiza el procesamiento.  Si se especifica, los mensajes de una cola se consumen en lotes de `<value>` cada uno. Esta opción solo se aplica al consumidor de lotes. Si `--batch-size` no está definido, el consumidor por lotes recibe todos los mensajes disponibles en una cola.
 
-Para obtener información acerca de opciones de configuración adicionales, vea [Specific-configuration](https://experienceleague.adobe.com//en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#specific-configuration).
+Para obtener información acerca de opciones de configuración adicionales, vea [Specific-configuration](https://experienceleague.adobe.com//en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues?lang=es#specific-configuration).
 
 ### Iniciar consumidores de mensajes
 
@@ -220,11 +220,11 @@ Para habilitar operaciones asincrónicas para las capacidades B2B, debe iniciar 
 >
 >Para ejecutarlo en segundo plano, agregue `&` al comando, vuelva a un símbolo del sistema y continúe ejecutando comandos. Por ejemplo: `bin/magento queue:consumers:start sharedCatalogUpdatePrice &`.
 
-Para obtener más información, consulte [Administrar colas de mensajes](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) en la _Guía de configuración_.
+Para obtener más información, consulte [Administrar colas de mensajes](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) en la _Guía de configuración_.
 
 ### Añadir consumidores de mensajes a cron
 
-Puede automatizar la programación de ejecución para los consumidores de mensajes `SharedCatalogUpdateCategoryPermissions` y `SharedCatalogUpdatePrice` agregando la programación al archivo de configuración de cron [/app/code/Magento/MessageQueue/etc/crontab.xml](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#process-management).
+Puede automatizar la programación de ejecución para los consumidores de mensajes `SharedCatalogUpdateCategoryPermissions` y `SharedCatalogUpdatePrice` agregando la programación al archivo de configuración de cron [/app/code/Magento/MessageQueue/etc/crontab.xml](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#process-management).
 
 ```
 * * * * * ps ax | grep [s]haredCatalogUpdateCategoryPermissions >>/dev/null 2>&1 || nohup php /var/www/html/magento2/bin/magento queue:consumers:start sharedCatalogUpdateCategoryPermissions &

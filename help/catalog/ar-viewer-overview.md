@@ -25,7 +25,7 @@ Desarrollado por Pixar, [Universal Scene Description (USD)](https://openusd.org/
 
 ## [!DNL AR Viewer] requisitos
 
-[!DNL AR Viewer] es compatible con [!DNL Magento Open Source] y Adobe Commerce. Consulte [Política del ciclo vital](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html){target=_blank} para obtener más información sobre las versiones compatibles.
+[!DNL AR Viewer] es compatible con [!DNL Magento Open Source] y Adobe Commerce. Consulte [Política del ciclo vital](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html?lang=es){target=_blank} para obtener más información sobre las versiones compatibles.
 
 Consulte [Instalar la [!DNL AR Viewer] extensión](../catalog/ar-viewer-setup.md) para obtener más información.
 

@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ![Configuración de correo electrónico de tarjeta regalo](./assets/gift-cards-gift-card-email-settings.png)<!-- zoom -->
 
-<!-- [Gift Card Email Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
+<!-- [Gift Card Email Settings](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ![Configuración general de la tarjeta regalo](./assets/gift-cards-gift-card-general-settings.png)<!-- zoom -->
 
-<!-- [Gift Card General Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
+<!-- [Gift Card General Settings](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 ![Correo electrónico enviado desde la administración de cuenta de tarjeta regalo](./assets/gift-cards-email-sent-from-account.png)<!-- zoom -->
 
-<!-- [Email Sent from Gift Card Account Management](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
+<!-- [Email Sent from Gift Card Account Management](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 ![Configuración general de la cuenta de la tarjeta regalo](./assets/gift-cards-gift-card-account-general-settings.png)<!-- zoom -->
 
-<!-- [Gift Card Account General Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
+<!-- [Gift Card Account General Settings](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |

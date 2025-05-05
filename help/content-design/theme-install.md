@@ -16,7 +16,7 @@ Cuando instala [!DNL Commerce] por primera vez, los elementos de diseño de la t
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-Antes de empezar, asegúrese de que tiene un conjunto válido de [[!DNL Commerce] claves de acceso](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+Antes de empezar, asegúrese de que tiene un conjunto válido de [[!DNL Commerce] claves de acceso](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=es).
 
 Para agregar un tema a su tienda [!DNL Commerce], siga las instrucciones disponibles en [!DNL Commerce Marketplace]:
 

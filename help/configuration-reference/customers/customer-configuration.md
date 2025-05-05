@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![Opciones de uso compartido de cuentas](./assets/customer-configuration-account-sharing-options.png)<!-- zoom -->
 
-<!-- [Account Sharing Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/customer-account-scope) -->
+<!-- [Account Sharing Options](https://experienceleague.adobe.com/es/docs/commerce-admin/customers/customer-accounts/customer-account-scope) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ![Opciones de clientes en línea](./assets/customer-configuration-online-customers-options.png)<!-- zoom -->
 
-<!-- [Online Customers Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/now-online) -->
+<!-- [Online Customers Options](https://experienceleague.adobe.com/es/docs/commerce-admin/customers/customers-menu/now-online) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ![Crear nuevas opciones de cuenta (campos de IVA)](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
 
-<!-- [Create New Account Options (VAT Fields)](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
+<!-- [Create New Account Options (VAT Fields)](https://experienceleague.adobe.com/es/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 ![Opciones de contraseña](./assets/customer-configuration-password-options.png)<!-- zoom -->
 
-<!-- [Password Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
+<!-- [Password Options](https://experienceleague.adobe.com/es/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 ![Opciones de nombre y dirección - Abrir Source](./assets/customer-configuration-name-address-options-ce.png)<!-- zoom -->
 
-<!-- [Name and Address Options - Open Source](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
+<!-- [Name and Address Options - Open Source](https://experienceleague.adobe.com/es/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -132,7 +132,7 @@ ht-degree: 0%
 
 ![Opciones de nombre y dirección - Commerce](./assets/customer-configuration-name-address-options-ee.png)<!-- zoom -->
 
-<!-- [Name and Address Options - Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
+<!-- [Name and Address Options - Commerce](https://experienceleague.adobe.com/es/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -150,7 +150,7 @@ ht-degree: 0%
 
 ![Opciones de crédito de tienda](./assets/customer-configuration-store-credit-options.png)<!-- zoom -->
 
-<!-- [Store Credit Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) -->
+<!-- [Store Credit Options](https://experienceleague.adobe.com/es/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -166,7 +166,7 @@ ht-degree: 0%
 
 ![Opciones de inicio de sesión](./assets/customer-configuration-login-options.png)<!-- zoom -->
 
-<!-- [Login Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
+<!-- [Login Options](https://experienceleague.adobe.com/es/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -178,7 +178,7 @@ ht-degree: 0%
 
 ![Plantillas de direcciones](./assets/customer-configuration-address-templates.png)<!-- zoom -->
 
-<!-- [Address Templates](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/attributes/address-templates) -->
+<!-- [Address Templates](https://experienceleague.adobe.com/es/docs/commerce-admin/customers/customer-accounts/attributes/address-templates) -->
 
 | Plantilla | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -195,7 +195,7 @@ ht-degree: 0%
 
 ![Segmentos de cliente](./assets/customer-configuration-customer-segments.png)<!-- zoom -->
 
-<!-- [Customer Segments](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segments) -->
+<!-- [Customer Segments](https://experienceleague.adobe.com/es/docs/commerce-admin/customers/segments/customer-segments) -->
 
 | Plantilla | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -208,13 +208,13 @@ ht-degree: 0%
 
 ![CAPTCHA](./assets/customer-configuration-captcha.png)<!-- zoom -->
 
-<!-- [CAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-captcha) -->
+<!-- [CAPTCHA](https://experienceleague.adobe.com/es/docs/commerce-admin/systems/security/captcha/security-captcha) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Enable CAPTCHA on Storefront] | Sitio web | Habilita CAPTCHA en las tiendas asociadas con el sitio web de Commerce. Opciones: `Yes` / `No` |
 | [!UICONTROL Font] | Sitio web | Determina la fuente utilizada para mostrar el CAPTCHA. Para agregar su propia fuente, coloque el archivo de fuente en el mismo directorio que la instalación de Commerce y agregue la declaración al archivo `config.xml` en `app/code/Magento/Captcha/etc`. |
-| [!UICONTROL Forms] | Sitio web | Determina los formularios donde se utiliza CAPTCHA. Opciones: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` (ver [parche de seguridad](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)) <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**Nota:**&#x200B;_ Los formularios Crear usuario, Olvidé la contraseña y Flujo de trabajo Pro siempre están habilitados cuando se seleccionan. |
+| [!UICONTROL Forms] | Sitio web | Determina los formularios donde se utiliza CAPTCHA. Opciones: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` (ver [parche de seguridad](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=es)) <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**Nota:**&#x200B;_ Los formularios Crear usuario, Olvidé la contraseña y Flujo de trabajo Pro siempre están habilitados cuando se seleccionan. |
 | [!UICONTROL Displaying Mode] | Sitio web | Determina cuándo aparecerá el CAPTCHA. Opciones: <br/>**`Always`**- siempre se requiere CAPTCHA para iniciar sesión.<br/>**`After number of attempts to login`**: esta opción solo se aplica al formulario de inicio de sesión de administrador. Cuando se selecciona, aparece el campo _[!UICONTROL Number of Unsuccessful Attempts to Login]_. Introduzca el número de intentos de inicio de sesión que desea permitir. Un valor de `0` (cero) es similar a establecer [!UICONTROL Displaying Mode] en `Always`.<br/>_&#x200B;**Nota:**&#x200B;_Para hacer un seguimiento del número de intentos de inicio de sesión erróneos, se cuenta cada intento de inicio de sesión en una dirección de correo electrónico y desde una dirección IP. El número máximo de intentos de inicio de sesión permitidos desde la misma dirección IP es de 1000. Esta limitación se aplica solamente cuando CAPTCHA está habilitado. |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | Sitio web | Especifica el número de veces que un cliente puede intentar iniciar sesión antes de que se bloquee la cuenta. |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | Sitio web | Determina la duración del CAPTCHA actual. Cuando caduca el CAPTCHA, el usuario debe volver a cargar la página. |

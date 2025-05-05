@@ -18,7 +18,7 @@ Es posible que los comerciantes que hayan integrado su instancia de Commerce con
 
 Las implementaciones de Commerce vuelven a las directivas predeterminadas de flujo de trabajo y contraseña de autenticación de Commerce después de deshabilitar la integración de IMS. Solo los flujos de trabajo de usuario de administración se ven afectados cuando esta integración está habilitada o deshabilitada.
 
-Consulte [Su cuenta de administrador](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html) para obtener una descripción general del inicio de sesión de administrador de Commerce.
+Consulte [Su cuenta de administrador](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=es) para obtener una descripción general del inicio de sesión de administrador de Commerce.
 
 ## Paso 1: Desactivación de la integración
 
@@ -42,7 +42,7 @@ Después de deshabilitar la integración, los usuarios administradores deben uti
 
 * Los usuarios administradores de Commerce que recuerden su contraseña de Commerce preexistente (es decir, una contraseña de Commerce creada antes de la integración con IMS) pueden utilizarla para iniciar sesión en Admin.
 
-* Los usuarios administradores de Commerce que no tengan una contraseña de Commerce preexistente o que la hayan olvidado deben crear una nueva contraseña. Para crear una nueva contraseña, los usuarios administradores pueden usar la característica [!UICONTROL Forgot your password?] en la página de inicio de sesión de Commerce para crear una nueva contraseña. Consulte [Restablecer contraseñas de cliente](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html). Commerce no aceptará un campo de contraseña vacío.
+* Los usuarios administradores de Commerce que no tengan una contraseña de Commerce preexistente o que la hayan olvidado deben crear una nueva contraseña. Para crear una nueva contraseña, los usuarios administradores pueden usar la característica [!UICONTROL Forgot your password?] en la página de inicio de sesión de Commerce para crear una nueva contraseña. Consulte [Restablecer contraseñas de cliente](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html?lang=es). Commerce no aceptará un campo de contraseña vacío.
 
 ## Después de deshabilitar la integración
 

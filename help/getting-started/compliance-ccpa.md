@@ -206,8 +206,8 @@ Revise su política de privacidad actual y considere qué divulgaciones adiciona
 
 Durante 24 meses después de recibir cada solicitud de derechos individual, mantenga un registro de la solicitud y de la respuesta de su compañía.
 
-[1]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html
+[1]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=es
+[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=es
 [3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
 [4]: https://www.adobe.com/commerce/magento.html
 [5]: https://oag.ca.gov/privacy/ccpa

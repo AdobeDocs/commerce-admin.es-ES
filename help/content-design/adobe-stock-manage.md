@@ -118,13 +118,13 @@ Cada imagen tiene detalles disponibles para su visualización. A través de esta
 
 ## Inicie sesión en su cuenta de Adobe
 
-Para obtener acceso completo a una imagen y eliminar la marca de agua de Adobe Stock, debe [iniciar sesión con una cuenta de Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) y comprar créditos para obtener derechos de licencia para utilizar una imagen.
+Para obtener acceso completo a una imagen y eliminar la marca de agua de Adobe Stock, debe [iniciar sesión con una cuenta de Adobe](https://helpx.adobe.com/es/manage-account/using/access-adobe-id-account.html) y comprar créditos para obtener derechos de licencia para utilizar una imagen.
 
 1. [Acceder a la cuadrícula de búsqueda de Adobe Stock](#access-the-adobe-stock-search-grid).
 
 1. Haga clic en **[!UICONTROL Sign In]** en la parte superior derecha.
 
-   Una nueva ventana del explorador le guiará a través del [proceso de inicio de sesión de Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
+   Una nueva ventana del explorador le guiará a través del [proceso de inicio de sesión de Adobe](https://helpx.adobe.com/es/manage-account/using/access-adobe-id-account.html).
 
    Después de completar el proceso de inicio de sesión, el estado de licencia de las imágenes se muestra en los resultados de búsqueda como una etiqueta.
 
@@ -178,7 +178,7 @@ Los recursos de Adobe Stock que desee usar en las tiendas de producción [!DNL C
 
      >[!NOTE]
      >
-     >Debe tener [créditos de Adobe Stock](https://helpx.adobe.com/stock/help/credit-packs.html) disponibles en su cuenta para autorizar la imagen.
+     >Debe tener [créditos de Adobe Stock](https://helpx.adobe.com/es/stock/help/credit-packs.html) disponibles en su cuenta para autorizar la imagen.
 
    Esta acción muestra una solicitud para que especifique un nombre de archivo que se use para guardar la imagen en el [almacenamiento de medios](media-storage.md). Se proporciona un nombre de archivo predeterminado, pero puede personalizarlo según sus preferencias.
 

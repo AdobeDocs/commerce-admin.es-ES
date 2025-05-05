@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ![Opciones generales](/help/configuration-reference/customers/assets/persistent-shopping-cart-general.png)<!-- zoom -->
 
-<!-- [General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-persistent#configure-a-persistent-cart) -->
+<!-- [General Options](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-persistent#configure-a-persistent-cart) -->
 
 | Campo | [Ámbito](/help/getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |------------------------------------------------------------------------|--- |

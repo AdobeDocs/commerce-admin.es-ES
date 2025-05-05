@@ -12,7 +12,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**Característica deshabilitada:** La copia de seguridad está deshabilitada de manera predeterminada. Para habilitar esta función, es posible que se requiera la asistencia del desarrollador. Consulte el siguiente tema de la _Guía de instalación_ para habilitar las copias de seguridad: [Realizar copias de seguridad y revertir el sistema de archivos, los medios y la base de datos](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html).
+>**Característica deshabilitada:** La copia de seguridad está deshabilitada de manera predeterminada. Para habilitar esta función, es posible que se requiera la asistencia del desarrollador. Consulte el siguiente tema de la _Guía de instalación_ para habilitar las copias de seguridad: [Realizar copias de seguridad y revertir el sistema de archivos, los medios y la base de datos](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html?lang=es).
 
 >[!NOTE]
 >
