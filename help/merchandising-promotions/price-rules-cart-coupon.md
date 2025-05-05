@@ -3,9 +3,9 @@ title: Códigos de cupón
 description: Aprenda a utilizar códigos de cupones con reglas de precio de carro de compras para aplicar un descuento cuando se cumpla un conjunto de condiciones.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: f6f3dba7a43cbadd5ca8bdac15af8141cbf2d260
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '1895'
+source-wordcount: '1912'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ La configuración controla la longitud y el formato de los códigos de cupón ge
 
 >[!NOTE]
 >
->Antes de crear cupones, utilice el comando `bin/magento cron:run` para comprobar que cron se está ejecutando. Consulte [Ejecutar cron desde la línea de comandos](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=es#run-cron-from-the-command-line) en la _Guía de configuración_ para obtener más información.
+>[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} Antes de crear cupones, use el comando `bin/magento cron:run` para comprobar que cron se está ejecutando. Consulte [Ejecutar cron desde la línea de comandos](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) en la _Guía de configuración_ para obtener más información.
 
 ### Método 1: Creación de un cupón específico
 
@@ -89,7 +89,7 @@ La configuración controla la longitud y el formato de los códigos de cupón ge
 
 1. Para que el cupón sea válido durante un período de tiempo, haga lo siguiente:
 
-   - ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Complete las fechas **De** y **A**. Para seleccionar la fecha, haga clic en el icono **Calendario** (![Icono del calendario](../assets/icon-calendar.png)) que hay junto a cada campo. Si deja vacío el intervalo de fechas, la regla no caduca.
+   - ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Complete las fechas **Desde** y **Hasta**. Para seleccionar la fecha, haga clic en el icono **Calendario** (![Icono del calendario](../assets/icon-calendar.png)) que hay junto a cada campo. Si deja vacío el intervalo de fechas, la regla no caduca.
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Realice una de las siguientes acciones:
 
@@ -172,7 +172,7 @@ Para eliminar códigos de cupones, seleccione uno o varios códigos de la lista.
 
 >[!NOTE]
 >
->Aunque Commerce permite configurar varios códigos de cupones, un cliente solo puede utilizar un código de cupón en el carro de compras. Para permitir el uso de más de un código de cupón en el carro de compras simultáneamente, podría considerar el uso de una extensión correspondiente de [Commerce Marketplace](https://marketplace.magento.com/).
+>Aunque Commerce permite configurar varios códigos de cupones, un cliente solo puede utilizar un código de cupón en el carro de compras. Para permitir el uso de más de un código de cupón en el carro de compras simultáneamente, puedes considerar usar una extensión correspondiente de [Commerce Marketplace](https://marketplace.magento.com/).
 
 ## Informe de cupones
 

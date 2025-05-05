@@ -5,9 +5,10 @@ hide: false
 hidefromtoc: false
 feature: Integration
 exl-id: 451bf2e1-7c38-40be-a7c1-aaf0fe9f486c
-source-git-commit: 15569794c1e66ba5a93e46206244e2951522923e
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Después de la activación inicial, administre el estado de la integración de E
 
 - Si la extensión Commerce Admin Unified Experience está habilitada y las cuentas de administrador están [aprovisionadas correctamente](#manage-admin-user-accounts), los administradores de Commerce pueden ver los proyectos de Commerce disponibles en Adobe Experience Cloud y acceder a ellos. Los administradores aún pueden acceder a proyectos individuales utilizando la URL de administración para el entorno de proyecto de Commerce.
 
-- Si la extensión Commerce Admin Unified Experience está deshabilitada, el acceso mediante el Experience Cloud estará deshabilitado. Los administradores deben iniciar sesión en proyectos individuales utilizando la URL de administración para el entorno de proyecto de Commerce.
+- Si la extensión Commerce Admin Unified Experience está deshabilitada, el acceso a través de Experience Cloud está deshabilitado. Los administradores deben iniciar sesión en proyectos individuales utilizando la URL de administración para el entorno de proyecto de Commerce.
 
 >[!WARNING]
 >
@@ -30,7 +31,7 @@ Después de la activación inicial, administre el estado de la integración de E
 
 1. En el menú Configuración, seleccione **[!UICONTROL Advanced > Admin]** y, a continuación, expanda **[!UICONTROL Unified Experience option]**.
 
-   ![Configuración del almacén de administración para la integración de Experience Cloud](./assets/admin-uex-manage-settings.png){width="600" zoomable="yes"}
+   ![Configuración del almacén de administración para la integración con Experience Cloud](./assets/admin-uex-manage-settings.png){width="600" zoomable="yes"}
 
 1. Habilite o deshabilite la integración seleccionando el valor **[!UICONTROL Enable]**.
 
@@ -42,7 +43,7 @@ Después de la activación inicial, administre el estado de la integración de E
 
 ## Administre la integración utilizando la CLI de Adobe Commerce
 
-Los administradores de sistemas de Commerce con acceso de administrador al proyecto de nube de Commerce pueden utilizar los comandos CLI de Adobe Commerce para administrar la integración de Experience Cloud.
+Los administradores del sistema de Commerce con acceso de administrador al proyecto de nube de Commerce pueden utilizar los comandos CLI de Adobe Commerce para administrar la integración de Experience Cloud.
 
 1. Desde el entorno de desarrollo local, inicie sesión en el proyecto de la nube.
 
@@ -74,12 +75,12 @@ Todos los usuarios administradores de Commerce deben tener una cuenta de adminis
 
 - **Cuenta de administrador de Commerce**—[Administrar usuarios de administrador de Commerce](../systems/permissions-users-all.md) del administrador de la instancia de Commerce. Las cuentas de usuario para los administradores de Commerce deben tener asignada la función Administrador.
 
-  Los administradores de sistemas del proyecto Commerce pueden usar [SSH para conectarse al entorno remoto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=es#connect-to-a-remote-environment) y usar los comandos `admin:user:create` y `admin:user:unlock` de Commerce CLI para agregar o desbloquear cuentas de usuario de administrador.
+  Los administradores de sistemas del proyecto Commerce pueden usar [SSH para conectarse al entorno remoto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment) y usar los comandos `admin:user:create` y `admin:user:unlock` de Commerce CLI para agregar o desbloquear cuentas de usuario de administrador.
 
-- **Cuenta de usuario de Adobe**: un administrador de la organización de Adobe asociada con la instancia de Commerce debe iniciar sesión en Adobe Admin Console y agregar Adobe ID para cada administrador de Commerce a la organización. A continuación, deben asignar derechos y permisos de producto para acceder a la aplicación de Commerce. Consulte [Configuración de usuarios de Adobe Commerce en Adobe Admin Console](adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console).
+- **Cuenta de usuario de Adobe**: un administrador de la organización de Adobe asociada a la instancia de Commerce debe iniciar sesión en Adobe Admin Console y agregar Adobe ID para cada administrador de Commerce a la organización. A continuación, deben asignar derechos y permisos de producto para acceder a la aplicación de Commerce. Consulte [Configuración de usuarios de Adobe Commerce en Adobe Admin Console](adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console).
 
 Los administradores que gestionan la configuración de la integración de Experience Cloud desde Adobe Developer Console deben tener una cuenta de usuario de Adobe con acceso de administrador del sistema o desarrollador.
 
 >[!NOTE]
 >
->Una Adobe ID es una cuenta creada mediante el Adobe de trabajo necesaria para acceder a productos y servicios a través de Experience Cloud. Los administradores de Commerce que no tengan un Adobe ID pueden [crear una cuenta gratuita](https://helpx.adobe.com/es/manage-account/using/create-update-adobe-id.html) con la misma dirección de correo electrónico que usan para iniciar sesión en el administrador de Commerce.
+>Una Adobe ID es una cuenta creada a través de Adobe que es necesaria para acceder a productos y servicios a través de Experience Cloud. Los administradores de Commerce que no tengan un Adobe ID pueden [crear una cuenta gratuita](https://helpx.adobe.com/manage-account/using/create-update-adobe-id.html) con la misma dirección de correo electrónico que usan para iniciar sesión en el administrador de Commerce.

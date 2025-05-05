@@ -3,9 +3,9 @@ title: Operaciones de pedido programado
 description: Obtenga información acerca de las operaciones de pedidos programados y la configuración de cron de pedidos que admiten esta funcionalidad.
 exl-id: 330fe75a-d901-4696-946e-fa7af9ea3d40
 feature: Orders, Configuration
-source-git-commit: db859c40cd6f052a8f1153e245c23d9f1ea97d33
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -45,11 +45,11 @@ Al programar estas tareas, puede evitar los bloqueos que se producen cuando se g
 
 **_Para habilitar las actualizaciones y la reindexación:_**
 
-Cuando el [modo de producción](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=es#production-mode) (el modo predeterminado usado en Adobe Commerce en la infraestructura en la nube) esté habilitado, ejecute el siguiente comando:
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} Cuando [el modo de producción](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) (el modo predeterminado usado en Adobe Commerce en la infraestructura en la nube) esté habilitado, ejecute el siguiente comando:
 
-``bin/magento config:set dev/grid/async_indexing 1``
+`bin/magento config:set dev/grid/async_indexing 1`
 
-Cuando el [modo predeterminado](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=es#default-mode) esté habilitado, complete los siguientes pasos:
+Cuando el [modo predeterminado](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode) esté habilitado, complete los siguientes pasos:
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

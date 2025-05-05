@@ -1,18 +1,18 @@
 ---
 title: '[!DNL Adobe Commerce B2B] notas de la versión'
-description: Revise los Notas de la versión para obtener información sobre los cambios en [!DNL Adobe Commerce B2B] las versiones.
+description: Revise las notas de la versión para obtener información acerca de los cambios en  [!DNL Adobe Commerce B2B] versiones.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: de145205e5fcdcb49ca7626b2666e82af102344f
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '8702'
+source-wordcount: '8736'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Commerce B2B] Notas
+# [!DNL Adobe Commerce B2B] notas de la versión
 
-Estos Notas de la versión para la extensión de B2B capturan adiciones y correcciones que Adobe Systems ha agregado durante un ciclo de lanzamiento, incluyendo:
+Estas notas de la versión de la extensión B2B recopilan las adiciones y correcciones que Adobe ha añadido durante un ciclo de lanzamiento de, entre las que se incluyen:
 
 ![Nuevas](../assets/new.svg) nuevas características
 ![Se ha corregido un problema](../assets/fix.svg) Correcciones y mejoras
@@ -20,7 +20,7 @@ Estos Notas de la versión para la extensión de B2B capturan adiciones y correc
 
 >[!NOTE]
 >
->Consulte [Disponibilidad del producto](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=es) para obtener información sobre las versiones de la extensión de Commerce B2B compatibles con las versiones de Adobe Commerce disponibles.
+>Consulte [Disponibilidad del producto](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) para obtener información sobre las versiones de la extensión de Commerce B2B compatibles con las versiones de Adobe Commerce disponibles.
 
 ## B2B 1.5.2
 
@@ -31,7 +31,7 @@ Compatible con Adobe Commerce versiones 2.4.7 a 2.4.7-p4, 2.4.6 a 2.4.6-p9
 
 La versión B2B v1.5.2 incluye mejoras de calidad y correcciones de errores.
 
-### Administración de la empresa
+### Administración de empresa
 
 ![Los nuevos](../assets/new.svg)<!-- B2B-4123 -->administradores ahora pueden administrar varias compañías desde una sola cuenta usando el conmutador de compañías de tienda. Las ventajas principales incluyen:
 
@@ -49,9 +49,9 @@ Esta mejora se basa en la capacidad de pertenencia de varias empresas de B2B 1.5
 
 ![Problema corregido](../assets/fix.svg) La versión B2B v1.5.2 incluye las siguientes correcciones para presupuestos negociables:
 
-- &#x200B;<!-- B2B-3252 -->El campo [!UICONTROL Line Item Discount Amount] ahora valida la entrada para evitar que se introduzcan valores de descuento negativos.
-- &#x200B;<!-- B2B-3224 -->Se ha corregido un problema con la experiencia del usuario en el que las notas de elementos de línea larga se truncaban y eran difíciles de leer para los clientes B2B.
-- &#x200B;<!-- B2B-2865 -->Los clientes B2B ahora pueden especificar cantidades de productos utilizando valores decimales (como 1,5 o 2,75) al crear presupuestos.
+- <!-- B2B-3252 -->El campo [!UICONTROL Line Item Discount Amount] ahora valida la entrada para evitar que se introduzcan valores de descuento negativos.
+- <!-- B2B-3224 -->Se ha corregido un problema con la experiencia del usuario en el que las notas de elementos de línea larga se truncaban y eran difíciles de leer para los clientes B2B.
+- <!-- B2B-2865 -->Los clientes B2B ahora pueden especificar cantidades de productos utilizando valores decimales (como 1,5 o 2,75) al crear presupuestos.
 
 ### Plantilla de presupuesto
 
@@ -98,7 +98,7 @@ La versión B2B v1.5.1 incluye mejoras de calidad y correcciones de errores.
 [!BADGE Compatible]{type=Informative tooltip="Admitido"} versiones de parches de seguridad 2.4.7-p3+ y 2.4.6-p8+ de Adobe Commerce.
 Compatible con Adobe Commerce versiones 2.4.8-beta1, 2.4.7 a 2.4.7-p2, 2.4.6 a 2.4.6-p7.
 
-La versión 1.5.0 de Adobe Commerce B2B también es compatible con PHP 8.3 y admite [GraphQL Application Server](https://experienceleague.adobe.com/es/docs/commerce-operations/performance-best-practices/concepts/application-server).
+La versión 1.5.0 de Adobe Commerce B2B también es compatible con PHP 8.3 y admite [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 La versión B2B v1.5.0 incluye nuevas funciones, mejoras de calidad y correcciones de errores.
 
@@ -114,9 +114,9 @@ La versión B2B v1.5.0 incluye nuevas funciones, mejoras de calidad y correccion
 
 - Ordenar y filtrar compañías por la nueva configuración de *[!UICONTROL Company Type]*. En la cuadrícula Compañías, la columna *[!UICONTROL Company Type]* indica si una compañía es una compañía individual o parte de una jerarquía organizativa (principal o secundaria).
 
-![](../assets/new.svg) **Nuevo Administrar compañía configuración a escala**<!--B2B-2849-->: cambie rápidamente compañía opciones de configuración para las empresas seleccionadas mediante la *[!UICONTROL Change company setting]* acción masiva ahora disponible al administrar empresas desde la *[!UICONTROL Companies]* cuadrícula O *[!UICONTROL Company Hierarchy]*. Por ejemplo, si crea un nuevo catálogo compartido para un grupo de empresas, puede cambiar la configuración del catálogo compartido en una sola acción en lugar de editar cada compañía individualmente.
+![Nuevo](../assets/new.svg) **Administrar configuración de empresa a escala**<!--B2B-2849-->—Cambiar rápidamente la configuración de empresa para las empresas seleccionadas mediante la acción masiva de *[!UICONTROL Change company setting]* ahora disponible al administrar empresas desde la cuadrícula de *[!UICONTROL Companies]* o *[!UICONTROL Company Hierarchy]*. Por ejemplo, si crea un nuevo catálogo compartido para un grupo de empresas, puede cambiar la configuración del catálogo compartido en una sola acción en lugar de editar cada empresa individualmente.
 
-![](../assets/new.svg) API de Nuevo Los desarrolladores pueden usar el nuevo punto `/V1/company/{parentId}/relations` final de la API de REST de relaciones de empresa para crear, vista y quitar asignaciones compañía. Consulte [Administración de objetos](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) de compañía en la Guía *para desarrolladores de API* web.
+![Nuevos](../assets/new.svg) desarrolladores de API pueden usar el nuevo extremo de API de REST de relaciones con la compañía `/V1/company/{parentId}/relations` para crear, ver y quitar asignaciones de la compañía. Consulte [Administrar objetos de empresa](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) en la *Guía para desarrolladores de API web*.
 
 ### Cuentas de empresa
 
@@ -124,9 +124,9 @@ La versión B2B v1.5.0 incluye nuevas funciones, mejoras de calidad y correccion
 
 >[!NOTE]
 >
->Un usuario compañía puede asignarse a varias empresas, pero solo puede ser el administrador compañía de una compañía.
+>Se puede asignar un usuario de empresa a varias empresas, pero solo puede ser el administrador de empresa de una empresa.
 
-![Nuevo](../assets/new.svg) <!--B2B-2747--> **Company ámbito selector**: proporciona la capacidad para que los usuarios compañía que están asignados a varias compañías cambien de compañía en el escaparate. Cuando se cambia el ámbito, los datos se actualizan para mostrar la información basada en el nuevo contexto compañía. Por ejemplo, si el nuevo compañía utiliza un catálogo compartido diferente, el compañía usuario ve productos, precios y otra información basada en el nuevo catálogo compartido. El contenido relacionado con pedidos, presupuestos y plantillas de presupuestos también se actualiza en función del contexto de la empresa seleccionada.
+![Nuevo](../assets/new.svg) <!--B2B-2747--> **Selector de ámbito de compañía**: permite a los usuarios de la compañía asignados a varias compañías cambiar de compañía en la tienda. Cuando se cambia el ámbito, los datos se actualizan para mostrar la información en función del nuevo contexto de la empresa. Por ejemplo, si la nueva empresa utiliza un catálogo compartido diferente, el usuario de la empresa verá productos, precios y otra información basada en el nuevo catálogo compartido. El contenido relacionado con pedidos, presupuestos y plantillas de presupuestos también se actualiza en función del contexto de la empresa seleccionada.
 
 >[!NOTE]
 >El contenido del carro de compras refleja los artículos seleccionados por el cliente actual. Si el cliente tiene un carro de compras activo y selecciona una compañía diferente, se le pedirá que actualice el carro de compras para reflejar el surtido de productos, los precios y los descuentos promocionales en función del nuevo contexto de la compañía. Los productos que no están disponibles en el catálogo asociado con la nueva compañía se eliminan del carro de compras. Si el producto tiene un precio o una disponibilidad diferentes, el carro se actualiza para reflejar los datos disponibles en el contexto de la compañía seleccionada.<!--B2B-4222-->
@@ -182,7 +182,7 @@ Las mejoras en las capacidades de cotización ayudan a los compradores y vendedo
 
 ![Nuevo](../assets/new.svg) Se ha agregado compatibilidad con las versiones de parches de seguridad de Adobe Commerce 2.4.7-p5+ y 2.4.6-p10+.
 
-![Problema corregido](../assets/fix.svg) Incluye las correcciones de seguridad documentadas en [Boletín de seguridad APSB25-26](https://helpx.adobe.com/es/security/products/magento/apsb25-26.html).
+![Problema corregido](../assets/fix.svg) Incluye las correcciones de seguridad documentadas en [Boletín de seguridad APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
 
 {{b2b-compatibility}}
 
@@ -194,7 +194,7 @@ Las mejoras en las capacidades de cotización ayudan a los compradores y vendedo
 
 ![Se ha agregado compatibilidad con las versiones de parches de seguridad de Adobe Commerce 2.4.7-p4+ y 2.4.6-p9+.](../assets/new.svg)
 
-![Problema](../assets/fix.svg) corregido Incluye las correcciones de seguridad documentadas en [el boletín de seguridad APSB25-08](https://helpx.adobe.com/es/security/products/magento/apsb25-08.html).
+![Problema corregido](../assets/fix.svg) Incluye las correcciones de seguridad documentadas en [Boletín de seguridad APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
 
 {{b2b-compatibility}}
 
@@ -206,7 +206,7 @@ Las mejoras en las capacidades de cotización ayudan a los compradores y vendedo
 
 ![Nuevo](../assets/new.svg) Se ha agregado compatibilidad con las versiones de parches de seguridad de Adobe Commerce 2.4.7-p3+ y 2.4.6-p8+.
 
-![Problema](../assets/fix.svg) corregido Incluye las correcciones de seguridad documentadas en [el boletín de seguridad APSB24-73](https://helpx.adobe.com/es/security/products/magento/apsb24-73.html).
+![Problema corregido](../assets/fix.svg) Incluye las correcciones de seguridad documentadas en [Boletín de seguridad APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 {{b2b-compatibility}}
 
@@ -232,7 +232,7 @@ Las mejoras en las capacidades de cotización ayudan a los compradores y vendedo
 
 ## B2B v1.4.2
 
-*octubre 10, 2023*
+*10 de octubre de 2023*
 
 [!BADGE Compatible]{type=Informative tooltip="Admitido"} Adobe Commerce versión 2.4.7 y versión de 2.4.6 a 2.4.6-p5.
 
@@ -242,13 +242,13 @@ La versión B2B v1.4.2 incluye mejoras de calidad y correcciones de errores.
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B versión 1.4.2+ es compatible con PHP 8.2. Si actualiza la instancia de Commerce a la versión 2.4.7 o posterior, asegúrese de que la instancia utiliza la versión 8.2 de PHP para mantener la compatibilidad con la versión B2B de Adobe Commerce. Además, B2B 1.4.2+ no admite actualmente [GraphQL Application Server](https://experienceleague.adobe.com/es/docs/commerce-operations/performance-best-practices/concepts/application-server).
+>Adobe Commerce B2B versión 1.4.2+ es compatible con PHP 8.2. Si actualiza la instancia de Commerce a la versión 2.4.7 o posterior, asegúrese de que la instancia utiliza la versión 8.2 de PHP para mantener la compatibilidad con la versión B2B de Adobe Commerce. Además, B2B 1.4.2+ no admite actualmente [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 ## B2B v1.4.1
 
 *7 de agosto de 2023*
 
-[!BADGE Compatible]{type=Informative tooltip="Admitido"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=es). Compatible con Adobe Commerce 2.4.7-beta1.
+[!BADGE Compatible]{type=Informative tooltip="Admitido"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible con Adobe Commerce 2.4.7-beta1.
 
 La versión B2B v1.4.1 incluye mejoras de calidad y correcciones de errores.
 
@@ -266,7 +266,7 @@ La versión B2B v1.4.1 incluye mejoras de calidad y correcciones de errores.
 
 *13 de junio de 2023*
 
-[!BADGE Compatible]{type=Informative tooltip="Admitido"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=es). Compatible con Adobe Commerce 2.4.7-beta1
+[!BADGE Compatible]{type=Informative tooltip="Admitido"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Compatible con Adobe Commerce 2.4.7-beta1
 
 Esta versión incluye nuevas funciones y mejoras para presupuestos negociables B2B y varias correcciones de errores.
 
@@ -292,7 +292,7 @@ Esta versión incluye nuevas funciones y mejoras para presupuestos negociables B
 
 ### Problema conocido
 
-Si instala o actualiza B2B 1.4.0 en [Adobe Commerce versión 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=es), se producirá el siguiente error:
+Si instala o actualiza B2B 1.4.0 en [Adobe Commerce versión 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html), se producirá el siguiente error:
 
 ```
 Your requirements could not be resolved to an installable set of packages.
@@ -304,7 +304,7 @@ Your requirements could not be resolved to an installable set of packages.
 Installation failed, reverting ./composer.json and ./composer.lock to their original content.
 ```
 
-Para solucionar este problema, agregue dependencias manuales para el paquete de seguridad B2B. Agregue dependencias manuales para el paquete de seguridad B2B con una [etiqueta de estabilidad](https://getcomposer.org/doc/04-schema.md#package-links). Para obtener instrucciones, consulte la [Base de conocimiento de Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html?lang=es).
+Para solucionar este problema, agregue dependencias manuales para el paquete de seguridad B2B. Agregue dependencias manuales para el paquete de seguridad B2B con una [etiqueta de estabilidad](https://getcomposer.org/doc/04-schema.md#package-links). Para obtener instrucciones, consulte la [Base de conocimiento de Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html).
 
 ## B2B v1.3.5-p10
 
@@ -314,7 +314,7 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 ![Nuevo](../assets/new.svg) Se agregó compatibilidad con las versiones de parches de seguridad de Adobe Commerce 2.4.6-p10.
 
-![Problema](../assets/fix.svg) corregido Incluye las correcciones de seguridad documentadas en [el boletín de seguridad APSB25-26](https://helpx.adobe.com/es/security/products/magento/apsb25-26.html).
+![Problema corregido](../assets/fix.svg) Incluye las correcciones de seguridad documentadas en [Boletín de seguridad APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
 
 ## B2B v1.3.5-p9
 
@@ -324,7 +324,7 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 ![Nuevo](../assets/new.svg) Se agregó compatibilidad con las versiones de parches de seguridad de Adobe Commerce 2.4.6-p9.
 
-![Problema](../assets/fix.svg) corregido Incluye las correcciones de seguridad documentadas en [el boletín de seguridad APSB25-08](https://helpx.adobe.com/es/security/products/magento/apsb25-08.html).
+![Problema corregido](../assets/fix.svg) Incluye las correcciones de seguridad documentadas en [Boletín de seguridad APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
 
 ## B2B v1.3.5-p8
 
@@ -334,7 +334,7 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 ![Nuevo](../assets/new.svg) Se agregó compatibilidad con las versiones de parches de seguridad de Adobe Commerce 2.4.6-p8.
 
-![Problema corregido](../assets/fix.svg) Incluye las correcciones de seguridad documentadas en [Boletín de seguridad APSB24-73](https://helpx.adobe.com/es/security/products/magento/apsb24-73.html).
+![Problema corregido](../assets/fix.svg) Incluye las correcciones de seguridad documentadas en [Boletín de seguridad APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 ## B2B v1.3.5-p7
 
@@ -342,7 +342,7 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 [!BADGE Compatible]{type=Informative tooltip="Admitido"} versiones de parches de seguridad de Adobe Commerce 2.4.6-p7+.
 
-![](../assets/new.svg) Nuevo Se ha agregado compatibilidad con las versiones de parche de seguridad de Adobe Systems Commerce 2.4.6-p7.
+![Nuevo](../assets/new.svg) Se agregó compatibilidad con las versiones de parches de seguridad de Adobe Commerce 2.4.6-p7.
 
 ## B2B v1.3.5
 
@@ -356,7 +356,7 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 >[!NOTE]
 >
->Después de actualizar Commerce de la versión 2.4.6 a la [última versión](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=es#2.4.6), asegúrese de actualizar a la versión de parche B2B 1.3.5 compatible. O bien, actualice la extensión B2B de la versión 1.3.5 a la versión 1.4.0 o posterior para obtener las últimas funciones.
+>Después de actualizar Commerce de la versión 2.4.6 a la [última versión](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6), asegúrese de actualizar a la versión de parche B2B 1.3.5 compatible. O bien, actualice la extensión B2B de la versión 1.3.5 a la versión 1.4.0 o posterior para obtener las últimas funciones.
 
 ![Nuevo](../assets/new.svg) agregó compatibilidad con Adobe Commerce 2.4.6.
 
@@ -388,7 +388,7 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 ![Nuevo](../assets/new.svg) agregó compatibilidad con Adobe Commerce 2.4.5-p12.
 
-![Problema corregido](../assets/fix.svg) Incluye las correcciones de seguridad documentadas en [Boletín de seguridad APSB25-26](https://helpx.adobe.com/es/security/products/magento/apsb25-26.html).
+![Problema corregido](../assets/fix.svg) Incluye las correcciones de seguridad documentadas en [Boletín de seguridad APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
 
 ## B2B v1.3.4-p11
 
@@ -398,7 +398,7 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 ![Nuevo](../assets/new.svg) agregó compatibilidad con Adobe Commerce 2.4.5-p11.
 
-![Problema corregido](../assets/fix.svg) Incluye las correcciones de seguridad documentadas en [Boletín de seguridad APSB25-08](https://helpx.adobe.com/es/security/products/magento/apsb25-08.html).
+![Problema corregido](../assets/fix.svg) Incluye las correcciones de seguridad documentadas en [Boletín de seguridad APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
 
 ## B2B v1.3.4-p10
 
@@ -408,7 +408,7 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 ![Nuevo](../assets/new.svg) agregó compatibilidad con Adobe Commerce 2.4.5-p10.
 
-![Problema corregido](../assets/fix.svg) Incluye las correcciones de seguridad documentadas en [Boletín de seguridad APSB24-73](https://helpx.adobe.com/es/security/products/magento/apsb24-73.html).
+![Problema corregido](../assets/fix.svg) Incluye las correcciones de seguridad documentadas en [Boletín de seguridad APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 ## B2B v1.3.4
 
@@ -436,7 +436,7 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 ![Se ha corregido un problema](../assets/fix.svg) <!--- ACP2E-210 -->Se ha agregado un complemento antes de la llamada a `collectQuoteTotals` para garantizar que los créditos de la tienda se apliquen solo una vez.
 
-![Problema](../assets/fix.svg) <!--- ACP2E-665 -->corregido Ahora, se redirige a los clientes al Página inicio de sesión cuando un administrador elimina de Administración su cuenta. Anteriormente, Adobe Systems Commerce arrojaba un error. El bloque de código plug-in (`SessionPlugin`) está ahora dentro del `try…catch` bloque. Anteriormente, este código no se agrupaba dentro del bloque genérico de control de excepciones.
+![Se ha corregido un problema](../assets/fix.svg) <!--- ACP2E-665 -->Ahora se redirige a los clientes a la página de inicio de sesión cuando un administrador elimina su cuenta del Administrador. Anteriormente, Adobe Commerce arrojaba un error. El bloque de código del complemento (`SessionPlugin`) está ahora dentro del bloque `try…catch`. Anteriormente, este código no se agrupaba dentro del bloque genérico de control de excepciones.
 
 ![Se ha corregido un problema](../assets/fix.svg) <!--- ACP2E-661 --> En la página Pedido rápido en el modo móvil, al presionar **Intro** después de escribir un nombre de producto o SKU válido, ahora el comprador pasa al siguiente campo según lo esperado.
 
@@ -456,13 +456,13 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 ![Problema corregido](../assets/fix.svg) <!--- MC-42153--> La solicitud POST `V1/order/:orderId/invoice` ahora admite la creación de facturas parciales cuando el método de pago **[!UICONTROL Payment on Account]** está habilitado. Anteriormente, Adobe Commerce arrojó este error: `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`. [GitHub-32428](https://github.com/magento/magento2/issues/32428)
 
-![Se solucionó el problema](../assets/fix.svg) <!--- MC-41975--> PayPal Payflow Pro ahora funciona como se esperaba con B2B cotización negociable cuando la carro de compras del cliente contiene otros productos. Adobe Systems Commerce ahora procesa correctamente el pedido y envía un correo electrónico al cliente según lo esperado. Anteriormente, Adobe Systems Commerce arrojaba un error fatal y enviaba una correo electrónico de confirmación al cliente que contenía cero valores.
+![Problema corregido](../assets/fix.svg) <!--- MC-41975--> PayPal Payflow Pro ahora funciona como se espera con un presupuesto negociable B2B cuando el carro de compras del cliente contiene otros productos. Adobe Commerce ahora procesa correctamente el pedido y envía un correo electrónico al cliente según lo esperado. Anteriormente, Adobe Commerce arrojaba un error grave y enviaba un correo electrónico de confirmación al cliente que contenía valores cero.
 
-![Problema](../assets/fix.svg) <!--- MC-41819--> corregido La paginación ahora se muestra correctamente en el catálogo resultado de búsqueda Página después de excluir algunos productos del catálogo compartido.
+![Se ha corregido un problema](../assets/fix.svg) <!--- MC-41819--> La paginación ahora se muestra correctamente en la página de resultados de búsqueda del catálogo después de excluir algunos productos del catálogo compartido.
 
-![Se ha corregido un problema](../assets/fix.svg) <!--- MC-42886--> Los atributos personalizados del cliente ahora se guardan según lo esperado al crear o guardar un usuario de compañía en Administración.
+![Se ha corregido un problema](../assets/fix.svg) <!--- MC-42886--> Los atributos personalizados del cliente ahora se guardan según lo esperado al crear o guardar un usuario de la empresa en el Administrador.
 
-![Problema](../assets/fix.svg) <!--- MC-42927--> corregido La **[!UICONTROL Submit]** botón del formulario de Crear Nuevo Company ahora está deshabilitada después de un clic para evitar que se envíen varios formularios. Anteriormente, se podía enviar este formulario varias veces haciendo clic en este botón repetidamente, lo que generaba un error.
+![Se ha corregido un problema](../assets/fix.svg) <!--- MC-42927--> El botón **[!UICONTROL Submit]** del formulario Crear nueva compañía ahora está deshabilitado después de un clic para evitar que se envíen varios formularios. Anteriormente, se podía enviar este formulario varias veces haciendo clic en este botón repetidamente, lo que generaba un error.
 
 ![Se ha corregido un problema](../assets/fix.svg) <!--- MC-42787-->: Adobe Commerce ya no muestra el vínculo de reordenar en la tienda cuando un comprador inicia sesión en una tienda para la cual se han deshabilitado los repedidos.
 
@@ -514,7 +514,7 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 ![Problema corregido](../assets/fix.svg) <!--- MC-41260--> Al hacer clic en el botón **[!UICONTROL Return]** para un pedido creado por un usuario de la compañía, ahora se redirige a un usuario administrativo a la página Crear devolución según lo esperado. Anteriormente, se redirigía al administrador a la página Historial de pedidos.
 
-![Se corrigió un problema](../assets/fix.svg) <!--- MC-40798--> Adobe Commerce ya no produce un error de memoria insuficiente al ejecutar el método `app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` durante `bin/magento setup:upgrade`. Anteriormente, Adobe Commerce no utilizaba el tamaño del lote para la colección al inicializar los permisos, sino que cargaba una colección de todas las funciones de la empresa.
+![Se corrigió un problema](../assets/fix.svg) [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} <!--- MC-40798--> Adobe Commerce ya no falla con un error de memoria insuficiente al ejecutar el método `app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` durante `bin/magento setup:upgrade`. Anteriormente, Adobe Commerce no utilizaba el tamaño del lote para la colección al inicializar los permisos, sino que cargaba una colección de todas las funciones de la empresa.
 
 ![Problema corregido](../assets/fix.svg) <!--- MC-40551--> Los usuarios de la compañía ahora pueden editar y actualizar los valores de atributos personalizados del cliente. Anteriormente, estos atributos no se enlazaban correctamente con el formulario de usuario de creación y edición. Un usuario de la empresa podía introducir valores de atributo diferentes, pero Adobe Commerce no los guardaba correctamente.
 
@@ -522,13 +522,13 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 ![Se ha corregido un problema](../assets/fix.svg) <!--- MC-40358-->: Adobe Commerce ahora guarda los valores de atributos del cliente personalizados para los usuarios de B2B según lo esperado. Anteriormente, al crear una cuenta de empresa que contenía atributos de cliente personalizados se activaba un error de plantilla y Adobe Commerce no cargaba el formulario correctamente. Agregar un argumento al diseño de `company_create_account` resolvió este problema.
 
-![Se ha corregido un problema](../assets/fix.svg) <!--- MC-41721--> Los filtros de usuario de la empresa, como Mostrar Todos los usuarios, Usuarios activos Mostrar y Usuarios inactivos Mostrar, ahora funcionan como se espera. Anteriormente, las acciones de filtrado en el usuario de compañía Página provocaban un error de JavaScript.
+![Se ha corregido un problema](../assets/fix.svg) <!--- MC-41721--> Los filtros de usuario de la compañía, como Mostrar todos los usuarios, Mostrar usuarios activos y Mostrar usuarios inactivos, ahora funcionan según lo esperado. Anteriormente, el filtrado de acciones en la página de usuario de la empresa provocaba un error de JavaScript.
 
-### Crédito de la empresa
+### Crédito de empresa
 
-![Problema](../assets/fix.svg) <!--- MC-41551--> corregido Los administradores con cuentas restringidas que solo incluyen privilegios de nivel de sitio web ahora pueden crear un compañía que use una moneda diferente a la del sitio web.
+![Problema corregido](../assets/fix.svg) <!--- MC-41551--> Los administradores con cuentas restringidas que solo incluyen privilegios de nivel de sitio web ahora pueden crear una compañía que utilice una moneda diferente a la del sitio web.
 
-![Se ha corregido el problema](../assets/fix.svg) <!--- MC-41523--> Adobe Systems Commerce ahora envía correos electrónicos a compañía desde la dirección correo electrónico y el ámbito correctos `from` . Anteriormente, Adobe Systems Commerce no tenía en cuenta la ámbito del sitio web al enviar compañía asignación de créditos o actualizar correo electrónico.
+![Se ha corregido un problema](../assets/fix.svg) <!--- MC-41523--> Adobe Commerce ahora envía correos electrónicos de la empresa desde la dirección de correo electrónico y el ámbito correctos de `from`. Anteriormente, Adobe Commerce no tenía en cuenta el ámbito del sitio web al enviar una asignación de crédito de empresa o actualizar un correo electrónico.
 
 ### Pedido rápido
 
@@ -538,7 +538,7 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 ![Problema corregido](../assets/fix.svg) <!--- MC-40261--> La visualización de la lista de productos agregados ahora trata los SKU escritos en minúsculas y mayúsculas de la misma manera cuando se usan SKU para seleccionar varios productos durante el pedido rápido.
 
-![Solucionado el problema](../assets/fix.svg) <!--- MC-40225--> Uso de pedido rápido ahora agrega productos en la cantidad especificada por el comprador. Anteriormente, Adobe Systems Departamento de Comercio agregaba un solo producto igualado cuando las cantidades especificadas por comprador excedían de uno.
+![Se ha corregido un problema](../assets/fix.svg) <!--- MC-40225-->. Ahora, al usar el pedido rápido, se agregan productos en la cantidad especificada por el comprador. Anteriormente, Adobe Commerce agregaba un solo producto incluso cuando las cantidades especificadas por el comprador superaban uno.
 
 ![Problema corregido](../assets/fix.svg) <!--- MC-41283-->: la función de autocompletar pedidos rápidos ahora funciona con SKU parciales.
 
@@ -548,11 +548,11 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 ### Cotización negociable
 
-![Problema](../assets/fix.svg) <!--- MC-41232--> corregido Ahora, se redirige a los compradores al Página de presupuesto negociable después de pegar el vincular en un presupuesto negociable en el campo URL y registro correctamente. Anteriormente, se redirigía a los compradores a la Mi cuenta Página.
+![Problema corregido](../assets/fix.svg) <!--- MC-41232--> Ahora se redirige a los compradores a la página de presupuesto negociable después de pegar el vínculo a un presupuesto negociable en el campo URL e iniciar sesión correctamente. Anteriormente, los compradores se redirigían a la página Mi cuenta.
 
-![Solucionado el problema](../assets/fix.svg)<!--- MC-39317-->: Reordenar ahora funciona como se espera para pedidos que contienen un producto con una opción personalizable de fecha para un cliente cuenta que se creó durante el cierre de compra. Anteriormente, Adobe Systems Commerce no procesaba la reordenación y mostraba este error: `The product has required options. Enter the options and try again`.
+![Problema corregido](../assets/fix.svg) <!--- MC-39317--> La reordenación ahora funciona según lo esperado para pedidos que contienen un producto con una opción personalizable de fecha para una cuenta de cliente que se creó durante el cierre de compra. Anteriormente, Adobe Commerce no procesaba la reordenación y mostraba este error: `The product has required options. Enter the options and try again`.
 
-![Problema](../assets/fix.svg) <!--- MC-39063--> corregido La dirección de envío de un presupuesto negociable ya no se puede editar durante el cierre de compra cuando el módulo de orden de compra está desactivado. Este comportamiento era el resultado de una corrección anterior que `isQuoteAddressLocked` se eliminaba del procesador de compra de cotizaciones negociables.
+![Problema corregido](../assets/fix.svg) <!--- MC-39063--> La dirección de envío de una oferta negociable ya no se puede editar durante el cierre de compra cuando el módulo de pedidos de compra está deshabilitado. Este comportamiento resultó de una corrección anterior en la que `isQuoteAddressLocked` se quitó del procesador de cierre de compra de presupuesto negociable.
 
 ![Problema corregido](../assets/fix.svg) <!--- MC-38967--> Los comerciantes ahora pueden agregar productos a una cotización negociable del administrador.
 
@@ -566,7 +566,7 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 ![Problema corregido](../assets/fix.svg) <!--- MC-40426--> Los comerciantes ahora pueden usar el extremo POST `rest/all/V1/requisition_lists` para crear una lista de solicitudes para un cliente. Anteriormente, Adobe Commerce arrojaba este error 400 al intentar crear una lista de solicitudes: `Could not save Requisition List`.
 
-![Problema corregido](../assets/fix.svg) <!--- MC-41123--> El botón **[!UICONTROL Add to Requisition List]** aparece ahora para los productos en stock de un carro de compras cuando el carro también contiene productos sin existencias. Anteriormente, si un carro de compras contenía dos productos, uno de los cuales estaba agotado, el botón _[!UICONTROL Add to Requisition List]_&#x200B;no aparecía en ninguno de los productos.
+![Problema corregido](../assets/fix.svg) <!--- MC-41123--> El botón **[!UICONTROL Add to Requisition List]** aparece ahora para los productos en stock de un carro de compras cuando el carro también contiene productos sin existencias. Anteriormente, si un carro de compras contenía dos productos, uno de los cuales estaba agotado, el botón _[!UICONTROL Add to Requisition List]_no aparecía en ninguno de los productos.
 
 ![Problema corregido](../assets/fix.svg) <!--- MC-40877--> Ahora puede usar la API de REST para agregar un producto a una lista de solicitudes.
 
@@ -620,19 +620,19 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 ![Problema corregido](../assets/fix.svg) Adobe Commerce ahora guarda un producto agrupado en una lista de solicitudes como una lista de productos simples de la misma manera que agrega un producto agrupado a un carro de compras. Anteriormente, debido a cómo Adobe Commerce guardaba los productos agrupados, el vínculo de un producto agrupado de la lista de solicitudes siempre se redirigía a productos simples y no al producto agrupado. <!--- MC-38049-->
 
-![Problema](../assets/fix.svg) solucionado Ahora puede filtrar los pedidos por el campo al exportar la información de pedidos **[!UICONTROL Company Name]** en CSV formato. Anteriormente, Adobe Systems Commerce registraba un error en `var/export/{file-id}`. <!--- MC-37785-->
+![Problema corregido](../assets/fix.svg) Ahora puede filtrar pedidos por el campo **[!UICONTROL Company Name]** al exportar información de pedidos en formato CSV. Anteriormente, Adobe Commerce registró un error en `var/export/{file-id}`. <!--- MC-37785-->
 
-![Se ha corregido el problema](../assets/fix.svg) Adobe Systems Comercio ahora muestra la ventana emergente Lista de solicitudes de Crear como se esperaba al seleccionar el Crear Nuevo Lista de solicitudes pestaña en el escaparate. <!--- MC-37915-->
+![Se ha corregido un problema](../assets/fix.svg). Adobe Commerce ahora muestra la ventana emergente Crear lista de solicitudes como se esperaba al seleccionar la pestaña Crear nueva lista de solicitudes en la tienda. <!--- MC-37915-->
 
-![Problema](../assets/fix.svg) corregido Las listas de solicitudes ahora incluyen todos los productos agrupados y las cantidades que se han agregado al lista. Anteriormente, cuando un comerciante navegaba a un lista de solicitud después de agregarle productos desde un Página detallado del producto, Adobe Systems Commerce mostraba este error: `1 product(s) require your attention - Options were updated. Please review available configurations`. <!--- MC-37621-->
+![Problema corregido](../assets/fix.svg) Las listas de solicitudes ahora incluyen todos los productos agrupados y las cantidades que se han agregado a la lista. Anteriormente, cuando un comerciante navegaba a una lista de solicitudes después de agregarle productos desde una página de detalles de producto, Adobe Commerce mostraba este error: `1 product(s) require your attention - Options were updated. Please review available configurations`. <!--- MC-37621-->
 
-![Problema](../assets/fix.svg) solucionado El vista de tienda correcto ahora se asocia al sitio web relevante cuando crea un compañía en un implementación de varios sitios. Anteriormente, no se podía crear una compañía y Adobe Commerce mostraba este error: `The store view is not in the associated website`. <!--- MC-37488-->
+![Se ha corregido un problema](../assets/fix.svg): la vista de tienda correcta ahora está asociada al sitio web relevante cuando crea una compañía en una implementación de varios sitios. Anteriormente, no se podía crear una compañía y Adobe Commerce mostraba este error: `The store view is not in the associated website`. <!--- MC-37488-->
 
 ![Se ha corregido un problema](../assets/fix.svg). Ya no es posible duplicar cantidades de productos en el archivo CSV si se solicitan productos por SKU mediante un pedido rápido. <!--- MC-37427-->
 
-![Problema corregido](../assets/fix.svg): el botón **[!UICONTROL Add to Cart]** ya no está bloqueado cuando la sección _[!UICONTROL Enter Multiple SKUs]_&#x200B;de la página Pedido rápido contiene un valor vacío. Ahora, Adobe Commerce muestra un mensaje en el que se le solicita que introduzca SKU válidas. <!--- MC-37387-->
+![Problema corregido](../assets/fix.svg): el botón **[!UICONTROL Add to Cart]** ya no está bloqueado cuando la sección _[!UICONTROL Enter Multiple SKUs]_de la página Pedido rápido contiene un valor vacío. Ahora, Adobe Commerce muestra un mensaje en el que se le solicita que introduzca SKU válidas. <!--- MC-37387-->
 
-![Problema](../assets/fix.svg) corregido Adobe Systems Comercio ahora muestra este mensaje en la página de producto cuando envía una reseña de producto desde un lista de solicitud: `You submitted your review for moderation`. La revisión también aparece en la Página Revisiones pendientes (Administrador **[!UICONTROL Marketing]** > **[!UICONTROL Pending Reviews]**). Anteriormente, aunque Adobe Systems Commerce agregó la revisión al lista de revisiones pendientes, arrojó un error 404 en la página de producto. <!--- MC-37119-->
+![Problema corregido](../assets/fix.svg) Adobe Commerce ahora muestra este mensaje en la página del producto cuando envía una revisión de producto desde una lista de solicitudes: `You submitted your review for moderation`. La revisión también aparece en la página Revisiones pendientes (Administración **[!UICONTROL Marketing]** > **[!UICONTROL Pending Reviews]**). Anteriormente, aunque Adobe Commerce agregaba la revisión a la lista de revisiones pendientes, generaba un error 404 en la página del producto. <!--- MC-37119-->
 
 ![Se ha corregido un problema](../assets/fix.svg). Se ha mejorado el rendimiento del consumidor `sharedCatalogUpdateCategoryPermissions`. Después de crear un catálogo compartido, el indexador de permisos de catálogo ahora utiliza solo el ID de grupo de clientes del catálogo compartido, no todos los grupos de clientes. <!--- MC-36770-->
 
@@ -640,13 +640,13 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 ![Se ha corregido un problema](../assets/fix.svg). Los pedidos de productos que pertenecen al catálogo compartido predeterminado de una tienda ahora se pueden realizar para compradores a través de la API de REST de administración (`rest/V1/carts/{<CART_ID>/items`) según lo esperado. Adobe Commerce ahora comprueba si el producto se asignó a un catálogo público antes de la validación de los permisos del catálogo compartido en `\Magento\SharedCatalog\Plugin\Quote\Api\ValidateAddProductToCartPlugin::beforeSave`. Anteriormente, Adobe Commerce no agregaba el producto al carro de compras y arrojaba este error: `No such shared catalog entity`. <!--- MC-36535-->
 
-![Se ha corregido el problema](../assets/fix.svg) Adobe Systems Commerce ahora envía nuevas compañía usuario registro correos electrónicos desde la dirección del tienda de Adobe Systems Commerce. Anteriormente, este correo electrónico se enviaba desde la dirección del administrador de compañía. <!--- MC-36480-->
+![Se ha corregido un problema](../assets/fix.svg). Adobe Commerce ahora envía nuevos correos electrónicos de registro de usuarios de la empresa desde la dirección de la tienda Adobe Commerce. Anteriormente, este correo electrónico se enviaba desde la dirección del administrador de la empresa. <!--- MC-36480-->
 
-![Se ha corregido el problema](../assets/fix.svg) Adobe Systems ahora Commerce comprueba los atributos personalizados en busca de duplicación de nombres de atributos de compañía reservados antes de permitir que un comerciante guarde un atributo nuevo. <!--- MC-36282-->
+![Se ha corregido un problema](../assets/fix.svg). Adobe Commerce ahora comprueba los atributos personalizados para la duplicación de nombres de atributos de empresa reservados antes de permitir que un comerciante guarde un nuevo atributo. <!--- MC-36282-->
 
-![Problema](../assets/fix.svg) corregido Ahora `credit_history` , el consulta devuelve el historial crediticio del compañía especificado tanto para el importe asignado originalmente como para el importe comprado. Anteriormente, este consulta devolvía un error.
+![Problema corregido](../assets/fix.svg): la consulta `credit_history` ahora devuelve el historial de crédito de la compañía especificada tanto para el importe asignado originalmente como para el importe comprado. Anteriormente, esta consulta devolvía un error.
 
-![Problema](../assets/fix.svg) corregido Los **[!UICONTROL Company]** campos y  **[!UICONTROL Job Title]** del Página Información de la cuenta Editar ya no son editables.
+![Se ha corregido un problema](../assets/fix.svg) Los campos **[!UICONTROL Company]** y **[!UICONTROL Job Title]** de la página Editar información de cuenta ya no se pueden editar.
 
 ### Problemas conocidos
 
@@ -656,7 +656,7 @@ Para solucionar este problema, agregue dependencias manuales para el paquete de 
 
 - Adobe Commerce a veces muestra un error 404 cuando un comprador crea un pedido y luego navega a la página de pago. Este error se produce cuando un comprador ha creado previamente un pedido de compra diferente con un método de pago en línea antes de navegar a la página de pago sin completar la compra anterior. El comprador aún puede realizar el pedido de compra. **_Trabajar_**: Ninguno. <!--- B2B-1605-->
 
-- Los descuentos de un método de pago concreto persisten durante el proceso de pago de un pedido de compra, incluso cuando el comprador cambia su método de pago durante el proceso de pago final. Como resultado, los clientes pueden recibir un descuento al que no tienen derecho. Este problema se produce porque una regla de carro de compras para el método de pago original se sigue aplicando a pesar del cambio en el método de pago. **_Trabajar_**: Ninguno. Ver el problema conocido de [Adobe Commerce 2.4.2 B2B: queda descuento para pedidos de compra en línea después de cambiar el método de pago](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html?lang=es) artículo de _Knowledge Base_. <!-- B2B-1012 -->
+- Los descuentos de un método de pago concreto persisten durante el proceso de pago de un pedido de compra, incluso cuando el comprador cambia su método de pago durante el proceso de pago final. Como resultado, los clientes pueden recibir un descuento al que no tienen derecho. Este problema se produce porque una regla de carro de compras para el método de pago original se sigue aplicando a pesar del cambio en el método de pago. **_Trabajar_**: Ninguno. Ver el problema conocido de [Adobe Commerce 2.4.2 B2B: queda descuento para pedidos de compra en línea después de cambiar el método de pago](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html) artículo de _Knowledge Base_. <!-- B2B-1012 -->
 
 - La consulta `deleteRequisitionListOutput` devuelve detalles sobre la lista de solicitudes eliminada en lugar de las listas de solicitudes restantes. <!--- MC-39894-->
 
@@ -712,21 +712,21 @@ Esta versión incluye mejoras en las aprobaciones de pedidos, los métodos de en
 
 ![Se ha corregido un problema](../assets/fix.svg) Cuando crea o actualiza una compañía B2B mediante la API de REST (`http://magento.local/rest/V1/company/2`, donde `2` representa el identificador de la compañía), la respuesta ahora incluye la configuración de `applicable_payment_method` o `available_payment_methods` según lo esperado. <!--- MC-35248-->
 
-![Se ha corregido un problema](../assets/fix.svg) Adobe Systems Comercio ya no muestra un Página 404 cuando un comerciante utiliza el **botón Intro** en lugar de hacer clic en el **[!UICONTROL Save]** botón al crear un lista de solicitud en el escaparate.<!--- MC-35094-->
+![Problema corregido](../assets/fix.svg) Adobe Commerce ya no muestra una página 404 cuando un comerciante usa el botón **Introducir** en lugar de hacer clic en el botón **[!UICONTROL Save]** al crear una lista de solicitudes en la tienda.<!--- MC-35094-->
 
-![Se ha corregido un problema](../assets/fix.svg) Categoría los permisos dejaban de cambiar cuando se asignaba un producto nuevo a un catálogo público compartido. Anteriormente, categoría permisos estaban duplicados. <!--- MC-34386-->
+![Se ha corregido un problema](../assets/fix.svg) Los permisos de categoría ya no cambian cuando se asigna un nuevo producto a un catálogo compartido público. Anteriormente, los permisos de categoría estaban duplicados. <!--- MC-34386-->
 
-![Problema](../assets/fix.svg) corregido El punto final de la API de REST PUT `rest/default/V1/company/{id}`, que se utiliza para actualizar las correo electrónico de la empresa, ya no distingue entre mayúsculas y minúsculas. <!--- MC-34308-->
+![Se ha corregido un problema](../assets/fix.svg) El extremo de la API de REST PUT `rest/default/V1/company/{id}`, que se usa para actualizar el correo electrónico de la compañía, ya no distingue entre mayúsculas y minúsculas. <!--- MC-34308-->
 
-![Problema](../assets/fix.svg) corregido La desactivación de los módulos de recompensas ya no afecta a B2B funciones de las cuentas de los clientes. Anteriormente, cuando los módulos de recompensa estaban deshabilitados, las siguientes pestañas relacionadas con B2B no se mostraban: Perfil de la empresa, Usuarios de la empresa y Roles y permisos.<!--- MC-34191-->
+![Se ha solucionado un problema](../assets/fix.svg). La desactivación de los módulos de recompensa ya no afecta a las funciones B2B de las cuentas de los clientes. Anteriormente, cuando se deshabilitaban los módulos de recompensa, no se mostraban las siguientes fichas relacionadas con B2B: Perfil de compañía, Usuarios de compañía y Roles y permisos.<!--- MC-34191-->
 
 ![Se ha corregido un problema](../assets/fix.svg). Adobe Commerce ahora usa el nombre de remitente correcto en las notificaciones por correo electrónico cuando se realizan cambios en las cuentas de la empresa. Anteriormente, Adobe Commerce utilizaba el nombre general del remitente del contacto definido en el ámbito predeterminado para todos los correos electrónicos. <!--- MC-33917-->
 
 ![Problema corregido](../assets/fix.svg) Ahora puede implementar correctamente el envío múltiple para pedidos que contienen productos físicos y virtuales. <!--- MC-33818-->
 
-![Problema corregido](../assets/fix.svg) Los comerciantes ahora pueden crear usuarios de la compañía desde la sección _[!UICONTROL Company Users]_&#x200B;en las páginas Mi cuenta y Estructura de la compañía cuando **[!UICONTROL Access Restriction]**&#x200B;está habilitado y **[!UICONTROL Restriction Mode]**&#x200B;está establecido en `Sales: Login Only`. Anteriormente, Adobe Commerce arrojaba este error cuando un comerciante intentaba crear un usuario: `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
+![Problema corregido](../assets/fix.svg) Los comerciantes ahora pueden crear usuarios de la compañía desde la sección _[!UICONTROL Company Users]_en las páginas Mi cuenta y Estructura de la compañía cuando **[!UICONTROL Access Restriction]**está habilitado y **[!UICONTROL Restriction Mode]**está establecido en `Sales: Login Only`. Anteriormente, Adobe Commerce arrojaba este error cuando un comerciante intentaba crear un usuario: `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
 
-![Se ha corregido un problema](../assets/fix.svg) Adobe Systems Comercio ya no restablecía el grupo de cliente de un cliente a la opción predeterminada cuando un cliente guardaba la información de cuenta. <!--- MC-33554-->
+![Problema corregido](../assets/fix.svg) Adobe Commerce ya no restablece el grupo de clientes predeterminado de un cliente cuando un cliente guarda su información de cuenta. <!--- MC-33554-->
 
 ![Problema corregido](../assets/fix.svg) Adobe Commerce ya no genera un error grave cuando un administrador asigna un cliente que tiene un carro de compras activo a un grupo de clientes. <!--- MC-33313-->
 
@@ -736,11 +736,11 @@ Esta versión incluye mejoras en las aprobaciones de pedidos, los métodos de en
 
 ![Problema corregido](../assets/fix.svg) Una lista de solicitudes ahora incluye todos los productos agrupados y las cantidades que se han agregado a la lista. Anteriormente, cuando un comerciante navegaba a una lista de solicitudes después de agregarle productos desde una página de detalles de producto, Adobe Commerce mostraba este error: `1 product(s) require your attention - Options were updated. Please review available configurations`. <!--- MC-32877-->
 
-![Problema](../assets/fix.svg) corregido Ahora, la `products` consulta devuelve un campo preciso `total_count` cuando el catálogo compartido está habilitado. <!--- MC-42268-->
+![Problema corregido](../assets/fix.svg): la consulta `products` ahora devuelve un campo `total_count` preciso cuando el catálogo compartido está habilitado. <!--- MC-42268-->
 
-![Se ha corregido un problema](../assets/fix.svg) Las páginas Configuración de empresa y Crear página Empresa ahora funcionan según lo esperado después de desactivar un método de envío en línea. Se ha añadido la verificación para evitar que se intente procesar los módulos de envío deshabilitados. Anteriormente, Adobe Systems Commerce mostraba este error: `Type Error occurred when creating object: Magento\CompanyShipping\Model\Source\ShippingMethod, Too few arguments to function Magento\CompanyShipping\Model\Source\ShippingMethod::__construct(), 1 passed in /var/www/html/elmtup/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 2 expected`. <!--- MC-43178-->
+![Problema corregido](../assets/fix.svg): las páginas Configuración de la empresa y Crear empresa ahora funcionan según lo esperado después de deshabilitar un método de envío en línea. Se ha añadido la verificación para evitar el intento de procesamiento de los módulos de envío desactivados. Anteriormente, Adobe Commerce mostraba este error: `Type Error occurred when creating object: Magento\CompanyShipping\Model\Source\ShippingMethod, Too few arguments to function Magento\CompanyShipping\Model\Source\ShippingMethod::__construct(), 1 passed in /var/www/html/elmtup/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 2 expected`. <!--- MC-43178-->
 
-![Problema](../assets/fix.svg) solucionado Se ha reducido la integración prueba el consumo de memoria, lo que mejora prueba rendimiento y reduce el tiempo necesario para prueba finalización. <!--- AC-266-->
+![Se ha corregido un problema](../assets/fix.svg) El consumo de memoria de prueba de integración se ha reducido, lo que mejora el rendimiento de la prueba y reduce el tiempo necesario para completarla. <!--- AC-266-->
 
 ## B2B v1.2.0
 
@@ -784,7 +784,7 @@ Se mejoraron y se volvieron a escribir ![nuevos](../assets/new.svg) pedidos de c
 
 ![Problema corregido](../assets/fix.svg) Se ha agregado una corrección para permitir a los administradores de tiendas agregar productos a un pedido que no se encuentra en el catálogo compartido. Anteriormente, aparecía un mensaje de error al añadir un elemento que no estaba en el catálogo.
 
-![Se ha corregido un problema](../assets/fix.svg) Anteriormente, después de ejecutar el comando `php bin/magento indexer:set-dimensions-mode catalog_product_price website` y de intentar crear un catálogo compartido, se producía un error. Este problema se ha corregido.
+![Se ha corregido un problema](../assets/fix.svg) [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} Anteriormente, después de ejecutar el comando `php bin/magento indexer:set-dimensions-mode catalog_product_price website` y luego intentar crear un catálogo compartido, se producía un error. Este problema se ha corregido.
 
 ![Se corrigió un problema](../assets/fix.svg) Al agregar una compañía y asignar el administrador de la compañía a un sitio web no predeterminado, se envió el identificador de sitio incorrecto, lo que provocó un error. Este problema se ha corregido.
 

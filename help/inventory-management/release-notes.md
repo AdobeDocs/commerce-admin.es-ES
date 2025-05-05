@@ -3,9 +3,9 @@ title: '[!DNL Inventory Management] notas de la versión'
 description: Revise las notas de la versión para obtener información acerca de todas las  [!DNL Inventory Management] versiones.
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
-source-git-commit: 01d8a1d50f574330f3ce7e8bf03a018f0079f5db
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '3445'
+source-wordcount: '3462'
 ht-degree: 0%
 
 ---
@@ -20,15 +20,15 @@ Estas notas de la versión describen las versiones de [!DNL Inventory Management
 
 [!DNL Inventory Management] es un proyecto especial de ingeniería de la comunidad de Magento Open Source abierto a los colaboradores. Para participar y contribuir, consulta el repositorio [GitHub project](https://github.com/magento/inventory) y la [wiki](https://github.com/magento/inventory/wiki) para comenzar. Para discutir el proyecto, únete al canal [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) ([suscripción automática](https://opensource.magento.com/slack)).
 
-[Programación de versiones](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=es){target="_blank"} para versiones compatibles.
+[Programación de versiones](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} para versiones compatibles.
 
 ## Versión 1.2.7
 
-Las notas de la versión 1.2.7 de [!DNL Inventory Management] se incluyen en las [notas de la versión core 2.4.7](https://experienceleague.adobe.com/es/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
+Las notas de la versión 1.2.7 de [!DNL Inventory Management] se incluyen en las [notas de la versión core 2.4.7](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
 
 ## Versión 1.2.6
 
-[!DNL Inventory Management] 1.2.6 (versión de módulo: `magento/inventory-metapackage = 1.2.6`) es compatible con la versión 2.4.6 y con la versión 2.4.0 de Adobe Commerce, Adobe Commerce en la infraestructura de la nube y la base de código de Magento Open Source.
+[!DNL Inventory Management] 1.2.6 (versión de módulo: `magento/inventory-metapackage = 1.2.6`) es compatible con la versión 2.4.6 y con la versión 2.4.0 de Adobe Commerce, Adobe Commerce en la infraestructura de la nube y Magento Open Source code base.
 
 ![Problema corregido](../assets/fix.svg) La tienda ahora muestra productos compuestos (configurables, agrupados y agrupados) como en stock cuando los productos secundarios que se habían agotado se devuelven al stock. Anteriormente, la tienda indicaba que el producto compuesto estaba agotado en estas condiciones. <!-- ACP2E-1106-->
 
@@ -64,13 +64,13 @@ Las notas de la versión 1.2.7 de [!DNL Inventory Management] se incluyen en las
 
 ![Problema solucionado](../assets/fix.svg) Las tiendas ahora se filtran según los ID de una o varias tiendas. El código de atributo de producto `event` se ha agregado a la lista de códigos de atributo reservados. Anteriormente, el informe Bajo stock arrojaba una excepción cuando se instalaba el módulo Inventario. <!-- ACP2E-1017-->
 
-![Se ha corregido un problema](../assets/fix.svg) Los filtros de navegación por capas ahora funcionan según lo esperado y los productos sin existencias ahora se anexan a la lista de productos de la categoría de tienda. El nuevo atributo de ordenación `is_out_of_stock` usa el asignador de campos dinámicos de Elasticsearch para la colección de productos de tienda. <!-- ACP2E-748-->
+![Se ha corregido un problema](../assets/fix.svg) Los filtros de navegación por capas ahora funcionan según lo esperado y los productos sin existencias ahora se anexan a la lista de productos de la categoría de tienda. El nuevo atributo de ordenación `is_out_of_stock` usa el asignador de campos dinámicos de Elasticsearch para la colección de productos de la tienda. <!-- ACP2E-748-->
 
 ![Se corrigió el problema](../assets/fix.svg) El estado de las existencias del producto compuesto (paquete, agrupado y configurable) se actualiza como se espera cuando el estado de las existencias del producto secundario se cambia mediante una llamada de REST `POST /rest/V1/inventory/source-items`. <!-- ACP2E-1209-->
 
 ## Versión 1.2.5
 
-[!DNL Inventory Management] 1.2.5 (versión de módulo: `magento/inventory-metapackage = 1.2.5`) es compatible con la versión 2.4.5 y con la versión 2.4.0 de Adobe Commerce, Adobe Commerce en la infraestructura de la nube y la base de código de Magento Open Source.
+[!DNL Inventory Management] 1.2.5 (versión de módulo: `magento/inventory-metapackage = 1.2.5`) es compatible con la versión 2.4.5 y con la versión 2.4.0 de Adobe Commerce, Adobe Commerce en la infraestructura de la nube y Magento Open Source code base.
 
 ![Problema corregido](../assets/fix.svg) El estado de inventario predeterminado de existencias del paquete y los productos agrupados ahora se actualiza según lo esperado cuando un comerciante crea un envío desde el administrador. Anteriormente, el estado de estos productos permanecía sin cambios después de que se creara un envío. <!--- ACP2E-418-->
 
@@ -106,17 +106,18 @@ Las notas de la versión 1.2.7 de [!DNL Inventory Management] se incluyen en las
 
 ![Se ha corregido un problema](../assets/fix.svg) <!--- ACP2E-274-->: el recuento de productos de la lista de categorías ahora es correcto al usar el modo de un solo origen de inventario con la configuración **[!UICONTROL Display Out-Of-Stock Products]** habilitada. Un nuevo complemento ahora usa `AreProductsSalableInterface` y `StockConfigurationInterface` para determinar la cantidad total de productos. Anteriormente, la lista de productos de categorías devolvía una cantidad de productos incorrecta.
 
-![Se ha corregido un problema](../assets/fix.svg) <!--- ACP2E-322--> Los productos configurables ahora se mueven a la última posición de la lista de productos después de que se hayan actualizado las existencias cuando la configuración de **[!UICONTROL Move out of stock to the bottom]** esté habilitada. Se implementa una nueva consulta de base de datos personalizada para negar el orden de clasificación de índices del Elasticsearch, lo que ignora el orden de clasificación habilitado por el administrador. Anteriormente, los productos configurables y sus productos secundarios no se movían al final de la lista cuando esta configuración estaba habilitada.
+![Se ha corregido un problema](../assets/fix.svg) <!--- ACP2E-322--> Los productos configurables ahora se mueven a la última posición de la lista de productos después de que se hayan actualizado las existencias cuando la configuración de **[!UICONTROL Move out of stock to the bottom]** esté habilitada. Se implementa una nueva consulta de base de datos personalizada para negar el orden de clasificación de índices de Elasticsearch, que ignora el orden de clasificación habilitado por el administrador. Anteriormente, los productos configurables y sus productos secundarios no se movían al final de la lista cuando esta configuración estaba habilitada.
 
 ## Versión 1.2.4
 
-Inventory management 1.2.4 (versión de módulo: `magento/inventory-metapackage = 1.2.4`) es compatible con la versión 2.4.4 y con la versión 2.4.0 de Adobe Commerce, Adobe Commerce en la infraestructura de la nube y la base de código de Magento Open Source.
+Inventory management 1.2.4 (versión de módulo: `magento/inventory-metapackage = 1.2.4`) es compatible con la versión 2.4.4 y con la versión 2.4.0 de Adobe Commerce, Adobe Commerce en la infraestructura de la nube y Magento Open Source code base.
 
 ![Problema corregido](../assets/fix.svg) Commerce ahora muestra un valor de cantidad vendible preciso para todos los productos en la vista de lista de productos de administración. Anteriormente, mostraba un valor en blanco para la cantidad vendible de productos en existencia con SKU que contenían caracteres especiales. <!--- MC-41936-->
 
 ![Se ha corregido un problema](../assets/fix.svg). El rendimiento ha mejorado para las acciones de carro de compras y cierre de compra, como agregar productos al carro de compras en implementaciones con muchos (aproximadamente 10.000) orígenes de inventario. <!--- MC-42570-->
 
-![Problema corregido](../assets/fix.svg) El comando `bin/magento inventory:reservation:list-inconsistencies` ahora administra correctamente los pedidos con envíos parciales aunque se omitan las reservas de la base de datos y se haya borrado la caché. Anteriormente, cuando este comando se ejecutaba con una memoria caché previamente borrada, Commerce mostraba el siguiente error: `Area code is not set`. <!--- MC-42142-->
+![Se ha corregido un problema](../assets/fix.svg) [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} El comando `bin/magento inventory:reservation:list-inconsistencies` ahora gestiona correctamente los pedidos con envíos parciales incluso si se omiten las reservas de la base de datos y se ha borrado la caché. Anteriormente, cuando este comando se ejecutaba con una memoria caché previamente borrada, Commerce mostraba el siguiente error: `Area code is not set`. <!--- MC-42142-->
+
 
 ![Se ha corregido un problema](../assets/fix.svg) La indexación incremental de productos secundarios agrupados ya no hace que otros productos agrupados se indexen incorrectamente cuando se comparten productos secundarios. <!--- MC-41963-->
 
@@ -126,11 +127,11 @@ Inventory management 1.2.4 (versión de módulo: `magento/inventory-metapackage 
 
 ![Se ha corregido un problema](../assets/fix.svg) Se ha mejorado la administración de existencias de inventario que supera los 10.000 elementos. Anteriormente, los problemas de rendimiento a veces impedían que los comerciantes editaran las existencias en el Admin antes de lanzar su sitio web. <!--- MC-42643-->
 
-![Se ha corregido un problema](../assets/fix.svg): la página **[!UICONTROL User Roles]** del Administrador se ha actualizado para proporcionar a los administradores permisos restringidos para acceder a la configuración de los métodos de envío. Se cambió el nombre de la sección _Métodos de envío_ a _[!UICONTROL Delivery methods]_&#x200B;y se movió&#x200B;_[!UICONTROL In-Store Pickup]_ a la sección _[!UICONTROL Delivery methods]_. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![Se ha corregido un problema](../assets/fix.svg): la página **[!UICONTROL User Roles]** del Administrador se ha actualizado para proporcionar a los administradores permisos restringidos para acceder a la configuración de los métodos de envío. Se cambió el nombre de la sección _Métodos de envío_ a _[!UICONTROL Delivery methods]_y se movió_[!UICONTROL In-Store Pickup]_ a la sección _[!UICONTROL Delivery methods]_. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![Se ha corregido un problema](../assets/fix.svg) por el que Adobe Commerce ya no crea una reserva de producto duplicada después de que la API actualice un abono. <!--- MC-41757-->
 
-![Se ha corregido un problema](../assets/fix.svg) El cambio de la pestaña _[!UICONTROL Pick up in Store]_&#x200B;a la pestaña&#x200B;_[!UICONTROL Shipping]_ en el flujo de trabajo de cierre de compra ya no genera un déclencheur de error de JavaScript cuando solo está disponible la entrega de recogida en la tienda. <!--- MC-42808-->
+![Se ha corregido un problema](../assets/fix.svg) El cambio de la pestaña _[!UICONTROL Pick up in Store]_a la pestaña_[!UICONTROL Shipping]_ en el flujo de trabajo de cierre de compra ya no genera un déclencheur de error de JavaScript cuando solo está disponible la entrega de recogida en la tienda. <!--- MC-42808-->
 
 ![Problema corregido](../assets/fix.svg): la cantidad de productos vendibles y la cantidad de productos en existencias ahora se sincronizan correctamente. Anteriormente, la compensación de reserva de inventario no se volvía a crear para pedidos cancelados. <!--- MC-42485-->
 
@@ -138,7 +139,7 @@ Inventory management 1.2.4 (versión de módulo: `magento/inventory-metapackage 
 
 ## 1.2.3
 
-[!DNL Inventory Management] 1.2.3 (versión de módulo: `magento/inventory-metapackage = 1.2.3`) es compatible con la versión 2.4.3 y con la versión 2.4.0 de Adobe Commerce, Adobe Commerce en la infraestructura de la nube y la base de código de Magento Open Source.
+[!DNL Inventory Management] 1.2.3 (versión de módulo: `magento/inventory-metapackage = 1.2.3`) es compatible con la versión 2.4.3 y con la versión 2.4.0 de Adobe Commerce, Adobe Commerce en la infraestructura de la nube y Magento Open Source code base.
 
 ![Se ha corregido un problema](../assets/fix.svg) Se han corregido varios problemas relacionados con la visibilidad del producto compuesto en el front-end.
 
@@ -154,7 +155,7 @@ Inventory management 1.2.4 (versión de módulo: `magento/inventory-metapackage 
 
 ## 1.2.2
 
-[!DNL Inventory Management] 1.2.2 (versión de módulo: `magento/inventory-metapackage = 1.2.2`) es compatible con la versión 2.4.2 y con la versión 2.4.0 de Adobe Commerce, Adobe Commerce en la infraestructura de la nube y la base de código de Magento Open Source.
+[!DNL Inventory Management] 1.2.2 (versión de módulo: `magento/inventory-metapackage = 1.2.2`) es compatible con la versión 2.4.2 y con la versión 2.4.0 de Adobe Commerce, Adobe Commerce en la infraestructura en la nube y Magento Open Source code base.
 
 ![Se ha corregido un problema](../assets/fix.svg) Se han corregido varios problemas relacionados con la visibilidad del producto compuesto en el front-end.
 
@@ -166,7 +167,7 @@ Inventory management 1.2.4 (versión de módulo: `magento/inventory-metapackage 
 
 ## 1.2.1
 
-[!DNL Inventory Management] 1.2.1 (versión de módulo: `magento/inventory-metapackage = 1.2.1`) es compatible con la versión 2.4.1 y con la versión 2.4.0 de Adobe Commerce, Adobe Commerce en la infraestructura de la nube y la base de código de Magento Open Source.
+[!DNL Inventory Management] 1.2.1 (versión de módulo: `magento/inventory-metapackage = 1.2.1`) es compatible con la versión 2.4.1 y con la versión 2.4.0 de Adobe Commerce, Adobe Commerce en la infraestructura en la nube y Magento Open Source code base.
 
 ![Se ha corregido un problema](../assets/fix.svg) Se ha corregido un problema conocido relacionado con el trabajo cron de `inventory_cleanup_reservations` y se ha solucionado un problema relacionado con la funcionalidad de recogida en tienda para los productos agrupados. Esta actualización también incluye mejoras generales en el cálculo de existencias, compatibilidad con paquetes de productos y funcionalidad de pedidos pendientes.
 
@@ -174,7 +175,7 @@ Inventory management 1.2.4 (versión de módulo: `magento/inventory-metapackage 
 
 ## 1.2.0
 
-[!DNL Inventory Management] 1.2.0 (versión de módulo: `magento/inventory-metapackage = 1.2.0`) es compatible con la versión 2.4.0 de Adobe Commerce, Adobe Commerce en la infraestructura en la nube y la base de código de Magento Open Source.
+[!DNL Inventory Management] 1.2.0 (versión de módulo: `magento/inventory-metapackage = 1.2.0`) es compatible con la versión 2.4.0 de Adobe Commerce, Adobe Commerce en la infraestructura en la nube y Magento Open Source code base.
 
 ![Se ha solucionado un problema](../assets/fix.svg) con numerosas correcciones para resolver problemas con la asignación de fuentes, compatibilidad con funciones de entorno escalable y compatibilidad con PHP 7.4, MySQL 8 y PHPUNIT 9.
 
@@ -199,7 +200,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ## 1.1.6
 
-[!DNL Inventory Management] 1.1.6 (versión de módulo: `inventory-composer-metapackage = 1.1.6`) es compatible con la versión 2.3.6 y con las versiones 2.3.5, 2.3.4, 2.3.3, 2.3.2, 2.3.1 y 2.3.0 de Adobe Commerce, Adobe Commerce en la infraestructura en la nube y la base de código del Magento Open Source.
+[!DNL Inventory Management] 1.1.6 (versión de módulo: `inventory-composer-metapackage = 1.1.6`) es compatible con la versión 2.3.6 y con las versiones 2.3.5, 2.3.4, 2.3.3, 2.3.2, 2.3.1 y 2.3.0 de Adobe Commerce, Adobe Commerce en la infraestructura en la nube y Magento Open Source code base.
 
 ![Se corrigió el problema](../assets/fix.svg) Se solucionaron los problemas relacionados con pedidos pendientes, notas de crédito, cuadrícula de informes de existencias bajas, correcciones relacionadas con la herramienta CLI &quot;resolver incoherencias&quot; y mejoras generales.
 
@@ -207,7 +208,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ## 1.1.5
 
-[!DNL Inventory Management] 1.1.5 (versión de módulo: `inventory-composer-metapackage = 1.1.5`) es compatible con la versión 2.3.5 y con las versiones 2.3.4, 2.3.3, 2.3.2, 2.3.1 y 2.3.0 de Adobe Commerce, Adobe Commerce en la infraestructura en la nube y la base de código del Magento Open Source.
+[!DNL Inventory Management] 1.1.5 (versión de módulo: `inventory-composer-metapackage = 1.1.5`) es compatible con la versión 2.3.5 y con las versiones 2.3.4, 2.3.3, 2.3.2, 2.3.1 y 2.3.0 de Adobe Commerce, Adobe Commerce en la infraestructura en la nube y Magento Open Source code base.
 
 ![Nuevo](../assets/new.svg) **Actualizar inventario una vez que se cambie la SKU del producto.** introdujo un nuevo ajuste de configuración para cambiar al nuevo comportamiento: &quot;Sincronizar con el catálogo&quot;.
 
@@ -217,7 +218,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ## 1.1.4
 
-[!DNL Inventory Management] 1.1.4 (versión de módulo: `inventory-composer-metapackage = 1.1.4`) es compatible con la versión 2.3.4 y con las versiones 2.3.3, 2.3.2, 2.3.1 y 2.3.0 de Adobe Commerce, Adobe Commerce en la infraestructura en la nube y la base de código de Magento Open Source.
+[!DNL Inventory Management] 1.1.4 (versión de módulo: `inventory-composer-metapackage = 1.1.4`) es compatible con la versión 2.3.4 y con las versiones 2.3.3, 2.3.2, 2.3.1 y 2.3.0 de Adobe Commerce, Adobe Commerce en la infraestructura en la nube y Magento Open Source code base.
 
 ![Se corrigió un problema ](../assets/fix.svg)**Mayor rendimiento.** Introdujo la lógica de agrupamiento para el comando CLI de reservas de inventario para reducir el uso de memoria y evitar casos en los que el proceso se atasca sin ninguna respuesta.
 
@@ -227,7 +228,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ## 1.1.3
 
-[!DNL Inventory Management] 1.1.3 (versión de módulo: `inventory-composer-metapackage = 1.1.3`) es compatible con la versión 2.3.3 y con las versiones 2.3.2, 2.3.1 y 2.3.0 de Adobe Commerce, Adobe Commerce en la infraestructura en la nube y la base de código de Magento Open Source.
+[!DNL Inventory Management] 1.1.3 (versión de módulo: `inventory-composer-metapackage = 1.1.3`) es compatible con la versión 2.3.3 y con las versiones 2.3.2, 2.3.1 y 2.3.0 de Adobe Commerce, Adobe Commerce en la infraestructura en la nube y Magento Open Source code base.
 
 ![Se ha corregido un problema ](../assets/fix.svg)**Mejor integración con las características de Adobe Commerce y B2B.** [!DNL Inventory Management] ahora funciona correctamente con las siguientes características para sitios web que usan recursos de inventario y existencias no predeterminados:
 
@@ -241,9 +242,9 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ## 1.1.2
 
-[!DNL Inventory Management] 1.1.2 (versión de módulo: `inventory-composer-metapackage = 1.1.2`) es compatible con la versión 2.3.2 y con la versión 2.3.1 y 2.3.0 de Adobe Commerce, Adobe Commerce en la infraestructura en la nube y la base de código de Magento Open Source.
+[!DNL Inventory Management] 1.1.2 (versión de módulo: `inventory-composer-metapackage = 1.1.2`) es compatible con la versión 2.3.2 y con la versión 2.3.1 y 2.3.0 de Adobe Commerce, Adobe Commerce en la infraestructura en la nube y Magento Open Source code base.
 
-![Se ha corregido un problema](../assets/fix.svg) que agregó a `source_code` a la respuesta del extremo REST de GET `/V1/shipments`. <!-- https://github.com/magento/inventory/pull/2142 -->
+![Se ha corregido un problema](../assets/fix.svg) que agregó a `source_code` a la respuesta del extremo REST `/V1/shipments` de GET. <!-- https://github.com/magento/inventory/pull/2142 -->
 
 ![Se ha corregido un problema](../assets/fix.svg) que se ha resuelto para borrar correctamente las reservas y actualizar las cantidades de los productos después de emitir un abono para un pedido no enviado. Al seleccionar la opción para <!-- https://github.com/magento/inventory/pull/2179 -->
 
@@ -270,13 +271,13 @@ Los nuevos módulos de [!DNL Inventory Management] 1.1.2 Beta incluyen:
 
 ![Nueva](../assets/new.svg) **IU simplificada para orígenes asignados**: la tabla Orígenes asignados de las páginas de productos ha simplificado el contenido para facilitar las actualizaciones y aumentar el rendimiento al mostrar muchos orígenes. Todos los orígenes se enumeran por nombre de origen (pase el ratón sobre `source_code`).
 
-![Nuevo](../assets/new.svg) **Servicio de exportación de existencias acumuladas**: esta versión ofrece un nuevo servicio de exportación de existencias acumuladas (conservando las reservas en el sistema) para admitir Sales Channel externas, como anuncios de Amazon, eBay y Google Shopping.  <!-- https://github.com/magento/inventory/pull/2067 -->
+![Nuevo](../assets/new.svg) **Servicio de exportación de existencias acumuladas**: esta versión ofrece un nuevo servicio de exportación de existencias acumuladas (conservando las reservas en el sistema) para admitir canales de ventas externos, como Amazon, eBay y anuncios de Google Shopping.  <!-- https://github.com/magento/inventory/pull/2067 -->
 
 ## 1.1.0
 
-[!DNL Inventory Management] 1.1.0 (versión de módulo: `inventory-composer-metapackage = 1.1.0`) es compatible y compatible con la versión 2.3.0 de Adobe Commerce, Adobe Commerce en la infraestructura de la nube y la base de código de Magento Open Source. [!DNL Inventory Management] 1.1.1 solo se presenta como una actualización de nombre de paquete, compatible con la versión 2.3.1 y compatible con la versión 2.3.0 de Adobe Commerce, Adobe Commerce en la infraestructura de la nube y la base de código de Magento Open Source.
+[!DNL Inventory Management] 1.1.0 (versión de módulo: `inventory-composer-metapackage = 1.1.0`) es compatible y compatible con la versión 2.3.0 de Adobe Commerce, Adobe Commerce en la infraestructura de la nube y la base de código de Magento Open Source. [!DNL Inventory Management] 1.1.1 solo se presenta como una actualización de nombre de paquete, compatible con la versión 2.3.1 y compatible con la versión 2.3.0 de Adobe Commerce, Adobe Commerce en la infraestructura de la nube y Magento Open Source code base.
 
-![Se ha corregido un problema](../assets/fix.svg) **Se ha agregado compatibilidad con el Elasticsearch para los modos de un solo origen y de varios orígenes**. Ahora puede configurar y usar el Elasticsearch con existencias personalizadas. Consulte [Configurar el servicio de Elasticsearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=es){target="_blank"} para obtener información sobre la instalación. <!-- PR https://github.com/magento/inventory/pull/1943 -->
+![Se ha corregido un problema](../assets/fix.svg) **Se ha agregado compatibilidad con Elasticsearch para los modos de un solo origen y de varios orígenes**. Ahora puede configurar y usar Elasticsearch con existencias personalizadas. Consulte [Configurar el servicio Elasticsearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html){target="_blank"} para obtener información sobre la instalación. <!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![Se ha corregido un problema](../assets/fix.svg) que resolvía problemas de rendimiento con Stock predeterminado para aumentar drásticamente el rendimiento con numerosas operaciones. Las mejoras mejoran el rendimiento para el modo de un solo origen, las páginas Transferencia de inventario a Source, Categoría de tienda y Cálculos de cantidad vendible.
 
