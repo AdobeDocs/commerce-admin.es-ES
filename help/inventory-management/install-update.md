@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo administrar el  [!DNL Inventory Ma
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
 source-wordcount: '620'
@@ -20,7 +20,7 @@ Estas características y extensiones se desarrollaron como parte del [proyecto I
 
 [!DNL Inventory Management] se instala en las versiones 2.3.x y 2.4.x de Adobe Commerce y Magento Open Source, con todas las características habilitadas de forma predeterminada. No se requieren pasos adicionales para habilitar estas características de inventario. Las actualizaciones desde v2.1.x o 2.2.x pueden requerir pasos adicionales. Ver [Actualizar Inventory management](#upgrade-inventory-management).
 
-Se recomienda la instalación según [instalación local de inicio rápido](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"}. Instale con un metapaquete para recibir todos los módulos de [!DNL Inventory Management].
+Se recomienda la instalación según [instalación local de inicio rápido](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html?lang=es){target="_blank"}. Instale con un metapaquete para recibir todos los módulos de [!DNL Inventory Management].
 
 La línea siguiente del metapaquete `composer.json` instala [!DNL Inventory Management]:
 
@@ -99,7 +99,7 @@ Es posible que desee deshabilitar [!DNL Inventory Management] módulos para:
 * Acelere el proceso de actualización para los comerciantes que migran de 2.0.x, 2.1.x, 2.2.x o 2.3.x a 2.4.x.
 * Utilice los módulos del sistema de inventario personalizado o de terceros y de gestión de pedidos.
 
-Consulte la página [Habilitar o deshabilitar módulos](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html) en la _Guía de instalación_ para obtener información sobre cómo deshabilitar los módulos aplicables.
+Consulte la página [Habilitar o deshabilitar módulos](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=es) en la _Guía de instalación_ para obtener información sobre cómo deshabilitar los módulos aplicables.
 
 Una vez finalizado, el sistema proporciona una lista de módulos y valores en `<Magento_installation_directory>/app/etc/config.php`, comenzando por:
 
@@ -241,5 +241,5 @@ Para obtener la última versión, actualice la versión del metapaquete:
 
 Consulte las siguientes guías para obtener más información sobre las actualizaciones de Commerce:
 
-* [Guía de Commerce Update](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"}
-* [Habilitar o deshabilitar módulos](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"}
+* [Guía de Commerce Update](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=es){target="_blank"}
+* [Habilitar o deshabilitar módulos](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=es){target="_blank"}

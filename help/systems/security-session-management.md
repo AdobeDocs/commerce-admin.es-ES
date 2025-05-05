@@ -48,7 +48,7 @@ Utilice las siguientes opciones de configuración para limitar el tamaño máxim
 
 ### Sesiones de administración
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 Si supera el tamaño máximo de sesión, aparecerá un mensaje de error y el sistema registrará la restricción de tamaño de sesión en el directorio `var/log`.
 
@@ -60,7 +60,7 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 ### Sesiones de tienda
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 Si se supera el tamaño máximo de sesión, no se muestra ningún error, pero el sistema registra la restricción de tamaño de sesión en el directorio `var/log`.
 
@@ -68,7 +68,7 @@ Si se supera el tamaño máximo de sesión, no se muestra ningún error, pero el
 
 Adobe Commerce y Magento Open Source permiten validar variables de sesión como medida de protección contra posibles ataques de fijación de sesión o intentos de envenenar o secuestrar sesiones de usuario. La configuración de validación de sesión determina cómo se validan las variables de sesión durante cada visita al almacén y si el ID de sesión se incluye en la dirección URL del almacén.
 
-Para obtener información técnica, consulte [Usar Redis para el almacenamiento de sesión](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) en la _Guía de configuración_.
+Para obtener información técnica, consulte [Usar Redis para el almacenamiento de sesión](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=es) en la _Guía de configuración_.
 
 ![Configuración general: validación de sesión web](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 

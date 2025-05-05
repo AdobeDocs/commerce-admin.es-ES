@@ -3,7 +3,7 @@ title: Instalación de paquetes de Adobe Commerce
 description: Obtenga información sobre cómo instalar la extensión  [!DNL AEM Assets Integration for Adobe Commerce] y en una instancia de Adobe Commerce.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
 source-wordcount: '1490'
@@ -31,13 +31,13 @@ La extensión de integración de AEM Assets para Commerce tiene los siguientes r
 
 Necesita las siguientes funciones y permisos para configurar la integración.
 
-- [Administrador de proyectos en la nube de Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access): instale las extensiones necesarias y configure el servidor de aplicaciones de Commerce desde el administrador o la línea de comandos.
+- [Administrador de proyectos en la nube de Commerce](https://experienceleague.adobe.com/es/docs/commerce-cloud-service/user-guide/project/user-access): instale las extensiones necesarias y configure el servidor de aplicaciones de Commerce desde el administrador o la línea de comandos.
 
    - Acceda a [repo.magento.com](https://repo.magento.com/admin/dashboard) para instalar la extensión.
 
-     Para obtener la generación de claves y los derechos necesarios, consulta [Obtener tus claves de autenticación](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Para instalaciones en la nube, consulte la [Guía de Commerce en infraestructura en la nube](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
+     Para obtener la generación de claves y los derechos necesarios, consulta [Obtener tus claves de autenticación](https://experienceleague.adobe.com/es/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Para instalaciones en la nube, consulte la [Guía de Commerce en infraestructura en la nube](https://experienceleague.adobe.com/es/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
 
-- [Administrador de Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview): actualice la configuración de la tienda y administre las cuentas de usuario de Commerce.
+- [Administrador de Commerce](https://experienceleague.adobe.com/es/docs/commerce-admin/start/guide-overview): actualice la configuración de la tienda y administre las cuentas de usuario de Commerce.
 
 >[!TIP]
 >
@@ -66,7 +66,7 @@ Utilice este método para instalar la extensión [!DNL AEM Assets Integration] p
 
    >[!NOTE]
    >
-   >Para obtener información sobre cómo administrar los entornos de proyecto de Commerce localmente, consulte [Administración de ramas con la CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) en la _Guía del usuario de Adobe Commerce on Cloud Infrastructure_.
+   >Para obtener información sobre cómo administrar los entornos de proyecto de Commerce localmente, consulte [Administración de ramas con la CLI](https://experienceleague.adobe.com/es/docs/commerce-cloud-service/user-guide/develop/cli-branches) en la _Guía del usuario de Adobe Commerce on Cloud Infrastructure_.
 
 1. Consulte la rama de entorno para actualizar con la CLI de Adobe Commerce Cloud.
 
@@ -96,7 +96,7 @@ Utilice este método para instalar la extensión [!DNL AEM Assets Integration] p
    git push origin <branch-name>
    ```
 
-   Al insertar las actualizaciones, se inicia el [proceso de implementación en la nube de Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) para aplicar los cambios. Compruebe el estado de implementación desde el [registro de implementación](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+   Al insertar las actualizaciones, se inicia el [proceso de implementación en la nube de Commerce](https://experienceleague.adobe.com/es/docs/commerce-cloud-service/user-guide/develop/deploy/process) para aplicar los cambios. Compruebe el estado de implementación desde el [registro de implementación](https://experienceleague.adobe.com/es/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 >[!TAB Local]
 
@@ -136,7 +136,7 @@ Utilice este método para instalar la extensión [!DNL AEM Assets Integration] p
 
 >[!NOTE]
 >
->La configuración del Conector de servicios de Commerce es un proceso único necesario para usar [Servicios SaaS de Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#availableservices). Si ya ha configurado el conector para otro servicio, puede ver la configuración existente desde el administrador de Commerce seleccionando **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**.
+>La configuración del Conector de servicios de Commerce es un proceso único necesario para usar [Servicios SaaS de Adobe Commerce](https://experienceleague.adobe.com/es/docs/commerce/user-guides/integration-services/saas#availableservices). Si ya ha configurado el conector para otro servicio, puede ver la configuración existente desde el administrador de Commerce seleccionando **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**.
 
 Para transmitir datos entre su instancia de Adobe Commerce y los servicios que habilitan la integración de AEM Assets, configure Commerce Services Connector desde el administrador (**[!UICONTROL System]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**).
 
@@ -148,7 +148,7 @@ Proporcione los siguientes valores en la configuración
 - Nombre del espacio de datos (identificador SaaS) para el almacenamiento seguro en la nube
 - ID de la organización IMS donde se aprovisionan los entornos Commerce y AEM Assets.
 
-Para obtener instrucciones detalladas, vea el [vídeo de configuración del Conector de servicios de Commerce](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs); consulte la [documentación del Conector de servicios de Commerce](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#organizationid).
+Para obtener instrucciones detalladas, vea el [vídeo de configuración del Conector de servicios de Commerce](https://experienceleague.adobe.com/es/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs); consulte la [documentación del Conector de servicios de Commerce](https://experienceleague.adobe.com/es/docs/commerce/user-guides/integration-services/saas#organizationid).
 
 Al guardar la configuración, el sistema genera los ID de proyecto SaaS y de base de datos para su entorno. Estos valores son necesarios para habilitar la sincronización de recursos entre Adobe Commerce y los AEM Assets.
 
@@ -159,8 +159,8 @@ La integración de AEM Assets utiliza el servicio Adobe I/O Events para enviar d
 Antes de configurar Adobe I/O Events, compruebe la configuración del trabajo de RabbitMQ y cron para su proyecto de Commerce:
 
 - Asegúrese de que RabbitMQ esté habilitado y atento a los eventos.
-   - [Configuración de RabbitMQ para Adobe Commerce local](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
-   - [Configuración de RabbitMQ para Adobe Commerce en la infraestructura en la nube](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
+   - [Configuración de RabbitMQ para Adobe Commerce local](https://experienceleague.adobe.com/es/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
+   - [Configuración de RabbitMQ para Adobe Commerce en la infraestructura en la nube](https://experienceleague.adobe.com/es/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
    - Compruebe que [los trabajos cron están habilitados](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration). Se requieren trabajos Cron para la comunicación y flujos de trabajo para la integración de AEM Assets.
 
 >[!NOTE]
@@ -220,7 +220,7 @@ Antes de crear un fragmento basado en este ejemplo, revise los valores para dete
 
 - `content`: fragmento de código VCL que se va a ejecutar, que comprueba la dirección IP del cliente. Si la IP está en la ACL de Edge, se bloquea el acceso con un error `405 Not allowed` para todo el sitio web. Todas las demás direcciones IP de cliente tienen acceso permitido.
 
-Para obtener información detallada sobre el uso de fragmentos de VCL para bloquear solicitudes entrantes, consulte [VCL personalizado para bloquear solicitudes](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) en la _Guía de infraestructura de Commerce en la nube_.
+Para obtener información detallada sobre el uso de fragmentos de VCL para bloquear solicitudes entrantes, consulte [VCL personalizado para bloquear solicitudes](https://experienceleague.adobe.com/es/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) en la _Guía de infraestructura de Commerce en la nube_.
 
 >[!ENDSHADEBOX]
 
