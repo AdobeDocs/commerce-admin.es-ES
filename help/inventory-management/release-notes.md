@@ -127,11 +127,11 @@ Inventory management 1.2.4 (versión de módulo: `magento/inventory-metapackage 
 
 ![Se ha corregido un problema](../assets/fix.svg) Se ha mejorado la administración de existencias de inventario que supera los 10.000 elementos. Anteriormente, los problemas de rendimiento a veces impedían que los comerciantes editaran las existencias en el Admin antes de lanzar su sitio web. <!--- MC-42643-->
 
-![Se ha corregido un problema](../assets/fix.svg): la página **[!UICONTROL User Roles]** del Administrador se ha actualizado para proporcionar a los administradores permisos restringidos para acceder a la configuración de los métodos de envío. Se cambió el nombre de la sección _Métodos de envío_ a _[!UICONTROL Delivery methods]_y se movió_[!UICONTROL In-Store Pickup]_ a la sección _[!UICONTROL Delivery methods]_. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![Se ha corregido un problema](../assets/fix.svg): la página **[!UICONTROL User Roles]** del Administrador se ha actualizado para proporcionar a los administradores permisos restringidos para acceder a la configuración de los métodos de envío. Se cambió el nombre de la sección _Métodos de envío_ a _[!UICONTROL Delivery methods]_&#x200B;y se movió&#x200B;_[!UICONTROL In-Store Pickup]_ a la sección _[!UICONTROL Delivery methods]_. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![Se ha corregido un problema](../assets/fix.svg) por el que Adobe Commerce ya no crea una reserva de producto duplicada después de que la API actualice un abono. <!--- MC-41757-->
 
-![Se ha corregido un problema](../assets/fix.svg) El cambio de la pestaña _[!UICONTROL Pick up in Store]_a la pestaña_[!UICONTROL Shipping]_ en el flujo de trabajo de cierre de compra ya no genera un déclencheur de error de JavaScript cuando solo está disponible la entrega de recogida en la tienda. <!--- MC-42808-->
+![Se ha corregido un problema](../assets/fix.svg) El cambio de la pestaña _[!UICONTROL Pick up in Store]_&#x200B;a la pestaña&#x200B;_[!UICONTROL Shipping]_ en el flujo de trabajo de cierre de compra ya no genera un déclencheur de error de JavaScript cuando solo está disponible la entrega de recogida en la tienda. <!--- MC-42808-->
 
 ![Problema corregido](../assets/fix.svg): la cantidad de productos vendibles y la cantidad de productos en existencias ahora se sincronizan correctamente. Anteriormente, la compensación de reserva de inventario no se volvía a crear para pedidos cancelados. <!--- MC-42485-->
 

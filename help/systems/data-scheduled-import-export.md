@@ -83,7 +83,7 @@ Después de cada trabajo de importación programado, se realiza automáticamente
 
      >[!NOTE]
      >
-     >Para los tipos de entidad _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_y_[!UICONTROL Stock Sources]_, se muestran estos comportamientos de importación: `Add/Update`, `Replace` y `Delete`. Para los tipos de entidad _Finanzas del cliente_, _Archivo principal de clientes_ y _Clientes y direcciones_, se muestran estos comportamientos de importación: `Add/Update Complex Data`, `Delete Entities` y `Custom Action`.
+     >Para los tipos de entidad _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_&#x200B;y_[!UICONTROL Stock Sources]_, se muestran estos comportamientos de importación: `Add/Update`, `Replace` y `Delete`. Para los tipos de entidad _Finanzas del cliente_, _Archivo principal de clientes_ y _Clientes y direcciones_, se muestran estos comportamientos de importación: `Add/Update Complex Data`, `Delete Entities` y `Custom Action`.
 
    - **[!UICONTROL Start Time]** — Se establece en la hora, el minuto y el segundo en que está programado que comience la importación.
 
@@ -224,7 +224,7 @@ Los detalles de cada exportación no se escriben en un registro, pero si se prod
       - `Customer Addresses`
       - `Stock Sources`
 
-     La sección _[!UICONTROL Entity Attributes]_en la parte inferior de la página se actualiza para reflejar el tipo de entidad seleccionado.
+     La sección _[!UICONTROL Entity Attributes]_&#x200B;en la parte inferior de la página se actualiza para reflejar el tipo de entidad seleccionado.
 
    - Establezca **[!UICONTROL Start Time]** en la hora, el minuto y el segundo en que está programado que comience la exportación.
 
@@ -319,7 +319,7 @@ Los detalles de cada exportación no se escriben en un registro, pero si se prod
 | Campo | Descripción |
 | ----- | ----------- | 
 | [!UICONTROL Server Type] | Determina la ubicación del archivo de exportación. Opciones:<br>**Servidor local**: coloca el archivo de exportación en el mismo servidor donde se implementa Commerce. Si el módulo Almacenamiento remoto está habilitado, `Local Server` se cambia a `Remote Storage`.<br>**FTP remoto**: coloca el archivo de exportación en un servidor remoto. Aparecerán opciones adicionales para las credenciales y la configuración de transferencia de archivos. |
-| [!UICONTROL File Directory] | Especifique el directorio en el que se coloca el archivo de exportación. En el caso de que _[!UICONTROL Server Type]_esté establecido en `Local Server`, especifique la ruta de acceso relativa a la ruta de acceso de instalación de Commerce. Por ejemplo, `var/export` o `import_export/export` para almacenamiento remoto. |
+| [!UICONTROL File Directory] | Especifique el directorio en el que se coloca el archivo de exportación. En el caso de que _[!UICONTROL Server Type]_&#x200B;esté establecido en `Local Server`, especifique la ruta de acceso relativa a la ruta de acceso de instalación de Commerce. Por ejemplo, `var/export` o `import_export/export` para almacenamiento remoto. |
 
 {style="table-layout:auto"}
 
