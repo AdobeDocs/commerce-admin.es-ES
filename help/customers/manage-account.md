@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Administrar las cuentas de cliente
 
-Utilice la cuadrícula _[!UICONTROL Customers]_para encontrar cualquier cuenta de cliente. Puede usar los [controles de área de trabajo](../getting-started/admin-workspace.md) estándar para filtrar la lista, cambiar el [diseño de la columna](../getting-started/admin-grid-controls.md), guardar vistas y exportar datos. El control [Actions](../getting-started/admin-actions-control.md) sobre la cuadrícula se puede usar para aplicar una operación a varios registros de clientes.
+Utilice la cuadrícula _[!UICONTROL Customers]_&#x200B;para encontrar cualquier cuenta de cliente. Puede usar los [controles de área de trabajo](../getting-started/admin-workspace.md) estándar para filtrar la lista, cambiar el [diseño de la columna](../getting-started/admin-grid-controls.md), guardar vistas y exportar datos. El control [Actions](../getting-started/admin-actions-control.md) sobre la cuadrícula se puede usar para aplicar una operación a varios registros de clientes.
 
 ![Todos los clientes](assets/customers-all-customers.png){width="700" zoomable="yes"}
 

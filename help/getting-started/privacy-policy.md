@@ -36,7 +36,7 @@ Toda representación de información que permita inferir razonablemente por medi
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. En la cuadrícula, busque **[!UICONTROL Privacy Policy]**. A continuación, en la columna _[!UICONTROL Action]_, haga clic en **[!UICONTROL Select]**y elija **[!UICONTROL Edit]**.
+1. En la cuadrícula, busque **[!UICONTROL Privacy Policy]**. A continuación, en la columna _[!UICONTROL Action]_, haga clic en **[!UICONTROL Select]**&#x200B;y elija **[!UICONTROL Edit]**.
 
    >[!NOTE]
    >

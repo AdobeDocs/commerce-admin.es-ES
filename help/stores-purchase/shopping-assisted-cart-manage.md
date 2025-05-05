@@ -55,7 +55,7 @@ Para comenzar una sesión de compra asistida, el cliente debe iniciar sesión en
    >
    >Para encontrar rápidamente el registro de cliente, use el control [Filters](../getting-started/admin-grid-controls.md).
 
-   En el perfil del cliente bajo _[!UICONTROL Personal Information]_, la fecha y la hora_[!UICONTROL Last Logged In]_ muestran que el cliente está en línea.
+   En el perfil del cliente bajo _[!UICONTROL Personal Information]_, la fecha y la hora&#x200B;_[!UICONTROL Last Logged In]_ muestran que el cliente está en línea.
 
    ![Perfil de cliente de un cliente en línea](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
@@ -175,7 +175,7 @@ Puede transferir artículos al carro de compras desde la lista de artículos des
 
 1. Haga clic en **[!UICONTROL Create Order]**.
 
-   La página _[!UICONTROL Create New Order]_muestra los artículos del carro de compras, seguidos de la información de envío y pago.
+   La página _[!UICONTROL Create New Order]_&#x200B;muestra los artículos del carro de compras, seguidos de la información de envío y pago.
 
 1. Completa la información de envío y pago.
 

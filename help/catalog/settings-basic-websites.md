@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Configuración del producto - [!UICONTROL Product in Websites]
 
-La sección _[!UICONTROL Product in Websites]_identifica cada sitio web donde el producto está disponible, según la [jerarquía de tiendas](../stores-purchase/stores.md).
+La sección _[!UICONTROL Product in Websites]_&#x200B;identifica cada sitio web donde el producto está disponible, según la [jerarquía de tiendas](../stores-purchase/stores.md).
 
 ![Diagrama del ámbito del sitio web del producto](./assets/scope-product-website.svg){width="550"}
 

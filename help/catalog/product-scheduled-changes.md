@@ -53,7 +53,7 @@ Al configurar programaciones para actualizaciones de productos y editar campaña
 
    ![Programar como nueva actualización](./assets/product-schedule-as-new.png){width="600" zoomable="yes"}
 
-1. Desplácese hasta _[!UICONTROL Price]_y haga clic en **[!UICONTROL Advanced Pricing]**.
+1. Desplácese hasta _[!UICONTROL Price]_&#x200B;y haga clic en **[!UICONTROL Advanced Pricing]**.
 
 1. Escriba un **[!UICONTROL Special Price]** para el producto durante la campaña programada y haga clic en **[!UICONTROL Done]**.
 
@@ -85,7 +85,7 @@ El cambio programado aparece en la parte superior de la página del producto, co
 
 ## Editar el cambio programado
 
-1. En el cuadro _[!UICONTROL Scheduled Changes]_de la parte superior de la página, haga clic en **[!UICONTROL View/Edit]**.
+1. En el cuadro _[!UICONTROL Scheduled Changes]_&#x200B;de la parte superior de la página, haga clic en **[!UICONTROL View/Edit]**.
 
 1. Realice los cambios necesarios en la actualización programada.
 
@@ -93,7 +93,7 @@ El cambio programado aparece en la parte superior de la página del producto, co
 
 ## Eliminar el cambio programado
 
-1. En el cuadro _[!UICONTROL Scheduled Changes]_de la parte superior de la página, haga clic en **[!UICONTROL View/Edit]**.
+1. En el cuadro _[!UICONTROL Scheduled Changes]_&#x200B;de la parte superior de la página, haga clic en **[!UICONTROL View/Edit]**.
 
 1. En la barra superior, haga clic en **[!UICONTROL Remove from Update]**.
 
@@ -107,7 +107,7 @@ El cambio programado aparece en la parte superior de la página del producto, co
 
 {{ce-feature}}
 
-La sección _[!UICONTROL Schedule Design Update]_le permite realizar cambios temporales en el aspecto de la página del producto. Puede programar cambios de diseño para una temporada, promoción o simplemente para hacer las cosas nuevas. Los cambios de diseño se pueden programar con antelación, por lo que entrarán en vigor o_ gotearán _en la programación definida.
+La sección _[!UICONTROL Schedule Design Update]_&#x200B;le permite realizar cambios temporales en el aspecto de la página del producto. Puede programar cambios de diseño para una temporada, promoción o simplemente para hacer las cosas nuevas. Los cambios de diseño se pueden programar con antelación, por lo que entrarán en vigor o_ gotearán _en la programación definida.
 
 ![Actualización de diseño programada](./assets/product-design-update-scheduled-ce.png){width="600" zoomable="yes"}
 

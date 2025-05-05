@@ -83,7 +83,7 @@ Los siguientes métodos de pago están incorporados en Commerce y no utilizan un
 | [!UICONTROL Make Check Payable to] | Vista de tienda | El nombre de la entidad a la que deben hacerse pagaderos los cheques y las órdenes de pago. |
 | [!UICONTROL Send Check to] | Vista de tienda | La dirección postal a la que deben enviarse los cheques y giros postales. |
 | [!UICONTROL Minimum Order Total] | Sitio web | La cantidad de pedido más pequeña que se puede pagar por cheque o giro postal. |
-| [!UICONTROL Maximum Order Total] | Sitio web | La mayor cantidad de pedido que se puede pagar por cheque o giro postal. <br/><br/>**_Nota:_**Un pedido califica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
+| [!UICONTROL Maximum Order Total] | Sitio web | La mayor cantidad de pedido que se puede pagar por cheque o giro postal. <br/><br/>**_Nota:_**&#x200B;Un pedido califica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
 | [!UICONTROL Sort Order] | Sitio web | Un número que determina el orden en que aparece el pago mediante cheque o giro postal cuando se enumera con otros métodos de pago durante el pago. Escriba `0` para colocarlo al principio de la lista. |
 
 {style="table-layout:auto"}
@@ -102,7 +102,7 @@ Los siguientes métodos de pago están incorporados en Commerce y no utilizan un
 | [!UICONTROL Payment from Applicable Countries] | Sitio web | Determina los países desde los que se acepta el pago mediante transferencia bancaria. Opciones: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Sitio web | Identifica los países específicos desde los que se acepta el pago mediante transferencia bancaria. |
 | [!UICONTROL Minimum Order Total] | Sitio web | El importe de pedido más pequeño que se puede pagar por transferencia bancaria. |
-| [!UICONTROL Maximum Order Total] | Sitio web | La mayor cantidad de pedido que se puede pagar por transferencia bancaria. <br/><br/>**_Nota:_**Un pedido califica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
+| [!UICONTROL Maximum Order Total] | Sitio web | La mayor cantidad de pedido que se puede pagar por transferencia bancaria. <br/><br/>**_Nota:_**&#x200B;Un pedido califica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
 | [!UICONTROL Sort Order] | Sitio web | Un número que determina el orden en que aparece el pago por transferencia bancaria cuando se enumera con otros métodos de pago durante el cierre de compra. Escriba `0` para colocarlo al principio de la lista. |
 
 {style="table-layout:auto"}
@@ -123,7 +123,7 @@ Los siguientes métodos de pago están incorporados en Commerce y no utilizan un
 | [!UICONTROL Payment from Applicable Countries] | Sitio web | Determina los países en los que se permite a las compañías cargar compras en sus cuentas. Opciones: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Sitio web | Identifica los países específicos en los que las empresas pueden cargar compras a sus cuentas. |
 | [!UICONTROL Minimum Order Total] | Sitio web | Especifica el importe de pedido más pequeño que se puede cargar a una cuenta de empresa. |
-| [!UICONTROL Maximum Order Total] | Sitio web | El mayor importe de pedido que se puede cargar a una cuenta de empresa. <br/><br/>**_Nota:_**Un pedido califica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
+| [!UICONTROL Maximum Order Total] | Sitio web | El mayor importe de pedido que se puede cargar a una cuenta de empresa. <br/><br/>**_Nota:_**&#x200B;Un pedido califica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
 | [!UICONTROL Sort Order] | Sitio web | Un número que determina el orden en que aparece el pago a cuenta cuando se enumera con otros métodos de pago durante el cierre de compra. Escriba `0` para colocarlo al principio de la lista. |
 
 {style="table-layout:auto"}
@@ -146,7 +146,7 @@ Los siguientes métodos de pago están incorporados en Commerce y no utilizan un
 | [!UICONTROL Payment from Applicable Countries] | Sitio web | Determina los países desde los que se acepta el pago mediante transferencia bancaria. Opciones: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Sitio web | Identifica los países específicos desde los que se acepta el pago mediante transferencia bancaria. |
 | [!UICONTROL Minimum Order Total] | Sitio web | Especifica el importe de pedido más pequeño que se puede pagar mediante transferencia bancaria. |
-| [!UICONTROL Maximum Order Total] | Sitio web | La mayor cantidad de pedido que se puede pagar por transferencia bancaria. <br/><br/>**_Nota:_**Un pedido califica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
+| [!UICONTROL Maximum Order Total] | Sitio web | La mayor cantidad de pedido que se puede pagar por transferencia bancaria. <br/><br/>**_Nota:_**&#x200B;Un pedido califica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
 | [!UICONTROL Sort Order] | Sitio web | Un número que determina el orden en que aparece el pago por transferencia bancaria cuando se enumera con otros métodos de pago durante el cierre de compra. Escriba `0` para colocarlo al principio de la lista. |
 
 {style="table-layout:auto"}
@@ -189,7 +189,7 @@ Consulte la sección Configuración básica de cada método de pago individual p
 
 >[!NOTE]
 >
->No seleccione la opción _[!UICONTROL Not Capture]_a menos que esté seguro de que va a capturar el pago mediante Commerce más adelante. No puede crear una nota de abono hasta que el pago se haya capturado con el botón Capturar.
+>No seleccione la opción _[!UICONTROL Not Capture]_&#x200B;a menos que esté seguro de que va a capturar el pago mediante Commerce más adelante. No puede crear una nota de abono hasta que el pago se haya capturado con el botón Capturar.
 
 ## [!UICONTROL Purchase Order]
 
@@ -205,7 +205,7 @@ Consulte la sección Configuración básica de cada método de pago individual p
 | [!UICONTROL Payment from Applicable Countries] | Sitio web | Determina los países desde los que se acepta el pago por OC. Opciones: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Sitio web | Identifica los países específicos desde los que acepta el pago por OC. |
 | [!UICONTROL Minimum Order Total] | Sitio web | El importe de pedido más pequeño que se puede pagar por pedido. |
-| [!UICONTROL Maximum Order Total] | Sitio web | El importe de pedido más grande que puede pagar la OC. <br/><br/>**_Nota:_**Un pedido califica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
+| [!UICONTROL Maximum Order Total] | Sitio web | El importe de pedido más grande que puede pagar la OC. <br/><br/>**_Nota:_**&#x200B;Un pedido califica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
 | [!UICONTROL Sort Order] | Sitio web | Número que determina el orden en el que aparece el pago por pedido cuando se enumera con otros métodos de pago durante el cierre de compra. Escriba `0` para colocarlo al principio de la lista. |
 
 {style="table-layout:auto"}

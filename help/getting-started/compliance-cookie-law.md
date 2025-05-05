@@ -206,7 +206,7 @@ La establece el módulo Page Builder. Contiene un indicador que evita que las so
 
 La establece el módulo Page Builder. Contiene un indicador que evita que las solicitudes posteriores pidan a un administrador que confirme la apertura de una acción determinada si el administrador las descartó explícitamente antes. Se utiliza solo en un área administrativa de una tienda. No aplicable a los compradores.
 
-#### `accordion-{VARIABLE}-{VARIABLE}`
+#### `accordion-&lbrace;VARIABLE&rbrace;-&lbrace;VARIABLE&rbrace;`
 
 Se utiliza como parte de la implementación de la funcionalidad de pestañas solo en un área administrativa de una tienda. No aplicable a los compradores.
 

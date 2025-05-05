@@ -38,7 +38,7 @@ _Envío gratuito_ es una de las promociones más efectivas que puedes ofrecer. S
 
    >[!TIP]
    >
-   >Para usar el envío gratuito con [tarifas de tabla](shipping-table-rate.md), haga que _[!UICONTROL Minimum Order Amount]_sea tan alto que nunca se cumpla. El uso de este valor alto impide que el envío gratuito entre en vigor, a menos que se active por una regla de precio.
+   >Para usar el envío gratuito con [tarifas de tabla](shipping-table-rate.md), haga que _[!UICONTROL Minimum Order Amount]_&#x200B;sea tan alto que nunca se cumpla. El uso de este valor alto impide que el envío gratuito entre en vigor, a menos que se active por una regla de precio.
 
 1. Establecer **[!UICONTROL Include Tax to Amount]**:
 

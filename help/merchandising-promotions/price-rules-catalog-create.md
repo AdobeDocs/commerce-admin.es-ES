@@ -20,7 +20,7 @@ Siga estas instrucciones para aplicar un descuento a productos específicos siem
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add New Rule]**.
 
-   La sección _[!UICONTROL Rule Information]_incluye secciones expandibles para **[!UICONTROL Conditions]**y **[!UICONTROL Actions]**.
+   La sección _[!UICONTROL Rule Information]_&#x200B;incluye secciones expandibles para **[!UICONTROL Conditions]**&#x200B;y **[!UICONTROL Actions]**.
 
    ![Regla de precios de catálogo: información](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -54,7 +54,7 @@ Siga estas instrucciones para aplicar un descuento a productos específicos siem
 
    >[!NOTE]
    >
-   >La configuración de _[!UICONTROL Priority]_es importante cuando el mismo producto del catálogo cumple las condiciones establecidas para más de una regla de precio. La regla con la configuración de prioridad más alta (las prioridades de mayor a menor son 0, 1, 2, 3, etc.) se activa para el producto.
+   >La configuración de _[!UICONTROL Priority]_&#x200B;es importante cuando el mismo producto del catálogo cumple las condiciones establecidas para más de una regla de precio. La regla con la configuración de prioridad más alta (las prioridades de mayor a menor son 0, 1, 2, 3, etc.) se activa para el producto.
 
 ## Paso 2: Definición de las condiciones
 
@@ -251,7 +251,7 @@ Especifica las condiciones que deben cumplirse antes de que la regla de precios 
 
 | Campo | Descripción |
 |-----|-----------|
-| [!UICONTROL Apply] | Determina el tipo de cálculo que se aplica a la compra. Opciones: <br/>**[!UICONTROL Apply as percentage of original]**- artículo de descuentos al restar un porcentaje del precio normal.<br/>**[!UICONTROL Apply as fixed amount]** - artículo de descuentos al restar un importe fijo del precio normal. <br/>**[!UICONTROL Adjust final price to this percentage]**- Ajusta el precio final en un porcentaje del precio normal.<br/>**[!UICONTROL Adjust final price to discount value]** - Establece el precio final en una cantidad fija con descuento. <br/><br/>**_Nota:_**El precio regular se refiere al precio base del producto sin ningún precio avanzado (especial/nivel/grupo) o descuentos promocionales. El precio final hace referencia al precio con descuento que aparece en el carro de compras. <br/>El precio del producto**_final _**se calcula como el precio**_mínimo _**relevante, utilizando la siguiente fórmula: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
+| [!UICONTROL Apply] | Determina el tipo de cálculo que se aplica a la compra. Opciones: <br/>**[!UICONTROL Apply as percentage of original]**- artículo de descuentos al restar un porcentaje del precio normal.<br/>**[!UICONTROL Apply as fixed amount]** - artículo de descuentos al restar un importe fijo del precio normal. <br/>**[!UICONTROL Adjust final price to this percentage]**- Ajusta el precio final en un porcentaje del precio normal.<br/>**[!UICONTROL Adjust final price to discount value]** - Establece el precio final en una cantidad fija con descuento. <br/><br/>**_Nota:_**&#x200B;El precio regular se refiere al precio base del producto sin ningún precio avanzado (especial/nivel/grupo) o descuentos promocionales. El precio final hace referencia al precio con descuento que aparece en el carro de compras. <br/>El precio del producto&#x200B;**_final _**&#x200B;se calcula como el precio&#x200B;**_mínimo _**&#x200B;relevante, utilizando la siguiente fórmula: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
 | [!UICONTROL Discount Amount] | (Obligatorio) El importe del descuento ofrecido. |
 | [!UICONTROL Discard Subsequent Rules] | Determina si se pueden aplicar reglas adicionales a esta compra. Para evitar que se apliquen varios descuentos a la misma compra, seleccione `Yes`. Opciones: `Yes` / `No` |
 

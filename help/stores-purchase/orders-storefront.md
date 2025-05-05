@@ -18,7 +18,7 @@ Los clientes tienen acceso a todos sus pedidos desde su cuenta. Los pedidos se p
 
 {{b2b-feature}}
 
-Los resultados iniciales de _[!UICONTROL My Orders]_también contienen pedidos coincidentes de usuarios subordinados de todos los sitios web dentro de la instancia de comercio. Un cliente asociado a una cuenta de compañía puede filtrar la lista de pedidos para buscar rápidamente registros en los resultados. Para mostrar las opciones de filtro, el cliente hace clic en **[!UICONTROL Filter]**y luego en **[!UICONTROL Close]**para ocultar los filtros.
+Los resultados iniciales de _[!UICONTROL My Orders]_&#x200B;también contienen pedidos coincidentes de usuarios subordinados de todos los sitios web dentro de la instancia de comercio. Un cliente asociado a una cuenta de compañía puede filtrar la lista de pedidos para buscar rápidamente registros en los resultados. Para mostrar las opciones de filtro, el cliente hace clic en **[!UICONTROL Filter]**&#x200B;y luego en **[!UICONTROL Close]**&#x200B;para ocultar los filtros.
 
 ![Mis pedidos](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
@@ -42,7 +42,7 @@ Un cliente encuentra el pedido en la lista y hace clic en **[!UICONTROL View Ord
 
 El bloque **[!UICONTROL Recent Orders]** se muestra en la barra lateral y en la página **[!UICONTROL My Account]** para los clientes que iniciaron sesión después de realizar un pedido. Muestra cinco productos de la última compra.
 
-El cliente puede leer productos al carro de compras seleccionando los productos y haciendo clic en **[!UICONTROL Add to Cart]**. También pueden ver el último pedido haciendo clic en **[!UICONTROL View all]**, que redirige a la página _[!UICONTROL My Account]_y al bloque **[!UICONTROL Recent Orders]**.
+El cliente puede leer productos al carro de compras seleccionando los productos y haciendo clic en **[!UICONTROL Add to Cart]**. También pueden ver el último pedido haciendo clic en **[!UICONTROL View all]**, que redirige a la página _[!UICONTROL My Account]_&#x200B;y al bloque **[!UICONTROL Recent Orders]**.
 
 ### Imprimir pedido
 
@@ -103,7 +103,7 @@ Un cliente puede iniciar la funcionalidad de reordenar para un pedido específic
 
 ## Reordenamientos
 
-El vínculo _[!UICONTROL Reorder]_se muestra en la lista con pedidos cerca del vínculo_[!UICONTROL View]_.
+El vínculo _[!UICONTROL Reorder]_&#x200B;se muestra en la lista con pedidos cerca del vínculo&#x200B;_[!UICONTROL View]_.
 
 ![Reordenar vínculo en la página Mi pedido](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
@@ -117,7 +117,7 @@ Se redirige al cliente al carro de compras y se agregan todos los productos al c
 >
 >Es posible reordenar `Not Visible Individually` productos.
 
-El vínculo _[!UICONTROL Reorder]_no aparece en las páginas_[!UICONTROL My Orders]_ y _[!UICONTROL View Order]_.
+El vínculo _[!UICONTROL Reorder]_&#x200B;no aparece en las páginas&#x200B;_[!UICONTROL My Orders]_ y _[!UICONTROL View Order]_.
 
 ![Mi página de pedidos](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
@@ -135,7 +135,7 @@ Un cliente puede iniciar la funcionalidad de cancelación para un pedido especí
 - Página Vista de pedidos
 - Página Mi cuenta
 
-El vínculo _[!UICONTROL Cancel Order]_se muestra cerca del vínculo_[!UICONTROL Reorder]_. Si el pedido no se puede cancelar, no se muestra el vínculo.
+El vínculo _[!UICONTROL Cancel Order]_&#x200B;se muestra cerca del vínculo&#x200B;_[!UICONTROL Reorder]_. Si el pedido no se puede cancelar, no se muestra el vínculo.
 
 ![Cancelar vínculo en la página Mi pedido](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
 
@@ -153,7 +153,7 @@ Para realizar la cancelación, el cliente:
 
    ![Cancelar en la página Mi pedido](./assets/cancel-order.png){width="700" zoomable="yes"}
 
-   Después de la cancelación, los pedidos que estaban en estado _[!UICONTROL Pending]_, cambian al estado_[!UICONTROL Canceled]_, los pedidos que estaban en estado _[!UICONTROL Processing]_, cambian al estado_[!UICONTROL Closed]_ y se procesa un reembolso.
+   Después de la cancelación, los pedidos que estaban en estado _[!UICONTROL Pending]_, cambian al estado&#x200B;_[!UICONTROL Canceled]_, los pedidos que estaban en estado _[!UICONTROL Processing]_, cambian al estado&#x200B;_[!UICONTROL Closed]_ y se procesa un reembolso.
 
    Cuando finaliza la cancelación, se envía un correo electrónico al cliente.
 

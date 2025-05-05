@@ -64,7 +64,7 @@ En este ejercicio de tutorial, creará un bloque simple con contenido de [!DNL G
 
 1. En la esquina superior derecha del escenario, haga clic en el icono _Cerrar pantalla completa_ (![Icono de cerrar pantalla completa](./assets/pb-icon-reduce.png)).
 
-   Al hacer clic en este icono, volverá a la sección _[!UICONTROL Content]_del bloque con la vista previa mostrada.
+   Al hacer clic en este icono, volverá a la sección _[!UICONTROL Content]_&#x200B;del bloque con la vista previa mostrada.
 
 1. En la esquina superior derecha, haga clic en la flecha **[!UICONTROL Save]** y elija **[!UICONTROL Save & Close]**.
 
@@ -102,11 +102,11 @@ Si [!DNL Google Maps] ya está configurado para su tienda, puede omitir este pas
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. En la cuadrícula, busque el _[!UICONTROL Simple Page]_que creó en el primer tutorial y seleccione **[!UICONTROL Edit]**en la columna_[!UICONTROL Action]_.
+1. En la cuadrícula, busque el _[!UICONTROL Simple Page]_&#x200B;que creó en el primer tutorial y seleccione **[!UICONTROL Edit]**&#x200B;en la columna&#x200B;_[!UICONTROL Action]_.
 
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Content]** y haga clic en **[!UICONTROL Edit with Page Builder]** o dentro del área de vista previa del contenido.
 
-1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un marcador de posición **[!UICONTROL Row]**a la parte superior del escenario.
+1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un marcador de posición **[!UICONTROL Row]**&#x200B;a la parte superior del escenario.
 
    ![Agregando la fila a la parte superior del escenario](./assets/pb-tutorial2-elements-row-drag-top.png){width="600" zoomable="yes"}
 
@@ -130,7 +130,7 @@ Si [!DNL Google Maps] ya está configurado para su tienda, puede omitir este pas
 
 1. En la esquina superior derecha del escenario, haga clic en el icono _Cerrar pantalla completa_ (![Icono de cerrar pantalla completa](./assets/pb-icon-reduce.png)).
 
-   Al hacer clic en este icono, volverá a la sección _[!UICONTROL Content]_de la página con la vista previa mostrada.
+   Al hacer clic en este icono, volverá a la sección _[!UICONTROL Content]_&#x200B;de la página con la vista previa mostrada.
 
 1. En la esquina superior derecha, haga clic en la flecha **[!UICONTROL Save]** y elija **[!UICONTROL Save & Close]**.
 
@@ -182,7 +182,7 @@ Desplácese hacia abajo hasta la sección _[!UICONTROL Content]_, que muestra un
 
 1. Para **[!UICONTROL Minimum Height]**, escriba `400px`.
 
-1. Desplácese a la sección _[!UICONTROL Background]_y establezca **[!UICONTROL Background Image]**. Para ello, haga clic en **[!UICONTROL Select from Gallery]**y elija la imagen `wide-banner-background.png` cargada en el primer tutorial.
+1. Desplácese a la sección _[!UICONTROL Background]_&#x200B;y establezca **[!UICONTROL Background Image]**. Para ello, haga clic en **[!UICONTROL Select from Gallery]**&#x200B;y elija la imagen `wide-banner-background.png` cargada en el primer tutorial.
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Save]** para aplicar la configuración y volver al área de trabajo [!DNL Page Builder].
 
@@ -190,7 +190,7 @@ Desplácese hacia abajo hasta la sección _[!UICONTROL Content]_, que muestra un
 
 **Tarea 2:** Agregar columnas
 
-En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un marcador de posición **[!UICONTROL Column]**a la fila.
+En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un marcador de posición **[!UICONTROL Column]**&#x200B;a la fila.
 
 ![Arrastrando el tipo de columna a la fila](./assets/pb-tutorial2-column-drag.png){width="600" zoomable="yes"}
 
@@ -264,7 +264,7 @@ En el primer ejercicio, aprendió a usar el tipo de contenido [Button](buttons.m
 
 1. En la esquina superior derecha del escenario, haga clic en el icono _Cerrar pantalla completa_ (![Icono de cerrar pantalla completa](./assets/pb-icon-reduce.png)).
 
-   Al hacer clic en este icono, volverá a la sección _[!UICONTROL Content]_del bloque dinámico con la vista previa mostrada.
+   Al hacer clic en este icono, volverá a la sección _[!UICONTROL Content]_&#x200B;del bloque dinámico con la vista previa mostrada.
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Save]**.
 
@@ -298,7 +298,7 @@ En el primer ejercicio, aprendió a usar el tipo de contenido [Button](buttons.m
 
    Para confirmar la eliminación de la fila de la página, haga clic en **[!UICONTROL OK]**
 
-1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un nuevo marcador de posición **[!UICONTROL Row]**a la parte superior del escenario.
+1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un nuevo marcador de posición **[!UICONTROL Row]**&#x200B;a la parte superior del escenario.
 
 1. En el panel [!DNL Page Builder], expanda **[!UICONTROL Add Content]** y arrastre un marcador de posición **[!UICONTROL Dynamic Block]** a la nueva fila.
 
@@ -312,7 +312,7 @@ En el primer ejercicio, aprendió a usar el tipo de contenido [Button](buttons.m
 
    ![Seleccionar bloque dinámico](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
 
-1. Busque el bloque dinámico _[!DNL Tee Shirt Promo]_que creó y haga clic en **[!UICONTROL Select]**.
+1. Busque el bloque dinámico _[!DNL Tee Shirt Promo]_&#x200B;que creó y haga clic en **[!UICONTROL Select]**.
 
    A continuación, aparece un resumen de la información del bloque dinámico.
 
@@ -326,7 +326,7 @@ En el primer ejercicio, aprendió a usar el tipo de contenido [Button](buttons.m
 
 1. En la esquina superior derecha del escenario, haga clic en el icono _Cerrar pantalla completa_ (![Icono de cerrar pantalla completa](./assets/pb-icon-reduce.png)).
 
-   Al hacer clic en este icono, volverá a la sección _[!UICONTROL Content]_de la página con la vista previa mostrada.
+   Al hacer clic en este icono, volverá a la sección _[!UICONTROL Content]_&#x200B;de la página con la vista previa mostrada.
 
 1. En la esquina superior derecha, haga clic en la flecha **[!UICONTROL Save]** y elija **[!UICONTROL Save & Close]**.
 
@@ -342,7 +342,7 @@ En esta parte final del ejercicio, puede editar un bloque dinámico mientras la 
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**.
 
-1. Busque el bloque dinámico _[!DNL Tee Shirt Promo]_en la cuadrícula y ábralo en modo de edición.
+1. Busque el bloque dinámico _[!DNL Tee Shirt Promo]_&#x200B;en la cuadrícula y ábralo en modo de edición.
 
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Content]** y haga clic en **[!UICONTROL Edit with Page Builder]**.
 
@@ -368,7 +368,7 @@ En esta parte final del ejercicio, puede editar un bloque dinámico mientras la 
 
 1. En la esquina superior derecha del escenario, haga clic en el icono _Cerrar pantalla completa_ (![Icono de cerrar pantalla completa](./assets/pb-icon-reduce.png)).
 
-   Al hacer clic en este icono, volverá a la sección _[!UICONTROL Content]_del bloque dinámico con la vista previa mostrada.
+   Al hacer clic en este icono, volverá a la sección _[!UICONTROL Content]_&#x200B;del bloque dinámico con la vista previa mostrada.
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Save]**.
 

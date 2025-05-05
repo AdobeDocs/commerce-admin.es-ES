@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Los niveles de encabezado establecen una jerarquía que organiza el contenido y ayuda a los motores de búsqueda a indexar cada página. Use el tipo de contenido _Encabezado_ en la [[!DNL Page Builder] fase](workspace.md#stage) para agregar un contenedor de texto con un nivel de encabezado de H1 a H6 a la fase. El formato de los encabezados depende de la hoja de estilos asociada al tema actual.
 
-El campo [Encabezado de contenido](workspace.md) de la sección _[!UICONTROL Content]_se puede usar para agregar un encabezado H1 a la parte superior de la página. Sin embargo, el campo es un heredado de versiones anteriores de [!DNL Commerce] y se proporciona para admitir contenido antiguo. Este campo no aprovecha las características avanzadas de [!DNL Page Builder]. Se recomienda dejar en blanco el campo Encabezado de contenido y utilizar el tipo de contenido Encabezado [!DNL Page Builder] para agregar encabezados de cualquier nivel a la página.
+El campo [Encabezado de contenido](workspace.md) de la sección _[!UICONTROL Content]_&#x200B;se puede usar para agregar un encabezado H1 a la parte superior de la página. Sin embargo, el campo es un heredado de versiones anteriores de [!DNL Commerce] y se proporciona para admitir contenido antiguo. Este campo no aprovecha las características avanzadas de [!DNL Page Builder]. Se recomienda dejar en blanco el campo Encabezado de contenido y utilizar el tipo de contenido Encabezado [!DNL Page Builder] para agregar encabezados de cualquier nivel a la página.
 
 El siguiente ejemplo muestra cómo aparecen el encabezado de contenido y el tipo de contenido de encabezado cuando se les aplica formato mediante la temática de Luma.
 
@@ -74,7 +74,7 @@ Al igual que con todos los contenedores de contenido, la caja de herramientas ap
 
    También puede actualizar este contenido en el editor de encabezados.
 
-1. Actualice la configuración de _[!UICONTROL Advanced]_según sea necesario.
+1. Actualice la configuración de _[!UICONTROL Advanced]_&#x200B;según sea necesario.
 
    - Para controlar el posicionamiento del encabezado dentro del contenedor principal, elija un **[!UICONTROL Alignment]**:
 

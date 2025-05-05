@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Asignar empresas a un catálogo compartido
 
-Existen dos formas de asignar una empresa a un catálogo compartido. Puede realizar la asignación desde la cuadrícula _[!UICONTROL Shared Catalogs]_o editar la empresa y asignar el catálogo compartido como lo haría para elegir un grupo de clientes.
+Existen dos formas de asignar una empresa a un catálogo compartido. Puede realizar la asignación desde la cuadrícula _[!UICONTROL Shared Catalogs]_&#x200B;o editar la empresa y asignar el catálogo compartido como lo haría para elegir un grupo de clientes.
 
 ![Asignar compañías](./assets/shared-catalog-assign-companies.png){width="700" zoomable="yes"}
 

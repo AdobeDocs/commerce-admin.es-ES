@@ -116,7 +116,7 @@ Como comerciante, puede crear una cuenta de cliente desde el Administrador.
 
    >[!INFO]
    >
-   >Una vez guardada la cuenta del cliente, aparece el conjunto completo de opciones en el panel izquierdo y en el menú situado en la parte superior de la página. La ficha _[!UICONTROL Customer View]_muestra un resumen de la cuenta.
+   >Una vez guardada la cuenta del cliente, aparece el conjunto completo de opciones en el panel izquierdo y en el menú situado en la parte superior de la página. La ficha _[!UICONTROL Customer View]_&#x200B;muestra un resumen de la cuenta.
 
    ![Vista del cliente](assets/customer-account-create-saved.png){width="600" zoomable="yes"}
 
@@ -147,7 +147,7 @@ Como comerciante, puede crear una cuenta de cliente desde el Administrador.
 
    De lo contrario, haga clic en **[!UICONTROL Save and Continue Edit]** y repita los pasos anteriores para agregar direcciones adicionales.
 
-   La nueva dirección se muestra en la página [!UICONTROL Addresses] con las direcciones _[!UICONTROL Default Billing]_y_[!UICONTROL Default Shipping]_ seleccionadas encima de la lista completa.
+   La nueva dirección se muestra en la página [!UICONTROL Addresses] con las direcciones _[!UICONTROL Default Billing]_&#x200B;y_[!UICONTROL Default Shipping]_ seleccionadas encima de la lista completa.
 
    ![Vista de direcciones](assets/address-list.png){width="600" zoomable="yes"}
 
@@ -169,7 +169,7 @@ Hay botones adicionales disponibles cuando el perfil se guarda por primera vez. 
 
 | Botón | Descripción |
 |--- |--- |
-| **[!UICONTROL Back]** | Vuelve a la página _[!UICONTROL Customers]_sin guardar los cambios. |
+| **[!UICONTROL Back]** | Vuelve a la página _[!UICONTROL Customers]_&#x200B;sin guardar los cambios. |
 | **[!UICONTROL Delete Customer]** | Elimina el cliente actual. Los pedidos completados asociados con el cliente no se eliminan. |
 | **[!UICONTROL Reset]** | Restablece los cambios no guardados en el formulario del cliente a sus valores anteriores. |
 | **[!UICONTROL Create Order]** | Crea un pedido para el cliente. |

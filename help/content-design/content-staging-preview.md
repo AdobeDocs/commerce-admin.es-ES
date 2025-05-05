@@ -26,7 +26,7 @@ Cualquier día o período de tiempo durante una campaña se puede previsualizar 
 
    - _Desde cualquier página con cambios programados_
 
-      - Abra cualquier página que tenga el cuadro _[!UICONTROL Scheduled Changes]_en la parte superior.
+      - Abra cualquier página que tenga el cuadro _[!UICONTROL Scheduled Changes]_&#x200B;en la parte superior.
       - Haga clic en **[!UICONTROL Preview]**.
 
    La vista previa se abre en una nueva pestaña del explorador y muestra cómo aparece el producto durante la campaña programada.

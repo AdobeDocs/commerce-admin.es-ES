@@ -138,7 +138,7 @@ La barra de progreso de la parte superior de la página muestra dónde se encuen
 
 ### Paso 1: Elija los atributos
 
-1. Continuando desde arriba, desplácese hacia abajo hasta la sección _[!UICONTROL Configurations]_y haga clic en **[!UICONTROL Create Configurations]**.
+1. Continuando desde arriba, desplácese hacia abajo hasta la sección _[!UICONTROL Configurations]_&#x200B;y haga clic en **[!UICONTROL Create Configurations]**.
 
    ![Configuraciones](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 

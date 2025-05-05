@@ -26,7 +26,7 @@ La configuración de tarjetas regalo establece la configuración predeterminada 
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Gift Cards]**.
 
-1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Gift Card Email Settings]_y haga lo siguiente:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Gift Card Email Settings]_&#x200B;y haga lo siguiente:
 
    - Establezca **[!UICONTROL Gift Card Notification Email Sender]** en la identidad de la tienda que aparece como remitente de las notificaciones de tarjetas de regalo.
 
@@ -34,7 +34,7 @@ La configuración de tarjetas regalo establece la configuración predeterminada 
 
    ![Configuración de correo electrónico de tarjeta regalo](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png){width="600" zoomable="yes"}
 
-1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Email Sent from Gift Card Account Management]_y haga lo siguiente:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Email Sent from Gift Card Account Management]_&#x200B;y haga lo siguiente:
 
    - Establezca **[!UICONTROL Gift Card Email Sender]** en la identidad de la tienda para que aparezca como el remitente de las tarjetas de regalo.
 
@@ -67,7 +67,7 @@ Consulte [Almacenar direcciones de correo electrónico](../configuration-referen
 
 ### Paso 3: Establecer el grupo de códigos de tarjeta de regalo
 
-1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Gift Card Account General Settings]_y haga lo siguiente:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Gift Card Account General Settings]_&#x200B;y haga lo siguiente:
 
    ![Configuración general de la cuenta de la tarjeta regalo](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png){width="600" zoomable="yes"}
 
@@ -115,7 +115,7 @@ Consulte [Almacenar direcciones de correo electrónico](../configuration-referen
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add Gift Card Account]**.
 
-1. En la sección _[!UICONTROL Information]_, establezca **[!UICONTROL Active]**en `Yes` y haga lo siguiente:
+1. En la sección _[!UICONTROL Information]_, establezca **[!UICONTROL Active]**&#x200B;en `Yes` y haga lo siguiente:
 
    - Para que el saldo de la tarjeta se pueda canjear en el cierre de compra o se transfiera al crédito de la tienda del cliente, establezca **[!UICONTROL Redeemable]** en `Yes`.
 

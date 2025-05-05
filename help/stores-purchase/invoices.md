@@ -71,7 +71,7 @@ Se debe generar una factura para el pedido antes de poder imprimirla. Para ver o
 
    >[!NOTE]
    >
-   >La opción _[!UICONTROL Invoice]_no aparece cuando la [acción de pago](../configuration-reference/sales/payment-methods.md#payment-actions) de su [método de pago](../configuration-reference/sales/payment-methods.md) específico está establecida en `Authorize and Capture`, lo que genera automáticamente una factura. Este también es el caso si se realiza el pedido y la acción de pago de su método de pago se establece en `Authorize` y se factura el pedido.
+   >La opción _[!UICONTROL Invoice]_&#x200B;no aparece cuando la [acción de pago](../configuration-reference/sales/payment-methods.md#payment-actions) de su [método de pago](../configuration-reference/sales/payment-methods.md) específico está establecida en `Authorize and Capture`, lo que genera automáticamente una factura. Este también es el caso si se realiza el pedido y la acción de pago de su método de pago se establece en `Authorize` y se factura el pedido.
 
    ![Pedido de venta de factura](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -131,7 +131,7 @@ Las facturas se pueden imprimir por separado o en lote. Sin embargo, para poder 
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. En la cuadrícula _[!UICONTROL Invoices]_, busque la factura y haga clic en **[!UICONTROL View]**en la columna_ Acción _.
+1. En la cuadrícula _[!UICONTROL Invoices]_, busque la factura y haga clic en **[!UICONTROL View]**&#x200B;en la columna_ Acción _.
 
 1. En la parte superior de la factura, haga clic en **[!UICONTROL Print]** para generar un PDF.
 

@@ -95,7 +95,7 @@ Los sitios de redes sociales tienen numerosos complementos que se pueden agregar
 
    - Escriba un número en el campo **[!UICONTROL Sort Order]** para determinar el orden del bloque si está asignado para que aparezca en la misma ubicación de la página como otros elementos de contenido. La posición superior es cero.
 
-1. En la sección _[!UICONTROL Layout Updates]_, haga clic en **[!UICONTROL Add Layout Update]**y establezca **[!UICONTROL Display On]**en la categoría, el producto o la página donde desea que aparezca el bloque.
+1. En la sección _[!UICONTROL Layout Updates]_, haga clic en **[!UICONTROL Add Layout Update]**&#x200B;y establezca **[!UICONTROL Display On]**&#x200B;en la categoría, el producto o la página donde desea que aparezca el bloque.
 
    Por ejemplo, si elige `All Pages` y coloca el bloque en el encabezado o en el pie de página, el bloque aparecerá en el mismo lugar en todas las páginas del almacén.
 

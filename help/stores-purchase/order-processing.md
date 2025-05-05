@@ -38,7 +38,7 @@ Cuando un cliente realiza un pedido, se crea un pedido de venta como un registro
 
 1. Busque el orden en la cuadrícula.
 
-1. En la _[!UICONTROL Action]_columna, haga clic en **[!UICONTROL View]**.
+1. En la _[!UICONTROL Action]_&#x200B;columna, haga clic en **[!UICONTROL View]**.
 
 1. Check order status:
 
@@ -130,7 +130,7 @@ Solo los pedidos de ventas que no se facturan, tienen un estado de `Processing` 
 | [!UICONTROL Order Date] | La fecha y la hora en que se realizó el pedido. |
 | [!UICONTROL Purchased From] | Indica el sitio web, la tienda y la vista de la tienda donde se realizó el pedido. |
 | [!UICONTROL Placed from IP] | Indica la dirección IP del equipo desde el que se realizó el pedido. |
-| [!UICONTROL Order Placed from Quote] | ![Adobe Systems B2B](../assets/b2b.svg) de comercio (disponible con Adobe Systems B2B de comercio) Indica la cotización](../b2b/quotes.md) a partir de la [cual se generó el pedido, si corresponde. El nombre de la oferta está vinculado a la oferta. |
+| [!UICONTROL Order Placed from Quote] | ![Adobe Systems B2B](../assets/b2b.svg) de comercio (disponible con Adobe Systems B2B de comercio) Indica la cotización[&#128279;](../b2b/quotes.md) a partir de la cual se generó el pedido, si corresponde. El nombre de la oferta está vinculado a la oferta. |
 
 {style="table-layout:auto"}
 

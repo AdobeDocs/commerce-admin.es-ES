@@ -28,7 +28,7 @@ También puede usar el control [Acciones](account-company-manage.md) para aproba
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-   Puede usar el selector _[!UICONTROL Columns]_sobre la cuadrícula para mostrar la columna **[!UICONTROL Status]**.
+   Puede usar el selector _[!UICONTROL Columns]_&#x200B;sobre la cuadrícula para mostrar la columna **[!UICONTROL Status]**.
 
 1. En la columna _[!UICONTROL Action]_, haga clic en **[!UICONTROL Edit]**.
 

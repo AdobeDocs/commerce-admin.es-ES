@@ -87,7 +87,7 @@ La configuración de _Páginas predeterminadas_ determina la página de aterriza
 
    >[!NOTE]
    >
-   >Para una vista de almacén específica, desactive la casilla de verificación **[!UICONTROL Use Default]** junto a _[!UICONTROL Default Web URL]_y cualquier otra configuración predeterminada que desee cambiar.
+   >Para una vista de almacén específica, desactive la casilla de verificación **[!UICONTROL Use Default]** junto a _[!UICONTROL Default Web URL]_&#x200B;y cualquier otra configuración predeterminada que desee cambiar.
 
 1. Configure **[!UICONTROL CMS Home Page]** a la página de CMS para usarla como página de inicio. Otras páginas creadas pueden utilizarse como página de inicio, como:
 

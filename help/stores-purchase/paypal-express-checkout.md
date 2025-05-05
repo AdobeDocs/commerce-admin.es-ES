@@ -93,13 +93,13 @@ Puede tener dos soluciones de PayPal activas al mismo tiempo: Pago y envío expr
 
 1. Si la instalación tiene varios sitios web, tiendas o vistas, establezca **[!UICONTROL Store View]** en la vista de la tienda en la que desee aplicar esta configuración.
 
-1. En la sección _[!UICONTROL Merchant Location]_, seleccione **[!UICONTROL Merchant Country]**donde se encuentra su empresa.
+1. En la sección _[!UICONTROL Merchant Location]_, seleccione **[!UICONTROL Merchant Country]**&#x200B;donde se encuentra su empresa.
 
    Esta configuración determina la selección de soluciones de PayPal que aparecen en la configuración.
 
    ![País comerciante](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. En _[!UICONTROL Recommended Solutions]_, haga clic en **[!UICONTROL Configure]**para **[!UICONTROL PayPal Express Checkout]**.
+1. En _[!UICONTROL Recommended Solutions]_, haga clic en **[!UICONTROL Configure]**&#x200B;para **[!UICONTROL PayPal Express Checkout]**.
 
    ![Configurar Pago y envío de PayPal Express](./assets/paypal-express-checkout.png){width="600"}
 
@@ -311,7 +311,7 @@ Establezca **[!UICONTROL Enable PayPal PayLater Experience]** en una de las sigu
    - `Sale`: el importe de la compra se autoriza y se retira inmediatamente de la cuenta del cliente.
    - `Order`: el importe del pedido no se registra ni se autoriza en el saldo del cliente, la cuenta bancaria o la tarjeta de crédito en PayPal. La acción de pago del pedido representa un acuerdo entre el sistema de pago de PayPal y el comerciante. Permite al comerciante capturar uno o más importes hasta el total pedido desde la cuenta de comprador del cliente, durante un periodo de hasta 29 días. Una vez ordenados los fondos, el comerciante puede capturarlos en cualquier momento durante el siguiente período de 29 días. La captura del importe del pedido solo se puede realizar desde el administrador de Commerce creando una o más facturas.
 
-1. Para mostrar el botón _[!UICONTROL Check out with PayPal]_en la página de productos, establezca **[!UICONTROL Display on Product Details Page]**en `Yes`.
+1. Para mostrar el botón _[!UICONTROL Check out with PayPal]_&#x200B;en la página de productos, establezca **[!UICONTROL Display on Product Details Page]**&#x200B;en `Yes`.
 
 1. Si la acción de pago está establecida en `Order`, complete lo siguiente
 
@@ -579,5 +579,5 @@ La configuración de funciones permite desactivar determinadas funciones relacio
 [3]: https://manager.paypal.com/
 [4]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
 [5]: https://www.paypal.com/rs/webapps/mpp/express-checkout
-[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;amp;page=incontextProductCheckout
+[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;page=incontextProductCheckout
 [7]: https://developer.paypal.com/docs/api-basics/sandbox/

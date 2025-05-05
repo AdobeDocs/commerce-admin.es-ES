@@ -20,7 +20,7 @@ La función _Pedido rápido_ reduce el proceso de pedido a varios clics para los
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. En la sección _[!UICONTROL General]_del panel izquierdo, elija **[!UICONTROL B2B Features]**.
+1. En la sección _[!UICONTROL General]_&#x200B;del panel izquierdo, elija **[!UICONTROL B2B Features]**.
 
 1. Establezca **[!UICONTROL Enable Quick Order]** en `Yes`.
 
@@ -92,7 +92,7 @@ Los clientes pueden especificar productos para pedidos rápidos mediante cualqui
 
 ### Método 3: cargar una lista de productos
 
-1. En la sección _[!UICONTROL Add from File]_, haga clic en **[!UICONTROL Download Sample]**para descargar una plantilla de pedido.
+1. En la sección _[!UICONTROL Add from File]_, haga clic en **[!UICONTROL Download Sample]**&#x200B;para descargar una plantilla de pedido.
 
    ![Agregar desde archivo](./assets/quick-order-skus-add-from-file.png){width="600" zoomable="yes"}
 

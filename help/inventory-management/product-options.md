@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Configurar las opciones de producto de [!DNL Inventory Management]
 
-Estas configuraciones se aplican únicamente al producto editado, anulando todas las configuraciones en el nivel de sitio web global. Modifique esta configuración al editar un producto, a través de la sección _[!UICONTROL Sources]_y la página_[!UICONTROL Advanced Inventory]_.
+Estas configuraciones se aplican únicamente al producto editado, anulando todas las configuraciones en el nivel de sitio web global. Modifique esta configuración al editar un producto, a través de la sección _[!UICONTROL Sources]_&#x200B;y la página&#x200B;_[!UICONTROL Advanced Inventory]_.
 
 - Configurar opciones de producto por origen
 - Configurar opciones de producto para inventario avanzado
@@ -51,8 +51,8 @@ Configure las cantidades y la configuración adicional por [origen agregado](sou
 | [!UICONTROL Status] | Global | El producto está activado o desactivado en el catálogo. |
 | [!UICONTROL Source Item Status] | Global | Determina la disponibilidad actual del producto. Opciones:<br />`In Stock` - Hace que el producto esté disponible para la compra.<br />`Out of Stock`: a menos que se activen los pedidos no satisfechos, impide que el producto esté disponible para la compra y elimina el listado del catálogo. |
 | [!UICONTROL Qty] | Global | Cantidades de stock disponibles para cada origen o ubicación. |
-| [!UICONTROL Notify Quantity] | Global | Una cantidad para _[!UICONTROL Notify for Quantity Below]_para este origen específico si_[!UICONTROL Notify Quantity Use Default]_ no está seleccionado. |
-| [!UICONTROL Notify Quantity Use Default] | Global | Indica que se debe usar la configuración predeterminada para _[!UICONTROL Notify for Quantity Below]_en el producto_[!UICONTROL Advanced Inventory]_ o la configuración global en la configuración del almacén. |
+| [!UICONTROL Notify Quantity] | Global | Una cantidad para _[!UICONTROL Notify for Quantity Below]_&#x200B;para este origen específico si&#x200B;_[!UICONTROL Notify Quantity Use Default]_ no está seleccionado. |
+| [!UICONTROL Notify Quantity Use Default] | Global | Indica que se debe usar la configuración predeterminada para _[!UICONTROL Notify for Quantity Below]_&#x200B;en el producto&#x200B;_[!UICONTROL Advanced Inventory]_ o la configuración global en la configuración del almacén. |
 
 ## Opciones de producto avanzadas
 
@@ -74,9 +74,9 @@ Configure las cantidades y la configuración adicional por [origen agregado](sou
 
    | Valor | Descripción |
    | ----- | ----- |
-   | Cantidad positiva | Con _[!UICONTROL Backorders]_deshabilitado, ingrese un valor positivo. |
-   | Cero | Con _[!UICONTROL Backorders]_habilitado, escribir `0` permite pedidos pendientes infinitos. |
-   | Importe negativo | Con _[!UICONTROL Backorders]_habilitado, se recomienda escribir un valor negativo. El importe se añade a la cantidad vendible. Por ejemplo, escriba `-50` para permitir pedidos de hasta esta cantidad. |
+   | Cantidad positiva | Con _[!UICONTROL Backorders]_&#x200B;deshabilitado, ingrese un valor positivo. |
+   | Cero | Con _[!UICONTROL Backorders]_&#x200B;habilitado, escribir `0` permite pedidos pendientes infinitos. |
+   | Importe negativo | Con _[!UICONTROL Backorders]_&#x200B;habilitado, se recomienda escribir un valor negativo. El importe se añade a la cantidad vendible. Por ejemplo, escriba `-50` para permitir pedidos de hasta esta cantidad. |
 
 1. Escriba **[!UICONTROL Minimum Qty Allowed in Shopping Cart]**.
 

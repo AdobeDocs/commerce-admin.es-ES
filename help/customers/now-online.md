@@ -1,6 +1,6 @@
 ---
 title: Los clientes ahora en línea
-description: La opción _Ahora en línea_ del menú [!UICONTROL Customers ]enumera todos los clientes y visitantes que están actualmente en línea en su tienda.
+description: La opción _Ahora en línea_ del menú [!UICONTROL Customers &#x200B;]enumera todos los clientes y visitantes que están actualmente en línea en su tienda.
 exl-id: 69af669d-f9aa-471b-9d62-5657f3fb2103
 source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
 workflow-type: tm+mt

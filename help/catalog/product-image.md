@@ -44,7 +44,7 @@ Para cargar una imagen, realice una de las siguientes acciones:
 
 ### Reorganizar imágenes
 
-Para cambiar el orden de las imágenes en la galería, haga clic en el icono _[!UICONTROL Sort]_( ![Icono Ordenar](./assets/inventory-icon-sort.png) ) en la parte inferior del mosaico de la imagen y arrastre la imagen a una posición diferente en el cuadro_[!UICONTROL Images And Videos]_.
+Para cambiar el orden de las imágenes en la galería, haga clic en el icono _[!UICONTROL Sort]_( ![Icono Ordenar](./assets/inventory-icon-sort.png) ) en la parte inferior del mosaico de la imagen y arrastre la imagen a una posición diferente en el cuadro&#x200B;_[!UICONTROL Images And Videos]_.
 
 ![Pedido de cambio](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 

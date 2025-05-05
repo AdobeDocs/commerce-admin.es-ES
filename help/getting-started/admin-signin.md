@@ -110,7 +110,7 @@ No se permite la reutilización de las cuatro últimas contraseñas asignadas a 
 
    ![Cerrar sesión](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-La página _[!UICONTROL Sign In]_muestra un mensaje que indica que ha cerrado la sesión. Cierre la sesión de_ Admin _cada vez que deje su equipo desatendido.
+La página _[!UICONTROL Sign In]_&#x200B;muestra un mensaje que indica que ha cerrado la sesión. Cierre la sesión de_ Admin _cada vez que deje su equipo desatendido.
 
 ## Editar información de la cuenta
 

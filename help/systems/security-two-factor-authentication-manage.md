@@ -34,11 +34,11 @@ Para restablecer los autenticadores desde la línea de comandos y obtener inform
 
 1. Seleccione el usuario y abra la cuenta en modo de edición.
 
-1. Desplácese hacia abajo hasta la sección _[!UICONTROL Current User Identity Verification]_e introduzca su contraseña.
+1. Desplácese hacia abajo hasta la sección _[!UICONTROL Current User Identity Verification]_&#x200B;e introduzca su contraseña.
 
 1. En el panel izquierdo, haga clic en **[!UICONTROL 2FA]**.
 
-1. En la sección _[!UICONTROL Configuration reset]_, haga clic en **[!UICONTROL Reset]**y **[!UICONTROL OK]**para confirmar.
+1. En la sección _[!UICONTROL Configuration reset]_, haga clic en **[!UICONTROL Reset]**&#x200B;y **[!UICONTROL OK]**&#x200B;para confirmar.
 
    ![Cuenta de usuario - habilitar 2FA](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"}
 

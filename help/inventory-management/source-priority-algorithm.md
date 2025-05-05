@@ -34,7 +34,7 @@ Para configurarlo, organice los orígenes de arriba a abajo con prioridad para c
 
 1. Haga clic en **[!UICONTROL Assign Sources]**.
 
-1. En la vista _[!UICONTROL Assign Sources]_, active la casilla de verificación del origen necesario y, a continuación, haga clic en **[!UICONTROL Done]**para asignar un origen al inventario.
+1. En la vista _[!UICONTROL Assign Sources]_, active la casilla de verificación del origen necesario y, a continuación, haga clic en **[!UICONTROL Done]**&#x200B;para asignar un origen al inventario.
 
 >[!NOTE]
 >

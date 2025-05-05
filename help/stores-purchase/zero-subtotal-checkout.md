@@ -52,7 +52,7 @@ Para ahorrar tiempo, se puede establecer que el subtotal de pedidos cero se fact
 
    >[!NOTE]
    >
-   >Si _[!UICONTROL New Order Status]_se establece en `Processing` y_[!UICONTROL Automatically Invoice All Items]_ se establece en `No`, también debe asignar **[!UICONTROL Order Status]** = `Processing` para la asignación **[!UICONTROL Order State]** = `Pending` y **[!UICONTROL Default Status]** = `No` en la página [Estado del pedido](order-status.md#custom-order-status).
+   >Si _[!UICONTROL New Order Status]_&#x200B;se establece en `Processing` y&#x200B;_[!UICONTROL Automatically Invoice All Items]_ se establece en `No`, también debe asignar **[!UICONTROL Order Status]** = `Processing` para la asignación **[!UICONTROL Order State]** = `Pending` y **[!UICONTROL Default Status]** = `No` en la página [Estado del pedido](order-status.md#custom-order-status).
 
 1. Establezca **[!UICONTROL Payment from Applicable Countries]** en una de las siguientes opciones:
 

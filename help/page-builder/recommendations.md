@@ -45,11 +45,11 @@ Use el tipo de contenido _Product Recommendations_ para agregar una [unidad de r
 
 1. Abra la página, el bloque o el bloque dinámico en modo de edición.
 
-1. Expanda la sección _[!UICONTROL Content]_y haga clic en **[!UICONTROL Edit with Page Builder]**o dentro del área de vista previa de contenido para abrir el área de trabajo [!DNL Page Builder].
+1. Expanda la sección _[!UICONTROL Content]_&#x200B;y haga clic en **[!UICONTROL Edit with Page Builder]**&#x200B;o dentro del área de vista previa de contenido para abrir el área de trabajo [!DNL Page Builder].
 
-1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un marcador de posición **[!UICONTROL Row]**al escenario.
+1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un marcador de posición **[!UICONTROL Row]**&#x200B;al escenario.
 
-1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Add Content]_, arrastre un marcador de posición **[!UICONTROL Product Recommendation]**a la fila.
+1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Add Content]_, arrastre un marcador de posición **[!UICONTROL Product Recommendation]**&#x200B;a la fila.
 
    ![Agregando el tipo de contenido de recomendación de producto](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
@@ -68,7 +68,7 @@ Use el tipo de contenido _Product Recommendations_ para agregar una [unidad de r
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add Selected]**.
 
-   El nombre de la recomendación de producto seleccionada aparece en la sección _[!UICONTROL Selection]_de la página_[!UICONTROL Edit Product Recommendation]_.
+   El nombre de la recomendación de producto seleccionada aparece en la sección _[!UICONTROL Selection]_&#x200B;de la página&#x200B;_[!UICONTROL Edit Product Recommendation]_.
 
 1. Realice los cambios necesarios en la [configuración avanzada](#advanced-settings).
 

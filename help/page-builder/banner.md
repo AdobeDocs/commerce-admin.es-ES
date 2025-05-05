@@ -50,7 +50,7 @@ El cuadro de herramientas del titular aparece cuando pasa el ratón por encima d
 
    ![Arrastrando un tipo de contenido de banner al escenario](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
-   Se incluyen los botones _[!UICONTROL Upload Image]_y_[!UICONTROL Select from Gallery]_ para que pueda realizar cambios rápidos en el contenido del titular directamente desde el escenario. También puede cambiar el contenido en la página _[!UICONTROL Edit Banner]_.
+   Se incluyen los botones _[!UICONTROL Upload Image]_&#x200B;y_[!UICONTROL Select from Gallery]_ para que pueda realizar cambios rápidos en el contenido del titular directamente desde el escenario. También puede cambiar el contenido en la página _[!UICONTROL Edit Banner]_.
 
 1. Haga clic en el marcador de posición del titular para mostrar [editor de texto](../content-design/editor.md) e introducir contenido para el titular.
 
@@ -183,7 +183,7 @@ Si establece el _Tipo de fondo_ en `Image`, use la siguiente configuración para
 
 ### Configuración del tipo de vídeo
 
-Si establece _[!UICONTROL Background Type]_en `Video`, utilice la siguiente configuración para definir la visualización de la imagen de fondo.
+Si establece _[!UICONTROL Background Type]_&#x200B;en `Video`, utilice la siguiente configuración para definir la visualización de la imagen de fondo.
 
 - **[!UICONTROL Video URL]**: escriba una dirección URL de vídeo válida. Las direcciones URL de vídeo válidas pueden ser vínculos a:
 
@@ -223,7 +223,7 @@ Puede modificar el contenido del titular directamente en el escenario o al cambi
 
 1. Pase el ratón sobre el contenedor del titular para mostrar la caja de herramientas y elija el icono _Configuración_ ( ![icono Configuración](./assets/pb-icon-settings.png){width="25"} ).
 
-1. Desplácese hacia abajo hasta la sección _[!UICONTROL Content]_y utilice el editor **[!UICONTROL Message Text]**para escribir y dar formato al texto del titular.
+1. Desplácese hacia abajo hasta la sección _[!UICONTROL Content]_&#x200B;y utilice el editor **[!UICONTROL Message Text]**&#x200B;para escribir y dar formato al texto del titular.
 
    También puede insertar elementos, como vínculos de texto, imágenes y widgets.
 
@@ -240,7 +240,7 @@ Puede modificar el contenido del titular directamente en el escenario o al cambi
 
    >[!NOTE]
    >
-   >A partir de la versión 2.4.1, [!DNL Page Builder] ya no admite la vinculación del titular y los vínculos dentro del texto anidado debido a problemas con la visualización en la tienda. Si está usando un vínculo en _[!UICONTROL Message Text]_, no puede configurar la opción_[!UICONTROL Link]_. Si prefiere usar un solo vínculo para todo el titular, puede quitar todos los vínculos del texto.<br/>
+   >A partir de la versión 2.4.1, [!DNL Page Builder] ya no admite la vinculación del titular y los vínculos dentro del texto anidado debido a problemas con la visualización en la tienda. Si está usando un vínculo en _[!UICONTROL Message Text]_, no puede configurar la opción&#x200B;_[!UICONTROL Link]_. Si prefiere usar un solo vínculo para todo el titular, puede quitar todos los vínculos del texto.<br/>
    >
    >![Configuración del vínculo bloqueada](./assets/pb-nested-link-blocked.png){width="200"}
 

@@ -54,7 +54,7 @@ El pedido de compra original se puede cerrar si ya no es necesario.
 
 ## Aprobaciones de pedidos de compra
 
-Para un cliente designado como aprobador según la estructura de la compañía o el rol de compañía asignado, la página de panel _[!UICONTROL My Purchase Orders]_muestra la pestaña **[!UICONTROL Requires My Approval]**. El cliente hace clic en esta pestaña para revisar los pedidos que están esperando su aprobación. El contador muestra cuántas solicitudes están a la espera de aprobación.
+Para un cliente designado como aprobador según la estructura de la compañía o el rol de compañía asignado, la página de panel _[!UICONTROL My Purchase Orders]_&#x200B;muestra la pestaña **[!UICONTROL Requires My Approval]**. El cliente hace clic en esta pestaña para revisar los pedidos que están esperando su aprobación. El contador muestra cuántas solicitudes están a la espera de aprobación.
 
 Después de hacer clic en **[!UICONTROL View]** para un pedido de compra y revisar los detalles, el aprobador puede hacer clic en **[!UICONTROL Approve]** o **[!UICONTROL Reject]**.
 

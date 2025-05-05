@@ -36,7 +36,7 @@ Los atributos del cliente proporcionan la información necesaria para respaldar 
 
    >[!TIP]
    >
-   >**Acceso directo:** Para completar solo los campos requeridos, desplácese hacia abajo hasta _[!UICONTROL Storefront Properties]_, escriba_[!UICONTROL Sort Order]_ y guarde.
+   >**Acceso directo:** Para completar solo los campos requeridos, desplácese hacia abajo hasta _[!UICONTROL Storefront Properties]_, escriba&#x200B;_[!UICONTROL Sort Order]_ y guarde.
 
 1. Complete las propiedades de entrada de datos:
 
@@ -47,7 +47,7 @@ Los atributos del cliente proporcionan la información necesaria para respaldar 
      | `Text Field` | Campo de texto de una sola línea. |
      | `Text Area` | Campo de entrada de varias líneas para introducir párrafos de texto, como una descripción del producto. Puede utilizar el editor de WYSIWYG para dar formato al texto con etiquetas de HTML o introducir las etiquetas directamente en el texto. |
      | `Multiple Line` | Crea varias líneas de texto para el atributo, de forma similar a una dirección de calle de varias líneas. El número de líneas de entrada de datos independientes puede ser de dos a 20. Use `Default Value` para especificar el valor inicial del campo. |
-     | `Date` | Muestra un valor de fecha en el formato de fecha y zona horaria preferidos. Los valores de fecha se pueden seleccionar de una lista o un calendario ( ![Icono de calendario](../assets/icon-calendar.png)). <br/><br/>**_Nota:_**Según la configuración del sistema, los usuarios de_Admin _pueden introducir fechas directamente en un campo o seleccionar una fecha del calendario o lista. Para obtener información acerca de cómo especificar valores de fecha y hora, vea [Opciones de fecha y hora](../catalog/attributes-input-types.md#date-and-time-options). |
+     | `Date` | Muestra un valor de fecha en el formato de fecha y zona horaria preferidos. Los valores de fecha se pueden seleccionar de una lista o un calendario ( ![Icono de calendario](../assets/icon-calendar.png)). <br/><br/>**_Nota:_**&#x200B;Según la configuración del sistema, los usuarios de_Admin _pueden introducir fechas directamente en un campo o seleccionar una fecha del calendario o lista. Para obtener información acerca de cómo especificar valores de fecha y hora, vea [Opciones de fecha y hora](../catalog/attributes-input-types.md#date-and-time-options). |
      | `Yes/No` | Muestra una lista desplegable con opciones predefinidas de `Yes` y `No`. |
      | `Dropdown` | Muestra una lista desplegable de valores que solo acepta una selección. El tipo de entrada desplegable es un componente clave de [productos configurables](../catalog/product-create-configurable.md). |
      | `Multiple Select` | Lista desplegable que acepta que se seleccionen varios valores. |
@@ -163,7 +163,7 @@ Los atributos del cliente proporcionan la información necesaria para respaldar 
 | `lastname` | El apellido del cliente. |
 | `suffix` | Cualquier sufijo que se utilice con el nombre del cliente. (como Jr., Sr. o Esquire) |
 | `email` | La dirección de correo electrónico del cliente. |
-| `dob` | La fecha de nacimiento del cliente.  <br><br>**_Importante:_**De acuerdo con las prácticas recomendadas actuales de seguridad y privacidad, tenga en cuenta cualquier posible riesgo legal y de seguridad asociado con el almacenamiento de la fecha de nacimiento completa de los clientes (mes, día, año) con otros identificadores personales. Se recomienda limitar el almacenamiento de las fechas de nacimiento completas de los clientes y sugerir el uso del año de nacimiento del cliente como alternativa. |
+| `dob` | La fecha de nacimiento del cliente.  <br><br>**_Importante:_**&#x200B;De acuerdo con las prácticas recomendadas actuales de seguridad y privacidad, tenga en cuenta cualquier posible riesgo legal y de seguridad asociado con el almacenamiento de la fecha de nacimiento completa de los clientes (mes, día, año) con otros identificadores personales. Se recomienda limitar el almacenamiento de las fechas de nacimiento completas de los clientes y sugerir el uso del año de nacimiento del cliente como alternativa. |
 | `taxvat` | El ID del impuesto sobre el valor añadido (IVA) asignado al cliente. La etiqueta predeterminada de este atributo es `VAT Number`. El campo Número de IVA siempre está presente en todas las direcciones de clientes de envío y facturación cuando se visualiza desde el administrador, pero no es un campo obligatorio. |
 | `gender` | El sexo del cliente. |
 

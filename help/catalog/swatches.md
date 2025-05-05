@@ -20,7 +20,7 @@ Para [productos configurables](product-create-configurable.md), el color se pued
 
 >[!NOTE]
 >
->Los atributos de muestra se pueden configurar para que no muestren las imágenes de producto simples correspondientes cuando se seleccione la muestra estableciendo el valor de opción _[!UICONTROL Update Product Preview Image]_en `No` en la página [!UICONTROL Attribute Edit] en el Administrador.
+>Los atributos de muestra se pueden configurar para que no muestren las imágenes de producto simples correspondientes cuando se seleccione la muestra estableciendo el valor de opción _[!UICONTROL Update Product Preview Image]_&#x200B;en `No` en la página [!UICONTROL Attribute Edit] en el Administrador.
 
 ## Muestras basadas en texto
 
@@ -30,7 +30,7 @@ Si una imagen no está disponible para una muestra, el valor del atributo aparec
 
 ## Muestras en la navegación por capas
 
-Las muestras también se pueden usar en la navegación por capas, si la propiedad _[!UICONTROL Use in Layered Navigation]_del atributo de color está establecida en `Yes`. El siguiente ejemplo muestra muestras de imagen basadas en texto y en color en la navegación por capas.
+Las muestras también se pueden usar en la navegación por capas, si la propiedad _[!UICONTROL Use in Layered Navigation]_&#x200B;del atributo de color está establecida en `Yes`. El siguiente ejemplo muestra muestras de imagen basadas en texto y en color en la navegación por capas.
 
 ![Muestras mostradas en la navegación por capas](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
 
@@ -58,7 +58,7 @@ Utilice cualquiera de los siguientes métodos para crear muestras para sus produ
 
 1. Si prefiere no mostrar las imágenes de productos simples correspondientes cuando la muestra se selecciona en la página de visualización del producto, establezca **[!UICONTROL Update Product Preview Image]** en `No`.
 
-1. En _[!UICONTROL Manage Swatch (Values of Your Attribute)]_, haga clic en **[!UICONTROL Add Swatch]**y haga lo siguiente:
+1. En _[!UICONTROL Manage Swatch (Values of Your Attribute)]_, haga clic en **[!UICONTROL Add Swatch]**&#x200B;y haga lo siguiente:
 
    ![Administrar valores de muestra](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
 
@@ -106,7 +106,7 @@ Utilice cualquiera de los siguientes métodos para crear muestras para sus produ
 
 1. Si prefiere no mostrar las imágenes de productos simples correspondientes cuando la muestra se selecciona en la página de visualización del producto, establezca **[!UICONTROL Update Product Preview Image]** en `No`.
 
-1. En _[!UICONTROL Manage Swatch]_(valores de su atributo), haga clic en **[!UICONTROL Add Swatch]**y haga lo siguiente:
+1. En _[!UICONTROL Manage Swatch]_(valores de su atributo), haga clic en **[!UICONTROL Add Swatch]**&#x200B;y haga lo siguiente:
 
    - En la columna _[!UICONTROL Swatch]_, haga clic en la nueva muestra para mostrar el menú y elija **[!UICONTROL Upload a file]**.
 

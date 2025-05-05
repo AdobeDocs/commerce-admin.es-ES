@@ -16,7 +16,7 @@ A veces, los clientes necesitan ayuda con su pedido. Los administradores de la t
 
 Cualquier acción realizada mientras se inició sesión como cliente se aplica a la cuenta del cliente real.
 
-Cuando está habilitado para un usuario de _Admin_, el botón _[!UICONTROL Login as Customer]_aparece en varias páginas:
+Cuando está habilitado para un usuario de _Admin_, el botón _[!UICONTROL Login as Customer]_&#x200B;aparece en varias páginas:
 
 * [Página Editar cliente](../customers/update-account.md)
 * [Página Vista de pedidos](../stores-purchase/order-processing.md)

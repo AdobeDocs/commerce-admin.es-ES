@@ -82,7 +82,7 @@ Google reCAPTCHA requiere un par de claves API para habilitarlo. Puede obtener e
    >
    >Desactive la casilla de verificación **[!UICONTROL Use system value]** para cada campo que desee configurar.
 
-1. Para usar _[!DNL reCAPTCHA v2 ("I am not a robot")]_, expanda la sección **[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**y haga lo siguiente:
+1. Para usar _[!DNL reCAPTCHA v2 ("I am not a robot")]_, expanda la sección **[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**&#x200B;y haga lo siguiente:
 
    - Para **[!UICONTROL Google API Website Key]**, introduzca la clave del sitio web que se creó para este tipo de reCAPTCHA al registrar su cuenta de Google reCAPTCHA.
 
@@ -96,7 +96,7 @@ Google reCAPTCHA requiere un par de claves API para habilitarlo. Puede obtener e
 
    ![reCAPTCHA v2 - &quot;No soy un robot&quot;](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png){width="600" zoomable="yes"}
 
-1. Para usar _[!DNL reCAPTCHA v2 Invisible]_, expanda la sección **[!UICONTROL reCAPTCHA v2 Invisible]**y haga lo siguiente:
+1. Para usar _[!DNL reCAPTCHA v2 Invisible]_, expanda la sección **[!UICONTROL reCAPTCHA v2 Invisible]**&#x200B;y haga lo siguiente:
 
    - Para **[!UICONTROL Google API Website Key]**, introduzca la clave del sitio web que se creó para este tipo de reCAPTCHA al registrar su cuenta de Google reCAPTCHA.
 
@@ -110,7 +110,7 @@ Google reCAPTCHA requiere un par de claves API para habilitarlo. Puede obtener e
 
    ![reCAPTCHA v2 invisible](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png){width="600" zoomable="yes"}
 
-1. Para usar _[!DNL reCAPTCHA v3 Invisible]_, expanda la sección **[!UICONTROL reCAPTCHA v3 Invisible]**y haga lo siguiente:
+1. Para usar _[!DNL reCAPTCHA v3 Invisible]_, expanda la sección **[!UICONTROL reCAPTCHA v3 Invisible]**&#x200B;y haga lo siguiente:
 
    - Para **[!UICONTROL Google API Website Key]**, introduzca la clave del sitio web que se creó para este tipo de reCAPTCHA al registrar su cuenta de Google reCAPTCHA.
 

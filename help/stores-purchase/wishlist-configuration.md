@@ -83,7 +83,7 @@ Cualquier lista de deseos pública se puede encontrar usando el widget de búsqu
 
      `0` = primero (predeterminado), `1` = segundo, `2` = tercero, etc.
 
-1. En la sección _[!UICONTROL Layout Updates]_, haga clic en **[!UICONTROL Add Layout Update]**y establezca **[!UICONTROL Display on]**en uno de los siguientes:
+1. En la sección _[!UICONTROL Layout Updates]_, haga clic en **[!UICONTROL Add Layout Update]**&#x200B;y establezca **[!UICONTROL Display on]**&#x200B;en uno de los siguientes:
 
    - _[!UICONTROL Categories]_
 

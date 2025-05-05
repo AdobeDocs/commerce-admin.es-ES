@@ -56,7 +56,7 @@ Puede aplicar una plantilla a un área de contenido [!DNL Page Builder] (página
 
    ![[!DNL Page Builder] Botón Aplicar plantilla](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
 
-1. Elija una plantilla de la cuadrícula _[!UICONTROL Apply Template]_y haga clic en **[!UICONTROL Apply]**al final de la fila.
+1. Elija una plantilla de la cuadrícula _[!UICONTROL Apply Template]_&#x200B;y haga clic en **[!UICONTROL Apply]**&#x200B;al final de la fila.
 
    Para ver la plantilla completa, puede hacer clic en la imagen en miniatura de la plantilla. Esta acción expande la imagen para que pueda ver toda la plantilla según sea necesario.
 

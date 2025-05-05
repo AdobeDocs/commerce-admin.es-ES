@@ -132,7 +132,7 @@ Esta configuración recomendada se puede utilizar para la mayoría de las config
 | Cálculo de impuestos | En elemento |
 | ¿Envío de impuestos? | Sí |
 | Aplicar descuento | Antes de impuestos, descuento en precios, impuestos incluidos. |
-| Comentario | Para que los comerciantes B2B aporten consideraciones más sencillas sobre la cadena de suministro de IVA. El cálculo de impuestos en la fila también es válido; sin embargo, consulte con su jurisdicción fiscal. La configuración supone que un comerciante está en la cadena de suministro y que otros proveedores utilizan los bienes vendidos para descuentos de IVA, etc. Esta definición facilita la distinción de impuestos por artículo para una generación de devoluciones más rápida. <br/><br/>**_Nota:_**Algunas jurisdicciones requieren estrategias de redondeo diferentes que Commerce no admite actualmente y que no todas permiten impuestos de nivel de fila o artículo. |
+| Comentario | Para que los comerciantes B2B aporten consideraciones más sencillas sobre la cadena de suministro de IVA. El cálculo de impuestos en la fila también es válido; sin embargo, consulte con su jurisdicción fiscal. La configuración supone que un comerciante está en la cadena de suministro y que otros proveedores utilizan los bienes vendidos para descuentos de IVA, etc. Esta definición facilita la distinción de impuestos por artículo para una generación de devoluciones más rápida. <br/><br/>**_Nota:_**&#x200B;Algunas jurisdicciones requieren estrategias de redondeo diferentes que Commerce no admite actualmente y que no todas permiten impuestos de nivel de fila o artículo. |
 
 {style="table-layout:auto"}
 

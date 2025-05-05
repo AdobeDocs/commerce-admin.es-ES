@@ -58,7 +58,7 @@ Si desea utilizar un servicio de terceros para enviar boletines informativos, pu
    >
    >Para cancelar la suscripción de forma masiva, seleccione la casilla de cada suscriptor que desee cancelar.
 
-1. Establezca el control _[!UICONTROL Action]_en **[!UICONTROL Unsubscribe]**y haga clic en **[!UICONTROL Submit]**.
+1. Establezca el control _[!UICONTROL Action]_&#x200B;en **[!UICONTROL Unsubscribe]**&#x200B;y haga clic en **[!UICONTROL Submit]**.
 
    ![Cancelar suscripción al boletín](./assets/newsletter-unsubscribe.png){width="600" zoomable="yes"}
 
@@ -83,6 +83,6 @@ Si desea utilizar un servicio de terceros para enviar boletines informativos, pu
 
 1. Busque el suscriptor en la cuadrícula y seleccione la casilla de verificación en la primera columna.
 
-1. Establezca el control _[!UICONTROL Action]_en **[!UICONTROL Delete]**y haga clic en **[!UICONTROL Submit]**.
+1. Establezca el control _[!UICONTROL Action]_&#x200B;en **[!UICONTROL Delete]**&#x200B;y haga clic en **[!UICONTROL Submit]**.
 
 1. Cuando se le pida que confirme, haga clic en **[!UICONTROL OK]**.

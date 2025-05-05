@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Configuración del producto - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 
-Utilice la sección _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_para configurar bloques promocionales simples que presenten una selección de productos adicionales que puedan ser de interés para el cliente. Para obtener más información, vea [Relaciones de producto](../merchandising-promotions/product-relationships.md).
+Utilice la sección _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_&#x200B;para configurar bloques promocionales simples que presenten una selección de productos adicionales que puedan ser de interés para el cliente. Para obtener más información, vea [Relaciones de producto](../merchandising-promotions/product-relationships.md).
 
 ![Productos relacionados, ventas adicionales y ventas cruzadas](./assets/product-related-up-sell-cross-sell.png){width="600" zoomable="yes"}
 
@@ -91,7 +91,7 @@ Los artículos de venta cruzada son similares a las compras por impulso colocada
 
 >[!NOTE]
 >
->Para mostrar u ocultar artículos de venta cruzada por vista de tienda, consulta la opción [Pago y envío > Carro de compras](../configuration-reference/sales/checkout.md) llamada _[!UICONTROL Show Cross-sell Items]_en el Carro de compras. Es posible que desee ocultar las ventas cruzadas durante ventas específicas o para pruebas A/B en una vista de tienda.
+>Para mostrar u ocultar artículos de venta cruzada por vista de tienda, consulta la opción [Pago y envío > Carro de compras](../configuration-reference/sales/checkout.md) llamada _[!UICONTROL Show Cross-sell Items]_&#x200B;en el Carro de compras. Es posible que desee ocultar las ventas cruzadas durante ventas específicas o para pruebas A/B en una vista de tienda.
 
 ![Ventas cruzadas en el carro de compras](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
 

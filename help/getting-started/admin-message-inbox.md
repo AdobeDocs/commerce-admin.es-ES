@@ -15,7 +15,7 @@ Su tienda recibe mensajes del Adobe con regularidad. Los mensajes se clasifican 
 
 ![Administrador - mensajes entrantes](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
 
-La página _[!UICONTROL Notifications]_enumera todos los mensajes clasificados por fecha. Los comandos_[!UICONTROL Action]_ se pueden usar para marcar mensajes individuales como leídos, ver información más detallada o quitar el mensaje de la bandeja de entrada.
+La página _[!UICONTROL Notifications]_&#x200B;enumera todos los mensajes clasificados por fecha. Los comandos&#x200B;_[!UICONTROL Action]_ se pueden usar para marcar mensajes individuales como leídos, ver información más detallada o quitar el mensaje de la bandeja de entrada.
 
 La configuración determina la frecuencia con la que se actualiza la bandeja de entrada y cómo se envían los mensajes. Si el administrador de la tienda tiene una URL segura, las notificaciones deben enviarse a través de HTTPS.
 

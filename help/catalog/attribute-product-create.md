@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Crear y eliminar atributos de producto
 
-Puede crear atributos mientras trabaja en un producto o desde la página _[!UICONTROL Product Attributes]_. Los pasos siguientes muestran cómo crear atributos a partir del menú_[!UICONTROL Stores]_.
+Puede crear atributos mientras trabaja en un producto o desde la página _[!UICONTROL Product Attributes]_. Los pasos siguientes muestran cómo crear atributos a partir del menú&#x200B;_[!UICONTROL Stores]_.
 
 ## Paso 1: Describir las propiedades básicas de los atributos
 
@@ -31,7 +31,7 @@ Puede crear atributos mientras trabaja en un producto o desde la página _[!UICO
    | `Text Field` | Campo de entrada de una sola línea para texto. |
    | `Text Area` | Campo de entrada de varias líneas para introducir párrafos de texto, como una descripción del producto. Puede utilizar el Editor de WYSIWYG para dar formato al texto con etiquetas de HTML o introducir las etiquetas directamente en el texto. |
    | `Text Editor` | Un editor de texto que funcione completamente en la ubicación del atributo. |
-   | Fecha | Muestra un valor de fecha en el [formato preferido](attributes-input-types.md#date-and-time-options) y en la [zona horaria](../getting-started/store-details.md#locale-options). Los valores de fecha se pueden seleccionar de una lista o un calendario ( ![Icono de calendario](../assets/icon-calendar.png)). <br/><br/>**_Nota:_**Según la configuración del sistema, los usuarios de_Admin _pueden introducir fechas directamente en un campo o seleccionar una fecha del calendario o lista. Para obtener información acerca de cómo especificar valores de fecha y hora, vea [Opciones de fecha y hora](attributes-input-types.md#date-and-time-options). |
+   | Fecha | Muestra un valor de fecha en el [formato preferido](attributes-input-types.md#date-and-time-options) y en la [zona horaria](../getting-started/store-details.md#locale-options). Los valores de fecha se pueden seleccionar de una lista o un calendario ( ![Icono de calendario](../assets/icon-calendar.png)). <br/><br/>**_Nota:_**&#x200B;Según la configuración del sistema, los usuarios de_Admin _pueden introducir fechas directamente en un campo o seleccionar una fecha del calendario o lista. Para obtener información acerca de cómo especificar valores de fecha y hora, vea [Opciones de fecha y hora](attributes-input-types.md#date-and-time-options). |
    | `Yes/No` | Muestra una lista desplegable con opciones predefinidas de `Yes` y `No`. |
    | `Dropdown` | Muestra una lista desplegable de valores que solo acepta una selección. El tipo de entrada desplegable es un componente clave de [productos configurables](product-create-configurable.md). |
    | `Multiple Select` | Muestra una lista desplegable de valores que acepta varias selecciones. |

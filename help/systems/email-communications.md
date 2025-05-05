@@ -16,7 +16,7 @@ La _configuración de envío de correo_ le permite enrutar el correo electrónic
 
 >[!IMPORTANT]
 >
->**Aviso de seguridad** Todos los comerciantes deben establecer inmediatamente su configuración de envío de correo para protegerse contra un posible ataque de ejecución de código remoto identificado recientemente. Hasta que se resuelva este problema, es muy recomendable que evite usar [!DNL Sendmail] para comunicaciones por correo electrónico. En _[!UICONTROL Mail Sending Settings]_, asegúrese de que_[!UICONTROL Set Return Path]_ está establecido en `No`.
+>**Aviso de seguridad** Todos los comerciantes deben establecer inmediatamente su configuración de envío de correo para protegerse contra un posible ataque de ejecución de código remoto identificado recientemente. Hasta que se resuelva este problema, es muy recomendable que evite usar [!DNL Sendmail] para comunicaciones por correo electrónico. En _[!UICONTROL Mail Sending Settings]_, asegúrese de que&#x200B;_[!UICONTROL Set Return Path]_ está establecido en `No`.
 
 Para obtener una lista detallada de las opciones de configuración, consulte [_[!UICONTROL Mail Sending Settings]_](../configuration-reference/advanced/system.md) en la _Referencia de configuración_.
 

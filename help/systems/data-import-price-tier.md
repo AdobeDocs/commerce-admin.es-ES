@@ -24,7 +24,7 @@ El siguiente ejemplo exporta datos de precios de nivel para un solo producto. A 
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
 
-1. En _[!UICONTROL Export Settings]_, establezca **[!UICONTROL Entity Type]**en `Advanced Pricing`.
+1. En _[!UICONTROL Export Settings]_, establezca **[!UICONTROL Entity Type]**&#x200B;en `Advanced Pricing`.
 
 1. En la cuadrícula **[!UICONTROL Entity Attributes]**, desplácese hacia abajo hasta los atributos de SKU y haga lo siguiente:
 

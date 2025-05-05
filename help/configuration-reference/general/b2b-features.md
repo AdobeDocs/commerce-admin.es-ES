@@ -39,7 +39,7 @@ Cuando la función Compañía está activada, hay campos adicionales disponibles
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Shared Catalog]](../../b2b/catalog-shared.md) | Sitio web | Cuando se habilita, permite crear catálogos depurados con precios personalizados disponibles globalmente o limitados a empresas específicas. Opciones: `Yes` / `No` |
-| [!UICONTROL Enable Shared Catalog direct products price assigning] | Sitio web | Cuando el campo _[!UICONTROL Enable Shared Catalog]_está establecido en `Yes`, esta opción está disponible. Cuando está activada, solo los productos asignados a un catálogo compartido se almacenan en el índice de precios. Los productos que no están asignados al catálogo compartido no se muestran en la tienda. Opciones: `Yes` / `No` |
+| [!UICONTROL Enable Shared Catalog direct products price assigning] | Sitio web | Cuando el campo _[!UICONTROL Enable Shared Catalog]_&#x200B;está establecido en `Yes`, esta opción está disponible. Cuando está activada, solo los productos asignados a un catálogo compartido se almacenan en el índice de precios. Los productos que no están asignados al catálogo compartido no se muestran en la tienda. Opciones: `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | Sitio web | Cuando está activada, permite a los compradores de la empresa enviar una solicitud de presupuesto desde el carro de compras. Opciones: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -62,7 +62,7 @@ Cuando la función Compañía está activada, hay campos adicionales disponibles
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |------- |----------------------------------------------------------------------- |------------ |
 | [!UICONTROL Applicable Shipping Methods] | Global | Determina la selección de los métodos de envío que están disponibles de forma predeterminada para los compradores B2B. Opciones: `All Shipping Methods` / `Specific Shipping Methods` |
-| [!UICONTROL Shipping Methods] | Global | Especifica todos los métodos de envío que están disponibles de forma predeterminada para los compradores B2B. <br/>**_Nota:_**También puedes limitar los métodos de envío para una [cuenta de compañía](../../b2b/account-companies.md) específica. |
+| [!UICONTROL Shipping Methods] | Global | Especifica todos los métodos de envío que están disponibles de forma predeterminada para los compradores B2B. <br/>**_Nota:_**&#x200B;También puedes limitar los métodos de envío para una [cuenta de compañía](../../b2b/account-companies.md) específica. |
 
 {style="table-layout:auto"}
 

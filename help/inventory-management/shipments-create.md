@@ -54,9 +54,9 @@ A medida que introduce envíos, las cantidades de inventario disponible deducir�
 
      ![Seleccione un Source e introduzca una cantidad](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
-1. Revise la página _[!UICONTROL New Shipment]_e introduzca los cambios adicionales que sean necesarios.
+1. Revise la página _[!UICONTROL New Shipment]_&#x200B;e introduzca los cambios adicionales que sean necesarios.
 
-   La sección _[!UICONTROL Inventory]_muestra el origen, el envío de productos, la cantidad total solicitada y la cantidad a enviar.
+   La sección _[!UICONTROL Inventory]_&#x200B;muestra el origen, el envío de productos, la cantidad total solicitada y la cantidad a enviar.
 
    ![Detalles de inventario para el envío, por ejemplo, envío parcial](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Cuando está activada, los clientes pueden enviar las solicitudes de RMA desde la tienda. Sólo se puede generar una autorización de devolución de material si hay un artículo en el pedido disponible para su devolución. Las solicitudes para devolver elementos individuales se administran mediante el atributo _Habilitar RMA_ en cada registro de producto. De manera predeterminada, los valores de configuración se aplican al producto (_[!UICONTROL Use Config Settings]_está seleccionado). Si_[!UICONTROL Enable RMA]_ está establecido en `No`, el producto no aparece en la lista de elementos que se pueden devolver. Si cambia la configuración de _Habilitar RMA_, se aplica tanto a los pedidos nuevos como a los existentes.
+Cuando está activada, los clientes pueden enviar las solicitudes de RMA desde la tienda. Sólo se puede generar una autorización de devolución de material si hay un artículo en el pedido disponible para su devolución. Las solicitudes para devolver elementos individuales se administran mediante el atributo _Habilitar RMA_ en cada registro de producto. De manera predeterminada, los valores de configuración se aplican al producto (_[!UICONTROL Use Config Settings]_&#x200B;está seleccionado). Si&#x200B;_[!UICONTROL Enable RMA]_ está establecido en `No`, el producto no aparece en la lista de elementos que se pueden devolver. Si cambia la configuración de _Habilitar RMA_, se aplica tanto a los pedidos nuevos como a los existentes.
 
 ## Habilitar RMA para su tienda
 
@@ -34,7 +34,7 @@ Cuando está activada, los clientes pueden enviar las solicitudes de RMA desde l
 
    Esta configuración determina el comportamiento del atributo _Habilitar RMA_ para productos individuales de la tienda:
 
-   - Cuando [!UICONTROL Enable RMA on Product Level] se establece en `Yes`, los clientes de la tienda pueden devolver todos los productos individuales. Incluye valores de atributo de producto _[!UICONTROL Enable RMA]_= `Yes` y_[!UICONTROL Enable RMA]_ = `No`.
+   - Cuando [!UICONTROL Enable RMA on Product Level] se establece en `Yes`, los clientes de la tienda pueden devolver todos los productos individuales. Incluye valores de atributo de producto _[!UICONTROL Enable RMA]_= `Yes` y&#x200B;_[!UICONTROL Enable RMA]_ = `No`.
    - Cuando [!UICONTROL Enable RMA on Product Level] se establece en `No`, los clientes de la tienda solo pueden devolver los productos con un valor de atributo de producto _[!UICONTROL Enable RMA]_= `Yes`.
 
 1. Establezca **[!UICONTROL Use Store Address]** en uno de los siguientes valores:

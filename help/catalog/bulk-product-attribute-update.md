@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Actualizaciones masivas de atributos de producto
 
-Use la herramienta _[!UICONTROL Update Attributes]_para cambiar uno o varios atributos de sus productos. Esta herramienta le permite aplicar cambios significativos en un grupo grande de productos.
+Use la herramienta _[!UICONTROL Update Attributes]_&#x200B;para cambiar uno o varios atributos de sus productos. Esta herramienta le permite aplicar cambios significativos en un grupo grande de productos.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 

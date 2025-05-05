@@ -125,7 +125,7 @@ El seguimiento de conversión muestra el número de clics en publicidad que cond
    - `Dynamic`: determina que se ha producido una conversión en función del valor de importe de pedido dinámico.
    - `Constant` - Determina que se ha producido una conversión basada en un valor específico ingresado.
 
-   Para un tipo de valor de conversión _Constant_, escriba un **[!UICONTROL Value]** específico para que _[!UICONTROL Order Amount]_se califique como conversión.
+   Para un tipo de valor de conversión _Constant_, escriba un **[!UICONTROL Value]** específico para que _[!UICONTROL Order Amount]_&#x200B;se califique como conversión.
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 

@@ -76,7 +76,7 @@ Siga los pasos a continuación para editar cualquiera de los objetos de esta cam
    - Para ver una lista, haga clic en **[!UICONTROL Select]** y luego en **[!UICONTROL View/Edit]** en la columna _[!UICONTROL Action]_.
    - Para una visualización de la cronología, haga clic una vez para mostrar el resumen y luego haga clic en **[!UICONTROL View/Edit]**.
 
-1. Actualice la configuración de la sección _[!UICONTROL General]_según sea necesario.
+1. Actualice la configuración de la sección _[!UICONTROL General]_&#x200B;según sea necesario.
 
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) cualquier sección que contenga un elemento que se va a editar.
 

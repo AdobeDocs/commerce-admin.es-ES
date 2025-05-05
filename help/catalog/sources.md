@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Configuración del producto - [!UICONTROL Sources]
 
-La sección _[!UICONTROL Sources]_de la configuración del producto enumera los orígenes desde los que se puede distribuir el producto. Se utiliza para asignar y cancelar la asignación de orígenes, así como para administrar la cantidad y la disponibilidad del producto. Esta sección solo se muestra si hay más de un origen definido para la tienda. Para obtener más información sobre las fuentes, consulte [Administrar fuentes](../inventory-management/sources-manage.md).
+La sección _[!UICONTROL Sources]_&#x200B;de la configuración del producto enumera los orígenes desde los que se puede distribuir el producto. Se utiliza para asignar y cancelar la asignación de orígenes, así como para administrar la cantidad y la disponibilidad del producto. Esta sección solo se muestra si hay más de un origen definido para la tienda. Para obtener más información sobre las fuentes, consulte [Administrar fuentes](../inventory-management/sources-manage.md).
 
 ## Asignar un origen para un producto
 

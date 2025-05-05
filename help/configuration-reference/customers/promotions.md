@@ -46,6 +46,6 @@ ht-degree: 0%
 | [!UICONTROL Code Format] | Global | Define el formato del código de cupón. Las opciones incluyen: <br/>**`Alphanumeric`**- Cualquier combinación de letras y números.<br/>**`Alphabetical`** - Solo cartas. <br/>**`Numeric`**- Solo números. |
 | [!UICONTROL Code Prefix] | Global | Un valor que se anexa al principio de todos los códigos de cupones. Si no desea utilizar un prefijo, deje el campo en blanco. |
 | [!UICONTROL Code Suffix] | Global | Un valor que se anexa al final de todos los códigos. Si no desea utilizar un sufijo, deje el campo en blanco. |
-| [!UICONTROL Dash Every X Characters] | Global | Intervalo para insertar un guión (-) en todos los códigos de cupones. Si no desea utilizar un guión, deje el campo en blanco. <br/>_**Nota:**_ Los códigos de cupón que difieren solo en un guión se consideran códigos diferentes. |
+| [!UICONTROL Dash Every X Characters] | Global | Intervalo para insertar un guión (-) en todos los códigos de cupones. Si no desea utilizar un guión, deje el campo en blanco. <br/>_&#x200B;**Nota:**&#x200B;_ Los códigos de cupón que difieren solo en un guión se consideran códigos diferentes. |
 
 {style="table-layout:auto"}

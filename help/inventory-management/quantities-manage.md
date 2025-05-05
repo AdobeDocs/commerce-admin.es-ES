@@ -24,7 +24,7 @@ Los comerciantes de uno o varios orígenes pueden actualizar los orígenes, las 
 
 - Los comerciantes de varios orígenes pueden asignar varios orígenes y cantidades por producto para cada ubicación (almacenes, tiendas, distribuidores directos entre otros). Se recomienda agregar orígenes antes de establecer importes de inventario de productos.
 
-Al añadir orígenes y cantidades a los productos, puede ver las cantidades a través de la cuadrícula de productos. Si tiene un número elevado de orígenes, pase el ratón sobre _[!UICONTROL Quantity per Source]_para ver la lista completa y desplazable de orígenes con cantidades actuales.
+Al añadir orígenes y cantidades a los productos, puede ver las cantidades a través de la cuadrícula de productos. Si tiene un número elevado de orígenes, pase el ratón sobre _[!UICONTROL Quantity per Source]_&#x200B;para ver la lista completa y desplazable de orígenes con cantidades actuales.
 
 ![Cantidades de productos por origen](assets/inventory-product-quantity.png){width="600" zoomable="yes"}
 

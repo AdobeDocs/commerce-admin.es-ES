@@ -96,7 +96,7 @@ Puede haber atributos individuales adicionales que describan el producto. La sel
 
 ### Paso 5: Completar la información de la tarjeta regalo
 
-La sección _[!UICONTROL Gift Card Information]_de la configuración del producto se puede usar para anular la configuración de la tarjeta regalo [que determina cómo se administra la tarjeta.](../configuration-reference/sales/gift-cards.md)
+La sección _[!UICONTROL Gift Card Information]_&#x200B;de la configuración del producto se puede usar para anular la configuración de la tarjeta regalo [que determina cómo se administra la tarjeta.](../configuration-reference/sales/gift-cards.md)
 
 1. Vaya a la sección _[!UICONTROL Gift Card Information]_.
 

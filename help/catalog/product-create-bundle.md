@@ -115,7 +115,7 @@ El formulario se actualiza para reflejar el cambio.
 
 1. Acepte la configuración predeterminada **[!UICONTROL Visibility]** de `Catalog, Search`.
 
-1. Para asignar _[!UICONTROL Categories]_al producto, haga clic en el cuadro **[!UICONTROL Select…]**y realice una de las acciones siguientes:
+1. Para asignar _[!UICONTROL Categories]_&#x200B;al producto, haga clic en el cuadro **[!UICONTROL Select…]**&#x200B;y realice una de las acciones siguientes:
 
    **Elija una categoría existente:**
 
@@ -139,7 +139,7 @@ El formulario se actualiza para reflejar el cambio.
 
 ## Paso 5: Añadir los elementos del paquete
 
-La sección _[!UICONTROL Bundle Items]_se usa para agregar elementos a un tipo de producto Paquete y editar la selección actual de elementos.
+La sección _[!UICONTROL Bundle Items]_&#x200B;se usa para agregar elementos a un tipo de producto Paquete y editar la selección actual de elementos.
 
 ![Elementos de paquete definidos para un producto](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
 
@@ -180,7 +180,7 @@ La sección _[!UICONTROL Bundle Items]_se usa para agregar elementos a un tipo d
 
      >[!NOTE]
      >
-     >La cantidad puede ser un valor preestablecido o definido por el usuario. Sin embargo, no asigne la propiedad _[!UICONTROL User Defined]_a tipos de entrada de selección múltiple o casilla de verificación.
+     >La cantidad puede ser un valor preestablecido o definido por el usuario. Sin embargo, no asigne la propiedad _[!UICONTROL User Defined]_&#x200B;a tipos de entrada de selección múltiple o casilla de verificación.
 
      De forma predeterminada, el cliente no puede cambiar la cantidad predeterminada que se incluye en un artículo agrupado. Sin embargo, el cliente puede introducir la cantidad del artículo que se va a incluir en el paquete.
 
@@ -283,7 +283,7 @@ El estado de las existencias del paquete de productos es **_no se cambió autom�
 
 El SKU y el peso de la ![casilla de verificación](../assets/checkbox.png) pueden ser `Fixed` o `Dynamic`.
 
-![Casilla de verificación](../assets/checkbox.png) La cantidad puede ser un valor preestablecido o definido por el usuario. Sin embargo, no asigne la propiedad _[!UICONTROL User Defined]_a tipos de entrada de selección múltiple o casilla de verificación.
+![Casilla de verificación](../assets/checkbox.png) La cantidad puede ser un valor preestablecido o definido por el usuario. Sin embargo, no asigne la propiedad _[!UICONTROL User Defined]_&#x200B;a tipos de entrada de selección múltiple o casilla de verificación.
 
 ![Casilla de verificación](../assets/checkbox.png) Los artículos del paquete se pueden enviar juntos o por separado.
 

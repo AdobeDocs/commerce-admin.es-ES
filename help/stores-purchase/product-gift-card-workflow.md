@@ -66,7 +66,7 @@ Cómo funcionan las tarjetas de regalo en la tienda:
 
 - Las cuentas para códigos de regalo se crean para realizar un seguimiento del saldo de un cupón específico. Un administrador de tienda puede ajustar manualmente el saldo.
 
-El cliente receptor puede usar la sección _[!UICONTROL Gift Card]_de su panel de cuentas para comprobar el saldo de su [cuenta de tarjeta regalo](product-gift-card-accounts.md) y canjear tarjetas regalo por [crédito de tienda](../customers/store-credit-using.md).
+El cliente receptor puede usar la sección _[!UICONTROL Gift Card]_&#x200B;de su panel de cuentas para comprobar el saldo de su [cuenta de tarjeta regalo](product-gift-card-accounts.md) y canjear tarjetas regalo por [crédito de tienda](../customers/store-credit-using.md).
 
 ![Tarjeta de regalo](./assets/account-dashboard-gift-card.png){width="700" zoomable="yes"}
 

@@ -55,8 +55,8 @@ Al convertir una moneda en puntos, el número de puntos no se puede dividir. Cua
 
    | Dirección | Configuración de velocidad |
    |---------|-------------|
-   | [!UICONTROL Points to Currency] | En el primer campo _[!UICONTROL Rate]_, escriba el número de puntos. En el segundo campo_[!UICONTROL Rate]_, introduzca el valor monetario de los puntos. |
-   | [!UICONTROL Currency to Points] | En el primer campo _[!UICONTROL Rate]_, introduzca el valor monetario. En el segundo campo_[!UICONTROL Rate]_, escriba el número de puntos que representa el valor monetario. |
+   | [!UICONTROL Points to Currency] | En el primer campo _[!UICONTROL Rate]_, escriba el número de puntos. En el segundo campo&#x200B;_[!UICONTROL Rate]_, introduzca el valor monetario de los puntos. |
+   | [!UICONTROL Currency to Points] | En el primer campo _[!UICONTROL Rate]_, introduzca el valor monetario. En el segundo campo&#x200B;_[!UICONTROL Rate]_, escriba el número de puntos que representa el valor monetario. |
 
    Al convertir puntos en moneda, el número de puntos no se puede dividir. Por ejemplo, si diez puntos se convierten en 2,00 $, los puntos deben canjearse en grupos de diez. Por lo tanto, 25 puntos se canjearían por $4.00, con 5 puntos restantes en el saldo del cliente.
 
@@ -80,4 +80,4 @@ Al convertir una moneda en puntos, el número de puntos no se puede dividir. Cua
 |--- |--- |
 | [!UICONTROL Website] | Los sitios web donde se aplican las tasas de recompensa. |
 | [!UICONTROL Customer Group] | Los grupos de clientes a los que se aplican las tarifas de recompensa. |
-| [!UICONTROL Direction] | Determina qué tipo de transacción define el tipo de cambio. Opciones: <br/>**[!UICONTROL Points to Currency]**: define el número de puntos que se pueden aplicar como crédito al importe de un pedido. En el primer campo _[!UICONTROL Rate]_, escriba el número de puntos. En el segundo campo_[!UICONTROL Rate]_, introduzca el valor monetario de los puntos.<br/>**[!UICONTROL Currency to Points]**: define la cantidad de un pedido que puede obtener puntos del cliente. En el primer campo _[!UICONTROL Rate]_, introduzca el valor monetario. En el segundo campo_[!UICONTROL Rate]_, escriba el número de puntos que representa el valor monetario. |
+| [!UICONTROL Direction] | Determina qué tipo de transacción define el tipo de cambio. Opciones: <br/>**[!UICONTROL Points to Currency]**: define el número de puntos que se pueden aplicar como crédito al importe de un pedido. En el primer campo _[!UICONTROL Rate]_, escriba el número de puntos. En el segundo campo&#x200B;_[!UICONTROL Rate]_, introduzca el valor monetario de los puntos.<br/>**[!UICONTROL Currency to Points]**: define la cantidad de un pedido que puede obtener puntos del cliente. En el primer campo _[!UICONTROL Rate]_, introduzca el valor monetario. En el segundo campo&#x200B;_[!UICONTROL Rate]_, escriba el número de puntos que representa el valor monetario. |

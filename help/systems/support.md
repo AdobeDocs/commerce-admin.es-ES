@@ -55,7 +55,7 @@ Una vez generada la copia de seguridad, puede descargar la copia de los datos de
 
 1. Asegúrese de que tenga un estado `Complete`.
 
-1. Haga clic en el nombre de la entidad en _[!UICONTROL Code Dump]_o_[!UICONTROL DB Dump]_ columnas.
+1. Haga clic en el nombre de la entidad en _[!UICONTROL Code Dump]_&#x200B;o_[!UICONTROL DB Dump]_ columnas.
 
 El proceso de descarga debería iniciarse automáticamente.
 
@@ -133,7 +133,7 @@ En la columna **[!UICONTROL Action]** de la cuadrícula, seleccione una de las s
 | [!UICONTROL Configuration] | Configuración<br>Datos de `app/etc/env.php`<br>Métodos de envío<br>Métodos de pago<br>Matriz de funcionalidad de pagos |
 | [!UICONTROL Logs] | Archivos de registro<br>Mensajes principales del sistema<br>Mensajes principales del sistema de hoy<br>Mensajes principales de depuración<br>Mensajes principales de depuración de hoy<br>Mensajes principales de excepción de hoy<br>Mensajes principales de excepción de hoy |
 | [!UICONTROL Attributes] | Atributos EAV definidos por el usuario<br>Nuevos atributos EAV<br>Tipos de entidad<br>Todos los atributos EAV<br>Atributos EAV de la categoría<br>Atributos EAV del producto<br>Atributos EAV del cliente<br>Atributo EAV de la dirección del cliente<br>Atributos EAV del elemento RMA |
-| [!UICONTROL Events] | SOAP SOAP SOAP Eventos globales personalizados<br>Eventos de administración personalizados<br>Eventos de front-end personalizados<br>Eventos de doc personalizados<br>Eventos de crontab personalizados<br>Eventos de REST personalizados<br>Eventos de administración personalizados<br>Eventos globales de núcleo<br>Eventos de administración de núcleo<br>Eventos de front-end de núcleo<br>Eventos de doc de núcleo<br>Eventos de crontab de núcleo<br>Eventos de rest de núcleo<br>Eventos de núcleo<br>Todos los eventos globales<br>Todos los eventos de administración<br>Todos los eventos de front<br>Todos los eventos de REST 8}Todos los eventos de la<br>Todos los eventos de Crontab<br><br> |
+| [!UICONTROL Events] | SOAP SOAP SOAP Eventos globales personalizados<br>Eventos de administración personalizados<br>Eventos de front-end personalizados<br>Eventos de doc personalizados<br>Eventos de crontab personalizados<br>Eventos de REST personalizados<br>Eventos de administración personalizados<br>Eventos globales de núcleo<br>Eventos de administración de núcleo<br>Eventos de front-end de núcleo<br>Eventos de doc de núcleo<br>Eventos de crontab de núcleo<br>Eventos de rest de núcleo<br>Eventos de núcleo<br>Todos los eventos globales<br>Todos los eventos de administración<br>Todos los eventos de front<br>Todos los eventos de REST 8&rbrace;Todos los eventos de la<br>Todos los eventos de Crontab<br><br> |
 | [!UICONTROL Cron] | Programaciones de Cron por código de estado<br>Programaciones de Cron por código de trabajo<br>Errores en la cola de programaciones de Cron<br>Lista de programaciones de Cron<br>Trabajos de Cron globales personalizados<br>Trabajos de Cron configurables personalizados<br>Trabajos de Cron globales principales<br>Trabajos de Cron configurables principales<br>Todos los trabajos de Cron globales<br>Todos los trabajos de Cron configurables |
 | [!UICONTROL Design] | Lista de temas de Adminhtml<br>Lista de temas de FrontEnd |
 | [!UICONTROL Stores] | Árbol de sitios web<br>Lista de sitios web<br>Lista de tiendas<br>Lista de vistas de tiendas |

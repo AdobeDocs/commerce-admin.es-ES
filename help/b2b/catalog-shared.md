@@ -20,13 +20,13 @@ Para el catálogo compartido público `Default (General)`, debe asignar producto
 
 >[!NOTE]
 >
->**[Versión B2B 1.3.0](release-notes.md#b2b-v130) y posterior**: al crear un catálogo compartido, cada [permiso de categoría](../catalog/category-permissions.md) para el catálogo se establece en _[!UICONTROL Allow for the Display Product Prices]_y_[!UICONTROL Add to Cart]_ para los grupos de clientes a los que se asigna este acceso en la configuración de permisos del catálogo. Anteriormente, esta configuración se establecía automáticamente en `Deny` incluso cuando los permisos de catálogo se establecían en `Allow`.
+>**[Versión B2B 1.3.0](release-notes.md#b2b-v130) y posterior**: al crear un catálogo compartido, cada [permiso de categoría](../catalog/category-permissions.md) para el catálogo se establece en _[!UICONTROL Allow for the Display Product Prices]_&#x200B;y_[!UICONTROL Add to Cart]_ para los grupos de clientes a los que se asigna este acceso en la configuración de permisos del catálogo. Anteriormente, esta configuración se establecía automáticamente en `Deny` incluso cuando los permisos de catálogo se establecían en `Allow`.
 
 >[!IMPORTANT]
 >
->**_todas_** las categorías del catálogo omiten la configuración de permisos de grupo](../configuration-reference/catalog/catalog.md#category-permissions) de [existente cuando la característica **_[!UICONTROL Shared Catalog]_** está habilitada. [!UICONTROL Shared Catalog] controla completamente todos los permisos de categoría en el catálogo cuando está habilitado.
+>**_todas_** las categorías del catálogo omiten la configuración de permisos de grupo[&#128279;](../configuration-reference/catalog/catalog.md#category-permissions) de existente cuando la característica **_[!UICONTROL Shared Catalog]_** está habilitada. [!UICONTROL Shared Catalog] controla completamente todos los permisos de categoría en el catálogo cuando está habilitado.
 
-La página _[!UICONTROL Shared Catalogs]_proporciona acceso a las herramientas utilizadas para administrar los catálogos compartidos. La página es similar al [espacio de trabajo de administración](../getting-started/admin-workspace.md) estándar, con filtros y controles de acción. La cuadrícula enumera todos los catálogos compartidos, incluido el catálogo compartido público predeterminado y los catálogos personalizados que haya configurado.
+La página _[!UICONTROL Shared Catalogs]_&#x200B;proporciona acceso a las herramientas utilizadas para administrar los catálogos compartidos. La página es similar al [espacio de trabajo de administración](../getting-started/admin-workspace.md) estándar, con filtros y controles de acción. La cuadrícula enumera todos los catálogos compartidos, incluido el catálogo compartido público predeterminado y los catálogos personalizados que haya configurado.
 
 ![Catálogos compartidos](./assets/shared-catalogs-grid.png){width="700" zoomable="yes"}
 
@@ -36,7 +36,7 @@ En la barra lateral _Admin_, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Sha
 
 ## Controles de acciones
 
-Los [controles de acciones](../getting-started/admin-actions-control.md) de la esquina superior izquierda se pueden usar con el control de acciones masivas para eliminar los catálogos compartidos seleccionados que ya no son necesarios. En la cuadrícula, la columna _[!UICONTROL Actions]_contiene la selección completa de herramientas para administrar los catálogos compartidos.
+Los [controles de acciones](../getting-started/admin-actions-control.md) de la esquina superior izquierda se pueden usar con el control de acciones masivas para eliminar los catálogos compartidos seleccionados que ya no son necesarios. En la cuadrícula, la columna _[!UICONTROL Actions]_&#x200B;contiene la selección completa de herramientas para administrar los catálogos compartidos.
 
 ![Acciones de catálogo compartido](./assets/shared-catalog-grid-action-column-controls.png){width="350"}
 

@@ -15,7 +15,7 @@ Al trabajar con una colección de registros en la cuadrícula, puede utilizar el
 
 Puede realizar tantos cambios como sea necesario y, a continuación, actualizar los registros en un solo paso. Es mucho más eficiente que cambiar la configuración individualmente para cada producto. La aplicación de ediciones a un lote de registros es una operación asincrónica, que se ejecuta en segundo plano para que pueda seguir trabajando en el administrador sin esperar a que finalice la operación. El sistema muestra un mensaje cuando se completa la tarea.
 
-La selección de las acciones disponibles varía según la lista y podrían aparecer opciones adicionales, según la acción seleccionada. Por ejemplo, al cambiar el estado de un grupo de registros, aparece un cuadro _[!UICONTROL Status]_junto al control Actions con opciones adicionales.
+La selección de las acciones disponibles varía según la lista y podrían aparecer opciones adicionales, según la acción seleccionada. Por ejemplo, al cambiar el estado de un grupo de registros, aparece un cuadro _[!UICONTROL Status]_&#x200B;junto al control Actions con opciones adicionales.
 
 ## Paso 1: Selección de registros
 

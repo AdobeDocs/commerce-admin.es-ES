@@ -36,7 +36,7 @@ Se requiere un método de pago que admita un almacén seguro, como [Braintree](b
 
 1. Clics **[!UICONTROL Place Order]**.
 
-El método de pago guardado se muestra en la pestaña _[!UICONTROL Stored Payment Methods]_del panel del cliente.
+El método de pago guardado se muestra en la pestaña _[!UICONTROL Stored Payment Methods]_&#x200B;del panel del cliente.
 
 ## Eliminar un método de pago almacenado
 

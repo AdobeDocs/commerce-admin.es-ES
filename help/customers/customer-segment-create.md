@@ -18,13 +18,13 @@ Crear un segmento de cliente es similar a crear una [regla de precio del carro d
 
 ![Lista de segmentos de clientes](assets/customer-segments.png){width="700" zoomable="yes"}
 
-_**[!UICONTROL Customer Segments]cuadrícula **_
+_&#x200B;**[!UICONTROL Customer Segments]cuadrícula &#x200B;** _
 
 | Columna | Descripción |
 |--- |--- |
 | **[!UICONTROL ID]** | El ID único del segmento de cliente. |
 | **[!UICONTROL Segment]** | El nombre del segmento de cliente. |
-| **[!UICONTROL Status]** | Indica si el segmento de clientes es _[!UICONTROL Active]_o_[!UICONTROL Inactive]_. |
+| **[!UICONTROL Status]** | Indica si el segmento de clientes es _[!UICONTROL Active]_&#x200B;o_[!UICONTROL Inactive]_. |
 | **[!UICONTROL Website]** | Indica el sitio web al que pertenece el segmento de clientes. |
 
 {style="table-layout:auto"}
@@ -107,7 +107,7 @@ Los siguientes pasos utilizan un ejemplo para crear un segmento de cliente dirig
 
 1. En el panel izquierdo, haga clic en **[!UICONTROL Conditions]**.
 
-   La condición predeterminada comienza con _[!UICONTROL If ALL of these conditions are TRUE:]_en la página.
+   La condición predeterminada comienza con _[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;en la página.
 
    ![Condiciones](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
@@ -153,7 +153,7 @@ Los siguientes pasos utilizan un ejemplo para crear un segmento de cliente dirig
 
 1. El segmento de clientes ahora se puede utilizar para dirigir promociones, contenido y envíos de correo.
 
-_**[!UICONTROL Matched Customers]cuadrícula **_
+_&#x200B;**[!UICONTROL Matched Customers]cuadrícula &#x200B;** _
 
 | Columna | Descripción |
 |--- |--- |
@@ -183,7 +183,7 @@ _**[!UICONTROL Matched Customers]cuadrícula **_
 
 | Botón | Descripción |
 |--- |--- |
-| **[!UICONTROL Back]** | Vuelve a la página _[!UICONTROL Customer Segments]_sin guardar los cambios. |
+| **[!UICONTROL Back]** | Vuelve a la página _[!UICONTROL Customer Segments]_&#x200B;sin guardar los cambios. |
 | **[!UICONTROL Delete]** | Elimina el segmento de cliente actual. Los clientes o los pedidos completados asociados con el cliente en el segmento no se eliminan. |
 | **[!UICONTROL Reset]** | Restablece los cambios no guardados en el formulario de segmentos del cliente a sus valores anteriores. |
 | **[!UICONTROL Refresh Segment Data]** | Actualiza los datos del segmento a los valores guardados más recientemente. Relevante si algún dato de segmento no está disponible o no está actualizado. |

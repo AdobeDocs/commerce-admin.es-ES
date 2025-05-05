@@ -126,4 +126,4 @@ Pegue la etiqueta de anclaje completada en el código de cualquier página, bloq
 
 ### Vínculo completo con marcado
 
-\&lt;a href=&quot;\{\{store url=&#39;vestir/zapatos&#39;}&quot;>Venta de zapatos\&lt;/a>
+\&lt;a href=&quot;\&lbrace;\{store url=&#39;vestir/zapatos&#39;}&quot;>Venta de zapatos\&lt;/a>

@@ -124,7 +124,7 @@ Puede actualizar rápidamente las reescrituras de URL para varios o todos los pr
 
 1. Seleccione todos los productos para los que desea actualizar las reescrituras de URL.
 
-1. En _[!UICONTROL Actions]_, elija **[!UICONTROL Update attributes]**para actualizar varias o todas las reescrituras.
+1. En _[!UICONTROL Actions]_, elija **[!UICONTROL Update attributes]**&#x200B;para actualizar varias o todas las reescrituras.
 
 1. En _[!UICONTROL PRODUCTS INFORMATION]_, haga clic en la ficha **[!UICONTROL Websites]**.
 

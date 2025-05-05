@@ -26,7 +26,7 @@ Los administradores de tienda pueden ver el saldo y el historial de crédito des
 
 1. En la columna _Acción_, haga clic en **[!UICONTROL Edit]**.
 
-1. Desplácese _[!UICONTROL Customer View]_página y vea **[!UICONTROL Store Credit Balance]**en la parte inferior.
+1. Desplácese _[!UICONTROL Customer View]_&#x200B;página y vea **[!UICONTROL Store Credit Balance]**&#x200B;en la parte inferior.
 
 ![Saldo de crédito de tienda](assets/store-credit-balance.png){width="600" zoomable="yes"}
 

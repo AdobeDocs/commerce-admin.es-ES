@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Configuración del producto - [!UICONTROL Configurations]
 
-La sección _[!UICONTROL Configurations]_enumera cualquier variación existente del producto y se puede utilizar para generar variaciones que se utilizarán con el tipo de producto Configurable. Para obtener más información, consulte [Producto configurable](product-create-configurable.md).
+La sección _[!UICONTROL Configurations]_&#x200B;enumera cualquier variación existente del producto y se puede utilizar para generar variaciones que se utilizarán con el tipo de producto Configurable. Para obtener más información, consulte [Producto configurable](product-create-configurable.md).
 
 ![Sección de configuraciones](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 

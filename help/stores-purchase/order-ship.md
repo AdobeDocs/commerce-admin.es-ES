@@ -26,7 +26,7 @@ Un pedido que se ha pagado pero que está a la espera de envío tiene el estado 
 
 1. Para que el transportista genere una etiqueta de envío, marque la casilla **[!UICONTROL Create Shipping Label]** y defina las opciones:
 
-   - Para agregar un número de seguimiento, desplácese hacia abajo hasta la sección _[!UICONTROL Shipping Information]_y haga clic en **[!UICONTROL Add Tracking Number]**.
+   - Para agregar un número de seguimiento, desplácese hacia abajo hasta la sección _[!UICONTROL Shipping Information]_&#x200B;y haga clic en **[!UICONTROL Add Tracking Number]**.
 
    - Realice una de las siguientes acciones:
 
@@ -62,7 +62,7 @@ Un pedido que se ha pagado pero que está a la espera de envío tiene el estado 
 
 1. Busque el envío en la lista y haga clic en para abrir el registro.
 
-1. Si desea agregar un comentario al pedido, desplácese hacia abajo hasta la sección _[!UICONTROL Comments History]_e introduzca el comentario en el cuadro.
+1. Si desea agregar un comentario al pedido, desplácese hacia abajo hasta la sección _[!UICONTROL Comments History]_&#x200B;e introduzca el comentario en el cuadro.
 
    - Para enviar el comentario al cliente por correo electrónico, marque la casilla de verificación **[!UICONTROL Notify Customer by Email]**.
 
@@ -78,7 +78,7 @@ Un pedido que se ha pagado pero que está a la espera de envío tiene el estado 
 
 1. Busque el pedido de envío en la cuadrícula y haga clic en **[!UICONTROL View]**.
 
-1. Desplácese hasta la sección _[!UICONTROL Shipping & Handling Information]_y haga clic en **[!UICONTROL Track Order]**.
+1. Desplácese hasta la sección _[!UICONTROL Shipping & Handling Information]_&#x200B;y haga clic en **[!UICONTROL Track Order]**.
 
    Cualquier información de seguimiento disponible aparece en una ventana emergente.
 

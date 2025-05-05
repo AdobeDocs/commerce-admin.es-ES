@@ -37,7 +37,7 @@ La clave URL es la parte de una dirección URL estática que describe el product
 
 >[!NOTE]
 >
->De forma predeterminada, los caracteres especiales acentuados se sustituyen automáticamente por sus versiones normales no acentuadas en la clave URL. Por ejemplo, `ñ` se reemplaza automáticamente por `n`. Este comportamiento se puede deshabilitar estableciendo la opción de configuración _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_en `No`. Consulte [Configurar las direcciones URL del catálogo](#configure-catalog-urls).
+>De forma predeterminada, los caracteres especiales acentuados se sustituyen automáticamente por sus versiones normales no acentuadas en la clave URL. Por ejemplo, `ñ` se reemplaza automáticamente por `n`. Este comportamiento se puede deshabilitar estableciendo la opción de configuración _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_&#x200B;en `No`. Consulte [Configurar las direcciones URL del catálogo](#configure-catalog-urls).
 
 La clave de URL debe constar de caracteres en minúsculas con guiones no finales entre estos caracteres para separar las palabras. No se permiten guiones al principio o al final de la clave URL. Una clave de URL &quot;fácil de usar para los motores de búsqueda&quot; y bien diseñada puede incluir el nombre del producto y las palabras clave para mejorar la forma en que los motores de búsqueda lo indexan. La clave URL se puede configurar para crear un redireccionamiento automático si cambia la clave URL.
 
@@ -113,7 +113,7 @@ Para evitar que los motores de búsqueda indexen varias URL que conducen al mism
 | Campo | [Ámbito](../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | Global | Si las reescrituras del servidor web están habilitadas, al habilitar esta configuración se inserta el código de tienda de la vista actual en la dirección URL. Opciones: `Yes` / `No` |
-| [!UICONTROL Auto-redirect to Base URL] | Global | (En configuraciones de tienda única) Si hay un vínculo roto en el sitio, esto redirige el tráfico a la dirección URL base en lugar de a una página con el mensaje &quot;404 Page Not Found&quot;. Opciones: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_Importante!_**No use el redireccionamiento automático a la dirección URL base para configuraciones de varias tiendas. |
+| [!UICONTROL Auto-redirect to Base URL] | Global | (En configuraciones de tienda única) Si hay un vínculo roto en el sitio, esto redirige el tráfico a la dirección URL base en lugar de a una página con el mensaje &quot;404 Page Not Found&quot;. Opciones: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_Importante!_**&#x200B;No use el redireccionamiento automático a la dirección URL base para configuraciones de varias tiendas. |
 | [!UICONTROL Catalog media URL format] | Global | Define el formato de URL asignado a productos y categorías. Opciones: <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**- Define el nombre de archivo convertido como un valor hash único.<br />**[!UICONTROL Image optimization based on query parameters]**: define el proceso de [optimización de imágenes](../content-design/media-gallery-image-optimization.md) en función de los parámetros de consulta. |
 
 {style="table-layout:auto"}

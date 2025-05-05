@@ -18,7 +18,7 @@ El archivado regular de los pedidos mejora el rendimiento y mantiene su espacio 
 
 >[!NOTE]
 >
->La opción _[!UICONTROL Archive]_aparece en el menú [[!UICONTROL Sales]](sales-menu.md) solo cuando el archivado está [habilitado](../configuration-reference/sales/sales.md).
+>La opción _[!UICONTROL Archive]_&#x200B;aparece en el menú [[!UICONTROL Sales]](sales-menu.md) solo cuando el archivado está [habilitado](../configuration-reference/sales/sales.md).
 
 ## Configuración del archivo de pedidos
 
@@ -52,7 +52,7 @@ El almacén se puede configurar para archivar pedidos, facturas, envíos y notas
 
 ## Ver documentos archivados
 
-1. En el menú _[!UICONTROL Sales]_en_[!UICONTROL Archive]_, elija una de las siguientes opciones:
+1. En el menú _[!UICONTROL Sales]_&#x200B;en&#x200B;_[!UICONTROL Archive]_, elija una de las siguientes opciones:
 
    - **[!UICONTROL Orders]**
    - **[!UICONTROL Invoices]**
@@ -111,7 +111,7 @@ Seleccione cada documento que será el destino de la acción y elija uno de los 
 
 1. Haga clic en **[!UICONTROL Export]**.
 
-El almacén se puede configurar para archivar pedidos, facturas, envíos y notas de abono después de un número determinado de días. Puede mover las solicitudes y sus documentos asociados al archivo o restaurarlos a su estado anterior. Los pedidos archivados no se eliminan y permanecen disponibles desde el administrador. Los datos archivados se pueden exportar a un archivo CSV y abrirse en una hoja de cálculo. Cuando está habilitado, el comando _[!UICONTROL Archive]_aparece en la parte superior del área de trabajo.
+El almacén se puede configurar para archivar pedidos, facturas, envíos y notas de abono después de un número determinado de días. Puede mover las solicitudes y sus documentos asociados al archivo o restaurarlos a su estado anterior. Los pedidos archivados no se eliminan y permanecen disponibles desde el administrador. Los datos archivados se pueden exportar a un archivo CSV y abrirse en una hoja de cálculo. Cuando está habilitado, el comando _[!UICONTROL Archive]_&#x200B;aparece en la parte superior del área de trabajo.
 
 ## Archivar pedidos manualmente
 
@@ -137,7 +137,7 @@ El almacén se puede configurar para archivar pedidos, facturas, envíos y notas
 
    >[!NOTE]
    >
-   >Al igual que la página Pedidos, el título de la página de pedidos archivados es _[!UICONTROL Orders]_. La única diferencia notable es la opción de la barra de botones de_[!UICONTROL Return to Orders Management]_. La dirección URL de la página también indica que se encuentra en el archivo de pedidos.
+   >Al igual que la página Pedidos, el título de la página de pedidos archivados es _[!UICONTROL Orders]_. La única diferencia notable es la opción de la barra de botones de&#x200B;_[!UICONTROL Return to Orders Management]_. La dirección URL de la página también indica que se encuentra en el archivo de pedidos.
 
 1. En la columna _Acción_, haga clic en **[!UICONTROL View]**.
 

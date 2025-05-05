@@ -26,7 +26,7 @@ Las reglas de precios del carro de compras se pueden aplicar según lo programad
 >
 >Todas las actualizaciones programadas se aplican de forma consecutiva. Esto significa que cualquier entidad solo puede tener una actualización programada en un momento dado. Cualquier actualización programada se aplica a todas las vistas de la tienda dentro de su lapso de tiempo. Como resultado, una entidad no puede tener diferentes actualizaciones programadas para diferentes vistas de tienda al mismo tiempo. Todos los valores de atributo de entidad dentro de todas las vistas de tienda, que no se ven afectados por la actualización programada actual, se toman de los valores predeterminados y no de la actualización programada anterior.
 
-Si se ejecutan varias reglas de precios en la misma campaña, la configuración _[!UICONTROL Priority]_de la regla de precios determina qué regla tiene prioridad. Para obtener más información, consulte [Ensayo de contenido](../content-design/content-staging.md).
+Si se ejecutan varias reglas de precios en la misma campaña, la configuración _[!UICONTROL Priority]_&#x200B;de la regla de precios determina qué regla tiene prioridad. Para obtener más información, consulte [Ensayo de contenido](../content-design/content-staging.md).
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Tenga en cuenta las siguientes advertencias:
 
 - Si una campaña que incluye una regla de precio se crea inicialmente sin una fecha de finalización, la campaña no se puede editar posteriormente para incluir una fecha de finalización. Se recomienda añadir una fecha de finalización al crear la campaña o crear una versión duplicada de la campaña existente y añadir la fecha de finalización al duplicado según sea necesario.
 - Cuando utilice una actualización programada para habilitar una regla de precio del carro de compras con una fecha de finalización, asegúrese de establecer la regla como deshabilitada inicialmente. Las reglas que ya están activas no respetan la fecha de finalización.
-- Los cupones no están conectados a las reglas de precios del carro de compras. Una actualización programada no proporciona acceso a los campos _[!UICONTROL Coupon]_,_[!UICONTROL Coupon Code]_, _[!UICONTROL Uses per Coupon]_y_[!UICONTROL Uses per Customer]_ de la ficha _[!UICONTROL Rule Information]_. Además, no todas las configuraciones de la ficha_[!UICONTROL Manage Coupon Codes]_ están disponibles.
+- Los cupones no están conectados a las reglas de precios del carro de compras. Una actualización programada no proporciona acceso a los campos _[!UICONTROL Coupon]_,_[!UICONTROL Coupon Code]_, _[!UICONTROL Uses per Coupon]_&#x200B;y_[!UICONTROL Uses per Customer]_ de la ficha _[!UICONTROL Rule Information]_. Además, no todas las configuraciones de la ficha&#x200B;_[!UICONTROL Manage Coupon Codes]_ están disponibles.
 
 >[!IMPORTANT]
 >

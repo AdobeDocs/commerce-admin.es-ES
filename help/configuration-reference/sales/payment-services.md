@@ -62,8 +62,8 @@ Para acceder a los ajustes de configuración de Payment Services, en la barra la
 |---|---|---|
 | [!UICONTROL Title] | vista de tienda | Agrega el texto que se mostrará como título para esta opción de pago en la vista Método de pago durante el cierre de compra. |
 | [!UICONTROL Payment Action] | sitio web | La [acción de pago](payment-methods.md#payment-actions){target="_blank"} para el método de pago especificado. Opciones: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
-| [!UICONTROL Show PayPal buttons on checkout page] | vista de tienda | Habilitar o deshabilitar [!DNL PayPal Smart Buttons] en la página de cierre de compra. Opciones: [!UICONTROL  Yes] / [!UICONTROL No] |
-| [!UICONTROL Show PayPal buttons on product detail page] | vista de tienda | Habilite o deshabilite [!DNL PayPal Smart Buttons] en la página de detalles del producto. Opciones: [!UICONTROL  Yes] / [!UICONTROL No] |
+| [!UICONTROL Show PayPal buttons on checkout page] | vista de tienda | Habilitar o deshabilitar [!DNL PayPal Smart Buttons] en la página de cierre de compra. Opciones: [!UICONTROL &#x200B; Yes] / [!UICONTROL No] |
+| [!UICONTROL Show PayPal buttons on product detail page] | vista de tienda | Habilite o deshabilite [!DNL PayPal Smart Buttons] en la página de detalles del producto. Opciones: [!UICONTROL &#x200B; Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal buttons in mini-cart preview] | vista de tienda | Habilite o deshabilite [!DNL PayPal Smart Buttons] en la vista previa del minicarrito. Opciones: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal buttons on cart page] | vista de tienda | Habilite o deshabilite [!DNL PayPal Smart Buttons] en la página del carro de compras. Opciones: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal Pay Later button] | vista de tienda | Activar o desactivar la aparición de la opción de pago posterior en la que se muestran los botones de pago. Opciones: [!UICONTROL Yes] / [!UICONTROL No] |

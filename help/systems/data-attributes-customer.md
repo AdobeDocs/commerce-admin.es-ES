@@ -27,7 +27,7 @@ Cada atributo, o campo, se representa en el archivo CSV como una columna, y los 
 | `created_at` | La fecha de creación de la cuenta del cliente. |
 | `created_in` | La vista de la tienda en la que se creó la cuenta. |
 | `disable_auto_group_change` | Determina si los grupos de clientes se pueden asignar dinámicamente durante la validación del IVA. |
-| `dob` | La fecha de nacimiento del cliente. <br><br>**_Importante:_**De acuerdo con las prácticas recomendadas actuales de seguridad y privacidad, revise el almacenamiento y el procesamiento de la fecha de nacimiento completa de los clientes (mes, día, año). Cuando se recopila con otros identificadores personales (como_nombre completo _), puede suponer un riesgo legal y de seguridad. Se recomienda limitar el almacenamiento de las fechas de nacimiento completas de los clientes y, en su lugar, sugerir el uso del año de nacimiento del cliente como alternativa. |
+| `dob` | La fecha de nacimiento del cliente. <br><br>**_Importante:_**&#x200B;De acuerdo con las prácticas recomendadas actuales de seguridad y privacidad, revise el almacenamiento y el procesamiento de la fecha de nacimiento completa de los clientes (mes, día, año). Cuando se recopila con otros identificadores personales (como_nombre completo _), puede suponer un riesgo legal y de seguridad. Se recomienda limitar el almacenamiento de las fechas de nacimiento completas de los clientes y, en su lugar, sugerir el uso del año de nacimiento del cliente como alternativa. |
 | `firstname` | El nombre del cliente. |
 | `gender` | El sexo del cliente. |
 | `group_id` | El ID del grupo de clientes donde se asigna el cliente. |

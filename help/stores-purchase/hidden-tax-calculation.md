@@ -69,7 +69,7 @@ Cuando hay un descuento con impuestos incorporados, Commerce calcula un _impuest
 
 1. Cómo el cliente suele entender el precio con descuento (Total del pedido):
 
-   _Precio total del artículo que incluye impuestos **menos**el importe del descuento: $100 - $8.33 = $91.67_
+   _Precio total del artículo que incluye impuestos **menos**&#x200B;el importe del descuento: $100 - $8.33 = $91.67_
 
 1. **Cómo calcula Commerce el precio con descuento** (consulta la fórmula anteriormente):
 

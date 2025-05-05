@@ -80,7 +80,7 @@ El siguiente ejemplo utiliza la asignación de palabras clave basada en SKU. Cua
    ![Sección de atributos con palabra clave de búsqueda](./assets/search-keywords-attribute.png){width="600" zoomable="yes"}
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
-1. Vaya a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**y actualice **[!UICONTROL Page Cache]**.
+1. Vaya a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;y actualice **[!UICONTROL Page Cache]**.
 
 ### Paso 3: Asignación del segundo producto
 
@@ -88,7 +88,7 @@ El siguiente ejemplo utiliza la asignación de palabras clave basada en SKU. Cua
 1. Desplácese hacia abajo y expanda la sección **[!UICONTROL Attributes]**.
 1. En el campo **[!UICONTROL Search Keywords]**, introduzca la SKU del otro producto, `MJ03`.
 1. Haga clic en **[!UICONTROL Save]**.
-1. Vaya a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**y actualice **[!UICONTROL Page Cache]**.
+1. Vaya a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;y actualice **[!UICONTROL Page Cache]**.
 
 ### Paso 4: Probarlo en la tienda
 

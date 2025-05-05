@@ -36,7 +36,7 @@ Puede actualizar el nombre, la dirección, la ubicación GPS y la información d
 
 Si edita la Source predeterminada, puede editar todas las configuraciones excepto el nombre y el código. Se recomienda que los comerciantes de un solo origen agreguen información que coincida con su ubicación.
 
-La página _[!UICONTROL Manage Sources]_enumera todas las ubicaciones de inventario e instalaciones de cumplimiento disponibles. Puede agregar nuevos orígenes de inventario y editar las ubicaciones existentes.
+La página _[!UICONTROL Manage Sources]_&#x200B;enumera todas las ubicaciones de inventario e instalaciones de cumplimiento disponibles. Puede agregar nuevos orígenes de inventario y editar las ubicaciones existentes.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
 

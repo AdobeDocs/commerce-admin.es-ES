@@ -48,9 +48,9 @@ Las reglas de precios del carro de compras aplican descuentos a los artículos d
 | [!UICONTROL Priority] | Campo de texto libre que filtra la lista en función de la prioridad definida para una regla. |
 | [!UICONTROL Status] | Utilice esta opción para filtrar la lista en función del estado de la regla (`Active` o `Inactive`). |
 | [!UICONTROL Web Site] | Utilice esta opción para filtrar la lista en función de los sitios web definidos para una regla. |
-| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Haga clic en **[!UICONTROL Edit]** para mostrar la página _[!UICONTROL Rule Information]_y actualizar la configuración de la regla (similar a crear una regla). |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Utilice los campos de calendario dinámico (_[!UICONTROL To:]_y_[!UICONTROL From:]_) para filtrar la lista en función de la fecha de inicio de la regla definida cuando se creó la regla. |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Utilice los campos de calendario dinámico (_[!UICONTROL To:]_y_[!UICONTROL From:]_) para filtrar la lista en función de la fecha de finalización de la regla definida cuando se creó la regla. |
+| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Haga clic en **[!UICONTROL Edit]** para mostrar la página _[!UICONTROL Rule Information]_&#x200B;y actualizar la configuración de la regla (similar a crear una regla). |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Utilice los campos de calendario dinámico (_[!UICONTROL To:]_&#x200B;y_[!UICONTROL From:]_) para filtrar la lista en función de la fecha de inicio de la regla definida cuando se creó la regla. |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Utilice los campos de calendario dinámico (_[!UICONTROL To:]_&#x200B;y_[!UICONTROL From:]_) para filtrar la lista en función de la fecha de finalización de la regla definida cuando se creó la regla. |
 
 {style="table-layout:auto"}
 

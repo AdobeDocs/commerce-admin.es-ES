@@ -147,7 +147,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Package Weight] | Sitio web | Establece el peso mínimo que puede tener un paquete según lo especificado por UPS. Si los productos pedidos pesan menos que el peso mínimo del paquete, esta opción de envío no está disponible. Para verificar el peso mínimo, consulte con su transportista. |
 | [!UICONTROL Calculate Handling Fee] | Sitio web | Establece el método de cálculo de gastos de manipulación para el envío de tarifas de tabla. Opciones: <br>**`Fixed`**- La tarifa de manejo es una tarifa fija.<br>**`Percent`** - La tarifa de manejo se aplica como porcentaje del importe del pedido. |
 | [!UICONTROL Handling Applied] | Sitio web | Especifica si se aplican gastos de manipulación a cada pedido o a cada paquete de un pedido. |
-| [!UICONTROL Handling Fee] | Sitio web | Establece la manipulación que se incluye con el precio de tarifa de envío. La tarifa de manejo puede establecerse como una cantidad fija o un porcentaje. <br/><br/>**_Nota:_**Si escribe una cantidad porcentual, use el formato decimal `0.25` para el 25%. |
+| [!UICONTROL Handling Fee] | Sitio web | Establece la manipulación que se incluye con el precio de tarifa de envío. La tarifa de manejo puede establecerse como una cantidad fija o un porcentaje. <br/><br/>**_Nota:_**&#x200B;Si escribe una cantidad porcentual, use el formato decimal `0.25` para el 25%. |
 
 {style="table-layout:auto"}
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL UPS allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Sitio web | Especifica los métodos de envío de UPS permitidos que se ofrecen a los clientes. Las tarifas de envío se calculan según el método de envío seleccionado. |
-| [!UICONTROL Free Method] | Sitio web | Identifica el método que se utiliza para el método de envío gratuito a través de UPS. Para desactivar el envío gratuito, selecciona &quot;Ninguno&quot;. <br/><br/>**_Nota:_**Este método es similar al [Envío gratuito](../../stores-purchase/shipping-free.md) básico; sin embargo, aparece como una opción de envío UPS durante el cierre de compra. |
+| [!UICONTROL Free Method] | Sitio web | Identifica el método que se utiliza para el método de envío gratuito a través de UPS. Para desactivar el envío gratuito, selecciona &quot;Ninguno&quot;. <br/><br/>**_Nota:_**&#x200B;Este método es similar al [Envío gratuito](../../stores-purchase/shipping-free.md) básico; sin embargo, aparece como una opción de envío UPS durante el cierre de compra. |
 | [!UICONTROL Free Shipping Amount Threshold] | Sitio web | Determina si se aplica el envío gratuito cuando el importe del pedido cumple el umbral de envío gratuito. Opciones: `Enable` / `Disable` |
 | [!UICONTROL Free Shipping Amount Threshold] | Sitio web | Establece la cantidad total mínima que debe alcanzar un pedido para calificar para el envío gratuito. |
 | [!UICONTROL Displayed Error Message] | Vista de tienda | El mensaje de error que se muestra cuando este método de envío no está disponible por algún motivo. |
@@ -219,7 +219,7 @@ ht-degree: 0%
 | _[!UICONTROL USPS Handling Fee settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | Sitio web | Establece el método de cálculo de gastos de manipulación para el envío de tarifas de tabla. Opciones: <br/>**`Fixed`**- La tarifa de manejo es una tarifa fija.<br/>**`Percent`** - La tarifa de manejo se aplica como porcentaje del importe del pedido. |
 | [!UICONTROL Handling Applied] | Sitio web | Especifica si se aplican gastos de manipulación a cada pedido o a cada paquete de un pedido. |
-| [!UICONTROL Handling Fee] | Sitio web | Establece la manipulación que se incluye con el precio de tarifa de envío. La tarifa de manejo puede establecerse como una cantidad fija o un porcentaje. <br/><br/>**_Nota:_**Al escribir una cantidad porcentual, use el formato decimal `0.25` para el 25%. |
+| [!UICONTROL Handling Fee] | Sitio web | Establece la manipulación que se incluye con el precio de tarifa de envío. La tarifa de manejo puede establecerse como una cantidad fija o un porcentaje. <br/><br/>**_Nota:_**&#x200B;Al escribir una cantidad porcentual, use el formato decimal `0.25` para el 25%. |
 
 {style="table-layout:auto"}
 
@@ -231,7 +231,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL USPS Allowed Methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Sitio web | Especifica los métodos permitidos de envío de USPS que se ofrecen a los clientes. Las tarifas de envío se calculan según el método de envío seleccionado. |
-| [!UICONTROL Free Method] | Sitio web | Establece el método de envío gratuito a través de USPS o se puede deshabilitar seleccionando `None`. <br/><br/>**_Nota:_**Este método de envío es similar al método de envío gratuito de tu tienda; sin embargo, aparece como una opción de envío USPS y se identifica como envío USPS. |
+| [!UICONTROL Free Method] | Sitio web | Establece el método de envío gratuito a través de USPS o se puede deshabilitar seleccionando `None`. <br/><br/>**_Nota:_**&#x200B;Este método de envío es similar al método de envío gratuito de tu tienda; sin embargo, aparece como una opción de envío USPS y se identifica como envío USPS. |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Sitio web | Establece la cantidad mínima del pedido que debe satisfacerse para calificar para el envío gratuito. |
 | [!UICONTROL Displayed Error Message] | Vista de tienda | El mensaje de error que aparece cuando USPS no está disponible por algún motivo. |
 
@@ -291,7 +291,7 @@ ht-degree: 0%
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Calculate Handling Fee] | Sitio web | Determina el método utilizado para calcular las tarifas de manipulación. Opciones: `Fixed Fee` / `Percentage` <br/><br/>**_Nota:_**La tarifa de manipulación es opcional y aparece como un cargo adicional que se agrega al costo de envío de FedEx. |
+| [!UICONTROL Calculate Handling Fee] | Sitio web | Determina el método utilizado para calcular las tarifas de manipulación. Opciones: `Fixed Fee` / `Percentage` <br/><br/>**_Nota:_**&#x200B;La tarifa de manipulación es opcional y aparece como un cargo adicional que se agrega al costo de envío de FedEx. |
 | [!UICONTROL Handling Applied] | Sitio web | Determina cómo se aplican las tarifas de manipulación. Opciones: `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | Sitio web | Especifica el importe cobrado como gastos de manipulación, según el método utilizado para calcular el importe. Si el cargo se basa en una tarifa fija, ingrese la cantidad como decimal, como `4.90`. Si la tarifa de manipulación se basa en un porcentaje del pedido, introduzca la cantidad como porcentaje. Por ejemplo, para cargar el seis por ciento del pedido, escriba el valor como `.06`. |
 
@@ -306,7 +306,7 @@ ht-degree: 0%
 | [!UICONTROL Residential Delivery] | Sitio web | Establezca uno de los siguientes valores, en función de si vende de empresa a consumidor (B2C) o de empresa a empresa (B2B): <br/>**`Yes`**- Para entregas B2C<br/>**`No`** - Para entregas B2B |
 | [!UICONTROL Allowed Methods] | Sitio web | En la lista, seleccione los métodos de envío compatibles. Los métodos dependen de su cuenta de FedEx, la frecuencia y el tamaño de sus envíos y si permite envíos internacionales. Como comerciante, es posible que decida ofrecer solo envío terrestre. |
 | [!UICONTROL Hub ID] | Sitio web | Identificador proporcionado por FedEx que se usa con el método [!DNL Smart Post]. |
-| [!UICONTROL Free Method] | Sitio web | En la lista, seleccione el método de envío que prefiera utilizar para las ofertas de envío gratuito. <br/><br/>**_Nota:_**Este método de envío es similar al método de envío gratuito normal; sin embargo, aparece dentro de las opciones de envío de FedEx y se identifica como envío de FedEx. |
+| [!UICONTROL Free Method] | Sitio web | En la lista, seleccione el método de envío que prefiera utilizar para las ofertas de envío gratuito. <br/><br/>**_Nota:_**&#x200B;Este método de envío es similar al método de envío gratuito normal; sin embargo, aparece dentro de las opciones de envío de FedEx y se identifica como envío de FedEx. |
 | [!UICONTROL Free Shipping Amount Threshold] | Sitio web | Determina si se requiere una cantidad mínima del pedido para el envío gratuito. Opciones: <br/>**`Enable`**- Habilita el envío gratuito de FedEx para pedidos que alcancen la cantidad mínima.<br/>**`Disable`**: deshabilita el envío gratuito de FedEx con un pedido mínimo. |
 | [!UICONTROL Free Shipping Amount Threshold] | Sitio web | Especifica el importe mínimo del pedido que se requiere para el envío gratuito. |
 | [!UICONTROL Displayed Error Message] | Vista de tienda | El mensaje que aparece cuando FedEx no está disponible por algún motivo. Puede utilizar el mensaje predeterminado o escribir otro. |

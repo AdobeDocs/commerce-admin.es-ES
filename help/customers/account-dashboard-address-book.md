@@ -20,7 +20,7 @@ Los clientes que mantienen sus libretas de direcciones actualizadas pueden acele
 
 1. En el panel de navegación izquierdo de su cuenta de cliente, el cliente elige **[!UICONTROL Address Book]**.
 
-1. En la página _[!UICONTROL Address Book]_en_ Entradas de dirección adicionales _, hace clic en **[!UICONTROL Add New Address]**.
+1. En la página _[!UICONTROL Address Book]_&#x200B;en_ Entradas de dirección adicionales _, hace clic en **[!UICONTROL Add New Address]**.
 
    ![Agregar nueva dirección](assets/add-new-address.png){width="600" zoomable="yes"}
 

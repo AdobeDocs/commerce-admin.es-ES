@@ -18,7 +18,7 @@ Un segmento de cliente se puede usar para promociones segmentadas asociándolo c
 
 ![Regla de precio del carro de compras - segmento de clientes segmentados](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
 
-_**Para asociar un segmento con una regla de precios del carro de compras:**_
+_&#x200B;**Para asociar un segmento con una regla de precios del carro de compras:**&#x200B;_
 
 1. En la barra lateral de _Administración_, vaya a **[!UICONTROL Marketing]** > _Promociones_ > **[!UICONTROL Cart Price Rules]**.
 

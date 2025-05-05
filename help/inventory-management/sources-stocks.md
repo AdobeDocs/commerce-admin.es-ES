@@ -39,8 +39,8 @@ Comience con una Stock predeterminada asignada con el Source predeterminado y su
 
 Cantidad es el número de productos del inventario activo que se pueden comprar. La cantidad de productos aumenta y disminuye cuando se completan los envíos o se ajusta el inventario. Añadir productos a un carro de compras no afecta a esta cantidad. La cantidad vendible realiza un seguimiento de la disponibilidad del producto para un canal de ventas y también utiliza este valor para determinar el stock disponible para la compra. Según el número de orígenes, puede ver y administrar la cantidad de productos de una de las siguientes opciones:
 
-- **Cantidad**: para comerciantes de un solo origen, la columna _[!UICONTROL Quantity]_y el valor rastrean la cantidad de inventario disponible.
-- **Cantidad por Source**: para comerciantes de varios orígenes, la columna _[!UICONTROL Quantity per Source]_y los valores rastrean el inventario disponible disponible por ubicación. Si agrega varios orígenes, este valor reemplaza la cantidad y muestra todos los orígenes y las cantidades asignadas.
+- **Cantidad**: para comerciantes de un solo origen, la columna _[!UICONTROL Quantity]_&#x200B;y el valor rastrean la cantidad de inventario disponible.
+- **Cantidad por Source**: para comerciantes de varios orígenes, la columna _[!UICONTROL Quantity per Source]_&#x200B;y los valores rastrean el inventario disponible disponible por ubicación. Si agrega varios orígenes, este valor reemplaza la cantidad y muestra todos los orígenes y las cantidades asignadas.
 
 Las reservas hacen un seguimiento de las solicitudes de stock de todo el proceso de compra: adición de productos al carro de compras, finalización del cierre de compra y administración de los reembolsos. Para el inventario y las existencias disponibles, las reservas reservan los importes de inventario por pedido a través del proceso de cierre de compra, restados de la cantidad vendible. Las reservas se convierten en deducciones de cantidad al facturar y enviar productos.
 

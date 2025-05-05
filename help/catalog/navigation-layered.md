@@ -62,7 +62,7 @@ Las siguientes instrucciones muestran cómo configurar la navegación básica po
 
 >[!NOTE]
 >
->Cuando la configuración de _[!UICONTROL Use in Search]_está establecida en `No`, no se muestra la configuración de_[!UICONTROL Use in Search Results Layered Navigation]_ y no se usa el atributo de producto en la búsqueda con ningún valor de configuración de [!UICONTROL Use in Layered Navigation].
+>Cuando la configuración de _[!UICONTROL Use in Search]_&#x200B;está establecida en `No`, no se muestra la configuración de&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ y no se usa el atributo de producto en la búsqueda con ningún valor de configuración de [!UICONTROL Use in Layered Navigation].
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ La división iterativa proporciona la mejor distribución de productos entre ran
 
 >[!IMPORTANT]
 >
->Para mostrar correctamente los productos y sus precios según los _filtros de precio_ en la navegación por capas, asegúrese de que la configuración del precio que se muestra en la [configuración de impuestos sobre ventas](../configuration-reference/sales/tax.md) tenga el mismo valor (`Excluding Tax` **o** `Including Tax`). Para _[!UICONTROL Calculation Settings]_, compruebe el valor **[!UICONTROL Catalog Prices]**. Y para_[!UICONTROL Price Display Settings]_, compruebe el valor **[!UICONTROL Display Product Prices in Catalog]**. Si estos tienen valores diferentes, es posible que los filtros de precio de la navegación por capas no filtren y ordenen correctamente los productos por precio.
+>Para mostrar correctamente los productos y sus precios según los _filtros de precio_ en la navegación por capas, asegúrese de que la configuración del precio que se muestra en la [configuración de impuestos sobre ventas](../configuration-reference/sales/tax.md) tenga el mismo valor (`Excluding Tax` **o** `Including Tax`). Para _[!UICONTROL Calculation Settings]_, compruebe el valor **[!UICONTROL Catalog Prices]**. Y para&#x200B;_[!UICONTROL Price Display Settings]_, compruebe el valor **[!UICONTROL Display Product Prices in Catalog]**. Si estos tienen valores diferentes, es posible que los filtros de precio de la navegación por capas no filtren y ordenen correctamente los productos por precio.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -207,7 +207,7 @@ La configuración de navegación por capas determina si aparece un recuento de p
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. En el panel izquierdo, expanda la sección _[!UICONTROL Catalog]_y elija **[!UICONTROL Catalog]**debajo.
+1. En el panel izquierdo, expanda la sección _[!UICONTROL Catalog]_&#x200B;y elija **[!UICONTROL Catalog]**&#x200B;debajo.
 
 1. Expanda la sección _[!UICONTROL Layered Navigation]_.
 

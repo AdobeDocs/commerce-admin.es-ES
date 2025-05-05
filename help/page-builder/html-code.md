@@ -84,7 +84,7 @@ En el ejemplo siguiente se muestra cómo incrustar código [Google Font][1] y de
 
 ### Paso 3: Previsualizar la página
 
-1. En la sección _[!UICONTROL Currently Active]_, establezca **[!UICONTROL Enable Page]**en `Yes`.
+1. En la sección _[!UICONTROL Currently Active]_, establezca **[!UICONTROL Enable Page]**&#x200B;en `Yes`.
 
    ![Habilitando la página](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
@@ -110,7 +110,7 @@ En el ejemplo siguiente se muestra cómo incrustar código [Google Font][1] y de
    | Insertar imagen... | Haga clic aquí para insertar una imagen cargada o una imagen de la Galería en la posición del cursor en el cuadro de texto HTML. |
    | Insertar variable... | Haga clic aquí para insertar una variable en la posición del cursor en el cuadro de texto HTML. |
 
-1. Actualice la configuración de _[!UICONTROL Advanced]_según sea necesario.
+1. Actualice la configuración de _[!UICONTROL Advanced]_&#x200B;según sea necesario.
 
    - Para controlar la colocación del código dentro del contenedor principal, elija un **[!UICONTROL Alignment]**:
 

@@ -53,7 +53,7 @@ Determine el tipo de reembolso que desea emitir (por una [compra a crédito](#is
 
 1. Busque el orden en la cuadrícula y haga clic en **[!UICONTROL View]**.
 
-1. Si el botón _[!UICONTROL Credit Memo]_está visible en la barra de botones, siga uno de estos procedimientos:
+1. Si el botón _[!UICONTROL Credit Memo]_&#x200B;está visible en la barra de botones, siga uno de estos procedimientos:
 
    - Para emitir un reembolso de `offline`, vaya al paso #6.
    - Para emitir un reembolso de `online`, continúe con el paso #4.

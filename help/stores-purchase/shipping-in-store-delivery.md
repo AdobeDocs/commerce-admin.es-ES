@@ -19,7 +19,7 @@ Con el método de entrega en tienda, el cliente puede seleccionar un origen para
 Durante el cierre de compra en la tienda:
 
 1. El cliente hace clic en **[!UICONTROL Pick In Store]** o selecciona el método de envío _[!UICONTROL In-Store Pickup Delivery]_.
-1. Se abre la pestaña _[!UICONTROL Pick In Store]_retirada.
+1. Se abre la pestaña _[!UICONTROL Pick In Store]_&#x200B;retirada.
 
 Cuando el cliente tiene una dirección o rellenó previamente el formulario de la dirección de envío antes de cambiar a la pestaña _[!UICONTROL Pick In Store]_:
 

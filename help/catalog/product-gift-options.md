@@ -20,7 +20,7 @@ En la sección _[!UICONTROL Gift Options]_, puede establecer opciones de envolto
 
 1. Abra el producto en modo de edición.
 
-1. Desplácese hacia abajo y expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Gift Options]_y haga lo siguiente:
+1. Desplácese hacia abajo y expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Gift Options]_&#x200B;y haga lo siguiente:
 
    - Para anular la configuración predeterminada, anule la selección de la casilla **[!UICONTROL Use Config Settings]**.
 

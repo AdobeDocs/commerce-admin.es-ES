@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Configuración del producto - [!UICONTROL Product Reviews]
 
-La sección _[!UICONTROL Product Reviews]_enumera todas las revisiones que los clientes han enviado sobre el producto. Esta sección aparece con la otra información del producto solo después de guardar un nuevo producto por primera vez. Para obtener más información, consulte [Críticas de productos](../merchandising-promotions/product-reviews.md).
+La sección _[!UICONTROL Product Reviews]_&#x200B;enumera todas las revisiones que los clientes han enviado sobre el producto. Esta sección aparece con la otra información del producto solo después de guardar un nuevo producto por primera vez. Para obtener más información, consulte [Críticas de productos](../merchandising-promotions/product-reviews.md).
 
 ![Críticas de productos](./assets/product-review.png){width="600" zoomable="yes"}
 

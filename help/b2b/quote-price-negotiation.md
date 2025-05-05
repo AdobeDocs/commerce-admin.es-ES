@@ -41,13 +41,13 @@ Los compradores administran el proceso de negociación de ofertas desde la tiend
 
 ## Paso 2: Modificar el presupuesto
 
-1. En , haga clic en _[!UICONTROL Quote & Account Information]_el icono Calendario__(![icono](../assets/icon-calendar.png) de calendario).
+1. En , haga clic en _[!UICONTROL Quote & Account Information]_&#x200B;el icono Calendario__(![icono](../assets/icon-calendar.png) de calendario).
 
    ![Información sobre presupuestos y cuenta](./assets/quote-details-account-information.png){width="575" zoomable="yes"}
 
 1. Elija un **[!UICONTROL Expiration Date]** para la cotización.
 
-1. Desplácese hacia abajo hasta la _[!UICONTROL Quote Totals]_sección y actualice según **[!UICONTROL Negotiated Price]**sea necesario.
+1. Desplácese hacia abajo hasta la _[!UICONTROL Quote Totals]_&#x200B;sección y actualice según **[!UICONTROL Negotiated Price]**&#x200B;sea necesario.
 
    ![Actualizar precio negociado](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
 
@@ -65,7 +65,7 @@ Los compradores administran el proceso de negociación de ofertas desde la tiend
 
 ### Aplicar actualizaciones de artículos de línea
 
-Aplique los cambios de elemento de línea en la sección _[!UICONTROL Items Quoted]_si es necesario.
+Aplique los cambios de elemento de línea en la sección _[!UICONTROL Items Quoted]_&#x200B;si es necesario.
 
 ![Aplicar actualizaciones de elementos de línea](./assets/quote-apply-line-item-operations.png){width="600" zoomable="yes"}
 
@@ -100,7 +100,7 @@ tanto el descuento de artículo de línea como cualquier descuento de nivel de o
 
 1. Escriba un **[!UICONTROL Proposed Shipping Price]**.
 
-   _[!UICONTROL Quote Totals]_se han actualizado para reflejar el precio de envío propuesto.
+   _[!UICONTROL Quote Totals]_&#x200B;se han actualizado para reflejar el precio de envío propuesto.
 
 ### Adjuntar un documento acreditativo
 
@@ -112,7 +112,7 @@ tanto el descuento de artículo de línea como cualquier descuento de nivel de o
 
 ## Paso 3: Actualice la información de nivel de oferta y envíe su respuesta
 
-1. En la sección _[!UICONTROL Negotiation]_de la ficha_[!UICONTROL Comments]_, escriba su respuesta en la sección **[!UICONTROL Add your comment]**.
+1. En la sección _[!UICONTROL Negotiation]_&#x200B;de la ficha&#x200B;_[!UICONTROL Comments]_, escriba su respuesta en la sección **[!UICONTROL Add your comment]**.
 
 1. Para incluir un documento acreditativo, haga clic en **[!UICONTROL Attach file]** y seleccione el archivo del directorio.
 
@@ -120,7 +120,7 @@ tanto el descuento de artículo de línea como cualquier descuento de nivel de o
 
 1. Para aplicar un descuento a la oferta:
 
-   - En _[!UICONTROL Quote Totals]_, en la sección_[!UICONTROL Negotiated Price]_, elija uno de los siguientes tipos de descuento:
+   - En _[!UICONTROL Quote Totals]_, en la sección&#x200B;_[!UICONTROL Negotiated Price]_, elija uno de los siguientes tipos de descuento:
 
       - `Percentage Discount`: un descuento porcentual reduce el precio original en un porcentaje específico.
       - `Amount Discount`: un descuento de importe aplica una reducción de precio fijo.
@@ -160,7 +160,7 @@ Para monitor su posición en la flujo de trabajo, compruebe su correo electróni
 
 | Botón | Descripción |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Back] | Vuelve a la página _[!UICONTROL Quotes]_sin guardar los cambios. |
+| [!UICONTROL Back] | Vuelve a la página _[!UICONTROL Quotes]_&#x200B;sin guardar los cambios. |
 | [!UICONTROL Print] | Envía el presupuesto a una impresora o lo guarda como archivo de PDF. |
 | [!UICONTROL Create Copy] | Crea y abre una copia de la oferta actual con `(copy)` anexado al nombre original. Cambie el nombre de la nueva cita editando el campo [!UICONTROL Name]. Procese la nueva oferta guardándola como borrador o enviándola al cliente. |
 | Crear plantilla | Cree una plantilla de oferta basada en la oferta actual. Las plantillas de oferta agilizan la negociación de ofertas al permitir que los compradores y los vendedores acuerden las condiciones de contrato y asignación de precios que se pueden aplicar a varias ofertas. . En el momento del acuerdo, el comprador puede generar una oferta vinculada y aprobada previamente a partir de la plantilla para pedidos posteriores en lugar de reiniciar el proceso de solicitud de oferta. |

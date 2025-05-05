@@ -52,4 +52,4 @@ No cubre las funciones principales de Adobe Commerce y Magento Open Source.
 
 Para obtener ayuda con la solución de problemas de [!DNL Page Builder], consulte los siguientes artículos de la Base de conocimiento de soporte técnico de [!DNL Commerce]:
 
-- [Página vacía al guardar el formulario DotDigital [!DNL Page Builder] 2}](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html)
+- [Página vacía al guardar el formulario DotDigital [!DNL Page Builder] 2&rbrace;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html)

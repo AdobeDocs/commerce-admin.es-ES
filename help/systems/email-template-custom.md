@@ -218,7 +218,7 @@ El proceso de personalizar el cuerpo de cada mensaje es el mismo que para person
 
 ### Paso 3. Actualizar la configuración
 
-La ruta de exploración _[!UICONTROL Currently Used For]_muestra dónde se utiliza la plantilla. En este ejemplo, la configuración de la plantilla se encuentra en la página_[!UICONTROL Customer Configuration]_, en la sección _[!UICONTROL Create New Account Options]_y en el campo_[!UICONTROL Default Welcome Email]_.
+La ruta de exploración _[!UICONTROL Currently Used For]_&#x200B;muestra dónde se utiliza la plantilla. En este ejemplo, la configuración de la plantilla se encuentra en la página&#x200B;_[!UICONTROL Customer Configuration]_, en la sección _[!UICONTROL Create New Account Options]_&#x200B;y en el campo&#x200B;_[!UICONTROL Default Welcome Email]_.
 
 - Página - [!UICONTROL Customer Configuration]
 - Sección - [!UICONTROL Create New Account Options]

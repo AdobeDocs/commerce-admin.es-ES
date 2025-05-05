@@ -43,7 +43,7 @@ _Pedir por SKU_ es un [widget](../content-design/widgets.md) que se puede mostra
 
 1. Haga clic en **[!UICONTROL Save Config]**.
 
-![Adobe Commerce B2B](../assets/b2b.svg) (solo Adobe Commerce B2B) _**Para habilitar la función Ordenar por SKU, deshabilite la función Pedido rápido:**_
+![Adobe Commerce B2B](../assets/b2b.svg) (solo Adobe Commerce B2B) _&#x200B;**Para habilitar la función Ordenar por SKU, deshabilite la función Pedido rápido:**&#x200B;_
 
 1. Vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -75,7 +75,7 @@ Cuando la funcionalidad está configurada para la tienda, los clientes pueden pe
 
 1. Agrega elementos individuales según la preferencia:
 
-   _**Agrega cada elemento por SKU:**_
+   _&#x200B;**Agrega cada elemento por SKU:**&#x200B;_
 
    - Introduce **[!UICONTROL SKU]** y **[!UICONTROL Qty]** del elemento que se va a ordenar.
 
@@ -83,7 +83,7 @@ Cuando la funcionalidad está configurada para la tienda, los clientes pueden pe
 
    - Clics **[!UICONTROL Add to Cart]**.
 
-   _**Carga un archivo CSV de varios elementos:**_
+   _&#x200B;**Carga un archivo CSV de varios elementos:**&#x200B;_
 
    - Prepara un archivo de [importación de datos CSV](../systems/data-csv.md) (valores separados por comas) que incluye columnas para `SKU` y `Qty`.
 

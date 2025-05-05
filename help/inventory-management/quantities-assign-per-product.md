@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Después de agregar [orígenes](sources-assign-per-product.md), actualice las cantidades de inventario del producto. Estos valores hacen un seguimiento de las existencias disponibles.
 
-Para ocultar el inventario de un origen de los envíos sin quitar el origen, establezca _[!UICONTROL Source Item Status]_en `Out of Stock`. Las opciones de SSA y envío solo acceden a los orígenes enumerados como `In Stock` con la cantidad de inventario disponible.
+Para ocultar el inventario de un origen de los envíos sin quitar el origen, establezca _[!UICONTROL Source Item Status]_&#x200B;en `Out of Stock`. Las opciones de SSA y envío solo acceden a los orígenes enumerados como `In Stock` con la cantidad de inventario disponible.
 
 Todas las cantidades y orígenes actualizados se muestran en la cuadrícula del producto.
 
@@ -33,7 +33,7 @@ Todas las cantidades y orígenes actualizados se muestran en la cuadrícula del 
 1. Para establecer una notificación para cantidades de inventario, siga uno de estos procedimientos:
 
    - Cantidad de notificación personalizada - Anule la selección de la casilla de verificación **[!UICONTROL Use Default]** e introduzca una cantidad en **[!UICONTROL Notify Qty]**.
-   - Cantidad de notificación predeterminada: seleccione la casilla **[!UICONTROL Use Default]**. [!DNL Commerce] comprueba y usa la configuración de _[!UICONTROL Advanced Inventory]_o de la configuración del almacén global.
+   - Cantidad de notificación predeterminada: seleccione la casilla **[!UICONTROL Use Default]**. [!DNL Commerce] comprueba y usa la configuración de _[!UICONTROL Advanced Inventory]_&#x200B;o de la configuración del almacén global.
 
    ![Actualizar cantidades de productos por Source](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}
 
@@ -44,6 +44,6 @@ Todas las cantidades y orígenes actualizados se muestran en la cuadrícula del 
    - En el menú **[!UICONTROL Save]** (![Flecha del menú](../assets/icon-menu-down-arrow-red.png)), elija **[!UICONTROL Save & Close]**.
 
 
-La cuadrícula de producto se actualiza con una lista de todos los orígenes y las cantidades relacionadas. Para los productos con más de cinco orígenes asignados, pase el ratón sobre la columna _[!UICONTROL Quantity per Source]_para ver la lista completa.
+La cuadrícula de producto se actualiza con una lista de todos los orígenes y las cantidades relacionadas. Para los productos con más de cinco orígenes asignados, pase el ratón sobre la columna _[!UICONTROL Quantity per Source]_&#x200B;para ver la lista completa.
 
 ![Cantidades de productos por origen](assets/inventory-product-quantity.png){width="600" zoomable="yes"}

@@ -60,7 +60,7 @@ Si se ejecutan varias reglas de precios en la misma campaña, la configuración 
 
    >[!NOTE]
    >
-   >Si cambia a cualquiera de los parámetros de información de regla, asegúrese de que _[!UICONTROL Status]_está configurado correctamente. Si desea que el cambio genere una regla aplicada activamente, el estado debe ser `Active`.
+   >Si cambia a cualquiera de los parámetros de información de regla, asegúrese de que _[!UICONTROL Status]_&#x200B;está configurado correctamente. Si desea que el cambio genere una regla aplicada activamente, el estado debe ser `Active`.
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
 
@@ -114,4 +114,4 @@ Si se ejecutan varias reglas de precios en la misma campaña, la configuración 
 
    Para ver los cambios programados para diferentes vistas de la tienda, haga clic en **[!UICONTROL Scope]** en el encabezado de la página Vista previa. Elija el sitio web, la tienda o la vista de la tienda que desea previsualizar.
 
-1. Si es necesario, vuelva al calendario y haga clic en **[!UICONTROL View/Edit]** en la columna _[!UICONTROL Action]_para abrir otra actualización programada.
+1. Si es necesario, vuelva al calendario y haga clic en **[!UICONTROL View/Edit]** en la columna _[!UICONTROL Action]_&#x200B;para abrir otra actualización programada.

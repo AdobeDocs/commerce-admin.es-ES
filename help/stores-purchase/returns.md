@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Devuelve
 
-Se puede otorgar una _autorización de devolución de mercancía_ (RMA) a los clientes que soliciten la devolución de un artículo para su reemplazo o reembolso. Normalmente, el cliente se pone en contacto con el comerciante para solicitar un reembolso. Si se aprueba, se asigna un número de autorización de devolución de material único para identificar el producto devuelto. En la configuración, puede activar la autorización de devolución de material para todos los productos o permitir la autorización de devolución de material solo para determinados productos. La cuadrícula _[!UICONTROL Returns]_enumera las solicitudes de mercancía devueltas (RMA) actuales y se usa para introducir nuevas solicitudes de devolución.
+Se puede otorgar una _autorización de devolución de mercancía_ (RMA) a los clientes que soliciten la devolución de un artículo para su reemplazo o reembolso. Normalmente, el cliente se pone en contacto con el comerciante para solicitar un reembolso. Si se aprueba, se asigna un número de autorización de devolución de material único para identificar el producto devuelto. En la configuración, puede activar la autorización de devolución de material para todos los productos o permitir la autorización de devolución de material solo para determinados productos. La cuadrícula _[!UICONTROL Returns]_&#x200B;enumera las solicitudes de mercancía devueltas (RMA) actuales y se usa para introducir nuevas solicitudes de devolución.
 
 ![Devuelve cuadrícula](./assets/return.png){width="600" zoomable="yes"}
 

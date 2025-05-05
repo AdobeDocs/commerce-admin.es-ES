@@ -27,7 +27,7 @@ Los campos relacionados con la fecha de inicio y la fecha de finalización se ha
 
 Todas las actualizaciones programadas se aplican de forma consecutiva, lo que significa que cualquier entidad solo puede tener una actualización programada a la vez. Cualquier actualización programada se aplica a todas las vistas de la tienda dentro de su lapso de tiempo. Como resultado, una entidad no puede tener una actualización programada diferente para diferentes vistas de tienda al mismo tiempo. Todos los valores de atributo de entidad dentro de todas las vistas de tienda, que no se ven afectados por la actualización programada actual, se toman de los valores predeterminados y no de la actualización programada anterior.
 
-Cuando se crea una nueva actualización programada para cualquiera de los siguientes objetos, se crea una campaña correspondiente como marcador de posición y aparece el cuadro _[!UICONTROL Scheduled Changes]_en la parte superior de la página. La campaña de marcador de posición tiene una fecha de inicio, pero no una fecha de finalización. Puede programar actualizaciones del contenido como parte de una campaña y, a continuación, previsualizar y compartir los cambios por fecha, hora o vista de tienda. Después de crear una nueva campaña para un objeto, puede asignarlo como una actualización programada para otros objetos.
+Cuando se crea una nueva actualización programada para cualquiera de los siguientes objetos, se crea una campaña correspondiente como marcador de posición y aparece el cuadro _[!UICONTROL Scheduled Changes]_&#x200B;en la parte superior de la página. La campaña de marcador de posición tiene una fecha de inicio, pero no una fecha de finalización. Puede programar actualizaciones del contenido como parte de una campaña y, a continuación, previsualizar y compartir los cambios por fecha, hora o vista de tienda. Después de crear una nueva campaña para un objeto, puede asignarlo como una actualización programada para otros objetos.
 
 - [Productos](../catalog/product-scheduled-changes.md)
 - [Categorías](../catalog/category-scheduled-changes.md)
@@ -40,7 +40,7 @@ Cuando se crea una nueva actualización programada para cualquiera de los siguie
 
 1. **Crear contenido de línea base**
 
-   La línea de base es el contenido de un recurso sin campaña e incluye todo lo que hay debajo de la sección _[!UICONTROL Scheduled Changes]_en la parte superior de la página. El contenido de línea de base siempre se utiliza, a menos que haya una campaña activa con cambios programados para ese lugar en la cronología.
+   La línea de base es el contenido de un recurso sin campaña e incluye todo lo que hay debajo de la sección _[!UICONTROL Scheduled Changes]_&#x200B;en la parte superior de la página. El contenido de línea de base siempre se utiliza, a menos que haya una campaña activa con cambios programados para ese lugar en la cronología.
 
 1. **Crear la primera campaña**
 

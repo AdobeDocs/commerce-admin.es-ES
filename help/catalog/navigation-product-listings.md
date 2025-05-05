@@ -16,7 +16,7 @@ Los listados de productos se pueden configurar para que aparezcan de forma prede
 
 >[!NOTE]
 >
->Al ordenar una categoría por un atributo de producto, los productos con los mismos valores de atributo también se ordenan por su _[!UICONTROL Product ID]_en orden ascendente.
+>Al ordenar una categoría por un atributo de producto, los productos con los mismos valores de atributo también se ordenan por su _[!UICONTROL Product ID]_&#x200B;en orden ascendente.
 
 ![Productos mostrados como una cuadrícula](./assets/storefront-catalog-page.png){width="700" zoomable="yes"}
 
@@ -34,7 +34,7 @@ Los listados de productos se pueden configurar para que aparezcan de forma prede
 
    >[!NOTE]
    >
-   >Para mostrar correctamente los productos y sus precios según la clasificación de _productos por precio_, asegúrese de que la configuración del precio que se muestra en la [configuración de impuestos sobre ventas](../configuration-reference/sales/tax.md) tenga el mismo valor (`Excluding Tax` **o** `Including Tax`). Para _[!UICONTROL Calculation Settings]_, compruebe el valor **[!UICONTROL Catalog Prices]**. Y para_[!UICONTROL Price Display Settings]_, compruebe el valor **[!UICONTROL Display Product Prices in Catalog]**. Si estos tienen valores diferentes, es posible que los filtros de precio de la navegación por capas no filtren y ordenen correctamente los productos por precio.
+   >Para mostrar correctamente los productos y sus precios según la clasificación de _productos por precio_, asegúrese de que la configuración del precio que se muestra en la [configuración de impuestos sobre ventas](../configuration-reference/sales/tax.md) tenga el mismo valor (`Excluding Tax` **o** `Including Tax`). Para _[!UICONTROL Calculation Settings]_, compruebe el valor **[!UICONTROL Catalog Prices]**. Y para&#x200B;_[!UICONTROL Price Display Settings]_, compruebe el valor **[!UICONTROL Display Product Prices in Catalog]**. Si estos tienen valores diferentes, es posible que los filtros de precio de la navegación por capas no filtren y ordenen correctamente los productos por precio.
 
 1. Establezca el valor predeterminado **[!UICONTROL List Mode]** en uno de los siguientes:
 
@@ -95,7 +95,7 @@ La configuración de Paginación aparece en la parte superior e inferior de la l
 | Control | Descripción |
 |--- |--- |
 | ![Cuadrícula de visualización](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] - Muestra la lista en formato de cuadrícula o lista. |
-| ![Ordenar por](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Cambia el orden de la lista. La propiedad de tienda _[!UICONTROL Used for Sorting in Product Listing]_determina qué [atributos de producto](../catalog/product-attributes.md) se pueden usar para ordenar la lista. |
+| ![Ordenar por](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Cambia el orden de la lista. La propiedad de tienda _[!UICONTROL Used for Sorting in Product Listing]_&#x200B;determina qué [atributos de producto](../catalog/product-attributes.md) se pueden usar para ordenar la lista. |
 | ![Mostrar por página](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page]: determina cuántos productos aparecen por página. |
 | ![Vínculos de paginación](./assets/control-pagination.png) | Vínculos de paginación: vínculos de navegación a otras páginas. |
 

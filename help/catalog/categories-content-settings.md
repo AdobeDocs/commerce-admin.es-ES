@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Categorías: configuración de contenido
 
-La configuración de _[!UICONTROL Content]_determina que cualquier contenido adicional aparece en la página de categoría. Además de la lista de productos de categoría, la página puede incluir una imagen, una descripción y un bloque de CMS. Puede usar las herramientas de contenido [[!DNL Page Builder]](../page-builder/introduction.md) para definir la descripción de la categoría.
+La configuración de _[!UICONTROL Content]_&#x200B;determina que cualquier contenido adicional aparece en la página de categoría. Además de la lista de productos de categoría, la página puede incluir una imagen, una descripción y un bloque de CMS. Puede usar las herramientas de contenido [[!DNL Page Builder]](../page-builder/introduction.md) para definir la descripción de la categoría.
 
 ## Agregar la descripción de categoría en [!DNL Page Builder]
 

@@ -109,7 +109,7 @@ Antes de configurar PayPal Payments Advanced en Commerce, debes configurar tu cu
 
 1. Si la instalación de Commerce tiene varios sitios web, tiendas o vistas, establezca **[!UICONTROL Store View]** en la vista de tienda en la que desee aplicar esta configuración.
 
-1. En la sección _[!UICONTROL Merchant Location]_, seleccione **[!UICONTROL Merchant Country]**donde se encuentra su empresa.
+1. En la sección _[!UICONTROL Merchant Location]_, seleccione **[!UICONTROL Merchant Country]**&#x200B;donde se encuentra su empresa.
 
    Esta configuración determina la selección de soluciones de PayPal que aparecen en la configuración.
 
@@ -379,7 +379,7 @@ Establezca **[!UICONTROL Enable PayPal PayLater Experience]** en una de las sigu
 
 #### Configuración de experiencia de front-end
 
-Use _[!UICONTROL Frontend Experience Settings]_para elegir los logotipos de PayPal que aparecerán en el sitio y personalizar el aspecto de las páginas de comerciantes de PayPal.
+Use _[!UICONTROL Frontend Experience Settings]_&#x200B;para elegir los logotipos de PayPal que aparecerán en el sitio y personalizar el aspecto de las páginas de comerciantes de PayPal.
 
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Frontend Experience Settings]**.
 
@@ -434,7 +434,7 @@ Use _[!UICONTROL Frontend Experience Settings]_para elegir los logotipos de PayP
    - `Authorization` - Aprueba la compra y suspende los fondos. La cantidad no se retira hasta que el comerciante _la capture_.
    - `Sale`: el importe de la compra se autoriza y se retira inmediatamente de la cuenta del cliente.
 
-1. Para mostrar el botón _[!UICONTROL Check out with PayPal]_en la página de productos, establezca **[!UICONTROL Display on Product Details Page]**en `Yes`.
+1. Para mostrar el botón _[!UICONTROL Check out with PayPal]_&#x200B;en la página de productos, establezca **[!UICONTROL Display on Product Details Page]**&#x200B;en `Yes`.
 
 ### Paso 7: Completar la configuración avanzada: Pago y envío de PayPal Express
 

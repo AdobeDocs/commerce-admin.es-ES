@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Categorías: configuración de optimización del motor de búsqueda
 
-La sección _[!UICONTROL Search Engine Optimization]_especifica los campos [Clave de URL](catalog-urls.md) y [metadatos](../merchandising-promotions/meta-data.md) que los motores de búsqueda utilizan para indexar la categoría. Aunque algunos motores de búsqueda ignoran las palabras clave meta, otros las siguen usando. La práctica recomendada actual de SEO es incorporar palabras clave de alto valor tanto en el meta título como en la meta descripción.
+La sección _[!UICONTROL Search Engine Optimization]_&#x200B;especifica los campos [Clave de URL](catalog-urls.md) y [metadatos](../merchandising-promotions/meta-data.md) que los motores de búsqueda utilizan para indexar la categoría. Aunque algunos motores de búsqueda ignoran las palabras clave meta, otros las siguen usando. La práctica recomendada actual de SEO es incorporar palabras clave de alto valor tanto en el meta título como en la meta descripción.
 
 ![Optimización del motor de búsqueda](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
 

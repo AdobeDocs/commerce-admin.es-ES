@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Envíos
 
-La cuadrícula _[!UICONTROL Shipments]_muestra el registro de envío de todas las facturas que se han preparado para el envío. Se puede generar un registro de envío cuando se [factura](invoices.md) o posterior un pedido.
+La cuadrícula _[!UICONTROL Shipments]_&#x200B;muestra el registro de envío de todas las facturas que se han preparado para el envío. Se puede generar un registro de envío cuando se [factura](invoices.md) o posterior un pedido.
 
 Adobe Commerce y el Magento Open Source admiten el envío de pedidos parcial y completo, con opciones adicionales disponibles en [Inventory management](../inventory-management/introduction.md) y extensiones de terceros.
 
@@ -77,7 +77,7 @@ Para cada elemento de línea del pedido, modifique **[!UICONTROL Qty to Ship]** 
 
 1. Haga clic en **[!UICONTROL Ship]**.
 
-1. Desplácese hasta el bloque _[!UICONTROL Payment & Shipping Method]_y haga clic en **[!UICONTROL Add Tracking Number]**.
+1. Desplácese hasta el bloque _[!UICONTROL Payment & Shipping Method]_&#x200B;y haga clic en **[!UICONTROL Add Tracking Number]**.
 
 1. Establecer **[!UICONTROL Carrier]**:
 
@@ -166,7 +166,7 @@ Antes de enviar un envío a un transportista, se puede cancelar abriendo el pedi
 
 1. En el panel izquierdo, elija **[!UICONTROL Shipments]**.
 
-   Si el envío se puede cancelar, _[!UICONTROL Cancel Shipment]_aparece como una opción en la barra de botones superior.
+   Si el envío se puede cancelar, _[!UICONTROL Cancel Shipment]_&#x200B;aparece como una opción en la barra de botones superior.
 
 1. Haga clic en **[!UICONTROL Cancel Shipment]**.
 

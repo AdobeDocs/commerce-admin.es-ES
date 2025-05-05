@@ -43,7 +43,7 @@ Para una instalación de varias tiendas, el Stock predeterminado se asigna inici
 
 | Botón | Descripción |
 |--|--|
-| [!UICONTROL Add New Stock] | Abre el formulario _[!UICONTROL New Stock]_que se usa para especificar un nuevo inventario de existencias para asignar el inventario al canal de ventas. |
+| [!UICONTROL Add New Stock] | Abre el formulario _[!UICONTROL New Stock]_&#x200B;que se usa para especificar un nuevo inventario de existencias para asignar el inventario al canal de ventas. |
 
 ## Administración de descripciones de columnas de Stock
 

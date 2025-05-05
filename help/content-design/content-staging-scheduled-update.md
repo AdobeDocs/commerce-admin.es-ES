@@ -26,7 +26,7 @@ El siguiente ejemplo muestra cómo programar un cambio de precio temporal para u
 
 1. En la cuadrícula _[!UICONTROL Products]_, abra un producto en modo de edición.
 
-1. En el cuadro _[!UICONTROL Scheduled Changes]_de la parte superior de la página, haga clic en **[!UICONTROL Schedule New Update]**.
+1. En el cuadro _[!UICONTROL Scheduled Changes]_&#x200B;de la parte superior de la página, haga clic en **[!UICONTROL Schedule New Update]**.
 
    ![Programar nueva actualización](./assets/content-staging-product-schedule-new-update.png){width="600" zoomable="yes"}
 
@@ -36,7 +36,7 @@ El siguiente ejemplo muestra cómo programar un cambio de precio temporal para u
 
    - Escriba un breve **[!UICONTROL Description]** de la actualización y cómo se va a usar.
 
-   - Use la herramienta Calendario (![Icono de calendario](../assets/icon-calendar.png)) para elegir las fechas de inicio **3} y de finalización** 5} para la campaña.****
+   - Use la herramienta Calendario (![Icono de calendario](../assets/icon-calendar.png)) para elegir las fechas de inicio **3&rbrace; y de finalización** 5&rbrace; para la campaña.**&#x200B;**
 
      Para crear una campaña abierta, no especifique una fecha de finalización (déjela en blanco). Para este ejemplo, la campaña está programada para comenzar a medianoche del 1 de enero de 2021 a las 12:00 AM PST.
 
@@ -49,7 +49,7 @@ El siguiente ejemplo muestra cómo programar un cambio de precio temporal para u
      >
      >La fecha de inicio y finalización de la campaña deben definirse usando la zona horaria del administrador **_default_**, que se convierte a partir de la zona horaria local de cada sitio web. Por ejemplo, cuando tiene varios sitios web en diferentes zonas horarias pero quiere iniciar una campaña basada en una zona horaria de EE. UU. (predeterminada), debe programar una actualización independiente para cada zona horaria local. En este caso, establezca **[!UICONTROL Start Date]** y **[!UICONTROL End Date]** como convertidos desde cada zona horaria del sitio web local a la zona horaria de administración predeterminada.
 
-1. Desplácese hasta _[!UICONTROL Price]_y haga clic en **[!UICONTROL Advanced Pricing]**.
+1. Desplácese hasta _[!UICONTROL Price]_&#x200B;y haga clic en **[!UICONTROL Advanced Pricing]**.
 
 1. Escriba un **[!UICONTROL Special Price]** para el producto durante la campaña programada y haga clic en **[!UICONTROL Done]**.
 

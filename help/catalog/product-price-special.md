@@ -50,7 +50,7 @@ Adobe Commerce incluye compatibilidad con [actualizaciones programadas](../conte
 
    En la tienda, el precio especial debe aparecer en la lista del catálogo y en la página del producto.
 
-   _[!UICONTROL Scheduled Change]_aparece en la parte superior de la página.
+   _[!UICONTROL Scheduled Change]_&#x200B;aparece en la parte superior de la página.
 
    ![Cambio programado](./assets/product-price-special-scheduled-change.png){width="600" zoomable="yes"}
 
@@ -62,7 +62,7 @@ Magento Open Source incluye opciones sencillas de fecha de inicio y finalizació
 
 1. Abra el producto en modo de edición.
 
-1. Desplácese hacia abajo hasta el campo _[!UICONTROL Price]_, haga clic en **[!UICONTROL Advanced Pricing]**e introduzca la cantidad **[!UICONTROL Special Price]**.
+1. Desplácese hacia abajo hasta el campo _[!UICONTROL Price]_, haga clic en **[!UICONTROL Advanced Pricing]**&#x200B;e introduzca la cantidad **[!UICONTROL Special Price]**.
 
 1. Usa el icono _Calendario_ (![Icono del calendario](../assets/icon-calendar.png) ) para elegir **[!UICONTROL Start Date]** y **[!UICONTROL End Date]** para la promoción de precio especial.
 
@@ -84,7 +84,7 @@ También puedes asignar un precio especial a varios productos, como múltiples v
 
 El siguiente ejemplo muestra cómo asignar el mismo precio especial a varias variaciones de producto de un producto configurable en Adobe Commerce.
 
-1. En la página _[!UICONTROL Products]_, haga clic en **[!UICONTROL Filters]**e introduzca **[!UICONTROL Name]**del producto configurable.
+1. En la página _[!UICONTROL Products]_, haga clic en **[!UICONTROL Filters]**&#x200B;e introduzca **[!UICONTROL Name]**&#x200B;del producto configurable.
 
 1. Establezca **[!UICONTROL Type]** en `Configurable Product` y haga clic en **[!UICONTROL Apply Filters]**.
 
@@ -94,7 +94,7 @@ El siguiente ejemplo muestra cómo asignar el mismo precio especial a varias var
 
 1. Establezca el control **[!UICONTROL Actions]** en `Update attributes`.
 
-1. Desplácese hacia abajo hasta el campo _[!UICONTROL Special Price]_, seleccione la casilla **[!UICONTROL Change]**situada debajo del campo_[!UICONTROL Special Price]_ e introduzca el precio especial que desea ofrecer.
+1. Desplácese hacia abajo hasta el campo _[!UICONTROL Special Price]_, seleccione la casilla **[!UICONTROL Change]**&#x200B;situada debajo del campo&#x200B;_[!UICONTROL Special Price]_ e introduzca el precio especial que desea ofrecer.
 
    ![Campos de precio especial](./assets/product-price-special-commerce.png){width="600" zoomable="yes"}
 

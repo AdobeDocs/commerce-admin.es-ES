@@ -116,7 +116,7 @@ Rellene la información de las secciones siguientes según sea necesario:
 
 >[!NOTE]
 >
->La opción _[!UICONTROL Is this downloadable product?]_está deshabilitada de manera predeterminada. Si habilita esta característica para un producto virtual, el producto [se puede descargar](product-create-downloadable.md#downloadable-product).
+>La opción _[!UICONTROL Is this downloadable product?]_&#x200B;está deshabilitada de manera predeterminada. Si habilita esta característica para un producto virtual, el producto [se puede descargar](product-create-downloadable.md#downloadable-product).
 
 ## Paso 6: Publish del producto
 

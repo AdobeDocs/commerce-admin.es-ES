@@ -18,7 +18,7 @@ Con Adobe Commerce o Magento Open Source 2.4, los comerciantes pueden usar el nu
 
 >[!NOTE]
 >
->Las imágenes de producto agregadas a la sección de productos [_[!UICONTROL Images and Videos]_](../catalog/product-image.md#upload-an-image) no son administradas por [!DNL Media Gallery]. Solo las imágenes utilizadas en los campos de la sección de productos_[!UICONTROL Content]_ se muestran y filtran en el nuevo [!DNL Media Gallery].
+>Las imágenes de producto agregadas a la sección de productos [_[!UICONTROL Images and Videos]_](../catalog/product-image.md#upload-an-image) no son administradas por [!DNL Media Gallery]. Solo las imágenes utilizadas en los campos de la sección de productos&#x200B;_[!UICONTROL Content]_ se muestran y filtran en el nuevo [!DNL Media Gallery].
 
 ## Habilitar el nuevo [!DNL Media Gallery]
 
@@ -56,7 +56,7 @@ Para acceder a la nueva Galería de medios al agregar o editar una página:
 
 1. Haga clic en **[!UICONTROL Add a New Page]**.
 
-   Si desea editar una página existente, puede usar la columna _[!UICONTROL Action]_para hacer clic en **[!UICONTROL Select]**y elegir **[!UICONTROL Edit]**.
+   Si desea editar una página existente, puede usar la columna _[!UICONTROL Action]_&#x200B;para hacer clic en **[!UICONTROL Select]**&#x200B;y elegir **[!UICONTROL Edit]**.
 
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Content]** y haga lo siguiente:
 

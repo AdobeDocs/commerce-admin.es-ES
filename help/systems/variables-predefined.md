@@ -27,11 +27,11 @@ Las variables [Predefined](variables-predefined.md) facilitan la personalizació
 
    - Para usar la variable en una plantilla nueva, haga clic en **[!UICONTROL Add New Template]** y personalice el código de plantilla predeterminado. Ver [Plantillas de mensajes](email-template-custom.md#message-templates).
 
-1. En _[!UICONTROL Load default template]_, elija el(la)**[!UICONTROL Template]**que desee personalizar.
+1. En _[!UICONTROL Load default template]_, elija el(la)**[!UICONTROL Template]**&#x200B;que desee personalizar.
 
 1. Para aplicar una plantilla, haga clic en **[!UICONTROL Load Template]**.
 
-   El campo _[!UICONTROL Currently used for]_muestra la ruta de configuración de la plantilla._[!UICONTROL Template Subject]_ y _[!UICONTROL Template Content]_se generan automáticamente en relación con la plantilla seleccionada.
+   El campo _[!UICONTROL Currently used for]_&#x200B;muestra la ruta de configuración de la plantilla._[!UICONTROL Template Subject]_ y _[!UICONTROL Template Content]_&#x200B;se generan automáticamente en relación con la plantilla seleccionada.
 
    - **[!UICONTROL Template Subject]**: este texto se muestra en la línea de asunto de un correo electrónico.
 

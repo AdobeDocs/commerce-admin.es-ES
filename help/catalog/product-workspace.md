@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Espacio de trabajo de productos
 
-El espacio de trabajo de productos es básicamente el mismo para todos los tipos de productos, aunque la selección de campos cambia según el conjunto de atributos que se utilice. Los atributos del producto se encuentran en la parte superior del formulario, seguidos de secciones ampliables de información del producto. Cuando se guarda un nuevo producto por primera vez, aparece el selector _[!UICONTROL Store View]_en la parte superior izquierda del formulario.
+El espacio de trabajo de productos es básicamente el mismo para todos los tipos de productos, aunque la selección de campos cambia según el conjunto de atributos que se utilice. Los atributos del producto se encuentran en la parte superior del formulario, seguidos de secciones ampliables de información del producto. Cuando se guarda un nuevo producto por primera vez, aparece el selector _[!UICONTROL Store View]_&#x200B;en la parte superior izquierda del formulario.
 
 ![Espacio de trabajo del producto](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 
@@ -39,7 +39,7 @@ Para expandir o contraer una sección, haga clic en el icono Expandir ![selector
 
 ## Menú [!UICONTROL Save]
 
-El menú _[!UICONTROL Save]_incluye varias opciones que permiten guardar y continuar, guardar y crear un producto, guardar y duplicar el producto o guardar y cerrar.
+El menú _[!UICONTROL Save]_&#x200B;incluye varias opciones que permiten guardar y continuar, guardar y crear un producto, guardar y duplicar el producto o guardar y cerrar.
 
 ![Menú Guardar](./assets/product-save-menu.png){width="600" zoomable="yes"}
 

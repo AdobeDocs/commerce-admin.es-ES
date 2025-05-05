@@ -130,13 +130,13 @@ Además de la configuración preestablecida de estado de pedidos, puede crear su
 
 1. En la cuadrícula _[!UICONTROL Order Status]_, busque el registro de estado del pedido que se va a anular.
 
-1. En la columna _[!UICONTROL Action]_del extremo derecho de la fila, haga clic en el vínculo **[!UICONTROL Unassign]**.
+1. En la columna _[!UICONTROL Action]_&#x200B;del extremo derecho de la fila, haga clic en el vínculo **[!UICONTROL Unassign]**.
 
    Aparece un mensaje en la parte superior del espacio de trabajo que indica que se ha anulado la asignación del estado del pedido. Aunque la etiqueta de estado del pedido sigue apareciendo en la lista, ya no está asignada a ningún estado. No se puede eliminar la configuración de estado del pedido.
 
 >[!NOTE]
 >
->Si el estado de pedido predeterminado es sin asignar del estado de pedido, _**otro**_ estado de pedido es _**establecido automáticamente**_ como predeterminado para este estado de pedido.
+>Si el estado de pedido predeterminado es sin asignar del estado de pedido, _&#x200B;**otro**&#x200B;_ estado de pedido es _&#x200B;**establecido automáticamente**&#x200B;_ como predeterminado para este estado de pedido.
 
 ## Notificación
 

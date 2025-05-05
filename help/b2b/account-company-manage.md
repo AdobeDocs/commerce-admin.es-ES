@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # Administrar cuentas de empresa
 
-La página _[!UICONTROL Companies]_enumera todas las cuentas de compañía actuales, independientemente del estado. Cualquier solicitud de aprobación pendiente aparecerá en la parte superior de la lista.
+La página _[!UICONTROL Companies]_&#x200B;enumera todas las cuentas de compañía actuales, independientemente del estado. Cualquier solicitud de aprobación pendiente aparecerá en la parte superior de la lista.
 
 ![Cuadrícula de compañías](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 Utilice el control *[!UICONTROL Columns]* para personalizar las columnas mostradas en la cuadrícula. Personalice las empresas mostradas en la vista mediante las funciones de búsqueda y filtrado.
 
-- Busque compañías en la cuadrícula **Compañías** usando _[!UICONTROL Search]_. La búsqueda indiza las columnas **Nombre de la compañía**y **Principal**.
+- Busque compañías en la cuadrícula **Compañías** usando _[!UICONTROL Search]_. La búsqueda indiza las columnas **Nombre de la compañía**&#x200B;y **Principal**.
 
 - Personalice la vista para incluir registros que cumplan criterios específicos utilizando [!UICONTROL Filter]. Por ejemplo, si el sitio B2B está configurado para administrar cuentas de una sola compañía y [jerarquías de compañías](manage-companies.md), puede filtrar por `[!UICONTROL Company Type - Company]` para mostrar solo compañías individuales, o por `[!UICONTROL Company Type - Parent]` para mostrar solo la compañía principal de cada jerarquía.
 
-Aplicar una acción a varios registros de compañía utilizando el control _[!UICONTROL Actions]_sobre la cuadrícula. Por ejemplo: en lugar de aprobar cada solicitud individual de empresa, puede seleccionar varias solicitudes para activar las cuentas en una sola acción. Las acciones disponibles dependen de los [permisos](../systems/permissions.md) para la función asignada a su cuenta de usuario administrador.
+Aplicar una acción a varios registros de compañía utilizando el control _[!UICONTROL Actions]_&#x200B;sobre la cuadrícula. Por ejemplo: en lugar de aprobar cada solicitud individual de empresa, puede seleccionar varias solicitudes para activar las cuentas en una sola acción. Las acciones disponibles dependen de los [permisos](../systems/permissions.md) para la función asignada a su cuenta de usuario administrador.
 
 ## Recursos de funciones de compañía
 

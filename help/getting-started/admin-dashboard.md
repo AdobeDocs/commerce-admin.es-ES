@@ -23,7 +23,7 @@ Si tiene una cantidad importante de datos para procesar, el gráfico se puede de
 
 ## Configuración del tablero
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**y complete cualquiera de las siguientes opciones de configuración.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;y complete cualquiera de las siguientes opciones de configuración.
 
 1. Cuando finalice la configuración, haga clic en **[!UICONTROL Save Config]**.
 
@@ -49,7 +49,7 @@ Para obtener más información acerca de las opciones de configuración de admin
 
 El tablero es la [página de inicio](../configuration-reference/advanced/admin.md) predeterminada para el administrador, aunque puede configurar una página de inicio diferente.
 
-1. Si todavía no tiene abiertas las opciones de configuración de administración, elija **[!UICONTROL Admin]** en _[!UICONTROL Advanced]_en el panel de navegación izquierdo.
+1. Si todavía no tiene abiertas las opciones de configuración de administración, elija **[!UICONTROL Admin]** en _[!UICONTROL Advanced]_&#x200B;en el panel de navegación izquierdo.
 
 1. Haga clic para expandir la sección **Página de inicio**.
 

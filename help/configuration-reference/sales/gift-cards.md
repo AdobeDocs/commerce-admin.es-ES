@@ -38,7 +38,7 @@ ht-degree: 1%
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Redeemable] | Global | Determina si el titular de la tarjeta de regalo puede canjear su valor por dinero en efectivo. Opciones: `Yes` / `No`. |
-| [!UICONTROL Lifetime (days)] | Global | Determina el número de días que la tarjeta es válida. Si se deja en blanco, la tarjeta no caduca. <br/><br/>**_Importante:_**En algunos lugares, es ilegal establecer datos de caducidad en tarjetas regalo. Compruebe las leyes locales antes de establecer una duración para sus tarjetas de regalo. |
+| [!UICONTROL Lifetime (days)] | Global | Determina el número de días que la tarjeta es válida. Si se deja en blanco, la tarjeta no caduca. <br/><br/>**_Importante:_**&#x200B;En algunos lugares, es ilegal establecer datos de caducidad en tarjetas regalo. Compruebe las leyes locales antes de establecer una duración para sus tarjetas de regalo. |
 | [!UICONTROL Allow Gift Message] | Vista de tienda | Determina si la opción de incluir un mensaje de regalo está disponible para los clientes que compran una tarjeta regalo. Opciones: `Yes` / `No`. |
 | [!UICONTROL Gift Message Maximum Length] | Vista de tienda | Determina el número máximo de caracteres permitidos en un mensaje de tarjeta regalo. Valor predeterminado: 255 |
 | [!UICONTROL Generate Gift Card Account when Order Item is] | Global | Determina si se genera una cuenta de tarjeta regalo cuando un cliente realiza un pedido o cuando se factura el pedido. Opciones: `Ordered` / `Invoiced` |

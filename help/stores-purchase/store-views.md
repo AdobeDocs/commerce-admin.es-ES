@@ -57,9 +57,9 @@ Si la instalación de Adobe Commerce o Magento Open Source tiene una instalació
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
 
-1. En la columna _[!UICONTROL Store View]_de la cuadrícula, haga clic en el nombre de la vista que desee editar.
+1. En la columna _[!UICONTROL Store View]_&#x200B;de la cuadrícula, haga clic en el nombre de la vista que desee editar.
 
-   Al editar la vista predeterminada, los campos _[!UICONTROL Store]_y_[!UICONTROL Status]_ no están disponibles.
+   Al editar la vista predeterminada, los campos _[!UICONTROL Store]_&#x200B;y_[!UICONTROL Status]_ no están disponibles.
 
    ![Vista de tienda - editar vista predeterminada](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 

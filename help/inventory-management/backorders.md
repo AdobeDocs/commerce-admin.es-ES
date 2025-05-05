@@ -47,7 +47,7 @@ Cuando los clientes compran los 25 productos disponibles, los nuevos pedidos se 
 
 >[!NOTE]
 >
->Cuando un cliente hace un pedido con _[!UICONTROL backorder qty]_, [!DNL Inventory Management] resta automáticamente la cantidad de la cantidad vendible. Si un pedido no se envía y se cancela, la cantidad vuelve a la cantidad virtual vendible agregada. La cantidad de pedido **_cancelado no se ha asignado a ninguno de los orígenes_**, pero se devuelve al número total de productos disponibles para la venta (columna_[!UICONTROL Salable Quantity]_ en la cuadrícula de productos).
+>Cuando un cliente hace un pedido con _[!UICONTROL backorder qty]_, [!DNL Inventory Management] resta automáticamente la cantidad de la cantidad vendible. Si un pedido no se envía y se cancela, la cantidad vuelve a la cantidad virtual vendible agregada. La cantidad de pedido **_cancelado no se ha asignado a ninguno de los orígenes_**, pero se devuelve al número total de productos disponibles para la venta (columna&#x200B;_[!UICONTROL Salable Quantity]_ en la cuadrícula de productos).
 
 <!--### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
 

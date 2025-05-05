@@ -32,7 +32,7 @@ La alerta en existencia crea un vínculo llamado _Notificarme cuando este produc
 
 1. En el panel izquierdo, expanda **[!UICONTROL Catalog]** y elija **[!UICONTROL Catalog]** debajo.
 
-1. Haga clic para expandir la sección _[!UICONTROL Product Alerts]_y haga lo siguiente:
+1. Haga clic para expandir la sección _[!UICONTROL Product Alerts]_&#x200B;y haga lo siguiente:
 
    ![Alertas de producto](assets/config-catalog-product-alerts.png){width="600" zoomable="yes"}
 

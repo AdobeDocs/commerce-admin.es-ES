@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Actualización de un perfil de cliente
 
-El panel izquierdo de la página _[!UICONTROL Customer Information]_incluye información sobre la actividad del cliente, las direcciones, las estadísticas de pedidos, los pedidos recientes, el contenido del carro de compras, las revisiones de productos y las suscripciones al boletín informativo.
+El panel izquierdo de la página _[!UICONTROL Customer Information]_&#x200B;incluye información sobre la actividad del cliente, las direcciones, las estadísticas de pedidos, los pedidos recientes, el contenido del carro de compras, las revisiones de productos y las suscripciones al boletín informativo.
 
 ![Perfil del cliente](assets/cust-profile.png){width="700" zoomable="yes"}
 

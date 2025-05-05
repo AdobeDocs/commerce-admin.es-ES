@@ -59,13 +59,13 @@ Cuando agrega un usuario de compañía, la primera compañía que asocia a la cu
 
 [!UICONTROL Customers grid] muestra una fila independiente para cada compañía a la que está asignado el usuario. Se actualizan las siguientes columnas.
 
-- La columna _[!UICONTROL Customer Type]_se actualiza para mostrar el rol asignado al usuario.
+- La columna _[!UICONTROL Customer Type]_&#x200B;se actualiza para mostrar el rol asignado al usuario.
 
-  Si es la primera vez que se asigna al cliente a una compañía, la columna _[!UICONTROL Customer Type]_se actualiza de_[!UICONTROL Individual user]_ a _[!UICONTROL Company User]_.
+  Si es la primera vez que se asigna al cliente a una compañía, la columna _[!UICONTROL Customer Type]_&#x200B;se actualiza de&#x200B;_[!UICONTROL Individual user]_ a _[!UICONTROL Company User]_.
 
-- La columna _[!UICONTROL Group]_cambia al nombre del grupo de clientes (o catálogo compartido) asignado a la compañía.
+- La columna _[!UICONTROL Group]_&#x200B;cambia al nombre del grupo de clientes (o catálogo compartido) asignado a la compañía.
 
-- La columna _[!UICONTROL Company]_muestra el nombre de la compañía a la que está ahora asociado el perfil del cliente.
+- La columna _[!UICONTROL Company]_&#x200B;muestra el nombre de la compañía a la que está ahora asociado el perfil del cliente.
 
 ## Asignar un usuario a una o varias cuentas de empresa
 
@@ -83,7 +83,7 @@ Al asignar un nuevo usuario, la primera compañía que asocia a la cuenta de usu
 
 ## Quitar la asignación de la empresa de una cuenta de usuario
 
-Al eliminar una compañía de un perfil de usuario, se anula el acceso de los usuarios a esa compañía. Los datos de usuario permanecen accesibles en el Administrador. Si quita todas las asignaciones de la compañía, _[!UICONTROL Customer Type]_cambia a *[!UICONTROL Individual user]*, lo que deshabilita las capacidades B2B de la cuenta.
+Al eliminar una compañía de un perfil de usuario, se anula el acceso de los usuarios a esa compañía. Los datos de usuario permanecen accesibles en el Administrador. Si quita todas las asignaciones de la compañía, _[!UICONTROL Customer Type]_&#x200B;cambia a *[!UICONTROL Individual user]*, lo que deshabilita las capacidades B2B de la cuenta.
 
 1. En la cuadrícula Cliente de la administración, edite el perfil del cliente que desea actualizar.
 

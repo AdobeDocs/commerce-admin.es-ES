@@ -26,7 +26,7 @@ Para simplificar el proceso de pago y envío, los clientes pueden firmar un acue
 
 ## Administrar acuerdos de facturación
 
-La página _[!UICONTROL Billing Agreements]_enumera todos los contratos de facturación entre su tienda y sus clientes. Los comerciantes pueden filtrar los registros según la información del acuerdo de facturación o del cliente, incluidos el ID de referencia del acuerdo de facturación, el estado y la fecha de creación. Cada registro incluye información general sobre el acuerdo de facturación y todos los pedidos de venta que lo han utilizado como método de pago. Puede consultar, cancelar o suprimir acuerdos de facturación de clientes. Solamente el administrador de la tienda puede eliminar un acuerdo de facturación cancelado.
+La página _[!UICONTROL Billing Agreements]_&#x200B;enumera todos los contratos de facturación entre su tienda y sus clientes. Los comerciantes pueden filtrar los registros según la información del acuerdo de facturación o del cliente, incluidos el ID de referencia del acuerdo de facturación, el estado y la fecha de creación. Cada registro incluye información general sobre el acuerdo de facturación y todos los pedidos de venta que lo han utilizado como método de pago. Puede consultar, cancelar o suprimir acuerdos de facturación de clientes. Solamente el administrador de la tienda puede eliminar un acuerdo de facturación cancelado.
 
 ### Ver un acuerdo de facturación
 
@@ -34,7 +34,7 @@ La página _[!UICONTROL Billing Agreements]_enumera todos los contratos de factu
 
 1. Busque el acuerdo de facturación en la lista y haga clic en para abrirlo.
 
-Cada página de acuerdo de facturación consta de dos fichas: _[!UICONTROL General Information]_y_[!UICONTROL Related Orders]_.
+Cada página de acuerdo de facturación consta de dos fichas: _[!UICONTROL General Information]_&#x200B;y_[!UICONTROL Related Orders]_.
 
 #### Información general
 

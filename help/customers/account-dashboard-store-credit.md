@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-La página _[!UICONTROL Store Credit]_del panel de control de cuenta del cliente enumera los importes de las devoluciones y reembolsos que se pueden aplicar a compras futuras. Los clientes también pueden canjear el valor de una tarjeta regalo.
+La página _[!UICONTROL Store Credit]_&#x200B;del panel de control de cuenta del cliente enumera los importes de las devoluciones y reembolsos que se pueden aplicar a compras futuras. Los clientes también pueden canjear el valor de una tarjeta regalo.
 
 ![Crédito de la tienda del cliente](assets/account-dashboard-store-credit.png){width="700" zoomable="yes"}
 

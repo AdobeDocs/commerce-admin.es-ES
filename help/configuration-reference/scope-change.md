@@ -27,7 +27,7 @@ El selector de Vista de tienda, situado en la esquina superior izquierda de much
 
 ## [!UICONTROL Use system value]
 
-La casilla de verificación _[!UICONTROL Use System Value]_a la derecha de muchas opciones de configuración se usa para aplicar o anular el valor de campo predeterminado dentro del ámbito de configuración actual. El valor del campo predeterminado no se puede cambiar cuando se selecciona la casilla de verificación. Para cambiar el valor, desactive la casilla de verificación e introduzca el nuevo valor. Se le pedirá que confirme cada vez que cambie el valor del sistema.
+La casilla de verificación _[!UICONTROL Use System Value]_&#x200B;a la derecha de muchas opciones de configuración se usa para aplicar o anular el valor de campo predeterminado dentro del ámbito de configuración actual. El valor del campo predeterminado no se puede cambiar cuando se selecciona la casilla de verificación. Para cambiar el valor, desactive la casilla de verificación e introduzca el nuevo valor. Se le pedirá que confirme cada vez que cambie el valor del sistema.
 
 La etiqueta de la casilla de verificación cambia según el ámbito actual y siempre hace referencia al nivel principal que está un paso por encima en la jerarquía del ámbito. Dado que el nivel primario es un contenedor para todos los elementos por debajo de ese nivel, la configuración de ámbito del nivel primario se hereda a menos que se anule.
 

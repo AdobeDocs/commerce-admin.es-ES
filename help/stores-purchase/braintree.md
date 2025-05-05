@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Si necesita ayuda con cargos inesperados en su tarjeta, visita la Página cancelar suscripción [](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) para obtener ayuda.
+>Si necesita ayuda con cargos inesperados en su tarjeta, visita la Página cancelar suscripción [&#128279;](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) para obtener ayuda.
 
 Braintree ofrece un experiencia de pago totalmente personalizable con detección de fraude e integración PayPal. Es compatible con [!DNL Apple Pay], [!DNL Google Pay], ACH, Venmo y métodos de pago locales. Braintree reduce la carga de cumplimiento PCI para los comerciantes porque la transacción se realiza en el sistema Braintree. La integración de Braintree Payments es desarrollada por [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/).
 
@@ -35,7 +35,7 @@ Vaya a [Braintree Payments][1] y regístrese para obtener una cuenta.
 
    - Si la instalación de Commerce tiene varios sitios web, tiendas o vistas, elija **[!UICONTROL Store View]** en la esquina superior izquierda donde se aplica la configuración.
 
-   - En la sección _[!UICONTROL Merchant Location]_, compruebe que **[!UICONTROL Merchant Country]**está establecido en la ubicación de su empresa.
+   - En la sección _[!UICONTROL Merchant Location]_, compruebe que **[!UICONTROL Merchant Country]**&#x200B;está establecido en la ubicación de su empresa.
 
 1. En _[!UICONTROL Recommended Solutions]_, en la sección_[!UICONTROL Braintree Payments] (por [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [Notas de la versión](https://support.gene.co.uk/support/solutions/articles/35000278668)_, haga clic en **[!UICONTROL Configure]**.
 
@@ -251,7 +251,7 @@ Vaya a [Braintree Payments][1] y regístrese para obtener una cuenta.
 
      >[!NOTE]
      >
-     >PayPal crédito solo está disponible en los Estados Unidos y el Reino Unido. PayPal crédito se desactiva si el valor seleccionado para el _[!UICONTROL Merchant Country]_campo no `US` es o `UK`.
+     >PayPal crédito solo está disponible en los Estados Unidos y el Reino Unido. PayPal crédito se desactiva si el valor seleccionado para el _[!UICONTROL Merchant Country]_&#x200B;campo no `US` es o `UK`.
 
    - Para incluir [!DNL PayPal PayLater] como opción de pago con Braintree, establezca en **[!UICONTROL Enable PayPal PayLater through Braintree]** `Yes`.
 
@@ -398,7 +398,7 @@ Cuando estas opciones están definidas, puedes ver la vista previa de los botone
 4. Establezca **[!UICONTROL Verify for Applicable Countries]** en una de las siguientes opciones:
 
    - `All Allowed Countries` - Customers from all [countries](../getting-started/store-details.md#country-options) specified in your store configuration can use this payment method.
-   - `Specific Countries` - After choosing this option, the _[!UICONTROL Verify for Specific Countries]_list appears. Hold down the Ctrl key (PC) or the Command key (Mac) and select each country in the list where customers can make purchases from your store.
+   - `Specific Countries` - After choosing this option, the _[!UICONTROL Verify for Specific Countries]_&#x200B;list appears. Hold down the Ctrl key (PC) or the Command key (Mac) and select each country in the list where customers can make purchases from your store.
 
    ![Configuración de verificación 3D](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png){width="600" zoomable="yes"}
 

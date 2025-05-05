@@ -150,7 +150,7 @@ La gestión de símbolos de moneda le permite personalizar el símbolo asociado 
 
    - Escriba un símbolo personalizado para cada moneda que desee usar o active la casilla de verificación **[!UICONTROL Use Standard]** para cada moneda.
 
-   - Para anular el símbolo predeterminado, desactive la casilla de verificación _[!UICONTROL Use Standard]_e introduzca el símbolo que desee utilizar.
+   - Para anular el símbolo predeterminado, desactive la casilla de verificación _[!UICONTROL Use Standard]_&#x200B;e introduzca el símbolo que desee utilizar.
 
    >[!NOTE]
    >

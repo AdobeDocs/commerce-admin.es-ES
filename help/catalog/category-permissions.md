@@ -24,13 +24,13 @@ Por ejemplo, si vende solamente a clientes mayoristas, puede permitir que cualqu
 
 ![Los usuarios que iniciaron sesión ven la categoría &quot;Colecciones&quot;](./assets/storefront-category-permissions-logged-in.png){width="600" zoomable="yes"}
 
-Cuando está habilitada, aparece una nueva sección _[!UICONTROL Category Permissions]_en la página Categoría que le permite aplicar el acceso necesario para cada categoría. Puede agregar varias reglas de permisos a cada categoría para diferentes sitios web y grupos de clientes.
+Cuando está habilitada, aparece una nueva sección _[!UICONTROL Category Permissions]_&#x200B;en la página Categoría que le permite aplicar el acceso necesario para cada categoría. Puede agregar varias reglas de permisos a cada categoría para diferentes sitios web y grupos de clientes.
 
 ## Paso 1: Configurar los permisos de categoría
 
 >[!IMPORTANT]
 >
->**_todas_** las categorías del catálogo omiten la configuración de permisos de grupo](../configuration-reference/catalog/catalog.md#category-permissions) de [existente cuando la característica **_[!UICONTROL Shared Catalog]_** está habilitada. [!UICONTROL Shared Catalog] controla completamente todos los permisos de categoría en el catálogo cuando está habilitado.
+>**_todas_** las categorías del catálogo omiten la configuración de permisos de grupo[&#128279;](../configuration-reference/catalog/catalog.md#category-permissions) de existente cuando la característica **_[!UICONTROL Shared Catalog]_** está habilitada. [!UICONTROL Shared Catalog] controla completamente todos los permisos de categoría en el catálogo cuando está habilitado.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -74,7 +74,7 @@ Para **_restringir el acceso y redirigir a una página de aterrizaje_**, haga lo
 
    >[!NOTE]
    >
-   >Aunque la configuración _[!UICONTROL Allow Browsing Category]_se aplica a todas las categorías del sitio web, puede configurar una página de aterrizaje diferente para cada vista de tienda.
+   >Aunque la configuración _[!UICONTROL Allow Browsing Category]_&#x200B;se aplica a todas las categorías del sitio web, puede configurar una página de aterrizaje diferente para cada vista de tienda.
 
 ### [!UICONTROL Display Product Prices]
 

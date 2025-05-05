@@ -147,7 +147,7 @@ El formulario se actualiza para reflejar el cambio.
 
 1. Para incluir el producto en la [lista de nuevos productos](../content-design/widget-new-products-list.md), seleccione la casilla de verificación **[!UICONTROL Set Product as New]**.
 
-1. Para asignar _[!UICONTROL Categories]_al producto, haga clic en el cuadro **[!UICONTROL Select…]**y realice una de las acciones siguientes:
+1. Para asignar _[!UICONTROL Categories]_&#x200B;al producto, haga clic en el cuadro **[!UICONTROL Select…]**&#x200B;y realice una de las acciones siguientes:
 
    **Elija una categoría existente**:
 
@@ -178,15 +178,15 @@ El formulario se actualiza para reflejar el cambio.
 
 ### Paso 5: Completar la información descargable
 
-Desplácese hacia abajo, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Downloadable Information]_y seleccione la casilla de verificación **[!UICONTROL Is this downloadable product?]**.
+Desplácese hacia abajo, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Downloadable Information]_&#x200B;y seleccione la casilla de verificación **[!UICONTROL Is this downloadable product?]**.
 
-Cuando está habilitada, la sección _[!UICONTROL Downloadable Information]_tiene dos partes. La primera parte describe cada vínculo de descarga y la segunda parte describe cada archivo de muestra. El valor predeterminado de muchas de estas opciones se puede establecer en la [configuración](#configure-the-download-options).
+Cuando está habilitada, la sección _[!UICONTROL Downloadable Information]_&#x200B;tiene dos partes. La primera parte describe cada vínculo de descarga y la segunda parte describe cada archivo de muestra. El valor predeterminado de muchas de estas opciones se puede establecer en la [configuración](#configure-the-download-options).
 
 ![Información descargable](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
 
 #### Completar los vínculos
 
-1. En la sección _[!UICONTROL Links]_, escriba el **[!UICONTROL Title]**que desee usar como encabezado para los vínculos de descarga.
+1. En la sección _[!UICONTROL Links]_, escriba el **[!UICONTROL Title]**&#x200B;que desee usar como encabezado para los vínculos de descarga.
 
 1. Si corresponde, active la casilla de verificación **[!UICONTROL Links can be purchased separately]**.
 
@@ -222,7 +222,7 @@ Cuando está habilitada, la sección _[!UICONTROL Downloadable Information]_tien
 
 #### Completar las muestras
 
-1. En la sección _[!UICONTROL Samples]_, escriba el **[!UICONTROL Title]**que desee usar como encabezado para las muestras.
+1. En la sección _[!UICONTROL Samples]_, escriba el **[!UICONTROL Title]**&#x200B;que desee usar como encabezado para las muestras.
 
 1. Para completar la información de cada muestra, haga clic en **[!UICONTROL Add Link]**.
 
@@ -274,7 +274,7 @@ En el menú _[!UICONTROL Save]_( ![flecha de menú](../assets/icon-menu-down-arr
 
 ## Experiencia en tienda
 
-En el panel de cuenta del cliente, la página _[!UICONTROL My Downloadable Products]_vincula a cada pedido de productos descargables. Las descargas están disponibles en la cuenta del cliente cuando se completa el pedido.
+En el panel de cuenta del cliente, la página _[!UICONTROL My Downloadable Products]_&#x200B;vincula a cada pedido de productos descargables. Las descargas están disponibles en la cuenta del cliente cuando se completa el pedido.
 
 ![Mis productos descargables](./assets/customer-account-my-downloadable-products.png){width="700" zoomable="yes"}
 
@@ -288,7 +288,7 @@ En la tabla siguiente se describen los valores de _Mis productos descargables_:
 | [!UICONTROL Status] | Estado de procesamiento del pedido. |
 | [!UICONTROL Remaining Downloads] | Número de descargas disponibles del producto descargado. |
 
-_**Para descargar un archivo de producto desde el panel de cuentas**_
+_&#x200B;**Para descargar un archivo de producto desde el panel de cuentas**&#x200B;_
 
 1. En su panel de cuentas, el cliente elige **[!UICONTROL My Downloadable Products]**.
 

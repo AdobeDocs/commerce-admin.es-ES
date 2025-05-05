@@ -26,9 +26,9 @@ Se deben cumplir los siguientes requisitos para que un producto complejo (como p
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Para el producto en la cuadrícula que desea agregar, vaya a la columna _[!UICONTROL Action]_y haga clic en **[!UICONTROL Edit]**.
+1. Para el producto en la cuadrícula que desea agregar, vaya a la columna _[!UICONTROL Action]_&#x200B;y haga clic en **[!UICONTROL Edit]**.
 
-1. Desplácese hacia abajo, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Product in Shared Catalogs]_y haga lo siguiente:
+1. Desplácese hacia abajo, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Product in Shared Catalogs]_&#x200B;y haga lo siguiente:
 
    - Seleccione la casilla de verificación de cada catálogo compartido en el que debe aparecer el producto. Para elegir todos los catálogos, haga clic en **[!UICONTROL Select all]**.
 
@@ -46,7 +46,7 @@ Se deben cumplir los siguientes requisitos para que un producto complejo (como p
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
-1. Para el catálogo compartido en la cuadrícula, vaya a la columna _[!UICONTROL Action]_y seleccione **[!UICONTROL Set Pricing and Structure]**.
+1. Para el catálogo compartido en la cuadrícula, vaya a la columna _[!UICONTROL Action]_&#x200B;y seleccione **[!UICONTROL Set Pricing and Structure]**.
 
 1. En el árbol de categorías, realice una de las acciones siguientes:
 

@@ -83,7 +83,7 @@ El formulario se actualiza para reflejar el cambio.
 
 1. Acepte la configuración predeterminada **[!UICONTROL Visibility]** de `Catalog, Search`.
 
-1. Para asignar _[!UICONTROL Categories]_al producto, haga clic en el cuadro **[!UICONTROL Select…]**y realice una de las acciones siguientes:
+1. Para asignar _[!UICONTROL Categories]_&#x200B;al producto, haga clic en el cuadro **[!UICONTROL Select…]**&#x200B;y realice una de las acciones siguientes:
 
    **Elija una categoría existente**:
 

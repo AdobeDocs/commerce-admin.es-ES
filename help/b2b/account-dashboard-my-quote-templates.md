@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL My Quote Templates]
 
-Si las ofertas están habilitadas, la sección _[!UICONTROL My Quotes Template]_del panel de control de cuentas del cliente enumera todas las plantillas de ofertas asociadas a la cuenta del cliente. Según sus permisos, solo los compradores que realizan compras en nombre de una empresa pueden solicitar una plantilla de presupuesto y negociar los precios de presupuesto y las condiciones de los pedidos recurrentes.
+Si las ofertas están habilitadas, la sección _[!UICONTROL My Quotes Template]_&#x200B;del panel de control de cuentas del cliente enumera todas las plantillas de ofertas asociadas a la cuenta del cliente. Según sus permisos, solo los compradores que realizan compras en nombre de una empresa pueden solicitar una plantilla de presupuesto y negociar los precios de presupuesto y las condiciones de los pedidos recurrentes.
 
 ![Mis plantillas de presupuesto](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
 
@@ -115,7 +115,7 @@ Los compradores pueden completar las siguientes acciones desde una oferta vincul
 
 En la página de plantilla de oferta, haga clic en **[!UICONTROL Cancel Quote Template]**.
 
-La plantilla de presupuesto se cancela y el estado de la oferta cambia a `Closed`. La oferta cerrada permanece en su lista de *[!UICONTROL Inactive]* comillas y permanece en la lista _[!UICONTROL Quote Templates]_de la administración.
+La plantilla de presupuesto se cancela y el estado de la oferta cambia a `Closed`. La oferta cerrada permanece en su lista de *[!UICONTROL Inactive]* comillas y permanece en la lista _[!UICONTROL Quote Templates]_&#x200B;de la administración.
 
 ## Administrar vínculos de documentos de referencia
 

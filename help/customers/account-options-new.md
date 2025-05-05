@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Nuevas opciones de cuenta de cliente
 
-En la sección _[!UICONTROL Create New Account Options]_de la configuración, las opciones básicas de la cuenta se combinan con opciones más avanzadas relacionadas con la validación de ID de IVA y las integraciones personalizadas. Las siguientes instrucciones cubren únicamente las opciones utilizadas con más frecuencia. Para obtener más información acerca de las asignaciones automáticas de grupos de clientes, consulte [Validación de IVA](../stores-purchase/vat.md).
+En la sección _[!UICONTROL Create New Account Options]_&#x200B;de la configuración, las opciones básicas de la cuenta se combinan con opciones más avanzadas relacionadas con la validación de ID de IVA y las integraciones personalizadas. Las siguientes instrucciones cubren únicamente las opciones utilizadas con más frecuencia. Para obtener más información acerca de las asignaciones automáticas de grupos de clientes, consulte [Validación de IVA](../stores-purchase/vat.md).
 
 ![Crear nuevas opciones de cuenta](assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 
@@ -54,6 +54,6 @@ En la sección _[!UICONTROL Create New Account Options]_de la configuración, la
 
    ![Crear nuevas opciones de cuenta con IVA habilitado](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
 
-   Para obtener información detallada sobre cada una de las opciones disponibles en este conjunto de opciones de configuración, consulte la _Referencia de configuración](../configuration-reference/customers/customer-configuration.md) de [Crear nuevas opciones de cuenta_.
+   Para obtener información detallada sobre cada una de las opciones disponibles en este conjunto de opciones de configuración, consulte la _Referencia de configuración[&#128279;](../configuration-reference/customers/customer-configuration.md) de Crear nuevas opciones de cuenta_.
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.

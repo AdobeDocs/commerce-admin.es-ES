@@ -28,17 +28,17 @@ Para administrar el uso de la persistencia del carro de compras en el sitio o en
 
 Cuando el carro de compras persistente está [habilitado](#configure-a-persistent-cart), el flujo de trabajo depende de lo siguiente:
 
-- Los valores de la configuración _[!UICONTROL Enable Remember Me]_y_[!UICONTROL Clear Persistence on Log Out]_
+- Los valores de la configuración _[!UICONTROL Enable Remember Me]_&#x200B;y_[!UICONTROL Clear Persistence on Log Out]_
 - La decisión del cliente de activar o desactivar la casilla de verificación _[!UICONTROL Remember Me]_
 - Cuando se borra la cookie persistente
 
 Cuando caduca la sesión del cliente, se muestra un `Not Jane Smith?` vincular en el encabezado del Página con las siguientes condiciones:
-- El cliente conectado ha seleccionado la _[!UICONTROL Remember Me]_opción y se aplica un Cookies persistentes
+- El cliente conectado ha seleccionado la _[!UICONTROL Remember Me]_&#x200B;opción y se aplica un Cookies persistentes
 - El cliente cierra la sesión cuando el sistema se configura con configurado como _[!UICONTROL Clear Persistence on Sign Out]_`No`.
 
 El sistema conserva un registro del contenido del carro de compras en el dispositivos actual, igualado si caduca la sesión iniciada. El `Not Jane Smith?` vincular permite al cliente terminar la sesión persistente y inicio trabajando como invitado, o iniciar sesión como un cliente diferente o el mismo.
 
-Si el cliente marcó la casilla de _[!UICONTROL Remember Me]_verificación al registro entrar, el tienda crea y mantiene un Cookies persistentes separado. Este cookie ayuda a mantener el carro de compras del cliente accesible igualado después de que cierre el explorador o navegue a un sitio diferente y su sesión de inicio de sesión expire.
+Si el cliente marcó la casilla de _[!UICONTROL Remember Me]_&#x200B;verificación al registro entrar, el tienda crea y mantiene un Cookies persistentes separado. Este cookie ayuda a mantener el carro de compras del cliente accesible igualado después de que cierre el explorador o navegue a un sitio diferente y su sesión de inicio de sesión expire.
 
 Si este mismo cliente visita su tienda con varios navegadores mientras está conectado o mientras una sesión persistente está activa, los cambios que el cliente haga en el contenido del carro de compras en un navegador se reflejarán en otros navegadores cuando se actualice la página.
 
@@ -48,7 +48,7 @@ Si este mismo cliente visita su tienda con varios navegadores mientras está con
 
 ### Comportamiento de la casilla de verificación &quot;Recordarme&quot;
 
-Los clientes pueden seleccionar la _[!UICONTROL Remember Me]_casilla de verificación en la inicio de sesión Página, la ventana emergente de autenticación, los inicios de sesión de cierre de compra o al crear un nuevo cuenta para mantener el contenido del carro de compras accesible en el dispositivos actual cuando expire la sesión iniciada.
+Los clientes pueden seleccionar la _[!UICONTROL Remember Me]_&#x200B;casilla de verificación en la inicio de sesión Página, la ventana emergente de autenticación, los inicios de sesión de cierre de compra o al crear un nuevo cuenta para mantener el contenido del carro de compras accesible en el dispositivos actual cuando expire la sesión iniciada.
 
 | ¿Recuérdame? | Resultado |
 | ------------ |  ------ |

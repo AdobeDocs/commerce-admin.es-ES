@@ -56,7 +56,7 @@ Los impuestos de la tienda se calculan según la dirección de la tienda. El imp
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
 
-1. Busque la tasa de impuestos en la cuadrícula _[!UICONTROL Tax Zones and Rates]_y abra el registro en modo de edición.
+1. Busque la tasa de impuestos en la cuadrícula _[!UICONTROL Tax Zones and Rates]_&#x200B;y abra el registro en modo de edición.
 
    Si hay muchas tarifas en la lista, usa los [controles de filtro](../getting-started/admin-grid-controls.md) para encontrar la tarifa que necesitas.
 

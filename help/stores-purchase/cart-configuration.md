@@ -321,7 +321,7 @@ La imagen del envoltorio para regalos debe ser una muestra que muestre el patró
 
 1. Para cargar una miniatura **[!UICONTROL Image]** del envoltorio para regalos, haga clic en **[!UICONTROL Choose File]** y seleccione el archivo que desea cargar desde el directorio.
 
-   Aparece una miniatura de la imagen en _[!UICONTROL Gift Wrapping Information]_después de guardar el registro.
+   Aparece una miniatura de la imagen en _[!UICONTROL Gift Wrapping Information]_&#x200B;después de guardar el registro.
 
 1. Haga clic en **[!UICONTROL Save]**.
 

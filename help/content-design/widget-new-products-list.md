@@ -22,7 +22,7 @@ La lista de nuevos productos es un ejemplo de contenido dinámico y consiste en 
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Para las tiendas Adobe Commerce, consulta [Programando una actualización](content-staging-scheduled-update.md) y continúa con el Paso 2 de esta página.
 
-La configuración del intervalo de fechas _[!UICONTROL Set Product as New]_solo se puede configurar en actualizaciones programadas.
+La configuración del intervalo de fechas _[!UICONTROL Set Product as New]_&#x200B;solo se puede configurar en actualizaciones programadas.
 
 Al establecer un producto como nuevo, se agrega el producto a la lista _Nuevos productos_. Puede volver a cambiar la configuración en cualquier momento en el que ya no desee incluirla en la lista.
 

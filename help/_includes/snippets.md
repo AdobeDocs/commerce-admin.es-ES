@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## Configuration settings {#config}
 
-To access the store configuration settings, choose **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**from the_ Admin _sidebar.
+To access the store configuration settings, choose **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;from the_ Admin _sidebar.
 
 ## UPS API deprecation {#ups-api}
 

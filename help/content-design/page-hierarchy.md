@@ -59,7 +59,7 @@ Para vincular a un nodo, use la herramienta [Widget](widgets.md) para crear un v
 
 1. Sobre la cuadrícula, haga clic en **[!UICONTROL Add Node...]**.
 
-1. En _[!UICONTROL Page Properties]_, escriba un **[!UICONTROL Title]**para el nodo y un **[!UICONTROL URL Key]**adecuado.
+1. En _[!UICONTROL Page Properties]_, escriba un **[!UICONTROL Title]**&#x200B;para el nodo y un **[!UICONTROL URL Key]**&#x200B;adecuado.
 
    La clave URL proporciona una dirección web única para el nodo. Debe tener todos los caracteres en minúsculas, con guiones para separar las palabras, en lugar de los espacios.
 
@@ -85,7 +85,7 @@ Para vincular a un nodo, use la herramienta [Widget](widgets.md) para crear un v
 
 1. Haga clic en el nodo en la parte superior de la jerarquía.
 
-   La sección _[!UICONTROL Page Properties]_ahora muestra información sobre el nodo.
+   La sección _[!UICONTROL Page Properties]_&#x200B;ahora muestra información sobre el nodo.
 
 1. En **[!UICONTROL Render Metadata in HTML Head]**, haga lo siguiente:
 
