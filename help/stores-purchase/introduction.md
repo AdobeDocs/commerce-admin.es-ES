@@ -39,7 +39,7 @@ Los clientes a veces necesitan ayuda para completar una compra. A algunos client
 
 Consulta este vídeo para obtener más información sobre las compras asistidas por el vendedor:
 
->[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411830/?quality=12&learn=on&captions=spa)
 
 ## Gestión de pedidos y operaciones
 

@@ -84,7 +84,7 @@ El proceso de creación de una regla de producto relacionada es similar a la con
 
 Vea este vídeo para obtener más información sobre la creación de reglas de producto relacionadas:
 
->[!VIDEO](https://video.tv.adobe.com/v/343837?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411061?quality=12&learn=on&captions=spa)
 
 ## Descripciones de campos
 

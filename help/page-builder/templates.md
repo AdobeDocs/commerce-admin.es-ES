@@ -91,4 +91,4 @@ La cuadrícula _Aplicar plantilla_ y la cuadrícula de página _Plantillas_ prop
 
 Vea este vídeo para obtener más información sobre las plantillas de contenido de Page Builder:
 
->[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410841?quality=12&learn=on&captions=spa)

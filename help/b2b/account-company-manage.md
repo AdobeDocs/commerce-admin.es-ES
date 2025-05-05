@@ -208,7 +208,7 @@ El administrador de la empresa y también un administrador de la tienda pueden m
 
 Para obtener más información sobre la administración de cuentas de empresa, consulte este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410770?quality=12&learn=on&captions=spa)
 
 ## Administración de empresa
 

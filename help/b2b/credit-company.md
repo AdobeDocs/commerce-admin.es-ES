@@ -119,4 +119,4 @@ Si el comerciante cancela un pedido que se cargó al crédito de la compañía, 
 
 Obtenga información acerca de la administración del crédito de la empresa viendo este vídeo de demostración:
 
->[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410758?quality=12&learn=on&captions=spa)

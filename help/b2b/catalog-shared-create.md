@@ -111,7 +111,7 @@ Después de crear un nuevo catálogo compartido, debe configurarse con la selecc
 
 Para ver una demostración de la administración de catálogos compartidos, vea este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/344446?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410752?quality=12&learn=on&captions=spa)
 
 ## Referencia de página de catálogo compartido
 

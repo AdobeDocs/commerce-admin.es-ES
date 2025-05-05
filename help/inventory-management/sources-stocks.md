@@ -65,4 +65,4 @@ Las siguientes son opciones importantes que se deben entender para [!DNL Invento
 
 Vea este vídeo para obtener más información sobre las fuentes y las existencias de Inventory management:
 
->[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411829?quality=12&learn=on&captions=spa)

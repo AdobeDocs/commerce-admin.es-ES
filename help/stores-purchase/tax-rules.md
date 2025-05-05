@@ -96,4 +96,4 @@ Las reglas fiscales incorporan una combinación de clase de producto, clase de c
 
 Obtenga información acerca de la administración de reglas monetarias y fiscales con este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411832/?quality=12&learn=on&captions=spa)

@@ -40,4 +40,4 @@ Si tiene una cuenta comercial con uno o más [proveedores de servicios de soport
 
 Para obtener más información sobre los métodos de envío y entrega, consulte este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411831/?quality=12&learn=on&captions=spa)
