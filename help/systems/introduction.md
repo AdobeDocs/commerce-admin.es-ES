@@ -2,9 +2,9 @@
 title: Introducción a los sistemas de administración
 description: Obtenga información sobre los sistemas, herramientas y funciones que el administrador de la tienda puede utilizar para administrar de forma eficaz los sitios, los datos, las integraciones y los usuarios administradores.
 exl-id: 52792a89-8f6f-4230-9a04-e193b3943410
-source-git-commit: 46564240e7f76cf2a691c209b36d530763ba4f01
+source-git-commit: 51c8b526e1f03e65ad71eb00ec3cdf82365bd33c
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Las variables son fragmentos de información que se pueden crear una vez y utili
 - [Variables predefinidas](variables-predefined.md)
 - [Variables personalizadas](variables-custom.md)
 
-Una de las tareas a completar antes de lanzar su tienda es revisar las plantillas de correo electrónico que se utilizan para todas las comunicaciones enviadas desde su tienda para asegurarse de que reflejen su marca. Esto incluye personalizar las plantillas de correo electrónico y [boletines](../merchandising-promotions/newsletter-template.md), y las facturas y los albaranes de PDF. También incluye la personalización del contenido con variables y [etiquetas de marcado](markup-tags.md).
+Una de las tareas a completar antes de lanzar su tienda es revisar las plantillas de correo electrónico que se utilizan para todas las comunicaciones enviadas desde su tienda para asegurarse de que reflejen su marca. Esto incluye la personalización de las plantillas de correo electrónico y [newsletter](../merchandising-promotions/newsletter-template.md), y las facturas y los albaranes de PDF. También incluye la personalización del contenido con variables y [etiquetas de marcado](markup-tags.md).
 
 ## Gestión de operaciones
 
@@ -32,4 +32,4 @@ El administrador también admite varias tareas para que los administradores de s
 - **Transferencia de datos** - Usa las herramientas de [transferencia de datos](data-transfer.md) para importar y exportar datos, así como para administrar datos de productos, precios, clientes y tasas de impuestos.
 - **Integraciones**: establezca la ubicación de las credenciales de OAuth y redirija la URL para [integraciones de terceros](integrations.md), e identifique los recursos de API disponibles.
 - **Registros de acciones** - ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Accede a los registros ([registros de acciones](action-log.md)) para los cambios realizados por los usuarios administradores que trabajan en tu tienda.
-- **Herramientas de soporte técnico** - ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Las herramientas de soporte técnico ([Recopilador de datos](support.md#data-collector) e [Informes del sistema](support.md#access-system-reports)) están diseñadas para identificar problemas conocidos en su sistema. Pueden utilizarse como recurso durante los procesos de desarrollo y optimización, y como herramienta de diagnóstico para ayudar a nuestro equipo de asistencia a identificar y resolver problemas.
+- **Herramientas de soporte técnico** - ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) [Informes del sistema](support.md#access-system-reports) están diseñados para identificar problemas conocidos en su sistema. Pueden utilizarse como recurso durante los procesos de desarrollo y optimización, y como herramienta de diagnóstico para ayudar a nuestro equipo de asistencia a identificar y resolver problemas.
