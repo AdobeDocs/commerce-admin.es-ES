@@ -3,23 +3,24 @@ title: Vínculo de flujo de pago PayPal
 description: Aprenda a configurar PayPal Payflow Link como solución de pago en línea en su tienda.
 exl-id: dba4057e-1fea-4a23-8594-cc85f619d664
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '2161'
+source-wordcount: '2178'
 ht-degree: 0%
 
 ---
 
 # Vínculo de flujo de pago PayPal
 
-PayPal Payflow Link solo está disponible para comerciantes de Estados Unidos y Canadá. Los clientes no tienen que tener una cuenta personal de PayPal e introducir la información de su tarjeta de crédito en un formulario alojado por PayPal. La información nunca se almacena en el servidor de Adobe Commerce o de Magento Open Source. El vínculo de flujo de pago no se puede utilizar para pedidos creados desde el administrador.
+PayPal Payflow Link solo está disponible para comerciantes de Estados Unidos y Canadá. Los clientes no tienen que tener una cuenta personal de PayPal e introducir la información de su tarjeta de crédito en un formulario alojado por PayPal. La información nunca se almacena en el servidor de Adobe Commerce o Magento Open Source. El vínculo de flujo de pago no se puede utilizar para pedidos creados desde el administrador.
 
 Las notas de abono son compatibles con los reembolsos en línea y sin conexión. Sin embargo, no se admiten varios reembolsos en línea.
 
 >[!IMPORTANT]
 >
->**Requisitos del PSD 2:** <br/>
->A partir del 14 de septiembre de 2019, los bancos europeos podrían rechazar los pagos que no cumplan los requisitos de [PSD 2](../getting-started/compliance-payment-services-directive.md). Para cumplir con PSD2, PayPal Payflow Link debe estar integrado con Cardinal Commerce. Para obtener más información, consulta [3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/).
+>**Requisitos de PSD2:** <br/>
+>A partir del 14 de septiembre de 2019, los bancos europeos podrían rechazar los pagos que no cumplan los requisitos de [PSD2](../getting-started/compliance-payment-services-directive.md). Para cumplir con PSD2, PayPal Payflow Link debe estar integrado con Cardinal Commerce. Para obtener más información, consulta [3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/).
 
 ## Requisitos
 
@@ -98,7 +99,7 @@ Este método de configuración supone que ya tienes una cuenta PayPal.
 
 1. Si la instalación de Commerce tiene varios sitios web, tiendas o vistas, establezca **[!UICONTROL Store View]** en la vista de tienda en la que desee aplicar esta configuración.
 
-1. En la sección _[!UICONTROL Merchant Location]_, seleccione **[!UICONTROL Merchant Country]**&#x200B;donde se encuentra su empresa.
+1. En la sección _[!UICONTROL Merchant Location]_, seleccione **[!UICONTROL Merchant Country]**donde se encuentra su empresa.
 
    Esta configuración determina la selección de soluciones de PayPal que aparecen en la configuración.
 
@@ -364,7 +365,7 @@ Establezca **[!UICONTROL Enable PayPal PayLater Experience]** en una de las sigu
 
 #### Configuración de experiencia de front-end
 
-Use _[!UICONTROL Frontend Experience Settings]_&#x200B;para elegir los logotipos de PayPal que aparecerán en el sitio y personalizar el aspecto de las páginas de comerciantes de PayPal.
+Use _[!UICONTROL Frontend Experience Settings]_para elegir los logotipos de PayPal que aparecerán en el sitio y personalizar el aspecto de las páginas de comerciantes de PayPal.
 
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Frontend Experience Settings]**.
 
@@ -419,7 +420,7 @@ Use _[!UICONTROL Frontend Experience Settings]_&#x200B;para elegir los logotipos
    - `Authorization` - Aprueba la compra y suspende los fondos. La cantidad no se retira hasta que el comerciante _la capture_.
    - `Sale`: el importe de la compra se autoriza y se retira inmediatamente de la cuenta del cliente.
 
-1. Para mostrar el botón _[!UICONTROL Check out with PayPal]_&#x200B;en la página de productos, establezca **[!UICONTROL Display on Product Details Page]**&#x200B;en `Yes`.
+1. Para mostrar el botón _[!UICONTROL Check out with PayPal]_en la página de productos, establezca **[!UICONTROL Display on Product Details Page]**en `Yes`.
 
 ### Paso 7: Completa la configuración avanzada de Pago y envío de PayPal Express
 

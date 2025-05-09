@@ -3,9 +3,10 @@ title: PayPal Payflow Pro
 description: Aprenda a configurar PayPal Payflow Pro como solución de pago en línea en su tienda.
 exl-id: c720b33c-44e1-4954-b5be-38932393a43c
 feature: Payments
-source-git-commit: c0d6523f820558c8cd6cfa6b745568784b9e784c
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2211'
 ht-degree: 0%
 
 ---
@@ -18,14 +19,14 @@ La pasarela PayPal Payflow Pro, anteriormente conocida como _Verisign_, está di
 
 >[!IMPORTANT]
 >
->**Requisitos del PSD 2:** <br/>
->A partir del 14 de septiembre de 2019, los bancos europeos podrían rechazar los pagos que no cumplan los requisitos de [PSD 2](../getting-started/compliance-payment-services-directive.md). Para cumplir con PSD2, PayPal Payflow Pro debe estar integrado con un complemento de terceros. Para obtener más información, consulta [3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-mpi/).
+>**Requisitos de PSD2:** <br/>
+>A partir del 14 de septiembre de 2019, los bancos europeos podrían rechazar los pagos que no cumplan los requisitos de [PSD2](../getting-started/compliance-payment-services-directive.md). Para cumplir con PSD2, PayPal Payflow Pro debe estar integrado con un complemento de terceros. Para obtener más información, consulta [3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-mpi/).
 
 ## Requisitos
 
 - [Cuenta comercial de PayPal][1]: la puerta de enlace PayPal Payflow Pro vincula la cuenta de comerciante de PayPal con el sitio web del comerciante, actuando como puerta de enlace y como cuenta de comerciante.
 
-- Si administra varios sitios web de Magento Open Source y Adobe Commerce, debe tener una cuenta de comerciante de PayPal independiente para cada sitio web.
+- Si administra varios sitios web de Adobe Commerce y Magento Open Source, debe tener una cuenta de comerciante de PayPal independiente para cada sitio web.
 
 ## Flujo de trabajo del cliente
 
@@ -113,7 +114,7 @@ Este método de configuración supone que ya tienes una cuenta PayPal.
 
 1. Si la instalación de Commerce tiene varios sitios web, tiendas o vistas, establezca **[!UICONTROL Store View]** en la vista de tienda en la que desee aplicar esta configuración.
 
-1. En la sección _[!UICONTROL Merchant Location]_, seleccione **[!UICONTROL Merchant Country]**&#x200B;donde se encuentra su empresa.
+1. En la sección _[!UICONTROL Merchant Location]_, seleccione **[!UICONTROL Merchant Country]**donde se encuentra su empresa.
 
    Esta configuración determina la selección de soluciones de PayPal que aparecen en la configuración.
 
@@ -448,7 +449,7 @@ Utilice la Configuración de experiencia de front-end para elegir qué logotipos
    - `Authorization` - Aprueba la compra y suspende los fondos. La cantidad no se retira hasta que el comerciante _la capture_.
    - `Sale`: el importe de la compra se autoriza y se retira inmediatamente de la cuenta del cliente.
 
-1. Para mostrar el botón _[!UICONTROL Check out with PayPal]_&#x200B;en la página de productos, establezca **[!UICONTROL Display on Product Details Page]**&#x200B;en `Yes`.
+1. Para mostrar el botón _[!UICONTROL Check out with PayPal]_en la página de productos, establezca **[!UICONTROL Display on Product Details Page]**en `Yes`.
 
 ### Paso 7: Completa la configuración avanzada de Pago y envío de PayPal Express
 

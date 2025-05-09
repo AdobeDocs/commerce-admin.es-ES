@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
 description: Revise la configuración en la página [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] del administrador de Commerce.
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 489c72652693a15ffe1c745277bbaa9da084dcba
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1772'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,17 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Payment Services para Adobe Commerce y Magento Open Source proporciona una solución de autoservicio llave en mano que incluye pruebas de zona protegida y una configuración sencilla para proporcionar un procesamiento de pagos sólido y seguro. Para obtener más información sobre este potente conjunto de herramientas y cómo puede proporcionarte la perspectiva y el control que necesitas para crear la mejor experiencia para tus compradores, consulta la [_Guía del usuario de servicios de pago_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=es).
+>Payment Services para Adobe Commerce y Magento Open Source proporciona una solución de autoservicio llave en mano que incluye pruebas de zona protegida y una configuración sencilla para proporcionar un procesamiento de pagos sólido y seguro. Para obtener más información sobre este potente conjunto de herramientas y cómo puede proporcionarte el control y el insight que necesitas para crear la mejor experiencia para tus compradores, consulta la [_Guía del usuario de servicios de pago_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html).
 
 {{config}}
 
 ## [!UICONTROL Merchant Location]
 
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+
 ![Ubicación del comerciante](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
-<!-- [Merchant Location](https://experienceleague.adobe.com/es/docs/commerce-admin/start/setup/store-details#merchant-location) -->
+<!-- [Merchant Location](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#merchant-location) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -34,31 +36,37 @@ ht-degree: 0%
 
 Las siguientes soluciones de pago se recomiendan como una manera fácil para los comerciantes que están empezando a aceptar pagos en línea por cuenta PayPal o tarjeta de crédito. A medida que tu negocio crezca, puedes combinarlo con soluciones de pago adicionales de PayPal.
 
-- [Pago y envío con PayPal Express](paypal-express-checkout.md)
-- [Braintree](braintree.md)
 - [Servicios de pago](payment-services.md)
+- [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} [Pago y envío de PayPal Express](paypal-express-checkout.md)
+- [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} [Braintree](braintree.md)
 
 >[!NOTE]
 >
->Algunas integraciones de pago y extensiones agrupadas se han eliminado en las versiones 2.4.x y se han trasladado a Commerce Marketplace. Puedes encontrar las extensiones de integración de pagos oficiales más recientes en [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"}.
+>Algunas integraciones de pago y extensiones agrupadas se han eliminado en las versiones 2.4.x y se han trasladado a Commerce Marketplace. Puede encontrar las extensiones de integración de pagos oficiales más recientes en [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"}.
 ><br/>
 >**Amazon Pay** y **Klarna**: las versiones 2.4.0 a 2.4.3 de Adobe Commerce y Magento Open Source incluían estas extensiones desarrolladas por el proveedor. A partir de la versión 2.4.4, estas extensiones ya no se incluyen en la versión principal y deben instalarse y actualizarse desde Commerce Marketplace. Marketplace también proporciona acceso a la documentación actual proporcionada por el desarrollador de extensiones.
 ><br/>
->Si tiene alguna de estas extensiones agrupadas habilitada y configurada, debe actualizar el archivo `composer.json` como parte del proceso de actualización de la versión 2.4.4 y administrar las actualizaciones de extensión que se realicen. Consulte [Módulos de actualización](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=es) en la _Guía de actualización_ para obtener más información.<br/>
+>Si tiene alguna de estas extensiones agrupadas habilitada y configurada, debe actualizar el archivo `composer.json` como parte del proceso de actualización de la versión 2.4.4 y administrar las actualizaciones de extensión que se realicen. Consulte [Módulos de actualización](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) en la _Guía de actualización_ para obtener más información.<br/>
 ><br/>
 >**Worldpay**, **Eway**, **CyberSource** y **Authorize.Net**: Para obtener más información sobre cómo realizar una transición segura a partir de estas integraciones de pago, consulta [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
 
 ## Otros métodos de PayPal
 
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+
 PayPal ofrece varias soluciones de pago que satisfacen las necesidades de las empresas de todos los tamaños, y que se dedican a los negocios en todo el mundo. PayPal te permite aceptar pagos de todas las principales tarjetas de débito y crédito. PayPal ofrece comodidad adicional sin esfuerzo adicional, porque incluso los clientes que no tienen una cuenta PayPal pueden pagar sus compras con PayPal.
 
 ### Métodos todo en uno de PayPal
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 - [Pago mediante PayPal avanzado](paypal-payments-advanced.md)
 - [PayPal Payments Pro](paypal-payments-pro.md)
 - [PayPal Payments Standard](paypal-payments-standard.md)
 
 ### Puertas de pago PayPal
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 - [PayPal Payflow Pro](paypal-payflow-pro.md) (incluye Pago y envío exprés)
 - [Vínculo de flujo de pago de PayPal](paypal-payflow-link.md) (incluye Pago y envío exprés)
@@ -71,7 +79,7 @@ Los siguientes métodos de pago están incorporados en Commerce y no utilizan un
 
 ![Cheque / giro postal](./assets/payment-methods-check-money-order.png)<!-- zoom -->
 
-<!-- [Check / Money Order](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
+<!-- [Check / Money Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -83,7 +91,7 @@ Los siguientes métodos de pago están incorporados en Commerce y no utilizan un
 | [!UICONTROL Make Check Payable to] | Vista de tienda | El nombre de la entidad a la que deben hacerse pagaderos los cheques y las órdenes de pago. |
 | [!UICONTROL Send Check to] | Vista de tienda | La dirección postal a la que deben enviarse los cheques y giros postales. |
 | [!UICONTROL Minimum Order Total] | Sitio web | La cantidad de pedido más pequeña que se puede pagar por cheque o giro postal. |
-| [!UICONTROL Maximum Order Total] | Sitio web | La mayor cantidad de pedido que se puede pagar por cheque o giro postal. <br/><br/>**_Nota:_**&#x200B;Un pedido califica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
+| [!UICONTROL Maximum Order Total] | Sitio web | La mayor cantidad de pedido que se puede pagar por cheque o giro postal. <br/><br/>**_Nota:_**Un pedido califica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
 | [!UICONTROL Sort Order] | Sitio web | Un número que determina el orden en que aparece el pago mediante cheque o giro postal cuando se enumera con otros métodos de pago durante el pago. Escriba `0` para colocarlo al principio de la lista. |
 
 {style="table-layout:auto"}
@@ -92,7 +100,7 @@ Los siguientes métodos de pago están incorporados en Commerce y no utilizan un
 
 ![Pago de transferencia bancaria](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 
-<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
+<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -102,7 +110,7 @@ Los siguientes métodos de pago están incorporados en Commerce y no utilizan un
 | [!UICONTROL Payment from Applicable Countries] | Sitio web | Determina los países desde los que se acepta el pago mediante transferencia bancaria. Opciones: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Sitio web | Identifica los países específicos desde los que se acepta el pago mediante transferencia bancaria. |
 | [!UICONTROL Minimum Order Total] | Sitio web | El importe de pedido más pequeño que se puede pagar por transferencia bancaria. |
-| [!UICONTROL Maximum Order Total] | Sitio web | La mayor cantidad de pedido que se puede pagar por transferencia bancaria. <br/><br/>**_Nota:_**&#x200B;Un pedido califica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
+| [!UICONTROL Maximum Order Total] | Sitio web | La mayor cantidad de pedido que se puede pagar por transferencia bancaria. <br/><br/>**_Nota:_**Un pedido califica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
 | [!UICONTROL Sort Order] | Sitio web | Un número que determina el orden en que aparece el pago por transferencia bancaria cuando se enumera con otros métodos de pago durante el cierre de compra. Escriba `0` para colocarlo al principio de la lista. |
 
 {style="table-layout:auto"}
@@ -113,7 +121,7 @@ Los siguientes métodos de pago están incorporados en Commerce y no utilizan un
 
 ![Pago en la cuenta](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
-<!-- [Payment on Account](https://experienceleague.adobe.com/es/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
+<!-- [Payment on Account](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -123,7 +131,7 @@ Los siguientes métodos de pago están incorporados en Commerce y no utilizan un
 | [!UICONTROL Payment from Applicable Countries] | Sitio web | Determina los países en los que se permite a las compañías cargar compras en sus cuentas. Opciones: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Sitio web | Identifica los países específicos en los que las empresas pueden cargar compras a sus cuentas. |
 | [!UICONTROL Minimum Order Total] | Sitio web | Especifica el importe de pedido más pequeño que se puede cargar a una cuenta de empresa. |
-| [!UICONTROL Maximum Order Total] | Sitio web | El mayor importe de pedido que se puede cargar a una cuenta de empresa. <br/><br/>**_Nota:_**&#x200B;Un pedido califica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
+| [!UICONTROL Maximum Order Total] | Sitio web | El mayor importe de pedido que se puede cargar a una cuenta de empresa. <br/><br/>**_Nota:_**Un pedido califica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
 | [!UICONTROL Sort Order] | Sitio web | Un número que determina el orden en que aparece el pago a cuenta cuando se enumera con otros métodos de pago durante el cierre de compra. Escriba `0` para colocarlo al principio de la lista. |
 
 {style="table-layout:auto"}
@@ -146,7 +154,7 @@ Los siguientes métodos de pago están incorporados en Commerce y no utilizan un
 | [!UICONTROL Payment from Applicable Countries] | Sitio web | Determina los países desde los que se acepta el pago mediante transferencia bancaria. Opciones: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Sitio web | Identifica los países específicos desde los que se acepta el pago mediante transferencia bancaria. |
 | [!UICONTROL Minimum Order Total] | Sitio web | Especifica el importe de pedido más pequeño que se puede pagar mediante transferencia bancaria. |
-| [!UICONTROL Maximum Order Total] | Sitio web | La mayor cantidad de pedido que se puede pagar por transferencia bancaria. <br/><br/>**_Nota:_**&#x200B;Un pedido califica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
+| [!UICONTROL Maximum Order Total] | Sitio web | La mayor cantidad de pedido que se puede pagar por transferencia bancaria. <br/><br/>**_Nota:_**Un pedido califica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
 | [!UICONTROL Sort Order] | Sitio web | Un número que determina el orden en que aparece el pago por transferencia bancaria cuando se enumera con otros métodos de pago durante el cierre de compra. Escriba `0` para colocarlo al principio de la lista. |
 
 {style="table-layout:auto"}
@@ -170,6 +178,8 @@ Los siguientes métodos de pago están incorporados en Commerce y no utilizan un
 
 ## [!UICONTROL Payment actions]
 
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+
 Las acciones de pago están configuradas _por método de pago_. La acción de pago determina cuándo se capturan los fondos y cuándo se crean facturas para los pedidos de venta.
 
 Consulte la sección Configuración básica de cada método de pago individual para obtener una lista completa de las opciones de configuración individuales.
@@ -189,7 +199,7 @@ Consulte la sección Configuración básica de cada método de pago individual p
 
 >[!NOTE]
 >
->No seleccione la opción _[!UICONTROL Not Capture]_&#x200B;a menos que esté seguro de que va a capturar el pago mediante Commerce más adelante. No puede crear una nota de abono hasta que el pago se haya capturado con el botón Capturar.
+>No seleccione la opción _[!UICONTROL Not Capture]_a menos que esté seguro de que va a capturar el pago mediante Commerce más adelante. No puede crear una nota de abono hasta que el pago se haya capturado con el botón Capturar.
 
 ## [!UICONTROL Purchase Order]
 
@@ -205,7 +215,7 @@ Consulte la sección Configuración básica de cada método de pago individual p
 | [!UICONTROL Payment from Applicable Countries] | Sitio web | Determina los países desde los que se acepta el pago por OC. Opciones: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Sitio web | Identifica los países específicos desde los que acepta el pago por OC. |
 | [!UICONTROL Minimum Order Total] | Sitio web | El importe de pedido más pequeño que se puede pagar por pedido. |
-| [!UICONTROL Maximum Order Total] | Sitio web | El importe de pedido más grande que puede pagar la OC. <br/><br/>**_Nota:_**&#x200B;Un pedido califica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
+| [!UICONTROL Maximum Order Total] | Sitio web | El importe de pedido más grande que puede pagar la OC. <br/><br/>**_Nota:_**Un pedido califica si el total está entre el total de pedido mínimo o máximo, o si coincide con él. |
 | [!UICONTROL Sort Order] | Sitio web | Número que determina el orden en el que aparece el pago por pedido cuando se enumera con otros métodos de pago durante el cierre de compra. Escriba `0` para colocarlo al principio de la lista. |
 
 {style="table-layout:auto"}
