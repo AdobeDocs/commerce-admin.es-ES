@@ -14,17 +14,17 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Payment Services para Adobe Commerce y Magento Open Source proporciona una solución de autoservicio llave en mano que incluye pruebas de zona protegida y una configuración sencilla para proporcionar un procesamiento de pagos sólido y seguro. Para obtener más información sobre este potente conjunto de herramientas y cómo puede proporcionarte el control y el insight que necesitas para crear la mejor experiencia para tus compradores, consulta la [_Guía del usuario de servicios de pago_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html).
+>Payment Services para Adobe Commerce y Magento Open Source proporciona una solución de autoservicio llave en mano que incluye pruebas de zona protegida y una configuración sencilla para proporcionar un procesamiento de pagos sólido y seguro. Para obtener más información sobre este potente conjunto de herramientas y cómo puede proporcionarte el control y el insight que necesitas para crear la mejor experiencia para tus compradores, consulta la [_Guía del usuario de servicios de pago_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=es).
 
 {{config}}
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 ![Ubicación del comerciante](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
-<!-- [Merchant Location](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#merchant-location) -->
+<!-- [Merchant Location](https://experienceleague.adobe.com/es/docs/commerce-admin/start/setup/store-details#merchant-location) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -37,8 +37,8 @@ ht-degree: 0%
 Las siguientes soluciones de pago se recomiendan como una manera fácil para los comerciantes que están empezando a aceptar pagos en línea por cuenta PayPal o tarjeta de crédito. A medida que tu negocio crezca, puedes combinarlo con soluciones de pago adicionales de PayPal.
 
 - [Servicios de pago](payment-services.md)
-- [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} [Pago y envío de PayPal Express](paypal-express-checkout.md)
-- [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} [Braintree](braintree.md)
+- [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} [Pago y envío de PayPal Express](paypal-express-checkout.md)
+- [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} [Braintree](braintree.md)
 
 >[!NOTE]
 >
@@ -46,19 +46,19 @@ Las siguientes soluciones de pago se recomiendan como una manera fácil para los
 ><br/>
 >**Amazon Pay** y **Klarna**: las versiones 2.4.0 a 2.4.3 de Adobe Commerce y Magento Open Source incluían estas extensiones desarrolladas por el proveedor. A partir de la versión 2.4.4, estas extensiones ya no se incluyen en la versión principal y deben instalarse y actualizarse desde Commerce Marketplace. Marketplace también proporciona acceso a la documentación actual proporcionada por el desarrollador de extensiones.
 ><br/>
->Si tiene alguna de estas extensiones agrupadas habilitada y configurada, debe actualizar el archivo `composer.json` como parte del proceso de actualización de la versión 2.4.4 y administrar las actualizaciones de extensión que se realicen. Consulte [Módulos de actualización](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) en la _Guía de actualización_ para obtener más información.<br/>
+>Si tiene alguna de estas extensiones agrupadas habilitada y configurada, debe actualizar el archivo `composer.json` como parte del proceso de actualización de la versión 2.4.4 y administrar las actualizaciones de extensión que se realicen. Consulte [Módulos de actualización](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=es) en la _Guía de actualización_ para obtener más información.<br/>
 ><br/>
 >**Worldpay**, **Eway**, **CyberSource** y **Authorize.Net**: Para obtener más información sobre cómo realizar una transición segura a partir de estas integraciones de pago, consulta [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
 
 ## Otros métodos de PayPal
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 PayPal ofrece varias soluciones de pago que satisfacen las necesidades de las empresas de todos los tamaños, y que se dedican a los negocios en todo el mundo. PayPal te permite aceptar pagos de todas las principales tarjetas de débito y crédito. PayPal ofrece comodidad adicional sin esfuerzo adicional, porque incluso los clientes que no tienen una cuenta PayPal pueden pagar sus compras con PayPal.
 
 ### Métodos todo en uno de PayPal
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 - [Pago mediante PayPal avanzado](paypal-payments-advanced.md)
 - [PayPal Payments Pro](paypal-payments-pro.md)
@@ -66,7 +66,7 @@ PayPal ofrece varias soluciones de pago que satisfacen las necesidades de las em
 
 ### Puertas de pago PayPal
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 - [PayPal Payflow Pro](paypal-payflow-pro.md) (incluye Pago y envío exprés)
 - [Vínculo de flujo de pago de PayPal](paypal-payflow-link.md) (incluye Pago y envío exprés)
@@ -79,7 +79,7 @@ Los siguientes métodos de pago están incorporados en Commerce y no utilizan un
 
 ![Cheque / giro postal](./assets/payment-methods-check-money-order.png)<!-- zoom -->
 
-<!-- [Check / Money Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
+<!-- [Check / Money Order](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -100,7 +100,7 @@ Los siguientes métodos de pago están incorporados en Commerce y no utilizan un
 
 ![Pago de transferencia bancaria](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 
-<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
+<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -121,7 +121,7 @@ Los siguientes métodos de pago están incorporados en Commerce y no utilizan un
 
 ![Pago en la cuenta](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
-<!-- [Payment on Account](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
+<!-- [Payment on Account](https://experienceleague.adobe.com/es/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -178,7 +178,7 @@ Los siguientes métodos de pago están incorporados en Commerce y no utilizan un
 
 ## [!UICONTROL Payment actions]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 Las acciones de pago están configuradas _por método de pago_. La acción de pago determina cuándo se capturan los fondos y cuándo se crean facturas para los pedidos de venta.
 
