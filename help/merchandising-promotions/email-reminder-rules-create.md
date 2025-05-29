@@ -23,7 +23,7 @@ Antes de configurar una regla de recordatorio por correo electrónico, primero d
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add New Rule]**.
 
-1. Complete _[!UICONTROL Rule Information]_de la siguiente manera:
+1. Complete _[!UICONTROL Rule Information]_&#x200B;de la siguiente manera:
 
    ![Regla de recordatorio de correo electrónico](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
@@ -56,7 +56,7 @@ Antes de configurar una regla de recordatorio por correo electrónico, primero d
 
    >[!NOTE]
    >
-   >Si un cliente tiene más de un carro de compras abandonado, una lista de deseos o una combinación de ambos coincidentes, el recordatorio de correo electrónico se activa solo una vez para ese cliente. Para almacenar en déclencheur el mismo recordatorio de correo electrónico de nuevo, utilice el campo _[!UICONTROL Repeat Schedule]_para establecer el número de días entre correos electrónicos. <br/>
+   >Si un cliente tiene más de un carro de compras abandonado, una lista de deseos o una combinación de ambos coincidentes, el recordatorio de correo electrónico se activa solo una vez para ese cliente. Para almacenar en déclencheur el mismo recordatorio de correo electrónico de nuevo, utilice el campo _[!UICONTROL Repeat Schedule]_&#x200B;para establecer el número de días entre correos electrónicos. <br/>
    >
    >El mismo recordatorio por correo electrónico es **_no se ha vuelto a activar_** para el mismo cliente para **_nuevos_** carros abandonados y listas de deseos **_después de_** que haya pasado el período de _[!UICONTROL Repeat Schedule]_.
 
@@ -84,7 +84,7 @@ Antes de configurar una regla de recordatorio por correo electrónico, primero d
 
      ![Recordatorios de correo electrónico: títulos y descripciones](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - En la sección _[!UICONTROL Titles and Descriptions Per Store View]_, escriba **[!UICONTROL Rule Title]**y **[!UICONTROL Description]**para la_ Vista de tienda predeterminada _. Para varias vistas de tienda, introduzca el título y la descripción adecuados para cada una.
+   - En la sección _[!UICONTROL Titles and Descriptions Per Store View]_, escriba **[!UICONTROL Rule Title]**&#x200B;y **[!UICONTROL Description]**&#x200B;para la_ Vista de tienda predeterminada _. Para varias vistas de tienda, introduzca el título y la descripción adecuados para cada una.
 
      >[!NOTE]
      >

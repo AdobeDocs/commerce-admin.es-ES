@@ -89,6 +89,6 @@ El acceso a una venta, evento o sitio privado se puede limitar a los clientes re
 
 ### Restringir ventas
 
-De manera predeterminada, los productos que aparecen en eventos próximos o cerrados no están disponibles para la venta general y el botón _[!UICONTROL Add to Cart]_no aparece en la lista de productos o en la página de productos.
+De manera predeterminada, los productos que aparecen en eventos próximos o cerrados no están disponibles para la venta general y el botón _[!UICONTROL Add to Cart]_&#x200B;no aparece en la lista de productos o en la página de productos.
 
-Para restaurar el botón _[!UICONTROL Add to Cart]_de un evento cerrado, se debe eliminar el evento (consulte [Eventos de actualización](event-create.md#update-events)). Sin embargo, si un producto está asociado con otra categoría que no tiene restricciones de venta, el botón está disponible en la página del producto. Del mismo modo, el bloque de valor no aparece en la página del producto si el producto está asociado con otra categoría que no tenga restricciones de venta.
+Para restaurar el botón _[!UICONTROL Add to Cart]_&#x200B;de un evento cerrado, se debe eliminar el evento (consulte [Eventos de actualización](event-create.md#update-events)). Sin embargo, si un producto está asociado con otra categoría que no tiene restricciones de venta, el botón está disponible en la página del producto. Del mismo modo, el bloque de valor no aparece en la página del producto si el producto está asociado con otra categoría que no tenga restricciones de venta.

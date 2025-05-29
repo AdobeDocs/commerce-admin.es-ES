@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Introducción a la administración de clientes
 
-El menú _[!UICONTROL Customers]_proporciona acceso a las herramientas de administración de cuentas de clientes y permite ver quién está conectado en la tienda.
+El menú _[!UICONTROL Customers]_&#x200B;proporciona acceso a las herramientas de administración de cuentas de clientes y permite ver quién está conectado en la tienda.
 
 >[!BEGINTABS]
 

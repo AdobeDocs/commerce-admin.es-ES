@@ -17,11 +17,11 @@ El sistema de administración de caché de Adobe Commerce y Magento Open Source 
 
 ![Guardar atributo de producto - actualizar mensaje de caché](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
-La página _[!UICONTROL Cache Management]_muestra el estado de cada caché principal y su etiqueta asociada. Los botones grandes de la esquina superior derecha pueden utilizarse para vaciar la caché o el almacenamiento en caché todo incluido. En la parte inferior de la página, los botones adicionales le permiten vaciar la caché de imágenes de producto del catálogo y la caché de JavaScript/CSS.
+La página _[!UICONTROL Cache Management]_&#x200B;muestra el estado de cada caché principal y su etiqueta asociada. Los botones grandes de la esquina superior derecha pueden utilizarse para vaciar la caché o el almacenamiento en caché todo incluido. En la parte inferior de la página, los botones adicionales le permiten vaciar la caché de imágenes de producto del catálogo y la caché de JavaScript/CSS.
 
 >[!IMPORTANT]
 >
->Cuando se cambian las entidades del catálogo, puede afectar a otras páginas e invalidar varias memorias caché simultáneamente. Al revisar la página de administración de caché, podría ver elementos no válidos que requieren actualización cuando se _**no se editaron directamente**_. Por ejemplo, esta invalidación se produce cuando edita cualquier producto del catálogo asignado a cualquier categoría o cuando cambia cualquier regla de producto relacionada.
+>Cuando se cambian las entidades del catálogo, puede afectar a otras páginas e invalidar varias memorias caché simultáneamente. Al revisar la página de administración de caché, podría ver elementos no válidos que requieren actualización cuando se _&#x200B;**no se editaron directamente**&#x200B;_. Por ejemplo, esta invalidación se produce cuando edita cualquier producto del catálogo asignado a cualquier categoría o cuando cambia cualquier regla de producto relacionada.
 
 Después de borrar una caché, actualice siempre el explorador para asegurarse de que puede ver los archivos más recientes. Al borrar la caché de Commerce, no se borrará la caché del explorador web. Es posible que tenga que borrar la caché del explorador para ver el contenido actualizado.
 
@@ -87,7 +87,7 @@ Para obtener información acerca de cómo asignar recursos para conceder acceso 
 
 ## Vaciar la memoria caché de imágenes del producto
 
-1. En _[!UICONTROL Additional Cache Management]_, haga clic en **[!UICONTROL Flush Catalog Images Cache]**para borrar los archivos de imagen de producto generados previamente.
+1. En _[!UICONTROL Additional Cache Management]_, haga clic en **[!UICONTROL Flush Catalog Images Cache]**&#x200B;para borrar los archivos de imagen de producto generados previamente.
 
    El mensaje `Image cache was cleaned` aparece en la parte superior del área de trabajo.
 
@@ -109,7 +109,7 @@ Los administradores del sistema y los desarrolladores con acceso al servidor de 
 
 | Control | Descripción |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Mass Actions] | Selecciona la casilla de verificación de varias cachés. Opciones: <br/>**[!UICONTROL Select All]**— selecciona la casilla de verificación de todas las cachés.<br/>** Anular la selección de todas **: borra la casilla de verificación de todas las cachés.<br/>**[!UICONTROL Select Visible]**: selecciona la casilla de verificación de todas las cachés visibles. <br/>**[!UICONTROL Unselect Visible]**: borra la casilla de verificación de todas las cachés visibles. |
+| [!UICONTROL Mass Actions] | Selecciona la casilla de verificación de varias cachés. Opciones: <br/>**[!UICONTROL Select All]**— selecciona la casilla de verificación de todas las cachés.<br/>**&#x200B; Anular la selección de todas &#x200B;**: borra la casilla de verificación de todas las cachés.<br/>**[!UICONTROL Select Visible]**: selecciona la casilla de verificación de todas las cachés visibles. <br/>**[!UICONTROL Unselect Visible]**: borra la casilla de verificación de todas las cachés visibles. |
 | [!UICONTROL Actions] | Determina la acción que se aplicará a todas las cachés seleccionadas. Opciones: <br/>**[!UICONTROL Enable]**— activa todas las cachés seleccionadas.<br/>**[!UICONTROL Disable]** — Deshabilita todas las cachés seleccionadas. <br/>**[!UICONTROL Refresh]**— actualiza todas las cachés seleccionadas. |
 | [!UICONTROL Submit] | Aplica la acción a todas las cachés seleccionadas. |
 

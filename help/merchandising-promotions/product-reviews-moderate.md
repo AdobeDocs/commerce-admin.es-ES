@@ -29,7 +29,7 @@ Para ver todas las revisiones de un producto específico en el Administrador, ha
 
 ## Actualizar estado para revisiones
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**o **[!UICONTROL All Reviews]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**&#x200B;o **[!UICONTROL All Reviews]**.
 
 1. En la lista, haga clic en una revisión pendiente para ver los detalles y editarla si es necesario.
 
@@ -37,7 +37,7 @@ Para ver todas las revisiones de un producto específico en el Administrador, ha
 
    - Para aprobar una revisión pendiente, seleccione `Approved`.
 
-   - Para rechazar una revisión, seleccione `Not Approved`. Las revisiones no aprobadas desaparecen de la lista de _[!UICONTROL Pending Reviews]_páginas.
+   - Para rechazar una revisión, seleccione `Not Approved`. Las revisiones no aprobadas desaparecen de la lista de _[!UICONTROL Pending Reviews]_&#x200B;páginas.
 
    >[!NOTE]
    >
@@ -61,7 +61,7 @@ Puede actualizar o eliminar varias revisiones al mismo tiempo:
 
 1. Seleccione las revisiones que desea actualizar.
 
-1. Utilice el selector _[!UICONTROL Action]_de la esquina superior izquierda para aplicar una acción.
+1. Utilice el selector _[!UICONTROL Action]_&#x200B;de la esquina superior izquierda para aplicar una acción.
 
 1. Haga clic **[!UICONTROL Submit]**
 

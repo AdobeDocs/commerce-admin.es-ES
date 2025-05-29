@@ -19,7 +19,7 @@ Cuando las invitaciones están habilitadas, los clientes pueden enviar y ver inv
 
 ## Mis invitaciones
 
-La sección _[!UICONTROL My Invitations]_de la cuenta de cliente enumera todas las invitaciones enviadas por el cliente. Los clientes pueden enviar invitaciones a amigos y familiares para eventos en tiendas, registros de regalos, listas de deseos, etc.
+La sección _[!UICONTROL My Invitations]_&#x200B;de la cuenta de cliente enumera todas las invitaciones enviadas por el cliente. Los clientes pueden enviar invitaciones a amigos y familiares para eventos en tiendas, registros de regalos, listas de deseos, etc.
 
 ![Mis invitaciones](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
 

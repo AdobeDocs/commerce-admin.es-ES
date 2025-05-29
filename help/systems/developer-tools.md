@@ -247,7 +247,7 @@ Si su tienda está disponible en varios idiomas, puede realizar ajustes precisos
 
    Desactive la casilla de verificación **[!UICONTROL Use Website]** según sea necesario para modificar esta configuración.
 
-   La opción _[!UICONTROL Enabled for Admin]_no está disponible al editar una vista de tienda específica.
+   La opción _[!UICONTROL Enabled for Admin]_&#x200B;no está disponible al editar una vista de tienda específica.
 
    ![Configuración avanzada: traducir en línea](../configuration-reference/advanced/assets/developer-translate-inline.png){width="600" zoomable="yes"}
 

@@ -77,7 +77,7 @@ Habilitar todas las variables de validación puede ayudar a evitar ataques, pero
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. En el panel izquierdo, expanda _[!UICONTROL General]_y elija **[!UICONTROL Web]**.
+1. En el panel izquierdo, expanda _[!UICONTROL General]_&#x200B;y elija **[!UICONTROL Web]**.
 
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Session Validation Settings]**.
 

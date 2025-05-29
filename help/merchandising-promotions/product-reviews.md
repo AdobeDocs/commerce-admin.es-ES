@@ -20,8 +20,8 @@ Commerce incluye una función nativa de revisiones de productos que puede admini
 >[!NOTE]
 >
 >Las versiones 2.4.0 a 2.4.3 de Adobe Commerce y Magento Open Source incluían la extensión desarrollada por el proveedor de Yotpo. A partir de la versión 2.4.4, esta extensión ya no se integra con la versión principal y debe instalarse y actualizarse desde Commerce Marketplace. Marketplace también proporciona acceso a la documentación actual proporcionada por el desarrollador de extensiones.
->><br><br>
->>Si tiene la extensión agrupada habilitada y configurada, debe actualizar el archivo composer.json como parte del proceso de actualización de la versión 2.4.4 y administrar las actualizaciones de extensión que se realicen. Consulte [Módulos de actualización](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) en la _Guía de actualización_ para obtener más información.
+>&#x200B;><br><br>
+>&#x200B;>Si tiene la extensión agrupada habilitada y configurada, debe actualizar el archivo composer.json como parte del proceso de actualización de la versión 2.4.4 y administrar las actualizaciones de extensión que se realicen. Consulte [Módulos de actualización](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) en la _Guía de actualización_ para obtener más información.
 
 ## Reseñas de productos en la tienda
 
@@ -43,7 +43,7 @@ El número de estrellas indica el grado de satisfacción del producto. Los visit
 
 ### [!UICONTROL My Product Reviews]
 
-La sección _[!UICONTROL My Product Reviews]_del panel de cuenta del cliente enumera todas las revisiones enviadas por el cliente y aprobadas para su publicación. Cada resumen de revisión incluye la fecha en la que se envió la revisión, los vínculos a la página del producto y los detalles de la revisión.
+La sección _[!UICONTROL My Product Reviews]_&#x200B;del panel de cuenta del cliente enumera todas las revisiones enviadas por el cliente y aprobadas para su publicación. Cada resumen de revisión incluye la fecha en la que se envió la revisión, los vínculos a la página del producto y los detalles de la revisión.
 
 ![Mis críticas de productos](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -91,7 +91,7 @@ Con las revisiones de producto de Commerce, los clientes pueden asignar clasific
 
    ![Administrador - Clasificaciones](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. En la sección _[!UICONTROL Rating Title]_, escriba **[!UICONTROL Default Value]**para la nueva clasificación.
+1. En la sección _[!UICONTROL Rating Title]_, escriba **[!UICONTROL Default Value]**&#x200B;para la nueva clasificación.
 
    Si procede, introduzca también la traducción para cada vista de tienda.
 
