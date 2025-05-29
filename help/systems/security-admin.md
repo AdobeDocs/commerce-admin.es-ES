@@ -4,7 +4,7 @@ description: Aprenda a configurar la seguridad del administrador de su tienda.
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
 source-wordcount: '719'
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Configurar la seguridad de administración
 
-Le recomendamos que adopte un enfoque multifacético para proteger la seguridad de su tienda. Puede empezar por usar una [URL de administrador personalizada](../stores-purchase/store-urls.md#use-a-custom-admin-url) que no sea fácil de adivinar, en lugar de las obvias &quot;Admin&quot; o &quot;Backend&quot;. De manera predeterminada, las contraseñas que se usan para [iniciar sesión](../getting-started/admin-signin.md) en el administrador deben contener siete o más caracteres e incluir letras y números. Como [práctica recomendada](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), use solamente contraseñas de administrador seguras que incluyan una combinación de letras, números y símbolos. Adobe Commerce y Magento Open Source no permiten la reutilización de las cuatro últimas contraseñas asignadas a la cuenta.
+Le recomendamos que adopte un enfoque multifacético para proteger la seguridad de su tienda. Puede empezar por usar una [URL de administrador personalizada](../stores-purchase/store-urls.md#use-a-custom-admin-url) que no sea fácil de adivinar, en lugar de las obvias &quot;Admin&quot; o &quot;Backend&quot;. De manera predeterminada, las contraseñas que se usan para [iniciar sesión](../getting-started/admin-signin.md) en el administrador deben contener siete o más caracteres e incluir letras y números. Como [práctica recomendada](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=es), use solamente contraseñas de administrador seguras que incluyan una combinación de letras, números y símbolos. Adobe Commerce y Magento Open Source no permiten la reutilización de las cuatro últimas contraseñas asignadas a la cuenta.
 
 La configuración de seguridad de administración le permite:
 

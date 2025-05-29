@@ -3,7 +3,7 @@ title: Reescrituras de URL
 description: Obtenga información acerca de las reescrituras de URL y el uso de la herramienta de reescritura de URL de Commerce para cambiar las URL asociadas a una página de producto, categoría o CMS.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
 source-wordcount: '669'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Para Adobe Commerce as a Cloud Service, consulte las [directrices SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) en la documentación de Commerce Storefront
+>Para Adobe Commerce as a Cloud Service, consulte las [directrices SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=es) en la documentación de Commerce Storefront
 
 La herramienta de reescritura de URL permite cambiar cualquier URL asociada a un producto, categoría o página de CMS. Cuando la reescritura entra en vigor, los vínculos que apunten a la dirección URL anterior se redirigirán a la nueva dirección.
 

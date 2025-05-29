@@ -3,7 +3,7 @@ title: Metadatos
 description: Obtenga información sobre cómo introducir metadatos con muchas palabras clave para mejorar la forma en que los motores de búsqueda indexan el sitio de Commerce.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
 source-wordcount: '703'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Para Adobe Commerce as a Cloud Service, consulte las [directrices de metadatos](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/) en la documentación de Commerce Storefront
+>Para Adobe Commerce as a Cloud Service, consulte las [directrices de metadatos](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=es) en la documentación de Commerce Storefront
 
 Tu tienda está cargada de lugares donde puedes introducir metadatos con palabras clave para mejorar la forma en que los motores de búsqueda indexan tu sitio. Al configurar la tienda, es posible que introduzca metadatos preliminares con la intención de finalizarlos más adelante. Con el tiempo, puede ajustar los metadatos para que se centren en los patrones de compra y las preferencias de sus clientes.
 

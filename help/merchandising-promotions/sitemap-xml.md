@@ -3,7 +3,7 @@ title: Mapas del sitio
 description: Obtenga información sobre cómo configurar un mapa del sitio para indexar todas las páginas e imágenes de los sitios de Commerce.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
 source-wordcount: '1209'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Para Adobe Commerce as a Cloud Service, consulte las [directrices SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) en la documentación de Commerce Storefront
+>Para Adobe Commerce as a Cloud Service, consulte las [directrices SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=es) en la documentación de Commerce Storefront
 
 Un mapa del sitio mejora la forma en que los motores de búsqueda indizan el almacén y está diseñado para buscar páginas que los rastreadores web podrían pasar por alto. Se puede configurar un mapa del sitio para indexar todas las páginas e imágenes.
 
@@ -102,7 +102,7 @@ Para crear mapas del sitio para una instancia de varias tiendas, haga lo siguien
    
 >[!NOTE]
 >
->Si su sitio usa el motor de servidor web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html), debe actualizar el archivo [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) en la raíz del sitio web para dirigir cualquier otra solicitud de mapa del sitio al lugar apropiado.
+>Si su sitio usa el motor de servidor web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=es), debe actualizar el archivo [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) en la raíz del sitio web para dirigir cualquier otra solicitud de mapa del sitio al lugar apropiado.
 
 ## Descripciones de columna
 
@@ -228,6 +228,6 @@ El mapa del sitio debe actualizarse con la frecuencia con la que cambia el conte
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
-[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html
+[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=es
 [2]: https://support.google.com/webmasters/answer/183669?hl=en
 [3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed

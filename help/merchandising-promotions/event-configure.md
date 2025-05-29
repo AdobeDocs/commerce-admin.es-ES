@@ -3,7 +3,7 @@ title: Configuración de eventos
 description: Aprenda a completar la configuración básica para habilitar eventos y configurar el bloque de eventos en la barra lateral de la tienda.
 exl-id: 620b2d60-ce6f-4f31-93bb-18d3dd9cdce6
 feature: Marketing Tools, Promotions/Events
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
 source-wordcount: '484'

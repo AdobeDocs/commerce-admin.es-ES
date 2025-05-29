@@ -3,7 +3,7 @@ title: Recordatorios de correo electrónico
 description: Obtenga información acerca de los recordatorios de correo electrónico que se pueden enviar automáticamente a los clientes cuando se cumple un conjunto específico de condiciones.
 exl-id: 3293caca-9dd3-4d64-a80c-58c92a9208e5
 feature: Merchandising, Communications
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
 source-wordcount: '576'

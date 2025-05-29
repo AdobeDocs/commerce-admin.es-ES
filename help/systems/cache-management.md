@@ -3,7 +3,7 @@ title: Administración de caché
 description: Aprenda a utilizar las herramientas de administración de caché, que proporcionan una manera sencilla de mejorar el rendimiento del sitio.
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
 source-wordcount: '1845'
@@ -103,7 +103,7 @@ Para obtener información acerca de cómo asignar recursos para conceder acceso 
 
 ## Vaciar utilizando la línea de comandos
 
-Los administradores del sistema y los desarrolladores con acceso al servidor de aplicaciones de Commerce también pueden administrar la configuración de la caché y la caché desde la línea de comandos utilizando la CLI de Commerce. Consulte [Administrar la caché](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} en la _Guía de configuración_.
+Los administradores del sistema y los desarrolladores con acceso al servidor de aplicaciones de Commerce también pueden administrar la configuración de la caché y la caché desde la línea de comandos utilizando la CLI de Commerce. Consulte [Administrar la caché](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} en la _Guía de configuración_.
 
 ## Controles
 
@@ -137,11 +137,11 @@ La página [!UICONTROL Cache Management] enumera los tipos de caché que puede a
 
 Los desarrolladores e integradores de sistemas utilizan estos valores para configurar y administrar el almacenamiento en caché al personalizar o integrar con Adobe Commerce, por ejemplo desarrollando integraciones mediante las API de GraphQL.
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} `cache_type_id` también se usa para la administración de caché desde la línea de comandos del servidor de aplicaciones mediante la CLI de Commerce. Por ejemplo, ` bin/magento cache:status config` muestra el estado actual de la caché de configuración.
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} `cache_type_id` también se usa para la administración de caché desde la línea de comandos del servidor de aplicaciones mediante la CLI de Commerce. Por ejemplo, ` bin/magento cache:status config` muestra el estado actual de la caché de configuración.
 
 >[!NOTE]
 >
->Los desarrolladores e integradores de sistemas pueden personalizar y ampliar el sistema de administración de caché de Commerce para que admita módulos e integraciones personalizados. Para obtener más información, consulte [Configurar el almacenamiento en caché](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview) en la _Guía de configuración de Adobe Commerce_.
+>Los desarrolladores e integradores de sistemas pueden personalizar y ampliar el sistema de administración de caché de Commerce para que admita módulos e integraciones personalizados. Para obtener más información, consulte [Configurar el almacenamiento en caché](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/cache/caching-overview) en la _Guía de configuración de Adobe Commerce_.
 
 <!-- prettier-ignore -->
 
@@ -184,7 +184,7 @@ El contenido en caché se puede utilizar para procesar solicitudes de tipos de v
 - `Sessioned`: durante una visita con sesión, a los compradores que interactúan con la tienda se les asigna un ID de sesión. Las interacciones incluyen actividades como comparar productos o agregar productos al carro de compras. Solo ese comprador utiliza las páginas en caché que se generan durante la sesión.
 - `Customer`: las sesiones de clientes se crean para clientes que inician sesión y realizan compras con su cuenta registrada. Durante la sesión, se pueden presentar a los clientes ofertas especiales, promociones y precios según el grupo de clientes asignado.
 
-Para obtener información técnica, consulte [Configurar y usar Barnish](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target="_blank"} y [Usar Redis para la página de Commerce y la memoria caché predeterminada](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){:target="_blank"} en la _Guía de configuración_.
+Para obtener información técnica, consulte [Configurar y usar Barnish](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html?lang=es){:target="_blank"} y [Usar Redis para la página de Commerce y la memoria caché predeterminada](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html?lang=es){:target="_blank"} en la _Guía de configuración_.
 
 **_Para configurar la caché de página completa:_**
 
@@ -203,7 +203,7 @@ Para obtener información técnica, consulte [Configurar y usar Barnish](https:/
 
 1. Para establecer el tiempo de espera para la caché de la página, escriba **[!UICONTROL TTL for public content]**. (El valor predeterminado es `86400`)
 
-1. Para especificar el número máximo de [controladores de diseño](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) que se procesarán en el extremo HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html), escriba **[!UICONTROL Handles param size]**. Restringir el tamaño puede mejorar la seguridad y el rendimiento. (El valor predeterminado es `100`)
+1. Para especificar el número máximo de [controladores de diseño](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) que se procesarán en el extremo HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=es), escriba **[!UICONTROL Handles param size]**. Restringir el tamaño puede mejorar la seguridad y el rendimiento. (El valor predeterminado es `100`)
 
 1. Si utiliza Barniz, complete la sección **[!UICONTROL Varnish Configuration]** de la siguiente manera:
 
@@ -213,7 +213,7 @@ Para obtener información técnica, consulte [Configurar y usar Barnish](https:/
 
    - **[!UICONTROL Backend port]**: identifique el puerto back-end que se usa para generar archivos de configuración. El valor predeterminado es: `8080`.
 
-   - **[!UICONTROL Grace period]**: especifique el número de segundos que se utilizarán como período de gracia para generar archivos de configuración. Consulte [Configuración avanzada de barniz](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html) en la _Guía de configuración_.
+   - **[!UICONTROL Grace period]**: especifique el número de segundos que se utilizarán como período de gracia para generar archivos de configuración. Consulte [Configuración avanzada de barniz](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html?lang=es) en la _Guía de configuración_.
 
    - Para exportar la configuración como un archivo de `varnish.vcl`, haga clic en el botón de la versión de barniz que utilice.
 
