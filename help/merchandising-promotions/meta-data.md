@@ -3,14 +3,19 @@ title: Metadatos
 description: Obtenga información sobre cómo introducir metadatos con muchas palabras clave para mejorar la forma en que los motores de búsqueda indexan el sitio de Commerce.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
 
 # Metadatos
+
+>[!TIP]
+>
+>Para Adobe Commerce as a Cloud Service, consulte las [directrices de metadatos](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/) en la documentación de Commerce Storefront
 
 Tu tienda está cargada de lugares donde puedes introducir metadatos con palabras clave para mejorar la forma en que los motores de búsqueda indexan tu sitio. Al configurar la tienda, es posible que introduzca metadatos preliminares con la intención de finalizarlos más adelante. Con el tiempo, puede ajustar los metadatos para que se centren en los patrones de compra y las preferencias de sus clientes.
 
@@ -93,6 +98,6 @@ Puede evitar ser penalizado por los motores de búsqueda omitiendo la categoría
 
 Vea este vídeo para obtener más información sobre la administración de metadatos de SEO:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411825?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)
 
 [1]: https://schema.org/

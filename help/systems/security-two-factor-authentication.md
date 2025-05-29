@@ -4,9 +4,10 @@ description: Obtenga información acerca de la compatibilidad con la autenticaci
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: 4997c4c01f11d6e0355eb8e02f8f099db685b400
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -19,17 +20,17 @@ El _administrador_ de Commerce para la instalación de Adobe Commerce o Magento 
 >
 >Esta implementación de la autenticación de doble factor (2FA) se aplica solo a _Admin_ y no está disponible para las cuentas de clientes. La autenticación de doble factor que protege su cuenta de Commerce tiene una configuración independiente. Para obtener más información, ve a [Proteger tu cuenta de Commerce](../getting-started/commerce-account-secure.md).
 
-La autenticación de doble factor se utiliza ampliamente y es común generar códigos de acceso para diferentes sitios web en la misma aplicación. Esta autenticación adicional garantiza que solo usted pueda iniciar sesión en su cuenta de usuario. Si pierde la contraseña o un bot la adivina, la autenticación de doble factor agrega una capa de protección. For example, you might use Google Authenticator to generate codes for the Admin of your store, your Commerce account, and Google account.
+La autenticación de doble factor se utiliza ampliamente y es común generar códigos de acceso para diferentes sitios web en la misma aplicación. Esta autenticación adicional garantiza que solo usted pueda iniciar sesión en su cuenta de usuario. Si pierde la contraseña o un bot la adivina, la autenticación de doble factor agrega una capa de protección. Por ejemplo, puede utilizar Google Authenticator para generar códigos para el administrador de su tienda, su cuenta de Commerce y la cuenta de Google.
 
-![Security configuration iphone - 2FA](./assets/google-authenticator-iphone.png){width="300"}
+![Configuración de seguridad para iphone - 2FA](./assets/google-authenticator-iphone.png){width="300"}
 
-Adobe Commerce supports 2FA methods from multiple providers. Some require the installation of an app that generates a one-time password (OTP) that users enter at sign-in to verify their identity. Universal second factor (U2F) devices resemble a key fob and generate a unique key to verify identity. Other devices verify identity when they are inserted into a USB port. As the store administrator, you can require one or more of the available 2FA methods to verify user identity. Your 2FA configuration applies to all websites and stores that are associated with the Adobe Commerce installation.
+Adobe Commerce admite métodos 2FA de varios proveedores. Algunos requieren la instalación de una aplicación que genere una contraseña de un solo uso (OTP) que los usuarios introduzcan al iniciar sesión para verificar su identidad. Los dispositivos de segundo factor universal (U2F) se parecen a un llavero y generan una clave única para verificar la identidad. Otros dispositivos verifican la identidad cuando se insertan en un puerto USB. Como administrador del almacén, puede requerir uno o más de los métodos 2FA disponibles para verificar la identidad del usuario. La configuración de 2FA se aplica a todos los sitios web y tiendas asociados con la instalación de Adobe Commerce.
 
 La primera vez que un usuario inicia sesión en _Admin_, debe configurar cada método [2FA](../configuration-reference/security/2fa.md) que necesite y comprobar su identidad mediante la aplicación o el dispositivo asociado. Después de esta configuración inicial, el usuario debe autenticarse con uno de los métodos configurados cada vez que inicia sesión. La información 2FA de cada usuario se registra en su cuenta de _Admin_ y se puede [restablecer](security-two-factor-authentication-manage.md) si es necesario. Para obtener más información sobre el proceso de inicio de sesión, ve a [_Administrador_ Iniciar sesión](../getting-started/admin-signin.md).
 
 >[!NOTE]
 >
->Las tiendas que han habilitado la autenticación de Adobe Identity Management Services (IMS) tienen Adobe Commerce nativo y Magento Open Source 2FA deshabilitado. Los usuarios administradores que han iniciado sesión en su instancia de Commerce con sus credenciales de Adobe no necesitan volver a autenticarse en muchas tareas de administración. La autenticación la gestiona Adobe IMS cuando el usuario administrador inicia sesión en su sesión actual. Consulte [Información general sobre la integración de Adobe Identity Management Service (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=es).
+>Las tiendas que han habilitado la autenticación de Adobe Identity Management Services (IMS) tienen Adobe Commerce nativo y Magento Open Source 2FA deshabilitado. Los usuarios administradores que han iniciado sesión en su instancia de Commerce con sus credenciales de Adobe no necesitan volver a autenticarse en muchas tareas de administración. La autenticación la gestiona Adobe IMS cuando el usuario administrador inicia sesión en su sesión actual. Consulte [Información general sobre la integración de Adobe Identity Management Service (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
 
 Puede ver esta [demostración en vídeo](https://video.tv.adobe.com/v/339104?quality=12&learn=on) para obtener información general sobre la autenticación de doble factor en el administrador.
 
@@ -50,15 +51,15 @@ Puede ver esta [demostración en vídeo](https://video.tv.adobe.com/v/339104?qua
 
    Para seleccionar varios métodos, mantenga presionada la tecla Ctrl (PC) o la tecla Comando (Mac) y haga clic en cada elemento.
 
-1. Complete the [settings](../configuration-reference/security/2fa.md) for each required 2FA method.
+1. Complete la [configuración](../configuration-reference/security/2fa.md) para cada método 2FA requerido.
 
-   ![Security configuration - 2FA](../configuration-reference/security/assets/2fa-general.png){width="600" zoomable="yes"}
+   ![Configuración de seguridad - 2FA](../configuration-reference/security/assets/2fa-general.png){width="600" zoomable="yes"}
 
-1. When complete, click **[!UICONTROL Save Config]**.
+1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
-   The first time users sign in to the _Admin_, they must set up each required 2FA method. After this initial setup, they must authenticate with one of the configured methods each time they sign in.
+   La primera vez que los usuarios inicien sesión en _Admin_, deben configurar cada método 2FA requerido. Después de esta configuración inicial, deben autenticarse con uno de los métodos configurados cada vez que inician sesión.
 
-## 2FA Provider Settings
+## Configuración de proveedor 2FA
 
 Complete la configuración de cada método 2FA que necesite.
 
@@ -70,7 +71,7 @@ Para cambiar la duración de la disponibilidad de la contraseña de un solo uso 
 
 >[!NOTE]
 >
->In Adobe Commerce 2.4.7 and later, the OTP window configuration setting controls how long (in seconds) the system accepts an administrator&#39;s one-time-password (OTP) after it has expired. Este valor debe ser inferior a 30 segundos. La configuración predeterminada del sistema es `29`.<br><br> En la versión 2.4.6, la configuración de la ventana OTP determina el número de códigos OTP pasados y futuros que siguen siendo válidos. Un valor de `1` indica que el código OTP actual más un código del pasado y un código futuro siguen siendo válidos en cualquier momento.
+>En Adobe Commerce 2.4.7 y versiones posteriores, el ajuste de configuración de la ventana OTP controla cuánto tiempo (en segundos) acepta el sistema una contraseña única (OTP) de un administrador una vez caducada. Este valor debe ser inferior a 30 segundos. La configuración predeterminada del sistema es `29`.<br><br> En la versión 2.4.6, la configuración de la ventana OTP determina el número de códigos OTP pasados y futuros que siguen siendo válidos. Un valor de `1` indica que el código OTP actual más un código del pasado y un código futuro siguen siendo válidos en cualquier momento.
 
 ### [!DNL Duo Security]
 
@@ -79,16 +80,16 @@ Introduzca las siguientes credenciales de su cuenta de Duo Security:
 - ID de cliente
 - Secreto del cliente
 - Clave de integración
-- Secret key
-- API hostname
+- Clave secreta
+- Nombre de host API
 
-![Security configuration - Duo](../configuration-reference/security/assets/2fa-duo-security.png){width="600" zoomable="yes"}
+![Configuración de seguridad - Duo](../configuration-reference/security/assets/2fa-duo-security.png){width="600" zoomable="yes"}
 
 ### [!DNL Authy]
 
-1. Enter the API key from your [!DNL Authy] account.
+1. Escriba la clave de API de su cuenta de [!DNL Authy].
 
-1. To change the default message that appears during authentication, clear the **[!UICONTROL Use system value]** checkbox. A continuación, escriba el(la) **[!UICONTROL OneTouch Message]** que desea que aparezca.
+1. Para cambiar el mensaje predeterminado que aparece durante la autenticación, desactive la casilla de verificación **[!UICONTROL Use system value]**. A continuación, escriba el(la) **[!UICONTROL OneTouch Message]** que desea que aparezca.
 
    ![Configuración de seguridad - Authy](../configuration-reference/security/assets/2fa-authy.png){width="600" zoomable="yes"}
 
@@ -96,4 +97,4 @@ Introduzca las siguientes credenciales de su cuenta de Duo Security:
 
 El dominio de almacén se utiliza de forma predeterminada durante el proceso de autenticación. Para utilizar un dominio personalizado para los desafíos de autenticación, desactive la casilla de verificación **[!UICONTROL Use system value]**. A continuación, escriba **[!UICONTROL WebAPi Challenge Domain]**.
 
-![Security configuration - U2F Devices](../configuration-reference/security/assets/2fa-u2f-key.png){width="600" zoomable="yes"}
+![Configuración de seguridad - Dispositivos U2F](../configuration-reference/security/assets/2fa-u2f-key.png){width="600" zoomable="yes"}

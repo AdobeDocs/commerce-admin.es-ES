@@ -2,9 +2,9 @@
 title: Guía de promociones y comercialización
 description: Explore información detallada acerca de las funciones promocionales y de comercialización de Adobe Commerce, incluidos los descuentos y eventos segmentados.
 exl-id: 76ba1e08-3afd-409c-8376-d07e98095d26
-source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Esta guía describe:
 | ------- | ----------- |
 | [Introducción](introduction.md) | Información general sobre las funciones de comercialización y promoción con una instancia de Commerce. |
 | [Menú de marketing](marketing-menu.md) | Utilice el menú [!UICONTROL Marketing] para acceder a varias funciones y administrar promociones, comunicaciones, SEO y contenido generado por el usuario. |
-| [Comercializador visual](visual-merchandiser.md) | Explore este conjunto de herramientas avanzadas que le permiten colocar productos y aplicar condiciones que determinan qué productos aparecen en la lista de categorías. |
+| [Comercializador visual](visual-merchandiser.md) | [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} Explore este conjunto de herramientas avanzadas que le permite colocar productos y aplicar condiciones que determinan qué productos aparecen en la lista de categorías. |
 | [Registros de regalos](gift-registries.md) | Otorgue a sus clientes la capacidad de crear registros de regalos para ocasiones especiales y de invitar a sus amigos y familiares a comprar sus regalos en el registro de regalos. |
 | [Programas de recompensas y fidelidad](rewards-loyalty.md) | Implemente programas que promuevan la participación de los clientes y la lealtad de estos. |
 | [Ventas privadas y eventos](events-private-sales.md) | Cree ventas por tiempo limitado, limite las ventas a miembros específicos o cree una página de venta privada independiente. |

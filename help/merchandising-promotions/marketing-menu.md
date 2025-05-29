@@ -1,10 +1,10 @@
 ---
-title: '[!UICONTROL Marketing] menú'
+title: Menú [!UICONTROL Marketing]
 description: El administrador de Commerce incluye el menú [!UICONTROL Marketing], que proporciona herramientas de acceso para administrar promociones, comunicaciones, SEO y contenido generado por el usuario.
 exl-id: fc0e554b-1bff-45da-bd6f-73e9b1a4fdef
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,21 @@ ht-degree: 0%
 
 El menú [!UICONTROL Marketing] proporciona herramientas de acceso para administrar promociones, comunicaciones, SEO y contenido generado por el usuario.
 
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+
 ![Administrador de Commerce - Menú de marketing](./assets/admin-menu-marketing-ee.png){width="600" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."}
+
+![Administrador de Commerce - Menú de marketing](./assets/admin-menu-marketing-ee-accs.png){width="600" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Mostrar el menú [!UICONTROL Marketing]
 
@@ -29,17 +43,11 @@ Cree las reglas de precio [catalog](price-rules-catalog.md) y [cart](price-rules
 
 ### [!UICONTROL Private Sales]
 
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+
 {{ee-feature}}
 
 Las ventas privadas y otros eventos del catálogo son una gran manera de utilizar su base de clientes existente para generar buzz y nuevos clientes potenciales con acceso exclusivo para miembros solamente, o por invitación.
-
-### [!UICONTROL Channels]
-
-Aumente los ingresos ampliando las ventas a otras tiendas web con la [integración de Amazon Marketplace](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html?lang=es). El submenú Canales solo aparece cuando se configura Amazon Sales Channel.
-
->[!TIP]
->
->Channel Manager ayuda a los comerciantes a aumentar las ventas, llegar a nuevos clientes, optimizar las operaciones de ventas y ahorrar tiempo al integrar un catálogo de productos Adobe Commerce o de Magento Open Source con Walmart Marketplace. Consulte la [_Guía de Channel Manager_](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/intro-to-channel-manager/overview.html?lang=es) para obtener más información sobre la instalación, incorporación, configuración y administración de Channel Manager.
 
 ### [!UICONTROL Communications]
 
@@ -52,5 +60,7 @@ Personaliza todas las notificaciones enviadas desde tu tienda. Crear [boletines]
 Analice [términos de búsqueda](../catalog/search-terms.md) y [sinónimos](../catalog/search-terms.md#search-synonyms) para ayudar a los clientes a encontrar productos en la tienda, administrar [metadatos](meta-data.md) y crear un [mapa del sitio](sitemap-xml.md). Use [redirecciones](url-rewrite.md) para administrar los cambios de URL y evitar vínculos rotos.
 
 ### [!UICONTROL User Content]
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 Incorpore [revisiones de productos](product-reviews.md) generadas por el usuario para crear una sensación de comunidad y aumentar las ventas.

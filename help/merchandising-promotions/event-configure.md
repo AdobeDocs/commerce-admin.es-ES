@@ -3,9 +3,10 @@ title: Configuración de eventos
 description: Aprenda a completar la configuración básica para habilitar eventos y configurar el bloque de eventos en la barra lateral de la tienda.
 exl-id: 620b2d60-ce6f-4f31-93bb-18d3dd9cdce6
 feature: Marketing Tools, Promotions/Events
-source-git-commit: 084d2c3381f57a8a4c7e8ffde9da1abd4d8af670
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -88,6 +89,6 @@ El acceso a una venta, evento o sitio privado se puede limitar a los clientes re
 
 ### Restringir ventas
 
-De manera predeterminada, los productos que aparecen en eventos próximos o cerrados no están disponibles para la venta general y el botón _[!UICONTROL Add to Cart]_&#x200B;no aparece en la lista de productos o en la página de productos.
+De manera predeterminada, los productos que aparecen en eventos próximos o cerrados no están disponibles para la venta general y el botón _[!UICONTROL Add to Cart]_no aparece en la lista de productos o en la página de productos.
 
-Para restaurar el botón _[!UICONTROL Add to Cart]_&#x200B;de un evento cerrado, se debe eliminar el evento (consulte [Eventos de actualización](event-create.md#update-events)). Sin embargo, si un producto está asociado con otra categoría que no tiene restricciones de venta, el botón está disponible en la página del producto. Del mismo modo, el bloque de valor no aparece en la página del producto si el producto está asociado con otra categoría que no tenga restricciones de venta.
+Para restaurar el botón _[!UICONTROL Add to Cart]_de un evento cerrado, se debe eliminar el evento (consulte [Eventos de actualización](event-create.md#update-events)). Sin embargo, si un producto está asociado con otra categoría que no tiene restricciones de venta, el botón está disponible en la página del producto. Del mismo modo, el bloque de valor no aparece en la página del producto si el producto está asociado con otra categoría que no tenga restricciones de venta.

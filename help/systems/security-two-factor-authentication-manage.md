@@ -4,9 +4,10 @@ description: Obtenga información sobre cómo administrar la autenticación de d
 exl-id: 68256214-2d50-4c42-846f-306ffc305f25
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -34,11 +35,11 @@ Para restablecer los autenticadores desde la línea de comandos y obtener inform
 
 1. Seleccione el usuario y abra la cuenta en modo de edición.
 
-1. Desplácese hacia abajo hasta la sección _[!UICONTROL Current User Identity Verification]_&#x200B;e introduzca su contraseña.
+1. Desplácese hacia abajo hasta la sección _[!UICONTROL Current User Identity Verification]_e introduzca su contraseña.
 
 1. En el panel izquierdo, haga clic en **[!UICONTROL 2FA]**.
 
-1. En la sección _[!UICONTROL Configuration reset]_, haga clic en **[!UICONTROL Reset]**&#x200B;y **[!UICONTROL OK]**&#x200B;para confirmar.
+1. En la sección _[!UICONTROL Configuration reset]_, haga clic en **[!UICONTROL Reset]**y **[!UICONTROL OK]**para confirmar.
 
    ![Cuenta de usuario - habilitar 2FA](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"}
 

@@ -4,9 +4,10 @@ description: Aprenda a configurar la información de contacto y los vínculos re
 exl-id: 47b95505-51a3-4b7a-a4e3-dbc4b0045797
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ El archivo `security.txt` contiene información de contacto y vínculos relacion
 
 1. En el panel izquierdo bajo _[!UICONTROL Security]_, haga clic en **[!UICONTROL Security.txt]**.
 
-1. En la sección _[!UICONTROL General]_, establezca **[!UICONTROL Enable]**&#x200B;en `Yes`.
+1. En la sección _[!UICONTROL General]_, establezca **[!UICONTROL Enable]**en `Yes`.
 
    ![Configuración general de seguridad](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
 

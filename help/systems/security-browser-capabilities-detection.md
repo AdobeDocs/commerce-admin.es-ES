@@ -4,9 +4,10 @@ description: Obtenga información sobre cómo configurar la detección de funcio
 exl-id: 16caab8b-3ba5-43a1-a6f0-7c1e921be132
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Al igual que la mayoría de los sitios web y aplicaciones de Internet, Adobe Com
 - Si la configuración de privacidad del explorador no permite las cookies, puede configurar el sistema para que las redirija automáticamente a la página [Habilitar cookies](../content-design/pages.md#enable-cookies), que explica cómo realizar la configuración recomendada con la mayoría de los exploradores.
 - Si la configuración de privacidad del explorador no permite JavaScript, puede configurar el sistema para que muestre el siguiente mensaje encima del encabezado de cada página.
 
-Para obtener información técnica, consulte [Exploradores compatibles](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=es#supported-browsers) en la _Guía de instalación_.
+Para obtener información técnica, consulte [Exploradores compatibles](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html#supported-browsers) en la _Guía de instalación_.
 
 ## Configuración de la detección de funcionalidades del explorador
 

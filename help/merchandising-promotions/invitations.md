@@ -3,9 +3,10 @@ title: Invitaciones a eventos
 description: Aprenda cómo los clientes pueden enviar y ver invitaciones a eventos y ventas privadas desde el panel de sus cuentas de cliente.
 exl-id: 6a9123a0-bdb4-4cd6-99cd-658f728aa90c
 feature: Promotions/Events, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Cuando las invitaciones están habilitadas, los clientes pueden enviar y ver inv
 
 ## Mis invitaciones
 
-La sección _[!UICONTROL My Invitations]_&#x200B;de la cuenta de cliente enumera todas las invitaciones enviadas por el cliente. Los clientes pueden enviar invitaciones a amigos y familiares para eventos en tiendas, registros de regalos, listas de deseos, etc.
+La sección _[!UICONTROL My Invitations]_de la cuenta de cliente enumera todas las invitaciones enviadas por el cliente. Los clientes pueden enviar invitaciones a amigos y familiares para eventos en tiendas, registros de regalos, listas de deseos, etc.
 
 ![Mis invitaciones](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
 

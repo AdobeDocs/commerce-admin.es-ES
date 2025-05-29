@@ -2,9 +2,9 @@
 title: Barra lateral de administración
 description: El administrador de Commerce utiliza una barra lateral izquierda para acceder al menú principal. Los comerciantes pueden acceder a todas las herramientas de administración necesarias para configurar y gestionar su tienda.
 exl-id: 2619645e-22fc-4365-80c5-14e2ce7ea8df
-source-git-commit: 474e9bb6cd6dccc723165d919b1b1ebeaa26ae46
+source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ La barra lateral de la izquierda es el menú principal de la tienda _Admin_ y es
 | ![Menú de clientes](./assets/icon-admin-sidebar-customers.png) | **[[!UICONTROL Customers]](../customers/customers-introduction.md)** | El menú [!UICONTROL Customers] es donde puede administrar las cuentas de cliente y ver qué clientes están en línea en este momento. |
 | ![Menú de marketing](./assets/icon-admin-sidebar-marketing.png) | **[[!UICONTROL Marketing]](../merchandising-promotions/marketing-menu.md)** | En el menú [!UICONTROL Marketing] se configuran las reglas de precios y los cupones del catálogo y del carro de compras. Las reglas de precios establecen acciones de déclencheur cuando se cumple un conjunto de condiciones específicas. |
 | ![Menú de contenido](./assets/icon-admin-sidebar-content.png) | **[[!UICONTROL Content]](../content-design/content-menu.md)** | En el menú [!UICONTROL Content] se administran los elementos de contenido y el diseño de la tienda. Aprenda a crear páginas, bloques y aplicaciones de front-end y a administrar la presentación de su tienda. |
-| ![Menú Informes](./assets/icon-admin-sidebar-reports.png) | **[[!UICONTROL Reports]](reports-menu.md)** | El menú [!UICONTROL Reports] proporciona una amplia selección de informes que le ofrecen una perspectiva de todos los aspectos de su tienda, incluidas las ventas, el carro de compras, los productos, los clientes, las etiquetas, las revisiones, los términos de búsqueda y la supervisión del rendimiento en tiempo real y las recomendaciones de la [Herramienta de análisis de todo el sitio](https://experienceleague.adobe.com/es/docs/commerce-operations/tools/site-wide-analysis-tool/intro) las 24 horas del día, los 7 días de la semana. |
+| ![Menú Informes](./assets/icon-admin-sidebar-reports.png) | **[[!UICONTROL Reports]](reports-menu.md)** | [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} El menú [!UICONTROL Reports] proporciona una amplia selección de informes que le proporcionan insight en todos los aspectos de su tienda, incluyendo ventas, carro de compras, productos, clientes, etiquetas, comentarios, términos de búsqueda y supervisión del rendimiento en tiempo real las 24 horas del día, los 7 días de la semana, así como recomendaciones de la [Herramienta de análisis en todo el sitio](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/intro). |
 | ![Menú de tiendas](./assets/icon-admin-sidebar-stores.png) | **[[!UICONTROL Stores]](../stores-purchase/stores-menu.md)** | El menú [!UICONTROL Stores] incluye herramientas para configurar y mantener todos los aspectos de la tienda, incluidas las opciones de instalación de varios sitios, los impuestos, la moneda, los atributos de productos y los grupos de clientes. |
 | ![Menú del sistema](./assets/icon-admin-sidebar-system.png) | **[[!UICONTROL System]](../systems/system-menu.md)** | El menú [!UICONTROL System] incluye herramientas para administrar las operaciones del sistema, instalar extensiones y administrar servicios web para la integración con otras aplicaciones. |
-| ![Buscar extensiones](./assets/icon-admin-sidebar-extensions.png) | **[[!UICONTROL Find Partners & Extensions]](commerce-marketplace.md)** | En [!DNL Commerce Marketplace] es donde puede encontrar soluciones de Adobe Commerce y Magento Open Source para su tienda. |
+| ![Buscar extensiones](./assets/icon-admin-sidebar-extensions.png) | **[[!UICONTROL Find Partners & Extensions]](commerce-marketplace.md)** | [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} En [!DNL Commerce Marketplace] encontrará soluciones de Adobe Commerce y Magento Open Source para su tienda. |
 
 {style="table-layout:auto"}

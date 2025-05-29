@@ -4,16 +4,17 @@ description: Obtenga información sobre cómo configurar CAPTCHA para el acceso 
 exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
 role: Admin
 feature: Configuration, Security
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
 
 # CAPTCHA
 
-Un CAPTCHA es un dispositivo visual que garantiza que un ser humano, en lugar de un ordenador (o &quot;bot&quot;), está interactuando con el sitio. CAPTCHA es el acrónimo de _Prueba de Turing pública completamente automatizada para diferenciar entre ordenadores y humanos_. Se puede utilizar tanto para el acceso de administrador como para varias acciones de tienda iniciadas por clientes registrados. Adobe Commerce y Magento Open Source admiten el CAPTCHA estándar que se describe en este tema y [Google reCAPTCHA](security-google-recaptcha.md).
+Un CAPTCHA es un dispositivo visual que garantiza que un ser humano, en lugar de un ordenador (o &quot;bot&quot;), está interactuando con el sitio. CAPTCHA es el acrónimo de _Prueba de Turing pública completamente automatizada para diferenciar entre ordenadores y humanos_. Se puede utilizar tanto para el acceso de administrador como para varias acciones de tienda iniciadas por clientes registrados. Adobe Commerce y Magento Open Source admiten el CAPTCHA estándar descrito en este tema y [Google reCAPTCHA](security-google-recaptcha.md).
 
 Puede volver a cargar el CAPTCHA tantas veces como sea necesario haciendo clic en el icono Recargar en la esquina superior derecha de la imagen. El CAPTCHA es totalmente configurable y se puede configurar para que aparezca cada vez o solo después de un número definido de intentos de inicio de sesión fallidos.
 
@@ -97,7 +98,7 @@ Se puede requerir que los clientes introduzcan un CAPTCHA cada vez que inicien s
       - `Contact Us`
       - `Change password`
       - `Share Wishlist Form`
-      - `Payflow Pro` (ver [parche de seguridad](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=es) _artículo de la base de conocimiento_)
+      - `Payflow Pro` (ver [parche de seguridad](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) _artículo de la base de conocimiento_)
       - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source)
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce)
       - `Create company` ![Adobe Commerce B2B](../assets/b2b.svg) (disponible solo con Adobe Commerce B2B)

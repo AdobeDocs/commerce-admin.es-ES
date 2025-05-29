@@ -4,9 +4,9 @@ description: Obtenga información acerca de las URL de Commerce y las credencial
 exl-id: fa16b7e9-e05f-4eb8-bc32-596946c57e1c
 feature: System
 role: Admin, Leader
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,6 @@ Mientras aprendes cómo moverte por la tienda, asegúrate de configurar una [cue
 
 ## Datos de muestra
 
-Adobe proporciona un conjunto de datos de ejemplo que incluye una tienda de muestra con más de 250 productos (unos 200 de ellos son productos configurables), categorías, reglas de precios promocionales, páginas de CMS, banners, etc. Los datos de muestra usan el tema _Luma_ en la tienda. [La instalación de estos datos de ejemplo](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html?lang=es) es opcional, pero puede resultar útil para probar y desarrollar personalizaciones para su negocio de comercio electrónico.
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+
+Adobe proporciona un conjunto de datos de ejemplo que incluye una tienda de muestra con más de 250 productos (unos 200 de ellos son productos configurables), categorías, reglas de precios promocionales, páginas de CMS, banners, etc. Los datos de muestra usan el tema _Luma_ en la tienda. [La instalación de estos datos de ejemplo](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html) es opcional, pero puede resultar útil para probar y desarrollar personalizaciones para su negocio de comercio electrónico.

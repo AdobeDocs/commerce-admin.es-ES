@@ -3,9 +3,10 @@ title: Copias de seguridad del sistema
 description: Obtenga información sobre cómo crear y programar copias de seguridad del sistema, incluidos el sistema de archivos, la base de datos y los archivos multimedia.
 exl-id: 3a9655c1-c124-42be-a487-b31404dada90
 feature: System, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---

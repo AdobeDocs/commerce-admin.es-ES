@@ -1,10 +1,10 @@
 ---
-title: '[!UICONTROL Sales] menú'
+title: Menú [!UICONTROL Sales]
 description: El administrador de Commerce incluye el menú [!UICONTROL Sales], que proporciona acceso a las herramientas para trabajar con pedidos según su ubicación en el flujo de trabajo.
 exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 621b4729e23952ddd720b4dcc49b5341baae64cc
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,21 @@ ht-degree: 0%
 
 El menú Ventas enumera las transacciones según su ubicación en el flujo de trabajo del pedido. Puede considerar cada una de las opciones como una etapa diferente durante la vida útil de un pedido.
 
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+
 ![Menú de ventas](./assets/admin-menu-sales.png){width="450" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."}
+
+![Menú de ventas](./assets/admin-menu-sales-accs.png){width="450" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Mostrar el menú [!UICONTROL Sales]
 
@@ -26,6 +40,12 @@ En la barra lateral _Admin_, haga clic en **[!UICONTROL Sales]**.
 ![Adobe Commerce B2B](../assets/b2b.svg) (disponible con Adobe Commerce B2B)
 
 Los compradores autorizados pueden [negociar el precio](../b2b/quotes.md) con el vendedor enviando una [solicitud](../b2b/quote-request.md) desde el carro de compras.
+
+### [!UICONTROL Quote Templates]
+
+![Adobe Commerce B2B](../assets/b2b.svg) (disponible con Adobe Commerce B2B)
+
+Permite a compradores y vendedores optimizar el proceso de oferta creando [plantillas de oferta](../b2b/quote-templates-overview.md) reutilizables y personalizables.
 
 ### [!UICONTROL Orders]
 
@@ -51,6 +71,8 @@ Se puede otorgar una [autorización de devolución de mercancía](returns.md) (R
 
 ### [!UICONTROL Billing Agreements]
 
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+
 Un [acuerdo de facturación](paypal-billing-agreements.md) es similar a un pedido de compra, excepto que no se limita a una sola compra. Durante el cierre de compra, el cliente elige el Contrato de facturación como método de pago. Un acuerdo de facturación optimiza el proceso de cierre de compra porque el cliente no tiene que introducir la información de pago de cada compra.
 
 ### [!UICONTROL Transactions]
@@ -59,7 +81,9 @@ La página [Transacciones](transactions.md) enumera toda la actividad de pago qu
 
 ### [!UICONTROL Braintree Virtual Terminal]
 
-En la página Terminal virtual del Braintree, un usuario administrador puede aceptar el pago del importe seleccionado. Para que la característica de terminal esté disponible, el comerciante debe establecer la [configuración básica del Braintree](braintree.md). Braintree ofrece una experiencia de pago totalmente personalizable con detección de fraude e integración con PayPal.
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+
+En la página Terminal virtual de Braintree, un usuario administrador puede aceptar el pago del importe seleccionado. Para que la característica de terminal esté disponible, el comerciante debe establecer la [configuración básica de Braintree](braintree.md). Braintree ofrece una experiencia de pago y envío totalmente personalizable con detección de fraude e integración con PayPal.
 
 ### [!UICONTROL Archive]
 

@@ -2,18 +2,32 @@
 title: Introducción a la administración de clientes
 description: Aprenda a utilizar las funciones de administración de clientes de Commerce para mejorar la experiencia del cliente en su tienda.
 exl-id: 1af76dd0-3f22-4ed1-b05c-75025b813e60
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 20869a0fd5ef9be388a61b05265f6a05c48d60c2
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
 # Introducción a la administración de clientes
 
-El menú _[!UICONTROL Customers]_&#x200B;proporciona acceso a las herramientas de administración de cuentas de clientes y permite ver quién está conectado en la tienda.
+El menú _[!UICONTROL Customers]_proporciona acceso a las herramientas de administración de cuentas de clientes y permite ver quién está conectado en la tienda.
+
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 ![Menú de clientes](assets/admin-menu-customers.png){width="300" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."}
+
+![Menú de clientes](assets/admin-menu-customers-accs.png){width="300" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Mostrar el menú [!UICONTROL Customers]
 
