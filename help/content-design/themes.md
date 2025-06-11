@@ -53,7 +53,7 @@ El tema adaptable `Magento Blank` procesa la visualización de la tienda para di
 
 1. Busque la vista de tienda que desea configurar y haga clic en **[!UICONTROL Edit]** en la columna _[!UICONTROL Action]_.
 
-1. En _[!UICONTROL Default Theme]_, establezca **[!UICONTROL Applied Theme]**en el que desee usar para la vista actual.
+1. En _[!UICONTROL Default Theme]_, establezca **[!UICONTROL Applied Theme]**&#x200B;en el que desee usar para la vista actual.
 
    ![Tema aplicado](./assets/theme-default-apply.png){width="600" zoomable="yes"}
 

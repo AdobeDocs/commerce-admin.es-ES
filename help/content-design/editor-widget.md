@@ -24,7 +24,7 @@ De forma predeterminada, los vínculos heredan su estilo de la hoja de estilos d
 
 1. Abra una página, un bloque o un bloque dinámico en modo de edición.
 
-1. Vaya a la sección _[!UICONTROL Content]_y haga clic en cualquier elemento que admita el editor.
+1. Vaya a la sección _[!UICONTROL Content]_&#x200B;y haga clic en cualquier elemento que admita el editor.
 
 1. Coloque el cursor donde desee que aparezca el widget y haga clic en el icono _Insertar widget_.
 

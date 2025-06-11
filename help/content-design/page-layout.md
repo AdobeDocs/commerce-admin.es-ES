@@ -87,13 +87,13 @@ En la página, los bloques de contenido flotan para llenar el espacio disponible
 
 ![Diagrama: diseño de una columna](./assets/layout-1-col-th.png){zoomable="yes"}
 
-El diseño _[!UICONTROL 1 Column]_se puede usar para crear una página principal dramática con una imagen grande o un punto focal. También es una buena opción para una página de aterrizaje o cualquier otra página que tenga una combinación de texto, imágenes y vídeo.
+El diseño _[!UICONTROL 1 Column]_&#x200B;se puede usar para crear una página principal dramática con una imagen grande o un punto focal. También es una buena opción para una página de aterrizaje o cualquier otra página que tenga una combinación de texto, imágenes y vídeo.
 
 ### Dos columnas con barra izquierda
 
 ![Diagrama: diseño de dos columnas con barra izquierda](./assets/layout-2-col-lft-bar-th.png){zoomable="yes"}
 
-El diseño _[!UICONTROL 2 Columns with Left Bar]_se utiliza a menudo para páginas con navegación a la izquierda, como un catálogo o páginas de resultados de búsqueda con navegación por capas. También es una excelente opción para las páginas principales que necesitan navegación adicional o bloques de contenido de apoyo a la izquierda.
+El diseño _[!UICONTROL 2 Columns with Left Bar]_&#x200B;se utiliza a menudo para páginas con navegación a la izquierda, como un catálogo o páginas de resultados de búsqueda con navegación por capas. También es una excelente opción para las páginas principales que necesitan navegación adicional o bloques de contenido de apoyo a la izquierda.
 
 ### Dos columnas con barra derecha
 
@@ -105,10 +105,10 @@ Con un diseño de _[!UICONTROL 2 Columns with Right Bar]_, el área de contenido
 
 ![Diagrama: diseño de tres columnas](./assets/layout-3-col-th.png){zoomable="yes"}
 
-El diseño _[!UICONTROL 3 Column]_tiene una columna central lo suficientemente ancha como para incluir el texto principal de la página, con espacio a cada lado para la navegación adicional y bloques de contenido compatible.
+El diseño _[!UICONTROL 3 Column]_&#x200B;tiene una columna central lo suficientemente ancha como para incluir el texto principal de la página, con espacio a cada lado para la navegación adicional y bloques de contenido compatible.
 
 ### Empty
 
 ![Diagrama - diseño vacío](./assets/layout-blank-th.png){zoomable="yes"}
 
-El diseño _[!UICONTROL Empty]_se puede usar para definir diseños de página personalizados.
+El diseño _[!UICONTROL Empty]_&#x200B;se puede usar para definir diseños de página personalizados.

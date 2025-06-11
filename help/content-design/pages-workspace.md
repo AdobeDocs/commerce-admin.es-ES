@@ -80,7 +80,7 @@ El espacio de trabajo de páginas incluye herramientas que le ayudarán a encont
 
 ## Búsqueda de página
 
-El cuadro Buscar de la parte superior izquierda de la cuadrícula _[!UICONTROL Pages]_se puede utilizar para buscar páginas específicas por palabra clave. Para una búsqueda más avanzada, puedes [filtrar](../getting-started/admin-grid-controls.md) la búsqueda por varios parámetros.
+El cuadro Buscar de la parte superior izquierda de la cuadrícula _[!UICONTROL Pages]_&#x200B;se puede utilizar para buscar páginas específicas por palabra clave. Para una búsqueda más avanzada, puedes [filtrar](../getting-started/admin-grid-controls.md) la búsqueda por varios parámetros.
 
 ### Buscar por palabra clave
 
@@ -140,7 +140,7 @@ Las páginas se pueden editar, deshabilitar, habilitar y eliminar. Para aplicar 
 
 ### Acción única
 
-Utilice la columna _[!UICONTROL Action]_en el extremo derecho para aplicar cualquiera de las siguientes acciones a la página individual:
+Utilice la columna _[!UICONTROL Action]_&#x200B;en el extremo derecho para aplicar cualquiera de las siguientes acciones a la página individual:
 
 - [!UICONTROL Edit] - abre la página en modo de edición
 - [!UICONTROL Delete] - elimina la página (requiere confirmación)
@@ -150,7 +150,7 @@ Utilice la columna _[!UICONTROL Action]_en el extremo derecho para aplicar cualq
 
 ### Acciones masivas
 
-Aplique cualquiera de las siguientes acciones a varias páginas seleccionadas al mismo tiempo utilizando el selector _[!UICONTROL Action]_en la esquina superior izquierda:
+Aplique cualquiera de las siguientes acciones a varias páginas seleccionadas al mismo tiempo utilizando el selector _[!UICONTROL Action]_&#x200B;en la esquina superior izquierda:
 
 - [!UICONTROL Delete] - elimina las páginas (requiere confirmación)
 - [!UICONTROL Disable]: deshabilita las páginas de la tienda
