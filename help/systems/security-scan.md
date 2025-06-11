@@ -4,16 +4,29 @@ description: Obtenga información sobre cómo ejecutar un análisis de seguridad
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 4f46ce0ee4e4d51d178dac04d1493f0d9cffc49b
+source-git-commit: fa3931d4aaa5e7b903a17ec074703d2c8130c71d
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
 
+
 # Análisis de seguridad
 
-Supervise los sitios de Adobe Commerce y Magento Open Source en busca de riesgos de seguridad y malware, y reciba actualizaciones y notificaciones de seguridad.
+La Herramienta de análisis de seguridad de Adobe Commerce proporciona supervisión de seguridad gratuita para los sitios de Adobe Commerce y Magento Open Source. La herramienta funciona como un servicio basado en la web al que puedes acceder a través de tu cuenta en línea de Adobe Commerce en [account.magento.com](https://account.magento.com/customer/account/login).
+
+![Herramienta de exploración de seguridad](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>Adobe proporciona este servicio sin coste alguno, aunque los comerciantes deben aceptar términos que limiten la responsabilidad de Adobe en función de los resultados del análisis y la configuración del sitio.
+
+## Cobertura del análisis
+
+La Herramienta de análisis de seguridad funciona a través de protocolos HTTP y HTTPS para detectar malware, identificar vulnerabilidades de seguridad y ayudarle a mantener la postura de seguridad de su tienda. La herramienta está disponible para todos los comerciantes, desarrolladores y personal designado responsable de la seguridad del sitio.
+
+La herramienta de análisis de seguridad proporciona funciones completas de supervisión de la seguridad que le ayudan a mantener un entorno de almacenamiento seguro:
 
 - Obtenga insight en el estado de seguridad en tiempo real de su tienda.
 - Reciba sugerencias basadas en las prácticas recomendadas para ayudarle a resolver problemas.
@@ -22,11 +35,25 @@ Supervise los sitios de Adobe Commerce y Magento Open Source en busca de riesgos
 - Acceda a informes de seguridad históricos que rastrean y supervisan el progreso de sus sitios.
 - Acceda al informe de análisis que muestra las comprobaciones correctas y fallidas, con las acciones recomendadas.
 
-La herramienta Security Scan Tool está disponible de forma gratuita en el tablero de su [cuenta de Commerce/Magento](../getting-started/commerce-account-create.md). Para obtener información técnica, consulte [Configuración de Security Scan Tool](https://experienceleague.adobe.com/es/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) en la _Guía de Commerce en la infraestructura de la nube_.
+>[!NOTE]
+>
+>No puede excluir pruebas de seguridad específicas de los análisis de la Herramienta de análisis de seguridad para Adobe Commerce. Sin embargo, puede autoabastecerse en [ignorando errores](#manage-scan-failures) como falsos positivos si corresponde.
 
-![Herramienta de exploración de seguridad](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+## Acceso
 
-## Realizar un análisis de seguridad
+La herramienta de análisis de seguridad mantiene estrictos controles de acceso para proteger la información del sitio. Solo usted puede analizar su sitio porque la herramienta requiere la verificación de la propiedad del dominio a través de su cuenta de Adobe Commerce. Cada sitio se conecta a su cuenta a través de un token único, lo que evita el análisis no autorizado por parte de terceros.
+
+La herramienta se centra específicamente en los dominios de Adobe Commerce y sus vulnerabilidades de seguridad. Aunque su tienda web puede incluir páginas de otras plataformas, la herramienta de análisis de seguridad solo debe analizar el contenido generado por Adobe Commerce para garantizar resultados fiables. El análisis de páginas que no son de Adobe Commerce puede producir evaluaciones de vulnerabilidad poco fiables.
+
+## Ejecutar un análisis
+
+El proceso de digitalización comprueba el sitio en busca de problemas de seguridad conocidos e identifica las revisiones y actualizaciones de Adobe Commerce que faltan y que podrían dejar el almacén vulnerable a ataques.
+
+>[!TIP]
+>
+>Para Commerce sobre proyectos de infraestructura en la nube, consulte [Configuración de la herramienta de exploración de seguridad](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+
+Para ejecutar un análisis:
 
 1. En la página de inicio de Commerce, inicia sesión en tu [cuenta de Commerce/Magento](../getting-started/commerce-account-create.md).
 
@@ -104,7 +131,7 @@ La herramienta Security Scan Tool está disponible de forma gratuita en el table
 
          Una vez completado el proceso de compilación, los cambios se implementarán en la tienda de PWA.
 
-1. Vuelva a la página _[!UICONTROL Security Scan]_&#x200B;de su cuenta de Commerce y haga clic en **[!UICONTROL Verify Confirmation Code]**&#x200B;para establecer la propiedad del dominio.
+1. Vuelva a la página _[!UICONTROL Security Scan]_de su cuenta de Commerce y haga clic en **[!UICONTROL Verify Confirmation Code]**para establecer la propiedad del dominio.
 
 1. Después de una confirmación correcta, configure las opciones **[!UICONTROL Set Automatic Security Scan]** para uno de los siguientes tipos:
 
@@ -159,7 +186,7 @@ Entre los escenarios comunes en los que podría querer marcar un error de análi
 
 Para gestionar los errores de análisis identificados como falsos positivos, siga estos pasos:
 
-1. En la página _[!UICONTROL Monitored Websites]_, haga clic en **[!UICONTROL View Report]**&#x200B;para el sitio que desee administrar.
+1. En la página _[!UICONTROL Monitored Websites]_, haga clic en **[!UICONTROL View Report]**para el sitio que desee administrar.
 
 1. En la vista de informe, busque el análisis fallido que desee marcar como falso positivo.
 
@@ -169,7 +196,7 @@ Para gestionar los errores de análisis identificados como falsos positivos, sig
 
 1. Haga clic en **[!UICONTROL Apply Changes]** para guardar la selección.
 
-El error de análisis omitido se mueve a la sección _[!UICONTROL Ignored Results]_&#x200B;y se excluye de la puntuación de riesgo.
+El error de análisis omitido se mueve a la sección _[!UICONTROL Ignored Results]_y se excluye de la puntuación de riesgo.
 
 ### Dejar de omitir errores de análisis
 
@@ -183,7 +210,7 @@ Si necesita restaurar un fallo de análisis previamente ignorado a su monitoriza
 
 1. Haga clic en **[!UICONTROL Apply Changes]** para guardar la selección.
 
-El error de análisis vuelve a la sección _[!UICONTROL Failed Scans]_&#x200B;y se incluye en la puntuación de riesgo.
+El error de análisis vuelve a la sección _[!UICONTROL Failed Scans]_y se incluye en la puntuación de riesgo.
 
 ### Ver errores de análisis omitidos
 
