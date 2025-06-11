@@ -2,9 +2,10 @@
 title: Widgets
 description: Obtenga información sobre los widgets, que proporcionan un fragmento de código que permite mostrar una amplia gama de contenido y colocarlo en referencias de bloque específicas en la tienda.
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Cuando [crea un widget](widget-create.md), debe establecer el tipo. Este tipo de
 | Tipo | Descripción |
 |--- |--- |
 | [!UICONTROL CMS Hierarchy Node Link] | Utilice esta opción para mostrar un vínculo a un nodo específico en la jerarquía de páginas que se puede incorporar a otro contenido. |
-| [!UICONTROL CMS Page Link] | Utilice esta opción para especificar texto personalizado y un título que se vincule a una página específica de CMS. Cuando se completa el vínculo, puede utilizarse en páginas de contenido y bloques. |
+| [!UICONTROL CMS Page Link] | Utilice esta opción para especificar texto personalizado y un título que se vincule a una página de CMS específica. Cuando se completa el vínculo, puede utilizarse en páginas de contenido y bloques. |
 | [!UICONTROL CMS Static Block] | Utilice esta opción para mostrar un bloque de contenido en una ubicación específica de una página. |
 | [!UICONTROL Catalog Category Link] | Utilice esta opción para mostrar un vínculo en línea o de estilo de bloque a una categoría de catálogo seleccionada. Cuando se completa el vínculo, puede utilizarse en páginas de contenido y bloques. |
 | [!UICONTROL Catalog Events Carousel] | Utilice esta opción para mostrar una lista de los próximos eventos de catálogo. |

@@ -1,10 +1,10 @@
 ---
-title: Introducción al contenido y el diseño de  [!DNL Commerce]
+title: 'Introducción al contenido y el diseño de  [!DNL Commerce] '
 description: Aprenda a utilizar las funciones de contenido y diseño del sitio para reflejar la marca y el estilo en su tienda.
 exl-id: e13782e3-b53c-4f25-b2cc-8dacec57e451
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Su contenido debe reflejar la marca de su tienda, y debe entregarse con su prese
 
 Adobe Commerce y Magento Open Source ofrecen muchas opciones de diseño fáciles de usar que puede utilizar para realizar cambios sencillos en su tienda. También hay muchos temas diseñados profesionalmente disponibles en [Commerce Marketplace](../getting-started/commerce-marketplace.md). Al igual que el escaparate de tu tienda, puedes cambiar el tema para la temporada o para una promoción.
 
-Los diseñadores de tiendas más avanzados aprecian la flexibilidad de trabajar con un entorno orientado a objetos que ensambla páginas de componentes separados. Después de comprender los conceptos básicos, apreciará trabajar en un entorno tan flexible y fluido. Para obtener más información, consulte la [Guía para desarrolladores de Frontend][1].
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} Los diseñadores de tiendas más avanzados aprecian la flexibilidad de trabajar con un entorno orientado a objetos que combina páginas de componentes separados. Después de comprender los conceptos básicos, apreciará trabajar en un entorno tan flexible y fluido. Para obtener más información, consulte la [Guía para desarrolladores de Frontend][1].
 
 ### Configuración
 
@@ -30,6 +30,8 @@ La [configuración de diseño](configuration.md) le permite mantener fácilmente
 El [tema](themes.md) determina la presentación visual del almacén y consta de una colección de archivos de diseño, archivos de plantilla, archivos de traducción y máscaras.
 
 ### Programación
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 Los temas se pueden activar para un período de tiempo específico, según una [programación](schedule.md). Utilice la programación para planificar los cambios de tema por adelantado para una temporada o promoción.
 

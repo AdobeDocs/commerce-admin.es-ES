@@ -2,9 +2,10 @@
 title: Añadir bloques de contenido
 description: Cree bloques personalizados de contenido que pueda reutilizar en cualquier página o dentro de otro bloque.
 exl-id: 2f104d77-a1d1-4f10-82ce-014955fe560b
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -45,7 +46,7 @@ Se pueden crear bloques personalizados de contenido y luego agregarlos a cualqui
 
    - Use el [editor](editor.md) para dar formato al texto, crear vínculos y agregar tablas, imágenes, vídeo y audio.
 
-     Si prefiere trabajar con código de HTML, haga clic en **Mostrar / Ocultar editor**.
+     Si prefiere trabajar con código HTML, haga clic en **Mostrar / Ocultar editor**.
 
      ![Editor de bloques (oculto)](./assets/block-editor-hidden.png){width="500" zoomable="yes"}
 

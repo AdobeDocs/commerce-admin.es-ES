@@ -2,9 +2,10 @@
 title: Actualizaciones de diseño
 description: Aprenda a utilizar actualizaciones de diseño para personalizar el diseño de una página.
 exl-id: e2d8261f-cae1-4bd4-a047-f861dd7ca14e
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1006'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ En el diagrama siguiente, los nombres que hacen referencia a los contenedores so
 | `page/html_wrapper` | Aunque se incluye en el diseño predeterminado, este bloque está obsoleto y se incluye solo para garantizar la compatibilidad con versiones anteriores. No utilice bloques de este tipo. |
 | `page/html_breadcrumbs` | El nombre de este bloque es `breadcrumbs` y es un elemento secundario del bloque de encabezado. Este bloque muestra las rutas de exploración de la página actual. Solo puede haber un bloque de este tipo por página. |
 | `page/html_footer` | El nombre de bloque es `footer` y es un elemento secundario del bloque raíz. El bloque de pie de página corresponde al pie de página visual en la parte inferior de la página y contiene varios bloques estándar. Solo puede haber un bloque de este tipo por página y no se debe eliminar. |
-| `page/template_links` | Hay dos bloques de este tipo en el diseño estándar. El bloque `top.links` es un elemento secundario del bloque de encabezado y corresponde al menú de navegación superior. El bloque `footer_links` es un elemento secundario del bloque de pie de página y corresponde al menú de navegación inferior. <br/><br/>**_Nota:_**&#x200B;Es posible manipular los vínculos de la plantilla, como se muestra en los ejemplos. |
+| `page/template_links` | Hay dos bloques de este tipo en el diseño estándar. El bloque `top.links` es un elemento secundario del bloque de encabezado y corresponde al menú de navegación superior. El bloque `footer_links` es un elemento secundario del bloque de pie de página y corresponde al menú de navegación inferior. <br/><br/>**_Nota:_**Es posible manipular los vínculos de la plantilla, como se muestra en los ejemplos. |
 | `page/switch` | Hay dos bloques de este tipo en un diseño estándar. El bloque `store_language` es un elemento secundario del bloque de encabezado y corresponde al conmutador de idioma superior. El bloque `store_switcher` es un elemento secundario del bloque de pie de página y corresponde al conmutador de almacén inferior. |
 | core/messages | Hay dos bloques de este tipo en un diseño estándar. El bloque `global_messages` muestra mensajes globales. El bloque `messages` se usa para mostrar todos los demás mensajes. Si elimina estos bloques, el cliente no verá ningún mensaje. |
 | `core/text_list` | Este tipo de bloque se utiliza ampliamente en [!DNL Commerce] como marcador de posición para representar bloques secundarios. |
@@ -52,7 +53,7 @@ Los siguientes pasos muestran cómo utilizar una actualización de diseño para 
 
 ### Paso 2: Componga la actualización de diseño en XML
 
-1. Componga las instrucciones de diseño en XML para [hacer referencia a un bloque CMS](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage/).
+1. Componga las instrucciones de diseño en XML para [hacer referencia a un bloque de CMS](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage/).
 
 1. Guarde las [instrucciones de diseño](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions/) en el servidor de la carpeta de diseño donde se guardan los archivos XML para la temática.
 
@@ -60,7 +61,7 @@ Los siguientes pasos muestran cómo utilizar una actualización de diseño para 
 
    `<theme_dir>/<Namespace>_<Module>/layout`
 
-   El identificador de diseño es el nombre de archivo que comienza con `cms_page_view_selectable_`, seguido de la clave URL de la página de CMS, la opción de actualización de diseño y el sufijo de archivo `xml`. En el ejemplo siguiente, `customer-service` es la clave URL de la página y `ChatTool` es la opción que selecciona para aplicar la actualización de diseño a la página.
+   El identificador de diseño es el nombre de archivo que comienza por `cms_page_view_selectable_`, seguido de la clave URL de la página de CMS, la opción de actualización de diseño y el sufijo de archivo `xml`. En el ejemplo siguiente, `customer-service` es la clave URL de la página y `ChatTool` es la opción que selecciona para aplicar la actualización de diseño a la página.
 
    `cms_page_view_selectable_`&lt;`customer-service`>`_`&lt;`ChatTool`>`.xml`
 

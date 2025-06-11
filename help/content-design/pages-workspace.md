@@ -3,9 +3,10 @@ title: Controles de Page Workspace
 description: Obtenga información acerca de las herramientas de Workspace utilizadas para localizar y actualizar páginas de contenido.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: fc8ebeeae56378967e95bda9bbf898c469b3a4c0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1373'
 ht-degree: 0%
 
 ---
@@ -79,7 +80,7 @@ El espacio de trabajo de páginas incluye herramientas que le ayudarán a encont
 
 ## Búsqueda de página
 
-El cuadro Buscar de la parte superior izquierda de la cuadrícula _[!UICONTROL Pages]_&#x200B;se puede utilizar para buscar páginas específicas por palabra clave. Para una búsqueda más avanzada, puedes [filtrar](../getting-started/admin-grid-controls.md) la búsqueda por varios parámetros.
+El cuadro Buscar de la parte superior izquierda de la cuadrícula _[!UICONTROL Pages]_se puede utilizar para buscar páginas específicas por palabra clave. Para una búsqueda más avanzada, puedes [filtrar](../getting-started/admin-grid-controls.md) la búsqueda por varios parámetros.
 
 ### Buscar por palabra clave
 
@@ -139,7 +140,7 @@ Las páginas se pueden editar, deshabilitar, habilitar y eliminar. Para aplicar 
 
 ### Acción única
 
-Utilice la columna _[!UICONTROL Action]_&#x200B;en el extremo derecho para aplicar cualquiera de las siguientes acciones a la página individual:
+Utilice la columna _[!UICONTROL Action]_en el extremo derecho para aplicar cualquiera de las siguientes acciones a la página individual:
 
 - [!UICONTROL Edit] - abre la página en modo de edición
 - [!UICONTROL Delete] - elimina la página (requiere confirmación)
@@ -149,7 +150,7 @@ Utilice la columna _[!UICONTROL Action]_&#x200B;en el extremo derecho para aplic
 
 ### Acciones masivas
 
-Aplique cualquiera de las siguientes acciones a varias páginas seleccionadas al mismo tiempo utilizando el selector _[!UICONTROL Action]_&#x200B;en la esquina superior izquierda:
+Aplique cualquiera de las siguientes acciones a varias páginas seleccionadas al mismo tiempo utilizando el selector _[!UICONTROL Action]_en la esquina superior izquierda:
 
 - [!UICONTROL Delete] - elimina las páginas (requiere confirmación)
 - [!UICONTROL Disable]: deshabilita las páginas de la tienda

@@ -3,9 +3,10 @@ title: Widget de pedidos y devoluciones
 description: Aprenda a utilizar el widget pedidos y devoluciones para ofrecer a los clientes la capacidad de comprobar el estado de sus pedidos, imprimir facturas y rastrear envíos.
 exl-id: 1c3948e6-a0de-4ee4-8abf-10ab845a94a7
 feature: Page Content, Orders, Returns
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -57,7 +58,7 @@ El widget _Pedidos y devoluciones_ permite a los invitados comprobar el estado d
 
    - (Opcional) Para **[!UICONTROL Sort Order]**, escriba un número para determinar el orden en que aparece este elemento con otros en la misma parte de la página. (`0` = primero, `1` = segundo, `3` = tercero, etc.)
 
-1. En la sección _[!UICONTROL Layout Updates]_, haga clic en **[!UICONTROL Add Layout Update]**&#x200B;y haga lo siguiente:
+1. En la sección _[!UICONTROL Layout Updates]_, haga clic en **[!UICONTROL Add Layout Update]**y haga lo siguiente:
 
    - Establezca **[!UICONTROL Display On]** en el tipo de página donde desea que aparezca el widget.
 

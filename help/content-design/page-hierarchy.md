@@ -2,9 +2,10 @@
 title: Jerarquía de páginas
 description: Descubra cómo el sistema de jerarquía de páginas le permite organizar las páginas de contenido y agregar paginación, navegación y menús.
 exl-id: 2ce79b85-1420-4640-a4f7-0143a608a71a
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -47,7 +48,7 @@ En el siguiente ejemplo se muestra cómo crear un nodo con navegación sencilla 
 
 Por ejemplo, podría crear un nodo denominado _Comunicados de prensa_ que tenga acceso a comunicados de prensa individuales. A continuación, puede incluir el vínculo en su página _Acerca de nosotros_ al nodo. O puede crear un nodo para una colección de números anteriores de la newsletter.
 
-Para vincular a un nodo, use la herramienta [Widget](widgets.md) para crear un vínculo de nodo de jerarquía de CMS y coloque el widget en un bloque de contenido o una página.
+Para vincular a un nodo, usa la herramienta [Widget](widgets.md) para crear un vínculo de nodo de jerarquía de CMS y coloca el widget en un bloque de contenido o una página.
 
 ![Ejemplo de menú de navegación en la página Acerca de nosotros](./assets/page-navigation-storefront.png){width="600" zoomable="yes"}
 
@@ -59,7 +60,7 @@ Para vincular a un nodo, use la herramienta [Widget](widgets.md) para crear un v
 
 1. Sobre la cuadrícula, haga clic en **[!UICONTROL Add Node...]**.
 
-1. En _[!UICONTROL Page Properties]_, escriba un **[!UICONTROL Title]**&#x200B;para el nodo y un **[!UICONTROL URL Key]**&#x200B;adecuado.
+1. En _[!UICONTROL Page Properties]_, escriba un **[!UICONTROL Title]**para el nodo y un **[!UICONTROL URL Key]**adecuado.
 
    La clave URL proporciona una dirección web única para el nodo. Debe tener todos los caracteres en minúsculas, con guiones para separar las palabras, en lugar de los espacios.
 
@@ -85,7 +86,7 @@ Para vincular a un nodo, use la herramienta [Widget](widgets.md) para crear un v
 
 1. Haga clic en el nodo en la parte superior de la jerarquía.
 
-   La sección _[!UICONTROL Page Properties]_&#x200B;ahora muestra información sobre el nodo.
+   La sección _[!UICONTROL Page Properties]_ahora muestra información sobre el nodo.
 
 1. En **[!UICONTROL Render Metadata in HTML Head]**, haga lo siguiente:
 

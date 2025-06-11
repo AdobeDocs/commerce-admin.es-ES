@@ -1,10 +1,11 @@
 ---
 title: Insertar una imagen en el editor
-description: El editor WYSIWYG ofrece una forma sencilla de insertar una imagen desde el almacenamiento de medios, vincular a una imagen que reside en otro servidor o utilizar recursos de Adobe Stock.
+description: El editor de WYSIWYG permite insertar de forma sencilla una imagen desde el almacenamiento de medios, vincular a una imagen que reside en otro servidor o utilizar recursos de Adobe Stock.
 exl-id: 591830c9-6dba-4738-a6e7-cf5f93b3c319
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Desde el editor, puede insertar una imagen utilizando tres tipos de origen:
 
 1. Abra una página, un bloque o un bloque dinámico en modo de edición.
 
-1. Vaya a la sección _[!UICONTROL Content]_&#x200B;y haga clic en cualquier elemento que admita el editor.
+1. Vaya a la sección _[!UICONTROL Content]_y haga clic en cualquier elemento que admita el editor.
 
 1. Coloque el cursor donde desee que aparezca la imagen.
 

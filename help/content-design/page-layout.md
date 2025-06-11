@@ -2,9 +2,10 @@
 title: Diseños de página
 description: Obtenga información sobre las secciones de diseño de página y cómo configurar los diseños predeterminados.
 exl-id: 397a92cf-6f20-4729-8d7c-c5f672fc1c9a
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -61,7 +62,7 @@ En la página, los bloques de contenido flotan para llenar el espacio disponible
    - `Category -- Full Width` - (Recomendado) Utiliza el diseño _Categoría - Anchura completa_ para las páginas de categoría.
    - `Product -- Full Width`: utiliza el diseño _Producto - Anchura completa_ para las páginas de categoría.
 
-1. Elija el(la) **[!UICONTROL Default Page Layout]** que desea usar para páginas de CMS.
+1. Elija el(la) **[!UICONTROL Default Page Layout]** que desea usar para las páginas de CMS.
 
    Esta configuración determina el diseño que se utiliza de forma predeterminada para las páginas de CMS.
 
@@ -69,14 +70,14 @@ En la página, los bloques de contenido flotan para llenar el espacio disponible
    - `Empty`: utiliza un diseño en blanco para las páginas de CMS.
    - `1 column`: utiliza un diseño de columna única para las páginas de CMS.
    - `2 columns with left bar`: utiliza un diseño de dos columnas con la barra lateral izquierda para las páginas de CMS.
-   - `2 columns with right bar`: utiliza un diseño de dos columnas con la barra lateral a la derecha para páginas de CMS.
+   - `2 columns with right bar`: utiliza un diseño de dos columnas con la barra lateral a la derecha para las páginas de CMS.
    - `3 columns`: utiliza un diseño de tres columnas con barras laterales a la izquierda y a la derecha para las páginas de CMS.
 
-   Cuando [Page Builder](../page-builder/introduction.md) está habilitado, hay opciones adicionales de ancho completo disponibles. A continuación, puede utilizar las herramientas de contenido de Page Builder para diseñar el diseño de sus páginas de CMS.
+   Cuando [Page Builder](../page-builder/introduction.md) está habilitado, hay opciones adicionales de ancho completo disponibles. A continuación, puede utilizar las herramientas de contenido de Page Builder para diseñar el diseño de las páginas de CMS.
 
    - `Page -- Full Width` - (Recomendado) Utiliza el diseño _Página - Anchura completa_ para las páginas de CMS.
    - `Category - Full Width`: utiliza el diseño _Categoría - Anchura completa_ para las páginas de CMS.
-   - `Product - Full Width`: utiliza el diseño _Producto - Anchura completa_ para páginas CMS.
+   - `Product - Full Width`: utiliza el diseño _Producto - Anchura completa_ para las páginas de CMS.
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
@@ -86,13 +87,13 @@ En la página, los bloques de contenido flotan para llenar el espacio disponible
 
 ![Diagrama: diseño de una columna](./assets/layout-1-col-th.png){zoomable="yes"}
 
-El diseño _[!UICONTROL 1 Column]_&#x200B;se puede usar para crear una página principal dramática con una imagen grande o un punto focal. También es una buena opción para una página de aterrizaje o cualquier otra página que tenga una combinación de texto, imágenes y vídeo.
+El diseño _[!UICONTROL 1 Column]_se puede usar para crear una página principal dramática con una imagen grande o un punto focal. También es una buena opción para una página de aterrizaje o cualquier otra página que tenga una combinación de texto, imágenes y vídeo.
 
 ### Dos columnas con barra izquierda
 
 ![Diagrama: diseño de dos columnas con barra izquierda](./assets/layout-2-col-lft-bar-th.png){zoomable="yes"}
 
-El diseño _[!UICONTROL 2 Columns with Left Bar]_&#x200B;se utiliza a menudo para páginas con navegación a la izquierda, como un catálogo o páginas de resultados de búsqueda con navegación por capas. También es una excelente opción para las páginas principales que necesitan navegación adicional o bloques de contenido de apoyo a la izquierda.
+El diseño _[!UICONTROL 2 Columns with Left Bar]_se utiliza a menudo para páginas con navegación a la izquierda, como un catálogo o páginas de resultados de búsqueda con navegación por capas. También es una excelente opción para las páginas principales que necesitan navegación adicional o bloques de contenido de apoyo a la izquierda.
 
 ### Dos columnas con barra derecha
 
@@ -104,10 +105,10 @@ Con un diseño de _[!UICONTROL 2 Columns with Right Bar]_, el área de contenido
 
 ![Diagrama: diseño de tres columnas](./assets/layout-3-col-th.png){zoomable="yes"}
 
-El diseño _[!UICONTROL 3 Column]_&#x200B;tiene una columna central lo suficientemente ancha como para incluir el texto principal de la página, con espacio a cada lado para la navegación adicional y bloques de contenido compatible.
+El diseño _[!UICONTROL 3 Column]_tiene una columna central lo suficientemente ancha como para incluir el texto principal de la página, con espacio a cada lado para la navegación adicional y bloques de contenido compatible.
 
 ### Empty
 
 ![Diagrama - diseño vacío](./assets/layout-blank-th.png){zoomable="yes"}
 
-El diseño _[!UICONTROL Empty]_&#x200B;se puede usar para definir diseños de página personalizados.
+El diseño _[!UICONTROL Empty]_se puede usar para definir diseños de página personalizados.

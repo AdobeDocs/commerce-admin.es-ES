@@ -1,10 +1,11 @@
 ---
 title: Inserción de un vínculo en el editor
-description: Utilice el editor WYSIWYG para añadir un vínculo al contenido
+description: Utilice el editor de WYSIWYG para añadir un vínculo al contenido
 exl-id: c9930a4f-a082-4bd8-b0c4-9d86b59a2365
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---

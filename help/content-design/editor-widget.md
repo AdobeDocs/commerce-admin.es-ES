@@ -1,10 +1,11 @@
 ---
 title: Insertar un widget en el editor
-description: Añada varios elementos de contenido a una página mediante la herramienta widget en el editor WYSIWYG.
+description: Añada varios elementos de contenido a una página mediante la herramienta widget del editor de WYSIWYG.
 exl-id: bbc5e059-06d8-4dda-89a7-6c9826b73fd3
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ De forma predeterminada, los vínculos heredan su estilo de la hoja de estilos d
 
 1. Abra una página, un bloque o un bloque dinámico en modo de edición.
 
-1. Vaya a la sección _[!UICONTROL Content]_&#x200B;y haga clic en cualquier elemento que admita el editor.
+1. Vaya a la sección _[!UICONTROL Content]_y haga clic en cualquier elemento que admita el editor.
 
 1. Coloque el cursor donde desee que aparezca el widget y haga clic en el icono _Insertar widget_.
 
@@ -55,6 +56,6 @@ De forma predeterminada, los vínculos heredan su estilo de la hoja de estilos d
 
 1. Haga clic en **[!UICONTROL Insert Widget]** para colocar el vínculo en la página.
 
-   Si está trabajando con código de HTML, aparecerá una [etiqueta de marcado](../systems/markup-tags.md) para el vínculo en la parte superior de la página, entre llaves dobles. Si es necesario, use _Cortar y pegar_ para colocar la etiqueta de marcado en el código donde desea que aparezca el vínculo.
+   Si está trabajando con código HTML, aparecerá una [etiqueta de marcado](../systems/markup-tags.md) para el vínculo en la parte superior de la página, entre llaves dobles. Si es necesario, use _Cortar y pegar_ para colocar la etiqueta de marcado en el código donde desea que aparezca el vínculo.
 
 1. Una vez completadas las ediciones del contenido, haga clic en **[!UICONTROL Save]**.

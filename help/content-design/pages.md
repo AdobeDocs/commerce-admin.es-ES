@@ -3,9 +3,10 @@ title: Páginas
 description: Obtenga más información acerca de las páginas de contenido principales incluidas en la tienda de demostración de  [!DNL Commerce] y sobre cómo cambiar la configuración de las páginas predeterminadas.
 exl-id: 4be7d3d6-ce36-42bc-9224-4804c3211f16
 feature: Page Content, Configuration
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -75,7 +76,7 @@ La configuración de _Páginas predeterminadas_ determina la página de aterriza
    | [!UICONTROL Default Web URL] | Vista de tienda | Indica la página de aterrizaje asociada a la dirección URL base. De manera predeterminada, este campo se establece en `cms` para indicar una página del sistema de administración de contenido [!DNL Commerce]. También puede utilizar un tipo diferente de página de aterrizaje, como un blog. Por ejemplo, si un blog está instalado en el servidor en `magento/blog`, puede escribir el nombre de carpeta `blog` como una ruta relativa a la selección de páginas. |
    | [!UICONTROL CMS Home Page] | Vista de tienda | Para elegir la página de inicio de la tienda, simplemente seleccione la página de CMS en la lista. De forma predeterminada, la página principal de CMS muestra toda la selección de páginas de CMS disponibles para su tienda. |
    | [!UICONTROL Default No-route URL] | Vista de tienda | Contiene la dirección URL de la página predeterminada que desea que aparezca cuando se produzca un error `404 Page not Found`. El valor predeterminado es `cms/noroute/index`. |
-   | [!UICONTROL CMS No Route Page] | Vista de tienda | Identifica una página CMS específica que desea que aparezca cuando se produzca un error 404 Página no encontrada. La página predeterminada es `404 Not Found`. |
+   | [!UICONTROL CMS No Route Page] | Vista de tienda | Identifica una página de CMS específica que desea que aparezca cuando se produzca un error 404 Página no encontrada. La página predeterminada es `404 Not Found`. |
    | [!UICONTROL CMS No Cookies Page] | Vista de tienda | Identifica una página de CMS específica que aparece cuando las cookies no están habilitadas para el explorador. La página explica por qué se utilizan las cookies y cómo habilitarlas para cada explorador. La página predeterminada es `Enable Cookies`. |
    | [!UICONTROL Show Breadcrumbs for CMS Pages] | Vista de tienda | Determina si aparece una ruta de exploración en todas las páginas de CMS del catálogo. Opciones: `Yes` / `No` |
 
@@ -87,9 +88,9 @@ La configuración de _Páginas predeterminadas_ determina la página de aterriza
 
    >[!NOTE]
    >
-   >Para una vista de almacén específica, desactive la casilla de verificación **[!UICONTROL Use Default]** junto a _[!UICONTROL Default Web URL]_&#x200B;y cualquier otra configuración predeterminada que desee cambiar.
+   >Para una vista de almacén específica, desactive la casilla de verificación **[!UICONTROL Use Default]** junto a _[!UICONTROL Default Web URL]_y cualquier otra configuración predeterminada que desee cambiar.
 
-1. Configure **[!UICONTROL CMS Home Page]** a la página de CMS para usarla como página de inicio. Otras páginas creadas pueden utilizarse como página de inicio, como:
+1. Configure **[!UICONTROL CMS Home Page]** a la página de CMS para usarla como página principal. Otras páginas creadas pueden utilizarse como página de inicio, como:
 
    - Bienvenido a la tienda en línea exclusiva
    - Puntos de recompensas
@@ -105,7 +106,7 @@ La configuración de _Páginas predeterminadas_ determina la página de aterriza
 
 1. Establezca **[!UICONTROL CMS No Route Page]** en la página de CMS que aparece cuando se produce un error de _404 Página no encontrada_.
 
-1. Configure **[!UICONTROL CMS No Cookies Page]** a la página de CMS que aparece cuando las cookies están deshabilitadas en el explorador. La página explica por qué se utilizan las cookies y cómo habilitarlas para cada explorador. La página predeterminada es `Enable Cookies`.
+1. Establezca **[!UICONTROL CMS No Cookies Page]** en la página de CMS que aparece cuando se deshabilitan las cookies en el explorador. La página explica por qué se utilizan las cookies y cómo habilitarlas para cada explorador. La página predeterminada es `Enable Cookies`.
 
 1. Si desea que aparezca una ruta de exploración en la parte superior de todas las páginas de CMS, establezca **[!UICONTROL Show Breadcrumbs for CMS Pages]** en `Yes`.
 

@@ -3,22 +3,23 @@ title: El(la) [!DNL Media Gallery]
 description: Utilice la Galería multimedia para organizar y administrar los archivos multimedia en el servidor.
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
 
 # El [!DNL Media Gallery]
 
-Con Adobe Commerce o Magento Open Source 2.4, los comerciantes pueden usar el nuevo _Enhanced_ [!DNL Media Gallery] para organizar y administrar sus archivos multimedia en el servidor. Este nuevo [!DNL Media Gallery] contiene las mismas funcionalidades que el almacenamiento de medios existente, pero incluye una interfaz de usuario mejorada y una integración más estrecha con [Adobe Stock][adobe-stock].
+Con Adobe Commerce o Magento Open Source 2.4, los comerciantes pueden usar los nuevos _archivos mejorados_ [!DNL Media Gallery] para organizar y administrar sus archivos multimedia en el servidor. Este nuevo [!DNL Media Gallery] contiene las mismas funcionalidades que el almacenamiento de medios existente, pero incluye una interfaz de usuario mejorada y una integración más estrecha con [Adobe Stock][adobe-stock].
 
 ![Imágenes mostradas en la cuadrícula de la Galería multimedia](./assets/media-gallery-grid.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->Las imágenes de producto agregadas a la sección de productos [_[!UICONTROL Images and Videos]_](../catalog/product-image.md#upload-an-image) no son administradas por [!DNL Media Gallery]. Solo las imágenes utilizadas en los campos de la sección de productos&#x200B;_[!UICONTROL Content]_ se muestran y filtran en el nuevo [!DNL Media Gallery].
+>Las imágenes de producto agregadas a la sección de productos [_[!UICONTROL Images and Videos]_](../catalog/product-image.md#upload-an-image) no son administradas por [!DNL Media Gallery]. Solo las imágenes utilizadas en los campos de la sección de productos_[!UICONTROL Content]_ se muestran y filtran en el nuevo [!DNL Media Gallery].
 
 ## Habilitar el nuevo [!DNL Media Gallery]
 
@@ -40,7 +41,7 @@ Con Adobe Commerce o Magento Open Source 2.4, los comerciantes pueden usar el nu
 
 >[!NOTE]
 >
->La funcionalidad completa para el nuevo [!DNL Media Gallery] requiere que `media.gallery.synchronization` y `media.content.synchronization` consumidores de cola se inicien para la sincronización inicial. Consulte [Administrar colas de mensajes](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=es) en la _Guía de configuración_ para obtener más información.
+>La funcionalidad completa para el nuevo [!DNL Media Gallery] requiere que `media.gallery.synchronization` y `media.content.synchronization` consumidores de cola se inicien para la sincronización inicial. Consulte [Administrar colas de mensajes](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) en la _Guía de configuración_ para obtener más información.
 
 ## Acceder al nuevo(a) [!DNL Media Gallery]
 
@@ -56,7 +57,7 @@ Para acceder a la nueva Galería de medios al agregar o editar una página:
 
 1. Haga clic en **[!UICONTROL Add a New Page]**.
 
-   Si desea editar una página existente, puede usar la columna _[!UICONTROL Action]_&#x200B;para hacer clic en **[!UICONTROL Select]**&#x200B;y elegir **[!UICONTROL Edit]**.
+   Si desea editar una página existente, puede usar la columna _[!UICONTROL Action]_para hacer clic en **[!UICONTROL Select]**y elegir **[!UICONTROL Edit]**.
 
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Content]** y haga lo siguiente:
 
@@ -70,7 +71,7 @@ Para acceder a la nueva Galería de medios al agregar o editar una página:
 
 Para obtener más información acerca de [!DNL Media Gallery], vea este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411043?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)
 
 [adobe-stock]: https://stock.adobe.com
 

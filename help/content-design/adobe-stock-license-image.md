@@ -3,16 +3,17 @@ title: Licencia de una imagen de Adobe Stock
 description: Para garantizar que tenga acceso legal y eliminar la marca de agua de Adobe Stock, conceda una licencia a sus imágenes de Adobe Stock.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
 
 # Licencia de una imagen de Adobe Stock
 
-Los recursos de Adobe Stock que desee utilizar para sus tiendas de producción de Adobe Commerce y Magento Open Source deben disponer de licencia. Esta licencia garantiza que tenga acceso legal a la imagen y que elimine la marca de agua de Adobe Stock que está presente en todas las [previsualizaciones de imagen](./adobe-stock-save-preview.md). Para obtener una licencia de imágenes o guardar imágenes con licencia, debe iniciar sesión en su cuenta de Adobe.
+Los recursos de Adobe Stock que desee utilizar para sus tiendas de producción de Adobe Commerce y Magento Open Source deben tener licencia. Esta licencia garantiza que tenga acceso legal a la imagen y que elimine la marca de agua de Adobe Stock que está presente en todas las [previsualizaciones de imagen](./adobe-stock-save-preview.md). Para obtener una licencia de imágenes o guardar imágenes con licencia, debe iniciar sesión en su cuenta de Adobe.
 
 El nuevo [[!DNL Media Gallery]](media-gallery.md) proporciona una integración directa con Adobe Stock, lo que facilita la licencia de las imágenes directamente desde la página de la galería.
 
@@ -74,6 +75,6 @@ La característica de licencias de Adobe Stock solo está disponible si [Adobe S
 
 [access-search]: adobe-stock-manage.md#access-the-adobe-stock-search-grid
 [view-details]: adobe-stock-manage.md#view-image-details
-[stock-credits]: https://helpx.adobe.com/es/stock/help/credit-packs.html
+[stock-credits]: https://helpx.adobe.com/stock/help/credit-packs.html
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/es/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html

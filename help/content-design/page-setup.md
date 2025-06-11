@@ -2,28 +2,29 @@
 title: Configuración de página
 description: Obtenga información sobre cómo configurar los valores predeterminados de las partes principales de una página de la tienda.
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-source-git-commit: 6958da6a87f9088bb292d58f23fa1d0c34beb70b
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
 
 # Configuración de página
 
-Las secciones principales de la página están controladas, en parte, por un conjunto de etiquetas de HTML estándar. Algunas de estas etiquetas se pueden utilizar para determinar la selección de fuentes, colores, tamaño, colores de fondo e imágenes que se utilizan en cada sección de la página. Otros elementos de página de control de configuración, como el logotipo del encabezado y el aviso de copyright del pie de página. Estas secciones corresponden a la estructura subyacente de la página HTML y muchas de las propiedades básicas se pueden establecer desde Admin.
+Las secciones principales de la página están controladas, en parte, por un conjunto de etiquetas HTML estándar. Algunas de estas etiquetas se pueden utilizar para determinar la selección de fuentes, colores, tamaño, colores de fondo e imágenes que se utilizan en cada sección de la página. Otros elementos de página de control de configuración, como el logotipo del encabezado y el aviso de copyright del pie de página. Estas secciones corresponden a la estructura subyacente de la página de HTML y muchas de las propiedades básicas se pueden establecer desde Admin.
 
-- [Cabeza de HTML](#html-head)
+- [HTML Head](#html-head)
 - [Header](#header)
 - [Pie](#footer)
 
-![secciones de página del HTML](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
+![Secciones de página de HTML](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
 
-## Cabeza de HTML
+## HTML Head
 
-La configuración de la sección Encabezado del HTML corresponde a la etiqueta `<head>` de una página del HTML y se puede configurar para cada vista de tienda. Además de los metadatos del título de página, la descripción y las palabras clave, la sección incluye un vínculo al icono de favoritos y varios scripts. Las instrucciones para los robots de motores de búsqueda y la visualización del aviso de demostración de la tienda también se configuran en esta sección.
+La configuración de la sección HTML Head corresponde a la etiqueta `<head>` de una página de HTML y se puede configurar para cada vista de tienda. Además de los metadatos del título de página, la descripción y las palabras clave, la sección incluye un vínculo al icono de favoritos y varios scripts. Las instrucciones para los robots de motores de búsqueda y la visualización del aviso de demostración de la tienda también se configuran en esta sección.
 
-### Configuración del encabezado del HTML
+### Configuración del encabezado de HTML
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
@@ -31,7 +32,7 @@ La configuración de la sección Encabezado del HTML corresponde a la etiqueta `
 
 1. En _Otra configuración_, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL HTML Head]**.
 
-   ![Configuración del encabezado del HTML](./assets/configuration-html-head.png){width="500" zoomable="yes"}
+   ![Ajustes de configuración de HTML Head](./assets/configuration-html-head.png){width="500" zoomable="yes"}
 
 1. Actualice [favicon](../getting-started/storefront-branding.md#add-a-favicon) si es necesario.
 
@@ -59,7 +60,7 @@ La configuración de la sección Encabezado del HTML corresponde a la etiqueta `
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Configuration]**.
 
-### Descripciones de los campos de Cabeza de HTML
+### Descripciones de los campos de HTML Head
 
 | Campo | Ámbito | Descripción |
 |--- |--- |--- |
@@ -69,7 +70,7 @@ La configuración de la sección Encabezado del HTML corresponde a la etiqueta `
 | [!UICONTROL Page Title Suffix] | Vista de tienda | Se puede agregar un sufijo después del título para crear un título de dos o tres partes. Se puede utilizar una barra vertical o dos puntos como separador al final del prefijo para diferenciarlo del texto del título principal. |
 | [!UICONTROL Default Meta Description] | Vista de tienda | La descripción proporciona un resumen del sitio para los anuncios de motores de búsqueda y no debe tener más de 160 caracteres de longitud. |
 | [!UICONTROL Default Meta Keywords] | Vista de tienda | Una serie de palabras clave que describen el almacén, cada una separada por una coma. |
-| [!UICONTROL Scripts and Style Sheets] | Vista de tienda | Contiene scripts que deben incluirse en el HTML antes de la etiqueta de cierre `<head>`. Por ejemplo, cualquier JavaScript de terceros que deba colocarse antes de la etiqueta `<body>` puede introducirse aquí. |
+| [!UICONTROL Scripts and Style Sheets] | Vista de tienda | Contiene scripts que deben incluirse en HTML antes de la etiqueta de cierre `<head>`. Por ejemplo, cualquier JavaScript de terceros que deba colocarse antes de la etiqueta `<body>` puede introducirse aquí. |
 | [!UICONTROL Display Demo Store Notice] | Vista de tienda | Controla la visualización del aviso de almacén de demostración en la parte superior de la página. Opciones: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -99,7 +100,7 @@ La configuración del encabezado identifica la ruta al logotipo de la tienda y e
 
 | Campo | Ámbito | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Logo Image] | Vista de tienda | Identifica la ruta al logotipo que aparece en el encabezado. Tipos de archivo admitidos: PNG, GIF, JPG de la (JPEG) |
+| [!UICONTROL Logo Image] | Vista de tienda | Identifica la ruta al logotipo que aparece en el encabezado. Tipos de archivo admitidos: PNG, GIF, JPG (JPEG) |
 | [!UICONTROL Logo Attribute Width] | Vista de tienda | Ancho de la imagen del logotipo en píxeles. |
 | [!UICONTROL Logo Attribute Height] | Vista de tienda | Altura de la imagen del logotipo en píxeles. |
 | [!UICONTROL Welcome Text] | Vista de tienda | El mensaje de bienvenida aparece en el encabezado de la página e incluye el nombre de los clientes que han iniciado sesión. |
@@ -135,7 +136,7 @@ En la sección Configuración del pie de página puede actualizar el [aviso de c
 | Campo | Ámbito | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Miscellaneous HTML] | Vista de tienda | Un cuadro de entrada donde puede cargar scripts varios en el servidor que deben colocarse justo antes de la etiqueta de cierre `<body>`. |
-| [!UICONTROL Copyright] | Vista de tienda | Declaración de copyright que aparece en la parte inferior de cada página. Para incluir el símbolo de copyright, utilice la entidad de carácter HTML `\&copy;` como se muestra a continuación: `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` Asegúrese de reemplazar el aviso de copyright de ejemplo por el suyo propio. |
+| [!UICONTROL Copyright] | Vista de tienda | Declaración de copyright que aparece en la parte inferior de cada página. Para incluir el símbolo de copyright, use la entidad de carácter de HTML `\&copy;` como se muestra a continuación: `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` Asegúrese de reemplazar el aviso de copyright de ejemplo por el suyo propio. |
 | [!UICONTROL Display Report Bugs Link] | Vista de tienda | Determina si el vínculo del informe de errores (compatible con algunas temáticas) está habilitado o deshabilitado. |
 
 {style="table-layout:auto"}

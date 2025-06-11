@@ -3,9 +3,10 @@ title: Widget de lista de nuevos productos
 description: Aprenda a utilizar el nuevo widget de lista de productos para mostrar una lista de los productos añadidos más recientemente.
 exl-id: bdff3655-cd14-4a19-a51f-4cabeb274d2a
 feature: Page Content, Products
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -18,11 +19,11 @@ La lista de nuevos productos es un ejemplo de contenido dinámico y consiste en 
 
 ## Paso 1: Establecer cada producto como nuevo
 
-![Magento Open Source](../assets/open-source.svg) Este paso se aplica solo al Magento Open Source.
+![Magento Open Source](../assets/open-source.svg) Este paso se aplica solo a Magento Open Source.
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Para las tiendas Adobe Commerce, consulta [Programando una actualización](content-staging-scheduled-update.md) y continúa con el Paso 2 de esta página.
 
-La configuración del intervalo de fechas _[!UICONTROL Set Product as New]_&#x200B;solo se puede configurar en actualizaciones programadas.
+La configuración del intervalo de fechas _[!UICONTROL Set Product as New]_solo se puede configurar en actualizaciones programadas.
 
 Al establecer un producto como nuevo, se agrega el producto a la lista _Nuevos productos_. Puede volver a cambiar la configuración en cualquier momento en el que ya no desee incluirla en la lista.
 

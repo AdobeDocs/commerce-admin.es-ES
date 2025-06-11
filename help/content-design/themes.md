@@ -3,9 +3,10 @@ title: Temas
 description: Obtenga información acerca de  [!DNL Commerce] temáticas, que incluyen archivos de diseño, archivos de plantilla, archivos de traducción y máscaras que definen el aspecto de su tienda.
 exl-id: d2ccff51-5019-4f80-8eaa-3fe50d5cd6cc
 feature: Page Content, Themes
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -52,7 +53,7 @@ El tema adaptable `Magento Blank` procesa la visualización de la tienda para di
 
 1. Busque la vista de tienda que desea configurar y haga clic en **[!UICONTROL Edit]** en la columna _[!UICONTROL Action]_.
 
-1. En _[!UICONTROL Default Theme]_, establezca **[!UICONTROL Applied Theme]**&#x200B;en el que desee usar para la vista actual.
+1. En _[!UICONTROL Default Theme]_, establezca **[!UICONTROL Applied Theme]**en el que desee usar para la vista actual.
 
    ![Tema aplicado](./assets/theme-default-apply.png){width="600" zoomable="yes"}
 

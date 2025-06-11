@@ -4,9 +4,10 @@ description: Aprenda a utilizar una base de datos de medios para almacenar sus [
 exl-id: b59349fb-0cb6-4812-a126-6e0d8d37564f
 feature: Page Content, Media, Configuration
 level: Experienced
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -15,13 +16,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->El método de almacenamiento de medios de la base de datos está obsoleto desde Adobe Commerce y el Magento Open Source 2.4.3.
+>El método de almacenamiento de medios de la base de datos está obsoleto desde Adobe Commerce y Magento Open Source 2.4.3.
 
 De forma predeterminada, todas las imágenes, los archivos CSS compilados y los archivos JavaScript compilados de la instancia [!DNL Commerce] se almacenan en el sistema de archivos del servidor web. Puede elegir almacenar estos archivos en una base de datos en un servidor de bases de datos. Una ventaja de este enfoque es la opción de sincronización automática y sincronización inversa entre el sistema de archivos del servidor web y la base de datos. Puede utilizar la base de datos predeterminada para almacenar medios o crear uno. Para poder usar una base de datos recién creada como almacenamiento de medios, debe agregar información sobre ella y sus credenciales de acceso al archivo `env.php`.
 
 ## Flujo de base de datos
 
-1. **El explorador solicita los medios**: se abre una página del almacén en el explorador del cliente y el explorador solicita los medios especificados en el HTML.
+1. **El explorador solicita los medios**: se abre una página de la tienda en el explorador del cliente y el explorador solicita los medios especificados en HTML.
 
 1. **El sistema busca los medios en el sistema de archivos**. El sistema busca los medios en el sistema de archivos y, si se encuentran, los pasa al explorador.
 

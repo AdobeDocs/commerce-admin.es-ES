@@ -2,9 +2,10 @@
 title: Bloques dinámicos
 description: Utilice bloques dinámicos para crear contenido enriquecido e interactivo que se base en la lógica de las reglas de precios y los segmentos de clientes.
 exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ Cree contenido enriquecido e interactivo basado en la lógica de [reglas de prec
 
 >[!NOTE]
 >
->La opción _[!UICONTROL Banner]_&#x200B;del menú [[!UICONTROL Content]](content-menu.md) estaba obsoleta en 2.3.1 y se ha eliminado en 2.4.0. Su funcionalidad se ha sustituido por Bloques dinámicos.
+>La opción _[!UICONTROL Banner]_del menú [[!UICONTROL Content]](content-menu.md) estaba obsoleta en 2.3.1 y se ha eliminado en 2.4.0. Su funcionalidad se ha sustituido por Bloques dinámicos.
 
 ![[!DNL Page Builder] - bloque dinámico con regla de precios y segmento de cliente](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 
@@ -107,7 +108,7 @@ Use [!DNL Page Builder] [espacio de trabajo](../page-builder/workspace.md) para 
 | Campo | Descripción |
 |--- |--- |
 | [!UICONTROL Layout] | Agregue filas, columnas o pestañas al escenario. |
-| [!UICONTROL Elements] | Agregue texto, encabezados, botones, divisores y código de HTML a cualquier contenedor de diseño del escenario. |
+| [!UICONTROL Elements] | Agregue texto, encabezados, botones, divisores y código HTML a cualquier contenedor de diseño del escenario. |
 | [!UICONTROL Media] | Agregue imágenes, vídeos, titulares, controles deslizantes y mapas de Google a cualquier contenedor de diseño existente en el escenario. |
 | [!UICONTROL Add Content] | Añada bloques existentes, bloques dinámicos y productos al escenario. |
 

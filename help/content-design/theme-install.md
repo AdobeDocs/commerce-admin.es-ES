@@ -1,11 +1,12 @@
 ---
 title: Instalar una temática nueva
-description: Obtenga información acerca de la instalación de una nueva temática para su tienda Adobe Commerce o Magento Open Source.
+description: Obtenga información acerca de la instalación de una nueva temática para la tienda de Adobe Commerce o Magento Open Source.
 exl-id: 28728064-cf3e-44ef-a251-61a23499d096
 feature: Page Content, Themes
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ Cuando instala [!DNL Commerce] por primera vez, los elementos de diseño de la t
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-Antes de empezar, asegúrese de que tiene un conjunto válido de [[!DNL Commerce] claves de acceso](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=es).
+Antes de empezar, asegúrese de que tiene un conjunto válido de [[!DNL Commerce] claves de acceso](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
 
 Para agregar un tema a su tienda [!DNL Commerce], siga las instrucciones disponibles en [!DNL Commerce Marketplace]:
 
