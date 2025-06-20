@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo ejecutar un análisis de seguridad
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: fa3931d4aaa5e7b903a17ec074703d2c8130c71d
+source-git-commit: eb226a969397bbfa31f72a4ae4fb61b22a0101bc
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -45,13 +45,25 @@ La herramienta de análisis de seguridad mantiene estrictos controles de acceso 
 
 La herramienta se centra específicamente en los dominios de Adobe Commerce y sus vulnerabilidades de seguridad. Aunque su tienda web puede incluir páginas de otras plataformas, la herramienta de análisis de seguridad solo debe analizar el contenido generado por Adobe Commerce para garantizar resultados fiables. El análisis de páginas que no son de Adobe Commerce puede producir evaluaciones de vulnerabilidad poco fiables.
 
+>[!NOTE]
+>
+>La herramienta de análisis de seguridad utiliza las siguientes direcciones IP públicas:
+>
+>```text
+>52.87.98.44
+>34.196.167.176
+>3.218.25.102
+>```
+>
+>Añada estas direcciones IP a una lista de permitidos de las reglas del cortafuegos de la red para permitir que la herramienta analice el sitio. La herramienta solo publica solicitudes en los puertos `80` y `443`.
+
 ## Ejecutar un análisis
 
 El proceso de digitalización comprueba el sitio en busca de problemas de seguridad conocidos e identifica las revisiones y actualizaciones de Adobe Commerce que faltan y que podrían dejar el almacén vulnerable a ataques.
 
 >[!TIP]
 >
->Para Commerce sobre proyectos de infraestructura en la nube, consulte [Configuración de la herramienta de exploración de seguridad](https://experienceleague.adobe.com/es/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Para Commerce sobre proyectos de infraestructura en la nube, consulte [Configuración de la herramienta de exploración de seguridad](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 Para ejecutar un análisis:
 
@@ -131,7 +143,7 @@ Para ejecutar un análisis:
 
          Una vez completado el proceso de compilación, los cambios se implementarán en la tienda de PWA.
 
-1. Vuelva a la página _[!UICONTROL Security Scan]_&#x200B;de su cuenta de Commerce y haga clic en **[!UICONTROL Verify Confirmation Code]**&#x200B;para establecer la propiedad del dominio.
+1. Vuelva a la página _[!UICONTROL Security Scan]_de su cuenta de Commerce y haga clic en **[!UICONTROL Verify Confirmation Code]**para establecer la propiedad del dominio.
 
 1. Después de una confirmación correcta, configure las opciones **[!UICONTROL Set Automatic Security Scan]** para uno de los siguientes tipos:
 
@@ -186,7 +198,7 @@ Entre los escenarios comunes en los que podría querer marcar un error de análi
 
 Para gestionar los errores de análisis identificados como falsos positivos, siga estos pasos:
 
-1. En la página _[!UICONTROL Monitored Websites]_, haga clic en **[!UICONTROL View Report]**&#x200B;para el sitio que desee administrar.
+1. En la página _[!UICONTROL Monitored Websites]_, haga clic en **[!UICONTROL View Report]**para el sitio que desee administrar.
 
 1. En la vista de informe, busque el análisis fallido que desee marcar como falso positivo.
 
@@ -196,7 +208,7 @@ Para gestionar los errores de análisis identificados como falsos positivos, sig
 
 1. Haga clic en **[!UICONTROL Apply Changes]** para guardar la selección.
 
-El error de análisis omitido se mueve a la sección _[!UICONTROL Ignored Results]_&#x200B;y se excluye de la puntuación de riesgo.
+El error de análisis omitido se mueve a la sección _[!UICONTROL Ignored Results]_y se excluye de la puntuación de riesgo.
 
 ### Dejar de omitir errores de análisis
 
@@ -210,7 +222,7 @@ Si necesita restaurar un fallo de análisis previamente ignorado a su monitoriza
 
 1. Haga clic en **[!UICONTROL Apply Changes]** para guardar la selección.
 
-El error de análisis vuelve a la sección _[!UICONTROL Failed Scans]_&#x200B;y se incluye en la puntuación de riesgo.
+El error de análisis vuelve a la sección _[!UICONTROL Failed Scans]_y se incluye en la puntuación de riesgo.
 
 ### Ver errores de análisis omitidos
 
