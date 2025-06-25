@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo ejecutar un análisis de seguridad
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 183b8c52c6d8e2ea1afcc74fe4e2ed8e42efb216
+source-git-commit: bea6570d8d40ec7be8802ae6a793d88b72943e6f
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,19 @@ La herramienta de análisis de seguridad proporciona funciones completas de supe
 
 >[!NOTE]
 >
->No puede excluir pruebas de seguridad específicas de los análisis de la Herramienta de análisis de seguridad para Adobe Commerce. Sin embargo, puede autoabastecerse en [ignorando errores](#manage-scan-failures) como falsos positivos si corresponde.
+>No puede excluir la ejecución de pruebas de seguridad específicas, pero puede mover las comprobaciones con errores a la categoría **[!UICONTROL Ignored Results]**. Consulte [Administrar errores de análisis](#manage-scan-failures) para obtener más información.
 
 ## Acceso
 
 La herramienta de análisis de seguridad mantiene estrictos controles de acceso para proteger la información del sitio. Solo usted puede analizar su sitio porque la herramienta requiere la verificación de la propiedad del dominio a través de su cuenta de Adobe Commerce. Cada sitio se conecta a su cuenta a través de un token único, lo que evita el análisis no autorizado por parte de terceros.
 
 La herramienta se centra específicamente en los dominios de Adobe Commerce y sus vulnerabilidades de seguridad. Aunque su tienda web puede incluir páginas de otras plataformas, la herramienta de análisis de seguridad solo debe analizar el contenido generado por Adobe Commerce para garantizar resultados fiables. El análisis de páginas que no son de Adobe Commerce puede producir evaluaciones de vulnerabilidad poco fiables.
+
+
+## Acceso a los resultados del análisis
+
+Los resultados del análisis sólo son accesibles para el usuario que configuró originalmente el análisis. Para compartir los resultados con otros usuarios, el usuario original debe distribuir manualmente el informe de PDF. Como alternativa, el propietario de un almacén puede compartir los envíos con otro MAGEID usando la funcionalidad [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share). Otras personas también pueden iniciar análisis utilizando sus propias cuentas. Durante la configuración del análisis, se puede especificar una lista de direcciones de correo electrónico separadas por comas para recibir notificaciones de análisis completados y niveles de riesgo evaluados.
+
 
 >[!NOTE]
 >
@@ -61,13 +67,14 @@ La herramienta se centra específicamente en los dominios de Adobe Commerce y su
 >
 >Añada estas direcciones IP a una lista de permitidos de las reglas del cortafuegos de la red para permitir que la herramienta analice el sitio. La herramienta solo publica solicitudes en los puertos `80` y `443`.
 
+
 ## Ejecutar un análisis
 
 El proceso de digitalización comprueba el sitio en busca de problemas de seguridad conocidos e identifica las revisiones y actualizaciones de Adobe Commerce que faltan y que podrían dejar el almacén vulnerable a ataques.
 
 >[!TIP]
 >
->Para Commerce sobre proyectos de infraestructura en la nube, consulte [Configuración de la herramienta de exploración de seguridad](https://experienceleague.adobe.com/es/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Para Commerce sobre proyectos de infraestructura en la nube, consulte [Configuración de la herramienta de exploración de seguridad](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 Para ejecutar un análisis:
 
@@ -147,7 +154,7 @@ Para ejecutar un análisis:
 
          Una vez completado el proceso de compilación, los cambios se implementarán en la tienda de PWA.
 
-1. Vuelva a la página _[!UICONTROL Security Scan]_&#x200B;de su cuenta de Commerce y haga clic en **[!UICONTROL Verify Confirmation Code]**&#x200B;para establecer la propiedad del dominio.
+1. Vuelva a la página _[!UICONTROL Security Scan]_de su cuenta de Commerce y haga clic en **[!UICONTROL Verify Confirmation Code]**para establecer la propiedad del dominio.
 
 1. Después de una confirmación correcta, configure las opciones **[!UICONTROL Set Automatic Security Scan]** para uno de los siguientes tipos:
 
@@ -191,18 +198,20 @@ La administración de los errores de análisis le ayuda a mantener una visión g
 - Se elimina la necesidad de ponerse en contacto con el servicio de asistencia para falsos positivos conocidos.
 - Ahorra tiempo gracias a la administración automática de los errores de análisis que ya ha investigado.
 
-Entre los escenarios comunes en los que podría querer marcar un error de análisis como falso positivo se incluyen:
+### Ejemplos de escenarios válidos para omitir errores de análisis
 
 - Cuando ya haya aplicado un parche de seguridad que la herramienta de análisis no haya detectado.
-- Cuando un problema detectado no es aplicable a su configuración de tienda específica.
-- Cuando haya implementado una medida de seguridad alternativa que solucione el problema.
+- Cuando un problema detectado no se aplica a la configuración específica de la tienda (por ejemplo, las páginas de inicio de sesión y registro de usuarios personalizados).
+- Cuando haya implementado una medida de seguridad alternativa que solucione el problema (por ejemplo, Firewall de aplicaciones web).
 - Cuando el fallo de análisis se basa en una configuración que ha definido intencionadamente para sus necesidades empresariales.
+- Cuando utiliza intencionalmente código JavaScript de terceros que falla en la comprobación debido a la ofuscación o codificación del código.
+
 
 ### Omitir errores de análisis
 
 Para gestionar los errores de análisis identificados como falsos positivos, siga estos pasos:
 
-1. En la página _[!UICONTROL Monitored Websites]_, haga clic en **[!UICONTROL View Report]**&#x200B;para el sitio que desee administrar.
+1. En la página _[!UICONTROL Monitored Websites]_, haga clic en **[!UICONTROL View Report]**para el sitio que desee administrar.
 
 1. En la vista de informe, busque el análisis fallido que desee marcar como falso positivo.
 
@@ -212,7 +221,7 @@ Para gestionar los errores de análisis identificados como falsos positivos, sig
 
 1. Haga clic en **[!UICONTROL Apply Changes]** para guardar la selección.
 
-El error de análisis omitido se mueve a la sección _[!UICONTROL Ignored Results]_&#x200B;y se excluye de la puntuación de riesgo.
+El error de análisis omitido se mueve a la sección _[!UICONTROL Ignored Results]_y se excluye de la puntuación de riesgo.
 
 ### Dejar de omitir errores de análisis
 
@@ -226,7 +235,7 @@ Si necesita restaurar un fallo de análisis previamente ignorado a su monitoriza
 
 1. Haga clic en **[!UICONTROL Apply Changes]** para guardar la selección.
 
-El error de análisis vuelve a la sección _[!UICONTROL Failed Scans]_&#x200B;y se incluye en la puntuación de riesgo.
+El error de análisis vuelve a la sección _[!UICONTROL Failed Scans]_y se incluye en la puntuación de riesgo.
 
 ### Ver errores de análisis omitidos
 
