@@ -169,11 +169,11 @@ También puede configurar el envío a determinados países para cada [método de
 
 Para obtener ayuda con la resolución de problemas de configuración de país, consulte los siguientes artículos de la Base de conocimiento de asistencia de [!DNL Commerce]:
 
-- [Cómo agregar un país](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
+- [Cómo agregar un país](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=es)
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 La configuración Ubicación del comerciante se usa para configurar [métodos de pago](../stores-purchase/payments.md). Si no hay ningún valor para esta configuración, se usa la configuración [País predeterminado](#uicontrol-country-options).
 
@@ -215,7 +215,7 @@ Para poder configurar las direcciones de correo electrónico de la tienda, debe 
 
 ### Paso 2: Establecer la dirección URL base para los vínculos generados
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
 
 Algunos correos electrónicos dirigidos al cliente incluyen vínculos a la tienda, como los que ayudan a los clientes a restablecer sus contraseñas. Para garantizar que los vínculos a la tienda funcionen, debe definir la dirección URL base de la tienda.
 
@@ -229,7 +229,7 @@ Algunos correos electrónicos dirigidos al cliente incluyen vínculos a la tiend
 
 ### Paso 3: Configurar las direcciones de correo electrónico de la tienda
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."} Las direcciones de correo electrónico del remitente se configuran cuando se aprovisiona la instancia. Si necesita cambiar estas direcciones, cree un ticket de asistencia.
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."} Las direcciones de correo electrónico del remitente se configuran cuando se aprovisiona la instancia. Si necesita cambiar estas direcciones, cree un ticket de asistencia.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
