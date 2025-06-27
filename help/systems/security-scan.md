@@ -4,88 +4,38 @@ description: Obtenga información sobre cómo ejecutar un análisis de seguridad
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: bea6570d8d40ec7be8802ae6a793d88b72943e6f
+source-git-commit: 8e634311cd84a9e797a36218c29abb4699d72835
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
 
-
 # Análisis de seguridad
 
-La Herramienta de análisis de seguridad de Adobe Commerce proporciona supervisión de seguridad gratuita para los sitios de Adobe Commerce y Magento Open Source. La herramienta funciona como un servicio basado en la web al que puedes acceder a través de tu cuenta en línea de Adobe Commerce en [account.magento.com](https://account.magento.com/customer/account/login).
-
-![Herramienta de exploración de seguridad](./assets/magento-security-scan.png){width="600" zoomable="yes"}
-
->[!NOTE]
->
->Adobe proporciona este servicio sin coste alguno, aunque los comerciantes deben aceptar términos que limiten la responsabilidad de Adobe en función de los resultados del análisis y la configuración del sitio.
-
->[!NOTE]
->
->Adobe recomienda utilizar Security Scan Tool sobre otras herramientas de terceros para garantizar la mejor calidad de servicio durante la investigación de los resultados.
-
-## Cobertura del análisis
-
-La Herramienta de análisis de seguridad funciona a través de protocolos HTTP y HTTPS para detectar malware, identificar vulnerabilidades de seguridad y ayudarle a mantener la postura de seguridad de su tienda. La herramienta está disponible para todos los comerciantes, desarrolladores y personal designado responsable de la seguridad del sitio.
-
-La herramienta de análisis de seguridad proporciona funciones completas de supervisión de la seguridad que le ayudan a mantener un entorno de almacenamiento seguro:
+El análisis de seguridad mejorado le permite supervisar cada uno de sus sitios de Adobe Commerce y Magento Open Source, incluido PWA, para detectar riesgos de seguridad y malware conocidos, así como recibir actualizaciones de parches y notificaciones de seguridad.
 
 - Obtenga insight en el estado de seguridad en tiempo real de su tienda.
 - Reciba sugerencias basadas en las prácticas recomendadas para ayudarle a resolver problemas.
-- Programe un análisis de seguridad para que se ejecute semanalmente, diariamente o bajo demanda.
+- Programar análisis de seguridad para que se ejecute semanalmente, diariamente o bajo demanda.
 - Ejecute más de 21.000 pruebas de seguridad para identificar malware potencial.
 - Acceda a informes de seguridad históricos que rastrean y supervisan el progreso de sus sitios.
 - Acceda al informe de análisis que muestra las comprobaciones correctas y fallidas, con las acciones recomendadas.
 
->[!NOTE]
->
->No puede excluir la ejecución de pruebas de seguridad específicas, pero puede mover las comprobaciones con errores a la categoría **[!UICONTROL Ignored Results]**. Consulte [Administrar errores de análisis](#manage-scan-failures) para obtener más información.
+La herramienta de análisis de seguridad está disponible de forma gratuita en el panel de tu [cuenta de Commerce/Magento](../getting-started/commerce-account-create.md). Para obtener información técnica, consulte [Configurar la herramienta de análisis de seguridad](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) en la _Guía de infraestructura de Commerce en la nube_.
 
-## Acceso
+![Herramienta de exploración de seguridad](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
-La herramienta de análisis de seguridad mantiene estrictos controles de acceso para proteger la información del sitio. Solo usted puede analizar su sitio porque la herramienta requiere la verificación de la propiedad del dominio a través de su cuenta de Adobe Commerce. Cada sitio se conecta a su cuenta a través de un token único, lo que evita el análisis no autorizado por parte de terceros.
+## Realizar un análisis de seguridad
 
-La herramienta se centra específicamente en los dominios de Adobe Commerce y sus vulnerabilidades de seguridad. Aunque su tienda web puede incluir páginas de otras plataformas, la herramienta de análisis de seguridad solo debe analizar el contenido generado por Adobe Commerce para garantizar resultados fiables. El análisis de páginas que no son de Adobe Commerce puede producir evaluaciones de vulnerabilidad poco fiables.
+1. Inicia sesión en tu [cuenta de Commerce/Magento](../getting-started/commerce-account-create.md).
 
+1. En el panel izquierdo, haga clic en la ficha [!UICONTROL Security Scan]. (Si es necesario, revise y acepte los términos actualizados de uso de la herramienta de exploración de seguridad.)
 
-## Acceso a los resultados del análisis
-
-Los resultados del análisis sólo son accesibles para el usuario que configuró originalmente el análisis. Para compartir los resultados con otros usuarios, el usuario original debe distribuir manualmente el informe de PDF. Como alternativa, el propietario de un almacén puede compartir los envíos con otro MAGEID usando la funcionalidad [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/es/docs/commerce-admin/start/commerce-account/commerce-account-share). Otras personas también pueden iniciar análisis utilizando sus propias cuentas. Durante la configuración del análisis, se puede especificar una lista de direcciones de correo electrónico separadas por comas para recibir notificaciones de análisis completados y niveles de riesgo evaluados.
-
-
->[!NOTE]
->
->La herramienta de análisis de seguridad utiliza las siguientes direcciones IP públicas:
->
->```text
->52.87.98.44
->34.196.167.176
->3.218.25.102
->```
->
->Añada estas direcciones IP a una lista de permitidos de las reglas del cortafuegos de la red para permitir que la herramienta analice el sitio. La herramienta solo publica solicitudes en los puertos `80` y `443`.
-
-
-## Ejecutar un análisis
-
-El proceso de digitalización comprueba el sitio en busca de problemas de seguridad conocidos e identifica las revisiones y actualizaciones de Adobe Commerce que faltan y que podrían dejar el almacén vulnerable a ataques.
-
->[!TIP]
->
->Para Commerce sobre proyectos de infraestructura en la nube, consulte [Configuración de la herramienta de exploración de seguridad](https://experienceleague.adobe.com/es/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
-
-Para ejecutar un análisis:
-
-1. En la página de inicio de Commerce, inicia sesión en tu [cuenta de Commerce/Magento](../getting-started/commerce-account-create.md).
-
-1. Revise y acepte las condiciones de uso de la Herramienta de exploración de seguridad.
-
-   1. En el panel izquierdo, elija **[!UICONTROL Security Scan]**.
-   1. Haga clic en **[!UICONTROL Go to Security Scan]**.
-   1. Lea **[!UICONTROL Terms and Conditions]**.
-   1. Haga clic en **[!UICONTROL Agree]** para continuar.
+   - En el panel izquierdo, elija **[!UICONTROL Security Scan]**.
+   - Haga clic en **[!UICONTROL Go to Security Scan]**.
+   - Lea **[!UICONTROL Terms and Conditions]**.
+   - Haga clic en **[!UICONTROL Agree]** para continuar.
 
 1. En la página _[!UICONTROL Monitored Websites]_, haga clic en **[!UICONTROL +Add Site]**.
 
@@ -97,82 +47,80 @@ Para ejecutar un análisis:
 
    **tienda Commerce**:
 
-   1. Escriba **[!UICONTROL Site URL]** y **[!UICONTROL Site Name]**.
-   1. Haga clic en **[!UICONTROL Generate Confirmation Code]**.
-   1. Haga clic en **Copiar** para copiar el código de confirmación en el portapapeles.
+   - Escriba **[!UICONTROL Site URL]** y **[!UICONTROL Site Name]**.
+   - Haga clic en **[!UICONTROL Generate Confirmation Code]**.
+   - Haga clic en **Copiar** para copiar el código de confirmación en el portapapeles.
 
-      ![Generar código de confirmación](./assets/scan-site1.png){width="400" zoomable="yes"}
+     ![Generar código de confirmación](./assets/scan-site1.png){width="400" zoomable="yes"}
 
-   1. Inicie sesión en el administrador de su tienda como usuario con privilegios de administrador completos y haga lo siguiente:
+   - Inicie sesión en el administrador de su tienda como usuario con privilegios de administrador completos y haga lo siguiente:
 
-      1. En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
-      1. Busque el sitio en la lista y haga clic en **[!UICONTROL Edit]**.
-      1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL HTML Head]**.
-      1. Desplácese hacia abajo hasta **[!UICONTROL Scripts and Style Sheets]** y haga clic en el cuadro de texto al final de cualquier código existente. Pegue el código de confirmación en el cuadro de texto.
+      - En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+      - Busque el sitio en la lista y haga clic en **[!UICONTROL Edit]**.
+      - Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL HTML Head]**.
+      - Desplácese hacia abajo hasta **[!UICONTROL Scripts and Style Sheets]**, haga clic en el cuadro de texto al final de cualquier código existente y pegue el código de confirmación en el cuadro de texto.
 
-         ![Scripts y hojas de estilo](./assets/scan-paste-code.png){width="600" zoomable="yes"}
+        ![Scripts y hojas de estilo](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
-      1. Una vez finalizado, haga clic en **[!UICONTROL Save Configuration]**.
+      - Una vez finalizado, haga clic en **[!UICONTROL Save Configuration]**.
 
    **tienda PWA**:
 
-   1. Escriba **[!UICONTROL Site URL]** y **[!UICONTROL Site Name]**.
+   - Escriba **[!UICONTROL Site URL]** y **[!UICONTROL Site Name]**.
 
-   1. Para **[!UICONTROL Confirmation Code]**, elija la opción `META Tag` y haga clic en **[!UICONTROL Generate Code]**.
+   - Para **[!UICONTROL Confirmation Code]**, elija la opción `META Tag` y haga clic en **[!UICONTROL Generate Code]**.
 
-   1. Haga clic en **[!UICONTROL Copy]** para copiar el código de confirmación generado META Tag en el portapapeles.
+   - Haga clic en **[!UICONTROL Copy]** para copiar el código de confirmación generado META Tag en el portapapeles.
 
-      ![Generar código de confirmación](./assets/scan-site2.png){width="400" zoomable="yes"}
+     ![Generar código de confirmación](./assets/scan-site2.png){width="400" zoomable="yes"}
 
-   1. Vaya al directorio del proyecto de la tienda PWA Studio y haga lo siguiente:
+   - Vaya al directorio del proyecto de la tienda PWA Studio y haga lo siguiente:
 
-      1. En el directorio del proyecto de PWA Studio, vaya a `packages > venia-concept > template.html`.
-      1. Agregue el código de confirmación copiado (la etiqueta meta generada) al encabezado de HTML y guarde los cambios.
+      - En el directorio del proyecto de PWA Studio, vaya a `packages > venia-concept > template.html`.
+      - Agregue el código de confirmación copiado (la etiqueta meta generada) al encabezado de HTML y guarde los cambios.
 
-         ![Copiar código de confirmación](./assets/code-pwa.png){width="600" zoomable="yes"}
+        ![Copiar código de confirmación](./assets/code-pwa.png){width="600" zoomable="yes"}
 
-      1. Vuelva a la CLI de PWA Studio y utilice un hilo para instalar las dependencias del proyecto y ejecutar el comando de generación del proyecto.
+      - Vuelva a la CLI de PWA Studio y utilice un hilo para instalar las dependencias del proyecto y ejecutar el comando de generación del proyecto.
 
-         ```sh
-         yarn install &&
-         yarn build
-         ```
+        ```sh
+        yarn install &&
+        yarn build
+        ```
 
-      1. *Cree una carpeta `pwa` en su proyecto de Cloud* y copie el contenido en la carpeta `dist` de su proyecto de tienda.
+      - *Cree una carpeta `pwa` en su proyecto de Cloud* y copie el contenido en la carpeta `dist` de su proyecto de tienda.
 
-         ```sh
-         mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
-         ```
+        ```sh
+        mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
+        ```
 
-      1. Utilice la herramienta CLI de Git para almacenar en zona intermedia, confirmar e insertar estos cambios en su proyecto de Cloud.
+      - Utilice la herramienta CLI de Git para almacenar en zona intermedia, confirmar e insertar estos cambios en su proyecto de Cloud.
 
-         ```sh
-         git add . &&
-         git commit -m "Added storefront file bundles" &&
-         git push origin
-         ```
+        ```sh
+        git add . &&
+        git commit -m "Added storefront file bundles" &&
+        git push origin
+        ```
 
-         Una vez completado el proceso de compilación, los cambios se implementarán en la tienda de PWA.
+        Una vez completado el proceso de compilación, los cambios se implementarán en la tienda de PWA.
 
-1. Vuelva a la página _[!UICONTROL Security Scan]_&#x200B;de su cuenta de Commerce y haga clic en **[!UICONTROL Verify Confirmation Code]**&#x200B;para establecer la propiedad del dominio.
+1. Vuelva a la página _[!UICONTROL Security Scan]_de su cuenta de Commerce y haga clic en **[!UICONTROL Verify Confirmation Code]**para establecer la propiedad del dominio.
 
 1. Después de una confirmación correcta, configure las opciones **[!UICONTROL Set Automatic Security Scan]** para uno de los siguientes tipos:
 
    **Análisis semanal (recomendado)**:
 
-   Elija **[!UICONTROL Week Day]**, **[!UICONTROL Time]** y **[!UICONTROL Time Zone]** en los que se realizará el análisis cada semana.
+   - Elija **[!UICONTROL Week Day]**, **[!UICONTROL Time]** y **[!UICONTROL Time Zone]** en los que se realizará el análisis cada semana.
+   - De forma predeterminada, el análisis está programado para comenzar cada semana a medianoche del sábado (UTC) y continuar hasta el domingo a primera hora.
 
-   De forma predeterminada, el análisis está programado para comenzar cada semana a medianoche del sábado (UTC) y continuar hasta el domingo a primera hora.
-
-   ![Análisis semanal](./assets/scan-weekly.png){width="500" zoomable="yes"}
+     ![Análisis semanal](./assets/scan-weekly.png){width="500" zoomable="yes"}
 
    **Examen diario**:
 
-   Elija **[!UICONTROL Time]** y **[!UICONTROL Time Zone]** en los que se realizará el análisis cada día.
+   - Elija **[!UICONTROL Time]** y **[!UICONTROL Time Zone]** en los que se realizará el análisis cada día.
+   - De forma predeterminada, el análisis está programado para comenzar cada día a medianoche (UTC).
 
-   De forma predeterminada, el análisis está programado para comenzar cada día a medianoche (UTC).
-
-   ![Examen diario](./assets/scan-daily.png){width="500" zoomable="yes"}
+     ![Examen diario](./assets/scan-daily.png){width="500" zoomable="yes"}
 
 1. Escriba el **[!UICONTROL Email Address]** en el que desea recibir las notificaciones de análisis completados y actualizaciones de seguridad.
 
@@ -184,61 +132,20 @@ Para ejecutar un análisis:
 
 1. Si tiene varios sitios web con dominios diferentes, repita este proceso para configurar un análisis de seguridad para cada uno.
 
-## Administrar errores de análisis
+## Eliminar un análisis de seguridad
 
-La herramienta de análisis de seguridad le permite administrar los errores de análisis directamente desde la vista de informe. Puede marcar errores de análisis específicos como falsos positivos y excluirlos de la puntuación de riesgo.
+>[!NOTE]
+>
+>Solo la persona que configuró originalmente el análisis puede eliminarlo de la cuenta. Si no han iniciado sesión en su [cuenta](https://account.magento.com) desde agosto de 2022, primero deben asegurarse de que se han [registrado en un Adobe ID](https://account.magento.com).
 
-### Ventajas de administrar los errores de análisis
+**Eliminar un análisis**
 
-La administración de los errores de análisis le ayuda a mantener una visión general de seguridad más precisa de su tienda mediante:
+1. Inicie sesión en la [cuenta de Commerce/Magento](../getting-started/commerce-account-create.md).
 
-- Reducción de los falsos positivos en los informes de seguridad.
-- Centrarse en las cuestiones de seguridad pertinentes que requieren atención.
-- Mantener una visión más clara del verdadero estado de seguridad de tu tienda.
-- Se elimina la necesidad de ponerse en contacto con el servicio de asistencia para falsos positivos conocidos.
-- Ahorra tiempo gracias a la administración automática de los errores de análisis que ya ha investigado.
+1. En el panel izquierdo, haga clic en la ficha [!UICONTROL Security Scan]. (Si es necesario, revise y acepte los términos actualizados de uso de la herramienta de exploración de seguridad.)
 
-### Ejemplos de escenarios válidos para omitir errores de análisis
+   - Haga clic en **[!UICONTROL Go to Security Scan]**.
+   - Lea **[!UICONTROL Terms and Conditions]**.
+   - Haga clic en **[!UICONTROL Agree]** para continuar.
 
-- Cuando ya haya aplicado un parche de seguridad que la herramienta de análisis no haya detectado.
-- Cuando un problema detectado no se aplica a la configuración específica de la tienda (por ejemplo, las páginas de inicio de sesión y registro de usuarios personalizados).
-- Cuando haya implementado una medida de seguridad alternativa que solucione el problema (por ejemplo, Firewall de aplicaciones web).
-- Cuando el fallo de análisis se basa en una configuración que ha definido intencionadamente para sus necesidades empresariales.
-- Cuando utiliza intencionalmente código JavaScript de terceros que falla en la comprobación debido a la ofuscación o codificación del código.
-
-
-### Omitir errores de análisis
-
-Para gestionar los errores de análisis identificados como falsos positivos, siga estos pasos:
-
-1. En la página _[!UICONTROL Monitored Websites]_, haga clic en **[!UICONTROL View Report]**&#x200B;para el sitio que desee administrar.
-
-1. En la vista de informe, busque el análisis fallido que desee marcar como falso positivo.
-
-1. Haga clic en **[!UICONTROL Ignore]** para ver el error de análisis específico.
-
-   ![Ignorar errores de análisis](assets/security-scan-ignore-failure.png){width="600" zoomable="yes"}
-
-1. Haga clic en **[!UICONTROL Apply Changes]** para guardar la selección.
-
-El error de análisis omitido se mueve a la sección _[!UICONTROL Ignored Results]_&#x200B;y se excluye de la puntuación de riesgo.
-
-### Dejar de omitir errores de análisis
-
-Si necesita restaurar un fallo de análisis previamente ignorado a su monitorización activa, siga estos pasos:
-
-1. En la vista de informe, desplácese hasta la sección _[!UICONTROL Ignored Results]_.
-
-1. Haga clic en **[!UICONTROL Stop Ignoring]** para el error de análisis que desea restaurar.
-
-   ![Errores de análisis no detectados](assets/security-scan-stop-ignoring-failure.png){width="600" zoomable="yes"}
-
-1. Haga clic en **[!UICONTROL Apply Changes]** para guardar la selección.
-
-El error de análisis vuelve a la sección _[!UICONTROL Failed Scans]_&#x200B;y se incluye en la puntuación de riesgo.
-
-### Ver errores de análisis omitidos
-
-Los resultados omitidos aparecen en una sección independiente del informe y la puntuación de riesgo se actualiza automáticamente para reflejar únicamente los errores de análisis activos. Puede administrar varios errores de análisis a la vez seleccionando varios elementos antes de aplicar los cambios.
-
-![Errores de análisis omitidos en la vista](assets/security-scan-view-ignored-failures.png){width="600" zoomable="yes"}
+1. En la página _[!UICONTROL Monitored Websites]_, busque el menú desplegable en la columna [!UICONTROL Actions] y, a continuación, seleccione **[!UICONTROL Delete]**para los sitios web correspondientes.
