@@ -328,7 +328,7 @@ La etiqueta aparece en la sección de totales del pedido para identificar el des
 
 Vea este vídeo para obtener más información sobre la creación de reglas de precios de carro de compras:
 
->[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410803?quality=12&learn=on&captions=spa)
 
 ## Descripciones de campos
 
