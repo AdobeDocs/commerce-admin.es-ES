@@ -3,9 +3,9 @@ title: Creación de una regla de precios de catálogo
 description: Aprenda a crear una regla de precios de catálogo que aplique un descuento a productos específicos siempre que se cumpla un conjunto de condiciones.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 3011d0287c74fd39b44e180733343c39d1cadea7
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Siga estas instrucciones para aplicar un descuento a productos específicos siem
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add New Rule]**.
 
-   La sección _[!UICONTROL Rule Information]_&#x200B;incluye secciones expandibles para **[!UICONTROL Conditions]**&#x200B;y **[!UICONTROL Actions]**.
+   La sección _[!UICONTROL Rule Information]_incluye secciones expandibles para **[!UICONTROL Conditions]**y **[!UICONTROL Actions]**.
 
    ![Regla de precios de catálogo: información](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -32,19 +32,14 @@ Siga estas instrucciones para aplicar un descuento a productos específicos siem
 
    De manera predeterminada, el estado es `Inactive`.
 
-   >[!NOTE]
-   >
-   >Una vez creada la regla, su estado se puede actualizar cambiando el estado a `Active` o `Inactive` según sea necesario.
+   Una vez creada la regla, su estado se puede actualizar cambiando el estado a `Active` o `Inactive` según sea necesario.
 
 1. Seleccione el **[!UICONTROL Websites]** en el que la regla debe estar disponible.
 
 1. Seleccione el(la) **[!UICONTROL Customer Groups]** al que se aplica esta regla.
 
-   Para elegir varios grupos, mantenga presionada la tecla Ctrl (PC) o la tecla Comando (Mac) y haga clic en cada opción.
-
-   >[!NOTE]
-   >
-   >Las opciones de esta lista dependen de los grupos de clientes creados y administrados en _Clientes_ > _Grupos de clientes_.
+   - Las opciones disponibles para la selección dependen de los grupos de clientes creados y administrados en _Clientes_ > _Grupos de clientes_.
+   - Para elegir varios grupos, mantenga presionada la tecla Ctrl (PC) o la tecla Comando (Mac) y haga clic en cada opción.
 
 1. ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Escriba las fechas **[!UICONTROL From]** y **[!UICONTROL To]** para determinar si la regla de precios está en vigor.
 
@@ -52,21 +47,15 @@ Siga estas instrucciones para aplicar un descuento a productos específicos siem
 
 1. Escriba un número para establecer el **[!UICONTROL Priority]** de esta regla en relación con otras reglas.
 
-   >[!NOTE]
-   >
-   >La configuración de _[!UICONTROL Priority]_&#x200B;es importante cuando el mismo producto del catálogo cumple las condiciones establecidas para más de una regla de precio. La regla con la configuración de prioridad más alta (las prioridades de mayor a menor son 0, 1, 2, 3, etc.) se activa para el producto.
+   La configuración **[!UICONTROL Priority]** determina qué regla se aplica cuando un producto cumple las condiciones de varias reglas de precios. La regla con la prioridad más alta (por ejemplo, el número más bajo, 0, 1, 2, 3...) tiene efecto.
 
 ## Paso 2: Definición de las condiciones
 
 La mayoría de las condiciones disponibles se basan en valores de atributo existentes. Para aplicar la regla a todos los productos, deje las condiciones en blanco.
 
->[!NOTE]
->
->Si al menos un atributo de producto condicional tiene un valor vacío, la regla de precio de catálogo no se aplica al producto.
+- Si al menos un atributo de producto condicional tiene un valor vacío, la regla de precio de catálogo no se aplica al producto.
 
->[!NOTE]
->
->Para aplicar una condición de atributo de producto `Category` a cualquier producto [paquete](../catalog/product-create-bundle.md) o [agrupado](../catalog/product-create-grouped.md), todos los productos secundarios deben asignarse a la misma categoría para que la regla se aplique correctamente. Si no es así, puedes usar una promoción de [Regla de precio del carro de compras](price-rules-cart-create.md) en su lugar.
+- Si agrega la condición de atributo de producto `[!UICONTROL Category]` al paquete o a los productos agrupados, la regla de precio solo se aplicará correctamente si todos los artículos secundarios comparten la misma categoría. Si los artículos secundarios no están en la misma categoría, usa una promoción de [Regla de precio del carro de compras](price-rules-cart-create.md) en su lugar&quot;.
 
 1. Desplácese hacia abajo y expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Conditions]**.
 
@@ -144,6 +133,10 @@ La mayoría de las condiciones disponibles se basan en valores de atributo exist
 
    >[!NOTE]
    >
+   >Para aplicar descuentos de cantidad fija de forma coherente en sitios web con distintas monedas (sin convertirlos a partir de la moneda base global), establezca la opción **[!UICONTROL Catalog Price Scope]** en `Website` y defina una moneda base para cada sitio.
+
+   >[!NOTE]
+   >
    >_Precio regular_ se refiere al precio base del producto sin ningún tipo de descuento avanzado (especial/nivel/grupo) o descuentos promocionales. _Precio final_ se refiere al precio con descuento que aparece en el carro de compras. <br/>El precio del producto **_final_** se calcula como el precio **_mínimo_** relevante, utilizando la siguiente fórmula: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)`
 
    >[!NOTE]
@@ -154,9 +147,7 @@ La mayoría de las condiciones disponibles se basan en valores de atributo exist
 
 1. Para detener el procesamiento de otras reglas después de aplicar esta regla, establezca **[!UICONTROL Discard Subsequent Rules]** en `Yes`.
 
-   >[!NOTE]
-   >
-   >Configurar esto en `Yes` es una medida de seguridad para evitar que el sistema aplique varios descuentos (reglas) al mismo producto.
+   Establecer este valor en `Yes` es una protección para evitar que el sistema aplique varios descuentos (reglas) al mismo producto.
 
 ## Paso 4: Agregar bloques dinámicos relacionados
 
@@ -224,7 +215,7 @@ La mayoría de las condiciones disponibles se basan en valores de atributo exist
 
 Vea este vídeo para obtener más información sobre la creación de reglas de precios de catálogo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410847?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## Descripciones de campos
 
@@ -251,7 +242,7 @@ Especifica las condiciones que deben cumplirse antes de que la regla de precios 
 
 | Campo | Descripción |
 |-----|-----------|
-| [!UICONTROL Apply] | Determina el tipo de cálculo que se aplica a la compra. Opciones: <br/>**[!UICONTROL Apply as percentage of original]**- artículo de descuentos al restar un porcentaje del precio normal.<br/>**[!UICONTROL Apply as fixed amount]** - artículo de descuentos al restar un importe fijo del precio normal. <br/>**[!UICONTROL Adjust final price to this percentage]**- Ajusta el precio final en un porcentaje del precio normal.<br/>**[!UICONTROL Adjust final price to discount value]** - Establece el precio final en una cantidad fija con descuento. <br/><br/>**_Nota:_**&#x200B;El precio regular se refiere al precio base del producto sin ningún precio avanzado (especial/nivel/grupo) o descuentos promocionales. El precio final hace referencia al precio con descuento que aparece en el carro de compras. <br/>El precio del producto&#x200B;**_final _**&#x200B;se calcula como el precio&#x200B;**_mínimo _**&#x200B;relevante, utilizando la siguiente fórmula: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
+| [!UICONTROL Apply] | Determina el tipo de cálculo que se aplica a la compra. Opciones: <br/>**[!UICONTROL Apply as percentage of original]**- artículo de descuentos al restar un porcentaje del precio normal.<br/>**[!UICONTROL Apply as fixed amount]** - artículo de descuentos al restar un importe fijo del precio normal. <br/>**[!UICONTROL Adjust final price to this percentage]**- Ajusta el precio final en un porcentaje del precio normal.<br/>**[!UICONTROL Adjust final price to discount value]** - Establece el precio final en una cantidad fija con descuento. <br/><br/>**_Nota:_**El precio regular se refiere al precio base del producto sin ningún precio avanzado (especial/nivel/grupo) o descuentos promocionales. El precio final hace referencia al precio con descuento que aparece en el carro de compras. <br/>El precio del producto**_final _**se calcula como el precio**_mínimo _**relevante, utilizando la siguiente fórmula: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
 | [!UICONTROL Discount Amount] | (Obligatorio) El importe del descuento ofrecido. |
 | [!UICONTROL Discard Subsequent Rules] | Determina si se pueden aplicar reglas adicionales a esta compra. Para evitar que se apliquen varios descuentos a la misma compra, seleccione `Yes`. Opciones: `Yes` / `No` |
 

@@ -3,9 +3,9 @@ title: Crear una regla de precios de carro
 description: Aprenda a crear una regla de precios de carro de compras basada en el carro de compras o en los atributos del producto.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: d981a0365cc7768394ca03f4352be45caef87a73
 workflow-type: tm+mt
-source-wordcount: '3386'
+source-wordcount: '3382'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Complete los siguientes pasos para agregar una regla, describir las condiciones 
 
 1. Haga clic en **[!UICONTROL Add New Rule]** y haga lo siguiente:
 
-   - En _[!UICONTROL Rule Information]_, complete **[!UICONTROL Rule Name]**&#x200B;y **[!UICONTROL Description]**.
+   - En _[!UICONTROL Rule Information]_, complete **[!UICONTROL Rule Name]**y **[!UICONTROL Description]**.
 
    - Si no desea que la regla entre en vigor inmediatamente, establezca **[!UICONTROL Active]** en `No`.
 
@@ -59,13 +59,7 @@ Complete los siguientes pasos para agregar una regla, describir las condiciones 
 
 1. Introduzca un número para definir el **[!UICONTROL Priority]** de esta regla de precio en relación con la configuración de acción de otras reglas de precio que estén activas al mismo tiempo.
 
-   >[!NOTE]
-   >
-   >La configuración de _[!UICONTROL Priority]_&#x200B;es importante cuando dos reglas de carro de compras o códigos de cupones son válidos para el mismo producto al mismo tiempo. Regla con la configuración [!UICONTROL Priority] más alta que controla la acción del carro de compras.  Las prioridades de mayor a menor son `0,1,2,3...`. Consulte_ Descartar reglas de precios subsiguientes _en el paso_[ Definir las acciones ](#step-3-define-the-actions)_.
-
-   >[!NOTE]
-   >
-   >Las reglas de precios del carro de compras que tienen la misma prioridad no resultan en un descuento combinado. Cada regla (cupón) se aplica a los productos coincidentes por separado, uno a uno, según el ID de regla de precios del carro de compras de la base de datos. Para controlar el orden en que se aplican los descuentos, Adobe recomienda establecer una prioridad diferente para cada regla de precio del carro de compras agregada.
+   Cuando se aplican varias reglas de carro de compras o cupones al mismo producto, primero se aplica la regla con la prioridad más alta (número más bajo). Las reglas con la misma prioridad no se combinan; se aplican por separado en función del ID de regla. Para controlar el orden en que se aplican los descuentos, asigne prioridades únicas y considere la posibilidad de usar [Descartar reglas de precios subsiguientes](#step-3-define-the-actions) en el paso Acciones para evitar el apilamiento de descuentos.
 
 1. Para aplicar la regla a las [fuentes RSS](social-rss.md#rss-feeds) publicadas, establezca **Público en la fuente RSS** en `Yes`.
 
@@ -79,17 +73,15 @@ Complete los siguientes pasos para agregar una regla, describir las condiciones 
 
 ## Paso 2: Describir las condiciones
 
-En este paso se describen las condiciones que deben cumplirse para que una solicitud cumpla los requisitos para la promoción. La regla entra en acción cada vez que se cumple el conjunto de condiciones.
-
-Si está usando audiencias de Real-Time CDP, vaya a [esta sección](#use-real-time-cdp-audiences-to-set-a-condition).
-
 >[!NOTE]
 >
->La regla de precio del carro de compras se aplica a **_cada_** producto del carro de compras siempre que se cumpla el conjunto de condiciones de la ficha _[!UICONTROL Conditions]_. Agregue condiciones en la pestaña&#x200B;_[!UICONTROL Actions]_ para limitar el número de productos afectados por la regla de precios del carro de compras.
+>Si está usando audiencias de Real-Time CDP, vaya a [esta sección](#use-real-time-cdp-audiences-to-set-a-condition).
 
->[!NOTE]
->
->Si al menos un atributo de producto condicional tiene un valor vacío, la regla de precio del carro de compras no se aplica al producto.
+En este paso se describen las condiciones que deben cumplirse para que una solicitud cumpla los requisitos para la promoción. Las condiciones afectan a las reglas de precios del carro de compras de las siguientes maneras:
+
+- La regla de precio del carro de compras se aplica a **_cada_** producto del carro de compras siempre que se cumpla el conjunto de condiciones de la ficha _[!UICONTROL Conditions]_. Para limitar el número de productos afectados por la regla de precios del carro de compras, agregue condiciones en la pestaña_[!UICONTROL Actions]_ para limitar el número de productos afectados por la regla de precios del carro de compras.
+
+- Si al menos un atributo de producto condicional tiene un valor vacío, la regla de precio del carro de compras no se aplica al producto.
 
 1. En el panel izquierdo, seleccione **[!UICONTROL Conditions]**.
 
@@ -172,7 +164,7 @@ Si está usando audiencias de Real-Time CDP, vaya a [esta sección](#use-real-ti
 
 ### Añadir un atributo de producto a las reglas de precios del carro de compras
 
-1. Vaya a **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;y abra el atributo del producto.
+1. Vaya a **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**y abra el atributo del producto.
 
 1. En el panel izquierdo, seleccione **[!UICONTROL Storefront Properties]**.
 
@@ -219,7 +211,7 @@ Puede establecer una condición para una regla de precio del carro de compras ba
    | `Name` | Nombre de la audiencia, como `Orders over $50` |
    | `Description` | Descripción de la audiencia, como `People who placed an order over $50 in the last month.`. |
    | `Source` | Indica la procedencia de la audiencia, como `Experience Platform`. |
-   | `Website` | Indica qué sitio web ha vinculado al conjunto de datos que contiene las audiencias. Este vínculo se crea al conectar la instancia de Commerce a Experience Platform mediante la extensión [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=es). |
+   | `Website` | Indica qué sitio web ha vinculado al conjunto de datos que contiene las audiencias. Este vínculo se crea al conectar la instancia de Commerce a Experience Platform mediante la extensión [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html). |
 
    {style="table-layout:auto"}
 
@@ -243,6 +235,8 @@ Las acciones de regla de precios del carro de compras describen cómo se actuali
    | `Buy X get Y free` | Define una cantidad X que el cliente debe comprar para recibir una cantidad Y **del mismo producto/variación** de forma gratuita. (El [!UICONTROL Discount Amount] es Y.) Para que se aplique el descuento, debe haber una cantidad total de X+Y de ese mismo artículo en el carro de compras o agregado al mismo. |
 
    {style="table-layout:auto"}
+
+   - Para aplicar descuentos de cantidad fija de forma coherente en sitios web con distintas monedas (sin convertirlos a partir de la moneda base global), establezca la opción **[!UICONTROL Catalog Price Scope]** en `Website` y defina una moneda base para cada sitio.
 
    - Escriba **[!UICONTROL Discount Amount]** como número, sin símbolos. Por ejemplo, dependiendo de la opción de descuento seleccionada, el número 10 puede indicar un porcentaje, una cantidad fija o una cantidad de artículos.
 
@@ -334,7 +328,7 @@ La etiqueta aparece en la sección de totales del pedido para identificar el des
 
 Vea este vídeo para obtener más información sobre la creación de reglas de precios de carro de compras:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410803?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12&learn=on)
 
 ## Descripciones de campos
 
@@ -347,7 +341,7 @@ Vea este vídeo para obtener más información sobre la creación de reglas de p
 | [!UICONTROL Active] | (Obligatorio) Determina si la regla está activa en el almacén. Opciones: `Yes` / `No` |
 | [!UICONTROL Websites] | (Obligatorio) Identifica los sitios web en los que se puede utilizar la regla. |
 | [!UICONTROL Customer Groups] | (Obligatorio) Identifica los grupos de clientes a los que se aplica la regla. |
-| [!UICONTROL Coupon] | (Obligatorio) Indica si hay un cupón asociado a la regla. Opciones: <br/>**[!UICONTROL No Coupon]**- No hay ningún cupón asociado con la regla.<br/>**[!UICONTROL Specific Coupon]** - Hay un cupón específico asociado con la regla. <br/>**[!UICONTROL Coupon Code]**: cuando se le solicite, introduzca el código de cupón que debe introducir el cliente para aprovechar la promoción.<br/>**[!UICONTROL Use Auto Generation]**: seleccione la casilla de verificación para generar automáticamente varios códigos de cupones que se puedan utilizar con la promoción. <br/>**[!UICONTROL Auto]**- Muestra la sección _[!UICONTROL Manage Coupon Codes]_&#x200B;para definir el formato de los códigos de cupón que se van a generar. |
+| [!UICONTROL Coupon] | (Obligatorio) Indica si hay un cupón asociado a la regla. Opciones: <br/>**[!UICONTROL No Coupon]**- No hay ningún cupón asociado con la regla.<br/>**[!UICONTROL Specific Coupon]** - Hay un cupón específico asociado con la regla. <br/>**[!UICONTROL Coupon Code]**: cuando se le solicite, introduzca el código de cupón que debe introducir el cliente para aprovechar la promoción.<br/>**[!UICONTROL Use Auto Generation]**: seleccione la casilla de verificación para generar automáticamente varios códigos de cupones que se puedan utilizar con la promoción. <br/>**[!UICONTROL Auto]**- Muestra la sección _[!UICONTROL Manage Coupon Codes]_para definir el formato de los códigos de cupón que se van a generar. |
 | [!UICONTROL Uses per Coupon] | Determina cuántas veces se puede utilizar el código de cupón. Si no hay límite, deje el campo en blanco. |
 | [!UICONTROL Uses per Customer] | Determina cuántas veces el mismo cliente registrado que pertenece a un grupo de clientes seleccionado puede utilizar la regla de precio del carro de compras. No se aplica a los compradores invitados que sean miembros del grupo de clientes NOT LOGGED IN, ni a los clientes que compren sin iniciar sesión en sus cuentas. Si no hay límite, déjelo en blanco. |
 | [!UICONTROL Priority] | Un número que indica la prioridad de esta regla en relación con otras. Las prioridades de mayor a menor son `0,1,2,3...` |
@@ -390,7 +384,7 @@ Especifica las condiciones que deben cumplirse antes de que la regla de precios 
 
 | Campo | Descripción |
 |--- |--- |
-| [!UICONTROL Apply] | Determina el tipo de cálculo que se aplica a la compra. Opciones: <br/>**[!UICONTROL Percent of product price discount]**- artículo de descuentos al restar un porcentaje del precio original. Por ejemplo: escriba `10` en _[!UICONTROL Discount Amount]_&#x200B;para obtener un precio actualizado que sea un 10% inferior al precio original.<br/>**[!UICONTROL Fixed amount discount]**: artículo de descuentos al restar una cantidad fija del precio original de cada artículo que cumple los requisitos en el carro de compras. Por ejemplo: escriba `10` en&#x200B;_[!UICONTROL Discount Amount]_ para obtener un precio actualizado que sea 10 $ menor que el precio original. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Descuenta todo el carro de compras restando una cantidad fija del subtotal del carro de compras. Por ejemplo: escriba `10` en _[!UICONTROL Discount Amount]_&#x200B;para restar $10 del subtotal del carro de compras. De forma predeterminada, el descuento se aplica solo al subtotal del carro de compras. Para aplicar el descuento al subtotal y al envío por separado, consulte_Aplicar al importe de envío _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Define una cantidad que el cliente debe comprar para recibir una cantidad de forma gratuita. (El&#x200B;_[!UICONTROL Discount Amount]_ es Y.) |
+| [!UICONTROL Apply] | Determina el tipo de cálculo que se aplica a la compra. Opciones: <br/>**[!UICONTROL Percent of product price discount]**- artículo de descuentos al restar un porcentaje del precio original. Por ejemplo: escriba `10` en _[!UICONTROL Discount Amount]_para obtener un precio actualizado que sea un 10% inferior al precio original.<br/>**[!UICONTROL Fixed amount discount]**: artículo de descuentos al restar una cantidad fija del precio original de cada artículo que cumple los requisitos en el carro de compras. Por ejemplo: escriba `10` en_[!UICONTROL Discount Amount]_ para obtener un precio actualizado que sea 10 $ menor que el precio original. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Descuenta todo el carro de compras restando una cantidad fija del subtotal del carro de compras. Por ejemplo: escriba `10` en _[!UICONTROL Discount Amount]_para restar $10 del subtotal del carro de compras. De forma predeterminada, el descuento se aplica solo al subtotal del carro de compras. Para aplicar el descuento al subtotal y al envío por separado, consulte_Aplicar al importe de envío _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Define una cantidad que el cliente debe comprar para recibir una cantidad de forma gratuita. (El_[!UICONTROL Discount Amount]_ es Y.) |
 | [!UICONTROL Discount Amount] | (Obligatorio) El importe del descuento ofrecido. |
 | [!UICONTROL Maximum Qty Discount is Applied To] | Establece el número máximo de productos a los que se puede aplicar el descuento en la misma compra. |
 | [!UICONTROL Discount Qty Step (Buy X)] | Establece el número de productos representados por `X` en una promoción `Buy X Get Y Free`. Además, define cuántos productos deben agregarse al carro de compras juntos en lotes para aplicar las promociones `Fixed amount discount` y `Percent of product price discount`. |
