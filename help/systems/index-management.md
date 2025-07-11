@@ -3,7 +3,7 @@ title: Administración de índices
 description: Déclencheur Obtenga información acerca de la administración de índices, incluidas las acciones que afectan a la reindexación y las prácticas recomendadas.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 source-git-commit: f4b5ca01ddb02a9392095fa46ae8baa73892319b
 workflow-type: tm+mt
 source-wordcount: '1323'
@@ -20,7 +20,7 @@ La reindexación de datos acelera el procesamiento y reduce el tiempo de espera 
 Los indexadores se pueden configurar para que se actualicen al guardarlos o según lo programado. Todos los índices pueden utilizar cualquiera de las opciones, excepto Customer Grid, que solo admite al guardar. Al indexar al guardar, Commerce inicia una reindexación al guardar las acciones. La página Administración de índices completa la actualización y vacía la caché. El mensaje de reindexación aparece en un minuto o dos. Al reindexar en una programación, se ejecuta una reindexación según una programación como trabajo cron. Aparecerá un mensaje del sistema si no hay un [trabajo cron](cron.md) disponible para actualizar los indizadores que no sean válidos. Se puede acceder a su tienda durante los procesos de reindexación.
 
 >[!NOTE]
-> Los comerciantes de Adobe Commerce que usan Live Search, Servicio de catálogo o Product Recommendations tienen la opción de usar un [indexador de precios basado en SaaS](https://experienceleague.adobe.com//en/docs/commerce/price-indexer/price-indexing).
+> Los comerciantes de Adobe Commerce que usan Live Search, Servicio de catálogo o Product Recommendations tienen la opción de usar un [indexador de precios basado en SaaS](https://experienceleague.adobe.com//en/docs/commerce/price-indexer/price-indexing?lang=es).
 
 Cuando es necesario reindexar, aparece una notificación en la parte superior de la página. El índice y el mensaje se borran según el modo de reindexación y las posibles acciones que realice. Para obtener información más detallada sobre la indexación , consulte [Cómo implementa la aplicación la indexación](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing) en la _Guía para desarrolladores de PHP_.
 
@@ -44,7 +44,7 @@ La reindexación y el almacenamiento en caché tienen diferentes propósitos en 
 
 >[!IMPORTANT]
 >
->En tiendas que usan [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) y han establecido Elasticsearch como indizador de texto completo (`catalogsearch_fulltext`): el índice de texto completo debe volver a ejecutarse después de cualquier cambio de permisos en masa o cuando el indizador &#39;permisos&#39; esté en modo &#39;Programado&#39;.
+>En tiendas que usan [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=es) y han establecido Elasticsearch como indizador de texto completo (`catalogsearch_fulltext`): el índice de texto completo debe volver a ejecutarse después de cualquier cambio de permisos en masa o cuando el indizador &#39;permisos&#39; esté en modo &#39;Programado&#39;.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 
@@ -80,7 +80,7 @@ La reindexación y el almacenamiento en caché tienen diferentes propósitos en 
 
 ## Reindexe utilizando la línea de comandos
 
-Commerce proporciona opciones de reindexación adicionales mediante la línea de comandos. Para obtener información detallada y opciones de comando completas, consulte [Reindex](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"} en la _Guía de configuración_.
+Commerce proporciona opciones de reindexación adicionales mediante la línea de comandos. Para obtener información detallada y opciones de comando completas, consulte [Reindex](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=es#reindex){:target="blank"} en la _Guía de configuración_.
 
 ## Eventos de déclencheur de índice
 
