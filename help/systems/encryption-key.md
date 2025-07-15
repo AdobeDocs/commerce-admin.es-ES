@@ -76,7 +76,7 @@ Las siguientes instrucciones requieren acceso a un terminal.
    bin/magento encryption:key:change
    ```
 
-+++
+   +++
 
    +++Configuración de administración
 
@@ -99,7 +99,7 @@ Las siguientes instrucciones requieren acceso a un terminal.
       >
       >Mantenga un registro de la nueva clave en una ubicación segura. Es necesario descifrar los datos si se produce algún problema con los archivos.
 
-+++
+   +++
 
 1. Vaciar la caché.
 
