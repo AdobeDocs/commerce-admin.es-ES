@@ -18,7 +18,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >**Descargo de responsabilidad legal**<br/>
->>Esta información está diseñada para ayudar a los clientes de Adobe a responder a sus preguntas sobre los servicios preparados para HIPAA de Adobe. No constituye asesoramiento jurídico. Los comerciantes deben consultar con su propio asesor legal para comprender sus obligaciones según HIPAA y el uso y la configuración adecuados de los productos de Adobe.
+>&#x200B;>Esta información está diseñada para ayudar a los clientes de Adobe a responder a sus preguntas sobre los servicios preparados para HIPAA de Adobe. No constituye asesoramiento jurídico. Los comerciantes deben consultar con su propio asesor legal para comprender sus obligaciones según HIPAA y el uso y la configuración adecuados de los productos de Adobe.
 
 >[!BEGINSHADEBOX]
 
