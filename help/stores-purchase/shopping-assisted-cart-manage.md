@@ -3,9 +3,9 @@ title: Administración de un carro de compras
 description: Aprenda a ayudar a un cliente con su carro de compras directamente desde el administrador.
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-source-git-commit: dc19eeea03dc46b14fcbe339a8e426b249346673
+source-git-commit: 69cd571b66a81159c2c99e6652907f22142568cb
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Para comenzar una sesión de compra asistida, el cliente debe iniciar sesión en
 
 | Botón | Descripción |
 |--- |--- |
-| [!UICONTROL Clear my shopping cart] | Borra el carro de compras actual de todos los productos. |
+| [!UICONTROL Clear my shopping cart] | Quita todos los elementos del carro de compras. |
 | [!UICONTROL Update Items and Quantities|]Introduzca la cantidad necesaria en el campo **[!UICONTROL Qty]** y actualice el número de artículos en el carro de compras. |
 | [!UICONTROL Add selections to my cart] | Agrega productos de todas las secciones al carro de compras. |
 
@@ -55,7 +55,7 @@ Para comenzar una sesión de compra asistida, el cliente debe iniciar sesión en
    >
    >Para encontrar rápidamente el registro de cliente, use el control [Filters](../getting-started/admin-grid-controls.md).
 
-   En el perfil del cliente bajo _[!UICONTROL Personal Information]_, la fecha y la hora&#x200B;_[!UICONTROL Last Logged In]_ muestran que el cliente está en línea.
+   En el perfil del cliente bajo _[!UICONTROL Personal Information]_, la fecha y la hora_[!UICONTROL Last Logged In]_ muestran que el cliente está en línea.
 
    ![Perfil de cliente de un cliente en línea](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
@@ -175,10 +175,26 @@ Puede transferir artículos al carro de compras desde la lista de artículos des
 
 1. Haga clic en **[!UICONTROL Create Order]**.
 
-   La página _[!UICONTROL Create New Order]_&#x200B;muestra los artículos del carro de compras, seguidos de la información de envío y pago.
+   La página _[!UICONTROL Create New Order]_muestra los artículos del carro de compras, seguidos de la información de envío y pago.
 
 1. Completa la información de envío y pago.
 
 1. Haga clic en **[!UICONTROL Submit Order]**.
 
 Para obtener más información, consulte [Crear un pedido](customer-account-create-order.md).
+
+## Eliminar todos los elementos de un carro de compras
+
+Eliminar todos los artículos del carro de compras de un cliente en el modo de compra asistida es útil si el cliente quiere volver a empezar, ha agregado artículos incorrectos o necesita borrar su carro de compras antes de realizar un nuevo pedido. Esto ayuda a garantizar que el carro de compras solo contenga los productos que el cliente realmente desea comprar.
+
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+
+1. En la lista, abra el registro de cliente en modo de edición.
+
+1. Haga clic en **[!UICONTROL Manage Shopping Cart]** en la barra de botones superior.
+
+1. Haga clic en **[!UICONTROL Clear my shopping cart]**.
+
+   ![Borrar mi carro de compras](./assets/customer-manage-shopping-cart-clear.png){width="600" zoomable="yes"}
+
+1. Haga clic en **[!UICONTROL OK]** cuando se le pida que confirme la acción.
