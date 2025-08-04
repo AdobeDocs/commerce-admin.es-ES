@@ -3,9 +3,9 @@ title: Alcance del precio
 description: Obtenga información acerca del ámbito utilizado para los precios de los productos, que se pueden configurar para aplicarse a nivel global o de sitio web.
 exl-id: 3726b16b-4ed5-4286-a7fd-69ed6677f87a
 feature: Catalog Management, Products
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: bc3977f29c8048a1b8578aa21fa55fa1a4d903f2
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Commerce no permite establecer un precio de producto para cada tienda. Sin embar
 
 1. En el panel izquierdo, expanda **[!UICONTROL Catalog]** y elija **[!UICONTROL Catalog]** debajo.
 
-1. En la ficha **[!UICONTROL Price]**, establezca el ámbito del precio en `Website` en lugar de global.
+1. En la ficha **[!UICONTROL Price]**, establezca el ámbito de precio en `Website` en lugar de en `Global`.
 
 1. Configure el precio abriendo la página de edición del producto, seleccionando el ámbito en la esquina superior izquierda y, a continuación, introduciendo un nuevo precio por sitio web.
+
+En casos excepcionales, cuando el ámbito del precio está establecido en `Global`, la base de datos de Commerce puede tener precios diferentes en el nivel de sitio web. Esto puede ocurrir como resultado de problemas de sincronización fuera de Commerce. En estos casos, el comerciante debe realizar una limpieza de precios en el nivel de tienda y ejecutar una sincronización de catálogo con los servicios de Commerce.
