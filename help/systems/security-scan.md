@@ -104,7 +104,7 @@ La herramienta Security Scan Tool está disponible de forma gratuita en el table
 
          Una vez completado el proceso de compilación, los cambios se implementarán en la tienda de PWA.
 
-1. Vuelva a la página _[!UICONTROL Security Scan]_de su cuenta de Commerce y haga clic en **[!UICONTROL Verify Confirmation Code]**para establecer la propiedad del dominio.
+1. Vuelva a la página _[!UICONTROL Security Scan]_&#x200B;de su cuenta de Commerce y haga clic en **[!UICONTROL Verify Confirmation Code]**&#x200B;para establecer la propiedad del dominio.
 
 1. Después de una confirmación correcta, configure las opciones **[!UICONTROL Set Automatic Security Scan]** para uno de los siguientes tipos:
 
@@ -159,7 +159,7 @@ Entre los escenarios comunes en los que podría querer marcar un error de análi
 
 Para gestionar los errores de análisis identificados como falsos positivos, siga estos pasos:
 
-1. En la página _[!UICONTROL Monitored Websites]_, haga clic en **[!UICONTROL View Report]**para el sitio que desee administrar.
+1. En la página _[!UICONTROL Monitored Websites]_, haga clic en **[!UICONTROL View Report]**&#x200B;para el sitio que desee administrar.
 
 1. En la vista de informe, busque el análisis fallido que desee marcar como falso positivo.
 
@@ -169,7 +169,7 @@ Para gestionar los errores de análisis identificados como falsos positivos, sig
 
 1. Haga clic en **[!UICONTROL Apply Changes]** para guardar la selección.
 
-El error de análisis omitido se mueve a la sección _[!UICONTROL Ignored Results]_y se excluye de la puntuación de riesgo.
+El error de análisis omitido se mueve a la sección _[!UICONTROL Ignored Results]_&#x200B;y se excluye de la puntuación de riesgo.
 
 ### Dejar de omitir errores de análisis
 
@@ -183,7 +183,7 @@ Si necesita restaurar un fallo de análisis previamente ignorado a su monitoriza
 
 1. Haga clic en **[!UICONTROL Apply Changes]** para guardar la selección.
 
-El error de análisis vuelve a la sección _[!UICONTROL Failed Scans]_y se incluye en la puntuación de riesgo.
+El error de análisis vuelve a la sección _[!UICONTROL Failed Scans]_&#x200B;y se incluye en la puntuación de riesgo.
 
 ### Ver errores de análisis omitidos
 
