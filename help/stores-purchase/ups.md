@@ -3,7 +3,7 @@ title: United Parcel Service (UPS)
 description: Aprenda a configurar UPS como transportista para su tienda.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 614a94856c114244c8fdb281c73650878849a2fb
+source-git-commit: a925827f2d939eeb9e6b3e57c023792ae358cbfc
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 0%
@@ -46,9 +46,9 @@ Cuando configure UPS en el Administrador, use los valores de credenciales para `
 
    - Establezca **[!UICONTROL Mode]** en `Live` para enviar datos al sistema de envío de UPS a través de una conexión segura. (El modo de desarrollo no envía datos a través de una conexión segura).
 
-   - Compruebe **[!UICONTROL Gateway URL]** que es necesario para enviar solicitudes. Use una dirección URL de zona protegida (`https://wwwcie.ups.com/`) para el modo de prueba y una dirección URL de producción para solicitudes activas (`https://onlinetools.ups.com`). Asegúrese de utilizar los puntos de conexión respectivos para cada solicitud con el host determinado.
+   - Compruebe **[!UICONTROL Gateway URL]** que es necesario para enviar solicitudes. Use una dirección URL de zona protegida (`https://wwwcie.ups.com/api/rating/`) para el modo de prueba y una dirección URL de producción para solicitudes activas (`https://onlinetools.ups.com/api/rating/`). Asegúrese de utilizar los puntos de conexión respectivos para cada solicitud con el host determinado.
 
-   - Compruebe **[!UICONTROL Tracking URL]** que es necesario para obtener información de seguimiento. Use una dirección URL de zona protegida (`https://wwwcie.ups.com/`) para el modo de prueba y una dirección URL de producción para solicitudes activas (`https://onlinetools.ups.com`). Asegúrese de utilizar los puntos de conexión respectivos para cada solicitud con el host determinado.
+   - Compruebe **[!UICONTROL Tracking URL]** que es necesario para obtener información de seguimiento. Use una dirección URL de zona protegida (`https://wwwcie.ups.com/api/track/`) para el modo de prueba y una dirección URL de producción para solicitudes activas (`https://onlinetools.ups.com/api/track/`). Asegúrese de utilizar los puntos de conexión respectivos para cada solicitud con el host determinado.
 
    - Establezca **[!UICONTROL Origin of the Shipment]** en la región donde se origina el envío.
 
