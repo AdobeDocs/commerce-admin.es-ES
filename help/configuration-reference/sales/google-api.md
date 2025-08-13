@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Google API]'
 description: Revise la configuración en la página [!UICONTROL Sales] &gt; [!UICONTROL Google API] del administrador de Commerce.
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 feature: Configuration, Marketing Tools
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 5ee52e8d4f2ebb8fc28f13cca53e87c3529f76d3
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![Google Analytics](./assets/google-api-analytics-ee.png)<!-- zoom -->
 
-<!-- [Google Analytics](https://experienceleague.adobe.com/es/docs/commerce-admin/marketing/google-tools/google-analytics) -->
+<!-- [Google Analytics](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 | ----- | ------------------------------------------ | ----------- |
@@ -26,7 +26,6 @@ ht-degree: 0%
 | [!UICONTROL Account Type] | Vista de tienda | ![Adobe Commerce](../../assets/adobe-logo.svg) (solo Adobe Commerce) Determina las opciones de configuración según el tipo de cuenta de Google Analytics. Opciones: Universal Analytics (predeterminado) / Google Tag Manager |
 | [!UICONTROL Account Number] | Vista de tienda | El número de cuenta o código de seguimiento que se asignó al crear su cuenta de [!DNL Google Analytics]. |
 | [!UICONTROL Anonymize IP] | Vista de tienda | Determina si se quita la información de identificación de las direcciones IP que aparecen en [!DNL Google Analytics] resultados. |
-| [!UICONTROL Enable Content Experiments] | Vista de tienda | Activa [Experimentos con contenido de Google](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207), que pueden usarse para probar hasta diez versiones diferentes de la misma página. Opciones: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -34,7 +33,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![Google Analytics - Tipo de cuenta de Google Tag Manager](./assets/google-api-analytics-tag-manager.png)<!-- zoom -->
+![Google Analytics - tipo de cuenta de Google Tag Manager](./assets/google-api-analytics-tag-manager.png)<!-- zoom -->
 
 Cuando **[!UICONTROL Account Type]** se establece en `Google Tag Manager`, hay campos adicionales mostrados.
 
@@ -54,7 +53,7 @@ Cuando **[!UICONTROL Account Type]** se establece en `Google Tag Manager`, hay c
 
 ![Google AdWords](./assets/google-api-google-adwords.png)<!-- zoom -->
 
-<!-- [Google AdWords](https://experienceleague.adobe.com/es/docs/commerce-admin/marketing/google-tools/google-adwords) -->
+<!-- [Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 | ----- | ------------------------------------------ | ----------- |
@@ -76,17 +75,16 @@ Cuando **[!UICONTROL Account Type]** se establece en `Google Tag Manager`, hay c
 
 ### [!UICONTROL Google Analytics4]
 
-![Google Analytics 4](./assets/google-api-gtag-google-analytics4.png)<!-- zoom -->
+![Google Analytics4](./assets/google-api-gtag-google-analytics4.png)<!-- zoom -->
 
-<!-- [Google Analytics4](https://experienceleague.adobe.com/es/docs/commerce-admin/marketing/google-tools/google-analytics) -->
+<!-- [Google Analytics4](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 | ----- | ------------------------------------------ | ----------- |
-| [!UICONTROL Enable] | Vista de tienda | Activa Google Analytics 4 para tu tienda. Opciones: `Yes` / `No` |
+| [!UICONTROL Enable] | Vista de tienda | Habilita Google Analytics 4 para tu tienda. Opciones: `Yes` / `No` |
 | [!UICONTROL Account Type] | Vista de tienda | ![Adobe Commerce](../../assets/adobe-logo.svg) (solo Adobe Commerce) Determina las opciones de configuración según el tipo de cuenta de Google Analytics. Opciones: `Google Analytics4` (predeterminado) / `Google Tag Manager` |
-| [!UICONTROL Measurement ID] | Vista de tienda | El número de cuenta, o código de seguimiento, que se asignó al crear la cuenta de Google Analytics. |
+| [!UICONTROL Measurement ID] | Vista de tienda | El número de cuenta, o código de seguimiento, que se asignó al crear su cuenta de Google Analytics. |
 | [!UICONTROL Anonymize IP] | Vista de tienda | Determina si se elimina la información de identificación de las direcciones IP que aparecen en los resultados de Google Analytics. |
-| [!UICONTROL Enable Content Experiments] | Vista de tienda | Activa [Experimentos con contenido de Google](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207), que pueden usarse para probar hasta diez versiones diferentes de la misma página. Opciones: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -94,7 +92,7 @@ Cuando **[!UICONTROL Account Type]** se establece en `Google Tag Manager`, hay c
 
 {{ee-feature}}
 
-![Google Analytics 4 - Tipo de cuenta de Google Tag Manager](./assets/google-api-gtag-google-analytics4-gtm.png)<!-- zoom -->
+![Google Analytics4 - Tipo de cuenta de Google Tag Manager](./assets/google-api-gtag-google-analytics4-gtm.png)<!-- zoom -->
 
 Cuando **[!UICONTROL Account Type]** se establece en `Google Tag Manager`, hay campos adicionales mostrados.
 
@@ -114,7 +112,7 @@ Cuando **[!UICONTROL Account Type]** se establece en `Google Tag Manager`, hay c
 
 ![Google AdWords](./assets/google-api-gtag-google-adwords.png)<!-- zoom -->
 
-<!-- -- Google AdWords](https://experienceleague.adobe.com/es/docs/commerce-admin/marketing/google-tools/google-adwords) -->
+<!-- -- Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 | ----- | ------------------------------------------ | ----------- |
