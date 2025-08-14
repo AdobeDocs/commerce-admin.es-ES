@@ -3,9 +3,9 @@ title: Códigos de cupón
 description: Aprenda a utilizar códigos de cupones con reglas de precio de carro de compras para aplicar un descuento cuando se cumpla un conjunto de condiciones.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+source-git-commit: 9ba2b4f7847559e2c59c7bec3b87781c12270712
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: '1922'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,17 @@ A partir de Commerce 2.4.7, los compradores pueden aplicar varios cupones a un c
 >Las reglas de precios del carro de compras que tienen la misma prioridad no resultan en un descuento combinado. Cada regla (cupón) se aplica a los productos coincidentes por separado, uno a uno, según el ID de regla de precios del carro de compras de la base de datos. Para controlar el orden en que se aplican los descuentos, Adobe recomienda establecer una prioridad diferente para cada regla de precio del carro de compras agregada.
 
 ## Configuración de códigos de cupones
+
+>[!BEGINSHADEBOX]
+
+De forma predeterminada, Commerce admite dos métodos para crear códigos de cupones:
+
+1. Creación de un único código de cupón específico
+1. Generando varios códigos de cupón _random_
+
+Si ya tiene una lista de códigos de cupones que desea importar y asociar con una regla de precio de carro de compras, debería considerar la posibilidad de usar una extensión de [Commerce Marketplace](https://marketplace.magento.com/).
+
+>[!ENDSHADEBOX]
 
 La configuración controla la longitud y el formato de los códigos de cupón generados automáticamente. Los caracteres se pueden definir en todos los números, en todas las letras o en una combinación. Puede insertar un guión a intervalos establecidos para facilitar la lectura y agregar un prefijo y un sufijo para asociar el código a una campaña o iniciativa específica.
 
@@ -62,7 +73,7 @@ La configuración controla la longitud y el formato de los códigos de cupón ge
 
 >[!NOTE]
 >
->[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} Antes de crear cupones, use el comando `bin/magento cron:run` para comprobar que cron se está ejecutando. Consulte [Ejecutar cron desde la línea de comandos](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=es#run-cron-from-the-command-line) en la _Guía de configuración_ para obtener más información.
+>[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} Antes de crear cupones, use el comando `bin/magento cron:run` para comprobar que cron se está ejecutando. Consulte [Ejecutar cron desde la línea de comandos](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) en la _Guía de configuración_ para obtener más información.
 
 ### Método 1: Creación de un cupón específico
 
@@ -169,10 +180,6 @@ La generación de cupones de descuento es una operación asincrónica, que se ej
 Puede exportar códigos de cupones a un archivo CSV o XML de Excel seleccionando el formato de archivo y haciendo clic en **[!UICONTROL Export]**.
 
 Para eliminar códigos de cupones, seleccione uno o varios códigos de la lista. Seleccione `Delete` del selector **[!UICONTROL Actions]** y haga clic en **[!UICONTROL Submit]**.
-
->[!NOTE]
->
->Aunque Commerce permite configurar varios códigos de cupones, un cliente solo puede utilizar un código de cupón en el carro de compras. Para permitir el uso de más de un código de cupón en el carro de compras simultáneamente, puedes considerar usar una extensión correspondiente de [Commerce Marketplace](https://marketplace.magento.com/).
 
 ## Informe de cupones
 
