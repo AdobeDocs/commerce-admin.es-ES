@@ -5,10 +5,10 @@ breadcrumb-title: Primeros pasos
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
+source-git-commit: b45824312b02204f1031b04c215ca42c5298d824
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 1%
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 1%
    + [Proteja su cuenta](commerce-account-secure.md)
    + [Compartir su cuenta](commerce-account-share.md)
    + [Transferir una cuenta](commerce-account-transfer.md)
-+ Cumplimiento del sitio {#compliance}
++ Conformidad del sitio {#compliance}
    + Preparación para HIPAA en Adobe Commerce{#hipaa-ready-service}
       + [Información general](hipaa/overview.md)
       + [Guía operativa](hipaa/operations.md)
@@ -42,11 +42,6 @@ ht-degree: 1%
       + [Resumen de integración de IMS](adobe-ims-integration-overview.md)
       + [Configuración de la integración de administración con IMS](adobe-ims-config.md)
       + [Desactivación de la integración de administración con IMS](adobe-ims-disable.md)
-   + Integración de Adobe Experience Cloud {#unifiedexperience}
-      + [Información general](admin-unified-experience-integration-overview.md)
-      + [Configuración de la integración](admin-unified-experience-integration-configure.md)
-      + [Administración de la integración de Experience Cloud](admin-unified-experience-integration-manage.md)
-      + [Notas de la versión](admin-unified-experience-release-notes.md)
    + Herramientas de administración y espacio de trabajo {#tools}
       + [Workspace](admin-workspace.md)
       + [Barra lateral de administración](admin-menu.md)
@@ -57,12 +52,12 @@ ht-degree: 1%
 + La tienda {#storefront}
    + [¿Qué es la tienda?](storefront.md)
    + [Experiencias de tienda mejoradas](enhanced-experiences.md)
-+ Configuración básica {#setup}
++ Configuración y configuración básicas {#setup}
    + [Sitio, almacén y ámbito de visualización](websites-stores-views.md)
    + [Detalles de tienda](store-details.md)
    + [Marca de tienda](storefront-branding.md)
    + [Lista de comprobación previa al lanzamiento](prelaunch-checklist.md)
-+ Informes estándar {#reporting}
++ Informes estándar  {#reporting}
    + [Menú Informes](reports-menu.md)
    + [Informes de marketing](marketing-reports.md)
    + [Revisar informes](review-reports.md)
@@ -76,5 +71,5 @@ ht-degree: 1%
    + [Ecosistema](resources.md)
    + [Extensiones](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Volver a las guías del usuario administrador](https://experienceleague.adobe.com/es/docs/commerce-admin/user-guides/home)
++ [Volver a las guías del usuario administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
