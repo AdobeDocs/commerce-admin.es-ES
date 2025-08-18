@@ -3,9 +3,9 @@ title: Crea tu cuenta de  [!DNL Commerce] y accede a ella
 description: Obtenga información acerca de  [!DNL Commerce] cuentas que administran los productos y servicios que ha adquirido.
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: d5f5405c9470e77327f2978f503cec800a440b5d
+source-git-commit: d036962b767be0817dbd14d679e89ab4d4f03455
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -13,17 +13,13 @@ ht-degree: 0%
 
 # Acceder a su cuenta de [!DNL Commerce]
 
-Puede acceder a su cuenta desde el sitio web [!DNL Commerce]. Desde el panel de su cuenta de [!DNL Commerce], puede encontrar información relacionada con los productos y servicios que ha adquirido, así como información de contacto y facturación. Algunos datos solo están visibles para los propietarios de licencias.
-
-Puede acceder a su cuenta desde el sitio web [!DNL Commerce]. El panel de la cuenta muestra los productos, servicios y detalles de contacto o facturación que ha comprado. Algunos datos solo están visibles para los propietarios de licencias.
+Puede acceder a su cuenta de [!DNL Commerce] desde el sitio web de [!DNL Commerce]. Desde el panel de su cuenta de [!DNL Commerce], puede encontrar información relacionada con los productos y servicios que ha adquirido, así como información de contacto y facturación. Algunos datos solo están visibles para los propietarios de licencias.
 
 ![Su cuenta de [!DNL Commerce]](./assets/home-acct.png){width="700"}
 
 El inicio de sesión de la cuenta de [!DNL Commerce] es independiente del inicio de sesión del administrador de tienda. Normalmente, utilizará credenciales diferentes para cada uno y el acceso a cada sistema se administra de forma independiente.
 
-Sin embargo, un usuario que desee optimizar su inicio de sesión en los productos de Adobe Commerce y Adobe Business podrá configurar su Adobe ID para iniciar sesión en el administrador de tienda: [Configurar la integración de administración de Commerce con Adobe ID](https://experienceleague.adobe.com/es/docs/commerce-admin/start/admin/ims/adobe-ims-config)
-
-Los inicios de sesión de Commerce y del administrador de tienda son independientes, con credenciales diferentes y acceso administrado de forma independiente. Sin embargo, puede optimizar el acceso configurando Adobe ID para que inicie sesión en el administrador de la tienda. Consulte [Configuración de la integración de administración de Commerce con Adobe ID] en la *Guía de integración de IMS para Commerce*.
+Sin embargo, un usuario que quiera optimizar sus inicios de sesión en Adobe Commerce y en los productos para empresas de Adobe puede configurar su Adobe ID para iniciar sesión en el administrador de tienda: [Configure the Commerce Admin Integration with Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) en la *Guía de integración de IMS para Commerce*.
 
 >[!NOTE]
 >
@@ -31,7 +27,7 @@ Los inicios de sesión de Commerce y del administrador de tienda son independien
 
 ## Inicie sesión en su cuenta de [!DNL Commerce]
 
-Se requiere un Adobe ID para acceder a una cuenta de Commerce. Si ya tiene una cuenta de Commerce pero no tiene una de Adobe ID, puede crearla durante el proceso de inicio de sesión.
+Se requiere un Adobe ID para acceder a una cuenta de Commerce. Si ya tiene una cuenta de [!DNL Commerce] pero no ha iniciado sesión en la cuenta desde agosto de 2022, deberá crear una Adobe ID durante el proceso de inicio de sesión.
 
 >[!WARNING]
 >
