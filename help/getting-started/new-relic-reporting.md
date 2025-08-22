@@ -1,12 +1,13 @@
 ---
-title: '[!DNL New Relic] informe'
+title: Informes de [!DNL New Relic]
 description: Obtenga información acerca de los informes  [!DNL New Relic] disponibles para cuentas de Adobe Commerce en la infraestructura en la nube, que incluye el software para el servicio APM de New Relic.
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 role: Admin, Leader
 feature: System
-source-git-commit: 0651a2489a396ab142b60a8678d6c7590fd5f9ee
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
@@ -21,15 +22,15 @@ ht-degree: 0%
 
    También puede registrarse para obtener una cuenta de prueba gratuita.
 
-1. Siga las instrucciones del sitio. Cuando se le solicite, elija primero el producto que desea instalar.
+1. Siga las instrucciones del sitio. Cuando se le solicite, elija el producto que desea instalar primero.
 
-1. Mientras esté en su cuenta, busque las siguientes credenciales necesarias para completar la configuración de comercio:
+1. Cuando esté en su cuenta, busque las siguientes credenciales que son necesarias para completar la configuración de Commerce:
 
    | Opción | Descripción |
    | ------ | ----------- |
    | ID de cuenta | Desde el panel de cuentas de [!DNL New Relic], el identificador de cuenta es el número de la dirección URL después de `/accounts` |
-   | ID de aplicación | En el panel de su cuenta de [!DNL New Relic], haga clic en **[!UICONTROL New Relic APM]**. En el menú, elija **[!UICONTROL Applications]**. A continuación, elija la aplicación. El ID de aplicación es el número que aparece en el URL posterior: `/applications/` |
-   | Clave de API de Nuevo Relic | En el panel de su cuenta de [!DNL New Relic], haga clic en **[!UICONTROL Account Settings]**. En el menú de la izquierda, debajo de Integraciones, elija **[!UICONTROL Data Sharing]**. Puede crear, regenerar o eliminar la clave de API desde esta página. |
+   | ID de aplicación | En el panel de su cuenta de [!DNL New Relic], haga clic en **[!UICONTROL New Relic APM]**. En el menú, elija **[!UICONTROL Applications]**. A continuación, elija la aplicación. El identificador de aplicación es el número de la dirección URL después de: `/applications/` |
+   | Clave de API de New Relic | En el panel de su cuenta de [!DNL New Relic], haga clic en **[!UICONTROL Account Settings]**. En el menú de la izquierda, debajo de Integraciones, elija **[!UICONTROL Data Sharing]**. Puede crear, regenerar o eliminar la clave de API desde esta página. |
    | Clave API de Insights | En el panel de su cuenta de [!DNL New Relic], haga clic en **[!UICONTROL Insights]**. En el menú de la izquierda debajo de Administración, elija **[!UICONTROL API Keys]**. Las claves de API de Insights aparecen en esta página. Si es necesario, haga clic en el signo más (**+**) situado junto a Insertar claves para generar una clave. |
 
    {style="table-layout:auto"}
@@ -53,7 +54,7 @@ Para usar [!DNL New Relic APM Pro] para recopilar y transmitir datos, el agente
 >[!NOTE]
 >Estas opciones de configuración no se aplican a Adobe Commerce en la infraestructura de la nube.
 >
->Si está en el plan Pro, New Relic ya está [preconfigurado y habilitado de manera predeterminada](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=es). Si se encuentra en el plan inicial, debe completar los [pasos de configuración de New Relic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html?lang=es#configure-new-relic-for-starter-environment) que forman parte del proceso de instalación.
+>Si está en el plan Pro, New Relic ya está [preconfigurado y habilitado de manera predeterminada](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). Si se encuentra en el plan inicial, debe completar los [pasos de configuración de New Relic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) que forman parte del proceso de instalación.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -127,18 +128,18 @@ Devuelve el número de acciones de administración recientes.
 
 #### Última actividad de administración
 
-Devuelve información detallada sobre las acciones recientes de la administración, incluido el nombre de usuario, la duración y el nombre aplicación del administrador.
+Devuelve información detallada sobre las acciones de administración recientes, incluido el nombre de usuario del administrador, la duración y el nombre de la aplicación.
 
-    SELECT AdminName, duration, name
-    FROM Transacción
-    DONDE appName=&#39;&lt;your_app_name>&#39; Y AdminName NO ES NULO
-    y AdminName !&lt;/your_app_name>= &#39;N/A&#39; LÍMITE 50
+    SELECCIONE AdminName, duration, name
+    FROM Transaction
+    WHERE appName=&#39;&lt;your_app_name>&#39; AND AdminName IS NOT NULL
+    AND AdminName != LÍMITE &#39;N/A&#39; 50
 
 ### Eventos Cron
 
-#### Recuento Categoría
+#### Recuento de categorías
 
-Devuelve el número de sucesos de aplicación por categoría durante el período de tiempo especificado.
+Devuelve el número de eventos de aplicación por categoría durante el período de tiempo especificado.
 
     SELECT average(CatalogCategoryCount)
     FROM Cron
@@ -150,11 +151,10 @@ Devuelve el número de sucesos de aplicación por categoría durante el período
 Devuelve el número promedio de eventos de aplicación en el catálogo por categoría durante el período de tiempo especificado.
 
     SELECT average(CatalogCategoryCount)
-    FROM cron
-    WHERE CatalogCategoryCount NO ES NULO
-    y CatalogCategoryCount > 0
+    FROM Cron
+    WHERE CatalogCategoryCount IS NOT NULL
+    AND CatalogCategoryCount > 0
     AND appName = &#39;&lt;your_app_name>&#39; SINCE 2 minutes ago LIMIT 1
-&lt;/your_app_name>
 
 #### Productos activos
 
@@ -257,7 +257,7 @@ Devuelve el número promedio de eventos de aplicación por sitio web y almacén 
 
     SELECT average(StoreViewCount), average(WebsiteCount)
     FROM Cron
-    WHERE appName = &#39;&lt;your_app_name&gt;&#39; TIMESERIES 2 minutos
+    WHERE appName = &#39;&amp;lt;your_app_name&amp;gt;&#39; TIMESERIES 2 minutos
 
 #### Recuentos actuales de sitios web y tiendas
 
@@ -305,15 +305,15 @@ Devuelve los clientes principales durante el período de tiempo especificado.
 
 Devuelve un número definido de registros de actividad reciente, que incluyen el nombre del cliente y la duración de la visita.
 
-    SELECT CustomerName, duration, name
-    FROM Transaction
-    WHERE appName=&#39;&lt;your_app_name>&#39;
-    And CustomerName IS NOT NULL
-    AND CustomerName !&lt;/your_app_name>= &#39;N/A&#39; LÍMITE 50
+    SELECCIONE NombreCliente, duración, nombre
+    DE LA transacción
+    DONDE NombreAplicación=&#39;&lt;Nombre_Aplicación>&#39;
+    Y NombreCliente NO ES NULO
+    Y NombreCliente != LÍMITE &#39;N/A&#39; 50
 
-### Órdenes
+### Pedidos
 
-#### Número de pedidos asentados
+#### Número de pedidos realizados
 
 Devuelve el número de pedidos realizados durante el período de tiempo especificado.
 
@@ -324,8 +324,8 @@ Devuelve el número de pedidos realizados durante el período de tiempo especifi
 
 Devuelve el número total de elementos de línea pedidos durante el período de tiempo especificado.
 
-    SELECT sum(orderValue)
-    FROM Transacción DESDE hace 1 día
+    SELECCIONAR suma(orderValue)
+    DE LA transacción DESDE hace 1 día
 
 #### Total de elementos de línea pedidos
 
@@ -337,6 +337,6 @@ Devuelve el número total de elementos de línea pedidos durante el período de 
 
 [1]: https://newrelic.com/
 [3]: https://docs.newrelic.com/docs/agents/php-agent/getting-started/new-relic-php
-[4]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=es
-[5]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=es
+[4]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html
+[5]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html
 [6]: https://docs.newrelic.com/docs/insights/new-relic-insights/using-new-relic-query-language/nrql-reference

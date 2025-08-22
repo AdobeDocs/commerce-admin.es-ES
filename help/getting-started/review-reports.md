@@ -3,9 +3,10 @@ title: Revisar informes
 description: Si su sitio utiliza la función de revisión integrada, los informes de revisión proporcionan información sobre las revisiones de productos por cliente y por producto.
 exl-id: f337c0fc-a8fd-43ef-82db-f11741e6dc76
 feature: Reporting, Customers, Products
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---

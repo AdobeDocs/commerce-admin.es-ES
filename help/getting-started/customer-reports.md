@@ -1,18 +1,19 @@
 ---
 title: Informes del cliente
-description: Los informes de cliente disponibles en Adobe Commerce y Magento Open Source proporcionan una perspectiva de la actividad del cliente durante un período de tiempo o un intervalo de fechas especificados.
+description: Los informes de cliente disponibles en Adobe Commerce y Magento Open Source proporcionan insight a la actividad del cliente durante un período de tiempo o un intervalo de fechas especificados.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-source-git-commit: a530d74f8d073f834f310826562407b8f949f17b
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '893'
 ht-degree: 1%
 
 ---
 
 # Informes del cliente
 
-Los informes del cliente proporcionan una perspectiva de la actividad del cliente durante un período de tiempo o un intervalo de fechas especificados.
+Los informes del cliente proporcionan a insight la actividad del cliente durante un período de tiempo o un intervalo de fechas especificados.
 
 ## [!UICONTROL Order Total Report]
 

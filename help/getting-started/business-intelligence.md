@@ -1,28 +1,29 @@
 ---
 title: '[!DNL Commerce Intelligence] herramientas'
-description: Descubra cómo Adobe Commerce y los comerciantes Magento Open Source pueden utilizar las herramientas de Commerce Intelligence para obtener la información que se utiliza para tomar decisiones comerciales sólidas.
+description: Descubra cómo los comerciantes de Adobe Commerce y Magento Open Source pueden utilizar las herramientas de Commerce Intelligence para obtener el insight que se utiliza para tomar decisiones empresariales sólidas.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-source-git-commit: 78bcac16713f9ec87faf7029732972db73216e79
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1179'
 ht-degree: 0%
 
 ---
 
 # [!DNL Commerce Intelligence] herramientas
 
-Utilice las herramientas de Commerce Intelligence para obtener la información que se utiliza para tomar decisiones empresariales correctas.
+Utilice las herramientas de Commerce Intelligence para obtener el insight que se utiliza para tomar decisiones empresariales sólidas.
 
 ## Cuenta de [!DNL Commerce Intelligence]
 
-Cuando activa una cuenta de [!DNL Commerce Intelligence] mediante el Adobe, obtiene acceso a cinco paneles con aproximadamente 70 informes. Estos informes están diseñados para proporcionar perspectivas sobre sus datos y responder a preguntas como &quot;¿Cómo crecen mis pedidos mes tras mes?&quot;, &quot;¿Quiénes son mis clientes más fieles?&quot; y &quot;¿Funciona mi estrategia de cupones?&quot; Para obtener información detallada sobre este conjunto de herramientas, consulte la [Guía del usuario de Commerce Intelligence][1].
+Cuando activa una cuenta de [!DNL Commerce Intelligence] a través de Adobe, obtiene acceso a cinco paneles con aproximadamente 70 informes. Estos informes están diseñados para proporcionar perspectivas sobre sus datos y responder a preguntas como &quot;¿Cómo crecen mis pedidos mes tras mes?&quot;, &quot;¿Quiénes son mis clientes más fieles?&quot; y &quot;¿Funciona mi estrategia de cupones?&quot; Para obtener información detallada sobre este conjunto de herramientas, consulte la [Guía del usuario de Commerce Intelligence][1].
 
 ## [!DNL Advanced Reporting]
 
 [!DNL Advanced Reporting] se incluye con Adobe Commerce y Magento Open Source. Esta función le permite acceder a un conjunto de informes dinámicos basados en los datos de sus productos, pedidos y clientes, con un tablero personalizado adaptado a sus necesidades comerciales. Aunque [!DNL Advanced Reporting] usa [!DNL Commerce Intelligence] para análisis, no necesita tener una cuenta de Commerce Intelligence para usar [!DNL Advanced Reporting].
 
-Para obtener información técnica, consulte el tema [[!DNL Advanced Reporting]][2]{:target=&quot;_blank&quot;} en la documentación para desarrolladores.
+Para obtener información técnica, consulte el tema [[!DNL Advanced Reporting]][2]{:target="_blank"} en la documentación para desarrolladores.
 
 >[!NOTE]
 >
@@ -59,7 +60,7 @@ En la configuración de [!DNL Commerce], [[!DNL Advanced Reporting]](../configur
 
    * Compruebe que **[!UICONTROL Advanced Reporting Service]** está establecido en `Enable` (la configuración predeterminada).
 
-   * Establezca **[!UICONTROL Time of day to send data]** a las horas, minutos y segundos, según un reloj de 24 horas, en los que desee que el servicio reciba datos actualizados de su tienda. De forma predeterminada, los datos se envían a las 2:00 a. m.
+   * Establezca **[!UICONTROL Time of day to send data]** a las horas, minutos y segundos, según un reloj de 24 horas, en los que desee que el servicio reciba datos actualizados de su tienda. De manera predeterminada, los datos se envían a las 2:00 a. m.
 
    * En **[!UICONTROL Industry Data]**, elija el **[!UICONTROL Industry]** que mejor describa su negocio.
 
@@ -177,6 +178,6 @@ Si observa que el pie de ilustración `Data last updated...` muestra la fecha de
 {style="table-layout:auto"}
 
 
-[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=es
+[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html
 [2]: https://developer.adobe.com/commerce/php/development/advanced-reporting/
-[3]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=es
+[3]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html
