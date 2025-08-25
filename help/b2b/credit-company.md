@@ -74,7 +74,7 @@ La cuadrícula muestra la siguiente información para cada transacción:
 | [!UICONTROL Operation] | El tipo de actividad asociada con la transacción. Valores: <br/>**[!UICONTROL Allocated]**- Crédito asignado a la compañía.<br/>**[!UICONTROL Updated]** - Se aplicó un cambio a uno de los siguientes campos: [!UICONTROL Credit limit] / [!UICONTROL Credit currency] / [!UICONTROL Allow to exceed credit limit] <br/>**[!UICONTROL Purchased]**- Se realizó un pedido.<br/>**[!UICONTROL Reimbursed]** - Se reembolsó el saldo pendiente. <br/>**[!UICONTROL Refunded]**- Se reembolsó un importe de nota de abono.<br/>**[!UICONTROL Reverted]** - Se canceló el pedido y se devolvió el importe al saldo acreedor. |
 | [!UICONTROL Amount] | El importe de la transacción asociada con los siguientes tipos de transacción: `Purchased` / `Reimbursed` / `Refunded` / `Reverted` <br/>Para los importes de compra, el importe aparece en la moneda de visualización del almacén y en el formato de la configuración de la moneda de crédito, seguido de la tasa de conversión actual (si corresponde). Por ejemplo: <br/>20.000,00 EUR ($22.400,00) <br/>USD/EUR 0,8928 |
 | [!UICONTROL Outstanding Balance] | El importe reembolsado, menos el total adeudado de todos los pedidos realizados mediante el método Pago a Cuenta. La cantidad puede aparecer como un valor positivo o negativo. <br/>**[!UICONTROL Positive value]**: un pago anticipado se representa como un valor positivo.<br/>**[!UICONTROL Negative value]** - Una cantidad adeudada se representa como un valor negativo. |
-| [!UICONTROL Available Credit] | La suma de _[!UICONTROL Credit Limit]_&#x200B;y_[!UICONTROL Outstanding Balance]_. Si la empresa ha superado el límite de crédito, el importe aparece como un valor negativo. |
+| [!UICONTROL Available Credit] | La suma de _[!UICONTROL Credit Limit]_y_[!UICONTROL Outstanding Balance]_. Si la empresa ha superado el límite de crédito, el importe aparece como un valor negativo. |
 | [!UICONTROL Credit Limit] | El importe del crédito concedido a la empresa. |
 | [!UICONTROL Updated By] | Nombre de la persona que inició la operación. |
 | [!UICONTROL Custom Reference Number] | Número de referencia personalizado asociado con la transacción. |
@@ -153,7 +153,7 @@ Los administradores de la compañía pueden ver su información de crédito en e
 
 Obtenga información acerca de la administración del crédito de la empresa viendo este vídeo de demostración:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410758?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
 
 ## Consideraciones de seguridad
 
@@ -167,7 +167,7 @@ A la hora de gestionar el crédito de la empresa, implemente medidas de segurida
 
 ## Prácticas recomendadas
 
-* &#x200B;
+* 
    * **Administración de directivas de crédito**: al administrar el crédito de la compañía, establezca directivas claras para establecer límites de crédito basados en el historial de pagos del cliente y en las relaciones comerciales. Revise periódicamente los saldos pendientes y los patrones de pago para evaluar el riesgo, y siempre documente los cambios en la configuración de crédito con motivos detallados a efectos de auditoría.
 
 Procese los pagos con prontitud para mantener saldos precisos y garantizar que la configuración de la divisa de crédito se ajuste a las operaciones comerciales principales de cada empresa.
