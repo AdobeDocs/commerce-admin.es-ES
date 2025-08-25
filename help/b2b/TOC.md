@@ -5,7 +5,7 @@ breadcrumb-title: '[!DNL Adobe Commerce B2B]'
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 63585845dc51a0be31102dfe3e4b9074225c490d
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 6%
@@ -20,7 +20,7 @@ ht-degree: 6%
 + [Notas de la versión](release-notes.md)
 + [Instalación](install.md)
 + [Activar funciones B2B](enable-basic-features.md)
-+ Cuentas de la compañía {#companies}
++ Cuentas de empresa {#companies}
    + [Información general](account-companies.md)
    + [Configurar opciones de correo electrónico de empresa](email-company-configuration.md)
    + [Crear una cuenta de empresa](account-company-create.md)
@@ -30,16 +30,16 @@ ht-degree: 6%
    + [Asignación de un grupo de clientes a una compañía](account-company-customer-group.md)
    + [Añadir clientes a una compañía](customer-assign-company.md)
    + [Administrar crédito de la empresa](credit-company.md)
-   + Usuarios de la compañía y estructura {#users}
+   + Usuarios y estructura de la empresa {#users}
       + [Cuentas de usuario de empresa](account-company-users.md)
       + [Funciones de la compañía y permisos](account-company-roles-permissions.md)
       + [Definir estructura de la empresa](account-company-structure.md)
 + Administración de empresa {#company-management}
    + [Información general](manage-companies.md)
-   + [Administrar jerarquía de empresa](manage-company-hierarchy.md)
+   + [Administrar jerarquías de empresa](manage-company-hierarchy.md)
 + Catálogos compartidos {#shared-catalogs}
    + [Información general](catalog-shared.md)
-   + Definir catálogos compartidos {#define}
+   + Definición de catálogos compartidos {#define}
       + [Creación de un catálogo compartido](catalog-shared-create.md)
       + [Añadir productos a un catálogo compartido](catalog-shared-product-add.md)
       + [Establecer estructura y precios de catálogo](catalog-shared-pricing-structure.md)
@@ -68,4 +68,4 @@ ht-degree: 6%
 + Referencia {#reference}
    + [Cambios incompatibles con versiones anteriores](backward-incompatible-changes.md)
    + [Paquetes](packages.md)
-+ [Volver a las guías del usuario administrador](https://experienceleague.adobe.com/es/docs/commerce-admin/user-guides/home)
++ [Volver a las guías del usuario administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
