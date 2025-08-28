@@ -1,13 +1,41 @@
 ---
-source-git-commit: a04e13ed68e0eac5031a2b163fc00bae64e7698d
+source-git-commit: 78a5f453925aff65bd9b1341b6c796c3260d614d
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 7%
+source-wordcount: '453'
+ht-degree: 5%
 
 ---
 # Documentación técnica de administración de Adobe Commerce
 
 Agradecemos las contribuciones de nuestra comunidad, así como de los empleados de Adobe ajenos a los equipos de documentación.
+
+## Enlaces previos a la confirmación para la optimización de imágenes
+
+Este repositorio incluye enlaces automatizados previos a la confirmación que optimizan las imágenes antes de la confirmación. **Todos los colaboradores deben habilitar estos vínculos** para garantizar una optimización de imagen coherente y una reducción del tamaño del repositorio.
+
+### Configuración rápida
+
+Después de clonar el repositorio, ejecute:
+
+```bash
+.githooks/setup-hooks.sh
+```
+
+### Qué hacen los ganchos
+
+- Detectar automáticamente archivos de imagen clasificados (PNG, JPG, JPEG, GIF, SVG)
+- Ejecutar `image_optim` para comprimir y optimizar imágenes
+- Volver a almacenar automáticamente las imágenes optimizadas
+- Asegúrese de que todas las imágenes confirmadas estén optimizadas correctamente
+
+### Ventajas
+
+- Tamaño de repositorio reducido
+- Cargas de página más rápidas para la documentación
+- Calidad de imagen coherente en todos los colaboradores
+- No se requiere optimización manual
+
+Para obtener instrucciones de instalación, solución de problemas y configuración detalladas, consulte [`.githooks/README.md`](.githooks/README.md).
 
 ## Código de conducta de Adobe Open Source
 
@@ -15,13 +43,13 @@ Este proyecto ha adoptado el [Código de conducta de código abierto de Adobe](c
 
 ## Acerca de sus contribuciones al contenido de Adobe
 
-Consulte la [Guía del colaborador de Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=es).
+Consulte la [Guía del colaborador de Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 La forma en que contribuya depende de quién sea y del tipo de cambios con los que desee contribuir:
 
 ### Cambios menores
 
-Si va a contribuir con actualizaciones menores, visite el artículo y haga clic en el área de comentarios que aparece en la parte inferior del artículo, haga clic en **Opciones de comentarios detalladas** y, a continuación, haga clic en **Sugerir una edición** para ir al archivo de código fuente Markdown en GitHub. Utilice la interfaz de usuario de GitHub para realizar las actualizaciones. Para obtener más información, consulte la [guía para colaboradores de Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=es).
+Si va a contribuir con actualizaciones menores, visite el artículo y haga clic en el área de comentarios que aparece en la parte inferior del artículo, haga clic en **Opciones de comentarios detalladas** y, a continuación, haga clic en **Sugerir una edición** para ir al archivo de código fuente Markdown en GitHub. Utilice la interfaz de usuario de GitHub para realizar las actualizaciones. Para obtener más información, consulte la [guía para colaboradores de Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 Las correcciones o aclaraciones menores que envíe para la documentación y los ejemplos de código en este repositorio están sujetos a las condiciones de uso de Adobe.
 
@@ -37,7 +65,7 @@ Si es redactor técnico, administrador de programa o desarrollador del equipo de
 
 Los colaboradores de la comunidad pueden utilizar la interfaz de usuario de GitHub para la edición básica o bifurcar el repositorio para realizar contribuciones importantes.
 
-Consulte la [Guía para colaboradores de Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=es) para obtener más información.
+Consulte la [Guía para colaboradores de Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) para obtener más información.
 
 ## Utilizar Markdown para dar formato al tema
 
