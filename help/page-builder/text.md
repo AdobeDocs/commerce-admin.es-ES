@@ -114,7 +114,7 @@ Para crear un vínculo para un número de teléfono o correo electrónico, consu
 
 1. Actualice el contenido según sea necesario.
 
-1. Actualice la configuración de _[!UICONTROL Advanced]_según sea necesario.
+1. Actualice la configuración de _[!UICONTROL Advanced]_&#x200B;según sea necesario.
 
    - Para controlar la colocación del texto dentro del contenedor principal, elija un **[!UICONTROL Alignment]**:
 

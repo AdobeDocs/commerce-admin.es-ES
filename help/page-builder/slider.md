@@ -256,7 +256,7 @@ Un tipo de fondo puede ser una imagen o un vídeo. [!DNL Page Builder] toma el v
 
 ### Configuración del tipo de imagen
 
-Si establece _[!UICONTROL Background Type]_en `Image`, utilice la siguiente configuración para definir la visualización de la imagen de fondo.
+Si establece _[!UICONTROL Background Type]_&#x200B;en `Image`, utilice la siguiente configuración para definir la visualización de la imagen de fondo.
 
 ![Titular con imagen de fondo](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
@@ -338,9 +338,9 @@ Puede modificar el contenido de la diapositiva directamente en el escenario o al
 
 1. Haga clic en el punto de navegación en la parte inferior del control deslizante para mostrar el cuadro de herramientas de la diapositiva individual y elija el icono _Configuración_ ( ![icono Configuración](./assets/pb-icon-settings.png){width="20"} ).
 
-1. En la sección _[!UICONTROL Content]_, escriba el(la)**[!UICONTROL Message Text]**que desea que aparezca con la diapositiva.
+1. En la sección _[!UICONTROL Content]_, escriba el(la)**[!UICONTROL Message Text]**&#x200B;que desea que aparezca con la diapositiva.
 
-1. Desplácese hacia abajo hasta la sección _[!UICONTROL Content]_y utilice el editor **[!UICONTROL Message Text]**para escribir y dar formato al texto del titular.
+1. Desplácese hacia abajo hasta la sección _[!UICONTROL Content]_&#x200B;y utilice el editor **[!UICONTROL Message Text]**&#x200B;para escribir y dar formato al texto del titular.
 
    También puede insertar elementos, como vínculos de texto, imágenes y widgets.
 

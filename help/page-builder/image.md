@@ -58,7 +58,7 @@ El cuadro de herramientas de imagen aparece cuando pasa el ratón por encima del
    >
    >El tamaño máximo de archivo es 4 MB. Los tipos de archivo admitidos son JPG, GIF y PNG.
 
-   - _**Cargar una nueva imagen**_: use este método para cargar un nuevo archivo de imagen desde el sistema.
+   - _&#x200B;**Cargar una nueva imagen**&#x200B;_: use este método para cargar un nuevo archivo de imagen desde el sistema.
 
       - Haga clic en **[!UICONTROL Upload Image]**.
 
@@ -66,7 +66,7 @@ El cuadro de herramientas de imagen aparece cuando pasa el ratón por encima del
 
      Como alternativa, también puede arrastrar un archivo de imagen desde el sistema y soltarlo en el icono _Cámara_ ( ![Icono de cámara](./assets/pb-icon-camera.png){width="20"} ).
 
-   - _**Seleccionar un recurso existente**_: utilice este método para seleccionar un recurso de imagen existente del almacenamiento o galería de medios.
+   - _&#x200B;**Seleccionar un recurso existente**&#x200B;_: utilice este método para seleccionar un recurso de imagen existente del almacenamiento o galería de medios.
 
       - Haga clic en **[!UICONTROL Select from Gallery]**.
 
@@ -76,7 +76,7 @@ El cuadro de herramientas de imagen aparece cuando pasa el ratón por encima del
 
         ![Agregando una imagen seleccionada](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _**Busque y seleccione una imagen de Adobe Stock**_: Utilice este método para encontrar una imagen de Adobe Stock.
+   - _&#x200B;**Busque y seleccione una imagen de Adobe Stock**&#x200B;_: Utilice este método para encontrar una imagen de Adobe Stock.
 
      >[!NOTE]
      >
@@ -107,13 +107,13 @@ El nombre, las dimensiones y el tamaño del archivo aparecen debajo de la imagen
 
 1. Para cambiar el(la) **[!UICONTROL Image]** actual(a), realice una de las siguientes acciones:
 
-   - _**Cargar una nueva imagen**_: use este método para cargar un nuevo archivo de imagen desde el sistema.
+   - _&#x200B;**Cargar una nueva imagen**&#x200B;_: use este método para cargar un nuevo archivo de imagen desde el sistema.
 
       - Haga clic en **[!UICONTROL Upload Image]**.
 
       - Busque y elija la imagen para agregarla a la galería y al contenedor de destino.
 
-   - _**Seleccionar un recurso existente**_: utilice este método para seleccionar un recurso de imagen existente del almacenamiento o galería de medios.
+   - _&#x200B;**Seleccionar un recurso existente**&#x200B;_: utilice este método para seleccionar un recurso de imagen existente del almacenamiento o galería de medios.
 
       - Haga clic en **[!UICONTROL Select from Gallery]**.
 

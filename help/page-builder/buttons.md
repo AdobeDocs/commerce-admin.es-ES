@@ -243,7 +243,7 @@ En las secciones siguientes se describe una serie de pasos para comenzar con un 
 
 ## Cambiar configuración avanzada
 
-Puede modificar la configuración de _[!UICONTROL Advanced]_para botones individuales y para el contenedor de botones.
+Puede modificar la configuración de _[!UICONTROL Advanced]_&#x200B;para botones individuales y para el contenedor de botones.
 
 1. Para controlar la posición dentro del contenedor principal, elija **[!UICONTROL Alignment]**:
 

@@ -38,7 +38,7 @@ El cuadro de herramientas de fila aparece cuando pasa el ratón por encima del c
 
 ## Añadir una fila
 
-1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un nuevo(a)**[!UICONTROL Row]**al escenario, justo debajo de la primera fila.
+1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un nuevo(a)**[!UICONTROL Row]**&#x200B;al escenario, justo debajo de la primera fila.
 
 1. Para dar formato a la fila, pasa el ratón sobre el contenedor de filas para mostrar el cuadro de herramientas y elige el icono _Configuración_ ( ![icono Configuración](./assets/pb-icon-settings.png){width="20"} ).
 
@@ -114,7 +114,7 @@ Un tipo de fondo puede ser una imagen o un vídeo. [!DNL Page Builder] toma el v
 
 ### Configuración del tipo de imagen
 
-Si establece _[!UICONTROL Background Type]_en `Image`, utilice la siguiente configuración para definir la visualización de la imagen de fondo.
+Si establece _[!UICONTROL Background Type]_&#x200B;en `Image`, utilice la siguiente configuración para definir la visualización de la imagen de fondo.
 
 ![Imagen de fondo](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 

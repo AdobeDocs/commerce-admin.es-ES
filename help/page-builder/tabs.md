@@ -56,7 +56,7 @@ Cuando trabaja con el tipo de contenido _Tabs_, agrega y edita fichas individual
 
 ## Añadir una pestaña individual
 
-1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre el marcador de posición **[!UICONTROL Tabs]**directamente al escenario o a una fila o columna del escenario.
+1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre el marcador de posición **[!UICONTROL Tabs]**&#x200B;directamente al escenario o a una fila o columna del escenario.
 
    ![Arrastrando fichas a una fila](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 

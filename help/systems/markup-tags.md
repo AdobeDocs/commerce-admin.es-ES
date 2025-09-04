@@ -126,6 +126,6 @@ Pegue la etiqueta de anclaje completada en el código de cualquier página de CM
 
 ### Vínculo completo con marcado
 
-\&lt;a href=&quot;\{\{store url=&#39;vestir/zapatos&#39;}&quot;>Venta de zapatos\&lt;/a>
+\&lt;a href=&quot;\&lbrace;\{store url=&#39;vestir/zapatos&#39;}&quot;>Venta de zapatos\&lt;/a>
 
 <!-- Last updated from includes: 2022-08-30 15:36:09 -->
