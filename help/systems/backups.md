@@ -3,8 +3,8 @@ title: Copias de seguridad del sistema
 description: Obtenga información sobre cómo crear y programar copias de seguridad del sistema, incluidos el sistema de archivos, la base de datos y los archivos multimedia.
 exl-id: 3a9655c1-c124-42be-a487-b31404dada90
 feature: System, Configuration
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -66,3 +66,5 @@ Adobe Commerce y Magento Open Source permiten realizar copias de seguridad de di
 1. Cuando se le solicite, confirme la acción.
 
 
+
+<!-- Last updated from includes: 2023-02-22 09:59:54 -->

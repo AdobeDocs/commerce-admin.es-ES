@@ -3,7 +3,7 @@ title: Algoritmos y reservas de Source
 description: Obtenga información sobre los sistemas de Algoritmo de selección y Reservas de Source que se ejecutan en segundo plano para mantener actualizadas las cantidades vendibles.
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '2196'
 ht-degree: 0%
@@ -82,7 +82,7 @@ En lugar de deducir o añadir inmediatamente las cantidades de inventario de pro
 
 >[!NOTE]
 >
->[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} La capacidad de reserva requiere que el consumidor de cola de mensajes `inventory.reservations.updateSalabilityStatus` se ejecute continuamente. Para comprobar si se está ejecutando, utilice el comando `bin/magento queue:consumers:list`. Si el consumidor de cola de mensajes no aparece en la lista, inícielo: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
+>[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} La capacidad de reserva requiere que el consumidor de cola de mensajes `inventory.reservations.updateSalabilityStatus` se ejecute continuamente. Para comprobar si se está ejecutando, utilice el comando `bin/magento queue:consumers:list`. Si el consumidor de cola de mensajes no aparece en la lista, inícielo: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
 
 ### Reservas de pedidos
 
@@ -188,7 +188,7 @@ Los tres valores de `quantity` suman 0 (-25 + 5 + 20). El sistema no modifica ni
 
 El trabajo cron `inventory_cleanup_reservations` ejecuta consultas SQL para borrar la tabla de la base de datos de reservas. De forma predeterminada, se ejecuta a diario a medianoche, pero puede configurar las horas y la frecuencia. El trabajo cron ejecuta un script que consulta la base de datos para encontrar secuencias de reserva completas en las que la suma de los valores de cantidad es 0. Cuando se hayan compensado todas las reservas de un producto determinado originado el mismo día (u otra hora configurada), el trabajo cron elimina todas las reservas a la vez.
 
-El trabajo cron `inventory_reservations_cleanup` no es el mismo que el consumidor de cola de mensajes `inventory.reservations.cleanup`. El consumidor elimina las reservas de forma asíncrona por SKU de producto después de eliminar un producto, mientras que el trabajo cron borra toda la tabla de reservas. El consumidor es necesario cuando se habilita la opción de existencias [**Sincronizar con el catálogo**](../configuration-reference/catalog/inventory.md) en la configuración de la tienda. Consulte [Administrar colas de mensajes](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=es) en la _Guía de configuración_.
+El trabajo cron `inventory_reservations_cleanup` no es el mismo que el consumidor de cola de mensajes `inventory.reservations.cleanup`. El consumidor elimina las reservas de forma asíncrona por SKU de producto después de eliminar un producto, mientras que el trabajo cron borra toda la tabla de reservas. El consumidor es necesario cuando se habilita la opción de existencias [**Sincronizar con el catálogo**](../configuration-reference/catalog/inventory.md) en la configuración de la tienda. Consulte [Administrar colas de mensajes](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) en la _Guía de configuración_.
 
 A menudo, todas las reservas iniciales producidas en un solo día no pueden compensarse ese mismo día. Esta situación puede ocurrir cuando un cliente realiza un pedido justo antes de que comience el trabajo cron o realiza la compra con un método de pago sin conexión, como una transferencia bancaria. Las secuencias de reservas compensadas permanecen en la base de datos hasta que todas se compensan. Esta práctica no interfiere con los cálculos de reserva, ya que el total de cada reserva es 0.
 
@@ -223,3 +223,5 @@ Si elimina todas las fuentes de un producto para un stock con pedidos pendientes
 [1]: https://cloud.google.com/maps-platform/
 [2]: https://developers.google.com/maps/documentation/geocoding/start
 [3]: https://developers.google.com/maps/documentation/distance-matrix/start
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

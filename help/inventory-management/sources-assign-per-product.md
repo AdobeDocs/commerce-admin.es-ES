@@ -3,7 +3,7 @@ title: Asignar orígenes de inventario por producto
 description: Obtenga información sobre cómo asignar un origen de inventario a un producto.
 exl-id: 7e47be25-633e-4f5d-bb61-0d9e79b6dbad
 feature: Inventory, Products
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -46,3 +46,5 @@ Antes de modificar cantidades y configuraciones, debe asignar [orígenes](source
    - En el menú _[!UICONTROL Save]_(![flecha de menú](../assets/icon-menu-down-arrow-red.png)), elija **[!UICONTROL Save & Close]**.
 
 Después de asignar orígenes, actualice la [cantidad de inventario](quantities-assign-per-product.md) para cada origen de producto.
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

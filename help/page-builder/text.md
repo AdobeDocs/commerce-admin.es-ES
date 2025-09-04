@@ -3,7 +3,7 @@ title: Elementos - Texto
 description: Obtenga información acerca del tipo de contenido Texto, utilizado para agregar un contenedor de texto en el escenario  [!DNL Page Builder] .
 exl-id: 3f14af35-9c04-4f4b-b3dd-d3406d56a9c0
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Elementos - Texto
 
-Utilice el tipo de contenido _Text_ para agregar un contenedor de texto con un editor WYSIWYG (&quot;Lo que ves es lo que obtienes&quot;) en [[!DNL Page Builder] stage](workspace.md#stage). Además, puede agregar vínculos, imágenes, [variables](../systems/variables-predefined.md) y widgets al texto desde la barra de herramientas del editor.
+Use el tipo de contenido _Texto_ para agregar un contenedor de texto con un editor de WYSIWYG (&quot;What You See Is What You Get&quot;) en [[!DNL Page Builder] fase](workspace.md#stage). Además, puede agregar vínculos, imágenes, [variables](../systems/variables-predefined.md) y widgets al texto desde la barra de herramientas del editor.
 
 ![Texto con formato en un titular](./assets/pb-storefont-banner-with-button.png){width="700"}
 
@@ -114,7 +114,7 @@ Para crear un vínculo para un número de teléfono o correo electrónico, consu
 
 1. Actualice el contenido según sea necesario.
 
-1. Actualice la configuración de _[!UICONTROL Advanced]_&#x200B;según sea necesario.
+1. Actualice la configuración de _[!UICONTROL Advanced]_según sea necesario.
 
    - Para controlar la colocación del texto dentro del contenedor principal, elija un **[!UICONTROL Alignment]**:
 
@@ -170,3 +170,5 @@ Para crear un vínculo para un número de teléfono o correo electrónico, consu
      {style="table-layout:auto"}
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save]** para aplicar la configuración y volver al área de trabajo [!DNL Page Builder].
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

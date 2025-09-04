@@ -3,7 +3,7 @@ title: 'Añadir contenido: bloque dinámico'
 description: Obtenga información acerca del tipo de contenido Bloque dinámico, utilizado para agregar un bloque dinámico reutilizable al escenario  [!DNL Page Builder] .
 exl-id: 04c90f47-9e32-4d34-ac0d-a2f2cec95ffc
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 0%
@@ -164,3 +164,5 @@ Utilice el tipo de contenido Bloque dinámico para agregar un [bloque dinámico]
 1. Pase el ratón sobre el contenedor de bloques dinámicos para mostrar la caja de herramientas y elija el icono _Quitar_ ( ![Quitar icono](./assets/pb-icon-remove.png){width="20"} ).
 
 1. Cuando se le pida que confirme, haga clic en **[!UICONTROL OK]**.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

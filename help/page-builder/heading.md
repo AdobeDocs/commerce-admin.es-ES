@@ -3,7 +3,7 @@ title: 'Elementos: encabezado'
 description: Obtenga información acerca del tipo de contenido Encabezado que se usa para agregar un contenedor de texto con un nivel de encabezado de H1 a H6 al escenario  [!DNL Page Builder] .
 exl-id: dc51e7f6-a235-49dc-a978-1419a63fa33e
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Los niveles de encabezado establecen una jerarquía que organiza el contenido y ayuda a los motores de búsqueda a indexar cada página. Use el tipo de contenido _Encabezado_ en la [[!DNL Page Builder] fase](workspace.md#stage) para agregar un contenedor de texto con un nivel de encabezado de H1 a H6 a la fase. El formato de los encabezados depende de la hoja de estilos asociada al tema actual.
 
-El campo [Encabezado de contenido](workspace.md) de la sección _[!UICONTROL Content]_&#x200B;se puede usar para agregar un encabezado H1 a la parte superior de la página. Sin embargo, el campo es un heredado de versiones anteriores de [!DNL Commerce] y se proporciona para admitir contenido antiguo. Este campo no aprovecha las características avanzadas de [!DNL Page Builder]. Se recomienda dejar en blanco el campo Encabezado de contenido y utilizar el tipo de contenido Encabezado [!DNL Page Builder] para agregar encabezados de cualquier nivel a la página.
+El campo [Encabezado de contenido](workspace.md) de la sección _[!UICONTROL Content]_se puede usar para agregar un encabezado H1 a la parte superior de la página. Sin embargo, el campo es un heredado de versiones anteriores de [!DNL Commerce] y se proporciona para admitir contenido antiguo. Este campo no aprovecha las características avanzadas de [!DNL Page Builder]. Se recomienda dejar en blanco el campo Encabezado de contenido y utilizar el tipo de contenido Encabezado [!DNL Page Builder] para agregar encabezados de cualquier nivel a la página.
 
 El siguiente ejemplo muestra cómo aparecen el encabezado de contenido y el tipo de contenido de encabezado cuando se les aplica formato mediante la temática de Luma.
 
@@ -74,7 +74,7 @@ Al igual que con todos los contenedores de contenido, la caja de herramientas ap
 
    También puede actualizar este contenido en el editor de encabezados.
 
-1. Actualice la configuración de _[!UICONTROL Advanced]_&#x200B;según sea necesario.
+1. Actualice la configuración de _[!UICONTROL Advanced]_según sea necesario.
 
    - Para controlar el posicionamiento del encabezado dentro del contenedor principal, elija un **[!UICONTROL Alignment]**:
 
@@ -154,3 +154,5 @@ Para un encabezado con formato y con una configuración específica, es más efi
 1. Si desea cambiar el nivel de encabezado, haga clic en el texto del encabezado y elija el nuevo nivel en la barra de herramientas del editor.
 
    ![Elegir un nuevo nivel de encabezado](./assets/pb-elements-heading-change-heading-level.png){width="500" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

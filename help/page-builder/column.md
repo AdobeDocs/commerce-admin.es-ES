@@ -3,7 +3,7 @@ title: 'Diseño: columna'
 description: Obtenga información acerca del tipo de contenido Columna, utilizado para dividir una página en varias columnas en el escenario  [!DNL Page Builder] .
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Utilice el tipo de contenido _Column_ para dividir una página en varias columna
 
 ## Actualizaciones en la versión 2.4.5
 
-Las funcionalidades de Page Builder se actualizaron en la versión 2.4.5 para que los usuarios ahora usen _[!DNL Columns]_&#x200B;como contenedor principal para columnas individuales. Este nuevo contenedor también admite propiedades para el fondo y elimina la necesidad de ajustar las columnas en una fila. Reduce el marcado innecesario y proporciona un control más preciso sobre la visualización y la experiencia de la tienda.
+Las funcionalidades de Page Builder se actualizaron en la versión 2.4.5 para que los usuarios ahora usen _[!DNL Columns]_como contenedor principal para columnas individuales. Este nuevo contenedor también admite propiedades para el fondo y elimina la necesidad de ajustar las columnas en una fila. Reduce el marcado innecesario y proporciona un control más preciso sobre la visualización y la experiencia de la tienda.
 
 Puede cambiar el diseño del contenedor [!DNL Columns] arrastrando una columna por encima o por debajo de otras columnas del grupo y apilarlas. Esto abre una nueva variedad de posibles combinaciones de diseños que se pueden lograr sin necesidad de que los desarrolladores los personalicen.
 
@@ -54,7 +54,7 @@ En el siguiente ejemplo de dos columnas, los números entre paréntesis (6/12) e
 
 ## Añadir una columna
 
-1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un(a)**[!UICONTROL Column]**&#x200B;al escenario.
+1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un(a)**[!UICONTROL Column]**al escenario.
 
    ![Arrastrando una columna al escenario](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
@@ -100,7 +100,7 @@ En el siguiente ejemplo de dos columnas, los números entre paréntesis (6/12) e
 
    - Pase el ratón sobre la columna para ver el cuadro de herramientas y elija el icono _Configuración_ ( ![icono Configuración](./assets/pb-icon-settings.png){width="20"} ).
 
-   - Desplácese hacia abajo hasta la sección _[!UICONTROL Advanced]_&#x200B;y establezca los cuatro valores de **[!UICONTROL Padding]**&#x200B;en `0`.
+   - Desplácese hacia abajo hasta la sección _[!UICONTROL Advanced]_y establezca los cuatro valores de **[!UICONTROL Padding]**en `0`.
 
      ![Con relleno cero](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -170,7 +170,7 @@ En el siguiente ejemplo de dos columnas, los números entre paréntesis (6/12) e
 
    - **[!UICONTROL Background Repeat]**: si desea repetir la imagen de fondo para rellenar el espacio, cambie esta configuración `Yes`.
 
-1. Actualice la configuración de _[!UICONTROL Advanced]_&#x200B;según sea necesario.
+1. Actualice la configuración de _[!UICONTROL Advanced]_según sea necesario.
 
    - Para controlar la posición horizontal de los contenedores de contenido que se agregan a la columna, elija un **[!UICONTROL Alignment]**:
 
@@ -226,3 +226,5 @@ En el siguiente ejemplo de dos columnas, los números entre paréntesis (6/12) e
      {style="table-layout:auto"}
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save]** para aplicar la configuración y volver al área de trabajo [!DNL Page Builder].
+
+<!-- Last updated from includes: 2023-01-19 14:32:13 -->

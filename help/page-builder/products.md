@@ -3,7 +3,7 @@ title: 'Añadir contenido: productos'
 description: Obtenga información acerca del tipo de contenido Productos que se usa para agregar una lista de productos al escenario  [!DNL Page Builder] .
 exl-id: 8ef38669-a6f6-493b-b963-b0fc4e3bbff4
 feature: Page Builder, Page Content, Products
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1913'
 ht-degree: 0%
@@ -252,3 +252,5 @@ Si configuró un carrusel de productos, debería tener un aspecto similar al sig
 ![Carrusel de productos en el escenario](./assets/pb-products-admin-carousel.png){width="600"}
 
 Ahora puedes usar un [widget](../content-design/widgets.md) para colocar este bloque donde quieras que aparezca en la tienda. O bien, puede usar [Agregar contenido - Bloquear](block.md) para agregar el bloque a una página, ficha o bloque existente.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

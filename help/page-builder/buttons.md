@@ -3,7 +3,7 @@ title: 'Elementos: botones'
 description: Obtenga información acerca del tipo de contenido Botones, que se usa para agregar un botón individual o un conjunto de botones en el escenario  [!DNL Page Builder] .
 exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 0%
@@ -105,7 +105,7 @@ Cuando trabaja con el tipo de contenido Botones, agrega y edita botones individu
 
    - **[!UICONTROL Page]**: escriba el nombre de una página de CMS (parcial o completa) o haga clic en el campo en blanco para mostrar la lista completa. A continuación, elija el nombre de la página en la lista de resultados de la búsqueda.
 
-     ![Elegir página de CMS para vínculo de botón](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
+     ![Elija la página de CMS para el vínculo de botón](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
 
 1. Complete [la configuración avanzada][advanced-settings] según sea necesario.
 
@@ -210,7 +210,7 @@ En las secciones siguientes se describe una serie de pasos para comenzar con un 
      | `URL` | Utiliza una dirección URL relativa o completa para identificar la página de destino. |
      | `Product` | Identifica la página de destino según el nombre del producto o el SKU. El nombre del producto se puede buscar en función de un nombre parcial o completo. A continuación, se elige el producto de la lista de resultados de búsqueda. |
      | `Category` | Identifica la página de destino como una categoría o subcategoría específica en el árbol de categorías. |
-     | `Page` | Identifica la página de destino como una página CMS específica. |
+     | `Page` | Identifica la página de destino como una página de CMS específica. |
 
      {style="table-layout:auto"}
 
@@ -243,7 +243,7 @@ En las secciones siguientes se describe una serie de pasos para comenzar con un 
 
 ## Cambiar configuración avanzada
 
-Puede modificar la configuración de _[!UICONTROL Advanced]_&#x200B;para botones individuales y para el contenedor de botones.
+Puede modificar la configuración de _[!UICONTROL Advanced]_para botones individuales y para el contenedor de botones.
 
 1. Para controlar la posición dentro del contenedor principal, elija **[!UICONTROL Alignment]**:
 
@@ -300,3 +300,5 @@ Puede modificar la configuración de _[!UICONTROL Advanced]_&#x200B;para botones
 
 [advanced-settings]: #change-advanced-settings
 [button-container]: #change-settings-for-a-button-container
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

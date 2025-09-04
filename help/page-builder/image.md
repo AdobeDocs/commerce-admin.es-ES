@@ -1,9 +1,9 @@
 ---
 title: 'Medios: imagen'
-description: Obtenga información acerca del tipo de contenido Imagen, que se usa para agregar una imagen de GIF, JPG o PNG a la fase  [!DNL Page Builder] .
+description: Obtenga información acerca del tipo de contenido Imagen, que se usa para agregar una imagen JPG, GIF o PNG al escenario  [!DNL Page Builder] .
 exl-id: 1b8d906e-7570-4c1f-87a0-992400faf55c
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Medios: imagen
 
-Utilice el tipo de contenido _Image_ para agregar una imagen de GIF, JPG o PNG a [[!DNL Page Builder] stage](workspace.md#stage). Además de la imagen de escritorio predeterminada, puede especificar una imagen secundaria para dispositivos móviles. También puede añadir un pie de ilustración debajo de la imagen y vincular la imagen a cualquier dirección URL, producto, categoría o página.
+Utilice el tipo de contenido _Image_ para agregar una imagen JPG, GIF o PNG al [[!DNL Page Builder] escenario](workspace.md#stage). Además de la imagen de escritorio predeterminada, puede especificar una imagen secundaria para dispositivos móviles. También puede añadir un pie de ilustración debajo de la imagen y vincular la imagen a cualquier dirección URL, producto, categoría o página.
 
 >[!TIP]
 >
@@ -58,7 +58,7 @@ El cuadro de herramientas de imagen aparece cuando pasa el ratón por encima del
    >
    >El tamaño máximo de archivo es 4 MB. Los tipos de archivo admitidos son JPG, GIF y PNG.
 
-   - _&#x200B;**Cargar una nueva imagen**&#x200B;_: use este método para cargar un nuevo archivo de imagen desde el sistema.
+   - _**Cargar una nueva imagen**_: use este método para cargar un nuevo archivo de imagen desde el sistema.
 
       - Haga clic en **[!UICONTROL Upload Image]**.
 
@@ -66,7 +66,7 @@ El cuadro de herramientas de imagen aparece cuando pasa el ratón por encima del
 
      Como alternativa, también puede arrastrar un archivo de imagen desde el sistema y soltarlo en el icono _Cámara_ ( ![Icono de cámara](./assets/pb-icon-camera.png){width="20"} ).
 
-   - _&#x200B;**Seleccionar un recurso existente**&#x200B;_: utilice este método para seleccionar un recurso de imagen existente del almacenamiento o galería de medios.
+   - _**Seleccionar un recurso existente**_: utilice este método para seleccionar un recurso de imagen existente del almacenamiento o galería de medios.
 
       - Haga clic en **[!UICONTROL Select from Gallery]**.
 
@@ -76,7 +76,7 @@ El cuadro de herramientas de imagen aparece cuando pasa el ratón por encima del
 
         ![Agregando una imagen seleccionada](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _&#x200B;**Busque y seleccione una imagen de Adobe Stock**&#x200B;_: Utilice este método para encontrar una imagen de Adobe Stock.
+   - _**Busque y seleccione una imagen de Adobe Stock**_: Utilice este método para encontrar una imagen de Adobe Stock.
 
      >[!NOTE]
      >
@@ -107,13 +107,13 @@ El nombre, las dimensiones y el tamaño del archivo aparecen debajo de la imagen
 
 1. Para cambiar el(la) **[!UICONTROL Image]** actual(a), realice una de las siguientes acciones:
 
-   - _&#x200B;**Cargar una nueva imagen**&#x200B;_: use este método para cargar un nuevo archivo de imagen desde el sistema.
+   - _**Cargar una nueva imagen**_: use este método para cargar un nuevo archivo de imagen desde el sistema.
 
       - Haga clic en **[!UICONTROL Upload Image]**.
 
       - Busque y elija la imagen para agregarla a la galería y al contenedor de destino.
 
-   - _&#x200B;**Seleccionar un recurso existente**&#x200B;_: utilice este método para seleccionar un recurso de imagen existente del almacenamiento o galería de medios.
+   - _**Seleccionar un recurso existente**_: utilice este método para seleccionar un recurso de imagen existente del almacenamiento o galería de medios.
 
       - Haga clic en **[!UICONTROL Select from Gallery]**.
 
@@ -258,3 +258,5 @@ El texto de esta configuración es visible para los motores de búsqueda y mejor
   | [!UICONTROL Padding] | Cantidad de espacio en blanco que se aplica al borde interior de todos los lados del contenedor. |
 
   {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

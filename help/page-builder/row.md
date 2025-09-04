@@ -3,7 +3,7 @@ title: Diseño - Fila
 description: Obtenga información acerca del tipo de contenido Fila, utilizado para agregar una fila en el escenario  [!DNL Page Builder] .
 exl-id: 0aa8bf6f-7ae3-4718-9f76-430ed63ba05c
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 0%
@@ -38,7 +38,7 @@ El cuadro de herramientas de fila aparece cuando pasa el ratón por encima del c
 
 ## Añadir una fila
 
-1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un nuevo(a)**[!UICONTROL Row]**&#x200B;al escenario, justo debajo de la primera fila.
+1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un nuevo(a)**[!UICONTROL Row]**al escenario, justo debajo de la primera fila.
 
 1. Para dar formato a la fila, pasa el ratón sobre el contenedor de filas para mostrar el cuadro de herramientas y elige el icono _Configuración_ ( ![icono Configuración](./assets/pb-icon-settings.png){width="20"} ).
 
@@ -114,7 +114,7 @@ Un tipo de fondo puede ser una imagen o un vídeo. [!DNL Page Builder] toma el v
 
 ### Configuración del tipo de imagen
 
-Si establece _[!UICONTROL Background Type]_&#x200B;en `Image`, utilice la siguiente configuración para definir la visualización de la imagen de fondo.
+Si establece _[!UICONTROL Background Type]_en `Image`, utilice la siguiente configuración para definir la visualización de la imagen de fondo.
 
 ![Imagen de fondo](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 
@@ -258,3 +258,5 @@ Utilice estas opciones para controlar la velocidad de una imagen de fondo o un v
   {style="table-layout:auto"}
 
   ![Márgenes y relleno](./assets/pb-layout-row-settings-margin-padding-default.png){width="600" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

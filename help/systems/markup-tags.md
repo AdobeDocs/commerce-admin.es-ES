@@ -3,7 +3,7 @@ title: Etiquetas de marcado
 description: Obtenga información sobre las etiquetas de marcado que contienen fragmentos de código para hacer referencia a un objeto de su tienda.
 exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Etiquetas de marcado
 
-Una etiqueta de marcado es una directiva que contiene un fragmento de código con una referencia relativa a un objeto del almacén, como una variable, una dirección URL, una imagen o un bloque. Las etiquetas de marcado se pueden usar en cualquier parte donde el editor esté disponible e incorporado al HTML de las plantillas [email](email-templates.md) y [newsletter](../merchandising-promotions/newsletter-template.md), así como en otros tipos de [contenido](../content-design/introduction.md#content).
+Una etiqueta de marcado es una directiva que contiene un fragmento de código con una referencia relativa a un objeto del almacén, como una variable, una dirección URL, una imagen o un bloque. Las etiquetas de marcado se pueden usar en cualquier parte donde el editor esté disponible e incorporado a las plantillas HTML de [correo electrónico](email-templates.md) y [boletín](../merchandising-promotions/newsletter-template.md), así como a otros tipos de [contenido](../content-design/introduction.md#content).
 
-Las etiquetas de marcado se encierran entre llaves dobles y se pueden generar mediante la herramienta Widget o escribir directamente en el contenido del HTML. Por ejemplo, en lugar de programar la ruta completa a una página, puede utilizar una etiqueta de marcado para representar la dirección URL de la tienda. Las etiquetas de marcado que aparecen en los siguientes ejemplos incluyen:
+Las etiquetas de marcado se encierran entre llaves dobles y se pueden generar mediante la herramienta Widget o escribir directamente en el contenido de HTML. Por ejemplo, en lugar de programar la ruta completa a una página, puede utilizar una etiqueta de marcado para representar la dirección URL de la tienda. Las etiquetas de marcado que aparecen en los siguientes ejemplos incluyen:
 
 {{$include /help/_includes/directives-caution.md}}
 
@@ -122,8 +122,10 @@ Envuelva la etiqueta de marcado completada dentro de una etiqueta de anclaje con
 
 \&lt;a href=&quot;\{\{la etiqueta de marcado se incluye aquí}}&quot;>Texto del vínculo\&lt;/a>
 
-Pegue la etiqueta de anclaje completada en el código de cualquier página, bloque, banner o plantilla de correo electrónico de CMS, donde desee que aparezca el vínculo.
+Pegue la etiqueta de anclaje completada en el código de cualquier página de CMS, bloque, banner o plantilla de correo electrónico donde desee que aparezca el vínculo.
 
 ### Vínculo completo con marcado
 
-\&lt;a href=&quot;\&lbrace;\{store url=&#39;vestir/zapatos&#39;}&quot;>Venta de zapatos\&lt;/a>
+\&lt;a href=&quot;\{\{store url=&#39;vestir/zapatos&#39;}&quot;>Venta de zapatos\&lt;/a>
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

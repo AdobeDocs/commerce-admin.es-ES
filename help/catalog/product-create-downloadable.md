@@ -3,7 +3,7 @@ title: Producto descargable
 description: Obtenga información sobre cómo crear un producto descargable que se pueda entregar como archivo digital.
 exl-id: c3dd4c5f-adc1-4a8f-a9da-7f0dedd1ee34
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 0%
@@ -147,7 +147,7 @@ El formulario se actualiza para reflejar el cambio.
 
 1. Para incluir el producto en la [lista de nuevos productos](../content-design/widget-new-products-list.md), seleccione la casilla de verificación **[!UICONTROL Set Product as New]**.
 
-1. Para asignar _[!UICONTROL Categories]_&#x200B;al producto, haga clic en el cuadro **[!UICONTROL Select…]**&#x200B;y realice una de las acciones siguientes:
+1. Para asignar _[!UICONTROL Categories]_al producto, haga clic en el cuadro **[!UICONTROL Select…]**y realice una de las acciones siguientes:
 
    **Elija una categoría existente**:
 
@@ -178,15 +178,15 @@ El formulario se actualiza para reflejar el cambio.
 
 ### Paso 5: Completar la información descargable
 
-Desplácese hacia abajo, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Downloadable Information]_&#x200B;y seleccione la casilla de verificación **[!UICONTROL Is this downloadable product?]**.
+Desplácese hacia abajo, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Downloadable Information]_y seleccione la casilla de verificación **[!UICONTROL Is this downloadable product?]**.
 
-Cuando está habilitada, la sección _[!UICONTROL Downloadable Information]_&#x200B;tiene dos partes. La primera parte describe cada vínculo de descarga y la segunda parte describe cada archivo de muestra. El valor predeterminado de muchas de estas opciones se puede establecer en la [configuración](#configure-the-download-options).
+Cuando está habilitada, la sección _[!UICONTROL Downloadable Information]_tiene dos partes. La primera parte describe cada vínculo de descarga y la segunda parte describe cada archivo de muestra. El valor predeterminado de muchas de estas opciones se puede establecer en la [configuración](#configure-the-download-options).
 
 ![Información descargable](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
 
 #### Completar los vínculos
 
-1. En la sección _[!UICONTROL Links]_, escriba el **[!UICONTROL Title]**&#x200B;que desee usar como encabezado para los vínculos de descarga.
+1. En la sección _[!UICONTROL Links]_, escriba el **[!UICONTROL Title]**que desee usar como encabezado para los vínculos de descarga.
 
 1. Si corresponde, active la casilla de verificación **[!UICONTROL Links can be purchased separately]**.
 
@@ -201,7 +201,7 @@ Cuando está habilitada, la sección _[!UICONTROL Downloadable Information]_&#x2
 
    >[!NOTE]
    >
-   >No puede utilizar vínculos a recursos externos como productos descargables. Los dominios de vínculo válidos están predefinidos mediante programación en el archivo `env.php` (consulte [env.php reference](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=es) en la _Guía de configuración_).
+   >No puede utilizar vínculos a recursos externos como productos descargables. Los dominios de vínculo válidos están predefinidos mediante programación en el archivo `env.php` (consulte [env.php reference](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html) en la _Guía de configuración_).
 
    - Establezca **[!UICONTROL Shareable]** en una de las siguientes opciones:
 
@@ -222,7 +222,7 @@ Cuando está habilitada, la sección _[!UICONTROL Downloadable Information]_&#x2
 
 #### Completar las muestras
 
-1. En la sección _[!UICONTROL Samples]_, escriba el **[!UICONTROL Title]**&#x200B;que desee usar como encabezado para las muestras.
+1. En la sección _[!UICONTROL Samples]_, escriba el **[!UICONTROL Title]**que desee usar como encabezado para las muestras.
 
 1. Para completar la información de cada muestra, haga clic en **[!UICONTROL Add Link]**.
 
@@ -254,7 +254,7 @@ Desplácese hacia abajo y complete la información de las siguientes secciones s
 - [Diseño](settings-advanced-design.md)
 - [Opciones de regalo](product-gift-options.md)
 
-### Paso 7: Publish del producto
+### Paso 7: Publicar el producto
 
 Si está listo para publicar el producto en el catálogo, establezca **[!UICONTROL Enable Product]** en `Yes` y realice una de las siguientes acciones:
 
@@ -274,7 +274,7 @@ En el menú _[!UICONTROL Save]_( ![flecha de menú](../assets/icon-menu-down-arr
 
 ## Experiencia en tienda
 
-En el panel de cuenta del cliente, la página _[!UICONTROL My Downloadable Products]_&#x200B;vincula a cada pedido de productos descargables. Las descargas están disponibles en la cuenta del cliente cuando se completa el pedido.
+En el panel de cuenta del cliente, la página _[!UICONTROL My Downloadable Products]_vincula a cada pedido de productos descargables. Las descargas están disponibles en la cuenta del cliente cuando se completa el pedido.
 
 ![Mis productos descargables](./assets/customer-account-my-downloadable-products.png){width="700" zoomable="yes"}
 
@@ -288,7 +288,7 @@ En la tabla siguiente se describen los valores de _Mis productos descargables_:
 | [!UICONTROL Status] | Estado de procesamiento del pedido. |
 | [!UICONTROL Remaining Downloads] | Número de descargas disponibles del producto descargado. |
 
-_&#x200B;**Para descargar un archivo de producto desde el panel de cuentas**&#x200B;_
+_**Para descargar un archivo de producto desde el panel de cuentas**_
 
 1. En su panel de cuentas, el cliente elige **[!UICONTROL My Downloadable Products]**.
 
@@ -297,3 +297,5 @@ _&#x200B;**Para descargar un archivo de producto desde el panel de cuentas**&#x2
 1. En la esquina inferior derecha de la ventana de descarga, hace clic en el icono _descargar_.
 
 1. Localiza el archivo en su ubicación de descargas y lo guarda en la ubicación deseada.
+
+<!-- Last updated from includes: 2023-05-19 17:14:58 -->

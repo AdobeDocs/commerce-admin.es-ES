@@ -4,7 +4,7 @@ description: Revise la configuración en la página [!UICONTROL Advanced] &gt; [
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 1%
@@ -153,11 +153,11 @@ Para obtener más información acerca de cómo cambiar esta configuración, cons
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | Global | Determina si la instancia de Commerce permite copias de seguridad. Opciones: `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | Global | (Se muestra cuando _[!UICONTROL Enable Backup]_&#x200B;está establecido en `Yes`.) Determina si se realiza automáticamente una copia de seguridad de la instancia de Commerce según una programación regular. Opciones: `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | Global | (Se muestra cuando _[!UICONTROL Enable Scheduled Backup]_&#x200B;está establecido en `Yes`.) Determina los elementos de la instancia de Commerce incluidos en la copia de seguridad. Opciones: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
-| [!UICONTROL Start Time] | Global | (Se muestra cuando [!UICONTROL Enable Scheduled Backup] está establecido en `Yes`.) Especifica la hora, el minuto y el segundo en que comienza la copia de seguridad programada. |
-| [!UICONTROL Frequency] | Global | (Se muestra cuando [!UICONTROL Enable Scheduled Backup] está establecido en `Yes`.) Determina con qué frecuencia se realiza la copia de seguridad programada. Opciones: `Daily` / `Weekly` / `Monthly` |
-| [!UICONTROL Maintenance Mode] | Global | (Se muestra cuando [!UICONTROL Enable Scheduled Backup] está establecido en `Yes`.) Determina si la tienda se pone en modo de mantenimiento durante la copia de seguridad programada. Opciones: `Yes` / `No` |
+| [!UICONTROL Enable Scheduled Backup] | Global | (Se muestra cuando _[!UICONTROL Enable Backup]_se establece en `Yes`.) Determina si se realiza automáticamente una copia de seguridad de la instancia de Commerce en una programación regular. Opciones: `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | Global | (Se muestra cuando _[!UICONTROL Enable Scheduled Backup]_se establece en `Yes`.) Determina los elementos de la instancia de Commerce que se incluyen en la copia de seguridad. Opciones: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Start Time] | Global | (Se muestra cuando [!UICONTROL Enable Scheduled Backup] se establece en `Yes`.) Especifica la hora, el minuto y el segundo en que comienza la copia de seguridad programada. |
+| [!UICONTROL Frequency] | Global | (Se muestra cuando [!UICONTROL Enable Scheduled Backup] se establece en `Yes`.) Determina la frecuencia con la que se realiza la copia de seguridad programada. Opciones: `Daily` / `Weekly` / `Monthly` |
+| [!UICONTROL Maintenance Mode] | Global | (Se muestra cuando [!UICONTROL Enable Scheduled Backup] se establece en `Yes`.) Determina si el almacén se pone en modo de mantenimiento durante la copia de seguridad programada. Opciones: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -188,7 +188,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | Global | Determina la aplicación que se utiliza para administrar la caché de página completa. Opciones: <br/>**`Built-in Application`**- No recomendado para el entorno de producción.<br/>**`Varnish Caching`**: recomendado para el entorno de producción. |
 | [!UICONTROL TTL for public content] | Global | Determina la duración de la caché de contenido público en segundos. Valor predeterminado: `120` |
-| [!UICONTROL Handles param size] | global | Especifica el número máximo de [controladores de diseño](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) que se procesarán en el extremo HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=es). Restringir el tamaño puede mejorar la seguridad y el rendimiento. Valor predeterminado: `100` |
+| [!UICONTROL Handles param size] | global | Especifica el número máximo de [controladores de diseño](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) que se procesarán en el extremo HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html). Restringir el tamaño puede mejorar la seguridad y el rendimiento. Valor predeterminado: `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | Global | Especifica las direcciones IP que pueden purgar la configuración de Barniz para generar un archivo de configuración. Separe las distintas entradas con comas. Valor predeterminado: `localhost` |
 | [!UICONTROL Backend host] | Global | Especifica el host backend que genera los archivos de configuración. Valor predeterminado: `localhost` |
@@ -218,7 +218,7 @@ Para obtener más información acerca de cómo cambiar esta configuración, cons
 
 >[!IMPORTANT]
 >
->El método de almacenamiento de medios de la base de datos ha quedado obsoleto desde Adobe Commerce y el Magento Open Source 2.4.3.
+>El método de almacenamiento de medios de la base de datos ha quedado obsoleto desde Adobe Commerce y Magento Open Source 2.4.3.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -268,11 +268,11 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 ![Configuración avanzada - Configuración de carga de imagen](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://experienceleague.adobe.com/es/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Quality] | Global | JPG Determina la calidad de la imagen que se ha cambiado de tamaño en la que se ha obtenido la. Una calidad menor reduce el tamaño del archivo. Utilice del 80 al 90% para reducir el tamaño del archivo con alta calidad. Predeterminado: `80` |
+| [!UICONTROL Quality] | Global | Determina la calidad JPG de la imagen cuyo tamaño se ha cambiado. Una calidad menor reduce el tamaño del archivo. Utilice del 80 al 90% para reducir el tamaño del archivo con alta calidad. Predeterminado: `80` |
 | [!UICONTROL Enable Frontend Resize] | Global | Active esta configuración para permitir que Commerce cambie el tamaño de las imágenes grandes y sobredimensionadas que puede cargar para la página _Detalles del producto_. Commerce cambia el tamaño de los archivos de imagen mediante JavaScript antes de cargar el archivo. Cuando se cambia el tamaño de la imagen, se conservan las proporciones exactas para cumplir y no superar el tamaño más grande para la anchura máxima o la altura máxima. Predeterminado: `Yes` |
 | [!UICONTROL Maximum Width] | Global | Determina la anchura máxima en píxeles de la imagen. Cuando se cambia el tamaño de la imagen, no se supera esta anchura. Predeterminado: `1920` |
 | [!UICONTROL Maximum Height] | Global | Determina la altura máxima en píxeles de la imagen. Cuando se cambia el tamaño de la imagen, no se supera esta altura. Predeterminado: `1200` |
@@ -315,3 +315,5 @@ Para obtener más información acerca de cómo establecer esta configuración, c
 | [!UICONTROL Test Connection] |  | Ejecuta una prueba para comprobar que la clave de API es válida para su uso con el servicio Adobe Stock. |
 
 {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-02-22 09:59:54 -->

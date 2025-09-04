@@ -3,7 +3,7 @@ title: 'Medios: mapa'
 description: Obtenga información acerca del tipo de contenido Mapa que se usa para agregar un mapa de  [!DNL Google Maps] Platform al escenario [!DNL Page Builder] stage.
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
@@ -197,7 +197,7 @@ Use el Asistente para estilo de plataforma [!DNL Google Maps] para aplicar una d
 
    {style="table-layout:auto"}
 
-1. Modifique la configuración de _[!UICONTROL Advanced]_&#x200B;según sea necesario:
+1. Modifique la configuración de _[!UICONTROL Advanced]_según sea necesario:
 
    - Para controlar la posición horizontal del contenido del mapa que se agregó al contenedor, elija un **[!UICONTROL Alignment]**:
 
@@ -290,3 +290,5 @@ El tamaño de la cuadrícula determina el tamaño del mapa relacionado con una [
 [4]: https://developers.google.com/maps/documentation/javascript/get-api-key
 [5]: https://www.google.com/maps
 [6]: https://mapstyle.withgoogle.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

@@ -3,7 +3,7 @@ title: Producto virtual
 description: Aprenda a crear un producto virtual que represente un elemento no tangible, como una suscripción, un servicio, una garantía o una suscripción.
 exl-id: 8788ba04-e911-429e-9e48-ce589f0c9fa1
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -116,9 +116,9 @@ Rellene la información de las secciones siguientes según sea necesario:
 
 >[!NOTE]
 >
->La opción _[!UICONTROL Is this downloadable product?]_&#x200B;está deshabilitada de manera predeterminada. Si habilita esta característica para un producto virtual, el producto [se puede descargar](product-create-downloadable.md#downloadable-product).
+>La opción _[!UICONTROL Is this downloadable product?]_está deshabilitada de manera predeterminada. Si habilita esta característica para un producto virtual, el producto [se puede descargar](product-create-downloadable.md#downloadable-product).
 
-## Paso 6: Publish del producto
+## Paso 6: Publicar el producto
 
 1. Si está listo para publicar el producto en el catálogo, establezca **[!UICONTROL Enable Product]** en `Yes`.
 
@@ -145,3 +145,5 @@ Rellene la información de las secciones siguientes según sea necesario:
 - Los productos virtuales son muy parecidos a los productos simples, pero sin peso.
 
 - Las opciones de envío no aparecen durante el cierre de compra a menos que haya un producto tangible en el carro de compras.
+
+<!-- Last updated from includes: 2023-05-19 17:14:58 -->
