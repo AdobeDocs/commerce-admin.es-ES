@@ -23,7 +23,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se han aclarado los métodos predeterminados para <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">crear códigos de cupones</a> y se ha proporcionado instrucciones para usar una extensión con el fin de importar una lista de códigos de cupones personalizados.</p>
+      <td><p>Se han aclarado los métodos predeterminados para <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">crear códigos de cupones</a> y se ha proporcionado instrucciones para usar una extensión con el fin de importar una lista de códigos de cupones personalizados.</p>
 </td>
       <td>
         Técnico
@@ -45,7 +45,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se agregó el parche de seguridad B2B de agosto de 2025 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">notas de la versión</a>.</p>
+      <td><p>Se agregó el parche de seguridad B2B de agosto de 2025 <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/b2b/release-notes">notas de la versión</a>.</p>
 </td>
       <td>
         Actualización importante
@@ -67,7 +67,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se ha aclarado el comportamiento esperado del <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">filtrado de precios</a> para productos configurables en la navegación por capas.</p>
+      <td><p>Se ha aclarado el comportamiento esperado del <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">filtrado de precios</a> para productos configurables en la navegación por capas.</p>
 </td>
       <td>
         Técnico
@@ -75,7 +75,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/3227227b6cf4f159b40fda8a5a165a7097f8a0bd">comprometer</a></td>
     </tr>
     <tr>
-      <td><p>Se ha aclarado cómo <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage">quitar todos los elementos</a> del carro de compras de un cliente en el modo de compra asistida.</p>
+      <td><p>Se ha aclarado cómo <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage">quitar todos los elementos</a> del carro de compras de un cliente en el modo de compra asistida.</p>
 </td>
       <td>
         Actualización importante
@@ -97,7 +97,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se han actualizado los requisitos del sistema para la <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#system-requirements">extensión HIPAA</a>.</p>
+      <td><p>Se han actualizado los requisitos del sistema para la <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#system-requirements">extensión HIPAA</a>.</p>
 </td>
       <td>
         Técnico
@@ -119,7 +119,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se ha aclarado el modo predeterminado de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management">indizador de cuadrícula del cliente</a>, que cambió en 2.4.8.</p>
+      <td><p>Se ha aclarado el modo predeterminado de <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/systems/tools/index-management">indizador de cuadrícula del cliente</a>, que cambió en 2.4.8.</p>
 </td>
       <td>
         Técnico
