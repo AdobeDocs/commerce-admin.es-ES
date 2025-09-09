@@ -3,9 +3,9 @@ title: Experiencias de tienda mejoradas
 description: Conozca las numerosas herramientas diseñadas para ayudarle a maximizar la participación, retención y lealtad de los clientes.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ Además de los elementos estándar que permiten a los clientes realizar compras 
 
 <!-- This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=es)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
 ## Captar nuevos clientes
 
-Adobe Commerce y Magento Open Source están repletos de características que facilitan la creación de sitios web _aptos para motores de búsqueda_ y aumentan las probabilidades de atraer a los clientes adecuados a tu sitio.
+Adobe Commerce y Magento Open Source tienen muchas características que facilitan la creación de sitios web _aptos para motores de búsqueda_ y aumentan las probabilidades de atraer a los clientes adecuados a su sitio.
 
 - **Optimización de motores de búsqueda** - [!DNL Commerce] ofrece potentes capacidades nativas para optimizar las prácticas de [Optimización de motores de búsqueda (SEO)](../merchandising-promotions/seo-overview.md) para el contenido y la exposición al sitio que están integradas con el administrador y vinculadas directamente a la experiencia del usuario.
 
@@ -32,7 +32,7 @@ Adobe Commerce y Magento Open Source están repletos de características que fac
 
 - **Mapa del sitio**: vincula a un [mapa del sitio](../merchandising-promotions/sitemap-xml.md) desde el pie de página de tu tienda para ofrecer a los clientes una visión general de la estructura del catálogo, con enlaces a todas las categorías y productos de la tienda. Fácil integración con Google Sitemap.
 
-- **Analytics**: además de supervisar su sitio desde el panel de administración, puede integrar herramientas de análisis de terceros como [Google Analytics](../merchandising-promotions/google-analytics.md) y [Informes de New Relic](new-relic-reporting.md) para obtener estadísticas detalladas sobre tráfico y ventas.
+- **Analytics**: además de supervisar el sitio desde el panel de administración, puede integrar herramientas de análisis de terceros como [Google Analytics](../merchandising-promotions/google-analytics.md) para obtener estadísticas detalladas sobre tráfico y ventas.
 
 ## Capte a sus clientes
 
@@ -64,7 +64,7 @@ Adobe Commerce y Magento Open Source ofrecen un completo conjunto de herramienta
 
 ## Aumentar el valor de pedido promedio
 
-Adobe Commerce y Magento Open Source ofrecen una serie de herramientas que le ayudan a adaptar la experiencia de compra y animan a sus clientes a incluir más artículos en sus carros de compras y a gastar más dinero.
+Adobe Commerce y Magento Open Source ofrecen una serie de herramientas para ayudarle a adaptar la experiencia de compra y animar a sus clientes a colocar más artículos en sus carros de compras y gastar más dinero.
 
 - **Promociones segmentadas**: use las reglas de precio del catálogo y del carro de compras para crear [promociones](../merchandising-promotions/introduction.md#promotions) que se activan cuando se cumple un conjunto de condiciones. En Adobe Commerce, segmente a los clientes de forma dinámica y genere segmentos basados en características específicas como la dirección del cliente, el historial de pedidos, el contenido del carro de compras y mucho más. A continuación, use [[!DNL Page Builder]](../page-builder/introduction.md) para crear un bloque dinámico que se active por una promoción y que solo aparezca en el segmento de clientes segmentado.
 
@@ -84,11 +84,11 @@ Adobe Commerce y Magento Open Source ofrecen una serie de herramientas que le ay
 
 ## Optimizar los procesos empresariales y la rentabilidad
 
-- **[!DNL Advanced Reporting]**: obtenga información valiosa de un vistazo con los informes dinámicos de productos, pedidos y clientes, con la tecnología de [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=es).
+- **[!DNL Advanced Reporting]**: obtenga información valiosa de un vistazo con los informes dinámicos de productos, pedidos y clientes, con tecnología de [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=en).
 
 - **Instantáneas del panel**: Saber qué es lo que le interesa en el sitio es crucial para maximizar el presupuesto de marketing. Use esta [información en su tablero](admin-dashboard.md) para determinar qué debería realizar ventas cruzadas y ampliadas a clientes fieles o qué productos poner a la venta.
 
-- **Impuestos** - Administre sus [impuestos](../stores-purchase/taxes.md) con herramientas nativas o agregue extensiones de terceros desde [[!DNL Commerce Marketplace]](https://marketplace.magento.com/){:target=&quot;_blank&quot;}.
+- **Impuestos** - Administre sus [impuestos](../stores-purchase/taxes.md) con herramientas nativas o agregue extensiones de terceros desde [[!DNL Commerce Marketplace]](https://marketplace.magento.com/){:target="_blank"}.
 
 - **Reglas de negocio automatizadas**: configure [reglas de negocio automatizadas](../merchandising-promotions/price-rules-cart.md) que definan las relaciones de productos y usen reglas de precios que déclencheur descuentos según diversas condiciones.
 

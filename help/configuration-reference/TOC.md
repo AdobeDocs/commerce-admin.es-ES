@@ -5,10 +5,10 @@ breadcrumb-title: Referencia de configuración
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 1%
+source-wordcount: '159'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,6 @@ ht-degree: 1%
    - [Contactos](./general/contacts.md)
    - [Informes](./general/reports.md)
    - [Gestión de contenido](./general/content-management.md)
-   - [Informes de New Relic](./general/new-relic-reporting.md)
    - [Informes avanzados](./general/advanced-reporting.md)
 - Catálogo {#catalog}
    - [Catálogo](./catalog/catalog.md)
@@ -80,9 +79,9 @@ ht-degree: 1%
    - [API web](./services/magento-web-api.md)
    - [Servicios de Commerce](./services/saas.md)
    - [OAuth](./services/oauth.md)
-- Avanzado {#advanced}
+- Avanzadas {#advanced}
    - [Administrador](./advanced/admin.md)
    - [Sistema](./advanced/system.md)
    - [Desarrollador](./advanced/developer.md)
-- [Volver a las guías del usuario administrador](https://experienceleague.adobe.com/es/docs/commerce-admin/user-guides/home)
+- [Volver a las guías del usuario administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
