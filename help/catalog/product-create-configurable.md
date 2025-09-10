@@ -3,7 +3,7 @@ title: Producto configurable
 description: Aprenda a crear un producto configurable que proporcione a los compradores variaciones para su selección.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: 0cb594144a03eda985be3a86e45c93452281e9d5
+source-git-commit: ee7928b50ddd07e757c71ce5bed84619f1437410
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 0%
@@ -33,7 +33,6 @@ Las propiedades de cada atributo que se utiliza para una variación de producto 
 | [!UICONTROL Scope] | `Global` |
 | [!UICONTROL Catalog Input Type for Store Owner] | El tipo de entrada de cualquier atributo utilizado para una variación de producto debe ser uno de los siguientes: `Dropdown`, `Visual Swatch` o `Text Swatch`. |
 | [!UICONTROL Values Required] | `Yes` |
-| [!UICONTROL Use for Promo Rule Conditions] | `Yes` |
 
 {style="table-layout:auto"}
 
@@ -139,7 +138,7 @@ La barra de progreso de la parte superior de la página muestra dónde se encuen
 
 ### Paso 1: Elija los atributos
 
-1. Continuando desde arriba, desplácese hacia abajo hasta la sección _[!UICONTROL Configurations]_&#x200B;y haga clic en **[!UICONTROL Create Configurations]**.
+1. Continuando desde arriba, desplácese hacia abajo hasta la sección _[!UICONTROL Configurations]_y haga clic en **[!UICONTROL Create Configurations]**.
 
    ![Configuraciones](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
