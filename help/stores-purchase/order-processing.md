@@ -169,7 +169,7 @@ Solo los pedidos de ventas que no se facturan, tienen un estado de `Processing` 
 
 ### Atributos de pedido personalizados
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
 
 Los atributos de pedido personalizados le permiten asociar información adicional específica para sus necesidades comerciales con el pedido.
 

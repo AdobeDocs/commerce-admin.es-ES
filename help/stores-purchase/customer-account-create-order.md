@@ -99,7 +99,7 @@ Puede transferir artículos al carro de compras desde la lista de artículos des
 
 >[!NOTE]
 >
->Consulte la [Guía de servicios de pago](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) para obtener más información acerca de los métodos de pago que admiten esta funcionalidad cuando se instala y configura la extensión de servicios de pago.
+>Consulte la [Guía de servicios de pago](https://experienceleague.adobe.com/es/docs/commerce/payment-services/guide-overview) para obtener más información acerca de los métodos de pago que admiten esta funcionalidad cuando se instala y configura la extensión de servicios de pago.
 
 ## Paso 3: Enviar el pedido
 
