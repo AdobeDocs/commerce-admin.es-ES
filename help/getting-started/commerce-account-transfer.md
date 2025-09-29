@@ -3,9 +3,9 @@ title: Transferir una cuenta de Commerce
 description: Aprenda a transferir su cuenta de Commerce a otro propietario o dirección de correo electrónico.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 674d918dee9fa0a001bf7910ab2531df8dc353af
+source-git-commit: b66fd3fad065f78726eb368b5ba06f0f61174356
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 A medida que cambien las responsabilidades comerciales, es posible que tenga que transferir su cuenta de Commerce a un nuevo propietario o a otra dirección de correo electrónico. Esta transferencia requiere un cambio en el correo electrónico del usuario principal asociado a la cuenta.
 
-La siguiente información describe el proceso para transferir una cuenta de Commerce (MAGEID). No incluye cambios para la propiedad de la cuenta de Cloud (proyecto en la nube o New Relic). Para obtener más información sobre el acceso a proyectos en la nube, consulte [Administrar el acceso de usuarios](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=es) en la _Guía de Commerce en infraestructura en la nube_.
+La siguiente información describe el proceso para transferir una cuenta de Commerce (MAGEID). No incluye cambios para la propiedad de la cuenta de Cloud (proyecto en la nube o New Relic). Para obtener más información sobre el acceso a proyectos en la nube, consulte [Administrar el acceso de usuarios](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) en la _Guía de Commerce en infraestructura en la nube_.
 
 >[!IMPORTANT]
 >
->Si el nuevo propietario de la cuenta ha comprado extensiones utilizando el acceso compartido, el acceso a esas extensiones se pierde en cuanto se inicia el proceso de transferencia de cuenta. Antes de solicitar la transferencia de cuenta, asegúrese de que el nuevo propietario recupera los identificadores de pedido para las compras de [su cuenta de Marketplace](https://commercemarketplace.adobe.com/sales/order/history/) y solicita un reembolso por esas extensiones al [equipo de Marketplace](https://experienceleague.adobe.com/es/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case). No es posible transferir compras de extensión a una cuenta diferente.
+>Si el nuevo propietario de la cuenta ha comprado extensiones utilizando el acceso compartido, el acceso a esas extensiones se pierde en cuanto se inicia el proceso de transferencia de cuenta. Antes de solicitar la transferencia de cuenta, asegúrese de que el nuevo propietario recupera los identificadores de pedido para las compras de [su cuenta de Marketplace](https://commercemarketplace.adobe.com/sales/order/history/) y solicita un reembolso por esas extensiones al [equipo de Marketplace](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case). No es posible transferir compras de extensión a una cuenta diferente.
 
 ## Identificación del tipo de transferencia
 
@@ -54,13 +54,15 @@ Este tipo de transferencia requiere que cree primero un Adobe ID asociado y, a c
 
 1. Haga clic en **[!UICONTROL Continue]**.
 
-   Este paso crea un Adobe ID y lo vincula a la cuenta actual de Commerce (MAGEID). Con este vínculo de cuenta, el campo _[!UICONTROL Email]_&#x200B;está bloqueado frente a cualquier cambio. La configuración de la dirección de correo electrónico asociada se administra desde la cuenta de Adobe ID.
+   Este paso crea un Adobe ID y lo vincula a la cuenta actual de Commerce (MAGEID). Con este vínculo de cuenta, el campo _[!UICONTROL Email]_está bloqueado frente a cualquier cambio. La configuración de la dirección de correo electrónico asociada se administra desde la cuenta de Adobe ID.
 
 1. Vaya a [account.adobe.com](https://account.adobe.com/).
 
 1. Haga clic en **[!UICONTROL Change Email]**.
 
 1. Introduzca la nueva dirección de correo electrónico del propietario.
+
+   Si la nueva dirección de correo electrónico ya está vinculada a otra cuenta del sistema, no se puede utilizar directamente para la transferencia. En su lugar, el proceso requiere el uso de una [dirección de correo electrónico temporal](#change-to-a-temporary-account) para facilitar el cambio.
 
 1. Haga clic en **[!UICONTROL Change]**.
 
@@ -70,7 +72,7 @@ Este tipo de transferencia requiere que cree primero un Adobe ID asociado y, a c
 
 1. Haga clic en **[!UICONTROL Verify]**.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447662/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
 
 ## Cambio de correo electrónico
 
@@ -83,6 +85,8 @@ Este tipo de transferencia requiere que cree primero un Adobe ID asociado y, a c
 1. En el nombre de su cuenta y avatar, haga clic en **[!UICONTROL Change Email]**.
 
 1. En el cuadro de diálogo, introduzca la dirección de correo electrónico del nuevo propietario.
+
+   Si la nueva dirección de correo electrónico ya está vinculada a otra cuenta del sistema, no se puede utilizar directamente para la transferencia. En su lugar, el proceso requiere el uso de una [dirección de correo electrónico temporal](#change-to-a-temporary-account) para facilitar el cambio.
 
 1. Haga clic en **[!UICONTROL Change]**.
 
