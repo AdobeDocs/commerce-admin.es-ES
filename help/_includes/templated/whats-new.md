@@ -23,7 +23,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se agregó información sobre cómo ver y editar <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">atributos de pedidos personalizados</a> en el Administrador de Adobe Commerce as a Cloud Service.</p>
+      <td><p>Se agregó información sobre cómo ver y editar <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">atributos de pedidos personalizados</a> en el Administrador de Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
         Actualización importante
@@ -45,7 +45,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se ha eliminado el atributo Use for Promo Rule Conditions de la tabla "Requisitos de atributo de variación de producto" en el tema <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/types/product-create-configurable#product-variation-attribute-requirements">Productos configurables</a>.</p>
+      <td><p>Se ha eliminado el atributo Use for Promo Rule Conditions de la tabla "Requisitos de atributo de variación de producto" en el tema <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/catalog/products/types/product-create-configurable#product-variation-attribute-requirements">Productos configurables</a>.</p>
 </td>
       <td>
         Técnico
@@ -53,7 +53,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/7035acbe2b974ab8bdb4904e769856f0646211ea">comprometer</a></td>
     </tr>
     <tr>
-      <td><p>Se ha agregado una descripción de cada tipo de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segment-create">condición de segmento de cliente</a>.</p>
+      <td><p>Se ha agregado una descripción de cada tipo de <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/customers/segments/customer-segment-create">condición de segmento de cliente</a>.</p>
 </td>
       <td>
         Técnico
@@ -75,7 +75,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se eliminaron los documentos de características obsoletos de New Relic <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/new-relic-reporting">reporting</a>.</p>
+      <td><p>Se eliminaron los documentos de características obsoletos de New Relic <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/start/reporting/new-relic-reporting">reporting</a>.</p>
 </td>
       <td>
         Actualización importante
@@ -97,7 +97,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se han aclarado los métodos predeterminados para <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">crear códigos de cupones</a> y se ha proporcionado instrucciones para usar una extensión con el fin de importar una lista de códigos de cupones personalizados.</p>
+      <td><p>Se han aclarado los métodos predeterminados para <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">crear códigos de cupones</a> y se ha proporcionado instrucciones para usar una extensión con el fin de importar una lista de códigos de cupones personalizados.</p>
 </td>
       <td>
         Técnico
@@ -119,7 +119,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se agregó el parche de seguridad B2B de agosto de 2025 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">notas de la versión</a>.</p>
+      <td><p>Se agregó el parche de seguridad B2B de agosto de 2025 <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/b2b/release-notes">notas de la versión</a>.</p>
 </td>
       <td>
         Actualización importante
@@ -141,7 +141,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se ha aclarado el comportamiento esperado del <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">filtrado de precios</a> para productos configurables en la navegación por capas.</p>
+      <td><p>Se ha aclarado el comportamiento esperado del <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">filtrado de precios</a> para productos configurables en la navegación por capas.</p>
 </td>
       <td>
         Técnico
@@ -149,7 +149,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/3227227b6cf4f159b40fda8a5a165a7097f8a0bd">comprometer</a></td>
     </tr>
     <tr>
-      <td><p>Se ha aclarado cómo <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage">quitar todos los elementos</a> del carro de compras de un cliente en el modo de compra asistida.</p>
+      <td><p>Se ha aclarado cómo <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage">quitar todos los elementos</a> del carro de compras de un cliente en el modo de compra asistida.</p>
 </td>
       <td>
         Actualización importante
