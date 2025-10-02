@@ -72,7 +72,7 @@ Este tipo de transferencia requiere tener un Adobe ID vinculado a la cuenta de C
 
 1. Haga clic en **[!UICONTROL Verify]**.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447662/?learn=on&captions=spa)
 
 ## Cambio de correo electrónico
 
