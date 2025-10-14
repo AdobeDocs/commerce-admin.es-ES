@@ -14,7 +14,7 @@ ht-degree: 0%
 
 _Compra instantánea_ permite a los clientes acelerar el proceso de cierre de compra mediante la información guardada en su cuenta. Cuando está habilitado, aparece el botón _Compra instantánea_ debajo del botón _Agregar al carro_ en la página del producto para los clientes que cumplan con los requisitos.
 
-![Página de producto con la opción de compra instantánea ](./assets/storefront-checkout-instant-purchase.png){width="700" zoomable="yes"}
+![Página de producto con la opción de compra instantánea &#x200B;](./assets/storefront-checkout-instant-purchase.png){width="700" zoomable="yes"}
 
 ## Requisitos del cliente
 

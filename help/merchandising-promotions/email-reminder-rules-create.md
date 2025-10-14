@@ -66,7 +66,7 @@ Antes de configurar una regla de recordatorio por correo electrónico, primero d
 
 1. En el panel de la izquierda, elija **[!UICONTROL Emails and Labels]**.
 
-   ![Regla de recordatorio de correo electrónico: plantillas de correos electrónicos y etiquetas ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
+   ![Regla de recordatorio de correo electrónico: plantillas de correos electrónicos y etiquetas &#x200B;](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
 1. En la sección **[!UICONTROL Email Templates]**, elija la plantilla de correo electrónico que se usará para cada sitio web y vista de tienda en su [jerarquía de tienda](../getting-started/websites-stores-views.md).
 

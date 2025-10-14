@@ -121,7 +121,7 @@ El almacén se puede configurar para archivar pedidos, facturas, envíos y notas
 
 1. Establezca el control **[!UICONTROL Actions]** en `Move to Archive` y busque el mensaje que indica que el pedido se ha archivado.
 
-   ![Mover los pedidos seleccionados al archivo ](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
+   ![Mover los pedidos seleccionados al archivo &#x200B;](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >

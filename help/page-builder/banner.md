@@ -50,7 +50,7 @@ El cuadro de herramientas del titular aparece cuando pasa el ratón por encima d
 
    ![Arrastrando un tipo de contenido de banner al escenario](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
-   Se incluyen los botones _[!UICONTROL Upload Image]_&#x200B;y_[!UICONTROL Select from Gallery]_ para que pueda realizar cambios rápidos en el contenido del titular directamente desde el escenario. También puede cambiar el contenido en la página _[!UICONTROL Edit Banner]_.
+   Se incluyen los botones _[!UICONTROL Upload Image]_&#x200B;y&#x200B;_[!UICONTROL Select from Gallery]_ para que pueda realizar cambios rápidos en el contenido del titular directamente desde el escenario. También puede cambiar el contenido en la página _[!UICONTROL Edit Banner]_.
 
 1. Haga clic en el marcador de posición del titular para mostrar [editor de texto](../content-design/editor.md) e introducir contenido para el titular.
 

@@ -44,7 +44,7 @@ Su tienda se puede configurar para que genere automáticamente una redirección 
 
 1. Busque el producto en la lista y haga clic en para abrir el registro.
 
-1. Expanda ![El selector de expansión ](../assets/icon-display-expand.png) en la sección **[!UICONTROL Search Engine Optimization]**.
+1. Expanda ![El selector de expansión &#x200B;](../assets/icon-display-expand.png) en la sección **[!UICONTROL Search Engine Optimization]**.
 
    ![Optimización del motor de búsqueda de productos: redirección permanente](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 

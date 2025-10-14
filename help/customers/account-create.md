@@ -147,7 +147,7 @@ Como comerciante, puede crear una cuenta de cliente desde el Administrador.
 
    De lo contrario, haga clic en **[!UICONTROL Save and Continue Edit]** y repita los pasos anteriores para agregar direcciones adicionales.
 
-   La nueva dirección se muestra en la página [!UICONTROL Addresses] con las direcciones _[!UICONTROL Default Billing]_&#x200B;y_[!UICONTROL Default Shipping]_ seleccionadas encima de la lista completa.
+   La nueva dirección se muestra en la página [!UICONTROL Addresses] con las direcciones _[!UICONTROL Default Billing]_&#x200B;y&#x200B;_[!UICONTROL Default Shipping]_ seleccionadas encima de la lista completa.
 
    ![Vista de direcciones](assets/address-list.png){width="600" zoomable="yes"}
 

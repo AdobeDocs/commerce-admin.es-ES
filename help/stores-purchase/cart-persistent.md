@@ -28,7 +28,7 @@ Para administrar el uso de la persistencia del carro de compras en el sitio o en
 
 Cuando el carro de compras persistente está [habilitado](#configure-a-persistent-cart), el flujo de trabajo depende de lo siguiente:
 
-- Los valores de la configuración _[!UICONTROL Enable Remember Me]_&#x200B;y_[!UICONTROL Clear Persistence on Log Out]_
+- Los valores de la configuración _[!UICONTROL Enable Remember Me]_&#x200B;y&#x200B;_[!UICONTROL Clear Persistence on Log Out]_
 - La decisión del cliente de activar o desactivar la casilla de verificación _[!UICONTROL Remember Me]_
 - Cuando se borra la cookie persistente
 

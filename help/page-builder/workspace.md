@@ -105,7 +105,7 @@ De manera predeterminada, el escenario [!DNL Page Builder] está vacío. A medid
 
 Utilice la sección _[!UICONTROL Elements]_&#x200B;del panel [!DNL Page Builder] para agregar texto, encabezados, botones, divisores y código HTML a cualquier contenedor de diseño en el [[!DNL Page Builder] escenario](workspace.md#stage). Cuando arrastra un tipo de contenido desde el panel a una fila o columna o a un conjunto de pestañas en el escenario, aparece un contenedor. Utilice la caja de herramientas de tipo de contenido para acceder a las opciones específicas del tipo.
 
-![[!DNL Page Builder] panel con tipos de contenido de elemento ](./assets/pb-elements.png){width="600" zoomable="yes"}
+![[!DNL Page Builder] panel con tipos de contenido de elemento &#x200B;](./assets/pb-elements.png){width="600" zoomable="yes"}
 
 | Tipo de contenido de elemento | Descripción |
 | -------------------- | ----------- |

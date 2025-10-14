@@ -103,7 +103,7 @@ La lista de plantillas de correo electrónico se organiza alfabéticamente por m
 | Plantilla | Ruta de configuración |
 |--- |--- |
 | `Assign Company Admin` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Sección:** [!UICONTROL Customer-Related Emails]<br/>**Campo:** [!UICONTROL Default 'Assign Company Admin' Email] |
-| `Assign Company to Customer` | **Página:** [!UICONTROL Customers] > [Configuración de la compañía ](../configuration-reference/customers/company-configuration.md)<br/>**Sección:** [!UICONTROL Customer-Related Emails] <br/>**Campo:** [!UICONTROL Default 'Assign Company to Customer' Email] |
+| `Assign Company to Customer` | **Página:** [!UICONTROL Customers] > [Configuración de la compañía &#x200B;](../configuration-reference/customers/company-configuration.md)<br/>**Sección:** [!UICONTROL Customer-Related Emails] <br/>**Campo:** [!UICONTROL Default 'Assign Company to Customer' Email] |
 | `Company Admin Changed to Member` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Sección:** [!UICONTROL Customer-Related Emails]<br/>**Campo:** [!UICONTROL Default 'Company Admin Changed To Member' Email] |
 | `Company Admin Set Inactive` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Sección:** [!UICONTROL Customer-Related Emails]<br/>**Campo:** [!UICONTROL Default 'Customer Status Inactive' Email] |
 | `Company Invite` | n/a |

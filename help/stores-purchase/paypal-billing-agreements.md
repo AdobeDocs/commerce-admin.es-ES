@@ -35,7 +35,7 @@ La página _[!UICONTROL Billing Agreements]_&#x200B;enumera todos los contratos 
 
 1. Busque el acuerdo de facturación en la lista y haga clic en para abrirlo.
 
-Cada página de acuerdo de facturación consta de dos fichas: _[!UICONTROL General Information]_&#x200B;y_[!UICONTROL Related Orders]_.
+Cada página de acuerdo de facturación consta de dos fichas: _[!UICONTROL General Information]_&#x200B;y&#x200B;_[!UICONTROL Related Orders]_.
 
 #### Información general
 

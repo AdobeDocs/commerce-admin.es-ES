@@ -24,7 +24,7 @@ _&#x200B;**[!UICONTROL Customer Segments]cuadrícula &#x200B;** _
 |--- |--- |
 | **[!UICONTROL ID]** | El ID único del segmento de cliente. |
 | **[!UICONTROL Segment]** | El nombre del segmento de cliente. |
-| **[!UICONTROL Status]** | Indica si el segmento de clientes es _[!UICONTROL Active]_&#x200B;o_[!UICONTROL Inactive]_. |
+| **[!UICONTROL Status]** | Indica si el segmento de clientes es _[!UICONTROL Active]_&#x200B;o&#x200B;_[!UICONTROL Inactive]_. |
 | **[!UICONTROL Website]** | Indica el sitio web al que pertenece el segmento de clientes. |
 
 {style="table-layout:auto"}

@@ -83,7 +83,7 @@ Después de cada trabajo de importación programado, se realiza automáticamente
 
      >[!NOTE]
      >
-     >Para los tipos de entidad _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_&#x200B;y_[!UICONTROL Stock Sources]_, se muestran estos comportamientos de importación: `Add/Update`, `Replace` y `Delete`. Para los tipos de entidad _Finanzas del cliente_, _Archivo principal de clientes_ y _Clientes y direcciones_, se muestran estos comportamientos de importación: `Add/Update Complex Data`, `Delete Entities` y `Custom Action`.
+     >Para los tipos de entidad _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_&#x200B;y&#x200B;_[!UICONTROL Stock Sources]_, se muestran estos comportamientos de importación: `Add/Update`, `Replace` y `Delete`. Para los tipos de entidad _Finanzas del cliente_, _Archivo principal de clientes_ y _Clientes y direcciones_, se muestran estos comportamientos de importación: `Add/Update Complex Data`, `Delete Entities` y `Custom Action`.
 
    - **[!UICONTROL Start Time]** — Se establece en la hora, el minuto y el segundo en que está programado que comience la importación.
 

@@ -31,7 +31,7 @@ Para los usuarios o roles temporales, también puede establecer una fecha de cad
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add New User]**.
 
-   Para editar un usuario existente, haga clic en un nombre de usuario en la cuadrícula. Puede modificar las secciones _[!UICONTROL User Info]_&#x200B;y_[!UICONTROL User Role]_ según sea necesario.
+   Para editar un usuario existente, haga clic en un nombre de usuario en la cuadrícula. Puede modificar las secciones _[!UICONTROL User Info]_&#x200B;y&#x200B;_[!UICONTROL User Role]_ según sea necesario.
 
 1. En la sección _[!UICONTROL Account Information]_, haga lo siguiente:
 

@@ -223,7 +223,7 @@ Las acciones de regla de precios del carro de compras describen cómo se actuali
 
 1. Desplácese hacia abajo hasta **[!UICONTROL Actions]** y expanda ![Selector de expansión](../assets/icon-display-expand.png) la sección.
 
-   ![Regla de precio del carro de compras - acciones ](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
+   ![Regla de precio del carro de compras - acciones &#x200B;](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
 
 1. Establezca **[!UICONTROL Apply]** en una de las siguientes opciones de descuento:
 

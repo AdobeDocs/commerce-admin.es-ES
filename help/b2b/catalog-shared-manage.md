@@ -53,7 +53,7 @@ Los precios personalizados de los productos en cualquier catálogo compartido se
 
 >[!NOTE]
 >
->**[Versión B2B 1.3.0](release-notes.md#b2b-v130) y posterior**: cuando crea un catálogo compartido, cada [permiso de categoría](../catalog/category-permissions.md) para el catálogo se establece en `Allow` para _[!UICONTROL Display Product Prices]_&#x200B;y_[!UICONTROL Add to Cart]_ para los grupos de clientes a los que se asigna este acceso en la configuración de permisos del catálogo. Anteriormente, esta configuración se establecía automáticamente en `Deny` incluso cuando los permisos de catálogo se establecían en `Allow`.
+>**[Versión B2B 1.3.0](release-notes.md#b2b-v130) y posterior**: cuando crea un catálogo compartido, cada [permiso de categoría](../catalog/category-permissions.md) para el catálogo se establece en `Allow` para _[!UICONTROL Display Product Prices]_&#x200B;y&#x200B;_[!UICONTROL Add to Cart]_ para los grupos de clientes a los que se asigna este acceso en la configuración de permisos del catálogo. Anteriormente, esta configuración se establecía automáticamente en `Deny` incluso cuando los permisos de catálogo se establecían en `Allow`.
 
 >[!IMPORTANT]
 >

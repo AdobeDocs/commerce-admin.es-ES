@@ -33,7 +33,7 @@ El administrador de la empresa se asigna inicialmente cuando se crea la cuenta d
 
 1. Escriba **[!UICONTROL Job Title]** del nuevo administrador de la compañía.
 
-   Esta acción borra el formulario y se resaltan los campos obligatorios _[!UICONTROL First Name]_&#x200B;y_[!UICONTROL Last Name]_.
+   Esta acción borra el formulario y se resaltan los campos obligatorios _[!UICONTROL First Name]_&#x200B;y&#x200B;_[!UICONTROL Last Name]_.
 
 1. Escriba la dirección **[!UICONTROL Email]** del nuevo administrador de la compañía.
 
