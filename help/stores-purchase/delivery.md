@@ -16,7 +16,7 @@ Los estudios demuestran que las tiendas que ofrecen a los clientes la opción de
 
 >[!NOTE]
 >
->Debido al cierre de Temando, se ha eliminado la compatibilidad con [!DNL Magento Shipping] en 2.4.0. Para obtener información detallada del estado y recomendaciones sobre las nuevas implementaciones de envío en Commerce, consulte la página [información del producto](https://business.adobe.com/products/magento/shipping.html){:target="_blank"}.
+>Debido al cierre de Temando, se ha eliminado la compatibilidad con [!DNL Magento Shipping] en 2.4.0. Para obtener información detallada del estado y recomendaciones sobre las nuevas implementaciones de envío en Commerce, consulte la página [información del producto](https://business.adobe.com/es/products/magento/shipping.html){:target="_blank"}.
 
 ## Métodos básicos de envío
 

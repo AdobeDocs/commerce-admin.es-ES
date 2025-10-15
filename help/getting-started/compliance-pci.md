@@ -48,5 +48,5 @@ Para obtener más información, consulte [Método de Adobe para el cumplimiento 
 
 A medida que su empresa crezca, es posible que deba presentar un informe de cumplimiento de normas anualmente. Los requisitos de informes de PCI aumentan en proporción al nivel de comerciante, pero no se aplican a las empresas que procesan menos de 20 000 transacciones de tarjetas de crédito al año. Para obtener más información, visite el sitio web [PCI Security Standards Council][2].
 
-[1]: https://business.adobe.com/products/magento/pci-compliance.html
+[1]: https://business.adobe.com/es/products/magento/pci-compliance.html
 [2]: https://www.pcisecuritystandards.org/index.php

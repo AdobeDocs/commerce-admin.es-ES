@@ -109,7 +109,7 @@ Los problemas de inicio de sesión suelen estar relacionados con una discrepanci
 
 ### Preguntas de código abierto
 
-El equipo de soporte técnico de Marketplace resuelve problemas relacionados únicamente con los sitios [commerce.adobe.com/](https://commercemarketplace.adobe.com/) y [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Envíe sus preguntas sobre Magento Open Source al [Foro de la comunidad](https://community.magento.com/) o [póngase en contacto con un socio](https://business.adobe.com/products/magento/partners.html) que pueda ayudarle con Magento Open Source.
+El equipo de soporte técnico de Marketplace resuelve problemas relacionados únicamente con los sitios [commerce.adobe.com/](https://commercemarketplace.adobe.com/) y [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Envíe sus preguntas sobre Magento Open Source al [Foro de la comunidad](https://community.magento.com/) o [póngase en contacto con un socio](https://business.adobe.com/es/products/magento/partners.html) que pueda ayudarle con Magento Open Source.
 
 ### Solicitudes de reembolso
 
@@ -143,4 +143,4 @@ Estos permisos especiales otorgan el mismo nivel de acceso en Adobe Commerce que
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[6]: https://business.adobe.com/products/magento/magento-commerce.html
+[6]: https://business.adobe.com/es/products/magento/magento-commerce.html
