@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Crear y eliminar atributos de producto
 
-Puede crear atributos mientras trabaja en un producto o desde la página _[!UICONTROL Product Attributes]_. Los pasos siguientes muestran cómo crear atributos a partir del menú_[!UICONTROL Stores]_.
+Puede crear atributos mientras trabaja en un producto o desde la página _[!UICONTROL Product Attributes]_. Los pasos siguientes muestran cómo crear atributos a partir del menú&#x200B;_[!UICONTROL Stores]_.
 
 ## Paso 1: Describir las propiedades básicas de los atributos
 
