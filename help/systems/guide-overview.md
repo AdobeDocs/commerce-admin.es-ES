@@ -2,9 +2,9 @@
 title: Guía de sistemas de administración
 description: Conozca las prácticas de seguridad recomendadas para proteger su tienda de Commerce y administrar permisos, y cómo importar y exportar datos, administrar integraciones y extensiones y ocuparse del mantenimiento rutinario.
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
-source-git-commit: 0a305befd07236faf7f5f477907b9ce46e8af6f5
+source-git-commit: 941ecd6017f3534aca6ac80202b9a50492e2a10c
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '414'
 ht-degree: 7%
 
 ---
@@ -22,9 +22,9 @@ Esta guía describe:
 | [Cuentas y permisos de administrador](permissions.md) | Administre las cuentas de usuario de Admin y las funciones que se utilizan para otorgar acceso a las funciones de la tienda. |
 | [Variables](variables-predefined.md) | Las variables facilitan la personalización de las plantillas de correo electrónico, boletines informativos y otros tipos de contenido que admitan el sitio y la experiencia del cliente. |
 | [Plantillas de correo electrónico](email-templates.md) | Las plantillas de correo electrónico definen el diseño, el contenido y el formato de los mensajes automatizados enviados desde su tienda. Se denominan correos electrónicos transaccionales porque cada uno está asociado a un tipo específico de transacción o evento. |
-| [Transferencia de datos](data-transfer.md) | Las herramientas de importación y exportación permiten administrar varios registros en una sola operación. No solo puede importar nuevos artículos, sino también actualizar, reemplazar y eliminar conjuntos de productos existentes. |
+| [Transferencia de datos](data-transfer.md) | <ul><li>Las herramientas de importación y exportación permiten administrar varios registros en una sola operación. No solo puede importar nuevos artículos, sino también actualizar, reemplazar y eliminar conjuntos de productos existentes.</li><li>Ver datos de productos publicados en servicios SaaS de Commerce desde [[!UICONTROL Data Management Dashboard]](data-dashboard.md).</li><li>Supervise la sincronización de fuentes de exportación de datos a la base de datos de servicios SaaS de Commerce desde la página [[!UICONTROL Data Feed Sync Status]](data-feed-sync-status.md).</li></ul> |
 | [Registros de acciones](action-log.md) | En Adobe Commerce, los registros de acciones capturan todos los cambios realizados por un usuario administrador que trabaja en su tienda. Esto le permite realizar un seguimiento de todos los cambios realizados en la tienda. |
-| Herramientas | [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} Los administradores del sistema tienen una colección de herramientas disponibles: Las [herramientas de soporte](support.md) están diseñadas para identificar problemas conocidos en su sistema. Las herramientas del sistema proporcionan soporte operativo para realizar la administración rutinaria de [index](index-management.md) y [cache](cache-management.md), hacer una copia de seguridad del sistema[, administrar &#x200B;](backups.md)operaciones programadas[&#x200B; y usar una variedad de &#x200B;](data-scheduled-import-export.md)herramientas para desarrolladores[.](developer-tools.md) |
+| Herramientas | [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} Los administradores del sistema tienen una colección de herramientas disponibles: Las [herramientas de soporte](support.md) están diseñadas para identificar problemas conocidos en su sistema. Las herramientas del sistema proporcionan soporte operativo para realizar la administración rutinaria de [index](index-management.md) y [cache](cache-management.md), hacer una copia de seguridad del sistema[, administrar ](backups.md)operaciones programadas[ y usar una variedad de ](data-scheduled-import-export.md)herramientas para desarrolladores[.](developer-tools.md) |
 | [Integraciones](integrations.md) | Establezca la ubicación de las credenciales de OAuth y proporcione las direcciones URL de redireccionamiento para integraciones de terceros. |
 | [Seguridad](security.md) | Obtenga información acerca de las herramientas disponibles para proteger su tienda y sus datos, y las directrices para un plan de acción de seguridad si detecta un compromiso. |
 

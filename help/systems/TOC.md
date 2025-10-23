@@ -5,10 +5,10 @@ breadcrumb-title: Guía de sistemas de administración
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 9c200a46a30d51b4844fff24d864b629b8400f33
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 3%
+source-wordcount: '188'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 - [Guía de sistemas de administración](guide-overview.md)
 - [Introducción a los sistemas de administración](introduction.md)
 - [Menú [!UICONTROL System]](system-menu.md)
-- Cuentas de usuario administrador {#user-accounts}
+- Cuentas de usuario de administrador {#user-accounts}
    - [Permisos de administración](permissions.md)
    - [Administrar cuentas de usuario](permissions-users-all.md)
    - [Funciones de usuario](permissions-user-roles.md)
@@ -48,7 +48,9 @@ ht-degree: 3%
       - [Importar productos descargables](data-transfer-downloadable-products.md)
       - [Importar datos de precios de nivel](data-import-price-tier.md)
    - [Importación y exportación programadas](data-scheduled-import-export.md)
-   - [Tablero de administración de datos](data-dashboard.md)
+   - Sincronización de datos para servicios de Commerce {#data-sync}
+      - [Tablero de administración de datos](data-dashboard.md)
+      - [Estado de sincronización de fuente de datos](data-feed-sync-status.md)
 - Registros de acciones {#action-logs}
    - [Información general](action-log.md)
    - [Informe de registros de acciones](action-log-report.md)
@@ -77,6 +79,6 @@ ht-degree: 3%
    - [Administración de sesiones](security-session-management.md)
    - [Detección de funcionalidades del explorador](security-browser-capabilities-detection.md)
    - [Informes de problemas de seguridad](security-issue-reporting.md)
-- [Volver a las guías del usuario administrador](https://experienceleague.adobe.com/es/docs/commerce-admin/user-guides/home)
+- [Volver a las guías del usuario administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
 
