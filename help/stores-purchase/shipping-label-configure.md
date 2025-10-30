@@ -3,9 +3,9 @@ title: Configurar etiquetas de envío
 description: Aprenda a configurar la tienda para generar etiquetas de envío.
 exl-id: 0693d74b-8b36-4a36-8739-c9fe5a934ff0
 feature: Shipping/Delivery, Orders
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Las siguientes configuraciones deben realizarse en el nivel de producto y en la 
 
 | [!UICONTROL Carrier] | Requisitos |
 |-------|--------|
-| [USPS](usps.md) | Requiere una cuenta de USPS. A partir del 23 de febrero de 2018, USPS requiere que todas las etiquetas de envío incluyan franqueo. |
+| [USPS](usps.md) | Requiere una cuenta USPS para el franqueo de la etiqueta de envío. |
 | [UPS](ups.md) | Requiere una cuenta de UPS. Las etiquetas de envío solo están disponibles para los envíos que se originan en los EE. UU. Se requieren credenciales específicas para las tiendas fuera de los EE. UU. |
 | [FedEx](fedex.md) | Requiere una cuenta de FedEx. En tiendas fuera de los EE. UU., las etiquetas de envío solo son compatibles con envíos internacionales. FedEx no permite envíos nacionales que se originen fuera de los Estados Unidos |
 | [DHL](dhl.md) | Requiere una cuenta de DHL. Las etiquetas de envío solo son compatibles con los envíos procedentes de EE. UU. |

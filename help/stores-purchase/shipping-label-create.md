@@ -3,9 +3,9 @@ title: Crear etiquetas y paquetes de envío
 description: Aprenda a empaquetar artículos en un pedido y a crear etiquetas de envío.
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: cf57e136c7c3b6e8ba83afbbd539f4037c0ca486
 workflow-type: tm+mt
-source-wordcount: '1889'
+source-wordcount: '1944'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Siga las instrucciones proporcionadas por cada transportista para agregar compat
 
 United Parcel Service envía tanto a nivel nacional como internacional. Sin embargo, las etiquetas de envío solo se pueden generar para envíos que se originen dentro de Estados Unidos.
 
-1. En la sección _[!UICONTROL Sales]_&#x200B;del panel izquierdo, elija **[!UICONTROL Delivery Methods]**.
+1. En la sección _[!UICONTROL Sales]_del panel izquierdo, elija **[!UICONTROL Delivery Methods]**.
 
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL UPS]**.
 
@@ -59,11 +59,32 @@ United Parcel Service envía tanto a nivel nacional como internacional. Sin emba
 
 [!DNL United States Postal Service] se envía tanto nacional como internacionalmente.
 
+{{$include /help/_includes/usps-api-type-configuration-note.md}}
+
 1. Continuando con la configuración de **[!UICONTROL Delivery Methods]**, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL USPS]**.
+
+1. Seleccione **[!UICONTROL USPS Type]** como `USPS Rest APIs` o `USPS Web Tools API`.
 
 1. Compruebe que **[!UICONTROL Secure Gateway URL]** es correcto.
 
 1. Escriba el(la) **[!UICONTROL Password]** proporcionado(a) por USPS.
+
+1. Compruebe que se ha completado la siguiente configuración en función de los **[!UICONTROL USPS Type]** seleccionados:
+
+   Si utiliza la API de herramientas web de USPS:
+   - ID de usuario
+   - Contraseña
+
+   Si utiliza las API de REST de USPS:
+   - Clave de consumidor
+   - Secreto del consumidor
+   - Opciones de precios
+   - Tipo de cuenta
+   - Número de cuenta
+   - ID de registro de cliente (CRID)
+   - Identificador de correo (MID)
+   - MID de manifiesto
+   - AES/ITN
 
 1. Establezca **[!UICONTROL Size]** en `Large` e introduzca valores para las siguientes dimensiones:
 
@@ -124,7 +145,7 @@ DHL ofrece servicios de envío internacional.
 
 1. Agregar o actualizar productos en el paquete:
 
-   - Para agregar productos del pedido al paquete, haga clic en **[!UICONTROL Add Products]**. La columna _[!UICONTROL Quantity]_&#x200B;muestra la cantidad máxima de productos disponibles para el paquete.
+   - Para agregar productos del pedido al paquete, haga clic en **[!UICONTROL Add Products]**. La columna _[!UICONTROL Quantity]_muestra la cantidad máxima de productos disponibles para el paquete.
 
    - Seleccione la casilla de verificación de cada producto que se agregará al paquete e introduzca el **[!UICONTROL Quantity]** de cada uno. A continuación, haga clic en **[!UICONTROL Add Selected Product(s) to Package]**.
 
@@ -170,11 +191,11 @@ Las etiquetas de envío se generan en formato PDF y se pueden imprimir desde el 
 
    - **[!UICONTROL Sales]** > **[!UICONTROL Shipments]**: busque el envío en la cuadrícula y abra el registro.
 
-1. Para descargar el archivo del PDF, vaya a la sección _[!UICONTROL Shipping and Tracking]_&#x200B;del formulario y haga clic en **[!UICONTROL Print Shipping Label]**.
+1. Para descargar el archivo de PDF, vaya a la sección _[!UICONTROL Shipping and Tracking]_del formulario y haga clic en **[!UICONTROL Print Shipping Label]**.
 
-   Según la configuración del navegador, las etiquetas de envío pueden verse e imprimirse directamente desde el archivo del PDF.
+   Según la configuración del navegador, las etiquetas de envío pueden verse e imprimirse directamente desde el archivo PDF.
 
-   El botón _[!UICONTROL Print Shipping Label]_&#x200B;solo aparece después de que el transportista genere etiquetas para el envío. Si falta el botón, haga clic en **[!UICONTROL Create Shipping Label]**. El botón aparece después de que Commerce reciba la etiqueta del operador.
+   El botón _[!UICONTROL Print Shipping Label]_solo aparece después de que el transportista genere etiquetas para el envío. Si falta el botón, haga clic en **[!UICONTROL Create Shipping Label]**. El botón aparece después de que Commerce reciba la etiqueta del operador.
 
 ### Método 2: Imprimir etiquetas para varios pedidos
 
@@ -203,7 +224,7 @@ Se imprime un juego completo de etiquetas de envío para cada envío relacionado
 
 ## Creación de paquetes
 
-La ventana _[!UICONTROL Create Packages]_&#x200B;aparece cuando elige crear una etiqueta de envío. Puede comenzar a configurar el primer paquete inmediatamente.
+La ventana _[!UICONTROL Create Packages]_aparece cuando elige crear una etiqueta de envío. Puede comenzar a configurar el primer paquete inmediatamente.
 
 ### Configuración de un paquete
 
@@ -215,7 +236,7 @@ La ventana _[!UICONTROL Create Packages]_&#x200B;aparece cuando elige crear una 
 
    - Especifique los productos y las cantidades.
 
-     La columna _[!UICONTROL Qty]_&#x200B;muestra la cantidad máxima disponible para agregar. Para el primer paquete, el número es la cantidad total del producto que se va a enviar.
+     La columna _[!UICONTROL Qty]_muestra la cantidad máxima disponible para agregar. Para el primer paquete, el número es la cantidad total del producto que se va a enviar.
 
    - Para agregar los productos al paquete, haga clic en **[!UICONTROL Add Selected Product(s) to Package]**.
 
