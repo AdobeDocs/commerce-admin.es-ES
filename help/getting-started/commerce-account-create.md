@@ -3,9 +3,9 @@ title: Crea tu cuenta de  [!DNL Commerce] y accede a ella
 description: Obtenga información acerca de  [!DNL Commerce] cuentas que administran los productos y servicios que ha adquirido.
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: d036962b767be0817dbd14d679e89ab4d4f03455
+source-git-commit: 2b0959de64e139d3f652e1cd5edb744c0a8489a3
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Puede acceder a su cuenta de [!DNL Commerce] desde el sitio web de [!DNL Commerc
 
 El inicio de sesión de la cuenta de [!DNL Commerce] es independiente del inicio de sesión del administrador de tienda. Normalmente, utilizará credenciales diferentes para cada uno y el acceso a cada sistema se administra de forma independiente.
 
-Sin embargo, un usuario que quiera optimizar sus inicios de sesión en Adobe Commerce y en los productos para empresas de Adobe puede configurar su Adobe ID para iniciar sesión en el administrador de tienda: [Configure the Commerce Admin Integration with Adobe ID](https://experienceleague.adobe.com/es/docs/commerce-admin/start/admin/ims/adobe-ims-config) en la *Guía de integración de IMS para Commerce*.
+Sin embargo, un usuario que quiera optimizar sus inicios de sesión en Adobe Commerce y en los productos para empresas de Adobe puede configurar su Adobe ID para iniciar sesión en el administrador de tienda: [Configure the Commerce Admin Integration with Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) en la *Guía de integración de IMS para Commerce*.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Sin embargo, un usuario que quiera optimizar sus inicios de sesión en Adobe Com
 
 ## Inicie sesión en su cuenta de [!DNL Commerce]
 
-Se requiere un Adobe ID para acceder a una cuenta de Commerce. Si ya tiene una cuenta de [!DNL Commerce] pero no ha iniciado sesión en la cuenta desde agosto de 2022, deberá crear una Adobe ID durante el proceso de inicio de sesión.
+Se requiere un Adobe ID para acceder a su cuenta de Commerce. Si tiene una cuenta existente de [!DNL Commerce] pero no ha iniciado sesión desde agosto de 2022, debe crear una Adobe ID durante el proceso de inicio de sesión. Es necesario completar este paso antes de poder iniciar sesión en la cuenta.
 
 >[!WARNING]
 >
