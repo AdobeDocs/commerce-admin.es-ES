@@ -19,7 +19,7 @@ Puede acceder a su cuenta de [!DNL Commerce] desde el sitio web de [!DNL Commerc
 
 El inicio de sesión de la cuenta de [!DNL Commerce] es independiente del inicio de sesión del administrador de tienda. Normalmente, utilizará credenciales diferentes para cada uno y el acceso a cada sistema se administra de forma independiente.
 
-Sin embargo, un usuario que quiera optimizar sus inicios de sesión en Adobe Commerce y en los productos para empresas de Adobe puede configurar su Adobe ID para iniciar sesión en el administrador de tienda: [Configure the Commerce Admin Integration with Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) en la *Guía de integración de IMS para Commerce*.
+Sin embargo, un usuario que quiera optimizar sus inicios de sesión en Adobe Commerce y en los productos para empresas de Adobe puede configurar su Adobe ID para iniciar sesión en el administrador de tienda: [Configure the Commerce Admin Integration with Adobe ID](https://experienceleague.adobe.com/es/docs/commerce-admin/start/admin/ims/adobe-ims-config) en la *Guía de integración de IMS para Commerce*.
 
 >[!NOTE]
 >
