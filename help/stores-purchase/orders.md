@@ -3,9 +3,9 @@ title: Pedidos
 description: Obtenga información sobre el espacio de trabajo Pedidos y las funciones de búsqueda utilizadas para localizar pedidos en el administrador.
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: c60f0af09fb1af08deea49216aff340eea59f1b4
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Para aplicar una acción a pedidos específicos, seleccione la casilla de verifi
 | [!UICONTROL Grand Total (Base)] | El total general del pedido. |
 | [!UICONTROL Grand Total (Purchased)] | El total general de productos comprados en el pedido. |
 | [!UICONTROL Status] | El estado actual del pedido. |
-| [!UICONTROL Action] | _[!UICONTROL View]_&#x200B;abre el pedido en modo de edición. |
+| [!UICONTROL Action] | _[!UICONTROL View]_abre el pedido en modo de edición. |
 | [!UICONTROL Allocated sources] | Las fuentes asignadas a ese orden específico. |
 
 {style="table-layout:auto"}
@@ -149,7 +149,7 @@ El cuadro Buscar de la parte superior izquierda de la cuadrícula Pedidos se pue
 
 ### Filtrado de la búsqueda
 
-1. Para mostrar la selección de filtros de búsqueda, haga clic en la ficha _Filtros_ ( ![Icono de canal](../assets/icon-filter-search.png) ).
+1. Para mostrar la selección de filtros de búsqueda, haga clic en la ficha _Filtros_ ( ![icono de Funnel](../assets/icon-filter-search.png) ).
 
    ![Filtros de pedidos](./assets/order-search-filter.png){width="600" zoomable="yes"}
 
@@ -183,9 +183,3 @@ El cuadro Buscar de la parte superior izquierda de la cuadrícula Pedidos se pue
 
 {style="table-layout:auto"}
 
-## Solución de problemas de recursos
-
-Para obtener ayuda sobre la resolución de problemas con los pedidos, consulte los siguientes artículos de la Base de conocimiento de asistencia de Commerce:
-
-- [Error de visualización de pedidos](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html?lang=es)
-- [No se muestran los pedidos en la cuadrícula Pedidos del administrador](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)

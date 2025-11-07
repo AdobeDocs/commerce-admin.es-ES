@@ -5,9 +5,9 @@ breadcrumb-title: Tiendas y experiencia de compra
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 2e5d8c81cbf20612d1351da2f5474f13f353c34c
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '314'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 + [Guía de experiencia de compra y tienda](guide-overview.md)
 + [Introducción a las tiendas y a la experiencia de compra](introduction.md)
-+ Administración de sitio y tienda {#site-store}
++ Administración de sitios y tiendas {#site-store}
    + [Menú Tiendas](stores-menu.md)
    + [Estructura del sitio y la tienda](stores.md)
    + [Vistas de tienda](store-views.md)
@@ -51,7 +51,7 @@ ht-degree: 3%
       + [Administración de un carro de compras](shopping-assisted-cart-manage.md)
       + [Creación de un pedido](customer-account-create-order.md)
       + [Actualizar un pedido de cliente](order-update.md)
-   + Cierre de compra {#checkout}
+   + Finalizar compra {#checkout}
       + [Información general](checkout-process.md)
       + [Cierre de compra de una página](checkout-one-page.md)
       + [Cierre de compra de invitado](checkout-guest.md)
@@ -62,7 +62,7 @@ ht-degree: 3%
    + Tarjetas de regalo {#gift-cards}
       + [Compra y canje con tarjeta regalo](product-gift-card-workflow.md)
       + [Cuentas de tarjeta regalo](product-gift-card-accounts.md)
-+ Herramientas de comprador {#shopper-tools}
++ Herramientas para compradores {#shopper-tools}
    + [Enviar un correo electrónico a un amigo](email-a-friend.md)
    + Listas de deseos {#wish-lists}
       + [Información general](wishlists.md)
@@ -74,7 +74,7 @@ ht-degree: 3%
    + [Permitir orden de cancelación](cancel-allow.md)
 + Pagos {#payments}
    + [Información general](payments.md)
-   + Soluciones de pago de PayPal {#paypal}
+   + Soluciones de pago PayPal {#paypal}
       + [Resumen de las soluciones PayPal](paypal.md)
       + [Pago y envío con PayPal Express](paypal-express-checkout.md)
       + [Pagos mediante PayPal avanzados](paypal-payments-advanced.md)
@@ -104,7 +104,7 @@ ht-degree: 3%
       + [Administración de pedidos de tienda](orders-storefront.md)
    + [Facturas](invoices.md)
    + [Envíos](shipments.md)
-   + Notas de crédito {#credit-memos}
+   + Notas de abono {#credit-memos}
       + [Información general](credit-memos.md)
       + [Emitir una nota de crédito](credit-memo-create.md)
    + Devuelve {#returns}
@@ -113,15 +113,15 @@ ht-degree: 3%
       + [Devolver atributos](attributes-returns.md)
       + [Devuelve la experiencia de tienda](rma-customer-experience.md)
    + [Transacciones](transactions.md)
-+ Envío {#delivery}
++ envío {#delivery}
    + [Información general](delivery.md)
    + [Configuración de envío](shipping-settings.md)
-   + Métodos de envío básicos {#basic-methods}
+   + Métodos básicos de envío {#basic-methods}
       + [Envío gratuito](shipping-free.md)
       + [Tarifa plana](shipping-flat-rate.md)
       + [Tasas de tabla](shipping-table-rate.md)
       + [Envío en tienda](shipping-in-store-delivery.md)
-   + Compañías de envío {#shipping-carriers}
+   + Transportistas {#shipping-carriers}
       + [Configuración del transportista de envío](carriers.md)
       + [UPS](ups.md)
       + [USPS](usps.md)
@@ -131,5 +131,3 @@ ht-degree: 3%
       + [Resumen de etiquetas de envío](shipping-labels.md)
       + [Configurar etiquetas de envío](shipping-label-configure.md)
       + [Crear etiquetas de envío](shipping-label-create.md)
-+ [Volver a las guías del usuario administrador](https://experienceleague.adobe.com/es/docs/commerce-admin/user-guides/home)
-

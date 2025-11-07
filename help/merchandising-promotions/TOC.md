@@ -4,9 +4,9 @@ user-guide-description: Adobe Commerce y Magento Open Source incluyen muchas her
 breadcrumb-title: Comercialización y promociones
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
+source-git-commit: 93a564fd06089fbc6ca8b42a06718fed05655ef4
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '259'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 1%
       - [Crear recordatorios de correo electrónico](email-reminder-rules-create.md)
 - Optimización del motor de búsqueda {#seo}
    - [Información general de SEO y prácticas recomendadas](seo-overview.md)
-   - [Metadatos](meta-data.md)
+   - [Datos de Meta](meta-data.md)
    - [Mapas del sitio](sitemap-xml.md)
    - Reescrituras de URL {#url-rewrites}
       - [Información general y configuración](url-rewrite.md)
@@ -86,5 +86,3 @@ ht-degree: 1%
    - [Google Analytics](google-analytics.md)
    - [Google Tag Manager](google-tag-manager.md)
    - [Google AdWords](google-adwords.md)
-- [Volver a las guías del usuario administrador](https://experienceleague.adobe.com/es/docs/commerce-admin/user-guides/home)
-

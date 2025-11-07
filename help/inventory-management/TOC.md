@@ -4,10 +4,10 @@ user-guide-description: Aprenda a utilizar las características  [!DNL Inventory
 breadcrumb-title: '[!DNL Inventory Management]'
 role: Admin, Leader, User
 feature: Inventory
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: b9a2bf31efd5ed04098a1e24ed4d779ba74cb1b9
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 5%
+source-wordcount: '132'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 5%
    - [Selección y reservas de Source](selection-reservations.md)
    - [Estado del pedido y la reserva](order-status.md)
    - [Tipos de productos](product-types.md)
-- Introducción a {#get-started}
+- Introducción {#get-started}
    - [Actualizaciones de Commerce](migrate.md)
    - [Instalación y actualización](install-update.md)
    - [Abastecimiento de comerciantes](merchant-sourcing.md)
@@ -35,10 +35,10 @@ ht-degree: 5%
    - [Configurar pedidos pendientes](backorders.md)
    - [Configurar prioridad de origen](source-priority-algorithm.md)
    - [Configurar prioridad de distancia](distance-priority-algorithm.md)
-   - Alertas de producto {#product-alerts}
+   - Alertas de productos {#product-alerts}
       - [Configurar alertas de productos](alert-setup.md)
       - [Escenarios de mensajes de stock](stock-messages.md)
-- Administrar orígenes {#sources}
+- Administrar fuentes {#sources}
    - [Información general](sources-manage.md)
    - [Añadir fuentes](sources-add.md)
    - [Deshabilitar orígenes](sources-disable.md)
@@ -58,5 +58,3 @@ ht-degree: 5%
    - [Información general](shipments.md)
    - [Creación de envíos](shipments-create.md)
 - [Referencia de CLI](cli.md)
-- [Volver a las guías del usuario administrador](https://experienceleague.adobe.com/es/docs/commerce-admin/user-guides/home)
-

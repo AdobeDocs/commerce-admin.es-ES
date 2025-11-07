@@ -2,10 +2,10 @@
 user-guide-title: Guía de administración de clientes
 breadcrumb-title: Administración de clientes
 feature: Customers
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: b58e5e2dc660b58be694bd7896d8596e9ef48c04
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 2%
+source-wordcount: '122'
+ht-degree: 0%
 
 ---
 
@@ -37,13 +37,13 @@ ht-degree: 2%
       + [Propiedades de atributo](attribute-properties.md)
       + [Atributos de dirección](address-attributes.md)
       + [Plantillas de direcciones](address-templates.md)
-   + Crédito de tienda {#store-credit}
+   + Almacenar crédito {#store-credit}
       + [Flujo de trabajo de crédito de tienda](store-credit.md)
       + [Configurar crédito de tienda](credit-configure.md)
       + [Aplicar crédito de tienda](store-credit-using.md)
       + [Almacenar crédito en el panel de cuentas](account-dashboard-store-credit.md)
       + [Reembolsos en el panel de cuentas](refunds-customer-account.md)
-   + Tablero de cuenta de cliente {#storefront}
+   + Panel de cuenta del cliente {#storefront}
       + [Administrar el tablero de cuentas](account-dashboard.md)
       + [[!UICONTROL My Account]](account-dashboard-my-account.md)
       + [[!UICONTROL Address Book]](account-dashboard-address-book.md)
@@ -55,5 +55,4 @@ ht-degree: 2%
    + [Crear y eliminar segmentos de clientes](customer-segment-create.md)
    + [Segmentos de cliente en reglas de precios](customer-segment-price-rule.md)
    + [Informe de segmento de cliente](customer-segment-reports.md)
-+ [Volver a las guías del usuario administrador](https://experienceleague.adobe.com/es/docs/commerce-admin/user-guides/home)
 
