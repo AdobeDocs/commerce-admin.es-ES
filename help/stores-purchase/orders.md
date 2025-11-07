@@ -111,7 +111,7 @@ Para aplicar una acción a pedidos específicos, seleccione la casilla de verifi
 | [!UICONTROL Grand Total (Base)] | El total general del pedido. |
 | [!UICONTROL Grand Total (Purchased)] | El total general de productos comprados en el pedido. |
 | [!UICONTROL Status] | El estado actual del pedido. |
-| [!UICONTROL Action] | _[!UICONTROL View]_abre el pedido en modo de edición. |
+| [!UICONTROL Action] | _[!UICONTROL View]_&#x200B;abre el pedido en modo de edición. |
 | [!UICONTROL Allocated sources] | Las fuentes asignadas a ese orden específico. |
 
 {style="table-layout:auto"}
