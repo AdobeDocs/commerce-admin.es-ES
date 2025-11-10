@@ -131,4 +131,4 @@ ht-degree: 3%
       + [Resumen de etiquetas de envío](shipping-labels.md)
       + [Configurar etiquetas de envío](shipping-label-configure.md)
       + [Crear etiquetas de envío](shipping-label-create.md)
-+ [Volver a las guías del usuario administrador](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [Volver a las guías del usuario administrador](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=es)
