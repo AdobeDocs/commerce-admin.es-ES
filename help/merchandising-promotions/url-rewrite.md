@@ -3,10 +3,10 @@ title: Reescrituras de URL
 description: Obtenga información acerca de las reescrituras de URL y el uso de la herramienta de reescritura de URL de Commerce para cambiar las URL asociadas a una página de producto, categoría o CMS.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 2f2db4926ff92adfa27692eeca872c1765fd31d6
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -15,53 +15,126 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Para Adobe Commerce as a Cloud Service, consulte las [directrices SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=es) en la documentación de Commerce Storefront
+>Para Adobe Commerce as a Cloud Service, consulte las [directrices SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) en la documentación de Commerce Storefront
 
-La herramienta de reescritura de URL permite cambiar cualquier URL asociada a un producto, categoría o página de CMS. Cuando la reescritura entra en vigor, los vínculos que apunten a la dirección URL anterior se redirigirán a la nueva dirección.
+La herramienta de reescritura de URL permite cambiar cualquier URL asociada a un producto, categoría o página de CMS. Al crear una reescritura de URL, Commerce crea automáticamente una redirección permanente (301) para que cualquier vínculo que apunte a la dirección URL antigua se redirija a la nueva.
 
 >[!NOTE]
 >
 >Para actualizar las reescrituras de URL de varios o todos los productos simultáneamente, consulte [Reescrituras de URL múltiples](url-rewrite-product.md#multiple-url-rewrites).
 
-Los términos _rewrite_ y _redirect_ se utilizan a menudo de forma intercambiable, pero hacen referencia a procesos ligeramente diferentes. Una reescritura de URL cambia la forma en que aparece la dirección URL en el explorador. Un redireccionamiento de URL actualiza la dirección URL almacenada en el servidor. Una redirección de URL puede ser temporal o permanente. Tu tienda usa reescrituras y redirecciones de URL para facilitar el cambio de la clave URL de un producto, categoría o página y la conservación de los vínculos existentes.
+>[!BEGINSHADEBOX &quot;Explicación de reescrituras y redirecciones&quot;]
+
+Los términos _rewrite_ y _redirect_ se utilizan a menudo de forma intercambiable, pero son operaciones diferentes:
+
+* **Reescritura de URL**: un proceso del lado del servidor que asigna internamente una dirección URL a otra sin cambiar lo que aparece en la barra de direcciones del explorador. Cuando un visitante solicita una dirección URL, el servidor la procesa como una dirección URL diferente en segundo plano, pero el explorador sigue mostrando la dirección URL original.
+
+* **Redireccionamiento de URL**: envía una respuesta HTTP al explorador indicándole que se desplace a una dirección URL diferente. La barra de direcciones del explorador se actualiza para mostrar la nueva dirección URL. Las redirecciones pueden ser temporales (302) o permanentes (301).
+
+>[!ENDSHADEBOX]
+
+## Cómo funciona la herramienta Reescrituras
+
+En Adobe Commerce, la herramienta de reescritura de URL crea redirecciones permanentes (301) de forma predeterminada para conservar el valor SEO al cambiar la clave URL de un producto, categoría o página. Este comportamiento garantiza que los vínculos existentes sigan funcionando y que se mantengan las clasificaciones de los motores de búsqueda.
 
 De manera predeterminada, las [redirecciones automáticas de URL](url-redirect-product-automatic.md) están habilitadas para su tienda y la casilla de verificación **Crear redireccionamiento permanente para la URL antigua** está seleccionada en el campo Clave de URL de cada producto.
 
 {{url-rewrite-skip}}
 
-{{url-rewrite-params}}
-
 ![Optimización del motor de búsqueda: crear redirección de URL permanente](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 
-## URL canónicas
+{{url-rewrite-params}}
 
-A efectos de la SEO, es aconsejable que cada una de las páginas web tenga una sola URL distinta.
+## La URL reescribe la demostración
 
-Si tiene una sola página accesible mediante varias direcciones URL o páginas diferentes con contenido similar, Google las verá como versiones duplicadas de la misma página. Google elige una dirección URL como versión canónica y rastrea esa y todas las demás direcciones URL se consideran direcciones URL duplicadas y se rastrean con menos frecuencia.
+Vea el siguiente vídeo para obtener más información sobre la administración de reescrituras de URL:
 
-Si no le indica explícitamente a Google qué dirección URL es canónica, hace la elección por usted o puede considerarlas de igual peso. Esto podría provocar un comportamiento no deseado y corre el riesgo de un presupuesto de rastreo ineficaz y de vínculos de retorno distribuidos bajos.
+>[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
 
-Según la configuración del sitio web, puede haber varias versiones del sitio en el índice, incluidas las siguientes:
+## Crear reescrituras de URL
 
-    https://www.example.com
-    https://www.example.com/
-    http://www.example.com
-    https://example.com
-    https://www.example.com/index.html
+Utilice la herramienta de reescritura de URL para crear redirecciones de productos y categorías, así como redirecciones personalizadas para cualquier página de la tienda. Cuando se aplica la configuración de reescritura de URL, los vínculos existentes que apuntan a la URL anterior se redirigen sin problemas a la nueva dirección.
 
-Para especificar una página canónica, consulte [Documentación de Google Search Central](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls).
+Puede crear reescrituras de URL en:
 
-## Configuración de reescrituras de URL
+* Añada palabras clave de alto valor para mejorar la forma en que los motores de búsqueda indexan el producto.
 
-La activación de las reescrituras de Apache del servidor web forma parte de la configuración inicial de Commerce. Commerce usa de forma rutinaria las reescrituras de direcciones URL para quitar el nombre de archivo `index.php` que normalmente aparece en la dirección URL justo después de la carpeta raíz. Cuando las reescrituras del servidor web están habilitadas, el sistema reescribe cada URL para omitir `index.php`. La reescritura elimina las palabras que no transmiten nada de valor a los motores de búsqueda o a los clientes, y no afecta al rendimiento ni a la clasificación del sitio.
+* Añada direcciones URL adicionales para un cambio temporal o estacional o permanente.
 
-URL sin reescritura de servidor web
+* Añada una ruta válida para una página, incluidas las páginas de contenido de CMS. Por ejemplo, puede crear una URL para crear una URL más fácil de usar o usar en un sistema que siempre haga referencia a productos y categorías por su ID interno.
+
+Las reescrituras de URL que cree pueden redireccionarse a categorías existentes o a páginas personalizadas sin cambiar la estructura del sitio, lo que facilita la creación de direcciones URL memorables para las campañas de marketing.
+
+![La URL reescribe la cuadrícula](./assets/url-rewrites.png){width="700" zoomable="yes"}
+
+Commerce ofrece estos tipos de reescritura de URL:
+
+* [Reescrituras de productos](url-rewrite-product.md)
+* [Reescrituras de categoría](url-rewrite-category.md)
+* [Reescrituras de páginas de CMS](url-rewrite-cms-page.md)
+* [Reescrituras personalizadas](url-rewrite-custom.md)
+
+### Casos de uso y ejemplos
+
+Las reescrituras de URL se utilizan comúnmente en estos casos:
+
+#### Cambiar una URL interna del sistema por una URL compatible con SEO
+
+Commerce utiliza direcciones URL basadas en ID internamente, pero puede crear direcciones URL compatibles con SEO para los clientes:
+
+**URL del sistema (interna):**
+
+    http://www.example.com/catalog/category/id/6
+
+**URL orientada al cliente:**
+
+    http://www.example.com/peripherals/keyboard.html
+
+#### Cambio de marca de producto u optimización de URL
+
+Cuando cambie el nombre de un producto o desee mejorar su dirección URL para SEO, cree una redirección para conservar los vínculos existentes:
+
+**URL original:**
+
+    http://www.example.com/peripherals/keyboard.html
+
+**Nueva URL optimizada:**
+
+    http://www.example.com/ergonomic-keyboard.html
+
+La herramienta de reescritura crea automáticamente una redirección 301 desde la antigua URL a la nueva, por lo que los clientes y motores de búsqueda se dirigen sin problemas a la página correcta.
+
+#### Páginas de aterrizaje promocionales
+
+Cree direcciones URL personalizadas temporales o permanentes para las campañas de marketing:
+
+**URL promocionales:**
+
+    http://www.example.com/all-on-sale.html
+    http://www.example.com/save-now/spring-sale
+
+## Configuración adicional de administración de URL
+
+En las secciones siguientes se describe cómo configurar las reescrituras de servidor web y las URL canónicas para Commerce.
+
+### Configurar reescrituras de servidor web
+
+>[!NOTE]
+>
+>En esta sección se describe la reescritura de URL en el servidor web, que es diferente de la capacidad de la herramienta de reescritura de URL. Las reescrituras de servidor web administran el formato técnico de URL (como quitar `index.php`), mientras que la herramienta de reescritura de URL administra las redirecciones para los cambios de contenido.
+
+La activación de las reescrituras del servidor web forma parte de la configuración inicial de Commerce y se suele configurar durante la instalación. Cuando está habilitado, el servidor web (Apache o Nginx) elimina automáticamente el nombre de archivo `index.php` de las direcciones URL, lo que crea direcciones más limpias y compatibles con la optimización de los motores de búsqueda.
+El siguiente ejemplo muestra cómo aparecen las direcciones URL con y sin las reescrituras del servidor web habilitadas:
+
+**URL sin reescritura de servidor web**
 
     http://www.yourdomain.com/magento/index.php/storeview/url-identifier
 
-URL con reescritura de servidor web
+**URL con reescritura de servidor web**
 
     http://www.yourdomain.com/magento/storeview/url-identifier
+
+#### Habilitar o deshabilitar las reescrituras de servidores web:
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -75,40 +148,20 @@ URL con reescritura de servidor web
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
-## Crear reescrituras de URL
+### Especificar URL canónicas
 
-Puede utilizar la herramienta de reescritura de URL para crear reescrituras de productos y categorías, y reescrituras personalizadas para cualquier página de la tienda. Cuando la reescritura entra en vigor, los vínculos existentes que apunten a la dirección URL anterior se redirigirán sin problemas a la nueva dirección.
+Para fines de la SEO, cada una de las páginas web debe tener una sola dirección URL distinta.
 
-Las reescrituras de URL se pueden utilizar para añadir palabras clave de alto valor para mejorar la forma en que los motores de búsqueda indexan el producto. También puede utilizar las reescrituras para crear direcciones URL adicionales para un cambio temporal estacional o permanente. Las reescrituras se pueden crear para cualquier ruta válida, incluidas las páginas de contenido de CMS. Internamente, el sistema siempre hace referencia a productos y categorías por su ID. Independientemente de la frecuencia con la que cambie la dirección URL, el ID sigue siendo el mismo. A continuación se indican algunas formas de utilizar una reescritura de URL:
+Si tiene una sola página accesible mediante varias direcciones URL o páginas diferentes con contenido similar, Google las verá como versiones duplicadas de la misma página. Google elige una dirección URL como versión canónica y rastrea esa y todas las demás direcciones URL se consideran direcciones URL duplicadas y se rastrean con menos frecuencia.
 
-URL del sistema
+Si no le indica explícitamente a Google qué dirección URL es canónica, hace la elección por usted o puede considerarlas de igual peso. Esto podría provocar un comportamiento no deseado y conlleva el riesgo de un presupuesto de rastreo ineficaz y de vínculos de retorno distribuidos bajos.
 
-    http://www.example.com/catalog/category/id/6
+Según la configuración del sitio web, puede haber varias versiones del sitio en el índice, por ejemplo:
 
-URL original
+    https://www.example.com
+    https://www.example.com/
+    http://www.example.com
+    https://example.com
+    https://www.example.com/index.html
 
-    http://www.example.com/peripherals/keyboard.html
-
-URL del producto redirigido
-
-    http://www.example.com/ergonomic-keyboard.html
-
-Direcciones URL de categoría adicionales
-
-    http://www.example.com/all-on-sale.html
-    http://www.example.com/save-now/spring-sale
-
-![La URL reescribe la cuadrícula](./assets/url-rewrites.png){width="700" zoomable="yes"}
-
-Commerce ofrece estos tipos de reescritura de URL:
-
-* [Reescrituras de productos](url-rewrite-product.md)
-* [Reescrituras de categoría](url-rewrite-category.md)
-* [Reescrituras de páginas de CMS](url-rewrite-cms-page.md)
-* [Reescrituras personalizadas](url-rewrite-custom.md)
-
-## La URL reescribe la demostración
-
-Vea este vídeo para obtener más información sobre la administración de reescrituras de URL:
-
->[!VIDEO](https://video.tv.adobe.com/v/3411821?quality=12&learn=on&captions=spa)
+Para especificar una página canónica, consulte [Documentación de Google Search Central](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls).
