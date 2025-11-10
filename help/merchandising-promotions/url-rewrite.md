@@ -49,7 +49,7 @@ De manera predeterminada, las [redirecciones automáticas de URL](url-redirect-p
 
 Vea el siguiente vídeo para obtener más información sobre la administración de reescrituras de URL:
 
->[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411821?captions=spa&quality=12&learn=on)
 
 ## Crear reescrituras de URL
 

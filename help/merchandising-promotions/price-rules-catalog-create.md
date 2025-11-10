@@ -219,7 +219,7 @@ La mayoría de las condiciones disponibles se basan en valores de atributo exist
 
 Vea este vídeo para obtener más información sobre la creación de reglas de precios de catálogo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410847?captions=spa&quality=12&learn=on)
 
 ## Descripciones de campos
 
