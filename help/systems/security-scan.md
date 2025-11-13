@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo ejecutar un análisis de seguridad
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 27c23a24b9435c5f94b483bafe5edb467aa14267
+source-git-commit: 5dd564185975216361918bda4954ed4a6fc8fee4
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1150'
 ht-degree: 0%
 
 ---
@@ -22,91 +22,137 @@ Supervise los sitios de Adobe Commerce y Magento Open Source en busca de riesgos
 - Acceda a informes de seguridad históricos que rastrean y supervisan el progreso de sus sitios.
 - Acceda al informe de análisis que muestra las comprobaciones correctas y fallidas, con las acciones recomendadas.
 
-La herramienta Security Scan Tool está disponible de forma gratuita en el tablero de su [cuenta de Commerce/Magento](../getting-started/commerce-account-create.md). Para obtener información técnica, consulte [Configuración de Security Scan Tool](https://experienceleague.adobe.com/es/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) en la _Guía de Commerce en la infraestructura de la nube_.
+La herramienta Security Scan Tool está disponible de forma gratuita en el tablero de su [cuenta de Commerce/Magento](../getting-started/commerce-account-create.md). Para obtener información técnica, consulte [Configuración de Security Scan Tool](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) en la _Guía de Commerce en la infraestructura de la nube_.
 
 ![Herramienta de exploración de seguridad](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
-## Realizar un análisis de seguridad
+## Flujo de trabajo
+
+Para configurar la Herramienta de análisis de seguridad para su sitio de Adobe Commerce o Magento Open Source, siga dos pasos:
+
+1. [Configurar el sitio para el análisis de seguridad](#step-1-set-up-your-site-for-security-scanning)
+2. [Configurar análisis de seguridad automáticos](#step-2-configure-automatic-security-scans)
+
+### Paso 1: Configurar el sitio para el análisis de seguridad
 
 1. En la página de inicio de Commerce, inicia sesión en tu [cuenta de Commerce/Magento](../getting-started/commerce-account-create.md).
 
-1. Revise y acepte las condiciones de uso de la Herramienta de exploración de seguridad.
+2. Revise y acepte las condiciones de uso de la Herramienta de exploración de seguridad.
 
    1. En el panel izquierdo, elija **[!UICONTROL Security Scan]**.
    1. Haga clic en **[!UICONTROL Go to Security Scan]**.
    1. Lea **[!UICONTROL Terms and Conditions]**.
    1. Haga clic en **[!UICONTROL Agree]** para continuar.
 
-1. En la página _[!UICONTROL Monitored Websites]_, haga clic en **[!UICONTROL +Add Site]**.
+3. En la página _[!UICONTROL Monitored Websites]_, haga clic en **[!UICONTROL +Add Site]**.
 
    Si tiene varios sitios con dominios diferentes, configure un análisis independiente para cada dominio.
 
    ![Sitios supervisados](./assets/monitored-website.png){width="600" zoomable="yes"}
 
-1. Para comprobar la propiedad del dominio del sitio agregando un código de confirmación, siga uno de estos procedimientos:
+4. Compruebe que es propietario del dominio del sitio generando y agregando un código de confirmación a la herramienta de análisis de seguridad.
 
-   **tienda Commerce**:
+   El proceso para agregar el código de confirmación varía según el tipo de tienda que uses. Sigue los pasos para el tipo de tienda.
 
-   1. Escriba **[!UICONTROL Site URL]** y **[!UICONTROL Site Name]**.
-   1. Haga clic en **[!UICONTROL Generate Confirmation Code]**.
-   1. Haga clic en **Copiar** para copiar el código de confirmación en el portapapeles.
+>[!BEGINTABS]
 
-      ![Generar código de confirmación](./assets/scan-site1.png){width="400" zoomable="yes"}
+>[!TAB tienda de Commerce]
 
-   1. Inicie sesión en el administrador de su tienda como usuario con privilegios de administrador completos y haga lo siguiente:
+1. Escriba **[!UICONTROL Site URL]** y **[!UICONTROL Site Name]**.
+1. Haga clic en **[!UICONTROL Generate Confirmation Code]**.
+1. Haga clic en **Copiar** para copiar el código de confirmación en el portapapeles.
 
-      1. En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
-      1. Busque el sitio en la lista y haga clic en **[!UICONTROL Edit]**.
-      1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL HTML Head]**.
-      1. Desplácese hacia abajo hasta **[!UICONTROL Scripts and Style Sheets]** y haga clic en el cuadro de texto al final de cualquier código existente. Pegue el código de confirmación en el cuadro de texto.
+   ![Generar código de confirmación](./assets/scan-site1.png){width="400" zoomable="yes"}
 
-         ![Scripts y hojas de estilo](./assets/scan-paste-code.png){width="600" zoomable="yes"}
+1. Inicie sesión en el administrador de su tienda como usuario con privilegios de administrador completos y haga lo siguiente:
 
-      1. Una vez finalizado, haga clic en **[!UICONTROL Save Configuration]**.
+   1. En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+   1. Busque el sitio en la lista y haga clic en **[!UICONTROL Edit]**.
+   1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL HTML Head]**.
+   1. Desplácese hacia abajo hasta **[!UICONTROL Scripts and Style Sheets]** y haga clic en el cuadro de texto al final de cualquier código existente. Pegue el código de confirmación en el cuadro de texto.
 
-   **tienda PWA**:
+      ![Scripts y hojas de estilo](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
-   1. Escriba **[!UICONTROL Site URL]** y **[!UICONTROL Site Name]**.
+   1. Una vez finalizado, haga clic en **[!UICONTROL Save Configuration]**.
 
-   1. Para **[!UICONTROL Confirmation Code]**, elija la opción `META Tag` y haga clic en **[!UICONTROL Generate Code]**.
+1. Vuelva a la página _[!UICONTROL Security Scan]_de su cuenta de Commerce y haga clic en **[!UICONTROL Verify Confirmation Code]**para establecer la propiedad del dominio.
 
-   1. Haga clic en **[!UICONTROL Copy]** para copiar el código de confirmación generado META Tag en el portapapeles.
+>[!TAB tienda de PWA]
 
-      ![Generar código de confirmación](./assets/scan-site2.png){width="400" zoomable="yes"}
+1. Escriba **[!UICONTROL Site URL]** y **[!UICONTROL Site Name]**.
 
-   1. Vaya al directorio del proyecto de la tienda PWA Studio y haga lo siguiente:
+1. Para **[!UICONTROL Confirmation Code]**, elija la opción `META Tag` y haga clic en **[!UICONTROL Generate Code]**.
 
-      1. En el directorio del proyecto de PWA Studio, vaya a `packages > venia-concept > template.html`.
-      1. Agregue el código de confirmación copiado (la etiqueta meta generada) al encabezado de HTML y guarde los cambios.
+1. Haga clic en **[!UICONTROL Copy]** para copiar el código de confirmación generado META Tag en el portapapeles.
 
-         ![Copiar código de confirmación](./assets/code-pwa.png){width="600" zoomable="yes"}
+   ![Generar código de confirmación](./assets/scan-site2.png){width="400" zoomable="yes"}
 
-      1. Vuelva a la CLI de PWA Studio y utilice un hilo para instalar las dependencias del proyecto y ejecutar el comando de generación del proyecto.
+1. Vaya al directorio del proyecto de la tienda PWA Studio y haga lo siguiente:
 
-         ```sh
-         yarn install &&
-         yarn build
-         ```
+   1. En el directorio del proyecto de PWA Studio, vaya a `packages > venia-concept > template.html`.
+   1. Agregue el código de confirmación copiado (la etiqueta de META generada) al encabezado de HTML y guarde los cambios.
 
-      1. *Cree una carpeta* en su proyecto de Cloud`pwa` y copie el contenido en la carpeta `dist` de su proyecto de tienda.
+      ![Copiar código de confirmación](./assets/code-pwa.png){width="600" zoomable="yes"}
 
-         ```sh
-         mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
-         ```
+   1. Vuelva a la CLI de PWA Studio y utilice un hilo para instalar las dependencias del proyecto y ejecutar el comando de generación del proyecto.
 
-      1. Utilice la herramienta CLI de Git para almacenar en zona intermedia, confirmar e insertar estos cambios en su proyecto de Cloud.
+      ```sh
+      yarn install &&
+      yarn build
+      ```
 
-         ```sh
-         git add . &&
-         git commit -m "Added storefront file bundles" &&
-         git push origin
-         ```
+   1. *Cree una carpeta* en su proyecto de Cloud`pwa` y copie el contenido en la carpeta `dist` de su proyecto de tienda.
 
-         Una vez completado el proceso de compilación, los cambios se implementarán en la tienda de PWA.
+      ```sh
+      mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
+      ```
 
-1. Vuelva a la página _[!UICONTROL Security Scan]_&#x200B;de su cuenta de Commerce y haga clic en **[!UICONTROL Verify Confirmation Code]**&#x200B;para establecer la propiedad del dominio.
+   1. Utilice la herramienta CLI de Git para almacenar en zona intermedia, confirmar e insertar estos cambios en su proyecto de Cloud.
 
-1. Después de una confirmación correcta, configure las opciones **[!UICONTROL Set Automatic Security Scan]** para uno de los siguientes tipos:
+      ```sh
+      git add . &&
+      git commit -m "Added storefront file bundles" &&
+      git push origin
+      ```
+
+      Una vez completado el proceso de compilación, los cambios se implementarán en la tienda de PWA.
+
+1. Vuelva a la página _[!UICONTROL Security Scan]_de su cuenta de Commerce y haga clic en **[!UICONTROL Verify Confirmation Code]**para establecer la propiedad del dominio.
+
+>[!TAB Tienda AEM]
+
+1. Escriba **[!UICONTROL Site URL]** y **[!UICONTROL Site Name]**.
+
+1. Para **[!UICONTROL Confirmation Code]**, elija la opción `HTML Content` o `META Tag` y haga clic en **[!UICONTROL Generate Code]**.
+
+1. Haga clic en **[!UICONTROL Copy]** para copiar el código de confirmación generado en el portapapeles.
+
+   ![Generar código de confirmación](./assets/scan-site3.png){width="400" zoomable="yes"}
+
+1. Vaya al directorio del proyecto de la tienda AEM y haga lo siguiente:
+
+   1. En el directorio del proyecto de la tienda AEM, vaya a `head.html`.
+   1. Agregue el código de confirmación copiado (el contenido de HTML generado o la etiqueta de META) al archivo `head.html` y guarde los cambios.
+
+   ![Copiar código de confirmación](./assets/code-aem.png){width="600" zoomable="yes"}
+
+1. Utilice la herramienta CLI de Git para almacenar en zona intermedia, confirmar e insertar estos cambios en el repositorio del proyecto.
+
+   ```sh
+   git add . &&
+   git commit -m "Added security scan confirmation code" &&
+   git push origin
+   ```
+
+   Una vez completado el proceso de compilación, los cambios se implementarán en la tienda de AEM.
+
+1. Vuelva a la página _[!UICONTROL Security Scan]_de su cuenta de Commerce y haga clic en **[!UICONTROL Verify Confirmation Code]**para establecer la propiedad del dominio.
+
+>[!ENDTABS]
+
+### Paso 2: Configurar análisis de seguridad automáticos
+
+1. Después de comprobar correctamente la propiedad del sitio, configure las opciones **[!UICONTROL Set Automatic Security Scan]** para uno de los siguientes tipos:
 
    **Análisis semanal (recomendado)**:
 
@@ -159,7 +205,7 @@ Entre los escenarios comunes en los que podría querer marcar un error de análi
 
 Para gestionar los errores de análisis identificados como falsos positivos, siga estos pasos:
 
-1. En la página _[!UICONTROL Monitored Websites]_, haga clic en **[!UICONTROL View Report]**&#x200B;para el sitio que desee administrar.
+1. En la página _[!UICONTROL Monitored Websites]_, haga clic en **[!UICONTROL View Report]**para el sitio que desee administrar.
 
 1. En la vista de informe, busque el análisis fallido que desee marcar como falso positivo.
 
@@ -169,7 +215,7 @@ Para gestionar los errores de análisis identificados como falsos positivos, sig
 
 1. Haga clic en **[!UICONTROL Apply Changes]** para guardar la selección.
 
-El error de análisis omitido se mueve a la sección _[!UICONTROL Ignored Results]_&#x200B;y se excluye de la puntuación de riesgo.
+El error de análisis omitido se mueve a la sección _[!UICONTROL Ignored Results]_y se excluye de la puntuación de riesgo.
 
 ### Dejar de omitir errores de análisis
 
@@ -183,7 +229,7 @@ Si necesita restaurar un fallo de análisis previamente ignorado a su monitoriza
 
 1. Haga clic en **[!UICONTROL Apply Changes]** para guardar la selección.
 
-El error de análisis vuelve a la sección _[!UICONTROL Failed Scans]_&#x200B;y se incluye en la puntuación de riesgo.
+El error de análisis vuelve a la sección _[!UICONTROL Failed Scans]_y se incluye en la puntuación de riesgo.
 
 ### Ver errores de análisis omitidos
 
