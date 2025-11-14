@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo ejecutar un análisis de seguridad
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 5dd564185975216361918bda4954ed4a6fc8fee4
+source-git-commit: 425004ece49f96fa102e9f46b9c5d15c89233334
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Supervise los sitios de Adobe Commerce y Magento Open Source en busca de riesgos
 - Acceda a informes de seguridad históricos que rastrean y supervisan el progreso de sus sitios.
 - Acceda al informe de análisis que muestra las comprobaciones correctas y fallidas, con las acciones recomendadas.
 
-La herramienta Security Scan Tool está disponible de forma gratuita en el tablero de su [cuenta de Commerce/Magento](../getting-started/commerce-account-create.md). Para obtener información técnica, consulte [Configuración de Security Scan Tool](https://experienceleague.adobe.com/es/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) en la _Guía de Commerce en la infraestructura de la nube_.
+La herramienta Security Scan Tool está disponible de forma gratuita en el tablero de su [cuenta de Commerce/Magento](../getting-started/commerce-account-create.md). Para obtener información técnica, consulte [Configuración de Security Scan Tool](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) en la _Guía de Commerce en la infraestructura de la nube_.
 
 ![Herramienta de exploración de seguridad](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
@@ -75,7 +75,7 @@ Para configurar la Herramienta de análisis de seguridad para su sitio de Adobe 
 
    1. Una vez finalizado, haga clic en **[!UICONTROL Save Configuration]**.
 
-1. Vuelva a la página _[!UICONTROL Security Scan]_&#x200B;de su cuenta de Commerce y haga clic en **[!UICONTROL Verify Confirmation Code]**&#x200B;para establecer la propiedad del dominio.
+1. Vuelva a la página _[!UICONTROL Security Scan]_de su cuenta de Commerce y haga clic en **[!UICONTROL Verify Confirmation Code]**para establecer la propiedad del dominio.
 
 >[!TAB tienda de PWA]
 
@@ -117,7 +117,7 @@ Para configurar la Herramienta de análisis de seguridad para su sitio de Adobe 
 
       Una vez completado el proceso de compilación, los cambios se implementarán en la tienda de PWA.
 
-1. Vuelva a la página _[!UICONTROL Security Scan]_&#x200B;de su cuenta de Commerce y haga clic en **[!UICONTROL Verify Confirmation Code]**&#x200B;para establecer la propiedad del dominio.
+1. Vuelva a la página _[!UICONTROL Security Scan]_de su cuenta de Commerce y haga clic en **[!UICONTROL Verify Confirmation Code]**para establecer la propiedad del dominio.
 
 >[!TAB Tienda AEM]
 
@@ -134,6 +134,10 @@ Para configurar la Herramienta de análisis de seguridad para su sitio de Adobe 
    1. En el directorio del proyecto de la tienda AEM, vaya a `head.html`.
    1. Agregue el código de confirmación copiado (el contenido de HTML generado o la etiqueta de META) al archivo `head.html` y guarde los cambios.
 
+   >[!NOTE]
+   >
+   >La comprobación de la propiedad del sitio solo funciona si la confirmación se agrega directamente al archivo `head.html` en el directorio del proyecto de tienda de AEM. No se puede agregar a través de herramientas de edición de páginas web como la creación de documentos o el editor universal.
+
    ![Copiar código de confirmación](./assets/code-aem.png){width="600" zoomable="yes"}
 
 1. Utilice la herramienta CLI de Git para almacenar en zona intermedia, confirmar e insertar estos cambios en el repositorio del proyecto.
@@ -146,7 +150,7 @@ Para configurar la Herramienta de análisis de seguridad para su sitio de Adobe 
 
    Una vez completado el proceso de compilación, los cambios se implementarán en la tienda de AEM.
 
-1. Vuelva a la página _[!UICONTROL Security Scan]_&#x200B;de su cuenta de Commerce y haga clic en **[!UICONTROL Verify Confirmation Code]**&#x200B;para establecer la propiedad del dominio.
+1. Vuelva a la página _[!UICONTROL Security Scan]_de su cuenta de Commerce y haga clic en **[!UICONTROL Verify Confirmation Code]**para establecer la propiedad del dominio.
 
 >[!ENDTABS]
 
@@ -205,7 +209,7 @@ Entre los escenarios comunes en los que podría querer marcar un error de análi
 
 Para gestionar los errores de análisis identificados como falsos positivos, siga estos pasos:
 
-1. En la página _[!UICONTROL Monitored Websites]_, haga clic en **[!UICONTROL View Report]**&#x200B;para el sitio que desee administrar.
+1. En la página _[!UICONTROL Monitored Websites]_, haga clic en **[!UICONTROL View Report]**para el sitio que desee administrar.
 
 1. En la vista de informe, busque el análisis fallido que desee marcar como falso positivo.
 
@@ -215,7 +219,7 @@ Para gestionar los errores de análisis identificados como falsos positivos, sig
 
 1. Haga clic en **[!UICONTROL Apply Changes]** para guardar la selección.
 
-El error de análisis omitido se mueve a la sección _[!UICONTROL Ignored Results]_&#x200B;y se excluye de la puntuación de riesgo.
+El error de análisis omitido se mueve a la sección _[!UICONTROL Ignored Results]_y se excluye de la puntuación de riesgo.
 
 ### Dejar de omitir errores de análisis
 
@@ -229,7 +233,7 @@ Si necesita restaurar un fallo de análisis previamente ignorado a su monitoriza
 
 1. Haga clic en **[!UICONTROL Apply Changes]** para guardar la selección.
 
-El error de análisis vuelve a la sección _[!UICONTROL Failed Scans]_&#x200B;y se incluye en la puntuación de riesgo.
+El error de análisis vuelve a la sección _[!UICONTROL Failed Scans]_y se incluye en la puntuación de riesgo.
 
 ### Ver errores de análisis omitidos
 
