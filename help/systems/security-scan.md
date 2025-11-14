@@ -22,7 +22,7 @@ Supervise los sitios de Adobe Commerce y Magento Open Source en busca de riesgos
 - Acceda a informes de seguridad históricos que rastrean y supervisan el progreso de sus sitios.
 - Acceda al informe de análisis que muestra las comprobaciones correctas y fallidas, con las acciones recomendadas.
 
-La herramienta Security Scan Tool está disponible de forma gratuita en el tablero de su [cuenta de Commerce/Magento](../getting-started/commerce-account-create.md). Para obtener información técnica, consulte [Configuración de Security Scan Tool](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) en la _Guía de Commerce en la infraestructura de la nube_.
+La herramienta Security Scan Tool está disponible de forma gratuita en el tablero de su [cuenta de Commerce/Magento](../getting-started/commerce-account-create.md). Para obtener información técnica, consulte [Configuración de Security Scan Tool](https://experienceleague.adobe.com/es/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) en la _Guía de Commerce en la infraestructura de la nube_.
 
 ![Herramienta de exploración de seguridad](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
