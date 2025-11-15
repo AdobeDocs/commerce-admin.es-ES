@@ -2,10 +2,10 @@
 title: Adición y eliminación de páginas
 description: Aprenda a agregar y quitar páginas de contenido utilizadas en su  [!DNL Commerce] tienda.
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 7ef8b9a1c56e4c8ee5ce8d3be30bf336c35a6241
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1201'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ Las siguientes instrucciones le guían a través de cada paso para crear una pá
 ### Paso 2: Completar el contenido
 
 Según la [configuración avanzada de herramientas de contenido](../configuration-reference/general/content-management.md), agregue el contenido de la página.
+
+>[!NOTE]
+>
+>El editor de contenido de Page Builder no muestra una previsualización de los elementos de página de CMS que no están disponibles para la vista de tienda predeterminada. Por ejemplo, no puede obtener una vista previa de un bloque de CMS que esté asignado únicamente a vistas de tienda no predeterminadas En este caso, primero debe publicar la página de CMS. A continuación, puede ver esta página directamente en la Tienda. También puede ver la página desde la cuadrícula [!UICONTROL Pages] en el Administrador seleccionando la página de CMS [!UICONTROL View] en la columna [!UICONTROL Action].
 
 #### Uso de las herramientas de contenido de Page Builder
 
@@ -78,7 +82,7 @@ Según la [configuración avanzada de herramientas de contenido](../configuratio
 
 1. Escriba su elección de **[!UICONTROL Meta Keywords]** de alto valor que los motores de búsqueda puedan usar para indexar la página.
 
-   Separe las palabras con comas. Algunos motores de búsqueda omiten las metapalabras clave, pero otros las utilizan.
+   Separe las palabras con comas. Algunos motores de búsqueda ignoran las palabras clave de Meta, pero otros las utilizan.
 
 1. Para **[!UICONTROL Meta Description]**, escriba una breve descripción de la página para los listados de resultados de búsqueda.
 
@@ -152,7 +156,7 @@ Según la [configuración avanzada de herramientas de contenido](../configuratio
 
 ### Paso 8: Publicar la página
 
-1. Seleccione **[!UICONTROL Edit]** en la columna _[!UICONTROL Action]_&#x200B;de la cuadrícula.
+1. Seleccione **[!UICONTROL Edit]** en la columna _[!UICONTROL Action]_de la cuadrícula.
 
 1. Establezca **[!UICONTROL Enable Page]** en `Yes`.
 
@@ -207,7 +211,7 @@ Cualquier página de contenido puede utilizarse como plantilla y guardarse como 
 
 ## Eliminación de una página
 
-Existen dos formas de eliminar una página creada. Puede quitarlo de la cuadrícula _[!UICONTROL Pages]_&#x200B;o de la página&#x200B;_[!UICONTROL Edit]_.
+Existen dos formas de eliminar una página creada. Puede quitarlo de la cuadrícula _[!UICONTROL Pages]_o de la página_[!UICONTROL Edit]_.
 
 ### Método 1: Quitar una página de la cuadrícula Páginas
 
@@ -225,7 +229,7 @@ Existen dos formas de eliminar una página creada. Puede quitarlo de la cuadríc
 
 1. Busque la página que desea eliminar.
 
-1. En la columna _[!UICONTROL Actions]_&#x200B;de la entidad de página, haga clic en **[!UICONTROL Select]**&#x200B;y elija **[!UICONTROL Edit]**.
+1. En la columna _[!UICONTROL Actions]_de la entidad de página, haga clic en **[!UICONTROL Select]**y elija **[!UICONTROL Edit]**.
 
 1. En la barra de botones, haga clic en **[!UICONTROL Delete Page]**.
 
