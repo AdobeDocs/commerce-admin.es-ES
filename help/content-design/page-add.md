@@ -2,7 +2,7 @@
 title: Adición y eliminación de páginas
 description: Aprenda a agregar y quitar páginas de contenido utilizadas en su  [!DNL Commerce] tienda.
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 source-git-commit: 7ef8b9a1c56e4c8ee5ce8d3be30bf336c35a6241
 workflow-type: tm+mt
 source-wordcount: '1201'
