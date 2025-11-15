@@ -156,7 +156,7 @@ Según la [configuración avanzada de herramientas de contenido](../configuratio
 
 ### Paso 8: Publicar la página
 
-1. Seleccione **[!UICONTROL Edit]** en la columna _[!UICONTROL Action]_de la cuadrícula.
+1. Seleccione **[!UICONTROL Edit]** en la columna _[!UICONTROL Action]_&#x200B;de la cuadrícula.
 
 1. Establezca **[!UICONTROL Enable Page]** en `Yes`.
 
@@ -211,7 +211,7 @@ Cualquier página de contenido puede utilizarse como plantilla y guardarse como 
 
 ## Eliminación de una página
 
-Existen dos formas de eliminar una página creada. Puede quitarlo de la cuadrícula _[!UICONTROL Pages]_o de la página_[!UICONTROL Edit]_.
+Existen dos formas de eliminar una página creada. Puede quitarlo de la cuadrícula _[!UICONTROL Pages]_&#x200B;o de la página&#x200B;_[!UICONTROL Edit]_.
 
 ### Método 1: Quitar una página de la cuadrícula Páginas
 
@@ -229,7 +229,7 @@ Existen dos formas de eliminar una página creada. Puede quitarlo de la cuadríc
 
 1. Busque la página que desea eliminar.
 
-1. En la columna _[!UICONTROL Actions]_de la entidad de página, haga clic en **[!UICONTROL Select]**y elija **[!UICONTROL Edit]**.
+1. En la columna _[!UICONTROL Actions]_&#x200B;de la entidad de página, haga clic en **[!UICONTROL Select]**&#x200B;y elija **[!UICONTROL Edit]**.
 
 1. En la barra de botones, haga clic en **[!UICONTROL Delete Page]**.
 
