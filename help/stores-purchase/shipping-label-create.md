@@ -3,7 +3,7 @@ title: Crear etiquetas y paquetes de envío
 description: Aprenda a empaquetar artículos en un pedido y a crear etiquetas de envío.
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-source-git-commit: cf57e136c7c3b6e8ba83afbbd539f4037c0ca486
+source-git-commit: be8a4e9d7cbcf34452724f8055980007794f525f
 workflow-type: tm+mt
 source-wordcount: '1944'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Siga las instrucciones proporcionadas por cada transportista para agregar compat
 
 United Parcel Service envía tanto a nivel nacional como internacional. Sin embargo, las etiquetas de envío solo se pueden generar para envíos que se originen dentro de Estados Unidos.
 
-1. En la sección _[!UICONTROL Sales]_&#x200B;del panel izquierdo, elija **[!UICONTROL Delivery Methods]**.
+1. En la sección _[!UICONTROL Sales]_del panel izquierdo, elija **[!UICONTROL Delivery Methods]**.
 
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL UPS]**.
 
@@ -145,7 +145,7 @@ DHL ofrece servicios de envío internacional.
 
 1. Agregar o actualizar productos en el paquete:
 
-   - Para agregar productos del pedido al paquete, haga clic en **[!UICONTROL Add Products]**. La columna _[!UICONTROL Quantity]_&#x200B;muestra la cantidad máxima de productos disponibles para el paquete.
+   - Para agregar productos del pedido al paquete, haga clic en **[!UICONTROL Add Products]**. La columna _[!UICONTROL Quantity]_muestra la cantidad máxima de productos disponibles para el paquete.
 
    - Seleccione la casilla de verificación de cada producto que se agregará al paquete e introduzca el **[!UICONTROL Quantity]** de cada uno. A continuación, haga clic en **[!UICONTROL Add Selected Product(s) to Package]**.
 
@@ -191,11 +191,11 @@ Las etiquetas de envío se generan en formato PDF y se pueden imprimir desde el 
 
    - **[!UICONTROL Sales]** > **[!UICONTROL Shipments]**: busque el envío en la cuadrícula y abra el registro.
 
-1. Para descargar el archivo de PDF, vaya a la sección _[!UICONTROL Shipping and Tracking]_&#x200B;del formulario y haga clic en **[!UICONTROL Print Shipping Label]**.
+1. Para descargar el archivo de PDF, vaya a la sección _[!UICONTROL Shipping and Tracking]_del formulario y haga clic en **[!UICONTROL Print Shipping Label]**.
 
    Según la configuración del navegador, las etiquetas de envío pueden verse e imprimirse directamente desde el archivo PDF.
 
-   El botón _[!UICONTROL Print Shipping Label]_&#x200B;solo aparece después de que el transportista genere etiquetas para el envío. Si falta el botón, haga clic en **[!UICONTROL Create Shipping Label]**. El botón aparece después de que Commerce reciba la etiqueta del operador.
+   El botón _[!UICONTROL Print Shipping Label]_solo aparece después de que el transportista genere etiquetas para el envío. Si falta el botón, haga clic en **[!UICONTROL Create Shipping Label]**. El botón aparece después de que Commerce reciba la etiqueta del operador.
 
 ### Método 2: Imprimir etiquetas para varios pedidos
 
@@ -224,7 +224,7 @@ Se imprime un juego completo de etiquetas de envío para cada envío relacionado
 
 ## Creación de paquetes
 
-La ventana _[!UICONTROL Create Packages]_&#x200B;aparece cuando elige crear una etiqueta de envío. Puede comenzar a configurar el primer paquete inmediatamente.
+La ventana _[!UICONTROL Create Packages]_aparece cuando elige crear una etiqueta de envío. Puede comenzar a configurar el primer paquete inmediatamente.
 
 ### Configuración de un paquete
 
@@ -236,7 +236,7 @@ La ventana _[!UICONTROL Create Packages]_&#x200B;aparece cuando elige crear una 
 
    - Especifique los productos y las cantidades.
 
-     La columna _[!UICONTROL Qty]_&#x200B;muestra la cantidad máxima disponible para agregar. Para el primer paquete, el número es la cantidad total del producto que se va a enviar.
+     La columna _[!UICONTROL Qty]_muestra la cantidad máxima disponible para agregar. Para el primer paquete, el número es la cantidad total del producto que se va a enviar.
 
    - Para agregar los productos al paquete, haga clic en **[!UICONTROL Add Selected Product(s) to Package]**.
 
@@ -291,3 +291,5 @@ Puede hacer clic en **[!UICONTROL Cancel]** para detener el proceso, si es neces
 [2]: https://www.ups.com/us/en/support/contact-us.page
 [3]: https://www.dhl.com/us-en/home/our-divisions/ecommerce-solutions.html
 [4]: https://www.usps.com/business/web-tools-apis/#ssc
+
+<!-- Last updated from includes: 2025-10-29 05:34:15 -->
