@@ -23,7 +23,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se ha aclarado cómo finalizar una venta de regla de precios activa en un momento específico en el que no se especificó una fecha de finalización en el tema <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes">Cambios programados para reglas de precios de catálogo</a>.<br />Se ha reorganizado el tema <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">reescrituras de URL</a> para mejorar los ejemplos, las definiciones conceptuales y las instrucciones de configuración de administración de URL adicionales para las reescrituras de servidor web y las URL canónicas.</p>
+      <td><p>Se ha aclarado cómo finalizar una venta de regla de precios activa en un momento específico en el que no se especificó una fecha de finalización en el tema <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes">Cambios programados para reglas de precios de catálogo</a>.<br />Se ha reorganizado el tema <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">reescrituras de URL</a> para mejorar los ejemplos, las definiciones conceptuales y las instrucciones de configuración de administración de URL adicionales para las reescrituras de servidor web y las URL canónicas.</p>
 </td>
       <td>
         Comentarios
@@ -45,7 +45,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se han actualizado las instrucciones de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers">Configuración de transportista de envío</a> con instrucciones para migrar de la API de herramientas web de USPS a las API de REST de USPS.</p>
+      <td><p>Se han actualizado las instrucciones de <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers">Configuración de transportista de envío</a> con instrucciones para migrar de la API de herramientas web de USPS a las API de REST de USPS.</p>
 </td>
       <td>
         Técnico, comentarios
@@ -67,7 +67,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se ha agregado documentación para la <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">extensión de estado de sincronización de fuentes de datos</a> con el fin de supervisar la sincronización de fuentes de exportación de datos de Adobe Commerce a la base de datos SaaS de Commerce para su publicación en servicios de Commerce conectados (Live Search, Product Recommendations, Catalog Service). La página Estado de sincronización de datos está disponible en el menú Sistemas del Administrador de Commerce.</p>
+      <td><p>Se ha agregado documentación para la <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">extensión de estado de sincronización de fuentes de datos</a> con el fin de supervisar la sincronización de fuentes de exportación de datos de Adobe Commerce a la base de datos SaaS de Commerce para su publicación en servicios de Commerce conectados (Live Search, Product Recommendations, Catalog Service). La página Estado de sincronización de datos está disponible en el menú Sistemas del Administrador de Commerce.</p>
 </td>
       <td>
         Nuevo tema
@@ -89,7 +89,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se agregó el parche de seguridad B2B de octubre de 2025 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">notas de la versión</a>.</p>
+      <td><p>Se agregó el parche de seguridad B2B de octubre de 2025 <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/b2b/release-notes">notas de la versión</a>.</p>
 </td>
       <td>
         Actualización importante
@@ -111,7 +111,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se agregó información sobre cómo ver y editar <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">atributos de pedidos personalizados</a> en el Administrador de Adobe Commerce as a Cloud Service.</p>
+      <td><p>Se agregó información sobre cómo ver y editar <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">atributos de pedidos personalizados</a> en el Administrador de Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
         Actualización importante
