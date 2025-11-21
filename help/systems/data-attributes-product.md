@@ -3,7 +3,7 @@ title: Referencia de atributos de datos del producto
 description: Utilice esta referencia de atributos de datos de productos cuando trabaje con importaciones y exportaciones de datos de productos.
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 976efad9fb4bb53f6f102fde534001d254cd3b9c
+source-git-commit: 3d02b1f6b3051aab133a57497bd0c30ac60bffde
 workflow-type: tm+mt
 source-wordcount: '2496'
 ht-degree: 0%
@@ -20,7 +20,7 @@ La instalación utilizada para exportar estos datos tiene instalados los datos d
 
 | Atributo | Descripción |
 |--- |--- |
-| `sku` | (Obligatorio) La unidad de mantenimiento de existencias es un identificador alfanumérico único que se utiliza para realizar el seguimiento del inventario. Un SKU puede tener hasta 64 caracteres de longitud. Por ejemplo: `sku123`<br/>**_Nota:_**&#x200B;Un SKU de más de 64 caracteres hace que la importación falle. |
+| `sku` | (Obligatorio) La unidad de mantenimiento de existencias es un identificador alfanumérico único que se utiliza para realizar el seguimiento del inventario. Un SKU puede tener hasta 64 caracteres de longitud. Por ejemplo: `sku123`<br/>**_Note:_** Un SKU con más de 64 caracteres hace que la importación falle. |
 | `store_view_code` | Identifica las vistas de tienda específicas donde el producto está disponible. Si está en blanco, el producto está disponible en la vista de tienda predeterminada. Por ejemplo: `storeview1`, `english`, `spanish` |
 | `attribute_set_code` | Asigna el producto a un conjunto de atributos o plantilla de producto específicos, según el tipo de producto. Por ejemplo: `default`<br><br>Una vez creado el producto, el conjunto de atributos no se puede cambiar mediante la funcionalidad de importación. Sin embargo, puede cambiar el conjunto de atributos desde Admin y volver a exportar el producto para actualizar el archivo CSV |
 | `product_type` | Indica el tipo de producto. Valores:<br/>`simple` — Artículos tangibles que normalmente se venden como unidades individuales o en cantidades fijas.<br/>`grouped`: grupo de productos independientes que se vende como un conjunto.<br/>`configurable`: un producto con varias opciones que el cliente debe seleccionar antes de realizar una compra. El inventario se puede administrar para cada conjunto de variaciones porque representan un producto independiente con un SKU distinto. Por ejemplo, una combinación de color y tamaño para un producto configurable está asociada a un SKU específico del catálogo.<br/>`virtual`: un producto no tangible que no requiere envío y no se guarda en el inventario. Algunos ejemplos son servicios, suscripciones y suscripciones.<br/>`bundle`: un conjunto de productos personalizable de productos simples que se venden juntos. |
@@ -40,8 +40,8 @@ La instalación utilizada para exportar estos datos tiene instalados los datos d
 | `url_key` | La parte de la dirección URL que identifica el producto. El valor predeterminado se basa en el nombre del producto. Por ejemplo: `product-name` |
 | save_rewrites_history | Cuando se proporciona el valor `1` con un nuevo `url_key`, se genera una nueva reescritura de dirección URL 301 para que la dirección URL antigua se redirija a la nueva. |
 | `meta_title` | El metatítulo aparece en la barra de título y en la pestaña del explorador y en las listas de resultados de búsqueda. El metatítulo debe ser único para el producto, incorporar palabras clave de alto valor y tener menos de 70 caracteres de longitud. |
-| `meta_keywords` | Las metapalabras clave solo son visibles para los motores de búsqueda y algunos motores de búsqueda las ignoran. Elija palabras clave de alto valor, separadas por una coma. Por ejemplo: `keyword1`, `keyword2`, `keyword3` |
-| `meta_description` | Las metadescripciones proporcionan una breve descripción del producto para las listas de resultados de búsqueda. Lo ideal es que una metadescripción tenga entre 150 y 160 caracteres de longitud, aunque el campo acepta hasta 255 caracteres. |
+| `meta_keywords` | Las palabras clave de Meta solo son visibles para los motores de búsqueda y algunos motores de búsqueda las ignoran. Elija palabras clave de alto valor, separadas por una coma. Por ejemplo: `keyword1`, `keyword2`, `keyword3` |
+| `meta_description` | Las descripciones de Meta proporcionan una breve descripción del producto para las listas de resultados de búsqueda. Lo ideal es que una metadescripción tenga entre 150 y 160 caracteres de longitud, aunque el campo acepta hasta 255 caracteres. |
 | `base_image` | La ruta relativa para la imagen principal de la página del producto. Commerce almacena los archivos internamente en una estructura de carpetas alfabética. Puede ver la ubicación exacta de cada imagen en los datos exportados. Por ejemplo: `/sample_data/m/b/mb01-blue-0.jpg`<br/>Para cargar una imagen nueva o escribir sobre una imagen existente, escriba el nombre del archivo, precedido de una barra diagonal. Por ejemplo: `/image.jpg` |
 | `base_image_label` | La etiqueta asociada con la imagen base. |
 | `small_image` | Nombre del archivo de la imagen pequeña que se utiliza en las páginas del catálogo, precedido de una barra diagonal. Por ejemplo: `/image.jpg` |
@@ -161,7 +161,7 @@ Importación/Exportación de Precios Avanzada le permite actualizar rápidamente
 
 | Atributo | Descripción |
 |--- |--- |
-| `sku` | (Obligatorio) La unidad de mantenimiento de existencias es un identificador alfanumérico único que se utiliza para realizar el seguimiento del inventario. Un SKU puede tener hasta 64 caracteres de longitud. Por ejemplo: `sku123`<br/>**_Nota:_**&#x200B;Un SKU de más de 64 caracteres hace que la importación falle. |
+| `sku` | (Obligatorio) La unidad de mantenimiento de existencias es un identificador alfanumérico único que se utiliza para realizar el seguimiento del inventario. Un SKU puede tener hasta 64 caracteres de longitud. Por ejemplo: `sku123`<br/>**_Note:_** Un SKU con más de 64 caracteres hace que la importación falle. |
 | `tier_price_website` | El [código de sitio web](../stores-purchase/stores.md#add-websites) identifica cada sitio web donde los precios de nivel están disponibles. Por ejemplo: `-  website1 -  All Websites [USD]` |
 | `tier_price_customer` | Identifica los [grupos de clientes](../customers/customer-groups.md) en los que los precios de nivel están disponibles. Por ejemplo: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_customer_group` | Identifica los grupos de clientes donde los precios de nivel están disponibles. Por ejemplo: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
