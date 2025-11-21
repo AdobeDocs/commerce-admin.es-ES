@@ -4,7 +4,7 @@ description: Revise la configuración en la página [!UICONTROL Advanced] &gt; [
 exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 role: Admin, Developer
 feature: Site Management, Configuration, System
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: ac364c1b3cab3988c135ade2c6de799c915cee8c
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 1%
@@ -52,7 +52,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Allow Symlinks] | Vista de tienda | Habilitar [vínculos simbólicos](https://en.wikipedia.org/wiki/Symbolic_link) puede exponer el sitio a riesgos de seguridad y no se recomienda para un almacén de producción. |
-| [!UICONTROL Minify Html] | Vista de tienda | Determina si se minimiza el HTML de las plantillas de tienda. Opciones: `Yes` / `No` |
+| [!UICONTROL Minify Html] | Vista de tienda | Determina si se minimiza HTML para plantillas de tienda. Opciones: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -121,7 +121,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Image Adapter] | Global | Especifica el adaptador que se utiliza para procesar imágenes. Después de cambiar la configuración del adaptador, vacíe la caché de imágenes del catálogo. Opciones: `PHP GD2` / `ImageMagick` <br/><br/>**_Nota:_**&#x200B;El tipo de archivo ICO solo es compatible con el adaptador ImageMagik. |
+| [!UICONTROL Image Adapter] | Global | Especifica el adaptador que se utiliza para procesar imágenes. Después de cambiar la configuración del adaptador, vacíe la caché de imágenes del catálogo. Opciones: `PHP GD2` / `ImageMagick` <br/><br/>**_Nota:_** El tipo de archivo ICO solo es compatible con el adaptador de ImageMagik. |
 
 {style="table-layout:auto"}
 
