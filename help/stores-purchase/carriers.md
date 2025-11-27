@@ -3,9 +3,9 @@ title: Configuración del transportista de envío
 description: Obtenga información acerca de la compatibilidad con las cuentas de envío comerciales disponibles en su tienda.
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ El 25 de enero de 2026, USPS retirará las API de herramientas web heredadas. De
 
 Para evitar interrupciones en los servicios de envío de USPS, tome las siguientes medidas antes del 25 de enero de 2026:
 
-- Aplique el [parche de calidad de migración de la API REST de USPS](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/usps-rest-api-migration-patch.html)&#x200B;(AC-1520) para agregar compatibilidad con la integración con las API REST de USPS.
+- Aplique el [parche de calidad de migración de la API REST de USPS](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) para agregar compatibilidad con la integración con las API REST de USPS.
 
 - Actualice la configuración de Commerce USPS para utilizar las API de REST:
 

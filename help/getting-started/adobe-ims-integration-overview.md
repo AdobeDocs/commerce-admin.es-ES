@@ -3,8 +3,8 @@ title: Información general sobre la integración de Adobe Identity Management S
 description: Presenta la integración opcional del inicio de sesión del administrador de Adobe Commerce con Adobe IMS
 exl-id: 106d731c-a541-4a19-a38c-221e80740508
 feature: Identity Management
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Para implementar esta integración, consulte [Configuración de la integración 
 
 ## Cambios en los flujos de trabajo de administración y la interfaz después de la integración con IMS
 
-Cuando esta integración está habilitada, los usuarios administradores de Commerce experimentan cambios en el inicio de sesión y en el flujo de trabajo de autenticación predeterminados de Commerce, ya que realizan tareas rutinarias en el administrador que requieren volver a autenticarse, como crear un usuario administrador. Se requiere la aplicación de autenticación de doble factor (2FA) en el nivel de organización de Adobe para la habilitación de módulos. El inicio de sesión de administrador predeterminado y 2FA están deshabilitados, y el botón _[!UICONTROL Sign In with Adobe ID]_&#x200B;reemplaza el formulario de inicio de sesión de administrador predeterminado. Los derechos se siguen administrando desde el administrador.
+Cuando esta integración está habilitada, los usuarios administradores de Commerce experimentan cambios en el inicio de sesión y en el flujo de trabajo de autenticación predeterminados de Commerce, ya que realizan tareas rutinarias en el administrador que requieren volver a autenticarse, como crear un usuario administrador. Se requiere la aplicación de autenticación de doble factor (2FA) en el nivel de organización de Adobe para la habilitación de módulos. El inicio de sesión de administrador predeterminado y 2FA están deshabilitados, y el botón _[!UICONTROL Sign In with Adobe ID]_reemplaza el formulario de inicio de sesión de administrador predeterminado. Los derechos se siguen administrando desde el administrador.
 
 ## Cómo afecta la integración de administradores con IMS a las contraseñas de Commerce
 
@@ -40,7 +40,7 @@ Las cuentas de usuario y los permisos de funciones para la aplicación de Commer
 
 Las API de administrador de Commerce se ven afectadas cuando la autenticación de administradores con Adobe IMS está habilitada en una instancia de Commerce. Los usuarios administradores ya no pueden utilizar las credenciales emitidas por la instancia de Commerce. Estas son las credenciales necesarias para iniciar sesión en el administrador y para obtener tokens de acceso que los servicios de puedan utilizar para realizar solicitudes a las API de REST y SOAP de administrador.
 
-Una vez habilitada la integración de Adobe IMS, los usuarios administradores deben usar [tokens de OAuth de Adobe IMS](https://developer.adobe.com/developer-console/docs/guides/authentication/OAuthIntegration/) para los extremos de la API de Adobe Commerce que requieran autenticación. Las soluciones de cliente obtienen los tokens de forma dinámica para el uso de API web. Este mecanismo de autenticación está habilitado para las áreas de API web de REST y SOAP como parte de la configuración de esta integración.
+Una vez habilitada la integración de Adobe IMS, los usuarios administradores deben usar [tokens de OAuth de Adobe IMS](https://developer.adobe.com/developer-console/docs/guides/authentication/) para los extremos de la API de Adobe Commerce que requieran autenticación. Las soluciones de cliente obtienen los tokens de forma dinámica para el uso de API web. Este mecanismo de autenticación está habilitado para las áreas de API web de REST y SOAP como parte de la configuración de esta integración.
 
 Consulte [Autenticación basada en tokens](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token/) para obtener información general sobre cómo las API web usan tokens de acceso de Commerce, incluidos los tokens de acceso de IMS.
 

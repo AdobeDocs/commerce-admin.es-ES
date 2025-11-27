@@ -3,7 +3,7 @@ title: Experiencias de tienda mejoradas
 description: Conozca las numerosas herramientas diseñadas para ayudarle a maximizar la participación, retención y lealtad de los clientes.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Además de los elementos estándar que permiten a los clientes realizar compras 
 
 <!-- This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=es)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
@@ -28,7 +28,7 @@ Adobe Commerce y Magento Open Source tienen muchas características que facilita
 
 - **Direcciones URL personalizadas**: especifica [direcciones URL personalizadas](../stores-purchase/store-urls.md) para que sean cortas, limpias y fáciles de recordar. También puede generar automáticamente URL fáciles de buscar para optimizar la ruta de compra.
 
-- **Metadatos**: mejore las clasificaciones de sus motores de búsqueda eligiendo criterios específicos que ayuden a los motores de búsqueda a encontrar e indexar sus productos con mayor facilidad. Puede escribir [metadatos](../merchandising-promotions/meta-data.md) para páginas de productos, categorías y contenido.
+- **Datos de Meta**: mejore las clasificaciones de los motores de búsqueda eligiendo criterios específicos que ayuden a los motores de búsqueda a encontrar e indexar sus productos con mayor facilidad. Puede escribir [metadatos](../merchandising-promotions/meta-data.md) para páginas de productos, categorías y contenido.
 
 - **Mapa del sitio**: vincula a un [mapa del sitio](../merchandising-promotions/sitemap-xml.md) desde el pie de página de tu tienda para ofrecer a los clientes una visión general de la estructura del catálogo, con enlaces a todas las categorías y productos de la tienda. Fácil integración con Google Sitemap.
 
@@ -84,7 +84,7 @@ Adobe Commerce y Magento Open Source ofrecen una serie de herramientas para ayud
 
 ## Optimizar los procesos empresariales y la rentabilidad
 
-- **[!DNL Advanced Reporting]**: obtenga información valiosa de un vistazo con los informes dinámicos de productos, pedidos y clientes, con tecnología de [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=es).
+- **[!DNL Advanced Reporting]**: obtenga información valiosa de un vistazo con los informes dinámicos de productos, pedidos y clientes, con tecnología de [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html).
 
 - **Instantáneas del panel**: Saber qué es lo que le interesa en el sitio es crucial para maximizar el presupuesto de marketing. Use esta [información en su tablero](admin-dashboard.md) para determinar qué debería realizar ventas cruzadas y ampliadas a clientes fieles o qué productos poner a la venta.
 
