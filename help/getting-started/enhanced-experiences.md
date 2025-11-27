@@ -16,7 +16,7 @@ Además de los elementos estándar que permiten a los clientes realizar compras 
 
 <!-- This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=es)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
@@ -84,7 +84,7 @@ Adobe Commerce y Magento Open Source ofrecen una serie de herramientas para ayud
 
 ## Optimizar los procesos empresariales y la rentabilidad
 
-- **[!DNL Advanced Reporting]**: obtenga información valiosa de un vistazo con los informes dinámicos de productos, pedidos y clientes, con tecnología de [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html).
+- **[!DNL Advanced Reporting]**: obtenga información valiosa de un vistazo con los informes dinámicos de productos, pedidos y clientes, con tecnología de [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=es).
 
 - **Instantáneas del panel**: Saber qué es lo que le interesa en el sitio es crucial para maximizar el presupuesto de marketing. Use esta [información en su tablero](admin-dashboard.md) para determinar qué debería realizar ventas cruzadas y ampliadas a clientes fieles o qué productos poner a la venta.
 
