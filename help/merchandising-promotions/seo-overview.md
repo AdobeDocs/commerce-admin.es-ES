@@ -3,9 +3,9 @@ title: Optimización del motor de búsqueda
 description: Obtenga información acerca de las herramientas de optimización de los motores de búsqueda (SEO) para sitios de Commerce y las prácticas recomendadas para una SEO óptima.
 exl-id: ba09159a-1b40-4592-8758-f7072dab4589
 feature: Merchandising, Products, Search
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+source-git-commit: c8649d9107a92b15a1c9af8ae5d2ad0e8e34e64e
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -16,23 +16,23 @@ _Optimización de motores de búsqueda_ (SEO) es la práctica de ajustar el cont
 
 >[!TIP]
 >
->Para Adobe Commerce as a Cloud Service, consulte las [directrices SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=es) en la documentación de Commerce Storefront
+>Para Adobe Commerce as a Cloud Service, consulte las [directrices SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) en la documentación de Commerce Storefront
 
 ## Metadatos
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 Obtenga más información sobre cómo agregar y mejorar [metadatos](meta-data.md) con abundancia de palabras clave para su sitio y tienda.
 
 ## Uso de un mapa del sitio
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 Un [mapa del sitio](sitemap-xml.md) mejora la forma en que los motores de búsqueda indizan su tienda y está diseñado para encontrar páginas que podrían pasar por alto los rastreadores web. Se puede configurar un mapa del sitio para indexar todas las páginas e imágenes.
 
 ## Reescrituras de URL
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 La herramienta [Reescritura de URL](url-rewrite.md) le permite cambiar cualquier URL asociada a un producto, categoría o página de CMS.
 
@@ -90,8 +90,8 @@ De forma predeterminada, el archivo robots.txt generado por Commerce contiene in
      |------|------------|
      | `INDEX, FOLLOW` | Indica a los rastreadores web que indexen el sitio y que vuelvan más tarde para ver si hay cambios. |
      | `NOINDEX, FOLLOW` | Indica a los rastreadores web que eviten indizar el sitio, pero que vuelvan más tarde para ver si hay cambios. |
-     | `INDEX, NOFOLLOW` | Indica a los rastreadores web que indiquen el sitio una vez, pero que no vuelvan más tarde para ver si hay cambios. |
-     | `NOINDEX, NOFOLLOW` | Indica a los rastreadores web que eviten indizar el sitio y que no vuelvan más tarde para ver si hay cambios. |
+     | `INDEX, NOFOLLOW` | Indica a los rastreadores web que indiquen el sitio una vez, pero que no sigan ningún vínculo de la página. |
+     | `NOINDEX, NOFOLLOW` | Indica a los rastreadores web que eviten indizar el sitio y que no sigan ningún vínculo de la página. |
 
      {style="table-layout:auto"}
 
