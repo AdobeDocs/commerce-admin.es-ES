@@ -150,7 +150,7 @@ Los siguientes pasos muestran cómo agregar configuraciones para varias variacio
 
 ### Paso 6: Elegir atributos de variación
 
-1. Desplácese hasta la sección _[!UICONTROL Configurations]_y haga clic en **[!UICONTROL Create Configurations]**.
+1. Desplácese hasta la sección _[!UICONTROL Configurations]_&#x200B;y haga clic en **[!UICONTROL Create Configurations]**.
 
    ![Configuraciones](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -254,7 +254,7 @@ _Comerciantes de Source únicos :_
 
 Escriba **[!UICONTROL Quantity]**.
 
-_Varios comerciantes de Source con [Inventory management ](../inventory-management/introduction.md):_
+_Varios comerciantes de Source con [Inventory management &#x200B;](../inventory-management/introduction.md):_
 
 Asigne orígenes y añada cantidades para todas las variantes de producto generadas:
 
@@ -274,7 +274,7 @@ _Comerciantes de Source únicos :_
 
 Escriba **[!UICONTROL Quantity]** para cada valor de atributo.
 
-_Varios comerciantes de Source con [Inventory management ](../inventory-management/introduction.md):_
+_Varios comerciantes de Source con [Inventory management &#x200B;](../inventory-management/introduction.md):_
 
 Asigne orígenes y añada cantidades para todas las variantes de producto generadas:
 
