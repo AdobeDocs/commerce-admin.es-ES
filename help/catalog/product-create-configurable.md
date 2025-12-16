@@ -3,38 +3,46 @@ title: Producto configurable
 description: Aprenda a crear un producto configurable que proporcione a los compradores variaciones para su selección.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: ee7928b50ddd07e757c71ce5bed84619f1437410
+source-git-commit: 6fcbcd3b7cace10f0841a46b3cd27343862b3f3b
 workflow-type: tm+mt
-source-wordcount: '2506'
+source-wordcount: '1981'
 ht-degree: 0%
 
 ---
 
 # Producto configurable
 
-Un producto configurable parece un único producto con una lista desplegable de cada variación. Cada elemento de la lista es en realidad un producto simple independiente con un SKU único, que permite rastrear el inventario para cada variación de producto. Podría lograr un efecto similar utilizando un producto simple con opciones personalizadas, pero sin la capacidad de realizar un seguimiento del inventario para cada variación.
+Un producto configurable se muestra como un único producto con opciones desplegables para variaciones (como color o tamaño). Cada variación es un producto simple independiente con su propio SKU, lo que permite el seguimiento de inventario individual, a diferencia de los productos simples con opciones personalizadas.
 
-Las siguientes instrucciones muestran el proceso de creación de un producto configurable mediante una [plantilla de producto](attribute-sets.md), los campos obligatorios y la configuración básica. Cada campo obligatorio está marcado con un asterisco rojo (`*`). Cuando termine los conceptos básicos, puede completar el resto de la configuración del producto según sea necesario.
+**Ideal para:** productos con varias opciones (color, tamaño, material, etc.) en las que necesita realizar un seguimiento del inventario para cada variación. La configuración inicial tarda más tiempo, pero ofrece una mejor escalabilidad.
 
 ![Producto configurable](./assets/product-configurable.png){width="700" zoomable="yes"}
 
-## Parte 1: Creación de un producto configurable
+## Antes de empezar
 
-Aunque un producto configurable utiliza más SKU y puede tardar un poco más en configurarse, puede ahorrarle tiempo al final. Si planea hacer crecer su negocio, el tipo de producto configurable es una buena opción para productos con varias opciones.
+### Lista de comprobación de requisitos previos
 
-Antes de empezar, prepare un [conjunto de atributos](attribute-sets.md) que incluya un atributo que esté establecido en uno de los tipos de entrada permitidos para cada variación de producto. Por ejemplo, el conjunto de atributos puede incluir atributos desplegables de color y tamaño.
+Antes de crear un producto configurable, asegúrese de lo siguiente:
 
-Las propiedades de cada atributo que se utiliza para una variación de producto configurable deben tener la siguiente configuración:
+1. **Conjunto de atributos**: un conjunto de atributos que incluye atributos de variación (como color y tamaño)
+1. **Atributos de variación creados** - Atributos configurados con la siguiente configuración
+1. **Imágenes del producto** - (Opcional pero recomendada) Imágenes para el producto principal y cada variación
 
-### Requisitos de atributos de variación del producto
+### Requisitos de atributos
 
-| Propiedad | Configuración |
+Cada atributo utilizado para las variaciones de productos debe tener esta configuración:
+
+| Propiedad | Configuración requerida |
 |--- |--- |
 | [!UICONTROL Scope] | `Global` |
-| [!UICONTROL Catalog Input Type for Store Owner] | El tipo de entrada de cualquier atributo utilizado para una variación de producto debe ser uno de los siguientes: `Dropdown`, `Visual Swatch` o `Text Swatch`. |
+| [!UICONTROL Catalog Input Type for Store Owner] | `Dropdown`, `Visual Swatch` o `Text Swatch` |
 | [!UICONTROL Values Required] | `Yes` |
 
 {style="table-layout:auto"}
+
+Para obtener instrucciones sobre cómo crear atributos, consulte [Atributos de producto](product-attributes.md).
+
+## Fase 1: crear la base del producto
 
 ### Paso 1: Elija el tipo de producto
 
@@ -46,30 +54,34 @@ Las propiedades de cada atributo que se utiliza para una variación de producto 
 
 ### Paso 2: Selección del conjunto de atributos
 
-El [conjunto de atributos](attribute-sets.md) determina la selección de campos que se utilizan en el producto. El conjunto de atributos que se utiliza en el ejemplo siguiente tiene atributos para el color y el tamaño. El nombre del conjunto de atributos se indica en la parte superior de la página y se establece inicialmente en `Default`.
+El [conjunto de atributos](attribute-sets.md) determina qué campos aparecen en el formulario del producto y qué atributos están disponibles para las variaciones.
 
-1. Para elegir el conjunto de atributos del producto, haga clic en el campo en la parte superior de la página y realice una de las siguientes acciones:
+1. Haga clic en el campo del conjunto de atributos en la parte superior de la página y realice una de las siguientes acciones:
 
    - Para **[!UICONTROL Search]**, escriba el nombre del conjunto de atributos.
    - En la lista, elija el conjunto de atributos que desea utilizar.
 
-   El formulario se actualiza para reflejar el cambio.
+   El formulario se actualiza para reflejar el conjunto de atributos seleccionado.
 
-1. Si desea agregar otro atributo al conjunto de atributos, haga clic en **[!UICONTROL Add Attribute]** y siga las instrucciones de [Agregar un atributo](product-attributes-add.md).
+1. Si necesita agregar otro atributo al conjunto de atributos, haga clic en **[!UICONTROL Add Attribute]** y siga las instrucciones de [Agregar un atributo](product-attributes-add.md).
 
    ![Elegir plantilla](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
 
-### Paso 3: complete la configuración necesaria
+### Paso 3: Introducir información básica
 
 1. Escriba el producto **[!UICONTROL Product Name]**.
 
-1. Acepte el valor predeterminado **[!UICONTROL SKU]** basado en el nombre del producto o escriba otro.
+1. Acepte el valor predeterminado **[!UICONTROL SKU]** basado en el nombre del producto o escriba un valor diferente.
 
 1. Escriba el producto **[!UICONTROL Price]**.
 
+   >[!NOTE]
+   >
+   >Este precio se anula con los precios de los productos secundarios. El precio real que se muestra a los clientes proviene de [!UICONTROL In Stock] productos secundarios.
+
 1. Dado que el producto aún no está listo para publicarse, establezca **[!UICONTROL Enable Product]** en `No`.
 
-1. haga clic en **[!UICONTROL Save]** y continúe.
+1. Haga clic en **[!UICONTROL Save]** y continúe.
 
    Cuando se guarda el producto, aparece el selector [Vista de tienda](introduction.md#product-scope) en la esquina superior izquierda.
 
@@ -84,65 +96,65 @@ El [conjunto de atributos](attribute-sets.md) determina la selección de campos 
    - `None`
    - `Taxable Goods`
 
-1. El **[!UICONTROL Quantity]** está determinado por las variaciones de productos, por lo que puede dejarlo en blanco.
+1. Deje **[!UICONTROL Quantity]** en blanco. La cantidad está determinada por las variaciones del producto.
 
-1. Deje **[!UICONTROL Stock Status]** como está configurado.
+1. Deje **[!UICONTROL Stock Status]** como se estableció.
 
-   El estado de stock de un producto configurable viene determinado por cada configuración asociada. Como el producto se guardó sin escribir una cantidad, **[!UICONTROL Stock Status]** se establece en `Out of Stock`.
+   El estado de stock de un producto configurable viene determinado por sus variaciones asociadas. Como el producto se guardó sin cantidad, **[!UICONTROL Stock Status]** se establece en `Out of Stock`.
 
    >[!NOTE]
    >
-   >El **estado de stock** del producto configurable es una configuración controlada de **_forma semimanual_**. Está parcialmente controlado por el estado de existencias de sus productos secundarios. Forma parte de un cálculo del estado de las existencias de **_varios criterios_**, que se describe en la sección [Configurar el estado de las existencias](#configure-the-stock-status).
+   >El **estado de stock** de un producto configurable es un ajuste controlado **_semimanualmente_**, parcialmente basado en el estado de stock de sus productos secundarios. Forma parte del cálculo del estado de las existencias de **_varios criterios_**. Consulte [Configurar el estado de las existencias](#configure-stock-status) para obtener más información.
 
 1. Escriba el producto **[!UICONTROL Weight]**.
 
->[!NOTE]
->
->Un producto configurable siempre debe tener un peso. Si selecciona **[!UICONTROL This item has no weight]** en la lista desplegable, se cambiará automáticamente a **[!UICONTROL This item has weight]** después de guardar el producto.
+   >[!NOTE]
+   >
+   >Un producto configurable siempre debe tener un peso. Si selecciona **[!UICONTROL This item has no weight]** en el menú desplegable, cambiará automáticamente a **[!UICONTROL This item has weight]** cuando guarde el producto.
 
 1. Acepte la configuración predeterminada **[!UICONTROL Visibility]** de `Catalog, Search`.
 
 1. Para incluir el producto en la lista de [nuevos productos](../content-design/widget-new-products-list.md), seleccione la casilla de verificación **[!UICONTROL Set Product as New]**.
 
-1. Para asignar categorías al producto, haga clic en el cuadro **[!UICONTROL Select…]** y realice una de las acciones siguientes:
+1. Para asignar categorías al producto, haga clic en el cuadro **[!UICONTROL Select…]** y realice una de las siguientes acciones:
 
-   **Elija una categoría existente**:
+   **Elija una categoría existente:**
 
-   - Empiece a escribir en el cuadro hasta que encuentre una coincidencia.
+   - Empiece a escribir en el cuadro para encontrar una coincidencia.
 
-   - Seleccione la casilla de verificación de la categoría que se va a asignar.
+   - Seleccione la casilla de verificación de cada categoría que desee asignar.
 
    ![Seleccione una o más categorías para el producto del paquete](./assets/product-create-categories.png){width="600" zoomable="yes"}
 
-   **Crear una categoría**:
+   **Crear una nueva categoría:**
 
    - Haga clic en **[!UICONTROL New Category]**.
 
-   - Escriba **[!UICONTROL Category Name]** y elija **[!UICONTROL Parent Category]**, que determina su posición en la estructura de menú.
+   - Escriba **[!UICONTROL Category Name]** y elija **[!UICONTROL Parent Category]** para determinar su posición en la estructura de menú.
 
-   s- Haga clic en **[!UICONTROL Create Category]**.
+   - Haga clic en **[!UICONTROL Create Category]**.
 
 1. Elija **[!UICONTROL Country of Manufacture]**.
 
-   Puede haber atributos adicionales que se usan para describir el producto. La selección varía según el conjunto de atributos y puede completarla más adelante.
+   Pueden aparecer atributos adicionales en función del conjunto de atributos. Puede completarlas más adelante.
 
 ### Paso 5: Guardar y continuar
 
-Ahora es un buen momento para guardar su trabajo. En la esquina superior derecha, haga clic en **[!UICONTROL Save]**. En la siguiente serie de pasos, debe configurar las configuraciones para cada variación del producto.
+Este es un buen momento para guardar su trabajo. Haga clic en **[!UICONTROL Save]** en la esquina superior derecha. En la siguiente fase, se configuran las opciones de configuración para cada variación.
 
-## Parte 2: Añadir configuraciones
+## Fase 2: Agregar variaciones de productos
 
-En el siguiente ejemplo se muestra cómo agregar configuraciones para tres colores y tres tamaños. En total, se crean nueve productos simples con SKU únicos para cubrir cada combinación posible de variaciones. De forma predeterminada, el nombre y el SKU del producto de cada variación se basan en el valor del atributo y en el nombre o el SKU del producto principal.
+Los siguientes pasos muestran cómo agregar configuraciones para varias variaciones. La barra de progreso de la parte superior de la página muestra la posición actual en el proceso.
 
-La barra de progreso de la parte superior de la página muestra dónde se encuentra en el proceso y le guía a través de cada paso.
+**Ejemplo:** Para una camisa con 3 colores y 3 tallas, crearás 9 productos simples con SKU únicas (una para cada combinación). De forma predeterminada, el nombre de producto y el SKU de cada variación se basan en el valor de atributo y el nombre de producto o SKU principal.
 
-### Paso 1: Elija los atributos
+### Paso 6: Elegir atributos de variación
 
-1. Continuando desde arriba, desplácese hacia abajo hasta la sección _[!UICONTROL Configurations]_&#x200B;y haga clic en **[!UICONTROL Create Configurations]**.
+1. Desplácese hasta la sección _[!UICONTROL Configurations]_y haga clic en **[!UICONTROL Create Configurations]**.
 
    ![Configuraciones](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
-1. Seleccione la casilla de verificación de cada atributo que desee incluir como configuración.
+1. Seleccione la casilla de verificación de cada atributo para incluirlo como una variación.
 
    Para este ejemplo, `color` y `size` están seleccionados.
 
@@ -150,7 +162,7 @@ La barra de progreso de la parte superior de la página muestra dónde se encuen
 
    La lista incluye todos los atributos del conjunto de atributos que se pueden utilizar en un producto configurable.
 
-1. Si desea agregar un atributo, haga clic en **[!UICONTROL Create New Attribute]** y haga lo siguiente:
+1. Si necesita agregar un atributo, haga clic en **[!UICONTROL Create New Attribute]** y haga lo siguiente:
 
    - Complete las propiedades del atributo.
 
@@ -158,9 +170,9 @@ La barra de progreso de la parte superior de la página muestra dónde se encuen
 
    - Seleccione la casilla de verificación del atributo.
 
-1. En la esquina superior derecha, haga clic en **[!UICONTROL Next]**.
+1. Haga clic en **[!UICONTROL Next]** en la esquina superior derecha.
 
-### Paso 2: Introduzca los valores de atributo
+### Paso 7: Seleccionar valores de atributo
 
 1. Para cada atributo, seleccione la casilla de los valores que se aplican al producto.
 
@@ -172,43 +184,45 @@ La barra de progreso de la parte superior de la página muestra dónde se encuen
 
 1. En la barra de progreso, haga clic en **[!UICONTROL Next]**.
 
-### Paso 3: Configurar las imágenes, el precio y la cantidad
+### Paso 8: Configurar imágenes, precios e inventario
 
-Este paso determina las imágenes, los precios y la cantidad de cada configuración. Las opciones disponibles son las mismas para cada una y solo puede elegir una. Puede aplicar la misma configuración a todos los SKU, aplicar una configuración única a cada SKU u omitir la configuración por ahora.
+Este paso determina las imágenes, los precios y la cantidad de cada configuración. Las opciones disponibles son las mismas para cada una. Puede aplicar la misma configuración a todos los SKU, aplicar configuraciones únicas a cada SKU u omitir la configuración por ahora.
 
-Elija las opciones de configuración aplicables.
+#### Configuración de imágenes
 
-Utilice uno de los siguientes métodos para configurar **[!UICONTROL images]**:
+Elija la opción de configuración que se aplica:
 
-**Método 1:** Aplicar un solo conjunto de imágenes a todos los SKU
+**Opción 1: aplicar un solo conjunto de imágenes a todos los SKU**
 
 1. Seleccione **[!UICONTROL Apply single set of images to all SKUs]**.
 
-1. Busque todas las imágenes que desee incluir en la galería de productos o arrástrelas al cuadro.
+1. Examine cada imagen para incluirla en la galería de productos o arrastre imágenes al cuadro.
 
 ![Usar las mismas imágenes para todos los SKU](./assets/product-configurations-images-apply-single-set.png){width="600" zoomable="yes"}
 
-**Método 2:** Aplicar imágenes únicas para cada SKU
+**Opción 2: aplicar imágenes únicas para cada SKU**
 
-Como la imagen del producto principal ya se ha cargado, puede utilizar esta opción para cargar una imagen de cada color. Puede añadir una imagen diferente que aparezca en el carro de compras cuando alguien compre el artículo en un color específico.
+Dado que la imagen del producto principal ya se ha cargado, utilice esta opción para cargar imágenes para cada variación. Puede agregar diferentes imágenes que aparecerán en el carro de compras cuando alguien compre una variación específica.
 
 1. Seleccione **[!UICONTROL Apply unique images by attribute to each SKU]**.
 
 1. Seleccione el(la) **[!UICONTROL Attribute]** que ilustran las imágenes, como `color`.
 
-1. Para cada valor de atributo, vaya a las imágenes que desee utilizar para esa configuración o arrástrelas al cuadro.
+1. Para cada valor de atributo, examine las imágenes que desea utilizar para esa configuración o arrástrelas al cuadro.
 
-   Si arrastra la imagen a un cuadro de valor, también aparecerá en las secciones de los demás valores. Si desea eliminar una imagen, haga clic en el icono _Papelera_ (![Icono de papelera](../assets/icon-delete-trashcan-solid.png)).
+   Si arrastra una imagen a un cuadro de valor, también aparecerá en las secciones de otros valores. Para eliminar una imagen, haz clic en el icono _Papelera_ (![Icono de papelera](../assets/icon-delete-trashcan-solid.png)).
 
    ![Imágenes únicas por SKU](./assets/product-configurable-create-configurations-add-images-unique.png){width="600" zoomable="yes"}
 
-Utilice uno de los siguientes métodos para configurar **[!UICONTROL prices]**:
+#### Configurar precios
 
 >[!NOTE]
 >
 >Un producto configurable no tiene su propio precio en el catálogo. El precio de producto configurable se deriva de sus [!UICONTROL In Stock] productos secundarios.
 
-**Método 1:** Aplicar el mismo precio a todos los SKU
+Elija la opción de configuración que se aplica:
+
+**Opción 1: aplicar el mismo precio a todos los SKU**
 
 1. Si el precio es el mismo para todas las variaciones, seleccione **[!UICONTROL Apply single price to all SKUs]**.
 
@@ -216,9 +230,9 @@ Utilice uno de los siguientes métodos para configurar **[!UICONTROL prices]**:
 
    ![Mismo precio por SKU](./assets/product-configurable-create-configurations-price-all-skus.png){width="600" zoomable="yes"}
 
-**Método 2:** Aplicar un precio diferente para cada SKU
+**Opción 2: aplicar un precio diferente para cada SKU**
 
-1. Si el precio difiere para cada una o para algunas variaciones del producto, seleccione **[!UICONTROL Apply unique prices by attribute to each SKU]**.
+1. Si el precio difiere para cada una o algunas variaciones, seleccione **[!UICONTROL Apply unique prices by attribute to each SKU]**.
 
 1. Seleccione el **[!UICONTROL Attribute]** que es la base de la diferencia de precio.
 
@@ -228,41 +242,51 @@ Utilice uno de los siguientes métodos para configurar **[!UICONTROL prices]**:
 
    ![Precio único por SKU](./assets/product-configurable-create-configurations-price-unique.png){width="600" zoomable="yes"}
 
-Utilice uno de los siguientes métodos para configurar **[!UICONTROL Quantity]**:
+#### Configurar inventario
 
-**Método 1:** Aplicar la misma cantidad a todos los SKU
+Elija la opción de configuración que se aplica:
+
+**Opción 1: aplicar la misma cantidad a todos los SKU**
 
 Si la cantidad es la misma para todas las SKU, seleccione **[!UICONTROL Apply single quantity to each SKU]** y especifique la cantidad.
 
-_Comerciantes de origen único_ - Escriba **[!UICONTROL Quantity]**.
+_Comerciantes de Source únicos :_
 
-_Comerciantes de varios Source que usan [Inventory management](../inventory-management/introduction.md)_: asigne orígenes y agregue cantidades para todas las variantes de productos generadas:
+Escriba **[!UICONTROL Quantity]**.
+
+_Varios comerciantes de Source con [Inventory management ](../inventory-management/introduction.md):_
+
+Asigne orígenes y añada cantidades para todas las variantes de producto generadas:
 
 1. Seleccione la opción **[!UICONTROL Apply single quantity to each SKU]**.
 
 1. Para agregar un origen, haga clic en **[!UICONTROL Assign Sources]**.
 
-1. Busque o examine un origen que desee agregar. Seleccione la casilla de verificación situada junto a los orígenes que desee agregar para el producto.
+1. Busque o examine un origen para agregar. Seleccione la casilla de verificación situada junto a los orígenes del producto.
 
 1. Introduzca un importe de inventario disponible por origen.
 
    ![Cantidad única para todos los SKU, asignar origen](./assets/inventory-configure-product-quantity.png){width="600" zoomable="yes"}
 
-**Método 2:** Aplicar cantidad diferente por atributo
+**Opción 2: Aplicar cantidad diferente por atributo**
 
-_Comerciantes de origen único_ - Escriba **[!UICONTROL Quantity]**.
+_Comerciantes de Source únicos :_
 
-_Comerciantes de varios Source que usan [Inventory management](../inventory-management/introduction.md)_: asigne orígenes y agregue cantidades para todas las variantes de productos generadas:
+Escriba **[!UICONTROL Quantity]** para cada valor de atributo.
 
-1. Si la cantidad es diferente para cada SKU, seleccione **[!UICONTROL Apply unique quantity by attribute to each SKU]**.
+_Varios comerciantes de Source con [Inventory management ](../inventory-management/introduction.md):_
 
-1. Escriba **[!UICONTROL Quantity]** para cada uno.
+Asigne orígenes y añada cantidades para todas las variantes de producto generadas:
+
+1. Seleccione **[!UICONTROL Apply unique quantity by attribute to each SKU]**.
+
+1. Escriba **[!UICONTROL Quantity]** para cada variación.
 
    ![Cantidades diferentes por atributo](./assets/product-configurations-quantity-different.png){width="600" zoomable="yes"}
 
-Una vez completada la configuración de las imágenes, el precio y la cantidad, haga clic en **[!UICONTROL Next]** en la esquina superior derecha.
+Una vez completada la configuración de imágenes, precio y cantidad, haga clic en **[!UICONTROL Next]** en la esquina superior derecha.
 
-### Paso 4: Generar las configuraciones de producto
+### Paso 9: Generar configuraciones de producto
 
 Espere un momento a que aparezca la lista de productos y realice una de las siguientes acciones:
 
@@ -276,15 +300,15 @@ Las variaciones de productos actuales aparecen al final de la sección _Configur
 
 ![Configuraciones actuales](./assets/product-create-configurable-generated.png){width="600" zoomable="yes"}
 
-### Paso 5: Añadir imágenes de producto
+### Paso 10: Añadir imágenes de producto
 
 1. Desplácese hacia abajo y expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Images and Videos]_.
 
-1. Haga clic en el mosaico _Cámara_ y busque la imagen principal que desee usar para el producto configurable.
+1. Haga clic en el mosaico _Cámara_ y busque la imagen principal que se utilizará para el producto configurable.
 
 Para obtener más información, vea [Imágenes y vídeo](product-images-and-video.md).
 
-### Paso 6: Completar la información del producto
+### Paso 11: completar la información del producto
 
 Desplácese hacia abajo y complete la información de las siguientes secciones según sea necesario:
 
@@ -302,92 +326,98 @@ Desplácese hacia abajo y complete la información de las siguientes secciones s
 
 - [Opciones de regalo](product-gift-options.md)
 
-### Paso 7: Publicar el producto
+## Fase 3: Publicar el producto
 
-1. Si está listo para publicar el producto en el catálogo, establezca **[!UICONTROL Enable Product]** en `Yes` y realice una de las siguientes acciones:
+### Paso 12: Publicar el producto
 
-   - **Método 1:** Guardar y previsualizar
+1. Si está listo para publicar el producto en el catálogo, establezca **[!UICONTROL Enable Product]** en `Yes`.
 
-      - En la esquina superior derecha, haga clic en **[!UICONTROL Save]**.
+1. Realice una de las siguientes acciones:
 
-      - Para ver el producto en tu tienda, elige **[!UICONTROL Customer View]** en el menú _Administrador_ ( ![Flecha de menú](../assets/icon-menu-down-arrow-black.png) ).
+   **Método 1: guardar y previsualizar**
 
-     La tienda se abre en una nueva pestaña del explorador.
+   - En la esquina superior derecha, haga clic en **[!UICONTROL Save]**.
 
-     ![Vista del cliente](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
+   - Para ver el producto en tu tienda, elige **[!UICONTROL Customer View]** en el menú _Administrador_ ( ![Flecha de menú](../assets/icon-menu-down-arrow-black.png) ).
 
-   - **Método 2:** Guardar y cerrar
+   La tienda se abre en una nueva pestaña del explorador.
 
-     En el menú _[!UICONTROL Save]_( ![flecha de menú](../assets/icon-menu-down-arrow-red.png){width="25"} ), elija **[!UICONTROL Save & Close]**.
+   ![Vista del cliente](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
-### Paso 8: Configurar las miniaturas del carro de compras
+   **Método 2: guardar y cerrar**
 
-Si tiene una imagen diferente para cada variación, puede establecer la configuración para utilizar la imagen correcta para la miniatura del carro de compras.
+   En el menú _[!UICONTROL Save]_( ![flecha de menú](../assets/icon-menu-down-arrow-red.png){width="25"} ), elija **[!UICONTROL Save & Close]**.
+
+## Configuración del estado de stock
+
+El estado de stock de productos configurables difiere del estado de stock de productos simple. Para un producto configurable, el estado de las existencias es parte de un cálculo de **_varios criterios_**.
+
+### Funcionamiento del estado de las existencias
+
+Los principios clave del comportamiento del estado de las existencias:
+
+| El Estado Se Establece En | Resultado | ¿Está Controlado Por Productos Secundarios? |
+|---|---|---|
+| `Out of Stock` (manual) | Siempre muestra `Out of Stock` en el administrador y en la tienda | No, permanece hasta que se cambia manualmente a `In Stock` |
+| `In Stock` (manual) | El estado es dinámico, según los productos secundarios | Parcial: consulte los detalles a continuación |
+
+{style="table-layout:auto"}
+
+### Cuando se establece en &quot;En stock&quot;
+
+Cuando establece manualmente el estado de existencias del producto configurable en `In Stock`, se comporta de forma diferente según la configuración del inventario:
+
+**Solo con origen/existencias predeterminado:**
+
+- **Administrador y tienda:** El estado de las existencias refleja automáticamente la disponibilidad del producto secundario
+
+**Con al menos un origen/stock personalizado:**
+
+- **Tienda:** El estado de las existencias refleja automáticamente la disponibilidad del producto secundario
+- **Administrador:** permanece como `In Stock` hasta que se cambia manualmente (no controlado por productos secundarios)
+
+>[!NOTE]
+>
+>Las existencias y los orígenes personalizados forman parte de la extensión [Inventory management](../inventory-management/sources-stocks.md). Se recomienda encarecidamente utilizar esta herramienta exclusivamente para administrar stock y origen. Las funciones de origen y existencias predeterminadas forman parte del módulo `CatalogInventory`, que ahora está obsoleto.
+
+### Cambios manuales de estado de stock
+
+Si establece manualmente el estado de las existencias en `Out of Stock` (mediante la acción del usuario administrador, la importación de archivos o la llamada a la API), permanecerá `Out of Stock` tanto en el administrador como en la tienda hasta que vuelva a cambiarlo manualmente a `In Stock`. No se ve afectado por el estado de stock de productos secundarios.
+
+## Configuración del sistema (opcional)
+
+### Mostrar imágenes de variación en miniaturas del carro de compras
+
+Si tiene diferentes imágenes para cada variación, puede configurar el sistema para que muestre la imagen correcta para la miniatura del carro de compras.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Checkout]** debajo.
+1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Checkout]**.
 
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Shopping Cart]_.
 
 1. Establezca **[!UICONTROL Configurable Product Image]** en `Product Thumbnail Itself`.
 
-1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
+1. Haga clic en **[!UICONTROL Save Config]**.
 
    ![Carro de compras: imagen de producto configurable](./assets/config-checkout-configurable-product.png){width="600" zoomable="yes"}
 
-## Configuración del estado de Stock
+## Consideraciones clave
 
-El estado de stock del producto configurable es diferente del estado de stock del producto simple, donde es una representación directa de la disponibilidad del producto. Para un producto configurable, el estado de las existencias es parte de un cálculo del estado de las existencias de **_varios criterios_**.
+- **Tipos de variación:** Los compradores pueden seleccionar opciones entre los tipos de entrada de lista desplegable, selección múltiple, muestra visual y muestra de texto. Cada opción es un producto independiente y sencillo.
 
-### Información general
+- **Seguimiento del inventario:** A diferencia de los productos simples con opciones personalizadas, los productos configurables realizan un seguimiento del inventario para cada variación de forma independiente.
 
-Los principios principales de las relaciones de estado de stock son los siguientes:
+- **Tipos de productos secundarios:** Los productos secundarios pueden ser productos simples o virtuales **sin opciones personalizadas**. Para hacer que los productos secundarios sean virtuales, seleccione `Тhis item has no weight` para la configuración **[!UICONTROL Weight]** de cada elemento secundario.
 
-- Cuando cambia el **[!UICONTROL Stock Status]** del producto configurable como `Out of Stock` y hace clic en **[!UICONTROL Save]**, **_no está controlado_** por los estados de existencias de sus productos secundarios. Siempre se muestra como `Out of Stock` en el Administrador y en la Tienda.
+- **Asignación global:** Los productos secundarios se asignan y se quitan de la asignación del producto configurable **globalmente** en todos los sitios web, tiendas y vistas de tiendas simultáneamente.
 
-- Cuando establece el **[!UICONTROL Stock Status]** del producto configurable como `In Stock` y hace clic en **[!UICONTROL Save]**, **_solo está parcialmente controlado_** por los estados de existencias de sus productos secundarios, que se reflejan en el Administrador y en la Tienda.
+- **Precios:** Un producto configurable no tiene su propio precio en el catálogo. El precio mostrado proviene de sus [!UICONTROL In Stock] productos secundarios.
 
-### Descripción detallada
+- **Atributos:** Los atributos de variación deben tener un ámbito global y se debe requerir a los clientes que elijan un valor. Los atributos deben incluirse en el conjunto de atributos utilizado para el producto configurable.
 
-El _estado de existencias_ del producto configurable está parcialmente controlado por el estado de existencias de sus productos secundarios y según los siguientes cálculos de estado de existencias de **_varios criterios_**:
+- **Miniaturas del carro de compras:** La miniatura del carro de compras puede mostrar la imagen del registro de producto configurable o de la variación de producto. Consulte [Configuración del sistema](#system-configuration-optional) más arriba.
 
-#### Solo con origen/stock predeterminado:
+- **Comportamiento de muestra:** [Los atributos de muestra](swatches.md#create-swatches-for-products) se pueden configurar para que no muestren las imágenes de producto simples correspondientes cuando se seleccione la muestra estableciendo **[!UICONTROL Update Product Preview Image]** en `No` en la página de edición de atributos.
 
-- Si el estado de las existencias del producto configurable es **_manualmente_** establecido en `Out of Stock` por un usuario administrador, una importación de archivos o una llamada de API, permanecerá como `Out of Stock` tanto en **_Admin_** como en **_Storefront_** hasta que un usuario administrador, una importación de archivos o una llamada de API lo cambien a **_manualmente_**. `In stock` No puede estar controlada por el estado de existencias de sus productos secundarios.
-
-- Si el estado de existencias del producto configurable es **_manualmente_** establecido en `In Stock` por un usuario administrador, una importación de archivos o una llamada de API, su estado de existencias es **_automáticamente_** controlado por el estado de existencias de sus productos secundarios en **_Admin_** y **_Storefront_**.
-
->[!NOTE]
->
->Las existencias y las fuentes personalizadas forman parte de la extensión [Inventory management](../inventory-management/sources-stocks.md) y se recomienda usar esta herramienta exclusivamente para administrar existencias y fuentes. Las funciones de origen y existencias predeterminadas forman parte del módulo `CatalogInventory`, que ahora está obsoleto.
-
-#### Con al menos un origen/stock personalizado:
-
-- Si el valor configurable del estado de las existencias del producto es **_manualmente_** establecido en `Out of Stock` por un usuario administrador, una importación de archivos o una llamada de API, permanecerá como `Out of Stock` tanto en **_Admin_** como en **_Storefront_** hasta que un usuario administrador, una importación de archivos o una llamada de API lo cambien **_manualmente_** a `In Stock`. **_no puede_** estar controlado por el estado de stock de sus productos secundarios.
-
-- Si el valor configurable del estado de las existencias del producto es **_manualmente_** establecido en `In Stock` por un usuario administrador, una importación de archivos o una llamada de API, su estado de existencias es **_automáticamente_** controlado por el estado de las existencias de sus productos secundarios solo en **_Storefront_**.
-
-- Si el valor configurable del estado de las existencias del producto es **_manualmente_** establecido en `In Stock` por un usuario administrador, una importación de archivos o una llamada de API, permanecerá como `In Stock` en **_Admin_** hasta que un usuario administrador, una importación de archivos o una llamada de API lo cambien **_manualmente_** a `Out of Stock`. **_no puede_** estar controlado por el estado de stock de sus productos secundarios.
-
-## Cosas que recordar
-
-- Un producto configurable permite al comprador elegir entre tipos de entrada de muestras desplegables, de selección múltiple, de muestra visual y de muestra de texto. Cada opción es un producto independiente y sencillo.
-
-- [Estado de stock](../inventory-management/sources-stocks.md) para un producto configurable es una configuración controlada de forma semimanual. Es diferente al estado de stock del producto simple, donde es una representación directa de la disponibilidad del producto. Para un producto configurable, el estado de las existencias forma parte de un cálculo del estado de las existencias con varios criterios.
-
-- Los productos secundarios configurables pueden ser productos simples o virtuales **sin opciones personalizadas**. Para hacer virtuales los productos secundarios personalizados, debe seleccionar `Тhis item has no weight` para la configuración **[!UICONTROL Weight]** de cada uno de ellos.
-
-- Todos los productos secundarios se asignan y quitan la asignación del producto configurable **_globalmente_** para todos los sitios web, tiendas y vistas de tiendas al mismo tiempo.
-
-- Un producto configurable no tiene su propio precio en el catálogo. El precio de producto configurable se deriva de sus [!UICONTROL In Stock] productos secundarios.
-
-- Los atributos que se utilizan para las variaciones de productos deben tener un ámbito global y se debe exigir al cliente que elija un valor. Los atributos de variación del producto deben incluirse en el conjunto de atributos que se utiliza como plantilla para el producto configurable.
-
-- El conjunto de atributos que se utiliza como plantilla para un producto configurable debe incluir los atributos que contienen los valores necesarios para cada variación de producto.
-
-- La imagen en miniatura del carro de compras se puede configurar para que muestre la imagen del registro de producto configurable o de la variación de producto.
-
-- [Los atributos de muestra](swatches.md#create-swatches-for-products) se pueden configurar para que no muestren las imágenes de producto simples correspondientes cuando se seleccione la muestra; para ello, establezca el valor de la opción **[!UICONTROL Update Product Preview Image]** en `No` en la página de edición de atributos del Administrador.
-
-- El tema controla cómo se comporta la Galería de imágenes cuando un usuario cambia entre configuraciones de producto. El comportamiento predeterminado para el tema _En blanco_ es anular las imágenes de producto configurables principales con la variación de producto seleccionada. Para la temática de Luma, el comportamiento predeterminado es anteponer las imágenes de variación de producto seleccionadas a las imágenes de producto configurables principales.
+- **Comportamiento de la galería de imágenes:** El tema controla cómo se comporta la Galería de imágenes cuando los usuarios cambian entre configuraciones de producto. El comportamiento predeterminado para el tema _En blanco_ anula las imágenes de producto configurables principales con la variación seleccionada. Para el tema de Luma, el comportamiento predeterminado es anteponer las imágenes de variación seleccionadas a las imágenes de producto configurables principales.
