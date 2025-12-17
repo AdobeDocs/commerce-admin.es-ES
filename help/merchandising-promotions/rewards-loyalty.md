@@ -3,9 +3,9 @@ title: Programas de recompensa y fidelización
 description: Conozca el sistema de puntos de recompensa que puede utilizar para aumentar la participación del cliente y promover su lealtad.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: 7a505b1dc953286aa9879e77bd322d9681513096
+source-git-commit: b0e9087016f7a6ce682e84feb931f7ad870e6420
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,10 @@ Los usuarios administradores por cliente pueden gestionar los saldos de puntos d
 >Se requiere la configuración de [Tasas de cambio de recompensa](reward-exchange-rates.md) para que los clientes y los usuarios administradores puedan canjear los puntos de recompensa durante el cierre de compra.
 
 Los usuarios administradores y los clientes pueden canjear los puntos (si está activado) durante el cierre de compra. En la sección Método de pago, aparece la casilla de verificación Usar mis puntos de recompensa encima de los métodos de pago activados. Se incluyen los puntos disponibles y el tipo de cambio monetario. Si el saldo disponible es mayor que el total general del pedido, no se requiere ningún método de pago adicional. El número de puntos de recompensa que se aplican al pedido aparece con los totales del pedido, restados del total general, de forma similar a las tarjetas de crédito o regalo de una tienda. Si se utilizan puntos de recompensa junto con el crédito de la tienda o una tarjeta regalo, los puntos de recompensa se deducen primero. El crédito de la tienda o tarjeta regalo se deduce si el total del pedido es mayor que el número canjeable de puntos de recompensa.
+
+>[!NOTE]
+>
+>Los puntos de recompensa y el crédito de almacenamiento no reducen la base imponible del pedido. Los impuestos se calculan en el subtotal antes de aplicar estos descuentos. Los puntos o el crédito solo reducen la cantidad final que paga el cliente.
 
 >[!NOTE]
 >
@@ -164,7 +168,7 @@ El saldo de puntos de recompensa se puede actualizar desde el Administrador.
 
 1. Haga clic en **[!UICONTROL Save Customer]**.
 
-Todas las acciones relacionadas con los puntos de recompensa se muestran en el bloque _[!UICONTROL Reward Points History]_&#x200B;del cliente en su cuenta en la tienda.
+Todas las acciones relacionadas con los puntos de recompensa se muestran en el bloque _[!UICONTROL Reward Points History]_del cliente en su cuenta en la tienda.
 
 ## Descripciones de campos
 
