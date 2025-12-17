@@ -168,7 +168,7 @@ El saldo de puntos de recompensa se puede actualizar desde el Administrador.
 
 1. Haga clic en **[!UICONTROL Save Customer]**.
 
-Todas las acciones relacionadas con los puntos de recompensa se muestran en el bloque _[!UICONTROL Reward Points History]_del cliente en su cuenta en la tienda.
+Todas las acciones relacionadas con los puntos de recompensa se muestran en el bloque _[!UICONTROL Reward Points History]_&#x200B;del cliente en su cuenta en la tienda.
 
 ## Descripciones de campos
 
