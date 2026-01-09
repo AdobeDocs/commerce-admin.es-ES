@@ -23,7 +23,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se ha actualizado el <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">Tema de recompensas y fidelidad</a> para aclarar cómo se calculan los impuestos cuando los clientes utilizan puntos de recompensa o almacenan crédito durante el cierre de compra.</p>
+      <td><p>Se ha actualizado el <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">Tema de recompensas y fidelidad</a> para aclarar cómo se calculan los impuestos cuando los clientes utilizan puntos de recompensa o almacenan crédito durante el cierre de compra.</p>
 </td>
       <td>
         Comentarios
@@ -45,7 +45,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se han actualizado las descripciones de las metadirectivas de <code class="language-plaintext highlighter-rouge">NOFOLLOW</code> robots en la <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview">documentación de SEO</a>.<br /><em>Soluciona el problema <a href="https://github.com/AdobeDocs/commerce-admin.en/issues/82">#82</a>.</em></p>
+      <td><p>Se han actualizado las descripciones de las metadirectivas de <code class="language-plaintext highlighter-rouge">NOFOLLOW</code> robots en la <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/marketing/seo/seo-overview">documentación de SEO</a>.<br /><em>Soluciona el problema <a href="https://github.com/AdobeDocs/commerce-admin.es-ES/issues/82">#82</a>.</em></p>
 </td>
       <td>
         Técnico, comentarios
@@ -67,7 +67,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se ha agregado información sobre las cookies predeterminadas que no deben deshabilitarse para <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Cumplimiento de la ley de cookies</a>.</p>
+      <td><p>Se ha agregado información sobre las cookies predeterminadas que no deben deshabilitarse para <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Cumplimiento de la ley de cookies</a>.</p>
 </td>
       <td>
         Técnico
@@ -89,7 +89,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se ha agregado orientación sobre la disponibilidad de la vista previa de Page Builder en la página de CMS en los temas <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-add">Agregar y eliminar páginas</a> y <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace">Page Builder Workspace</a>. La vista previa no muestra contenido a menos que esté disponible en la Vista de tienda predeterminada.</p>
+      <td><p>Se ha agregado orientación sobre la disponibilidad de la vista previa de Page Builder en la página de CMS en los temas <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/content-design/elements/pages/page-add">Agregar y eliminar páginas</a> y <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/page-builder/workspace">Page Builder Workspace</a>. La vista previa no muestra contenido a menos que esté disponible en la Vista de tienda predeterminada.</p>
 </td>
       <td>
         Técnico, comentarios
@@ -111,7 +111,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>La <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan">herramienta de análisis de seguridad</a> se ha actualizado para admitir comerciantes con tiendas de Commerce implementadas como sitios de Adobe Experience Manager.</p>
+      <td><p>La <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/systems/security/security-scan">herramienta de análisis de seguridad</a> se ha actualizado para admitir comerciantes con tiendas de Commerce implementadas como sitios de Adobe Experience Manager.</p>
 </td>
       <td>
         Técnico
