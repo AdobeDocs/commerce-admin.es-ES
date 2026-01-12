@@ -3,9 +3,9 @@ title: Ordenar productos de categoría
 description: Aprenda a definir el posicionamiento de productos en una categoría manualmente o aplicando un criterio de ordenación predefinido.
 exl-id: 09c66a5d-57d4-4e78-a8d8-e3047c1bd35a
 feature: Catalog Management, Categories, Products
-source-git-commit: 14c3eb7d54776382bfa196efdac446d42c8dc940
+source-git-commit: 5aea3aa13ab0eb74866fc0cbcbfe08b5099abe95
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 0%
 
 La posición de los productos en una categoría se puede especificar manualmente arrastrando y soltando los productos en la posición o aplicando un criterio de ordenación predefinido. De forma predeterminada, los productos se pueden ordenar por nivel de stock, edad, color, nombre, SKU y precio. La ordenación automática anula el orden de clasificación actual y restablece las posiciones de arrastrar y soltar establecidas manualmente. El criterio de ordenación de colores y el nivel mínimo de existencias que pueden ser necesarios para que los productos se incluyan en la lista se establecen en la configuración de [Visual Merchandiser](../configuration-reference/catalog/visual-merchandiser.md).
 
->[!NOTE]
->
->En las páginas de categoría, `Out of stock` productos siempre se muestran **_después de_** `In Stock` productos en la lista de productos con todos los tipos de clasificación.
-
 Puede configurar las opciones de categoría por separado para cada [vista de tienda](../stores-purchase/stores.md#add-stores) para determinar la selección de productos, su posición relativa en la lista y los atributos disponibles para las reglas de categoría. Sin embargo, hay un único criterio de ordenación **_global_** y una posición de producto en el catálogo, y se comparten en [vistas de tiendas](../stores-purchase/store-views.md), tiendas y sitios web.
 
 ## Paso 1: establecer el ámbito de la configuración
@@ -28,7 +24,7 @@ Puede configurar las opciones de categoría por separado para cada [vista de tie
 
 1. Si es necesario, elija el **[!UICONTROL Store View]** donde se aplica la configuración.
 
-   Para una instalación de varias tiendas, la configuración _[!UICONTROL Store View]_&#x200B;aplica el criterio de ordenación a todas las vistas disponibles en la tienda.
+   Para una instalación de varias tiendas, la configuración _[!UICONTROL Store View]_aplica el criterio de ordenación a todas las vistas disponibles en la tienda.
 
 1. En el árbol de categorías de la izquierda, elija la categoría que desea editar.
 
@@ -38,7 +34,7 @@ Puede configurar las opciones de categoría por separado para cada [vista de tie
 
 >[!NOTE]
 >
->Al ordenar una categoría por un atributo de producto, los productos con los mismos valores de atributo también se ordenan por su _[!UICONTROL Product ID]_&#x200B;en orden ascendente.
+>Al ordenar una categoría por un atributo de producto, los productos con los mismos valores de atributo también se ordenan por su _[!UICONTROL Product ID]_en orden ascendente.
 
 En la sección _[!UICONTROL Products in Category]_, haga clic en el icono de mosaicos ( ![Ver mosaicos](../assets/icon-view-tiles.png) ) para mostrar los mosaicos del producto en una cuadrícula. Utilice el método manual o automático para ordenar los productos.
 
