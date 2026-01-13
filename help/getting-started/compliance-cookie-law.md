@@ -3,9 +3,9 @@ title: Cumplimiento de la ley de cookies
 description: Para mantenerse al día con la legislación en muchos países sobre el uso de cookies, Adobe Commerce y Magento Open Source ofrecen a los comerciantes una selección de métodos para obtener el consentimiento del cliente.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: b90164030569f18bfd10fd52f12e3bbd22626b63
+source-git-commit: 5becfc5601b9c0c10c580b36f4594746d680a7fc
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2150'
 ht-degree: 0%
 
 ---
@@ -202,15 +202,15 @@ La establece el módulo Page Builder. Contiene un indicador que evita que las so
 
 La establece el módulo Page Builder. Contiene un indicador que evita que las solicitudes posteriores pidan a un administrador que confirme la apertura de una acción determinada si el administrador las descartó explícitamente antes. Se utiliza solo en un área administrativa de una tienda. No aplicable a los compradores.
 
-#### `accordion-&lbrace;VARIABLE&rbrace;-&lbrace;VARIABLE&rbrace;`
+#### `accordion-{VARIABLE}-{VARIABLE}`
 
 Se utiliza como parte de la implementación de la funcionalidad de pestañas solo en un área administrativa de una tienda. No aplicable a los compradores.
 
 ## Cookies de Product Recommendations
 
-![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Las siguientes cookies las usan Product Recommendations para clientes de Adobe Commerce. Estas cookies se instalan con el [módulo DataServices](https://experienceleague.adobe.com/es/docs/commerce/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Las siguientes cookies las usan Product Recommendations para clientes de Adobe Commerce. Estas cookies se instalan con el [módulo DataServices](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
-- `mg_dnt`: le permite [restringir la recopilación de datos de Adobe Commerce](https://experienceleague.adobe.com/es/docs/commerce/product-recommendations/developer/setting-cookie) si tiene código personalizado para administrar el consentimiento de cookies en su sitio.
+- `mg_dnt`: le permite [restringir la recopilación de datos de Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie) si tiene código personalizado para administrar el consentimiento de cookies en su sitio.
 - `user_allowed_save_cookie`: se usa para [modo de restricción de cookies](#cookie-restriction-mode).
 - `authentication_flag`: indica si un comprador ha iniciado sesión o ha cerrado sesión. Esta cookie se actualiza al mismo tiempo que la cookie `dataservices_customer_id`.
 - `dataservices_customer_id`: indica si un comprador ha iniciado sesión o ha cerrado sesión. Esta cookie contiene el ID único del cliente en el sistema.
@@ -230,10 +230,11 @@ Los siguientes datos se guardan en el almacenamiento local para tiendas que util
 
 ## Cookies adicionales
 
-![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Las siguientes cookies están configuradas para los clientes de Adobe Commerce. Estas cookies se instalan con el [módulo DataServices](https://experienceleague.adobe.com/es/docs/commerce/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Las siguientes cookies están configuradas para los clientes de Adobe Commerce. Estas cookies se instalan con el [módulo DataServices](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
 - `mg`: configurado por el rastreador de JavaScript de Snowplow. Encontrará más información en la [documentación de Snowplow](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/).
 - `com.adobe.alloy.getTld`: dado el nombre de host de la página web actual, este es el dominio de primer nivel que no es un &quot;sufijo público&quot; como se describe en https://publicsuffix.org. Básicamente, este es el dominio de primer nivel que puede aceptar cookies. Esta cookie es parte de [Alloy Web SDK](https://github.com/adobe/alloy).
+- `aep-segments-membership`: contiene [información de audiencia](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation), como a qué segmento pertenece un comprador.
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
 [2]: https://support.google.com/adwords/answer/7521212
