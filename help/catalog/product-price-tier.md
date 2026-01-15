@@ -56,7 +56,7 @@ Los precios de la tienda tienen prioridad de la cantidad más alta a la más baj
 
      >[!NOTE]
      >
-     >Para obtener el precio con descuento, el porcentaje definido se calcula respecto al valor definido en el campo _[!UICONTROL Price]_, no en el campo_[!UICONTROL Special Price]_.
+     >Para obtener el precio con descuento, el porcentaje definido se calcula respecto al valor definido en el campo _[!UICONTROL Price]_, no en el campo&#x200B;_[!UICONTROL Special Price]_.
 
      ![Precio de nivel como porcentaje](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
