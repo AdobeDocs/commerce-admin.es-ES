@@ -3,10 +3,10 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings]'
 description: Revise la configuración en la página [!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings] del administrador de Commerce.
 exl-id: d7d46946-f8c9-4714-96c3-2173e28f7bfa
 feature: Configuration, Shipping/Delivery
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 2%
+source-wordcount: '222'
+ht-degree: 1%
 
 ---
 
@@ -39,5 +39,23 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 |--- |--- |--- |
 | [!UICONTROL Apply Custom Shipping Policy] | Sitio web | Determina si la política de envío aparece durante el cierre de compra. Opciones: `Yes` / `No` |
 | [!UICONTROL Shipping Policy] | Vista de tienda | Contiene la política de envío como texto. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Shipment Tracking URLs]
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
+
+[!BADGE espacio aislado]{type=Caution tooltip="Actualmente, los elementos enumerados solo están disponibles en entornos de espacio aislado. Adobe hace que las nuevas versiones estén disponibles primero en entornos de espacio aislado para que pueda probar los próximos cambios antes de que el lanzamiento esté disponible en entornos de producción."}
+
+![Parámetros de la política de envío](./assets/shipping-settings-shipment-tracking-urls.png)<!-- zoom -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Enable Custom Tracking URLs] | Vista de tienda | Determina si los números de seguimiento de envío enviados en correos electrónicos de comprador son vínculos o texto sin formato. El valor predeterminado de `No` indica que los números son de texto sin formato. Opciones: `Yes` / `No` |
+| [!UICONTROL USPS Tracking URL] | Vista de tienda | La plantilla URL para los envíos del servicio postal de Estados Unidos. |
+| [!UICONTROL UPS Tracking URL] | Vista de tienda | La plantilla URL para envíos de United Parcel Service. |
+| [!UICONTROL FedEx Tracking URL] | Vista de tienda | La plantilla URL para envíos de Federal Express. |
+| [!UICONTROL DHL Tracking URL] | Vista de tienda | La plantilla URL para envíos de DHL Express. |
 
 {style="table-layout:auto"}

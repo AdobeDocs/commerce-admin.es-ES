@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Storefront]'
 description: Revise la configuración en la página [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Storefront] del administrador de Commerce.
 exl-id: 6c03ee68-7421-4c74-bdc1-0855f088b7f9
 feature: Configuration, Security
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Para poder configurar Google reCAPTCHA, debe asegurarse de que el archivo `PHP.ini` incluya la siguiente configuración: `allow_url_fopen = 1`. Esto puede requerir la asistencia del desarrollador. Consulte [Configuración de PHP](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=es) en la _Guía de instalación_.
+>Para poder configurar Google reCAPTCHA, debe asegurarse de que el archivo `PHP.ini` incluya la siguiente configuración: `allow_url_fopen = 1`. Esto puede requerir la asistencia del desarrollador. Consulte [Configuración de PHP](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) en la _Guía de instalación_.
 
 {{config}}
 
@@ -60,6 +60,27 @@ Para obtener más información acerca del uso de Google reCAPTCHA para proteger 
 | [!UICONTROL Invisible Badge Position] | Sitio web | La posición del distintivo reCAPTCHA invisible en cada página. Opciones: `Inline` / `Bottom Right` / `Bottom Left` |
 | [!UICONTROL Theme] | Sitio web | Determina el estilo del cuadro reCAPTCHA de Google. Opciones: `Light Theme` (predeterminado) / `Dark Theme` |
 | [!UICONTROL Language Code] | Vista de tienda | Un [código de dos caracteres](https://developers.google.com/recaptcha/docs/language) que especifica el idioma que se usa para el texto y los mensajes de Google reCAPTCHA. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL reCAPTCHA Enterprise]
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
+
+[!BADGE espacio aislado]{type=Caution tooltip="Actualmente, los elementos enumerados solo están disponibles en entornos de espacio aislado. Adobe hace que las nuevas versiones estén disponibles primero en entornos de espacio aislado para que pueda probar los próximos cambios antes de que el lanzamiento esté disponible en entornos de producción."}
+
+![reCAPTCHA v3 Enterprise](./assets/recaptcha-storefront-v3-enterprise.png)<!-- zoom -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--|--|--|
+| [!UICONTROL Site Key] | Sitio web | Clave de sitio que se crea al registrar la cuenta de Google reCAPTCHA Enterprise. |
+| [!UICONTROL Google Cloud Project ID] | Sitio web | El identificador de proyecto se muestra en la sección **Información del proyecto** del tablero del proyecto. |
+| [!UICONTROL Service Account JSON] | Sitio web | Descargue la clave de cuenta de servicio de la consola de Google Cloud y pegue su contenido en este campo. |
+| [!UICONTROL Minimum Score Threshold] | Sitio web | La puntuación mínima que identifica una interacción de usuario como un riesgo potencial, donde 1,0 es una interacción de usuario típica y 0,0 es probablemente un bot. Predeterminado: `0.5` |
+| [!UICONTROL Badge Position] | Sitio web | La posición del distintivo reCAPTCHA invisible en cada página. Opciones: `Inline` / `Bottom Right` / `Bottom Left` |
+| [!UICONTROL Theme] | Sitio web | Determina el estilo del cuadro reCAPTCHA de Google. Opciones: `Light Theme` (predeterminado) / `Dark Theme` |
+| [!UICONTROL Language Code] | Vista de tienda | Un [código de dos caracteres](https://developers.google.com/recaptcha/docs/language) que especifica el idioma que se usa para el texto y los mensajes de Google reCAPTCHA. Deje el campo en blanco para utilizar el idioma predeterminado del explorador del usuario. |
+| [!UICONTROL Validation Failure Message] | Vista de tienda | Mensaje que se muestra cuando falla la validación. |
 
 {style="table-layout:auto"}
 

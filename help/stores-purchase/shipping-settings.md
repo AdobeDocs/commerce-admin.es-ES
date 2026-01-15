@@ -3,9 +3,9 @@ title: Configuración de envío
 description: Aprenda a configurar las opciones de envío que definen el punto de origen y la política de envío de su tienda.
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -81,3 +81,36 @@ Las opciones de envío de varias direcciones permiten a los clientes enviar un p
 >[!NOTE]
 >
 >![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B) Para pedidos con varias direcciones de envío, el método de pago [Pago a cuenta](../b2b/enable-basic-features.md#configure-payment-on-account), aunque esté habilitado, no está disponible durante el cierre de compra.
+
+## URL de seguimiento de envío de correo electrónico
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
+
+[!BADGE espacio aislado]{type=Caution tooltip="Actualmente, los elementos enumerados solo están disponibles en entornos de espacio aislado. Adobe hace que las nuevas versiones estén disponibles primero en entornos de espacio aislado para que pueda probar los próximos cambios antes de que el lanzamiento esté disponible en entornos de producción."}
+
+De forma predeterminada, los números de seguimiento de envío enviados en correos electrónicos de comprador son de texto sin formato. Puede convertir estos números de seguimiento en vínculos en los que se puede hacer clic si habilita la función de URL de seguimiento personalizada. Esta función le permite definir una plantilla para el seguimiento de direcciones URL de varios transportistas. Cada plantilla incluye la dirección URL completa del sitio web de seguimiento y un marcador de posición para el número de seguimiento. Commerce reemplaza el marcador de posición con el número de seguimiento real del correo electrónico.
+
+Se admiten los siguientes transportistas:
+
+- Servicio postal de Estados Unidos (USPS)
+- United Parcel Service (UPS)
+- Federal Express (FedEx)
+- DHL Express (DHL)
+
+Para habilitar o editar las direcciones URL de seguimiento personalizadas:
+
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+
+1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Shipping Settings]**.
+
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Shipment Tracking URLs]**.
+
+1. Establezca **[!UICONTROL Enable Custom Tracking URLs]** en `Yes`.
+
+1. Se proporcionan plantillas de URL predeterminadas para cada operador admitido. Si necesita cambiar cualquiera de estos valores, introduzca una nueva plantilla URL en el campo correspondiente. Use `{{tracking_number}}` como marcador de posición para el número de seguimiento real. Si, por ejemplo, UPS cambia su URL a `https://www.ups.com/newtracker?tracknumber`, la nueva plantilla de URL de seguimiento podría tener el aspecto siguiente:
+
+   ```text
+   https://www.ups.com/newtracker?tracknumber={{tracking_number}}
+   ```
+
+1. Haga clic en **[!UICONTROL Save Config]**.
