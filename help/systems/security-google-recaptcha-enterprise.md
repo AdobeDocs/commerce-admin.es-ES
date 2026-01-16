@@ -3,14 +3,17 @@ title: Google reCAPTCHA Enterprise
 description: Obtenga información sobre cómo configurar Google reCAPTCHA Enterprise para proteger su tienda de Adobe Commerce as a Cloud Service de bots y actividades fraudulentas.
 role: Admin
 feature: Configuration, Security
-source-git-commit: 5181e6dcbffdca87dd6c376c36f7c9d0a3fbc015
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."
+source-git-commit: dde1d634a1c6c7435668a8ad6084b926cc0d6193
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
 
 # Google reCAPTCHA Enterprise
+
+[!BADGE espacio aislado]{type=Caution tooltip="Actualmente, los elementos enumerados solo están disponibles en entornos de espacio aislado. Adobe publica primero las actualizaciones de la zona protegida para que pueda probar los próximos cambios antes de que se implementen en Producción."}
 
 [Google reCAPTCHA Enterprise](https://cloud.google.com/security/products/recaptcha#protect-against-fraud-and-abuse-with-modern-bot-protection-and-fraud-prevention-platform) proporciona protección avanzada contra bots para su tienda de Adobe Commerce as a Cloud Service mediante el análisis de riesgo adaptable y el aprendizaje automático para diferenciar entre usuarios humanos y bots. Esto ayuda a evitar actividades fraudulentas, spam y abusos en el sitio.
 
@@ -28,7 +31,7 @@ Google reCAPTCHA Enterprise incluye las siguientes funciones:
 - **Análisis de puntuación de riesgo**: Proporciona puntuaciones de riesgo detalladas (0,0-1,0) para cada interacción
 - **Umbrales configurables**: establezca puntuaciones de riesgo aceptables mínimas por inquilino
 - **Compatibilidad con varios inquilinos**: Configuración por inquilino con proyectos aislados de Google Cloud
-- **Credenciales cifradas**: credenciales de cuenta de servicio almacenadas cifradas en la base de datos
+- **Credenciales cifradas**: credenciales de cuenta de servicio almacenadas cifradas en una base de datos
 - **Protección de formularios**: protege todos los formularios Commerce estándar, incluidos el inicio de sesión, el cierre de compra, las revisiones de productos y mucho más.
 
 ## Requisitos previos
@@ -60,13 +63,13 @@ Siga estos pasos generales para configurar Google reCAPTCHA Enterprise para su t
 
 1. Complete la sección **[!UICONTROL reCAPTCHA Enterprise]** de la siguiente manera.
 
-   - Para **[!UICONTROL Site Key]**, copie y pegue la clave de sitio de reCAPTCHA Enterprise de la consola de Google Cloud.
+   - Para **[!UICONTROL Site Key]**, copie y pegue la clave de sitio empresarial de reCAPTCHA desde la consola de Google Cloud.
 
    - Para **[!UICONTROL Google Cloud Project ID]**, copie y pegue el ID de proyecto del proyecto de Google Cloud.
 
    - Para **[!UICONTROL Service Account JSON]**, copie el contenido del archivo de clave JSON de la cuenta de servicio que descargó en [Paso 1: Configurar Google reCAPTCHA Enterprise](#step-1-set-up-google-recaptcha-enterprise).
 
-   - Para **[!UICONTROL Minimum Score Threshold]**, introduzca la puntuación mínima (0,0-1,0) para identificar cuándo se marca una interacción de usuario como un riesgo potencial; donde 1,0 es una interacción de usuario típica y 0,0 es probablemente un bot.
+   - Para **[!UICONTROL Minimum Score Threshold]**, escriba la puntuación mínima (0,0-1,0) para identificar cuándo se marca una interacción de usuario como un riesgo potencial. Una puntuación de 1,0 es una interacción típica del usuario y 0,0 es probablemente un bot.
 
    - Para **[!UICONTROL Badge Position]**, elija la posición del distintivo reCAPTCHA invisible en cada página. Opciones: `Inline` / `Bottom Right` / `Bottom Left`.
 
