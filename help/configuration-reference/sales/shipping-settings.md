@@ -44,7 +44,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 ## [!UICONTROL Shipment Tracking URLs]
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
 
 ![Parámetros de la política de envío](./assets/shipping-settings-shipment-tracking-urls.png)<!-- zoom -->
 

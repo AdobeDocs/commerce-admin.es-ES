@@ -76,7 +76,7 @@ Los precios de la tienda tienen prioridad de la cantidad más alta a la más baj
 
 ## Activar asignación de precios de nivel para reglas de precios de catálogo
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
 
 En versiones anteriores de Commerce, no se podían utilizar precios de nivel junto con reglas de precios de catálogo. Las reglas de catálogo omiten la configuración de precios de nivel y calculan los descuentos sólo desde el precio base original. Con Adobe Commerce as a Cloud Service, ahora puede optar por incluir los precios de nivel en el cálculo de las reglas de precios de catálogo.
 

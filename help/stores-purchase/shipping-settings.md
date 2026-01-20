@@ -84,7 +84,7 @@ Las opciones de envío de varias direcciones permiten a los clientes enviar un p
 
 ## URL de seguimiento de envío de correo electrónico
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
 
 De forma predeterminada, los números de seguimiento de envío enviados en correos electrónicos de comprador son de texto sin formato. Puede convertir estos números de seguimiento en vínculos en los que se puede hacer clic si habilita la función de URL de seguimiento personalizada. Esta función le permite definir una plantilla para el seguimiento de direcciones URL de varios transportistas. Cada plantilla incluye la dirección URL completa del sitio web de seguimiento y un marcador de posición para el número de seguimiento. Commerce reemplaza el marcador de posición con el número de seguimiento real del correo electrónico.
 
