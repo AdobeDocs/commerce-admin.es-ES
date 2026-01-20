@@ -3,17 +3,15 @@ title: Google reCAPTCHA Enterprise
 description: Obtenga información sobre cómo configurar Google reCAPTCHA Enterprise para proteger su tienda de Adobe Commerce as a Cloud Service de bots y actividades fraudulentas.
 role: Admin
 feature: Configuration, Security
-badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."
-source-git-commit: dde1d634a1c6c7435668a8ad6084b926cc0d6193
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."
+source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
 
 # Google reCAPTCHA Enterprise
-
-[!BADGE espacio aislado]{type=Caution tooltip="Actualmente, los elementos enumerados solo están disponibles en entornos de espacio aislado. Adobe publica primero las actualizaciones de la zona protegida para que pueda probar los próximos cambios antes de que se implementen en Producción."}
 
 [Google reCAPTCHA Enterprise](https://cloud.google.com/security/products/recaptcha#protect-against-fraud-and-abuse-with-modern-bot-protection-and-fraud-prevention-platform) proporciona protección avanzada contra bots para su tienda de Adobe Commerce as a Cloud Service mediante el análisis de riesgo adaptable y el aprendizaje automático para diferenciar entre usuarios humanos y bots. Esto ayuda a evitar actividades fraudulentas, spam y abusos en el sitio.
 

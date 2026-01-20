@@ -3,9 +3,9 @@ title: Configuración de envío
 description: Aprenda a configurar las opciones de envío que definen el punto de origen y la política de envío de su tienda.
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
+source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,7 @@ Las opciones de envío de varias direcciones permiten a los clientes enviar un p
 
 ## URL de seguimiento de envío de correo electrónico
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
-
-[!BADGE espacio aislado]{type=Caution tooltip="Actualmente, los elementos enumerados solo están disponibles en entornos de espacio aislado. Adobe hace que las nuevas versiones estén disponibles primero en entornos de espacio aislado para que pueda probar los próximos cambios antes de que el lanzamiento esté disponible en entornos de producción."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
 
 De forma predeterminada, los números de seguimiento de envío enviados en correos electrónicos de comprador son de texto sin formato. Puede convertir estos números de seguimiento en vínculos en los que se puede hacer clic si habilita la función de URL de seguimiento personalizada. Esta función le permite definir una plantilla para el seguimiento de direcciones URL de varios transportistas. Cada plantilla incluye la dirección URL completa del sitio web de seguimiento y un marcador de posición para el número de seguimiento. Commerce reemplaza el marcador de posición con el número de seguimiento real del correo electrónico.
 

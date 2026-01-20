@@ -3,9 +3,9 @@ title: Precios de nivel
 description: Aprenda a utilizar los precios de nivel para ofrecer un descuento por cantidad desde una lista de productos o una página de productos.
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
+source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Los precios de la tienda tienen prioridad de la cantidad más alta a la más baj
 
      >[!NOTE]
      >
-     >Para obtener el precio con descuento, el porcentaje definido se calcula respecto al valor definido en el campo _[!UICONTROL Price]_, no en el campo&#x200B;_[!UICONTROL Special Price]_.
+     >Para obtener el precio con descuento, el porcentaje definido se calcula respecto al valor definido en el campo _[!UICONTROL Price]_, no en el campo_[!UICONTROL Special Price]_.
 
      ![Precio de nivel como porcentaje](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
@@ -76,9 +76,7 @@ Los precios de la tienda tienen prioridad de la cantidad más alta a la más baj
 
 ## Activar asignación de precios de nivel para reglas de precios de catálogo
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
-
-[!BADGE espacio aislado]{type=Caution tooltip="Actualmente, los elementos enumerados solo están disponibles en entornos de espacio aislado. Adobe hace que las nuevas versiones estén disponibles primero en entornos de espacio aislado para que pueda probar los próximos cambios antes de que el lanzamiento esté disponible en entornos de producción."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
 
 En versiones anteriores de Commerce, no se podían utilizar precios de nivel junto con reglas de precios de catálogo. Las reglas de catálogo omiten la configuración de precios de nivel y calculan los descuentos sólo desde el precio base original. Con Adobe Commerce as a Cloud Service, ahora puede optar por incluir los precios de nivel en el cálculo de las reglas de precios de catálogo.
 
