@@ -71,4 +71,4 @@ Para acceder a la nueva Galería de medios al agregar o editar una página:
 
 Para obtener más información acerca de [!DNL Media Gallery], vea este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411043?captions=spa&quality=12&learn=on)

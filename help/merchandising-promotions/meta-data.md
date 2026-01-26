@@ -98,4 +98,4 @@ Puede evitar ser penalizado por los motores de búsqueda omitiendo la categoría
 
 Vea este vídeo para obtener más información sobre la administración de metadatos de SEO:
 
->[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411825?captions=spa&quality=12&learn=on)
