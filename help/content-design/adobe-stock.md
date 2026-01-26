@@ -3,10 +3,10 @@ title: Integración de Adobe Stock
 description: Integra Adobe Stock con tu instancia  [!DNL Commerce] para acceder a innumerables recursos multimedia para usarlos en tu tienda.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 9aec049cfaa12f342d66f45a75af0ce50a23c2c8
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Esta integración requiere:
 
 Para obtener licencias de imágenes de Adobe Stock se requiere:
 
-- Una [cuenta de Adobe](https://helpx.adobe.com/es/manage-account/using/access-adobe-id-account.html)
+- Una [cuenta de Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
 - Un plan [Adobe Stock](https://stock.adobe.com) de pago asociado con la cuenta
 
 ## Integrar [!DNL Commerce] y Adobe Stock
@@ -62,7 +62,7 @@ La configuración de la integración de Adobe Stock para Adobe Commerce es un pr
    - Cualquier punto (`.`) debe ser de escape con dos barras invertidas (`\\`).
    - Agregar `.*` al final del patrón.
 
-   Si se usa el ejemplo del URI de redireccionamiento predeterminado anterior, sería `https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`.
+   Utilizando el ejemplo del URI de redireccionamiento predeterminado anterior, el patrón sería `https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`
 
 1. Haga clic en **[!UICONTROL Next]**.
 
