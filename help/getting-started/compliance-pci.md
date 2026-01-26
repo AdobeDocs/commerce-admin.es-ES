@@ -40,7 +40,7 @@ La industria de tarjetas de pago (PCI) ha establecido un conjunto de requisitos 
 
 ![casilla de verificación](../assets/checkbox.png): mantenga una directiva que trate la seguridad de la información.
 
-Para obtener más información, consulte [Método de Adobe para el cumplimiento de PCI](https://business.adobe.com/products/magento/pci-compliance.html){:target="_blank"}.
+Para obtener más información, consulte [Método de Adobe para el cumplimiento de PCI](https://business.adobe.com/es/products/magento/pci-compliance.html){:target="_blank"}.
 
 >[!NOTE]
 >

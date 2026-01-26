@@ -111,8 +111,8 @@ Haga un inventario de sus propiedades digitales, incluidas todas las integracion
 
 1. Consulte los siguientes temas para ver los diagramas de flujo de datos aplicables y las asignaciones de entidades de base de datos para cada versión:
 
-   - [Referencia de información personal (2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
-   - [Referencia de información personal (1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
+   - [Referencia de información personal (2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=es)
+   - [Referencia de información personal (1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=es)
 
    ![diagrama](./assets/privacy-frontend-diagram.svg)
 

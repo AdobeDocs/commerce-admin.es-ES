@@ -18,7 +18,7 @@ Configure su tienda para calcular los impuestos según los requisitos de su conf
 >
 >Las versiones 2.4.0 a 2.4.3 de Adobe Commerce y Magento Open Source incluían la extensión desarrollada por el proveedor Vertex que se integraba con Vertex Cloud para proporcionar administración de impuestos y limpieza de direcciones. A partir de la versión 2.4.4, esta extensión ya no se integra con la versión principal y debe instalarse y actualizarse desde Commerce Marketplace o directamente desde el proveedor. [Póngase en contacto con Vertex](https://marketplace.magento.com/partner/vertex_inc) para obtener información acerca de la extensión y la documentación.<br><br>
 >
->Si tiene la extensión agrupada habilitada y configurada, debe actualizar el archivo composer.json como parte del proceso de actualización de la versión 2.4.4 y administrar las actualizaciones de extensión que se realicen. Consulte [Módulos de actualización](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) en la _Guía de actualización_.
+>Si tiene la extensión agrupada habilitada y configurada, debe actualizar el archivo composer.json como parte del proceso de actualización de la versión 2.4.4 y administrar las actualizaciones de extensión que se realicen. Consulte [Módulos de actualización](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=es) en la _Guía de actualización_.
 
 ## Referencia rápida
 

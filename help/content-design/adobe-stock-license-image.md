@@ -3,7 +3,7 @@ title: Licencia de una imagen de Adobe Stock
 description: Para garantizar que tenga acceso legal y eliminar la marca de agua de Adobe Stock, conceda una licencia a sus imágenes de Adobe Stock.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '389'
@@ -21,7 +21,7 @@ El nuevo [[!DNL Media Gallery]](media-gallery.md) proporciona una integración d
 
 **Requisitos previos**
 
-La característica de licencias de Adobe Stock solo está disponible si [Adobe Stock Integration](./adobe-stock.md) está instalado y configurado. Para autorizar [imágenes de Adobe Stock](https://stock.adobe.com) se necesita un plan Adobe Stock de pago y una [cuenta de Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
+La característica de licencias de Adobe Stock solo está disponible si [Adobe Stock Integration](./adobe-stock.md) está instalado y configurado. Para autorizar [imágenes de Adobe Stock](https://stock.adobe.com) se necesita un plan Adobe Stock de pago y una [cuenta de Adobe](https://helpx.adobe.com/es/manage-account/using/access-adobe-id-account.html).
 
 >[!ENDSHADEBOX]
 
@@ -47,7 +47,7 @@ La característica de licencias de Adobe Stock solo está disponible si [Adobe S
 
    >[!NOTE]
    >
-   >Debe tener [créditos de Adobe Stock](https://helpx.adobe.com/stock/help/credit-packs.html) disponibles en su cuenta para autorizar la imagen.
+   >Debe tener [créditos de Adobe Stock](https://helpx.adobe.com/es/stock/help/credit-packs.html) disponibles en su cuenta para autorizar la imagen.
 
 ## Otorgar licencia a una imagen desde el almacenamiento de medios estándar
 
@@ -63,7 +63,7 @@ La característica de licencias de Adobe Stock solo está disponible si [Adobe S
 
      >[!NOTE]
      >
-     >Debe tener [créditos de Adobe Stock](https://helpx.adobe.com/stock/help/credit-packs.html) disponibles en su cuenta para autorizar la imagen.
+     >Debe tener [créditos de Adobe Stock](https://helpx.adobe.com/es/stock/help/credit-packs.html) disponibles en su cuenta para autorizar la imagen.
 
    Esta acción muestra una solicitud para que especifique un nombre de archivo que se use para guardar la imagen en el [almacenamiento de medios](./media-storage.md). Se proporciona un nombre de archivo predeterminado, pero puede personalizarlo según sus preferencias.
 

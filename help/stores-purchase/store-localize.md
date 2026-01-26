@@ -18,7 +18,7 @@ Los paquetes de idiomas se encuentran en [Traducciones y localización](https://
 
 ## Paso 1: Instalar un paquete de idioma
 
-Siga las instrucciones estándar para instalar la extensión del paquete de idioma. Para obtener información detallada sobre cómo instalar una extensión, consulte [Instalación general de CLI](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) en la _Guía de extensiones_.
+Siga las instrucciones estándar para instalar la extensión del paquete de idioma. Para obtener información detallada sobre cómo instalar una extensión, consulte [Instalación general de CLI](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=es) en la _Guía de extensiones_.
 
 ## Paso 2: Crear una vista de tienda para el idioma
 
