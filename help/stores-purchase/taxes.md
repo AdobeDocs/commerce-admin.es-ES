@@ -89,7 +89,7 @@ Los comerciantes que son auditados por los impuestos pagados por los bienes digi
 - La dirección de envío del cliente y un registro de una transacción de pago correcta se pueden utilizar para establecer el lugar de residencia del cliente. (El pago se acepta únicamente si la dirección de envío coincide con la información del proveedor de pago.)
 - La información también se puede capturar directamente del almacén de datos en las tablas de la base de datos de Commerce.
 
-_**Para recopilar información de impuestos sobre bienes digitales:**_
+_&#x200B;**Para recopilar información de impuestos sobre bienes digitales:**&#x200B;_
 
 1. Cargue los tipos impositivos para todos los países miembros de la UE.
 

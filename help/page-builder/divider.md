@@ -73,7 +73,7 @@ Aunque la mayoría de los contenedores de divisor son invisibles, el siguiente e
 
    ![Configuración del color, grosor y anchura de la línea](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. Actualice la configuración de _[!UICONTROL Advanced]_según sea necesario.
+1. Actualice la configuración de _[!UICONTROL Advanced]_&#x200B;según sea necesario.
 
    - Para controlar la posición del divisor dentro del contenedor principal, elija **[!UICONTROL Alignment]**:
 

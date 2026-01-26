@@ -44,7 +44,7 @@ Para añadir un vídeo de producto, primero debe obtener una clave de API de su 
 
 1. En el panel izquierdo, expanda **[!UICONTROL Catalog]** y elija **[!UICONTROL Catalog]** debajo.
 
-1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Product Video]_y pegue su **[!UICONTROL YouTube API key]**.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Product Video]_&#x200B;y pegue su **[!UICONTROL YouTube API key]**.
 
    ![Configuración de vídeo del producto](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
@@ -94,7 +94,7 @@ Para añadir un vídeo de producto, primero debe obtener una clave de API de su 
 
    >[!NOTE]
    >
-   >Si la opción de configuración _[!UICONTROL Autostart base video]_se establece en `Yes` pero el vídeo no empieza a reproducirse automáticamente, podría deberse a las políticas de reproducción automática que aplica el explorador y que Adobe Commerce no puede controlar. Cada navegador compatible tiene sus propias políticas de reproducción automática que pueden cambiar con el tiempo y es posible que el vídeo no se reproduzca automáticamente en el futuro. Como práctica recomendada, no debe depender de la reproducción automática para la funcionalidad empresarial crítica y debe probar el comportamiento de reproducción automática de vídeo en su tienda con cada explorador compatible.
+   >Si la opción de configuración _[!UICONTROL Autostart base video]_&#x200B;se establece en `Yes` pero el vídeo no empieza a reproducirse automáticamente, podría deberse a las políticas de reproducción automática que aplica el explorador y que Adobe Commerce no puede controlar. Cada navegador compatible tiene sus propias políticas de reproducción automática que pueden cambiar con el tiempo y es posible que el vídeo no se reproduzca automáticamente en el futuro. Como práctica recomendada, no debe depender de la reproducción automática para la funcionalidad empresarial crítica y debe probar el comportamiento de reproducción automática de vídeo en su tienda con cada explorador compatible.
 
 ## Mantener acceso a API
 

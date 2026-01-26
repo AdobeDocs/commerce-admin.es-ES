@@ -51,11 +51,11 @@ Adobe Commerce y Magento Open Source se pueden configurar para que entreguen tod
 
    - **[!UICONTROL Base URL for Static View Files]** — (Opcional) Especifique una ubicación alternativa para la dirección URL base de los archivos de vista estática especificando la ruta de acceso que comience por el siguiente marcador de posición:
 
-     \{unsecure_base_url}}
+     \{unsecure_base_url}&rbrace;
 
    - **[!UICONTROL Base URL for User Media Files]** — (Opcional) Especifique una ubicación alternativa para la dirección URL base de los archivos multimedia del usuario introduciendo la ruta de acceso que comienza por el siguiente marcador de posición:
 
-     \{unsecure_base_url}}
+     \{unsecure_base_url}&rbrace;
 
      En una instalación típica, no es necesario actualizar las rutas de los archivos de vista estática o archivos multimedia porque son relativas a la dirección URL base.
 
@@ -81,11 +81,11 @@ Si su dominio tiene un certificado de seguridad válido, puede configurar las di
 
    - **[!UICONTROL Secure Base URL for Static View Files]**: (Opcional) especifique una ubicación alternativa para la dirección URL base segura para los archivos de vista estática introduciendo la ruta de acceso que comience por el siguiente marcador de posición:
 
-     \{secure_base_url}}
+     \{secure_base_url}&rbrace;
 
    - **[!UICONTROL Secure Base URL for User Media Files]** — (Opcional) Especifique una ubicación alternativa para la dirección URL base segura para los archivos multimedia del usuario introduciendo la ruta de acceso que comience por el siguiente marcador de posición:
 
-     \{secure_base_url}}
+     \{secure_base_url}&rbrace;
 
 1. Para mejorar la seguridad, establezca las dos opciones siguientes en `Yes`.
 

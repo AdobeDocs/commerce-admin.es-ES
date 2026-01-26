@@ -18,7 +18,7 @@ La información básica de la tienda incluye el nombre y la dirección de la tie
 
 ## [!UICONTROL Store Information]
 
-La sección _[!UICONTROL Store Information]_proporciona la información básica que aparece en los documentos de ventas y en otras comunicaciones.
+La sección _[!UICONTROL Store Information]_&#x200B;proporciona la información básica que aparece en los documentos de ventas y en otras comunicaciones.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

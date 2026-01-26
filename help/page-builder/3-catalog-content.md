@@ -30,7 +30,7 @@ Este ejercicio supone que ha completado [Parte 1: Página simple](1-simple-page.
 
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Content]** y haga clic en **[!UICONTROL Edit with Page Builder]** o dentro del área de vista previa del contenido.
 
-1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un(a)**[!UICONTROL Row]**a la parte superior del escenario.
+1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un(a)**[!UICONTROL Row]**&#x200B;a la parte superior del escenario.
 
 1. En el panel [!DNL Page Builder], expanda **[!UICONTROL Add Content]** y arrastre un marcador de posición **[!UICONTROL Products]** a la nueva fila.
 
@@ -80,7 +80,7 @@ Este ejercicio supone que ha completado [Parte 1: Página simple](1-simple-page.
 
 1. En la esquina superior derecha del escenario, haga clic en el icono _Cerrar pantalla completa_ (![Icono de cerrar pantalla completa](./assets/pb-icon-reduce.png){width="20"} ).
 
-   Al hacer clic en este icono, volverá a la sección _[!UICONTROL Content]_de la página con la vista previa mostrada.
+   Al hacer clic en este icono, volverá a la sección _[!UICONTROL Content]_&#x200B;de la página con la vista previa mostrada.
 
 1. En la esquina superior derecha, haga clic en la flecha **[!UICONTROL Save]** y elija **[!UICONTROL Save & Close]**.
 
@@ -104,7 +104,7 @@ En esta parte del ejercicio, aprenderá lo fácil que es personalizar una págin
 
    Si la descripción del producto se especificó anteriormente sin [!DNL Page Builder], la descripción actual aparecerá como HTML en un contenedor de [código HTML](html-code.md). Con la temática de Luma, la descripción del producto aparece en la pestaña Detalles.
 
-1. En el panel [!DNL Page Builder], debajo de _[!UICONTROL Layout]_, arrastre un(a)**[!UICONTROL Row]**al escenario y colóquelo debajo del contenedor de código HTML.
+1. En el panel [!DNL Page Builder], debajo de _[!UICONTROL Layout]_, arrastre un(a)**[!UICONTROL Row]**&#x200B;al escenario y colóquelo debajo del contenedor de código HTML.
 
    Busque que aparezca la guía roja cuando la fila esté en la posición correcta.
 
@@ -136,7 +136,7 @@ En esta parte del ejercicio, aprenderá lo fácil que es personalizar una págin
 
 1. En la esquina superior derecha del escenario, haga clic en el icono _Cerrar pantalla completa_ (![Icono de cerrar pantalla completa](./assets/pb-icon-reduce.png){width="20"} ).
 
-   Al hacer clic en este icono, volverá a la sección _[!UICONTROL Content]_de la página con la vista previa mostrada.
+   Al hacer clic en este icono, volverá a la sección _[!UICONTROL Content]_&#x200B;de la página con la vista previa mostrada.
 
 1. En la esquina superior derecha, haga clic en la flecha **[!UICONTROL Save]** y elija **[!UICONTROL Save & Close]**.
 
@@ -160,17 +160,17 @@ Para evitar cambios en la tienda activa, cree un producto con las propiedades de
 
 1. Cree el producto con las siguientes propiedades:
 
-   - 
+   - &#x200B;
      [!UICONTROL Conjunto de atributos]: Default
    - [!UICONTROL Product Name]: Mi producto
-   - 
+   - &#x200B;
      [!UICONTROL SKU]: Tutorial
-   - 
+   - &#x200B;
      [!UICONTROL Price]: 75.00
-   - 
+   - &#x200B;
      [!UICONTROL Quantity]: 100
    - [!UICONTROL Stock Status]: en stock
-   - 
+   - &#x200B;
      [!UICONTROL Weight]: 1
    - [!UICONTROL Categories]: Mujeres > Tops > Camisetas
 
@@ -199,20 +199,20 @@ En este paso, creará dos nuevos atributos personalizados para mostrar cómo se 
    - [!UICONTROL Attribute Code]: escriba un código de atributo en minúsculas, con guiones en lugar de espacios. Para este ejemplo, use `my_page_builder_attribute`.
    - [!UICONTROL Scope]: acepte el valor predeterminado `Store View`.
    - [!UICONTROL Default Value]: escriba un valor predeterminado para el atributo.
-   - 
+   - &#x200B;
      [!UICONTROL Unique Value]: `No`
-   - 
+   - &#x200B;
      [!UICONTROL Add to Column Options]: `No`
-   - 
+   - &#x200B;
      [!UICONTROL Use in Filter Options]: `Yes`
 
-1. En el panel _[!UICONTROL Attribute Information]_de la izquierda, elija **[!UICONTROL Storefront Properties]**y realice la siguiente configuración:
+1. En el panel _[!UICONTROL Attribute Information]_&#x200B;de la izquierda, elija **[!UICONTROL Storefront Properties]**&#x200B;y realice la siguiente configuración:
 
-   - 
+   - &#x200B;
      [!UICONTROL Use for Promo Rule Conditions]: `Yes`
-   - 
+   - &#x200B;
      [!UICONTROL Visible on Catalog Pages on Storefront]: `Yes`
-   - 
+   - &#x200B;
      [!UICONTROL Used in Product Listing]: `Yes`
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Attribute]**.
@@ -221,7 +221,7 @@ En este paso, creará dos nuevos atributos personalizados para mostrar cómo se 
 
    - [!UICONTROL Default Label]: Atributo de mi editor de texto
    - [!UICONTROL Catalog Input Type for Store Owner]: Editor de texto
-   - 
+   - &#x200B;
      [!UICONTROL Código de atributo]: `my_text_editor_attribute`
 
 ### Paso 3: Actualizar el conjunto de atributos del producto
@@ -234,7 +234,7 @@ En este paso, creará dos nuevos atributos personalizados para mostrar cómo se 
    >
    >Si no desea cambiar la tienda activa, puede continuar sin actualizar el conjunto de atributos.
 
-1. Busque el atributo _[!UICONTROL Default]_establecido en la lista y haga doble clic en él para abrirlo en modo de edición.
+1. Busque el atributo _[!UICONTROL Default]_&#x200B;establecido en la lista y haga doble clic en él para abrirlo en modo de edición.
 
 1. En la lista _Atributos sin asignar_, busque los nuevos atributos que creó y arrastre cada uno a la columna _[!UICONTROL Groups]_, en **[!UICONTROL Content]**.
 

@@ -104,7 +104,7 @@ Si la tienda tiene varias vistas en diferentes idiomas, los mismos productos est
 
 1. Para _información básica_, traduzca **[!UICONTROL Category Name]**.
 
-1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Content]_y traduzca **[!UICONTROL Description]**.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Content]_&#x200B;y traduzca **[!UICONTROL Description]**.
 
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Search Engine Optimization Settings]** y traduzca los campos siguientes:
 

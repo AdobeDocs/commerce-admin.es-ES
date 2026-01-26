@@ -77,11 +77,11 @@ La clave es de [Google Maps Platform](https://cloud.google.com/maps-platform/) y
 
 1. En el panel izquierdo, expanda **[!UICONTROL Catalog]** y elija **[!UICONTROL Inventory]**.
 
-1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Distance Provider for Distance Based SSA]_y establezca **[!UICONTROL Provider]**en `Google MAP`.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;y establezca **[!UICONTROL Provider]**&#x200B;en `Google MAP`.
 
    ![Proveedores para SSA basado en distancia](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 
-1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Google Distance Provider]_y configure las opciones:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Google Distance Provider]_&#x200B;y configure las opciones:
 
    - Para **[!UICONTROL Google API Key]**, ingrese la clave copiada de su cuenta de Google.
 

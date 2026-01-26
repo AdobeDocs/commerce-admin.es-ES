@@ -36,7 +36,7 @@ Vaya a [Braintree Payments](https://www.braintreepayments.com/) y regístrese pa
 
    - Si la instalación de Commerce tiene varios sitios web, tiendas o vistas, elija **[!UICONTROL Store View]** en la esquina superior izquierda donde se aplica la configuración.
 
-   - En la sección _[!UICONTROL Merchant Location]_, compruebe que **[!UICONTROL Merchant Country]**está establecido en la ubicación de su empresa.
+   - En la sección _[!UICONTROL Merchant Location]_, compruebe que **[!UICONTROL Merchant Country]**&#x200B;está establecido en la ubicación de su empresa.
 
 1. En _[!UICONTROL Recommended Solutions]_, en la sección_[!UICONTROL Braintree Payments] (por [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [Notas de la versión](https://support.gene.co.uk/support/solutions/articles/35000278668)_, haga clic en **[!UICONTROL Configure]**.
 
@@ -252,7 +252,7 @@ Vaya a [Braintree Payments](https://www.braintreepayments.com/) y regístrese pa
 
      >[!NOTE]
      >
-     >El crédito de PayPal solo está disponible en los Estados Unidos y el Reino Unido. El crédito de PayPal está deshabilitado si el valor seleccionado para el campo _[!UICONTROL Merchant Country]_no es `US` ni `UK`.
+     >El crédito de PayPal solo está disponible en los Estados Unidos y el Reino Unido. El crédito de PayPal está deshabilitado si el valor seleccionado para el campo _[!UICONTROL Merchant Country]_&#x200B;no es `US` ni `UK`.
 
    - Para incluir [!DNL PayPal PayLater] como opción de pago con Braintree, establezca **[!UICONTROL Enable PayPal PayLater through Braintree]** en `Yes`.
 

@@ -34,7 +34,7 @@ El primer paso es completar la configuración predeterminada para las tasas de t
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. En la sección _[!UICONTROL Sales]_del panel izquierdo, elija **[!UICONTROL Delivery Methods]**.
+1. En la sección _[!UICONTROL Sales]_&#x200B;del panel izquierdo, elija **[!UICONTROL Delivery Methods]**.
 
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Table Rates]**.
 
@@ -115,10 +115,10 @@ El primer paso es completar la configuración predeterminada para las tasas de t
 1. Complete la tabla con los valores adecuados para la condición de cálculo de envío.
 
    - Utilice un asterisco (*) como comodín que represente todos los valores posibles de cualquier categoría.
-   - La columna _[!UICONTROL Country]_debe contener [un código de tres caracteres válido](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) para cada fila.
-   - Ordene los datos por _[!UICONTROL Region/State]_de modo que las ubicaciones específicas estén en la parte superior de la lista y las ubicaciones de los comodines en la parte inferior. Al utilizar este método, se procesan primero las reglas con los valores absolutos y, después, los valores comodín.
+   - La columna _[!UICONTROL Country]_&#x200B;debe contener [un código de tres caracteres válido](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) para cada fila.
+   - Ordene los datos por _[!UICONTROL Region/State]_&#x200B;de modo que las ubicaciones específicas estén en la parte superior de la lista y las ubicaciones de los comodines en la parte inferior. Al utilizar este método, se procesan primero las reglas con los valores absolutos y, después, los valores comodín.
    - No se admiten intervalos de código postal. Use un asterisco (*) para permitir todos los códigos de la región o el estado, o especifique un solo código para una ubicación específica en la columna _[!UICONTROL Zip/Postal Code]_.
-   - Los valores de la columna _[!UICONTROL Weight (and above)]_pueden tener un máximo de cuatro decimales (como `2.5075`). Si utiliza más decimales en los datos, la importación fallará.
+   - Los valores de la columna _[!UICONTROL Weight (and above)]_&#x200B;pueden tener un máximo de cuatro decimales (como `2.5075`). Si utiliza más decimales en los datos, la importación fallará.
 
    ![Peso vs. Destino (Australia)](./assets/table-rates-weight-destination-csv.png){width="500"}
 

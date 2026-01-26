@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Configuración de [!DNL Page Builder]
 
-Cuando se habilita en la configuración, [!DNL Page Builder] es la herramienta de creación de contenido predeterminada para páginas de CMS, bloques y bloques dinámicos. Además, el botón _[!UICONTROL Enable Advanced CMS]_ofrece [!DNL Page Builder] como opción para Categorías y Productos. También puede elegir el [diseño de página](../content-design/page-layout.md) predeterminado que desee usar para productos, categorías y páginas de CMS. [!DNL Page Builder] no está disponible para el contenido de la newsletter, que usa el [editor](../content-design/editor.md) de WYSIWYG.
+Cuando se habilita en la configuración, [!DNL Page Builder] es la herramienta de creación de contenido predeterminada para páginas de CMS, bloques y bloques dinámicos. Además, el botón _[!UICONTROL Enable Advanced CMS]_&#x200B;ofrece [!DNL Page Builder] como opción para Categorías y Productos. También puede elegir el [diseño de página](../content-design/page-layout.md) predeterminado que desee usar para productos, categorías y páginas de CMS. [!DNL Page Builder] no está disponible para el contenido de la newsletter, que usa el [editor](../content-design/editor.md) de WYSIWYG.
 
 >[!NOTE]
 >
