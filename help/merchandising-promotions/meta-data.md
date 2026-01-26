@@ -1,45 +1,45 @@
 ---
-title: Metadatos
+title: Datos de Meta
 description: Obtenga información sobre cómo introducir metadatos con muchas palabras clave para mejorar la forma en que los motores de búsqueda indexan el sitio de Commerce.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
 
 ---
 
-# Metadatos
+# Datos de Meta
 
 >[!TIP]
 >
->Para Adobe Commerce as a Cloud Service, consulte las [directrices de metadatos](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=es) en la documentación de Commerce Storefront
+>Para Adobe Commerce as a Cloud Service, consulte las [directrices de metadatos](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/) en la documentación de Commerce Storefront
 
 Tu tienda está cargada de lugares donde puedes introducir metadatos con palabras clave para mejorar la forma en que los motores de búsqueda indexan tu sitio. Al configurar la tienda, es posible que introduzca metadatos preliminares con la intención de finalizarlos más adelante. Con el tiempo, puede ajustar los metadatos para que se centren en los patrones de compra y las preferencias de sus clientes.
 
 ![Configuración del producto - Optimización del motor de búsqueda](./assets/product-basic-settings-search-engine-optimization-yoga-strap.png){width="700" zoomable="yes"}
 
-## Meta title
+## Título de Meta
 
 El metatítulo aparece en la barra de título y en la pestaña del navegador y en los listados de resultados de búsqueda. El metatítulo debe ser exclusivo de la página y tener menos de 70 caracteres de longitud.
 
 ![Ejemplo de tienda - meta title](./assets/storefront-home-page-meta-title.png){width="600"}
 
-## Meta keywords
+## Palabras clave Meta
 
 Aunque algunos motores de búsqueda ignoran las palabras clave meta, otros las siguen usando. La práctica recomendada actual es incorporar palabras clave de alto valor en el meta título y la meta descripción.
 
 ![Búsqueda en explorador web: palabras clave meta](./assets/storefront-meta-description.png){width="500"}
 
-## Meta descripción
+## Descripción de Meta
 
-Las metadescripciones proporcionan una breve descripción de la página para las listas de resultados de búsqueda. Lo ideal es que una metadescripción tenga entre 150 y 160 caracteres de longitud, aunque el campo acepta hasta 255 caracteres.
+Las descripciones de Meta proporcionan una breve descripción de la página para las listas de resultados de búsqueda. Lo ideal es que una metadescripción tenga entre 150 y 160 caracteres de longitud, aunque el campo acepta hasta 255 caracteres.
 
 ## Fragmentos enriquecidos
 
-Los fragmentos enriquecidos proporcionan información detallada para las listas de resultados de búsqueda y otras aplicaciones. De manera predeterminada, el marcado de datos estructurado basado en el estándar [schema.org][1] se agrega a la plantilla de producto de la tienda. Como resultado, hay más información disponible para que los motores de búsqueda la incluyan como _fragmentos enriquecidos_ en las listas de productos.
+Los fragmentos enriquecidos proporcionan información detallada para las listas de resultados de búsqueda y otras aplicaciones. De manera predeterminada, el marcado de datos estructurado basado en el estándar [schema.org](https://schema.org/) se agrega a la plantilla de producto de la tienda. Como resultado, hay más información disponible para que los motores de búsqueda la incluyan como _fragmentos enriquecidos_ en las listas de productos.
 
 ## Metaetiqueta canónica
 
@@ -82,22 +82,20 @@ Puede evitar ser penalizado por los motores de búsqueda omitiendo la categoría
 
 1. Si desea que los motores de búsqueda indicen solo las páginas de categoría que utilizan la ruta de categoría completa, haga lo siguiente:
 
-   - Establezca **Usar metaetiqueta de vínculo canónico para las categorías** en `Yes`.
+   - Establezca **Usar etiqueta Meta de vínculo canónico para las categorías** en `Yes`.
 
-   - Establezca **Usar metaetiqueta de vínculo canónico para productos** en `No`.
+   - Establezca **Usar etiqueta Meta de vínculo canónico para productos** en `No`.
 
 1. Si desea que los motores de búsqueda indexen páginas de producto únicamente con el formato nombre de dominio/clave de URL de producto, haga lo siguiente:
 
-   - Establezca **Usar metaetiqueta de vínculo canónico para productos** en `Yes`.
+   - Establezca **Usar etiqueta Meta de vínculo canónico para productos** en `Yes`.
 
-   - Establezca **Usar metaetiqueta de vínculo canónico para las categorías** en `No`.
+   - Establezca **Usar etiqueta Meta de vínculo canónico para las categorías** en `No`.
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
-## Demostración de metadatos
+## Demostración de datos de Meta
 
 Vea este vídeo para obtener más información sobre la administración de metadatos de SEO:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411825?quality=12&learn=on&captions=spa)
-
-[1]: https://schema.org/
+>[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)

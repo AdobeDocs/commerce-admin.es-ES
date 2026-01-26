@@ -3,8 +3,8 @@ title: PayPal Payments Pro
 description: Aprenda a configurar PayPal Payments Pro como solución de pago en línea en su tienda.
 exl-id: 9cc5c3a6-d471-4198-85a2-c4cf9dfd378b
 feature: Payments
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PayPal Payments Pro
 
-[PayPal Payments Pro][3] te ofrece todas las ventajas de una cuenta comercial y una puerta de enlace de pago en una sola vez, además de la capacidad de crear tu propia experiencia de pago totalmente personalizada. PayPal Express Checkout se activa automáticamente con PayPal Payments Pro, por lo que puedes acceder a más de 110 millones de usuarios activos de PayPal.
+[PayPal Payments Pro](https://developer.paypal.com/docs/paypal-payments-pro/) te ofrece todas las ventajas de una cuenta comercial y una puerta de enlace de pago en una sola vez, además de la capacidad de crear tu propia experiencia de pago totalmente personalizada. PayPal Express Checkout se activa automáticamente con PayPal Payments Pro, por lo que puedes acceder a más de 110 millones de usuarios activos de PayPal.
 
 ![PayPal Payments Pro mostrado en el minicarrito](./assets/storefront-mini-cart-payments-pro-racer-tank.png){width="700" zoomable="yes"}
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## Requisitos
 
-- [Cuenta comercial de PayPal][1] (con pagos directos activado)
+- [Cuenta comercial de PayPal](https://www.paypal.com/webapps/mpp/how-to-sell-online) (con pagos directos activado)
 
 ## Flujo de trabajo de retirada
 
@@ -142,7 +142,7 @@ Antes de configurar PayPal Payments Pro en Commerce, debes configurar tu cuenta 
 
 1. Si la instalación de Commerce tiene varios sitios web, tiendas o vistas, establezca **[!UICONTROL Store View]** en la vista de tienda en la que desee aplicar esta configuración.
 
-1. En la sección _[!UICONTROL Merchant Location]_, seleccione **[!UICONTROL Merchant Country]**&#x200B;donde se encuentra su empresa.
+1. En la sección _[!UICONTROL Merchant Location]_, seleccione **[!UICONTROL Merchant Country]**donde se encuentra su empresa.
 
    Esta configuración determina la selección de soluciones de PayPal que aparecen en la configuración.
 
@@ -176,7 +176,7 @@ Antes de configurar PayPal Payments Pro en Commerce, debes configurar tu cuenta 
 
 1. Para ejecutar transacciones de prueba, establezca **[!UICONTROL Test Mode]** en `Yes`.
 
-   Al probar la configuración en una zona protegida, usa solo [números de tarjeta de crédito][2] recomendados por PayPal. Cuando esté listo para ir a producción, vuelva a la configuración y establezca el modo de prueba en `No`.
+   Al probar la configuración en una zona protegida, usa solo [números de tarjeta de crédito](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm) recomendados por PayPal. Cuando esté listo para ir a producción, vuelva a la configuración y establezca el modo de prueba en `No`.
 
 1. Si su sistema utiliza un servidor proxy para establecer la conexión con el sistema PayPal, establezca **[!UICONTROL Use Proxy]** en `Yes` y haga lo siguiente:
 
@@ -423,7 +423,7 @@ Establezca **[!UICONTROL Enable PayPal PayLater Experience]** en una de las sigu
 
 #### Configuración de experiencia de front-end
 
-Use _[!UICONTROL Frontend Experience Settings]_&#x200B;para elegir los logotipos de PayPal que aparecerán en el sitio y personalizar el aspecto de las páginas de comerciantes de PayPal.
+Use _[!UICONTROL Frontend Experience Settings]_para elegir los logotipos de PayPal que aparecerán en el sitio y personalizar el aspecto de las páginas de comerciantes de PayPal.
 
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Frontend Experience Settings]**.
 
@@ -478,7 +478,7 @@ Use _[!UICONTROL Frontend Experience Settings]_&#x200B;para elegir los logotipos
    - `Authorization` - Aprueba la compra y suspende los fondos. La cantidad no se retira hasta que el comerciante _la capture_.
    - `Sale`: el importe de la compra se autoriza y se retira inmediatamente de la cuenta del cliente.
 
-1. Para mostrar el botón _[!UICONTROL Check out with PayPal]_&#x200B;en la página de productos, establezca **[!UICONTROL Display on Product Details Page]**&#x200B;en `Yes`.
+1. Para mostrar el botón _[!UICONTROL Check out with PayPal]_en la página de productos, establezca **[!UICONTROL Display on Product Details Page]**en `Yes`.
 
 ### Paso 7: Completa la configuración avanzada de Pago y envío de PayPal Express
 
@@ -506,7 +506,3 @@ Use _[!UICONTROL Frontend Experience Settings]_&#x200B;para elegir los logotipos
 1. Para permitir que el cliente complete la transacción desde el sitio de PayPal sin volver a su tienda para la revisión de pedidos, establezca **[!UICONTROL Skip Order Review Step]** en `Yes`.
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[3]: https://developer.paypal.com/docs/paypal-payments-pro/

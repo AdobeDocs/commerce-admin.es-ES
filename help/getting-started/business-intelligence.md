@@ -3,8 +3,8 @@ title: '[!DNL Commerce Intelligence] herramientas'
 description: Descubra cómo los comerciantes de Adobe Commerce y Magento Open Source pueden utilizar las herramientas de Commerce Intelligence para obtener el insight que se utiliza para tomar decisiones empresariales sólidas.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 0%
@@ -17,13 +17,13 @@ Utilice las herramientas de Commerce Intelligence para obtener el insight que se
 
 ## Cuenta de [!DNL Commerce Intelligence]
 
-Cuando activa una cuenta de [!DNL Commerce Intelligence] a través de Adobe, obtiene acceso a cinco paneles con aproximadamente 70 informes. Estos informes están diseñados para proporcionar perspectivas sobre sus datos y responder a preguntas como &quot;¿Cómo crecen mis pedidos mes tras mes?&quot;, &quot;¿Quiénes son mis clientes más fieles?&quot; y &quot;¿Funciona mi estrategia de cupones?&quot; Para obtener información detallada sobre este conjunto de herramientas, consulte la [Guía del usuario de Commerce Intelligence][1].
+Cuando activa una cuenta de [!DNL Commerce Intelligence] a través de Adobe, obtiene acceso a cinco paneles con aproximadamente 70 informes. Estos informes están diseñados para proporcionar perspectivas sobre sus datos y responder a preguntas como &quot;¿Cómo crecen mis pedidos mes tras mes?&quot;, &quot;¿Quiénes son mis clientes más fieles?&quot; y &quot;¿Funciona mi estrategia de cupones?&quot; Para obtener información detallada sobre este conjunto de herramientas, consulte la [Guía del usuario de Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html).
 
 ## [!DNL Advanced Reporting]
 
 [!DNL Advanced Reporting] se incluye con Adobe Commerce y Magento Open Source. Esta función le permite acceder a un conjunto de informes dinámicos basados en los datos de sus productos, pedidos y clientes, con un tablero personalizado adaptado a sus necesidades comerciales. Aunque [!DNL Advanced Reporting] usa [!DNL Commerce Intelligence] para análisis, no necesita tener una cuenta de Commerce Intelligence para usar [!DNL Advanced Reporting].
 
-Para obtener información técnica, consulte el tema [[!DNL Advanced Reporting]][2]{:target="_blank"} en la documentación para desarrolladores.
+Para obtener información técnica, consulte el tema [[!DNL Advanced Reporting]](https://developer.adobe.com/commerce/php/development/advanced-reporting/){:target="_blank"} en la documentación para desarrolladores.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Para obtener información técnica, consulte el tema [[!DNL Advanced Reporting]]
 
 * En la configuración de [!DNL Commerce] para las direcciones URL del almacén, **[!UICONTROL Use Secure URLs on Storefront]** y **[!UICONTROL Use Secure URLs in Admin]** deben establecerse en `Yes`.
 
-* [[!DNL Commerce] crontab][3] se ha creado y los trabajos cron se están ejecutando en el servidor instalado.
+* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html) se ha creado y los trabajos cron se están ejecutando en el servidor instalado.
 
 >[!NOTE]
 >
@@ -176,8 +176,3 @@ Si observa que el pie de ilustración `Data last updated...` muestra la fecha de
 | [!UICONTROL Best Selling Products by Revenue] | Enumera los productos más vendidos y los ingresos generados por la venta del producto a través de la vista de tienda durante el período de tiempo definido. |
 
 {style="table-layout:auto"}
-
-
-[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=es
-[2]: https://developer.adobe.com/commerce/php/development/advanced-reporting/
-[3]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=es

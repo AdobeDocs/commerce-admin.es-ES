@@ -3,9 +3,9 @@ title: Directrices de conformidad con PCI
 description: Revise esta información sobre los requisitos de la industria de tarjetas de pago (PCI) para las empresas que aceptan pagos con tarjeta de crédito a través de Internet.
 exl-id: b9fff131-bea3-4d7a-bbf7-e98b284387d3
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ La industria de tarjetas de pago (PCI) ha establecido un conjunto de requisitos 
 
 ![casilla de verificación](../assets/checkbox.png) - No usar valores predeterminados proporcionados por el proveedor para contraseñas del sistema y otros parámetros de seguridad.
 
-![casilla de verificación](../assets/checkbox.png) - Datos del titular de la tarjeta almacenados en Protect.
+![casilla de verificación](../assets/checkbox.png) - Proteger datos del titular de la tarjeta almacenados.
 
 ![casilla de verificación](../assets/checkbox.png) - Cifrar la transmisión de datos del titular de la tarjeta a través de redes públicas abiertas.
 
@@ -40,13 +40,10 @@ La industria de tarjetas de pago (PCI) ha establecido un conjunto de requisitos 
 
 ![casilla de verificación](../assets/checkbox.png): mantenga una directiva que trate la seguridad de la información.
 
-Para obtener más información, consulte [Método de Adobe para el cumplimiento de PCI][1]{:target=&quot;_blank&quot;}.
+Para obtener más información, consulte [Método de Adobe para el cumplimiento de PCI](https://business.adobe.com/products/magento/pci-compliance.html){:target="_blank"}.
 
 >[!NOTE]
 >
 >Este contenido está destinado únicamente a fines informativos y no debe interpretarse como asesoramiento jurídico. Para determinar si su empresa debe cumplir con alguna obligación legal y cómo debe hacerlo, consulte con su asesor legal.
 
-A medida que su empresa crezca, es posible que deba presentar un informe de cumplimiento de normas anualmente. Los requisitos de informes de PCI aumentan en proporción al nivel de comerciante, pero no se aplican a las empresas que procesan menos de 20 000 transacciones de tarjetas de crédito al año. Para obtener más información, visite el sitio web [PCI Security Standards Council][2].
-
-[1]: https://business.adobe.com/es/products/magento/pci-compliance.html
-[2]: https://www.pcisecuritystandards.org/index.php
+A medida que su empresa crezca, es posible que deba presentar un informe de cumplimiento de normas anualmente. Los requisitos de informes de PCI aumentan en proporción al nivel de comerciante, pero no se aplican a las empresas que procesan menos de 20 000 transacciones de tarjetas de crédito al año. Para obtener más información, visite el sitio web [PCI Security Standards Council](https://www.pcisecuritystandards.org/index.php).

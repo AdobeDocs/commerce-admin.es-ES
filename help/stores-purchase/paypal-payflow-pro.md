@@ -3,10 +3,10 @@ title: PayPal Payflow Pro
 description: Aprenda a configurar PayPal Payflow Pro como solución de pago en línea en su tienda.
 exl-id: c720b33c-44e1-4954-b5be-38932393a43c
 feature: Payments
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '2211'
+source-wordcount: '2212'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ La pasarela PayPal Payflow Pro, anteriormente conocida como _Verisign_, está di
 
 ## Requisitos
 
-- [Cuenta comercial de PayPal][1]: la puerta de enlace PayPal Payflow Pro vincula la cuenta de comerciante de PayPal con el sitio web del comerciante, actuando como puerta de enlace y como cuenta de comerciante.
+- [Cuenta comercial de PayPal](https://www.paypal.com/webapps/mpp/how-to-sell-online): la puerta de enlace PayPal Payflow Pro vincula la cuenta de comerciante de PayPal con el sitio web del comerciante, actuando como puerta de enlace y como cuenta de comerciante.
 
 - Si administra varios sitios web de Adobe Commerce y Magento Open Source, debe tener una cuenta de comerciante de PayPal independiente para cada sitio web.
 
@@ -37,7 +37,7 @@ La pasarela PayPal Payflow Pro, anteriormente conocida como _Verisign_, está di
 ## Flujo de trabajo de procesamiento de pedidos en línea
 
 1. **El administrador envía la factura en línea**: el administrador de la tienda envía una factura en línea y, como resultado, se crea la transacción y la factura correspondientes.
-1. **PayPal recibe la transacción** - La información del pedido se envía a PayPal. Se genera un registro de la transacción y una factura. Puedes ver todas las transacciones de Payflow Pro Gateway en tu [cuenta comercial de PayPal][2].
+1. **PayPal recibe la transacción** - La información del pedido se envía a PayPal. Se genera un registro de la transacción y una factura. Puedes ver todas las transacciones de Payflow Pro Gateway en tu [cuenta comercial de PayPal](https://manager.paypal.com/).
 
 >[!NOTE]
 >
@@ -45,9 +45,9 @@ La pasarela PayPal Payflow Pro, anteriormente conocida como _Verisign_, está di
 
 ## Configurar tu cuenta PayPal
 
-1. Inicia sesión en tu [cuenta comercial de PayPal][2].
+1. Inicia sesión en tu [cuenta comercial de PayPal](https://manager.paypal.com/).
 
-1. Configura las [páginas de cierre de compra hospedadas][4] mediante el Administrador de PayPal con la siguiente configuración:
+1. Configura las [páginas de cierre de compra hospedadas](https://developer.paypal.com/docs/payflow/integration-guide/configure-hosted-checkout/#configuring-hosted-pages-using-paypal-manager) mediante el Administrador de PayPal con la siguiente configuración:
 
    - En **[!UICONTROL Choose your settings]**, establezca **[!UICONTROL Transaction Process Mode]** en `Live`.
 
@@ -114,7 +114,7 @@ Este método de configuración supone que ya tienes una cuenta PayPal.
 
 1. Si la instalación de Commerce tiene varios sitios web, tiendas o vistas, establezca **[!UICONTROL Store View]** en la vista de tienda en la que desee aplicar esta configuración.
 
-1. En la sección _[!UICONTROL Merchant Location]_, seleccione **[!UICONTROL Merchant Country]**&#x200B;donde se encuentra su empresa.
+1. En la sección _[!UICONTROL Merchant Location]_, seleccione **[!UICONTROL Merchant Country]**donde se encuentra su empresa.
 
    Esta configuración determina la selección de soluciones de PayPal que aparecen en la configuración.
 
@@ -144,7 +144,7 @@ Este método de configuración supone que ya tienes una cuenta PayPal.
 
 1. Para ejecutar transacciones de prueba, establezca **[!UICONTROL Test Mode]** en `Yes`.
 
-   Al probar la configuración en una zona protegida, usa solo [números de tarjeta de crédito][3] recomendados por PayPal. Cuando esté listo para ir a producción, vuelva a la configuración y establezca el modo de prueba en `No`.
+   Al probar la configuración en una zona protegida, usa solo [números de tarjeta de crédito](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm) recomendados por PayPal. Cuando esté listo para ir a producción, vuelva a la configuración y establezca el modo de prueba en `No`.
 
 1. Si su sistema utiliza un servidor proxy para establecer la conexión con el sistema PayPal, establezca **[!UICONTROL Use Proxy]** en `Yes` y haga lo siguiente:
 
@@ -449,7 +449,7 @@ Utilice la Configuración de experiencia de front-end para elegir qué logotipos
    - `Authorization` - Aprueba la compra y suspende los fondos. La cantidad no se retira hasta que el comerciante _la capture_.
    - `Sale`: el importe de la compra se autoriza y se retira inmediatamente de la cuenta del cliente.
 
-1. Para mostrar el botón _[!UICONTROL Check out with PayPal]_&#x200B;en la página de productos, establezca **[!UICONTROL Display on Product Details Page]**&#x200B;en `Yes`.
+1. Para mostrar el botón _[!UICONTROL Check out with PayPal]_en la página de productos, establezca **[!UICONTROL Display on Product Details Page]**en `Yes`.
 
 ### Paso 7: Completa la configuración avanzada de Pago y envío de PayPal Express
 
@@ -481,8 +481,3 @@ Utilice la Configuración de experiencia de front-end para elegir qué logotipos
 ### Paso 8: Añadir Google reCAPTCHA
 
 Para proteger mejor el pago y envío de PayPal Payflow Pro, habilita Google reCAPTCHA. Incluye opciones para ejecutar reCAPTCHA mediante una interfaz en la que se puede hacer clic o una comprobación invisible para validar al cliente. La opción invisible se recomienda para aumentar la conversión de ventas y proteger su tienda. Para obtener más información, consulte [Google reCAPTCHA](../systems/security-google-recaptcha.md).
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://manager.paypal.com/
-[3]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[4]: https://developer.paypal.com/docs/payflow/integration-guide/configure-hosted-checkout/#configuring-hosted-pages-using-paypal-manager

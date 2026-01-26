@@ -3,9 +3,9 @@ title: Cumplimiento del RGPD
 description: Obtenga información sobre el Reglamento General de Protección de Datos (RGPD), que es una legislación que regula la protección de datos y la privacidad de todas las personas en la Unión Europea y el Espacio Económico Europeo.
 exl-id: 88a732f3-f376-4ff5-890c-0535de8eae51
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Esta información es uno de una serie de temas para ayudar a Adobe Commerce y a los comerciantes y desarrolladores Magento Open Source a comprender las implicaciones del Reglamento General de Protección de Datos (RGPD). La información está destinada únicamente a fines informativos y no debe interpretarse como asesoramiento jurídico. Para determinar si su empresa debe cumplir con alguna obligación legal y cómo debe hacerlo, consulte con su asesor legal.
+>Esta información es uno de una serie de temas para ayudar a los comerciantes y desarrolladores de Adobe Commerce y Magento Open Source a comprender las implicaciones del Reglamento General de Protección de Datos (RGPD). La información está destinada únicamente a fines informativos y no debe interpretarse como asesoramiento jurídico. Para determinar si su empresa debe cumplir con alguna obligación legal y cómo debe hacerlo, consulte con su asesor legal.
 
 El Reglamento General de Protección de Datos (RGPD) es una legislación que regula la protección de datos y la privacidad de todas las personas en la Unión Europea y el Espacio Económico Europeo. La legislación también se aplica a la exportación de datos personales fuera de la UE. El RGPD se adoptó en abril de 2016 y entró en vigor el 25 de mayo de 2018. Las empresas que no tienen su sede en la UE, pero que operan en el comercio internacional, deben cumplir con la normativa. El GDPA define **datos personales** de la siguiente manera:
 
@@ -37,7 +37,7 @@ Si su empresa debe cumplir con el RGPD y con la [Ley de Privacidad del Consumido
 - La CCPA incluye requisitos adicionales de asignación e inventario de datos.
 - Las regulaciones tienen diferentes requisitos de política de privacidad.
 
-Las empresas que cumplan con el RGPD podrían tener obligaciones adicionales según la CCPA. Para obtener más información, consulte la [Hoja informativa de la CCPA][3]{:target=&quot;_blank&quot;}.
+Las empresas que cumplan con el RGPD podrían tener obligaciones adicionales según la CCPA. Para obtener más información, consulte la [Hoja informativa de la CCPA](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"}.
 
 ## Prácticas recomendadas
 
@@ -47,10 +47,6 @@ Las empresas que cumplan con el RGPD podrían tener obligaciones adicionales seg
 
 - Mantenga la transparencia y la documentación exhaustiva.
 
-- Para saber cómo el Adobe ayuda a los comerciantes a cumplir con las obligaciones legales aplicables, visite el [sitio web][1]{:target=&quot;_blank&quot;}.
+- Para saber cómo Adobe ayuda a los comerciantes a cumplir con las obligaciones legales aplicables, visite el [sitio web](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"}.
 
-- Para ver diagramas de flujo de datos y la asignación de entidades de base de datos, consulte la [Referencia de información personal][2]{: target=&quot;_blank&quot;}.
-
-[1]: https://business.adobe.com/es/privacy/general-data-protection-regulation.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=es
-[3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
+- Para ver diagramas de flujo de datos y la asignación de entidades de base de datos, consulte la [Referencia de información personal](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html){: target="_blank"}.

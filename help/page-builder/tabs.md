@@ -3,7 +3,7 @@ title: 'Diseño: fichas'
 description: Obtenga información acerca del tipo de contenido Fichas, utilizado para agregar un conjunto de fichas en el escenario  [!DNL Page Builder] .
 exl-id: e83d248d-7cf3-4ccc-a03d-ede32c7e71ae
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Cuando trabaja con el tipo de contenido _Tabs_, agrega y edita fichas individual
 
 ## Añadir una pestaña individual
 
-1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre el marcador de posición **[!UICONTROL Tabs]**&#x200B;directamente al escenario o a una fila o columna del escenario.
+1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre el marcador de posición **[!UICONTROL Tabs]**directamente al escenario o a una fila o columna del escenario.
 
    ![Arrastrando fichas a una fila](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 
@@ -74,8 +74,8 @@ Cuando trabaja con el tipo de contenido _Tabs_, agrega y edita fichas individual
 
 1. Si es necesario, configure las demás opciones utilizando las siguientes secciones como guía:
 
-   - [[!UICONTROL Background]][background]
-   - [[!UICONTROL Advanced]][advanced]
+   - [[!UICONTROL Background]](#background)
+   - [[!UICONTROL Advanced]](#advanced)
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Save]** para aplicar la configuración y volver al área de trabajo [!DNL Page Builder].
 
@@ -324,7 +324,5 @@ Puede cambiar cualquier tipo de contenido en una pestaña, igual que en una fila
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save]** para aplicar la configuración y volver al área de trabajo [!DNL Page Builder].
 
-[background]: #background
-[advanced]: #advanced
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

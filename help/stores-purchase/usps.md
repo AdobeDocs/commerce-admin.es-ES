@@ -3,9 +3,9 @@ title: Servicio postal de Estados Unidos (USPS)
 description: Aprenda a configurar USPS como transportista para su tienda.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: c9acf475eeadcd249467e4cc89fe61d37230bd7d
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ El Servicio Postal de los Estados Unidos es el servicio postal independiente del
 
 ## Paso 1: Abrir una cuenta de envío de USPS
 
-Abra una cuenta de [USPS Web Tools][1]. Una vez completado el proceso de registro, recibirá su ID de usuario y una URL al servidor de prueba de USPS.
+Abra una cuenta de [USPS Web Tools](https://secure.shippingapis.com/registration/). Una vez completado el proceso de registro, recibirá su ID de usuario y una URL al servidor de prueba de USPS.
 
-También puede abrir una cuenta de [USPS Web Tools][1]. Una vez completado el proceso de registro, recibirá su ID de usuario y una URL al servidor de prueba de USPS. Para obtener más información acerca de las herramientas web de USPS, consulte su [documentación técnica][2].
+También puede abrir una cuenta de [USPS Web Tools](https://secure.shippingapis.com/registration/). Una vez completado el proceso de registro, recibirá su ID de usuario y una URL al servidor de prueba de USPS. Para obtener más información acerca de las herramientas web de USPS, consulte su [documentación técnica](https://www.usps.com/business/web-tools-apis/welcome.htm).
 
 ## Paso 2: Habilita USPS para tu tienda
 
@@ -142,7 +142,5 @@ La tarifa de manipulación es opcional y aparece como un cargo adicional que se 
 
 1. Haga clic en **[!UICONTROL Save Config]**.
 
-[1]: https://secure.shippingapis.com/registration/
-[2]: https://www.usps.com/business/web-tools-apis/welcome.htm
 
 <!-- Last updated from includes: 2025-11-26 10:55:00 -->

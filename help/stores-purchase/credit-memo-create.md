@@ -3,7 +3,7 @@ title: Emitir una nota de crédito
 description: Obtenga información sobre cómo generar e imprimir un abono para un pedido facturado.
 exl-id: 84ec72ba-7f72-4fa1-a9bf-91c17f43a3a7
 feature: Orders, Invoices
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2132'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Determine el tipo de reembolso que desea emitir (por una [compra a crédito](#is
 
 1. Busque el orden en la cuadrícula y haga clic en **[!UICONTROL View]**.
 
-1. Si el botón _[!UICONTROL Credit Memo]_&#x200B;está visible en la barra de botones, siga uno de estos procedimientos:
+1. Si el botón _[!UICONTROL Credit Memo]_está visible en la barra de botones, siga uno de estos procedimientos:
 
    - Para emitir un reembolso de `offline`, vaya al paso #6.
    - Para emitir un reembolso de `online`, continúe con el paso #4.
@@ -272,7 +272,7 @@ El método de pago utilizado para el pedido determina los botones de devolución
 
 ## Imprimir un abono
 
-Para imprimir o ver el abono completado, debe tener instalado un PDF Reader. Puedes descargar [Adobe Reader][1] sin cargo.
+Para imprimir o ver el abono completado, debe tener instalado un lector de PDF. Puede descargar [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Obtener Adobe Reader") sin cargo.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Credit Memos]**.
 
@@ -296,9 +296,6 @@ Para imprimir o ver el abono completado, debe tener instalado un PDF Reader. Pue
 
 1. Cuando se le solicite, realice una de las siguientes acciones:
 
-   - Para guardar el documento, haga clic en **[!UICONTROL Save]** y siga las indicaciones para guardar el archivo en el equipo. Cuando finalice la descarga, abra el PDF en Adobe Reader e imprima el documento.
+   - Para guardar el documento, haga clic en **[!UICONTROL Save]** y siga las indicaciones para guardar el archivo en el equipo. Cuando finalice la descarga, abra PDF en Adobe Reader e imprima el documento.
 
    - Para ver el documento, haga clic en **[!UICONTROL Open]**. El abono de PDF listo para imprimir se abre en Adobe Reader. Desde aquí, puede imprimir el abono o guardarlo en el equipo.
-
-
-[1]: https://www.adobe.com/acrobat/pdf-reader.html "Obtener Adobe Reader"

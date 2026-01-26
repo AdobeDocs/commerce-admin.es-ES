@@ -3,18 +3,18 @@ title: 'Medios: mapa'
 description: Obtenga información acerca del tipo de contenido Mapa que se usa para agregar un mapa de  [!DNL Google Maps] Platform al escenario [!DNL Page Builder] stage.
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1572'
 ht-degree: 0%
 
 ---
 
 # Medios: mapa
 
-Use el tipo de contenido _Map_ para agregar un mapa de [[!DNL Google Maps] Platform][1] al [[!DNL Page Builder] stage](workspace.md#stage). Por ejemplo, podría agregar un mapa a un bloque y luego agregar el bloque a las páginas [Acerca de nosotros](../content-design/pages.md#about-us) y [Contáctenos](../getting-started/store-details.md#contact-us-form).
+Use el tipo de contenido _Map_ para agregar un mapa de [[!DNL Google Maps] Platform](https://cloud.google.com/maps-platform/) al [[!DNL Page Builder] stage](workspace.md#stage). Por ejemplo, podría agregar un mapa a un bloque y luego agregar el bloque a las páginas [Acerca de nosotros](../content-design/pages.md#about-us) y [Contáctenos](../getting-started/store-details.md#contact-us-form).
 
-Para aprovechar al máximo la plataforma [!DNL Google Maps], puede personalizar el mapa, resaltar las ubicaciones de las tiendas y usar Google [Places][2] para agregar información enriquecida sobre la tienda a todos los [!DNL Google Maps].
+Para aprovechar al máximo la plataforma [!DNL Google Maps], puede personalizar el mapa, resaltar las ubicaciones de las tiendas y usar Google [Places](https://cloud.google.com/maps-platform/places/) para agregar información enriquecida sobre la tienda a todos los [!DNL Google Maps].
 
 ## Ventajas de incrustar un mapa de Google
 
@@ -50,7 +50,7 @@ El cuadro de herramientas de asignación aparece cuando pasa el ratón por encim
 
 ## Configure [!DNL Google Maps] para su administrador
 
-Antes de agregar un mapa, primero debes abrir una [cuenta][3] para obtener una versión de prueba gratuita de la plataforma [!DNL Google Maps]. La prueba gratuita dura 12 meses e incluye un crédito de $300. Si usas tu crédito, Google no factura tu cuenta sin tu permiso.
+Antes de agregar un mapa, primero debes abrir una [cuenta](https://cloud.google.com/maps-platform/user-guide/) para obtener una versión de prueba gratuita de la plataforma [!DNL Google Maps]. La prueba gratuita dura 12 meses e incluye un crédito de $300. Si usas tu crédito, Google no factura tu cuenta sin tu permiso.
 
 ### Paso 1: Obtener la clave de API [!DNL Google Maps]
 
@@ -60,7 +60,7 @@ Dependiendo de si ya tiene una clave [!DNL Google Maps], utilice uno de los sigu
 
 1. Haga clic en el menú desplegable del proyecto y seleccione o cree el proyecto para el que desea agregar una clave de API.
 
-1. Para configurar sus credenciales de API, siga las [instrucciones][4] de la documentación de [!DNL Google Maps].
+1. Para configurar sus credenciales de API, siga las [instrucciones](https://developers.google.com/maps/documentation/javascript/get-api-key) de la documentación de [!DNL Google Maps].
 
 1. Copie la clave API en el portapapeles.
 
@@ -112,7 +112,7 @@ Dependiendo de si ya tiene una clave [!DNL Google Maps], utilice uno de los sigu
 
    Como alternativa, en el cuadro **[!UICONTROL Position]**, puede arrastrar el fijador en el mapa mostrado.
 
-   Si es necesario, vaya a [[!DNL Google Maps]][5] en una nueva ventana del explorador y utilice uno de los siguientes métodos para obtener las coordenadas:
+   Si es necesario, vaya a [[!DNL Google Maps]](https://www.google.com/maps) en una nueva ventana del explorador y utilice uno de los siguientes métodos para obtener las coordenadas:
 
    ![Coordenadas de mapa](./assets/pb-media-maps-settings-add-location-coordinates.png){width="600" zoomable="yes"}
 
@@ -164,9 +164,9 @@ Use el Asistente para estilo de plataforma [!DNL Google Maps] para aplicar una d
 
 1. Expandir ![Selector de expansión](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
-1. En el cuadro de texto **[!UICONTROL Google Maps Style]**, haga clic en [Crear estilo de mapa][6].
+1. En el cuadro de texto **[!UICONTROL Google Maps Style]**, haga clic en [Crear estilo de mapa](https://mapstyle.withgoogle.com/).
 
-   Esta acción abre el [[!DNL Google Maps] Asistente para estilo de plataforma][6] en una ficha independiente, donde puede definir un estilo para el proyecto de plataforma [!DNL Google Maps].
+   Esta acción abre el [[!DNL Google Maps] Asistente para estilo de plataforma](https://mapstyle.withgoogle.com/) en una ficha independiente, donde puede definir un estilo para el proyecto de plataforma [!DNL Google Maps].
 
 1. Haga clic en **[!UICONTROL Create a Style]** y siga las instrucciones proporcionadas.
 
@@ -197,7 +197,7 @@ Use el Asistente para estilo de plataforma [!DNL Google Maps] para aplicar una d
 
    {style="table-layout:auto"}
 
-1. Modifique la configuración de _[!UICONTROL Advanced]_&#x200B;según sea necesario:
+1. Modifique la configuración de _[!UICONTROL Advanced]_según sea necesario:
 
    - Para controlar la posición horizontal del contenido del mapa que se agregó al contenedor, elija un **[!UICONTROL Alignment]**:
 
@@ -284,11 +284,5 @@ El tamaño de la cuadrícula determina el tamaño del mapa relacionado con una [
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
-[1]: https://cloud.google.com/maps-platform/
-[2]: https://cloud.google.com/maps-platform/places/
-[3]: https://cloud.google.com/maps-platform/user-guide/
-[4]: https://developers.google.com/maps/documentation/javascript/get-api-key
-[5]: https://www.google.com/maps
-[6]: https://mapstyle.withgoogle.com/
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

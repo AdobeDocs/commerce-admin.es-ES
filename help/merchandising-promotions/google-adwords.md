@@ -3,24 +3,24 @@ title: Google AdWords
 description: Aprenda a configurar su tienda de Commerce para el seguimiento de conversión de Google AdWords a fin de medir los clics en anuncios que generan una venta u otra acción valiosa.
 exl-id: 3dd3beba-edcf-4f9e-a527-7ed3609ef1ae
 feature: Marketing Tools, Integration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
 
 # Google AdWords
 
-[Google AdWords][1] es un servicio que puedes usar para colocar anuncios en los resultados de búsqueda de Google y en las páginas de compañías en la red de pantallas de Google. El panel de AdWords incluye herramientas para administrar sus campañas, rastrear las respuestas y medir los resultados.
+[Google AdWords](https://www.google.com/adwords/) es un servicio que puedes usar para colocar anuncios en los resultados de búsqueda de Google y en las páginas de compañías en la red de pantallas de Google. El panel de AdWords incluye herramientas para administrar sus campañas, rastrear las respuestas y medir los resultados.
 
-El seguimiento de conversión muestra el número de clics en publicidad que conducen a una venta u otra acción valiosa. La página _Correcto_ que aparece para su cliente después de enviar un pedido se usa para realizar un seguimiento de las conversiones, ya que solo aparece después de una venta. Después de completar la configuración de Google AdWords para su tienda, no es necesario copiar el script de seguimiento de conversión en la página Éxito, porque Commerce ya tiene la información necesaria. Para obtener más información, consulte la [Ayuda de Google AdWords][2].
+El seguimiento de conversión muestra el número de clics en publicidad que conducen a una venta u otra acción valiosa. La página _Correcto_ que aparece para su cliente después de enviar un pedido se usa para realizar un seguimiento de las conversiones, ya que solo aparece después de una venta. Después de completar la configuración de Google AdWords para su tienda, no es necesario copiar el script de seguimiento de conversión en la página Éxito, porque Commerce ya tiene la información necesaria. Para obtener más información, consulte la [Ayuda de Google AdWords](https://support.google.com/adwords/answer/6095821).
 
-![Anuncio de Adobe en los resultados de búsqueda de Google](./assets/google-adwords-adobe-ad.png){width="500"}
+![Resultados de búsqueda del anuncio de Adobe en Google](./assets/google-adwords-adobe-ad.png){width="500"}
 
 ## Paso 1. Creación de una campaña de Google AdWords
 
-1. Visita [Google AdWords][3] y regístrate para obtener una cuenta.
+1. Visita [Google AdWords](https://ads.google.com/) y regístrate para obtener una cuenta.
 
 1. Siga las instrucciones para crear una campaña.
 
@@ -90,7 +90,7 @@ El seguimiento de conversión muestra el número de clics en publicidad que cond
       - `2`: muestra una notificación de dos líneas con un vínculo para obtener más información sobre el seguimiento de Google.
       - `3` - No muestra ninguna notificación al cliente.
 
-   - Escriba el [código hexadecimal][4]{:target=&quot;_blank&quot;} de **[!UICONTROL Conversion Color]** que desee usar para la etiqueta de notificación de estadísticas del sitio de Google.
+   - Escriba el [código hexadecimal](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"} de **[!UICONTROL Conversion Color]** que desea usar para la etiqueta de notificación de estadísticas del sitio de Google.
 
    - Escriba el texto cifrado de **[!UICONTROL Conversion Label]** que aparece en la notificación de inicio de Google Sites.
 
@@ -125,15 +125,10 @@ El seguimiento de conversión muestra el número de clics en publicidad que cond
    - `Dynamic`: determina que se ha producido una conversión en función del valor de importe de pedido dinámico.
    - `Constant` - Determina que se ha producido una conversión basada en un valor específico ingresado.
 
-   Para un tipo de valor de conversión _Constant_, escriba un **[!UICONTROL Value]** específico para que _[!UICONTROL Order Amount]_&#x200B;se califique como conversión.
+   Para un tipo de valor de conversión _Constant_, escriba un **[!UICONTROL Value]** específico para que _[!UICONTROL Order Amount]_se califique como conversión.
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 ## Paso 4. Compruebe la configuración
 
 En unas pocas horas, el estado de seguimiento en su panel de Google AdWords cambiará de `Unverified` a `No recent conversions` o `Recording conversions`. Cuando alguien hace clic en su anuncio y realiza una compra, la conversión aparece en la página Acciones de conversión del tablero y el informe de campaña.
-
-[1]: https://www.google.com/adwords/
-[2]: https://support.google.com/adwords/answer/6095821
-[3]: https://ads.google.com/
-[4]: https://www.w3schools.com/colors/colors_picker.asp

@@ -1,9 +1,9 @@
 ---
 title: Impuesto sobre el valor añadido (IVA)
-description: '&lt;Agregar descripción aquí&gt;'
+description: descripción aquí&gt;
 exl-id: 20dbcb86-e558-47f2-968d-b5c9ec5f665b
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1990'
 ht-degree: 0%
@@ -180,7 +180,7 @@ Commerce usa los siguientes [ajustes de configuración del cliente](../customers
 
 ## Validación de ID de IVA
 
-_Validación de ID de IVA_ calcula automáticamente el impuesto requerido para las transacciones B2B que tienen lugar dentro de la Unión Europea (UE), según la configuración regional del comerciante y del cliente. Commerce realiza la validación de ID de IVA utilizando los servicios web del servidor [European Commission][1].
+_Validación de ID de IVA_ calcula automáticamente el impuesto requerido para las transacciones B2B que tienen lugar dentro de la Unión Europea (UE), según la configuración regional del comerciante y del cliente. Commerce realiza la validación de ID de IVA utilizando los servicios web del servidor [European Commission](https://ec.europa.eu/taxation_customs/vies/).
 
 >[!NOTE]
 >
@@ -326,6 +326,3 @@ Cree las [reglas de impuestos](tax-rules.md) para usar la validación de ID de I
    Para cambiar la configuración predeterminada, desactive la casilla de verificación **Usar valores del sistema**. Mantenga pulsada la tecla Ctrl (PC) o la tecla Comando (Mac) y haga clic en cada país que desee añadir o quitar.
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
-
-
-[1]: https://ec.europa.eu/taxation_customs/vies/

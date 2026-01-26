@@ -3,7 +3,7 @@ title: Agregar un origen de inventario
 description: Aprenda a crear un origen para una ubicación, como un almacén, una tienda física, un centro de distribución o un transportista directo.
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Si edita la Source predeterminada, puede editar todas las configuraciones except
 
    - Para **[!UICONTROL Latitude]** y **[!UICONTROL Longitude]**, introduzca las coordenadas del Sistema de posicionamiento global (GPS) de la ubicación de la instalación.
 
-     Para encontrar las coordenadas GPS con [Google Maps][1], ingrese la dirección en el cuadro de búsqueda. Haga clic con el botón secundario en el marcador del mapa y elija **[!UICONTROL What's here?]**. Las coordenadas GPS aparecen en el cuadro de detalles debajo de la dirección.
+     Para encontrar las coordenadas GPS con [Google Maps](https://www.google.com/maps), ingrese la dirección en el cuadro de búsqueda. Haga clic con el botón secundario en el marcador del mapa y elija **[!UICONTROL What's here?]**. Las coordenadas GPS aparecen en el cuadro de detalles debajo de la dirección.
 
      ![Opciones generales de origen](assets/inventory-source-general.png)
 
@@ -123,5 +123,3 @@ Si edita la Source predeterminada, puede editar todas las configuraciones except
 | **[!UICONTROL Pickup Location]** | |
 | [!UICONTROL Frontend Name] | Nombre de la ubicación de recogida del origen que se muestra en la tienda. |
 | [!UICONTROL Frontend Description] | La descripción de la ubicación de recogida para el origen que se muestra en la tienda. Puede contener imágenes adjuntas. |
-
-[1]: https://www.google.com/maps

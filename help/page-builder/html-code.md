@@ -3,9 +3,9 @@ title: 'Elementos: código HTML'
 description: Obtenga información acerca del tipo de contenido HTML Code, que se usa para agregar fragmentos de código HTML, CSS y JavaScript en el paso  [!DNL Page Builder] n.
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ Use el tipo de contenido _HTML Code_ para agregar fragmentos de código HTML, CS
 
 ## Añadir código HTML
 
-En el ejemplo siguiente se muestra cómo incrustar código [Google Font][1] y declarar clases de encabezado personalizadas que invalidan la hoja de estilos actual.
+En el ejemplo siguiente se muestra cómo incrustar código [Google Font](https://fonts.google.com/) y declarar clases de encabezado personalizadas que invalidan la hoja de estilos actual.
 
 ### Paso 1: Elegir una fuente de Google
 
-1. Visite el sitio [Google Fonts][1] y elija la familia de fuentes que desee usar.
+1. Visite el sitio [Google Fonts](https://fonts.google.com/) y elija la familia de fuentes que desee usar.
 
 1. Copie el código generado que se va a incrustar en la sección `<head>` de la página y péguelo temporalmente en un editor de texto.
 
@@ -84,7 +84,7 @@ En el ejemplo siguiente se muestra cómo incrustar código [Google Font][1] y de
 
 ### Paso 3: Previsualizar la página
 
-1. En la sección _[!UICONTROL Currently Active]_, establezca **[!UICONTROL Enable Page]**&#x200B;en `Yes`.
+1. En la sección _[!UICONTROL Currently Active]_, establezca **[!UICONTROL Enable Page]**en `Yes`.
 
    ![Habilitando la página](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
@@ -110,7 +110,7 @@ En el ejemplo siguiente se muestra cómo incrustar código [Google Font][1] y de
    | Insertar imagen... | Haga clic para insertar una imagen cargada o una imagen de la Galería en la posición del cursor en el cuadro de texto de HTML. |
    | Insertar variable... | Haga clic aquí para insertar una variable en la posición del cursor en el cuadro de texto HTML. |
 
-1. Actualice la configuración de _[!UICONTROL Advanced]_&#x200B;según sea necesario.
+1. Actualice la configuración de _[!UICONTROL Advanced]_según sea necesario.
 
    - Para controlar la colocación del código dentro del contenedor principal, elija un **[!UICONTROL Alignment]**:
 
@@ -163,6 +163,5 @@ En el ejemplo siguiente se muestra cómo incrustar código [Google Font][1] y de
      | [!UICONTROL Margins] | Cantidad de espacio en blanco que se aplica al borde exterior de todos los lados del contenedor. Opciones: `Top` / `Right` / `Bottom` / `Left` |
      | [!UICONTROL Padding] | Cantidad de espacio en blanco que se aplica al borde interior de todos los lados del contenedor. Opciones: `Top` / `Right` / `Bottom` / `Left` |
 
-[1]: https://fonts.google.com/
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

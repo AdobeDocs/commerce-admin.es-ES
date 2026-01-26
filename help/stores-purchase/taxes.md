@@ -3,7 +3,7 @@ title: Impuestos
 description: Aprenda a configurar su tienda para calcular los impuestos según los requisitos de su configuración regional.
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 0%
@@ -16,9 +16,9 @@ Configure su tienda para calcular los impuestos según los requisitos de su conf
 
 >[!NOTE]
 >
->Las versiones 2.4.0 a 2.4.3 de Adobe Commerce y Magento Open Source incluían la extensión desarrollada por el proveedor Vertex que se integraba con Vertex Cloud para proporcionar administración de impuestos y limpieza de direcciones. A partir de la versión 2.4.4, esta extensión ya no se integra con la versión principal y debe instalarse y actualizarse desde el Commerce Marketplace o directamente desde el proveedor. [Póngase en contacto con Vertex](https://marketplace.magento.com/partner/vertex_inc) para obtener información acerca de la extensión y la documentación.<br><br>
+>Las versiones 2.4.0 a 2.4.3 de Adobe Commerce y Magento Open Source incluían la extensión desarrollada por el proveedor Vertex que se integraba con Vertex Cloud para proporcionar administración de impuestos y limpieza de direcciones. A partir de la versión 2.4.4, esta extensión ya no se integra con la versión principal y debe instalarse y actualizarse desde Commerce Marketplace o directamente desde el proveedor. [Póngase en contacto con Vertex](https://marketplace.magento.com/partner/vertex_inc) para obtener información acerca de la extensión y la documentación.<br><br>
 >
->Si tiene la extensión agrupada habilitada y configurada, debe actualizar el archivo composer.json como parte del proceso de actualización de la versión 2.4.4 y administrar las actualizaciones de extensión que se realicen. Consulte [Módulos de actualización](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=es) en la _Guía de actualización_.
+>Si tiene la extensión agrupada habilitada y configurada, debe actualizar el archivo composer.json como parte del proceso de actualización de la versión 2.4.4 y administrar las actualizaciones de extensión que se realicen. Consulte [Módulos de actualización](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) en la _Guía de actualización_.
 
 ## Referencia rápida
 
@@ -89,7 +89,7 @@ Los comerciantes que son auditados por los impuestos pagados por los bienes digi
 - La dirección de envío del cliente y un registro de una transacción de pago correcta se pueden utilizar para establecer el lugar de residencia del cliente. (El pago se acepta únicamente si la dirección de envío coincide con la información del proveedor de pago.)
 - La información también se puede capturar directamente del almacén de datos en las tablas de la base de datos de Commerce.
 
-_&#x200B;**Para recopilar información de impuestos sobre bienes digitales:**&#x200B;_
+_**Para recopilar información de impuestos sobre bienes digitales:**_
 
 1. Cargue los tipos impositivos para todos los países miembros de la UE.
 
@@ -107,8 +107,5 @@ _&#x200B;**Para recopilar información de impuestos sobre bienes digitales:**&#x
 
 Recursos adicionales:
 
-- [Unión Tributaria y Aduanera de la Comisión Europea][1]
-- [Cambios en el lugar de suministro de EU 1015][2]
-
-[1]: https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm
-[2]: https://www2.deloitte.com/global/en/services/tax.html
+- [Unión Tributaria y Aduanera de la Comisión Europea](https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)
+- [Cambios en el lugar de suministro de EU 1015](https://www2.deloitte.com/global/en/services/tax.html)

@@ -3,16 +3,16 @@ title: 'Medios: vídeo'
 description: Obtenga información acerca del tipo de contenido de vídeo que se usa para agregar un vídeo alojado en YouTube o Vimeo al escenario  [!DNL Page Builder] stage.
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
 
 # Medios: vídeo
 
-Utilice el tipo de contenido _Video_ para agregar un vídeo alojado en [YouTube][1] o [Vimeo][2] al [[!DNL Page Builder] escenario](workspace.md#stage). Es fácil incrustar vídeo en una página o bloque, o en las descripciones de productos y categorías.
+Utilice el tipo de contenido _Video_ para agregar un vídeo alojado en [YouTube](https://www.youtube.com/) o [Vimeo](https://vimeo.com/) al [[!DNL Page Builder] escenario](workspace.md#stage). Es fácil incrustar vídeo en una página o bloque, o en las descripciones de productos y categorías.
 
 ![Vídeo en la página principal de la tienda](./assets/pb-storefront-video.png){width="700" zoomable="yes"}
 
@@ -38,7 +38,7 @@ Utilice el tipo de contenido _Video_ para agregar un vídeo alojado en [YouTube]
 
 ## Añadir un vídeo
 
-1. Antes de empezar, ve al vídeo de [YouTube][1] o [Vimeo][2] que quieras incrustar y copia el vínculo.
+1. Antes de empezar, ve al vídeo de [YouTube](https://www.youtube.com/) o [Vimeo](https://vimeo.com/) que quieras incrustar y copia el vínculo.
 
    Como alternativa, también puede copiar un vínculo directo a un archivo de vídeo válido. Consulte [Configuración de vídeo básica](#basic-video-settings) para ver los vínculos válidos.
 
@@ -168,7 +168,5 @@ Utilice el tipo de contenido _Video_ para agregar un vídeo alojado en [YouTube]
 
 1. Cuando se le pida que confirme, haga clic en **[!UICONTROL OK]**.
 
-[1]: https://www.youtube.com/
-[2]: https://vimeo.com/
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

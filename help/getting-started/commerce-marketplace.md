@@ -3,18 +3,18 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: Obtenga información acerca de [!DNL Commerce Marketplace], que ofrece a los comerciantes una selección revisada de soluciones y proporciona a los desarrolladores cualificados las herramientas, la plataforma y la ubicación privilegiada para crear un negocio próspero.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 17ec998812d21ab5815546e0f015965c2d35c853
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce Marketplace
 
-[Adobe Commerce Marketplace][1] es la tienda de aplicaciones que ofrece a los comerciantes una selección revisada de soluciones y proporciona a los desarrolladores calificados las herramientas, la plataforma y la ubicación idónea para crear un negocio próspero. [!DNL Commerce Marketplace] ofrece una selección de extensiones disponibles de forma gratuita, así como otras que se encuentran a la venta. Las compras se pueden pagar con tarjeta de crédito o con [PayPal][2].
+[Adobe Commerce Marketplace](https://marketplace.magento.com/) es la tienda de aplicaciones que ofrece a los comerciantes una selección revisada de soluciones y proporciona a los desarrolladores calificados las herramientas, la plataforma y la ubicación idónea para crear un negocio próspero. [!DNL Commerce Marketplace] ofrece una selección de extensiones disponibles de forma gratuita, así como otras que se encuentran a la venta. Las compras se pueden pagar con tarjeta de crédito o con [PayPal](https://www.paypal.com/us/home).
 
-Todas las extensiones disponibles en [!DNL Commerce Marketplace] han pasado una revisión exhaustiva. El [Programa de calidad de extensión][3] (EQP) combina la experiencia de [!DNL Commerce], las directrices de desarrollo y las herramientas de verificación para garantizar que todas las extensiones de Commerce Marketplace cumplan los estándares de codificación y las prácticas recomendadas. El proceso de revisión incluye tanto una comprobación automatizada como una revisión manual del control de calidad. Durante el proceso, la estructura y el código de cada extensión se examinan y prueban para detectar pruebas de infección por virus/malware y cualquier indicio de plagio. La revisión incluye un examen técnico profundo y una comprobación de coherencia realizados por un ingeniero de [!DNL Commerce], que se centran en la documentación, la estructura de codificación, el rendimiento, la escalabilidad, la seguridad y la compatibilidad con el núcleo de [!DNL Commerce].
+Todas las extensiones disponibles en [!DNL Commerce Marketplace] han pasado una revisión exhaustiva. El [Programa de calidad de extensión](https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/) (EQP) combina la experiencia de [!DNL Commerce], las directrices de desarrollo y las herramientas de verificación para garantizar que todas las extensiones de Commerce Marketplace cumplan los estándares de codificación y las prácticas recomendadas. El proceso de revisión incluye tanto una comprobación automatizada como una revisión manual del control de calidad. Durante el proceso, la estructura y el código de cada extensión se examinan y prueban para detectar pruebas de infección por virus/malware y cualquier indicio de plagio. La revisión incluye un examen técnico profundo y una comprobación de coherencia realizados por un ingeniero de [!DNL Commerce], que se centran en la documentación, la estructura de codificación, el rendimiento, la escalabilidad, la seguridad y la compatibilidad con el núcleo de [!DNL Commerce].
 
 Aunque puede comprar extensiones de otras fuentes, solo las extensiones disponibles en [!DNL Commerce Marketplace] se verifican mediante una amplia revisión técnica y de marketing dentro del Programa de calidad de la extensión.
 
@@ -43,7 +43,7 @@ Los siguientes recursos proporcionan un punto de partida para que los nuevos usu
 
 ## Credenciales de [!DNL Marketplace]
 
-Para poder instalar una extensión adquirida en [!DNL Commerce Marketplace], inicie sesión en su cuenta de [!DNL Commerce] y compruebe que dispone de una clave de acceso activa. Puede iniciar sesión en su cuenta de [!DNL Commerce] desde el encabezado de [[!DNL Marketplace]][1] o [Magento.com][6].
+Para poder instalar una extensión adquirida en [!DNL Commerce Marketplace], inicie sesión en su cuenta de [!DNL Commerce] y compruebe que dispone de una clave de acceso activa. Puede iniciar sesión en su cuenta de [!DNL Commerce] desde el encabezado de [[!DNL Marketplace]](https://marketplace.magento.com/) o [Magento.com](https://business.adobe.com/products/magento/magento-commerce.html).
 
 La clave de acceso es un conjunto de claves públicas y privadas que se usa para sincronizar la instalación de [!DNL Commerce] con la cuenta de [!DNL Commerce] y comprobar las credenciales. Una vez sincronizada la cuenta, debe escribir la clave privada cada vez que instale una extensión o módulo desde Commerce Marketplace o actualice la instalación de [!DNL Commerce].
 
@@ -59,7 +59,7 @@ Puede crear varias claves de acceso para distintos fines y habilitarlas o deshab
 
    ![Su perfil [!DNL Marketplace]](./assets/marketplace-profile.png){width="600"}
 
-1. En la ficha _[!UICONTROL Marketplace]_&#x200B;en&#x200B;_[!UICONTROL My Products]_, haga clic en **[!UICONTROL Access Keys]** y, a continuación, siga uno de estos procedimientos:
+1. En la ficha _[!UICONTROL Marketplace]_en_[!UICONTROL My Products]_, haga clic en **[!UICONTROL Access Keys]** y, a continuación, siga uno de estos procedimientos:
 
    - Compruebe si ya tiene un conjunto de claves de acceso para sus compras en Marketplace. Puede crear varios conjuntos de claves de acceso para distintos fines.
 
@@ -77,9 +77,9 @@ Puede crear varias claves de acceso para distintos fines y habilitarlas o deshab
 
 >[!IMPORTANT]
 >
->A partir de Adobe Commerce y Magento Open Source 2.4.0, se eliminará el Asistente para instalación web y deberá usar la línea de comandos para [instalar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=es) o [actualizar](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=es) su instancia. Este requisito también incluye [módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=es) y [extensiones](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=es).
+>A partir de Adobe Commerce y Magento Open Source 2.4.0, se eliminará el Asistente para instalación web y deberá usar la línea de comandos para [instalar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) o [actualizar](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) su instancia. Este requisito también incluye [módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) y [extensiones](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
-El proceso de instalación de [!DNL Marketplace] compras es diferente para _instalaciones locales_ de Commerce que para instalaciones hospedadas en [la arquitectura de nube de Adobe][4].
+El proceso de instalación de [!DNL Marketplace] compras es diferente para _instalaciones locales_ de Commerce que para instalaciones hospedadas en [la arquitectura de nube de Adobe](https://www.adobe.com/commerce/magento/enterprise.html).
 
 ![Commerce Marketplace](./assets/marketplace.png){width="600"}
 
@@ -109,7 +109,7 @@ Los problemas de inicio de sesión suelen estar relacionados con una discrepanci
 
 ### Preguntas de código abierto
 
-El equipo de soporte técnico de Marketplace resuelve problemas relacionados únicamente con los sitios [commerce.adobe.com/](https://commercemarketplace.adobe.com/) y [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Envíe sus preguntas sobre Magento Open Source al [Foro de la comunidad](https://community.magento.com/) o [póngase en contacto con un socio](https://business.adobe.com/es/products/magento/partners.html) que pueda ayudarle con Magento Open Source.
+El equipo de soporte técnico de Marketplace resuelve problemas relacionados únicamente con los sitios [commerce.adobe.com/](https://commercemarketplace.adobe.com/) y [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Envíe sus preguntas sobre Magento Open Source al [Foro de la comunidad](https://community.magento.com/) o [póngase en contacto con un socio](https://business.adobe.com/products/magento/partners.html) que pueda ayudarle con Magento Open Source.
 
 ### Solicitudes de reembolso
 
@@ -138,9 +138,3 @@ El equipo de soporte de Marketplace no tiene la capacidad de transferir compras 
 Puede [compartir](commerce-account-share.md) una instancia de Commerce a través de la cuenta principal. El acceso compartido concede permisos especiales a una cuenta subordinada desde una cuenta principal. El punto de acceso compartido se genera desde la cuenta principal. La cuenta principal puede ser la cuenta de Commerce, la cuenta de comerciante principal o una cuenta compartida dentro de una organización.
 
 Estos permisos especiales otorgan el mismo nivel de acceso en Adobe Commerce que el principal; sin embargo, no se transfieren al mercado de Adobe Commerce ni al portal para desarrolladores. Esto significa que la compra de una extensión desde una cuenta subordinada en Marketplace no se puede compartir con la cuenta principal. El acceso compartido es una calle unidireccional (cuenta principal a subordinada). No funciona cuando una cuenta subordinada intenta volver a compartir con la principal.
-
-[1]: https://marketplace.magento.com/
-[2]: https://www.paypal.com/us/home
-[3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
-[4]: https://www.adobe.com/commerce/magento/enterprise.html
-[6]: https://business.adobe.com/es/products/magento/magento-commerce.html

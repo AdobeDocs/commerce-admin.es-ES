@@ -3,7 +3,7 @@ title: Envío de tarifa de tabla
 description: Aprenda a configurar una opción de envío de tarifa de tabla para su tienda.
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
-source-git-commit: 0f368e87275a85e3801e6770b8985184e2071384
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 3%
@@ -34,7 +34,7 @@ El primer paso es completar la configuración predeterminada para las tasas de t
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. En la sección _[!UICONTROL Sales]_&#x200B;del panel izquierdo, elija **[!UICONTROL Delivery Methods]**.
+1. En la sección _[!UICONTROL Sales]_del panel izquierdo, elija **[!UICONTROL Delivery Methods]**.
 
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Table Rates]**.
 
@@ -115,10 +115,10 @@ El primer paso es completar la configuración predeterminada para las tasas de t
 1. Complete la tabla con los valores adecuados para la condición de cálculo de envío.
 
    - Utilice un asterisco (*) como comodín que represente todos los valores posibles de cualquier categoría.
-   - La columna _[!UICONTROL Country]_&#x200B;debe contener [un código de tres caracteres válido][1] para cada fila.
-   - Ordene los datos por _[!UICONTROL Region/State]_&#x200B;de modo que las ubicaciones específicas estén en la parte superior de la lista y las ubicaciones de los comodines en la parte inferior. Al utilizar este método, se procesan primero las reglas con los valores absolutos y, después, los valores comodín.
+   - La columna _[!UICONTROL Country]_debe contener [un código de tres caracteres válido](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) para cada fila.
+   - Ordene los datos por _[!UICONTROL Region/State]_de modo que las ubicaciones específicas estén en la parte superior de la lista y las ubicaciones de los comodines en la parte inferior. Al utilizar este método, se procesan primero las reglas con los valores absolutos y, después, los valores comodín.
    - No se admiten intervalos de código postal. Use un asterisco (*) para permitir todos los códigos de la región o el estado, o especifique un solo código para una ubicación específica en la columna _[!UICONTROL Zip/Postal Code]_.
-   - Los valores de la columna _[!UICONTROL Weight (and above)]_&#x200B;pueden tener un máximo de cuatro decimales (como `2.5075`). Si utiliza más decimales en los datos, la importación fallará.
+   - Los valores de la columna _[!UICONTROL Weight (and above)]_pueden tener un máximo de cuatro decimales (como `2.5075`). Si utiliza más decimales en los datos, la importación fallará.
 
    ![Peso vs. Destino (Australia)](./assets/table-rates-weight-destination-csv.png){width="500"}
 
@@ -194,6 +194,3 @@ En este ejemplo se utiliza la condición Weight v. Destination para crear tarifa
 1. En la esquina superior izquierda, establezca **[!UICONTROL Store View]** en `Main Website` o en cualquier otro sitio web donde se aplique la configuración.
 
 1. Para **[!UICONTROL Import]**, haga clic en **[!UICONTROL Choose File]** y seleccione el archivo `tablerates.csv` completado para importar las tarifas.
-
-
-[1]: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3

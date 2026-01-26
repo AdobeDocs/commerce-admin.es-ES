@@ -3,9 +3,9 @@ title: '[!DNL Google Analytics]'
 description: Aprenda a usar [!DNL Google Analytics] para recopilar métricas útiles para sus sitios de Commerce.
 exl-id: d4df2ef2-d67f-46bf-8569-cbee9dde77e4
 feature: Marketing Tools, Integration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Si todavía no ha configurado [!DNL Google Analytics] 4 para su sitio, siga uno 
 
    - Deje **[!UICONTROL Account type]** como `Google Analytics4`.
 
-   - Escriba su **[!UICONTROL Measurement ID]**. Para obtener más información, consulte la [Ayuda para Google Analytics](https://support.google.com/analytics/answer/9539598).
+   - Escriba su **[!UICONTROL Measurement ID]**. Para obtener más información, consulte [Ayuda de Google Analytics](https://support.google.com/analytics/answer/9539598).
 
    - Si desea realizar pruebas A/B y otras pruebas de rendimiento en el contenido, establezca **Experimentos de contenido** en `Yes`.
 
@@ -61,11 +61,11 @@ Si todavía no ha configurado [!DNL Google Analytics] 4 para su sitio, siga uno 
 
 >[!IMPORTANT]
 >
->El 1 de julio de 2023, las propiedades estándar de Universal Analytics dejarán de procesar datos. Si todavía confía en [!DNL Universal Analytics], se recomienda que [se prepare para usar los Google Analytics 4](https://support.google.com/analytics/answer/10759417) a partir de ahora.
+>El 1 de julio de 2023, las propiedades estándar de Universal Analytics dejarán de procesar datos. Si todavía confía en [!DNL Universal Analytics], se recomienda que [se prepare para usar Google Analytics 4](https://support.google.com/analytics/answer/10759417) a partir de ahora.
 
 ### Paso 1: Configuración de Google Universal Analytics
 
-Visite el sitio web de Google y regístrese para obtener una cuenta de [Google Universal Analytics][1].
+Visite el sitio web de Google y regístrese para obtener una cuenta de [Google Universal Analytics](https://support.google.com/analytics/answer/2817075?hl=en).
 
 ### Paso 2: Completar la configuración de Commerce
 
@@ -89,7 +89,7 @@ Visite el sitio web de Google y regístrese para obtener una cuenta de [Google U
 
 ## Comercio electrónico mejorado
 
-Comercio electrónico mejorado es un complemento para [!DNL Google Universal Analytics] que le ofrece una perspectiva del comportamiento de compra de sus clientes. Puede utilizar el comercio electrónico mejorado para generar informes sobre actividades clave de los clientes, como cuándo los clientes agregan artículos al carro de compras, comienzan el proceso de cierre de compra o completan una compra. También puede identificar y analizar los patrones de los compradores que abandonan su carro de compras sin realizar una compra.
+El comercio electrónico mejorado es un complemento para [!DNL Google Universal Analytics] que le permite conocer el comportamiento de compra y compra de sus clientes con insight. Puede utilizar el comercio electrónico mejorado para generar informes sobre actividades clave de los clientes, como cuándo los clientes agregan artículos al carro de compras, comienzan el proceso de cierre de compra o completan una compra. También puede identificar y analizar los patrones de los compradores que abandonan su carro de compras sin realizar una compra.
 
 Las siguientes instrucciones muestran cómo configurar [!DNL Google Tag Manager] con [!DNL Universal Analytics] para producir informes y datos de comercio electrónico mejorados.
 
@@ -97,7 +97,7 @@ Las siguientes instrucciones muestran cómo configurar [!DNL Google Tag Manager]
 
 1. Regístrese para obtener una cuenta de [Google Tag Manager](google-tag-manager.md) y complete la configuración de Commerce.
 
-1. Regístrese para obtener una nueva cuenta de [Google Universal Analytics][1].
+1. Regístrese para obtener una nueva cuenta de [Google Universal Analytics](https://support.google.com/analytics/answer/2817075?hl=en).
 
 ### Paso 2. Configurar comercio electrónico mejorado
 
@@ -213,6 +213,3 @@ Las siguientes instrucciones muestran cómo configurar [!DNL Google Tag Manager]
 1. Cuando termine, haga clic en **[!UICONTROL Preview]** y compruebe que las etiquetas funcionan correctamente.
 
 1. Después de comprobar la configuración, haga clic en **[!UICONTROL Publish]**.
-
-
-[1]: https://support.google.com/analytics/answer/2817075?hl=en

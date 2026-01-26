@@ -3,7 +3,7 @@ title: 'Elementos: botones'
 description: Obtenga información acerca del tipo de contenido Botones, que se usa para agregar un botón individual o un conjunto de botones en el escenario  [!DNL Page Builder] .
 exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 0%
@@ -107,7 +107,7 @@ Cuando trabaja con el tipo de contenido Botones, agrega y edita botones individu
 
      ![Elija la página de CMS para el vínculo de botón](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
 
-1. Complete [la configuración avanzada][advanced-settings] según sea necesario.
+1. Complete [la configuración avanzada](#change-advanced-settings) según sea necesario.
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save]** en la esquina superior derecha para aplicar la configuración y volver al área de trabajo [!DNL Page Builder].
 
@@ -135,7 +135,7 @@ En las secciones siguientes se describe una serie de pasos para comenzar con un 
 
    ![Configuración del botón Contáctenos](./assets/pb-elements-button-set-edit-button2-toolbox-settings.png){width="600" zoomable="yes"}
 
-1. Complete [la configuración avanzada][advanced-settings] según sea necesario.
+1. Complete [la configuración avanzada](#change-advanced-settings) según sea necesario.
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save]** para aplicar la configuración y volver al área de trabajo [!DNL Page Builder].
 
@@ -167,7 +167,7 @@ En las secciones siguientes se describe una serie de pasos para comenzar con un 
 
    ![Botones apilados del mismo tamaño](./assets/pb-elements-buttons-settings-appearance-stacked.png){width="300"}
 
-1. Actualice los valores restantes según sea necesario, utilizando las descripciones de [Cambiar la configuración de un contenedor de botones][button-container].
+1. Actualice los valores restantes según sea necesario, utilizando las descripciones de [Cambiar la configuración de un contenedor de botones](#change-settings-for-a-button-container).
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save]** para aplicar la configuración y volver al área de trabajo [!DNL Page Builder].
 
@@ -214,7 +214,7 @@ En las secciones siguientes se describe una serie de pasos para comenzar con un 
 
      {style="table-layout:auto"}
 
-1. Complete [la configuración avanzada][advanced-settings] según sea necesario.
+1. Complete [la configuración avanzada](#change-advanced-settings) según sea necesario.
 
 1. Para guardar la configuración y volver al área de trabajo [!DNL Page Builder], haga clic en **[!UICONTROL Save]** en la esquina superior derecha.
 
@@ -237,13 +237,13 @@ En las secciones siguientes se describe una serie de pasos para comenzar con un 
 
      Cuando se establece en `Yes`, todos los botones del contenedor tienen un tamaño uniforme, según la longitud del texto de botón más largo.
 
-1. Complete [Configuración avanzada][advanced-settings] según sea necesario.
+1. Complete [Configuración avanzada](#change-advanced-settings) según sea necesario.
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save]** para aplicar la configuración y volver al área de trabajo [!DNL Page Builder].
 
 ## Cambiar configuración avanzada
 
-Puede modificar la configuración de _[!UICONTROL Advanced]_&#x200B;para botones individuales y para el contenedor de botones.
+Puede modificar la configuración de _[!UICONTROL Advanced]_para botones individuales y para el contenedor de botones.
 
 1. Para controlar la posición dentro del contenedor principal, elija **[!UICONTROL Alignment]**:
 
@@ -298,7 +298,5 @@ Puede modificar la configuración de _[!UICONTROL Advanced]_&#x200B;para botones
 
    {style="table-layout:auto"}
 
-[advanced-settings]: #change-advanced-settings
-[button-container]: #change-settings-for-a-button-container
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

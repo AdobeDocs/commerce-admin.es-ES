@@ -3,8 +3,8 @@ title: Soluciones de pago PayPal
 description: Obtenga información sobre las integraciones de la solución de pago PayPal disponibles para su tienda.
 exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
 feature: Payments
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
@@ -22,7 +22,7 @@ PayPal es líder mundial en pagos en línea y una forma rápida y segura de que 
 
 ## Cuenta comercial de PayPal
 
-Para ofrecer PayPal como forma de pago en tu tienda, debes tener una [cuenta comercial][1] de PayPal y/o una [cuenta PayPal Payflow][2]. Los requisitos de la cuenta se especifican en la descripción de cada solución de PayPal. Tu cuenta de PayPal también se usa para administrar los [filtros de fraude](#paypal-fraud-management-filters) que se apliquen a las compras realizadas en tu tienda.
+Para ofrecer PayPal como forma de pago en tu tienda, debes tener una [cuenta comercial](https://manager.paypal.com/) de PayPal y/o una [cuenta PayPal Payflow](https://developer.paypal.com/docs/payflow/payflow-gateway/). Los requisitos de la cuenta se especifican en la descripción de cada solución de PayPal. Tu cuenta de PayPal también se usa para administrar los [filtros de fraude](#paypal-fraud-management-filters) que se apliquen a las compras realizadas en tu tienda.
 
 Los clientes que utilizan Pago y envío exprés de PayPal o Pago exprés de Payflow Pro deben tener una cuenta de comprador de PayPal. PayPal Payments Standard (Estándar de pagos en sitios web en algunos países) se puede usar directamente o a través de una cuenta de comprador cuando el comerciante habilite _Cuenta PayPal opcional_. De forma predeterminada, este parámetro está habilitado para que los clientes puedan especificar la información de su tarjeta de crédito o crear una cuenta de comprador con PayPal. Si se desactiva, los clientes deben crear primero una cuenta de comprador de PayPal antes de realizar una compra.
 
@@ -30,7 +30,7 @@ Los pagos de sitio web Pro, los pagos de sitio web Pro Payflow Edition, Payflow 
 
 ## Crédito de PayPal y PayAfter
 
-PayPal PayAfter ofrece a tus clientes un acceso rápido a la financiación, para que puedan comprar ahora y pagar con el tiempo, sin coste adicional para ti. No se te cobrará cuando los clientes elijan las opciones de crédito de PayPal y pagues solo la tarifa normal de transacción de PayPal. Para obtener más información, visita el [sitio web de PayPal][3].
+PayPal PayAfter ofrece a tus clientes un acceso rápido a la financiación, para que puedan comprar ahora y pagar con el tiempo, sin coste adicional para ti. No se te cobrará cuando los clientes elijan las opciones de crédito de PayPal y pagues solo la tarifa normal de transacción de PayPal. Para obtener más información, visita el [sitio web de PayPal](https://www.paypal.com/us/business/buy-now-pay-later).
 
 Dale un impulso a tus ventas cuando anuncies financiamiento. PayPal ayuda a convertir los navegadores en compradores con financiación mediante PayPal Paylater. Sus clientes pueden pagar con el tiempo, mientras que usted recibe el pago por adelantado, sin costo adicional para usted. Utiliza los anuncios de banner gratuitos de PayPal para anunciar la financiación de PayPal como una opción de pago cuando tus clientes cierren la compra con PayPal. Se ha demostrado que el programa PayPal Advertising genera compras adicionales y aumenta el tamaño promedio de las compras en un 15 % o más.
 
@@ -103,7 +103,7 @@ Los filtros de gestión de fraude de PayPal facilitan la detección y la respues
 | Acción | Resultado |
 | --- | --- |
 | [!UICONTROL Review] | El pedido sospechoso recibe el estado _Revisión de pago_ cuando se realiza el pedido. Puedes revisar el pedido y aprobarlo, o cancelar el pago en el Administrador o en PayPal. Al hacer clic en **[!UICONTROL Accept Payment]** o **[!UICONTROL Deny Payment]**, no se crean nuevas transacciones para el pedido. <br/><br/>Si cambias el estado de la transacción en el sitio PayPal, debes hacer clic en **[!UICONTROL Get Payment Update]** en la página de pedidos del administrador para aplicar los cambios. Si hace clic en **[!UICONTROL Accept Payment]** o **[!UICONTROL Deny Payment]**, se aplicarán los cambios realizados en el sitio PayPal. |
-| [!UICONTROL Deny] | El cliente no puede realizar el pedido sospechoso porque PayPal rechaza la transacción correspondiente. <br/><br/>Para rechazar el pago del administrador, haga clic en **[!UICONTROL Deny Payment]** en la esquina superior derecha de la página. El estado del pedido cambia a `Canceled`, la transacción se revierte y los fondos se liberan en la cuenta del cliente. La información correspondiente se agrega en la sección _[!UICONTROL Comments History]_&#x200B;de la vista de pedidos. |
+| [!UICONTROL Deny] | El cliente no puede realizar el pedido sospechoso porque PayPal rechaza la transacción correspondiente. <br/><br/>Para rechazar el pago del administrador, haga clic en **[!UICONTROL Deny Payment]** en la esquina superior derecha de la página. El estado del pedido cambia a `Canceled`, la transacción se revierte y los fondos se liberan en la cuenta del cliente. La información correspondiente se agrega en la sección _[!UICONTROL Comments History]_de la vista de pedidos. |
 | [!UICONTROL Flag] | El pedido sospechoso obtiene el estado `Processing` cuando se realiza. La transacción correspondiente se marca con un indicador en la lista de transacciones de cuentas de comerciante. |
 
 {style="table-layout:auto"}
@@ -185,8 +185,3 @@ PayPal Express Checkout y PayPal Website Payments Standard están disponibles en
 - Uruguay
 - Venezuela
 - Vietnam
-
-
-[1]: https://manager.paypal.com/
-[2]: https://developer.paypal.com/docs/payflow/payflow-gateway/
-[3]: https://www.paypal.com/us/business/buy-now-pay-later

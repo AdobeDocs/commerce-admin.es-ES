@@ -1,9 +1,9 @@
 ---
-title: '[!DNL Page Builder] configuración'
+title: Configuración de [!DNL Page Builder]
 description: Obtenga información acerca de la configuración de  [!DNL Page Builder] funciones en Admin para Adobe Commerce y Magento Open Source.
 exl-id: 48396045-0fef-4f4f-8138-e6d969560e42
 feature: Page Builder, Configuration
-source-git-commit: 2299beb6c11af801076d3aff0b026d41b9dbd212
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Configuración de [!DNL Page Builder]
 
-Cuando está habilitado en la configuración, [!DNL Page Builder] es la herramienta de creación de contenido predeterminada para páginas CMS, bloques y bloques dinámicos. Además, el botón _[!UICONTROL Enable Advanced CMS]_&#x200B;ofrece [!DNL Page Builder] como opción para Categorías y Productos. También puede elegir el [diseño de página](../content-design/page-layout.md) predeterminado que desee usar para productos, categorías y páginas de CMS. [!DNL Page Builder] no está disponible para el contenido de la newsletter, que usa el [editor](../content-design/editor.md) WYSIWYG.
+Cuando se habilita en la configuración, [!DNL Page Builder] es la herramienta de creación de contenido predeterminada para páginas de CMS, bloques y bloques dinámicos. Además, el botón _[!UICONTROL Enable Advanced CMS]_ofrece [!DNL Page Builder] como opción para Categorías y Productos. También puede elegir el [diseño de página](../content-design/page-layout.md) predeterminado que desee usar para productos, categorías y páginas de CMS. [!DNL Page Builder] no está disponible para el contenido de la newsletter, que usa el [editor](../content-design/editor.md) de WYSIWYG.
 
 >[!NOTE]
 >
@@ -38,9 +38,9 @@ Para obtener más información acerca de las opciones de configuración de las H
 
 1. Si está listo para configurar [!DNL Google Maps], haga lo siguiente:
 
-   - Si es necesario, sigue las instrucciones de [Obtener clave API][1] y, a continuación, copia y pega tu **[!UICONTROL Google Maps API Key]**.
+   - Si es necesario, sigue las instrucciones de [Obtener clave API](https://developers.google.com/maps/documentation/javascript/get-api-key) y, a continuación, copia y pega tu **[!UICONTROL Google Maps API Key]**.
 
-   - Para cambiar **[!UICONTROL Google Maps Style]**, pegue el código JSON generado por el [[!DNL Google Maps] Asistente para diseñar API][2].
+   - Para cambiar **[!UICONTROL Google Maps Style]**, pegue el código JSON generado por el [[!DNL Google Maps] Asistente para diseñar API](https://mapstyle.withgoogle.com/).
 
    >[!NOTE]
    >
@@ -74,7 +74,7 @@ Para obtener más información acerca de las opciones de configuración de las H
 
    - Elija el(la) **[!UICONTROL Default Category Layout]** que desee usar para páginas de categoría.
 
-   - Elija el(la) **[!UICONTROL Default Page Layout]** que desea usar para páginas de CMS.
+   - Elija el(la) **[!UICONTROL Default Page Layout]** que desea usar para las páginas de CMS.
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
@@ -82,7 +82,7 @@ Para obtener más información acerca de las opciones de configuración de las H
 
 >[!NOTE]
 >
->Al deshabilitar [!DNL Page Builder], se reemplazarán las herramientas de contenido avanzado con el editor [WYSIWYG](../content-design/editor.md), lo que podría provocar errores de visualización en la tienda. Es posible que el contenido que creó anteriormente con [!DNL Page Builder] no se pueda editar desde el Administrador.
+>Al deshabilitar [!DNL Page Builder], se reemplazarán las herramientas de contenido avanzado con el [editor](../content-design/editor.md) de WYSIWYG, lo que podría provocar errores de visualización en la tienda. Es posible que el contenido que creó anteriormente con [!DNL Page Builder] no se pueda editar desde el Administrador.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -95,6 +95,3 @@ Para obtener más información acerca de las opciones de configuración de las H
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
 1. Cuando se le solicite, [actualice](../systems/cache-management.md) cualquier caché no válida.
-
-[1]: https://developers.google.com/maps/documentation/javascript/get-api-key
-[2]: https://mapstyle.withgoogle.com/

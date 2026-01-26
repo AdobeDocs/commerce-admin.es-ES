@@ -3,9 +3,9 @@ title: Cumplimiento de CCPA
 description: Obtenga información acerca de la Ley de Privacidad del Consumidor de California (CCPA), que expande los derechos de los consumidores en California para determinar cómo se recopila, almacena y utiliza su información personal.
 exl-id: 165c8b78-683e-4015-b3c4-d3211750799e
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '2256'
+source-wordcount: '2252'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >Esta información es uno de una serie de temas para ayudar a los comerciantes y desarrolladores de Adobe Commerce a comprender las implicaciones de la Ley de Privacidad del Consumidor de California. La información se basa en el texto del estatuto. Para confirmar si la CCPA se aplica a su negocio, consulte con su abogado.
 
-La [Ley de Privacidad del Consumidor de California][5] (CCPA) amplía los derechos de los consumidores de California para determinar cómo se recopila, almacena y utiliza su información personal. Su énfasis es la protección de los consumidores de la venta o intercambio no autorizado o de su información personal. La CCPA se promulgó en 2018 y entró en vigor el 1 de enero de 2020.
+La [Ley de Privacidad del Consumidor de California](https://oag.ca.gov/privacy/ccpa) (CCPA) amplía los derechos de los consumidores de California para determinar cómo se recopila, almacena y utiliza su información personal. Su énfasis es la protección de los consumidores de la venta o intercambio no autorizado o de su información personal. La CCPA se promulgó en 2018 y entró en vigor el 1 de enero de 2020.
 
 La CCPA otorga los siguientes derechos nuevos a los consumidores:
 
@@ -56,13 +56,13 @@ Si su empresa debe cumplir con el [Reglamento General de Protección de Datos](c
 - La CCPA incluye requisitos adicionales de asignación e inventario de datos.
 - Las regulaciones tienen diferentes requisitos de política de privacidad.
 
-Las empresas que cumplan con el RGPD podrían tener obligaciones adicionales según la CCPA. Para obtener más información, consulte la [Hoja informativa de la CCPA][3]{:target=&quot;_blank&quot;}.
+Las empresas que cumplan con el RGPD podrían tener obligaciones adicionales según la CCPA. Para obtener más información, consulte la [Hoja informativa de la CCPA](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"}.
 
 ### Plan de cumplimiento
 
 Se requiere un esfuerzo coordinado para elaborar y aplicar un plan para abordar el cumplimiento. Utilice esta hoja de ruta como guía para movilizar recursos y priorizar tareas para que pueda avanzar en varios frentes. El proceso es esencialmente el mismo para todas las instalaciones de [!DNL Commerce], con la siguiente excepción:
 
-- **Adobe Commerce Adobe en la infraestructura en la nube**: Los comerciantes con tiendas alojadas en la [infraestructura en la nube][4]{:target=&quot;_blank&quot;} pueden pedir ayuda a su administrador de cuentas técnico de Adobe Commerce o al servicio de atención al cliente para responder a las solicitudes de los consumidores.
+- **Adobe Commerce en la infraestructura en la nube**: Los comerciantes con tiendas alojadas en la [infraestructura en la nube](https://www.adobe.com/commerce/magento.html){:target="_blank"} de Adobe pueden solicitar ayuda a su administrador de cuentas técnico de Adobe Commerce o a la atención al cliente para responder a las solicitudes de los consumidores.
 
 - **Local**: los comerciantes con instalaciones locales de Adobe Commerce o Magento Open Source deben desarrollar sus propios procesos y herramientas para responder y administrar las solicitudes de los consumidores relacionadas con las normas de privacidad.
 
@@ -95,7 +95,7 @@ Haga un inventario de sus propiedades digitales, incluidas todas las integracion
 
 1. Identifique a las partes con las que comparte datos. La lista debe incluir proveedores de servicios y terceros. Los terceros incluyen redes publicitarias, proveedores de servicios de Internet, proveedores de análisis de datos, entidades gubernamentales, sistemas operativos y plataformas, redes sociales y distribuidores de datos de consumo que no recopilan directamente información personal de sus consumidores.
 
-   - **Proveedores de servicios**: Entidades que tienen acceso a los datos de sus consumidores con fines comerciales y que proporcionan servicios en su nombre. Por ejemplo, el Adobe es un proveedor de servicios, al igual que algunos desarrolladores de personalizaciones, extensiones y servicios.
+   - **Proveedores de servicios**: Entidades que tienen acceso a los datos de sus consumidores con fines comerciales y que proporcionan servicios en su nombre. Por ejemplo, Adobe es un proveedor de servicios, al igual que algunos desarrolladores de personalizaciones, extensiones y servicios.
 
      Compruebe la configuración predeterminada de Google Universal Analytics, Google Tag Manager y cualquier otro servicio de datos que utilice, y realice los cambios necesarios para cumplir con la normativa. Para obtener más información, consulte [Configuración de privacidad de Google](../merchandising-promotions/google-tools.md#google-privacy-settings).
 
@@ -111,8 +111,8 @@ Haga un inventario de sus propiedades digitales, incluidas todas las integracion
 
 1. Consulte los siguientes temas para ver los diagramas de flujo de datos aplicables y las asignaciones de entidades de base de datos para cada versión:
 
-   - [Referencia de información personal (2.x)][1]
-   - [Referencia de información personal (1.x)][2]
+   - [Referencia de información personal (2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
+   - [Referencia de información personal (1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
 
    ![diagrama](./assets/privacy-frontend-diagram.svg)
 
@@ -126,7 +126,7 @@ Desde la perspectiva de la gestión de datos, cada solicitud de información per
 
 - **Entidades que actúan como empresas en el ámbito de la CCPA** (marcas): [!DNL Commerce] comerciantes recopilan y almacenan información personal de sus clientes e invitados que realizan compras en sus tiendas.
 
-- **Procesador de datos** (proveedores de tecnología): Adobe Commerce y Magento Open Source actúan como procesadores de los datos personales almacenados como parte de los servicios proporcionados a los comerciantes. Como encargado del tratamiento, el Adobe procesa los datos personales de acuerdo con los permisos e instrucciones del comerciante, según el acuerdo de licencia.
+- **Procesador de datos** (proveedores de tecnología): Adobe Commerce y Magento Open Source actúan como procesadores de los datos personales almacenados como parte de los servicios proporcionados a los comerciantes. Como procesador, Adobe procesa los datos personales de acuerdo con los permisos e instrucciones del comerciante, según el acuerdo de licencia.
 
 Los comerciantes son responsables de lo siguiente:
 
@@ -146,7 +146,7 @@ Los comerciantes son responsables de lo siguiente:
 
    - **Solicitudes para eliminar**
 
-      - Los comerciantes cuyas tiendas estén alojadas en Adobe Commerce Cloud deben ponerse en contacto con el servicio de asistencia al Adobe para obtener ayuda con la eliminación de información personal. Póngase en contacto con el administrador de cuentas técnico de Adobe o con la asistencia al cliente para obtener más información.
+      - Los comerciantes cuyas tiendas estén alojadas en Adobe Commerce Cloud deben ponerse en contacto con el servicio de asistencia de Adobe para obtener ayuda y eliminar información personal. Póngase en contacto con el administrador de cuentas técnico de Adobe o con la asistencia al cliente para obtener más información.
       - Los comerciantes que ejecuten instalaciones de Adobe Commerce o Magento Open Source on-premise deben implementar su propio proceso y script para eliminar la información personal si se solicita.
 
 #### Paso 5: escribir el contenido para las notificaciones requeridas al cliente
@@ -198,16 +198,10 @@ Revise su política de privacidad actual y considere qué divulgaciones adiciona
 
   >[!IMPORTANT]
   >
-  >Los comerciantes tienen prohibido almacenar los datos personales de los niños en la plataforma o los sistemas [!DNL Commerce]. Si hay razones para creer que los datos recopilados pertenecen a un menor, deben eliminarse de una plataforma de [!DNL Commerce] inmediatamente para evitar el incumplimiento de los términos de licencia de Adobe.
+  >Los comerciantes tienen prohibido almacenar los datos personales de los niños en la plataforma o los sistemas [!DNL Commerce]. Si hay motivos para creer que los datos recopilados pertenecen a un menor de edad, deben eliminarse de una plataforma de [!DNL Commerce] inmediatamente para evitar el incumplimiento de los términos de licencia de Adobe.
 
 #### Paso 8: Documentar todos los procedimientos relacionados y mantener registros
 
 **Partes interesadas:** Servicio al cliente, Soporte administrativo
 
 Durante 24 meses después de recibir cada solicitud de derechos individual, mantenga un registro de la solicitud y de la respuesta de su compañía.
-
-[1]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=es
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=es
-[3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
-[4]: https://www.adobe.com/commerce/magento.html
-[5]: https://oag.ca.gov/privacy/ccpa

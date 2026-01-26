@@ -3,9 +3,9 @@ title: Añadir vídeos del producto
 description: Obtenga información sobre cómo configurar vídeos de productos para su tienda, lo que requiere una clave de API de datos de YouTube de una cuenta de Google, y añadir un vínculo de vídeo para un producto.
 exl-id: 0cfcee67-a2e2-41cb-ac70-304452f5db6d
 feature: Catalog Management, Products, Media
-source-git-commit: e439c1082834cbc81f6ccc7ca99e240d649c8b81
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Para añadir un vídeo de producto, primero debe obtener una clave de API de su 
 
 ## Paso 1: Obtención de la clave de API de YouTube
 
-1. Inicie sesión en su cuenta de Google y visite [Google Developers Console][1].
+1. Inicie sesión en su cuenta de Google y visite [Google Developers Console](https://console.developers.google.com/).
 
 1. En el campo de búsqueda en la parte superior, ingrese `YouTube Data API v3` y haga clic en el icono de búsqueda.
 
@@ -44,7 +44,7 @@ Para añadir un vídeo de producto, primero debe obtener una clave de API de su 
 
 1. En el panel izquierdo, expanda **[!UICONTROL Catalog]** y elija **[!UICONTROL Catalog]** debajo.
 
-1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Product Video]_&#x200B;y pegue su **[!UICONTROL YouTube API key]**.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Product Video]_y pegue su **[!UICONTROL YouTube API key]**.
 
    ![Configuración de vídeo del producto](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
@@ -94,11 +94,11 @@ Para añadir un vídeo de producto, primero debe obtener una clave de API de su 
 
    >[!NOTE]
    >
-   >Si la opción de configuración _[!UICONTROL Autostart base video]_&#x200B;se establece en `Yes` pero el vídeo no empieza a reproducirse automáticamente, podría deberse a las políticas de reproducción automática que aplica el explorador y que Adobe Commerce no puede controlar. Cada navegador compatible tiene sus propias políticas de reproducción automática que pueden cambiar con el tiempo y es posible que el vídeo no se reproduzca automáticamente en el futuro. Como práctica recomendada, no debe depender de la reproducción automática para la funcionalidad empresarial crítica y debe probar el comportamiento de reproducción automática de vídeo en su tienda con cada explorador compatible.
+   >Si la opción de configuración _[!UICONTROL Autostart base video]_se establece en `Yes` pero el vídeo no empieza a reproducirse automáticamente, podría deberse a las políticas de reproducción automática que aplica el explorador y que Adobe Commerce no puede controlar. Cada navegador compatible tiene sus propias políticas de reproducción automática que pueden cambiar con el tiempo y es posible que el vídeo no se reproduzca automáticamente en el futuro. Como práctica recomendada, no debe depender de la reproducción automática para la funcionalidad empresarial crítica y debe probar el comportamiento de reproducción automática de vídeo en su tienda con cada explorador compatible.
 
 ## Mantener acceso a API
 
-Según los [Términos y condiciones] del desarrollador de Google, YouTube puede deshabilitar el acceso a la API para cuentas que hayan estado inactivas durante más de 90 días. Esto podría provocar que sus vídeos no se muestren. Para mantener el acceso a la API actualizado, utilice un trabajo cron para hacer ping a la API a intervalos regulares:
+Según los [Términos y condiciones](https://developers.google.com/youtube/terms/developer-policies#d.-accessing-youtube-api-services) del desarrollador de Google, YouTube puede deshabilitar el acceso a la API para cuentas que hayan estado inactivas durante más de 90 días. Esto podría provocar que sus vídeos no se muestren. Para mantener el acceso a la API actualizado, utilice un trabajo cron para hacer ping a la API a intervalos regulares:
 
 ```code
 30 10 1 * * curl -i -G -e https://yourdomain.com/ -d "part=snippet&maxResults=1&q=test&key=YOUTUBEAPIKEY" https://www.googleapis.com/youtube/v3/search >/dev/null 2>&1
@@ -116,6 +116,3 @@ Según los [Términos y condiciones] del desarrollador de Google, YouTube puede 
 | [!UICONTROL Role] | Determina cómo se utiliza la imagen de vista previa en la tienda. Puede elegir cualquier combinación de opciones: `Base Image`, `Small Image`, `Thumbnail`, `Swatch Image`, `Hide from Product Page` |
 
 {style="table-layout:auto"}
-
-[1]: https://console.developers.google.com/
-[Términos y condiciones]: https://developers.google.com/youtube/terms/developer-policies#d.-accessing-youtube-api-services

@@ -3,16 +3,16 @@ title: Facturas
 description: Obtenga información sobre cómo crear e imprimir facturas para admitir el procesamiento de pedidos y las operaciones de servicio al cliente.
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
 
 # Facturas
 
-Una factura es un registro del registro de pago de un pedido. Se pueden [crear](#create-an-invoice) varias facturas para un único pedido, y cada una puede incluir tantos o tan pocos de los productos comprados que especifique. También puede crear [facturas de PDF listas para imprimir](#print-invoices) como documentos de ventas para sus clientes.
+Una factura es un registro del registro de pago de un pedido. Se pueden [crear](#create-an-invoice) varias facturas para un único pedido, y cada una puede incluir tantos o tan pocos de los productos comprados que especifique. También puede crear [facturas PDF listas para imprimir](#print-invoices) como documentos de ventas para sus clientes.
 
 En la barra lateral de _Administración_, vaya a **[!UICONTROL Sales]** > _Operaciones_ > **Facturas** para abrir la cuadrícula de _Facturas_ y acceder a las facturas creadas.
 
@@ -57,7 +57,7 @@ Cuando el estado de los nuevos pedidos se establece en `Processing`, la opción 
 >
 >Las facturas no se crean automáticamente para los pedidos realizados mediante `Gift Card`, `Store Credit`, `Reward Points` u otros métodos de pago sin conexión.
 
-Se debe generar una factura para el pedido antes de poder imprimirla. Para ver o imprimir el PDF, primero descargue e instale un PDF como [Adobe Acrobat Reader][1].
+Se debe generar una factura para el pedido antes de poder imprimirla. Para ver o imprimir el PDF, primero descarga e instala un lector de PDF como [Adobe Acrobat Reader](https://www.adobe.com/acrobat/pdf-reader.html "Obtener Adobe Reader").
 
 **_Para facturar un pedido:_**
 
@@ -71,7 +71,7 @@ Se debe generar una factura para el pedido antes de poder imprimirla. Para ver o
 
    >[!NOTE]
    >
-   >La opción _[!UICONTROL Invoice]_&#x200B;no aparece cuando la [acción de pago](../configuration-reference/sales/payment-methods.md#payment-actions) de su [método de pago](../configuration-reference/sales/payment-methods.md) específico está establecida en `Authorize and Capture`, lo que genera automáticamente una factura. Este también es el caso si se realiza el pedido y la acción de pago de su método de pago se establece en `Authorize` y se factura el pedido.
+   >La opción _[!UICONTROL Invoice]_no aparece cuando la [acción de pago](../configuration-reference/sales/payment-methods.md#payment-actions) de su [método de pago](../configuration-reference/sales/payment-methods.md) específico está establecida en `Authorize and Capture`, lo que genera automáticamente una factura. Este también es el caso si se realiza el pedido y la acción de pago de su método de pago se establece en `Authorize` y se factura el pedido.
 
    ![Pedido de venta de factura](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -107,7 +107,7 @@ Se debe generar una factura para el pedido antes de poder imprimirla. Para ver o
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Submit Invoice]** en la parte inferior de la página.
 
-   **_Forma de pago en línea:_**
+   **_Método de pago en línea:_**
 
    ![Enviar factura - método de pago en línea](./assets/invoice-submit-invoice-capture-online.png){width="600" zoomable="yes"}
 
@@ -121,19 +121,19 @@ Se debe generar una factura para el pedido antes de poder imprimirla. Para ver o
 
 ## Imprimir facturas
 
-Las facturas se pueden imprimir por separado o en lote. Sin embargo, para poder imprimir una factura, primero debe generarse para el pedido. Puede cargar un logotipo de alta resolución para una factura de PDF lista para imprimir e incluir [Id. de pedido](../stores-purchase/sales-documents.md#add-reference-ids) en el encabezado. Para personalizar la plantilla de factura con su logotipo y dirección, consulte [Requisitos para el logotipo de PDF](../stores-purchase/sales-documents.md#image-formats).
+Las facturas se pueden imprimir por separado o en lote. Sin embargo, para poder imprimir una factura, primero debe generarse para el pedido. Puede cargar un logotipo de alta resolución para una factura de PDF lista para imprimir e incluir [Id. de pedido](../stores-purchase/sales-documents.md#add-reference-ids) en el encabezado. Para personalizar la plantilla de factura con su logotipo y dirección, consulte [Requisitos del logotipo de PDF](../stores-purchase/sales-documents.md#image-formats).
 
 >[!NOTE]
 >
->Para ver o imprimir el PDF, debe tener un PDF. Puedes descargar [Adobe Reader][1] sin cargo.
+>Para ver o imprimir PDF, debe tener un lector de PDF. Puede descargar [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Obtener Adobe Reader") sin cargo.
 
 ### Imprimir una sola factura
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. En la cuadrícula _[!UICONTROL Invoices]_, busque la factura y haga clic en **[!UICONTROL View]**&#x200B;en la columna_ Acción _.
+1. En la cuadrícula _[!UICONTROL Invoices]_, busque la factura y haga clic en **[!UICONTROL View]**en la columna_ Acción _.
 
-1. En la parte superior de la factura, haga clic en **[!UICONTROL Print]** para generar un PDF.
+1. En la parte superior de la factura, haga clic en **[!UICONTROL Print]** para generar un PDF de la factura.
 
 1. Guarde el PDF generado en un archivo o imprímalo.
 
@@ -147,6 +147,4 @@ Las facturas se pueden imprimir por separado o en lote. Sin embargo, para poder 
 
    ![Imprimir varias facturas](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
-Las facturas se guardan en un único archivo de PDF que se puede enviar a una impresora o guardar.
-
-[1]: https://www.adobe.com/acrobat/pdf-reader.html "Obtener Adobe Reader"
+Las facturas se guardan en un solo archivo PDF que se puede enviar a una impresora o guardar.

@@ -1,11 +1,11 @@
 ---
-title: Protege tu cuenta de  [!DNL Commerce]
+title: 'Protege tu cuenta de  [!DNL Commerce] '
 description: Aprenda a utilizar la autenticación de doble factor para proteger su cuenta de  [!DNL Commerce] .
 exl-id: 4847b5cb-a93a-40d0-8c31-c30afa27c0ce
 feature: User Account
-source-git-commit: fff3464c9da50927bbe9773a17b0f6858360d788
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1677'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Para usar TFA, debes tener una aplicación TFA instalada en tu dispositivo perso
 
 ## Habilitar autenticación de doble factor
 
-1. Inicie sesión en su [[!DNL Commerce] cuenta][1]{:target=&quot;_blank&quot;}.
+1. Inicie sesión en su [[!DNL Commerce] cuenta](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. En el panel de navegación izquierdo, seleccione **[!UICONTROL Account Settings]** y, a continuación, seleccione **[!UICONTROL Two-factor Authentication]**.
 
@@ -96,7 +96,7 @@ Para usar TFA, debes tener una aplicación TFA instalada en tu dispositivo perso
 
 ## Iniciar sesión con un código de verificación
 
-1. Vaya a [!DNL Commerce] [inicio de sesión con la cuenta][1]{:target=&quot;_blank&quot;}.
+1. Vaya a [!DNL Commerce] [inicio de sesión de cuenta](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Escriba sus credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
 
@@ -108,7 +108,7 @@ Para usar TFA, debes tener una aplicación TFA instalada en tu dispositivo perso
 
 ## Inicie sesión con un código de recuperación
 
-1. Vaya a [!DNL Commerce] [inicio de sesión con la cuenta][1]{:target=&quot;_blank&quot;}.
+1. Vaya a [!DNL Commerce] [inicio de sesión de cuenta](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Escriba sus credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
 
@@ -122,7 +122,7 @@ Para usar TFA, debes tener una aplicación TFA instalada en tu dispositivo perso
 
 ## Inicie sesión con el correo electrónico de recuperación
 
-1. Inicie sesión en su [[!DNL Commerce] cuenta][1]{:target=&quot;_blank&quot;}.
+1. Inicie sesión en su [[!DNL Commerce] cuenta](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Escriba sus credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
 
@@ -140,7 +140,7 @@ Después de usar un código de recuperación temporal para tener acceso a tu cue
 
 ## Ver los códigos de recuperación
 
-1. Vaya a [!DNL Commerce] [inicio de sesión con la cuenta][1]{:target=&quot;_blank&quot;}.
+1. Vaya a [!DNL Commerce] [inicio de sesión de cuenta](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Escriba sus credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
 
@@ -168,7 +168,7 @@ Después de usar un código de recuperación temporal para tener acceso a tu cue
 
 ## Generar nuevos códigos de recuperación
 
-1. Vaya a [!DNL Commerce] [inicio de sesión con la cuenta][1]{:target=&quot;_blank&quot;}.
+1. Vaya a [!DNL Commerce] [inicio de sesión de cuenta](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Escriba sus credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
 
@@ -190,7 +190,7 @@ Después de usar un código de recuperación temporal para tener acceso a tu cue
 
 ## Cambiar el correo electrónico de recuperación
 
-1. Vaya a [!DNL Commerce] [inicio de sesión con la cuenta][1]{:target=&quot;_blank&quot;}.
+1. Vaya a [!DNL Commerce] [inicio de sesión de cuenta](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Escriba sus credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
 
@@ -218,7 +218,7 @@ Después de usar un código de recuperación temporal para tener acceso a tu cue
 
 ## Cambiar la aplicación de autenticación de doble factor
 
-1. Vaya a [!DNL Commerce] [inicio de sesión con la cuenta][1]{:target=&quot;_blank&quot;}.
+1. Vaya a [!DNL Commerce] [inicio de sesión de cuenta](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Escriba sus credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
 
@@ -270,7 +270,7 @@ Después de usar un código de recuperación temporal para tener acceso a tu cue
 >
 >Si la directiva de seguridad de la organización requiere autenticación multifactor en las cuentas de Adobe Commerce, no puede deshabilitar la autenticación de doble factor.
 
-1. Vaya a [!DNL Commerce] [inicio de sesión con la cuenta][1]{:target=&quot;_blank&quot;}.
+1. Vaya a [!DNL Commerce] [inicio de sesión de cuenta](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Escriba sus credenciales de nombre de usuario y contraseña y, a continuación, seleccione **[!UICONTROL Login]**.
 
@@ -287,5 +287,3 @@ Después de usar un código de recuperación temporal para tener acceso a tu cue
    El sistema enviará una confirmación por correo electrónico indicando que el TFA se ha deshabilitado en su cuenta de [!DNL Commerce].
 
    ![Deshabilitar TFA](./assets/2fa-disable.png){width="400"}
-
-[1]: https://account.magento.com/customer/account/login
