@@ -3,9 +3,9 @@ title: Grupos de clientes
 description: Utilice los grupos de clientes para determinar qué descuentos están disponibles para los clientes asignados a un grupo y la clase de impuestos asociada al grupo.
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 17469d27128030b54fad6cf563a4b53f5f119eed
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,7 @@ Los grupos de clientes determinan qué descuentos están disponibles y la clase 
 >[!NOTE]
 >
 >Después de cambiar el grupo de la compañía, un usuario de la compañía debe cerrar la sesión e iniciar sesión en la Tienda para ver los nuevos precios en el catálogo.
+>Una vez asignado un cliente a una empresa, el grupo de clientes pasa a ser de solo lectura y un usuario administrador no puede actualizarlo.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
@@ -110,4 +111,4 @@ Los grupos de clientes determinan qué descuentos están disponibles y la clase 
 
 Obtenga información acerca de la creación de grupos de clientes viendo esta demostración:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411824/?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12&learn=on)
