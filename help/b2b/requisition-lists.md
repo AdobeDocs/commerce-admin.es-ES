@@ -3,7 +3,7 @@ title: Listas de solicitudes
 description: Obtenga información sobre las listas de solicitudes y cómo se utilizan para agregar fácilmente productos pedidos con frecuencia al carro de compras.
 exl-id: a21909de-18e7-4aa6-b30d-5d4fb02060ec
 feature: B2B
-source-git-commit: 7e4eef8a6862667b9ab11cd07f85eb4b5ac9a6e4
+source-git-commit: 5f46c4b29c7ee08faf3785c767d3130a277767df
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Listas de solicitudes
 
-El uso de una lista de solicitudes ahorra tiempo al comprar productos pedidos con frecuencia, ya que los artículos se añaden al carro de compras directamente desde la lista. Los compradores pueden mantener varias listas que se centren en productos de distintos proveedores, compradores, equipos, campañas o cualquier otro elemento que optimice su flujo de trabajo. Está disponible tanto para usuarios como para invitados que hayan iniciado sesión.
+El uso de una lista de solicitudes ahorra tiempo al comprar productos pedidos con frecuencia, ya que los artículos se añaden al carro de compras directamente desde la lista. Los compradores pueden mantener varias listas que se centren en productos de distintos proveedores, compradores, equipos, campañas o cualquier otro elemento que optimice su flujo de trabajo. La función de lista de solicitudes está disponible para los usuarios que han iniciado sesión.
 
 >[!NOTE]
 >
