@@ -3,10 +3,10 @@ title: Mapas del sitio
 description: Obtenga información sobre cómo configurar un mapa del sitio para indexar todas las páginas e imágenes de los sitios de Commerce.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: c9af0854f60da74959b5d1d822b342def417b0f9
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 321a9fb0f3c6d86aad520b76ff717c0b07ac37f0
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Para Adobe Commerce as a Cloud Service, consulte las [directrices SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=es) en la documentación de Commerce Storefront
+>Para Adobe Commerce as a Cloud Service, consulte las [directrices SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) en la documentación de Commerce Storefront
 
-Un mapa del sitio mejora la forma en que los motores de búsqueda indizan el almacén y está diseñado para buscar páginas que los rastreadores web podrían pasar por alto. Se puede configurar un mapa del sitio para indexar todas las páginas e imágenes.
+Un mapa del sitio mejora la forma en que los motores de búsqueda indizan el almacén y está diseñado para buscar páginas que los rastreadores Web podrían pasar por alto. Se puede configurar un mapa del sitio para indexar todas las páginas e imágenes.
 
 Cuando se habilita, Commerce crea un archivo denominado `sitemap.xml` que se guarda en la instalación en la ubicación especificada. La configuración le permite establecer la frecuencia de las actualizaciones y la prioridad para cada tipo de contenido. El mapa del sitio debe actualizarse con la frecuencia con la que cambia el contenido del sitio, que puede ser diaria, semanal o mensual.
 
 Mientras el sitio está en desarrollo, puede incluir instrucciones en el archivo `robots.txt` para rastreadores web a fin de evitar la indexación del sitio. A continuación, antes del lanzamiento, puede cambiar las instrucciones para permitir que el sitio se indexe.
 
-Para obtener información técnica, consulte [Agregar mapa del sitio y robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=es) en la _Guía de infraestructura en la nube de Commerce_.
+Para obtener información técnica, consulte [Agregar mapa del sitio y robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html) en la _Guía de infraestructura en la nube de Commerce_.
 
 ![cuadrícula de mapa del sitio](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -102,7 +102,7 @@ Para crear mapas del sitio para una instancia de varias tiendas, haga lo siguien
    
 >[!NOTE]
 >
->Si su sitio usa el motor de servidor web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=es), debe actualizar el archivo [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) en la raíz del sitio web para dirigir cualquier otra solicitud de mapa del sitio al lugar apropiado.
+>Si su sitio usa el motor de servidor web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html), debe actualizar el archivo [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) en la raíz del sitio web para dirigir cualquier otra solicitud de mapa del sitio al lugar apropiado.
 
 ## Descripciones de columna
 
@@ -224,33 +224,6 @@ El mapa del sitio debe actualizarse con la frecuencia con la que cambia el conte
 
    ![Configuración del catálogo - Configuración de envío del motor de búsqueda de mapa del sitio XML](../configuration-reference/catalog/assets/xml-sitemap-search-engine-submission-settings.png){width="600" zoomable="yes"}
 
-1. Si usa un archivo de `robots.txt` para proporcionar instrucciones a los motores de búsqueda que rastrean el sitio, establezca **[!UICONTROL Enable Submission to Robots.txt]** en `Yes`.
+1. Si usa un archivo de `robots.txt` para proporcionar instrucciones a los motores de búsqueda que rastrean por el sitio, establezca **[!UICONTROL Enable Submission to Robots.txt]** en `Yes`.
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
-
-## Habilitar generación de mapas del sitio por lotes para catálogos grandes
-
-En el caso de las tiendas con catálogos grandes, utilice el siguiente trabajo cron alternativo para habilitar la generación de mapas del sitio por lotes. Este enfoque procesa los datos en incrementos más pequeños, reduciendo significativamente el riesgo de agotamiento de la memoria PHP y asegurando que la generación de mapas del sitio se complete correctamente, incluso para sitios con datos de productos extensos.
-
-En `app/code/Magento/Sitemap/etc/config.xml`, reemplazar:
-
-```xml
-<jobs>
-  <sitemap_generate>
-    <schedule>
-      <cron_expr>0 0 * * *</cron_expr>
-    </schedule>
-  </sitemap_generate>
-</jobs>
-```
-
-con:
-
-```xml
-<jobs>
-  <sitemap_generate_batch>
-    <schedule>
-      <cron_expr>0 0 * * *</cron_expr>
-    </schedule>
-  </sitemap_generate_batch>></jobs>
-```
