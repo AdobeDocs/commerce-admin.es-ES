@@ -26,7 +26,7 @@ Para conceder a alguien acceso restringido al administrador, el primer paso es c
 
 ### Paso 1: Añadir el nombre de la función
 
-1. En _[!UICONTROL Role Information]_, escriba un **[!UICONTROL Role Name]**descriptivo.
+1. En _[!UICONTROL Role Information]_, escriba un **[!UICONTROL Role Name]**&#x200B;descriptivo.
 
 1. En _[!UICONTROL Current User Identity Verification]_, escriba su contraseña.
 
@@ -49,9 +49,9 @@ Para conceder a alguien acceso restringido al administrador, el primer paso es c
 
    >[!NOTE]
    >
-   >Los usuarios con un ámbito de rol `Custom` no pueden crear sitios web y categorías, asignar productos a categorías o editar productos en el ámbito _[!UICONTROL All Store Views]_cuando se les asigna a tiendas restringidas. Estos usuarios no pueden realizar otras_ acciones globales _que afecten a ámbitos en los que no tengan acceso.
+   >Los usuarios con un ámbito de rol `Custom` no pueden crear sitios web y categorías, asignar productos a categorías o editar productos en el ámbito _[!UICONTROL All Store Views]_&#x200B;cuando se les asigna a tiendas restringidas. Estos usuarios no pueden realizar otras_ acciones globales _que afecten a ámbitos en los que no tengan acceso.
 
-1. En _[!UICONTROL Roles Resources]_, establezca **[!UICONTROL Resource Access]**en `Custom`.
+1. En _[!UICONTROL Roles Resources]_, establezca **[!UICONTROL Resource Access]**&#x200B;en `Custom`.
 
    >[!NOTE]
    >
@@ -81,7 +81,7 @@ Para conceder a alguien acceso restringido al administrador, el primer paso es c
 
 1. En el panel izquierdo, elija **[!UICONTROL Role Users]**.
 
-   La opción _[!UICONTROL Role Users]_solo aparece después de guardar un nuevo rol.
+   La opción _[!UICONTROL Role Users]_&#x200B;solo aparece después de guardar un nuevo rol.
 
    ![Cuentas de usuario asignadas al rol](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 
