@@ -151,7 +151,7 @@ Las facturas se guardan en un solo archivo PDF que se puede enviar a una impreso
 
 ## Cantidades de captura personalizadas
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
 
 Para proporcionar a los comerciantes una mayor flexibilidad para las capturas parciales y los escenarios de pago especializados, la API de facturas admite importes de captura personalizados mediante atributos de extensión.
 

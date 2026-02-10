@@ -131,7 +131,7 @@ En la barra lateral _Admin_, vaya a **[!UICONTROL Reports]** > _[!UICONTROL Sale
 
 ## Actualizar estadísticas
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 Para reducir el impacto en el rendimiento de la generación de informes de ventas, [!DNL Commerce] calcula y almacena las estadísticas necesarias para cada informe. En lugar de volver a calcular las estadísticas cada vez que se genera un informe, se utilizan las estadísticas almacenadas, a menos que actualice las estadísticas. Para incluir los datos más recientes, las estadísticas del informe deben actualizarse antes de generar un informe de ventas.
 
