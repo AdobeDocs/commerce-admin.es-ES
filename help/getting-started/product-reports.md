@@ -3,10 +3,9 @@ title: Informes del producto
 description: Los informes de productos disponibles en Adobe Commerce y Magento Open Source le proporcionan insight con respecto a los productos vistos y pedidos, los productos más vendidos, los niveles de stock y las descargas.
 exl-id: 7b2430dd-050a-407d-b922-39df5b3c52d1
 feature: Products, Reporting
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -16,6 +15,8 @@ ht-degree: 0%
 Los informes de productos le proporcionan insight con respecto a los productos vistos y pedidos, los productos más vendidos, los niveles de stock y las descargas.
 
 ## [!UICONTROL Product Views Report]
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 El [!UICONTROL Product Views Report] muestra los productos que se han visto durante un intervalo de tiempo o un intervalo de fechas. El informe incluye el nombre del producto, el precio y el número de vistas.
 
@@ -48,6 +49,8 @@ En la barra lateral _Admin_, vaya a **[!UICONTROL Reports]** > _[!UICONTROL Prod
 ![Informe de productos pedidos](./assets/products-ordered.png){width="600"}
 
 ## [!UICONTROL Downloads Report]
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 [!UICONTROL Downloads Report] enumera todas las descargas durante el intervalo de tiempo o el intervalo de fecha especificados. El informe incluye el nombre del producto, el vínculo de descarga y el SKU, con el número de compras y descargas.
 
