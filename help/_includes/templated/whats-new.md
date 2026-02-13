@@ -23,7 +23,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Actualizaciones a la documentación de administración para la versión de febrero de Adobe Commerce as a Cloud Service:<br />- Se agregó documentación para <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts">importes de captura personalizados</a> al crear facturas en la API de REST, que permite a los comerciantes capturar importes personalizados al crear facturas para capturas parciales y escenarios de pago especializados.<br />- Indica qué informes del <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/reports-menu">menú Informes</a> son ahora solo PaaS.</p>
+      <td><p>Actualizaciones a la documentación de administración para la versión de febrero de Adobe Commerce as a Cloud Service:<br />- Se agregó documentación para <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts">importes de captura personalizados</a> al crear facturas en la API de REST, que permite a los comerciantes capturar importes personalizados al crear facturas para capturas parciales y escenarios de pago especializados.<br />- Indica qué informes del <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/start/reporting/reports-menu">menú Informes</a> son ahora solo PaaS.</p>
 </td>
       <td>
         Actualización importante
@@ -45,7 +45,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se ha actualizado <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Cumplimiento de la ley de cookies</a> para agregar la clave localStorage <code class="language-plaintext highlighter-rouge">mage-cache-timeout</code> que falta y convertir la lista de cookies exentas a un formato de tabla.</p>
+      <td><p>Se ha actualizado <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Cumplimiento de la ley de cookies</a> para agregar la clave localStorage <code class="language-plaintext highlighter-rouge">mage-cache-timeout</code> que falta y convertir la lista de cookies exentas a un formato de tabla.</p>
 </td>
       <td>
         Técnico, comentarios
@@ -53,7 +53,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/ebb6348c6b5a30f5de4025f39bae0061b397a4b9">comprometer</a></td>
     </tr>
     <tr>
-      <td><p>[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y proyectos locales."} Se han actualizado los requisitos previos para configurar la integración de IMS para Adobe Commerce a fin de proporcionar información sobre cómo solicitar acceso a Adobe Admin Console.</p>
+      <td><p>[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y proyectos locales."} Se han actualizado los requisitos previos para configurar la integración de IMS para Adobe Commerce a fin de proporcionar información sobre cómo solicitar acceso a Adobe Admin Console.</p>
 </td>
       <td>
         Técnico, comentarios
@@ -75,12 +75,12 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se han actualizado <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-groups">Grupos de clientes</a> en la Guía de administración de clientes para aclarar que los usuarios administradores no pueden editar el grupo de clientes de un cliente una vez que el cliente se ha asignado a una compañía.</p>
+      <td><p>Se han actualizado <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/customers/customer-groups">Grupos de clientes</a> en la Guía de administración de clientes para aclarar que los usuarios administradores no pueden editar el grupo de clientes de un cliente una vez que el cliente se ha asignado a una compañía.</p>
 </td>
       <td>
         Técnico
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/pull/81">solicitud de extracción</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.es-ES/pull/81">solicitud de extracción</a></td>
     </tr>
   </tbody>
 </table>
@@ -119,7 +119,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se agregó una aclaración cuando los correos electrónicos <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/sales-emails#order-ready-for-pickup-in-store">Pedido listo para recoger en la tienda</a> están disponibles.</p>
+      <td><p>Se agregó una aclaración cuando los correos electrónicos <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/config/sales/sales-emails#order-ready-for-pickup-in-store">Pedido listo para recoger en la tienda</a> están disponibles.</p>
 </td>
       <td>
         Comentarios
@@ -141,7 +141,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se agregaron las siguientes características a Adobe Commerce as a Cloud Service:<br />- Se agregó compatibilidad con <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise">Google reCAPTCHA Enterprise</a>, que proporciona protección avanzada para bots con análisis de riesgo adaptable y capacidades de aprendizaje automático.<br />: transforme los números de seguimiento de envío incluidos en los correos electrónicos de comprador de texto sin formato en vínculos en los que se puede hacer clic al <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls">habilitar las direcciones URL de seguimiento personalizadas</a>. Esta función es compatible con USPS, UPS, FedEx y DHL.<br />: ahora puede combinar descuentos de precios por niveles con descuentos de reglas de catálogo mediante <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules">reglas de precios de catálogo</a>. Esta mejora le permite crear estrategias de precios más dinámicas y competitivas.</p>
+      <td><p>Se agregaron las siguientes características a Adobe Commerce as a Cloud Service:<br />- Se agregó compatibilidad con <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise">Google reCAPTCHA Enterprise</a>, que proporciona protección avanzada para bots con análisis de riesgo adaptable y capacidades de aprendizaje automático.<br />: transforme los números de seguimiento de envío incluidos en los correos electrónicos de comprador de texto sin formato en vínculos en los que se puede hacer clic al <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls">habilitar las direcciones URL de seguimiento personalizadas</a>. Esta función es compatible con USPS, UPS, FedEx y DHL.<br />: ahora puede combinar descuentos de precios por niveles con descuentos de reglas de catálogo mediante <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules">reglas de precios de catálogo</a>. Esta mejora le permite crear estrategias de precios más dinámicas y competitivas.</p>
 </td>
       <td>
         Actualización principal, nuevo tema
@@ -163,7 +163,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se ha actualizado el <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">Tema de recompensas y fidelidad</a> para aclarar cómo se calculan los impuestos cuando los clientes utilizan puntos de recompensa o almacenan crédito durante el cierre de compra.</p>
+      <td><p>Se ha actualizado el <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">Tema de recompensas y fidelidad</a> para aclarar cómo se calculan los impuestos cuando los clientes utilizan puntos de recompensa o almacenan crédito durante el cierre de compra.</p>
 </td>
       <td>
         Comentarios
