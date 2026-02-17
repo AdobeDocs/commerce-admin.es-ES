@@ -3,10 +3,10 @@ title: Configuración de la integración de administración de Commerce con ID
 description: Siga este procedimiento opcional para integrar los inicios de sesión de cuenta de usuario de administrador de Adobe Commerce con Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: c909d68cb2d99e9eb3d1e3adb8fc9b7c245812d2
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: e1518775bf43f5493b61d21951a0b1126dfc49aa
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Esta integración es compatible con los comerciantes de Commerce con usuarios administradores que tengan un Adobe ID y que deseen optimizar el inicio de sesión en los productos empresariales de Adobe Commerce y Adobe. Es opcional y se habilita en función de cada instancia. Solo los flujos de trabajo de usuarios administradores se ven afectados cuando está habilitada. 
 
 >[!IMPORTANT]
+>
+>La integración de Adobe Ims se aplica globalmente. Una vez activado, todos los usuarios deben autenticarse a través de AdobeIms. Los usuarios individuales no se pueden excluir de esta configuración y el inicio de sesión con nombre de usuario y contraseña ya no está disponible para usuarios individuales.
 >
 >Los usuarios administradores deben guardar sus credenciales de administrador de Commerce (nombre de usuario y contraseña) y las credenciales de 2FA antes de habilitar esta integración. Estas credenciales son necesarias si la integración de IMS está desactivada.
 
@@ -32,8 +34,8 @@ Esta integración es compatible con los comerciantes de Commerce con usuarios ad
 
 El administrador que configura esta integración necesita las siguientes credenciales durante la activación del módulo:
 
-* ID de organización (obtenido de [Adobe Admin Console](https://adminconsole.adobe.com/)), que debe tener al menos 24 caracteres de longitud. El usuario autenticado debe pertenecer a esta organización de IMS. Para obtener información sobre cómo encontrar tu ID de organización, consulta [Organizaciones en Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es).
-* 2FA debe aplicarse en el nivel de organización en Adobe Admin Console para habilitar el módulo. Compruebe [configuración de autenticación](https://helpx.adobe.com/es/enterprise/using/authentication-settings.html#two-step-verification).
+* ID de organización (obtenido de [Adobe Admin Console](https://adminconsole.adobe.com/)), que debe tener al menos 24 caracteres de longitud. El usuario autenticado debe pertenecer a esta organización de IMS. Para obtener información sobre cómo encontrar tu ID de organización, consulta [Organizaciones en Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+* 2FA debe aplicarse en el nivel de organización en Adobe Admin Console para habilitar el módulo. Compruebe [configuración de autenticación](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification).
 * ID de cliente
 * Secreto de cliente
 * El ID de cliente y el secreto de cliente están disponibles después de recuperar las claves de API de [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials).
@@ -51,7 +53,7 @@ Una integración correcta requiere que todos los usuarios de Adobe Commerce teng
 
 ## Configuración de la integración
 
-Una vez que un administrador o desarrollador con acceso al sistema haya completado los siguientes pasos, el botón _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_&#x200B;se mostrará en la página de inicio de sesión de administrador de Commerce para todos los usuarios administradores.
+Una vez que un administrador o desarrollador con acceso al sistema haya completado los siguientes pasos, el botón _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_se mostrará en la página de inicio de sesión de administrador de Commerce para todos los usuarios administradores.
 
 ### Paso 1: Obtención del ID de organización de Adobe
 
@@ -80,7 +82,7 @@ Antes de habilitar la integración, compruebe que cada cuenta de usuario de admi
 
 >[!TIP]
 >
->Puede crear varias cuentas de usuario cargando la información de usuario desde un archivo CSV. Consulte [Administrar varios usuarios](https://helpx.adobe.com/es/enterprise/using/bulk-upload-users.html).
+>Puede crear varias cuentas de usuario cargando la información de usuario desde un archivo CSV. Consulte [Administrar varios usuarios](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
 
 1. En [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html), vaya a **[!UICONTROL Users]** > **[!UICONTROL Users]**.
 
@@ -113,4 +115,4 @@ Después de habilitar correctamente esta función, puede realizar la transición
 
 ## Identidad e inicio de sesión único
 
-Para obtener información sobre las opciones de configuración de identidad, como Adobe ID, Enterprise ID y Federated ID, así como las instrucciones para configurar el inicio de sesión único (SSO) para el acceso seguro a las aplicaciones de Adobe, consulte [Configurar la identidad y el inicio de sesión único](https://helpx.adobe.com/es/enterprise/using/set-up-identity.html) en la documentación de *Enterprise Admin Console*.
+Para obtener información sobre las opciones de configuración de identidad, como Adobe ID, Enterprise ID y Federated ID, así como las instrucciones para configurar el inicio de sesión único (SSO) para el acceso seguro a las aplicaciones de Adobe, consulte [Configurar la identidad y el inicio de sesión único](https://helpx.adobe.com/enterprise/using/set-up-identity.html) en la documentación de *Enterprise Admin Console*.
