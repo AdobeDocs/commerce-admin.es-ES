@@ -3,10 +3,10 @@ title: Información general sobre la integración de Adobe Identity Management S
 description: Presenta la integración opcional del inicio de sesión del administrador de Adobe Commerce con Adobe IMS
 exl-id: 106d731c-a541-4a19-a38c-221e80740508
 feature: Identity Management
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 484351d7db33139e3339ccea82e7a96f5ea7966e
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,13 @@ Para implementar esta integración, consulte [Configuración de la integración 
 
 ## Cambios en los flujos de trabajo de administración y la interfaz después de la integración con IMS
 
-Cuando esta integración está habilitada, los usuarios administradores de Commerce experimentan cambios en el inicio de sesión y en el flujo de trabajo de autenticación predeterminados de Commerce, ya que realizan tareas rutinarias en el administrador que requieren volver a autenticarse, como crear un usuario administrador. Se requiere la aplicación de autenticación de doble factor (2FA) en el nivel de organización de Adobe para la habilitación de módulos. El inicio de sesión de administrador predeterminado y 2FA están deshabilitados, y el botón _[!UICONTROL Sign In with Adobe ID]_&#x200B;reemplaza el formulario de inicio de sesión de administrador predeterminado. Los derechos se siguen administrando desde el administrador.
+Cuando esta integración está habilitada, los usuarios administradores de Commerce experimentan cambios en el inicio de sesión y en el flujo de trabajo de autenticación predeterminados de Commerce, ya que realizan tareas rutinarias en el administrador que requieren volver a autenticarse, como crear un usuario administrador. Se requiere la aplicación de autenticación de doble factor (2FA) en el nivel de organización de Adobe para la habilitación de módulos. El inicio de sesión de administrador predeterminado y 2FA están deshabilitados, y el botón _[!UICONTROL Sign In with Adobe ID]_reemplaza el formulario de inicio de sesión de administrador predeterminado. Los derechos se siguen administrando desde el administrador.
+
+>
+>
+>La integración de Adobe Ims se aplica globalmente. Una vez activado, se requiere que todos los usuarios se autentiquen a través de AdobeIms; los usuarios individuales no se pueden excluir de esta configuración.
+>
+>**Active esta integración solo después de comprender completamente sus implicaciones.**
 
 ## Cómo afecta la integración de administradores con IMS a las contraseñas de Commerce
 
