@@ -28,7 +28,7 @@ Una selección de [informes de mercadotecnia](marketing-reports.md), incluidos l
 
 ### [!UICONTROL Reviews]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 La selección de [informes de revisión](review-reports.md) del producto incluye Por cliente y Por producto.
 
@@ -38,9 +38,9 @@ La selección de [informes de ventas](sales-reports.md) incluye informes de pedi
 
 ### [!UICONTROL System Insights]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
-(Solo Adobe Commerce) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) proporciona información del sistema para instalaciones de Adobe Commerce en infraestructura en la nube con supervisión del rendimiento, informes y recomendaciones en tiempo real las 24 horas del día, los 7 días de la semana.
+(Solo Adobe Commerce) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=es) proporciona información del sistema para instalaciones de Adobe Commerce en infraestructura en la nube con supervisión del rendimiento, informes y recomendaciones en tiempo real las 24 horas del día, los 7 días de la semana.
 
 ### [!UICONTROL Customers]
 
@@ -52,18 +52,18 @@ La selección de [informes de productos](product-reports.md) incluye vistas, pro
 
 ### [!UICONTROL Private Sales]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 (Solo Adobe Commerce) La selección de informes para [ventas y eventos privados](private-sales-reports.md) incluye Invitaciones, Clientes invitados y Conversiones.
 
 ### [!UICONTROL Statistics]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 [Estadísticas](sales-reports.md#refresh-statistics) es una herramienta que reduce el impacto en el rendimiento de la generación de informes mediante el cálculo y almacenamiento de datos estadísticos. En lugar de volver a calcular las estadísticas cada vez que se genera un informe, las estadísticas almacenadas se utilizan hasta que se actualizan las estadísticas.
 
 ### [!DNL Commerce Intelligence]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 Las herramientas integradas de [[!DNL Commerce Intelligence]](business-intelligence.md) le proporcionan el insight que necesita para tomar decisiones comerciales estratégicas.
