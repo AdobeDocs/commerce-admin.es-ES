@@ -60,7 +60,7 @@ La sección Historial de Facturación muestra solamente las facturas antiguas qu
 
 1. Haga clic en **[!UICONTROL Create Shared Access]**.
 
-   La nueva información de usuario aparece en la sección _[!UICONTROL Manage Permissions]_de la página Acceso compartido y se envía al nuevo usuario una invitación por correo electrónico con instrucciones para acceder a la cuenta compartida.
+   La nueva información de usuario aparece en la sección _[!UICONTROL Manage Permissions]_&#x200B;de la página Acceso compartido y se envía al nuevo usuario una invitación por correo electrónico con instrucciones para acceder a la cuenta compartida.
 
    ![Administrar permisos para acceso compartido](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
 
@@ -74,7 +74,7 @@ Las siguientes instrucciones se escriben desde la perspectiva de un usuario comp
 
 1. Cuando reciba una invitación a una cuenta compartida, siga las instrucciones del mensaje de correo electrónico para iniciar sesión en su propia cuenta de [!DNL Commerce].
 
-   El panel de navegación izquierdo de su cuenta tiene una nueva ficha _[!UICONTROL Shared with me]_. El control_[!UICONTROL Switch Accounts]_ de la esquina superior derecha tiene opciones para `My Account` y el nombre de la cuenta compartida.
+   El panel de navegación izquierdo de su cuenta tiene una nueva ficha _[!UICONTROL Shared with me]_. El control&#x200B;_[!UICONTROL Switch Accounts]_ de la esquina superior derecha tiene opciones para `My Account` y el nombre de la cuenta compartida.
 
    ![Compartido conmigo](./assets/shared-with-me.png){width="600" zoomable="yes"}
 
@@ -107,7 +107,7 @@ Las siguientes instrucciones se escriben desde la perspectiva de un usuario comp
 
 1. En el panel de navegación izquierdo, haga clic en **[!UICONTROL Shared Access]**.
 
-1. Busque la cuenta que desea revocar en _[!UICONTROL Managing Users & Permissions]_y haga clic en **[!UICONTROL Delete]**.
+1. Busque la cuenta que desea revocar en _[!UICONTROL Managing Users & Permissions]_&#x200B;y haga clic en **[!UICONTROL Delete]**.
 
    >[!NOTE]
    >
