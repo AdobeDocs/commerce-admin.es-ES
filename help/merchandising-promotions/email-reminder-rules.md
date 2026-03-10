@@ -3,10 +3,9 @@ title: Recordatorios de correo electrónico
 description: Obtenga información acerca de los recordatorios de correo electrónico que se pueden enviar automáticamente a los clientes cuando se cumple un conjunto específico de condiciones.
 exl-id: 3293caca-9dd3-4d64-a80c-58c92a9208e5
 feature: Merchandising, Communications
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+source-git-commit: 3e6ffa7d90472256b0e94de03cb2debc9c34bac7
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -21,7 +20,7 @@ Los recordatorios de correo electrónico se pueden activar después de que haya 
 
 >[!NOTE]
 >
->Si un cliente tiene más de un carro de compras abandonado, una lista de deseos o una combinación de ambos coincidentes, el recordatorio de correo electrónico se activa solo una vez para ese cliente. Para almacenar en déclencheur el mismo recordatorio de correo electrónico de nuevo, utilice el campo _[!UICONTROL Repeat Schedule]_&#x200B;para establecer el número de días entre correos electrónicos.
+>Si un cliente tiene más de un carro de compras abandonado, una lista de deseos o una combinación de ambos coincidentes, el recordatorio de correo electrónico se activa solo una vez para ese cliente. Para almacenar en déclencheur el mismo recordatorio de correo electrónico de nuevo, utilice el campo _[!UICONTROL Repeat Schedule]_para establecer el número de días entre correos electrónicos.
 
 ![Recordatorios de correo electrónico](./assets/email-reminders.png){width="700" zoomable="yes"}
 
