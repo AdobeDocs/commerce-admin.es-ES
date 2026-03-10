@@ -1,11 +1,12 @@
 ---
 title: Crea tu cuenta de  [!DNL Commerce] y accede a ella
 description: Obtenga información acerca de  [!DNL Commerce] cuentas que administran los productos y servicios que ha adquirido.
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: 2b0959de64e139d3f652e1cd5edb744c0a8489a3
+source-git-commit: bc083abcf31763a36eb8aa3c325d1f0d4b94f635
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
@@ -13,13 +14,25 @@ ht-degree: 0%
 
 # Acceder a su cuenta de [!DNL Commerce]
 
-Puede acceder a su cuenta de [!DNL Commerce] desde el sitio web de [!DNL Commerce]. Desde el panel de su cuenta de [!DNL Commerce], puede encontrar información relacionada con los productos y servicios que ha adquirido, así como información de contacto y facturación. Algunos datos solo están visibles para los propietarios de licencias.
+Una cuenta de [!DNL Commerce] es el punto de acceso central para administrar los servicios de Adobe Commerce para los proyectos de Adobe Commerce implementados en la infraestructura en la nube o de forma local. En el panel de cuentas, puede ver suscripciones, administrar las claves de API de los servicios de Commerce, revisar la información de facturación histórica y colaborar con otros usuarios de su organización.
+
+Si necesitas [enviar tu primer ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) o administrar tu relación con Adobe Commerce, en lugar de trabajar en una tienda específica, empieza creando o accediendo a tu cuenta de [!DNL Commerce].
+
+Si necesita [enviar su primer ticket de asistencia](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) o manejar su relación de Adobe Commerce fuera de una tienda específica, comience creando o accediendo a su cuenta de [!DNL Commerce].
+
+Puede acceder a su cuenta de [!DNL Commerce] desde el sitio web de [!DNL Commerce]. En el panel de cuentas, puedes ver información relacionada con los productos y servicios que has comprado y proporcionar [acceso compartido](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access) a otros usuarios. Algunos datos, como las claves API de servicios de Commerce, solo están visibles para los propietarios de licencias.
+
+>[!NOTE]
+>
+>La sección **[!UICONTROL Billing History]** de la página de cuenta [!DNL Commerce] muestra solamente las facturas creadas antes de la actualización del sistema de facturación.
+>
+>Si no aparecen en la lista las facturas más recientes, se han transferido al nuevo sistema y no se puede acceder a ellas desde esta página.
 
 ![Su cuenta de [!DNL Commerce]](./assets/home-acct.png){width="700"}
 
 El inicio de sesión de la cuenta de [!DNL Commerce] es independiente del inicio de sesión del administrador de tienda. Normalmente, utilizará credenciales diferentes para cada uno y el acceso a cada sistema se administra de forma independiente.
 
-Sin embargo, un usuario que quiera optimizar sus inicios de sesión en Adobe Commerce y en los productos para empresas de Adobe puede configurar su Adobe ID para iniciar sesión en el administrador de tienda: [Configure the Commerce Admin Integration with Adobe ID](https://experienceleague.adobe.com/es/docs/commerce-admin/start/admin/ims/adobe-ims-config) en la *Guía de integración de IMS para Commerce*.
+Sin embargo, un usuario que quiera optimizar sus inicios de sesión en Adobe Commerce y en los productos para empresas de Adobe puede configurar su Adobe ID para iniciar sesión en el administrador de tienda: [Configure the Commerce Admin Integration with Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) en la *Guía de integración de IMS para Commerce*.
 
 >[!NOTE]
 >
@@ -27,13 +40,13 @@ Sin embargo, un usuario que quiera optimizar sus inicios de sesión en Adobe Com
 
 ## Inicie sesión en su cuenta de [!DNL Commerce]
 
-Se requiere un Adobe ID para acceder a su cuenta de Commerce. Si tiene una cuenta existente de [!DNL Commerce] pero no ha iniciado sesión desde agosto de 2022, debe crear una Adobe ID durante el proceso de inicio de sesión. Es necesario completar este paso antes de poder iniciar sesión en la cuenta.
+Se requiere un Adobe ID para acceder a su cuenta de [!DNL Commerce]. Si tiene una cuenta existente de [!DNL Commerce] pero no ha iniciado sesión desde agosto de 2022, debe crear una Adobe ID durante el proceso de inicio de sesión. Debe completar este paso para poder iniciar sesión en su cuenta.
 
 >[!WARNING]
 >
->Utilice la dirección de correo electrónico asociada a su MAGEID de cuenta de Commerce existente para crear Adobe ID. Usar una dirección de correo electrónico diferente y completamente nueva crea un nuevo MAGEID.
+>Si no encuentra la organización de Commerce al enviar un [caso de soporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) de Adobe Commerce, normalmente significa lo siguiente: el propietario de la cuenta no ha creado un Adobe ID o ya existe un Adobe ID, pero no está vinculado a la cuenta de Commerce.
 
-1. Vaya al [[!DNL Commerce] sitio](https://account.magento.com/customer/account/login/).
+1. Ir al sitio [[!DNL Commerce]](https://account.magento.com/customer/account/login/).
 
 1. Haga clic en **[!UICONTROL Sign in with Adobe ID]**.
 
@@ -92,3 +105,11 @@ Cualquiera puede crear una cuenta gratuita de [!DNL Commerce]. La dirección de 
 1. Introduzca su dirección de correo electrónico.
 
 1. Haga clic en **[!UICONTROL Continue]**.
+
+## Proporcionar acceso compartido a su cuenta de Commerce
+
+El acceso compartido le permite conceder permiso a usuarios de confianza, como compañeros, socios o administradores, para administrar su relación con Adobe Commerce en su nombre sin usar su inicio de sesión personal. Esto incluye permitir que otros abran y rastreen casos de asistencia.
+
+Consulte la sección [Compartir una cuenta de Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en) de la Guía de introducción de Adobe Commerce para ver los pasos detallados sobre cómo configurar una cuenta compartida.
+
+Para obtener instrucciones detalladas sobre cómo enviar un caso de soporte de Commerce, consulte la [guía del usuario del Centro de ayuda de Adobe Commerce](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
