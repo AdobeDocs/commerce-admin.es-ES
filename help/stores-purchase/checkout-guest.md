@@ -3,9 +3,9 @@ title: Cierre de compra de invitado
 description: Aprenda a habilitar las funciones de pago y envío de invitados en su tienda.
 exl-id: ce25eba3-7503-46aa-a5cd-9b7d5662164b
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 347321ec5b0722f06240780136cb29816aab559f
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -37,3 +37,13 @@ Para obtener una descripción detallada de cada una de estas opciones de configu
    Si es necesario, desactive la casilla de verificación **[!UICONTROL Use system value]** para habilitar los cambios en esta configuración.
 
 1. Haga clic en **[!UICONTROL Save Config]**.
+
+## Permitir el acceso de pedidos de invitados para correos electrónicos registrados
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
+
+Una configuración opcional en el nivel de tienda, que está desactivada de forma predeterminada, permite a los compradores invitados rastrear sus pedidos realizados con una dirección de correo electrónico que coincida con una cuenta de cliente registrada.
+
+Cuando se habilita, los pedidos de pago y envío de invitados realizados con un correo electrónico registrado siguen siendo accesibles, y también aparecen en el historial de pedidos del cliente.
+
+Para habilitar esta característica, vaya a **Tiendas** > Configuración > **Configuración** > Ventas > **Ventas** > **Cierre de compra para invitados** y establezca la opción **Permitir el acceso a pedidos de invitados para correos electrónicos registrados** en `Yes`.
