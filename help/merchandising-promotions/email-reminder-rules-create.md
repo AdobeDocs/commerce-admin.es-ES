@@ -3,10 +3,9 @@ title: Crear recordatorios de correo electrónico
 description: Obtenga información sobre cómo configurar una regla de recordatorio de correo electrónico que utilice una regla de precio del carro de compras existente.
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+source-git-commit: 43654def3e227127dcf0732962b4f1142a6a3856
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
@@ -23,7 +22,7 @@ Antes de configurar una regla de recordatorio por correo electrónico, primero d
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add New Rule]**.
 
-1. Complete _[!UICONTROL Rule Information]_&#x200B;de la siguiente manera:
+1. Complete _[!UICONTROL Rule Information]_de la siguiente manera:
 
    ![Regla de recordatorio de correo electrónico](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
@@ -56,7 +55,7 @@ Antes de configurar una regla de recordatorio por correo electrónico, primero d
 
    >[!NOTE]
    >
-   >Si un cliente tiene más de un carro de compras abandonado, una lista de deseos o una combinación de ambos coincidentes, el recordatorio de correo electrónico se activa solo una vez para ese cliente. Para almacenar en déclencheur el mismo recordatorio de correo electrónico de nuevo, utilice el campo _[!UICONTROL Repeat Schedule]_&#x200B;para establecer el número de días entre correos electrónicos. <br/>
+   >Si un cliente tiene más de un carro de compras abandonado, una lista de deseos o una combinación de ambos coincidentes, el recordatorio de correo electrónico se activa solo una vez para ese cliente. Para almacenar en déclencheur el mismo recordatorio de correo electrónico de nuevo, utilice el campo _[!UICONTROL Repeat Schedule]_para establecer el número de días entre correos electrónicos. <br/>
    >
    >El mismo recordatorio por correo electrónico es **_no se ha vuelto a activar_** para el mismo cliente para **_nuevos_** carros abandonados y listas de deseos **_después de_** que haya pasado el período de _[!UICONTROL Repeat Schedule]_.
 
@@ -66,7 +65,7 @@ Antes de configurar una regla de recordatorio por correo electrónico, primero d
 
 1. En el panel de la izquierda, elija **[!UICONTROL Emails and Labels]**.
 
-   ![Regla de recordatorio de correo electrónico: plantillas de correos electrónicos y etiquetas &#x200B;](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
+   ![Regla de recordatorio de correo electrónico: plantillas de correos electrónicos y etiquetas ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
 1. En la sección **[!UICONTROL Email Templates]**, elija la plantilla de correo electrónico que se usará para cada sitio web y vista de tienda en su [jerarquía de tienda](../getting-started/websites-stores-views.md).
 
@@ -84,7 +83,7 @@ Antes de configurar una regla de recordatorio por correo electrónico, primero d
 
      ![Recordatorios de correo electrónico: títulos y descripciones](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - En la sección _[!UICONTROL Titles and Descriptions Per Store View]_, escriba **[!UICONTROL Rule Title]**&#x200B;y **[!UICONTROL Description]**&#x200B;para la_ Vista de tienda predeterminada _. Para varias vistas de tienda, introduzca el título y la descripción adecuados para cada una.
+   - En la sección _[!UICONTROL Titles and Descriptions Per Store View]_, escriba **[!UICONTROL Rule Title]**y **[!UICONTROL Description]**para la_ Vista de tienda predeterminada _. Para varias vistas de tienda, introduzca el título y la descripción adecuados para cada una.
 
      >[!NOTE]
      >
