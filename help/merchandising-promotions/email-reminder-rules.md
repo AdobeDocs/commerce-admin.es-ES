@@ -20,7 +20,7 @@ Los recordatorios de correo electrónico se pueden activar después de que haya 
 
 >[!NOTE]
 >
->Si un cliente tiene más de un carro de compras abandonado, una lista de deseos o una combinación de ambos coincidentes, el recordatorio de correo electrónico se activa solo una vez para ese cliente. Para almacenar en déclencheur el mismo recordatorio de correo electrónico de nuevo, utilice el campo _[!UICONTROL Repeat Schedule]_para establecer el número de días entre correos electrónicos.
+>Si un cliente tiene más de un carro de compras abandonado, una lista de deseos o una combinación de ambos coincidentes, el recordatorio de correo electrónico se activa solo una vez para ese cliente. Para almacenar en déclencheur el mismo recordatorio de correo electrónico de nuevo, utilice el campo _[!UICONTROL Repeat Schedule]_&#x200B;para establecer el número de días entre correos electrónicos.
 
 ![Recordatorios de correo electrónico](./assets/email-reminders.png){width="700" zoomable="yes"}
 
