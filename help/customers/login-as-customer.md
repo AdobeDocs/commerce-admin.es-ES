@@ -3,9 +3,9 @@ title: Proporcionar asistencia al comprador
 description: Al utilizar la función Iniciar sesión como cliente, puede ver lo que ven los clientes y realizar actualizaciones en su nombre.
 exl-id: 6842ae7a-6440-45f1-af18-e6427088d29d
 feature: Customers, Customer Service
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 29f3a8bb019d464e6d7646e0ebc7a4fa2ed0dd74
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,13 @@ A veces, los clientes necesitan ayuda con su pedido. Los administradores de la t
 
 Cualquier acción realizada mientras se inició sesión como cliente se aplica a la cuenta del cliente real.
 
-Cuando está habilitado para un usuario de _Admin_, el botón _[!UICONTROL Login as Customer]_&#x200B;aparece en varias páginas:
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+
+Cuando está habilitado para un usuario de _Admin_, el botón _[!UICONTROL Login as Customer]_aparece en varias páginas:
 
 * [Página Editar cliente](../customers/update-account.md)
 * [Página Vista de pedidos](../stores-purchase/order-processing.md)
@@ -25,6 +31,20 @@ Cuando está habilitado para un usuario de _Admin_, el botón _[!UICONTROL Login
 * [Página de visualización de nota de abono](../stores-purchase/credit-memo-create.md)
 
 ![Iniciar Sesión Como Cliente](assets/login-as-customer.png){width="600" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."}
+
+En Adobe Commerce as a Cloud Service, la función Iniciar sesión como cliente usa un flujo de trabajo de **código único (OTC)** en lugar de un inicio de sesión directo. Los administradores generan un código de un solo uso de corta duración para un cliente. Este código se puede intercambiar por un token de acceso de cliente a través de GraphQL, lo que permite un inicio de sesión sin contraseña como flujos de trabajo de cliente para escenarios de compras asistidas por el vendedor.
+
+La función consta de los siguientes componentes:
+
+* **IU de administración**: en la página de edición de clientes, los administradores pueden solicitar un código único (OTC) en lugar de iniciar sesión directamente como clientes.
+* **[API de REST](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/login-as-customer/)**: un extremo programático para la generación de OTC, útil para scripts de administración e integraciones de terceros.
+* **API de GraphQL**: mutaciones que intercambian un OTC por un token de acceso de cliente para flujos de comercio sin encabezado o de tienda.
+
+>[!ENDTABS]
 
 ## Habilitar inicio de sesión como cliente
 
@@ -73,7 +93,47 @@ Para habilitar _Iniciar sesión como cliente_, es necesario que habilite la cara
 
 1. Haga clic en **[!UICONTROL Save Role]**.
 
+## Permiso de cuenta de cliente para asistencia de compra remota
+
+Para habilitar el acceso a la cuenta para el personal de asistencia técnica de la tienda desde el administrador, los clientes deben habilitar la siguiente función para su cuenta:
+
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+
+1. El cliente va a la página **[!UICONTROL Account Information]**.
+
+1. Selecciona la casilla de verificación **[!UICONTROL Allow remote shopping assistance]**.
+
+1. El cliente hace clic en **[!UICONTROL Save]**.
+
+![Página de información de la cuenta](assets/permission.png){width="700" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."}
+
+El cliente debe tener la extensión `login_as_customer_assistance_allowed` establecida en **2**. Esto se puede configurar en la página **Editar cliente** del Administrador o a través de GraphQL cuando se crea o edita un cliente.
+
+>[!WARNING]
+>
+>Sin este permiso, un usuario administrador no puede iniciar sesión como este cliente.
+
+![Configuración del atributo de extensión de consentimiento del cliente en la página Editar cliente](assets/customer-consent-attribute.png){width="600" zoomable="yes"}
+
+Para establecer este permiso con GraphQL para una cuenta de cliente existente, establezca la entrada de `allow_remote_shopping_assistance` en `true` con las mutaciones [`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/) o [`createCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/).
+
+>[!ENDTABS]
+
 ## Inicie sesión como cliente desde el administrador
+
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 1. En la barra lateral de _Administración_, vaya a **[!UICONTROL Customers]** > [!UICONTROL _Todos los clientes_].
 
@@ -87,21 +147,44 @@ Para habilitar _Iniciar sesión como cliente_, es necesario que habilite la cara
    >
    >El administrador ahora puede iniciar sesión como un usuario sin su permiso de la tienda.
 
-## Permiso de cuenta de cliente para asistencia de compra remota
+>[!TAB Adobe Commerce as a Cloud Service]
 
-Para habilitar el acceso a la cuenta para el personal de asistencia técnica de la tienda desde el administrador, los clientes deben habilitar la siguiente función para su cuenta:
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."}
 
-1. El cliente va a la página **[!UICONTROL Account Information]**.
-
-1. Selecciona la casilla de verificación **[!UICONTROL Allow remote shopping assistance]**.
-
-1. El cliente hace clic en **[!UICONTROL Save]**.
-
-![Página de información de la cuenta](assets/permission.png){width="700" zoomable="yes"}
-
->[!WARNING]
+>[!NOTE]
 >
->Sin este permiso, un usuario administrador no puede iniciar sesión como este cliente.
+>Para obtener instrucciones sobre cómo implementar esta característica mediante REST, consulte la documentación de la API de REST [Iniciar sesión como cliente](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/login-as-customer/).
+
+### Solicite un código único (OTC) al administrador
+
+1. Vaya a **[!UICONTROL Customers]** y seleccione un cliente para abrir la página de edición.
+
+1. En la página Editar cliente, haga clic en **[!UICONTROL Get Customer Login OTC]**.
+
+   ![Obtener el inicio de sesión del cliente en formato OTC en la página Editar cliente](assets/get-customer-login-otc-button.png){width="600" zoomable="yes"}
+
+1. Escriba un **[!UICONTROL Reason]** (obligatorio) y haga clic en **[!UICONTROL Request]**.
+
+   ![Modo de solicitud OTC con campo de razón](assets/otc-reason-modal.png){width="600" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   >El campo **Motivo** es obligatorio. Se pasa al flujo de generación OTP y está reservado para su uso en próximas funciones de auditoría y registro de eventos.
+
+1. El OTC generado se muestra en el modal. Use este código con la mutación de GraphQL `generateCustomerToken` o `exchangeOtpForCustomerToken` para la autorización de clientes.
+
+   ![OTC generado mostrado en el modal](assets/otc-generated-code.png){width="300" zoomable="yes"}
+
+>[!IMPORTANT]
+>
+>El código de tiempo único OTC generado es válido durante 30 segundos de forma predeterminada y se invalida después de un solo uso. El TTL se puede configurar enviando un [ticket de soporte](https://experienceleague.adobe.com/home?support-tab=home#support).
+
+Una vez generado el código de una sola vez, puede utilizarlo si navega hasta la tienda e inicia sesión con las siguientes credenciales:
+
+* **Correo electrónico**: La dirección de correo electrónico del cliente
+* **Contraseña**: El código único (OTC) generado
+
+>[!ENDTABS]
 
 ## Usar Iniciar sesión como cliente
 
