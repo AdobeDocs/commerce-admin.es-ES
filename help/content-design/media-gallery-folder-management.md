@@ -3,10 +3,10 @@ title: Administración de carpetas de Media Gallery
 description: Obtenga información sobre cómo utilizar carpetas para organizar los recursos multimedia.
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: c542ab1bf941c8bebcb665b7c29b6a2a80c15790
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,7 @@ Use carpetas para organizar imágenes en la nueva [Galería multimedia](media-ga
 
 ## Crear una carpeta
 
->[!NOTE]
->
->Solo puede crear una carpeta en las carpetas `pub/media/wysywig` y `pub/media/catalog/category`.
+Solo puede crear una carpeta en `pub/media/wysywig`, `pub/media/catalog/category` u otras carpetas agregadas por módulos.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 

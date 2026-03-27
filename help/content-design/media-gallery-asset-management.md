@@ -3,10 +3,10 @@ title: Administración de recursos de Media Gallery
 description: Obtenga información sobre cómo administrar los archivos multimedia cargados y los recursos que adquiere a través de una integración con Adobe Stock.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 7052319eb322cbf219aacebf4ba7642dbeb5ca96
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 0%
 # Administración de recursos de Media Gallery
 
 La nueva [Galería multimedia](media-gallery.md) proporciona herramientas para administrar los archivos multimedia cargados y los recursos que adquiera mediante una [integración de Adobe Stock](adobe-stock.md). Si ha guardado una [vista previa de imagen](adobe-stock-save-preview.md) de Adobe Stock, también puede [autorizar](adobe-stock-license-image.md) la imagen en la nueva Galería multimedia.
+
+Assets solamente se puede cargar en `pub/media/wysywig`, `pub/media/catalog/category` u otras carpetas agregadas por módulos.
 
 ## Cargar un recurso
 
@@ -23,7 +25,7 @@ La nueva [Galería multimedia](media-gallery.md) proporciona herramientas para a
 
 1. Seleccione el archivo que desea cargar.
 
-   El recurso seleccionado se carga automáticamente en la carpeta seleccionada (o en la raíz de almacenamiento si no hay ninguna carpeta seleccionada).
+   El recurso seleccionado se carga automáticamente en la carpeta seleccionada.
 
 ## Ver detalles del recurso
 
