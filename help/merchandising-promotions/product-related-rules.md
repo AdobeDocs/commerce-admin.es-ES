@@ -28,8 +28,8 @@ Para acceder a las reglas de producto relacionadas, vaya a **[!UICONTROL Marketi
 |--- |--- |
 | [!UICONTROL ID] | Identificador numérico único asignado a cada regla de producto relacionada |
 | [!UICONTROL Rule] | Nombre de la regla de producto relacionada |
-| [!UICONTROL Start] | Utilice los campos de calendario dinámico (_[!UICONTROL To:]_y_[!UICONTROL From:]_) para filtrar la lista en función de la fecha de inicio de la regla definida cuando se creó la regla. |
-| [!UICONTROL End] | Utilice los campos de calendario dinámico (_[!UICONTROL To:]_y_[!UICONTROL From:]_) para filtrar la lista en función de la fecha de finalización de la regla definida cuando se creó la regla. |
+| [!UICONTROL Start] | Utilice los campos de calendario dinámico (_[!UICONTROL To:]_&#x200B;y_[!UICONTROL From:]_) para filtrar la lista en función de la fecha de inicio de la regla definida cuando se creó la regla. |
+| [!UICONTROL End] | Utilice los campos de calendario dinámico (_[!UICONTROL To:]_&#x200B;y_[!UICONTROL From:]_) para filtrar la lista en función de la fecha de finalización de la regla definida cuando se creó la regla. |
 | [!UICONTROL Priority] | Introduzca texto en este campo para filtrar la lista en función de la prioridad definida para una regla. |
 | [!UICONTROL Applies To] | Esta opción filtra la lista de reglas aplicables a `Related Products`, `Up-sells` y `Cross-sells`. |
 | [!UICONTROL Status] | Utilice esta opción para filtrar la lista en función del estado de la regla (`Active` o `Inactive`). |
@@ -47,7 +47,7 @@ El número de identificadores de producto que se pueden incluir en una regla de 
 Por ejemplo, suponga que tiene tres reglas con una prioridad de `1`, `2` y `3`.
 
 - Se han devuelto dos productos coincidentes para _Regla 1_, seis productos coincidentes para _Regla 2_ y 20 productos coincidentes para _Regla 3_.
-- En la configuración, _[!UICONTROL Maximum Number of Products for Related Products List]_está establecido en `6`.
+- En la configuración, _[!UICONTROL Maximum Number of Products for Related Products List]_&#x200B;está establecido en `6`.
 
   | Reglas | Prioridad | Productos coincidentes |
   |---|---|-----|
