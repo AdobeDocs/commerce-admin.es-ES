@@ -3,9 +3,9 @@ title: Crear una regla de producto relacionada
 description: Obtenga información sobre cómo crear una regla de producto relacionada que se pueda activar para mostrar productos relacionados, mejorar ventas y realizar ventas cruzadas.
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: cea943cd7f4d148c885fbd113c3bc08bfdf63ea0
+source-git-commit: 68178cb3ed493c35e92549e1ee084b1c0402264c
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ El proceso de creación de una regla de producto relacionada es similar a la con
 
    - Si la regla se aplica a un [segmento de cliente](../customers/customer-segments.md) específico, establezca **[!UICONTROL Customer Segments]** en `Specified` y elija el segmento de cliente de la lista.
 
-   - Si la regla se aplica a una [audiencia de Real-Time CDP](../customers/audience-activation.md) específica, establezca **[!UICONTROL Real-Time CDP Audience]** en `Specified` y elija la audiencia de Real-Time CDP en la lista. Esta función está en versión beta. Si desea unirse al programa beta, envíe una solicitud a [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+   - Si la regla se aplica a una [audiencia de Real-Time CDP](../customers/audience-activation.md) específica, establezca **[!UICONTROL Real-Time CDP Audience]** en `Specified` y elija la audiencia de Real-Time CDP en la lista.
 
      ![Regla de productos relacionados - Audiencia de Real-Time CDP](./assets/rtcdp-related-products.png){width="500"}
 
@@ -84,7 +84,7 @@ El proceso de creación de una regla de producto relacionada es similar a la con
 
 Vea este vídeo para obtener más información sobre la creación de reglas de producto relacionadas:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411061?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/343837?quality=12&learn=on)
 
 ## Descripciones de campos
 
