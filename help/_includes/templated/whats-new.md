@@ -23,7 +23,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se agregaron los <code class="language-plaintext highlighter-rouge">numeric</code> y <code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types">tipos de entrada de atributo</a> y se agregó una página de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes">Atributos de archivo de producto</a> en la referencia de configuración.</p>
+      <td><p>Se agregaron los <code class="language-plaintext highlighter-rouge">numeric</code> y <code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/catalog/product-attributes/attributes-input-types">tipos de entrada de atributo</a> y se agregó una página de <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/config/catalog/product-file-attributes">Atributos de archivo de producto</a> en la referencia de configuración.</p>
 </td>
       <td>
         Actualización importante
@@ -45,7 +45,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se agregaron instrucciones de Adobe Commerce as a Cloud Service a <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">Proporcionar asistencia al comprador</a>.</p>
+      <td><p>Se agregaron instrucciones de Adobe Commerce as a Cloud Service a <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">Proporcionar asistencia al comprador</a>.</p>
 </td>
       <td>
         Actualización importante
@@ -67,7 +67,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules">Los recordatorios por correo electrónico</a> ya están disponibles en Adobe Commerce as a Cloud Service.</p>
+      <td><p><a href="https://experienceleague.adobe.com/es/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules">Los recordatorios por correo electrónico</a> ya están disponibles en Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
         Actualización importante
@@ -83,7 +83,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/891fd0f08a952cd38bc92b41a4d54197f58f8a4d">comprometer</a></td>
     </tr>
     <tr>
-      <td><p>Se han actualizado <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">notas de la versión</a> con B2B v1.5.3-beta1 (marzo de 2026): mejoras de calidad y correcciones de errores para presupuestos, listas de solicitudes, catálogos compartidos, cierres de compra, GraphQL y áreas relacionadas, además de correcciones de coherencia y copias menores.</p>
+      <td><p>Se han actualizado <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/b2b/release-notes">notas de la versión</a> con B2B v1.5.3-beta1 (marzo de 2026): mejoras de calidad y correcciones de errores para presupuestos, listas de solicitudes, catálogos compartidos, cierres de compra, GraphQL y áreas relacionadas, además de correcciones de coherencia y copias menores.</p>
 </td>
       <td>
         Actualización importante
@@ -105,7 +105,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se ha actualizado la insignia PaaS solamente en la página <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/reports-menu">Menú de informes</a>.</p>
+      <td><p>Se ha actualizado la insignia PaaS solamente en la página <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/start/reporting/reports-menu">Menú de informes</a>.</p>
 </td>
       <td>
         Comentarios
@@ -127,7 +127,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Actualizaciones a la documentación de administración para la versión de febrero de Adobe Commerce as a Cloud Service:<br />- Se agregó documentación para <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts">importes de captura personalizados</a> al crear facturas en la API de REST, que permite a los comerciantes capturar importes personalizados al crear facturas para capturas parciales y escenarios de pago especializados.<br />- Indica qué informes del <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/reports-menu">menú Informes</a> son ahora solo PaaS.</p>
+      <td><p>Actualizaciones a la documentación de administración para la versión de febrero de Adobe Commerce as a Cloud Service:<br />- Se agregó documentación para <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts">importes de captura personalizados</a> al crear facturas en la API de REST, que permite a los comerciantes capturar importes personalizados al crear facturas para capturas parciales y escenarios de pago especializados.<br />- Indica qué informes del <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/start/reporting/reports-menu">menú Informes</a> son ahora solo PaaS.</p>
 </td>
       <td>
         Actualización importante
