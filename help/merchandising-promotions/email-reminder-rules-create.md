@@ -93,7 +93,7 @@ Antes de configurar una regla de recordatorio por correo electrónico, primero d
 
      ![Títulos y descripciones: vista de tienda](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
-1. [!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."} Si usa [!DNL Adobe Commerce as a Cloud Service], puede habilitar la [repetibilidad de la regla](#rule-repeatability) al seleccionar la casilla de verificación [!UICONTROL Rule Repeatability].
+1. [!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."} Si usa [!DNL Adobe Commerce as a Cloud Service], puede habilitar la [repetibilidad de la regla](#rule-repeatability) al seleccionar la casilla de verificación [!UICONTROL Rule Repeatability].
 
    >[!IMPORTANT]
    >
@@ -103,7 +103,7 @@ Antes de configurar una regla de recordatorio por correo electrónico, primero d
 
 ## Repetibilidad de reglas
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."}
 
 >[!IMPORTANT]
 >
