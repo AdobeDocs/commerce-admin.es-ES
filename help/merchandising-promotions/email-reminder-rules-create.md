@@ -3,9 +3,9 @@ title: Crear recordatorios de correo electrónico
 description: Obtenga información sobre cómo configurar una regla de recordatorio de correo electrónico que utilice una regla de precio del carro de compras existente.
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-source-git-commit: 43654def3e227127dcf0732962b4f1142a6a3856
+source-git-commit: d605748f04f26952daa467a84431a17bf368dbad
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Antes de configurar una regla de recordatorio por correo electrónico, primero d
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add New Rule]**.
 
-1. Complete _[!UICONTROL Rule Information]_&#x200B;de la siguiente manera:
+1. Complete _[!UICONTROL Rule Information]_de la siguiente manera:
 
    ![Regla de recordatorio de correo electrónico](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
@@ -55,9 +55,11 @@ Antes de configurar una regla de recordatorio por correo electrónico, primero d
 
    >[!NOTE]
    >
-   >Si un cliente tiene más de un carro de compras abandonado, una lista de deseos o una combinación de ambos coincidentes, el recordatorio de correo electrónico se activa solo una vez para ese cliente. Para almacenar en déclencheur el mismo recordatorio de correo electrónico de nuevo, utilice el campo _[!UICONTROL Repeat Schedule]_&#x200B;para establecer el número de días entre correos electrónicos. <br/>
+   >Si un cliente tiene más de un carro de compras abandonado, una lista de deseos o una combinación de ambos coincidentes, el recordatorio de correo electrónico se activa solo una vez para ese cliente. Para almacenar en déclencheur el mismo recordatorio de correo electrónico de nuevo, utilice el campo _[!UICONTROL Repeat Schedule]_para establecer el número de días entre correos electrónicos. <br/>
    >
    >El mismo recordatorio por correo electrónico es **_no se ha vuelto a activar_** para el mismo cliente para **_nuevos_** carros abandonados y listas de deseos **_después de_** que haya pasado el período de _[!UICONTROL Repeat Schedule]_.
+   >
+   >Adobe Commerce as a Cloud Service tiene una característica experimental que permite aplicar una sola regla varias veces. Para obtener más información, consulte [Repetibilidad de reglas](#rule-repeatability).
 
    Complete la condición para describir el escenario que almacena en déclencheur el recordatorio de correo electrónico.
 
@@ -65,7 +67,7 @@ Antes de configurar una regla de recordatorio por correo electrónico, primero d
 
 1. En el panel de la izquierda, elija **[!UICONTROL Emails and Labels]**.
 
-   ![Regla de recordatorio de correo electrónico: plantillas de correos electrónicos y etiquetas &#x200B;](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
+   ![Regla de recordatorio de correo electrónico: plantillas de correos electrónicos y etiquetas ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
 1. En la sección **[!UICONTROL Email Templates]**, elija la plantilla de correo electrónico que se usará para cada sitio web y vista de tienda en su [jerarquía de tienda](../getting-started/websites-stores-views.md).
 
@@ -83,7 +85,7 @@ Antes de configurar una regla de recordatorio por correo electrónico, primero d
 
      ![Recordatorios de correo electrónico: títulos y descripciones](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - En la sección _[!UICONTROL Titles and Descriptions Per Store View]_, escriba **[!UICONTROL Rule Title]**&#x200B;y **[!UICONTROL Description]**&#x200B;para la_ Vista de tienda predeterminada _. Para varias vistas de tienda, introduzca el título y la descripción adecuados para cada una.
+   - En la sección _[!UICONTROL Titles and Descriptions Per Store View]_, escriba **[!UICONTROL Rule Title]**y **[!UICONTROL Description]**para la_ Vista de tienda predeterminada _. Para varias vistas de tienda, introduzca el título y la descripción adecuados para cada una.
 
      >[!NOTE]
      >
@@ -91,7 +93,38 @@ Antes de configurar una regla de recordatorio por correo electrónico, primero d
 
      ![Títulos y descripciones: vista de tienda](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
+1. [!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."} Si usa [!DNL Adobe Commerce as a Cloud Service], puede habilitar la [repetibilidad de la regla](#rule-repeatability) al seleccionar la casilla de verificación [!UICONTROL Rule Repeatability].
+
+   >[!IMPORTANT]
+   >
+   >La opción de repetibilidad de la regla es una función experimental que está desactivada de forma predeterminada.  Para obtener más información sobre cómo habilitar la opción, consulte [Repetibilidad de reglas](#rule-repeatabilty).
+
 1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
+
+## Repetibilidad de reglas
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."}
+
+>[!IMPORTANT]
+>
+>Se trata de una función experimental y no está activada de forma predeterminada. Para habilitarlo, póngase en contacto con el administrador de satisfacción del cliente de Adobe Commerce o cree un ticket de asistencia. En una versión futura estará disponible para todos los clientes de Adobe Commerce as a Cloud Service.
+
+La repetibilidad de las reglas permite reutilizar una sola regla para varios recordatorios de correo electrónico. Esto resulta útil cuando desea que la regla se aplique al mismo cliente más adelante. Sin la repetibilidad de las reglas, la regla ya no se aplica después de que un cliente borre el carro de compras o complete una compra.
+
+Al seleccionar la casilla de verificación **[!UICONTROL Rule Repeatability]** en la ficha **[!UICONTROL General Information]**, la regla se puede aplicar de nuevo a los usuarios una vez que el déclencheur de regla original ya no se aplique.
+
+![Repetibilidad de reglas](./assets/rule-repeatability.png){width="600" zoomable="yes"}
+
+>[!BEGINSHADEBOX]
+
+Consideremos el siguiente ejemplo:
+
+Tiene una regla de carro de compras abandonada que se activa después de 1 día y se recupera 3 y 5 días después. Un usuario abandona un carro de compras y 1 día después recibe un recordatorio de correo electrónico del carro de compras abandonado. Después de 2 días, el usuario decide completar su compra. El carro de compras ya no está abandonado. 10 días después, el usuario abandona un nuevo carro con diferentes elementos.
+
+- Si **[!UICONTROL Rule Repeatability]** está habilitado, el usuario recibirá un nuevo recordatorio de correo electrónico del carro de compras abandonado.
+- Si **[!UICONTROL Rule Repeatability]** está deshabilitado, el usuario **no** recibe ningún recordatorio adicional de correo electrónico del carro de compras abandonado.
+
+>[!ENDSHADEBOX]
 
 ## condiciones de déclencheur
 
