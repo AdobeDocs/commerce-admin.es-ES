@@ -3,9 +3,9 @@ title: Resumen de atributos del producto
 description: Obtenga información acerca de los atributos de producto y cómo se utilizan para describir características específicas de un producto.
 exl-id: e15770ee-fb71-43f0-8c26-e8029935799a
 feature: Catalog Management, Products
-source-git-commit: e0468763b2314e69e8ee4922da9bb9cf65578904
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Considere cómo se deben utilizar los atributos al asignar propiedades y valores
 
 ## Color
 
-Las descripciones de color específicas pueden plantear un desafío desde el punto de vista de las operaciones de la base de datos. Los nombres de color como &quot;Cielos de Azure&quot; o &quot;Robin Egg Blue&quot; son muy atractivos, pero es posible que no devuelvan los mejores resultados cuando se usen como criterios de búsqueda o si la comercialización requiere que especifique `Color_Family:Blue`. Considere cómo se representan los colores en los resultados de búsqueda y en la navegación por capas, y establezca algunas directrices para sus necesidades comerciales. A continuación, sea coherente al asignar valores de atributos de color en todo el catálogo.
+Las descripciones de color específicas pueden plantear un desafío desde el punto de vista de las operaciones de la base de datos. Los nombres de color como &quot;Cielos Azure&quot; o &quot;Robin Egg Blue&quot; son muy atractivos, pero es posible que no devuelvan los mejores resultados cuando se usen como criterios de búsqueda o si la comercialización requiere que especifique `Color_Family:Blue`. Considere cómo se representan los colores en los resultados de búsqueda y en la navegación por capas, y establezca algunas directrices para sus necesidades comerciales. A continuación, sea coherente al asignar valores de atributos de color en todo el catálogo.
 
 ## Administración de variaciones
 
@@ -45,6 +45,6 @@ A los atributos de producto habilitados para [búsqueda en el catálogo](search.
 Elimine las propiedades del producto no utilizadas para una mejor estructuración y una indexación más rápida.
 
 
->[NOTA!]
+>[!NOTE]
 >
->Para obtener información sobre cómo optimizar la configuración de atributos de producto para obtener rendimiento, consulte [Prácticas recomendadas de administración de catálogos](https://experienceleague.adobe.com/es/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) en el _Manual de implementación_.
+>Para obtener información sobre cómo optimizar la configuración de atributos de producto para obtener rendimiento, consulte [Prácticas recomendadas de administración de catálogos](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) en el _Manual de implementación_.

@@ -1,9 +1,9 @@
 ---
-title: "Configurar  [!DNL Inventory Management] pedidos no satisfechos"
+title: Configurar  [!DNL Inventory Management] pedidos pendientes
 description: Aprenda a configurar los pedidos pendientes para admitir la venta de productos sin existencias.
 exl-id: 2fe778df-781e-4cda-8b85-47cf973c9e94
 feature: Inventory, Orders
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 0%
@@ -47,11 +47,13 @@ Cuando los clientes compran los 25 productos disponibles, los nuevos pedidos se 
 
 >[!NOTE]
 >
->Cuando un cliente hace un pedido con _[!UICONTROL backorder qty]_, [!DNL Inventory Management] resta automáticamente la cantidad de la cantidad vendible. Si un pedido no se envía y se cancela, la cantidad vuelve a la cantidad virtual vendible agregada. La cantidad de pedido **_cancelado no se ha asignado a ninguno de los orígenes_**, pero se devuelve al número total de productos disponibles para la venta (columna&#x200B;_[!UICONTROL Salable Quantity]_ en la cuadrícula de productos).
+>Cuando un cliente hace un pedido con _[!UICONTROL backorder qty]_, [!DNL Inventory Management] resta automáticamente la cantidad de la cantidad vendible. Si un pedido no se envía y se cancela, la cantidad vuelve a la cantidad virtual vendible agregada. La cantidad de pedido **_cancelado no se ha asignado a ninguno de los orígenes_**, pero se devuelve al número total de productos disponibles para la venta (columna_[!UICONTROL Salable Quantity]_ en la cuadrícula de productos).
 
-<!--### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
+<!--
+### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
 
-The _Notify for Quantity Below_ configuration option is configurable at the global, source, and product levels. When it is enabled, the system sends an email notification when the product quantity reaches a level at or below the configured value. For this example, a notification is triggered when the product has a quantity of 10 or less. When backorders are enabled, _Notify for Quantity Below_ is determined by the Salable Quantity (`Salable Quantity = Quantity - (Out-of-Stock Threshold)`). -->
+The _Notify for Quantity Below_ configuration option is configurable at the global, source, and product levels. When it is enabled, the system sends an email notification when the product quantity reaches a level at or below the configured value. For this example, a notification is triggered when the product has a quantity of 10 or less. When backorders are enabled, _Notify for Quantity Below_ is determined by the Salable Quantity (`Salable Quantity = Quantity - (Out-of-Stock Threshold)`). 
+-->
 
 ### Estado de stock
 

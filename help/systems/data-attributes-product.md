@@ -3,7 +3,7 @@ title: Referencia de atributos de datos del producto
 description: Utilice esta referencia de atributos de datos de productos cuando trabaje con importaciones y exportaciones de datos de productos.
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 3d02b1f6b3051aab133a57497bd0c30ac60bffde
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '2496'
 ht-degree: 0%
@@ -24,7 +24,7 @@ La instalación utilizada para exportar estos datos tiene instalados los datos d
 | `store_view_code` | Identifica las vistas de tienda específicas donde el producto está disponible. Si está en blanco, el producto está disponible en la vista de tienda predeterminada. Por ejemplo: `storeview1`, `english`, `spanish` |
 | `attribute_set_code` | Asigna el producto a un conjunto de atributos o plantilla de producto específicos, según el tipo de producto. Por ejemplo: `default`<br><br>Una vez creado el producto, el conjunto de atributos no se puede cambiar mediante la funcionalidad de importación. Sin embargo, puede cambiar el conjunto de atributos desde Admin y volver a exportar el producto para actualizar el archivo CSV |
 | `product_type` | Indica el tipo de producto. Valores:<br/>`simple` — Artículos tangibles que normalmente se venden como unidades individuales o en cantidades fijas.<br/>`grouped`: grupo de productos independientes que se vende como un conjunto.<br/>`configurable`: un producto con varias opciones que el cliente debe seleccionar antes de realizar una compra. El inventario se puede administrar para cada conjunto de variaciones porque representan un producto independiente con un SKU distinto. Por ejemplo, una combinación de color y tamaño para un producto configurable está asociada a un SKU específico del catálogo.<br/>`virtual`: un producto no tangible que no requiere envío y no se guarda en el inventario. Algunos ejemplos son servicios, suscripciones y suscripciones.<br/>`bundle`: un conjunto de productos personalizable de productos simples que se venden juntos. |
-| `categories` | Indica cada categoría asignada al producto. Separe las categorías y subcategorías con una barra diagonal. Para indicar varias rutas de categorías, separe cada una con una barra vertical \| símbolo. Por ejemplo: `Default Category/Gear\|Default Category/Gear/Bags` |
+| `categories` | Indica cada categoría asignada al producto. Separe las categorías y subcategorías con una barra diagonal. Para indicar varias rutas de categorías, separe cada una con un símbolo de barra vertical \|. Por ejemplo: `Default Category/Gear\|Default Category/Gear/Bags` |
 | `product_websites` | El código del sitio web de cada sitio web donde está disponible el producto. Un solo producto se puede asignar a varios sitios web o limitarse a uno. Si especifica varios sitios web, sepárelos con una coma y sin espacios. Por ejemplo: `base` o `base,website2` |
 | `name` | El nombre del producto aparece en todas las listas de productos y es el nombre que utilizan los clientes para identificar el producto. |
 | `description` | La descripción del producto proporciona información detallada sobre el producto y puede incluir etiquetas HTML simples. |
@@ -95,7 +95,7 @@ La instalación utilizada para exportar estos datos tiene instalados los datos d
 | `upsell_position` | Determina la posición (criterio de ordenación) de las SKU que se muestran como productos de ampliación de venta en la columna `upsell_skus`. |
 | `additional_images` | Nombres de archivo de cualquier imagen adicional que se va a asociar al producto, precedidos de una barra diagonal. Por ejemplo: `/image.jpg` |
 | `additional_image_labels` | Las etiquetas asociadas con cualquier imagen adicional. Por ejemplo: `Label 1`, `Label 2` |
-| `custom_options` | Especifica las propiedades y los valores asignados a cada opción personalizada. Por ejemplo: <br/>`name=Color, type=drop_down, required=1, price= price_type=fixed, sku=, option_title=Black|name=Color, type=drop_down, required=1, price=, price_type=fixed, sku=, option_title=White` |
+| `custom_options` | Especifica las propiedades y los valores asignados a cada opción personalizada. Por ejemplo: <br/>`name=Color, type=drop_down, required=1, price= price_type=fixed, sku=, option_title=Black\|name=Color, type=drop_down, required=1, price=, price_type=fixed, sku=, option_title=White` |
 
 {style="table-layout:auto"}
 
@@ -130,7 +130,7 @@ Si exporta un producto configurable, encontrará los atributos estándar que con
 | Atributo | Descripción |
 |--- |--- |
 | `configurable_variation_labels` | Etiquetas que identifican variaciones de productos. Por ejemplo: `Choose Color:` o `Choose Size:` |
-| `configurable_variations` | Describe los valores asociados con una variación de producto. Por ejemplo: `sku=sku-red xs,color=red,size=xs,price=10.99,display=1,image=/pub/media/import/image1.png|sku=sku-red-m,color=red,size=m,price=20.88,display=1,image=/pub/media/import/image2.png` |
+| `configurable_variations` | Describe los valores asociados con una variación de producto. Por ejemplo: `sku=sku-red xs,color=red,size=xs,price=10.99,display=1,image=/pub/media/import/image1.png\|sku=sku-red-m,color=red,size=m,price=20.88,display=1,image=/pub/media/import/image2.png` |
 
 {style="table-layout:auto"}
 

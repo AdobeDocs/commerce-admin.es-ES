@@ -3,7 +3,7 @@ title: Algoritmos y reservas de Source
 description: Obtenga información sobre los sistemas de Algoritmo de selección y Reservas de Source que se ejecutan en segundo plano para mantener actualizadas las cantidades vendibles.
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '2196'
 ht-degree: 0%
@@ -82,7 +82,7 @@ En lugar de deducir o añadir inmediatamente las cantidades de inventario de pro
 
 >[!NOTE]
 >
->[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} La capacidad de reserva requiere que el consumidor de cola de mensajes `inventory.reservations.updateSalabilityStatus` se ejecute continuamente. Para comprobar si se está ejecutando, utilice el comando `bin/magento queue:consumers:list`. Si el consumidor de cola de mensajes no aparece en la lista, inícielo: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
+>[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} La capacidad de reserva requiere que el consumidor de cola de mensajes `inventory.reservations.updateSalabilityStatus` se ejecute continuamente. Para comprobar si se está ejecutando, utilice el comando `bin/magento queue:consumers:list`. Si el consumidor de cola de mensajes no aparece en la lista, inícielo: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
 
 ### Reservas de pedidos
 
@@ -132,7 +132,7 @@ Una reserva contiene la siguiente información:
 | `stock_id` | Entero | El ID de stock al que está asignado el producto |
 | `sku` | Cadena | El SKU del producto |
 | `quantity` | Flotante | El número de elementos de esta reserva |
-| `metadata` | Cadena | El tipo de evento, el tipo de objeto y el ID de objeto de esta reserva. Por ejemplo, `{"event_type":"order_placed","object_type":"order",| "object_id":"8"}` |
+| `metadata` | Cadena | El tipo de evento, el tipo de objeto y el ID de objeto de esta reserva. Por ejemplo, `{"event_type":"order_placed","object_type":"order",\| "object_id":"8"}` |
 
 {style="table-layout:auto"}
 
@@ -188,7 +188,7 @@ Los tres valores de `quantity` suman 0 (-25 + 5 + 20). El sistema no modifica ni
 
 El trabajo cron `inventory_cleanup_reservations` ejecuta consultas SQL para borrar la tabla de la base de datos de reservas. De forma predeterminada, se ejecuta a diario a medianoche, pero puede configurar las horas y la frecuencia. El trabajo cron ejecuta un script que consulta la base de datos para encontrar secuencias de reserva completas en las que la suma de los valores de cantidad es 0. Cuando se hayan compensado todas las reservas de un producto determinado originado el mismo día (u otra hora configurada), el trabajo cron elimina todas las reservas a la vez.
 
-El trabajo cron `inventory_reservations_cleanup` no es el mismo que el consumidor de cola de mensajes `inventory.reservations.cleanup`. El consumidor elimina las reservas de forma asíncrona por SKU de producto después de eliminar un producto, mientras que el trabajo cron borra toda la tabla de reservas. El consumidor es necesario cuando se habilita la opción de existencias [**Sincronizar con el catálogo**](../configuration-reference/catalog/inventory.md) en la configuración de la tienda. Consulte [Administrar colas de mensajes](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=es) en la _Guía de configuración_.
+El trabajo cron `inventory_reservations_cleanup` no es el mismo que el consumidor de cola de mensajes `inventory.reservations.cleanup`. El consumidor elimina las reservas de forma asíncrona por SKU de producto después de eliminar un producto, mientras que el trabajo cron borra toda la tabla de reservas. El consumidor es necesario cuando se habilita la opción de existencias [**Sincronizar con el catálogo**](../configuration-reference/catalog/inventory.md) en la configuración de la tienda. Consulte [Administrar colas de mensajes](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) en la _Guía de configuración_.
 
 A menudo, todas las reservas iniciales producidas en un solo día no pueden compensarse ese mismo día. Esta situación puede ocurrir cuando un cliente realiza un pedido justo antes de que comience el trabajo cron o realiza la compra con un método de pago sin conexión, como una transferencia bancaria. Las secuencias de reservas compensadas permanecen en la base de datos hasta que todas se compensan. Esta práctica no interfiere con los cálculos de reserva, ya que el total de cada reserva es 0.
 

@@ -2,8 +2,8 @@
 title: Herramientas de asistencia
 description: Obtenga información acerca de las herramientas de soporte proporcionadas que puede utilizar para identificar problemas en el sistema.
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: addde8c3e41b641712f5b08107c1d68b40cd4159
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: ea62a4a901ed3e8e91332f742ebb53fe58be706d
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 0%
@@ -44,7 +44,7 @@ En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Suppo
 
 Puede encontrar información útil sobre los módulos instalados.
 
-**_Para ver la información del informe de cada módulo instalado:_**
+**_Para ver la información de informe de cada módulo instalado:_**
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**.
 1. Haga clic en **[!UICONTROL New Report]**.

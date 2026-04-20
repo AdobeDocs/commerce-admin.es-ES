@@ -3,7 +3,7 @@ title: Experiencias de tienda mejoradas
 description: Conozca las numerosas herramientas diseñadas para ayudarle a maximizar la participación, retención y lealtad de los clientes.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 0%
@@ -14,11 +14,13 @@ ht-degree: 0%
 
 Además de los elementos estándar que permiten a los clientes realizar compras en su tienda, hay muchas herramientas diseñadas para ayudarle a maximizar la participación, retención y lealtad de los clientes.
 
-<!-- This is not currently working >[!TIP]
+<!-- 
+This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=es)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
->Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
+>Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. 
+-->
 
 ## Captar nuevos clientes
 
@@ -84,7 +86,7 @@ Adobe Commerce y Magento Open Source ofrecen una serie de herramientas para ayud
 
 ## Optimizar los procesos empresariales y la rentabilidad
 
-- **[!DNL Advanced Reporting]**: obtenga información valiosa de un vistazo con los informes dinámicos de productos, pedidos y clientes, con tecnología de [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=es).
+- **[!DNL Advanced Reporting]**: obtenga información valiosa de un vistazo con los informes dinámicos de productos, pedidos y clientes, con tecnología de [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html).
 
 - **Instantáneas del panel**: Saber qué es lo que le interesa en el sitio es crucial para maximizar el presupuesto de marketing. Use esta [información en su tablero](admin-dashboard.md) para determinar qué debería realizar ventas cruzadas y ampliadas a clientes fieles o qué productos poner a la venta.
 
