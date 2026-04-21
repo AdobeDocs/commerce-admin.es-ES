@@ -2,7 +2,7 @@
 title: Cambios incompatibles con versiones anteriores de Adobe Commerce B2B
 description: Obtenga información sobre los cambios en las versiones de Adobe Commerce B2B que pueden requerir la actualización del código personalizado.
 exl-id: 79b66843-3f34-4fe9-9670-53d19b749eb4
-source-git-commit: 89fd73a6cba31e0a4e5793522bf4745b87e5654d
+source-git-commit: 35a29fdc09e45e8e4661ba413e9b274d1703d46e
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 0%
@@ -13,22 +13,22 @@ ht-degree: 0%
 
 Revise la información de referencia de alto nivel para todos los cambios incompatibles con versiones anteriores en B2B para versiones de Adobe Commerce. Consulte la sección de elementos destacados para ver los cambios incompatibles que tienen un impacto importante y que requieren una explicación detallada e instrucciones especiales.
 
-{{$include /help/_includes/backward-incompatible-changes/1.5.2-1.5.3-beta1.md}}
+{{$include /help/_includes/backward-incompatible-changes/1-5-2-to-1-5-3-beta1.md}}
 
-{{$include /help/_includes/backward-incompatible-changes/1.5.1-1.5.2.md}}
+{{$include /help/_includes/backward-incompatible-changes/1-5-1-to-1-5-2.md}}
 
-{{$include /help/_includes/backward-incompatible-changes/1.5.0-1.5.1.md}}
+{{$include /help/_includes/backward-incompatible-changes/1-5-0-to-1-5-1.md}}
 
-{{$include /help/_includes/backward-incompatible-changes/1.4.2-1.5.0.md}}
+{{$include /help/_includes/backward-incompatible-changes/1-4-2-to-1-5-0.md}}
 
-{{$include /help/_includes/backward-incompatible-changes/1.4.1-1.4.2.md}}
+{{$include /help/_includes/backward-incompatible-changes/1-4-1-to-1-4-2.md}}
 
-{{$include /help/_includes/backward-incompatible-changes/1.4.0-1.4.1.md}}
+{{$include /help/_includes/backward-incompatible-changes/1-4-0-to-1-4-1.md}}
 
-{{$include /help/_includes/backward-incompatible-changes/1.3.5-1.4.0.md}}
+{{$include /help/_includes/backward-incompatible-changes/1-3-5-to-1-4-0.md}}
 
-{{$include /help/_includes/backward-incompatible-changes/1.3.4-1.3.5.md}}
+{{$include /help/_includes/backward-incompatible-changes/1-3-4-to-1-3-5.md}}
 
-{{$include /help/_includes/backward-incompatible-changes/1.3.3-1.3.4.md}}
+{{$include /help/_includes/backward-incompatible-changes/1-3-3-to-1-3-4.md}}
 
 <!-- Last updated from includes: 2025-04-29 22:23:23 -->
