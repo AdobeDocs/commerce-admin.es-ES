@@ -54,7 +54,7 @@ Este tipo de transferencia requiere tener un Adobe ID vinculado a la cuenta de C
 
 1. Click **[!UICONTROL Continue]**.
 
-   This step creates an Adobe ID and links it to the current Commerce account (MAGEID). With this account link, the _[!UICONTROL Email]_field is blocked from any changes. The configuration of the associated email address is managed from the Adobe ID account.
+   This step creates an Adobe ID and links it to the current Commerce account (MAGEID). With this account link, the _[!UICONTROL Email]_&#x200B;field is blocked from any changes. The configuration of the associated email address is managed from the Adobe ID account.
 
 1. Navigate to [account.adobe.com](https://account.adobe.com/).
 
