@@ -32,7 +32,7 @@ La sección Historial de Facturación muestra solamente las facturas antiguas qu
 1. Antes de empezar, obtenga la siguiente información de la cuenta [!DNL Commerce] del **nuevo beneficiario de acceso compartido**:
 
    - El usuario ya debe haberse registrado para obtener una cuenta en account.adobe.com y haber iniciado sesión a través de account.magento.com. Consulte [Crear una cuenta de Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) para obtener más información.
-   - The `MAGE ID/Account ID (MAG00XXXXXXX)` is displayed in the upper-left corner of the _[!UICONTROL Magento]_tab, just above the **Log Out**link.
+   - The `MAGE ID/Account ID (MAG00XXXXXXX)` is displayed in the upper-left corner of the _[!UICONTROL Magento]_&#x200B;tab, just above the **Log Out**&#x200B;link.
    - The `Email` address that is associated with the account.
 
 1. Log in to your [[!DNL Commerce] account](commerce-account-create.md).
@@ -63,7 +63,7 @@ La sección Historial de Facturación muestra solamente las facturas antiguas qu
 
 1. Click **[!UICONTROL Create Shared Access]**.
 
-   The new user information appears in the _[!UICONTROL Manage Permissions]_section of the Shared Access page, and an email invitation with instructions to access the shared account is sent to the new user.
+   The new user information appears in the _[!UICONTROL Manage Permissions]_&#x200B;section of the Shared Access page, and an email invitation with instructions to access the shared account is sent to the new user.
 
    ![Manage permissions for shared access](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
 
@@ -77,7 +77,7 @@ Las siguientes instrucciones se escriben desde la perspectiva de un usuario comp
 
 1. Cuando reciba una invitación a una cuenta compartida, siga las instrucciones del mensaje de correo electrónico para iniciar sesión en su propia cuenta de [!DNL Commerce].
 
-   El panel de navegación izquierdo de su cuenta tiene una nueva ficha _[!UICONTROL Shared with me]_. El control_[!UICONTROL Switch Accounts]_ de la esquina superior derecha tiene opciones para `My Account` y el nombre de la cuenta compartida.
+   El panel de navegación izquierdo de su cuenta tiene una nueva ficha _[!UICONTROL Shared with me]_. El control&#x200B;_[!UICONTROL Switch Accounts]_ de la esquina superior derecha tiene opciones para `My Account` y el nombre de la cuenta compartida.
 
    ![Compartido conmigo](./assets/shared-with-me.png){width="600" zoomable="yes"}
 
@@ -110,7 +110,7 @@ Las siguientes instrucciones se escriben desde la perspectiva de un usuario comp
 
 1. In the left navigation panel, click **[!UICONTROL Shared Access]**.
 
-1. Find the account to be revoked under _[!UICONTROL Managing Users & Permissions]_and click **[!UICONTROL Delete]**.
+1. Find the account to be revoked under _[!UICONTROL Managing Users & Permissions]_&#x200B;and click **[!UICONTROL Delete]**.
 
    >[!NOTE]
    >
