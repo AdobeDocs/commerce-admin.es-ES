@@ -3,9 +3,9 @@ title: Configuración del transportista de envío
 description: Obtenga información acerca de la compatibilidad con las cuentas de envío comerciales disponibles en su tienda.
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+source-git-commit: b0f3256e6e41ce3e605a9564ce0e412efcba9c98
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,11 @@ Las opciones de configuración varían para cada operador. Sin embargo, todos re
 
 Las versiones 2.4.6, 2.4.7 y 2.4.8 de Adobe Commerce usan las API de herramientas web heredadas para la integración de envío lista para usar con USPS. USPS ha introducido las API de USPS, una plataforma basada en REST para reemplazar las API de herramientas web heredadas.
 
-El 25 de enero de 2026, USPS retirará las API de herramientas web heredadas. Después de esta fecha, todas las solicitudes a las API de herramientas web producirán un error.
+El 25 de enero de 2026, USPS retiró las API de herramientas web heredadas. Después de esta fecha, todas las solicitudes a las API de herramientas web producirán un error.
 
-Para evitar interrupciones en los servicios de envío de USPS, tome las siguientes medidas antes del 25 de enero de 2026:
+Para evitar interrupciones en los servicios de envío de USPS, actualice a la versión más reciente de Adobe Commerce o realice las siguientes acciones:
 
-- Aplique el [parche de calidad de migración de la API REST de USPS](https://experienceleague.adobe.com/es/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) para agregar compatibilidad con la integración con las API REST de USPS.
+- Aplique el [parche de calidad de migración de la API REST de USPS](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) para agregar compatibilidad con la integración con las API REST de USPS.
 
 - Actualice la configuración de Commerce USPS para utilizar las API de REST:
 

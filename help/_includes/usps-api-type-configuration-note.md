@@ -1,9 +1,9 @@
 ---
 title: Nota de selección de tipo de API USPS
 description: Nota reutilizada sobre copias de seguridad
-source-git-commit: 69c175062770f03e9673ab79849fcd91865e7c93
+source-git-commit: e1b9a9479eb691fe674ecaa4cf2fa34802bef0f6
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Estas instrucciones incluyen pasos para seleccionar el tipo de API de USPS para la integración: API de herramientas web o API de REST. Las opciones de configuración del tipo de API solo están disponibles si ha aplicado el [parche de calidad de migración de la API REST de USPS](https://experienceleague.adobe.com/es/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)&#x200B;(AC-1520) a su aplicación de Commerce. Si no ha aplicado el parche, el selector de tipo de API no está disponible y la API de herramientas web de USPS se utiliza de forma predeterminada.<br>Las API de USPS son el método preferido para la integración con USPS. La API de herramientas web de USPS está en desuso y puede eliminarse en futuras versiones.
+>Estas instrucciones incluyen pasos para seleccionar el tipo de API de USPS para la integración: API de herramientas web o API de REST. USPS ya no admite la API de herramientas web, por lo que debe configurar sus API de REST. Si no se muestra la opción API de REST, debe aplicar el [parche de calidad de migración de la API de REST de USPS](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)&#x200B;(AC-1520) a su aplicación de Commerce.
