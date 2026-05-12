@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Estas instrucciones incluyen pasos para seleccionar el tipo de API de USPS para la integración: API de herramientas web o API de REST. USPS ya no admite la API de herramientas web, por lo que debe configurar sus API de REST. Si no se muestra la opción API de REST, debe aplicar el [parche de calidad de migración de la API de REST de USPS](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)&#x200B;(AC-1520) a su aplicación de Commerce.
+>Estas instrucciones incluyen pasos para seleccionar el tipo de API de USPS para la integración: API de herramientas web o API de REST. USPS ya no admite la API de herramientas web, por lo que debe configurar sus API de REST. Si no se muestra la opción API de REST, debe aplicar el [parche de calidad de migración de la API de REST de USPS](https://experienceleague.adobe.com/es/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)&#x200B;(AC-1520) a su aplicación de Commerce.
