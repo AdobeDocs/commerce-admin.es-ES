@@ -44,7 +44,7 @@ Para cargar una imagen, realice una de las siguientes acciones:
 
 ### Reorganizar imágenes
 
-Para cambiar el orden de las imágenes en la galería, haga clic en el icono _[!UICONTROL Sort]_( ![Icono Ordenar](./assets/inventory-icon-sort.png) ) en la parte inferior del mosaico de la imagen y arrastre la imagen a una posición diferente en el cuadro_[!UICONTROL Images And Videos]_.
+Para cambiar el orden de las imágenes en la galería, haga clic en el icono _[!UICONTROL Sort]_( ![Icono Ordenar](./assets/inventory-icon-sort.png) ) en la parte inferior del mosaico de la imagen y arrastre la imagen a una posición diferente en el cuadro&#x200B;_[!UICONTROL Images And Videos]_.
 
 ![Pedido de cambio](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 
@@ -86,7 +86,7 @@ Para excluir una imagen de la galería de miniaturas, seleccione la casilla **[!
 
 ## Administrar imágenes y vídeos en el nivel de vista de tienda
 
-Cuando cambia el selector **[!UICONTROL Store View]** a una vista de almacén específica (no **[!UICONTROL All Store Views]**), la sección _[!UICONTROL Images and Videos]_proporciona controles adicionales para administrar cómo se muestran las imágenes para esa vista de almacén sin afectar al ámbito predeterminado.
+Cuando cambia el selector **[!UICONTROL Store View]** a una vista de almacén específica (no **[!UICONTROL All Store Views]**), la sección _[!UICONTROL Images and Videos]_&#x200B;proporciona controles adicionales para administrar cómo se muestran las imágenes para esa vista de almacén sin afectar al ámbito predeterminado.
 
 ### Reordenar imágenes para una vista de tienda
 

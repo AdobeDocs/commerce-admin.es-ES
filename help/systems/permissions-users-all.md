@@ -31,7 +31,7 @@ Para los usuarios o roles temporales, también puede establecer una fecha de cad
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add New User]**.
 
-   Para editar un usuario existente, haga clic en un nombre de usuario en la cuadrícula. Puede modificar las secciones _[!UICONTROL User Info]_y_[!UICONTROL User Role]_ según sea necesario.
+   Para editar un usuario existente, haga clic en un nombre de usuario en la cuadrícula. Puede modificar las secciones _[!UICONTROL User Info]_&#x200B;y_[!UICONTROL User Role]_ según sea necesario.
 
 1. En la sección _[!UICONTROL Account Information]_, haga lo siguiente:
 
@@ -69,13 +69,13 @@ Para los usuarios o roles temporales, también puede establecer una fecha de cad
 
 >[!IMPORTANT]
 >
->Una vez completada la sección _[!UICONTROL Account Information]_, puede guardar el usuario. El nuevo usuario se muestra en la cuadrícula_[!UICONTROL Users]_, pero el nombre de usuario no puede iniciar sesión hasta que se asigne un rol.
+>Una vez completada la sección _[!UICONTROL Account Information]_, puede guardar el usuario. El nuevo usuario se muestra en la cuadrícula&#x200B;_[!UICONTROL Users]_, pero el nombre de usuario no puede iniciar sesión hasta que se asigne un rol.
 
 ## Asignar una función de usuario
 
 1. En el panel izquierdo, haga clic en **[!UICONTROL User Role]**.
 
-   La cuadrícula enumera todas las funciones de usuario existentes. Para una nueva tienda, _[!UICONTROL Administrators]_es la única función disponible.
+   La cuadrícula enumera todas las funciones de usuario existentes. Para una nueva tienda, _[!UICONTROL Administrators]_&#x200B;es la única función disponible.
 
    ![Administrador - agregar nuevo rol de usuario](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
@@ -105,7 +105,7 @@ Para los usuarios o roles temporales, también puede establecer una fecha de cad
 
 1. Cuando se le pida, escriba su contraseña para confirmar su identidad y vuelva a hacer clic en **[!UICONTROL Save User]**.
 
-   Se abre la cuadrícula _[!UICONTROL Users]_y se enumeran todos los usuarios.
+   Se abre la cuadrícula _[!UICONTROL Users]_&#x200B;y se enumeran todos los usuarios.
 
 ## Eliminar un usuario administrador
 
