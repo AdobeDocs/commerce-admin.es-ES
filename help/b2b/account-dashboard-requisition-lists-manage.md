@@ -3,9 +3,9 @@ title: '[!UICONTROL My Requisition Lists]'
 description: Obtenga información acerca de la experiencia del cliente con las listas de solicitudes, que está disponible en su panel de control de cuentas.
 exl-id: ed1b41aa-9c36-49f8-80f2-ad0eb151b7a5
 feature: B2B, Companies
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+source-git-commit: 537207b0e72127abaca2e39b27c24c5a0aadf801
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -141,3 +141,21 @@ Un producto de la lista de solicitudes se puede editar cuando:
 | [!UICONTROL Delete Requisition List] | Elimina la lista de solicitudes de la cuenta del usuario de la empresa. |
 
 {style="table-layout:auto"}
+
+## Controles de paginación
+
+Los controles de paginación aparecen en la parte inferior de la lista cuando el número total de elementos de la lista de solicitudes supera los elementos seleccionados por página.
+
+![Lista de solicitudes con paginación](./assets/requisition-list-bottom-with-pagination.png){width="700" zoomable="yes"}
+
+>[!NOTE]
+>
+> Los productos que requieren su atención (por ejemplo, los productos sin existencias) se muestran en la parte superior de la lista si se encuentran dentro de la página actual de la paginación. El número de productos que requieren su atención se muestra encima de la lista.
+> ![Elementos que requieren atención](./assets/requisition-list-product-requiring-attention.png){width="500"}
+
+### Controles de paginación de tienda
+
+| Control | Descripción |
+|----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Mostrar por página](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page]: determina cuántos elementos de lista de solicitudes aparecen por página. Puede seleccionar 20, 50, 100, 500 o 1000 artículos de lista de solicitudes para mostrarlos en la página. |
+| ![Vínculos de paginación](./assets/control-pagination.png) | [!UICONTROL Pagination links]: proporciona vínculos de navegación a otras páginas. |

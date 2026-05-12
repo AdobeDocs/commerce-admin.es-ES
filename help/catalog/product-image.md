@@ -3,9 +3,9 @@ title: Administración de imágenes y vídeos de productos
 description: Obtenga información sobre la administración de recursos de imagen y vídeo para las listas de productos.
 exl-id: 3cb4ab8a-8966-400f-be94-a517634d1334
 feature: Catalog Management, Products, Media
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 37eb42859700670420d4628d9a90d8d8d7b6c53b
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Para cargar una imagen, realice una de las siguientes acciones:
 
 ### Reorganizar imágenes
 
-Para cambiar el orden de las imágenes en la galería, haga clic en el icono _[!UICONTROL Sort]_( ![Icono Ordenar](./assets/inventory-icon-sort.png) ) en la parte inferior del mosaico de la imagen y arrastre la imagen a una posición diferente en el cuadro&#x200B;_[!UICONTROL Images And Videos]_.
+Para cambiar el orden de las imágenes en la galería, haga clic en el icono _[!UICONTROL Sort]_( ![Icono Ordenar](./assets/inventory-icon-sort.png) ) en la parte inferior del mosaico de la imagen y arrastre la imagen a una posición diferente en el cuadro_[!UICONTROL Images And Videos]_.
 
 ![Pedido de cambio](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 
@@ -84,6 +84,22 @@ Para excluir una imagen de la galería de miniaturas, seleccione la casilla **[!
 
 ![Imágenes ocultas](./assets/product-images-and-videos-hidden.png){width="600" zoomable="yes"}
 
+## Administrar imágenes y vídeos en el nivel de vista de tienda
+
+Cuando cambia el selector **[!UICONTROL Store View]** a una vista de almacén específica (no **[!UICONTROL All Store Views]**), la sección _[!UICONTROL Images and Videos]_proporciona controles adicionales para administrar cómo se muestran las imágenes para esa vista de almacén sin afectar al ámbito predeterminado.
+
+### Reordenar imágenes para una vista de tienda
+
+Al trabajar en un ámbito de vista de tienda, aparece una casilla de verificación **[!UICONTROL Use Default Order]** debajo del cuadro _[!UICONTROL Images and Videos]_. Seleccione esta casilla de verificación para revertir el orden de visualización de la imagen a la secuencia definida en el ámbito predeterminado.
+
+![Imágenes Y Vídeos - Vista De Tienda](./assets/product-images-and-videos-rearrange-store-scope.png){width="600" zoomable="yes"}
+
+### Definir detalles de imagen para una vista de tienda
+
+Cuando abre la vista de detalles de imagen en el ámbito de la vista de tienda, cada campo, incluidos **[!UICONTROL Alt Text]**, las asignaciones de la imagen **[!UICONTROL Role]** (Base, Pequeña, Miniatura, Muestra) y **[!UICONTROL Hide from Product Page]**, muestra una casilla de verificación **[!UICONTROL Use Default Value]**. Seleccione esta casilla de verificación para heredar el valor configurado en el ámbito predeterminado para ese campo.
+
+![Vista de detalles de imagen - Vista de tienda](./assets/product-image-detail-store-scope.png){width="600" zoomable="yes"}
+
 ## Funciones de imagen
 
 | Función de imagen | Descripción |
@@ -97,7 +113,7 @@ Para excluir una imagen de la galería de miniaturas, seleccione la casilla **[!
 
 ## Filigranas
 
-Si vas a expensas de crear tus propias imágenes originales del producto, no hay mucho que puedas hacer para evitar que competidores sin escrúpulos las roben con un clic del ratón. Sin embargo, puede hacer que sean un destino menos atractivo colocando una marca de agua en cada imagen para identificarlos como su propiedad. Un archivo de marca de agua puede ser un JPG (JPEG), un GIF o una imagen PNG. Los tipos de archivo GIF y PNG admiten capas transparentes, que se pueden utilizar para dar a la marca de agua un fondo transparente.
+Si vas a expensas de crear tus propias imágenes originales del producto, no hay mucho que puedas hacer para evitar que competidores sin escrúpulos las roben con un clic del ratón. Sin embargo, puede hacer que sean un destino menos atractivo colocando una marca de agua en cada imagen para identificarlos como su propiedad. Un archivo de marca de agua puede ser una imagen de JPG (JPEG), GIF o PNG. Los tipos de archivo GIF y PNG admiten capas transparentes, que se pueden utilizar para dar a la marca de agua un fondo transparente.
 
 La marca de agua utilizada para la imagen _small_ del siguiente ejemplo es un logotipo negro con un fondo transparente y se guarda como archivo PNG con la siguiente configuración:
 

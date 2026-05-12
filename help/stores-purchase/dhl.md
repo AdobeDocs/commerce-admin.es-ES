@@ -3,9 +3,9 @@ title: DHL
 description: Aprenda a configurar DHL como transportista para su tienda.
 exl-id: 765e5f90-3e93-43cf-a5bc-6132e00b506c
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 616b47e0e760a5f4f8c91b35dd002992a7ae30c0
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,26 @@ DHL ofrece servicios internacionales integrados y soluciones personalizadas y ce
 
 1. Establezca **[!UICONTROL Enabled for Checkout]** en `Yes`.
 
-1. Normalmente, puede aceptar el valor predeterminado **[!UICONTROL Gateway URL]**.
+1. Establezca **[!UICONTROL DHL Type]** en `DHL REST` si utiliza la API REST de DHL.
 
-   Si DHL le ha proporcionado una URL alternativa, introduzca ese valor en este campo.
+   Si utiliza la API XML de DHL, establezca **[!UICONTROL DHL Type]** en `DHL XML`.
+
+   >[!NOTE]
+   >
+   >La API REST de DHL es el método preferido para integrar con DHL. La API de XML está en desuso y puede eliminarse en futuras versiones.
 
 1. Utilice las credenciales proporcionadas por DHL para completar los siguientes campos:
 
-   - **[!UICONTROL Access ID]**
-   - **[!UICONTROL Password]**
-   - **[!UICONTROL Account Number]**
+Si utiliza la API REST de DHL, debe proporcionar las siguientes credenciales:
+
+    - **[!UICONTROL API KEY]**
+    - **[!UICONTROL API SECRET]**
+
+Si utiliza la API XML de DHL, debe proporcionar las siguientes credenciales:
+
+    - **[!UICONTROL Access ID]**
+    - **[!UICONTROL Password]**
+    - **[!UICONTROL Account Number]**
 
 ![Configuración de cuenta DHL](../configuration-reference/sales/assets/delivery-methods-dhl-account-settings.png){width="600" zoomable="yes"}
 
@@ -63,7 +74,7 @@ DHL ofrece servicios internacionales integrados y soluciones personalizadas y ce
 
    - Para **[!UICONTROL Handling Fee]**, escriba la cantidad que se va a cargar, según el método que haya elegido para calcular la cantidad.
 
-     Por ejemplo, si el cargo se basa en una tarifa fija, introduzca la cantidad como decimal; por ejemplo, `4.90`. Sin embargo, si la tarifa de manipulación se basa en un porcentaje del pedido, introduzca la cantidad como porcentaje. Por ejemplo, si está cargando el seis por ciento del pedido, introduzca el valor como `.06`.
+     Por ejemplo, si el cargo se basa en una tarifa fija, introduzca la cantidad como decimal; por ejemplo, `4.90`. Sin embargo, si la tarifa de manipulación se basa en un porcentaje del pedido, introduzca la cantidad como porcentaje. Por ejemplo, si está cargando el seis por ciento del pedido, introduzca el valor como `6`.
 
    - Para permitir que se desglose el peso total del pedido para garantizar un cálculo preciso de los gastos de envío, establezca **[!UICONTROL Divide Order Weight]** en `Yes`.
 
@@ -78,6 +89,10 @@ DHL ofrece servicios internacionales integrados y soluciones personalizadas y ce
       - `Specific`
 
      Si elige `Specific`, escriba **[!UICONTROL Height]**, **[!UICONTROL Depth]** y **[!UICONTROL Width]** del paquete en centímetros.
+
+   >[!NOTE]
+   >
+   >Si no se especifica ninguna dimensión, cada una de ellas tendrá un valor predeterminado de 3.
 
    ![Configuración del paquete DHL](../configuration-reference/sales/assets/delivery-methods-dhl-package-settings.png){width="600" zoomable="yes"}
 
@@ -127,6 +142,13 @@ DHL ofrece servicios internacionales integrados y soluciones personalizadas y ce
    `No`: muestra DHL como método de envío durante el cierre de compra, solo si corresponde.
 
 1. Para crear un archivo de registro con los detalles de los envíos DHL realizados desde su tienda, establezca **[!UICONTROL Debug]** en `Yes`.
+
+1. DHL proporciona la opción **[!UICONTROL sandbox mode]**. Si está usando el modo de espacio aislado, establezca **[!UICONTROL sandbox mode]** en `Yes`.
+Si está usando el modo Activo, establezca **[!UICONTROL sandbox mode]** en `No`.
+
+   >[!NOTE]
+   >
+   >El modo de zona protegida solo se utiliza con fines de prueba. Le permite probar su integración con DHL sin afectar a su tienda en vivo.
 
 1. Para **[!UICONTROL Sort Order]**, escriba un número para determinar la secuencia en la que DHL aparece cuando aparece junto con otros métodos de envío durante la desprotección.
 

@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo crear cuentas de usuario de admini
 exl-id: 65cca7a8-3d44-4c8c-a758-c0de03d53e11
 role: Admin
 feature: Admin Workspace, Roles/Permissions, User Account, Security
-source-git-commit: ad75c77ada34c4d66b1a58a666edadd44d054e17
+source-git-commit: e2644f16f8e8adb77d070ddb66c724c00a15a525
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Si otros integrantes del equipo o proveedores de servicios necesitan acceso, pue
 
 >[!NOTE]
 >
->Los comerciantes de Adobe Commerce que tengan un Adobe ID y deseen un inicio de sesión optimizado en los productos de Adobe Commerce y Adobe Business pueden integrar la autenticación de Commerce con el flujo de trabajo de autenticación IMS de Adobe. Una vez habilitada esta integración en la tienda Commerce, los usuarios administradores deben usar sus credenciales de Adobe, no sus credenciales de Commerce, para iniciar sesión. Consulte [Información general sobre la integración de Adobe Identity Management Service (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=es).
+>Los comerciantes de Adobe Commerce que tengan un Adobe ID y deseen un inicio de sesión optimizado en los productos de Adobe Commerce y Adobe Business pueden integrar la autenticación de Commerce con el flujo de trabajo de autenticación IMS de Adobe. Una vez habilitada esta integración en la tienda Commerce, los usuarios administradores deben usar sus credenciales de Adobe, no sus credenciales de Commerce, para iniciar sesión. Consulte [Información general sobre la integración de Adobe Identity Management Service (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
 
 Para los usuarios o roles temporales, también puede establecer una fecha de caducidad para la cuenta de usuario.
 
@@ -31,7 +31,7 @@ Para los usuarios o roles temporales, también puede establecer una fecha de cad
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add New User]**.
 
-   Para editar un usuario existente, haga clic en un nombre de usuario en la cuadrícula. Puede modificar las secciones _[!UICONTROL User Info]_&#x200B;y&#x200B;_[!UICONTROL User Role]_ según sea necesario.
+   Para editar un usuario existente, haga clic en un nombre de usuario en la cuadrícula. Puede modificar las secciones _[!UICONTROL User Info]_y_[!UICONTROL User Role]_ según sea necesario.
 
 1. En la sección _[!UICONTROL Account Information]_, haga lo siguiente:
 
@@ -53,7 +53,7 @@ Para los usuarios o roles temporales, también puede establecer una fecha de cad
 
      >[!NOTE]
      >
-     >La contraseña de administrador debe tener siete caracteres o más e incluir letras y números. Para obtener más opciones de contraseña, consulte [Configuración de Admin Security](security-admin.md).
+     >La contraseña de administrador debe tener siete caracteres o más (de forma predeterminada) e incluir letras y números. La longitud mínima de la contraseña se puede configurar en los ajustes de seguridad de administración. Para obtener más opciones de contraseña, consulte [Configuración de Admin Security](security-admin.md).
 
    - Para **[!UICONTROL Password Confirmation]**, vuelva a escribir la contraseña para asegurarse de que se escribió correctamente.
 
@@ -69,13 +69,13 @@ Para los usuarios o roles temporales, también puede establecer una fecha de cad
 
 >[!IMPORTANT]
 >
->Una vez completada la sección _[!UICONTROL Account Information]_, puede guardar el usuario. El nuevo usuario se muestra en la cuadrícula&#x200B;_[!UICONTROL Users]_, pero el nombre de usuario no puede iniciar sesión hasta que se asigne un rol.
+>Una vez completada la sección _[!UICONTROL Account Information]_, puede guardar el usuario. El nuevo usuario se muestra en la cuadrícula_[!UICONTROL Users]_, pero el nombre de usuario no puede iniciar sesión hasta que se asigne un rol.
 
 ## Asignar una función de usuario
 
 1. En el panel izquierdo, haga clic en **[!UICONTROL User Role]**.
 
-   La cuadrícula enumera todas las funciones de usuario existentes. Para una nueva tienda, _[!UICONTROL Administrators]_&#x200B;es la única función disponible.
+   La cuadrícula enumera todas las funciones de usuario existentes. Para una nueva tienda, _[!UICONTROL Administrators]_es la única función disponible.
 
    ![Administrador - agregar nuevo rol de usuario](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
@@ -105,7 +105,7 @@ Para los usuarios o roles temporales, también puede establecer una fecha de cad
 
 1. Cuando se le pida, escriba su contraseña para confirmar su identidad y vuelva a hacer clic en **[!UICONTROL Save User]**.
 
-   Se abre la cuadrícula _[!UICONTROL Users]_&#x200B;y se enumeran todos los usuarios.
+   Se abre la cuadrícula _[!UICONTROL Users]_y se enumeran todos los usuarios.
 
 ## Eliminar un usuario administrador
 
@@ -123,7 +123,7 @@ Para los usuarios o roles temporales, también puede establecer una fecha de cad
 
 La configuración de la plantilla de correo electrónico Administrador determina los mensajes de correo electrónico que se envían cuando los usuarios olvidan y restablecen sus contraseñas. Esta configuración especifica el contacto de almacén que aparece como remitente del mensaje y cuánto tiempo permanece válido el vínculo de recuperación de contraseña.
 
-**_Para configurar las plantillas de correo electrónico del administrador:_**
+**_Para configurar las plantillas de correo electrónico de administrador:_**
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Setting]_>**[!UICONTROL Configuration]**.
 

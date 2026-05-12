@@ -3,9 +3,9 @@ title: Crear etiquetas y paquetes de envío
 description: Aprenda a empaquetar artículos en un pedido y a crear etiquetas de envío.
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '2028'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Siga las instrucciones proporcionadas por cada transportista para agregar compat
 
 United Parcel Service envía tanto a nivel nacional como internacional. Sin embargo, las etiquetas de envío solo se pueden generar para envíos que se originen dentro de Estados Unidos.
 
-1. En la sección _[!UICONTROL Sales]_&#x200B;del panel izquierdo, elija **[!UICONTROL Delivery Methods]**.
+1. En la sección _[!UICONTROL Sales]_del panel izquierdo, elija **[!UICONTROL Delivery Methods]**.
 
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL UPS]**.
 
@@ -67,7 +67,22 @@ United Parcel Service envía tanto a nivel nacional como internacional. Sin emba
 
 1. Compruebe que **[!UICONTROL Secure Gateway URL]** es correcto.
 
-1. Escriba el(la) **[!UICONTROL Password]** proporcionado(a) por USPS.
+1. Compruebe que se ha completado la siguiente configuración en función de los **[!UICONTROL USPS Type]** seleccionados:
+
+   Si utiliza la API de herramientas web de USPS:
+   - ID de usuario
+   - Contraseña
+
+   Si utiliza las API de REST de USPS:
+   - Clave de consumidor
+   - Secreto del consumidor
+   - Opciones de precios
+   - Tipo de cuenta
+   - Número de cuenta
+   - ID de registro de cliente (CRID)
+   - Identificador de correo (MID)
+   - MID de manifiesto
+   - AES/ITN
 
 1. Compruebe que se ha completado la siguiente configuración en función de los **[!UICONTROL USPS Type]** seleccionados:
 
@@ -115,13 +130,15 @@ DHL ofrece servicios de envío internacional.
 
 1. Continuando con la configuración de **[!UICONTROL Delivery Methods]**, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL DHL]**.
 
-1. Compruebe que **[!UICONTROL Gateway URL]** es correcto.
+1. Seleccione **[!UICONTROL DHL Type]** como `DHL REST` o `DHL XML`.
 
-1. Compruebe que las siguientes credenciales estén completas:
+1. Compruebe que las siguientes credenciales estén completas según la selección **[!UICONTROL DHL Type]**:
 
    - Access ID
    - Contraseña
    - Número de cuenta
+   - Clave de API
+   - Secreto de API
 
 1. Haga clic en **[!UICONTROL Save Config]**.
 
@@ -145,7 +162,7 @@ DHL ofrece servicios de envío internacional.
 
 1. Agregar o actualizar productos en el paquete:
 
-   - Para agregar productos del pedido al paquete, haga clic en **[!UICONTROL Add Products]**. La columna _[!UICONTROL Quantity]_&#x200B;muestra la cantidad máxima de productos disponibles para el paquete.
+   - Para agregar productos del pedido al paquete, haga clic en **[!UICONTROL Add Products]**. La columna _[!UICONTROL Quantity]_muestra la cantidad máxima de productos disponibles para el paquete.
 
    - Seleccione la casilla de verificación de cada producto que se agregará al paquete e introduzca el **[!UICONTROL Quantity]** de cada uno. A continuación, haga clic en **[!UICONTROL Add Selected Product(s) to Package]**.
 
@@ -191,11 +208,11 @@ Las etiquetas de envío se generan en formato PDF y se pueden imprimir desde el 
 
    - **[!UICONTROL Sales]** > **[!UICONTROL Shipments]**: busque el envío en la cuadrícula y abra el registro.
 
-1. Para descargar el archivo de PDF, vaya a la sección _[!UICONTROL Shipping and Tracking]_&#x200B;del formulario y haga clic en **[!UICONTROL Print Shipping Label]**.
+1. Para descargar el archivo de PDF, vaya a la sección _[!UICONTROL Shipping and Tracking]_del formulario y haga clic en **[!UICONTROL Print Shipping Label]**.
 
    Según la configuración del navegador, las etiquetas de envío pueden verse e imprimirse directamente desde el archivo PDF.
 
-   El botón _[!UICONTROL Print Shipping Label]_&#x200B;solo aparece después de que el transportista genere etiquetas para el envío. Si falta el botón, haga clic en **[!UICONTROL Create Shipping Label]**. El botón aparece después de que Commerce reciba la etiqueta del operador.
+   El botón _[!UICONTROL Print Shipping Label]_solo aparece después de que el transportista genere etiquetas para el envío. Si falta el botón, haga clic en **[!UICONTROL Create Shipping Label]**. El botón aparece después de que Commerce reciba la etiqueta del operador.
 
 ### Método 2: Imprimir etiquetas para varios pedidos
 
@@ -218,13 +235,13 @@ Se imprime un juego completo de etiquetas de envío para cada envío relacionado
 | [!UICONTROL Type] | Los tipos de paquete difieren según el operador y el método. El tipo de paquete predeterminado para cada operador se selecciona inicialmente. USPS no requiere el tipo de paquete para los envíos nacionales. |
 | [!UICONTROL Customs Value] | (Sólo envíos internacionales) El valor declarado o el precio de venta del contenido de un envío internacional. |
 | [!UICONTROL Total Weight] | El peso total de todos los productos añadidos al paquete se calcula automáticamente. El valor también puede cambiarse manualmente e introducirse como libras o kilogramos. |
-| [!UICONTROL Length, Width, Height] | (Opcional) Las dimensiones del paquete solo se utilizan para paquetes personalizados. Puede especificar las unidades de medida en pulgadas o centímetros.<br/><br/>**[!UICONTROL Not Required]**: el transportista no envía ninguna confirmación de envío a la tienda.<br/><br/>**[!UICONTROL No Signature]**: el transportista envía a la tienda una confirmación de envío sin la firma del destinatario.<br/><br/>**[!UICONTROL Signature Required]**: el transportista obtiene la firma del destinatario y proporciona a la tienda una copia impresa.<br/><br/>**[!UICONTROL Direct]**: (Solo FedEx) FedEx obtiene una firma de alguien en la dirección de entrega. Si no hay nadie disponible para firmar el paquete, el transportista intenta entregar el paquete en otro momento.<br/><br/>**[!UICONTROL Indirect]**: (Solo entregas residenciales de FedEx) FedEx obtiene la firma de alguien (posiblemente un vecino o administrador de edificio) en la dirección de entrega. El destinatario puede dejar una etiqueta de puerta de FedEx firmada para autorizar que el paquete se quede sin que nadie presente firme por él.<br/><br/>**[!UICONTROL Contents]**: (Solo USPS) Seleccione una de las siguientes descripciones del paquete:<br/>- Regalo<br/>- Documentos<br/>- Muestra comercial<br/>- Productos devueltos<br/>- Mercancía<br/>- Otros <br/><br/>**[!UICONTROL Explanation]**: (Solo USPS) Una descripción detallada del contenido del paquete.<br/><br/>**[!UICONTROL Adult Required]**: el transportista obtiene la firma de un destinatario adulto y proporciona a la tienda una copia impresa. |
+| [!UICONTROL Length, Width, Height] | (Opcional) Las dimensiones del paquete solo se utilizan para paquetes personalizados. Puede especificar las unidades de medida en pulgadas o centímetros.<br/><br/>**[!UICONTROL Not Required]**: El transportista no envía ninguna confirmación de entrega a la tienda.<br/><br/>**[!UICONTROL No Signature]**: El transportista envía una confirmación de entrega sin la firma del destinatario a la tienda.<br/><br/>**[!UICONTROL Signature Required]**: El transportista obtiene la firma del destinatario y proporciona una copia impresa a la tienda.<br/><br/>**[!UICONTROL Direct]**: (Solo FedEx) FedEx obtiene una firma de alguien en la dirección de entrega. Si no hay nadie disponible para firmar el paquete, el transportista intenta entregar el paquete en otro momento.<br/><br/>**[!UICONTROL Indirect]**: (Solo envíos residenciales de FedEx) FedEx obtiene la firma de alguien (posiblemente un vecino o administrador del edificio) en la dirección de entrega. El destinatario puede dejar una etiqueta de puerta de FedEx firmada para autorizar que el paquete se deje sin que nadie presente lo firme.<br/><br/>**[!UICONTROL Contents]**: (Solo USPS) Seleccione una de las siguientes descripciones del paquete:<br/>- Regalo<br/>- Documentos<br/>- Muestra comercial<br/>- Productos devueltos<br/>- Mercancía<br/>- Otros <br/><br/>**[!UICONTROL Explanation]**: (Solo USPS) Una descripción detallada del contenido del paquete.<br/><br/>**[!UICONTROL Adult Required]**: El transportista obtiene la firma de un destinatario adulto y proporciona a la tienda una copia impresa. |
 
 {style="table-layout:auto"}
 
 ## Creación de paquetes
 
-La ventana _[!UICONTROL Create Packages]_&#x200B;aparece cuando elige crear una etiqueta de envío. Puede comenzar a configurar el primer paquete inmediatamente.
+La ventana _[!UICONTROL Create Packages]_aparece cuando elige crear una etiqueta de envío. Puede comenzar a configurar el primer paquete inmediatamente.
 
 ### Configuración de un paquete
 
@@ -236,7 +253,7 @@ La ventana _[!UICONTROL Create Packages]_&#x200B;aparece cuando elige crear una 
 
    - Especifique los productos y las cantidades.
 
-     La columna _[!UICONTROL Qty]_&#x200B;muestra la cantidad máxima disponible para agregar. Para el primer paquete, el número es la cantidad total del producto que se va a enviar.
+     La columna _[!UICONTROL Qty]_muestra la cantidad máxima disponible para agregar. Para el primer paquete, el número es la cantidad total del producto que se va a enviar.
 
    - Para agregar los productos al paquete, haga clic en **[!UICONTROL Add Selected Product(s) to Package]**.
 
@@ -281,7 +298,7 @@ Puede hacer clic en **[!UICONTROL Cancel]** para detener el proceso, si es neces
 | [!UICONTROL Length] | La longitud de un paquete, números enteros y números de coma flotante. El campo está habilitado si se utiliza el tipo de paquete personalizado. La unidad de medida se puede establecer en pulgadas o centímetros. |
 | [!UICONTROL Width] | Anchura de un paquete, números enteros y números de coma flotante. El campo está habilitado si se utiliza el tipo de paquete personalizado. Las unidades de medida se pueden especificar mediante el menú desplegable situado junto al campo Altura; seleccione entre pulgadas y centímetros. |
 | [!UICONTROL Height] | Altura de un paquete, números enteros y números de coma flotante. El campo está habilitado si se utiliza el tipo de paquete personalizado. Las unidades de medida se pueden especificar mediante el menú desplegable situado junto al campo Altura; seleccione entre pulgadas y centímetros. |
-| [!UICONTROL Signature] | Define la confirmación de envío. Opciones:<br/><br/>**[!UICONTROL Not Required]**: no se le enviará ninguna carta de confirmación de envío.<br/><br/>**[!UICONTROL No Signature]**: se le envía una carta de confirmación de envío sin la firma de un destinatario.<br/><br/>**[!UICONTROL Signature Required]**: el transportista obtiene la firma del destinatario y le proporciona su copia impresa.<br/><br/>**[!UICONTROL Adult Required]**: el transportista obtiene la firma del destinatario adulto y le proporciona su copia impresa.<br/><br/>**[!UICONTROL Direct (FedEx only)]**: FedEx obtiene una firma de alguien en la dirección de entrega y vuelve a intentar la entrega si no hay nadie disponible para firmar el paquete.<br/><br/>**[!UICONTROL Indirect (FedEx only)]**: FedEx obtiene una firma de una de las tres maneras siguientes: <br/>(1) de alguien en la dirección de entrega; <br/>(2) de un vecino, administrador de edificio u otra persona en la dirección; o <br/>(3) el destinatario puede dejar una etiqueta de puerta de FedEx firmada que autorice el lanzamiento del paquete sin que nadie esté presente. Disponible solo para envíos residenciales. Las opciones pueden variar ligeramente según los distintos métodos de envío. Para obtener la información más reciente, consulte los recursos del transportista. |
+| [!UICONTROL Signature] | Define la confirmación de envío. Opciones: <br/><br/>**[!UICONTROL Not Required]**: no se le envía ninguna carta de confirmación de envío.<br/><br/>**[!UICONTROL No Signature]**: se le envía una carta de confirmación de envío sin la firma de un destinatario.<br/><br/>**[!UICONTROL Signature Required]**: El transportista obtiene la firma del destinatario y le proporciona su copia impresa.<br/><br/>**[!UICONTROL Adult Required]**: El transportista obtiene la firma del destinatario adulto y le proporciona su copia impresa.<br/><br/>**[!UICONTROL Direct (FedEx only)]**: FedEx obtiene una firma de alguien en la dirección de envío y vuelve a intentar la entrega si no hay nadie disponible para firmar el paquete.<br/><br/>**[!UICONTROL Indirect (FedEx only)]**: FedEx obtiene una firma de una de las tres maneras siguientes:<br/>(1) de alguien en la dirección la dirección de entrega; <br/>(2) de un vecino, administrador de edificio u otra persona en la dirección; o <br/>(3) el destinatario puede dejar una Etiqueta de puerta de FedEx firmada que autoriza el lanzamiento del paquete sin que nadie esté presente. Disponible solo para envíos residenciales. Las opciones pueden variar ligeramente según los distintos métodos de envío. Para obtener la información más reciente, consulte los recursos del transportista. |
 | [!UICONTROL Contents] | (Disponible solo para envíos de USPS) Descripción del contenido del paquete. Opciones: `Gift` / `Documents` / `Commercial Sample` / `Returned Goods` / `Merchandise` / `Other` |
 | [!UICONTROL Explanation] | (Solo envíos de USPS) Descripción detallada del contenido del paquete. |
 

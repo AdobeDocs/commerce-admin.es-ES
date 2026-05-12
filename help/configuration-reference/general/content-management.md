@@ -1,12 +1,12 @@
 ---
-title: '[!UICONTROL General] &gt; [!UICONTROL Content Management]'
-description: Revise la configuración en la página [!UICONTROL General] &gt; [!UICONTROL Content Management] del administrador de Commerce.
+title: '[!UICONTROL General] > [!UICONTROL Content Management]'
+description: Revise la configuración en la página [!UICONTROL General] > [!UICONTROL Content Management] del administrador de Commerce.
 exl-id: 67c5e89b-0a7c-4e4f-a5ad-10376c3ef6f9
 feature: Configuration, Page Content
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 5929a2ff26dadda40ecfa9e435a73343caef3cde
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 297dc7bac426a32617df6715ec1590a23f9bc011
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,35 @@ ht-degree: 0%
 
 ## [!UICONTROL WYSIWYG Options]
 
+### [!UICONTROL TinyMCE 6]
+
 ![Opciones de WYSIWYG](./assets/content-management-wysiwyg-options.png)<!-- zoom -->
 
-<!-- [WYSIWYG Options](https://experienceleague.adobe.com/es/docs/commerce-admin/content-design/wysiwyg/editor) -->
+<!-- [WYSIWYG Options](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/editor) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
-|--- |--- |--- |
+|--- |--- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable WYSIWYG Editor] | Vista de tienda | Determina si el editor está habilitado para la tienda. Opciones: Habilitado por defecto/Deshabilitado por defecto/Deshabilitado por completo |
-| [!UICONTROL WYSIWYG Editor] | Sitio web | Determina la versión del editor TinyMCE que se utiliza para el editor de WYSIWYG. Opciones: <br/>**`TinyMCE 5`**- (Predeterminado) Utiliza TinyMCE versión 5 como editor de WYSIWYG predeterminado.<br><br>_ **&#x200B; Nota:**&#x200B;_Una actualización de la biblioteca TinyMCE 5.10 en Adobe Commerce y Magento Open Source 2.4.5 resuelve una vulnerabilidad que permitía la ejecución arbitraria de JavaScript al actualizar una imagen o un vínculo mediante algunos tipos de direcciones URL. TinyMCE 3 quedó obsoleto en la versión 2.4.0 y se eliminó en la versión 2.4.3. TinyMCE 4 se eliminó en la versión 2.4.4. |
-| [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | Global | Determina si se utilizan [direcciones URL estáticas](../../content-design/catalog-urls-dynamic-media.md) para el contenido multimedia al que se hace referencia desde el editor de WYSIWYG. La configuración se aplica a todos los lugares donde el editor de WYSIWYG está disponible, incluidos productos, categorías, páginas y bloques. Opciones: <br/>**`Yes`**: utiliza direcciones URL estáticas para el contenido multimedia insertado con el editor de WYSIWYG. Las direcciones URL estáticas son absolutas y se rompen si cambia la [dirección URL base](../../stores-purchase/store-urls.md) del almacén.<br/>**`No`** (predeterminado): utiliza direcciones URL dinámicas para el contenido multimedia insertado con el editor de WYSIWYG, según la directiva `{{media url="..."}}`. Las direcciones URL dinámicas son relativas y no se rompen si cambia la dirección URL base del almacén. |
+| [!UICONTROL WYSIWYG Editor] | Sitio web | Determina la versión del editor TinyMCE que se utiliza para el editor de WYSIWYG. Opciones: <br/>**`TinyMCE 6`**- (Predeterminado) Utiliza TinyMCE versión 6 como editor de WYSIWYG predeterminado.<br><br>_** Nota:**_Una actualización de la biblioteca TinyMCE 5.10 en Adobe Commerce y Magento Open Source 2.4.5 resuelve una vulnerabilidad que permitía la ejecución arbitraria de JavaScript al actualizar una imagen o vínculo mediante algunos tipos de direcciones URL. TinyMCE 3 quedó obsoleto en la versión 2.4.0 y se eliminó en la versión 2.4.3. TinyMCE 4 se eliminó en la versión 2.4.4. |
+| [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | Global | Determina si se utilizan [direcciones URL estáticas](../../content-design/catalog-urls-dynamic-media.md) para el contenido multimedia al que se hace referencia desde el editor de WYSIWYG. La configuración se aplica a todos los lugares donde el editor de WYSIWYG está disponible, incluidos productos, categorías, páginas y bloques. Opciones: <br/>**`Yes`**: utiliza direcciones URL estáticas para el contenido multimedia insertado con el editor de WYSIWYG. Las direcciones URL estáticas son absolutas y se rompen si cambia la [dirección URL base](../../stores-purchase/store-urls.md) del almacén.<br/>**`No`** (Predeterminado): Utiliza direcciones URL dinámicas para el contenido multimedia insertado con el editor de WYSIWYG, según la directiva `{{media url="..."}}`. Las direcciones URL dinámicas son relativas y no se rompen si cambia la dirección URL base del almacén. |
+
+{style="table-layout:auto"}
+
+>[!NOTE]
+>
+>TinyMCE ha sido reemplazado con Hugerte como el editor predeterminado de WYSIWYG en Magento 2.4.6 y versiones posteriores.
+
+### [!UICONTROL HugeRTE]
+
+![Opciones de WYSIWYG](./assets/content-management-wysiwyg-options-hugerte.png)<!-- zoom -->
+
+<!-- [WYSIWYG Options](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/editor) -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Enable WYSIWYG Editor] | Vista de tienda | Determina si el editor está habilitado para la tienda. Opciones: Habilitado por defecto/Deshabilitado por defecto/Deshabilitado por completo |
+| [!UICONTROL WYSIWYG Editor] | Sitio web | Determina la versión del editor de Hugerte que se usa para el editor de WYSIWYG. |
+| [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | Global | Determina si se utilizan [direcciones URL estáticas](../../content-design/catalog-urls-dynamic-media.md) para el contenido multimedia al que se hace referencia desde el editor de WYSIWYG. La configuración se aplica a todos los lugares donde el editor de WYSIWYG está disponible, incluidos productos, categorías, páginas y bloques. Opciones: <br/>**`Yes`**: utiliza direcciones URL estáticas para el contenido multimedia insertado con el editor de WYSIWYG. Las direcciones URL estáticas son absolutas y se rompen si cambia la [dirección URL base](../../stores-purchase/store-urls.md) del almacén.<br/>**`No`** (Predeterminado): Utiliza direcciones URL dinámicas para el contenido multimedia insertado con el editor de WYSIWYG, según la directiva `{{media url="..."}}`. Las direcciones URL dinámicas son relativas y no se rompen si cambia la dirección URL base del almacén. |
 
 {style="table-layout:auto"}
 
@@ -35,7 +55,7 @@ ht-degree: 0%
 
 ![Jerarquía de páginas de CMS](./assets/content-management-cms-page-hierarchy.png)<!-- zoom -->
 
-<!--[CMS Page Hierarchy](https://experienceleague.adobe.com/es/docs/commerce-admin/content-design/elements/pages/page-hierarchy) -->
+<!--[CMS Page Hierarchy](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-hierarchy) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -49,11 +69,11 @@ ht-degree: 0%
 
 ![Herramientas de contenido avanzadas](./assets/content-management-advanced-content-tools.png)<!-- zoom -->
 
-<!-- [Advanced Content Tools](https://experienceleague.adobe.com/es/docs/commerce-admin/page-builder/walkthrough/3-catalog-content) -->
+<!-- [Advanced Content Tools](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/walkthrough/3-catalog-content) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Enable Page Builder] | Global | Determina si están disponibles las herramientas de contenido avanzado [!DNL Page Builder]. Opciones: <br/>**`Yes`**- El área de trabajo [!DNL Page Builder] aparece en la sección Contenido de páginas, bloques, productos y categorías.<br/>**`No`**: las herramientas de edición estándar de CMS aparecen en la sección _[!UICONTROL Content]_&#x200B;de páginas, bloques, productos y categorías. |
+| [!UICONTROL Enable Page Builder] | Global | Determina si están disponibles las herramientas de contenido avanzado [!DNL Page Builder]. Opciones: <br/>**`Yes`**- El área de trabajo [!DNL Page Builder] aparece en la sección Contenido de páginas, bloques, productos y categorías.<br/>**`No`**: las herramientas de edición estándar de CMS aparecen en la sección _[!UICONTROL Content]_de páginas, bloques, productos y categorías. |
 | [!UICONTROL Enable Page Builder Content Preview] | Global | Determina si las [!DNL Page Builder] vistas previas de contenido están habilitadas para productos y categorías. Opciones: `Yes` / `No` <br/>**_Nota:_** Esto está establecido en `Yes` de forma predeterminada, pero desactivar la vista previa puede evitar cualquier problema de rendimiento que resulte de cargar vistas previas dentro de un formulario de producto o categoría. |
 | [!UICONTROL Google Maps API Key] | Global | La clave de API [!DNL Google Maps] de su cuenta de Google. |
 | [!UICONTROL Test Key] |  | Valida la clave de API [!DNL Google Maps]. |

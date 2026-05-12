@@ -3,9 +3,9 @@ title: Servicio postal de Estados Unidos (USPS)
 description: Aprenda a configurar USPS como transportista para su tienda.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -36,9 +36,15 @@ También puede abrir una cuenta de [USPS Web Tools](https://secure.shippingapis.
 
 1. Establezca **[!UICONTROL Enabled for Checkout]** en `Yes`.
 
-1. Establezca **[!UICONTROL USPS Type]** en `USPS Rest APIs` si utiliza la API de REST de USPS.
+1. Establezca el tipo de API de USPS.
 
-   Si usa la API de herramientas web de USPS, establezca **[!UICONTROL USPS Type]** en `USPS Web Tools API`.
+   - Si usa la API REST de USPS, establezca **[!UICONTROL USPS Type]** en `USPS REST API`.
+
+   - Si usa la API de herramientas web de USPS, establezca **[!UICONTROL USPS Type]** en `USPS Web Tools API`.
+
+   >[!NOTE]
+   >
+   >Las API REST de USPS son el método preferido para la integración con USPS. La API de herramientas web de USPS está en desuso y puede eliminarse en futuras versiones.
 
 1. Si es necesario, ingrese **[!UICONTROL Gateway URL]** para acceder a las tarifas de envío de USPS.
 
@@ -48,16 +54,17 @@ También puede abrir una cuenta de [USPS Web Tools](https://secure.shippingapis.
 
 1. Utilice las credenciales proporcionadas por USPS para completar los siguientes campos:
 
-   Si utiliza las API REST de USPS, debe proporcionar las siguientes credenciales:
+   Si utiliza las API REST de USPS, proporcione las siguientes credenciales:
 
    - **[!UICONTROL Consumer Key]**
    - **[!UICONTROL Consumer Secret]**
    - **[!UICONTROL Pricing Options]**
 
-   Si utiliza la API de herramientas web de USPS, debe proporcionar las siguientes credenciales:
+   Si utiliza la API de herramientas web de USPS, proporcione las siguientes credenciales:
 
    - **[!UICONTROL User ID]**
    - **[!UICONTROL Password]**
+
 
 1. Establezca **[!UICONTROL Mode]** en una de las siguientes opciones:
 
@@ -100,7 +107,7 @@ La tarifa de manipulación es opcional y aparece como un cargo adicional que se 
 
 1. Escriba el importe de **[!UICONTROL Handling Fee]** que se va a cargar.
 
-   Para introducir un porcentaje, utilice el formato decimal. Por ejemplo, escriba `0.25` para 25%.
+   Para introducir un porcentaje, utilice el formato decimal. Por ejemplo, escriba `25` para 25%.
 
    ![Cargo por manejo de USPS](../configuration-reference/sales/assets/delivery-methods-usps-handling-fee.png){width="600" zoomable="yes"}
 

@@ -3,10 +3,10 @@ title: Mapas del sitio
 description: Obtenga información sobre cómo configurar un mapa del sitio para indexar todas las páginas e imágenes de los sitios de Commerce.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 321a9fb0f3c6d86aad520b76ff717c0b07ac37f0
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: 4d5699dc5c4dc4b2bcf208bb0e660ba61e28c507
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Para Adobe Commerce as a Cloud Service, consulte las [directrices SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=es) en la documentación de Commerce Storefront
+>Para Adobe Commerce as a Cloud Service, consulte las [directrices SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) en la documentación de Commerce Storefront
 
 Un mapa del sitio mejora la forma en que los motores de búsqueda indizan el almacén y está diseñado para buscar páginas que los rastreadores Web podrían pasar por alto. Se puede configurar un mapa del sitio para indexar todas las páginas e imágenes.
 
@@ -23,7 +23,7 @@ Cuando se habilita, Commerce crea un archivo denominado `sitemap.xml` que se gua
 
 Mientras el sitio está en desarrollo, puede incluir instrucciones en el archivo `robots.txt` para rastreadores web a fin de evitar la indexación del sitio. A continuación, antes del lanzamiento, puede cambiar las instrucciones para permitir que el sitio se indexe.
 
-Para obtener información técnica, consulte [Agregar mapa del sitio y robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=es) en la _Guía de infraestructura en la nube de Commerce_.
+Para obtener información técnica, consulte [Agregar mapa del sitio y robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html) en la _Guía de infraestructura en la nube de Commerce_.
 
 ![cuadrícula de mapa del sitio](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -83,7 +83,7 @@ Para crear mapas del sitio para una instancia de varias tiendas, haga lo siguien
 1. Cree una carpeta llamada `sitemaps` en la raíz del sitio web y luego cree subcarpetas para cada dominio:
 
        /sitemaps/domain_1/
-       /sitemaps/domain_2/
+     /sitemaps/domain_2/
    
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Site Map]**.
 
@@ -96,13 +96,13 @@ Para crear mapas del sitio para una instancia de varias tiendas, haga lo siguien
 
    Para asegurarse de que las arañas del motor de búsqueda se dirigen correctamente a los nuevos mapas del sitio, puede actualizar o crear el archivo robots.txt. Añada las siguientes líneas en la parte superior.
 
-       Mapa del sitio web
-       Mapa del sitio: https://www.domain_1.com/sitemaps/domain_1/sitemap.xml
-       Mapa del sitio: https://www.domain_2.com/sitemaps/domain_2/sitemap.xml
+       Mapa Del Sitio Web
+     Mapa Del Sitio: https://www.domain_1.com/sitemaps/domain_1/sitemap.xml
+     Mapa Del Sitio: https://www.domain_2.com/sitemaps/domain_2/sitemap.xml
    
 >[!NOTE]
 >
->Si su sitio usa el motor de servidor web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=es), debe actualizar el archivo [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) en la raíz del sitio web para dirigir cualquier otra solicitud de mapa del sitio al lugar apropiado.
+>Si su sitio usa el motor de servidor web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html), debe actualizar el archivo [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) en la raíz del sitio web para dirigir cualquier otra solicitud de mapa del sitio al lugar apropiado.
 
 ## Descripciones de columna
 
@@ -188,6 +188,11 @@ El mapa del sitio debe actualizarse con la frecuencia con la que cambia el conte
 
 1. Para generar un mapa del sitio, establezca **[!UICONTROL Enabled]** en `Yes` y haga lo siguiente:
 
+   - Establezca **[!UICONTROL Generation Method]** en una de las siguientes opciones:
+
+      - `Standard`: procesa todos los datos en la memoria.
+      - `Batch`: utiliza el procesamiento optimizado para la memoria en catálogos grandes. Esta opción está disponible a partir de la versión 2.4.9 de.
+
    - Establezca **[!UICONTROL Start Time]** a la hora, el minuto y el segundo en que desea que se actualice el mapa del sitio.
 
    - Establezca **[!UICONTROL Frequency]** en una de las siguientes opciones:
@@ -227,3 +232,33 @@ El mapa del sitio debe actualizarse con la frecuencia con la que cambia el conte
 1. Si usa un archivo de `robots.txt` para proporcionar instrucciones a los motores de búsqueda que rastrean por el sitio, establezca **[!UICONTROL Enable Submission to Robots.txt]** en `Yes`.
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
+
+## Trabajo alternativo para catálogos grandes
+
+>[!NOTE]
+>
+>En el caso de las tiendas con catálogos grandes, puede utilizar un cronjob alternativo para asegurarse de que se generan todos los datos. En `app/code/Magento/Sitemap/etc/config.xml`, reemplazar:
+>
+>```xml
+><jobs>
+>   <sitemap_generate>
+>       <schedule>
+>           <cron_expr>0 0 * * *</cron_expr>
+>       </schedule>
+>   </sitemap_generate>
+></jobs>
+>```
+>
+>con:
+>
+>```xml
+><jobs>
+>   <sitemap_generate_batch>
+>       <schedule>
+>           <cron_expr>0 0 * * *</cron_expr>
+>       </schedule>
+>   </sitemap_generate_batch>
+></jobs>
+>```
+>
+>Este cambio permite la generación de mapas del sitio por lotes, lo que se recomienda para catálogos grandes.

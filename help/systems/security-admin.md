@@ -4,22 +4,23 @@ description: Aprenda a configurar la seguridad del administrador de su tienda.
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+source-git-commit: ad01f8aaa40f6bda0fe329a0e906915f6034972f
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
 
 # Configurar la seguridad de administración
 
-Le recomendamos que adopte un enfoque multifacético para proteger la seguridad de su tienda. Puede empezar por usar una [URL de administrador personalizada](../stores-purchase/store-urls.md#use-a-custom-admin-url) que no sea fácil de adivinar, en lugar de las obvias &quot;Admin&quot; o &quot;Backend&quot;. De manera predeterminada, las contraseñas que se usan para [iniciar sesión](../getting-started/admin-signin.md) en el administrador deben contener siete o más caracteres e incluir letras y números. Como [práctica recomendada](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=es), use solamente contraseñas de administrador seguras que incluyan una combinación de letras, números y símbolos. Adobe Commerce y Magento Open Source no permiten la reutilización de las cuatro últimas contraseñas asignadas a la cuenta.
+Le recomendamos que adopte un enfoque multifacético para proteger la seguridad de su tienda. Puede empezar por usar una [URL de administrador personalizada](../stores-purchase/store-urls.md#use-a-custom-admin-url) que no sea fácil de adivinar, en lugar de las obvias &quot;Admin&quot; o &quot;Backend&quot;. De manera predeterminada, las contraseñas que se usan para [iniciar sesión](../getting-started/admin-signin.md) en el administrador deben contener siete o más caracteres e incluir letras y números. Puede configurar el requisito de longitud mínima de contraseña para mejorar la seguridad según las necesidades de su organización. Como [práctica recomendada](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), use solamente contraseñas de administrador seguras que incluyan una combinación de letras, números y símbolos. Adobe Commerce y Magento Open Source no permiten la reutilización de las cuatro últimas contraseñas asignadas a la cuenta.
 
 La configuración de seguridad de administración le permite:
 
 - Añadir una clave secreta a las direcciones URL
 - Requerir que las contraseñas distingan entre mayúsculas y minúsculas
+- Configurar el requisito de longitud mínima de contraseña
 - Limitar la duración de las sesiones de administración
 - Limitar la duración de las contraseñas
 - Limite el número de intentos de inicio de sesión que pueden realizarse antes de que la cuenta de usuario administrador esté [bloqueada](permissions-users-all.md#locked-users).
@@ -73,6 +74,12 @@ Para obtener información técnica, consulte [Información general de seguridad]
 
 1. Establecer opciones de contraseña:
 
+   - Para **[!UICONTROL Minimum Admin Password Length]**, introduzca el número mínimo de caracteres requeridos para las contraseñas de administrador. El valor predeterminado es 7 y el mínimo permitido es 7.
+
+     >[!WARNING]
+     >
+     >Cambiar este valor del predeterminado puede introducir problemas de compatibilidad con versiones anteriores con servicios existentes. Esta configuración afecta a los cambios de contraseña de administrador, a la creación de nuevos usuarios de administrador desde la interfaz de administración y la CLI, y a las operaciones de restablecimiento de contraseña desde el administrador.
+
    - Para limitar la duración de las contraseñas de administrador, escriba el número de días durante los cuales una contraseña será válida para **[!UICONTROL Password Lifetime (days)]**. Deje el campo en blanco durante un tiempo ilimitado.
 
    - Establezca **[!UICONTROL Password Change]** en una de las siguientes opciones:
@@ -84,4 +91,4 @@ Para obtener información técnica, consulte [Información general de seguridad]
 
 ## Requisitos de contraseña de administrador
 
-De forma predeterminada, una contraseña de administrador debe tener siete caracteres o más e incluir letras y números.
+De forma predeterminada, una contraseña de administrador debe tener siete caracteres o más e incluir letras y números. Puede usar la configuración **[!UICONTROL Minimum Admin Password Length]** para configurar el requisito mínimo de longitud de contraseña para cumplir con los estándares de seguridad de su organización. Sin embargo, aumentar este valor puede afectar a la compatibilidad con los servicios e integraciones existentes.
