@@ -2,7 +2,7 @@
 title: Editor de WYSIWYG
 description: Aprenda a utilizar el editor y a trabajar con contenido en una vista de _What You See Is What You Get_ (WYSIWYG).
 exl-id: 209ca9d6-973c-4ad9-b7cd-4fba58dbfbb8
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 source-git-commit: f7d2ab41318119fc0f3eed32b3619f0b9071c15d
 workflow-type: tm+mt
 source-wordcount: '273'

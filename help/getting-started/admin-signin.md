@@ -161,7 +161,7 @@ El administrador proporciona acceso para administrar las funciones de pedidos, c
 
 Para garantizar la seguridad de su administrador, realice auditorías regulares de los usuarios y las funciones con acceso de administrador.
 
-Además, considere [actualizar la configuración de la URL de Admin Base](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url) para cambiar el punto de conexión `/admin` predeterminado a una ruta de acceso personalizada. La configuración de una ruta personalizada ofrece las siguientes ventajas de seguridad:
+Además, considere [actualizar la configuración de la URL de Admin Base](https://experienceleague.adobe.com/es/docs/commerce-admin/config/advanced/admin#admin-base-url) para cambiar el punto de conexión `/admin` predeterminado a una ruta de acceso personalizada. La configuración de una ruta personalizada ofrece las siguientes ventajas de seguridad:
 
 **Seguridad mejorada**: La ruta de acceso &quot;admin&quot; predeterminada es ampliamente conocida y a menudo está dirigida por agentes malintencionados que intentan realizar ataques por fuerza bruta. Al cambiarlo a un valor único y personalizado, se reduce significativamente el riesgo de intentos de acceso no autorizados.
 
@@ -173,4 +173,4 @@ Además, considere [actualizar la configuración de la URL de Admin Base](https:
 
 >[!NOTE]
 >
->Si se sospecha una infracción, asegúrese de eliminar todos los usuarios administradores desconocidos, restablecer todas las contraseñas de administración y revisar el [plan de acción de seguridad](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security) para ver los pasos siguientes.
+>Si se sospecha una infracción, asegúrese de eliminar todos los usuarios administradores desconocidos, restablecer todas las contraseñas de administración y revisar el [plan de acción de seguridad](https://experienceleague.adobe.com/es/docs/commerce-admin/systems/security/security) para ver los pasos siguientes.

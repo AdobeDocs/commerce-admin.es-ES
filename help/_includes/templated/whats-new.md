@@ -23,7 +23,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se agregaron los <code class="language-plaintext highlighter-rouge">numeric</code> y <code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types">tipos de entrada de atributo</a> y se agregó una página de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes">Atributos de archivo de producto</a> en la referencia de configuración.</p>
+      <td><p>Se agregaron los <code class="language-plaintext highlighter-rouge">numeric</code> y <code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/catalog/product-attributes/attributes-input-types">tipos de entrada de atributo</a> y se agregó una página de <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/config/catalog/product-file-attributes">Atributos de archivo de producto</a> en la referencia de configuración.</p>
 </td>
       <td>
         Actualización importante
@@ -45,7 +45,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se agregaron instrucciones de Adobe Commerce as a Cloud Service a <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">Proporcionar asistencia al comprador</a>.</p>
+      <td><p>Se agregaron instrucciones de Adobe Commerce as a Cloud Service a <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">Proporcionar asistencia al comprador</a>.</p>
 </td>
       <td>
         Actualización importante
