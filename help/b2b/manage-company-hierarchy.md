@@ -3,9 +3,8 @@ title: Administrar jerarquías de empresa
 description: Cree y gestione jerarquías empresariales para apoyar a las organizaciones B2B con modelos operativos complejos.
 feature: B2B, Companies
 role: Admin
-hidefromtoc: false
 exl-id: a277ed95-7935-4d27-adb2-35116972732b
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+source-git-commit: 970cc079f101011b5fd55b95715516342db4978e
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 0%
