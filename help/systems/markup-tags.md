@@ -40,7 +40,7 @@ La etiqueta de marcado de URL de medios dinámicos representa la ubicación y el
 
 La etiqueta de marcado ID de bloque es una de las más fáciles de usar y se puede usar para colocar un bloque directamente en una página de CMS o incluso anidado dentro de otro bloque. Puede utilizar esta técnica para modificar un bloque para diferentes promociones o idiomas. La etiqueta de marcado ID de bloque hace referencia a un bloque por su identificador.
 
-\{\{block id=&#39;block-id&#39;\}}
+\{\{block id=&#39;block-id&#39;\}\}
 
 ## Etiqueta de plantilla
 
