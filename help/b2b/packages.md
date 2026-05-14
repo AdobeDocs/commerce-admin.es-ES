@@ -2,9 +2,9 @@
 title: Paquetes B2B de Adobe Commerce
 description: Obtenga información acerca de las dependencias y las licencias de terceros utilizadas en Adobe Commerce B2B.
 exl-id: be2a656b-e2de-455c-9834-524a88de32e1
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: ca9114db6ab79e7edee6d9be4ce0c8f79b8c793d
 workflow-type: tm+mt
-source-wordcount: '19'
+source-wordcount: '20'
 ht-degree: 0%
 
 ---
@@ -13,4 +13,4 @@ ht-degree: 0%
 
 {{$include /help/_includes/templated/packages.md}}
 
-<!-- Last updated from includes: 2025-04-11 15:09:07 -->
+<!-- Last updated from includes: 2026-05-11 13:45:15 -->

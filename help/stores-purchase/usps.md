@@ -3,7 +3,7 @@ title: Servicio postal de Estados Unidos (USPS)
 description: Aprenda a configurar USPS como transportista para su tienda.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: b0f3256e6e41ce3e605a9564ce0e412efcba9c98
+source-git-commit: ca9114db6ab79e7edee6d9be4ce0c8f79b8c793d
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%
@@ -143,4 +143,4 @@ La tarifa de manipulación es opcional y aparece como un cargo adicional que se 
 1. Haga clic en **[!UICONTROL Save Config]**.
 
 
-<!-- Last updated from includes: 2025-11-26 10:55:00 -->
+<!-- Last updated from includes: 2026-05-12 15:47:19 -->
