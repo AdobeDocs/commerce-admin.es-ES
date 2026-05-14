@@ -3,11 +3,10 @@ title: Administración de empresa
 description: Optimice la administración y gestión de las organizaciones B2B con modelos operativos complejos.
 feature: B2B, Companies, Storefront
 role: Admin
-hidefromtoc: false
 exl-id: 8246be3d-ff9f-4f9f-875d-1b999befc534
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+source-git-commit: 970cc079f101011b5fd55b95715516342db4978e
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---

@@ -2,6 +2,8 @@
 cloud: Experience Cloud
 solution-title: Commerce
 solution: Commerce
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
 product: magento
 feature-set: Commerce
 type: Documentation
@@ -12,9 +14,9 @@ role: Admin, User
 level: Beginner, Intermediate
 topic: Commerce, Administration
 index: true
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+source-git-commit: 970cc079f101011b5fd55b95715516342db4978e
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: 145
 ht-degree: 0%
 
 ---
