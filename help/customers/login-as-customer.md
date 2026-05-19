@@ -22,7 +22,7 @@ Cualquier acción realizada mientras se inició sesión como cliente se aplica a
 
 [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
-Cuando está habilitado para un usuario de _Admin_, el botón _[!UICONTROL Login as Customer]_aparece en varias páginas:
+Cuando está habilitado para un usuario de _Admin_, el botón _[!UICONTROL Login as Customer]_&#x200B;aparece en varias páginas:
 
 * [Página Editar cliente](../customers/update-account.md)
 * [Página Vista de pedidos](../stores-purchase/order-processing.md)
