@@ -2,19 +2,19 @@
 cloud: Experience Cloud
 solution-title: Commerce
 solution: Commerce
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+usetq: true
 product: magento
 feature-set: Commerce
 type: Documentation
 audience: end-user
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/commerce-admin.es-ES
+git-repo: https://github.com/AdobeDocs/commerce-admin.en
 role: Admin, User
 level: Beginner, Intermediate
 topic: Commerce, Administration
 index: true
-source-git-commit: 970cc079f101011b5fd55b95715516342db4978e
+source-git-commit: 6eaf7778759fa9acee44853e9cba7926370d1eac
 workflow-type: tm+mt
 source-wordcount: 145
 ht-degree: 0%
