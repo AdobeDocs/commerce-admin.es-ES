@@ -3,9 +3,9 @@ title: Proporcionar asistencia al comprador
 description: Al utilizar la función Iniciar sesión como cliente, puede ver lo que ven los clientes y realizar actualizaciones en su nombre.
 exl-id: 6842ae7a-6440-45f1-af18-e6427088d29d
 feature: Customers, Customer Service
-source-git-commit: 29f3a8bb019d464e6d7646e0ebc7a4fa2ed0dd74
+source-git-commit: 5afc6801ccc55488ce6c209a71ec2ee67958ef5c
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Cualquier acción realizada mientras se inició sesión como cliente se aplica a
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
-Cuando está habilitado para un usuario de _Admin_, el botón _[!UICONTROL Login as Customer]_&#x200B;aparece en varias páginas:
+Cuando está habilitado para un usuario de _Admin_, el botón _[!UICONTROL Login as Customer]_aparece en varias páginas:
 
 * [Página Editar cliente](../customers/update-account.md)
 * [Página Vista de pedidos](../stores-purchase/order-processing.md)
@@ -34,7 +34,7 @@ Cuando está habilitado para un usuario de _Admin_, el botón _[!UICONTROL Login
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."}
 
 En Adobe Commerce as a Cloud Service, la función Iniciar sesión como cliente usa un flujo de trabajo de **código único (OTC)** en lugar de un inicio de sesión directo. Los administradores generan un código de un solo uso de corta duración para un cliente. Este código se puede intercambiar por un token de acceso de cliente a través de GraphQL, lo que permite un inicio de sesión sin contraseña como flujos de trabajo de cliente para escenarios de compras asistidas por el vendedor.
 
@@ -101,7 +101,7 @@ Para habilitar el acceso a la cuenta para el personal de asistencia técnica de 
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 1. El cliente va a la página **[!UICONTROL Account Information]**.
 
@@ -113,7 +113,7 @@ Para habilitar el acceso a la cuenta para el personal de asistencia técnica de 
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."}
 
 El cliente debe tener la extensión `login_as_customer_assistance_allowed` establecida en **2**. Esto se puede configurar en la página **Editar cliente** del Administrador o a través de GraphQL cuando se crea o edita un cliente.
 
@@ -133,7 +133,7 @@ Para establecer este permiso con GraphQL para una cuenta de cliente existente, e
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 1. En la barra lateral de _Administración_, vaya a **[!UICONTROL Customers]** > [!UICONTROL _Todos los clientes_].
 
@@ -149,7 +149,7 @@ Para establecer este permiso con GraphQL para una cuenta de cliente existente, e
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."}
 
 >[!NOTE]
 >
@@ -159,13 +159,13 @@ Para establecer este permiso con GraphQL para una cuenta de cliente existente, e
 
 1. Vaya a **[!UICONTROL Customers]** y seleccione un cliente para abrir la página de edición.
 
-1. En la página Editar cliente, haga clic en **[!UICONTROL Get Customer Login OTC]**.
+1. En la página Editar cliente, haga clic en **[!UICONTROL Generate Login Code]**.
 
-   ![Obtener el inicio de sesión del cliente en formato OTC en la página Editar cliente](assets/get-customer-login-otc-button.png){width="600" zoomable="yes"}
+   ![Obtener el inicio de sesión del cliente en formato OTC en la página Editar cliente](assets/get-customer-login-otc-button-new.png){width="600" zoomable="yes"}
 
 1. Escriba un **[!UICONTROL Reason]** (obligatorio) y haga clic en **[!UICONTROL Request]**.
 
-   ![Modo de solicitud OTC con campo de razón](assets/otc-reason-modal.png){width="600" zoomable="yes"}
+   ![Modo de solicitud OTC con campo de razón](assets/otc-reason-modal-new.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -173,11 +173,11 @@ Para establecer este permiso con GraphQL para una cuenta de cliente existente, e
 
 1. El OTC generado se muestra en el modal. Use este código con la mutación de GraphQL `generateCustomerToken` o `exchangeOtpForCustomerToken` para la autorización de clientes.
 
-   ![OTC generado mostrado en el modal](assets/otc-generated-code.png){width="300" zoomable="yes"}
+   ![OTC generado mostrado en el modal](assets/otc-generated-code-new.png){width="300" zoomable="yes"}
 
 >[!IMPORTANT]
 >
->El código de tiempo único OTC generado es válido durante 30 segundos de forma predeterminada y se invalida después de un solo uso. El TTL se puede configurar enviando un [ticket de soporte](https://experienceleague.adobe.com/home?lang=es&support-tab=home#support).
+>El código de tiempo único OTC generado es válido durante 60 segundos de forma predeterminada y se invalida después de un solo uso. El TTL se puede configurar enviando un [ticket de soporte](https://experienceleague.adobe.com/home?support-tab=home#support).
 
 Una vez generado el código de una sola vez, puede utilizarlo si navega hasta la tienda e inicia sesión con las siguientes credenciales:
 
@@ -194,7 +194,7 @@ Una vez generado el código de una sola vez, puede utilizarlo si navega hasta la
 
 _Iniciar sesión como cliente_ le permite ver el sitio del mismo modo que lo hace el cliente, así como solucionar problemas y llevar a cabo otras acciones para el cliente. Si tiene una función de usuario asignada con los permisos necesarios:
 
-1. Puede hacer clic en **[!UICONTROL Login as Customer]** en las páginas que aparecen en la sección anterior.
+1. Puede hacer clic en **[!UICONTROL Login as Customer]** o **[!UICONTROL Generate Login Code]** en las páginas enumeradas en la sección anterior.
 1. Las acciones Iniciar sesión como cliente están disponibles en el informe Acciones.
 
 >[!WARNING]
