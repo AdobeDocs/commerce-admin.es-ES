@@ -10,7 +10,7 @@ feature-set: Commerce
 type: Documentation
 audience: end-user
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/commerce-admin.en
+git-repo: https://github.com/AdobeDocs/commerce-admin.es-ES
 role: Admin, User
 level: Beginner, Intermediate
 topic: Commerce, Administration
