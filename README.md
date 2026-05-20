@@ -1,5 +1,5 @@
 ---
-source-git-commit: 78a5f453925aff65bd9b1341b6c796c3260d614d
+source-git-commit: 81482dab56e358bd81c1170029adaef0191509cb
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Si forma parte de la comunidad de Adobe y desea crear un nuevo artículo o envia
 
 ### Cambios importantes de los empleados de Adobe
 
-Si es redactor técnico, administrador de programa o desarrollador del equipo de producto para una solución de Adobe Experience Cloud y debe contribuir o crear artículos técnicos, debe utilizar el repositorio privado en `https://git.corp.adobe.com/AdobeDocs`.
+Si es redactor técnico, administrador de programa o desarrollador del equipo de producto para una solución de Adobe Experience Cloud y debe contribuir o crear artículos técnicos, debe utilizar el repositorio privado en `https://github.com/Adobe-Enterprise-Docs/commerce-admin.es-ES`.
 
 ## Herramientas y configuración
 
