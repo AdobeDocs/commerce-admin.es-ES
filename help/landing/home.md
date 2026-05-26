@@ -5,7 +5,7 @@ seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
 breadcrumb-title: Guías de usuario de administración
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
-source-git-commit: ca9114db6ab79e7edee6d9be4ce0c8f79b8c793d
+source-git-commit: 03bb78d1f0c138687e377cc751b4ca62ac87013d
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 0%
@@ -117,4 +117,4 @@ Magento Open Source es la base de código a la que Adobe contribuye oficialmente
 
 {{$include /help/_includes/templated/whats-new.md}}
 
-<!-- Last updated from includes: 2026-05-13 23:37:24 -->
+<!-- Last updated from includes: 2026-05-13 18:55:47 -->
