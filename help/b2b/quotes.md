@@ -3,9 +3,9 @@ title: Comillas negociables
 description: Obtenga información sobre los flujos de trabajo de presupuestos y cómo puede proporcionar este servicio a las cuentas de su empresa.
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-source-git-commit: 7f4993ff8b16beda2a371737fb5a8ecb5f9c9396
+source-git-commit: 0b93c90af4bface05fe1342ac756854f7f931989
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ El comprador o el vendedor pueden iniciar las cotizaciones.
 
 Este diagrama muestra los estados de las ofertas de un comprador y un vendedor (administrador) en los diferentes pasos que se siguen cuando se inicia una oferta.
 
-![Flujo de trabajo de estado de ofertas](./assets/quote-status-workflow.svg){width="700" zoomable="yes"}
+![Flujo de trabajo de estado de ofertas](./assets/quote-status-workflow.png){width="700" zoomable="yes"}
 
 **Paso 1: Creación de presupuesto (Nuevo)**
 
