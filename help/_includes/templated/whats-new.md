@@ -23,7 +23,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se han actualizado <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps">USPS</a> y las páginas de transportista de envío relacionadas para reflejar que la API de herramientas web de USPS se retiró el 25 de enero de 2026 y que las API de REST de USPS ahora son el único método de integración admitido.</p>
+      <td><p>Se han actualizado <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps">USPS</a> y las páginas de transportista de envío relacionadas para reflejar que la API de herramientas web de USPS se retiró el 25 de enero de 2026 y que las API de REST de USPS ahora son el único método de integración admitido.</p>
 </td>
       <td>
         Actualización principal, comentarios
@@ -31,7 +31,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/13155decdb96b62757e1044bb99dcddb1e1f8036">comprometer</a></td>
     </tr>
     <tr>
-      <td><p>Se han publicado las <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes#b2b-v153">notas de la versión de Adobe Commerce B2B v1.5.3</a>, que abarcan la importación y exportación de nuevos clientes de la empresa B2B, correcciones en ofertas negociables, pedidos de compra, listas de solicitudes, catálogos compartidos, administración de la empresa, carro y cierre de compra, módulo y GraphQL, además de cambiar la ruta de exportación de la lista de solicitudes a <code>var/export/requisition_lists/</code>.</p>
+      <td><p>Se han publicado las <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/b2b/release-notes#b2b-v153">notas de la versión de Adobe Commerce B2B v1.5.3</a>, que abarcan la importación y exportación de nuevos clientes de la empresa B2B, correcciones en ofertas negociables, pedidos de compra, listas de solicitudes, catálogos compartidos, administración de la empresa, carro y cierre de compra, módulo y GraphQL, además de cambiar la ruta de exportación de la lista de solicitudes a <code>var/export/requisition_lists/</code>.</p>
 </td>
       <td>
         Actualización importante
