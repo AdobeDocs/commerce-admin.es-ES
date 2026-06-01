@@ -3,20 +3,20 @@ title: Configuración de moneda
 description: Obtenga información sobre cómo establecer el ámbito de la moneda base y cómo especificar las monedas que acepta y la moneda que desea utilizar para la visualización de precios.
 exl-id: ba78095f-36eb-4e38-a6e8-72d85e0cf980
 feature: Currency, Configuration, Data Import/Export
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 0b93c90af4bface05fe1342ac756854f7f931989
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
 
 # Configuración de moneda
 
-Antes de configurar las tarifas de moneda individuales, primero debe establecer el ámbito de la [moneda base](../configuration-reference/general/currency-setup.md). Se establece como global de forma predeterminada, lo que aplica la configuración de moneda base a toda la [jerarquía de tiendas](../getting-started/websites-stores-views.md). Si tiene una instalación de Adobe Commerce o Magento Open Source multisitio, puede administrar varias divisas base estableciendo el ámbito en el nivel de sitio web.
+Antes de configurar las tarifas de moneda individuales, primero debe establecer el ámbito de la [moneda base](../configuration-reference/general/currency-setup.md). Se establece como global de forma predeterminada, lo que aplica la configuración de moneda base a toda la [jerarquía de tiendas](../getting-started/websites-stores-views.md). Si tiene una instalación de Adobe Commerce o Magento Open Source en varios sitios, puede administrar varias divisas base estableciendo el ámbito en el nivel de sitio web.
 
 También puede especificar las monedas que acepta y la moneda que desea utilizar para mostrar [precios](../catalog/catalog-price-scope.md) en su tienda. En el diagrama siguiente, el ámbito de la moneda base se establece en el nivel del sitio web, de modo que cada sitio web puede tener una moneda base diferente.
 
-![Diagrama del ámbito de la moneda](./assets/scope-currency-config.svg){width="600" zoomable="yes"}
+![Diagrama del ámbito de la moneda](./assets/scope-currency-config.png){width="600" zoomable="yes"}
 
 ## Paso 1: Selección de las divisas aceptadas
 
@@ -150,7 +150,7 @@ La gestión de símbolos de moneda le permite personalizar el símbolo asociado 
 
    - Escriba un símbolo personalizado para cada moneda que desee usar o active la casilla de verificación **[!UICONTROL Use Standard]** para cada moneda.
 
-   - Para anular el símbolo predeterminado, desactive la casilla de verificación _[!UICONTROL Use Standard]_&#x200B;e introduzca el símbolo que desee utilizar.
+   - Para anular el símbolo predeterminado, desactive la casilla de verificación _[!UICONTROL Use Standard]_e introduzca el símbolo que desee utilizar.
 
    >[!NOTE]
    >
