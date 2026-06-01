@@ -142,7 +142,7 @@ Solo se pueden rechazar las solicitudes de presupuesto con un estado `Open`.
 
 1. Seleccione cada solicitud de presupuesto abierta que desee rechazar.
 
-1. Establezca el control _[!UICONTROL Actions]_en `Declined`.
+1. Establezca el control _[!UICONTROL Actions]_&#x200B;en `Declined`.
 
 1. Cuando se le solicite, introduzca el motivo por el que se rechazó la oferta y haga clic en **[!UICONTROL Confirm]**.
 
