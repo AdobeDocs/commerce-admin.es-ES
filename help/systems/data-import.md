@@ -3,9 +3,9 @@ title: Importar datos
 description: Obtenga información sobre las directrices de importación de datos y cómo utilizar las operaciones de importación de datos.
 exl-id: caae8811-445e-49d4-aa90-226a355732bc
 feature: Products, Customers, Data Import/Export
-source-git-commit: 1c1327dbda76283ae28f761d1e523e049e0e492f
+source-git-commit: cb68f54b0dc5843151c2677a65e67af5e1844a9a
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1564'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,10 @@ Se pueden importar en la tienda datos de todos los tipos de productos. Además, 
 - Si no hay ningún valor, o hay un valor no válido, para un atributo requerido, el valor existente no se reemplaza.
 - Si los datos complejos de la entidad no son válidos, la entidad (la fila o filas correspondientes) no se puede importar, excepto en el caso de que se haya seleccionado Eliminar entidades en el menú desplegable Comportamiento de importación.
 
+>[!NOTE]
+>
+>En el caso de los catálogos grandes, omita las columnas `categories` y `url_key` del archivo de importación si no va a cambiar las asignaciones de categoría o las claves de dirección URL. Si alguna de las columnas está presente, Adobe Commerce vuelve a escribir las reescrituras de URL de cada producto del archivo. Ese trabajo adicional alarga la importación y puede provocar errores de tiempo de espera en Adobe Commerce en la nube.
+
 ### Datos complejos
 
 Si existe un atributo especificado en el archivo de importación y su valor se deriva de un conjunto definido de valores, se aplica lo siguiente:
@@ -52,8 +56,8 @@ Es posible que el proceso de importación de Adobe Commerce no reconozca correct
 
 | Operación | Descripción |
 | --------- | ----------- |
-| Agregar/actualizar | Los nuevos datos de producto se agregan a los datos de producto existentes para las entradas existentes en la base de datos. Se pueden actualizar todos los campos excepto `sku`.<br><br>Las nuevas clases de impuestos especificadas en los datos de importación se crean automáticamente.<br><br>Las nuevas categorías de productos especificadas en el archivo de importación se crean automáticamente.<br><br>Las nuevas SKU especificadas en el archivo de importación se crean automáticamente <br><br>**_Nota:_**&#x200B;Para los productos, puede actualizar todos los campos excepto la SKU mediante la importación.<br><br>**_Importante:_** No se pueden quitar varios valores de campo, como sitios web o categorías, mediante el comportamiento de importación _Agregar o actualizar_. Estos campos permanecen en la base de datos después de la importación si no aparecen en el archivo CSV. |
-| Reemplazar | Los datos de productos existentes se reemplazan con datos nuevos.<br><br>**_Importante:_**&#x200B;Tenga cuidado al reemplazar los datos porque se borran los datos existentes del producto y se pierden todas las referencias del sistema.<br><br>Si un SKU en los datos de importación coincide con el SKU de una entidad existente, todos los campos, incluido el SKU, se eliminan y se crea un nuevo registro con los datos CSV. Se produce un error si el archivo CSV hace referencia a un SKU que no existe en la base de datos. Puede Comprobar datos para mostrar el error. |
+| Agregar/actualizar | Los nuevos datos de producto se agregan a los datos de producto existentes para las entradas existentes en la base de datos. Se pueden actualizar todos los campos excepto `sku`.<br><br>Las nuevas clases de impuestos especificadas en los datos de importación se crean automáticamente.<br><br>Las nuevas categorías de productos especificadas en el archivo de importación se crean automáticamente.<br><br>Las nuevas SKU especificadas en el archivo de importación se crean automáticamente <br><br>**_Nota:_**Para los productos, puede actualizar todos los campos excepto la SKU mediante importación.<br><br>**_Importante:_** Los valores de varios campos, como sitios web o categorías, no se pueden quitar mediante el comportamiento de importación _Agregar/Actualizar_. Estos campos permanecen en la base de datos después de la importación si no aparecen en el archivo CSV. |
+| Reemplazar | Los datos de productos existentes se reemplazarán con datos nuevos.<br><br>**_Importante:_** Tenga cuidado al reemplazar los datos porque los datos de productos existentes se borran y se pierden todas las referencias del sistema.<br><br>Si un SKU en los datos de importación coincide con el SKU de una entidad existente, todos los campos, incluido el SKU, se eliminan y se crea un nuevo registro con los datos CSV. Se produce un error si el archivo CSV hace referencia a un SKU que no existe en la base de datos. Puede Comprobar datos para mostrar el error. |
 | Eliminar | Cualquier entidad de los datos de importación que exista en la base de datos se eliminará de la base de datos.<br><br>Eliminar ignora todas las columnas de los datos de importación, excepto la SKU. Puede ignorar todos los demás atributos de los datos.<br><br>Se produce un error si el archivo CSV hace referencia a un SKU que no existe en la base de datos. Puede Comprobar datos para mostrar el error. |
 
 {style="table-layout:auto"}
@@ -145,7 +149,7 @@ Al importar datos de productos, se agregan nuevos datos de productos a las entra
 
    >[!NOTE]
    >
-   >A partir de la versión de Adobe Commerce y el Magento Open Source `2.3.2`, la ruta especificada en _[!UICONTROL Images File Directory]_&#x200B;se concatena para importarla al directorio base de imágenes: `<Magento-root-folder>/var/import/images`. Por ejemplo, coloque los archivos de `product_images` en la carpeta `<Magento-root-directory>/var/import/images/product_images`. El directorio base de importación de imágenes se puede configurar en el archivo `\Magento\ImportExport\etc\config.xml`. Si el módulo Almacenamiento remoto está habilitado, importe los archivos a la carpeta `<remote-storage-root-directory>/var/import/images/product_images`.
+   >A partir de la versión de Adobe Commerce y Magento Open Source `2.3.2`, la ruta especificada en _[!UICONTROL Images File Directory]_se concatena para importarla al directorio base de imágenes: `<Magento-root-folder>/var/import/images`. Por ejemplo, coloque los archivos de `product_images` en la carpeta `<Magento-root-directory>/var/import/images/product_images`. El directorio base de importación de imágenes se puede configurar en el archivo `\Magento\ImportExport\etc\config.xml`. Si el módulo Almacenamiento remoto está habilitado, importe los archivos a la carpeta `<remote-storage-root-directory>/var/import/images/product_images`.
 
    Para obtener más información sobre cómo importar imágenes de productos, consulte [Importar imágenes de productos](data-import-product-images.md).
 
