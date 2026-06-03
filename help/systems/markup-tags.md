@@ -3,7 +3,7 @@ title: Etiquetas de marcado
 description: Obtenga información sobre las etiquetas de marcado que contienen fragmentos de código para hacer referencia a un objeto de su tienda.
 exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
-source-git-commit: 29e8d3eddc335f6d0027d0b2a146430fbfc03fde
+source-git-commit: 4a4333fcc8425123fd6a4d17bbccf54534017a7d
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 0%
@@ -120,12 +120,12 @@ Envuelva la etiqueta de marcado completada dentro de una etiqueta de anclaje con
 
 #### Marcado en la etiqueta de anclaje
 
-`<a href="{{markup tag goes here}}">Link Text\</a>`
+`<a href="{{markup tag goes here}}">Link Text</a>`
 
 Pegue la etiqueta de anclaje completada en el código de cualquier página de CMS, bloque, banner o plantilla de correo electrónico donde desee que aparezca el vínculo.
 
 ### Vínculo completo con marcado
 
-`<a href="{{store url='apparel/shoes'}}">Shoe Sale\</a>`
+`<a href="{{store url='apparel/shoes'}}">Shoe Sale</a>`
 
 <!-- Last updated from includes: 2022-08-30 15:36:09 -->
