@@ -3,9 +3,9 @@ title: Códigos de cupón
 description: Aprenda a utilizar códigos de cupones con reglas de precio de carro de compras para aplicar un descuento cuando se cumpla un conjunto de condiciones.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 9ba2b4f7847559e2c59c7bec3b87781c12270712
+source-git-commit: 5aad8247242294c42c36378a743f747dcd73647c
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '2338'
 ht-degree: 0%
 
 ---
@@ -181,6 +181,69 @@ Puede exportar códigos de cupones a un archivo CSV o XML de Excel seleccionando
 
 Para eliminar códigos de cupones, seleccione uno o varios códigos de la lista. Seleccione `Delete` del selector **[!UICONTROL Actions]** y haga clic en **[!UICONTROL Submit]**.
 
+### Método 3: Códigos de cupón personalizados
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."}
+
+Después de crear una [regla de precio de carro de compras](price-rules-cart.md), puede agregar manualmente códigos de cupones personalizados a la regla.
+
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;y seleccione la regla a la que desee agregar códigos de cupones personalizados.
+
+1. Expanda la sección **[!UICONTROL Manage Coupon Codes]** y haga clic en **[!UICONTROL Add Coupon Code]**.
+
+   ![códigos de cupones personalizados](./assets/custom-coupon-codes.png){width="600" zoomable="yes"}
+
+1. En el cuadro de diálogo **[!UICONTROL Add Custom Coupon]**, escriba el código de cupón que desee utilizar para la regla de precio del carro de compras y haga clic en **[!UICONTROL Save]**.
+
+   ![agregar códigos de cupón](./assets/add-custom-coupon.png){width="600" zoomable="yes"}
+
+1. Haga clic en **[!UICONTROL Save]** para actualizar la regla de precios del carro de compras.
+
+Para eliminar códigos de cupones personalizados, seleccione los códigos que desea eliminar en la cuadrícula y, a continuación, seleccione **[!UICONTROL Delete]** del selector **[!UICONTROL Actions]**.
+
+Para editar códigos de cupones personalizados o ver detalles de uso, haga clic en **[!UICONTROL Edit]** en la columna **[!UICONTROL Actions]**.
+
+&lt;InlineAlert variant="info" slots="text"/>
+
+El código de cupón principal que pertenece a la regla de precio del carro de compras no se puede editar ni eliminar.
+
+![editar códigos de cupones](./assets/edit-coupon-code.png){width="600" zoomable="yes"}
+
+#### Importación masiva de códigos de cupones personalizados
+
+Si tiene una lista de códigos de cupones predefinidos, puede adjuntarlos a la regla de precio del carro de compras desde un archivo CSV en lugar de agregar cada código individualmente. El archivo CSV debe constar de una sola columna con los códigos de cupones.
+
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;y seleccione la regla en la que desea importar los códigos de cupones personalizados.
+
+1. Expanda la sección **[!UICONTROL Manage Coupon Codes]** y haga clic en **[!UICONTROL Import]**.
+
+   >[!NOTE]
+   >
+   >El botón **[!UICONTROL Import]** está disponible en las reglas de precios del carro de compras guardadas con **[!UICONTROL Coupon]** establecido en `Specific Coupon` y **[!UICONTROL Use Auto Generation]** desactivado.
+
+1. En el cuadro de diálogo **[!UICONTROL Import Coupons]**, haga clic en **[!UICONTROL Choose File]** y seleccione el archivo CSV que contiene los códigos de cupones que desea importar.
+
+   El archivo CSV debe cumplir los siguientes requisitos:
+
+   | Requisito | Valor |
+   | ------------- | ------- |
+   | Número máximo de códigos por archivo | 1,000 |
+   | Tamaño máximo de archivo | 512 KB |
+   | Longitud máxima del código | 255 caracteres por código |
+   | Códigos duplicados | No permitido dentro del mismo archivo |
+
+   {style="table-layout:auto"}
+
+   Una vez seleccionado el archivo, el cuadro de diálogo muestra un **[!UICONTROL Preview]** con el número de códigos listos para importar y un ejemplo de los primeros códigos del archivo.
+
+   ![Cuadro de diálogo Importar cupones](./assets/import-custom-coupons.png){width="600" zoomable="yes"}
+
+1. Haga clic en **[!UICONTROL Import]**. El cuadro de diálogo muestra un resumen con el número de códigos en cola para la importación y una lista de los códigos existentes que se omitieron.
+
+   ![Importar resultado de cupones](./assets/import-coupons-result.png){width="600" zoomable="yes"}
+
+Para supervisar el progreso y los resultados detallados de la importación, haga clic en **[!UICONTROL View progress in Bulk Actions Log]** o vaya a **[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**. Cada importación aparece como una sola entrada en **[!UICONTROL Bulk Actions]**&#x200B;y seleccione una entrada.
+
 ## Informe de cupones
 
 El informe _Cupones_ agrega datos de cada cupón que se usa durante un intervalo de fechas específico. Como los cupones se aplican desde el carro de compras, el informe incluye datos de todos los cupones canjeados, independientemente de [estado del pedido](../stores-purchase/order-status.md). En consecuencia, el informe podría incluir tanto los totales previstos como los reales. El informe se puede filtrar para una vista de tienda, un período de tiempo, un estado de pedido y una regla de precio de carro de compras específicos.
@@ -243,7 +306,7 @@ En el ejemplo siguiente, dos clientes utilizaron el código de cupón &quot;H20&
 | [!UICONTROL To] | Indica la última fecha del rango de datos de pedido que se incluye en el informe. |
 | [!UICONTROL Order Status] | Filtra el informe por estado de pedido. El informe se puede generar para todos los pedidos o se puede limitar a un estado de pedido específico. Opciones: <br/>**[!UICONTROL Any]**: incluye todos los pedidos independientemente del estado.<br/>**[!UICONTROL Specified]**: incluye solo pedidos con el estado especificado. Los pedidos cancelados no se incluyen en el informe. |
 | [!UICONTROL Empty Rows] | Determina si el informe incluye filas de datos vacíos que podrían recuperarse. Opciones: `Yes` / `No` |
-| [!UICONTROL Cart Price Rules] | Determina qué promociones de cupones se incluyen en el informe. Opciones:<br/>**[!UICONTROL Any]**: incluye información de pedido para cualquier promoción de cupones que se haya utilizado durante el intervalo de fechas especificado.<br/>**[!UICONTROL Specified]**: solo incluye información de pedido para la promoción de cupones seleccionada durante el intervalo de fechas especificado. |
+| [!UICONTROL Cart Price Rules] | Determina qué promociones de cupones se incluyen en el informe. Opciones:<br/>**[!UICONTROL Any]**: incluye información de pedido para cualquier promoción de cupones que se haya utilizado durante el intervalo de fechas especificado.<br/>**[!UICONTROL Specified]**: incluye sólo información de pedido para la promoción de cupones seleccionada durante el intervalo de fechas especificado. |
 
 {style="table-layout:auto"}
 
@@ -257,7 +320,7 @@ En el ejemplo siguiente, dos clientes utilizaron el código de cupón &quot;H20&
 | [!UICONTROL Uses] | El número de veces que se ha utilizado el cupón durante el intervalo de fechas especificado para el informe. |
 | [!UICONTROL Sales Subtotal] | El subtotal proyectado de todos los pedidos realizados con el cupón. <br/>El subtotal de ventas representa el subtotal agregado de todos los pedidos calificados e incluye `Pending` pedidos de ventas que aún no se han facturado. |
 | [!UICONTROL Sales Discount] | El importe de descuento proyectado de todos los pedidos realizados con el cupón. <br/>El descuento representa el importe de descuento agregado de todos los pedidos calificados e incluye `Pending` pedidos de venta que aún no se han facturado. |
-| [!UICONTROL Sales Total] | El total general proyectado de todos los pedidos realizados con el cupón. El total de ventas incluye cualquier tarifa de envío y manipulación, menos el importe del descuento. <br/>El total de ventas representa el total general agregado de todos los pedidos calificados e incluye `Pending` pedidos de ventas que aún no se han facturado. El valor incluye el subtotal más gastos de envío y manipulación, menos el descuento, más impuestos. <br/> calculado por: `((Subtotal + Shipping & Handling) - Discount) + Tax` |
+| [!UICONTROL Sales Total] | El total general proyectado de todos los pedidos realizados con el cupón. El total de ventas incluye cualquier tarifa de envío y manipulación, menos el importe del descuento. <br/>El total de ventas representa el total general agregado de todos los pedidos calificados e incluye `Pending` pedidos de ventas que aún no se han facturado. El valor incluye el subtotal más gastos de envío y manipulación, menos el descuento, más impuestos. <br/> Calculado por: `((Subtotal + Shipping & Handling) - Discount) + Tax` |
 | [!UICONTROL Subtotal] | El subtotal agregado de todos los pedidos facturados que utilizaron el cupón. |
 | [!UICONTROL Discount] | El descuento agregado de todos los pedidos facturados que utilizaron el cupón. |
 | [!UICONTROL Total] | El total del pedido agregado de todos los pedidos facturados que utilizaron el cupón. |
