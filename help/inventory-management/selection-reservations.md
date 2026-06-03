@@ -3,9 +3,9 @@ title: Algoritmos y reservas de Source
 description: Obtenga información sobre los sistemas de Algoritmo de selección y Reservas de Source que se ejecutan en segundo plano para mantener actualizadas las cantidades vendibles.
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+source-git-commit: a8e9389ee2b94f816915de3e61516004d2b32e9d
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -18,20 +18,24 @@ El corazón de [!DNL Inventory Management] rastrea todos los productos disponibl
 >
 >Consulte la [documentación para desarrolladores](https://developer.adobe.com/commerce/php/development/framework/inventory-management/) para obtener información sobre cómo trabajar con el sistema [!DNL Inventory Management] mediante programación.
 
-## Algoritmo de selección de Source
+## algoritmo de selección de Source
 
 El algoritmo de selección de Source (SSA) analiza y determina la mejor coincidencia para los orígenes y envíos utilizando el orden de prioridad de los orígenes configurados en una acción. Durante el envío del pedido, el algoritmo proporciona una lista recomendada de orígenes, cantidades disponibles e importes a deducir según el algoritmo seleccionado. [!DNL Inventory Management] proporciona un algoritmo de Prioridad y admite extensiones para las nuevas opciones.
 
 Con múltiples ubicaciones de origen, clientes globales y proveedores de servicios con diversas opciones y tarifas de envío, conocer el inventario disponible real y encontrar la mejor opción de envío puede ser difícil. SSA realiza el trabajo por usted, desde el seguimiento de las cantidades comercializables en inventario en todas las fuentes hasta el cálculo y la realización de recomendaciones para los envíos.
 
-**Seguimiento del inventario**: usando existencias y orígenes, el SSA comprueba el canal de ventas de las solicitudes de productos entrantes y determina el inventario disponible:
+### Seguimiento del inventario
+
+Utilizando las existencias y las fuentes, el SSA comprueba el canal de ventas de las solicitudes de productos entrantes y determina el inventario disponible:
 
 - Calcula la cantidad vendible virtual agregada de todos los orígenes asignados por stock: agregados Cantidad - Umbral de Agotado por origen
 - Resta la cantidad del umbral de falta de existencias de la cantidad vendible para protegerla contra las ventas excesivas
 - Reserva las cantidades de inventario en la presentación del pedido, deduciendo del inventario en existencias en el procesamiento y envío del pedido
 - Admite pedidos pendientes con opciones mejoradas para umbrales negativos
 
-**Administrar envíos**: el algoritmo ayuda a procesar y enviar pedidos. Puede ejecutar el algoritmo para obtener recomendaciones sobre las mejores fuentes para enviar el producto o anular las selecciones para:
+### Administrar envíos
+
+El algoritmo ayuda a procesar y enviar pedidos. Puede ejecutar el algoritmo para obtener recomendaciones sobre las mejores fuentes para enviar el producto o anular las selecciones para:
 
 - Envíe envíos parciales, enviando solo unos pocos productos desde ubicaciones específicas y completando el pedido completo más tarde
 - Enviar todo el pedido desde un origen
@@ -43,7 +47,7 @@ SSA es extensible para soporte de terceros y algoritmos personalizados para reco
 >
 >SSA funciona de manera diferente para productos virtuales y descargables, que pueden no incurrir en gastos de envío. En estos casos, el sistema ejecuta el algoritmo de forma implícita cuando crea facturas y siempre utiliza los resultados sugeridos. No puede ajustar estos resultados para productos virtuales y descargables.
 
-### Algoritmo de prioridad de Source
+### algoritmo de prioridad de Source
 
 Las existencias personalizadas incluyen una lista asignada de fuentes para vender y enviar el inventario de productos disponible a través de su tienda. El algoritmo de prioridad de Source utiliza el orden de los orígenes asignados en el inventario para recomendar deducciones de productos por origen al facturar y enviar el pedido.
 
@@ -54,7 +58,7 @@ Cuando se ejecuta, el algoritmo:
 - Continúa en la lista hasta que se completa el envío del pedido
 - Omite los orígenes deshabilitados si se encuentran en la lista
 
-Para configurar, asignar y ordenar orígenes a un stock personalizado. Consulte [Priorización de orígenes para un recurso](stocks-prioritize-sources.md).
+Para configurar, asignar y ordenar orígenes a un inventario personalizado, vea [Priorizar orígenes para un inventario](stocks-prioritize-sources.md).
 
 En el siguiente ejemplo se detallan los orígenes asignados en orden, la cantidad disponible y el origen y la cantidad recomendados para deducir y enviar. La fuente principal es un Drop Shipper en el Reino Unido con una cantidad disponible de 240.
 
@@ -62,13 +66,13 @@ En el siguiente ejemplo se detallan los orígenes asignados en orden, la cantida
 
 ### Algoritmo de prioridad de distancia
 
-El algoritmo de prioridad de distancia compara la ubicación de la dirección de destino de envío con las ubicaciones de origen para determinar el origen más cercano para realizar envíos. La distancia puede determinarse por la distancia física o el tiempo que se pasa viajando de un lugar a otro, utilizando ubicaciones importadas de la base de datos o direcciones de Google (conducir, caminar o montar en bicicleta).
+El algoritmo de prioridad de distancia compara la ubicación de la dirección de destino de envío con las ubicaciones de origen para determinar el origen más cercano para cumplir los envíos. La distancia puede determinarse por la distancia física o el tiempo que se pasa viajando de un lugar a otro, utilizando ubicaciones importadas de la base de datos o direcciones de Google (conducir, caminar o montar en bicicleta).
 
 Tiene dos opciones para calcular la distancia y el tiempo para encontrar el origen más cercano para la satisfacción del envío:
 
-- **Google MAP** - Usa los servicios de [Google Maps Platform](https://cloud.google.com/maps-platform/) para calcular la distancia y el tiempo entre la dirección de destino de envío y las ubicaciones de origen (dirección y coordenadas GPS). Esta opción utiliza la latitud y la longitud de origen. Se requiere una clave de API de Google con [API de geocodificación](https://developers.google.com/maps/documentation/geocoding/start) y [API de matriz de distancia](https://developers.google.com/maps/documentation/distance-matrix/start) habilitadas. Esta opción requiere un plan de facturación de Google y puede incurrir en cargos a través de Google.
+- [!UICONTROL Google MAP]: utiliza los servicios de [Google Maps Platform](https://cloud.google.com/maps-platform/) para calcular la distancia y el tiempo entre la dirección de destino de envío y las ubicaciones de origen (dirección y coordenadas GPS). Esta opción utiliza la latitud y la longitud de origen. Se requiere una clave de API de Google con [API de geocodificación](https://developers.google.com/maps/documentation/geocoding/start) y [API de matriz de distancia](https://developers.google.com/maps/documentation/distance-matrix/start) habilitadas. Esta opción requiere un plan de facturación de Google y puede incurrir en cargos a través de Google.
 
-- **Cálculo sin conexión**: calcula la distancia mediante datos de geocódigo descargados e importados para determinar el origen más cercano a la dirección de destino de envío. Esta opción utiliza los códigos de país de la dirección de envío y el origen. Para configurar esta opción, es posible que necesite asistencia del desarrollador para descargar e importar inicialmente geocódigos mediante una línea de comandos.
+- [!UICONTROL Offline Calculation]: calcula la distancia utilizando los datos de geocódigo descargados e importados para determinar el origen más cercano a la dirección de destino de envío. Esta opción utiliza los códigos de país de la dirección de envío y el origen. Para configurar esta opción, es posible que necesite asistencia del desarrollador para descargar e importar inicialmente geocódigos mediante una línea de comandos.
 
 Para configurarlo, seleccione las configuraciones y complete los pasos adicionales, como la clave de API de Google o la descarga de datos de envío. Consulte [Configurar el algoritmo de prioridad de distancia](distance-priority-algorithm.md).
 
@@ -82,7 +86,7 @@ En lugar de deducir o añadir inmediatamente las cantidades de inventario de pro
 
 >[!NOTE]
 >
->[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} La capacidad de reserva requiere que el consumidor de cola de mensajes `inventory.reservations.updateSalabilityStatus` se ejecute continuamente. Para comprobar si se está ejecutando, utilice el comando `bin/magento queue:consumers:list`. Si el consumidor de cola de mensajes no aparece en la lista, inícielo: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
+>[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} La capacidad de reserva requiere que el consumidor de cola de mensajes `inventory.reservations.updateSalabilityStatus` se ejecute continuamente. Para comprobar si se está ejecutando, utilice el comando `bin/magento queue:consumers:list`. Si el consumidor de cola de mensajes no aparece en la lista, inícielo: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
 
 ### Reservas de pedidos
 
@@ -112,7 +116,7 @@ Antes de que el sistema pueda emitir una reserva en respuesta a un nuevo pedido,
 
 - **Cantidad de StockItem**. La cantidad de StockItem es la cantidad agregada de inventario de todos los orígenes físicos para el canal de ventas actual. Veamos un ejemplo en el que la fuente de Baltimore tiene 20 unidades de un producto, la fuente de Austin tiene 25 unidades del mismo producto y la fuente de Reno tiene 10. Cuando todos estos orígenes están vinculados a Stock A, el recuento de StockItem de este producto es 55 (20 + 25 + 10). (Cuando se envían artículos, el indexador de inventario actualiza las cantidades disponibles en cada origen).
 
-- **Reservas pendientes**. El sistema totaliza todas las reservas iniciales que no han sido compensadas. Este número siempre es negativo. Si el cliente A tiene una reserva de diez artículos y el cliente B tiene una reserva de cinco para los artículos, las reservas pendientes del producto totalizan -15.
+- **Reservas pendientes**. El sistema totaliza todas las reservas iniciales que no han sido compensadas. Este número siempre es negativo. Si el cliente A tiene una reserva para diez artículos y el cliente B tiene una reserva para cinco artículos, las reservas pendientes del producto totalizan -15.
 
 Por lo tanto, el comerciante puede satisfacer un pedido entrante siempre y cuando el cliente pida menos de 40 unidades (55 + -15).
 
@@ -140,13 +144,12 @@ Los metadatos `event_type` pueden tener los siguientes valores:
 
 - `order_placed`
 - `order_canceled`
+- `order_place_failed`
 - `shipment_created`
 - `creditmemo_created`
 - `invoice_created`
 
-Actualmente, el tipo de objeto de metadatos debe ser `order` y el identificador de objeto es el identificador de pedido.
-
-En futuras versiones, podría ser posible crear una reserva cuando un cliente añada un artículo a un carro de compras. Cada artículo puede reservarse por un tiempo fijo, como 15 minutos, lo que permite al cliente reservar artículos mientras continúa comprando. Cuando este tipo de reserva está habilitado, los metadatos pueden contener tipos de información adicionales.
+Los metadatos `object_type` deben ser `order` y `object_id` es el identificador de pedido.
 
 ## Ciclo de reserva
 
@@ -162,7 +165,7 @@ El siguiente ejemplo muestra la secuencia de reservas generadas para un pedido s
    event_type = order_placed
    ```
 
-1. El cliente envía una factura de 20 artículos, básicamente cancelando 5 de las unidades solicitadas.
+1. El cliente envía una factura de 20 artículos, básicamente cancelando cinco de las unidades solicitadas.
 
    ```text
    reservation_id = 2
@@ -188,7 +191,7 @@ Los tres valores de `quantity` suman 0 (-25 + 5 + 20). El sistema no modifica ni
 
 El trabajo cron `inventory_cleanup_reservations` ejecuta consultas SQL para borrar la tabla de la base de datos de reservas. De forma predeterminada, se ejecuta a diario a medianoche, pero puede configurar las horas y la frecuencia. El trabajo cron ejecuta un script que consulta la base de datos para encontrar secuencias de reserva completas en las que la suma de los valores de cantidad es 0. Cuando se hayan compensado todas las reservas de un producto determinado originado el mismo día (u otra hora configurada), el trabajo cron elimina todas las reservas a la vez.
 
-El trabajo cron `inventory_reservations_cleanup` no es el mismo que el consumidor de cola de mensajes `inventory.reservations.cleanup`. El consumidor elimina las reservas de forma asíncrona por SKU de producto después de eliminar un producto, mientras que el trabajo cron borra toda la tabla de reservas. El consumidor es necesario cuando se habilita la opción de existencias [**Sincronizar con el catálogo**](../configuration-reference/catalog/inventory.md) en la configuración de la tienda. Consulte [Administrar colas de mensajes](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=es) en la _Guía de configuración_.
+El trabajo cron `inventory_reservations_cleanup` no es el mismo que el consumidor de cola de mensajes `inventory.reservations.cleanup`. El consumidor elimina las reservas de forma asíncrona por SKU de producto después de eliminar un producto, mientras que el trabajo cron borra toda la tabla de reservas. El consumidor es necesario cuando se habilita la opción de existencias [**Sincronizar con el catálogo**](../configuration-reference/catalog/inventory.md) en la configuración de la tienda. Consulte [Administrar colas de mensajes](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html){target="_blank"} en la _Guía de configuración_.
 
 A menudo, todas las reservas iniciales producidas en un solo día no pueden compensarse ese mismo día. Esta situación puede ocurrir cuando un cliente realiza un pedido justo antes de que comience el trabajo cron o realiza la compra con un método de pago sin conexión, como una transferencia bancaria. Las secuencias de reservas compensadas permanecen en la base de datos hasta que todas se compensan. Esta práctica no interfiere con los cálculos de reserva, ya que el total de cada reserva es 0.
 
@@ -202,11 +205,11 @@ A medida que se completan los cambios en los pedidos e importes del producto, [!
 
 Así es como funcionan:
 
-- **Pedido enviado**: cuando se envía un pedido de varios productos, se introduce una reserva por esa cantidad. Por ejemplo, al pedir cinco mochilas desde un sitio web de EE. UU., se introduce una reserva de `-5` para ese SKU y existencias. La cantidad vendible se reduce en 5.
+- *Pedido enviado*: cuando se envía un pedido de varios productos, se introduce una reserva por esa cantidad. Por ejemplo, al pedir cinco mochilas desde un sitio web de EE. UU., se introduce una reserva de `-5` para ese SKU y existencias. La cantidad vendible se reduce en 5.
 
-- **Pedido cancelado**: cuando se cancela un pedido (total o parcialmente), se introduce una reserva de compensación para borrar esa cantidad. Por ejemplo, si cancela tres mochilas, se introduce una reserva +3 para ese SKU y stock y se borra la retención. La cantidad vendible se incrementa en 3.
+- *Pedido cancelado*: cuando se cancela un pedido (total o parcialmente), se introduce una reserva de compensación para borrar esa cantidad. Por ejemplo, si cancela tres mochilas, se introduce una reserva +3 para ese SKU y stock y se borra la retención. La cantidad vendible se incrementa en 3.
 
-- **Pedido enviado**: cuando se envía un pedido (total o parcialmente), se introduce una reserva de compensación para borrar esa cantidad. Por ejemplo, si se envían dos mochilas, se introduce una reserva +2 para ese SKU y stock y se elimina la retención. La cantidad del producto se reduce directamente en 2 para el envío. La cantidad vendible calculada también se actualiza para la cantidad de stock reducida, pero ya no se ve afectada por la reserva.
+- *Pedido enviado*: cuando se envía un pedido (total o parcialmente), se introduce una reserva de compensación para borrar esa cantidad. Por ejemplo, si se envían dos mochilas, se introduce una reserva +2 para ese SKU y stock y se elimina la retención. La cantidad del producto se reduce directamente en 2 para el envío. La cantidad vendible calculada también se actualiza para la cantidad de stock reducida, pero ya no se ve afectada por la reserva.
 
 ![Actualizaciones de la reserva](assets/diagram-reservation.png){width="600" zoomable="yes"}
 
@@ -219,6 +222,5 @@ Todas las reservas deben ser compensadas por compensaciones cuando los pedidos c
 Si elimina todas las fuentes de un producto para un stock con pedidos pendientes, es posible que tenga reservas atascadas.
 
 {{$include /help/_includes/unassign-source.md}}
-
 
 <!-- Last updated from includes: 2022-08-30 15:36:09 -->
