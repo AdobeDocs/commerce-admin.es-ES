@@ -3,7 +3,7 @@ title: Códigos de cupón
 description: Aprenda a utilizar códigos de cupones con reglas de precio de carro de compras para aplicar un descuento cuando se cumpla un conjunto de condiciones.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 5aad8247242294c42c36378a743f747dcd73647c
+source-git-commit: d3f6c3468fa63068018e854820e932b897f925bd
 workflow-type: tm+mt
 source-wordcount: '2338'
 ht-degree: 0%
@@ -226,7 +226,7 @@ Si tiene una lista de códigos de cupones predefinidos, puede adjuntarlos a la r
    El archivo CSV debe cumplir los siguientes requisitos:
 
    | Requisito | Valor |
-   | ------------- | ------- |
+   |-------------|-------|
    | Número máximo de códigos por archivo | 1,000 |
    | Tamaño máximo de archivo | 512 KB |
    | Longitud máxima del código | 255 caracteres por código |
