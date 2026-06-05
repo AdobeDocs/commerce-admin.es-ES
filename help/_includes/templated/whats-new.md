@@ -1,8 +1,8 @@
 ---
-source-git-commit: 22d954e993e915fc76355ecea03a4382303c8ef5
+source-git-commit: b824e3f0d3c14b75910af9a2def17ce21b599d9b
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 1%
+source-wordcount: '250'
+ht-degree: 2%
 
 ---
 # Novedades de la plantilla
@@ -10,6 +10,50 @@ ht-degree: 1%
 ## Novedades
 
 Esta sección contiene los cambios realizados en los últimos 60 días. Excluimos todas las actualizaciones menores, como la edición de copias, de esta lista.
+
+### 3 de junio de 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Descripción</th>
+      <th>Tipo</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Se ha agregado la capacidad de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes">crear códigos de cupones personalizados</a> en Adobe Commerce as a Cloud Service.</p>
+</td>
+      <td>
+        Actualización importante
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/4b59525dc5d2d9a8ec1fe4271bf4c9dee8e02c15">comprometer</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2 de junio de 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Descripción</th>
+      <th>Tipo</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Se ha actualizado la documentación de Commerce <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import">importación de datos</a> con instrucciones sobre cómo evitar la generación innecesaria de reescritura de URL durante las operaciones de importación.</p>
+</td>
+      <td>
+        Comentarios, asistencia técnica
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/b224cff0c5db4c1b318d3e7165aa34f4662f7e3e">comprometer</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 12 de mayo de 2026
 
@@ -23,7 +67,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se han actualizado <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps">USPS</a> y las páginas de transportista de envío relacionadas para reflejar que la API de herramientas web de USPS se retiró el 25 de enero de 2026 y que las API de REST de USPS ahora son el único método de integración admitido.</p>
+      <td><p>Se han actualizado <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps">USPS</a> y las páginas de transportista de envío relacionadas para reflejar que la API de herramientas web de USPS se retiró el 25 de enero de 2026 y que las API de REST de USPS ahora son el único método de integración admitido.</p>
 </td>
       <td>
         Actualización principal, comentarios
@@ -31,7 +75,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/13155decdb96b62757e1044bb99dcddb1e1f8036">comprometer</a></td>
     </tr>
     <tr>
-      <td><p>Se han publicado las <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/b2b/release-notes#b2b-v153">notas de la versión de Adobe Commerce B2B v1.5.3</a>, que abarcan la importación y exportación de nuevos clientes de la empresa B2B, correcciones en ofertas negociables, pedidos de compra, listas de solicitudes, catálogos compartidos, administración de la empresa, carro y cierre de compra, módulo y GraphQL, además de cambiar la ruta de exportación de la lista de solicitudes a <code>var/export/requisition_lists/</code>.</p>
+      <td><p>Se han publicado las <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes#b2b-v153">notas de la versión de Adobe Commerce B2B v1.5.3</a>, que abarcan la importación y exportación de nuevos clientes de la empresa B2B, correcciones en ofertas negociables, pedidos de compra, listas de solicitudes, catálogos compartidos, administración de la empresa, carro y cierre de compra, módulo y GraphQL, además de cambiar la ruta de exportación de la lista de solicitudes a <code>var/export/requisition_lists/</code>.</p>
 </td>
       <td>
         Actualización importante
