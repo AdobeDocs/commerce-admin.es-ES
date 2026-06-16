@@ -268,4 +268,4 @@ En la sección **[!UICONTROL Order Total]**, haga lo siguiente:
 
 Vea este vídeo y obtenga más información sobre el procesamiento y el estado de los pedidos:
 
->[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410796/?captions=spa&quality=12&learn=on)

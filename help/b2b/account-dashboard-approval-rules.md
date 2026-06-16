@@ -163,4 +163,4 @@ Para eliminar una regla de aprobación existente, un cliente puede completar los
 
 Vea este vídeo para obtener más información sobre las aprobaciones de pedidos de compra:
 
->[!VIDEO](https://video.tv.adobe.com/v/344450?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410764?captions=spa&quality=12&learn=on)

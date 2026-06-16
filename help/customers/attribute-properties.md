@@ -189,4 +189,4 @@ Los atributos del cliente proporcionan la información necesaria para respaldar 
 
 Vea este vídeo para ver una demostración de la creación de atributos del cliente:
 
->[!VIDEO](https://video.tv.adobe.com/v/343661?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411827?captions=spa&quality=12&learn=on)

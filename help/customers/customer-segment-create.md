@@ -218,4 +218,4 @@ _&#x200B;**[!UICONTROL Matched Customers]cuadrícula &#x200B;** _
 
 Vea este vídeo para ver una demostración de la creación de segmentos de clientes:
 
->[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411828/?captions=spa&quality=12&learn=on)

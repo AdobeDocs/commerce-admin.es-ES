@@ -173,7 +173,7 @@ Los administradores de la compañía pueden ver su información de crédito en e
 
 Obtenga información acerca de la administración del crédito de la empresa viendo este vídeo de demostración:
 
->[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410758?captions=spa&quality=12&learn=on)
 
 ## Consideraciones de seguridad
 
