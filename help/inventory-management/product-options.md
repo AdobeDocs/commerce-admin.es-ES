@@ -1,11 +1,26 @@
 ---
-title: "Configurar  [!DNL Inventory Management] opciones de producto"
+title: Configurar  [!DNL Inventory Management] opciones de producto
 description: Aprenda a configurar las  [!DNL Inventory Management] opciones de configuración del producto.
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products
-source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
+TQID: https://experienceleague.adobe.com/Fz3Z2nuzHQygjnE5EZYNYi2riXQ1fV2Ufn0sNmjns2s
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: 910
 ht-degree: 0%
 
 ---
@@ -49,7 +64,7 @@ Configure las cantidades y la configuración adicional por [origen agregado](sou
 | [!UICONTROL Source Code] | Global | Código único de un [origen](sources-manage.md). |
 | [!UICONTROL Name] | Global | El nombre único de un origen. |
 | [!UICONTROL Status] | Global | El producto está activado o desactivado en el catálogo. |
-| [!UICONTROL Source Item Status] | Global | Determina la disponibilidad actual del producto. Opciones:<br />`In Stock` - Hace que el producto esté disponible para la compra.<br />`Out of Stock`: a menos que se activen los pedidos no satisfechos, impide que el producto esté disponible para la compra y elimina el listado del catálogo. |
+| [!UICONTROL Source Item Status] | Global | Determina la disponibilidad actual del producto. Opciones:<br />`In Stock` - Hace que el producto esté disponible para la compra.<br />`Out of Stock` - A menos que se activen los pedidos no satisfechos, impide que el producto esté disponible para la compra y elimina el listado del catálogo. |
 | [!UICONTROL Qty] | Global | Cantidades de stock disponibles para cada origen o ubicación. |
 | [!UICONTROL Notify Quantity] | Global | Una cantidad para _[!UICONTROL Notify for Quantity Below]_&#x200B;para este origen específico si&#x200B;_[!UICONTROL Notify Quantity Use Default]_ no está seleccionado. |
 | [!UICONTROL Notify Quantity Use Default] | Global | Indica que se debe usar la configuración predeterminada para _[!UICONTROL Notify for Quantity Below]_&#x200B;en el producto&#x200B;_[!UICONTROL Advanced Inventory]_ o la configuración global en la configuración del almacén. |
@@ -114,7 +129,7 @@ Configure las cantidades y la configuración adicional por [origen agregado](sou
 | [!UICONTROL Maximum Qty Allowed in Shopping Cart] | Global | Determina el número máximo de productos que se pueden comprar en un único pedido. |
 | [!UICONTROL Qty Uses Decimals] | Global | Determina si los clientes pueden utilizar un valor decimal en lugar de un número entero al introducir la cantidad pedida. Opciones: <br />`Yes`: permite que los valores se especifiquen como decimales, en lugar de como números enteros. Los decimales son adecuados para los productos vendidos por peso, volumen o longitud.<br />`No` - Requiere que los valores de cantidad se especifiquen como números enteros. |
 | [!UICONTROL Allow Multiple Boxes for Shipping] | Global | Determina si las partes del producto se pueden enviar por separado. Esta opción está visible cuando **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
-| [!UICONTROL Backorders] | Global | Determina cómo se administran los pedidos pendientes. Los pedidos no satisfechos no cambian el estado de procesamiento del pedido. Los fondos se siguen autorizando o capturando inmediatamente cuando se realiza el pedido, independientemente de si el producto está en stock. Los productos se envían cuando están disponibles. Cuando está activada, se recomienda introducir una cantidad negativa para el umbral de Agotado. Opciones: <br/>`No Backorders` - No acepta pedidos pendientes cuando el producto está agotado.<br />`Allow Qty Below 0` - Acepta pedidos no satisfechos cuando la cantidad cae por debajo de cero.<br />`Allow Qty Below 0 and Notify Customer`: acepta pedidos no satisfechos cuando la cantidad es inferior a cero, pero notifica a los clientes que aún se pueden realizar pedidos. |
+| [!UICONTROL Backorders] | Global | Determina cómo se administran los pedidos pendientes. Los pedidos no satisfechos no cambian el estado de procesamiento del pedido. Los fondos se siguen autorizando o capturando inmediatamente cuando se realiza el pedido, independientemente de si el producto está en stock. Los productos se envían cuando están disponibles. Cuando está activada, se recomienda introducir una cantidad negativa para el umbral de Agotado. Opciones:<br/>`No Backorders` - No acepta pedidos pendientes cuando el producto está agotado.<br />`Allow Qty Below 0` - Acepta pedidos pendientes cuando la cantidad es inferior a cero.<br />`Allow Qty Below 0 and Notify Customer` - Acepta pedidos pendientes cuando la cantidad cae por debajo de cero, pero notifica a los clientes que aún se pueden realizar pedidos. |
 | [!UICONTROL Enable Qty Increments] | Global | Determina si el producto se puede vender en incrementos de cantidad. Los incrementos establecen cuántos artículos de producto deben comprarse como un solo producto y como un elemento secundario de productos configurables, agrupados y agrupados. |
 
 >[!NOTE]

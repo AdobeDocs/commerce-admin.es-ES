@@ -3,9 +3,23 @@ title: Experiencia de tienda en lista de deseos
 description: Obtenga información acerca de las herramientas de administración de listas de deseos disponibles para sus clientes en la tienda.
 exl-id: df8cf89a-c897-4a9a-9e84-3bae946683a4
 feature: Customers, Storefront
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/9shDGhaOYei-RczZovWb0szpGHpMPPk06hPDft8NKhI
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: 862
 ht-degree: 0%
 
 ---
@@ -18,7 +32,7 @@ Una lista de deseos es una forma cómoda para que los clientes recuerden product
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce admite el uso de varias listas de deseos por cuenta de cliente.
 
-![Magento Open Source](../assets/open-source.svg): la base de código de Magento Open Source admite el uso de una sola lista de artículos deseados por cuenta de cliente.
+![Magento Open Source](../assets/open-source.svg): la base de código de Magento Open Source admite el uso de una sola lista de deseos por cuenta de cliente.
 
 ## Creación de una lista de artículos deseados
 

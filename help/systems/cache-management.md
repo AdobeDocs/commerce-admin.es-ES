@@ -4,9 +4,27 @@ description: Aprenda a utilizar las herramientas de administración de caché, q
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+TQID: https://experienceleague.adobe.com/eVeStZTLha9hm3LWPqckl5GgfYBY4cyrlz2sqbzdXS0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: 1975
 ht-degree: 0%
 
 ---
@@ -110,7 +128,7 @@ Los administradores del sistema y los desarrolladores con acceso al servidor de 
 | Control | Descripción |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Mass Actions] | Selecciona la casilla de verificación de varias cachés. Opciones: <br/>**[!UICONTROL Select All]**— selecciona la casilla de verificación de todas las cachés.<br/>**&#x200B; Anular la selección de todas &#x200B;**: borra la casilla de verificación de todas las cachés.<br/>**[!UICONTROL Select Visible]**: selecciona la casilla de verificación de todas las cachés visibles. <br/>**[!UICONTROL Unselect Visible]**: borra la casilla de verificación de todas las cachés visibles. |
-| [!UICONTROL Actions] | Determina la acción que se aplicará a todas las cachés seleccionadas. Opciones: <br/>**[!UICONTROL Enable]**— activa todas las cachés seleccionadas.<br/>**[!UICONTROL Disable]** — Deshabilita todas las cachés seleccionadas. <br/>**[!UICONTROL Refresh]**— actualiza todas las cachés seleccionadas. |
+| [!UICONTROL Actions] | Determina la acción que se aplicará a todas las cachés seleccionadas. Opciones: <br/>**[!UICONTROL Enable]**— activa todas las cachés seleccionadas.<br/>**[!UICONTROL Disable]** — Deshabilita todas las cachés seleccionadas. <br/>**[!UICONTROL Refresh]**: actualiza todas las cachés seleccionadas. |
 | [!UICONTROL Submit] | Aplica la acción a todas las cachés seleccionadas. |
 
 {style="table-layout:auto"}
@@ -203,7 +221,7 @@ Para obtener información técnica, consulte [Configurar y usar Barnish](https:/
 
 1. Para establecer el tiempo de espera para la caché de la página, escriba **[!UICONTROL TTL for public content]**. (El valor predeterminado es `86400`)
 
-1. Para especificar el número máximo de [controladores de diseño](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) que se procesarán en el extremo HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=es), escriba **[!UICONTROL Handles param size]**. Restringir el tamaño puede mejorar la seguridad y el rendimiento. (El valor predeterminado es `100`)
+1. Para especificar el número máximo de [controladores de diseño](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) que se procesarán en el extremo HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html), escriba **[!UICONTROL Handles param size]**. Restringir el tamaño puede mejorar la seguridad y el rendimiento. (El valor predeterminado es `100`)
 
 1. Si utiliza Barniz, complete la sección **[!UICONTROL Varnish Configuration]** de la siguiente manera:
 
@@ -213,7 +231,7 @@ Para obtener información técnica, consulte [Configurar y usar Barnish](https:/
 
    - **[!UICONTROL Backend port]**: identifique el puerto back-end que se usa para generar archivos de configuración. El valor predeterminado es: `8080`.
 
-   - **[!UICONTROL Grace period]**: especifique el número de segundos que se utilizarán como período de gracia para generar archivos de configuración. Consulte [Configuración avanzada de barniz](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html?lang=es) en la _Guía de configuración_.
+   - **[!UICONTROL Grace period]**: especifique el número de segundos que se utilizarán como período de gracia para generar archivos de configuración. Consulte [Configuración avanzada de barniz](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html) en la _Guía de configuración_.
 
    - Para exportar la configuración como un archivo de `varnish.vcl`, haga clic en el botón de la versión de barniz que utilice.
 

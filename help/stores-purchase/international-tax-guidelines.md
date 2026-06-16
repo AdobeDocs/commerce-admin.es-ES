@@ -3,9 +3,24 @@ title: Directrices fiscales por país
 description: Revise la configuración de impuestos recomendada según el país.
 exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 feature: Taxes
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+TQID: https://experienceleague.adobe.com/hs8-0P0zSc-du-ubuYHiw7Yg9ps7SMPudBxcJgh-VCc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: 1337
 ht-degree: 0%
 
 ---
@@ -132,7 +147,7 @@ Esta configuración recomendada se puede utilizar para la mayoría de las config
 | Cálculo de impuestos | En elemento |
 | ¿Envío de impuestos? | Sí |
 | Aplicar descuento | Antes de impuestos, descuento en precios, impuestos incluidos. |
-| Comentario | Para que los comerciantes B2B aporten consideraciones más sencillas sobre la cadena de suministro de IVA. El cálculo de impuestos en la fila también es válido; sin embargo, consulte con su jurisdicción fiscal. La configuración supone que un comerciante está en la cadena de suministro y que otros proveedores utilizan los bienes vendidos para descuentos de IVA, etc. Esta definición facilita la distinción de impuestos por artículo para una generación de devoluciones más rápida. <br/><br/>**_Nota:_**&#x200B;Algunas jurisdicciones requieren estrategias de redondeo diferentes que Commerce no admite actualmente y que no todas permiten impuestos de nivel de fila o artículo. |
+| Comentario | Para que los comerciantes B2B aporten consideraciones más sencillas sobre el IVA en supply chain. El cálculo de impuestos en la fila también es válido; sin embargo, consulte con su jurisdicción fiscal. El programa de instalación supone que hay un comerciante en supply chain y que otros proveedores utilizan los productos vendidos para descuentos de IVA, etc. Esta definición facilita la distinción de impuestos por artículo para una generación de devoluciones más rápida. <br/><br/>**_Note:_** Algunas jurisdicciones requieren estrategias de redondeo diferentes que Commerce no admite actualmente y que no todas permiten impuestos de nivel de fila o artículo. |
 
 {style="table-layout:auto"}
 

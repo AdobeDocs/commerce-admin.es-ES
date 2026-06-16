@@ -3,9 +3,25 @@ title: '[!UICONTROL My Quote Templates]'
 description: Obtenga información acerca de la experiencia del cliente con las plantillas de presupuesto, que está disponible en el panel de cuentas de tienda.
 feature: B2B, Companies, Quotes
 exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
-source-git-commit: 15f85631741859280450ae1b477e2f3859c42773
+TQID: https://experienceleague.adobe.com/E2xR1PkAHidID85ro6fIz--mGtI358VvmXdKcSApVww
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: 973
 ht-degree: 0%
 
 ---
@@ -42,23 +58,23 @@ Un comprador que acepte las condiciones negociadas ofrecidas por el vendedor pue
    - Revisa el precio del artículo y las actualizaciones.
    - Si se han configurado umbrales de cantidad en la plantilla de oferta, ajuste los valores mínimo y máximo.
    - Rastree el proceso de negociación de las secciones [!UICONTROL Comments] y [!UICONTROL History].
-   - Para las plantillas que aún se están revisando, el comprador puede modificar el plantilla de cotización eliminando elementos.
-   - Comunícate y negocia con el vendedor agregando notas a nivel de elemento de línea y cotización.
-   - añadir, edite o elimine enlaces de referencia documento a contratos y acuerdos externos.
+   - En el caso de las plantillas que aún se están revisando, el comprador puede modificar la plantilla de oferta eliminando artículos.
+   - Comunicarse y negociar con el vendedor añadiendo notas en el nivel de artículo de línea y presupuesto.
+   - Agregar, editar o eliminar vínculos de documentos de referencia a contratos y acuerdos externos.
 
-  Después de realizar cambios, el comprador devuelve el plantilla al vendedor para que lo revise.
+  Después de realizar los cambios, el comprador devuelve la plantilla al vendedor para que la revise.
 
 - Acciones generales durante la negociación:
 
-   - Enviar presupuesto plantilla al vendedor para su revisión
-   - Acepte el presupuesto plantilla
-   - Cancelar para finalizar la negociación y cerrar la cotización
+   - Enviar plantilla de presupuesto al vendedor para que la revise
+   - Aceptar la plantilla de presupuesto
+   - Cancelar para finalizar la negociación y cerrar la oferta
 
-En el siguiente ejemplo se muestra un plantilla de presupuesto que el comprador actualizó y devolvió al vendedor para que lo revisara.
+El siguiente ejemplo muestra una plantilla de oferta que el comprador ha actualizado y enviado de vuelta al vendedor para que la revise.
 
-![Comprador vista de cotización plantilla](./assets/account-dashboard-my-quote-template-detailed.png){width="700" zoomable="yes"}
+![Vista del comprador de la plantilla de presupuesto](./assets/account-dashboard-my-quote-template-detailed.png){width="700" zoomable="yes"}
 
-Las plantillas con el `Submitted` estado se bloquean hasta que el vendedor revise y actualice el plantilla y lo devuelva al comprador.
+Las plantillas con el estado `Submitted` se bloquearán hasta que el vendedor revise, actualice la plantilla y la devuelva al comprador.
 
 ## Creación de una plantilla de presupuesto
 
@@ -100,9 +116,9 @@ Una vez que el comprador acepta una plantilla de presupuesto, puede utilizarla p
 
 La oferta vinculada incluye una notificación que indica que está aprobada y lista para el cierre de compra. También proporciona un vínculo a la plantilla de oferta en la información del encabezado.
 
-![Cita vinculada generada a partir de un plantilla de cotizaciones](./assets/quote-templates-linked-quote.png){width="700" zoomable="yes"}
+![Cita vinculada generada a partir de una plantilla de cotización](./assets/quote-templates-linked-quote.png){width="700" zoomable="yes"}
 
-Si el plantilla de presupuesto se configuró con un umbral de pedido, el recuento aumenta cuando se genera el presupuesto vinculado.
+Si la plantilla de oferta se configuró con un umbral de pedido, el recuento se incrementa cuando se genera la oferta vinculada.
 
 Los compradores pueden completar las siguientes acciones desde una oferta vinculada:
 
@@ -146,27 +162,27 @@ La función de enlaces de documentos de referencia permite a compradores y vende
 1. Actualice la información del documento en el cuadro de diálogo:
    - Nombre de documento
    - Identificador de documento
-   - Documento de referencia URL
+   - URL de documento de referencia
 
 1. Haga clic en **[!UICONTROL Add to Quote Template]**.
 
-### Quitar referencia documento vincular
+### Quitar un vínculo a un documento de referencia
 
-1. Abra el plantilla de cotización.
+1. Abra la plantilla de oferta.
 
-1. En la **[!UICONTROL Reference Documents]** sección, haga clic **[!UICONTROL Remove]** junto a la documento vincular desea eliminar.
+1. En la sección **[!UICONTROL Reference Documents]**, haga clic en **[!UICONTROL Remove]** junto al vínculo al documento que desea eliminar.
 
-### Ver una referencia documento
+### Ver un documento de referencia
 
-1. Abra el plantilla de cotización.
+1. Abra la plantilla de oferta.
 
-1. En la **[!UICONTROL Reference Documents]** sección, haga clic en el nombre del documento vincular.
+1. En la sección **[!UICONTROL Reference Documents]**, haga clic en el vínculo del nombre del documento.
 
-   El documento se abre en un nuevo ventana del explorador.
+   El documento se abre en una nueva ventana del explorador.
 
-### Restricciones de vincular documento de referencia
+### Restricciones de vínculo de documento de referencia
 
-- Los enlaces de documento de referencia solo se pueden agregar, editar o eliminar cuando el plantilla de citas está en un estado editable.
+- Los vínculos de documento de referencia sólo se pueden agregar, editar o quitar cuando la plantilla de oferta está en un estado editable.
 - Una vez que la plantilla de presupuesto se envía para su revisión o se acepta, los vínculos del documento de referencia pasan a ser de solo lectura.
 - El campo Nombre del documento es necesario al añadir o editar un vínculo de documento de referencia.
 - Los vínculos de documentos de referencia siguen siendo accesibles incluso después de que se acepte o complete la plantilla de oferta.

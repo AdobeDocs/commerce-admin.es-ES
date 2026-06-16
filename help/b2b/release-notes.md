@@ -3,9 +3,32 @@ title: '[!DNL Adobe Commerce B2B] notas de la versión'
 description: Revise las notas de la versión para obtener información acerca de los cambios en  [!DNL Adobe Commerce B2B] versiones.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 09c59e5c185200875f9dfe6dc5ab719c81e6f959
+TQID: https://experienceleague.adobe.com/d-IieNYP0V4T5mh69jzuYy5ELc8FWbD12qPvJ2P2eZo
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '11202'
+source-wordcount: 11091
 ht-degree: 0%
 
 ---
@@ -1018,7 +1041,7 @@ Esta versión incluye mejoras en las aprobaciones de pedidos, los métodos de en
 
 - Los invitados ahora pueden usar QuickOrder para agregar productos al carro de compras y, a continuación, quitar artículos correctamente. Anteriormente, cuando un comprador utilizaba QuickOrder para agregar varios productos al carro de compras y, a continuación, eliminaba un producto, el producto no se eliminaba. <!--- MC-35327-->
 
-- Ahora se puede actualizar una compañía mediante la solicitud de PUT `/V1/company/:companyId` de la API de REST sin especificar `region_id` cuando el estado se configura como **no obligatorio**. Anteriormente, aunque `region_id` no era obligatorio, Adobe Commerce arrojaba un error si no se especificaba. <!--- MC-35304-->
+- Ahora se puede actualizar una compañía mediante la petición REST API PUT `/V1/company/:companyId` sin especificar `region_id` cuando el estado se configura como **no obligatorio**. Anteriormente, aunque `region_id` no era obligatorio, Adobe Commerce arrojaba un error si no se especificaba. <!--- MC-35304-->
 
 - Cuando crea o actualiza una compañía B2B mediante la API de REST (`http://magento.local/rest/V1/company/2`, donde `2` representa el identificador de la compañía), la respuesta ahora incluye la configuración de `applicable_payment_method` o `available_payment_methods` según lo esperado. <!--- MC-35248-->
 
@@ -1026,7 +1049,7 @@ Esta versión incluye mejoras en las aprobaciones de pedidos, los métodos de en
 
 - Los permisos de categoría ya no cambian cuando se asigna un nuevo producto a un catálogo compartido público. Anteriormente, los permisos de categoría estaban duplicados. <!--- MC-34386-->
 
-- El extremo de API de REST PUT `rest/default/V1/company/{id}`, que se usa para actualizar el correo electrónico de la compañía, ya no distingue entre mayúsculas y minúsculas. <!--- MC-34308-->
+- El extremo PUT `rest/default/V1/company/{id}` de la API de REST, que se usa para actualizar el correo electrónico de la compañía, ya no distingue entre mayúsculas y minúsculas. <!--- MC-34308-->
 
 - La desactivación de los módulos de recompensa ya no afecta a las funciones B2B de las cuentas de cliente. Anteriormente, cuando se deshabilitaban los módulos de recompensa, no se mostraban las siguientes fichas relacionadas con B2B: Perfil de compañía, Usuarios de compañía y Roles y permisos.<!--- MC-34191-->
 

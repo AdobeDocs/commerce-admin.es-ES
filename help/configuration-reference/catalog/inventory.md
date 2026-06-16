@@ -1,11 +1,26 @@
 ---
-title: '[!UICONTROL Catalog] &gt; [!UICONTROL Inventory]'
-description: Revise la configuración en la página [!UICONTROL Catalog] &gt; [!UICONTROL Inventory] del administrador de Commerce.
+title: '[!UICONTROL Catalog] > [!UICONTROL Inventory]'
+description: Revise la configuración en la página [!UICONTROL Catalog] > [!UICONTROL Inventory] del administrador de Commerce.
 exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
 feature: Configuration, Inventory
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+TQID: https://experienceleague.adobe.com/kxlKhWRjFDUH97FDenycl4nU1QdBWzceDCKfhZ0MTAc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: 1225
 ht-degree: 0%
 
 ---
@@ -16,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Inventory Management] para Adobe Commerce y Magento Open Source le proporciona las herramientas para administrar el inventario de productos. Los comerciantes con una sola tienda en varios almacenes, tiendas, ubicaciones de recogida, distribuidores directos entre otros pueden utilizar estas funciones para mantener las cantidades de ventas y gestionar los envíos para completar pedidos. Para obtener más información sobre estas características y cómo puede utilizarlas para administrar existencias en varias ubicaciones, consulte la [_[!DNL Inventory Management] Guía del usuario _](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html?lang=es).
+>[!DNL Inventory Management] para Adobe Commerce y Magento Open Source le proporciona las herramientas para administrar el inventario de productos. Los comerciantes con una sola tienda en varios almacenes, tiendas, ubicaciones de recogida, distribuidores directos entre otros pueden utilizar estas funciones para mantener las cantidades de ventas y gestionar los envíos para completar pedidos. Para obtener más información sobre estas características y cómo puede utilizarlas para administrar existencias en varias ubicaciones, consulte la [_[!DNL Inventory Management] Guía del usuario _](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html).
 
 ## [!UICONTROL Stock Options]
 
@@ -108,7 +123,7 @@ ht-degree: 0%
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Google API key] | Global | Introduzca la clave de API de Google para el proveedor de Google MAP. La clave es del [!DNL Google Maps Platform] y debe tener [!DNL Geocoding API] y [!DNL Distance Matrix API] habilitados. Para obtener más información, consulte [Configurar el algoritmo de prioridad de distancia](../../inventory-management/distance-priority-algorithm.md#configure-the-distance-priority-algorithm) en la _Guía de Inventory management_. |
-| [!UICONTROL Computation mode] | Global | Determina las direcciones y rutas para calcular la distancia desde la dirección de envío y todos los orígenes asignados al stock. De forma predeterminada, los cálculos utilizan el modo de conducción. Opciones: <br/>**`Driving`**: configuración predeterminada, solicita instrucciones de conducción estándar mediante la red de carreteras.<br/>**`Walking`** - Solicita direcciones de caminata usando senderos peatonales y aceras (donde estén disponibles). <br/>**`Bicycling`**- Solicita direcciones de ciclismo usando rutas de bicicleta y calles preferidas (actualmente solo disponible en los Estados Unidos y algunas ciudades canadienses). |
+| [!UICONTROL Computation mode] | Global | Determina las direcciones y rutas para calcular la distancia desde la dirección de envío y todos los orígenes asignados al stock. De forma predeterminada, los cálculos utilizan el modo de conducción. Opciones: <br/>**`Driving`**: configuración predeterminada, solicita instrucciones de conducción estándar mediante la red de carreteras.<br/>**`Walking`** - Solicita indicaciones para caminar usando senderos peatonales y aceras (cuando estén disponibles). <br/>**`Bicycling`**- Solicita direcciones de ciclismo usando rutas de bicicleta y calles preferidas (actualmente solo disponible en los Estados Unidos y algunas ciudades canadienses). |
 | [!UICONTROL Value] | Global | Indica lo que se debe calcular y devolver para la distancia y el tiempo de las ubicaciones de origen a la dirección de destino de envío. El algoritmo de prioridad de distancia recomienda el origen con la distancia o el tiempo más corto a la dirección de destino de envío, lo que ofrece envíos más rápidos y posiblemente más baratos. Opciones: <br/>**`Distance`**- Devuelve la distancia entre puntos en métricas (kilómetros y metros) o imperiales (millas y pies).<br/>**`Time to Destination`**: devuelve el tiempo necesario para viajar desde las ubicaciones de origen a la dirección de envío en horas y minutos. |
 
 {style="table-layout:auto"}

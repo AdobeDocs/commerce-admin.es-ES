@@ -3,9 +3,26 @@ title: Producto de tarjeta regalo
 description: Aprenda a crear un producto de tarjeta regalo que produzca un código único que un cliente destinatario pueda canjear durante el cierre de compra.
 exl-id: bc4b60fe-10b3-4d17-85ce-35c2720c90a2
 feature: Catalog Management, Products, Gift
-source-git-commit: e72977596c4479d2e94b1e066ee166d22cb12405
+TQID: https://experienceleague.adobe.com/NXGOm4ZRIEPM02IPR8yJ7Ai9s1G6IPOKh2ER8f4kJNY
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: 966
 ht-degree: 0%
 
 ---
@@ -34,7 +51,7 @@ Las siguientes instrucciones muestran el proceso de creación de una tarjeta reg
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. En la esquina superior derecha de _[!UICONTROL Add Product]_( ![Flecha del menú](../assets/icon-menu-down-arrow-red.png){width="25"}  ), seleccione **[!UICONTROL Gift Card]**.
+1. En la esquina superior derecha del menú _[!UICONTROL Add Product]_( ![Flecha del menú](../assets/icon-menu-down-arrow-red.png){width="25"} ), elija **[!UICONTROL Gift Card]**.
 
    ![Agregar tarjeta regalo](./assets/product-add-gift-card.png){width="700" zoomable="yes"}
 
@@ -127,7 +144,7 @@ Rellene la información de las secciones siguientes según sea necesario:
 - [Diseño](settings-advanced-design.md)
 - [Opciones de regalo](product-gift-options.md)
 
-### Paso 7: Publish del producto
+### Paso 7: Publicar el producto
 
 1. Si está listo para publicar el producto en el catálogo, establezca el conmutador **Habilitar producto** en `Yes`.
 

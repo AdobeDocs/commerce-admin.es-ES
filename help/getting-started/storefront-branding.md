@@ -3,9 +3,24 @@ title: Marca de tienda
 description: Aprenda a cambiar los elementos que definen la identidad de marca de su tienda.
 exl-id: 91630717-9da7-4d2f-a0d8-adb794a30ee1
 feature: Storefront
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+TQID: https://experienceleague.adobe.com/2IjLVK33ITjn-eFJ0VpmDmlp8SNy-vZ0365An0lm1cA
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: 1313
 ht-degree: 0%
 
 ---
@@ -18,7 +33,7 @@ Una de las primeras cosas que debes hacer es [cambiar el logotipo](#upload-your-
 
 ## Cargue su logotipo
 
-El tamaño y la ubicación del logotipo en el encabezado están determinados por la temática de la tienda. Su logotipo puede guardarse como archivo de GIF, PNG o de JPG (JPEG) de la tienda y cargarse desde el administrador de la misma.
+El tamaño y la ubicación del logotipo en el encabezado están determinados por la temática de la tienda. Su logotipo se puede guardar como un archivo de tipo GIF, PNG o JPG (JPEG) y cargarse desde el administrador de su tienda.
 
 ![Logotipo en el encabezado](./assets/storefront-header-logo.png){width="600"}
 
@@ -32,11 +47,11 @@ Si no conoce el tamaño del logotipo u otras imágenes utilizadas en la temátic
 
 >[!NOTE]
 >
->Además del logotipo en el encabezado, su logotipo también aparece en [plantillas de correo electrónico](../systems/email-templates.md#prepare-your-email-logo) y en [facturas de PDF](../stores-purchase/sales-documents.md) y otros documentos de ventas. Los logotipos utilizados para las plantillas de correo electrónico y las facturas tienen requisitos de tamaño diferentes y deben cargarse por separado.
+>Además del logotipo en el encabezado, su logotipo también aparece en [plantillas de correo electrónico](../systems/email-templates.md#prepare-your-email-logo), en [facturas de PDF](../stores-purchase/sales-documents.md) y en otros documentos de ventas. Los logotipos utilizados para las plantillas de correo electrónico y las facturas tienen requisitos de tamaño diferentes y deben cargarse por separado.
 
 Formatos de archivo de logotipo admitidos:
 
-| Formato de archivo | Descripción |
+| Formato del archivo | Descripción |
 |--- |--- |
 | PNG | (Portable Network Graphics) Esta nueva alternativa al formato GIF admite hasta 16 millones de colores (24 bits). El formato de compresión sin pérdidas produce una imagen de mapa de bits de alta calidad con texto nítido, pero un tamaño de archivo mayor que el de algunos formatos. El formato PNG admite capas transparentes y está diseñado para la visualización y transmisión en línea. |
 | GIF | (Formato de intercambio de gráficos) Formato de mapa de bits antiguo y ampliamente admitido que está limitado a 256 colores (8 bits). El formato GIF admite animación simple y capas transparentes. |
@@ -66,13 +81,13 @@ Formatos de archivo de logotipo admitidos:
 
 _Favicon_ es la abreviatura de _icono favorito_ y hace referencia al icono pequeño de la ficha de cada página del explorador. Según el explorador, el icono de favoritos también aparece en la barra de direcciones, justo antes de la dirección URL.
 
-Un icono de favoritos suele tener un tamaño de 16 x 16 píxeles o de 32 x 32 píxeles. [!DNL Commerce] acepta los tipos de archivo ICO, PNG, APNG, GIF JPG y JPEG, aunque no todos los exploradores admiten estos formatos. El formato de archivo más utilizado para un favicon es ICO. Puede utilizar otros tipos de archivo de imagen, pero es posible que el formato no sea compatible con todos los exploradores. Hay muchas herramientas gratuitas disponibles en línea que puede utilizar para generar una imagen ICO o convertir una imagen a ese formato.
+Un icono de favoritos suele tener un tamaño de 16 x 16 píxeles o de 32 x 32 píxeles. [!DNL Commerce] acepta los tipos de archivo ICO, PNG, APNG, GIF y JPG (JPEG), aunque no todos los exploradores admiten estos formatos. El formato de archivo más utilizado para un favicon es ICO. Puede utilizar otros tipos de archivo de imagen, pero es posible que el formato no sea compatible con todos los exploradores. Hay muchas herramientas gratuitas disponibles en línea que puede utilizar para generar una imagen ICO o convertir una imagen a ese formato.
 
 ![Favicon en la ficha del explorador](./assets/storefront-favicon.png){width="600"}
 
 [!DNL Commerce] admite los siguientes formatos de archivo como icono de favoritos:
 
-| Formato de archivo | Descripción |
+| Formato del archivo | Descripción |
 |--- |--- |
 | ICO | Este formato de archivo de imagen está diseñado para imágenes de iconos de ordenador de pequeño tamaño. Utilizado principalmente en el sistema operativo Microsoft® Windows, el formato ICO puede contener imágenes de hasta 256 x 256 píxeles y 16 millones de colores (24 bits) con 8 bits de transparencia. |
 | PNG | (Portable Network Graphics) Esta nueva alternativa al formato GIF admite hasta 16 millones de colores (24 bits). El formato de compresión sin pérdidas produce una imagen de mapa de bits de alta calidad con texto nítido, pero un tamaño de archivo mayor que el de algunos formatos. El formato PNG admite capas transparentes y está diseñado para la visualización y transmisión en línea. |
@@ -96,7 +111,7 @@ Un icono de favoritos suele tener un tamaño de 16 x 16 píxeles o de 32 x 32 p�
 
 1. En _[!UICONTROL Other Settings]_, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL HTML Head]**.
 
-   ![Configuración del encabezado del HTML](./assets/configuration-html-head.png){width="600"}
+   ![Configuración de HTML Head](./assets/configuration-html-head.png){width="600"}
 
 1. Si desea quitar el favicon actual, haga clic en el icono _Eliminar_ (![icono de la papelera](../assets/icon-delete-trashcan.png)) en la esquina inferior izquierda de la imagen.
 
@@ -180,7 +195,7 @@ Si la tienda está en línea, pero aún está en construcción, puede mostrar un
 
 1. En _[!UICONTROL Other Settings]_, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL HTML Head]**.
 
-   ![Cabeza de HTML](./assets/configuration-html-head.png){width="600"}
+   ![Encabezado de HTML](./assets/configuration-html-head.png){width="600"}
 
 1. Desplácese hacia abajo hasta la parte inferior y establezca **[!UICONTROL Display Demo Store Notice]** según sus preferencias.
 

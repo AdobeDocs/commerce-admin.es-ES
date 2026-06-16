@@ -2,9 +2,24 @@
 title: Existencias y fuentes
 description: Obtenga información acerca de las relaciones entre productos, fuentes y existencias.
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/3nQssDNA41zHJH0SCN6VdMqqfbHCeyc6K0B91-BF8Kc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: 809
 ht-degree: 0%
 
 ---
@@ -29,7 +44,7 @@ En este ejemplo, el comerciante tiene una bicicleta de montaña disponible para 
 
 [Existencias](stocks-manage.md) representa un inventario virtual agregado de productos disponibles para la venta en sus canales de ventas (sitios web). Cada inventario asigna sus canales de ventas con las fuentes para los inventarios disponibles y las cantidades vendibles. Según la configuración del sitio, las existencias se pueden asignar a uno o más canales de ventas y fuentes.
 
-Las Sales Channel representan entidades que venden su inventario, incluidos sitios web, vistas de tiendas, grupos de clientes B2B, etc. Los canales de ventas solo se pueden asociar a un Stock. Cada canal de ventas solo puede tener un único inventario asignado, y un solo inventario se puede asignar a varios sitios web. A través de las existencias, puede modificar la priorización de los orígenes utilizados al enviar pedidos y mediante el [Algoritmo de selección de Source](selection-reservations.md).
+Los canales de ventas representan entidades que venden su inventario, incluidos sitios web, vistas de tiendas, grupos de clientes B2B, etc. Los canales de ventas solo se pueden asociar a un Stock. Cada canal de ventas solo puede tener un único inventario asignado, y un solo inventario se puede asignar a varios sitios web. A través de las existencias, puede modificar la priorización de los orígenes utilizados al enviar pedidos y mediante el [Algoritmo de selección de Source](selection-reservations.md).
 
 Comience con una Stock predeterminada asignada con el Source predeterminado y su sitio web, mejor utilizado por los comerciantes de un solo origen. Solo se puede asignar la Source predeterminada a estas existencias. Los comerciantes de varias fuentes crean existencias personalizadas para fuentes y sitios web personalizados según sea necesario.
 
@@ -65,4 +80,4 @@ Las siguientes son opciones importantes que se deben entender para [!DNL Invento
 
 Vea este vídeo para obtener más información sobre las fuentes y las existencias de Inventory management:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411829?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3411829?captions=spa&quality=12&learn=on)

@@ -1,21 +1,38 @@
 ---
-title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL PayPal Express Checkout]'
-description: Revise la configuración en la sección [!UICONTROL PayPal Express Checkout] de la página [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] del administrador de Commerce.
+title: '[!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Express Checkout]'
+description: Revise la configuración en la sección [!UICONTROL PayPal Express Checkout] de la página [!UICONTROL Sales] > [!UICONTROL Payment Methods] del administrador de Commerce.
 exl-id: aae5b1d9-f47e-447a-b40c-924f8d2ee824
 feature: Configuration, Payments
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+TQID: https://experienceleague.adobe.com/SEtCXXuq1AkwIoH-0aHjwmWIRnMqzhrf3ojo2xa2jBs
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: 1682
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Express Checkout]
+# [!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Express Checkout]
 
 >[!IMPORTANT]
 >
->**Requisitos del PSD 2:** <br/>
->A partir del 14 de septiembre de 2019, los bancos europeos podrían rechazar los pagos que no cumplan los requisitos de [PSD 2](../../getting-started/compliance-payment-services-directive.md). PayPal Express Checkout no necesita realizar ninguna acción para cumplir con PSD2 porque PayPal gestiona todos los requisitos.
+>**Requisitos de PSD2:** <br/>
+>A partir del 14 de septiembre de 2019, los bancos europeos podrían rechazar los pagos que no cumplan los requisitos de [PSD2](../../getting-started/compliance-payment-services-directive.md). No es necesario realizar ninguna acción para que PayPal Express Checkout cumpla con PSD2 porque PayPal gestiona todos los requisitos.
 
 {{config}}
 
@@ -89,14 +106,14 @@ ht-degree: 0%
 | [!UICONTROL Display on Shopping Cart] | Vista de tienda | Determina si Pago y envío mediante PayPal Express aparece como una opción de pago en el carro de compras. Opciones: `Yes` (se recomienda PayPal) / `No` |
 | [!UICONTROL Payment Action Applicable From] | Sitio web | Determina el intervalo de la selección de país aplicable. Opciones: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Countries Payment Applicable From] | Sitio web | Identifica cada país desde el que se acepta el pago. Solo los clientes con una dirección de facturación en un país seleccionado pueden realizar compras con esta forma de pago. |
-| [!UICONTROL Debug Mode] | Sitio web | Registra los mensajes enviados entre su tienda y el sistema de pago en un archivo de registro. Opciones: `Yes` / `No` <br/><br/>**_Nota:_**&#x200B;El archivo de registro está almacenado en el servidor y solo es accesible para los desarrolladores. De acuerdo con las normas de seguridad de datos PCI, la información de la tarjeta de crédito no se registra en el archivo de registro. |
+| [!UICONTROL Debug Mode] | Sitio web | Registra los mensajes enviados entre su tienda y el sistema de pago en un archivo de registro. Opciones: `Yes` / `No` <br/><br/>**_Nota:_** El archivo de registro está almacenado en el servidor y solo son accesibles para los desarrolladores. De acuerdo con las normas de seguridad de datos PCI, la información de la tarjeta de crédito no se registra en el archivo de registro. |
 | [!UICONTROL Enable SSL Verification] | Sitio web | Habilita la verificación del certificado de seguridad del host. Opciones: `Yes` / `No` |
 | [!UICONTROL Transfer Cart Line Items] | Sitio web | Muestra un resumen completo de los artículos de línea del carro de compras del cliente en el sitio de PayPal. Opciones: `Yes` / `No` |
 | [!UICONTROL Transfer Shipping Options] | Sitio web | Incluye hasta diez opciones de envío en el sitio de PayPal. Opciones: `Yes` / `No` |
 | [!UICONTROL Shortcut Buttons Flavor] | Vista de tienda | Determina el tipo de imagen utilizada para el botón de aceptación de PayPal. Opciones: <br/>**`Dynamic`**- (Recomendado) Muestra una imagen que se puede cambiar dinámicamente desde el servidor PayPal.<br/>**`Static`** - Muestra una imagen estática que no se puede cambiar dinámicamente. |
 | [!UICONTROL Enable PayPal Guest Checkout] | Sitio web | Permite a los clientes que no tengan cuentas de PayPal realizar compras con el Pago y envío de PayPal Express. Opciones: `Yes` / `No` |
 | [!UICONTROL Require Customer's Billing Address] | Sitio web | Determina si se requiere la dirección de facturación del cliente. Opciones: `Yes` / `No` / `For Virtual Quotes Only` |
-| [!UICONTROL Billing Agreement Signup] | Sitio web | Determina si los clientes pueden firmar un [acuerdo de facturación](../../stores-purchase/paypal-billing-agreements.md) con su tienda. Opciones: <br/>**`Auto`**- El cliente puede suscribirse a un contrato de facturación durante el cierre de compra exprés.<br/>**`Ask Customer`**: se pregunta al cliente si desea suscribirse a un acuerdo de facturación. <br/>**`Never`**: no se ofrece a los clientes la opción de suscribirse a un contrato de facturación. |
+| [!UICONTROL Billing Agreement Signup] | Sitio web | Determina si los clientes pueden firmar un [acuerdo de facturación](../../stores-purchase/paypal-billing-agreements.md) con su tienda. Opciones: <br/>**`Auto`**- El cliente puede suscribirse a un contrato de facturación durante el cierre de compra exprés.<br/>**`Ask Customer`**: se pregunta al cliente si desea suscribirse a un acuerdo de facturación. <br/>**`Never`**: no se ofrece a los clientes la opción de suscribirse a un acuerdo de facturación. |
 | [!UICONTROL Skip Order Review Step] | Sitio web | Determina si los clientes pueden completar la transacción desde el sitio de PayPal o si deben regresar a su tienda y completar el paso de revisión de pedidos antes de enviar el pedido. Opciones: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -113,7 +130,7 @@ ht-degree: 0%
 | [!UICONTROL Payment Action] | Sitio web | Determina cómo PayPal administra la transacción: Opciones: <br/>**Autorización** - Aprueba la compra, pero suspende los fondos. La cantidad no se retira hasta que sea &quot;capturada&quot; por el comerciante. <br/>**Venta**: el importe de la compra se autoriza y se retira inmediatamente de la cuenta del cliente. |
 | [!UICONTROL Payment Applicable From] | Sitio web | Determina el intervalo de la selección de país aplicable. Opciones: Todos los países permitidos / Países específicos |
 | [!UICONTROL Countries Payment Applicable From] | Sitio web | Identifica cada país desde el que se acepta el pago. Solo los clientes con una dirección de facturación en un país seleccionado pueden realizar compras con esta forma de pago. |
-| [!UICONTROL Debug Mode] | Sitio web | Registra la comunicación con el sistema de pago en un archivo de registro. Opciones: `Yes` / `No` <br/><br/>**_Nota:_**&#x200B;El archivo de registro está almacenado en el servidor y solo es accesible para los desarrolladores. De acuerdo con las normas de seguridad de datos PCI, la información de la tarjeta de crédito no se registra en el archivo de registro. |
+| [!UICONTROL Debug Mode] | Sitio web | Registra la comunicación con el sistema de pago en un archivo de registro. Opciones: `Yes` / `No` <br/><br/>**_Nota:_** El archivo de registro está almacenado en el servidor y solo son accesibles para los desarrolladores. De acuerdo con las normas de seguridad de datos PCI, la información de la tarjeta de crédito no se registra en el archivo de registro. |
 | [!UICONTROL Enable SSL Verification] | Sitio web | Habilita un paso de verificación para que garantice que la transacción se realice a través de un canal SSL cifrado. Opciones: `Yes` / `No` |
 | [!UICONTROL Transfer Cart Line Items] | Sitio web | Cuando está activada, muestra un resumen de los artículos de línea del carro de compras en la página de pagos de PayPal. Opciones: `Yes` / `No` |
 | [!UICONTROL Allow in Billing Agreement Wizard] | Sitio web | Cuando está activada, los clientes pueden iniciar un acuerdo de facturación desde el panel de su cuenta de cliente. |
@@ -147,8 +164,8 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL PayPal Product Logo] | Vista de tienda | Determina el logotipo de PayPal que aparecerá en tu tienda. Hay cuatro estilos básicos en dos tamaños. Opciones: `No Logo` / `We prefer PayPal (150 x 60)` / `We prefer PayPal (150 x 40)` / `Now accepting PayPal (150 x 60)` / `Now accepting PayPal (150 x 40)` / `Payments by PayPal (150 x 60)` / `Payments by PayPal (150 x 40)` / `Shop now using (150 x 60)` / `Shop now using (150 x 40)` |
 | **[!UICONTROL PayPal Merchant Pages Style]** |  |  |
-| [!UICONTROL Page Style] | Vista de tienda | Determina el aspecto de la página de comerciante de PayPal. Valores permitidos: **`paypal`**: utiliza el estilo de página de PayPal. <br/>**`primary`**: utiliza el estilo de página que identificó como estilo &quot;principal&quot; en el perfil de la cuenta.<br/>**`your_custom_value`**: utiliza un estilo de página de pago personalizado, que se especifica en el perfil de la cuenta. |
-| [!UICONTROL Header Image URL] | Vista de tienda | Dirección URL de la imagen que aparece en la esquina superior izquierda de la página de cierre de compra. El tamaño máximo es de 750 x 90 píxeles. <br/><br/>**_Nota:_**&#x200B;PayPal recomienda almacenar la imagen en un servidor seguro (https). De lo contrario, el navegador del cliente puede advertir que &quot;la página contiene elementos seguros y no seguros&quot;. |
+| [!UICONTROL Page Style] | Vista de tienda | Determina el aspecto de la página de comerciante de PayPal. Valores permitidos: **`paypal`**: utiliza el estilo de página de PayPal. <br/>**`primary`**: utiliza el estilo de página que identificó como el estilo &quot;principal&quot; en el perfil de la cuenta.<br/>**`your_custom_value`**: utiliza un estilo de página de pago personalizado, que se especifica en el perfil de la cuenta. |
+| [!UICONTROL Header Image URL] | Vista de tienda | Dirección URL de la imagen que aparece en la esquina superior izquierda de la página de cierre de compra. El tamaño máximo es de 750 x 90 píxeles. <br/><br/>**_Nota:_** PayPal recomienda almacenar la imagen en un servidor seguro (https). De lo contrario, el navegador del cliente puede advertir que &quot;la página contiene elementos seguros y no seguros&quot;. |
 | [!UICONTROL Header Image Background Color] | Vista de tienda | El código de seis caracteres [color hexadecimal](https://en.wikipedia.org/wiki/Web_colors) para el color de fondo del encabezado en la página de cierre de compra. Puede escribir el código en mayúsculas y minúsculas. |
 | [!UICONTROL Header Image Border Color] | Vista de tienda | El código de seis caracteres [color hexadecimal](https://en.wikipedia.org/wiki/Web_colors) para el borde de dos píxeles alrededor del encabezado. |
 | [!UICONTROL Page Background Color] | Vista de tienda | El código de seis caracteres [color hexadecimal](https://en.wikipedia.org/wiki/Web_colors) para el color de fondo de la página de pago que aparece detrás del encabezado y del formulario de pago. |
@@ -163,7 +180,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Customize Button] | Vista de tienda | Determina si los botones inteligentes de PayPal se pueden personalizar para que coincidan con el diseño y la temática de la tienda. Puede aplicar estos cambios de forma independiente en la página Cierre de compra, en las páginas de Productos, en la página Carro de compras y en el minicarrito. |
 | [!UICONTROL Label] | Vista de tienda | El texto que PayPal muestra en el botón Pago inteligente. Opciones: <br/>**`Checkout`**(se muestra como &quot;Pago y envío con PayPal&quot;)<br/>**`Pay`** (se muestra como &quot;Pago con PayPal&quot;) <br/>**`Buy Now`**(se muestra como &quot;Comprar ahora con PayPal&quot;)<br/>**`PayPal`** (se muestra como &quot;PayPal&quot;) <br/>**`Installment`**(se muestra como &quot;PayPal&quot;)<br/>**`Credit`** (se muestra como &quot;CRÉDITO con PayPal&quot;) |
-| [!UICONTROL Layout] | Vista de tienda | Determina si se deben mostrar los botones inteligentes de PayPal vertical u horizontalmente. Opciones: <br/>**`Vertical`**: el comprador debe iniciar sesión en PayPal o crear una cuenta PayPal, independientemente de si la opción &quot;Habilitar pago y envío para invitados&quot; está seleccionada.<br/>**`Horizontal`** - Cuando se selecciona &quot;Habilitar pago y envío de invitados&quot;, muestra el botón **`Pay with Debit Card or Credit Card`** en la ventana emergente de PayPal. En caso contrario, el comprador debe iniciar sesión en PayPal o crear una cuenta PayPal. |
+| [!UICONTROL Layout] | Vista de tienda | Determina si se deben mostrar los botones inteligentes de PayPal vertical u horizontalmente. Opciones: <br/>**`Vertical`**: el comprador debe iniciar sesión en PayPal o crear una cuenta PayPal, independientemente de si la opción &quot;Habilitar pago y envío para invitados&quot; está seleccionada.<br/>**`Horizontal`** - Cuando la opción &quot;Activar Pago y envío de invitado&quot; está seleccionada, muestra el botón **`Pay with Debit Card or Credit Card`** en la ventana emergente de PayPal. En caso contrario, el comprador debe iniciar sesión en PayPal o crear una cuenta PayPal. |
 | [!UICONTROL Size] | Vista de tienda | Establece el tamaño del botón Pago inteligente. Opciones: <br/>**`Medium`**- 250 píxeles por 35 píxeles<br/>**`Large`** - 350 píxeles por 40 píxeles <br/>**`Responsive`**- (Predeterminado) Se ajusta a la anchura del contenedor. La anchura mínima es de 100 píxeles y la anchura máxima es de 500 píxeles. La altura se ajusta dinámicamente en función de la anchura. |
 | [!UICONTROL Shape] | Vista de tienda | Establece la forma del botón Pago inteligente. Opciones: `Pill` (predeterminado) / `Rectangle` |
 | [!UICONTROL Color] | Vista de tienda | Establece el color del botón Pago inteligente. Opciones: `Gold` (predeterminado) / `Blue` / `Silver` / `Black` |

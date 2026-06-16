@@ -3,9 +3,25 @@ title: Medios sociales y fuentes RSS
 description: Aprenda a añadir redes sociales y otra integración de fuentes RSS para crear imagen de marca y producto.
 exl-id: e4a48870-f53e-4848-8faa-8f2aedaf53b7
 feature: Merchandising, Communications
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/jO5CAIJOQ7caLuno4OP4vnhJhIMZahlxL7waFwDyHzY
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: 1175
 ht-degree: 0%
 
 ---
@@ -18,15 +34,15 @@ Muchos comerciantes utilizan las redes sociales y otras herramientas digitales p
 
 Tu tienda se puede conectar a las redes sociales instalando una [extensión de Marketplace](../getting-started/commerce-marketplace.md). Además, puedes agregar fácilmente complementos sociales como el botón _Me gusta_ a bloques de CMS que se pueden incorporar a páginas de tu tienda.
 
-Los sitios de redes sociales tienen numerosos complementos que se pueden agregar fácilmente a su tienda. Además, hay muchas extensiones en el Commerce Marketplace que se pueden utilizar para integrar su tienda con los medios sociales. El siguiente ejemplo muestra cómo agregar un botón _Like_ de Facebook a la tienda.
+Los sitios de redes sociales tienen numerosos complementos que se pueden agregar fácilmente a su tienda. Además, hay muchas extensiones en Commerce Marketplace que se pueden utilizar para integrar su tienda con los medios sociales. El siguiente ejemplo muestra cómo agregar un botón _Like_ de Facebook a la tienda.
 
 >[!NOTE]
 >
->Adobe Commerce ha eliminado la integración nativa de Facebook _Magento Social_ y ya no admite la extensión. Vaya al [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=Facebook){:target=&quot;_blank&quot;} para buscar extensiones alternativas para la integración con Facebook.
+>Adobe Commerce ha eliminado la integración nativa de Facebook de _Magento Social_ y ya no admite la extensión. Vaya a [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=Facebook){:target="_blank"} para encontrar extensiones alternativas para la integración con Facebook.
 
 ### Paso 1. Obtener el código del botón
 
-1. En el sitio web de desarrolladores de Meta, vaya a la página [button setup](https://developers.facebook.com/docs/plugins/like-button).
+1. En el sitio web de desarrolladores de Meta, ve a la página [button setup](https://developers.facebook.com/docs/plugins/like-button).
 
 1. Para **[!UICONTROL URL to Like]**, escribe la dirección URL de la página de tu tienda que quieres que _te guste_.
 
@@ -63,7 +79,7 @@ Los sitios de redes sociales tienen numerosos complementos que se pueden agregar
 
 1. Agregue el fragmento de código al contenido del bloque, según la herramienta de contenido:
 
-   - Cuando use [!DNL Page Builder], agregue un bloque de [código de HTML](../page-builder/html-code.md) al escenario y pegue el fragmento de código que copió del sitio de Facebook. De lo contrario, pegue el fragmento de código en el cuadro **[!UICONTROL Content]**.
+   - Cuando use [!DNL Page Builder], agregue un bloque de [Código HTML](../page-builder/html-code.md) al escenario y pegue el fragmento de código que copió del sitio de Facebook. De lo contrario, pegue el fragmento de código en el cuadro **[!UICONTROL Content]**.
 
    - Con el editor, pegue el fragmento de código que copió del sitio de Facebook en el cuadro **[!UICONTROL Content]**.
 

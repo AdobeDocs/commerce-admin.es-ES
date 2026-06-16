@@ -2,9 +2,26 @@
 title: Lista de clientes
 description: La cuadrícula Customers enumera todos los clientes que se han registrado en una cuenta de su tienda o que el administrador ha agregado.
 exl-id: a7d9b098-4892-492c-b937-61cc33b836d8
-source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
+TQID: https://experienceleague.adobe.com/h3KHVcnOa1LqrynEuml6XgDB5-t5fJJa0yhgRF7RATE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: 589
 ht-degree: 0%
 
 ---
@@ -59,7 +76,7 @@ En el Administrador, la cuadrícula [!UICONTROL Customers] muestra todos los cli
 | **[!UICONTROL Web Site]** | El sitio web en la jerarquía de almacén al que está asociada la cuenta de cliente. |
 | **[!UICONTROL Confirmed Email]** | Indica si se requiere un correo electrónico de confirmación. |
 | **[!UICONTROL Account Created In]** | Indica la vista de tienda desde la que se creó la cuenta de cliente. |
-| **[!UICONTROL Date of Birth]** | La fecha de nacimiento del cliente. <br><br>**_Importante:_**&#x200B;De acuerdo con las prácticas recomendadas actuales de seguridad y privacidad, tenga en cuenta cualquier posible riesgo legal y de seguridad asociado con el almacenamiento de la fecha de nacimiento completa de los clientes (mes, día, año) con otros identificadores personales. Se recomienda limitar el almacenamiento de las fechas de nacimiento completas de los clientes y sugerir que utilice el año de nacimiento del cliente como alternativa. |
+| **[!UICONTROL Date of Birth]** | La fecha de nacimiento del cliente. <br><br>**_Importante:_** De acuerdo con las prácticas recomendadas actuales de seguridad y privacidad, tenga en cuenta cualquier posible riesgo legal y de seguridad asociado con el almacenamiento de la fecha de nacimiento completa de los clientes (mes, día, año) con otros identificadores personales. Se recomienda limitar el almacenamiento de las fechas de nacimiento completas de los clientes y sugerir que utilice el año de nacimiento del cliente como alternativa. |
 | **[!UICONTROL Tax / VAT Number]** | Si corresponde, el número de impuesto o el número de [impuesto al valor agregado](../stores-purchase/vat.md) que se ha asignado al cliente. <br/><br/>Este campo no es el mismo que el número de IVA. |
 | **[!UICONTROL Gender]** | El sexo del cliente. |
 | **[!UICONTROL Action]** | Editar: abre la cuenta de la empresa en modo de edición. |

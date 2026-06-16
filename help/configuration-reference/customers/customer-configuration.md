@@ -1,16 +1,37 @@
 ---
-title: '[!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration]'
-description: Revise la configuración en la página [!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration] del administrador de Commerce.
+title: '[!UICONTROL Customers]  > [!UICONTROL Customer Configuration]'
+description: Revise la configuración en la página [!UICONTROL Customers] > [!UICONTROL Customer Configuration] del administrador de Commerce.
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+TQID: https://experienceleague.adobe.com/eZF-dmYG4p8BwVNA5SWtj-3y2flfLP1H9CRcPsd1tFI
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: 1908
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Customers] > [!UICONTROL Customer Configuration]
+# [!UICONTROL Customers]  > [!UICONTROL Customer Configuration]
 
 {{config}}
 
@@ -101,7 +122,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Name and Address Options]
 
-### Opciones del Magento Open Source
+### Opciones de Magento Open Source
 
 {{ce-feature}}
 
@@ -117,7 +138,7 @@ ht-degree: 0%
 | [!UICONTROL Show Middle Name (initial)] | Sitio web | Determina si la inicial del segundo nombre se incluye como parte del nombre del cliente. Si se utiliza, la inicial central es un campo opcional. Opciones: `Yes` / `No` |
 | [!UICONTROL Show Suffix] | Sitio web | Determina si el nombre del cliente incluye un sufijo al final, como Jr., Sr. y III. Opciones: `No` / `Optional` / `Required` |
 | [!UICONTROL Suffix Dropdown Options] | Sitio web | Define la lista de opciones de sufijos. Separe los valores con punto y coma. Coloque un punto y coma antes del primer valor para mostrar un valor vacío en la parte superior de la lista. |
-| [!UICONTROL Show Date of Birth] | Sitio web | Determina si la fecha de nacimiento del cliente se incluye en el formulario de nombre y dirección. Opciones: `No` / `Optional` / `Required` <br><br>**_Importante:_**&#x200B;De acuerdo con las prácticas recomendadas actuales de seguridad y privacidad, tenga en cuenta cualquier posible riesgo legal y de seguridad asociado con el almacenamiento de la fecha de nacimiento completa de los clientes (mes, día, año) con otros identificadores personales. Se recomienda limitar el almacenamiento de las fechas de nacimiento completas de los clientes y sugerir el uso del año de nacimiento del cliente como alternativa. |
+| [!UICONTROL Show Date of Birth] | Sitio web | Determina si la fecha de nacimiento del cliente se incluye en el formulario de nombre y dirección. Opciones: `No` / `Optional` / `Required` <br><br>**_Importante:_** De acuerdo con las prácticas recomendadas actuales de seguridad y privacidad, tenga en cuenta cualquier posible riesgo legal y de seguridad asociado con el almacenamiento de la fecha de nacimiento completa de los clientes (mes, día, año) con otros identificadores personales. Se recomienda limitar el almacenamiento de las fechas de nacimiento completas de los clientes y sugerir el uso del año de nacimiento del cliente como alternativa. |
 | [!UICONTROL Show Tax/VAT Number] | Sitio web | Determina si el número de IVA [o de impuesto](../../stores-purchase/vat.md) está incluido en el formulario de nombre y dirección. Opciones: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Gender] | Sitio web | Determina si se incluye el sexo en el formulario de nombre y dirección. Opciones: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Telephone] | Sitio web | Determina si el número de teléfono del cliente está incluido en el formulario de nombre y dirección. Opciones: `No` / `Optional` / `Required` |
@@ -200,7 +221,7 @@ ht-degree: 0%
 | Plantilla | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Enable Customer Segment Functionality] | Global | Determina si se pueden utilizar segmentos de clientes para crear promociones segmentadas. Opciones: `Yes` / `No` |
-| [!UICONTROL Real-time Check if Customer is Matched by Segment] | Global | Determina si los segmentos del cliente se validan en tiempo real. Opciones: <br/>**[!UICONTROL Yes]**: los segmentos de cliente se validan en tiempo real (valor predeterminado).<br/>**[!UICONTROL No]**: los segmentos del cliente se validan mediante una única consulta SQL de condición combinada. Esto mejora el rendimiento de la validación de segmentos si hay muchos segmentos de clientes en el sistema. Sin embargo, la validación no funciona con una base de datos dividida o cuando no hay clientes registrados. |
+| [!UICONTROL Real-time Check if Customer is Matched by Segment] | Global | Determina si los segmentos del cliente se validan en tiempo real. Opciones: <br/>**[!UICONTROL Yes]**: los segmentos de cliente se validan en tiempo real (valor predeterminado).<br/>**[!UICONTROL No]**: los segmentos de cliente se validan mediante una única consulta SQL de condición combinada. Esto mejora el rendimiento de la validación de segmentos si hay muchos segmentos de clientes en el sistema. Sin embargo, la validación no funciona con una base de datos dividida o cuando no hay clientes registrados. |
 
 {style="table-layout:auto"}
 
@@ -214,8 +235,8 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable CAPTCHA on Storefront] | Sitio web | Habilita CAPTCHA en las tiendas asociadas con el sitio web de Commerce. Opciones: `Yes` / `No` |
 | [!UICONTROL Font] | Sitio web | Determina la fuente utilizada para mostrar el CAPTCHA. Para agregar su propia fuente, coloque el archivo de fuente en el mismo directorio que la instalación de Commerce y agregue la declaración al archivo `config.xml` en `app/code/Magento/Captcha/etc`. |
-| [!UICONTROL Forms] | Sitio web | Determina los formularios donde se utiliza CAPTCHA. Opciones: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` (ver [parche de seguridad](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=es)) <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**Nota:**&#x200B;_ Los formularios Crear usuario, Olvidé la contraseña y Flujo de trabajo Pro siempre están habilitados cuando se seleccionan. |
-| [!UICONTROL Displaying Mode] | Sitio web | Determina cuándo aparecerá el CAPTCHA. Opciones: <br/>**`Always`**- siempre se requiere CAPTCHA para iniciar sesión.<br/>**`After number of attempts to login`**: esta opción solo se aplica al formulario de inicio de sesión de administrador. Cuando se selecciona, aparece el campo _[!UICONTROL Number of Unsuccessful Attempts to Login]_. Introduzca el número de intentos de inicio de sesión que desea permitir. Un valor de `0` (cero) es similar a establecer [!UICONTROL Displaying Mode] en `Always`.<br/>_&#x200B;**Nota:**&#x200B;_Para hacer un seguimiento del número de intentos de inicio de sesión erróneos, se cuenta cada intento de inicio de sesión en una dirección de correo electrónico y desde una dirección IP. El número máximo de intentos de inicio de sesión permitidos desde la misma dirección IP es de 1000. Esta limitación se aplica solamente cuando CAPTCHA está habilitado. |
+| [!UICONTROL Forms] | Sitio web | Determina los formularios donde se utiliza CAPTCHA. Opciones: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` (ver [parche de seguridad](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)) <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**Nota:**&#x200B;_ Los formularios Crear usuario, Olvidé la contraseña y Flujo de trabajo Pro siempre están habilitados cuando se seleccionan. |
+| [!UICONTROL Displaying Mode] | Sitio web | Determina cuándo aparecerá el CAPTCHA. Opciones: <br/>**`Always`**- siempre se requiere CAPTCHA para iniciar sesión.<br/>**`After number of attempts to login`**: esta opción solo se aplica al formulario de inicio de sesión de administrador. Cuando se selecciona, aparece el campo _[!UICONTROL Number of Unsuccessful Attempts to Login]_. Introduzca el número de intentos de inicio de sesión que desea permitir. Un valor de `0` (cero) es similar a establecer [!UICONTROL Displaying Mode] en `Always`.<br/>_&#x200B;**Nota:**&#x200B;_Para realizar el seguimiento del número de intentos de inicio de sesión erróneos, se cuenta cada intento de inicio de sesión en una dirección de correo electrónico y desde una dirección IP. El número máximo de intentos de inicio de sesión permitidos desde la misma dirección IP es de 1000. Esta limitación se aplica solamente cuando CAPTCHA está habilitado. |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | Sitio web | Especifica el número de veces que un cliente puede intentar iniciar sesión antes de que se bloquee la cuenta. |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | Sitio web | Determina la duración del CAPTCHA actual. Cuando caduca el CAPTCHA, el usuario debe volver a cargar la página. |
 | [!UICONTROL Number of Symbols] | Sitio web | Determina el número de símbolos que aparecen en el CAPTCHA, con un máximo de 8. También puede especificar un rango, por ejemplo, 5-8. |

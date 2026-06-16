@@ -3,9 +3,22 @@ title: Persistencia del carro
 description: Descubra cómo un carro de compras persistente rastrea artículos de carro de compras no comprados y guarda la información para la próxima visita del cliente.
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/CZFFzI8KEfpQQAEHB46wW6Bk4BK-4zbdkvZ9h9nROr0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: 1050
 ht-degree: 0%
 
 ---
@@ -28,7 +41,7 @@ Para administrar el uso de la persistencia del carro de compras en el sitio o en
 
 Cuando el carro de compras persistente está [habilitado](#configure-a-persistent-cart), el flujo de trabajo depende de lo siguiente:
 
-- Los valores de la configuración _[!UICONTROL Enable Remember Me]_&#x200B;y&#x200B;_[!UICONTROL Clear Persistence on Log Out]_
+- Los valores de la configuración _[!UICONTROL Enable Remember Me]_&#x200B;y_[!UICONTROL Clear Persistence on Log Out]_
 - La decisión del cliente de activar o desactivar la casilla de verificación _[!UICONTROL Remember Me]_
 - Cuando se borra la cookie persistente
 

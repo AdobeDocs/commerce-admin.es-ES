@@ -5,9 +5,25 @@ exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+TQID: https://experienceleague.adobe.com/0-D87Vrfu7OXkukQCye10VIpN-TLoANPAzb-5CVcf2w
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: 795
 ht-degree: 0%
 
 ---
@@ -29,7 +45,7 @@ Utilice las siguientes opciones de configuración para limitar el tamaño máxim
 >
 >Ambas configuraciones se miden en bytes y el valor predeterminado es `256000` bytes (o 256 KB).
 
-**_Para configurar el tamaño máximo de la sesión:_**
+**_Para configurar el tamaño máximo de sesión:_**
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -65,7 +81,7 @@ Si se supera el tamaño máximo de sesión, no se muestra ningún error, pero el
 
 Adobe Commerce y Magento Open Source permiten validar variables de sesión como medida de protección contra posibles ataques de fijación de sesión o intentos de envenenar o secuestrar sesiones de usuario. La configuración de validación de sesión determina cómo se validan las variables de sesión durante cada visita al almacén y si el ID de sesión se incluye en la dirección URL del almacén.
 
-Para obtener información técnica, consulte [Usar Redis para el almacenamiento de sesión](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=es) en la _Guía de configuración_.
+Para obtener información técnica, consulte [Usar Redis para el almacenamiento de sesión](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) en la _Guía de configuración_.
 
 ![Configuración general: validación de sesión web](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 
@@ -73,7 +89,7 @@ La validación comprueba que los visitantes son quienes dicen ser comparando el 
 
 Habilitar todas las variables de validación puede ayudar a evitar ataques, pero también puede afectar al rendimiento del servidor. De forma predeterminada, toda la validación de variables de sesión está deshabilitada. Le recomendamos que experimente con la configuración para encontrar la mejor combinación para su instalación de Adobe Commerce o Magento Open Source. La activación de todas las variables de validación puede resultar indebidamente restrictiva e impedir el acceso a los clientes que tienen conexiones a Internet que pasan a través de un servidor proxy o se originan detrás de un cortafuegos. Para obtener más información sobre las variables de sesión y su uso, consulte la documentación de administración del sistema para su sistema Linux®.
 
-**_Para configurar la validación de la sesión:_**
+**_Para configurar la validación de sesión:_**
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

@@ -4,9 +4,22 @@ description: Obtenga información acerca de las reglas de aprobación de pedidos
 exl-id: e8d8bbc9-41cf-4024-85cc-92f0b0ce32d6
 feature: B2B, Companies, Configuration
 role: Admin
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/Mep8kjARPn7loGZozPrDurwWZ2312PNXOqqJNxEEpuE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: 658
 ht-degree: 0%
 
 ---
@@ -18,7 +31,7 @@ La mayoría de las empresas requieren la aprobación de pedidos para los pedidos
 * Cualquier pedido de compra inferior al valor X se aprueba automáticamente.
 * Los pedidos superiores al valor X pero inferiores a Q deben ser aprobados por Y.
 * Cualquier valor de PO sobre X debe ser aprobado por Y y Z.
-* Se aprueba automáticamente un pedido creado por cualquier persona a nivel de Director o superior.
+* Se aprueba automáticamente una OC creada por cualquier persona de nivel de director o superior.
 
 Según la función de la compañía y los permisos, los usuarios pueden crear, editar, eliminar o ver reglas de aprobación.
 
@@ -31,7 +44,7 @@ Según la función de la compañía y los permisos, los usuarios pueden crear, e
 Los flujos de aprobación de pedidos de compra admiten métodos de pago en línea y sin conexión. Todos los métodos de pago sin conexión predeterminados son compatibles con las aprobaciones de pedidos de compra. Para los pagos en línea, se admiten los siguientes métodos:
 
 * PayPal Express
-* pagos de Braintree
+* Braintree Payments
 
 
 ## Configuración de regla de aprobación
@@ -150,4 +163,4 @@ Para eliminar una regla de aprobación existente, un cliente puede completar los
 
 Vea este vídeo para obtener más información sobre las aprobaciones de pedidos de compra:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410764?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3410764?captions=spa&quality=12&learn=on)

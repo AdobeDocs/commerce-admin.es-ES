@@ -4,9 +4,24 @@ description: Obtenga información sobre las variables predefinidas y cómo añad
 exl-id: 01e909c4-c932-4262-9f33-bd2740a6355f
 role: Admin, User
 feature: System, Variables, Page Content, Communications
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+TQID: https://experienceleague.adobe.com/TKhaNVRFLc3VK0iDkCpqoWSnvFRJmDWAIw1uBPzlh00
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: 387
 ht-degree: 0%
 
 ---
@@ -67,8 +82,8 @@ Las variables [Predefined](variables-predefined.md) facilitan la personalizació
 
 1. Para guardar la versión de texto sin formato, haga clic en **[!UICONTROL Save Template]**.
 
-## Restaurar la versión del HTML
+## Restaurar la versión de HTML
 
 1. En la parte superior de la página, haga clic en **[!UICONTROL Return HTML Version]**.
 
-1. Para guardar la versión del HTML, haga clic en **[!UICONTROL Save Template]**.
+1. Para guardar la versión de HTML de la plantilla, haga clic en **[!UICONTROL Save Template]**.

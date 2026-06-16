@@ -1,11 +1,28 @@
 ---
-title: '[!UICONTROL General] &gt; [!UICONTROL General]'
-description: Revise la configuración en la página [!UICONTROL General] &gt; [!UICONTROL General] del administrador de Commerce.
+title: '[!UICONTROL General] > [!UICONTROL General]'
+description: Revise la configuración en la página [!UICONTROL General] > [!UICONTROL General] del administrador de Commerce.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/DD7DU4-tlIuIqWiGmRkKaRtAe-dglczocFvEaoIuxSc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: 1028
 ht-degree: 0%
 
 ---
@@ -69,9 +86,9 @@ Para obtener más información acerca de cómo cambiar esta configuración, cons
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Access Restriction] | Sitio web | Determina si el sitio web funciona en modo restringido.<br /> <br />**`Yes`**: el acceso al sitio web está restringido de la manera establecida en los campos siguientes.<br />**`No`**: las restricciones están deshabilitadas y la siguiente configuración no tiene ningún efecto. |
-| [!UICONTROL Restriction Mode] | Sitio web | Determina el tipo de restricción de acceso que se aplica al sitio web.<br /> <br />**`Website Closed`**: todo acceso a la tienda está restringido y las direcciones URL de la tienda se redirigen temporalmente a la página de aterrizaje. Esta configuración puede resultar útil durante el mantenimiento del sitio o antes del lanzamiento.<br />**`Private Sales: Login Only`**: solo los clientes registrados pueden iniciar sesión para acceder a la tienda. Todas las URL de la tienda se redirigen temporalmente a la página de aterrizaje especificada o al formulario de inicio de sesión. Los usuarios no pueden crear una cuenta en este modo.<br />**`Private Sales: Login and Register`**: los usuarios deben iniciar sesión para tener acceso a la tienda. Todas las URL de tienda se redirigen temporalmente al formulario de inicio de sesión hasta que el usuario inicia sesión. Los usuarios pueden registrarse para obtener una cuenta mientras el sitio se encuentra en este modo. |
-| [!UICONTROL Startup Page] | Vista de tienda | Cuando el sitio web se encuentra en modo de ventas privadas, esta configuración determina la página que aparece hasta que el cliente inicia sesión.<br />  <br />**`To login form`**: se redirige a los usuarios al formulario de inicio de sesión hasta que inicien sesión.<br />**`To landing page`**: se redirigirá a los usuarios a la página estática especificada a continuación hasta que inicien sesión.<br /> <br />**_¡Importante!_**&#x200B;Asegúrese de incluir un vínculo a la página de inicio de sesión desde la página de aterrizaje especificada para que los clientes puedan iniciar sesión y acceder al sitio completo. |
+| [!UICONTROL Access Restriction] | Sitio web | Determina si el sitio web funciona en modo restringido.<br /> <br />**`Yes`**: el acceso al sitio web está restringido de la manera establecida en los campos siguientes.<br />**`No`** - Las restricciones están desactivadas y la siguiente configuración no tiene efecto. |
+| [!UICONTROL Restriction Mode] | Sitio web | Determina el tipo de restricción de acceso que se aplica al sitio web.<br /> <br />**`Website Closed`**: todo acceso a la tienda está restringido y las direcciones URL de la tienda se redirigen temporalmente a la página de aterrizaje. Esta configuración puede resultar útil durante el mantenimiento del sitio o antes del lanzamiento.<br />**`Private Sales: Login Only`**: solo los clientes registrados pueden iniciar sesión para acceder a la tienda. Todas las URL de la tienda se redirigen temporalmente a la página de aterrizaje especificada o al formulario de inicio de sesión. Los usuarios no pueden crear una cuenta en este modo.<br />**`Private Sales: Login and Register`**- Los usuarios deben iniciar sesión para acceder a la tienda. Todas las URL de tienda se redirigen temporalmente al formulario de inicio de sesión hasta que el usuario inicia sesión. Los usuarios pueden registrarse para obtener una cuenta mientras el sitio se encuentra en este modo. |
+| [!UICONTROL Startup Page] | Vista de tienda | Cuando el sitio web se encuentra en modo de ventas privadas, esta configuración determina la página que aparece hasta que el cliente inicia sesión.<br />  <br />**`To login form`**: se redirige a los usuarios al formulario de inicio de sesión hasta que inicien sesión.<br />**`To landing page`**: se redirigirá a los usuarios a la página estática especificada a continuación hasta que inicien sesión.<br /> <br />**_¡Importante!_**&#x200B;Asegúrese de incluir un vínculo a la página de inicio de sesión de la página de aterrizaje especificada para que los clientes puedan iniciar sesión y acceder al sitio completo. |
 | [!UICONTROL Landing Page] | Vista de tienda | Determina la primera página que aparece cuando el sitio web se encuentra en modo Ventas privadas. |
 | [!UICONTROL HTTP Response] | Sitio web | Determina la respuesta HTTP que se envía cuando se cierra el sitio web y un bot, rastreador o araña intenta establecer una conexión.<br /> <br />**`503 Service unavailable`**: la página no está disponible, pero la araña no debe actualizar el índice.<br />**`200 OK`**: la página de aterrizaje es correcta y la araña debe tratarla como la única página del sitio. |
 | [!UICONTROL Enable Autocomplete on login/forgot password forms] | Sitio web | Determina si los campos de los formularios _Iniciar sesión_ y _Olvidé la contraseña_ se rellenan automáticamente a partir de las entradas anteriores. Opciones: `Yes` / `No` |
@@ -107,7 +124,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Enable Single-Store Mode] | Global | Cuando se habilita para instalaciones de una sola tienda, oculta el cuadro Ámbito de configuración y las etiquetas de campo relacionadas Opciones: `Yes` / `No` <br/>**_Nota:_**&#x200B;El modo de una sola tienda se omite para tiendas con más de una vista.<br/> Al habilitar el modo de un solo almacén, se copiarán todos los datos específicos del catálogo y del almacén de productos de la vista de almacén predeterminada en todo el ámbito de la vista de almacén. Solo copiará los datos de catálogo y producto si la tienda solo tiene una vista de tienda. Si la tienda tiene una vista de tienda deshabilitada y una vista de tienda habilitada, no se copiarán los datos del catálogo y del producto.<br/> Al habilitar el modo de tienda única se omiten las opciones de configuración específicas de la vista de tienda para los datos específicos del contenido. En su lugar, utiliza ajustes de configuración definidos en el ámbito de nivel global para garantizar la coherencia entre la IU de administración y la tienda. |
+| [!UICONTROL Enable Single-Store Mode] | Global | Cuando se habilita para instalaciones de una sola tienda, oculta el cuadro Ámbito de configuración y las etiquetas de campo relacionadas Opciones: `Yes` / `No` <br/>**_Nota:_** El modo de una sola tienda se omite para tiendas con más de una vista.<br/> Al habilitar el modo de tienda única, se copiarán todos los datos específicos del catálogo y del almacén de productos de la vista de almacén predeterminada en todo el ámbito de la vista de almacén. Solo copiará los datos de catálogo y producto si la tienda solo tiene una vista de tienda. Si la tienda tiene una vista de tienda deshabilitada y una vista de tienda habilitada, no se copiarán los datos del catálogo y del producto.<br/> Al habilitar el modo de almacenamiento único, se omiten las opciones de configuración específicas de la vista de tienda para los datos específicos del contenido. En su lugar, utiliza ajustes de configuración definidos en el ámbito de nivel global para garantizar la coherencia entre la IU de administración y la tienda. |
 
 {style="table-layout:auto"}
 

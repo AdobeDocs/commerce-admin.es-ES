@@ -3,9 +3,19 @@ title: '[!DNL Page Builder] plantillas'
 description: Aprenda a guardar el contenido existente de  [!DNL Page Builder] como plantilla y, a continuación, aplique esa plantilla a otra área.
 exl-id: 02c1a93f-4186-4af9-ad35-bd0f5734f979
 feature: Page Builder, Page Content
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/P61L0tgCPw78m-241VFZrlTugCZT3sRlHhHRyr-ARNs
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: 477
 ht-degree: 0%
 
 ---
@@ -91,4 +101,4 @@ La cuadrícula _Aplicar plantilla_ y la cuadrícula de página _Plantillas_ prop
 
 Vea este vídeo para obtener más información sobre las plantillas de contenido de Page Builder:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410841?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3410841?captions=spa&quality=12&learn=on)

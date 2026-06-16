@@ -3,9 +3,24 @@ title: Agregar un origen de inventario
 description: Aprenda a crear un origen para una ubicación, como un almacén, una tienda física, un centro de distribución o un transportista directo.
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/hDIRVPayqLXgx3nxOSeDf6R7sT9t6d9AFGEeyQpyj6o
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: 865
 ht-degree: 0%
 
 ---
@@ -96,7 +111,7 @@ Si edita la Source predeterminada, puede editar todas las configuraciones except
 |--|--|
 | [!UICONTROL Back] | Vuelve a la página Administrar fuentes. |
 | [!UICONTROL Reset] | Restaura todos los campos del formulario a sus valores en el momento de la última vez que se guardaron. |
-| [!UICONTROL Save & Continue] | Guarda todos los cambios y mantiene el formulario abierto para seguir editándolo. Haga clic en la flecha hacia abajo para obtener opciones adicionales: <br/>**[!UICONTROL Save & Close]**: guarda los cambios en el registro actual, cierra el formulario y vuelve a la página Administrar orígenes.<br/>**[!UICONTROL Save & New]**: guarda los cambios, cierra el registro actual y abre un nuevo formulario en blanco. |
+| [!UICONTROL Save & Continue] | Guarda todos los cambios y mantiene el formulario abierto para seguir editándolo. Haga clic en la flecha hacia abajo para obtener opciones adicionales: <br/>**[!UICONTROL Save & Close]**: guarda los cambios en el registro actual, cierra el formulario y vuelve a la página Administrar orígenes.<br/>**[!UICONTROL Save & New]** - Guarda los cambios, cierra el registro actual y abre un nuevo formulario en blanco. |
 
 ## Descripciones de campos
 

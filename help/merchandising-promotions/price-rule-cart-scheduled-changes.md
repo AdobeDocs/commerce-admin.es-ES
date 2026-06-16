@@ -3,9 +3,22 @@ title: Cambios programados para reglas de precios del carro de compras
 description: Aprenda a aplicar reglas de precios del carro de compras según lo programado como parte de una campaña y agrupadas con otros cambios de contenido.
 exl-id: 4c9caa04-1e11-440d-b3db-7cc5fc83a08f
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
+TQID: https://experienceleague.adobe.com/S4sSXY-SSMabdW-rkaqr-cMexe0q1-k6AbTNvb7pR14
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: 489
 ht-degree: 0%
 
 ---
@@ -40,7 +53,7 @@ Tenga en cuenta las siguientes advertencias:
 
 - Si una campaña que incluye una regla de precio se crea inicialmente sin una fecha de finalización, la campaña no se puede editar posteriormente para incluir una fecha de finalización. Se recomienda añadir una fecha de finalización al crear la campaña o crear una versión duplicada de la campaña existente y añadir la fecha de finalización al duplicado según sea necesario.
 - Cuando utilice una actualización programada para habilitar una regla de precio del carro de compras con una fecha de finalización, asegúrese de establecer la regla como deshabilitada inicialmente. Las reglas que ya están activas no respetan la fecha de finalización.
-- Los cupones no están conectados a las reglas de precios del carro de compras. Una actualización programada no proporciona acceso a los campos _[!UICONTROL Coupon]_,_[!UICONTROL Coupon Code]_, _[!UICONTROL Uses per Coupon]_&#x200B;y&#x200B;_[!UICONTROL Uses per Customer]_ de la ficha _[!UICONTROL Rule Information]_. Además, no todas las configuraciones de la ficha&#x200B;_[!UICONTROL Manage Coupon Codes]_ están disponibles.
+- Los cupones no están conectados a las reglas de precios del carro de compras. Una actualización programada no proporciona acceso a los campos _[!UICONTROL Coupon]_,_[!UICONTROL Coupon Code]_, _[!UICONTROL Uses per Coupon]_&#x200B;y_[!UICONTROL Uses per Customer]_ de la ficha _[!UICONTROL Rule Information]_. Además, no todas las configuraciones de la ficha&#x200B;_[!UICONTROL Manage Coupon Codes]_ están disponibles.
 
 >[!IMPORTANT]
 >

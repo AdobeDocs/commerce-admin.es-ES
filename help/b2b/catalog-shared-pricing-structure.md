@@ -4,9 +4,23 @@ description: Con Adobe Commerce B2B, obtenga información sobre la configuració
 exl-id: 67caf56f-1b31-44bb-98dc-ea6ea7d8a4d5
 feature: B2B, Companies, Catalog Management
 role: Admin
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/j5p-DXCuqzrs-s8XRHeh8o6rc6S-Z-XsETu5Tso9WOw
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: 1307
 ht-degree: 0%
 
 ---
@@ -59,7 +73,7 @@ Solo las categorías con productos seleccionados aparecen en la [navegación sup
 
    Puede seleccionar u omitir productos individuales individualmente haciendo clic en el botón de alternancia en la primera columna.
 
-   Si selecciona una categoría que no tiene productos, pero está vinculada al contenido de CMS o a un vínculo externo, se mostrará en la navegación superior de la tienda.
+   Si selecciona una categoría que no tiene productos pero que está vinculada a contenido de CMS o a un vínculo externo, esta se mostrará en la barra de navegación superior de la tienda.
 
    Los ajustes de categoría que realice no se registrarán permanentemente en la base de datos hasta que se guarde la configuración. Sin embargo, se guardan temporalmente a medida que trabaja en la estructura y los precios.
 

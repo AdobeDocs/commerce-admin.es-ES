@@ -4,9 +4,26 @@ description: Aprenda cómo un vendedor puede crear una oferta para que un compra
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 69396421bae610ff02b12054bdea2278a8c0efe5
+TQID: https://experienceleague.adobe.com/CbwUuAqkrVxLcqdbz-gV-x1i-mRHM6y62KPaBeA3sds
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: 821
 ht-degree: 0%
 
 ---
@@ -27,7 +44,7 @@ Un representante de ventas puede crear una oferta a partir de la cuadrícula Ofe
 
 >[!NOTE]
 >
->Para ver un vídeo de demostración de un vendedor que crea una cotización para un comprador, consulta [El representante de ventas inicia la cotización](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=es) en _Vídeos y Tutorials de Commerce_.
+>Para ver un vídeo de demostración de un vendedor que crea una cotización para un comprador, consulta [El representante de ventas inicia la cotización](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html) en _Vídeos y tutoriales de Commerce_.
 
 ### Creación de una oferta desde la cuadrícula Oferta
 
@@ -79,7 +96,7 @@ Después de crear el presupuesto provisional, añade artículos de producto, apl
 
    >[!NOTE]
    >
-   >Para ver una demostración en vídeo de cómo funcionan los descuentos en el elemento de línea, consulte [El representante de ventas aplica un descuento a un elemento de línea de presupuesto](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=es) en _Vídeos y Tutorials de Commerce_.
+   >Para ver una demostración en vídeo de cómo funcionan los descuentos en el elemento de línea, consulte [El representante de ventas aplica un descuento a un elemento de línea de presupuesto](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=es) en _Vídeos y tutoriales de Commerce_.
 
 1. Aplique un descuento de nivel de oferta según sea necesario:
 
@@ -95,7 +112,7 @@ Después de crear el presupuesto provisional, añade artículos de producto, apl
 
    ![El vendedor agrega información para el comprador](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
-   De manera predeterminada, un [archivo adjunto](configure-quotes.md) puede tener hasta 2 MB, en cualquiera de los siguientes formatos de archivo: DOC, DOCX, XLS, XLSX, PDF, TXT, JPEG o JPG, PNG.
+   De manera predeterminada, un [archivo adjunto](configure-quotes.md) puede tener hasta 2 MB, en cualquiera de los siguientes formatos de archivo: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG o JPEG, PNG.
 
 1. Agregar dirección de envío durante las negociaciones.
 

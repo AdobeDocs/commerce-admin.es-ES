@@ -3,9 +3,27 @@ title: 'Categorías: configuración de diseño'
 description: Obtenga información acerca del uso de la configuración de [!UICONTROL Design] para definir el aspecto de una categoría, todas las páginas de productos asociadas y el diseño de página.
 exl-id: 6dc216ac-1c52-4196-9c93-e5cad19901b5
 feature: Catalog Management, Categories, Page Content
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/cRTRPl-UTfAKXY8rmtVKlnAZooVWpTCjSkVSdNHXp28
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: 379
 ht-degree: 0%
 
 ---
@@ -24,7 +42,7 @@ La sección _[!UICONTROL Design]_&#x200B;le proporciona control sobre el aspecto
 |--- |--- |
 | [!UICONTROL Use Parent Category Settings] | Permite que la categoría actual herede la configuración de diseño de la categoría principal. Si se utiliza, el resto de campos de la sección Diseño dejan de estar disponibles. Opciones: `Yes` / ` No` |
 | [!UICONTROL Theme] | Aplica una temática personalizada a la categoría. |
-| [!UICONTROL Layout] | Aplica un diseño diferente a la página de categoría. Opciones: <br/>**[!UICONTROL No layout updates]**: de forma predeterminada, las actualizaciones de diseño no están disponibles para las páginas de categoría.<br/>**[!UICONTROL Empty]**: utilice para definir su propio diseño de página. (Requiere conocimientos de XML). <br/>**[!UICONTROL 1 column]**: aplica un diseño de una columna a la página de categoría.<br/>**[!UICONTROL 2 columns with left bar]**: aplica un diseño de dos columnas con una barra lateral izquierda a la página de categoría. <br/>**[!UICONTROL 2 columns with right bar]**: aplica un diseño de dos columnas con una barra lateral derecha a la página de categoría.<br/>**[!UICONTROL 3 columns]**: aplica un diseño de tres columnas a la página de categoría.<br/>**[!UICONTROL Page -- Full Width]**- (Requiere [Page Builder](../page-builder/introduction.md)) Aplica el diseño de ancho completo de las páginas de CMS a la página de categoría.<br/>**[!UICONTROL Category -- Full Width]** - (Requiere Page Builder) Aplica el diseño de ancho completo para las páginas de categoría a la página de categoría. <br/>**[!UICONTROL Product -- Full Width]**- (Requiere Page Builder) Aplica el diseño de ancho completo para las páginas de productos a la página de categoría. |
+| [!UICONTROL Layout] | Aplica un diseño diferente a la página de categoría. Opciones: <br/>**[!UICONTROL No layout updates]**: de forma predeterminada, las actualizaciones de diseño no están disponibles para las páginas de categoría.<br/>**[!UICONTROL Empty]**: úselo para definir su propio diseño de página. (Requiere conocimientos de XML.) <br/>**[!UICONTROL 1 column]**- Aplica un diseño de una columna a la página de categoría.<br/>**[!UICONTROL 2 columns with left bar]**: aplica un diseño de dos columnas con una barra lateral izquierda a la página de categoría. <br/>**[!UICONTROL 2 columns with right bar]**: aplica un diseño de dos columnas con una barra lateral derecha a la página de categoría.<br/>**[!UICONTROL 3 columns]**: aplica un diseño de tres columnas a la página de categoría.<br/>**[!UICONTROL Page -- Full Width]**- (Requiere [Page Builder](../page-builder/introduction.md)) Aplica el diseño de ancho completo para las páginas de CMS a la página de categoría.<br/>**[!UICONTROL Category -- Full Width]** - (Requiere Page Builder) Aplica el diseño de ancho completo para las páginas de categoría a la página de categoría. <br/>**[!UICONTROL Product -- Full Width]**: (requiere Page Builder) aplica el diseño de ancho completo para las páginas de productos a la página de categoría. |
 | [!UICONTROL Custom Layout Update] | Enumera los archivos de actualización de diseño personalizado disponibles en el servidor. Elija la actualización de diseño personalizado que desee aplicar a la categoría. |
 | [!UICONTROL Apply Design to Products] | Cuando se selecciona esta opción, se aplica la configuración personalizada a todos los productos de la categoría. |
 

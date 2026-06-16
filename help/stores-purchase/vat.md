@@ -1,11 +1,29 @@
 ---
 title: Impuesto sobre el valor añadido (IVA)
-description: descripción aquí&gt;
+description: <Agregar descripción aquí>
 exl-id: 20dbcb86-e558-47f2-968d-b5c9ec5f665b
 feature: Taxes
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/CEUmSPDUdWxMGWRC4bXjSsBfuYJqkPNYtVx-mqxt1-M
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: 2021
 ht-degree: 0%
 
 ---
@@ -223,7 +241,7 @@ Los siguientes ejemplos muestran cómo se utilizan las clases y los tipos imposi
 
 | #1 de regla fiscal |  |
 |--- |--- |
-| Clase de impuestos del cliente | Las clases de impuestos del cliente deben incluir: <br />Una clase para clientes nacionales. <br />Clase para clientes con ID de IVA con formato incorrecto.<br />Clase para clientes cuya validación de identificación de IVA ha fallado. |
+| Clase de impuestos del cliente | Las clases de impuestos del cliente deben incluir: <br />Una clase para clientes nacionales. <br />Clase para clientes con Id. de IVA con formato incorrecto.<br />Clase para clientes cuya validación de Id. de IVA ha fallado. |
 | Clase de impuestos del producto | Las clases de impuestos de productos deben incluir una clase para productos de todos los tipos, excepto paquete y virtual. |
 | Tipo Impositivo | El tipo impositivo debe incluir el tipo del IVA del país del comerciante. |
 

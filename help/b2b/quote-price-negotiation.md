@@ -3,9 +3,26 @@ title: Negociación de una cotización
 description: Obtenga información sobre los flujos de trabajo de negociación de presupuestos y cómo trabajar con compradores para realizar compras.
 exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
-source-git-commit: ec00288f33af2abb785d1b37dd67aaf1ebe35c06
+TQID: https://experienceleague.adobe.com/0AJuvoJhk1iwwDGPmhygvBunlPo0sOWOmgAvINZxcGU
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: 2249
 ht-degree: 0%
 
 ---
@@ -41,13 +58,13 @@ Los compradores administran el proceso de negociación de ofertas desde la tiend
 
 ## Paso 2: Modificar el presupuesto
 
-1. En , haga clic en _[!UICONTROL Quote & Account Information]_&#x200B;el icono Calendario__(![icono](../assets/icon-calendar.png) de calendario).
+1. En _[!UICONTROL Quote & Account Information]_, haga clic en el icono_ Calendario _(![Icono de calendario](../assets/icon-calendar.png)).
 
-   ![Información sobre presupuestos y cuenta](./assets/quote-details-account-information.png){width="575" zoomable="yes"}
+   ![Información de presupuesto y cuenta](./assets/quote-details-account-information.png){width="575" zoomable="yes"}
 
-1. Elija un **[!UICONTROL Expiration Date]** para la cotización.
+1. Elija un **[!UICONTROL Expiration Date]** para la oferta.
 
-1. Desplácese hacia abajo hasta la _[!UICONTROL Quote Totals]_&#x200B;sección y actualice según **[!UICONTROL Negotiated Price]**&#x200B;sea necesario.
+1. Desplácese hacia abajo hasta la sección _[!UICONTROL Quote Totals]_&#x200B;y actualice **[!UICONTROL Negotiated Price]**&#x200B;según sea necesario.
 
    ![Actualizar precio negociado](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
 
@@ -106,7 +123,7 @@ tanto el descuento de artículo de línea como cualquier descuento de nivel de o
 
 1. En el cuadro _Agregar su comentario_, haga clic en **[!UICONTROL Attach file]**.
 
-   De manera predeterminada, [los archivos adjuntos](../configuration-reference/sales/quotes.md) pueden tener hasta 2 MB en cualquiera de los siguientes formatos de archivo: DOC, DOCX, XLS, XLSX, PDF, TXT, JPEG o JPG, PNG.
+   De manera predeterminada, [los archivos adjuntos](../configuration-reference/sales/quotes.md) pueden tener hasta 2 MB en cualquiera de los siguientes formatos de archivo: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG o JPEG, PNG.
 
 1. Elija el archivo del directorio.
 
@@ -148,31 +165,31 @@ tanto el descuento de artículo de línea como cualquier descuento de nivel de o
 
 ## Paso 4: dar seguimiento a una cotización
 
-Cuando envía una oferta, el sistema notifica al comprador y al representante de ventas que administra la cuenta de la empresa. El correo electrónico incluye un enlace a la oferta en la cuenta del comprador y la fecha de caducidad de la oferta. En cualquier momento de la negociación, el comprador puede hacer cualquiera de las siguientes acciones:
+Cuando envía una oferta, el sistema notifica al comprador y al representante de ventas que administra la cuenta de la empresa. El correo electrónico incluye un enlace a la oferta en la cuenta del comprador y la fecha de caducidad de la oferta. En cualquier momento de la negociación, el comprador puede realizar cualquiera de las siguientes acciones:
 
-- Acepte el presupuesto negociado y complete la compra.
-- Envíe una respuesta con un contra oferta y continúe la negociación.
-- Poner fin a la negociación.
+- Acepte la oferta negociada y complete la compra.
+- Envíe una respuesta con una contraoferta y continúe con la negociación.
+- Finalizar la negociación.
 
-Para monitor su posición en la flujo de trabajo, compruebe su correo electrónico y el estado de la cotización en la cuadrícula. Puede continuar el proceso de negociación el tiempo que sea necesario.
+Para monitorizar su posición en el flujo de trabajo, compruebe el correo electrónico y el estado de la cotización en la cuadrícula. Puede continuar el proceso de negociación el tiempo que sea necesario.
 
 ## Barra de botones
 
 | Botón | Descripción |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Back] | Vuelve a la página _[!UICONTROL Quotes]_&#x200B;sin guardar los cambios. |
-| [!UICONTROL Print] | Envía el presupuesto a una impresora o lo guarda como archivo de PDF. |
+| [!UICONTROL Print] | Envía el presupuesto a una impresora o lo guarda como archivo PDF. |
 | [!UICONTROL Create Copy] | Crea y abre una copia de la oferta actual con `(copy)` anexado al nombre original. Cambie el nombre de la nueva cita editando el campo [!UICONTROL Name]. Procese la nueva oferta guardándola como borrador o enviándola al cliente. |
 | Crear plantilla | Cree una plantilla de oferta basada en la oferta actual. Las plantillas de oferta agilizan la negociación de ofertas al permitir que los compradores y los vendedores acuerden las condiciones de contrato y asignación de precios que se pueden aplicar a varias ofertas. . En el momento del acuerdo, el comprador puede generar una oferta vinculada y aprobada previamente a partir de la plantilla para pedidos posteriores en lugar de reiniciar el proceso de solicitud de oferta. |
 | [!UICONTROL Save as Draft] | Guarda los cambios realizados en el presupuesto, pero no se lo devuelvas al comprador. |
-| [!UICONTROL Decline] | Rechaza la solicitud de negociar los precios, ya sea en la investigación inicial o durante las negociaciones en curso. Cuando se rechaza una cotización, el vendedor debe añadir un comentario para explicar la decisión. Cuando se rechaza una cotización, todos los precios negociados se restablecen a los valores originales. Este botón se desactiva mientras el vendedor espera una respuesta del comprador. |
-| [!UICONTROL Send] | Envía el presupuesto actualizado como respuesta a la consulta del comprador. Este botón se desactiva si el vendedor espera una respuesta del comprador. |
+| [!UICONTROL Decline] | Rechaza la solicitud de negociar los precios, ya sea en la investigación inicial o durante las negociaciones en curso. Cuando se rechaza una cotización, el vendedor debe añadir un comentario para explicar la decisión. Cuando se rechaza una oferta, todos los precios negociados se restablecen a los valores originales. Este botón está desactivado mientras el vendedor espera una respuesta del comprador. |
+| [!UICONTROL Send] | Envía el presupuesto actualizado como respuesta a la pregunta del comprador. Este botón está desactivado si el vendedor está esperando una respuesta del comprador. |
 
 {style="table-layout:auto"}
 
-## Descripciones de los campos
+## Descripciones de campos
 
-La información y las funciones de cotización en el Administrador están organizadas en las siguientes secciones.
+La información de presupuesto y las funciones en el Administrador están organizadas en las siguientes secciones.
 
 ### [!UICONTROL Quote & Account Information]
 
@@ -216,8 +233,8 @@ La información y las funciones de cotización en el Administrador están organi
 | [!UICONTROL Subtotal (Incl./Excl. Tax)] | En función de la configuración, esta columna puede mostrar el subtotal con o sin impuestos estimados. |
 | [!UICONTROL Action] | Menú de selección de operaciones que se pueden aplicar a un elemento de línea:<ul><li>**[!UICONTROL Discount item]**</li><li>**[!UICONTROL Leave a note to Buyer]**</li><li>**[!UICONTROL Remove an item from the quote]**</li></ul>. |
 | [!UICONTROL Configure] | Permite cambiar las opciones de un producto configurable. |
-| [!UICONTROL Update Prices] | Actualiza la cotización con los últimos cambios del catálogo compartido y las reglas de precios. |
-| [!UICONTROL Recalculate Quote] | Recalcula todos los precios de cotización, carro de compras reglas de precios e impuestos para reflejar los cambios en la cotización. |
+| [!UICONTROL Update Prices] | Actualiza la oferta con los cambios más recientes del catálogo compartido y las reglas de precios. |
+| [!UICONTROL Recalculate Quote] | Vuelve a calcular todos los precios de oferta, las reglas de precios del carro de compras y los impuestos para reflejar los cambios en la oferta. |
 
 {style="table-layout:auto"}
 
@@ -234,7 +251,7 @@ La información y las funciones de cotización en el Administrador están organi
 
 | Campo | Descripción |
 |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Comments] | La pestaña Comentarios de la sección Negociación se utiliza para enviar un mensaje al comprador sobre la oferta. <br/>**[!UICONTROL Add your comment]**- Los comentarios se utilizan para comunicarse con el comprador durante el proceso de negociación. Utilice los comentarios para explicar los descuentos ofrecidos en la oferta o el motivo por el que se rechaza una solicitud de presupuesto.<br/>**[!UICONTROL Attach file]** - El tamaño máximo de archivo y los tipos de archivo compatibles para [archivos adjuntos](configure-quotes.md) están determinados por la configuración. De forma predeterminada, un archivo adjunto puede tener hasta 2 MB y cualquiera de los siguientes tipos de archivo: DOC, DOCX, XLS, XLSX, PDF, TXT, JPEG o JPG, PNG. |
+| [!UICONTROL Comments] | La pestaña Comentarios de la sección Negociación se utiliza para enviar un mensaje al comprador sobre la oferta. <br/>**[!UICONTROL Add your comment]**- Los comentarios se utilizan para comunicarse con el comprador durante el proceso de negociación. Utilice los comentarios para explicar los descuentos ofrecidos en la oferta o el motivo por el que se rechaza una solicitud de presupuesto.<br/>**[!UICONTROL Attach file]** - El tamaño máximo de archivo y los tipos de archivo compatibles para [archivos adjuntos](configure-quotes.md) están determinados por la configuración. De forma predeterminada, un archivo adjunto puede tener hasta 2 MB y cualquiera de los siguientes tipos de archivo: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG o JPEG, PNG. |
 | [!UICONTROL History Log] | Esta pestaña muestra un historial completo de la oferta con fechas, estado de la oferta y comentarios. |
 
 {style="table-layout:auto"}
@@ -244,8 +261,8 @@ La información y las funciones de cotización en el Administrador están organi
 | Campo | Descripción |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Total Cost] | El coste total para el vendedor de los artículos incluidos en el presupuesto. |
-| [!UICONTROL Catalog Total Price  (Incl./Excl. Tax)] | El precio total de los artículos de la oferta sin impuestos, según los precios del catálogo compartido o del catálogo principal que se utiliza como base de la oferta. Expanda la sección para mostrar los valores utilizados en el cálculo, en función del [ajuste Mostrar subtotal](../configuration-reference/sales/tax.md) de la configuración. Opciones: <br/>**[!UICONTROL Subtotal (Excl. Tax)]**- El Precio Total del Catálogo sin impuestos estimados.<br/>**[!UICONTROL Subtotal (Incl. Tax)]** - El Precio Total del Catálogo sin impuestos estimados. <br/>**[!UICONTROL Estimated Tax]**- El importe del impuesto que se estima aplicar al Precio Total del Catálogo. |
-| Precio negociado | El descuento que se ofrece al comprador puede basarse en cualquiera de los siguientes: <br/>**[!UICONTROL Percentage Discount]**- El descuento como porcentaje.<br/>**[!UICONTROL Amount Discount]** - El descuento como cantidad fija. <br/>**[!UICONTROL Proposed Price]**: el precio propuesto por el vendedor.<p>Si todos los artículos del presupuesto tienen un descuento por artículo bloqueado, la sección [!UICONTROL Negotiated Price] se deshabilita porque no se puede aplicar ningún descuento adicional.</p><p>Si un producto tiene un descuento de artículo de línea que no está bloqueado, tanto el descuento de artículo de línea como el descuento de nivel de oferta se aplican al precio del producto.</p> |
+| [!UICONTROL Catalog Total Price  (Incl./Excl. Tax)] | El precio total de los artículos de la oferta sin impuestos, según los precios del catálogo compartido o del catálogo principal que se utiliza como base de la oferta. Expanda la sección para mostrar los valores que se usan en el cálculo, según la configuración de [Mostrar subtotal](../configuration-reference/sales/tax.md) en la configuración. Opciones: <br/>**[!UICONTROL Subtotal (Excl. Tax)]**: el precio total del catálogo sin impuestos estimados.<br/>**[!UICONTROL Subtotal (Incl. Tax)]**: el precio total del catálogo sin impuestos estimados. <br/>**[!UICONTROL Estimated Tax]**: cantidad de impuestos que se estima aplicar al precio total del catálogo. |
+| Precio negociado | El descuento ofrecido al comprador puede basarse en cualquiera de los siguientes elementos: <br/>**[!UICONTROL Percentage Discount]**- El descuento como porcentaje.<br/>**[!UICONTROL Amount Discount]** - El descuento como importe fijo. <br/>**[!UICONTROL Proposed Price]**- El precio propuesto por el vendedor.<p>Si todos los artículos del presupuesto tienen un descuento por artículo bloqueado, la sección [!UICONTROL Negotiated Price] se deshabilita porque no se puede aplicar ningún descuento adicional.</p><p>Si un producto tiene un descuento de artículo de línea que no está bloqueado, tanto el descuento de artículo de línea como el descuento de nivel de oferta se aplican al precio del producto.</p> |
 | [!UICONTROL Quote Subtotal (Incl./Excl. Tax)] | El precio total propuesto de cada elemento de línea en la oferta, ya sea con o sin impuestos, según la configuración de [cálculo de impuestos](../configuration-reference/sales/tax.md). |
 | [!UICONTROL Shipping & Handling] | El importe introducido por el vendedor en el campo Precio de envío propuesto de la sección Información de envío de la oferta. Si ese campo está vacío, la cantidad se basa en el método de envío seleccionado. |
 | [!UICONTROL Estimated Tax] | El importe de impuestos que se estima vencer, tal como se especifica en la configuración [configuración de pantalla](../configuration-reference/sales/tax.md). |

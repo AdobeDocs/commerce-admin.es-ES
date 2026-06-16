@@ -1,11 +1,25 @@
 ---
-title: '[!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings]'
-description: Revise la configuración en la página [!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings] del administrador de Commerce.
+title: '[!UICONTROL Sales] > [!UICONTROL Shipping Settings]'
+description: Revise la configuración en la página [!UICONTROL Sales] > [!UICONTROL Shipping Settings] del administrador de Commerce.
 exl-id: d7d46946-f8c9-4714-96c3-2173e28f7bfa
 feature: Configuration, Shipping/Delivery
-source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
+TQID: https://experienceleague.adobe.com/4-Kmcd3F8pQyMgxp-NmkBFVNuEXWuYn-BOzpvxuFMhU
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: 204
 ht-degree: 1%
 
 ---

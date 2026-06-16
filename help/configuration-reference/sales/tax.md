@@ -1,11 +1,26 @@
 ---
-title: '[!UICONTROL Sales] &gt; [!UICONTROL Tax]'
-description: Revise la configuración en la página [!UICONTROL Sales] &gt; [!UICONTROL Tax] del administrador de Commerce.
+title: '[!UICONTROL Sales] > [!UICONTROL Tax]'
+description: Revise la configuración en la página [!UICONTROL Sales] > [!UICONTROL Tax] del administrador de Commerce.
 exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 feature: Configuration, Taxes
-source-git-commit: f95e6d22f83b518c64b254f0d98147e3c6ebaf42
+TQID: https://experienceleague.adobe.com/HbW4SJ4D2ktIp2wPFx5Bd1flvKdU6fqayMqjwzWorXE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: 1231
 ht-degree: 0%
 
 ---
@@ -14,9 +29,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Las versiones 2.4.0 a 2.4.3 de Adobe Commerce y Magento Open Source incluían la extensión desarrollada por el proveedor Vertex que se utilizó para integrarse con [!UICONTROL Vertex Cloud]. A partir de la versión 2.4.4, esta extensión ya no se integra con la versión principal y debe instalarse y actualizarse desde el Commerce Marketplace. Marketplace también proporciona acceso a la documentación actual proporcionada por el desarrollador de extensiones.
-><br><br>
->Si tiene la extensión agrupada habilitada y configurada, debe actualizar el archivo composer.json como parte del proceso de actualización de la versión 2.4.4 y administrar las actualizaciones de extensión que se realicen. Consulte [Actualizar módulos y extensiones](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=es) en la _Guía de actualización_ para obtener más información.
+>Las versiones 2.4.0 a 2.4.3 de Adobe Commerce y Magento Open Source incluían la extensión desarrollada por el proveedor Vertex que se utilizó para integrarse con [!UICONTROL Vertex Cloud]. A partir de la versión 2.4.4, esta extensión ya no se integra con la versión principal y debe instalarse y actualizarse desde Commerce Marketplace. Marketplace también proporciona acceso a la documentación actual proporcionada por el desarrollador de extensiones.
+><br><br>>Si tiene la extensión agrupada habilitada y configurada, debe actualizar su archivo composer.json como parte del proceso de actualización 2.4.4 y administrar las actualizaciones de extensión en adelante. Consulte [Módulos y extensiones de actualización](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=es) en la _Guía de actualización_ para obtener más información.
 
 {{config}}
 
@@ -48,7 +62,7 @@ Para obtener más información acerca de cómo cambiar esta configuración, cons
 | [!UICONTROL Apply Customer Tax] | Sitio web | Determina si el impuesto se aplica antes o después de un descuento. Opciones: `Before Discount` / `After Discount` |
 | [!UICONTROL Apply Discount on Prices] | Sitio web | Determina si los precios de descuento incluyen o excluyen impuestos. Opciones: `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Apply Tax On] | Sitio web | Determina si el impuesto se aplica al precio original o a un precio personalizado, si está disponible. Opciones: `Custom price if available` / `Original price only` |
-| [!UICONTROL Enable Cross Border Trade] | Sitio web | Cuando está activada, aplica precios consistentes a través de las fronteras de regiones con diferentes tasas de impuestos. Opciones: `Yes` / `No` <br/><br/>**_Nota:_**&#x200B;El uso del comercio transfronterizo ajusta el margen de beneficio por tasa de impuestos. |
+| [!UICONTROL Enable Cross Border Trade] | Sitio web | Cuando está activada, aplica precios consistentes a través de las fronteras de regiones con diferentes tasas de impuestos. Opciones: `Yes` / `No` <br/><br/>**_Nota:_** El uso del comercio transfronterizo ajusta el margen de beneficio por tasa de impuestos. |
 
 {style="table-layout:auto"}
 
@@ -72,7 +86,7 @@ Para obtener más información acerca de cómo cambiar esta configuración, cons
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Display Product Prices in Catalog] | Vista de tienda | Determina si los precios de productos publicados en el catálogo incluyen o excluyen impuestos, o muestran dos versiones del precio; una con y otra sin impuestos. Opciones: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_Nota:_**&#x200B;Si establece el campo Mostrar precios de productos en `Including Tax`, el impuesto solo aparecerá si hay una regla fiscal que coincida con el origen del impuesto o si hay una dirección de cliente que coincida con la regla fiscal. Los eventos que pueden almacenar en déclencheur una coincidencia incluyen la creación de cuentas de cliente, el inicio de sesión o el uso de la herramienta de estimación de impuestos y envíos en el carro de compras. |
+| [!UICONTROL Display Product Prices in Catalog] | Vista de tienda | Determina si los precios de productos publicados en el catálogo incluyen o excluyen impuestos, o muestran dos versiones del precio; una con y otra sin impuestos. Opciones: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_Nota:_** Si establece el campo Mostrar precios de productos en `Including Tax`, el impuesto solo aparecerá si hay una regla fiscal que coincida con el origen del impuesto o si hay una dirección de cliente que coincida con la regla fiscal. Los eventos que pueden almacenar en déclencheur una coincidencia incluyen la creación de cuentas de cliente, el inicio de sesión o el uso de la herramienta de estimación de impuestos y envíos en el carro de compras. |
 | [!UICONTROL Display Shipping Prices] | Vista de tienda | Determina si los precios de envío incluyen o excluyen impuestos, o muestran dos versiones del precio de envío; una con y otra sin impuestos. Opciones: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
 {style="table-layout:auto"}
@@ -122,10 +136,10 @@ Para obtener más información acerca de cómo cambiar esta configuración, cons
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Enable FPT] | Sitio web | Determina si FTP está disponible. Opciones: `Yes` / `No` |
-| [!UICONTROL Display Prices in Product Lists] | Sitio web | Controla la visualización de FTP en listas de productos. Opciones:<br/> **`Including FPT Only`** - Los precios mostrados incluyen impuestos fijos sobre el producto. El importe de FTP no se muestra por separado.<br/>**`Including FPT and FPT description`**- Los precios mostrados incluyen impuestos fijos sobre el producto. El importe de FTP se muestra por separado.<br/>**`Excluding FPT. Including FPT description and final price`** - Los precios mostrados no incluyen impuestos fijos sobre los productos. El importe de FTP se muestra por separado.<br/>**`Excluding FPT`**- Los precios mostrados no incluyen impuestos fijos sobre los productos. El importe de FTP no se muestra por separado. |
-| [!UICONTROL Display Prices On Product View Page] | Sitio web | Controla la visualización de FTP en la página del producto. Opciones:<br/> **`Including FPT Only`** - Los precios mostrados incluyen impuestos fijos sobre el producto. El importe de FTP no se muestra por separado.<br/>**`Including FPT and FPT description`**- Los precios mostrados incluyen impuestos fijos sobre el producto. El importe de FTP se muestra por separado.<br/>**`Excluding FPT. Including FPT description and final price`** - Los precios mostrados no incluyen impuestos fijos sobre los productos. El importe de FTP se muestra por separado.<br/>**`Excluding FPT`**- Los precios mostrados no incluyen impuestos fijos sobre los productos. El importe de FTP no se muestra por separado. |
-| [!UICONTROL Display Prices in Sales Modules] | Sitio web | Controla la visualización de FPT en el carro de compras y durante el cierre de compra. Opciones:<br/> **`Including FPT Only`** - Los precios mostrados incluyen impuestos fijos sobre el producto. El importe de FTP no se muestra por separado.<br/>**`Including FPT and FPT description`**- Los precios mostrados incluyen impuestos fijos sobre el producto. El importe de FTP se muestra por separado.<br/>**`Excluding FPT. Including FPT description and final price`** - Los precios mostrados no incluyen impuestos fijos sobre los productos. El importe de FTP se muestra por separado.<br/>**`Excluding FPT`**- Los precios mostrados no incluyen impuestos fijos sobre los productos. El importe de FTP no se muestra por separado. |
-| [!UICONTROL Display Prices in Emails] | Sitio web | Controla la visualización de FTP en el correo electrónico. Opciones:<br/> **`Including FPT Only`** - Los precios mostrados incluyen impuestos fijos sobre el producto. El importe de FTP no se muestra por separado.<br/>**`Including FPT and FPT description`**- Los precios mostrados incluyen impuestos fijos sobre el producto. El importe de FTP se muestra por separado.<br/>**&#x200B; Excluyendo FTP. Incluyendo descripción de FTP y precio final &#x200B;**- Los precios mostrados no incluyen impuestos fijos sobre los productos. El importe de FTP se muestra por separado.<br/>**`Excluding FPT`** - Los precios mostrados no incluyen impuestos fijos sobre los productos. El importe de FTP no se muestra por separado. |
+| [!UICONTROL Display Prices in Product Lists] | Sitio web | Controla la visualización de FTP en listas de productos. Opciones:<br/> **`Including FPT Only`** - Los precios mostrados incluyen impuestos fijos sobre el producto. La cantidad de FTP no se muestra por separado.<br/>**`Including FPT and FPT description`**- Los precios mostrados incluyen impuestos fijos sobre el producto. La cantidad de FTP se muestra por separado.<br/>**`Excluding FPT. Including FPT description and final price`** - Los precios mostrados no incluyen impuestos fijos sobre el producto. La cantidad de FTP se muestra por separado.<br/>**`Excluding FPT`**- Los precios mostrados no incluyen impuestos fijos sobre el producto. El importe de FTP no se muestra por separado. |
+| [!UICONTROL Display Prices On Product View Page] | Sitio web | Controla la visualización de FTP en la página del producto. Opciones:<br/> **`Including FPT Only`** - Los precios mostrados incluyen impuestos fijos sobre el producto. La cantidad de FTP no se muestra por separado.<br/>**`Including FPT and FPT description`**- Los precios mostrados incluyen impuestos fijos sobre el producto. La cantidad de FTP se muestra por separado.<br/>**`Excluding FPT. Including FPT description and final price`** - Los precios mostrados no incluyen impuestos fijos sobre el producto. La cantidad de FTP se muestra por separado.<br/>**`Excluding FPT`**- Los precios mostrados no incluyen impuestos fijos sobre el producto. El importe de FTP no se muestra por separado. |
+| [!UICONTROL Display Prices in Sales Modules] | Sitio web | Controla la visualización de FPT en el carro de compras y durante el cierre de compra. Opciones:<br/> **`Including FPT Only`** - Los precios mostrados incluyen impuestos fijos sobre el producto. La cantidad de FTP no se muestra por separado.<br/>**`Including FPT and FPT description`**- Los precios mostrados incluyen impuestos fijos sobre el producto. La cantidad de FTP se muestra por separado.<br/>**`Excluding FPT. Including FPT description and final price`** - Los precios mostrados no incluyen impuestos fijos sobre el producto. La cantidad de FTP se muestra por separado.<br/>**`Excluding FPT`**- Los precios mostrados no incluyen impuestos fijos sobre el producto. El importe de FTP no se muestra por separado. |
+| [!UICONTROL Display Prices in Emails] | Sitio web | Controla la visualización de FTP en el correo electrónico. Opciones:<br/> **`Including FPT Only`** - Los precios mostrados incluyen impuestos fijos sobre el producto. La cantidad de FTP no se muestra por separado.<br/>**`Including FPT and FPT description`**- Los precios mostrados incluyen impuestos fijos sobre el producto. El importe de FTP se muestra por separado.<br/>**&#x200B; Excluyendo FTP. Incluyendo descripción de FTP y precio final &#x200B;**- Los precios mostrados no incluyen impuestos fijos sobre los productos. La cantidad de FTP se muestra por separado.<br/>**`Excluding FPT`** - Los precios mostrados no incluyen impuestos fijos sobre el producto. El importe de FTP no se muestra por separado. |
 | [!UICONTROL Apply Tax to FPT] | Sitio web | Determina si el impuesto se aplica al importe FTP. Opciones: `Yes` / `No` |
 | [!UICONTROL Include FPT in Subtotal] | Sitio web | Determina si FTP está incluido en el subtotal del carro de compras. Opciones: <br/>**`Yes`**- Incluye FTP en el subtotal del carro de compras.<br/>**`No`** - FTP no se incluye en el subtotal y se coloca después del subtotal en el carro de compras. |
 

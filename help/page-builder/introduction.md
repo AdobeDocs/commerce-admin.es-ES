@@ -1,10 +1,20 @@
 ---
 title: Introducción a  [!DNL Page Builder]
-description: Obtenga información acerca de las  [!DNL Page Builder] herramientas para crear contenido fácilmente en Adobe Commerce y Magento Open Source.
+description: Obtenga información sobre las  [!DNL Page Builder] herramientas para crear contenido fácilmente en Adobe Commerce y Magento Open Source.
 exl-id: 2f71f910-4141-4fe5-bc0f-b891daeb8334
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/9TbyhDXBbSOfTp4umY9jDqMPo5-6RRFC1F7nywAzATo
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: 249
 ht-degree: 0%
 
 ---
@@ -20,7 +30,7 @@ ht-degree: 0%
 - Amplia variedad de tipos de contenido
 - Tipos de entrada de atributos de producto personalizados
 
-Las herramientas de contenido avanzado [!DNL Page Builder] se introdujeron en la versión 2.3.1 de Adobe Commerce. A partir de la versión 2.4.3, la funcionalidad básica de [!DNL Page Builder] también está disponible en Magento Open Source. Sin embargo, [!DNL Page Builder] en Adobe Commerce ha mejorado las capacidades para usar el resto de las herramientas de _Experience Management_. Estas herramientas permiten a los comerciantes ofrecer experiencias y campañas atractivas y personalizadas: ensayo y vista previa, contenido personalizado, Recommendations de productos y funciones adicionales por venir.
+Las herramientas de contenido avanzado [!DNL Page Builder] se introdujeron en la versión 2.3.1 de Adobe Commerce. A partir de la versión 2.4.3, la funcionalidad básica de [!DNL Page Builder] también está disponible en Magento Open Source. Sin embargo, [!DNL Page Builder] en Adobe Commerce ha mejorado las capacidades para usar el resto de las herramientas de _Experience Management_. Estas herramientas permiten a los comerciantes ofrecer experiencias y campañas atractivas y personalizadas: ensayo y vista previa, contenido personalizado, recomendaciones de productos y funciones adicionales por venir.
 
 ## Aprender [!DNL Page Builder]
 
@@ -38,4 +48,4 @@ Tanto si es su primera vez en [!DNL Commerce] como si es un usuario experimentad
 
 Vea este vídeo para obtener más información sobre las funciones de Page Builder:
 
->[!VIDEO](https://video.tv.adobe.com/v/3447894?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3447894?captions=spa&quality=12&learn=on)

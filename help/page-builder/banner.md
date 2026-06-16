@@ -3,9 +3,27 @@ title: 'Medios: titular'
 description: Obtenga información acerca del tipo de contenido Banner que se usa para agregar un componente interactivo ilustrado en el escenario  [!DNL Page Builder] .
 exl-id: 287d866c-8a63-4531-8c1b-40d560a07947
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/Z3u2nUxV3UEj9-yI0miZj36iLikFbcOCJKX2GiLWjVo
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2302'
+source-wordcount: 2305
 ht-degree: 0%
 
 ---
@@ -50,7 +68,7 @@ El cuadro de herramientas del titular aparece cuando pasa el ratón por encima d
 
    ![Arrastrando un tipo de contenido de banner al escenario](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
-   Se incluyen los botones _[!UICONTROL Upload Image]_&#x200B;y&#x200B;_[!UICONTROL Select from Gallery]_ para que pueda realizar cambios rápidos en el contenido del titular directamente desde el escenario. También puede cambiar el contenido en la página _[!UICONTROL Edit Banner]_.
+   Se incluyen los botones _[!UICONTROL Upload Image]_&#x200B;y_[!UICONTROL Select from Gallery]_ para que pueda realizar cambios rápidos en el contenido del titular directamente desde el escenario. También puede cambiar el contenido en la página _[!UICONTROL Edit Banner]_.
 
 1. Haga clic en el marcador de posición del titular para mostrar [editor de texto](../content-design/editor.md) e introducir contenido para el titular.
 

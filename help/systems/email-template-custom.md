@@ -3,9 +3,24 @@ title: Personalizar plantillas de correo electrónico
 description: Aprenda a personalizar las plantillas de correo electrónico para cada sitio web, tienda o vista de tienda.
 exl-id: d328b84d-fab7-4956-9071-2d8848f7c21e
 feature: Communications, Configuration
-source-git-commit: c0d6523f820558c8cd6cfa6b745568784b9e784c
+TQID: https://experienceleague.adobe.com/JsYtRQoLNKrCjd9DSPB3z6sgm1ApQA5G-tun03tXX7A
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: 1314
 ht-degree: 0%
 
 ---
@@ -38,7 +53,7 @@ Las plantillas predeterminadas incluyen su logotipo y la información de la tien
 
 ## Plantilla de encabezado
 
-Después de completar la [configuración](email-templates.md#configure-email-templates), la plantilla de encabezado de correo electrónico incluye tu logotipo que está vinculado a tu tienda. Si tiene conocimientos básicos de HTML, puede usar fácilmente [variables predefinidas](variables-predefined.md) para agregar información de contacto de tienda al encabezado.
+Después de completar la [configuración](email-templates.md#configure-email-templates), la plantilla de encabezado de correo electrónico incluye tu logotipo que está vinculado a tu tienda. Si tiene conocimientos básicos de HTML, puede usar fácilmente [variables predefinidas](variables-predefined.md) para agregar información de contacto de la tienda al encabezado.
 
 ### Paso 1. Cargar la plantilla predeterminada
 
@@ -52,7 +67,7 @@ Después de completar la [configuración](email-templates.md#configure-email-tem
 
 1. Haga clic en **[!UICONTROL Load Template]**.
 
-   El código del HTML y las variables de la plantilla aparecen en el formulario.
+   El código HTML y las variables de la plantilla aparecen en el formulario.
 
 ### Paso 2. Personalización de la plantilla
 
@@ -64,7 +79,7 @@ Después de completar la [configuración](email-templates.md#configure-email-tem
 
    ![Información del encabezado de la plantilla de correo electrónico](./assets/email-template-information.png){width="600" zoomable="yes"}
 
-1. En el cuadro **[!UICONTROL Template Content]**, modifique el HTML según sea necesario.
+1. En el cuadro **[!UICONTROL Template Content]**, modifique la HTML según sea necesario.
 
    >[!NOTE]
    >
@@ -118,7 +133,7 @@ El pie de la plantilla de correo electrónico contiene la línea de cierre y fir
 
 1. Haga clic en **[!UICONTROL Load Template]**.
 
-   El código del HTML y las variables de la plantilla aparecen en el formulario.
+   El código HTML y las variables de la plantilla aparecen en el formulario.
 
 ### Paso 2. Personalización y previsualización de la plantilla
 
@@ -130,7 +145,7 @@ El pie de la plantilla de correo electrónico contiene la línea de cierre y fir
 
    ![Pie de página de plantilla de correo electrónico - información](./assets/email-template-footer-information.png){width="600" zoomable="yes"}
 
-1. En el cuadro **[!UICONTROL Template Content]**, modifique el HTML según sea necesario.
+1. En el cuadro **[!UICONTROL Template Content]**, modifique la HTML según sea necesario.
 
    >[!NOTE]
    >
@@ -190,9 +205,9 @@ El proceso de personalizar el cuerpo de cada mensaje es el mismo que para person
 
    ![Plantillas de correo electrónico: información de plantilla](./assets/email-template-message-information.png){width="600" zoomable="yes"}
 
-1. En el cuadro **[!UICONTROL Template Content]**, modifique el HTML según sea necesario.
+1. En el cuadro **[!UICONTROL Template Content]**, modifique la HTML según sea necesario.
 
-   El contenido consiste en una combinación de etiquetas de HTML, directivas CSS, variables y texto.
+   El contenido consiste en una combinación de etiquetas HTML, directivas CSS, variables y texto.
 
    >[!NOTE]
    >

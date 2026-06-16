@@ -3,9 +3,24 @@ title: Estructura del sitio y la tienda
 description: Obtenga información acerca del sitio web, la tienda y la jerarquía de vistas de la tienda.
 exl-id: d745cbd0-151b-4f82-bb6c-fb6b9565a014
 feature: Site Management, System
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+TQID: https://experienceleague.adobe.com/Qx4MO7bO5PoWmt4XxYeqsHeCq4Ov2mPp5Q0JAIDeaY4
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: 1199
 ht-degree: 0%
 
 ---
@@ -109,8 +124,8 @@ Para configurar el servidor de modo que admita varios sitios web, consulte [Vari
 
 Para obtener ayuda sobre la configuración del servidor web, consulte los siguientes recursos:
 
-- [Configurar varios sitios web con NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=es)
-- [Configurar varios sitios web con Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=es)
+- [Configuración de varios sitios web con NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=es)
+- [Configuración de varios sitios web con Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=es)
 
 Para Adobe Commerce sobre la infraestructura en la nube, consulte [Configuración de varios sitios web o tiendas](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=es).
 
@@ -118,7 +133,7 @@ Para Adobe Commerce sobre la infraestructura en la nube, consulte [Configuració
 
 Se pueden configurar varios sitios web desde una sola instalación de Adobe Commerce o Magento Open Source con el mismo dominio o dominios diferentes. De forma predeterminada, las tiendas que están en el mismo sitio web tienen la misma dirección IP y el mismo dominio, utilizan el mismo certificado de seguridad y comparten un único proceso de cierre de compra. Si desea que cada almacén tenga un proceso de cierre de compra dedicado en su propio dominio, cada almacén debe tener una dirección IP distinta y un certificado de seguridad independiente.
 
-Las instalaciones de varios sitios de Adobe Commerce o Magento Open Source deben configurarse desde Admin y desde la línea de comandos del servidor. La [Guía de configuración](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=es) de Commerce proporciona instrucciones detalladas para configurar el entorno del servidor.
+Las instalaciones de varios sitios de Adobe Commerce o Magento Open Source deben configurarse desde el administrador y también desde la línea de comandos del servidor. La [Guía de configuración](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=es) de Commerce proporciona instrucciones detalladas para configurar el entorno del servidor.
 
 ![Ámbito - sitios web](./assets/scope-multisite.svg){width="550"}
 
@@ -156,7 +171,7 @@ Para configurar el servidor de modo que admita varios sitios web, consulte [Vari
 
 Para obtener ayuda sobre la configuración del servidor web, consulte los siguientes tutoriales:
 
-- [Configurar varios sitios web con NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=es)
-- [Configurar varios sitios web con Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=es)
+- [Configuración de varios sitios web con NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=es)
+- [Configuración de varios sitios web con Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=es)
 
 Para Adobe Commerce sobre la infraestructura en la nube, consulte [Configuración de varios sitios web o tiendas](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=es).

@@ -3,9 +3,23 @@ title: Impuestos
 description: Aprenda a configurar su tienda para calcular los impuestos según los requisitos de su configuración regional.
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: 1128
 ht-degree: 0%
 
 ---
@@ -107,5 +121,5 @@ _&#x200B;**Para recopilar información de impuestos sobre bienes digitales:**&#x
 
 Recursos adicionales:
 
-- [Unión Tributaria y Aduanera de la Comisión Europea](https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)
-- [Cambios en el lugar de suministro de EU 1015](https://www2.deloitte.com/global/en/services/tax.html)
+- [Comisión Europea Unión Tributaria y Aduanera](https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)
+- [EU 1015 Cambios en el lugar de suministro](https://www2.deloitte.com/global/en/services/tax.html)
