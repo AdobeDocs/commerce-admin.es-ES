@@ -2,7 +2,7 @@
 title: Bloques de contenido
 description: Un bloque se puede utilizar para mostrar información fija, como texto, imágenes y vídeo incrustado, así como información dinámica.
 exl-id: 545740f7-802c-459e-acd1-a3b3ede29d07
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/J3WLLi92Tawt6kK-LKOhFuM-KwuKxqk0vQevScMP-8A
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

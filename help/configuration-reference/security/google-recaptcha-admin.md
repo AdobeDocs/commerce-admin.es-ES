@@ -3,7 +3,7 @@ title: '[!UICONTROL Security] > [!UICONTROL Google reCAPTCHA Admin Panel]'
 description: Revise la configuración en la página [!UICONTROL Security] > [!UICONTROL Google reCAPTCHA Admin Panel] del administrador de Commerce.
 exl-id: e4e6771a-487a-43ee-8b98-6acee4599aaf
 feature: Configuration, Security
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/hUSNxEvyF010uV6Rp4-osf4azLHtOxtTBSR-XW2m1fA
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Para poder configurar Google reCAPTCHA, debe asegurarse de que el archivo `PHP.ini` incluya la siguiente configuración: `allow_url_fopen = 1`. Esto puede requerir la asistencia del desarrollador. Consulte [Configuración de PHP requerida](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) en la _Guía de instalación_.
+>Para poder configurar Google reCAPTCHA, debe asegurarse de que el archivo `PHP.ini` incluya la siguiente configuración: `allow_url_fopen = 1`. Esto puede requerir la asistencia del desarrollador. Consulte [Configuración de PHP requerida](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=es) en la _Guía de instalación_.
 
 {{config}}
 
@@ -105,7 +105,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--|--|--|
-| [!UICONTROL Enable for Login] | Global | Determina el tipo de reCAPTCHA habilitado para [inicio de sesión de administrador](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html). Opciones: <br/>**`No`**- (predeterminado) No valida el inicio de sesión del administrador.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Requiere que el usuario seleccione la casilla de verificación _No soy un robot_.<br />**`Invisible reCAPTCHA v2`**- Valida el comportamiento del usuario en segundo plano sin requerir interacciones basadas en la puntuación.<br/>**`Invisible reCAPTCHA v3`** : (recomendado) valida el comportamiento del usuario en segundo plano en función de la puntuación de interacción. |
+| [!UICONTROL Enable for Login] | Global | Determina el tipo de reCAPTCHA habilitado para [inicio de sesión de administrador](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=es). Opciones: <br/>**`No`**- (predeterminado) No valida el inicio de sesión del administrador.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Requiere que el usuario seleccione la casilla de verificación _No soy un robot_.<br />**`Invisible reCAPTCHA v2`**- Valida el comportamiento del usuario en segundo plano sin requerir interacciones basadas en la puntuación.<br/>**`Invisible reCAPTCHA v3`** : (recomendado) valida el comportamiento del usuario en segundo plano en función de la puntuación de interacción. |
 | [!UICONTROL Enable for Forgot Password] | Global | Determina el tipo de reCAPTCHA que está habilitado para solicitar un [restablecimiento de contraseña de administrador](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password). Opciones: <br/>**`No`**- (predeterminado) No valida la solicitud de restablecimiento de contraseña.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Requiere que el usuario seleccione la casilla de verificación _No soy un robot_.<br />**`Invisible reCAPTCHA v2`**- Valida el comportamiento del usuario en segundo plano sin requerir interacciones basadas en la puntuación.<br/>**`Invisible reCaptcha v3`** : (recomendado) valida el comportamiento del usuario en segundo plano en función de la puntuación de interacción. |
 
 {style="table-layout:auto"}

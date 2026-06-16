@@ -3,7 +3,7 @@ title: Informes de ventas privados
 description: Los informes de ventas privadas disponibles en Adobe Commerce proporcionan información útil sobre eventos y ventas privadas.
 exl-id: e1c2b01f-500a-475e-b61e-20f3ccbc0e70
 feature: Promotions/Events, Reporting
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/PD538YpWbu4svlU2EQZ3x8Ssgf8Ghj8Yk5cLa1b63eM
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

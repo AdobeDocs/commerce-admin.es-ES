@@ -3,7 +3,7 @@ title: URL de tienda
 description: Obtenga información sobre las direcciones URL de tienda y cómo configurar la dirección URL base y los códigos de tienda.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/t-vp20uVrUmg-dRVONHjUUcgxzYBT5--uB8U1XorRPs
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -172,7 +172,7 @@ Aunque es posible cambiar la URL y la ruta de administración a otra ubicación,
 
 >[!NOTE]
 >
->Como precaución, no intente cambiar la URL de administración a menos que sepa cómo editar los archivos de configuración en el servidor. Para los proyectos de Adobe Commerce implementados en la infraestructura en la nube, cambie la URL de administración siguiendo las [instrucciones](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html#admin-url) de la *Guía de Adobe Commerce en la infraestructura en la nube*.
+>Como precaución, no intente cambiar la URL de administración a menos que sepa cómo editar los archivos de configuración en el servidor. Para los proyectos de Adobe Commerce implementados en la infraestructura en la nube, cambie la URL de administración siguiendo las [instrucciones](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=es#admin-url) de la *Guía de Adobe Commerce en la infraestructura en la nube*.
 
 ### Método 1: cambio desde el administrador
 
@@ -218,7 +218,7 @@ Aunque es posible cambiar la URL y la ruta de administración a otra ubicación,
 
    >[!TIP]
    >
-   >Para Adobe Commerce en la infraestructura en la nube, puede configurar una ruta de administración personalizada mediante la variable `ADMIN_URL` en la interfaz de usuario de la nube. Consulte el tema [Variables de administración](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) en la _Guía de infraestructura de Commerce en la nube_.
+   >Para Adobe Commerce en la infraestructura en la nube, puede configurar una ruta de administración personalizada mediante la variable `ADMIN_URL` en la interfaz de usuario de la nube. Consulte el tema [Variables de administración](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=es) en la _Guía de infraestructura de Commerce en la nube_.
 
    - **Ruta de administración predeterminada**
 

@@ -3,7 +3,7 @@ title: Datos de Meta
 description: Obtenga información sobre cómo introducir metadatos con muchas palabras clave para mejorar la forma en que los motores de búsqueda indexan el sitio de Commerce.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/hl0i6mlFJY5r5bIWNG6gQMGlWQMmaWOWBnt8pCpKT50
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

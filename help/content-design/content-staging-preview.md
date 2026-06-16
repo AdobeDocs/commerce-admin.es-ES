@@ -3,7 +3,7 @@ title: Previsualización de una campaña
 description: Cree una vista previa de cualquier día o período de tiempo durante una campaña y compártala con los integrantes del equipo.
 exl-id: f05589ae-9fc8-4e51-a504-ab90772b3c3d
 feature: Page Content, Staging
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/oX0wqWTv3MiA6-nMLngP2di0o9JmC-WNkAOm4TOpv74
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

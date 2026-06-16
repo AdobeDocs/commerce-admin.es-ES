@@ -37,11 +37,11 @@ Estas notas de la versión describen las versiones de [!DNL Inventory Management
 
 [!DNL Inventory Management] es un proyecto especial de ingeniería de la comunidad de Magento Open Source abierto a los colaboradores. Para participar y contribuir, consulta el repositorio [GitHub project](https://github.com/magento/inventory) y la [wiki](https://github.com/magento/inventory/wiki) para comenzar. Para discutir el proyecto, únete al canal [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) ([suscripción automática](https://opensource.magento.com/slack)).
 
-[Programación de versiones](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} para versiones compatibles.
+[Programación de versiones](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=es){target="_blank"} para versiones compatibles.
 
 ## Versión 1.2.7
 
-Las notas de la versión 1.2.7 de [!DNL Inventory Management] se incluyen en las [notas de la versión core 2.4.7](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
+Las notas de la versión 1.2.7 de [!DNL Inventory Management] se incluyen en las [notas de la versión core 2.4.7](https://experienceleague.adobe.com/es/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
 
 ## Versión 1.2.6
 
@@ -133,7 +133,7 @@ Inventory management 1.2.4 (versión de módulo: `magento/inventory-metapackage 
 
 ![Se ha corregido un problema](../assets/fix.svg). El rendimiento ha mejorado para las acciones de carro de compras y cierre de compra, como agregar productos al carro de compras en implementaciones con muchos (aproximadamente 10.000) orígenes de inventario. <!--- MC-42570-->
 
-![Se ha corregido un problema](../assets/fix.svg) [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} El comando `bin/magento inventory:reservation:list-inconsistencies` ahora gestiona correctamente los pedidos con envíos parciales incluso si se omiten las reservas de la base de datos y se ha borrado la caché. Anteriormente, cuando este comando se ejecutaba con una memoria caché previamente borrada, Commerce mostraba el siguiente error: `Area code is not set`. <!--- MC-42142-->
+![Se ha corregido un problema](../assets/fix.svg) [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} El comando `bin/magento inventory:reservation:list-inconsistencies` ahora gestiona correctamente los pedidos con envíos parciales incluso si se omiten las reservas de la base de datos y se ha borrado la caché. Anteriormente, cuando este comando se ejecutaba con una memoria caché previamente borrada, Commerce mostraba el siguiente error: `Area code is not set`. <!--- MC-42142-->
 
 
 ![Se ha corregido un problema](../assets/fix.svg) La indexación incremental de productos secundarios agrupados ya no hace que otros productos agrupados se indexen incorrectamente cuando se comparten productos secundarios. <!--- MC-41963-->

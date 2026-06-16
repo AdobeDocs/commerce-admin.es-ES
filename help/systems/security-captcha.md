@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo configurar CAPTCHA para el acceso 
 exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
 role: Admin
 feature: Configuration, Security
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/w7DLKLlK4MsGrK9kOw3-dsgEUqsGhszgjiZ7F9Vr0ak
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

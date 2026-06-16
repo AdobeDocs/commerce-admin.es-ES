@@ -3,7 +3,7 @@ title: Pagos mediante PayPal avanzados
 description: Aprenda a configurar PayPal Payments Advanced como solución de pago en línea en su tienda.
 exl-id: 018dd999-2f17-4650-8f61-624809ae76c6
 feature: Payments
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/pkxzCNRxzCwDeYhaDoaiNl04wpbqbMmOedoBzW4hbR8
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

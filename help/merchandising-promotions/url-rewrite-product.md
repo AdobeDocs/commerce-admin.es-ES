@@ -3,7 +3,7 @@ title: Reescrituras de URL del producto
 description: Aprenda a utilizar las reescrituras de direcciones URL de productos para redirigir vínculos a la dirección URL de otro producto en su tienda de Commerce.
 exl-id: 42b28ff7-e148-44f2-b6b4-63a38458e752
 feature: Products, Configuration
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/Gf-FKoKTnWSHVNB2EsutTTQEc7KL-sL3z8LklPF-1Z8
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

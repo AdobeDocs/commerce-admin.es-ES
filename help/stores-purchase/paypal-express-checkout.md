@@ -3,7 +3,7 @@ title: Pago y envío con PayPal Express
 description: Aprenda a configurar el Pago y envío de PayPal Express como una solución de pago en línea en su tienda.
 exl-id: 0cd90306-cf47-4a5f-8994-6ae96904ae2f
 feature: Payments
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/7aaiT94I7NENXKmz72TZNNlh6VO8tKedFZbIXRUL79E
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

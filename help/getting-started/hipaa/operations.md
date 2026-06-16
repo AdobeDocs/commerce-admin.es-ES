@@ -2,7 +2,7 @@
 title: Operaciones
 description: Directrices para migrar a una oferta compatible con HIPAA y utilizar el entorno de ensayo secundario para la resolución de problemas.
 exl-id: 058b43de-1cee-4557-b2e3-87ee7422bf9b
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/w3CGUMXmuXy8006HmWG0K-q3ntjbHFAaC61O6t7S4Ao
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -64,4 +64,4 @@ Los clientes deben asegurarse de que el entorno `staging_for_support`:
 
 - **Servicio de catálogo**: por diseño, [Servicio de catálogo](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/overview) no procesa la PHI, por lo que está fuera de ámbito para la auditoría de preparación y el cumplimiento de HIPAA. Los clientes son responsables de garantizar que utilizan este servicio en base a su propia evaluación de casos de uso y en consulta con el asesor legal. Los clientes tampoco deben utilizar el Servicio de catálogo a través del servicio federado para evitar el riesgo de pasar la PHI a servicios no preparados para HIPAA.
 
-- **Exportación De Datos SaaS**: El servicio [Exportación De Datos SaaS](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) debe configurarse para enviar datos solo para componentes preparados para HIPAA en Adobe Commerce.
+- **Exportación De Datos SaaS**: El servicio [Exportación De Datos SaaS](https://experienceleague.adobe.com/es/docs/commerce/saas-data-export/overview) debe configurarse para enviar datos solo para componentes preparados para HIPAA en Adobe Commerce.

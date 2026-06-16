@@ -3,7 +3,7 @@ title: Controles de Page Workspace
 description: Obtenga información acerca de las herramientas de Workspace utilizadas para localizar y actualizar páginas de contenido.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/xtwiVV3F8lpix-1dJw-Bg8SAgoC7SfXoGvQzQN560lo
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

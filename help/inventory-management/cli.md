@@ -4,7 +4,7 @@ description: Obtenga información acerca de los comandos proporcionados por el m
 exl-id: d92dffce-94a1-443c-8c72-98fecbbd5320
 level: Experienced
 feature: Inventory, Configuration
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/jdlLgwIe50ExZ2giXBiGf5cG8L4DQDZe4psbB16F5JE
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

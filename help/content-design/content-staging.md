@@ -3,7 +3,7 @@ title: Ensayo de contenido
 description: El ensayo de contenido permite a su equipo empresarial crear, previsualizar y programar fácilmente una amplia gama de actualizaciones de contenido para su tienda, directamente desde el administrador.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/XAMnUUL9JH0atN6vlwwe2l9x4P-uAqJA3BH-h9LbIXU
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -98,6 +98,6 @@ Para obtener más información sobre el ensayo de contenido, vea este vídeo:
 
 Para obtener ayuda con la resolución de problemas de ensayo de contenido, consulte los siguientes [!DNL Commerce] artículos de la Base de conocimiento de asistencia técnica:
 
-- [Error 404 en todas las páginas debido a un problema de ensayo de contenido](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html)
-- [Las actualizaciones programadas de ensayo de contenido no se muestran con la caché de Fastly obsoleta](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html)
-- [¿Puedo programar actualizaciones de Ensayo de contenido para precios en un catálogo compartido?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html)
+- [Error 404 en todas las páginas debido a un problema de ensayo de contenido](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html?lang=es)
+- [Las actualizaciones programadas de ensayo de contenido no se muestran con la caché de Fastly obsoleta](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html?lang=es)
+- [¿Puedo programar actualizaciones de Ensayo de contenido para precios en un catálogo compartido?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html?lang=es)

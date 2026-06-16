@@ -3,7 +3,7 @@ title: Ventas privadas y eventos
 description: Aprenda a utilizar ventas privadas y otros eventos de catálogo para aumentar las ventas a su base de clientes existente y generar rumores y nuevos posibles clientes.
 exl-id: 0b890463-b1e5-4327-8d8a-372afd53312a
 feature: Reporting, Promotions/Events
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/8MvnlOp5muOQbx3b7dSKguc4wf-k47v9AtaHXu7b9pU
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

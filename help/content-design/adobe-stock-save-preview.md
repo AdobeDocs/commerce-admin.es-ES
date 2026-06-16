@@ -3,7 +3,7 @@ title: Guardar una previsualización de imagen de Adobe Stock
 description: Las vistas previas de imágenes son gratuitas y son una buena manera de experimentar con diferentes imágenes de Adobe Stock antes de decidir comprar una licencia.
 exl-id: 148d8445-fbbb-4f27-8de8-d8c1943d2afe
 feature: CMS, Media
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/AsWG5XAAHFaj5L1I-gpUimcbVGgxZ1SFPeHA2zzNlrw
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

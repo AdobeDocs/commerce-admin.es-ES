@@ -3,7 +3,7 @@ title: Información general sobre la integración de Adobe Identity Management S
 description: Presenta la integración opcional del inicio de sesión del administrador de Adobe Commerce con Adobe IMS
 exl-id: 106d731c-a541-4a19-a38c-221e80740508
 feature: Identity Management
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/O5TJ9TlKRlOrSD-5GRrJC-1DE3XkhQ0IaS-r-OYoJ0Q
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

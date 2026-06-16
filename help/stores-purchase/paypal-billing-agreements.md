@@ -3,7 +3,7 @@ title: Acuerdos de facturación de PayPal
 description: Aprende cómo puedes respaldar los acuerdos de facturación de PayPal y un método de pago dentro de tu tienda.
 exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
 feature: Payments
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/Tg37Iu-rlC4Bp-PHbXig-QVzlbpRkaCLGHOQ3yrNY9M
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

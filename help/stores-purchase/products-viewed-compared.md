@@ -3,7 +3,7 @@ title: Productos vistos o comparados recientemente
 description: Aprenda a configurar los bloques de contenido de la tienda para los productos vistos y comparados recientemente.
 exl-id: a4580835-68c2-4eb0-825e-0939eeab921b
 feature: Products, Storefront
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/YeayJ1RkE6Muq0wNnd6KAQmmZcyjTQrSZOqEltlj8T8
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

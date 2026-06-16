@@ -96,7 +96,7 @@ Después de crear el presupuesto provisional, añade artículos de producto, apl
 
    >[!NOTE]
    >
-   >Para ver una demostración en vídeo de cómo funcionan los descuentos en el elemento de línea, consulte [El representante de ventas aplica un descuento a un elemento de línea de presupuesto](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html) en _Vídeos y tutoriales de Commerce_.
+   >Para ver una demostración en vídeo de cómo funcionan los descuentos en el elemento de línea, consulte [El representante de ventas aplica un descuento a un elemento de línea de presupuesto](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=es) en _Vídeos y tutoriales de Commerce_.
 
 1. Aplique un descuento de nivel de oferta según sea necesario:
 

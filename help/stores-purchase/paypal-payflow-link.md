@@ -3,7 +3,7 @@ title: Vínculo de flujo de pago PayPal
 description: Aprenda a configurar PayPal Payflow Link como solución de pago en línea en su tienda.
 exl-id: dba4057e-1fea-4a23-8594-cc85f619d664
 feature: Payments
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/D1D-n-a2etNBXIfMLNd1islIKLKQ1xzMcH2n2bVhTAg
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

@@ -2,7 +2,7 @@
 title: Creación y administración de widgets
 description: Aprenda a crear y administrar los widgets que actualizan automáticamente el contenido de su tienda.
 exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/f5cIxzZeOxfvqJbVLFPfCmB285I0ovGEbNqAWOFCw4s
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

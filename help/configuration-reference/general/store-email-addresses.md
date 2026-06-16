@@ -33,7 +33,7 @@ Consulte [Almacenar direcciones de correo electrónico](../../getting-started/st
 
 ## [!UICONTROL General]
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
 
 ![Almacenar direcciones de correo electrónico > Contacto general](./assets/store-email-addresses-general-general.png)<!-- zoom -->
 

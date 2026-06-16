@@ -4,7 +4,7 @@ description: Aprenda a configurar la información de contacto y los vínculos re
 exl-id: 47b95505-51a3-4b7a-a4e3-dbc4b0045797
 role: Admin
 feature: Configuration, Security
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/tXZFSpgx9r2t-tN2Oc7L2aiPDlL6hSZBRC9pHjzcjQk
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

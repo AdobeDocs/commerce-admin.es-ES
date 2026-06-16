@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo configurar la autenticación de do
 exl-id: 1ea7f09e-4753-40fa-b9d4-376ba5d8f58f
 role: Admin, User
 feature: Configuration, Security, User Account
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/hLZcsjOdn1Pwx70nFCUIKe5RShnzyHaEciVyxmVpGK0
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

@@ -2,7 +2,7 @@
 title: Configuración de página
 description: Obtenga información sobre cómo configurar los valores predeterminados de las partes principales de una página de la tienda.
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/EmzCKKd7dZaBu0LECyK-BcnpaS7lu-8YvAJWSfviFXM
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

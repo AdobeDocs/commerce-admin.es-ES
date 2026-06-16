@@ -65,7 +65,7 @@ El 25 de enero de 2026, USPS retiró las API de herramientas web heredadas. Desp
 
 Para evitar interrupciones en los servicios de envío de USPS, actualice a la versión más reciente de Adobe Commerce o realice las siguientes acciones:
 
-- Aplique el [parche de calidad de migración de la API REST de USPS](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) para agregar compatibilidad con la integración con las API REST de USPS.
+- Aplique el [parche de calidad de migración de la API REST de USPS](https://experienceleague.adobe.com/es/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) para agregar compatibilidad con la integración con las API REST de USPS.
 
 - Actualice la configuración de Commerce USPS para utilizar las API de REST:
 

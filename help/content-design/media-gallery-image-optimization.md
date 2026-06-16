@@ -3,7 +3,7 @@ title: Optimización de imagen de Media Gallery
 description: Aprenda a utilizar la optimización de imágenes para sus  [!DNL Commerce] recursos multimedia.
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/BTjXX6X70q2Mwm0xPNx-t429R5m93VprCHBDcYgQNpY
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

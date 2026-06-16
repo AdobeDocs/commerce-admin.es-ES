@@ -3,7 +3,7 @@ title: Creación y actualización de eventos
 description: Obtenga información sobre cómo crear un evento asociado a una categoría desde el catálogo.
 exl-id: 6c9f6a33-6785-4c3a-add6-dc2a6b16ed88
 feature: Marketing Tools, Promotions/Events
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/6ipZ7CKTvNo1BGDU6ERhsJpJcKQ9yuoKKxqdIE6iEiM
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

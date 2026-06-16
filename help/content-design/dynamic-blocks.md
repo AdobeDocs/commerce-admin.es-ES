@@ -2,7 +2,7 @@
 title: Bloques dinámicos
 description: Utilice bloques dinámicos para crear contenido enriquecido e interactivo que se base en la lógica de las reglas de precios y los segmentos de clientes.
 exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/Xbv5IqrZPF2xDERIGOFilHgiXKAyy8yxyXISRj17s0A
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

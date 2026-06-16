@@ -3,7 +3,7 @@ title: Bloques dinámicos en reglas de precios
 description: Asocie un bloque dinámico a una regla de precios promocionales.
 exl-id: e1564df2-1c06-4d11-a32d-6f5c0be974e3
 feature: Page Content, Price Rules
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/Fzw3GXEp2PNXIuvOpN62tBiLhTeMJGsDMfQpRwV1dSg
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

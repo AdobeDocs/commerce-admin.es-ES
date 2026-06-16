@@ -3,7 +3,7 @@ title: Panel de ensayo de contenido
 description: Utilice el panel de ensayo de contenido para acceder a una descripción general de todas las campañas activas y próximas.
 exl-id: 67c18c1c-94c3-4d89-ae1e-868a465431e3
 feature: Page Content, Staging
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/Hwrb3dYdJlggWN-Z-nUKxVBhsejFMZR-yWIgRzfJifQ
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

@@ -3,7 +3,7 @@ title: Configurar atributos inteligentes para Visual Merchandiser
 description: Obtenga información sobre cómo configurar los atributos inteligentes utilizados por Visual Merchandiser.
 exl-id: 7bbbca40-d991-4393-b99c-5bef2e711071
 feature: Merchandising, Products, Configuration, Attributes
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/-6tbdpZ7L6nS1sIOXdk5Faxpkkt9qzqWhIjqp9MwgiM
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

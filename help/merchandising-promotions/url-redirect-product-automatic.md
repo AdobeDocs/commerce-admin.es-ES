@@ -3,7 +3,7 @@ title: Redirecciones automáticas
 description: Obtenga información sobre cómo configurar las redirecciones automáticas que se generan cada vez que la clave URL de un producto o categoría cambia en la tienda Commerce.
 exl-id: fbde09d3-a1a3-4bac-a850-4c74c99fe714
 feature: Categories, Products, Configuration
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/Vscg-TDdLnzKjdi-SMwrcpR-QDPvlHpPzgmcLe63-4Q
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

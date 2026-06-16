@@ -3,7 +3,7 @@ title: Moderar críticas de productos
 description: Aprenda a moderar las revisiones de productos para asegurarse de que las revisiones enviadas sean apropiadas para la visualización pública de su tienda.
 exl-id: 90c3e918-f435-4468-b41b-e8044ad14fb0
 feature: Merchandising, Products
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/DGRJr-P9TUQ1TFh4Da1Z4VwrKfWe2rw5wmbwq9IlAFg
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

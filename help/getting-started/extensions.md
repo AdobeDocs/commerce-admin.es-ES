@@ -3,7 +3,7 @@ title: Extensiones de Adobe
 description: Revise la información sobre las extensiones para Adobe Commerce y Magento Open Source publicadas por Adobe.
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/-QGqm0VMRlCNuKqHGdGVKjs8ZgNcjYZjFaeIFsOLWCA
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -129,7 +129,7 @@ Adobe ofrece extensiones adicionales que deben instalarse por separado con Compo
 
 [!DNL Adobe Commerce B2B] es una extensión integrada que transforma las tiendas Commerce estándar en plataformas integrales de empresa a empresa. Permite a las empresas administrar estructuras organizativas complejas con varios compradores, funciones personalizadas y permisos de compra en cuentas de empresa unificadas. Las funciones clave incluyen catálogos y precios específicos de la empresa, presupuestos negociables, gestión de pedidos de compra, listas de solicitudes y funciones de pedidos rápidos. La solución admite modelos B2B y B2C en una sola instancia, lo que la hace flexible para diversas necesidades comerciales. La extensión requiere una licencia independiente y se integra perfectamente con las funciones principales de Adobe Commerce para proporcionar una solución completa de comercio electrónico B2B.
 
-Para obtener más información, póngase en contacto con su representante de cuentas de Adobe. Para obtener detalles de implementación y pasos de configuración, consulte la [[!DNL B2B for Adobe Commerce] Guía del usuario](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+Para obtener más información, póngase en contacto con su representante de cuentas de Adobe. Para obtener detalles de implementación y pasos de configuración, consulte la [[!DNL B2B for Adobe Commerce] Guía del usuario](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=es).
 
 ### [!DNL AEM Assets Integration for Commerce]
 
@@ -145,7 +145,7 @@ Para obtener más información, póngase en contacto con su representante de cue
 
 Live Search es una función exclusiva de Adobe Commerce que proporciona una solución de búsqueda con tecnología de IA con funcionalidad de búsqueda en tiempo real. Ofrece resultados relevantes y rápidos con miniaturas de productos mientras los compradores escriben, junto con facetas inteligentes que ajustan automáticamente los filtros en función del comportamiento de compra. La solución incluye funcionalidades de comercialización para impulsar y enterrar productos, administración de sinónimos y análisis de búsqueda. Incluido con Adobe Commerce sin costo adicional, [!DNL Live Search] reemplaza la funcionalidad de búsqueda predeterminada con una experiencia de búsqueda basada en SaaS más sofisticada. Requiere una configuración mínima para empezar.
 
-Para obtener detalles de implementación y requisitos técnicos, consulte la [Guía del usuario de Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
+Para obtener detalles de implementación y requisitos técnicos, consulte la [Guía del usuario de Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=es).
 
 ### [!DNL Product Recommendations]
 
@@ -153,7 +153,7 @@ Para obtener detalles de implementación y requisitos técnicos, consulte la [Gu
 
 [!DNL Product Recommendations] es una característica exclusiva de Adobe Commerce con tecnología de Adobe AI que ofrece sugerencias de productos personalizadas en todo el recorrido de compras de los clientes. La solución analiza el comportamiento del comprador y las relaciones del producto en tiempo real para generar automáticamente recomendaciones relevantes que no requieran reglas de comercialización manuales. Este enfoque basado en IA ayuda a aumentar las tasas de conversión y el potencial de ingresos, a la vez que crea experiencias de descubrimiento de productos más atractivas para los compradores.
 
-Para obtener detalles de implementación y prácticas recomendadas, consulte la [[!DNL Product Recommendations] Guía del usuario](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html).
+Para obtener detalles de implementación y prácticas recomendadas, consulte la [[!DNL Product Recommendations] Guía del usuario](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=es).
 
 ### [!DNL Catalog Service]
 

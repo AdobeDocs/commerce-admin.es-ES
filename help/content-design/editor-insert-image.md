@@ -2,7 +2,7 @@
 title: Insertar una imagen en el editor
 description: El editor de WYSIWYG permite insertar de forma sencilla una imagen desde el almacenamiento de medios, vincular a una imagen que reside en otro servidor o utilizar recursos de Adobe Stock.
 exl-id: 591830c9-6dba-4738-a6e7-cf5f93b3c319
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/0SlAN-Ija-mUYhkTfmC4QEfuGPw73szU5-7dqwcFKtc
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

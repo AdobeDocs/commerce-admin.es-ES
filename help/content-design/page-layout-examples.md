@@ -2,7 +2,7 @@
 title: Ejemplos de diseño de tienda
 description: Revise los ejemplos de las opciones de diseño de página.
 exl-id: 1cda1175-269b-42b9-bf4e-9bf14483da1d
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/rYnP28GqKMyPGcZSkCWAJAjlA6tNv2Rr-l4DDegU-UQ
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

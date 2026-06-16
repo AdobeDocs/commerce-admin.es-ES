@@ -3,7 +3,7 @@ title: PayPal Payflow Pro
 description: Aprenda a configurar PayPal Payflow Pro como solución de pago en línea en su tienda.
 exl-id: c720b33c-44e1-4954-b5be-38932393a43c
 feature: Payments
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/Ihjp0mA-r63ONIWgCpZFxi4rdt9cVowqPX1VyD4SRaQ
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

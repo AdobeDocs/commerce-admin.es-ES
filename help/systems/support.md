@@ -2,7 +2,7 @@
 title: Herramientas de asistencia
 description: Obtenga información acerca de las herramientas de soporte proporcionadas que puede utilizar para identificar problemas en el sistema.
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/bS1CIJI9ZXybrYA-EgekVKjXQhywA6jdpWOM-bvw4Mc
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo administrar el  [!DNL Inventory Ma
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/-koENBfshZ7WkXih0dee4geUb2Mnx-mtTxUxt-s6yUo
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -111,7 +111,7 @@ Es posible que desee deshabilitar [!DNL Inventory Management] módulos para:
 * Acelere el proceso de actualización para los comerciantes que migran de 2.0.x, 2.1.x, 2.2.x o 2.3.x a 2.4.x.
 * Utilice los módulos del sistema de inventario personalizado o de terceros y de gestión de pedidos.
 
-Consulte la página [Habilitar o deshabilitar módulos](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html) en la _Guía de instalación_ para obtener información sobre cómo deshabilitar los módulos aplicables.
+Consulte la página [Habilitar o deshabilitar módulos](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=es) en la _Guía de instalación_ para obtener información sobre cómo deshabilitar los módulos aplicables.
 
 Una vez finalizado, el sistema proporciona una lista de módulos y valores en `<Magento_installation_directory>/app/etc/config.php`, comenzando por:
 
@@ -253,5 +253,5 @@ Para obtener la última versión, actualice la versión del metapaquete:
 
 Consulte las siguientes guías para obtener más información sobre las actualizaciones de Commerce:
 
-* [Guía de actualización de Commerce](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"}
-* [Habilitar o deshabilitar módulos](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"}
+* [Guía de actualización de Commerce](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=es){target="_blank"}
+* [Habilitar o deshabilitar módulos](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=es){target="_blank"}

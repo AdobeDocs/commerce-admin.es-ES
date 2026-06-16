@@ -3,7 +3,7 @@ title: Invitaciones a eventos
 description: Aprenda cómo los clientes pueden enviar y ver invitaciones a eventos y ventas privadas desde el panel de sus cuentas de cliente.
 exl-id: 6a9123a0-bdb4-4cd6-99cd-658f728aa90c
 feature: Promotions/Events, Communications
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/3UEoAOAfcoM6obqizRsQkgBv-C3hi98rMjO6rPGHuL0
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

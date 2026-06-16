@@ -3,7 +3,7 @@ title: Revisiones de productos
 description: Descubra cómo las revisiones de productos pueden mejorar su tienda y dar más credibilidad a sus productos.
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
 feature: Merchandising, Products
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/GVmMoMMhnS4nHjCoa-6ylW8ah5-itrJKXiK9GKrdHd8
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -36,7 +36,7 @@ Commerce incluye una función nativa de revisiones de productos que puede admini
 >[!NOTE]
 >
 >Las versiones 2.4.0 a 2.4.3 de Adobe Commerce y Magento Open Source incluían la extensión desarrollada por el proveedor de Yotpo. A partir de la versión 2.4.4, esta extensión ya no se integra con la versión principal y debe instalarse y actualizarse desde Commerce Marketplace. Marketplace también proporciona acceso a la documentación actual proporcionada por el desarrollador de extensiones.
-><br><br>>Si tiene la extensión agrupada habilitada y configurada, debe actualizar el archivo composer.json como parte del proceso de actualización 2.4.4 y administrar las actualizaciones de extensión a partir de ahora. Consulte [Módulos de actualización](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) en la _Guía de actualización_ para obtener más información.
+><br><br>>Si tiene la extensión agrupada habilitada y configurada, debe actualizar el archivo composer.json como parte del proceso de actualización 2.4.4 y administrar las actualizaciones de extensión a partir de ahora. Consulte [Módulos de actualización](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=es) en la _Guía de actualización_ para obtener más información.
 
 ## Reseñas de productos en la tienda
 

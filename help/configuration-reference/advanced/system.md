@@ -284,7 +284,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 ![Configuración avanzada - Configuración de carga de imagen](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/es/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
