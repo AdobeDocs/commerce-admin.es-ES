@@ -3,9 +3,15 @@ title: Grupos de clientes
 description: Utilice los grupos de clientes para determinar qué descuentos están disponibles para los clientes asignados a un grupo y la clase de impuestos asociada al grupo.
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-source-git-commit: 17469d27128030b54fad6cf563a4b53f5f119eed
+TQID: https://experienceleague.adobe.com/jbqn6jRo2Pg2fARqEyHGLLzVVG0CyuudtGXklpUCaOw
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: 445
 ht-degree: 0%
 
 ---
@@ -69,7 +75,7 @@ Los grupos de clientes determinan qué descuentos están disponibles y la clase 
 >[!NOTE]
 >
 >Después de cambiar el grupo de la compañía, un usuario de la compañía debe cerrar la sesión e iniciar sesión en la Tienda para ver los nuevos precios en el catálogo.
->Una vez asignado un cliente a una empresa, el grupo de clientes pasa a ser de solo lectura y un usuario administrador no puede actualizarlo.
+>Después de asignar un cliente a una compañía, el grupo de clientes pasa a ser de solo lectura y un usuario administrador no puede actualizarlo.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
@@ -111,4 +117,4 @@ Los grupos de clientes determinan qué descuentos están disponibles y la clase 
 
 Obtenga información acerca de la creación de grupos de clientes viendo esta demostración:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411824/?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12&learn=on)

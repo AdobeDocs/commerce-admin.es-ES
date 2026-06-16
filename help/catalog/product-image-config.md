@@ -3,9 +3,15 @@ title: Configuración de imagen de producto
 description: Obtenga información sobre cómo establecer un tamaño de píxel máximo (anchura y altura) y cambiar automáticamente el tamaño de los archivos de imagen del producto durante la carga.
 exl-id: d8fce5f8-eddf-4335-9a72-24036db077db
 feature: Catalog Management, Products, Media
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/uzQtOoAoycyE31-ttim6LGwFldrn-5TDq-u5JDlAxNM
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: 711
 ht-degree: 0%
 
 ---
@@ -22,7 +28,7 @@ Al cargar imágenes de productos, puede agregar imágenes de mayor tamaño y con
 >
 >Para obtener la mejor compatibilidad, se recomienda cargar todas las imágenes de productos con el perfil de color `sRGB`. Todos los demás perfiles de color se convierten automáticamente al perfil de color `sRGB` durante la carga de la imagen del producto, lo que podría causar incoherencia de color en la imagen cargada.
 
-Al establecer una anchura y altura de píxel máximas, se cambia el tamaño de la imagen según las dimensiones físicas en píxeles. Commerce cambia el tamaño de la imagen según la cantidad más alta de anchura o altura, manteniendo las proporciones. JPG Al reducir la cantidad de calidad de las imágenes de la pantalla de mayor calidad, se reduce el tamaño de archivo.
+Al establecer una anchura y altura de píxel máximas, se cambia el tamaño de la imagen según las dimensiones físicas en píxeles. Commerce cambia el tamaño de la imagen según la cantidad más alta de anchura o altura, manteniendo las proporciones. Al reducir la cantidad de calidad de las imágenes de JPG, se reduce el tamaño del archivo.
 
 Por ejemplo, un JPG de 3000 x 2100 píxeles al 100% podría ser un archivo de imagen de 5 mb o más. Cambiar el tamaño de esta imagen reduciría la anchura a 1920 píxeles, manteniendo las proporciones y la calidad al 80% para proporcionar un tamaño de archivo mucho más pequeño con alta calidad.
 
@@ -60,7 +66,7 @@ Por ejemplo, un JPG de 3000 x 2100 píxeles al 100% podría ser un archivo de im
 
 | Campo | [Ámbito](../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Quality] | Global | JPG Determina la calidad de la imagen que se ha cambiado de tamaño en la que se ha obtenido la. Una calidad menor reduce el tamaño del archivo. Se recomienda el 80-90% para ayudar a reducir el tamaño del archivo con alta calidad. Predeterminado: 80 |
+| [!UICONTROL Quality] | Global | Determina la calidad JPG de la imagen cuyo tamaño se ha cambiado. Una calidad menor reduce el tamaño del archivo. Se recomienda el 80-90% para ayudar a reducir el tamaño del archivo con alta calidad. Predeterminado: 80 |
 | [!UICONTROL Enable Frontend Resize] | Global | Permite a Commerce cambiar el tamaño de las imágenes grandes y sobredimensionadas que puede cargar para la página _[!UICONTROL Product Details]_. Commerce cambia el tamaño de los archivos de imagen mediante JavaScript al cargar el archivo. Cuando se cambia el tamaño de la imagen, se conservan las proporciones exactas, para cumplir y no superar el tamaño más grande para la anchura máxima o la altura máxima. Predeterminado: `Yes` |
 | [!UICONTROL Maximum Width] | Global | Determina la anchura máxima en píxeles de la imagen. Cuando se cambia el tamaño de la imagen, no se supera esta anchura. Predeterminado: `1920` |
 | [!UICONTROL Maximum Height] | Global | Determina la altura máxima en píxeles de la imagen. Cuando se cambia el tamaño de la imagen, no se supera esta altura. Predeterminado: `1200` |

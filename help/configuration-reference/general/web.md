@@ -1,11 +1,17 @@
 ---
-title: '[!UICONTROL General] &gt; [!UICONTROL Web]'
-description: Revise la configuración en la página [!UICONTROL General] &gt; [!UICONTROL Web] del administrador de Commerce.
+title: '[!UICONTROL General] > [!UICONTROL Web]'
+description: Revise la configuración en la página [!UICONTROL General] > [!UICONTROL Web] del administrador de Commerce.
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/31ifTtUvNwjEouPwT5N2cQyr6CUrEblmMULOolo6Amw
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: 1809
 ht-degree: 0%
 
 ---
@@ -18,7 +24,7 @@ ht-degree: 0%
 
 ![Web > Opciones generales](./assets/web-url-options.png)<!-- zoom -->
 
-<!-- [URL Options configuration settings](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [URL Options configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Campo | Ámbito | Descripción |
 |  ---  |  ---  |  ---  |
@@ -32,7 +38,7 @@ ht-degree: 0%
 
 ![Web > Optimización del motor de búsqueda](./assets/web-search-engine-optimization.png)<!-- zoom -->
 
-<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/es/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
+<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -44,7 +50,7 @@ ht-degree: 0%
 
 ![Web > URL base](./assets/web-base-urls.png)<!-- zoom -->
 
-<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -59,7 +65,7 @@ ht-degree: 0%
 
 ![Web > Direcciones URL base (seguras)](./assets/web-base-urls-secure.png)<!-- zoom -->
 
-<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -67,8 +73,8 @@ ht-degree: 0%
 | [!UICONTROL Secure Base Link URL] | Vista de tienda | Una etiqueta de marcado que se utiliza como marcador de posición para la dirección URL base que se ejecuta en un canal seguro. |
 | [!UICONTROL Secure Base URL for Static View Files] | Vista de tienda | Una etiqueta de marcado que señala a la ubicación de archivos estáticos como CSS, fuentes, imágenes y JavaScript que utiliza la temática. Los archivos pueden estar en un canal no seguro o seguro. Si la instalación de Commerce tiene varios sitios con la misma estructura de carpetas, puede tener una carpeta diferente para cada sitio. Establezca el ámbito de configuración en el sitio correcto antes de escribir la dirección URL base para los archivos de vista estática. También puede especificar una carpeta fuera de la instalación de Commerce. |
 | [!UICONTROL Secure Base URL for User Media Files] | Vista de tienda | Una ruta que señala a la ubicación de las imágenes del catálogo y otros archivos multimedia. Los archivos pueden estar en un canal no seguro o seguro. Se utiliza un marcador de posición para representar la dirección URL base. Si la instalación de Commerce tiene varios sitios con la misma estructura de carpetas, puede tener una carpeta de medios diferente para cada uno. Esto le permite realizar copias de seguridad y revertir cada carpeta multimedia por separado. También puede especificar una carpeta multimedia fuera de la instalación de Commerce. |
-| [!UICONTROL Use Secure URLs on Storefront] | Vista de tienda | Si el dominio tiene un certificado de seguridad, puede elegir ejecutar la tienda, con o sin cifrado SSL. Opciones: <br />**`Yes`**: las direcciones URL de la tienda comienzan por `https` para indicar que la página se entrega con un protocolo cifrado y seguro.<br />**`No`** - Las direcciones URL de la tienda comienzan por `http` para indicar que la página se ha entregado sin protocolo seguro. |
-| [!UICONTROL Use Secure URLs in Admin] | Global | Si su dominio tiene un certificado de seguridad, puede elegir ejecutar el administrador del almacén, con o sin cifrado SSL. Opciones: <br />**`Yes`**- Las direcciones URL de administración comienzan por `https` para indicar que la página se entrega con un protocolo cifrado y seguro.<br />**`No`**: las direcciones URL de administrador comienzan por `http` para indicar que la página se entrega sin protocolo seguro.<br /> Cuando las direcciones URL seguras están habilitadas para el almacén y el administrador, aparecen dos campos adicionales para habilitar y configurar `HSTS`. |
+| [!UICONTROL Use Secure URLs on Storefront] | Vista de tienda | Si el dominio tiene un certificado de seguridad, puede elegir ejecutar la tienda, con o sin cifrado SSL. Opciones: <br />**`Yes`**: las direcciones URL de la tienda comienzan por `https` para indicar que la página se entrega con un protocolo cifrado y seguro.<br />**`No`**: las direcciones URL de la tienda comienzan por `http` para indicar que la página se entrega sin protocolo seguro. |
+| [!UICONTROL Use Secure URLs in Admin] | Global | Si su dominio tiene un certificado de seguridad, puede elegir ejecutar el administrador del almacén, con o sin cifrado SSL. Opciones: <br />**`Yes`**- Las direcciones URL de administración comienzan por `https` para indicar que la página se entrega con un protocolo cifrado y seguro.<br />**`No`** - Las direcciones URL de administrador comienzan por `http` para indicar que la página se ha entregado sin protocolo seguro.<br /> Cuando las direcciones URL seguras están habilitadas tanto para el almacén como para el administrador, aparecen dos campos adicionales para habilitar y configurar `HSTS`. |
 | [!UICONTROL Enable HTTP Strict Transport Security (HSTS)] | Vista de tienda | Cuando está habilitada, [`HSTS`](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html) proporciona una medida de seguridad contra los ataques de &quot;hombre en medio&quot; e impide que los usuarios anulen el mensaje de &quot;certificado no válido&quot;. Opciones: `Yes` / `No` |
 | [!UICONTROL Upgrade Insecure Requests] | Vista de tienda | Cuando está habilitada, convierte las solicitudes no seguras (`HTTP`) recibidas del explorador al protocolo seguro (`HTTPS`). Opciones: `Yes` / `No` |
 | [!UICONTROL Offloader Header] | Global | Especifica el valor `offloader_header` de la configuración del servidor para identificar el protocolo entre el cliente y el equilibrador de carga. La mayoría de las instalaciones de Commerce utilizan el valor predeterminado `X-Forwarded-Proto` (XFP) para identificar el protocolo como `HTTP` o `HTTPS`. |
@@ -79,7 +85,7 @@ ht-degree: 0%
 
 ![Web > Páginas predeterminadas](./assets/web-default-pages.png)<!-- zoom -->
 
-<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/es/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
+<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -96,13 +102,13 @@ ht-degree: 0%
 
 ![Diseños predeterminados](./assets/web-default-layouts.png)<!-- zoom -->
 
-<!--[Default Layouts](https://experienceleague.adobe.com/es/docs/commerce-admin/content-design/design/layout/page-layout) -->
+<!--[Default Layouts](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/design/layout/page-layout) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Default Product Layout] | Global | Determina el [diseño](../../content-design/page-layout.md) que se usa de forma predeterminada para las páginas de productos. Opciones: <br/>**`No layout updates`**: de forma predeterminada, las actualizaciones de diseño no están disponibles para las páginas de productos.<br/>**`Empty`**: de forma predeterminada, utiliza un diseño en blanco para las páginas de productos. <br/>**`1 column`**: de forma predeterminada, utiliza un diseño de columna única para las páginas de producto.<br/>**`2 columns with left bar`**: de forma predeterminada, utiliza un diseño de dos columnas con la barra lateral a la izquierda para las páginas de productos. <br/>**`2 columns with right bar`**: de forma predeterminada, utiliza un diseño de dos columnas con la barra lateral a la derecha para las páginas de productos.<br/>**`3 columns`**: de forma predeterminada, utiliza un diseño de tres columnas con barras laterales a la izquierda y a la derecha para las páginas de productos.<br/>**`Page -- Full Width`**- (Requiere [!DNL Page Builder]) De forma predeterminada, utiliza el diseño Página — Anchura completa para las páginas de productos.<br/>**`Category - Full Width`** - (Requiere [!DNL Page Builder]) De forma predeterminada, utiliza el diseño Categoría - Anchura completa para las páginas de productos. <br/>**`Product - Full Width`**- (Requiere [!DNL Page Builder]) De forma predeterminada, utiliza el diseño Producto - Anchura completa para las páginas de productos. |
 | [!UICONTROL Default Category Layout] | Global | Determina el [diseño](../../content-design/page-layout.md) que se usa de forma predeterminada para las páginas de categoría. Opciones: <br/>**`No layout updates`**: de forma predeterminada, las actualizaciones de diseño no están disponibles para las páginas de categoría.<br/>**`Empty`**: de forma predeterminada, utiliza un diseño en blanco para las páginas de categoría. <br/>**`1 column`**: de forma predeterminada, utiliza un diseño de columna única para las páginas de categoría.<br/>**`2 columns with left bar`**: de forma predeterminada, utiliza un diseño de dos columnas con la barra lateral a la izquierda para las páginas de categoría. <br/>**`2 columns with right bar`**: de forma predeterminada, utiliza un diseño de dos columnas con la barra lateral a la derecha para las páginas de categoría.<br/>**`3 columns`**: de forma predeterminada, utiliza un diseño de tres columnas con barras laterales a la izquierda y a la derecha para las páginas de categoría.<br/>**`Page - Full Width`**- (Requiere [!DNL Page Builder]) De forma predeterminada, utiliza el diseño Página - Anchura completa para las páginas de categoría.<br/>**`Category - Full Width`** - (Requiere [!DNL Page Builder]) De forma predeterminada, utiliza el diseño Categoría - Anchura completa para las páginas de categoría. <br/>**`Product - Full Width`**- (Requiere [!DNL Page Builder]) De forma predeterminada, utiliza el diseño Producto - Anchura completa para las páginas de categoría. |
-| Diseño de página predeterminado | Global | Determina el [diseño](../../content-design/page-layout.md) que se usa de forma predeterminada para las páginas de CMS. Opciones: <br/>**`No layout updates`**: de forma predeterminada, las actualizaciones de diseño no están disponibles para las páginas de CMS.<br/>**`Empty`**: de forma predeterminada, utiliza un diseño en blanco para las páginas de CMS. <br/>**`1 column`**: de forma predeterminada, utiliza un diseño de columna única para las páginas de CMS.<br/>**`2 columns with left bar`**: de forma predeterminada, utiliza un diseño de dos columnas con la barra lateral izquierda para las páginas de CMS.<br/>**`2 columns with right bar`**: de forma predeterminada, utiliza un diseño de dos columnas con la barra lateral a la derecha para las páginas de CMS.<br/>**`3 columns`**: de forma predeterminada, utiliza un diseño de tres columnas con barras laterales a la izquierda y a la derecha para las páginas de CMS.<br/>**`Page - Full Width`**- (Requiere [!UICONTROL Page Builder]) De forma predeterminada, utiliza el diseño Página - Anchura completa para las páginas de CMS.<br/>**`Category - Full Width`** - (Requiere [!UICONTROL Page Builder]) De forma predeterminada, utiliza el diseño Categoría - Anchura completa para las páginas de CMS. <br/>**`Product - Full Width`**- (Requiere [!DNL Page Builder]) De forma predeterminada, utiliza el diseño Producto - Anchura completa para las páginas de CMS. |
+| Diseño de página predeterminado | Global | Determina el [diseño](../../content-design/page-layout.md) que se usa de forma predeterminada para las páginas de CMS. Opciones: <br/>**`No layout updates`**: de forma predeterminada, las actualizaciones de diseño no están disponibles para las páginas de CMS.<br/>**`Empty`**: de forma predeterminada, utiliza un diseño en blanco para las páginas de CMS. <br/>**`1 column`**: de forma predeterminada, utiliza un diseño de columna única para las páginas de CMS.<br/>**`2 columns with left bar`**: de forma predeterminada, utiliza un diseño de dos columnas con la barra lateral a la izquierda para las páginas de CMS.<br/>**`2 columns with right bar`**: De forma predeterminada, utiliza un diseño de dos columnas con la barra lateral a la derecha para las páginas de CMS.<br/>**`3 columns`**: de forma predeterminada, utiliza un diseño de tres columnas con barras laterales a la izquierda y a la derecha para las páginas de CMS.<br/>**`Page - Full Width`**- (Requiere [!UICONTROL Page Builder]) De forma predeterminada, utiliza el diseño Página - Anchura completa para las páginas de CMS.<br/>**`Category - Full Width`** - (Requiere [!UICONTROL Page Builder]) De forma predeterminada, utiliza el diseño Categoría - Anchura completa para las páginas de CMS. <br/>**`Product - Full Width`**- (Requiere [!DNL Page Builder]) De forma predeterminada, utiliza el diseño Producto - Anchura completa para las páginas de CMS. |
 
 {style="table-layout:auto"}
 
@@ -110,7 +116,7 @@ ht-degree: 0%
 
 ![Web > Configuración de cookies predeterminada](./assets/web-default-cookie-settings.png)<!-- zoom -->
 
-<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/es/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
+<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -126,7 +132,7 @@ ht-degree: 0%
 
 ![Web > Validación de sesión](./assets/web-session-validation-settings.png)<!-- zoom -->
 
-<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/es/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
+<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -141,7 +147,7 @@ ht-degree: 0%
 
 ![Web > Detección de capacidades del explorador](./assets/web-browser-capabilities-detection.png)<!-- zoom -->
 
-<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/es/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
+<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |

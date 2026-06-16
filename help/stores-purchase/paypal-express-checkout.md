@@ -3,10 +3,16 @@ title: Pago y envío con PayPal Express
 description: Aprenda a configurar el Pago y envío de PayPal Express como una solución de pago en línea en su tienda.
 exl-id: 0cd90306-cf47-4a5f-8994-6ae96904ae2f
 feature: Payments
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+TQID: https://experienceleague.adobe.com/7aaiT94I7NENXKmz72TZNNlh6VO8tKedFZbIXRUL79E
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '3111'
+source-wordcount: 3148
 ht-degree: 0%
 
 ---
@@ -94,13 +100,13 @@ Puede tener dos soluciones de PayPal activas al mismo tiempo: Pago y envío expr
 
 1. Si la instalación tiene varios sitios web, tiendas o vistas, establezca **[!UICONTROL Store View]** en la vista de la tienda en la que desee aplicar esta configuración.
 
-1. En la sección _[!UICONTROL Merchant Location]_, seleccione **[!UICONTROL Merchant Country]**&#x200B;donde se encuentra su empresa.
+1. En la sección _[!UICONTROL Merchant Location]_, seleccione **[!UICONTROL Merchant Country]**donde se encuentra su empresa.
 
    Esta configuración determina la selección de soluciones de PayPal que aparecen en la configuración.
 
    ![País comerciante](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. En _[!UICONTROL Recommended Solutions]_, haga clic en **[!UICONTROL Configure]**&#x200B;para **[!UICONTROL PayPal Express Checkout]**.
+1. En _[!UICONTROL Recommended Solutions]_, haga clic en **[!UICONTROL Configure]**para **[!UICONTROL PayPal Express Checkout]**.
 
    ![Configurar Pago y envío de PayPal Express](./assets/paypal-express-checkout.png){width="600"}
 
@@ -312,7 +318,7 @@ Establezca **[!UICONTROL Enable PayPal PayLater Experience]** en una de las sigu
    - `Sale`: el importe de la compra se autoriza y se retira inmediatamente de la cuenta del cliente.
    - `Order`: el importe del pedido no se registra ni se autoriza en el saldo del cliente, la cuenta bancaria o la tarjeta de crédito en PayPal. La acción de pago del pedido representa un acuerdo entre el sistema de pago de PayPal y el comerciante. Permite al comerciante capturar uno o más importes hasta el total pedido desde la cuenta de comprador del cliente, durante un periodo de hasta 29 días. Una vez ordenados los fondos, el comerciante puede capturarlos en cualquier momento durante el siguiente período de 29 días. La captura del importe del pedido solo se puede realizar desde el administrador de Commerce creando una o más facturas.
 
-1. Para mostrar el botón _[!UICONTROL Check out with PayPal]_&#x200B;en la página de productos, establezca **[!UICONTROL Display on Product Details Page]**&#x200B;en `Yes`.
+1. Para mostrar el botón _[!UICONTROL Check out with PayPal]_en la página de productos, establezca **[!UICONTROL Display on Product Details Page]**en `Yes`.
 
 1. Si la acción de pago está establecida en `Order`, complete lo siguiente
 

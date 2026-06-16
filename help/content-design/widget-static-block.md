@@ -2,10 +2,16 @@
 title: Uso de un widget para colocar un bloque
 description: Aprenda a utilizar un widget de bloque estático para colocar un contenido existente en casi cualquier lugar de la tienda.
 exl-id: 174deef2-33c4-4f1a-8ca8-4969be209bc7
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+TQID: https://experienceleague.adobe.com/LZt31t9uNhrCglxO5L8E0XfVsFrwEKcv2H-TcKF46Ng
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: 598
 ht-degree: 0%
 
 ---
@@ -63,14 +69,14 @@ El _bloque estático de CMS_ [widget](widgets.md) te permite colocar un [bloque 
 | Campo | Descripción |
 |--- |--- |
 | **_[!UICONTROL Categories]_** |  |
-| [!UICONTROL Anchor Categories] | Muestra el widget en la página de categoría de anclaje.<br/>**[!UICONTROL Categories]**: categorías en las que se muestra el anclaje. Opciones: `All` /`Specific Categories`<br/>**[!UICONTROL Container]**: establezca el contenedor en la parte del diseño de página donde desea mostrar el widget.<br/>**[!UICONTROL Template]**: determina el tema del diseño. |
-| [!UICONTROL Non-Anchor Categories] | Muestra el widget en la página de categoría sin anclaje.<br/>**[!UICONTROL Categories]**: categorías en las que se muestra el anclaje. Opciones: `All` /`Specific Categories`<br/>**[!UICONTROL Container]**: establezca el contenedor en la parte del diseño de página donde desea mostrar el widget.<br/>**[!UICONTROL Template]**: determina el tema del diseño. |
+| [!UICONTROL Anchor Categories] | Muestra el widget en la página de categoría de anclaje.<br/>**[!UICONTROL Categories]**- Categorías en las que se muestra el anclaje. Opciones: `All` /`Specific Categories`<br/>**[!UICONTROL Container]**: establezca el contenedor en la parte del diseño de página donde desea mostrar el widget.<br/>**[!UICONTROL Template]**- Determina la temática del diseño. |
+| [!UICONTROL Non-Anchor Categories] | Muestra el widget en la página de categoría que no es de anclaje.<br/>**[!UICONTROL Categories]**- Categorías en las que se muestra el anclaje. Opciones: `All` /`Specific Categories`<br/>**[!UICONTROL Container]**: establezca el contenedor en la parte del diseño de página donde desea mostrar el widget.<br/>**[!UICONTROL Template]**- Determina la temática del diseño. |
 | **_[!UICONTROL Products]_** |  |
-| Todos los tipos de productos | Muestra el widget en una página de producto específica o en todas las páginas de producto. <br/>**[!UICONTROL Products]**- Productos para los que se muestra el widget. Opciones: `All` /` Specific Products`<br/>**[!UICONTROL Container]** - Establezca el contenedor en la parte del diseño de página donde desea mostrar el widget.<br/>**[!UICONTROL Template]**: determina el tema del diseño. |
+| Todos los tipos de productos | Muestra el widget en una página de producto específica o en todas las páginas de producto. <br/>**[!UICONTROL Products]**- Productos para los que se muestra el widget. Opciones: `All` /` Specific Products`<br/>**[!UICONTROL Container]** - Establezca el contenedor en la parte del diseño de página donde desea mostrar el widget.<br/>**[!UICONTROL Template]**- Determina la temática del diseño. |
 | **_[!UICONTROL Generic Pages]_** |  |
-| [!UICONTROL All Pages] | Muestra el widget en todas las páginas. <br/>**[!UICONTROL Container]**: establezca el contenedor en la parte del diseño de página donde desea mostrar el widget.<br/>**[!UICONTROL Template]**: determina el tema del diseño. |
-| [!UICONTROL Specified Page] | Muestra el widget en una página específica. Opciones: <br/>**[!UICONTROL Page]**- Páginas para las que se muestra el widget.<br/>**[!UICONTROL Container]**: establezca el contenedor en la parte del diseño de página donde desea mostrar el widget.<br/>**Plantilla**: determina el tema del diseño. |
-| [!UICONTROL Page Layouts] | Muestra el widget en páginas con un diseño determinado. <br/>**[!UICONTROL Page]**: páginas para las que se muestra el widget.<br/>**[!UICONTROL Container]**: establezca el contenedor en la parte del diseño de página donde desea mostrar el widget.<br/>**[!UICONTROL Template]**: determina el tema del diseño. |
+| [!UICONTROL All Pages] | Muestra el widget en todas las páginas. <br/>**[!UICONTROL Container]**: establezca el contenedor en la parte del diseño de página donde desea mostrar el widget.<br/>**[!UICONTROL Template]** - Determina la temática del diseño. |
+| [!UICONTROL Specified Page] | Muestra el widget en una página específica. Opciones: <br/>**[!UICONTROL Page]**- Páginas para las que se muestra el widget.<br/>**[!UICONTROL Container]** : configure el contenedor en la parte del diseño de página donde desee mostrar el widget.<br/>**Plantilla**: determina el tema del diseño. |
+| [!UICONTROL Page Layouts] | Muestra el widget en páginas con un diseño determinado. <br/>**[!UICONTROL Page]**- Páginas para las cuales se muestra el widget.<br/>**[!UICONTROL Container]** - Establezca el contenedor en la parte del diseño de página donde desea mostrar el widget.<br/>**[!UICONTROL Template]**- Determina la temática del diseño. |
 
 {style="table-layout:auto"}
 

@@ -2,14 +2,21 @@
 title: Guía de [!DNL Adobe Commerce B2B]
 description: Información completa para los administradores de  [!DNL Adobe Commerce B2B] , incluida la instalación y configuración.
 breadcrumb-title: Información general de la guía
-seo-title: '[!DNL Adobe Commerce B2B] Guide'
+seo-title: "[!DNL Adobe Commerce B2B] Guide"
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 feature: B2B
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+TQID: https://experienceleague.adobe.com/DmVKfLqoxDuPtYvrvZ7a8Mkt2hz4eCFALej-ie2tafk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 1%
+source-wordcount: 420
+ht-degree: 0%
 
 ---
 
@@ -20,7 +27,7 @@ Esta guía está destinada a administradores que trabajan en el administrador de
 Hay dos áreas para los administradores de tiendas:
 
 - Administración: utilice esta área para acceder a la interfaz de usuario de configuración y a los informes.
-- [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} Interfaz de línea de comandos: Utilice esta herramienta para ejecutar tareas de instalación y configuración del servidor.
+- [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} Interfaz de línea de comandos: Utilice esta herramienta para ejecutar tareas de instalación y configuración del servidor.
 
 Esta guía describe:
 
@@ -28,7 +35,7 @@ Esta guía describe:
 | ------- | ----------- |
 | [Introducción](introduction.md) | ¿Qué características están disponibles con [!DNL Adobe Commerce B2B]? |
 | [Notas de la versión](release-notes.md) | Revise las actualizaciones proporcionadas en cada versión [!DNL Adobe Commerce B2B]. |
-| [Instalar](install.md) | [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} Instale la extensión [!DNL Adobe Commerce B2B]. |
+| [Instalar](install.md) | [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} Instale la extensión [!DNL Adobe Commerce B2B]. |
 | [Habilitar características básicas B2B](enable-basic-features.md) | Después de instalar [!DNL Adobe Commerce B2B], debe habilitar las características que desea activar para su tienda. |
 | [Cuentas de la compañía](account-companies.md) | Obtenga información acerca de las cuentas de empresa y cómo constituyen el principal bloque de creación para ofrecer asistencia a los compradores de B2B en su tienda. |
 | [Administración de la compañía](manage-companies.md) | Descubra cómo los administradores del sitio de B2B Commerce pueden crear jerarquías empresariales para optimizar la administración de varias empresas que pertenecen a la misma empresa empresarial. |
@@ -52,5 +59,5 @@ Para obtener información acerca de los cambios incluidos en las versiones de m�
 
 Si necesita información o tiene preguntas que no se tratan en esta guía, utilice los siguientes recursos:
 
-- [Base de conocimiento de asistencia de Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=es)
-- [Entradas de soporte técnico](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=es#submit-ticket): envía un ticket para recibir ayuda adicional.
+- [Base de conocimiento de asistencia de Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html)
+- [Entradas de soporte técnico](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket): envía un ticket para recibir ayuda adicional.

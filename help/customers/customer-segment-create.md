@@ -3,9 +3,15 @@ title: Crear y eliminar segmentos de clientes
 description: Los clientes pueden ver la información de reembolsos asociada con el pedido en el panel de control de su cuenta de cliente.
 exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
-source-git-commit: 079aef1f4d90ecba649ac43e7cbab812da79871a
+TQID: https://experienceleague.adobe.com/D31F3AtNhNhDaTcOHxX4qNos-0MIP-nh0UVszKQh5y0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: 978
 ht-degree: 0%
 
 ---
@@ -18,13 +24,13 @@ Crear un segmento de cliente es similar a crear una [regla de precio del carro d
 
 ![Lista de segmentos de clientes](assets/customer-segments.png){width="700" zoomable="yes"}
 
-_&#x200B;**[!UICONTROL Customer Segments]cuadrícula &#x200B;** _
+_**[!UICONTROL Customer Segments]cuadrícula **_
 
 | Columna | Descripción |
 |--- |--- |
 | **[!UICONTROL ID]** | El ID único del segmento de cliente. |
 | **[!UICONTROL Segment]** | El nombre del segmento de cliente. |
-| **[!UICONTROL Status]** | Indica si el segmento de clientes es _[!UICONTROL Active]_&#x200B;o&#x200B;_[!UICONTROL Inactive]_. |
+| **[!UICONTROL Status]** | Indica si el segmento de clientes es _[!UICONTROL Active]_o_[!UICONTROL Inactive]_. |
 | **[!UICONTROL Website]** | Indica el sitio web al que pertenece el segmento de clientes. |
 
 {style="table-layout:auto"}
@@ -77,7 +83,7 @@ Los siguientes pasos utilizan un ejemplo para crear un segmento de cliente dirig
 
    >[!NOTE]
    >
-   > Si un segmento se aplica a `Visitors and Registered Customers`, [!UICONTROL Matched Customers] solo muestra `Registered Customers`. Este es el caso incluso si los visitantes pueden ser objetivos en función de las condiciones que se les apliquen. No se muestra la ficha `Visitors` para los segmentos que solo son de `Matched Customers`.
+   > Si un segmento se aplica a `Visitors and Registered Customers`, [!UICONTROL Matched Customers] solo muestra `Registered Customers`. Este es el caso incluso si los visitantes pueden ser objetivos en función de las condiciones que se les apliquen. No se muestra la ficha `Matched Customers` para los segmentos que solo son de `Visitors`.
 
 
 1. Haga clic en **[!UICONTROL Save and Continue Edit]**.
@@ -115,7 +121,7 @@ Las condiciones posibles se organizan en los siguientes grupos:
 
 1. En el panel izquierdo, haga clic en **[!UICONTROL Conditions]**.
 
-   La condición predeterminada comienza con _[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;en la página.
+   La condición predeterminada comienza con _[!UICONTROL If ALL of these conditions are TRUE:]_en la página.
 
    ![Condiciones](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
@@ -161,7 +167,7 @@ Las condiciones posibles se organizan en los siguientes grupos:
 
 1. El segmento de clientes ahora se puede utilizar para dirigir promociones, contenido y envíos de correo.
 
-_&#x200B;**[!UICONTROL Matched Customers]cuadrícula &#x200B;** _
+_**[!UICONTROL Matched Customers]cuadrícula **_
 
 | Columna | Descripción |
 |--- |--- |
@@ -191,7 +197,7 @@ _&#x200B;**[!UICONTROL Matched Customers]cuadrícula &#x200B;** _
 
 | Botón | Descripción |
 |--- |--- |
-| **[!UICONTROL Back]** | Vuelve a la página _[!UICONTROL Customer Segments]_&#x200B;sin guardar los cambios. |
+| **[!UICONTROL Back]** | Vuelve a la página _[!UICONTROL Customer Segments]_sin guardar los cambios. |
 | **[!UICONTROL Delete]** | Elimina el segmento de cliente actual. Los clientes o los pedidos completados asociados con el cliente en el segmento no se eliminan. |
 | **[!UICONTROL Reset]** | Restablece los cambios no guardados en el formulario de segmentos del cliente a sus valores anteriores. |
 | **[!UICONTROL Refresh Segment Data]** | Actualiza los datos del segmento a los valores guardados más recientemente. Relevante si algún dato de segmento no está disponible o no está actualizado. |
@@ -204,4 +210,4 @@ _&#x200B;**[!UICONTROL Matched Customers]cuadrícula &#x200B;** _
 
 Vea este vídeo para ver una demostración de la creación de segmentos de clientes:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411828/?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)

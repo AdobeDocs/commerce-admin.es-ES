@@ -3,9 +3,15 @@ title: Casos de uso y flujos de trabajo de plantillas de oferta
 description: Cree una plantilla de oferta a partir de una oferta existente para agilizar la negociación de ofertas para pedidos recurrentes.
 feature: B2B, Quotes
 exl-id: 7d1e7a3d-6c50-416a-b490-0a083e1c06b4
-source-git-commit: 6fe8a356ab517fc5dd169c4a6f7ef52937f705c4
+TQID: https://experienceleague.adobe.com/-eAzkqLT6fhPLp-JeQH3-oap4AuIZ8MXcQx5EPb78uU
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: 1285
 ht-degree: 0%
 
 ---
@@ -18,14 +24,14 @@ La función Plantilla de oferta permite a compradores y vendedores optimizar el 
 - **Umbrales de pedido**: los vendedores pueden establecer compromisos de pedido mínimos y máximos para garantizar que los compradores cumplan los volúmenes de compra acordados. Una vez que el comprador acepta la plantilla de oferta, el recuento de umbral de pedido aumenta cada vez que se genera una oferta vinculada. Si la oferta vinculada se cierra sin convertirse en un pedido, el pedido se resta del recuento de umbral. Cuando se alcanza el umbral de pedido máximo, caduca la plantilla de oferta.
 - **Fechas de caducidad**: las plantillas pueden tener períodos de validez (*[!UICONTROL Valid Until]*), lo que garantiza que los términos solo se apliquen en un lapso de tiempo especificado. En el momento de la caducidad, la plantilla se cierra y todas las comillas vinculadas se cierran.
 - **Descuentos y Asignación de Precios**- Los vendedores pueden utilizar las mismas capacidades de descuento de artículos de línea, ofertas y precios de envío disponibles con las ofertas para establecer descuentos para pedidos recurrentes, lo que simplifica el proceso de negociación.
-- **Tracking and Reporting**—The system tracks the number of linked quotes generated from the template and successfully completed orders to provide insights into the fulfillment of agreed upon order quotas.
-- **Reference Document Links**—Both buyers and sellers can add, edit, and manage external document links (such as DocuSign, Adobe Sign, or other online services) to the quote template. This enables easy access to related contracts and agreements during the quote template process.
+- **Seguimiento e informes**: el sistema realiza un seguimiento del número de ofertas vinculadas generadas a partir de la plantilla y de los pedidos completados correctamente para proporcionar información sobre el cumplimiento de las cuotas de pedidos acordadas.
+- **Vínculos de documentos de referencia**: tanto los compradores como los vendedores pueden agregar, editar y administrar vínculos de documentos externos (como DocuSign, Adobe Sign u otros servicios en línea) a la plantilla de presupuesto. Esto permite acceder fácilmente a los contratos y acuerdos relacionados durante el proceso de plantilla de oferta.
 
-## Use Case
+## Caso de uso
 
-A company buyer can use a quote template to order a specific set of products over a period of time. The buyer configures the following quote template options to make the quoting process more efficient, consistent, and aligned with strategic purchasing agreements.
+Un comprador de una empresa puede utilizar una plantilla de presupuesto para solicitar un conjunto específico de productos durante un periodo de tiempo. El comprador configura las siguientes opciones de plantilla de oferta para que el proceso de oferta sea más eficiente, coherente y acorde con los acuerdos estratégicos de compra.
 
-- El pedido umbral especificar el número mínimo y máximo de pedidos elegibles para el precio negociado. Se puede utilizar para aplicar y rastrear las cuotas de pedidos especificadas en los acuerdos de contrato.
+- Umbral de pedido para especificar el número mínimo y máximo de pedidos aptos para la asignación de precios negociada. Se puede utilizar para aplicar y rastrear las cuotas de pedidos especificadas en los acuerdos de contrato.
 
 - Umbrales de cantidad (cantidades mínimas/máximas) La plantilla especifica un umbral de cantidad para establecer la cantidad mínima y máxima que se puede comprar para cada pedido, lo que garantiza que el vendedor pueda gestionar los niveles de stock de forma eficaz y, al mismo tiempo, proporciona al comprador la flexibilidad para ajustar las cantidades según sea necesario.
 
@@ -33,9 +39,9 @@ A company buyer can use a quote template to order a specific set of products ove
 
 ## Flujo de trabajo de plantilla de oferta
 
-Quote templates can be initiated by the buyer or the seller.
+El comprador o el vendedor pueden iniciar las plantillas de presupuesto.
 
-**Step 1: Quote template creation (New)**
+**Paso 1: Creación de la plantilla de presupuesto (Nuevo)**
 
 - **El comprador crea la plantilla de presupuesto**
 
@@ -49,19 +55,19 @@ Quote templates can be initiated by the buyer or the seller.
 
   Cuando el vendedor crea la plantilla de oferta, la fecha de caducidad (campo [!UICONTROL Valid until]) es de 180 días de forma predeterminada. Si el comprador ha creado la plantilla, la fecha de caducidad está en blanco.  El comprador debe establecer la fecha de caducidad antes de devolver la plantilla al comprador para que la revise.
 
-  When the seller creates the quote template, the expiration date (*[!UICONTROL Valid until]* date field) defaults to 180 days. If the buyer created the template, the expiration date is blank.  The buyer must set the expiration date before sending the template back to the buyer for review.
+  Cuando el vendedor crea la plantilla de oferta, la fecha de caducidad (campo *[!UICONTROL Valid until]*) es de 180 días de forma predeterminada. Si el comprador ha creado la plantilla, la fecha de caducidad está en blanco.  El comprador debe establecer la fecha de caducidad antes de devolver la plantilla al comprador para que la revise.
 
-**Step 2: Quote review and negotiation (Review)**
+**Paso 2: Revisión y negociación de presupuesto (Revisar)**
 
-Revisar o negociar un plantilla de cotización puede incluir cambiar cantidades, eliminar artículos, agregar elemento de línea comentarios, aplicar descuentos de elemento de línea o cotización (vendedor), agregar una dirección de envío (comprador) y administrar enlaces de documento de referencia.
+La revisión o negociación de una plantilla de oferta puede incluir el cambio de cantidades, la eliminación de artículos, la adición de comentarios de artículos de línea, la aplicación de descuentos de artículos de línea o ofertas (vendedor), la adición de una dirección de envío (comprador) y la administración de vínculos de documentos de referencia.
 
-- **El vendedor ve solicitud y envía la respuesta** : en el administrador, el vendedor ve el plantilla de cotización desde la *[!UICONTROL Quote Templates]* cuadrícula * o lo abre desde la vincular en el correo electrónico notificación. En el escaparate, el estado de la cita cambia a `Pending`, y el comprador no puede realizar ningún cambio. Siguiendo el mismo proceso para la [negociación de presupuesto](quote-price-negotiation.md), el vendedor responde ofreciendo descuentos en los precios y ajustando las cantidades y los artículos según sea necesario, introduce un comentario y devuelve la plantilla de presupuesto al comprador. El vendedor también puede añadir, editar o eliminar vínculos a documentos de referencia durante este proceso. Se notifica al comprador y al vendedor por correo electrónico que el vendedor ha respondido.
+- **El vendedor ve la solicitud y envía una respuesta**: en el administrador, el vendedor ve la plantilla de presupuesto desde la cuadrícula *[!UICONTROL Quote Templates]** o la abre desde el vínculo de la notificación por correo electrónico. En la tienda, el estado de la oferta cambia a `Pending` y el comprador no puede realizar ningún cambio. Siguiendo el mismo proceso para la [negociación de presupuesto](quote-price-negotiation.md), el vendedor responde ofreciendo descuentos en los precios y ajustando las cantidades y los artículos según sea necesario, introduce un comentario y devuelve la plantilla de presupuesto al comprador. El vendedor también puede añadir, editar o eliminar vínculos a documentos de referencia durante este proceso. Se notifica al comprador y al vendedor por correo electrónico que el vendedor ha respondido.
 
-- **Buyer views quote template from seller and sends response** - The buyer clicks the link in the email notification to open the quote template, or opens it from the _My Quote Templates_ page of the account dashboard. The buyer can leave notes to the seller at the line item or quote level, change quantities, remove items, and manage reference document links.
+- **El comprador ve la plantilla de presupuesto del vendedor y envía una respuesta**. El comprador hace clic en el vínculo de la notificación por correo electrónico para abrir la plantilla de presupuesto o la abre desde la página _Mis plantillas de presupuesto_ del panel de cuentas. El comprador puede dejar notas al vendedor en el nivel de artículo de línea u oferta, cambiar cantidades, eliminar artículos y gestionar enlaces de documentos de referencia.
 
-The buyer and seller continue the negotiation process until an agreement is reached, or the seller declines the quote template. If the buyer makes changes to the quote template—adding or removing products, changing product quantities, or modifying reference document links—it must be returned to the seller for review.
+El comprador y el vendedor continúan el proceso de negociación hasta que se llegue a un acuerdo o el vendedor rechace la plantilla de oferta. Si el comprador realiza cambios en la plantilla de oferta (adición o eliminación de productos, cambio de cantidades de productos o modificación de enlaces de documentos de referencia), debe devolvérselos al vendedor para que los revise.
 
-- **Buyer adds a shipping address** - The buyer must add a shipping address to the quote template if it doesn&#39;t have one. Una vez que el comprador añade la dirección, el vendedor puede proporcionar las opciones de envío y entrega. Los métodos de envío mostrados dependen de la configuración de la Tienda.
+- **El comprador agrega una dirección de envío**. Si no la tiene, el comprador debe agregar una dirección de envío a la plantilla de presupuesto. Una vez que el comprador añade la dirección, el vendedor puede proporcionar las opciones de envío y entrega. Los métodos de envío mostrados dependen de la configuración de la Tienda.
 
 Si el comprador añade una dirección de envío, el acuerdo de negociación debe revisarse y el vendedor puede continuar con el proceso de negociación hasta que se alcance un acuerdo o hasta que el vendedor rechace la plantilla de oferta.
 
@@ -71,15 +77,15 @@ El comprador acepta las condiciones negociadas en la plantilla. Una vez aceptada
 
 Las opciones de envío están bloqueadas en el cierre de compra.
 
-Quote templates remain active until it expires, is canceled or closed, or it is no longer valid buyer has reached the maximum order threshold.
+Las plantillas de oferta permanecen activas hasta que caducan, se cancelan o cierran, o bien el comprador ya no es válido y ha alcanzado el umbral máximo de pedidos.
 
-### View a quote template
+### Ver una plantilla de presupuesto
 
-1. In the **[!UICONTROL Actions]** column for a record, click **[!UICONTROL View]**.
+1. En la columna **[!UICONTROL Actions]** de un registro, haga clic en **[!UICONTROL View]**.
 
-1. To respond to the customer request, follow the instructions and begin the same [price negotiation](quote-price-negotiation.md) process used to negotiation quotes.
+1. Para responder a la solicitud del cliente, siga las instrucciones y comience el mismo proceso de [negociación de precios](quote-price-negotiation.md) que se usa para negociar las ofertas.
 
-### View quote template activity
+### Ver actividad de plantilla de presupuesto
 
 Vea la cronología de negociación, la comunicación y otra actividad de plantilla de oferta de [!UICONTROL Comments] y [!UICONTROL History Log]; la información incluye cambios de estado, actualizaciones de la información de cliente y envío, actualizaciones de artículos y precios y otra información importante.
 
@@ -87,11 +93,11 @@ Vea la cronología de negociación, la comunicación y otra actividad de plantil
 
 1. Ver comentarios e historial de negociación de presupuesto desplazándose hasta **[!UICONTROL Negotiation]** y seleccionando **[!UICONTROL Comments]** y **[!UICONTROL History Log]**.
 
-   ![View History](./assets/quote-view-history.png){width="400" zoomable="yes"}
+   ![Ver historial](./assets/quote-view-history.png){width="400" zoomable="yes"}
 
-1. History is also tracked at the line item level.
+1. El historial también se rastrea en el nivel de elemento de línea.
 
-   ![View Line Item History](./assets/quote-view-line-item-history.png){width="400" zoomable="yes"}
+   ![Ver historial de elementos de línea](./assets/quote-view-line-item-history.png){width="400" zoomable="yes"}
 
 ### Rechazar una plantilla de presupuesto
 

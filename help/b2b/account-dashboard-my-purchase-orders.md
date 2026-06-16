@@ -1,11 +1,17 @@
 ---
-title: "[!UICONTROL My Purchase Orders]"
+title: '[!UICONTROL My Purchase Orders]'
 description: Obtenga información sobre los pedidos de compra y cómo las empresas pueden utilizarlos para administrar sus compras.
 exl-id: b7348bc8-b874-4642-a372-530883d9d94c
 feature: B2B, Companies, Purchase Orders
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+TQID: https://experienceleague.adobe.com/3Vb9ux3eccHF7GUlNdiKIkc12vLFNJv9R3Rkz81ch4M
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: 474
 ht-degree: 0%
 
 ---
@@ -54,7 +60,7 @@ El pedido de compra original se puede cerrar si ya no es necesario.
 
 ## Aprobaciones de pedidos de compra
 
-Para un cliente designado como aprobador según la estructura de la compañía o el rol de compañía asignado, la página de panel _[!UICONTROL My Purchase Orders]_&#x200B;muestra la pestaña **[!UICONTROL Requires My Approval]**. El cliente hace clic en esta pestaña para revisar los pedidos que están esperando su aprobación. El contador muestra cuántas solicitudes están a la espera de aprobación.
+Para un cliente designado como aprobador según la estructura de la compañía o el rol de compañía asignado, la página de panel _[!UICONTROL My Purchase Orders]_muestra la pestaña **[!UICONTROL Requires My Approval]**. El cliente hace clic en esta pestaña para revisar los pedidos que están esperando su aprobación. El contador muestra cuántas solicitudes están a la espera de aprobación.
 
 Después de hacer clic en **[!UICONTROL View]** para un pedido de compra y revisar los detalles, el aprobador puede hacer clic en **[!UICONTROL Approve]** o **[!UICONTROL Reject]**.
 

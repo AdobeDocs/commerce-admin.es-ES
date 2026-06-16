@@ -4,9 +4,16 @@ description: Obtenga información sobre las líneas de crédito de la empresa, l
 exl-id: 62ff2a36-053d-4ba0-9969-0f05701afbff
 feature: B2B, Companies, Payments
 role: Admin
-source-git-commit: 1fc1e07f20e2c22ac430f384e9e2b278edae405c
+TQID: https://experienceleague.adobe.com/JKyFAE5sOsIyOsM-L73i8fMt8nEeoY2-ZcE321jXjSc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: 1228
 ht-degree: 0%
 
 ---
@@ -43,7 +50,7 @@ El crédito de empresa es ideal para:
 * **Clientes de grandes empresas**: Compañías que realizan compras importantes y regulares que requieren términos de pago extendidos
 * **Empresas de temporada**—Empresas con flujo de efectivo cíclico que necesitan un tiempo de pago flexible
 * **Compras corporativas**—Organizaciones con compras centralizadas pero procesamiento de pagos distribuidos
-* **Socios de la cadena de suministro**—Distribuidores, revendedores y socios de canal que requieren líneas de crédito
+* **Socios de Supply chain**—Distribuidores, revendedores y socios de canal que requieren líneas de crédito
 
 ## Explicación de la configuración de crédito de empresa
 
@@ -71,10 +78,10 @@ La cuadrícula muestra la siguiente información para cada transacción:
 | Columna | Descripción |
 |--- |--- |
 | [!UICONTROL Date] | La fecha de la transacción. Para mostrar la fecha y la hora, pase el ratón sobre la fecha. |
-| [!UICONTROL Operation] | El tipo de actividad asociada con la transacción. Valores: <br/>**[!UICONTROL Allocated]**- Crédito asignado a la compañía.<br/>**[!UICONTROL Updated]** - Se aplicó un cambio a uno de los siguientes campos: [!UICONTROL Credit limit] / [!UICONTROL Credit currency] / [!UICONTROL Allow to exceed credit limit] <br/>**[!UICONTROL Purchased]**- Se realizó un pedido.<br/>**[!UICONTROL Reimbursed]** - Se reembolsó el saldo pendiente. <br/>**[!UICONTROL Refunded]**- Se reembolsó un importe de nota de abono.<br/>**[!UICONTROL Reverted]** - Se canceló el pedido y se devolvió el importe al saldo acreedor. |
+| [!UICONTROL Operation] | El tipo de actividad asociada con la transacción. Valores: <br/>**[!UICONTROL Allocated]**- Crédito asignado a la compañía.<br/>**[!UICONTROL Updated]** - Se aplicó un cambio a uno de los siguientes campos: [!UICONTROL Credit limit] / [!UICONTROL Credit currency] / [!UICONTROL Allow to exceed credit limit] <br/>**[!UICONTROL Purchased]**- Se realizó un pedido.<br/>**[!UICONTROL Reimbursed]** - Se reembolsó el saldo pendiente. <br/>**[!UICONTROL Refunded]**: se reembolsó un importe de nota de abono.<br/>**[!UICONTROL Reverted]**: el pedido se canceló y se devolvió el importe al saldo acreedor. |
 | [!UICONTROL Amount] | El importe de la transacción asociada con los siguientes tipos de transacción: `Purchased` / `Reimbursed` / `Refunded` / `Reverted` <br/>Para los importes de compra, el importe aparece en la moneda de visualización del almacén y en el formato de la configuración de la moneda de crédito, seguido de la tasa de conversión actual (si corresponde). Por ejemplo: <br/>20.000,00 EUR ($22.400,00) <br/>USD/EUR 0,8928 |
-| [!UICONTROL Outstanding Balance] | El importe reembolsado, menos el total adeudado de todos los pedidos realizados mediante el método Pago a Cuenta. La cantidad puede aparecer como un valor positivo o negativo. <br/>**[!UICONTROL Positive value]**: un pago anticipado se representa como un valor positivo.<br/>**[!UICONTROL Negative value]** - Una cantidad adeudada se representa como un valor negativo. |
-| [!UICONTROL Available Credit] | La suma de _[!UICONTROL Credit Limit]_&#x200B;y&#x200B;_[!UICONTROL Outstanding Balance]_. Si la empresa ha superado el límite de crédito, el importe aparece como un valor negativo. |
+| [!UICONTROL Outstanding Balance] | El importe reembolsado, menos el total adeudado de todos los pedidos realizados mediante el método Pago a Cuenta. La cantidad puede aparecer como un valor positivo o negativo. <br/>**[!UICONTROL Positive value]**: un pago anticipado se representa como un valor positivo.<br/>**[!UICONTROL Negative value]**: un importe adeudado se representa como un valor negativo. |
+| [!UICONTROL Available Credit] | La suma de _[!UICONTROL Credit Limit]_y_[!UICONTROL Outstanding Balance]_. Si la empresa ha superado el límite de crédito, el importe aparece como un valor negativo. |
 | [!UICONTROL Credit Limit] | El importe del crédito concedido a la empresa. |
 | [!UICONTROL Updated By] | Nombre de la persona que inició la operación. |
 | [!UICONTROL Custom Reference Number] | Número de referencia personalizado asociado con la transacción. |
@@ -153,7 +160,7 @@ Los administradores de la compañía pueden ver su información de crédito en e
 
 Obtenga información acerca de la administración del crédito de la empresa viendo este vídeo de demostración:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410758?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
 
 ## Consideraciones de seguridad
 
@@ -167,7 +174,7 @@ A la hora de gestionar el crédito de la empresa, implemente medidas de segurida
 
 ## Prácticas recomendadas
 
-* &#x200B;
+* 
    * **Administración de directivas de crédito**: al administrar el crédito de la compañía, establezca directivas claras para establecer límites de crédito basados en el historial de pagos del cliente y en las relaciones comerciales. Revise periódicamente los saldos pendientes y los patrones de pago para evaluar el riesgo, y siempre documente los cambios en la configuración de crédito con motivos detallados a efectos de auditoría.
 
 Procese los pagos con prontitud para mantener saldos precisos y garantizar que la configuración de la divisa de crédito se ajuste a las operaciones comerciales principales de cada empresa.

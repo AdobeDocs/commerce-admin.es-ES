@@ -3,10 +3,16 @@ title: El(la) [!DNL Media Gallery]
 description: Utilice la Galería multimedia para organizar y administrar los archivos multimedia en el servidor.
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+TQID: https://experienceleague.adobe.com/PL80USg-GVh-vlWwoYCuWRzJdO-FzHDFmFSDjxhavo8
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: 352
 ht-degree: 0%
 
 ---
@@ -19,7 +25,7 @@ Con Adobe Commerce o Magento Open Source 2.4, los comerciantes pueden usar los n
 
 >[!NOTE]
 >
->Las imágenes de producto agregadas a la sección de productos [_[!UICONTROL Images and Videos]_](../catalog/product-image.md#upload-an-image) no son administradas por [!DNL Media Gallery]. Solo las imágenes utilizadas en los campos de la sección de productos&#x200B;_[!UICONTROL Content]_ se muestran y filtran en el nuevo [!DNL Media Gallery].
+>Las imágenes de producto agregadas a la sección de productos [_[!UICONTROL Images and Videos]_](../catalog/product-image.md#upload-an-image) no son administradas por [!DNL Media Gallery]. Solo las imágenes utilizadas en los campos de la sección de productos_[!UICONTROL Content]_ se muestran y filtran en el nuevo [!DNL Media Gallery].
 
 ## Habilitar el nuevo [!DNL Media Gallery]
 
@@ -41,7 +47,7 @@ Con Adobe Commerce o Magento Open Source 2.4, los comerciantes pueden usar los n
 
 >[!NOTE]
 >
->La funcionalidad completa para el nuevo [!DNL Media Gallery] requiere que `media.gallery.synchronization` y `media.content.synchronization` consumidores de cola se inicien para la sincronización inicial. Consulte [Administrar colas de mensajes](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=es) en la _Guía de configuración_ para obtener más información.
+>La funcionalidad completa para el nuevo [!DNL Media Gallery] requiere que `media.gallery.synchronization` y `media.content.synchronization` consumidores de cola se inicien para la sincronización inicial. Consulte [Administrar colas de mensajes](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) en la _Guía de configuración_ para obtener más información.
 
 ## Acceder al nuevo(a) [!DNL Media Gallery]
 
@@ -57,7 +63,7 @@ Para acceder a la nueva Galería de medios al agregar o editar una página:
 
 1. Haga clic en **[!UICONTROL Add a New Page]**.
 
-   Si desea editar una página existente, puede usar la columna _[!UICONTROL Action]_&#x200B;para hacer clic en **[!UICONTROL Select]**&#x200B;y elegir **[!UICONTROL Edit]**.
+   Si desea editar una página existente, puede usar la columna _[!UICONTROL Action]_para hacer clic en **[!UICONTROL Select]**y elegir **[!UICONTROL Edit]**.
 
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Content]** y haga lo siguiente:
 
@@ -71,4 +77,4 @@ Para acceder a la nueva Galería de medios al agregar o editar una página:
 
 Para obtener más información acerca de [!DNL Media Gallery], vea este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411043?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)

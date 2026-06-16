@@ -3,9 +3,15 @@ title: Importación y exportación programadas
 description: Obtenga información sobre cómo administrar las operaciones programadas de importación y exportación de datos.
 exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 feature: Products, Customers, Data Import/Export
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+TQID: https://experienceleague.adobe.com/Zf5cLdCLjaDo8X8EvH4T9akYnlTBU-3Iyj2EIgMkjtU
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: 2462
 ht-degree: 0%
 
 ---
@@ -33,7 +39,7 @@ Las importaciones y exportaciones programadas se pueden ejecutar diariamente, se
    >
    >Al crear o actualizar una importación o exportación programada, se produce un cambio en la configuración del sistema. Después de guardar, asegúrese de dirigir el aviso de invalidación de caché que aparece en la parte superior de la página Administración y vacíe la caché para aplicar la programación nueva o actualizada.
 
-1. [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} Después de cada trabajo programado, se coloca una copia del archivo en el directorio `var/log/import_export` del servidor local de Adobe Commerce.
+1. [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} Después de cada trabajo programado, se coloca una copia del archivo en el directorio `var/log/import_export` del servidor local de Adobe Commerce.
 
    Los detalles de cada operación no se escriben en el registro. Si se produce un error, se envía una notificación del trabajo de importación o exportación fallido, con una descripción del error.
 
@@ -48,7 +54,7 @@ La ventaja de utilizar la importación programada es que puede importar automát
 
 Los detalles de cada operación de importación no se escriben en un registro, pero cuando se produce un error, recibe un mensaje de correo electrónico _Error al importar_ con una descripción del error. El resultado del último trabajo de importación programado se muestra en la columna Último resultado de la página Importación o exportación programadas.
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} Después de cada operación de importación, se coloca una copia del archivo de importación en el directorio `var/log/import_export` del servidor donde se implementa Adobe Commerce o Magento Open Source. La marca de tiempo, el marcador de la entidad importada (productos o clientes) y el tipo de operación (en este caso, importación) se añaden al nombre del archivo de importación.
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} Después de cada operación de importación, se coloca una copia del archivo de importación en el directorio `var/log/import_export` del servidor donde se implementa Adobe Commerce o Magento Open Source. La marca de tiempo, el marcador de la entidad importada (productos o clientes) y el tipo de operación (en este caso, importación) se añaden al nombre del archivo de importación.
 
 Después de cada trabajo de importación programado, se realiza automáticamente una operación de reindexación. En el front-end, los cambios en las descripciones y otra información de texto se reflejan después de que los datos actualizados se dirijan a la base de datos, y los cambios en los precios solo se reflejan después de la operación de reindexación.
 
@@ -83,7 +89,7 @@ Después de cada trabajo de importación programado, se realiza automáticamente
 
      >[!NOTE]
      >
-     >Para los tipos de entidad _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_&#x200B;y_[!UICONTROL Stock Sources]_, se muestran estos comportamientos de importación: `Add/Update`, `Replace` y `Delete`. Para los tipos de entidad _Finanzas del cliente_, _Archivo principal de clientes_ y _Clientes y direcciones_, se muestran estos comportamientos de importación: `Add/Update Complex Data`, `Delete Entities` y `Custom Action`.
+     >Para los tipos de entidad _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_y_[!UICONTROL Stock Sources]_, se muestran estos comportamientos de importación: `Add/Update`, `Replace` y `Delete`. Para los tipos de entidad _Finanzas del cliente_, _Archivo principal de clientes_ y _Clientes y direcciones_, se muestran estos comportamientos de importación: `Add/Update Complex Data`, `Delete Entities` y `Custom Action`.
 
    - **[!UICONTROL Start Time]** — Se establece en la hora, el minuto y el segundo en que está programado que comience la importación.
 
@@ -159,7 +165,7 @@ Después de cada trabajo de importación programado, se realiza automáticamente
 | [!UICONTROL Name] | Nombre de la importación. Ayuda a distinguirlo si se crean muchas importaciones programadas diferentes. |
 | [!UICONTROL Description] | (Opcional) Puede introducir una descripción. |
 | [!UICONTROL Entity Type] | Define los datos que se van a importar. |
-| [!UICONTROL Import Behavior] | Define cómo se gestionan los datos complejos si las entidades que se importan existen en la base de datos. Los datos complejos de los productos incluyen categorías, sitios web, opciones personalizadas, precios de nivel, productos relacionados, aumento de ventas, ventas cruzadas y datos de productos asociados. Los datos complejos para clientes incluyen direcciones. Opciones: <br>**[!UICONTROL Add/Update Complex Data]**: los nuevos datos complejos se agregan o actualizan a los datos complejos existentes para las entradas existentes en la base de datos. Este es el valor predeterminado.<br>**[!UICONTROL Add/Update]** - Se agregan nuevos datos a las entradas existentes en la base de datos. Todos los campos excepto `sku` se pueden actualizar para los productos. Cualquier valor de campo múltiple que no aparezca en el archivo CSV, como categorías o sitios web, permanecerá en la base de datos después de la importación.<br>**[!UICONTROL Replace]**: se reemplazan los datos complejos existentes para las entidades existentes.<br>**[!UICONTROL Delete Entities]**: si existen entidades importadas en la base de datos, se eliminan de la misma.<br>**[!UICONTROL Custom Action]**: las entidades complejas existentes se personalizan durante el proceso de importación. |
+| [!UICONTROL Import Behavior] | Define cómo se gestionan los datos complejos si las entidades que se importan existen en la base de datos. Los datos complejos de los productos incluyen categorías, sitios web, opciones personalizadas, precios de nivel, productos relacionados, aumento de ventas, ventas cruzadas y datos de productos asociados. Los datos complejos para clientes incluyen direcciones. Opciones: <br>**[!UICONTROL Add/Update Complex Data]**: los nuevos datos complejos se agregan o actualizan a los datos complejos existentes para las entradas existentes en la base de datos. Este es el valor predeterminado.<br>**[!UICONTROL Add/Update]** - Se añaden nuevos datos a las entradas existentes en la base de datos. Todos los campos excepto `sku` se pueden actualizar para los productos. Cualquier valor de campo múltiple que no aparezca en el archivo CSV, como categorías o sitios web, permanecerá en la base de datos después de la importación.<br>**[!UICONTROL Replace]**- Se reemplazan los datos complejos existentes para las entidades existentes.<br>**[!UICONTROL Delete Entities]** - Si existen entidades importadas en la base de datos, se eliminarán de la base de datos.<br>**[!UICONTROL Custom Action]**- Las entidades complejas existentes se personalizan durante el proceso de importación. |
 | [!UICONTROL Start Time] | Establezca la hora, los minutos y los segundos de inicio de la importación. |
 | [!UICONTROL Frequency] | Defina la frecuencia con la que se ejecuta la importación. Opciones: `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL On Error] | Defina el comportamiento del sistema en caso de que se encuentren errores durante la validación del archivo. Opciones:<br>**Detener importación**: el archivo no se importará si se encuentran errores durante la validación. Este es el valor predeterminado.<br>**Continuar procesando**: en caso de que se encuentren errores durante la validación, pero la importación sea posible, se importará el archivo. |
@@ -203,7 +209,7 @@ La ventaja de utilizar Exportación programada es que puede exportar datos varia
 
 Los detalles de cada exportación no se escriben en un registro, pero si se produce un error, recibirá un correo electrónico de error de exportación que contiene la descripción del error. El resultado del último trabajo de exportación aparece en la columna Último resultado de la página Importación/Exportación programada.
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} Después de cada exportación, el archivo de exportación se coloca en la ubicación definida por el usuario y una copia en el directorio `var/log/import_export` del servidor donde se implementa Adobe Commerce o Magento Open Source. La marca de tiempo y el marcador de la entidad exportada (productos o clientes) y el tipo de operación (en este caso, exportación) se añaden al nombre del archivo de exportación.
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} Después de cada exportación, el archivo de exportación se coloca en la ubicación definida por el usuario y una copia en el directorio `var/log/import_export` del servidor donde se implementa Adobe Commerce o Magento Open Source. La marca de tiempo y el marcador de la entidad exportada (productos o clientes) y el tipo de operación (en este caso, exportación) se añaden al nombre del archivo de exportación.
 
 ### Paso 1: Completar la configuración de exportación
 
@@ -224,7 +230,7 @@ Los detalles de cada exportación no se escriben en un registro, pero si se prod
       - `Customer Addresses`
       - `Stock Sources`
 
-     La sección _[!UICONTROL Entity Attributes]_&#x200B;en la parte inferior de la página se actualiza para reflejar el tipo de entidad seleccionado.
+     La sección _[!UICONTROL Entity Attributes]_en la parte inferior de la página se actualiza para reflejar el tipo de entidad seleccionado.
 
    - Establezca **[!UICONTROL Start Time]** en la hora, el minuto y el segundo en que está programado que comience la exportación.
 
@@ -319,7 +325,7 @@ Los detalles de cada exportación no se escriben en un registro, pero si se prod
 | Campo | Descripción |
 | ----- | ----------- |
 | [!UICONTROL Server Type] | Determina la ubicación del archivo de exportación. Opciones:<br>**Servidor local**: coloca el archivo de exportación en el mismo servidor donde se implementa Commerce. Si el módulo Almacenamiento remoto está habilitado, `Local Server` se cambia a `Remote Storage`.<br>**FTP remoto**: coloca el archivo de exportación en un servidor remoto. Aparecerán opciones adicionales para las credenciales y la configuración de transferencia de archivos. |
-| [!UICONTROL File Directory] | Especifique el directorio en el que se coloca el archivo de exportación. En el caso de que _[!UICONTROL Server Type]_&#x200B;esté establecido en `Local Server`, especifique la ruta de acceso relativa a la ruta de acceso de instalación de Commerce. Por ejemplo, `var/export` o `import_export/export` para almacenamiento remoto. |
+| [!UICONTROL File Directory] | Especifique el directorio en el que se coloca el archivo de exportación. En el caso de que _[!UICONTROL Server Type]_esté establecido en `Local Server`, especifique la ruta de acceso relativa a la ruta de acceso de instalación de Commerce. Por ejemplo, `var/export` o `import_export/export` para almacenamiento remoto. |
 
 {style="table-layout:auto"}
 

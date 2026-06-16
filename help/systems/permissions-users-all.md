@@ -4,9 +4,16 @@ description: Obtenga información sobre cómo crear cuentas de usuario de admini
 exl-id: 65cca7a8-3d44-4c8c-a758-c0de03d53e11
 role: Admin
 feature: Admin Workspace, Roles/Permissions, User Account, Security
-source-git-commit: e2644f16f8e8adb77d070ddb66c724c00a15a525
+TQID: https://experienceleague.adobe.com/DLTxCkTvqUobFaP-0ccPFIrqbaObTto08EPLn1li3TA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: 1041
 ht-degree: 0%
 
 ---
@@ -19,7 +26,7 @@ Si otros integrantes del equipo o proveedores de servicios necesitan acceso, pue
 
 >[!NOTE]
 >
->Los comerciantes de Adobe Commerce que tengan un Adobe ID y deseen un inicio de sesión optimizado en los productos de Adobe Commerce y Adobe Business pueden integrar la autenticación de Commerce con el flujo de trabajo de autenticación IMS de Adobe. Una vez habilitada esta integración en la tienda Commerce, los usuarios administradores deben usar sus credenciales de Adobe, no sus credenciales de Commerce, para iniciar sesión. Consulte [Información general sobre la integración de Adobe Identity Management Service (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=es).
+>Los comerciantes de Adobe Commerce que tengan un Adobe ID y deseen un inicio de sesión optimizado en los productos de Adobe Commerce y Adobe Business pueden integrar la autenticación de Commerce con el flujo de trabajo de autenticación IMS de Adobe. Una vez habilitada esta integración en la tienda Commerce, los usuarios administradores deben usar sus credenciales de Adobe, no sus credenciales de Commerce, para iniciar sesión. Consulte [Información general sobre la integración de Adobe Identity Management Service (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
 
 Para los usuarios o roles temporales, también puede establecer una fecha de caducidad para la cuenta de usuario.
 
@@ -31,7 +38,7 @@ Para los usuarios o roles temporales, también puede establecer una fecha de cad
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add New User]**.
 
-   Para editar un usuario existente, haga clic en un nombre de usuario en la cuadrícula. Puede modificar las secciones _[!UICONTROL User Info]_&#x200B;y_[!UICONTROL User Role]_ según sea necesario.
+   Para editar un usuario existente, haga clic en un nombre de usuario en la cuadrícula. Puede modificar las secciones _[!UICONTROL User Info]_y_[!UICONTROL User Role]_ según sea necesario.
 
 1. En la sección _[!UICONTROL Account Information]_, haga lo siguiente:
 
@@ -69,13 +76,13 @@ Para los usuarios o roles temporales, también puede establecer una fecha de cad
 
 >[!IMPORTANT]
 >
->Una vez completada la sección _[!UICONTROL Account Information]_, puede guardar el usuario. El nuevo usuario se muestra en la cuadrícula&#x200B;_[!UICONTROL Users]_, pero el nombre de usuario no puede iniciar sesión hasta que se asigne un rol.
+>Una vez completada la sección _[!UICONTROL Account Information]_, puede guardar el usuario. El nuevo usuario se muestra en la cuadrícula_[!UICONTROL Users]_, pero el nombre de usuario no puede iniciar sesión hasta que se asigne un rol.
 
 ## Asignar una función de usuario
 
 1. En el panel izquierdo, haga clic en **[!UICONTROL User Role]**.
 
-   La cuadrícula enumera todas las funciones de usuario existentes. Para una nueva tienda, _[!UICONTROL Administrators]_&#x200B;es la única función disponible.
+   La cuadrícula enumera todas las funciones de usuario existentes. Para una nueva tienda, _[!UICONTROL Administrators]_es la única función disponible.
 
    ![Administrador - agregar nuevo rol de usuario](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
@@ -105,7 +112,7 @@ Para los usuarios o roles temporales, también puede establecer una fecha de cad
 
 1. Cuando se le pida, escriba su contraseña para confirmar su identidad y vuelva a hacer clic en **[!UICONTROL Save User]**.
 
-   Se abre la cuadrícula _[!UICONTROL Users]_&#x200B;y se enumeran todos los usuarios.
+   Se abre la cuadrícula _[!UICONTROL Users]_y se enumeran todos los usuarios.
 
 ## Eliminar un usuario administrador
 

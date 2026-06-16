@@ -3,9 +3,15 @@ title: 'Diseño: columna'
 description: Obtenga información acerca del tipo de contenido Columna, utilizado para dividir una página en varias columnas en el escenario  [!DNL Page Builder] .
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/C1KAlwqUH08pZeWxYIK5US61woaInIrLn0PGdSuIaBQ
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: 1576
 ht-degree: 0%
 
 ---
@@ -20,7 +26,7 @@ Utilice el tipo de contenido _Column_ para dividir una página en varias columna
 
 ## Actualizaciones en la versión 2.4.5
 
-Las funcionalidades de Page Builder se actualizaron en la versión 2.4.5 para que los usuarios ahora usen _[!DNL Columns]_&#x200B;como contenedor principal para columnas individuales. Este nuevo contenedor también admite propiedades para el fondo y elimina la necesidad de ajustar las columnas en una fila. Reduce el marcado innecesario y proporciona un control más preciso sobre la visualización y la experiencia de la tienda.
+Las funcionalidades de Page Builder se actualizaron en la versión 2.4.5 para que los usuarios ahora usen _[!DNL Columns]_como contenedor principal para columnas individuales. Este nuevo contenedor también admite propiedades para el fondo y elimina la necesidad de ajustar las columnas en una fila. Reduce el marcado innecesario y proporciona un control más preciso sobre la visualización y la experiencia de la tienda.
 
 Puede cambiar el diseño del contenedor [!DNL Columns] arrastrando una columna por encima o por debajo de otras columnas del grupo y apilarlas. Esto abre una nueva variedad de posibles combinaciones de diseños que se pueden lograr sin necesidad de que los desarrolladores los personalicen.
 
@@ -54,7 +60,7 @@ En el siguiente ejemplo de dos columnas, los números entre paréntesis (6/12) e
 
 ## Añadir una columna
 
-1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un(a)**[!UICONTROL Column]**&#x200B;al escenario.
+1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un(a)**[!UICONTROL Column]**al escenario.
 
    ![Arrastrando una columna al escenario](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
@@ -100,7 +106,7 @@ En el siguiente ejemplo de dos columnas, los números entre paréntesis (6/12) e
 
    - Pase el ratón sobre la columna para ver el cuadro de herramientas y elija el icono _Configuración_ ( ![icono Configuración](./assets/pb-icon-settings.png){width="20"} ).
 
-   - Desplácese hacia abajo hasta la sección _[!UICONTROL Advanced]_&#x200B;y establezca los cuatro valores de **[!UICONTROL Padding]**&#x200B;en `0`.
+   - Desplácese hacia abajo hasta la sección _[!UICONTROL Advanced]_y establezca los cuatro valores de **[!UICONTROL Padding]**en `0`.
 
      ![Con relleno cero](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -170,7 +176,7 @@ En el siguiente ejemplo de dos columnas, los números entre paréntesis (6/12) e
 
    - **[!UICONTROL Background Repeat]**: si desea repetir la imagen de fondo para rellenar el espacio, cambie esta configuración `Yes`.
 
-1. Actualice la configuración de _[!UICONTROL Advanced]_&#x200B;según sea necesario.
+1. Actualice la configuración de _[!UICONTROL Advanced]_según sea necesario.
 
    - Para controlar la posición horizontal de los contenedores de contenido que se agregan a la columna, elija un **[!UICONTROL Alignment]**:
 

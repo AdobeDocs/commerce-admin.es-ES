@@ -3,9 +3,15 @@ title: Configuración de listas de deseos
 description: Aprenda a configurar la funcionalidad de la lista de deseos para sus clientes de la tienda.
 exl-id: 479455f1-282f-4277-b132-45c5867fb21c
 feature: Customers, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/pSVYKFjf0Iz-zJ7fw1HxraizUwLYj7l1ykIWtnbI30w
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: 537
 ht-degree: 0%
 
 ---
@@ -83,7 +89,7 @@ Cualquier lista de deseos pública se puede encontrar usando el widget de búsqu
 
      `0` = primero (predeterminado), `1` = segundo, `2` = tercero, etc.
 
-1. En la sección _[!UICONTROL Layout Updates]_, haga clic en **[!UICONTROL Add Layout Update]**&#x200B;y establezca **[!UICONTROL Display on]**&#x200B;en uno de los siguientes:
+1. En la sección _[!UICONTROL Layout Updates]_, haga clic en **[!UICONTROL Add Layout Update]**y establezca **[!UICONTROL Display on]**en uno de los siguientes:
 
    - _[!UICONTROL Categories]_
 

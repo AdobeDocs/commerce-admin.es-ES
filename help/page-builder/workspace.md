@@ -3,16 +3,22 @@ title: '[!DNL Page Builder] Workspace'
 description: Obtenga información acerca de las herramientas disponibles en el área de trabajo  [!DNL Page Builder] al crear páginas básicas, páginas de productos y catálogos, bloques y bloques dinámicos.
 exl-id: 1cd7b300-0a18-490f-bc11-36de3fec13dc
 feature: Page Builder, Page Content
-source-git-commit: 69adfa95a11c8a62bd97bd917cebcaa22d3a8087
+TQID: https://experienceleague.adobe.com/eq5EZJrZgr9UyShDpLa60ReANR8aCUIIedPK0Oh9v-c
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: 1509
 ht-degree: 0%
 
 ---
 
 # [!DNL Page Builder] Workspace
 
-Cuando [[!DNL Page Builder] está habilitado](setup.md), la sección _[!UICONTROL Content]_&#x200B;y el proceso de creación de contenido se modifican para aprovechar las herramientas avanzadas de [!DNL Page Builder] para las páginas de [páginas](../content-design/page-add.md), [producto](../catalog/product-content.md) y [categoría](../catalog/categories-content-settings.md) de CMS, [bloques](../content-design/block-add.md) y [bloques dinámicos](../content-design/dynamic-blocks.md). Esta sección incluye un campo_ Encabezado de contenido _, una vista previa del contenido y un acceso fácil al área de trabajo [!DNL Page Builder] de pantalla completa.
+Cuando [[!DNL Page Builder] está habilitado](setup.md), la sección _[!UICONTROL Content]_y el proceso de creación de contenido se modifican para aprovechar las herramientas avanzadas de [!DNL Page Builder] para las páginas de [páginas](../content-design/page-add.md), [producto](../catalog/product-content.md) y [categoría](../catalog/categories-content-settings.md) de CMS, [bloques](../content-design/block-add.md) y [bloques dinámicos](../content-design/dynamic-blocks.md). Esta sección incluye un campo_ Encabezado de contenido _, una vista previa del contenido y un acceso fácil al área de trabajo [!DNL Page Builder] de pantalla completa.
 
 ![Sección de contenido con [!DNL Page Builder] vista previa](./assets/pb-content-preview.png){width="700" zoomable="yes"}
 
@@ -22,15 +28,15 @@ Dado que los motores de búsqueda buscan encabezados de nivel uno (H1), agregar 
 
 >[!NOTE]
 >
->El campo _[!UICONTROL Content Heading]_&#x200B;que aparece en la parte superior de la página es un campo heredado que admite contenido creado con versiones anteriores de [!DNL Commerce]. Sin embargo, no forma parte de [!DNL Page Builder]. Al [!UICONTROL Content Heading] se le aplica el formato de encabezado H1 según la hoja de estilos asociada al tema actual. Se coloca justo encima del área de contenido activo definida por el escenario [!DNL Page Builder].
+>El campo _[!UICONTROL Content Heading]_que aparece en la parte superior de la página es un campo heredado que admite contenido creado con versiones anteriores de [!DNL Commerce]. Sin embargo, no forma parte de [!DNL Page Builder]. Al [!UICONTROL Content Heading] se le aplica el formato de encabezado H1 según la hoja de estilos asociada al tema actual. Se coloca justo encima del área de contenido activo definida por el escenario [!DNL Page Builder].
 
-Para tener el mejor control sobre el posicionamiento y el formato de los encabezados de todos los niveles, se recomienda dejar vacío el campo _[!UICONTROL Content Heading]_&#x200B;y utilizar el tipo de contenido [!DNL Page Builder] [Encabezado](heading.md).
+Para tener el mejor control sobre el posicionamiento y el formato de los encabezados de todos los niveles, se recomienda dejar vacío el campo _[!UICONTROL Content Heading]_y utilizar el tipo de contenido [!DNL Page Builder] [Encabezado](heading.md).
 
 ![Encabezado de contenido y otros encabezados](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
 
 ## Vista previa
 
-Cuando expande la sección _[!UICONTROL Content]_&#x200B;y hay contenido existente creado con [!DNL Page Builder], muestra una vista previa del contenido tal como aparecería en una página. Haga clic en **[!UICONTROL Edit with Page Builder]**&#x200B;o dentro del área de vista previa de contenido para abrir el área de trabajo [!DNL Page Builder], donde podrá realizar las actualizaciones que sean necesarias.
+Cuando expande la sección _[!UICONTROL Content]_y hay contenido existente creado con [!DNL Page Builder], muestra una vista previa del contenido tal como aparecería en una página. Haga clic en **[!UICONTROL Edit with Page Builder]**o dentro del área de vista previa de contenido para abrir el área de trabajo [!DNL Page Builder], donde podrá realizar las actualizaciones que sean necesarias.
 
 >[!NOTE]
 >
@@ -81,7 +87,7 @@ De manera predeterminada, [!DNL Page Builder] proporciona dos vistas previas de 
 
 ### Configuración de puntos de interrupción
 
-Los botones de ventanilla también proporcionan la opción de aplicar diferentes estilos de punto de interrupción a los tipos de contenido en función de la ventanilla seleccionada. De manera predeterminada, [!DNL Page Builder] proporciona la configuración de punto de interrupción para los campos _[!UICONTROL Minimum Height]_&#x200B;de Filas, Columnas, Pestañas, Elementos de ficha, Banners, Reguladores y Diapositivas. Al seleccionar la ventanilla móvil y, a continuación, abrir el editor de uno de esos tipos de contenido, puede introducir valores de campo específicos de los puntos de interrupción de la ventanilla móvil. Los campos de tipo de contenido que permiten una configuración de punto de interrupción específica muestran un icono a la derecha del campo, similar al siguiente ejemplo para una fila:
+Los botones de ventanilla también proporcionan la opción de aplicar diferentes estilos de punto de interrupción a los tipos de contenido en función de la ventanilla seleccionada. De manera predeterminada, [!DNL Page Builder] proporciona la configuración de punto de interrupción para los campos _[!UICONTROL Minimum Height]_de Filas, Columnas, Pestañas, Elementos de ficha, Banners, Reguladores y Diapositivas. Al seleccionar la ventanilla móvil y, a continuación, abrir el editor de uno de esos tipos de contenido, puede introducir valores de campo específicos de los puntos de interrupción de la ventanilla móvil. Los campos de tipo de contenido que permiten una configuración de punto de interrupción específica muestran un icono a la derecha del campo, similar al siguiente ejemplo para una fila:
 
 ![Indicador de icono para la configuración del punto de interrupción](./assets/pb-workspace-viewport-field-breakpoint.png){width="400"}
 
@@ -91,7 +97,7 @@ El panel [!DNL Page Builder] se encuentra a la izquierda del escenario y contien
 
 ### Diseño
 
-La sección _[!UICONTROL Layout]_&#x200B;del panel [!DNL Page Builder] se usa para agregar filas, columnas o pestañas al escenario. Al arrastrar un tipo de contenido del panel al escenario, aparece un contenedor con una caja de herramientas de opciones específicas del tipo de contenido.
+La sección _[!UICONTROL Layout]_del panel [!DNL Page Builder] se usa para agregar filas, columnas o pestañas al escenario. Al arrastrar un tipo de contenido del panel al escenario, aparece un contenedor con una caja de herramientas de opciones específicas del tipo de contenido.
 
 De manera predeterminada, el escenario [!DNL Page Builder] está vacío. A medida que arrastra tipos de contenido de diseño del panel al escenario, puede colocarlos encima, debajo o dentro de otros contenedores de diseño en la página. Las filas solo se pueden añadir directamente al escenario.
 
@@ -107,9 +113,9 @@ De manera predeterminada, el escenario [!DNL Page Builder] está vacío. A medid
 
 ### Elementos
 
-Utilice la sección _[!UICONTROL Elements]_&#x200B;del panel [!DNL Page Builder] para agregar texto, encabezados, botones, divisores y código HTML a cualquier contenedor de diseño en el [[!DNL Page Builder] escenario](workspace.md#stage). Cuando arrastra un tipo de contenido desde el panel a una fila o columna o a un conjunto de pestañas en el escenario, aparece un contenedor. Utilice la caja de herramientas de tipo de contenido para acceder a las opciones específicas del tipo.
+Utilice la sección _[!UICONTROL Elements]_del panel [!DNL Page Builder] para agregar texto, encabezados, botones, divisores y código HTML a cualquier contenedor de diseño en el [[!DNL Page Builder] escenario](workspace.md#stage). Cuando arrastra un tipo de contenido desde el panel a una fila o columna o a un conjunto de pestañas en el escenario, aparece un contenedor. Utilice la caja de herramientas de tipo de contenido para acceder a las opciones específicas del tipo.
 
-![[!DNL Page Builder] panel con tipos de contenido de elemento &#x200B;](./assets/pb-elements.png){width="600" zoomable="yes"}
+![[!DNL Page Builder] panel con tipos de contenido de elemento ](./assets/pb-elements.png){width="600" zoomable="yes"}
 
 | Tipo de contenido de elemento | Descripción |
 | -------------------- | ----------- |
@@ -123,7 +129,7 @@ Utilice la sección _[!UICONTROL Elements]_&#x200B;del panel [!DNL Page Builder]
 
 ### Medios
 
-Utilice la sección _[!UICONTROL Media]_&#x200B;del panel [!DNL Page Builder] para agregar imágenes, vídeo, titulares, controles deslizantes y [!DNL Google Maps] a cualquier contenedor de diseño del [[!DNL Page Builder] escenario](workspace.md#stage). Cuando se arrastra un tipo de contenido multimedia del panel al escenario, aparece un contenedor con una caja de herramientas de opciones específicas del tipo de contenido.
+Utilice la sección _[!UICONTROL Media]_del panel [!DNL Page Builder] para agregar imágenes, vídeo, titulares, controles deslizantes y [!DNL Google Maps] a cualquier contenedor de diseño del [[!DNL Page Builder] escenario](workspace.md#stage). Cuando se arrastra un tipo de contenido multimedia del panel al escenario, aparece un contenedor con una caja de herramientas de opciones específicas del tipo de contenido.
 
 ![[!DNL Page Builder] panel con tipos de contenido multimedia](./assets/pb-media-content-types.png){width="600" zoomable="yes"}
 
@@ -139,7 +145,7 @@ Utilice la sección _[!UICONTROL Media]_&#x200B;del panel [!DNL Page Builder] pa
 
 ### Añadir contenido
 
-Utilice la sección _[!UICONTROL Add Content]_&#x200B;del panel [!DNL Page Builder] para agregar contenido existente al [[!DNL Page Builder] escenario](workspace.md#stage). Cuando arrastra un tipo de contenido de medios desde el panel al escenario, aparece un contenedor. Use la caja de herramientas de tipo de contenido para tener acceso a_ Configuración _que son específicas del tipo.
+Utilice la sección _[!UICONTROL Add Content]_del panel [!DNL Page Builder] para agregar contenido existente al [[!DNL Page Builder] escenario](workspace.md#stage). Cuando arrastra un tipo de contenido de medios desde el panel al escenario, aparece un contenedor. Use la caja de herramientas de tipo de contenido para tener acceso a_ Configuración _que son específicas del tipo.
 
 ![[!DNL Page Builder] panel con Agregar tipos de contenido](./assets/pb-add-content.png){width="600" zoomable="yes"}
 

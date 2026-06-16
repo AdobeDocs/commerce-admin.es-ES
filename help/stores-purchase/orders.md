@@ -3,9 +3,15 @@ title: Pedidos
 description: Obtenga información sobre el espacio de trabajo Pedidos y las funciones de búsqueda utilizadas para localizar pedidos en el administrador.
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: c60f0af09fb1af08deea49216aff340eea59f1b4
+TQID: https://experienceleague.adobe.com/mfQL2HinWuVbjDzgR2rmWNCuBNWwiAlJ5LIb0R9BBME
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: 1150
 ht-degree: 0%
 
 ---
@@ -111,7 +117,7 @@ Para aplicar una acción a pedidos específicos, seleccione la casilla de verifi
 | [!UICONTROL Grand Total (Base)] | El total general del pedido. |
 | [!UICONTROL Grand Total (Purchased)] | El total general de productos comprados en el pedido. |
 | [!UICONTROL Status] | El estado actual del pedido. |
-| [!UICONTROL Action] | _[!UICONTROL View]_&#x200B;abre el pedido en modo de edición. |
+| [!UICONTROL Action] | _[!UICONTROL View]_abre el pedido en modo de edición. |
 | [!UICONTROL Allocated sources] | Las fuentes asignadas a ese orden específico. |
 
 {style="table-layout:auto"}

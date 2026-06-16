@@ -3,9 +3,15 @@ title: Crear etiquetas y paquetes de envío
 description: Aprenda a empaquetar artículos en un pedido y a crear etiquetas de envío.
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-source-git-commit: ca9114db6ab79e7edee6d9be4ce0c8f79b8c793d
+TQID: https://experienceleague.adobe.com/eKOA-A1xmw29l51ADFwl6X6Ctbdd6cBCZ0gnKOm1a8s
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: 1974
 ht-degree: 0%
 
 ---
@@ -45,7 +51,7 @@ Siga las instrucciones proporcionadas por cada transportista para agregar compat
 
 United Parcel Service envía tanto a nivel nacional como internacional. Sin embargo, las etiquetas de envío solo se pueden generar para envíos que se originen dentro de Estados Unidos.
 
-1. En la sección _[!UICONTROL Sales]_&#x200B;del panel izquierdo, elija **[!UICONTROL Delivery Methods]**.
+1. En la sección _[!UICONTROL Sales]_del panel izquierdo, elija **[!UICONTROL Delivery Methods]**.
 
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL UPS]**.
 
@@ -149,7 +155,7 @@ DHL ofrece servicios de envío internacional.
 
 1. Agregar o actualizar productos en el paquete:
 
-   - Para agregar productos del pedido al paquete, haga clic en **[!UICONTROL Add Products]**. La columna _[!UICONTROL Quantity]_&#x200B;muestra la cantidad máxima de productos disponibles para el paquete.
+   - Para agregar productos del pedido al paquete, haga clic en **[!UICONTROL Add Products]**. La columna _[!UICONTROL Quantity]_muestra la cantidad máxima de productos disponibles para el paquete.
 
    - Seleccione la casilla de verificación de cada producto que se agregará al paquete e introduzca el **[!UICONTROL Quantity]** de cada uno. A continuación, haga clic en **[!UICONTROL Add Selected Product(s) to Package]**.
 
@@ -195,11 +201,11 @@ Las etiquetas de envío se generan en formato PDF y se pueden imprimir desde el 
 
    - **[!UICONTROL Sales]** > **[!UICONTROL Shipments]**: busque el envío en la cuadrícula y abra el registro.
 
-1. Para descargar el archivo de PDF, vaya a la sección _[!UICONTROL Shipping and Tracking]_&#x200B;del formulario y haga clic en **[!UICONTROL Print Shipping Label]**.
+1. Para descargar el archivo de PDF, vaya a la sección _[!UICONTROL Shipping and Tracking]_del formulario y haga clic en **[!UICONTROL Print Shipping Label]**.
 
    Según la configuración del navegador, las etiquetas de envío pueden verse e imprimirse directamente desde el archivo PDF.
 
-   El botón _[!UICONTROL Print Shipping Label]_&#x200B;solo aparece después de que el transportista genere etiquetas para el envío. Si falta el botón, haga clic en **[!UICONTROL Create Shipping Label]**. El botón aparece después de que Commerce reciba la etiqueta del operador.
+   El botón _[!UICONTROL Print Shipping Label]_solo aparece después de que el transportista genere etiquetas para el envío. Si falta el botón, haga clic en **[!UICONTROL Create Shipping Label]**. El botón aparece después de que Commerce reciba la etiqueta del operador.
 
 ### Método 2: Imprimir etiquetas para varios pedidos
 
@@ -228,7 +234,7 @@ Se imprime un juego completo de etiquetas de envío para cada envío relacionado
 
 ## Creación de paquetes
 
-La ventana _[!UICONTROL Create Packages]_&#x200B;aparece cuando elige crear una etiqueta de envío. Puede comenzar a configurar el primer paquete inmediatamente.
+La ventana _[!UICONTROL Create Packages]_aparece cuando elige crear una etiqueta de envío. Puede comenzar a configurar el primer paquete inmediatamente.
 
 ### Configuración de un paquete
 
@@ -240,7 +246,7 @@ La ventana _[!UICONTROL Create Packages]_&#x200B;aparece cuando elige crear una 
 
    - Especifique los productos y las cantidades.
 
-     La columna _[!UICONTROL Qty]_&#x200B;muestra la cantidad máxima disponible para agregar. Para el primer paquete, el número es la cantidad total del producto que se va a enviar.
+     La columna _[!UICONTROL Qty]_muestra la cantidad máxima disponible para agregar. Para el primer paquete, el número es la cantidad total del producto que se va a enviar.
 
    - Para agregar los productos al paquete, haga clic en **[!UICONTROL Add Selected Product(s) to Package]**.
 

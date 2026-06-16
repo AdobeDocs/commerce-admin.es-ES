@@ -3,9 +3,15 @@ title: Configuración del carro
 description: Obtenga información acerca de las funciones del carro de compras que puede configurar para admitir la experiencia de compra en su tienda.
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/WujjOYsEVIPOEEdvRD2F5S-810YCju22sJY74RG18J8
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2449'
+source-wordcount: 2417
 ht-degree: 0%
 
 ---
@@ -92,7 +98,7 @@ El vínculo se puede configurar para mostrar el número de productos diferentes 
 
 La página del carro de compras se puede configurar para que aparezca cada vez que se agregue un artículo al carro de compras o solo cuando los clientes decidan ir a la página. La información básica sobre los artículos que se encuentran actualmente en el carro está siempre disponible en el [mini carro](#mini-cart). La decisión es una cuestión de equilibrar las ventajas de permitir que los clientes sigan comprando, con las ventajas de animar a los clientes a proceder al cierre de compra. Podría ser una simple cuestión de preferencia personal. Sin embargo, si desea realizar una copia de seguridad con números, puede ejecutar una prueba A/B para ver qué método produce una tasa de conversión más alta.
 
-**_Para configurar cuándo aparecerá el carro de compras:_**
+**_Para configurar cuando aparece el carro:_**
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -143,7 +149,7 @@ La configuración le permite especificar una cantidad mínima, después de aplic
 
 ![El carro de compras muestra un mensaje de pedido mínimo](./assets/storefront-cart-minimum-order-amount.png){width="700" zoomable="yes"}
 
-**_Para configurar una cantidad mínima de pedido:_**
+**_Para configurar un importe mínimo de pedido:_**
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -291,7 +297,7 @@ La configuración de Opciones de regalo se aplica a todo el sitio web, pero se p
 
 El envoltorio para regalos está disponible para cualquier producto que se pueda enviar y se puede ofrecer para artículos individuales o para todo el pedido. Puede cobrar un precio diferente por cada diseño de envoltorio para regalos y cargar una imagen en miniatura por cada diseño que aparezca como opción para un producto en el carro de compras. Cuando un cliente hace clic en la miniatura del envoltorio de regalos, aparece una imagen a tamaño completo. Durante la revisión de cierre de compra, el cargo por envoltorio para regalos aparece con los otros [totales de cierre de compra](checkout-totals-sort-order.md) en la sección _Resumen del pedido_.
 
-La imagen del envoltorio para regalos debe ser una muestra que muestre el patrón repetitivo y también puede incluir una muestra de la cinta que se va a utilizar. Puede escanear el papel o tomar una fotografía de un paquete envuelto. La imagen cargada puede ser un GIF, un JPG de datos o una imagen PNG, y debe ser cuadrada. En el ejemplo siguiente, la imagen del envoltorio para regalos cargada es de 230 x 230 píxeles.
+La imagen del envoltorio para regalos debe ser una muestra que muestre el patrón repetitivo y también puede incluir una muestra de la cinta que se va a utilizar. Puede escanear el papel o tomar una fotografía de un paquete envuelto. La imagen cargada puede ser una imagen GIF, JPG o PNG, y debe ser cuadrada. En el ejemplo siguiente, la imagen del envoltorio para regalos cargada es de 230 x 230 píxeles.
 
 ![Opciones de regalo en el carro](./assets/storefront-cart-gift-options-gift-wrap.png){width="700" zoomable="yes"}
 
@@ -321,7 +327,7 @@ La imagen del envoltorio para regalos debe ser una muestra que muestre el patró
 
 1. Para cargar una miniatura **[!UICONTROL Image]** del envoltorio para regalos, haga clic en **[!UICONTROL Choose File]** y seleccione el archivo que desea cargar desde el directorio.
 
-   Aparece una miniatura de la imagen en _[!UICONTROL Gift Wrapping Information]_&#x200B;después de guardar el registro.
+   Aparece una miniatura de la imagen en _[!UICONTROL Gift Wrapping Information]_después de guardar el registro.
 
 1. Haga clic en **[!UICONTROL Save]**.
 

@@ -3,9 +3,15 @@ title: Administración de imágenes y vídeos de productos
 description: Obtenga información sobre la administración de recursos de imagen y vídeo para las listas de productos.
 exl-id: 3cb4ab8a-8966-400f-be94-a517634d1334
 feature: Catalog Management, Products, Media
-source-git-commit: 37eb42859700670420d4628d9a90d8d8d7b6c53b
+TQID: https://experienceleague.adobe.com/gbvXNkkQXUwyp7oE-xZGLEDNmsJIW4ezKHoOojdmGgA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: 1164
 ht-degree: 0%
 
 ---
@@ -44,7 +50,7 @@ Para cargar una imagen, realice una de las siguientes acciones:
 
 ### Reorganizar imágenes
 
-Para cambiar el orden de las imágenes en la galería, haga clic en el icono _[!UICONTROL Sort]_( ![Icono Ordenar](./assets/inventory-icon-sort.png) ) en la parte inferior del mosaico de la imagen y arrastre la imagen a una posición diferente en el cuadro&#x200B;_[!UICONTROL Images And Videos]_.
+Para cambiar el orden de las imágenes en la galería, haga clic en el icono _[!UICONTROL Sort]_( ![Icono Ordenar](./assets/inventory-icon-sort.png) ) en la parte inferior del mosaico de la imagen y arrastre la imagen a una posición diferente en el cuadro_[!UICONTROL Images And Videos]_.
 
 ![Pedido de cambio](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 
@@ -86,7 +92,7 @@ Para excluir una imagen de la galería de miniaturas, seleccione la casilla **[!
 
 ## Administrar imágenes y vídeos en el nivel de vista de tienda
 
-Cuando cambia el selector **[!UICONTROL Store View]** a una vista de almacén específica (no **[!UICONTROL All Store Views]**), la sección _[!UICONTROL Images and Videos]_&#x200B;proporciona controles adicionales para administrar cómo se muestran las imágenes para esa vista de almacén sin afectar al ámbito predeterminado.
+Cuando cambia el selector **[!UICONTROL Store View]** a una vista de almacén específica (no **[!UICONTROL All Store Views]**), la sección _[!UICONTROL Images and Videos]_proporciona controles adicionales para administrar cómo se muestran las imágenes para esa vista de almacén sin afectar al ámbito predeterminado.
 
 ### Reordenar imágenes para una vista de tienda
 

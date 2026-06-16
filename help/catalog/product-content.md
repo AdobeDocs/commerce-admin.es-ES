@@ -3,16 +3,22 @@ title: Configuración del producto - [!UICONTROL Content]
 description: Para un producto, la configuración de [!UICONTROL Content] define la descripción principal del producto que aparece en la página del producto.
 exl-id: d38aa828-8656-4935-948f-3188654a91a0
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/Q-zeffK2GElT0OyS3Lapa7XNHkT2sK30bKszPrGhW6k
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: 302
 ht-degree: 0%
 
 ---
 
 # Configuración del producto - [!UICONTROL Content]
 
-La sección _[!UICONTROL Content]_&#x200B;se usa para escribir y editar la descripción principal del producto que aparece en la página del producto. La descripción breve puede usarse en la mayoría de las fuentes RSS y también puede aparecer en las listas de catálogos, dependiendo de [tema](../content-design/themes.md).
+La sección _[!UICONTROL Content]_se usa para escribir y editar la descripción principal del producto que aparece en la página del producto. La descripción breve puede usarse en la mayoría de las fuentes RSS y también puede aparecer en las listas de catálogos, dependiendo de [tema](../content-design/themes.md).
 
 ## Agregar la descripción del producto en [!DNL Page Builder]
 
@@ -30,7 +36,7 @@ La sección _[!UICONTROL Content]_&#x200B;se usa para escribir y editar la descr
 
 ## Vista previa de [!DNL Page Builder]
 
-Cuando expande la sección _[!UICONTROL Content]_&#x200B;para un producto existente donde hay contenido creado con [!DNL Page Builder], muestra una vista previa del contenido de **[!UICONTROL Description]**&#x200B;tal como aparecería en la página de producto. Abra el área de trabajo [!DNL Page Builder], donde podrá realizar las actualizaciones que sean necesarias, haciendo clic en **[!UICONTROL Edit with Page Builder]**.
+Cuando expande la sección _[!UICONTROL Content]_para un producto existente donde hay contenido creado con [!DNL Page Builder], muestra una vista previa del contenido de **[!UICONTROL Description]**tal como aparecería en la página de producto. Abra el área de trabajo [!DNL Page Builder], donde podrá realizar las actualizaciones que sean necesarias, haciendo clic en **[!UICONTROL Edit with Page Builder]**.
 
 ![Vista previa de descripción](../page-builder/assets/pb-product-category-content-preview.png){width="600" zoomable="yes"}
 

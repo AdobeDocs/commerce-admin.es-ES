@@ -3,10 +3,16 @@ title: Acuerdos de facturación de PayPal
 description: Aprende cómo puedes respaldar los acuerdos de facturación de PayPal y un método de pago dentro de tu tienda.
 exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
 feature: Payments
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+TQID: https://experienceleague.adobe.com/Tg37Iu-rlC4Bp-PHbXig-QVzlbpRkaCLGHOQ3yrNY9M
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: 821
 ht-degree: 0%
 
 ---
@@ -27,7 +33,7 @@ Para simplificar el proceso de pago y envío, los clientes pueden firmar un acue
 
 ## Administrar acuerdos de facturación
 
-La página _[!UICONTROL Billing Agreements]_&#x200B;enumera todos los contratos de facturación entre su tienda y sus clientes. Los comerciantes pueden filtrar los registros según la información del acuerdo de facturación o del cliente, incluidos el ID de referencia del acuerdo de facturación, el estado y la fecha de creación. Cada registro incluye información general sobre el acuerdo de facturación y todos los pedidos de venta que lo han utilizado como método de pago. Puede consultar, cancelar o suprimir acuerdos de facturación de clientes. Solamente el administrador de la tienda puede eliminar un acuerdo de facturación cancelado.
+La página _[!UICONTROL Billing Agreements]_enumera todos los contratos de facturación entre su tienda y sus clientes. Los comerciantes pueden filtrar los registros según la información del acuerdo de facturación o del cliente, incluidos el ID de referencia del acuerdo de facturación, el estado y la fecha de creación. Cada registro incluye información general sobre el acuerdo de facturación y todos los pedidos de venta que lo han utilizado como método de pago. Puede consultar, cancelar o suprimir acuerdos de facturación de clientes. Solamente el administrador de la tienda puede eliminar un acuerdo de facturación cancelado.
 
 ### Ver un acuerdo de facturación
 
@@ -35,7 +41,7 @@ La página _[!UICONTROL Billing Agreements]_&#x200B;enumera todos los contratos 
 
 1. Busque el acuerdo de facturación en la lista y haga clic en para abrirlo.
 
-Cada página de acuerdo de facturación consta de dos fichas: _[!UICONTROL General Information]_&#x200B;y&#x200B;_[!UICONTROL Related Orders]_.
+Cada página de acuerdo de facturación consta de dos fichas: _[!UICONTROL General Information]_y_[!UICONTROL Related Orders]_.
 
 #### Información general
 

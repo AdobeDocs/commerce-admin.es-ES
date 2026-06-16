@@ -3,10 +3,15 @@ title: Ensayo de contenido
 description: El ensayo de contenido permite a su equipo empresarial crear, previsualizar y programar fácilmente una amplia gama de actualizaciones de contenido para su tienda, directamente desde el administrador.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+TQID: https://experienceleague.adobe.com/XAMnUUL9JH0atN6vlwwe2l9x4P-uAqJA3BH-h9LbIXU
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: 1015
 ht-degree: 0%
 
 ---
@@ -27,7 +32,7 @@ Los campos relacionados con la fecha de inicio y la fecha de finalización se ha
 
 Todas las actualizaciones programadas se aplican de forma consecutiva, lo que significa que cualquier entidad solo puede tener una actualización programada a la vez. Cualquier actualización programada se aplica a todas las vistas de la tienda dentro de su lapso de tiempo. Como resultado, una entidad no puede tener una actualización programada diferente para diferentes vistas de tienda al mismo tiempo. Todos los valores de atributo de entidad dentro de todas las vistas de tienda, que no se ven afectados por la actualización programada actual, se toman de los valores predeterminados y no de la actualización programada anterior.
 
-Cuando se crea una nueva actualización programada para cualquiera de los siguientes objetos, se crea una campaña correspondiente como marcador de posición y aparece el cuadro _[!UICONTROL Scheduled Changes]_&#x200B;en la parte superior de la página. La campaña de marcador de posición tiene una fecha de inicio, pero no una fecha de finalización. Puede programar actualizaciones del contenido como parte de una campaña y, a continuación, previsualizar y compartir los cambios por fecha, hora o vista de tienda. Después de crear una nueva campaña para un objeto, puede asignarlo como una actualización programada para otros objetos.
+Cuando se crea una nueva actualización programada para cualquiera de los siguientes objetos, se crea una campaña correspondiente como marcador de posición y aparece el cuadro _[!UICONTROL Scheduled Changes]_en la parte superior de la página. La campaña de marcador de posición tiene una fecha de inicio, pero no una fecha de finalización. Puede programar actualizaciones del contenido como parte de una campaña y, a continuación, previsualizar y compartir los cambios por fecha, hora o vista de tienda. Después de crear una nueva campaña para un objeto, puede asignarlo como una actualización programada para otros objetos.
 
 - [Productos](../catalog/product-scheduled-changes.md)
 - [Categorías](../catalog/category-scheduled-changes.md)
@@ -40,7 +45,7 @@ Cuando se crea una nueva actualización programada para cualquiera de los siguie
 
 1. **Crear contenido de línea base**
 
-   La línea de base es el contenido de un recurso sin campaña e incluye todo lo que hay debajo de la sección _[!UICONTROL Scheduled Changes]_&#x200B;en la parte superior de la página. El contenido de línea de base siempre se utiliza, a menos que haya una campaña activa con cambios programados para ese lugar en la cronología.
+   La línea de base es el contenido de un recurso sin campaña e incluye todo lo que hay debajo de la sección _[!UICONTROL Scheduled Changes]_en la parte superior de la página. El contenido de línea de base siempre se utiliza, a menos que haya una campaña activa con cambios programados para ese lugar en la cronología.
 
 1. **Crear la primera campaña**
 
@@ -80,12 +85,12 @@ El [!UICONTROL Content Staging] [panel](content-staging-dashboard.md) proporcion
 
 Para obtener más información sobre el ensayo de contenido, vea este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410853?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
 
 ## Solución de problemas de recursos
 
 Para obtener ayuda con la resolución de problemas de ensayo de contenido, consulte los siguientes [!DNL Commerce] artículos de la Base de conocimiento de asistencia técnica:
 
-- [Error 404 en todas las páginas debido a un problema de ensayo de contenido](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html?lang=es)
-- [Las actualizaciones programadas de ensayo de contenido no se muestran con la caché de Fastly obsoleta](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html?lang=es)
-- [¿Puedo programar actualizaciones de ensayo de contenido para los precios de un catálogo compartido?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html?lang=es)
+- [Error 404 en todas las páginas debido a un problema de ensayo de contenido](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html)
+- [Las actualizaciones programadas de ensayo de contenido no se muestran con la caché de Fastly obsoleta](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html)
+- [¿Puedo programar actualizaciones de Ensayo de contenido para precios en un catálogo compartido?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html)

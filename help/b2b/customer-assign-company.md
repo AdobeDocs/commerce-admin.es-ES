@@ -4,9 +4,16 @@ description: Obtenga información sobre cómo agregar un cliente existente a una
 exl-id: ee2f9c27-37d6-4997-8285-1c4c84f8d04c
 feature: B2B, Companies, Customers
 role: Admin, User
-source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
+TQID: https://experienceleague.adobe.com/vJaqCSxWxU67fRTwBDDHPGkzpwVma0mhpohWiCLonhM
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: 577
 ht-degree: 0%
 
 ---
@@ -59,13 +66,13 @@ Cuando agrega un usuario de compañía, la primera compañía que asocia a la cu
 
 [!UICONTROL Customers grid] muestra una fila independiente para cada compañía a la que está asignado el usuario. Se actualizan las siguientes columnas.
 
-- La columna _[!UICONTROL Customer Type]_&#x200B;se actualiza para mostrar el rol asignado al usuario.
+- La columna _[!UICONTROL Customer Type]_se actualiza para mostrar el rol asignado al usuario.
 
-  Si es la primera vez que se asigna al cliente a una compañía, la columna _[!UICONTROL Customer Type]_&#x200B;se actualiza de&#x200B;_[!UICONTROL Individual user]_ a _[!UICONTROL Company User]_.
+  Si es la primera vez que se asigna al cliente a una compañía, la columna _[!UICONTROL Customer Type]_se actualiza de_[!UICONTROL Individual user]_ a _[!UICONTROL Company User]_.
 
-- La columna _[!UICONTROL Group]_&#x200B;cambia al nombre del grupo de clientes (o catálogo compartido) asignado a la compañía.
+- La columna _[!UICONTROL Group]_cambia al nombre del grupo de clientes (o catálogo compartido) asignado a la compañía.
 
-- La columna _[!UICONTROL Company]_&#x200B;muestra el nombre de la compañía a la que está ahora asociado el perfil del cliente.
+- La columna _[!UICONTROL Company]_muestra el nombre de la compañía a la que está ahora asociado el perfil del cliente.
 
 ## Asignar un usuario a una o varias cuentas de empresa
 
@@ -83,7 +90,7 @@ Al asignar un nuevo usuario, la primera compañía que asocia a la cuenta de usu
 
 ## Quitar la asignación de la empresa de una cuenta de usuario
 
-Al eliminar una compañía de un perfil de usuario, se anula el acceso de los usuarios a esa compañía. Los datos de usuario permanecen accesibles en el Administrador. Si quita todas las asignaciones de la compañía, _[!UICONTROL Customer Type]_&#x200B;cambia a *[!UICONTROL Individual user]*, lo que deshabilita las capacidades B2B de la cuenta.
+Al eliminar una compañía de un perfil de usuario, se anula el acceso de los usuarios a esa compañía. Los datos de usuario permanecen accesibles en el Administrador. Si quita todas las asignaciones de la compañía, _[!UICONTROL Customer Type]_cambia a *[!UICONTROL Individual user]*, lo que deshabilita las capacidades B2B de la cuenta.
 
 1. En la cuadrícula Cliente de la administración, edite el perfil del cliente que desea actualizar.
 

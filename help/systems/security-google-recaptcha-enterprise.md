@@ -3,10 +3,17 @@ title: Google reCAPTCHA Enterprise
 description: Obtenga información sobre cómo configurar Google reCAPTCHA Enterprise para proteger su tienda de Adobe Commerce as a Cloud Service de bots y actividades fraudulentas.
 role: Admin
 feature: Configuration, Security
-badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."
-source-git-commit: 3bc89a2dcecc91bbb4b3df285b6e1dd7c64bc477
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."
+exl-id: 2c88488c-8ff1-41db-b81b-89ad164e134d
+TQID: https://experienceleague.adobe.com/oMZleuJsp2QiDD7IsMDV647LWKm938lNvY4--o6G3c8
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: eb30f47f-d87a-400f-8f78-63ce7979ff56id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: 633
 ht-degree: 0%
 
 ---
@@ -19,7 +26,7 @@ ht-degree: 0%
 >
 >Esta función NO proporciona compatibilidad con reCAPTCHA para el administrador.
 
-[Integración de reCAPTCHA](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/user-auth/recaptcha/?lang=es) describe cómo agregar compatibilidad con reCAPTCHA Enterprise a tu tienda.
+[Integración de reCAPTCHA](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/user-auth/recaptcha/) describe cómo agregar compatibilidad con reCAPTCHA Enterprise a tu tienda.
 
 Consulte [Google reCAPTCHA V3 y V2](security-google-recaptcha.md) para obtener información sobre cómo configurar otras versiones de Google reCAPTCHA.
 
@@ -61,7 +68,7 @@ Siga estos pasos generales para configurar Google reCAPTCHA Enterprise para su t
 
 1. En la barra lateral de Adobe Commerce _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Expanda _[!UICONTROL Security]_&#x200B;y elija **[!UICONTROL Google reCAPTCHA Storefront]**.
+1. Expanda _[!UICONTROL Security]_y elija **[!UICONTROL Google reCAPTCHA Storefront]**.
 
 1. Desplácese hacia abajo hasta la sección **[!UICONTROL reCAPTCHA Enterprise]** y complete la configuración como se indica a continuación.
 

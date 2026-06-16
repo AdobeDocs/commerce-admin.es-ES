@@ -3,9 +3,15 @@ title: Boletines y suscripciones
 description: Obtenga información acerca de los boletines informativos y cómo habilitar esta función como herramienta promocional de bajo coste.
 exl-id: ad4488c2-1b8b-4326-8486-743c75c5b9a6
 feature: Customers, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+TQID: https://experienceleague.adobe.com/riYrvqQTvcEa2p9EQXv-oy3juefmg4pch20aOHDOoEQ
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: 314
 ht-degree: 0%
 
 ---
@@ -16,7 +22,7 @@ La publicación periódica de un boletín se considera una de las herramientas d
 
 >[!NOTE]
 >
->Puede añadir funcionalidades integrando su instancia de Commerce con un proveedor de servicios de newsletter de terceros y añadiendo extensiones. Para obtener más información, consulte [Commerce Marketplace](../getting-started/commerce-marketplace.md).
+>Puede añadir funcionalidades integrando su instancia de Commerce con un proveedor de servicios de newsletter de terceros y añadiendo extensiones. Para obtener más información, consulta [Commerce Marketplace](../getting-started/commerce-marketplace.md).
 
 El primer paso para crear boletines es establecer la configuración de la newsletter para el sitio. Puede solicitar a los clientes que hagan clic en un vínculo de confirmación enviado por correo electrónico para confirmar la suscripción. Este método de inclusión doble requiere que los clientes confirmen dos veces que desean recibir la newsletter y reduce la posibilidad de que se considere correo no deseado.
 

@@ -2,14 +2,20 @@
 title: Monitorización del estado de sincronización de fuente de datos
 description: Supervise la sincronización de exportación de datos e identifique cualquier problema o retraso con el procesamiento de fuentes para  [!DNL Catalog Service], [!DNL Live Search] y [!DNL Product Recommendations].
 feature: Products, Customers, Data Import/Export
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 3079ee3fe394a73d5ab4168e9e40815c340e386c
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+exl-id: 4e1b9da0-450c-4488-8693-1938a948e792
+TQID: https://experienceleague.adobe.com/Y8vYxKS-8iX-bCLSJpAiJOItWlJk348bSMWfk1Cgpbg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1719'
+source-wordcount: 1689
 ht-degree: 0%
 
 ---
-
 
 # Monitorización del estado de sincronización de fuente de datos
 
@@ -41,33 +47,33 @@ El estado se rastrea para las siguientes fuentes:
 Utilice los siguientes métodos para comprobar que los datos se han sincronizado correctamente con los servicios de Commerce conectados:
 
 * Para implementaciones de Adobe Commerce en la nube, locales o de Adobe Commerce as a Cloud Service, consulte el [panel de administración de datos](data-dashboard.md).
-* Para implementaciones locales o en la nube de Adobe Commerce configuradas con [Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/es/docs/commerce/aco-optimizer-connector/overview), consulte la [página de sincronización de datos](https://experienceleague.adobe.com/es/docs/commerce/optimizer/setup/data-sync) en Commerce Optimizer Studio.
+* Para implementaciones locales o en la nube de Adobe Commerce configuradas con [Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview), consulte la [página de sincronización de datos](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) en Commerce Optimizer Studio.
 
 >[!TIP]
 >
->Para obtener más información sobre el proceso de sincronización de datos, consulte [Sincronizar datos con la exportación de datos SaaS](https://experienceleague.adobe.com/es/docs/commerce/saas-data-export/data-synchronization)en la *Guía de exportación de datos SaaS*.
+>Para obtener más información sobre el proceso de sincronización de datos, consulte [Sincronizar datos con la exportación de datos SaaS](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization)en la *Guía de exportación de datos SaaS*.
 
 ## Instalación de la extensión
 
 La página Estado de fuente de datos está disponible para todos los comerciantes de Commerce con licencias activas para los siguientes servicios de Commerce:
 
-* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/es/docs/commerce/product-recommendations/guide-overview)
-* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/es/docs/commerce/live-search/guide-overview)
-* [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/es/docs/commerce/catalog-service/guide-overview) con una licencia activa
+* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
+* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)
+* [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) con una licencia activa
 
 >[!NOTE]
 >
->No es necesario instalar la extensión de estado de fuente de datos en [[!DNL Adobe Commerce as a Cloud Service]](https://experienceleague.adobe.com/es/docs/commerce/cloud-service/overview) instancias.
->La extensión está disponible de forma predeterminada si se habilita al menos uno de los siguientes servicios en la implementación de Commerce: Product Recommendations v6+, Live Search v4.1+ o Servicio de catálogo v1.17+.
+>No es necesario instalar la extensión de estado de fuente de datos en [[!DNL Adobe Commerce as a Cloud Service]](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview) instancias.
+>La extensión está disponible de forma predeterminada si al menos uno de los siguientes servicios está habilitado en la implementación de Commerce: Product Recommendations v6+, Live Search v4.1+ o Servicio de catálogo v1.17+.
 
 **Requisitos**
 
 * PHP 8.1, 8.2, 8.3 u 8.4
 * Adobe Commerce 2.4.4+
-* [Extensión de exportación de datos de Adobe Commerce](https://experienceleague.adobe.com/es/docs/commerce/saas-data-export/manage-extension), versión 103.4.15 o posterior
+* [Extensión de exportación de datos de Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/manage-extension), versión 103.4.15 o posterior
 * Acceso a [repo.magento.com](https://repo.magento.com)
 
-  Para generar claves y obtener los derechos necesarios, consulta [Obtener tus claves de autenticación](https://experienceleague.adobe.com/es/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Para instalaciones en la nube, consulte la [Guía de Commerce en infraestructura en la nube](https://experienceleague.adobe.com/es/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
+  Para generar claves y obtener los derechos necesarios, consulta [Obtener tus claves de autenticación](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Para instalaciones en la nube, consulte la [Guía de Commerce en infraestructura en la nube](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
 
 * Acceso a la línea de comandos del servidor de aplicaciones de Adobe Commerce.
 
@@ -81,9 +87,9 @@ composer require magento/module-data-exporter-status
 
 Para ver los pasos detallados de la instalación, consulte las siguientes guías:
 
-* [Instalar la extensión en Adobe Commerce en la infraestructura de la nube](https://experienceleague.adobe.com/es/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+* [Instalar la extensión en Adobe Commerce en la infraestructura de la nube](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
 
-* [Instalación de la extensión de Adobe Commerce local](https://experienceleague.adobe.com/es/docs/commerce-operations/installation-guide/tutorials/extensions)
+* [Instalación de la extensión de Adobe Commerce local](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 ## Acceso a la página Estado de fuente de datos
 
@@ -145,7 +151,7 @@ En la parte superior de cada página de detalles de fuente, los indicadores de e
 
 >[!TIP]
 >
->Para obtener más información acerca del procesamiento de índices, vea el tema [Administración de índices](https://experienceleague.adobe.com/es/docs/commerce-admin/systems/tools/index-management).
+>Para obtener más información acerca del procesamiento de índices, vea el tema [Administración de índices](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management).
 
 #### Registro de cambios pendientes
 
@@ -177,7 +183,7 @@ Cuando el número de registros enviados correctamente coincide con el número de
 
 >[!NOTE]
 >
->Adobe también proporciona herramientas de interfaz de línea de comandos y registros del sistema que los desarrolladores e integradores de sistemas pueden utilizar para administrar y realizar un seguimiento de las operaciones de sincronización. Para obtener más información, consulte la [Guía de exportación de datos SaaS](https://experienceleague.adobe.com/es/docs/commerce-merchant-services/saas-data-export/overview).
+>Adobe también proporciona herramientas de interfaz de línea de comandos y registros del sistema que los desarrolladores e integradores de sistemas pueden utilizar para administrar y realizar un seguimiento de las operaciones de sincronización. Para obtener más información, consulte la [Guía de exportación de datos SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ### Administración de exportaciones fallidas
 
@@ -277,5 +283,5 @@ Si necesita volver a sincronizar elementos de fuente específicos:
 
 >[!MORELIKETHIS]
 >
->* [Panel de administración de datos](https://experienceleague.adobe.com/es/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)
->* [Guía De Exportación De Datos SaaS](https://experienceleague.adobe.com/es/docs/commerce-merchant-services/saas-data-export/overview)
+>* [Panel de administración de datos](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)
+>* [Guía De Exportación De Datos SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)

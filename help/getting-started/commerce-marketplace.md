@@ -3,9 +3,16 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: Obtenga información acerca de [!DNL Commerce Marketplace], que ofrece a los comerciantes una selección revisada de soluciones y proporciona a los desarrolladores cualificados las herramientas, la plataforma y la ubicación privilegiada para crear un negocio próspero.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 9441c181a4272607d91bbaf5d410d8e433cb144f
+TQID: https://experienceleague.adobe.com/iWL-VJ99oPBafRQOK16YYTeEUvAoYGK-6bFxPHroYkk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c32adafa-ed01-4b31-997e-2413013911b0id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2: id: f8ddfd3b-6194-46e8-a176-0e918039be56
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: 1432
 ht-degree: 0%
 
 ---
@@ -26,16 +33,16 @@ Los siguientes recursos proporcionan un punto de partida para que los nuevos usu
 
 ### Recursos de Commerce
 
-- [Configuración de eventos de E/S para Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
+- [Configuración de eventos de I/O para Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
 - [Configuración de eventos para Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
-- [Configurando SDK de IU de administración](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
+- [Configuración de la IU de administración en SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [Conversión de una extensión en una aplicación](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
 ### Recursos de App Builder
 
 - [Información general sobre Commerce App Builder](https://developer.adobe.com/commerce/extensibility/app-development/)
-- [Configurando API Mesh para Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
-- [Implementando aplicaciones de App Builder](https://developer.adobe.com/app-builder/docs/guides/deployment/)
+- [Configuración de la malla de API para Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
+- [Implementación de aplicaciones de App Builder](https://developer.adobe.com/app-builder/docs/guides/deployment/)
 - [CI/CD para aplicaciones de App Builder](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
 - Introducción a App Builder/Developer Console
    - [Introducción a App Builder](https://developer.adobe.com/app-builder/docs/getting_started/)
@@ -43,7 +50,7 @@ Los siguientes recursos proporcionan un punto de partida para que los nuevos usu
 
 ## Credenciales de [!DNL Marketplace]
 
-Para poder instalar una extensión adquirida en [!DNL Commerce Marketplace], inicie sesión en su cuenta de [!DNL Commerce] y compruebe que dispone de una clave de acceso activa. Puede iniciar sesión en su cuenta de [!DNL Commerce] desde el encabezado de [[!DNL Marketplace]](https://marketplace.magento.com/) o [Magento.com](https://business.adobe.com/es/products/magento/magento-commerce.html).
+Para poder instalar una extensión adquirida en [!DNL Commerce Marketplace], inicie sesión en su cuenta de [!DNL Commerce] y compruebe que dispone de una clave de acceso activa. Puede iniciar sesión en su cuenta de [!DNL Commerce] desde el encabezado de [[!DNL Marketplace]](https://marketplace.magento.com/) o [Magento.com](https://business.adobe.com/products/magento/magento-commerce.html).
 
 La clave de acceso es un conjunto de claves públicas y privadas que se usa para sincronizar la instalación de [!DNL Commerce] con la cuenta de [!DNL Commerce] y comprobar las credenciales. Una vez sincronizada la cuenta, debe escribir la clave privada cada vez que instale una extensión o módulo desde Commerce Marketplace o actualice la instalación de [!DNL Commerce].
 
@@ -59,7 +66,7 @@ Puede crear varias claves de acceso para distintos fines y habilitarlas o deshab
 
    ![Su perfil [!DNL Marketplace]](./assets/marketplace-profile.png){width="600"}
 
-1. En la ficha _[!UICONTROL Marketplace]_&#x200B;en&#x200B;_[!UICONTROL My Products]_, haga clic en **[!UICONTROL Access Keys]** y, a continuación, siga uno de estos procedimientos:
+1. En la ficha _[!UICONTROL Marketplace]_en_[!UICONTROL My Products]_, haga clic en **[!UICONTROL Access Keys]** y, a continuación, siga uno de estos procedimientos:
 
    - Compruebe si ya tiene un conjunto de claves de acceso para sus compras en Marketplace. Puede crear varios conjuntos de claves de acceso para distintos fines.
 
@@ -77,7 +84,7 @@ Puede crear varias claves de acceso para distintos fines y habilitarlas o deshab
 
 >[!IMPORTANT]
 >
->A partir de Adobe Commerce y Magento Open Source 2.4.0, se eliminará el Asistente para instalación web y deberá usar la línea de comandos para [instalar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=es) o [actualizar](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=es) su instancia. Este requisito también incluye [módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=es) y [extensiones](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=es).
+>A partir de Adobe Commerce y Magento Open Source 2.4.0, se eliminará el Asistente para instalación web y deberá usar la línea de comandos para [instalar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) o [actualizar](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) su instancia. Este requisito también incluye [módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) y [extensiones](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
 El proceso de instalación de [!DNL Marketplace] compras es diferente para _instalaciones locales_ de Commerce que para instalaciones hospedadas en [la arquitectura de nube de Adobe](https://www.adobe.com/commerce/magento/enterprise.html).
 
@@ -109,7 +116,7 @@ Los problemas de inicio de sesión suelen estar relacionados con una discrepanci
 
 ### Preguntas de código abierto
 
-El equipo de soporte técnico de Marketplace resuelve problemas relacionados únicamente con los sitios [commerce.adobe.com/](https://commercemarketplace.adobe.com/) y [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Envíe sus preguntas sobre Magento Open Source al [Foro de la comunidad](https://community.magento.com/) o [póngase en contacto con un socio](https://business.adobe.com/es/products/magento/partners.html) que pueda ayudarle con Magento Open Source.
+El equipo de soporte técnico de Marketplace resuelve problemas relacionados únicamente con los sitios [commerce.adobe.com/](https://commercemarketplace.adobe.com/) y [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Envíe sus preguntas sobre Magento Open Source al [Foro de la comunidad](https://community.magento.com/) o [póngase en contacto con un socio](https://business.adobe.com/products/magento/partners.html) que pueda ayudarle con Magento Open Source.
 
 ### Solicitudes de reembolso
 

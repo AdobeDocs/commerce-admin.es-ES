@@ -3,10 +3,16 @@ title: Revisiones de productos
 description: Descubra cómo las revisiones de productos pueden mejorar su tienda y dar más credibilidad a sus productos.
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
 feature: Merchandising, Products
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+TQID: https://experienceleague.adobe.com/GVmMoMMhnS4nHjCoa-6ylW8ah5-itrJKXiK9GKrdHd8
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: 693
 ht-degree: 0%
 
 ---
@@ -20,8 +26,7 @@ Commerce incluye una función nativa de revisiones de productos que puede admini
 >[!NOTE]
 >
 >Las versiones 2.4.0 a 2.4.3 de Adobe Commerce y Magento Open Source incluían la extensión desarrollada por el proveedor de Yotpo. A partir de la versión 2.4.4, esta extensión ya no se integra con la versión principal y debe instalarse y actualizarse desde Commerce Marketplace. Marketplace también proporciona acceso a la documentación actual proporcionada por el desarrollador de extensiones.
->&#x200B;><br><br>
->&#x200B;>Si tiene la extensión agrupada habilitada y configurada, debe actualizar el archivo composer.json como parte del proceso de actualización de la versión 2.4.4 y administrar las actualizaciones de extensión que se realicen. Consulte [Módulos de actualización](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=es) en la _Guía de actualización_ para obtener más información.
+><br><br>>Si tiene la extensión agrupada habilitada y configurada, debe actualizar el archivo composer.json como parte del proceso de actualización 2.4.4 y administrar las actualizaciones de extensión a partir de ahora. Consulte [Módulos de actualización](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) en la _Guía de actualización_ para obtener más información.
 
 ## Reseñas de productos en la tienda
 
@@ -43,7 +48,7 @@ El número de estrellas indica el grado de satisfacción del producto. Los visit
 
 ### [!UICONTROL My Product Reviews]
 
-La sección _[!UICONTROL My Product Reviews]_&#x200B;del panel de cuenta del cliente enumera todas las revisiones enviadas por el cliente y aprobadas para su publicación. Cada resumen de revisión incluye la fecha en la que se envió la revisión, los vínculos a la página del producto y los detalles de la revisión.
+La sección _[!UICONTROL My Product Reviews]_del panel de cuenta del cliente enumera todas las revisiones enviadas por el cliente y aprobadas para su publicación. Cada resumen de revisión incluye la fecha en la que se envió la revisión, los vínculos a la página del producto y los detalles de la revisión.
 
 ![Mis críticas de productos](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -91,7 +96,7 @@ Con las revisiones de producto de Commerce, los clientes pueden asignar clasific
 
    ![Administrador - Clasificaciones](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. En la sección _[!UICONTROL Rating Title]_, escriba **[!UICONTROL Default Value]**&#x200B;para la nueva clasificación.
+1. En la sección _[!UICONTROL Rating Title]_, escriba **[!UICONTROL Default Value]**para la nueva clasificación.
 
    Si procede, introduzca también la traducción para cada vista de tienda.
 

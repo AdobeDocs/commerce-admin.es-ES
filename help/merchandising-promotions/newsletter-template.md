@@ -3,16 +3,21 @@ title: Plantillas de newsletter
 description: Aprenda a crear plantillas de newsletter para alinearlas con su estrategia de comunicaciones.
 exl-id: 2a14ef7c-218a-4984-9062-87cd6000cefc
 feature: Customers, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+TQID: https://experienceleague.adobe.com/wfyNd68Ln7Xr8DOJN77aUedE8b8GC-BtnxDDV41wLtw
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: 421
 ht-degree: 0%
 
 ---
 
 # Plantillas de newsletter
 
-Puede crear tantas plantillas de newsletter como necesite para diferentes propósitos. Puede enviar una actualización de producto semanal, un boletín mensual o un boletín anual de vacaciones. Las plantillas de newsletter se pueden preparar con marcado de HTML o como texto sin formato. A diferencia del HTML, los boletines de texto sin formato no contienen imágenes, texto enriquecido ni vínculos con formato. En la cuadrícula, la columna Tipo de plantilla indica si una plantilla es HTML o texto.
+Puede crear tantas plantillas de newsletter como necesite para diferentes propósitos. Puede enviar una actualización de producto semanal, un boletín mensual o un boletín anual de vacaciones. Las plantillas de newsletter se pueden preparar con marcado de HTML o como texto sin formato. A diferencia de HTML, los boletines de texto sin formato no contienen imágenes, texto enriquecido ni vínculos con formato. En la cuadrícula, la columna Tipo de plantilla indica si una plantilla es HTML o texto.
 
 ![Plantillas de newsletter: agregar a la cola del boletín](./assets/newsletter-templates-grid.png){width="700" zoomable="yes"}
 
@@ -34,7 +39,7 @@ Puede crear tantas plantillas de newsletter como necesite para diferentes propó
 
    ![Información de plantilla de newsletter](./assets/newsletter-template-information2.png){width="600" zoomable="yes"}
 
-   - Para **[!UICONTROL Template Content]**, haga clic en **[!UICONTROL Show / Hide Editor]** para mostrar el editor WYSIWYG y actualizar el contenido según sea necesario.
+   - Para **[!UICONTROL Template Content]**, haga clic en **[!UICONTROL Show / Hide Editor]** para mostrar el editor de WYSIWYG y actualizar el contenido según sea necesario.
 
      Para obtener más información, consulte [Uso del editor](../content-design/editor.md).
 
@@ -60,15 +65,15 @@ Puede crear tantas plantillas de newsletter como necesite para diferentes propó
 
 1. Para guardar la versión de texto sin formato, haga clic en **[!UICONTROL Save Template]**.
 
-## Restauración del HTML
+## Restauración de HTML
 
 1. En la parte superior de la página, haga clic en **[!UICONTROL Return HTML Version]**.  
 
-1. Para obtener una vista previa de la versión del HTML, haga clic en **[!UICONTROL Preview Template]**.
+1. Para obtener una vista previa de la versión de HTML de la plantilla, haga clic en **[!UICONTROL Preview Template]**.
 
    La vista previa se abrirá en una nueva pestaña del explorador.
 
-1. Para guardar la versión del HTML, haga clic en **[!UICONTROL Save Template]**.
+1. Para guardar la versión de HTML, haga clic en **[!UICONTROL Save Template]**.
 
 ## Eliminar una plantilla de newsletter
 

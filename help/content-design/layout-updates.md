@@ -2,10 +2,16 @@
 title: Actualizaciones de diseño
 description: Aprenda a utilizar actualizaciones de diseño para personalizar el diseño de una página.
 exl-id: e2d8261f-cae1-4bd4-a047-f861dd7ca14e
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+TQID: https://experienceleague.adobe.com/PjeNmdtN39seTDCdzbt8K7DhoRZgFB3PksoKTJaFLsk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: 1044
 ht-degree: 0%
 
 ---
@@ -31,7 +37,7 @@ En el diagrama siguiente, los nombres que hacen referencia a los contenedores so
 | `page/html_wrapper` | Aunque se incluye en el diseño predeterminado, este bloque está obsoleto y se incluye solo para garantizar la compatibilidad con versiones anteriores. No utilice bloques de este tipo. |
 | `page/html_breadcrumbs` | El nombre de este bloque es `breadcrumbs` y es un elemento secundario del bloque de encabezado. Este bloque muestra las rutas de exploración de la página actual. Solo puede haber un bloque de este tipo por página. |
 | `page/html_footer` | El nombre de bloque es `footer` y es un elemento secundario del bloque raíz. El bloque de pie de página corresponde al pie de página visual en la parte inferior de la página y contiene varios bloques estándar. Solo puede haber un bloque de este tipo por página y no se debe eliminar. |
-| `page/template_links` | Hay dos bloques de este tipo en el diseño estándar. El bloque `top.links` es un elemento secundario del bloque de encabezado y corresponde al menú de navegación superior. El bloque `footer_links` es un elemento secundario del bloque de pie de página y corresponde al menú de navegación inferior. <br/><br/>**_Nota:_**&#x200B;Es posible manipular los vínculos de la plantilla, como se muestra en los ejemplos. |
+| `page/template_links` | Hay dos bloques de este tipo en el diseño estándar. El bloque `top.links` es un elemento secundario del bloque de encabezado y corresponde al menú de navegación superior. El bloque `footer_links` es un elemento secundario del bloque de pie de página y corresponde al menú de navegación inferior. <br/><br/>**_Nota:_** Es posible manipular los vínculos de la plantilla, como se muestra en los ejemplos. |
 | `page/switch` | Hay dos bloques de este tipo en un diseño estándar. El bloque `store_language` es un elemento secundario del bloque de encabezado y corresponde al conmutador de idioma superior. El bloque `store_switcher` es un elemento secundario del bloque de pie de página y corresponde al conmutador de almacén inferior. |
 | core/messages | Hay dos bloques de este tipo en un diseño estándar. El bloque `global_messages` muestra mensajes globales. El bloque `messages` se usa para mostrar todos los demás mensajes. Si elimina estos bloques, el cliente no verá ningún mensaje. |
 | `core/text_list` | Este tipo de bloque se utiliza ampliamente en [!DNL Commerce] como marcador de posición para representar bloques secundarios. |

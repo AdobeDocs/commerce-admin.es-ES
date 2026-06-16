@@ -3,18 +3,25 @@ title: Lista de productos
 description: Obtenga información acerca de la página _[!UICONTROL Products]_ en el Administrador, donde puede crear productos y editar los existentes.
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 8bb91b80f8ba957676c654e984deb5704b777612
+TQID: https://experienceleague.adobe.com/tCvjmMlTzn0ejytHyuLPIKKpHn7CGiVkrAwJWmvN-Ro
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: 836
 ht-degree: 0%
 
 ---
 
 # Lista de productos
 
-Se puede acceder a todos los productos del catálogo desde la página _[!UICONTROL Products]_&#x200B;del Administrador, donde puede crear productos y editar los existentes. Para una instalación de varios sitios, cada sitio web puede ofrecer una selección diferente de productos a la venta desde el mismo catálogo.
+Se puede acceder a todos los productos del catálogo desde la página _[!UICONTROL Products]_del Administrador, donde puede crear productos y editar los existentes. Para una instalación de varios sitios, cada sitio web puede ofrecer una selección diferente de productos a la venta desde el mismo catálogo.
 
-La lista _[!UICONTROL Products]_&#x200B;incluye todos los productos del catálogo, indica los sitios web donde están disponibles y si están actualmente habilitados para la venta. En las instalaciones de Adobe Commerce B2B con [catálogos compartidos](../b2b/catalog-shared.md) habilitados, la cuadrícula incluye una columna que indica qué productos tienen precios de descuento alternativos en un catálogo compartido.
+La lista _[!UICONTROL Products]_incluye todos los productos del catálogo, indica los sitios web donde están disponibles y si están actualmente habilitados para la venta. En las instalaciones de Adobe Commerce B2B con [catálogos compartidos](../b2b/catalog-shared.md) habilitados, la cuadrícula incluye una columna que indica qué productos tienen precios de descuento alternativos en un catálogo compartido.
 
 Puede navegar por la lista página por página o buscar productos específicos. Use los [controles](../getting-started/admin-grid-controls.md) estándar para ordenar y filtrar la lista y aplicar [acciones](../getting-started/admin-actions-control.md) a los productos seleccionados.
 
@@ -97,7 +104,7 @@ Esta configuración para la limitación de visualización del producto está des
 | [!UICONTROL Special Price To Date] | La última fecha de la promoción de precio especial. |
 | [!UICONTROL Cost] | El coste real del artículo. |
 | [!UICONTROL Manufacturer] | El fabricante del producto. |
-| [!UICONTROL Meta Keywords] | Meta palabras clave para el producto. |
+| [!UICONTROL Meta Keywords] | Palabras clave de Meta para el producto. |
 | [!UICONTROL Color] | El color del producto. |
 | [!UICONTROL Set Product as New from Date] | La primera fecha del producto definido como una nueva promoción. |
 | [!UICONTROL Set Product as New to Date] | La última fecha del producto definido como una nueva promoción. |
@@ -107,7 +114,7 @@ Esta configuración para la limitación de visualización del producto está des
 | [!UICONTROL Allow Gift Message] | El mensaje de regalo a los clientes que compran una tarjeta regalo. |
 | [!UICONTROL Special Price] | Precio especial para el producto. |
 | [!UICONTROL Weight] | El peso del producto. |
-| [!UICONTROL Meta Title] | Meta título del producto. |
+| [!UICONTROL Meta Title] | Título de Meta para el producto. |
 | [!UICONTROL Meta Description] | La descripción de metadatos del producto. |
 | [!UICONTROL Country of Manufacture] | El país de fabricación. |
 | [!UICONTROL New Theme] | Se ha aplicado una temática personalizada al producto. |

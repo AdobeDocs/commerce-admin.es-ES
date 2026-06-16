@@ -3,9 +3,15 @@ title: Elementos - Texto
 description: Obtenga información acerca del tipo de contenido Texto, utilizado para agregar un contenedor de texto en el escenario  [!DNL Page Builder] .
 exl-id: 3f14af35-9c04-4f4b-b3dd-d3406d56a9c0
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/Sck0z8smCIZyQcXfhZuTiJoWqkYRcKbcsIU474iW4ow
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: 944
 ht-degree: 0%
 
 ---
@@ -114,7 +120,7 @@ Para crear un vínculo para un número de teléfono o correo electrónico, consu
 
 1. Actualice el contenido según sea necesario.
 
-1. Actualice la configuración de _[!UICONTROL Advanced]_&#x200B;según sea necesario.
+1. Actualice la configuración de _[!UICONTROL Advanced]_según sea necesario.
 
    - Para controlar la colocación del texto dentro del contenedor principal, elija un **[!UICONTROL Alignment]**:
 

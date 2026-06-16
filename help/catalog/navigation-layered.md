@@ -3,10 +3,17 @@ title: Navegación por capas
 description: Descubra cómo la navegación por capas facilita a los compradores la búsqueda de productos en función de la categoría, el intervalo de precios o cualquier otro atributo disponible.
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 687169e4333d60eb1b876e24e6855fbb59fb598f
+TQID: https://experienceleague.adobe.com/6mwLiMtF8wB65C5ORHGLw4sZOuinIr91ChBul0Gfc-o
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 0%
+source-wordcount: 1409
+ht-degree: 2%
 
 ---
 
@@ -14,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->La navegación por capas estándar descrita en esta sección difiere de la navegación filtrada por Live Search con [facetas](https://experienceleague.adobe.com/es/docs/commerce/live-search/live-search-admin/facets/facets).
+>La navegación por capas estándar descrita en esta sección difiere de la navegación filtrada por Live Search con [facetas](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
 La navegación por capas facilita la búsqueda de productos en función de la categoría, el intervalo de precios o cualquier otro atributo disponible. La navegación por capas suele mostrarse en la columna izquierda de las páginas de resultados de búsqueda y categorías y, a veces, en la página de inicio. La navegación estándar incluye una lista de categorías y un rango de precios de _Comprar por_. Puede configurar la visualización de la navegación por capas, incluido el recuento de productos y el intervalo de precios.
 
@@ -24,9 +31,9 @@ La navegación por capas facilita la búsqueda de productos en función de la ca
 
 >[!NOTE]
 >
->Los requisitos de atributos filtrables que se describen en este tema difieren para [Live Search](https://experienceleague.adobe.com/es/docs/commerce/live-search/overview). Para obtener más información, consulte [Facetas](https://experienceleague.adobe.com/es/docs/commerce/live-search/live-search-admin/facets/facets).
+>Los requisitos de atributos filtrables que se describen en este tema difieren para [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview). Para obtener más información, consulte [Facetas](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
-La navegación por capas se puede utilizar para buscar productos por categoría o por atributo. Por ejemplo, cuando un comprador elige la categoría Hombres/Pantalones cortos de la barra de navegación superior, los resultados iniciales incluyen todos los productos de la categoría. La lista se puede filtrar aún más eligiendo un estilo, clima, color, material, patrón o precio específicos (o una combinación de valores). Los atributos filtrables se muestran en una sección en expansión que enumera cada valor de atributo. Como opción, la lista de productos con resultados coincidentes se puede configurar para incluir productos con o sin coincidencia.
+La navegación por capas se puede utilizar para buscar productos por categoría o por atributo. Por ejemplo, cuando un comprador elige la categoría Hombres/Shorts de la navegación superior, los resultados iniciales incluyen todos los productos de la categoría. La lista se puede filtrar aún más eligiendo un estilo, clima, color, material, patrón o precio específicos (o una combinación de valores). Los atributos filtrables se muestran en una sección en expansión que enumera cada valor de atributo. Como opción, la lista de productos con resultados coincidentes se puede configurar para incluir productos con o sin coincidencia.
 
 Las propiedades del atributo, combinadas con el tipo de entrada del producto, determinan qué atributos se pueden utilizar para la navegación por capas. La navegación por capas solo está disponible para [_anclaje_](categories-display-settings.md) categorías, pero también se puede agregar a las páginas de resultados de búsqueda. El tipo de entrada de catálogo **para el propietario de tienda** de cada atributo debe establecerse en `Yes/No`, `Dropdown`, `Multiple Select` o `Price`. Para que los atributos se puedan filtrar, la propiedad **Usar en navegación por capas** de cada uno debe establecerse en `Filterable (with results)` o `Filterable (no results)`.
 
@@ -62,7 +69,7 @@ Las siguientes instrucciones muestran cómo configurar la navegación básica po
 
 >[!NOTE]
 >
->- Si la configuración _[!UICONTROL Use in Search]_&#x200B;está establecida en `No`, no se muestra la configuración&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_. En este caso, el atributo de producto no se utiliza en la búsqueda, independientemente de la configuración [!UICONTROL Use in Layered Navigation].
+>- Si la configuración _[!UICONTROL Use in Search]_está establecida en `No`, no se muestra la configuración_[!UICONTROL Use in Search Results Layered Navigation]_. En este caso, el atributo de producto no se utiliza en la búsqueda, independientemente de la configuración [!UICONTROL Use in Layered Navigation].
 >
 >- El campo [!UICONTROL Position] está atenuado de manera predeterminada. Debe guardar el atributo para poder modificar esta configuración.
 
@@ -110,7 +117,7 @@ Puede seguir los siguientes pasos para eliminar de la navegación por capas los 
 
 >[!NOTE]
 >
->La configuración de navegación de precios descrita en esta sección difiere de la navegación filtrada por Live Search con [facetas](https://experienceleague.adobe.com/es/docs/commerce/live-search/live-search-admin/facets/facets).
+>La configuración de navegación de precios descrita en esta sección difiere de la navegación filtrada por Live Search con [facetas](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
 La navegación de precios se puede utilizar para distribuir productos por rango de precios en la navegación por capas. También puede dividir cada intervalo en intervalos. Existen varias formas de calcular la navegación de precios:
 
@@ -133,12 +140,12 @@ La división iterativa proporciona la mejor distribución de productos entre ran
 | Paso de precio por 10 | Paso de precio por 100 |
 |----------|--------|
 | $20.00 - $29.99 (1) | $0.00 - $99.99 (4) |
-| 30,00 $ - 39,99 $ (2) | DE 100 A 199,99 $ (5) |
+| $30.00 - $39.99 (2) | $100 - $199.99 (5) |
 | $70.00 - $79.99 (1) | $400.00 - $499.99 (2) |
-| 100,00 $ - 109,99 $ (1) | $700.00 y superior (1) |
-| 120,00 $ - 129,99 $ (2) |   |
-| 150,00 $ - 159,99 $ (1) |   |
-| 180,00 $ - 189,99 $ (1) |   |
+| $100.00 - $109.99 (1) | $700.00 y superior (1) |
+| $120.00 - $129.99 (2) |   |
+| $150.00 - $159.99 (1) |   |
+| $180.00 - $189.99 (1) |   |
 | $420.00 - $429.99 (1) |   |
 | $440.00 - $449.99 (1) |   |
 | $710.00 y superior (1) |   |
@@ -149,7 +156,7 @@ La división iterativa proporciona la mejor distribución de productos entre ran
 
 >[!IMPORTANT]
 >
->Para mostrar correctamente los productos y sus precios según los _filtros de precio_ en la navegación por capas, asegúrese de que la configuración del precio que se muestra en la [configuración de impuestos sobre ventas](../configuration-reference/sales/tax.md) tenga el mismo valor (`Excluding Tax` **o** `Including Tax`). Para _[!UICONTROL Calculation Settings]_, compruebe el valor **[!UICONTROL Catalog Prices]**. Y para&#x200B;_[!UICONTROL Price Display Settings]_, compruebe el valor **[!UICONTROL Display Product Prices in Catalog]**. Si estos tienen valores diferentes, es posible que los filtros de precio de la navegación por capas no filtren y ordenen correctamente los productos por precio.
+>Para mostrar correctamente los productos y sus precios según los _filtros de precio_ en la navegación por capas, asegúrese de que la configuración del precio que se muestra en la [configuración de impuestos sobre ventas](../configuration-reference/sales/tax.md) tenga el mismo valor (`Excluding Tax` **o** `Including Tax`). Para _[!UICONTROL Calculation Settings]_, compruebe el valor **[!UICONTROL Catalog Prices]**. Y para_[!UICONTROL Price Display Settings]_, compruebe el valor **[!UICONTROL Display Product Prices in Catalog]**. Si estos tienen valores diferentes, es posible que los filtros de precio de la navegación por capas no filtren y ordenen correctamente los productos por precio.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -205,13 +212,13 @@ Deje **[!UICONTROL Price Navigation Steps Calculation]** establecido en `Automat
 
 >[!NOTE]
 >
->La navegación por capas estándar descrita en esta sección difiere de la navegación filtrada por Live Search con [facetas](https://experienceleague.adobe.com/es/docs/commerce/live-search/live-search-admin/facets/facets).
+>La navegación por capas estándar descrita en esta sección difiere de la navegación filtrada por Live Search con [facetas](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
 La configuración de navegación por capas determina si un recuento de productos se muestra entre paréntesis después de cada atributo y el tamaño del cálculo del paso que se utiliza en la navegación de precios.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. En el panel izquierdo, expanda la sección _[!UICONTROL Catalog]_&#x200B;y elija **[!UICONTROL Catalog]**&#x200B;debajo.
+1. En el panel izquierdo, expanda la sección _[!UICONTROL Catalog]_y elija **[!UICONTROL Catalog]**debajo.
 
 1. Expanda la sección _[!UICONTROL Layered Navigation]_.
 

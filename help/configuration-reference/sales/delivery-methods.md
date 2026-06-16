@@ -3,9 +3,15 @@ title: '[!UICONTROL Sales] > [!UICONTROL Delivery Methods]'
 description: Revise las opciones de configuración en la página [!UICONTROL Sales] > [!UICONTROL Delivery Methods] del administrador de Commerce.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 7897d06c5d01eae39612b5d8a4f25514b4901acf
+TQID: https://experienceleague.adobe.com/gCddmom8a8D2mcin8TPv-fmxbFjKyjIdiQVLzIaaECU
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '4550'
+source-wordcount: 4550
 ht-degree: 0%
 
 ---
@@ -20,7 +26,7 @@ ht-degree: 0%
 
 ![Tarifa fija](./assets/delivery-methods-flat-rate.png)<!-- zoom -->
 
-<!-- [Flat Rate](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
+<!-- [Flat Rate](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -43,7 +49,7 @@ ht-degree: 0%
 
 ![Envío gratuito](./assets/delivery-methods-free-shipping.png)<!-- zoom -->
 
-<!-- [Free Shipping](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
+<!-- [Free Shipping](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -64,7 +70,7 @@ ht-degree: 0%
 
 ![Tarifas de tabla](./assets/delivery-methods-table-rates.png)<!-- zoom -->
 
-<!-- [Table Rates](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
+<!-- [Table Rates](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -87,7 +93,7 @@ ht-degree: 0%
 
 ![Envío en tienda](./assets/delivery-methods-in-store-delivery.png)<!-- zoom -->
 
-<!-- [In-Store Delivery](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
+<!-- [In-Store Delivery](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -110,7 +116,7 @@ ht-degree: 0%
 
 ![Configuración de cuenta XML de UPS](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -130,7 +136,7 @@ ht-degree: 0%
 
 ![Información del paquete UPS](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
-<!-- [UPS Package Information]https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Package Information]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -153,7 +159,7 @@ ht-degree: 0%
 
 ![Métodos permitidos por UPS](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
-<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -168,7 +174,7 @@ ht-degree: 0%
 
 ![Países aplicables de UPS y otras configuraciones](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
-<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -207,7 +213,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-Si no se muestran los campos siguientes, debe aplicar el [parche de calidad de migración de la API REST de USPS](https://experienceleague.adobe.com/es/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210). Este parche permite la compatibilidad con las API de USPS, una plataforma basada en REST que reemplaza a las API de Web Tools. Para obtener más información, consulte [Desaprobación de la API de herramientas web de USPS](../../stores-purchase/carriers.md).
+Si no se muestran los campos siguientes, debe aplicar el [parche de calidad de migración de la API REST de USPS](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210). Este parche permite la compatibilidad con las API de USPS, una plataforma basada en REST que reemplaza a las API de Web Tools. Para obtener más información, consulte [Desaprobación de la API de herramientas web de USPS](../../stores-purchase/carriers.md).
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -219,14 +225,14 @@ Si no se muestran los campos siguientes, debe aplicar el [parche de calidad de m
 | [!UICONTROL Account Number] | Sitio web | Su **número de cuenta** de USPS usado para el pago de la API de REST. <br/><br/>**_Nota:_** Este campo es opcional; sin embargo, es necesario para habilitar la creación de etiquetas de envío. |
 | [!UICONTROL Customer Registration Identifier(CRID)] | Sitio web | Un número de identificación de registro de cliente (CRID) es un código numérico generado por USPS que identifica de forma exclusiva una empresa en una ubicación para la API de REST. <br/><br/>**_Note:_** Este campo es opcional; sin embargo, es necesario para habilitar la creación de etiquetas de envío. |
 | [!UICONTROL Mailer Identifier(MID)] | Sitio web | El identificador de correo (MID) es un campo del código de barras de correo inteligente que se utiliza para identificar a los remitentes de correo. USPS asigna los MID a un propietario de correo, agente de correo u otro proveedor de servicios que los solicite para la API de REST. <br/><br/>**_Note:_** Este campo es opcional; sin embargo, es necesario para habilitar la creación de etiquetas de envío. |
-| [!UICONTROL Manifest MID] | Sitio web | El identificador único del distribuidor designado para el manifiesto de la API de REST. <br/><br/>**_Note:_** Este campo es opcional; sin embargo, es necesario para habilitar la creación de etiquetas de envío. Para Magento 2.4.7-p8 con el parche [AC-15210](https://experienceleague.adobe.com/es/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) aplicado, [!UICONTROL Manifest MID] es un campo obligatorio. |
+| [!UICONTROL Manifest MID] | Sitio web | El identificador único del distribuidor designado para el manifiesto de la API de REST. <br/><br/>**_Note:_** Este campo es opcional; sin embargo, es necesario para habilitar la creación de etiquetas de envío. Para Magento 2.4.7-p8 con el parche [AC-15210](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) aplicado, [!UICONTROL Manifest MID] es un campo obligatorio. |
 | [!UICONTROL AES/ITN] | Sitio web | USPS AES - Automated Export System / ITN - Número de transacción interna para API REST. <br/><br/>**_Nota:_** Este campo suele ser opcional, pero es necesario para habilitar la creación de etiquetas de envío si: <ul><li>Cada tipo de mercancía del envío (según se define en el Anexo B Códigos de exportación en <a href="https://www.census.gov/foreign-trade/schedules/b" target="_blank">www.census.gov/foreign-trade/schedules/b</a>) tiene un valor de $2,500 o menos y no requiere una licencia de exportación; o</li><li>El envío, independientemente de su valor, se envía a Canadá y no requiere una licencia de exportación.</li></ul> |
 
 {style="table-layout:auto"}
 
 ![Configuración de paquetes USPS](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
-<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -241,7 +247,7 @@ Si no se muestran los campos siguientes, debe aplicar el [parche de calidad de m
 
 ![Configuración de tarifa de manejo de USPS](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
-<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -254,7 +260,7 @@ Si no se muestran los campos siguientes, debe aplicar el [parche de calidad de m
 
 ![Métodos permitidos de USPS](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
-<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -268,7 +274,7 @@ Si no se muestran los campos siguientes, debe aplicar el [parche de calidad de m
 
 ![Países aplicables de USPS](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
-<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -282,7 +288,7 @@ Si no se muestran los campos siguientes, debe aplicar el [parche de calidad de m
 
 ### [!UICONTROL FedEx]
 
-<!-- [FedEx Account Settings](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
+<!-- [FedEx Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
 
 #### Configuración de cuenta de FedEx
 
@@ -360,7 +366,7 @@ Si no se muestran los campos siguientes, debe aplicar el [parche de calidad de m
 
 ![Configuración de cuenta DHL](./assets/delivery-methods-dhl-account-settings.png)<!-- zoom -->
 
-<!-- [DHL Account Settings](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -378,7 +384,7 @@ Si no se muestran los campos siguientes, debe aplicar el [parche de calidad de m
 
 ![Configuración del paquete DHL](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
-<!-- [DHL Package Settings](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Package Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -394,7 +400,7 @@ Si no se muestran los campos siguientes, debe aplicar el [parche de calidad de m
 
 ![Métodos permitidos de DHL](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
-<!-- DHL Allowed Methods](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- DHL Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -410,7 +416,7 @@ Si no se muestran los campos siguientes, debe aplicar el [parche de calidad de m
 
 ![Países Aplicables DHL](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
-<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |

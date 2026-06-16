@@ -3,9 +3,15 @@ title: Configuración del registro de regalos
 description: Aprenda a configurar tipos de registro de regalos para los clientes de la tienda.
 exl-id: d618c769-10be-4881-a799-42484d35c57b
 feature: Gift, Storefront
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+TQID: https://experienceleague.adobe.com/LslheZ8xJdGz9NOe8Fkd6QK6uVN8Gz8M8pE-dPwC-5s
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: 1098
 ht-degree: 0%
 
 ---
@@ -121,7 +127,7 @@ Seleccione el tipo de datos y el control de entrada asociado al atributo.
 | Campo | Descripción |
 |--- |--- |
 | [!UICONTROL Text] | Muestra el atributo como un campo de texto. |
-| [!UICONTROL Select] | Muestra el atributo como una lista desplegable. Haga clic en **[!UICONTROL Add New Option]** para agregar más condiciones a la lista desplegable: <br/>**[!UICONTROL Code]**- Un nombre único para identificar el atributo internamente.<br/>**[!UICONTROL Label]**: nombre que identifica el atributo en el panel de cuentas del cliente.<br/>**[!UICONTROL Is Default]**: configure este modificador para seleccionar la condición predeterminada.<br/>**[!UICONTROL Delete Option]** - Haga clic para eliminar la opción. |
+| [!UICONTROL Select] | Muestra el atributo como una lista desplegable. Haga clic en **[!UICONTROL Add New Option]** para agregar más condiciones a la lista desplegable:<br/>**[!UICONTROL Code]**- Un nombre único para identificar el atributo internamente.<br/>**[!UICONTROL Label]** - Nombre que identifica el atributo en el panel de cuentas del cliente.<br/>**[!UICONTROL Is Default]**- Establezca este modificador para seleccionar la condición predeterminada.<br/>**[!UICONTROL Delete Option]** : haga clic en para eliminar la opción. |
 | [!UICONTROL Date] | Muestra el atributo como un campo de fecha. Opciones: `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
 | [!UICONTROL Country] | Muestra el atributo como una lista desplegable de países. Establezca **[!UICONTROL Show Region]** en: `Yes` / `No`. |
 
@@ -131,10 +137,10 @@ Seleccione el tipo de datos y el control de entrada asociado al atributo.
 
 | Campo | Descripción |
 |--- |--- |
-| [!UICONTROL Event Date] | Determina cómo se utiliza el atributo de fecha en el almacén. Opciones: <br/>**[!UICONTROL Searchable]**- Determina si el atributo está disponible para la búsqueda avanzada. Opciones: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]**: determina si el evento se incluye en la lista de eventos disponibles en el almacén. Opciones: `Yes` / `No`. <br/>**[!UICONTROL Date Format]**: determina el formato de la fecha del evento. Opciones: `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
-| [!UICONTROL Event Country] | Muestra el atributo como una lista de países. Opciones: <br/>**[!UICONTROL Searchable]**- Determina si el atributo está disponible para la búsqueda avanzada. Opciones: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]**: determina si el evento se incluye en la lista de eventos disponibles en el almacén. Opciones: `Yes` / `No`. <br/>**[!UICONTROL Show Region]**: determina la región del evento. |
+| [!UICONTROL Event Date] | Determina cómo se utiliza el atributo de fecha en el almacén. Opciones: <br/>**[!UICONTROL Searchable]**- Determina si el atributo está disponible para la búsqueda avanzada. Opciones: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** : Determina si el evento se incluye en la lista de eventos disponibles en la tienda. Opciones: `Yes` / `No`. <br/>**[!UICONTROL Date Format]**- Determina el formato de la fecha del evento. Opciones: `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
+| [!UICONTROL Event Country] | Muestra el atributo como una lista de países. Opciones: <br/>**[!UICONTROL Searchable]**- Determina si el atributo está disponible para la búsqueda avanzada. Opciones: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** : Determina si el evento se incluye en la lista de eventos disponibles en la tienda. Opciones: `Yes` / `No`. <br/>**[!UICONTROL Show Region]**: determina la región del evento. |
 | [!UICONTROL Event Location] | La ubicación del evento relacionado con el registro de regalos. <br/>Establecer **[!UICONTROL Is Searcheable]** en: `Yes` / `No` <br/>Establecer **[!UICONTROL Is Listed]** en: `Yes` / `No` |
-| [!UICONTROL Role] | La función que identifica al destinatario del regalo. Por ejemplo, `Bride`, `Groom` o `Partner`.<br/>**[!UICONTROL Is Searcheable]**- Establecido en `Yes`/ `No`<br/>**&#x200B; Está en la lista &#x200B;**- Establecido en `Yes` / `No`<br/>**[!UICONTROL Add New Option]** - Haga clic para agregar más condiciones al menú desplegable:<br/>**Código** - Un nombre único para identificar el atributo internamente.<br/>**[!UICONTROL Label]**: nombre que identifica el atributo en el panel de cuentas del cliente.<br/>**[!UICONTROL Is Default]**: configure este modificador para seleccionar la condición predeterminada.<br/>**[!UICONTROL Delete Option]**- Haga clic para eliminar la opción. |
+| [!UICONTROL Role] | La función que identifica al destinatario del regalo. Por ejemplo, `Bride`, `Groom` o `Partner`.<br/>**[!UICONTROL Is Searcheable]**- Establecer en `Yes`/ `No`<br/>** Está en la lista **- Establecer en `Yes` / `No`<br/>**[!UICONTROL Add New Option]** - Haga clic para agregar más condiciones al menú desplegable:<br/>**Código** - Un nombre único para identificar el atributo internamente.<br/>**[!UICONTROL Label]**- Nombre que identifica el atributo en el panel de cuentas del cliente.<br/>**[!UICONTROL Is Default]** - Establezca este modificador para seleccionar la condición predeterminada.<br/>**[!UICONTROL Delete Option]**: haga clic en para eliminar la opción. |
 
 {style="table-layout:auto"}
 

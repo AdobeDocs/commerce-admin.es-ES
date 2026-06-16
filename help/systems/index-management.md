@@ -1,12 +1,18 @@
 ---
 title: Administración de índices
-description: Déclencheur Obtenga información acerca de la administración de índices, incluidas las acciones que afectan a la reindexación y las prácticas recomendadas.
+description: Obtenga información acerca de la administración de índices, incluidas las acciones que afectan a la reindexación y las prácticas recomendadas.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: a3737a3fef2e275f110b8858123ea722b4449da3
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+TQID: https://experienceleague.adobe.com/0SKv03rtjLWNP0xXDqRh202Pvtw9XPkfkDiPCsGKgeE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: 1350
 ht-degree: 0%
 
 ---
@@ -20,7 +26,7 @@ La reindexación de datos acelera el procesamiento y reduce el tiempo de espera 
 Los indexadores se pueden configurar para que se actualicen al guardarlos o según lo programado. Todos los índices pueden utilizar cualquiera de las opciones, excepto Customer Grid, que solo admite al guardar. Al indexar al guardar, Commerce inicia una reindexación al guardar las acciones. La página Administración de índices completa la actualización y vacía la caché. El mensaje de reindexación aparece en un minuto o dos. Al reindexar en una programación, se ejecuta una reindexación según una programación como trabajo cron. Aparecerá un mensaje del sistema si no hay un [trabajo cron](cron.md) disponible para actualizar los indizadores que no sean válidos. Se puede acceder a su tienda durante los procesos de reindexación.
 
 >[!NOTE]
-> Los comerciantes de Adobe Commerce que usan Live Search, Servicio de catálogo o Product Recommendations tienen la opción de usar un [indexador de precios basado en SaaS](https://experienceleague.adobe.com/es/docs/commerce/price-indexer/price-indexing).
+> Los comerciantes de Adobe Commerce que usan Live Search, Servicio de catálogo o Product Recommendations tienen la opción de usar un [indexador de precios basado en SaaS](https://experienceleague.adobe.com/en/docs/commerce/price-indexer/price-indexing).
 
 Cuando es necesario reindexar, aparece una notificación en la parte superior de la página. El índice y el mensaje se borran según el modo de reindexación y las posibles acciones que realice. Para obtener información más detallada sobre la indexación , consulte [Cómo implementa la aplicación la indexación](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing) en la _Guía para desarrolladores de PHP_.
 
@@ -44,7 +50,7 @@ La reindexación y el almacenamiento en caché tienen diferentes propósitos en 
 
 >[!IMPORTANT]
 >
->En tiendas que usan [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=es) y han establecido Elasticsearch como indizador de texto completo (`catalogsearch_fulltext`): el índice de texto completo debe volver a ejecutarse después de cualquier cambio de permisos en masa o cuando el indizador &#39;permisos&#39; esté en modo &#39;Programado&#39;.
+>En tiendas que usan [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) y han establecido Elasticsearch como indizador de texto completo (`catalogsearch_fulltext`): el índice de texto completo debe volver a ejecutarse después de cualquier cambio de permisos en masa o cuando el indizador &#39;permisos&#39; esté en modo &#39;Programado&#39;.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 
@@ -73,14 +79,14 @@ La reindexación y el almacenamiento en caché tienen diferentes propósitos en 
    | [!UICONTROL Description] | Descripción del indizador. |
    | [!UICONTROL Mode] | Indica el modo de actualización actual para cada indizador. Opciones: <br/>**[!UICONTROL Update on Save]**: el índice se establece para actualizarse cada vez que se guarda un cambio de entidad. Estas entidades incluyen productos, categorías y clientes. Cuando finaliza la acción de guardar, se inicia una serie de pasos para capturar los cambios y actualizar el índice. La página Administración de índices actualiza y vacía el mensaje de reindexación en un minuto o dos.<br/>**[!UICONTROL Update on Schedule]** - El índice está configurado para actualizarse según lo programado según un [trabajo cron](cron.md). El trabajo cron incluye el intervalo de programación para la reindexación y la escritura de actualizaciones en el índice cuando se ejecuta. |
    | [!UICONTROL Schedule Status] | Muestra las actualizaciones de estado de programación. |
-   | [!UICONTROL Status] | Muestra uno de los elementos siguientes: <br/>**[!UICONTROL Ready]**— El índice está actualizado.<br/>**[!UICONTROL Suspended]**: la reindexación está en pausa. <br/>**[!UICONTROL Processing]**- Se está ejecutando la reindexación.<br/>**[!UICONTROL Reindex Required]**: se realizó un cambio que requiere reindexación, pero los indexadores no se pueden actualizar automáticamente. Comprueba si [cron](cron.md) está disponible y configurado correctamente. |
+   | [!UICONTROL Status] | Muestra uno de los elementos siguientes: <br/>**[!UICONTROL Ready]**— El índice está actualizado.<br/>**[!UICONTROL Suspended]**: la reindexación está en pausa. <br/>**[!UICONTROL Processing]**: la reindexación se está ejecutando.<br/>**[!UICONTROL Reindex Required]**: se ha realizado un cambio que requiere reindexación, pero los indexadores no se pueden actualizar automáticamente. Comprueba si [cron](cron.md) está disponible y configurado correctamente. |
    | [!UICONTROL Updated] | Indica la fecha y la hora de la última actualización de un índice. |
 
    {style="table-layout:auto"}
 
 ## Reindexe utilizando la línea de comandos
 
-Commerce proporciona opciones de reindexación adicionales mediante la línea de comandos. Para obtener información detallada y opciones de comando completas, consulte [Reindex](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=es#reindex){:target="blank"} en la _Guía de configuración_.
+Commerce proporciona opciones de reindexación adicionales mediante la línea de comandos. Para obtener información detallada y opciones de comando completas, consulte [Reindex](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"} en la _Guía de configuración_.
 
 ## Eventos de déclencheur de índice
 

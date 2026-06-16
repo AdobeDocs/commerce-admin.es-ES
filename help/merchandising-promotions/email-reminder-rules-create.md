@@ -3,9 +3,14 @@ title: Crear recordatorios de correo electrónico
 description: Obtenga información sobre cómo configurar una regla de recordatorio de correo electrónico que utilice una regla de precio del carro de compras existente.
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-source-git-commit: d605748f04f26952daa467a84431a17bf368dbad
+TQID: https://experienceleague.adobe.com/p7WUWpQFlu2gUeyTU6ZrIHkRJzw8XTp2Mxkvi9Vu-eU
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: 1035
 ht-degree: 0%
 
 ---
@@ -22,7 +27,7 @@ Antes de configurar una regla de recordatorio por correo electrónico, primero d
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add New Rule]**.
 
-1. Complete _[!UICONTROL Rule Information]_&#x200B;de la siguiente manera:
+1. Complete _[!UICONTROL Rule Information]_de la siguiente manera:
 
    ![Regla de recordatorio de correo electrónico](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
@@ -55,7 +60,7 @@ Antes de configurar una regla de recordatorio por correo electrónico, primero d
 
    >[!NOTE]
    >
-   >Si un cliente tiene más de un carro de compras abandonado, una lista de deseos o una combinación de ambos coincidentes, el recordatorio de correo electrónico se activa solo una vez para ese cliente. Para almacenar en déclencheur el mismo recordatorio de correo electrónico de nuevo, utilice el campo _[!UICONTROL Repeat Schedule]_&#x200B;para establecer el número de días entre correos electrónicos. <br/>
+   >Si un cliente tiene más de un carro de compras abandonado, una lista de deseos o una combinación de ambos coincidentes, el recordatorio de correo electrónico se activa solo una vez para ese cliente. Para almacenar en déclencheur el mismo recordatorio de correo electrónico de nuevo, utilice el campo _[!UICONTROL Repeat Schedule]_para establecer el número de días entre correos electrónicos. <br/>
    >
    >El mismo recordatorio por correo electrónico es **_no se ha vuelto a activar_** para el mismo cliente para **_nuevos_** carros abandonados y listas de deseos **_después de_** que haya pasado el período de _[!UICONTROL Repeat Schedule]_.
    >
@@ -67,7 +72,7 @@ Antes de configurar una regla de recordatorio por correo electrónico, primero d
 
 1. En el panel de la izquierda, elija **[!UICONTROL Emails and Labels]**.
 
-   ![Regla de recordatorio de correo electrónico: plantillas de correos electrónicos y etiquetas &#x200B;](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
+   ![Regla de recordatorio de correo electrónico: plantillas de correos electrónicos y etiquetas ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
 1. En la sección **[!UICONTROL Email Templates]**, elija la plantilla de correo electrónico que se usará para cada sitio web y vista de tienda en su [jerarquía de tienda](../getting-started/websites-stores-views.md).
 
@@ -85,7 +90,7 @@ Antes de configurar una regla de recordatorio por correo electrónico, primero d
 
      ![Recordatorios de correo electrónico: títulos y descripciones](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - En la sección _[!UICONTROL Titles and Descriptions Per Store View]_, escriba **[!UICONTROL Rule Title]**&#x200B;y **[!UICONTROL Description]**&#x200B;para la_ Vista de tienda predeterminada _. Para varias vistas de tienda, introduzca el título y la descripción adecuados para cada una.
+   - En la sección _[!UICONTROL Titles and Descriptions Per Store View]_, escriba **[!UICONTROL Rule Title]**y **[!UICONTROL Description]**para la_ Vista de tienda predeterminada _. Para varias vistas de tienda, introduzca el título y la descripción adecuados para cada una.
 
      >[!NOTE]
      >
@@ -93,7 +98,7 @@ Antes de configurar una regla de recordatorio por correo electrónico, primero d
 
      ![Títulos y descripciones: vista de tienda](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
-1. [!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."} Si usa [!DNL Adobe Commerce as a Cloud Service], puede habilitar la [repetibilidad de la regla](#rule-repeatability) al seleccionar la casilla de verificación [!UICONTROL Rule Repeatability].
+1. [!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."} Si usa [!DNL Adobe Commerce as a Cloud Service], puede habilitar la [repetibilidad de la regla](#rule-repeatability) al seleccionar la casilla de verificación [!UICONTROL Rule Repeatability].
 
    >[!IMPORTANT]
    >
@@ -103,7 +108,7 @@ Antes de configurar una regla de recordatorio por correo electrónico, primero d
 
 ## Repetibilidad de reglas
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."}
 
 >[!IMPORTANT]
 >

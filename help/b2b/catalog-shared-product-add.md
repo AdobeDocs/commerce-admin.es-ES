@@ -3,9 +3,15 @@ title: Añadir productos a un catálogo compartido
 description: Obtenga información sobre cómo añadir productos a un catálogo compartido, ya sea de forma individual o en grupos por categoría.
 exl-id: c88b46b4-cea8-4f65-b7e4-6681bab64d41
 feature: B2B, Companies, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/f-5xQDov-Q3tfYw8MBDQPinimUIUkGe-q2Nfzm8L9ps
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: 402
 ht-degree: 0%
 
 ---
@@ -26,9 +32,9 @@ Se deben cumplir los siguientes requisitos para que un producto complejo (como p
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Para el producto en la cuadrícula que desea agregar, vaya a la columna _[!UICONTROL Action]_&#x200B;y haga clic en **[!UICONTROL Edit]**.
+1. Para el producto en la cuadrícula que desea agregar, vaya a la columna _[!UICONTROL Action]_y haga clic en **[!UICONTROL Edit]**.
 
-1. Desplácese hacia abajo, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Product in Shared Catalogs]_&#x200B;y haga lo siguiente:
+1. Desplácese hacia abajo, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Product in Shared Catalogs]_y haga lo siguiente:
 
    - Seleccione la casilla de verificación de cada catálogo compartido en el que debe aparecer el producto. Para elegir todos los catálogos, haga clic en **[!UICONTROL Select all]**.
 
@@ -46,7 +52,7 @@ Se deben cumplir los siguientes requisitos para que un producto complejo (como p
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
-1. Para el catálogo compartido en la cuadrícula, vaya a la columna _[!UICONTROL Action]_&#x200B;y seleccione **[!UICONTROL Set Pricing and Structure]**.
+1. Para el catálogo compartido en la cuadrícula, vaya a la columna _[!UICONTROL Action]_y seleccione **[!UICONTROL Set Pricing and Structure]**.
 
 1. En el árbol de categorías, realice una de las acciones siguientes:
 

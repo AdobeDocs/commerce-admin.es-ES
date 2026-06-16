@@ -7,9 +7,16 @@ feature-set: Commerce
 role: Admin
 level: Intermediate
 exl-id: 9fe20d6a-2c9c-4618-a395-805d64dcf0de
-source-git-commit: d3c5f0da47bfd951431213050546e865c6ab35ec
+TQID: https://experienceleague.adobe.com/H-dTFXAVolrnH6j72tou-NCEcv38NyZdtwhnk0xxX-0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: 1196
 ht-degree: 0%
 
 ---
@@ -32,11 +39,11 @@ El sistema tiene una función de usuario predeterminado predefinida, que puede u
 
 Administre los roles de compañía desde la cuenta de tienda del administrador de la empresa.
 
-**To open Roles and Permissions:**
+**Para abrir roles y permisos:**
 
-1. Sign in to the storefront as the company administrator.
+1. Inicie sesión en la tienda como administrador de la empresa.
 
-1. In the left panel, select **[!UICONTROL Roles and Permissions]**.
+1. En el panel izquierdo, seleccione **[!UICONTROL Roles and Permissions]**.
 
 1. Complete una de las siguientes tareas.
 
@@ -124,9 +131,9 @@ Los permisos de funciones se organizan en una estructura de árbol, con opciones
 
 ### Permisos de comillas
 
-Parent node in the company permission tree: **Quotes**.
+Nodo principal en el árbol de permisos de la compañía: **Quotes**.
 
-| Permission label | Descripción |
+| Etiqueta de permiso | Descripción |
 | --- | --- |
 | Comillas | Principal para acciones de presupuesto negociable de tienda. |
 | Ver (comillas) | Ver ofertas negociables. |
@@ -171,8 +178,8 @@ Nodo principal: **Aprobaciones de pedidos**. Los permisos de las reglas de orden
 | Etiqueta de permiso | Descripción |
 | --- | --- |
 | Aprobar pedidos sin otras aprobaciones | Apruebe pedidos de compra incluso cuando normalmente se requerirían otras aprobaciones (por reglas de aprobación). |
-| Ver reglas de aprobación | View purchase order approval rules. |
-| Create, Edit and Delete | Create, edit, and delete approval rules. |
+| Ver reglas de aprobación | Ver reglas de aprobación de pedidos. |
+| Crear, editar y eliminar | Crear, editar y eliminar reglas de aprobación. |
 
 ### Perfil de empresa y contactos
 
@@ -184,9 +191,9 @@ Permisos de tienda para secciones de perfil de empresa. Las entradas de **Edit**
 | Información de la cuenta (vista) | Ver información de cuenta de empresa. |
 | Editar | Editar la información de cuenta de la empresa (en Información de la cuenta). |
 | Dirección legal (Ver) | Ver la dirección legal de la compañía. |
-| Edit | Edit the company legal address (under Legal Address). |
-| Contacts (View) | View company contacts. |
-| Payment Information (View) | Ver información de pago en el perfil de la empresa. |
+| Editar | Edite la dirección legal de la empresa (en Dirección legal). |
+| Contactos (vista) | Ver contactos de la empresa. |
+| Información de pago (vista) | Ver información de pago en el perfil de la empresa. |
 | Información de envío (vista) | Ver información de envío en el perfil de la empresa. |
 
 ## Administración de usuarios de empresa

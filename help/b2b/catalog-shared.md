@@ -3,9 +3,16 @@ title: Resumen del catálogo compartido
 description: Conozca los catálogos compartidos que proporciona Adobe Commerce B2B y cómo puede utilizarlos para mantener catálogos cerrados con precios personalizados para diferentes cuentas de empresa.
 exl-id: cf7c9099-9b7d-407b-adb9-06a4815624ee
 feature: B2B, Companies, Catalog Management
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/9w---IjoMFMTgsCSfjp8E0W7Xlp0dxvExVyLMCAJw-c
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: 597
 ht-degree: 0%
 
 ---
@@ -20,13 +27,13 @@ Para el catálogo compartido público `Default (General)`, debe asignar producto
 
 >[!NOTE]
 >
->**[Versión B2B 1.3.0](release-notes.md#b2b-v130) y posterior**: al crear un catálogo compartido, cada [permiso de categoría](../catalog/category-permissions.md) para el catálogo se establece en _[!UICONTROL Allow for the Display Product Prices]_&#x200B;y&#x200B;_[!UICONTROL Add to Cart]_ para los grupos de clientes a los que se asigna este acceso en la configuración de permisos del catálogo. Anteriormente, esta configuración se establecía automáticamente en `Deny` incluso cuando los permisos de catálogo se establecían en `Allow`.
+>**[Versión B2B 1.3.0](release-notes.md#b2b-v130) y posterior**: al crear un catálogo compartido, cada [permiso de categoría](../catalog/category-permissions.md) para el catálogo se establece en _[!UICONTROL Allow for the Display Product Prices]_y_[!UICONTROL Add to Cart]_ para los grupos de clientes a los que se asigna este acceso en la configuración de permisos del catálogo. Anteriormente, esta configuración se establecía automáticamente en `Deny` incluso cuando los permisos de catálogo se establecían en `Allow`.
 
 >[!IMPORTANT]
 >
->**_todas_** las categorías del catálogo omiten la configuración de permisos de grupo[&#128279;](../configuration-reference/catalog/catalog.md#category-permissions) de existente cuando la característica **_[!UICONTROL Shared Catalog]_** está habilitada. [!UICONTROL Shared Catalog] controla completamente todos los permisos de categoría en el catálogo cuando está habilitado.
+>**_todas_** las categorías del catálogo omiten la configuración de permisos de grupo](../configuration-reference/catalog/catalog.md#category-permissions) de [existente cuando la característica **_[!UICONTROL Shared Catalog]_** está habilitada. [!UICONTROL Shared Catalog] controla completamente todos los permisos de categoría en el catálogo cuando está habilitado.
 
-La página _[!UICONTROL Shared Catalogs]_&#x200B;proporciona acceso a las herramientas utilizadas para administrar los catálogos compartidos. La página es similar al [espacio de trabajo de administración](../getting-started/admin-workspace.md) estándar, con filtros y controles de acción. La cuadrícula enumera todos los catálogos compartidos, incluido el catálogo compartido público predeterminado y los catálogos personalizados que haya configurado.
+La página _[!UICONTROL Shared Catalogs]_proporciona acceso a las herramientas utilizadas para administrar los catálogos compartidos. La página es similar al [espacio de trabajo de administración](../getting-started/admin-workspace.md) estándar, con filtros y controles de acción. La cuadrícula enumera todos los catálogos compartidos, incluido el catálogo compartido público predeterminado y los catálogos personalizados que haya configurado.
 
 ![Catálogos compartidos](./assets/shared-catalogs-grid.png){width="700" zoomable="yes"}
 
@@ -36,7 +43,7 @@ En la barra lateral _Admin_, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Sha
 
 ## Controles de acciones
 
-Los [controles de acciones](../getting-started/admin-actions-control.md) de la esquina superior izquierda se pueden usar con el control de acciones masivas para eliminar los catálogos compartidos seleccionados que ya no son necesarios. En la cuadrícula, la columna _[!UICONTROL Actions]_&#x200B;contiene la selección completa de herramientas para administrar los catálogos compartidos.
+Los [controles de acciones](../getting-started/admin-actions-control.md) de la esquina superior izquierda se pueden usar con el control de acciones masivas para eliminar los catálogos compartidos seleccionados que ya no son necesarios. En la cuadrícula, la columna _[!UICONTROL Actions]_contiene la selección completa de herramientas para administrar los catálogos compartidos.
 
 ![Acciones de catálogo compartido](./assets/shared-catalog-grid-action-column-controls.png){width="350"}
 

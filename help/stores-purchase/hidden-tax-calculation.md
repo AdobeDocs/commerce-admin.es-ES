@@ -3,10 +3,15 @@ title: Cálculo de impuestos ocultos
 description: Aprenda a configurar un cálculo de impuestos oculto cuando hay un descuento que tiene impuestos incrustados.
 exl-id: be2000b1-09d7-4a28-814a-f5da7591e387
 feature: Invoices, Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/KkluEZ6WopfZzfFvnd0XA93av21JP0mxXBS4A4czvA0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 0%
+source-wordcount: 350
+ht-degree: 1%
 
 ---
 
@@ -69,7 +74,7 @@ Cuando hay un descuento con impuestos incorporados, Commerce calcula un _impuest
 
 1. Cómo el cliente suele entender el precio con descuento (Total del pedido):
 
-   _Precio total del artículo que incluye impuestos **menos**&#x200B;el importe del descuento: $100 - $8.33 = $91.67_
+   _Precio total del artículo que incluye impuestos **menos**el importe del descuento: $100 - $8.33 = $91.67_
 
 1. **Cómo calcula Commerce el precio con descuento** (consulta la fórmula anteriormente):
 

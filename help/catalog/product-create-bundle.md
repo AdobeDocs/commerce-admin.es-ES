@@ -3,9 +3,15 @@ title: Paquete de productos
 description: Aprenda a crear un paquete de productos que permita a los compradores crear un producto personalizado en su tienda.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
+TQID: https://experienceleague.adobe.com/T4-rAn2fY1I71IAt00o5kKY62NTAYhr-WO0QGdkyNE0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: 1616
 ht-degree: 0%
 
 ---
@@ -115,7 +121,7 @@ El formulario se actualiza para reflejar el cambio.
 
 1. Acepte la configuración predeterminada **[!UICONTROL Visibility]** de `Catalog, Search`.
 
-1. Para asignar _[!UICONTROL Categories]_&#x200B;al producto, haga clic en el cuadro **[!UICONTROL Select…]**&#x200B;y realice una de las acciones siguientes:
+1. Para asignar _[!UICONTROL Categories]_al producto, haga clic en el cuadro **[!UICONTROL Select…]**y realice una de las acciones siguientes:
 
    **Elija una categoría existente:**
 
@@ -139,7 +145,7 @@ El formulario se actualiza para reflejar el cambio.
 
 ## Paso 5: Añadir los elementos del paquete
 
-La sección _[!UICONTROL Bundle Items]_&#x200B;se usa para agregar elementos a un tipo de producto Paquete y editar la selección actual de elementos.
+La sección _[!UICONTROL Bundle Items]_se usa para agregar elementos a un tipo de producto Paquete y editar la selección actual de elementos.
 
 ![Elementos de paquete definidos para un producto](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
 
@@ -180,7 +186,7 @@ La sección _[!UICONTROL Bundle Items]_&#x200B;se usa para agregar elementos a u
 
      >[!NOTE]
      >
-     >La cantidad puede ser un valor preestablecido o definido por el usuario. Sin embargo, no asigne la propiedad _[!UICONTROL User Defined]_&#x200B;a tipos de entrada de selección múltiple o casilla de verificación.
+     >La cantidad puede ser un valor preestablecido o definido por el usuario. Sin embargo, no asigne la propiedad _[!UICONTROL User Defined]_a tipos de entrada de selección múltiple o casilla de verificación.
 
      De forma predeterminada, el cliente no puede cambiar la cantidad predeterminada que se incluye en un artículo agrupado. Sin embargo, el cliente puede introducir la cantidad del artículo que se va a incluir en el paquete.
 
@@ -215,7 +221,7 @@ Desplácese hacia abajo y complete la información de las siguientes secciones s
 - [Diseño](settings-advanced-design.md)
 - [Opciones de regalo](product-gift-options.md)
 
-## Paso 7: Publish del producto
+## Paso 7: Publicar el producto
 
 1. Si está listo para publicar el producto en el catálogo, establezca **[!UICONTROL Enable Product]** en `Yes` ( ![Alternar sí](../assets/toggle-yes.png) ).
 
@@ -283,7 +289,7 @@ El estado de las existencias del paquete de productos es **_no se cambió autom�
 
 El SKU y el peso de la ![casilla de verificación](../assets/checkbox.png) pueden ser `Fixed` o `Dynamic`.
 
-![Casilla de verificación](../assets/checkbox.png) La cantidad puede ser un valor preestablecido o definido por el usuario. Sin embargo, no asigne la propiedad _[!UICONTROL User Defined]_&#x200B;a tipos de entrada de selección múltiple o casilla de verificación.
+![Casilla de verificación](../assets/checkbox.png) La cantidad puede ser un valor preestablecido o definido por el usuario. Sin embargo, no asigne la propiedad _[!UICONTROL User Defined]_a tipos de entrada de selección múltiple o casilla de verificación.
 
 ![Casilla de verificación](../assets/checkbox.png) Los artículos del paquete se pueden enviar juntos o por separado.
 

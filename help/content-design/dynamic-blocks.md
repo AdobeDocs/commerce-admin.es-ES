@@ -2,10 +2,15 @@
 title: Bloques dinámicos
 description: Utilice bloques dinámicos para crear contenido enriquecido e interactivo que se base en la lógica de las reglas de precios y los segmentos de clientes.
 exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+TQID: https://experienceleague.adobe.com/Xbv5IqrZPF2xDERIGOFilHgiXKAyy8yxyXISRj17s0A
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: 674
 ht-degree: 0%
 
 ---
@@ -18,7 +23,7 @@ Cree contenido enriquecido e interactivo basado en la lógica de [reglas de prec
 
 >[!NOTE]
 >
->La opción _[!UICONTROL Banner]_&#x200B;del menú [[!UICONTROL Content]](content-menu.md) estaba obsoleta en 2.3.1 y se ha eliminado en 2.4.0. Su funcionalidad se ha sustituido por Bloques dinámicos.
+>La opción _[!UICONTROL Banner]_del menú [[!UICONTROL Content]](content-menu.md) estaba obsoleta en 2.3.1 y se ha eliminado en 2.4.0. Su funcionalidad se ha sustituido por Bloques dinámicos.
 
 ![[!DNL Page Builder] - bloque dinámico con regla de precios y segmento de cliente](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 
@@ -97,7 +102,7 @@ Use [!DNL Page Builder] [espacio de trabajo](../page-builder/workspace.md) para 
 | [!UICONTROL Store View] | Especifica las vistas de almacén en las que el bloque dinámico va a estar disponible. |
 | [!UICONTROL Enable Dynamic Block] | Activa o desactiva el bloque dinámico. Opciones: Sí / No |
 | [!UICONTROL Dynamic Block Name] | Un nombre descriptivo que identifica el bloque dinámico en el Admin. |
-| [!UICONTROL Dynamic Block Type] | Identifica el lugar del [diseño de página estándar](layout-updates.md) en el que se encuentra el bloque dinámico. Opciones: <br/>**[!UICONTROL Content Area]**- Coloca el bloque dinámico en el [área de contenido](layout-updates.md) principal de la página.<br/>**[!UICONTROL Footer]** - Coloca el bloque dinámico en la página [pie de página](page-setup.md#footer). <br/>**[!UICONTROL Header]**- Coloca el bloque dinámico en la página [encabezado](page-setup.md#header).<br/>**[!UICONTROL Left Column]** - Coloca el bloque dinámico en la [barra lateral izquierda](page-layout.md#standard-page-layouts) de un diseño de dos o tres columnas. <br/>**[!UICONTROL Right Column]**- Coloca el bloque dinámico en la [barra lateral derecha](page-layout.md#standard-page-layouts) de un diseño de dos o tres columnas. |
+| [!UICONTROL Dynamic Block Type] | Identifica el lugar del [diseño de página estándar](layout-updates.md) en el que se encuentra el bloque dinámico. Opciones: <br/>**[!UICONTROL Content Area]**- Coloca el bloque dinámico en el [área de contenido](layout-updates.md) principal de la página.<br/>**[!UICONTROL Footer]** - Coloca el bloque dinámico en la página [pie de página](page-setup.md#footer). <br/>**[!UICONTROL Header]**- Coloca el bloque dinámico en la página [encabezado](page-setup.md#header).<br/>**[!UICONTROL Left Column]** - Coloca el bloque dinámico en la [barra lateral izquierda](page-layout.md#standard-page-layouts) de un diseño de dos o tres columnas. <br/>**[!UICONTROL Right Column]**: coloca el bloque dinámico en la [barra lateral derecha](page-layout.md#standard-page-layouts) de un diseño de dos o tres columnas. |
 | Segmento de cliente | Asocia un segmento de cliente con el bloque dinámico para determinar qué clientes pueden verlo. |
 | Audiencia de Real-Time CDP | Asocia una [audiencia de Real-Time CDP](../customers/audience-activation.md) al bloque dinámico para determinar qué clientes pueden verlo. |
 

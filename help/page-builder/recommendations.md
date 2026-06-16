@@ -3,20 +3,26 @@ title: 'Añadir contenido: recomendaciones de productos'
 description: Obtenga información acerca del tipo de contenido Recomendaciones de productos, que se usa para agregar una lista de recomendaciones al escenario  [!DNL Page Builder] .
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/-k8EyTQjwCcPq4hrMG425GkOD9oYcVSCRhRwUgxFWsY
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: 962
 ht-degree: 0%
 
 ---
 
 # Añadir contenido: recomendaciones de productos
 
-Use el tipo de contenido _Product Recommendations_ para agregar una [unidad de recomendación](https://experienceleague.adobe.com/es/docs/commerce/product-recommendations/admin/create) activa y existente a la [[!DNL Page Builder] fase](workspace.md#stage) para una página de CMS, un bloque o un bloque dinámico.
+Use el tipo de contenido _Product Recommendations_ para agregar una [unidad de recomendación](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) activa y existente a la [[!DNL Page Builder] fase](workspace.md#stage) para una página de CMS, un bloque o un bloque dinámico.
 
 >[!NOTE]
 >
->El tipo de contenido [!DNL Page Builder] _Product Recommendations_ se admite en Adobe Commerce 2.4.4 y versiones posteriores y está disponible en [Product Recommendations metapackage versiones 3.0.x o posteriores](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Para agregar compatibilidad con [!DNL Page Builder] para Product Recommendations, [consulte la información de instalación](https://experienceleague.adobe.com/es/docs/commerce/product-recommendations/getting-started/install-configure). **Este tipo de contenido no está disponible para Magento Open Source.**
+>El tipo de contenido [!DNL Page Builder] _Product Recommendations_ se admite en Adobe Commerce 2.4.4 y versiones posteriores y está disponible en [Product Recommendations metapackage versiones 3.0.x o posteriores](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Para agregar compatibilidad con [!DNL Page Builder] para Product Recommendations, [consulte la información de instalación](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure). **Este tipo de contenido no está disponible para Magento Open Source.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -37,7 +43,7 @@ Use el tipo de contenido _Product Recommendations_ para agregar una [unidad de r
 
 ## Agregar una unidad de recomendación existente
 
-1. Asegúrese de que ya ha [creado una unidad de recomendación](https://experienceleague.adobe.com/es/docs/commerce/product-recommendations/admin/create) para el tipo de página [!DNL Page Builder].
+1. Asegúrese de que ya ha [creado una unidad de recomendación](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) para el tipo de página [!DNL Page Builder].
 
 >[!NOTE]
 >
@@ -45,11 +51,11 @@ Use el tipo de contenido _Product Recommendations_ para agregar una [unidad de r
 
 1. Abra la página, el bloque o el bloque dinámico en modo de edición.
 
-1. Expanda la sección _[!UICONTROL Content]_&#x200B;y haga clic en **[!UICONTROL Edit with Page Builder]**&#x200B;o dentro del área de vista previa de contenido para abrir el área de trabajo [!DNL Page Builder].
+1. Expanda la sección _[!UICONTROL Content]_y haga clic en **[!UICONTROL Edit with Page Builder]**o dentro del área de vista previa de contenido para abrir el área de trabajo [!DNL Page Builder].
 
-1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un marcador de posición **[!UICONTROL Row]**&#x200B;al escenario.
+1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un marcador de posición **[!UICONTROL Row]**al escenario.
 
-1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Add Content]_, arrastre un marcador de posición **[!UICONTROL Product Recommendation]**&#x200B;a la fila.
+1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Add Content]_, arrastre un marcador de posición **[!UICONTROL Product Recommendation]**a la fila.
 
    ![Agregando el tipo de contenido de recomendación de producto](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
@@ -68,7 +74,7 @@ Use el tipo de contenido _Product Recommendations_ para agregar una [unidad de r
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add Selected]**.
 
-   El nombre de la recomendación de producto seleccionada aparece en la sección _[!UICONTROL Selection]_&#x200B;de la página&#x200B;_[!UICONTROL Edit Product Recommendation]_.
+   El nombre de la recomendación de producto seleccionada aparece en la sección _[!UICONTROL Selection]_de la página_[!UICONTROL Edit Product Recommendation]_.
 
 1. Realice los cambios necesarios en la [configuración avanzada](#advanced-settings).
 

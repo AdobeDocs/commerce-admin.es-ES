@@ -3,9 +3,15 @@ title: Configuración del producto - [!UICONTROL Search Engine Optimization]
 description: Para un producto, la configuración de [!UICONTROL Search Engine Optimization] establece la clave de URL y los metadatos que utilizan los motores de búsqueda para indexar el producto.
 exl-id: 78888094-759c-4e45-afcd-65858ee76159
 feature: Catalog Management, Products, Search
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/ya6B95jMPXfOYW785xN7WrmbFOwtKXdcr7yXTDvOAcw
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: 504
 ht-degree: 0%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 0%
 
 _Optimización de motores de búsqueda_ (SEO) es la práctica de ajustar el contenido y la presentación de un sitio para mejorar la forma en que los motores de búsqueda indexan las páginas.
 
-La configuración _[!UICONTROL Search Engine Optimization]_&#x200B;de un producto especifica los campos [Clave de URL](catalog-urls.md) y [metadatos](../merchandising-promotions/meta-data.md) que los motores de búsqueda utilizan para indizar el producto. Aunque algunos motores de búsqueda omiten las metapalabras clave, otros motores de búsqueda las siguen utilizando. La [práctica recomendada de SEO](../merchandising-promotions/seo-overview.md) actual es incorporar palabras clave de alto valor tanto en el metatítulo como en la metatdescription.
+La configuración _[!UICONTROL Search Engine Optimization]_de un producto especifica los campos [Clave de URL](catalog-urls.md) y [metadatos](../merchandising-promotions/meta-data.md) que los motores de búsqueda utilizan para indizar el producto. Aunque algunos motores de búsqueda omiten las metapalabras clave, otros motores de búsqueda las siguen utilizando. La [práctica recomendada de SEO](../merchandising-promotions/seo-overview.md) actual es incorporar palabras clave de alto valor tanto en el metatítulo como en la metatdescription.
 
 El valor predeterminado de cada campo de metadatos se puede generar automáticamente en función de los valores especificados en la configuración. Cada campo contiene un marcador de posición que se reemplaza por un valor real. Para obtener más información, consulte [Generación automática de campos de producto](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation).
 

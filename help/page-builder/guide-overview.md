@@ -4,9 +4,15 @@ description: Información completa sobre [!DNL Page Builder] para administradore
 seo-title: Adobe Commerce [!DNL Page Builder] User Guide
 seo-description: Describes how to use the [!DNL Page Builder] module in Adobe Commerce or Magento Open Source.
 exl-id: 983ef3a8-b803-40ff-a9f5-07eb895df31c
-source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
+TQID: https://experienceleague.adobe.com/fF7-aL-Vp70f6nWrdzi7AoZv-nkP1TrsQaBEHlNPKsY
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: 453
 ht-degree: 0%
 
 ---
@@ -52,4 +58,4 @@ No cubre las funciones principales de Adobe Commerce y Magento Open Source.
 
 Para obtener ayuda con la solución de problemas de [!DNL Page Builder], consulte los siguientes artículos de la Base de conocimiento de soporte técnico de [!DNL Commerce]:
 
-- [Página vacía al guardar el formulario DotDigital [!DNL Page Builder] 2&rbrace;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html?lang=es)
+- [Página vacía al guardar el formulario DotDigital [!DNL Page Builder] ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html)

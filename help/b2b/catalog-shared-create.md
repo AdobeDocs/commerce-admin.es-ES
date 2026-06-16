@@ -4,9 +4,16 @@ description: Obtenga información sobre la creación de catálogos compartidos y
 exl-id: 969c352c-ff88-4902-8347-334ee8b79afb
 feature: B2B, Companies, Catalog Management
 role: Admin
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/UaH40o7aZu8AYc1TuOfvXqxHebFod-rmGg0tobIKzjg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cbid: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: 872
 ht-degree: 0%
 
 ---
@@ -105,13 +112,13 @@ Después de crear un nuevo catálogo compartido, debe configurarse con la selecc
 
 >[!NOTE]
 >
->**[Versión B2B 1.3.0](release-notes.md#b2b-v130) y posterior**: al crear un catálogo compartido, cada [permiso de categoría](../catalog/category-permissions.md) para el catálogo se establece en _[!UICONTROL Allow for the Display Product Prices]_&#x200B;y&#x200B;_[!UICONTROL Add to Cart]_ para los grupos de clientes a los que se asigna este acceso en la configuración de permisos del catálogo. Anteriormente, esta configuración se establecía automáticamente en `Deny` incluso cuando los permisos de catálogo se establecían en `Allow`.
+>**[Versión B2B 1.3.0](release-notes.md#b2b-v130) y posterior**: al crear un catálogo compartido, cada [permiso de categoría](../catalog/category-permissions.md) para el catálogo se establece en _[!UICONTROL Allow for the Display Product Prices]_y_[!UICONTROL Add to Cart]_ para los grupos de clientes a los que se asigna este acceso en la configuración de permisos del catálogo. Anteriormente, esta configuración se establecía automáticamente en `Deny` incluso cuando los permisos de catálogo se establecían en `Allow`.
 
 ## Demostración del catálogo compartido
 
 Para ver una demostración de la administración de catálogos compartidos, vea este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410752?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/344446?quality=12&learn=on)
 
 ## Referencia de página de catálogo compartido
 
@@ -131,7 +138,7 @@ Para ver una demostración de la administración de catálogos compartidos, vea 
 | Campo | Descripción |
 |--- |--- |
 | [!UICONTROL Name] | Identifica el catálogo compartido en todo el administrador y en las cuentas de cliente donde está disponible. El nombre del catálogo debe ser descriptivo y no debe tener más de 32 caracteres de longitud. No puede tener dos catálogos compartidos con el mismo nombre. Número máximo de caracteres: 32 |
-| [!UICONTROL Type] | **[!UICONTROL Custom]** - Identifica un catálogo con precios personalizados que está disponible solamente para las compañías específicas a las que está asignado.<br/>**[!UICONTROL Public]**: identifica el catálogo compartido que está disponible para todos los visitantes invitados y para los clientes que iniciaron sesión y que no están asociados a una compañía. Cuando se instala [!DNL Adobe Commerce B2B], se crea un catálogo compartido público predeterminado, pero el administrador de un almacén debe configurarlo. Solo puede existir un catálogo compartido público a la vez. |
+| [!UICONTROL Type] | **[!UICONTROL Custom]** - Identifica un catálogo con precios personalizados que está disponible solamente para las empresas específicas a las que está asignado.<br/>**[!UICONTROL Public]**: identifica el catálogo compartido que está disponible para todos los visitantes invitados y para los clientes que iniciaron sesión y que no están asociados a una compañía. Cuando se instala [!DNL Adobe Commerce B2B], se crea un catálogo compartido público predeterminado, pero el administrador de un almacén debe configurarlo. Solo puede existir un catálogo compartido público a la vez. |
 | [!UICONTROL Customer Tax Class] | Determina la clase de impuesto que se utiliza para las compras realizadas desde el catálogo. Las opciones incluyen todas las clases de impuestos disponibles. |
 | [!UICONTROL Description] | Una breve explicación de cómo se va a utilizar el catálogo. |
 

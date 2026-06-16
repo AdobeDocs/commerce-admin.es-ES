@@ -3,9 +3,15 @@ title: Facturas
 description: Obtenga información sobre cómo crear e imprimir facturas para admitir el procesamiento de pedidos y las operaciones de servicio al cliente.
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
-source-git-commit: 80cc27c4247230eb5e43bca46a34d358f9f0bcea
+TQID: https://experienceleague.adobe.com/EGRiNGxTpww0k17-XeVPyrR5h1WDSZnseov8L-Yej-w
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: 1208
 ht-degree: 0%
 
 ---
@@ -71,7 +77,7 @@ Se debe generar una factura para el pedido antes de poder imprimirla. Para ver o
 
    >[!NOTE]
    >
-   >La opción _[!UICONTROL Invoice]_&#x200B;no aparece cuando la [acción de pago](../configuration-reference/sales/payment-methods.md#payment-actions) de su [método de pago](../configuration-reference/sales/payment-methods.md) específico está establecida en `Authorize and Capture`, lo que genera automáticamente una factura. Este también es el caso si se realiza el pedido y la acción de pago de su método de pago se establece en `Authorize` y se factura el pedido.
+   >La opción _[!UICONTROL Invoice]_no aparece cuando la [acción de pago](../configuration-reference/sales/payment-methods.md#payment-actions) de su [método de pago](../configuration-reference/sales/payment-methods.md) específico está establecida en `Authorize and Capture`, lo que genera automáticamente una factura. Este también es el caso si se realiza el pedido y la acción de pago de su método de pago se establece en `Authorize` y se factura el pedido.
 
    ![Pedido de venta de factura](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -131,7 +137,7 @@ Las facturas se pueden imprimir por separado o en lote. Sin embargo, para poder 
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. En la cuadrícula _[!UICONTROL Invoices]_, busque la factura y haga clic en **[!UICONTROL View]**&#x200B;en la columna_ Acción _.
+1. En la cuadrícula _[!UICONTROL Invoices]_, busque la factura y haga clic en **[!UICONTROL View]**en la columna_ Acción _.
 
 1. En la parte superior de la factura, haga clic en **[!UICONTROL Print]** para generar un PDF de la factura.
 
@@ -151,7 +157,7 @@ Las facturas se guardan en un solo archivo PDF que se puede enviar a una impreso
 
 ## Cantidades de captura personalizadas
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
 
 Para proporcionar a los comerciantes una mayor flexibilidad para las capturas parciales y los escenarios de pago especializados, la API de facturas admite importes de captura personalizados mediante atributos de extensión.
 

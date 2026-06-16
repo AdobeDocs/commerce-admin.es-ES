@@ -3,10 +3,16 @@ title: Integración de Adobe Stock
 description: Integra Adobe Stock con tu instancia  [!DNL Commerce] para acceder a innumerables recursos multimedia para usarlos en tu tienda.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 9aec049cfaa12f342d66f45a75af0ce50a23c2c8
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+TQID: https://experienceleague.adobe.com/VwiTbOAj5V8s7OWtkq5hfoP4LcvNLPR9QaKStaCdArs
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c32adafa-ed01-4b31-997e-2413013911b0id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: 427
 ht-degree: 0%
 
 ---
@@ -28,7 +34,7 @@ Esta integración requiere:
 
 Para obtener licencias de imágenes de Adobe Stock se requiere:
 
-- Una [cuenta de Adobe](https://helpx.adobe.com/es/manage-account/using/access-adobe-id-account.html)
+- Una [cuenta de Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
 - Un plan [Adobe Stock](https://stock.adobe.com) de pago asociado con la cuenta
 
 ## Integrar [!DNL Commerce] y Adobe Stock
@@ -92,6 +98,6 @@ Para establecer la configuración del sistema en su administrador de [!DNL Comme
 
    ![Configuración avanzada: integración de Adobe Stock](./assets/system-adobe-stock-integration.png){width="600" zoomable="yes"}
 
-   Asigne unos segundos a la validación. Si sus credenciales son válidas, debería ver una conexión _verde correcta._ mensaje.
+   Asigne unos segundos a la validación. Si sus credenciales son válidas, debería ver una _conexión correcta verde._ Mensaje.
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.

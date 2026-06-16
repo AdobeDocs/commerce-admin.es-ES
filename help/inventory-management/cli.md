@@ -4,10 +4,15 @@ description: Obtenga información acerca de los comandos proporcionados por el m
 exl-id: d92dffce-94a1-443c-8c72-98fecbbd5320
 level: Experienced
 feature: Inventory, Configuration
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+TQID: https://experienceleague.adobe.com/jdlLgwIe50ExZ2giXBiGf5cG8L4DQDZe4psbB16F5JE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: 858
 ht-degree: 0%
 
 ---
@@ -51,7 +56,7 @@ Las siguientes configuraciones y eventos pueden causar incoherencias en la reser
 - **Actualizar a la versión 2.3.x con pedidos que no se encuentran en estado final (Completado, Cancelado o Cerrado).** [!DNL Inventory Management] crea reservas compensatorias para estos pedidos, pero no introduce ni tiene la reserva inicial que deduce de la cantidad vendible. Se recomienda utilizar estos comandos después de actualizar a Adobe Commerce o Magento Open Source v2.3.x desde 2.1.x o 2.2.x. Si tiene pedidos pendientes, los comandos actualizan correctamente la cantidad vendible y las reservas para las ventas y la satisfacción de pedidos.
 - **No administra existencias y más tarde cambia esta configuración.** Puede empezar a usar 2.3.x con **[!UICONTROL Manage Stock]** establecido en `No` en la configuración. [!DNL Commerce] no realiza reservas en eventos de envío y colocación de pedidos. Si posteriormente habilita la configuración **[!UICONTROL Manage Stock]** y se crean algunos pedidos, la cantidad vendible se dañaría con una reserva de compensación al administrar y cumplir ese pedido.
 - **Reasigna las existencias de un sitio web mientras los pedidos se envían a ese sitio web**. La reserva inicial se introduce para el stock inicial y todas las reservas de compensación se introducen en el nuevo stock.
-- **Es posible que el total de reservas no se resuelva en `0`.** Todas las reservas en el ámbito de un pedido en un estado final (Completado, Cancelado, Cerrado) deben resolverse a `0`, borrando todas las retenciones de cantidad vendible.
+- **Es posible que el total de todas las reservas no se resuelva en `0`.** Todas las reservas en el ámbito de un pedido en estado final (Completado, Cancelado, Cerrado) deben resolverse en `0`, borrando todas las retenciones de cantidad vendible.
 
 ### Enumerar incoherencias, comando
 

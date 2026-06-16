@@ -3,10 +3,16 @@ title: Herramientas para desarrolladores
 description: Obtenga información acerca de las herramientas avanzadas para desarrolladores disponibles para admitir desarrolladores que trabajan en proyectos de personalización.
 exl-id: 34529aa9-201f-4817-b53b-a15b6a78a923
 role: Admin, Developer
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+TQID: https://experienceleague.adobe.com/l7Ub5CCeiR6ec3PiRkVXXaVyPaqDMJLf5TqKpIvL7T8
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: cc250cf1-34eb-4863-80d0-d170d45ea067id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: 1709
 ht-degree: 0%
 
 ---
@@ -27,7 +33,7 @@ Utilice las herramientas avanzadas para desarrolladores para determinar el modo 
 
 Su instancia de Adobe Commerce o Magento Open Source se puede implementar para ejecutarse en _producción_ o en _modo de desarrollador_. Solo se puede tener acceso a las herramientas y opciones de configuración diseñadas específicamente para desarrolladores mientras la tienda se ejecuta en _modo de desarrollador_.
 
-Un usuario con los permisos adecuados solo puede cambiar el modo de operación desde la línea de comandos del servidor. Consulte [Establecer el modo de operación](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=es) en la _Guía de configuración_ para obtener más información.
+Un usuario con los permisos adecuados solo puede cambiar el modo de operación desde la línea de comandos del servidor. Consulte [Establecer el modo de operación](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) en la _Guía de configuración_ para obtener más información.
 
 La mayoría de los temas de la documentación del comerciante se aplican a una instancia de Commerce que se ejecuta en el modo de producción. Sin embargo, las siguientes opciones de configuración y herramientas sólo se pueden utilizar cuando la instalación se ejecuta en modo de desarrollador.
 
@@ -59,7 +65,7 @@ Consulte [Compilación LESS del lado del cliente frente a la del lado del servid
 
 Añadir una firma digital a la URL de los archivos estáticos permite a los exploradores detectar cuándo está disponible una versión más reciente del archivo. Los archivos estáticos que se pueden rastrear con firmas digitales son JavaScript, CSS, imágenes y fuentes. La firma se anexa a la ruta directamente después de la dirección URL base. Si la firma de un archivo difiere de lo que se almacena en la caché del explorador, se utiliza la versión más reciente del archivo.
 
-Consulte [Firma de contenido estático](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html?lang=es){:target="_blank"} en la documentación para desarrolladores de Commerce.
+Consulte [Firma de contenido estático](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html){:target="_blank"} en la documentación para desarrolladores de Commerce.
 
 >[!NOTE]
 >
@@ -69,7 +75,7 @@ Consulte [Firma de contenido estático](https://experienceleague.adobe.com/docs/
 
 Para obtener una lista detallada de las opciones de configuración, consulte [_Configuración de archivo estático_](../configuration-reference/advanced/developer.md) en la _Referencia de configuración_.
 
-**_Para habilitar los archivos estáticos firmados:_**
+**_Para habilitar archivos estáticos firmados:_**
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -91,7 +97,7 @@ El tiempo que se tarda en cargar archivos de recursos se puede reducir combinand
 
 De forma predeterminada, Adobe Commerce y Magento Open Source no combinan, agrupan ni minimizan archivos, y el desarrollador del proyecto debe determinar qué métodos de optimización de archivos se deben utilizar.
 
-Consulte [Prácticas recomendadas de rendimiento](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=es) para obtener más información.
+Consulte [Prácticas recomendadas de rendimiento](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html) para obtener más información.
 
 >[!NOTE]
 >
@@ -118,7 +124,7 @@ Consulte [Prácticas recomendadas de rendimiento](https://experienceleague.adobe
 
    ![Configuración avanzada - Configuración de CSS](../configuration-reference/advanced/assets/developer-css-settings.png){width="600" zoomable="yes"}
 
-[_Configuración de CSS_](../configuration-reference/advanced/developer.md)
+   [_Configuración de CSS_](../configuration-reference/advanced/developer.md)
 
 1. Para optimizar los archivos de JavaScript, expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL JavaScript Settings]** y haga lo siguiente:
 
@@ -141,7 +147,7 @@ Antes de usar una herramienta como [sugerencias de ruta de plantillas](#template
 >
 >Las restricciones de cliente para desarrolladores solo se pueden establecer en [Modo para desarrolladores](../systems/developer-tools.md#operation-modes).
 
-Para obtener información técnica, consulte [VCL personalizado para permitir solicitudes](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=es) en la _Guía de infraestructura en la nube de Commerce_.
+Para obtener información técnica, consulte [VCL personalizado para permitir solicitudes](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html) en la _Guía de infraestructura en la nube de Commerce_.
 
 **_Para agregar su dirección IP a la lista de permitidos:_**
 
@@ -247,7 +253,7 @@ Si su tienda está disponible en varios idiomas, puede realizar ajustes precisos
 
    Desactive la casilla de verificación **[!UICONTROL Use Website]** según sea necesario para modificar esta configuración.
 
-   La opción _[!UICONTROL Enabled for Admin]_&#x200B;no está disponible al editar una vista de tienda específica.
+   La opción _[!UICONTROL Enabled for Admin]_no está disponible al editar una vista de tienda específica.
 
    ![Configuración avanzada: traducir en línea](../configuration-reference/advanced/assets/developer-translate-inline.png){width="600" zoomable="yes"}
 
