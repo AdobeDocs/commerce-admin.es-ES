@@ -4,11 +4,18 @@ description: Obtenga información sobre cómo crear un pedido para un cliente en
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
 TQID: https://experienceleague.adobe.com/0TUx-cDuonSkm4G0zWaU95ZKDuB-yhPb0aaEW57K-3g
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 376
@@ -18,7 +25,7 @@ ht-degree: 0%
 
 # Creación de un pedido
 
-Para los clientes registrados que necesiten asistencia, puede crear un pedido completo directamente desde el administrador. El formulario _[!UICONTROL Create New Order]_incluye toda la información necesaria para el proceso de cierre de compra normal, con resúmenes de actividad en el panel de cuentas del cliente.
+Para los clientes registrados que necesiten asistencia, puede crear un pedido completo directamente desde el administrador. El formulario _[!UICONTROL Create New Order]_&#x200B;incluye toda la información necesaria para el proceso de cierre de compra normal, con resúmenes de actividad en el panel de cuentas del cliente.
 
 ![Crear un pedido para un cliente](./assets/create-new-order.png){width="700" zoomable="yes"}
 
@@ -101,7 +108,7 @@ Puede transferir artículos al carro de compras desde la lista de artículos des
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
-   - [!UICONTROL [Atributos de pedido personalizados]](../stores-purchase/order-processing.md#custom-order-attributes)
+   - [[!UICONTROL [Atributos de pedido personalizados]]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >

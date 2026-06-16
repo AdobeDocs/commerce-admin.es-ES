@@ -4,11 +4,21 @@ description: Aprenda a configurar las tasas de cambio de recompensa que determin
 exl-id: 4850d853-fb86-4f64-bfee-47915ea028e2
 feature: Rewards, Promotions/Events, Customers
 TQID: https://experienceleague.adobe.com/Iwr92ju0R1z6DFP-5n4O4bqIBYnYWtdn18ImbHJhoHU
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 571
@@ -61,8 +71,8 @@ Al convertir una moneda en puntos, el número de puntos no se puede dividir. Cua
 
    | Dirección | Configuración de velocidad |
    |---------|-------------|
-   | [!UICONTROL Points to Currency] | En el primer campo _[!UICONTROL Rate]_, escriba el número de puntos. En el segundo campo_[!UICONTROL Rate]_, introduzca el valor monetario de los puntos. |
-   | [!UICONTROL Currency to Points] | En el primer campo _[!UICONTROL Rate]_, introduzca el valor monetario. En el segundo campo_[!UICONTROL Rate]_, escriba el número de puntos que representa el valor monetario. |
+   | [!UICONTROL Points to Currency] | En el primer campo _[!UICONTROL Rate]_, escriba el número de puntos. En el segundo campo&#x200B;_[!UICONTROL Rate]_, introduzca el valor monetario de los puntos. |
+   | [!UICONTROL Currency to Points] | En el primer campo _[!UICONTROL Rate]_, introduzca el valor monetario. En el segundo campo&#x200B;_[!UICONTROL Rate]_, escriba el número de puntos que representa el valor monetario. |
 
    Al convertir puntos en moneda, el número de puntos no se puede dividir. Por ejemplo, si diez puntos se convierten en 2,00 $, los puntos deben canjearse en grupos de diez. Por lo tanto, 25 puntos se canjearían por $4.00, con 5 puntos restantes en el saldo del cliente.
 
@@ -86,4 +96,4 @@ Al convertir una moneda en puntos, el número de puntos no se puede dividir. Cua
 |--- |--- |
 | [!UICONTROL Website] | Los sitios web donde se aplican las tasas de recompensa. |
 | [!UICONTROL Customer Group] | Los grupos de clientes a los que se aplican las tarifas de recompensa. |
-| [!UICONTROL Direction] | Determina qué tipo de transacción define el tipo de cambio. Opciones: <br/>**[!UICONTROL Points to Currency]**: define el número de puntos que se pueden aplicar como crédito al importe de un pedido. En el primer campo _[!UICONTROL Rate]_, escriba el número de puntos. En el segundo campo_[!UICONTROL Rate]_, introduzca el valor monetario de los puntos.<br/>**[!UICONTROL Currency to Points]**: define la cantidad de un pedido que puede obtener puntos del cliente. En el primer campo _[!UICONTROL Rate]_, introduzca el valor monetario. En el segundo campo_[!UICONTROL Rate]_, escriba el número de puntos que representa el valor monetario. |
+| [!UICONTROL Direction] | Determina qué tipo de transacción define el tipo de cambio. Opciones: <br/>**[!UICONTROL Points to Currency]**: define el número de puntos que se pueden aplicar como crédito al importe de un pedido. En el primer campo _[!UICONTROL Rate]_, escriba el número de puntos. En el segundo campo&#x200B;_[!UICONTROL Rate]_, introduzca el valor monetario de los puntos.<br/>**[!UICONTROL Currency to Points]**: define la cantidad de un pedido que puede obtener puntos del cliente. En el primer campo _[!UICONTROL Rate]_, introduzca el valor monetario. En el segundo campo&#x200B;_[!UICONTROL Rate]_, escriba el número de puntos que representa el valor monetario. |

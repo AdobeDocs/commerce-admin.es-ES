@@ -4,11 +4,20 @@ description: Aprenda a agregar y quitar páginas de contenido utilizadas en su  
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/NUP56gvdWU0EMfq9HSMD9GG1YcZhFgYaEIXVQqtxl4U
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1216
@@ -162,7 +171,7 @@ Según la [configuración avanzada de herramientas de contenido](../configuratio
 
 ### Paso 8: Publicar la página
 
-1. Seleccione **[!UICONTROL Edit]** en la columna _[!UICONTROL Action]_de la cuadrícula.
+1. Seleccione **[!UICONTROL Edit]** en la columna _[!UICONTROL Action]_&#x200B;de la cuadrícula.
 
 1. Establezca **[!UICONTROL Enable Page]** en `Yes`.
 
@@ -217,7 +226,7 @@ Cualquier página de contenido puede utilizarse como plantilla y guardarse como 
 
 ## Eliminación de una página
 
-Existen dos formas de eliminar una página creada. Puede quitarlo de la cuadrícula _[!UICONTROL Pages]_o de la página_[!UICONTROL Edit]_.
+Existen dos formas de eliminar una página creada. Puede quitarlo de la cuadrícula _[!UICONTROL Pages]_&#x200B;o de la página&#x200B;_[!UICONTROL Edit]_.
 
 ### Método 1: Quitar una página de la cuadrícula Páginas
 
@@ -235,7 +244,7 @@ Existen dos formas de eliminar una página creada. Puede quitarlo de la cuadríc
 
 1. Busque la página que desea eliminar.
 
-1. En la columna _[!UICONTROL Actions]_de la entidad de página, haga clic en **[!UICONTROL Select]**y elija **[!UICONTROL Edit]**.
+1. En la columna _[!UICONTROL Actions]_&#x200B;de la entidad de página, haga clic en **[!UICONTROL Select]**&#x200B;y elija **[!UICONTROL Edit]**.
 
 1. En la barra de botones, haga clic en **[!UICONTROL Delete Page]**.
 

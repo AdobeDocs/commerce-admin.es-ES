@@ -4,12 +4,22 @@ description: Descubra cómo el proceso de cierre de compra de Adobe Commerce y M
 exl-id: f503643b-a0bb-4763-9831-d592afb2c323
 feature: Checkout
 TQID: https://experienceleague.adobe.com/pBCZkoYfSX-cqBu-wsS8eFynW3NUfT56MOWwuxpCGrc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1098
@@ -155,7 +165,7 @@ Para obtener una descripción detallada de cada una de estas opciones de configu
 | [!UICONTROL Enable Terms and Conditions] | Vista de tienda | Determina si los clientes deben aceptar los [Términos y condiciones](terms-and-conditions.md) de la venta antes de realizar una compra. Opciones: `Yes` / `No` |
 | [!UICONTROL Display Billing Address On] | Vista de tienda | Determina la ubicación de la dirección de facturación durante el cierre de compra. Opciones: `Payment Method` / `Payment Page` |
 | [!UICONTROL Maximum Number of Items to Display in Order Summary] | Vista de tienda | Determina el número máximo de artículos que pueden aparecer en el resumen de pedidos durante el cierre de compra. El valor predeterminado es `10`. |
-| [!UICONTROL Enable Address Search] | Sitio web | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Determina si los clientes pueden usar la funcionalidad [búsqueda de direcciones](checkout-address-search.md) para _Envíos_ y los pasos de _Revisión y pagos_. Cuando esta función esté habilitada, use _[!UICONTROL Number of Customer Addresses Limit]_para establecer el número de direcciones guardadas necesarias para activar esta funcionalidad durante el cierre de compra. Opciones: `Yes` / `No` |
+| [!UICONTROL Enable Address Search] | Sitio web | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Determina si los clientes pueden usar la funcionalidad [búsqueda de direcciones](checkout-address-search.md) para _Envíos_ y los pasos de _Revisión y pagos_. Cuando esta función esté habilitada, use _[!UICONTROL Number of Customer Addresses Limit]_&#x200B;para establecer el número de direcciones guardadas necesarias para activar esta funcionalidad durante el cierre de compra. Opciones: `Yes` / `No` |
 | [!UICONTROL Number of Customer Addresses Limit] | Sitio web | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce): cuando la búsqueda de direcciones es **[!UICONTROL Enabled]**, determina el número de direcciones guardadas necesarias para activar esta funcionalidad durante el cierre de compra. Cuando el número de direcciones guardadas del cliente cumple o supera este número, solo se representa la dirección predeterminada en los pasos _Envío_ y _Revisión y pagos_. El cliente puede utilizar una función de búsqueda para cambiar la dirección seleccionada. El valor predeterminado es 10. |
 
 {style="table-layout:auto"}

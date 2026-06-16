@@ -4,11 +4,19 @@ description: Aprenda a programar cambios en las listas de productos para que sea
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/eG4RXNCToWJxbPB6GQC9htRnh4z4ktPTb4FPrefJVtk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 715
@@ -59,7 +67,7 @@ Al configurar programaciones para actualizaciones de productos y editar campaña
 
    ![Programar como nueva actualización](./assets/product-schedule-as-new.png){width="600" zoomable="yes"}
 
-1. Desplácese hasta _[!UICONTROL Price]_y haga clic en **[!UICONTROL Advanced Pricing]**.
+1. Desplácese hasta _[!UICONTROL Price]_&#x200B;y haga clic en **[!UICONTROL Advanced Pricing]**.
 
 1. Escriba un **[!UICONTROL Special Price]** para el producto durante la campaña programada y haga clic en **[!UICONTROL Done]**.
 
@@ -91,7 +99,7 @@ El cambio programado aparece en la parte superior de la página del producto, co
 
 ## Editar el cambio programado
 
-1. En el cuadro _[!UICONTROL Scheduled Changes]_de la parte superior de la página, haga clic en **[!UICONTROL View/Edit]**.
+1. En el cuadro _[!UICONTROL Scheduled Changes]_&#x200B;de la parte superior de la página, haga clic en **[!UICONTROL View/Edit]**.
 
 1. Realice los cambios necesarios en la actualización programada.
 
@@ -99,7 +107,7 @@ El cambio programado aparece en la parte superior de la página del producto, co
 
 ## Eliminar el cambio programado
 
-1. En el cuadro _[!UICONTROL Scheduled Changes]_de la parte superior de la página, haga clic en **[!UICONTROL View/Edit]**.
+1. En el cuadro _[!UICONTROL Scheduled Changes]_&#x200B;de la parte superior de la página, haga clic en **[!UICONTROL View/Edit]**.
 
 1. En la barra superior, haga clic en **[!UICONTROL Remove from Update]**.
 
@@ -113,7 +121,7 @@ El cambio programado aparece en la parte superior de la página del producto, co
 
 {{ce-feature}}
 
-La sección _[!UICONTROL Schedule Design Update]_le permite realizar cambios temporales en el aspecto de la página del producto. Puede programar cambios de diseño para una temporada, promoción o simplemente para hacer las cosas nuevas. Los cambios de diseño se pueden programar con antelación, por lo que entrarán en vigor o_ gotearán _en la programación definida.
+La sección _[!UICONTROL Schedule Design Update]_&#x200B;le permite realizar cambios temporales en el aspecto de la página del producto. Puede programar cambios de diseño para una temporada, promoción o simplemente para hacer las cosas nuevas. Los cambios de diseño se pueden programar con antelación, por lo que entrarán en vigor o_ gotearán _en la programación definida.
 
 ![Actualización de diseño programada](./assets/product-design-update-scheduled-ce.png){width="600" zoomable="yes"}
 

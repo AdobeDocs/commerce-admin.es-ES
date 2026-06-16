@@ -4,12 +4,24 @@ description: Obtenga información sobre los flujos de trabajo de presupuestos y 
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
 TQID: https://experienceleague.adobe.com/098ze8GgUWx4j1d96UGoEcLfAequOjAbadJHS5AvClU
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
 workflow-type: tm+mt
 source-wordcount: 1273
@@ -149,7 +161,7 @@ Solo se pueden rechazar las solicitudes de presupuesto con un estado `Open`.
 
 1. Seleccione cada solicitud de presupuesto abierta que desee rechazar.
 
-1. Establezca el control _[!UICONTROL Actions]_en `Declined`.
+1. Establezca el control _[!UICONTROL Actions]_&#x200B;en `Declined`.
 
 1. Cuando se le solicite, introduzca el motivo por el que se rechazó la oferta y haga clic en **[!UICONTROL Confirm]**.
 

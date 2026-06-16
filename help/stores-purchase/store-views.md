@@ -4,10 +4,16 @@ description: Obtenga información sobre cómo agregar y editar una vista de tien
 exl-id: aa1f7f1c-a6d0-4ec2-83fe-15fb9646634a
 feature: Site Management, System
 TQID: https://experienceleague.adobe.com/2VMBTnzG3lqsNEyx-e46rqDs1wHofaDeHL3j3SuqxOE
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 284
@@ -62,9 +68,9 @@ Si la instalación de Adobe Commerce o Magento Open Source tiene una instalació
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
 
-1. En la columna _[!UICONTROL Store View]_de la cuadrícula, haga clic en el nombre de la vista que desee editar.
+1. En la columna _[!UICONTROL Store View]_&#x200B;de la cuadrícula, haga clic en el nombre de la vista que desee editar.
 
-   Al editar la vista predeterminada, los campos _[!UICONTROL Store]_y_[!UICONTROL Status]_ no están disponibles.
+   Al editar la vista predeterminada, los campos _[!UICONTROL Store]_&#x200B;y_[!UICONTROL Status]_ no están disponibles.
 
    ![Vista de tienda - editar vista predeterminada](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 

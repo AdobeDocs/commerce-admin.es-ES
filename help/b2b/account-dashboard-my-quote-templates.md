@@ -4,11 +4,21 @@ description: Obtenga información acerca de la experiencia del cliente con las p
 feature: B2B, Companies, Quotes
 exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
 TQID: https://experienceleague.adobe.com/E2xR1PkAHidID85ro6fIz--mGtI358VvmXdKcSApVww
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 973
@@ -18,7 +28,7 @@ ht-degree: 0%
 
 # [!UICONTROL My Quote Templates]
 
-Si las ofertas están habilitadas, la sección _[!UICONTROL My Quotes Template]_del panel de control de cuentas del cliente enumera todas las plantillas de ofertas asociadas a la cuenta del cliente. Según sus permisos, solo los compradores que realizan compras en nombre de una empresa pueden solicitar una plantilla de presupuesto y negociar los precios de presupuesto y las condiciones de los pedidos recurrentes.
+Si las ofertas están habilitadas, la sección _[!UICONTROL My Quotes Template]_&#x200B;del panel de control de cuentas del cliente enumera todas las plantillas de ofertas asociadas a la cuenta del cliente. Según sus permisos, solo los compradores que realizan compras en nombre de una empresa pueden solicitar una plantilla de presupuesto y negociar los precios de presupuesto y las condiciones de los pedidos recurrentes.
 
 ![Mis plantillas de presupuesto](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
 
@@ -121,7 +131,7 @@ Los compradores pueden completar las siguientes acciones desde una oferta vincul
 
 En la página de plantilla de oferta, haga clic en **[!UICONTROL Cancel Quote Template]**.
 
-La plantilla de presupuesto se cancela y el estado de la oferta cambia a `Closed`. La oferta cerrada permanece en su lista de *[!UICONTROL Inactive]* comillas y permanece en la lista _[!UICONTROL Quote Templates]_de la administración.
+La plantilla de presupuesto se cancela y el estado de la oferta cambia a `Closed`. La oferta cerrada permanece en su lista de *[!UICONTROL Inactive]* comillas y permanece en la lista _[!UICONTROL Quote Templates]_&#x200B;de la administración.
 
 ## Administrar vínculos de documentos de referencia
 

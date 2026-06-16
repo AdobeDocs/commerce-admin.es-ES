@@ -4,11 +4,18 @@ description: Obtenga información acerca de la configuración de  [!DNL Page Bui
 exl-id: 48396045-0fef-4f4f-8138-e6d969560e42
 feature: Page Builder, Configuration
 TQID: https://experienceleague.adobe.com/qXSCIQN-Tpo-n2CTrXy2xzDssA6xQfuWGAVxuRgI-5o
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 403
@@ -18,7 +25,7 @@ ht-degree: 0%
 
 # Configuración de [!DNL Page Builder]
 
-Cuando se habilita en la configuración, [!DNL Page Builder] es la herramienta de creación de contenido predeterminada para páginas de CMS, bloques y bloques dinámicos. Además, el botón _[!UICONTROL Enable Advanced CMS]_ofrece [!DNL Page Builder] como opción para Categorías y Productos. También puede elegir el [diseño de página](../content-design/page-layout.md) predeterminado que desee usar para productos, categorías y páginas de CMS. [!DNL Page Builder] no está disponible para el contenido de la newsletter, que usa el [editor](../content-design/editor.md) de WYSIWYG.
+Cuando se habilita en la configuración, [!DNL Page Builder] es la herramienta de creación de contenido predeterminada para páginas de CMS, bloques y bloques dinámicos. Además, el botón _[!UICONTROL Enable Advanced CMS]_&#x200B;ofrece [!DNL Page Builder] como opción para Categorías y Productos. También puede elegir el [diseño de página](../content-design/page-layout.md) predeterminado que desee usar para productos, categorías y páginas de CMS. [!DNL Page Builder] no está disponible para el contenido de la newsletter, que usa el [editor](../content-design/editor.md) de WYSIWYG.
 
 >[!NOTE]
 >

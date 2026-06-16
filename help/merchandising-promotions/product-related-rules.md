@@ -4,11 +4,20 @@ description: Obtenga información acerca de las reglas de productos relacionadas
 exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 feature: Merchandising, Products, Storefront
 TQID: https://experienceleague.adobe.com/-S2cHqetXQ0raH1d7LGRU1zW80jJ2vA9dmgSmvABNEI
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 879
@@ -34,8 +43,8 @@ Para acceder a las reglas de producto relacionadas, vaya a **[!UICONTROL Marketi
 |--- |--- |
 | [!UICONTROL ID] | Identificador numérico único asignado a cada regla de producto relacionada |
 | [!UICONTROL Rule] | Nombre de la regla de producto relacionada |
-| [!UICONTROL Start] | Utilice los campos de calendario dinámico (_[!UICONTROL To:]_y_[!UICONTROL From:]_) para filtrar la lista en función de la fecha de inicio de la regla definida cuando se creó la regla. |
-| [!UICONTROL End] | Utilice los campos de calendario dinámico (_[!UICONTROL To:]_y_[!UICONTROL From:]_) para filtrar la lista en función de la fecha de finalización de la regla definida cuando se creó la regla. |
+| [!UICONTROL Start] | Utilice los campos de calendario dinámico (_[!UICONTROL To:]_&#x200B;y_[!UICONTROL From:]_) para filtrar la lista en función de la fecha de inicio de la regla definida cuando se creó la regla. |
+| [!UICONTROL End] | Utilice los campos de calendario dinámico (_[!UICONTROL To:]_&#x200B;y_[!UICONTROL From:]_) para filtrar la lista en función de la fecha de finalización de la regla definida cuando se creó la regla. |
 | [!UICONTROL Priority] | Introduzca texto en este campo para filtrar la lista en función de la prioridad definida para una regla. |
 | [!UICONTROL Applies To] | Esta opción filtra la lista de reglas aplicables a `Related Products`, `Up-sells` y `Cross-sells`. |
 | [!UICONTROL Status] | Utilice esta opción para filtrar la lista en función del estado de la regla (`Active` o `Inactive`). |
@@ -53,7 +62,7 @@ El número de identificadores de producto que se pueden incluir en una regla de 
 Por ejemplo, suponga que tiene tres reglas con una prioridad de `1`, `2` y `3`.
 
 - Se han devuelto dos productos coincidentes para _Regla 1_, seis productos coincidentes para _Regla 2_ y 20 productos coincidentes para _Regla 3_.
-- En la configuración, _[!UICONTROL Maximum Number of Products for Related Products List]_está establecido en `6`.
+- En la configuración, _[!UICONTROL Maximum Number of Products for Related Products List]_&#x200B;está establecido en `6`.
 
   | Reglas | Prioridad | Productos coincidentes |
   |---|---|-----|

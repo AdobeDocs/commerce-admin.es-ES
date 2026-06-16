@@ -4,11 +4,19 @@ description: Aprenda a configurar una opción de envío de tarifa de tabla para 
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
 TQID: https://experienceleague.adobe.com/14LYGw55vIlhbg71AApSGuuUKzaFEmStaUcw-Uig87E
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1044
@@ -40,7 +48,7 @@ El primer paso es completar la configuración predeterminada para las tasas de t
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. En la sección _[!UICONTROL Sales]_del panel izquierdo, elija **[!UICONTROL Delivery Methods]**.
+1. En la sección _[!UICONTROL Sales]_&#x200B;del panel izquierdo, elija **[!UICONTROL Delivery Methods]**.
 
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Table Rates]**.
 
@@ -121,10 +129,10 @@ El primer paso es completar la configuración predeterminada para las tasas de t
 1. Complete la tabla con los valores adecuados para la condición de cálculo de envío.
 
    - Utilice un asterisco (*) como comodín que represente todos los valores posibles de cualquier categoría.
-   - La columna _[!UICONTROL Country]_debe contener [un código de tres caracteres válido](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) para cada fila.
-   - Ordene los datos por _[!UICONTROL Region/State]_de modo que las ubicaciones específicas estén en la parte superior de la lista y las ubicaciones de los comodines en la parte inferior. Al utilizar este método, se procesan primero las reglas con los valores absolutos y, después, los valores comodín.
+   - La columna _[!UICONTROL Country]_&#x200B;debe contener [un código de tres caracteres válido](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) para cada fila.
+   - Ordene los datos por _[!UICONTROL Region/State]_&#x200B;de modo que las ubicaciones específicas estén en la parte superior de la lista y las ubicaciones de los comodines en la parte inferior. Al utilizar este método, se procesan primero las reglas con los valores absolutos y, después, los valores comodín.
    - No se admiten intervalos de código postal. Use un asterisco (*) para permitir todos los códigos de la región o el estado, o especifique un solo código para una ubicación específica en la columna _[!UICONTROL Zip/Postal Code]_.
-   - Los valores de la columna _[!UICONTROL Weight (and above)]_pueden tener un máximo de cuatro decimales (como `2.5075`). Si utiliza más decimales en los datos, la importación fallará.
+   - Los valores de la columna _[!UICONTROL Weight (and above)]_&#x200B;pueden tener un máximo de cuatro decimales (como `2.5075`). Si utiliza más decimales en los datos, la importación fallará.
 
    ![Peso vs. Destino (Australia)](./assets/table-rates-weight-destination-csv.png){width="500"}
 

@@ -5,12 +5,23 @@ feature: B2B, Companies, Storefront
 role: Admin
 exl-id: 8246be3d-ff9f-4f9f-875d-1b999befc534
 TQID: https://experienceleague.adobe.com/po8afDr-Q2XR9pkbzJDdX-9tDvf6FsLVHnP-YzGYrDI
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 778

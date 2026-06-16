@@ -5,11 +5,23 @@ exl-id: 34529aa9-201f-4817-b53b-a15b6a78a923
 role: Admin, Developer
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/l7Ub5CCeiR6ec3PiRkVXXaVyPaqDMJLf5TqKpIvL7T8
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: cc250cf1-34eb-4863-80d0-d170d45ea067id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: cc250cf1-34eb-4863-80d0-d170d45ea067
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1709
@@ -253,7 +265,7 @@ Si su tienda está disponible en varios idiomas, puede realizar ajustes precisos
 
    Desactive la casilla de verificación **[!UICONTROL Use Website]** según sea necesario para modificar esta configuración.
 
-   La opción _[!UICONTROL Enabled for Admin]_no está disponible al editar una vista de tienda específica.
+   La opción _[!UICONTROL Enabled for Admin]_&#x200B;no está disponible al editar una vista de tienda específica.
 
    ![Configuración avanzada: traducir en línea](../configuration-reference/advanced/assets/developer-translate-inline.png){width="600" zoomable="yes"}
 

@@ -4,12 +4,23 @@ description: Obtenga información sobre cómo modificar la configuración de la 
 exl-id: 3779d9db-4adb-473b-b9c9-ad066f50b549
 feature: Catalog Management, Products, Page Content
 TQID: https://experienceleague.adobe.com/XC4xwHkJyLCiHNNCAz6huVbN3j-WwCvKumJtjf0uj-I
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: ae62cf09-5996-4921-bda8-fbe67b62e470
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: ae62cf09-5996-4921-bda8-fbe67b62e470
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 792
@@ -23,7 +34,7 @@ Los listados de productos se pueden configurar para que aparezcan de forma prede
 
 >[!NOTE]
 >
->Al ordenar una categoría por un atributo de producto, los productos con los mismos valores de atributo también se ordenan por su _[!UICONTROL Product ID]_en orden ascendente.
+>Al ordenar una categoría por un atributo de producto, los productos con los mismos valores de atributo también se ordenan por su _[!UICONTROL Product ID]_&#x200B;en orden ascendente.
 
 ![Productos mostrados como una cuadrícula](./assets/storefront-catalog-page.png){width="700" zoomable="yes"}
 
@@ -41,7 +52,7 @@ Los listados de productos se pueden configurar para que aparezcan de forma prede
 
    >[!NOTE]
    >
-   >Para mostrar correctamente los productos y sus precios según la clasificación de _productos por precio_, asegúrese de que la configuración del precio que se muestra en la [configuración de impuestos sobre ventas](../configuration-reference/sales/tax.md) tenga el mismo valor (`Excluding Tax` **o** `Including Tax`). Para _[!UICONTROL Calculation Settings]_, compruebe el valor **[!UICONTROL Catalog Prices]**. Y para_[!UICONTROL Price Display Settings]_, compruebe el valor **[!UICONTROL Display Product Prices in Catalog]**. Si estos tienen valores diferentes, es posible que los filtros de precio de la navegación por capas no filtren y ordenen correctamente los productos por precio.
+   >Para mostrar correctamente los productos y sus precios según la clasificación de _productos por precio_, asegúrese de que la configuración del precio que se muestra en la [configuración de impuestos sobre ventas](../configuration-reference/sales/tax.md) tenga el mismo valor (`Excluding Tax` **o** `Including Tax`). Para _[!UICONTROL Calculation Settings]_, compruebe el valor **[!UICONTROL Catalog Prices]**. Y para&#x200B;_[!UICONTROL Price Display Settings]_, compruebe el valor **[!UICONTROL Display Product Prices in Catalog]**. Si estos tienen valores diferentes, es posible que los filtros de precio de la navegación por capas no filtren y ordenen correctamente los productos por precio.
 
 1. Establezca el valor predeterminado **[!UICONTROL List Mode]** en uno de los siguientes:
 
@@ -102,7 +113,7 @@ La configuración de Paginación aparece en la parte superior e inferior de la l
 | Control | Descripción |
 |--- |--- |
 | ![Cuadrícula de visualización](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] - Muestra la lista en formato de cuadrícula o lista. |
-| ![Ordenar por](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Cambia el orden de la lista. La propiedad de tienda _[!UICONTROL Used for Sorting in Product Listing]_determina qué [atributos de producto](../catalog/product-attributes.md) se pueden usar para ordenar la lista. |
+| ![Ordenar por](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Cambia el orden de la lista. La propiedad de tienda _[!UICONTROL Used for Sorting in Product Listing]_&#x200B;determina qué [atributos de producto](../catalog/product-attributes.md) se pueden usar para ordenar la lista. |
 | ![Mostrar por página](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page]: determina cuántos productos aparecen por página. |
 | ![Vínculos de paginación](./assets/control-pagination.png) | Vínculos de paginación: vínculos de navegación a otras páginas. |
 

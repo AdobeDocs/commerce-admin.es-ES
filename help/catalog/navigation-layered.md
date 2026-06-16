@@ -4,12 +4,23 @@ description: Descubra cómo la navegación por capas facilita a los compradores 
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
 TQID: https://experienceleague.adobe.com/6mwLiMtF8wB65C5ORHGLw4sZOuinIr91ChBul0Gfc-o
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1409
@@ -69,7 +80,7 @@ Las siguientes instrucciones muestran cómo configurar la navegación básica po
 
 >[!NOTE]
 >
->- Si la configuración _[!UICONTROL Use in Search]_está establecida en `No`, no se muestra la configuración_[!UICONTROL Use in Search Results Layered Navigation]_. En este caso, el atributo de producto no se utiliza en la búsqueda, independientemente de la configuración [!UICONTROL Use in Layered Navigation].
+>- Si la configuración _[!UICONTROL Use in Search]_&#x200B;está establecida en `No`, no se muestra la configuración&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_. En este caso, el atributo de producto no se utiliza en la búsqueda, independientemente de la configuración [!UICONTROL Use in Layered Navigation].
 >
 >- El campo [!UICONTROL Position] está atenuado de manera predeterminada. Debe guardar el atributo para poder modificar esta configuración.
 
@@ -156,7 +167,7 @@ La división iterativa proporciona la mejor distribución de productos entre ran
 
 >[!IMPORTANT]
 >
->Para mostrar correctamente los productos y sus precios según los _filtros de precio_ en la navegación por capas, asegúrese de que la configuración del precio que se muestra en la [configuración de impuestos sobre ventas](../configuration-reference/sales/tax.md) tenga el mismo valor (`Excluding Tax` **o** `Including Tax`). Para _[!UICONTROL Calculation Settings]_, compruebe el valor **[!UICONTROL Catalog Prices]**. Y para_[!UICONTROL Price Display Settings]_, compruebe el valor **[!UICONTROL Display Product Prices in Catalog]**. Si estos tienen valores diferentes, es posible que los filtros de precio de la navegación por capas no filtren y ordenen correctamente los productos por precio.
+>Para mostrar correctamente los productos y sus precios según los _filtros de precio_ en la navegación por capas, asegúrese de que la configuración del precio que se muestra en la [configuración de impuestos sobre ventas](../configuration-reference/sales/tax.md) tenga el mismo valor (`Excluding Tax` **o** `Including Tax`). Para _[!UICONTROL Calculation Settings]_, compruebe el valor **[!UICONTROL Catalog Prices]**. Y para&#x200B;_[!UICONTROL Price Display Settings]_, compruebe el valor **[!UICONTROL Display Product Prices in Catalog]**. Si estos tienen valores diferentes, es posible que los filtros de precio de la navegación por capas no filtren y ordenen correctamente los productos por precio.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -218,7 +229,7 @@ La configuración de navegación por capas determina si un recuento de productos
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. En el panel izquierdo, expanda la sección _[!UICONTROL Catalog]_y elija **[!UICONTROL Catalog]**debajo.
+1. En el panel izquierdo, expanda la sección _[!UICONTROL Catalog]_&#x200B;y elija **[!UICONTROL Catalog]**&#x200B;debajo.
 
 1. Expanda la sección _[!UICONTROL Layered Navigation]_.
 

@@ -4,11 +4,19 @@ description: Obtenga información acerca del tipo de contenido Encabezado que se
 exl-id: dc51e7f6-a235-49dc-a978-1419a63fa33e
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/5oFGY5Vemq0aLKOaCQ5DTIvfj0Zzvd1qVKkuDjS-kgM
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 940
@@ -20,7 +28,7 @@ ht-degree: 0%
 
 Los niveles de encabezado establecen una jerarquía que organiza el contenido y ayuda a los motores de búsqueda a indexar cada página. Use el tipo de contenido _Encabezado_ en la [[!DNL Page Builder] fase](workspace.md#stage) para agregar un contenedor de texto con un nivel de encabezado de H1 a H6 a la fase. El formato de los encabezados depende de la hoja de estilos asociada al tema actual.
 
-El campo [Encabezado de contenido](workspace.md) de la sección _[!UICONTROL Content]_se puede usar para agregar un encabezado H1 a la parte superior de la página. Sin embargo, el campo es un heredado de versiones anteriores de [!DNL Commerce] y se proporciona para admitir contenido antiguo. Este campo no aprovecha las características avanzadas de [!DNL Page Builder]. Se recomienda dejar en blanco el campo Encabezado de contenido y utilizar el tipo de contenido Encabezado [!DNL Page Builder] para agregar encabezados de cualquier nivel a la página.
+El campo [Encabezado de contenido](workspace.md) de la sección _[!UICONTROL Content]_&#x200B;se puede usar para agregar un encabezado H1 a la parte superior de la página. Sin embargo, el campo es un heredado de versiones anteriores de [!DNL Commerce] y se proporciona para admitir contenido antiguo. Este campo no aprovecha las características avanzadas de [!DNL Page Builder]. Se recomienda dejar en blanco el campo Encabezado de contenido y utilizar el tipo de contenido Encabezado [!DNL Page Builder] para agregar encabezados de cualquier nivel a la página.
 
 El siguiente ejemplo muestra cómo aparecen el encabezado de contenido y el tipo de contenido de encabezado cuando se les aplica formato mediante la temática de Luma.
 
@@ -80,7 +88,7 @@ Al igual que con todos los contenedores de contenido, la caja de herramientas ap
 
    También puede actualizar este contenido en el editor de encabezados.
 
-1. Actualice la configuración de _[!UICONTROL Advanced]_según sea necesario.
+1. Actualice la configuración de _[!UICONTROL Advanced]_&#x200B;según sea necesario.
 
    - Para controlar el posicionamiento del encabezado dentro del contenedor principal, elija un **[!UICONTROL Alignment]**:
 

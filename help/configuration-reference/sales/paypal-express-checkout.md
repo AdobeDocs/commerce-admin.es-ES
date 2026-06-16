@@ -4,11 +4,22 @@ description: Revise la configuración en la sección [!UICONTROL PayPal Express 
 exl-id: aae5b1d9-f47e-447a-b40c-924f8d2ee824
 feature: Configuration, Payments
 TQID: https://experienceleague.adobe.com/SEtCXXuq1AkwIoH-0aHjwmWIRnMqzhrf3ojo2xa2jBs
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1682
@@ -44,7 +55,7 @@ ht-degree: 0%
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Email Associated with PayPal Merchant Account] | Sitio web | Especifica la dirección de correo electrónico que especificó al establecer la cuenta de comerciante de PayPal. La dirección de correo electrónico distingue entre mayúsculas y minúsculas y debe coincidir exactamente con la dirección de correo electrónico del sistema PayPal. |
-| [!UICONTROL API Authentication Methods] | Sitio web | Determina el método utilizado para la autenticación de API. Opciones: <br/>**`API Signature`**- Muestra el campo _[!UICONTROL API Signature]_en el formulario.<br/>**`API Certificate`**- Muestra el campo_[!UICONTROL API Certificate]_ en el formulario. |
+| [!UICONTROL API Authentication Methods] | Sitio web | Determina el método utilizado para la autenticación de API. Opciones: <br/>**`API Signature`**- Muestra el campo _[!UICONTROL API Signature]_&#x200B;en el formulario.<br/>**`API Certificate`**- Muestra el campo&#x200B;_[!UICONTROL API Certificate]_ en el formulario. |
 | [!UICONTROL API Username] | Sitio web | El nombre de usuario de la API asociado a su cuenta comercial de PayPal. |
 | [!UICONTROL API Password] | Sitio web | La contraseña de API asociada a su cuenta de comerciante de PayPal. |
 | [!UICONTROL API Signature] | Sitio web | La firma de API asociada a su cuenta de comerciante de PayPal. |

@@ -4,11 +4,25 @@ description: Revise la configuración en la página [!UICONTROL Catalog] > [!UIC
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
 TQID: https://experienceleague.adobe.com/YbozeuP9oPvSfHp1zSajemcBuqgkfrkxbfiJmuD625U
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 3350
@@ -289,7 +303,7 @@ Adobe Commerce es compatible con OpenSearch y Elasticsearch. Las versiones de Ad
 | [!UICONTROL OpenSearch HTTP Password] | Global | Cuando _Habilitar autenticación HTTP de Elasticsearch_ está establecido en `Yes`, especifica la contraseña para la autenticación HTTP de OpenSearch o Elasticsearch. |
 | [!UICONTROL OpenSearch Server Timeout] | Global | Determina el número de segundos antes de que se agote el tiempo de espera de una solicitud al servidor OpenSearch o Elasticsearch. Valor predeterminado: `15` |
 | [!UICONTROL Test Connection] |  | Valida la conexión de OpenSearch o Elasticsearch. |
-| [!UICONTROL Enable Search Recommendations] | Vista de tienda | Determina si se ofrecen recomendaciones de búsqueda cuando una búsqueda no devuelve resultados y aparece en la sección `Related search terms` de la página de resultados de búsqueda. Opciones: `Yes` / `No` <br/>Cuando se establece en Yes, se muestran opciones adicionales para _[!UICONTROL Search Recommendations Count]_y_[!UICONTROL Shows Results Count for Each Recommendation]_. |
+| [!UICONTROL Enable Search Recommendations] | Vista de tienda | Determina si se ofrecen recomendaciones de búsqueda cuando una búsqueda no devuelve resultados y aparece en la sección `Related search terms` de la página de resultados de búsqueda. Opciones: `Yes` / `No` <br/>Cuando se establece en Yes, se muestran opciones adicionales para _[!UICONTROL Search Recommendations Count]_&#x200B;y_[!UICONTROL Shows Results Count for Each Recommendation]_. |
 | [!UICONTROL Search Recommendations Count] | Vista de tienda | Especifica el número de términos de búsqueda ofrecidos como recomendaciones. De forma predeterminada, no se muestran más de cinco. |
 | [!UICONTROL Show Results Count for Each Recommendation] | Vista de tienda | Cuando se establece en `Yes`, el número de productos encontrados para la recomendación de búsqueda propuesta se muestra entre corchetes. Opciones: `Yes` / `No` |
 | [!UICONTROL Enable Search Suggestions] | Vista de tienda | Determina si aparecen sugerencias de búsqueda para errores ortográficos comunes. Cuando está habilitada, se ofrecen sugerencias de búsqueda para cualquier solicitud que no devuelva resultados y que aparezca en la sección `Did you mean` de la página **Resultados de búsqueda**. Las sugerencias de búsqueda pueden afectar al rendimiento de la búsqueda. Cuando se establece en `Yes`, se muestran opciones adicionales para Habilitar recomendaciones de búsqueda y campos asociados. Opciones: `Yes` / `No` |
@@ -312,7 +326,7 @@ Adobe Commerce es compatible con OpenSearch y Elasticsearch. Las versiones de Ad
 | [!UICONTROL Default Link Title] | Vista de tienda | El vínculo predeterminado para todos los títulos descargables. |
 | [!UICONTROL Opens Links in New Window] | Sitio web | Determina si el vínculo de descarga se abre en una nueva ventana del explorador. Opciones: `Yes` / `No` |
 | [!UICONTROL Use Content Disposition] | Vista de tienda | Determina cómo se envía el vínculo al contenido descargable, como datos adjuntos de correo electrónico o como vínculo en línea en una ventana del explorador. Opciones: <br/>**`Attachment`**: el vínculo de descarga se entrega como archivo adjunto de correo electrónico.<br/>**`Inline`**: el vínculo de descarga se entrega como un vínculo en línea en una página web. |
-| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | Sitio web | Determina si los invitados que compran productos descargables deben registrarse para obtener una cuenta e iniciar sesión para completar el proceso de cierre de compra. Opciones: <br/>**`Yes`**: si el carro contiene productos descargables, el invitado debe registrarse para obtener una cuenta o iniciar sesión en una cuenta existente para completar la compra.<br/>**`No`**: el vínculo de descarga se entrega como un vínculo en línea en el cuerpo del mensaje de correo electrónico.  <br/> _**Nota:**_ El cierre de compra de invitado solo está disponible para productos de descarga si Compartible está establecido en `Yes`. |
+| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | Sitio web | Determina si los invitados que compran productos descargables deben registrarse para obtener una cuenta e iniciar sesión para completar el proceso de cierre de compra. Opciones: <br/>**`Yes`**: si el carro contiene productos descargables, el invitado debe registrarse para obtener una cuenta o iniciar sesión en una cuenta existente para completar la compra.<br/>**`No`**: el vínculo de descarga se entrega como un vínculo en línea en el cuerpo del mensaje de correo electrónico.  <br/> _&#x200B;**Nota:**&#x200B;_ El cierre de compra de invitado solo está disponible para productos de descarga si Compartible está establecido en `Yes`. |
 
 {style="table-layout:auto"}
 

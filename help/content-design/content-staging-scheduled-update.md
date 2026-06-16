@@ -5,10 +5,16 @@ exl-id: 36b7d7f6-4590-4192-a82b-e5f645b05f62
 feature: Page Content, Staging
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/yR5AygNuuaCFZEMfRpRd-EH6jeSrRUQoVSO--sxF-FE
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 667
@@ -31,7 +37,7 @@ El siguiente ejemplo muestra cómo programar un cambio de precio temporal para u
 
 1. En la cuadrícula _[!UICONTROL Products]_, abra un producto en modo de edición.
 
-1. En el cuadro _[!UICONTROL Scheduled Changes]_de la parte superior de la página, haga clic en **[!UICONTROL Schedule New Update]**.
+1. En el cuadro _[!UICONTROL Scheduled Changes]_&#x200B;de la parte superior de la página, haga clic en **[!UICONTROL Schedule New Update]**.
 
    ![Programar nueva actualización](./assets/content-staging-product-schedule-new-update.png){width="600" zoomable="yes"}
 
@@ -41,7 +47,7 @@ El siguiente ejemplo muestra cómo programar un cambio de precio temporal para u
 
    - Escriba un breve **[!UICONTROL Description]** de la actualización y cómo se va a usar.
 
-   - Use la herramienta Calendario (![Icono de calendario](../assets/icon-calendar.png)) para elegir las fechas de inicio **3} y de finalización** 5} para la campaña.****
+   - Use la herramienta Calendario (![Icono de calendario](../assets/icon-calendar.png)) para elegir las fechas de inicio **3&rbrace; y de finalización** 5&rbrace; para la campaña.**&#x200B;**
 
      Para crear una campaña abierta, no especifique una fecha de finalización (déjela en blanco). Para este ejemplo, la campaña está programada para comenzar a medianoche del 1 de enero de 2021 a las 12:00 AM PST.
 
@@ -54,7 +60,7 @@ El siguiente ejemplo muestra cómo programar un cambio de precio temporal para u
      >
      >La fecha de inicio y finalización de la campaña deben definirse usando la zona horaria del administrador **_default_**, que se convierte a partir de la zona horaria local de cada sitio web. Por ejemplo, cuando tiene varios sitios web en diferentes zonas horarias pero quiere iniciar una campaña basada en una zona horaria de EE. UU. (predeterminada), debe programar una actualización independiente para cada zona horaria local. En este caso, establezca **[!UICONTROL Start Date]** y **[!UICONTROL End Date]** como convertidos desde cada zona horaria del sitio web local a la zona horaria de administración predeterminada.
 
-1. Desplácese hasta _[!UICONTROL Price]_y haga clic en **[!UICONTROL Advanced Pricing]**.
+1. Desplácese hasta _[!UICONTROL Price]_&#x200B;y haga clic en **[!UICONTROL Advanced Pricing]**.
 
 1. Escriba un **[!UICONTROL Special Price]** para el producto durante la campaña programada y haga clic en **[!UICONTROL Done]**.
 

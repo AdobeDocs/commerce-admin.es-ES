@@ -5,10 +5,16 @@ exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/xtwiVV3F8lpix-1dJw-Bg8SAgoC7SfXoGvQzQN560lo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1385
@@ -85,7 +91,7 @@ El espacio de trabajo de páginas incluye herramientas que le ayudarán a encont
 
 ## Búsqueda de página
 
-El cuadro Buscar de la parte superior izquierda de la cuadrícula _[!UICONTROL Pages]_se puede utilizar para buscar páginas específicas por palabra clave. Para una búsqueda más avanzada, puedes [filtrar](../getting-started/admin-grid-controls.md) la búsqueda por varios parámetros.
+El cuadro Buscar de la parte superior izquierda de la cuadrícula _[!UICONTROL Pages]_&#x200B;se puede utilizar para buscar páginas específicas por palabra clave. Para una búsqueda más avanzada, puedes [filtrar](../getting-started/admin-grid-controls.md) la búsqueda por varios parámetros.
 
 ### Buscar por palabra clave
 
@@ -145,7 +151,7 @@ Las páginas se pueden editar, deshabilitar, habilitar y eliminar. Para aplicar 
 
 ### Acción única
 
-Utilice la columna _[!UICONTROL Action]_en el extremo derecho para aplicar cualquiera de las siguientes acciones a la página individual:
+Utilice la columna _[!UICONTROL Action]_&#x200B;en el extremo derecho para aplicar cualquiera de las siguientes acciones a la página individual:
 
 - [!UICONTROL Edit] - abre la página en modo de edición
 - [!UICONTROL Delete] - elimina la página (requiere confirmación)
@@ -155,7 +161,7 @@ Utilice la columna _[!UICONTROL Action]_en el extremo derecho para aplicar cualq
 
 ### Acciones masivas
 
-Aplique cualquiera de las siguientes acciones a varias páginas seleccionadas al mismo tiempo utilizando el selector _[!UICONTROL Action]_en la esquina superior izquierda:
+Aplique cualquiera de las siguientes acciones a varias páginas seleccionadas al mismo tiempo utilizando el selector _[!UICONTROL Action]_&#x200B;en la esquina superior izquierda:
 
 - [!UICONTROL Delete] - elimina las páginas (requiere confirmación)
 - [!UICONTROL Disable]: deshabilita las páginas de la tienda

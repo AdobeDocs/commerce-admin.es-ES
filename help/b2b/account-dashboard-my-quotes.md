@@ -4,11 +4,20 @@ description: Obtenga información acerca de la experiencia del cliente con las o
 exl-id: 137f0a99-8f24-4838-b54b-b0ef2c39a32a
 feature: B2B, Companies, Quotes
 TQID: https://experienceleague.adobe.com/GaasaCrnKreiLSyt2QJp8rffloiC0LJ0-bvdZZ8F5aQ
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1221
@@ -18,7 +27,7 @@ ht-degree: 0%
 
 # [!UICONTROL My Quotes]
 
-Si las ofertas están habilitadas, la sección _[!UICONTROL My Quotes]_del panel de cuentas del cliente enumera todas las ofertas enviadas por el cliente. Según sus permisos, solo los compradores que realizan compras en nombre de una empresa pueden enviar solicitudes para negociar el precio de una compra.
+Si las ofertas están habilitadas, la sección _[!UICONTROL My Quotes]_&#x200B;del panel de cuentas del cliente enumera todas las ofertas enviadas por el cliente. Según sus permisos, solo los compradores que realizan compras en nombre de una empresa pueden enviar solicitudes para negociar el precio de una compra.
 
 ![Mis comillas](./assets/account-dashboard-my-quotes.png){width="700" zoomable="yes"}
 
@@ -163,13 +172,13 @@ Cuando el comprador añade la dirección, el vendedor proporciona las opciones d
 
 1. En la cita abierta justo encima de la sección Elementos citados, hace clic en **[!UICONTROL Close quote]**.
 
-   La solicitud se ha cancelado y el estado de la oferta cambia a `Closed`. El presupuesto cerrado permanece en su lista de presupuestos y permanece en la lista _[!UICONTROL Quotes]_de la administración.
+   La solicitud se ha cancelado y el estado de la oferta cambia a `Closed`. El presupuesto cerrado permanece en su lista de presupuestos y permanece en la lista _[!UICONTROL Quotes]_&#x200B;de la administración.
 
 1. Para quitar el presupuesto cancelado de la lista de presupuestos, haga clic en **[!UICONTROL Delete]**.
 
 1. Cuando se le pida que confirme, hace clic en **[!UICONTROL OK]**.
 
-   La cotización cerrada se elimina de su lista de cotizaciones. Sin embargo, permanece en la lista de la cuadrícula _[!UICONTROL Quotes]_del Administrador, con el estado `Closed`.
+   La cotización cerrada se elimina de su lista de cotizaciones. Sin embargo, permanece en la lista de la cuadrícula _[!UICONTROL Quotes]_&#x200B;del Administrador, con el estado `Closed`.
 
 ## Acciones de oferta
 
@@ -189,6 +198,6 @@ Cuando el comprador añade la dirección, el vendedor proporciona las opciones d
 | [!UICONTROL Quote Name] | El nombre asignado a la solicitud de presupuesto por el comprador. |
 | [!UICONTROL Created] | La fecha en la que se envió la solicitud de presupuesto por primera vez. |
 | [!UICONTROL Created By] | El nombre y apellidos del comprador que envió la solicitud de presupuesto. |
-| [!UICONTROL Status] | Indica el estado de la oferta. El estado de una oferta solo se puede cambiar por acción del comprador o del vendedor. <br/>**[!UICONTROL Submitted]**- El vendedor aún no ha abierto la solicitud de presupuesto del comprador. En este estado, el comprador puede modificar la solicitud de presupuesto. Acciones disponibles: `View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]**: el vendedor ha abierto la solicitud y está revisándola y preparando una respuesta. Acciones disponibles: `View` / `Close` <br/>**[!UICONTROL Updated]**- El vendedor ha enviado una respuesta al comprador y el botón _[!UICONTROL Proceed to Checkout]_está habilitado. En este estado, el comprador puede seguir modificando la oferta. Acciones disponibles: `View` / `Send for Review` / `Proceed to Checkout` / `Delete Quote` / `Close` / `Edit Quantity` / `Delete SKU` / `Add comments` / `Edit Shipping Address`<br/>**[!UICONTROL Open]**- El comprador sigue actualizando la oferta y el botón_[!UICONTROL Proceed to Checkout]_ está desactivado. Acciones disponibles: `View` / `Send for Review` / `Delete Quote` / `Edit quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` <br/>**[!UICONTROL Ordered]**- El comprador ha enviado un pedido basado en el presupuesto negociado. El presupuesto está bloqueado y no se puede editar. Acción disponible: ver<br/>**[!UICONTROL Closed]** - El comprador ha finalizado la negociación y cancela la oferta. La oferta está bloqueada y el comprador o el vendedor no pueden modificarla. Acciones disponibles: `View` / `Delete` <br/>**[!UICONTROL Declined]**- El vendedor ha rechazado la solicitud de presupuesto o para realizar un cambio propuesto durante el proceso de negociación. Se puede rechazar una oferta en cualquier fase del flujo de trabajo. Cualquier precio personalizado se elimina del presupuesto. El comprador puede seguir editando la oferta y volver a enviarla o realizar la compra con los precios de catálogo estándar. Acciones disponibles: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** - La duración de la oferta ha caducado. Se restablecerán todos los precios propuestos. El comprador puede completar la compra basándose en los precios de catálogo estándar o iniciar otra ronda de negociaciones. Acciones disponibles: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
+| [!UICONTROL Status] | Indica el estado de la oferta. El estado de una oferta solo se puede cambiar por acción del comprador o del vendedor. <br/>**[!UICONTROL Submitted]**- El vendedor aún no ha abierto la solicitud de presupuesto del comprador. En este estado, el comprador puede modificar la solicitud de presupuesto. Acciones disponibles: `View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]**: el vendedor ha abierto la solicitud y está revisándola y preparando una respuesta. Acciones disponibles: `View` / `Close` <br/>**[!UICONTROL Updated]**- El vendedor ha enviado una respuesta al comprador y el botón _[!UICONTROL Proceed to Checkout]_&#x200B;está habilitado. En este estado, el comprador puede seguir modificando la oferta. Acciones disponibles: `View` / `Send for Review` / `Proceed to Checkout` / `Delete Quote` / `Close` / `Edit Quantity` / `Delete SKU` / `Add comments` / `Edit Shipping Address`<br/>**[!UICONTROL Open]**- El comprador sigue actualizando la oferta y el botón&#x200B;_[!UICONTROL Proceed to Checkout]_ está desactivado. Acciones disponibles: `View` / `Send for Review` / `Delete Quote` / `Edit quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` <br/>**[!UICONTROL Ordered]**- El comprador ha enviado un pedido basado en el presupuesto negociado. El presupuesto está bloqueado y no se puede editar. Acción disponible: ver<br/>**[!UICONTROL Closed]** - El comprador ha finalizado la negociación y cancela la oferta. La oferta está bloqueada y el comprador o el vendedor no pueden modificarla. Acciones disponibles: `View` / `Delete` <br/>**[!UICONTROL Declined]**- El vendedor ha rechazado la solicitud de presupuesto o para realizar un cambio propuesto durante el proceso de negociación. Se puede rechazar una oferta en cualquier fase del flujo de trabajo. Cualquier precio personalizado se elimina del presupuesto. El comprador puede seguir editando la oferta y volver a enviarla o realizar la compra con los precios de catálogo estándar. Acciones disponibles: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** - La duración de la oferta ha caducado. Se restablecerán todos los precios propuestos. El comprador puede completar la compra basándose en los precios de catálogo estándar o iniciar otra ronda de negociaciones. Acciones disponibles: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
 
 {style="table-layout:auto"}

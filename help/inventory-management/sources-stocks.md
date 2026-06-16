@@ -3,11 +3,20 @@ title: Existencias y fuentes
 description: Obtenga información acerca de las relaciones entre productos, fuentes y existencias.
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
 TQID: https://experienceleague.adobe.com/3nQssDNA41zHJH0SCN6VdMqqfbHCeyc6K0B91-BF8Kc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 809
@@ -45,8 +54,8 @@ Comience con una Stock predeterminada asignada con el Source predeterminado y su
 
 Cantidad es el número de productos del inventario activo que se pueden comprar. La cantidad de productos aumenta y disminuye cuando se completan los envíos o se ajusta el inventario. Añadir productos a un carro de compras no afecta a esta cantidad. La cantidad vendible realiza un seguimiento de la disponibilidad del producto para un canal de ventas y también utiliza este valor para determinar el stock disponible para la compra. Según el número de orígenes, puede ver y administrar la cantidad de productos de una de las siguientes opciones:
 
-- **Cantidad**: para comerciantes de un solo origen, la columna _[!UICONTROL Quantity]_y el valor rastrean la cantidad de inventario disponible.
-- **Cantidad por Source**: para comerciantes de varios orígenes, la columna _[!UICONTROL Quantity per Source]_y los valores rastrean el inventario disponible disponible por ubicación. Si agrega varios orígenes, este valor reemplaza la cantidad y muestra todos los orígenes y las cantidades asignadas.
+- **Cantidad**: para comerciantes de un solo origen, la columna _[!UICONTROL Quantity]_&#x200B;y el valor rastrean la cantidad de inventario disponible.
+- **Cantidad por Source**: para comerciantes de varios orígenes, la columna _[!UICONTROL Quantity per Source]_&#x200B;y los valores rastrean el inventario disponible disponible por ubicación. Si agrega varios orígenes, este valor reemplaza la cantidad y muestra todos los orígenes y las cantidades asignadas.
 
 Las reservas hacen un seguimiento de las solicitudes de stock de todo el proceso de compra: adición de productos al carro de compras, finalización del cierre de compra y administración de los reembolsos. Para el inventario y las existencias disponibles, las reservas reservan los importes de inventario por pedido a través del proceso de cierre de compra, restados de la cantidad vendible. Las reservas se convierten en deducciones de cantidad al facturar y enviar productos.
 

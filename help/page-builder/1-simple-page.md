@@ -4,11 +4,20 @@ description: Use los archivos de ejemplo y siga los pasos para crear una página
 exl-id: 2c146241-675f-4d23-9513-1722d5dd3357
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/i6y4j2MrN59vbxZXYOqTmUyjMURsaK-WOYChOFVW2Bc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 3341
@@ -76,7 +85,7 @@ En esta parte del ejercicio Página simple, se crea una página que tiene una fi
 
 1. Si los datos de ejemplo están disponibles, establezca **[!UICONTROL New Theme]** en `Magento Luma`. De lo contrario, puede elegir otra temática disponible o dejarla en blanco para utilizar la predeterminada.
 
-   La configuración _[!UICONTROL New Theme]_se puede usar para anular el tema predeterminado y aplicar un tema diferente a la página.
+   La configuración _[!UICONTROL New Theme]_&#x200B;se puede usar para anular el tema predeterminado y aplicar un tema diferente a la página.
 
    >[!NOTE]
    >
@@ -118,7 +127,7 @@ En esta parte del ejercicio Página simple, se crea una página que tiene una fi
 
    ![Configuración de fila - sangrado total](./assets/pb-tutorial1-row-settings-appearance-full-bleed.png){width="600" zoomable="yes"}
 
-1. Desplácese hacia abajo hasta la sección _[!UICONTROL Advanced]_y establezca todos los valores de **[!UICONTROL Margins and Padding]**en `0`.
+1. Desplácese hacia abajo hasta la sección _[!UICONTROL Advanced]_&#x200B;y establezca todos los valores de **[!UICONTROL Margins and Padding]**&#x200B;en `0`.
 
    Esta configuración garantiza que el banner amplíe el ancho completo de la fila.
 
@@ -153,7 +162,7 @@ En esta parte del ejercicio Página simple, se crea una página que tiene una fi
 
    ![Apariencia del titular - derecho de collage](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
 
-1. Desplácese hacia abajo hasta la sección _[!UICONTROL Background]_y defina la imagen de fondo del titular:
+1. Desplácese hacia abajo hasta la sección _[!UICONTROL Background]_&#x200B;y defina la imagen de fondo del titular:
 
    - Para **[!UICONTROL Background Image]**, haga clic en **Cargar**.
 
@@ -206,7 +215,7 @@ __
 
 1. Pase el ratón por encima para mostrar el cuadro de herramientas del titular, elija de nuevo el icono _Configuración_ ( ![icono Configuración](./assets/pb-icon-settings.png){width="20"} ) y luego desplácese hasta la sección _[!UICONTROL Content]_.
 
-   Observe que el texto se muestra en el cuadro _Texto del mensaje_. Se puede introducir y editar texto desde el escenario o desde la sección _[!UICONTROL Content]_de la configuración del banner.
+   Observe que el texto se muestra en el cuadro _Texto del mensaje_. Se puede introducir y editar texto desde el escenario o desde la sección _[!UICONTROL Content]_&#x200B;de la configuración del banner.
 
    ![Configuración del banner - texto del mensaje](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
 
@@ -249,7 +258,7 @@ __
 
 1. En la esquina superior derecha del escenario, haga clic en el icono _Cerrar pantalla completa_ (![Icono de cerrar pantalla completa](./assets/pb-icon-reduce.png)).
 
-   Al hacer clic en este icono, volverá a la sección _[!UICONTROL Content]_de la página con la vista previa mostrada.
+   Al hacer clic en este icono, volverá a la sección _[!UICONTROL Content]_&#x200B;de la página con la vista previa mostrada.
 
    Puede alternar entre los dos modos de espacio de trabajo en cualquier momento que desee.
 
@@ -271,7 +280,7 @@ En esta parte del ejercicio, agregue una fila a la página y divida la fila en d
 
 1. Haga clic en **[!UICONTROL Edit with Page Builder]** o dentro del área de vista previa de contenido.
 
-1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un marcador de posición **[!UICONTROL Row]**al escenario y colóquelo sobre el titular.
+1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un marcador de posición **[!UICONTROL Row]**&#x200B;al escenario y colóquelo sobre el titular.
 
    La directriz roja marca el límite entre las dos filas.
 
@@ -291,7 +300,7 @@ En esta parte del ejercicio, agregue una fila a la página y divida la fila en d
 
 ### Paso 2: Añadir una columna
 
-1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un marcador de posición **[!UICONTROL Column]**a la nueva fila.
+1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un marcador de posición **[!UICONTROL Column]**&#x200B;a la nueva fila.
 
    ![Arrastrando un tipo de contenido de columna al escenario](./assets/pb-tutorial1-column-drag-to-stage.png){width="600" zoomable="yes"}
 
@@ -351,7 +360,7 @@ En este paso, aprenderá a cargar una imagen en el titular.
 
 1. En la esquina superior derecha del escenario, haga clic en el icono _Cerrar pantalla completa_ (![Icono de cerrar pantalla completa](./assets/pb-icon-reduce.png)).
 
-   Al hacer clic en este icono, volverá a la sección _[!UICONTROL Content]_de la página con la vista previa mostrada.
+   Al hacer clic en este icono, volverá a la sección _[!UICONTROL Content]_&#x200B;de la página con la vista previa mostrada.
 
 1. En la esquina superior derecha, haga clic en la flecha **[!UICONTROL Save]** y elija **[!UICONTROL Save & Close]**.
 
@@ -371,7 +380,7 @@ La última fila de esta página incluye contenido de una revisión de producto. 
 
 1. Haga clic en **[!UICONTROL Edit with Page Builder]** o dentro del área de vista previa de contenido.
 
-1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un marcador de posición **[!UICONTROL Row]**al escenario y colóquelo sobre la fila que se creó en la segunda parte de este ejercicio.
+1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un marcador de posición **[!UICONTROL Row]**&#x200B;al escenario y colóquelo sobre la fila que se creó en la segunda parte de este ejercicio.
 
    Una directriz roja marca el límite entre las dos filas.
 
@@ -391,7 +400,7 @@ La última fila de esta página incluye contenido de una revisión de producto. 
 
    ![Estableciendo el color de fondo](./assets/pb-tutorial1-row-settings-background-color.png){width="600" zoomable="yes"}
 
-1. Desplácese hacia abajo hasta la sección _[!UICONTROL Advanced]_y establezca todos los valores de **Márgenes y relleno**en `0`.
+1. Desplácese hacia abajo hasta la sección _[!UICONTROL Advanced]_&#x200B;y establezca todos los valores de **Márgenes y relleno**&#x200B;en `0`.
 
    ![Estableciendo márgenes y relleno](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -403,7 +412,7 @@ La última fila de esta página incluye contenido de una revisión de producto. 
 
 ### Paso 2: Añadir columnas de diferentes anchos
 
-1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un marcador de posición **[!UICONTROL Column]**a la fila superior del escenario.
+1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un marcador de posición **[!UICONTROL Column]**&#x200B;a la fila superior del escenario.
 
    ![Arrastrando una columna al escenario](./assets/pb-tutorial1-column-drag.png){width="600" zoomable="yes"}
 
@@ -415,7 +424,7 @@ La última fila de esta página incluye contenido de una revisión de producto. 
 
 1. Pase el ratón sobre el primer contenedor de columnas para ver la caja de herramientas y elija el icono _Configuración_ ( ![icono Configuración](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Desplácese hacia abajo hasta la sección _[!UICONTROL Advanced]_y establezca todos los valores de **Márgenes y relleno**en `0`.
+1. Desplácese hacia abajo hasta la sección _[!UICONTROL Advanced]_&#x200B;y establezca todos los valores de **Márgenes y relleno**&#x200B;en `0`.
 
    ![Estableciendo márgenes y relleno](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -451,7 +460,7 @@ La segunda columna de la fila debe contener contenido de una revisión del clien
 
    ![Insertando una imagen en el texto](./assets/pb-tutorial1-column2-editor-toolbar-insert-image.png){width="600" zoomable="yes"}
 
-   - En el cuadro de diálogo _[!UICONTROL Insert/edit image]_, haga clic en el icono_ Buscar _( ![Icono Buscar](./assets/editor-btn-find-source.png) ) que se encuentra junto al campo_[!UICONTROL Source]_.
+   - En el cuadro de diálogo _[!UICONTROL Insert/edit image]_, haga clic en el icono_ Buscar _( ![Icono Buscar](./assets/editor-btn-find-source.png) ) que se encuentra junto al campo&#x200B;_[!UICONTROL Source]_.
 
      ![Cuadro de diálogo Insertar/editar imagen](./assets/pb-tutorial1-column2-text-insert-edit-image.png){width="600" zoomable="yes"}
 
@@ -513,7 +522,7 @@ La segunda columna de la fila debe contener contenido de una revisión del clien
 
    ![Estableciendo la altura y alineación vertical mínimas](./assets/pb-tutorial1-column2-layout-vertical-alignment.png){width="600" zoomable="yes"}
 
-1. Desplácese hacia abajo hasta la sección _[!UICONTROL Advanced]_y establezca todos los valores de **[!UICONTROL Margins and Padding]**en cero ( `0` ).
+1. Desplácese hacia abajo hasta la sección _[!UICONTROL Advanced]_&#x200B;y establezca todos los valores de **[!UICONTROL Margins and Padding]**&#x200B;en cero ( `0` ).
 
    ![Estableciendo márgenes y relleno](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -547,7 +556,7 @@ La segunda columna de la fila debe contener contenido de una revisión del clien
 
 1. En la esquina superior derecha del escenario, haga clic en el icono _Cerrar pantalla completa_ (![Icono de cerrar pantalla completa](./assets/pb-icon-reduce.png)).
 
-   Al hacer clic en este icono, volverá a la sección _[!UICONTROL Content]_de la página con la vista previa mostrada.
+   Al hacer clic en este icono, volverá a la sección _[!UICONTROL Content]_&#x200B;de la página con la vista previa mostrada.
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Save]**.
 
@@ -577,7 +586,7 @@ Una vez completadas las tres filas, el paso final es reorganizar las filas para 
 
 1. En la esquina superior derecha del escenario, haga clic en el icono _Cerrar pantalla completa_ (![Icono de cerrar pantalla completa](./assets/pb-icon-reduce.png)).
 
-   Al hacer clic en este icono, volverá a la sección _[!UICONTROL Content]_de la página con la vista previa mostrada.
+   Al hacer clic en este icono, volverá a la sección _[!UICONTROL Content]_&#x200B;de la página con la vista previa mostrada.
 
 1. En la esquina superior derecha, haga clic en la flecha **[!UICONTROL Save]** y elija **[!UICONTROL Save & Close]**.
 

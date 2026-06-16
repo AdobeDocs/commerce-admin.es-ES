@@ -4,12 +4,22 @@ description: Aprenda a definir el posicionamiento de productos en una categoría
 exl-id: 09c66a5d-57d4-4e78-a8d8-e3047c1bd35a
 feature: Catalog Management, Categories, Products
 TQID: https://experienceleague.adobe.com/Co2sHVc4YaLqjVrc-Varq9-ssecBB-C2mL3MTAPuQbU
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 424
@@ -31,7 +41,7 @@ Puede configurar las opciones de categoría por separado para cada [vista de tie
 
 1. Si es necesario, elija el **[!UICONTROL Store View]** donde se aplica la configuración.
 
-   Para una instalación de varias tiendas, la configuración _[!UICONTROL Store View]_aplica el criterio de ordenación a todas las vistas disponibles en la tienda.
+   Para una instalación de varias tiendas, la configuración _[!UICONTROL Store View]_&#x200B;aplica el criterio de ordenación a todas las vistas disponibles en la tienda.
 
 1. En el árbol de categorías de la izquierda, elija la categoría que desea editar.
 
@@ -41,7 +51,7 @@ Puede configurar las opciones de categoría por separado para cada [vista de tie
 
 >[!NOTE]
 >
->Al ordenar una categoría por un atributo de producto, los productos con los mismos valores de atributo también se ordenan por su _[!UICONTROL Product ID]_en orden ascendente.
+>Al ordenar una categoría por un atributo de producto, los productos con los mismos valores de atributo también se ordenan por su _[!UICONTROL Product ID]_&#x200B;en orden ascendente.
 
 En la sección _[!UICONTROL Products in Category]_, haga clic en el icono de mosaicos ( ![Ver mosaicos](../assets/icon-view-tiles.png) ) para mostrar los mosaicos del producto en una cuadrícula. Utilice el método manual o automático para ordenar los productos.
 

@@ -4,11 +4,23 @@ description: Revise la configuración de la sección [!UICONTROL Braintree] en l
 exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 feature: Configuration, Payments
 TQID: https://experienceleague.adobe.com/nYlyPsbZ5YhBI6C6pzOk9Ns-6pA6VME3uzKfRhJ5HLo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 2710
@@ -40,12 +52,12 @@ ht-degree: 0%
 | [!UICONTROL Title] | Vista de tienda | Valor predeterminado: `Credit Card` (Braintree) |
 | [!UICONTROL Environment] | Vista de tienda | Opciones: `Sandbox` / `Production` |
 | [!UICONTROL Payment Action] | Vista de tienda | Determina la acción realizada por Braintree cuando se procesa un pago. Opciones: <br/>**`Authorize`**- Los fondos de la tarjeta de crédito del cliente están autorizados, pero no se transfieren desde la cuenta. Se crea un pedido en el administrador de la tienda. Más tarde puede capturar la venta y crear una factura.<br/>**`Intent Sale`** (anteriormente `Authorize and Capture` en versiones anteriores): Braintree autoriza y captura los fondos de la tarjeta de crédito del cliente, y se crean un pedido y una factura en el administrador de la tienda. |
-| [!UICONTROL Sandbox Merchant ID] | Vista de tienda | Este es el identificador único de toda la cuenta de puerta de enlace de la zona protegida. También conocido como _ID público_ o _ID de producción_, su ID de comerciante es diferente para sus puertas de enlace de producción y de zona protegida. Este campo aparece cuando el campo _[!UICONTROL Environment]_está establecido en `Sandbox`. |
-| [!UICONTROL Sandbox Public Key] | Vista de tienda | Identificador público específico del usuario que restringe el acceso a los datos cifrados. Cada usuario asociado con su puerta de enlace de Braintree de zona protegida tiene su propia clave pública de zona protegida. Este campo aparece cuando el campo _[!UICONTROL Environment]_está establecido en `Sandbox`. |
-| [!UICONTROL Sandbox Private Key] | Vista de tienda | Identificador privado específico del usuario que restringe el acceso a los datos cifrados. Cada usuario asociado con la puerta de enlace de Braintree de la zona protegida tiene su propia clave privada para la zona protegida. Este campo aparece cuando el campo _[!UICONTROL Environment]_está establecido en `Sandbox`. |
-| [!UICONTROL Merchant ID] | Vista de tienda | Este es el identificador único de toda la cuenta de puerta de enlace, incluidas las cuentas de varios comerciantes que pueden estar en la puerta de enlace. También conocido como _ID público_ o _ID de producción_, su ID de comerciante es diferente para sus puertas de enlace de producción y de zona protegida. Este campo aparece cuando el campo _[!UICONTROL Environment]_está establecido en `Production`. |
-| [!UICONTROL Public Key] | Vista de tienda | Identificador público específico del usuario que restringe el acceso a los datos cifrados. Cada usuario asociado con su puerta de enlace de Braintree tiene su propia clave pública. Este campo aparece cuando el campo _[!UICONTROL Environment]_está establecido en `Production`. |
-| [!UICONTROL Private Key] | Vista de tienda | Identificador privado específico del usuario que restringe el acceso a los datos cifrados. Cada usuario asociado con su puerta de enlace de Braintree tiene su propia clave privada. Este campo aparece cuando el campo _[!UICONTROL Environment]_está establecido en `Production`. |
+| [!UICONTROL Sandbox Merchant ID] | Vista de tienda | Este es el identificador único de toda la cuenta de puerta de enlace de la zona protegida. También conocido como _ID público_ o _ID de producción_, su ID de comerciante es diferente para sus puertas de enlace de producción y de zona protegida. Este campo aparece cuando el campo _[!UICONTROL Environment]_&#x200B;está establecido en `Sandbox`. |
+| [!UICONTROL Sandbox Public Key] | Vista de tienda | Identificador público específico del usuario que restringe el acceso a los datos cifrados. Cada usuario asociado con su puerta de enlace de Braintree de zona protegida tiene su propia clave pública de zona protegida. Este campo aparece cuando el campo _[!UICONTROL Environment]_&#x200B;está establecido en `Sandbox`. |
+| [!UICONTROL Sandbox Private Key] | Vista de tienda | Identificador privado específico del usuario que restringe el acceso a los datos cifrados. Cada usuario asociado con la puerta de enlace de Braintree de la zona protegida tiene su propia clave privada para la zona protegida. Este campo aparece cuando el campo _[!UICONTROL Environment]_&#x200B;está establecido en `Sandbox`. |
+| [!UICONTROL Merchant ID] | Vista de tienda | Este es el identificador único de toda la cuenta de puerta de enlace, incluidas las cuentas de varios comerciantes que pueden estar en la puerta de enlace. También conocido como _ID público_ o _ID de producción_, su ID de comerciante es diferente para sus puertas de enlace de producción y de zona protegida. Este campo aparece cuando el campo _[!UICONTROL Environment]_&#x200B;está establecido en `Production`. |
+| [!UICONTROL Public Key] | Vista de tienda | Identificador público específico del usuario que restringe el acceso a los datos cifrados. Cada usuario asociado con su puerta de enlace de Braintree tiene su propia clave pública. Este campo aparece cuando el campo _[!UICONTROL Environment]_&#x200B;está establecido en `Production`. |
+| [!UICONTROL Private Key] | Vista de tienda | Identificador privado específico del usuario que restringe el acceso a los datos cifrados. Cada usuario asociado con su puerta de enlace de Braintree tiene su propia clave privada. Este campo aparece cuando el campo _[!UICONTROL Environment]_&#x200B;está establecido en `Production`. |
 | [!UICONTROL Enable Card Payments] | Sitio web | Determina si el método de pago con tarjeta de crédito Braintree está disponible para los clientes como método de pago. Opciones: `Yes` / `No` |
 | [!UICONTROL Enable Vault for Card Payments] | Sitio web | Cuando está activada, proporciona almacenamiento seguro para la información de pago del cliente, de modo que los clientes no tienen que volver a introducir la información de su tarjeta de crédito para cada compra. Opciones: `Yes` / `No` |
 | [!UICONTROL Enable Vault CVV Re-verification] | Sitio web | Cuando está habilitada, se realiza la validación de las reglas CVV configuradas en su cuenta de Braintree. Opciones: `Yes` / `No` |
@@ -163,7 +175,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable Venmo through Braintree] | Sitio web | Determina si [!DNL Venmo] se incluye como método de pago a través de Braintree. Opciones: `Yes` / `No` |
 | [!UICONTROL Enable Vault for Venmo] | Sitio web | Los clientes pueden depositar su método de pago Venmo para uso futuro. Una vez que los detalles de pago se hayan guardado, el cliente podrá usar el método de pago Venmo sin tener que volver a introducir los datos o volver a autenticar su información de pago. Opciones: `Yes` / `No` |
-| [!UICONTROL Payment Action] | Sitio web | Determina la acción realizada por Braintree cuando se procesa un pago. Opciones: <br/>**`Authorize`**- Los fondos de la tarjeta del cliente están autorizados, pero no se transfieren desde la cuenta del cliente. Se crea un pedido en el administrador de la tienda. Más tarde puede capturar la venta y crear una factura.<br/>**`Intent Sale`**: Braintree autoriza y captura los fondos de la tarjeta del cliente, y se crean un pedido y una factura en el administrador de la tienda. **_Note:_**Esto fue_ Autorizar y capturar_ en 2.3.x y versiones anteriores. |
+| [!UICONTROL Payment Action] | Sitio web | Determina la acción realizada por Braintree cuando se procesa un pago. Opciones: <br/>**`Authorize`**- Los fondos de la tarjeta del cliente están autorizados, pero no se transfieren desde la cuenta del cliente. Se crea un pedido en el administrador de la tienda. Más tarde puede capturar la venta y crear una factura.<br/>**`Intent Sale`**: Braintree autoriza y captura los fondos de la tarjeta del cliente, y se crean un pedido y una factura en el administrador de la tienda. **_Note:_**&#x200B;Esto fue_ Autorizar y capturar_ en 2.3.x y versiones anteriores. |
 | [!UICONTROL Sort Order] | Sitio web | Determina el pedido en el que Venmo aparece junto con otras formas de pago durante el cierre de compra. |
 
 {style="table-layout:auto"}

@@ -4,11 +4,23 @@ description: Aprenda a utilizar códigos de cupones con reglas de precio de carr
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
 TQID: https://experienceleague.adobe.com/axmELQfcYT3VH7GBKMh-Z3xdN1v6eROpIp9FDYb6zBg
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
 workflow-type: tm+mt
 source-wordcount: 2338
@@ -193,7 +205,7 @@ Para eliminar códigos de cupones, seleccione uno o varios códigos de la lista.
 
 Después de crear una [regla de precio de carro de compras](price-rules-cart.md), puede agregar manualmente códigos de cupones personalizados a la regla.
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**y seleccione la regla a la que desee agregar códigos de cupones personalizados.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;y seleccione la regla a la que desee agregar códigos de cupones personalizados.
 
 1. Expanda la sección **[!UICONTROL Manage Coupon Codes]** y haga clic en **[!UICONTROL Add Coupon Code]**.
 
@@ -209,7 +221,7 @@ Para eliminar códigos de cupones personalizados, seleccione los códigos que de
 
 Para editar códigos de cupones personalizados o ver detalles de uso, haga clic en **[!UICONTROL Edit]** en la columna **[!UICONTROL Actions]**.
 
-<InlineAlert variant="info" slots="text"/>
+&lt;InlineAlert variant="info" slots="text"/>
 
 El código de cupón principal que pertenece a la regla de precio del carro de compras no se puede editar ni eliminar.
 
@@ -219,7 +231,7 @@ El código de cupón principal que pertenece a la regla de precio del carro de c
 
 Si tiene una lista de códigos de cupones predefinidos, puede adjuntarlos a la regla de precio del carro de compras desde un archivo CSV en lugar de agregar cada código individualmente. El archivo CSV debe constar de una sola columna con los códigos de cupones.
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**y seleccione la regla en la que desea importar los códigos de cupones personalizados.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;y seleccione la regla en la que desea importar los códigos de cupones personalizados.
 
 1. Expanda la sección **[!UICONTROL Manage Coupon Codes]** y haga clic en **[!UICONTROL Import]**.
 
@@ -248,7 +260,7 @@ Si tiene una lista de códigos de cupones predefinidos, puede adjuntarlos a la r
 
    ![Importar resultado de cupones](./assets/import-coupons-result.png){width="600" zoomable="yes"}
 
-Para supervisar el progreso y los resultados detallados de la importación, haga clic en **[!UICONTROL View progress in Bulk Actions Log]** o vaya a **[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**. Cada importación aparece como una sola entrada en **[!UICONTROL Bulk Actions]**y seleccione una entrada.
+Para supervisar el progreso y los resultados detallados de la importación, haga clic en **[!UICONTROL View progress in Bulk Actions Log]** o vaya a **[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**. Cada importación aparece como una sola entrada en **[!UICONTROL Bulk Actions]**&#x200B;y seleccione una entrada.
 
 ## Informe de cupones
 

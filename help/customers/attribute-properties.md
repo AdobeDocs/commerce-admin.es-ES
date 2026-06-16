@@ -4,11 +4,23 @@ description: Obtenga información sobre cómo configurar las propiedades de atri
 exl-id: d464f846-6a1f-43bd-876a-6834605ef794
 feature: Customers, Configuration
 TQID: https://experienceleague.adobe.com/87E8bc4M62TbP-gRdn-LoRzpZY7sd1o9SbMswZW0ueY
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1820
@@ -42,7 +54,7 @@ Los atributos del cliente proporcionan la información necesaria para respaldar 
 
    >[!TIP]
    >
-   >**Acceso directo:** Para completar solo los campos requeridos, desplácese hacia abajo hasta _[!UICONTROL Storefront Properties]_, escriba_[!UICONTROL Sort Order]_ y guarde.
+   >**Acceso directo:** Para completar solo los campos requeridos, desplácese hacia abajo hasta _[!UICONTROL Storefront Properties]_, escriba&#x200B;_[!UICONTROL Sort Order]_ y guarde.
 
 1. Complete las propiedades de entrada de datos:
 
@@ -53,7 +65,7 @@ Los atributos del cliente proporcionan la información necesaria para respaldar 
      | `Text Field` | Campo de texto de una sola línea. |
      | `Text Area` | Campo de entrada de varias líneas para introducir párrafos de texto, como una descripción del producto. Puede utilizar el editor de WYSIWYG para dar formato al texto con etiquetas de HTML o introducir las etiquetas directamente en el texto. |
      | `Multiple Line` | Crea varias líneas de texto para el atributo, de forma similar a una dirección de calle de varias líneas. El número de líneas de entrada de datos independientes puede ser de dos a 20. Use `Default Value` para especificar el valor inicial del campo. |
-     | `Date` | Muestra un valor de fecha en el formato de fecha y zona horaria preferidos. Los valores de fecha se pueden seleccionar de una lista o un calendario ( ![Icono de calendario](../assets/icon-calendar.png)). <br/><br/>**_Nota:_**Según la configuración de tu sistema, los usuarios de_ Admin_ pueden ingresar fechas directamente en un campo o seleccionar una fecha del calendario o lista. Para obtener información acerca de cómo especificar valores de fecha y hora, vea [Opciones de fecha y hora](../catalog/attributes-input-types.md#date-and-time-options). |
+     | `Date` | Muestra un valor de fecha en el formato de fecha y zona horaria preferidos. Los valores de fecha se pueden seleccionar de una lista o un calendario ( ![Icono de calendario](../assets/icon-calendar.png)). <br/><br/>**_Nota:_**&#x200B;Según la configuración de tu sistema, los usuarios de_ Admin_ pueden ingresar fechas directamente en un campo o seleccionar una fecha del calendario o lista. Para obtener información acerca de cómo especificar valores de fecha y hora, vea [Opciones de fecha y hora](../catalog/attributes-input-types.md#date-and-time-options). |
      | `Yes/No` | Muestra una lista desplegable con opciones predefinidas de `Yes` y `No`. |
      | `Dropdown` | Muestra una lista desplegable de valores que solo acepta una selección. El tipo de entrada desplegable es un componente clave de [productos configurables](../catalog/product-create-configurable.md). |
      | `Multiple Select` | Lista desplegable que acepta que se seleccionen varios valores. |

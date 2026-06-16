@@ -4,11 +4,20 @@ description: Revise la configuración en la página [!UICONTROL Catalog] > [!UIC
 exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
 feature: Configuration, Inventory
 TQID: https://experienceleague.adobe.com/kxlKhWRjFDUH97FDenycl4nU1QdBWzceDCKfhZ0MTAc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1225
@@ -75,7 +84,7 @@ ht-degree: 0%
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Run asynchronously] | Global | Determina si ejecuta operaciones masivas de forma asincrónica para acciones de productos masivas, entre las que se incluyen [bulk](../../inventory-management/bulk-assignment.md) asignar orígenes, anular la asignación de orígenes y [transferir inventario a origen](../../inventory-management/inventory-transfer.md). Recopila acciones masivas hasta _[!UICONTROL Asynchronous batch size]_y luego ejecuta esas acciones. Esta función está desactivada de forma predeterminada. Se recomienda revisar el rendimiento con acciones masivas antes de habilitar. Opciones:<br/>**`Yes`**- Ejecuta todas las operaciones masivas de [!DNL Inventory Management] de forma asincrónica. Para habilitarlo, debe configurar un administrador de colas asincrónico.<br/>**`No`**- Predeterminado. No ejecuta operaciones masivas de forma asincrónica. |
+| [!UICONTROL Run asynchronously] | Global | Determina si ejecuta operaciones masivas de forma asincrónica para acciones de productos masivas, entre las que se incluyen [bulk](../../inventory-management/bulk-assignment.md) asignar orígenes, anular la asignación de orígenes y [transferir inventario a origen](../../inventory-management/inventory-transfer.md). Recopila acciones masivas hasta _[!UICONTROL Asynchronous batch size]_&#x200B;y luego ejecuta esas acciones. Esta función está desactivada de forma predeterminada. Se recomienda revisar el rendimiento con acciones masivas antes de habilitar. Opciones:<br/>**`Yes`**- Ejecuta todas las operaciones masivas de [!DNL Inventory Management] de forma asincrónica. Para habilitarlo, debe configurar un administrador de colas asincrónico.<br/>**`No`**- Predeterminado. No ejecuta operaciones masivas de forma asincrónica. |
 | [!UICONTROL Asynchronous batch size] | Global | Establezca **[!UICONTROL Run asynchronously]** en `Yes` para introducir un valor para el campo _[!UICONTROL Asynchronous batch size]_. <br/>El tamaño predeterminado del lote es 100. Cuando los procesos masivos alcanzan esta cantidad, se ejecutan. |
 
 {style="table-layout:auto"}

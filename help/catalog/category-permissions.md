@@ -4,12 +4,22 @@ description: Aprenda a utilizar categorías para controlar la visualización de 
 exl-id: d80a0545-918e-4c08-9f37-4aa3cd7771f4
 feature: Catalog Management, Categories, Customers, Configuration
 TQID: https://experienceleague.adobe.com/dtRyq4TsN2ruBV9iQvyFAhv6RUqBFVpzRiqPVqSxJEA
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 780
@@ -31,13 +41,13 @@ Por ejemplo, si vende solamente a clientes mayoristas, puede permitir que cualqu
 
 ![Los usuarios que iniciaron sesión ven la categoría &quot;Colecciones&quot;](./assets/storefront-category-permissions-logged-in.png){width="600" zoomable="yes"}
 
-Cuando está habilitada, aparece una nueva sección _[!UICONTROL Category Permissions]_en la página Categoría que le permite aplicar el acceso necesario para cada categoría. Puede agregar varias reglas de permisos a cada categoría para diferentes sitios web y grupos de clientes.
+Cuando está habilitada, aparece una nueva sección _[!UICONTROL Category Permissions]_&#x200B;en la página Categoría que le permite aplicar el acceso necesario para cada categoría. Puede agregar varias reglas de permisos a cada categoría para diferentes sitios web y grupos de clientes.
 
 ## Paso 1: Configurar los permisos de categoría
 
 >[!IMPORTANT]
 >
->**_todas_** las categorías del catálogo omiten la configuración de permisos de grupo](../configuration-reference/catalog/catalog.md#category-permissions) de [existente cuando la característica **_[!UICONTROL Shared Catalog]_** está habilitada. [!UICONTROL Shared Catalog] controla completamente todos los permisos de categoría en el catálogo cuando está habilitado.
+>**_todas_** las categorías del catálogo omiten la configuración de permisos de grupo[&#128279;](../configuration-reference/catalog/catalog.md#category-permissions) de existente cuando la característica **_[!UICONTROL Shared Catalog]_** está habilitada. [!UICONTROL Shared Catalog] controla completamente todos los permisos de categoría en el catálogo cuando está habilitado.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -81,7 +91,7 @@ Para **_restringir el acceso y redirigir a una página de aterrizaje_**, haga lo
 
    >[!NOTE]
    >
-   >Aunque la configuración _[!UICONTROL Allow Browsing Category]_se aplica a todas las categorías del sitio web, puede configurar una página de aterrizaje diferente para cada vista de tienda.
+   >Aunque la configuración _[!UICONTROL Allow Browsing Category]_&#x200B;se aplica a todas las categorías del sitio web, puede configurar una página de aterrizaje diferente para cada vista de tienda.
 
 ### [!UICONTROL Display Product Prices]
 

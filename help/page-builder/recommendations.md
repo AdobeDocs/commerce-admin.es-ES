@@ -4,11 +4,19 @@ description: Obtenga información acerca del tipo de contenido Recomendaciones d
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
 TQID: https://experienceleague.adobe.com/-k8EyTQjwCcPq4hrMG425GkOD9oYcVSCRhRwUgxFWsY
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 962
@@ -51,11 +59,11 @@ Use el tipo de contenido _Product Recommendations_ para agregar una [unidad de r
 
 1. Abra la página, el bloque o el bloque dinámico en modo de edición.
 
-1. Expanda la sección _[!UICONTROL Content]_y haga clic en **[!UICONTROL Edit with Page Builder]**o dentro del área de vista previa de contenido para abrir el área de trabajo [!DNL Page Builder].
+1. Expanda la sección _[!UICONTROL Content]_&#x200B;y haga clic en **[!UICONTROL Edit with Page Builder]**&#x200B;o dentro del área de vista previa de contenido para abrir el área de trabajo [!DNL Page Builder].
 
-1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un marcador de posición **[!UICONTROL Row]**al escenario.
+1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un marcador de posición **[!UICONTROL Row]**&#x200B;al escenario.
 
-1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Add Content]_, arrastre un marcador de posición **[!UICONTROL Product Recommendation]**a la fila.
+1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Add Content]_, arrastre un marcador de posición **[!UICONTROL Product Recommendation]**&#x200B;a la fila.
 
    ![Agregando el tipo de contenido de recomendación de producto](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
@@ -74,7 +82,7 @@ Use el tipo de contenido _Product Recommendations_ para agregar una [unidad de r
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add Selected]**.
 
-   El nombre de la recomendación de producto seleccionada aparece en la sección _[!UICONTROL Selection]_de la página_[!UICONTROL Edit Product Recommendation]_.
+   El nombre de la recomendación de producto seleccionada aparece en la sección _[!UICONTROL Selection]_&#x200B;de la página&#x200B;_[!UICONTROL Edit Product Recommendation]_.
 
 1. Realice los cambios necesarios en la [configuración avanzada](#advanced-settings).
 

@@ -4,11 +4,20 @@ description: Obtenga información sobre cómo definir muestras para los listados
 exl-id: 6163cec4-5d84-4e2c-ba5c-3c22ac4e3f28
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/RB77PDf2GytxFg3OXgYJB68pwKl4BfERcC5xn4bPSso
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1175
@@ -26,7 +35,7 @@ Para [productos configurables](product-create-configurable.md), el color se pued
 
 >[!NOTE]
 >
->Los atributos de muestra se pueden configurar para que no muestren las imágenes de producto simples correspondientes cuando se seleccione la muestra estableciendo el valor de opción _[!UICONTROL Update Product Preview Image]_en `No` en la página [!UICONTROL Attribute Edit] en el Administrador.
+>Los atributos de muestra se pueden configurar para que no muestren las imágenes de producto simples correspondientes cuando se seleccione la muestra estableciendo el valor de opción _[!UICONTROL Update Product Preview Image]_&#x200B;en `No` en la página [!UICONTROL Attribute Edit] en el Administrador.
 
 ## Muestras basadas en texto
 
@@ -36,7 +45,7 @@ Si una imagen no está disponible para una muestra, el valor del atributo aparec
 
 ## Muestras en la navegación por capas
 
-Las muestras también se pueden usar en la navegación por capas, si la propiedad _[!UICONTROL Use in Layered Navigation]_del atributo de color está establecida en `Yes`. El siguiente ejemplo muestra muestras de imagen basadas en texto y en color en la navegación por capas.
+Las muestras también se pueden usar en la navegación por capas, si la propiedad _[!UICONTROL Use in Layered Navigation]_&#x200B;del atributo de color está establecida en `Yes`. El siguiente ejemplo muestra muestras de imagen basadas en texto y en color en la navegación por capas.
 
 ![Muestras mostradas en la navegación por capas](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
 
@@ -64,7 +73,7 @@ Utilice cualquiera de los siguientes métodos para crear muestras para sus produ
 
 1. Si prefiere no mostrar las imágenes de productos simples correspondientes cuando la muestra se selecciona en la página de visualización del producto, establezca **[!UICONTROL Update Product Preview Image]** en `No`.
 
-1. En _[!UICONTROL Manage Swatch (Values of Your Attribute)]_, haga clic en **[!UICONTROL Add Swatch]**y haga lo siguiente:
+1. En _[!UICONTROL Manage Swatch (Values of Your Attribute)]_, haga clic en **[!UICONTROL Add Swatch]**&#x200B;y haga lo siguiente:
 
    ![Administrar valores de muestra](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
 
@@ -112,7 +121,7 @@ Utilice cualquiera de los siguientes métodos para crear muestras para sus produ
 
 1. Si prefiere no mostrar las imágenes de productos simples correspondientes cuando la muestra se selecciona en la página de visualización del producto, establezca **[!UICONTROL Update Product Preview Image]** en `No`.
 
-1. En _[!UICONTROL Manage Swatch]_(valores de su atributo), haga clic en **[!UICONTROL Add Swatch]**y haga lo siguiente:
+1. En _[!UICONTROL Manage Swatch]_(valores de su atributo), haga clic en **[!UICONTROL Add Swatch]**&#x200B;y haga lo siguiente:
 
    - En la columna _[!UICONTROL Swatch]_, haga clic en la nueva muestra para mostrar el menú y elija **[!UICONTROL Upload a file]**.
 

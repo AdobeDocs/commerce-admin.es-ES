@@ -4,11 +4,22 @@ description: Obtenga información acerca del tipo de contenido Slider que se usa
 exl-id: 757dbdc3-b146-4ef8-a17d-59f8da62626f
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/P-1NgnGbb02-KXlx2hK0utD569y4Zdk6c1azxTJGzZ0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 3813
@@ -262,7 +273,7 @@ Un tipo de fondo puede ser una imagen o un vídeo. [!DNL Page Builder] toma el v
 
 ### Configuración del tipo de imagen
 
-Si establece _[!UICONTROL Background Type]_en `Image`, utilice la siguiente configuración para definir la visualización de la imagen de fondo.
+Si establece _[!UICONTROL Background Type]_&#x200B;en `Image`, utilice la siguiente configuración para definir la visualización de la imagen de fondo.
 
 ![Titular con imagen de fondo](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
@@ -344,9 +355,9 @@ Puede modificar el contenido de la diapositiva directamente en el escenario o al
 
 1. Haga clic en el punto de navegación en la parte inferior del control deslizante para mostrar el cuadro de herramientas de la diapositiva individual y elija el icono _Configuración_ ( ![icono Configuración](./assets/pb-icon-settings.png){width="20"} ).
 
-1. En la sección _[!UICONTROL Content]_, escriba el(la)**[!UICONTROL Message Text]**que desea que aparezca con la diapositiva.
+1. En la sección _[!UICONTROL Content]_, escriba el(la)**[!UICONTROL Message Text]**&#x200B;que desea que aparezca con la diapositiva.
 
-1. Desplácese hacia abajo hasta la sección _[!UICONTROL Content]_y utilice el editor **[!UICONTROL Message Text]**para escribir y dar formato al texto del titular.
+1. Desplácese hacia abajo hasta la sección _[!UICONTROL Content]_&#x200B;y utilice el editor **[!UICONTROL Message Text]**&#x200B;para escribir y dar formato al texto del titular.
 
    También puede insertar elementos, como vínculos de texto, imágenes y widgets.
 

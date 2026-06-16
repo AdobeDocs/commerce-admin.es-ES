@@ -4,11 +4,20 @@ description: Aprenda a administrar los suscriptores del boletín informativo con
 exl-id: c7e8e642-e3fd-4979-9ea3-2d96839730b2
 feature: Customers, Communications
 TQID: https://experienceleague.adobe.com/l4Kmwm62UeLYZva-SCsVHPmf4IbKQhgoyN9N7zo4O0g
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 509
@@ -64,7 +73,7 @@ Si desea utilizar un servicio de terceros para enviar boletines informativos, pu
    >
    >Para cancelar la suscripción de forma masiva, seleccione la casilla de cada suscriptor que desee cancelar.
 
-1. Establezca el control _[!UICONTROL Action]_en **[!UICONTROL Unsubscribe]**y haga clic en **[!UICONTROL Submit]**.
+1. Establezca el control _[!UICONTROL Action]_&#x200B;en **[!UICONTROL Unsubscribe]**&#x200B;y haga clic en **[!UICONTROL Submit]**.
 
    ![Cancelar suscripción al boletín](./assets/newsletter-unsubscribe.png){width="600" zoomable="yes"}
 
@@ -89,6 +98,6 @@ Si desea utilizar un servicio de terceros para enviar boletines informativos, pu
 
 1. Busque el suscriptor en la cuadrícula y seleccione la casilla de verificación en la primera columna.
 
-1. Establezca el control _[!UICONTROL Action]_en **[!UICONTROL Delete]**y haga clic en **[!UICONTROL Submit]**.
+1. Establezca el control _[!UICONTROL Action]_&#x200B;en **[!UICONTROL Delete]**&#x200B;y haga clic en **[!UICONTROL Submit]**.
 
 1. Cuando se le pida que confirme, haga clic en **[!UICONTROL OK]**.

@@ -4,11 +4,23 @@ description: Los visitantes pueden crear fácilmente una cuenta de cliente indiv
 exl-id: 8d08c0e1-f3ba-4423-98a7-ffa8ba5a1b8b
 feature: Customers, Storefront
 TQID: https://experienceleague.adobe.com/WwW2j0QIwKOe0r7XqH01-NGxggVfg-QBYewdD6a4GFs
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1281
@@ -122,7 +134,7 @@ Como comerciante, puede crear una cuenta de cliente desde el Administrador.
 
    >[!INFO]
    >
-   >Una vez guardada la cuenta del cliente, aparece el conjunto completo de opciones en el panel izquierdo y en el menú situado en la parte superior de la página. La ficha _[!UICONTROL Customer View]_muestra un resumen de la cuenta.
+   >Una vez guardada la cuenta del cliente, aparece el conjunto completo de opciones en el panel izquierdo y en el menú situado en la parte superior de la página. La ficha _[!UICONTROL Customer View]_&#x200B;muestra un resumen de la cuenta.
 
    ![Vista del cliente](assets/customer-account-create-saved.png){width="600" zoomable="yes"}
 
@@ -153,7 +165,7 @@ Como comerciante, puede crear una cuenta de cliente desde el Administrador.
 
    De lo contrario, haga clic en **[!UICONTROL Save and Continue Edit]** y repita los pasos anteriores para agregar direcciones adicionales.
 
-   La nueva dirección se muestra en la página [!UICONTROL Addresses] con las direcciones _[!UICONTROL Default Billing]_y_[!UICONTROL Default Shipping]_ seleccionadas encima de la lista completa.
+   La nueva dirección se muestra en la página [!UICONTROL Addresses] con las direcciones _[!UICONTROL Default Billing]_&#x200B;y_[!UICONTROL Default Shipping]_ seleccionadas encima de la lista completa.
 
    ![Vista de direcciones](assets/address-list.png){width="600" zoomable="yes"}
 
@@ -175,7 +187,7 @@ Hay botones adicionales disponibles cuando el perfil se guarda por primera vez. 
 
 | Botón | Descripción |
 |--- |--- |
-| **[!UICONTROL Back]** | Vuelve a la página _[!UICONTROL Customers]_sin guardar los cambios. |
+| **[!UICONTROL Back]** | Vuelve a la página _[!UICONTROL Customers]_&#x200B;sin guardar los cambios. |
 | **[!UICONTROL Delete Customer]** | Elimina el cliente actual. Los pedidos completados asociados con el cliente no se eliminan. |
 | **[!UICONTROL Reset]** | Restablece los cambios no guardados en el formulario del cliente a sus valores anteriores. |
 | **[!UICONTROL Create Order]** | Crea un pedido para el cliente. |
