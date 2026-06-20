@@ -39,7 +39,7 @@ Para acceder a los ajustes de configuración de Payment Services, en la barra la
 
 >[!NOTE]
 >
->Para usar la configuración heredada en lugar de [Configuración](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html), consulte [Configuración heredada](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/configure-admin.html?lang=es).
+>Para usar la configuración heredada en lugar de [Configuración](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html?lang=es), consulte [Configuración heredada](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/configure-admin.html?lang=es).
 
 ## [!UICONTROL General]
 

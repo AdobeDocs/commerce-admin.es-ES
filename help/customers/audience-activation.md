@@ -203,7 +203,7 @@ Después de instalar la extensión [!DNL Audience Activation], debe iniciar sesi
 
 1. En el campo **[!UICONTROL Datastream ID]**, pegue el ID de la secuencia de datos que creó al [activar](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=es#parameters) Adobe Commerce como destino en Real-Time CDP.
 
-   Esta secuencia de datos envía datos del sitio web de Commerce a Real-Time CDP para determinar si un comprador pertenece a una audiencia. Si aún no ha creado una secuencia de datos, [cree](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) una en Experience Platform, [agréguela](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=es) al destino de Commerce en Real-Time CDP y a la extensión [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=es#data-collection) en el administrador.
+   Esta secuencia de datos envía datos del sitio web de Commerce a Real-Time CDP para determinar si un comprador pertenece a una audiencia. Si aún no ha creado una secuencia de datos, [cree](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=es#create) una en Experience Platform, [agréguela](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=es) al destino de Commerce en Real-Time CDP y a la extensión [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=es#data-collection) en el administrador.
 
    >[!NOTE]
    >
@@ -267,7 +267,7 @@ La arquitectura general es la siguiente:
 
 Después de [instalar](#install-the-extension) y [configurar](#configure-the-extension) la extensión, Experience Platform Web SDK contiene la información de la audiencia en forma de abono a segmentos.
 
-Para capturar esas pertenencias a segmentos desde SDK, consulte este [fragmento de código](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html#example-response-for-custom-personalization-with-attributes).
+Para capturar esas pertenencias a segmentos desde SDK, consulte este [fragmento de código](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=es#example-response-for-custom-personalization-with-attributes).
 
 Una vez recuperado, puede pasar esos segmentos a Commerce dentro del encabezado de GraphQL. Por ejemplo:
 

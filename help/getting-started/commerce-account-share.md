@@ -147,5 +147,5 @@ Las siguientes instrucciones se escriben desde la perspectiva de un usuario comp
 
 ## Lectura relacionada
 
-[Solución de problemas de acceso compartido](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
+[Solución de problemas de acceso compartido](https://experienceleague.adobe.com/es/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
 

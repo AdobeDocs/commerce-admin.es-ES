@@ -97,7 +97,7 @@ La reindexación y el almacenamiento en caché tienen diferentes propósitos en 
 
 ## Reindexe utilizando la línea de comandos
 
-Commerce proporciona opciones de reindexación adicionales mediante la línea de comandos. Para obtener información detallada y opciones de comando completas, consulte [Reindex](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"} en la _Guía de configuración_.
+Commerce proporciona opciones de reindexación adicionales mediante la línea de comandos. Para obtener información detallada y opciones de comando completas, consulte [Reindex](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=es#reindex){:target="blank"} en la _Guía de configuración_.
 
 ## Eventos de déclencheur de índice
 
