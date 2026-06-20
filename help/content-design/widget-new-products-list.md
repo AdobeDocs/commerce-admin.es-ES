@@ -3,7 +3,7 @@ title: Widget de lista de nuevos productos
 description: Aprenda a utilizar el nuevo widget de lista de productos para mostrar una lista de los productos añadidos más recientemente.
 exl-id: bdff3655-cd14-4a19-a51f-4cabeb274d2a
 feature: Page Content, Products
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/zFJ9KJgBGtqDaCf-5ZLKHaPquWikVtG90g01QjGo1m0
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

@@ -161,7 +161,7 @@ Para obtener detalles de implementación y prácticas recomendadas, consulte la 
 
 [!DNL Catalog Service] es una solución de alto rendimiento para Adobe Commerce y Magento Open Source que proporciona acceso optimizado a los datos del catálogo a través de los extremos de GraphQL. Mantiene una base de datos sincronizada independiente para los detalles del producto y la información relacionada, omitiendo la comunicación directa con la aplicación para ofrecer tiempos de carga de página más rápidos. El servicio es especialmente valioso para páginas de detalles de productos, listados de categorías y páginas de resultados de búsqueda, lo que lo hace ideal para implementaciones de comercio tradicionales y sin encabezado.
 
-Para obtener instrucciones de configuración y detalles técnicos, consulte la [[!DNL Catalog Service] Guía del usuario](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html).
+Para obtener instrucciones de configuración y detalles técnicos, consulte la [[!DNL Catalog Service] Guía del usuario](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=es).
 
 >[!NOTE]
 >
@@ -173,4 +173,4 @@ Para obtener instrucciones de configuración y detalles técnicos, consulte la [
 
 [!DNL Payment Services] es una solución de pago lista para usar para tiendas Adobe Commerce y Magento Open Source que proporciona capacidades completas de procesamiento de pagos. El servicio integra la funcionalidad de pasarela de pago seguro con protección contra fraude integrada, a la vez que ofrece múltiples opciones de pago, incluidas tarjetas de crédito/débito, PayPal, Venmo (EE.UU.) y planes PayAfter. Incluye informes unificados de transacciones y gestión de pedidos a través de la interfaz de administración de Commerce, lo que facilita a los comerciantes el seguimiento de pagos, la administración del flujo de efectivo y la reconciliación de datos financieros en un solo lugar.
 
-Para ver los pasos de configuración detallados y las opciones de pago, consulte la [[!DNL Payment Services] Guía del usuario](https://experienceleague.adobe.com/en/docs/commerce/payment-services/overview).
+Para ver los pasos de configuración detallados y las opciones de pago, consulte la [[!DNL Payment Services] Guía del usuario](https://experienceleague.adobe.com/es/docs/commerce/payment-services/overview).

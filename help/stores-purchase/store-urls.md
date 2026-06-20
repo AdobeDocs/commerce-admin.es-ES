@@ -156,7 +156,7 @@ Si después de seguir las instrucciones de configuración, algunas páginas se s
 
 ## Usar una URL de administrador personalizada
 
-Como [práctica recomendada de seguridad](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), Adobe recomienda usar una URL de administrador única en lugar de la _administración_ predeterminada o un término común como _backend_. Aunque no protege directamente el sitio de un actor incorrecto determinado, puede reducir la exposición a scripts que intentan obtener acceso no autorizado.
+Como [práctica recomendada de seguridad](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=es), Adobe recomienda usar una URL de administrador única en lugar de la _administración_ predeterminada o un término común como _backend_. Aunque no protege directamente el sitio de un actor incorrecto determinado, puede reducir la exposición a scripts que intentan obtener acceso no autorizado.
 
 >[!NOTE]
 >

@@ -97,7 +97,7 @@ Puede crear varias claves de acceso para distintos fines y habilitarlas o deshab
 
 >[!IMPORTANT]
 >
->A partir de Adobe Commerce y Magento Open Source 2.4.0, se eliminará el Asistente para instalación web y deberá usar la línea de comandos para [instalar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) o [actualizar](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=es) su instancia. Este requisito también incluye [módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=es) y [extensiones](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=es).
+>A partir de Adobe Commerce y Magento Open Source 2.4.0, se eliminará el Asistente para instalación web y deberá usar la línea de comandos para [instalar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=es) o [actualizar](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=es) su instancia. Este requisito también incluye [módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=es) y [extensiones](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=es).
 
 El proceso de instalación de [!DNL Marketplace] compras es diferente para _instalaciones locales_ de Commerce que para instalaciones hospedadas en [la arquitectura de nube de Adobe](https://www.adobe.com/commerce/magento/enterprise.html).
 
@@ -129,7 +129,7 @@ Los problemas de inicio de sesión suelen estar relacionados con una discrepanci
 
 ### Preguntas de código abierto
 
-El equipo de soporte técnico de Marketplace resuelve problemas relacionados únicamente con los sitios [commerce.adobe.com/](https://commercemarketplace.adobe.com/) y [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Envíe sus preguntas sobre Magento Open Source al [Foro de la comunidad](https://community.magento.com/) o [póngase en contacto con un socio](https://business.adobe.com/products/magento/partners.html) que pueda ayudarle con Magento Open Source.
+El equipo de soporte técnico de Marketplace resuelve problemas relacionados únicamente con los sitios [commerce.adobe.com/](https://commercemarketplace.adobe.com/) y [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Envíe sus preguntas sobre Magento Open Source al [Foro de la comunidad](https://community.magento.com/) o [póngase en contacto con un socio](https://business.adobe.com/es/products/magento/partners.html) que pueda ayudarle con Magento Open Source.
 
 ### Solicitudes de reembolso
 

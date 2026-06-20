@@ -32,7 +32,7 @@ Estas características y extensiones se desarrollaron como parte del [proyecto I
 
 [!DNL Inventory Management] se instala en las versiones 2.3.x y 2.4.x de Adobe Commerce y Magento Open Source, con todas las características habilitadas de forma predeterminada. No se requieren pasos adicionales para habilitar estas características de inventario. Las actualizaciones desde v2.1.x o 2.2.x pueden requerir pasos adicionales. Ver [Actualizar Inventory management](#upgrade-inventory-management).
 
-Se recomienda la instalación según [instalación local de inicio rápido](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"}. Instale con un metapaquete para recibir todos los módulos de [!DNL Inventory Management].
+Se recomienda la instalación según [instalación local de inicio rápido](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html?lang=es){target="_blank"}. Instale con un metapaquete para recibir todos los módulos de [!DNL Inventory Management].
 
 La línea siguiente del metapaquete `composer.json` instala [!DNL Inventory Management]:
 

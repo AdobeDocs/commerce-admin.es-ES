@@ -44,7 +44,7 @@ Un representante de ventas puede crear una oferta a partir de la cuadrícula Ofe
 
 >[!NOTE]
 >
->Para ver un vídeo de demostración de un vendedor que crea una cotización para un comprador, consulta [El representante de ventas inicia la cotización](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html) en _Vídeos y tutoriales de Commerce_.
+>Para ver un vídeo de demostración de un vendedor que crea una cotización para un comprador, consulta [El representante de ventas inicia la cotización](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=es) en _Vídeos y tutoriales de Commerce_.
 
 ### Creación de una oferta desde la cuadrícula Oferta
 
