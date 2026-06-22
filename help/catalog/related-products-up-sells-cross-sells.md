@@ -19,7 +19,7 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 602
 ht-degree: 0%
@@ -125,3 +125,4 @@ Los artículos de venta cruzada son similares a las compras por impulso colocada
    ![Productos de venta cruzada](./assets/product-cross-sell-add.png){width="600" zoomable="yes"}
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Add Selected Products]**.
+

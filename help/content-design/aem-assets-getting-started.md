@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 42029ed6d13cd4203c4a5d8300297315aac1abf5
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 298
 ht-degree: 3%
@@ -60,3 +60,4 @@ Habilitar la integración de Commerce con Experience Manager Assets es un proces
 1. [Instalar paquete de AEM Assets](aem-assets-configure-aem.md).
 1. [Instalar paquetes de Adobe Commerce](aem-assets-configure-aem.md).
 1. [Configurar el recurso de integración](aem-assets-setup-synchronization.md).
+

@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 42029ed6d13cd4203c4a5d8300297315aac1abf5
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 866
 ht-degree: 1%
@@ -143,3 +143,4 @@ El componente de interfaz de usuario de datos del producto se agrega automática
 ## Siguiente paso
 
 [Instalación de paquetes de Adobe Commerce](aem-assets-configure-commerce.md)
+
