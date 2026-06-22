@@ -4,11 +4,19 @@ description: Obtenga información sobre cómo organizar los atributos en grupos,
 exl-id: de0c5fa2-158c-44ff-b84d-e4904ed8aa7d
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/MXe9ockAmhKgFC-ND2CUxqHRAsShfA5Tf8yJsJWy04o
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 393
@@ -56,7 +64,7 @@ Los atributos están organizados en grupos que determinan dónde aparecen en el 
 
 ## Creación de un grupo de atributos
 
-1. En la columna _[!UICONTROL Groups]_del conjunto de atributos, haga clic en **[!UICONTROL Add New]**.
+1. En la columna _[!UICONTROL Groups]_&#x200B;del conjunto de atributos, haga clic en **[!UICONTROL Add New]**.
 
 1. Escriba un **[!UICONTROL Name]** para el nuevo grupo y haga clic en **[!UICONTROL OK]**.
 

@@ -4,11 +4,21 @@ description: Obtenga información sobre cómo configurar vídeos de productos pa
 exl-id: 0cfcee67-a2e2-41cb-ac70-304452f5db6d
 feature: Catalog Management, Products, Media
 TQID: https://experienceleague.adobe.com/5OKezHnnZ3xhLOAEdxNZZXKn0wUuC37E0I5iHI-4N58
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 716
@@ -50,7 +60,7 @@ Para añadir un vídeo de producto, primero debe obtener una clave de API de su 
 
 1. En el panel izquierdo, expanda **[!UICONTROL Catalog]** y elija **[!UICONTROL Catalog]** debajo.
 
-1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Product Video]_y pegue su **[!UICONTROL YouTube API key]**.
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Product Video]_&#x200B;y pegue su **[!UICONTROL YouTube API key]**.
 
    ![Configuración de vídeo del producto](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
@@ -100,7 +110,7 @@ Para añadir un vídeo de producto, primero debe obtener una clave de API de su 
 
    >[!NOTE]
    >
-   >Si la opción de configuración _[!UICONTROL Autostart base video]_se establece en `Yes` pero el vídeo no empieza a reproducirse automáticamente, podría deberse a las políticas de reproducción automática que aplica el explorador y que Adobe Commerce no puede controlar. Cada navegador compatible tiene sus propias políticas de reproducción automática que pueden cambiar con el tiempo y es posible que el vídeo no se reproduzca automáticamente en el futuro. Como práctica recomendada, no debe depender de la reproducción automática para la funcionalidad empresarial crítica y debe probar el comportamiento de reproducción automática de vídeo en su tienda con cada explorador compatible.
+   >Si la opción de configuración _[!UICONTROL Autostart base video]_&#x200B;se establece en `Yes` pero el vídeo no empieza a reproducirse automáticamente, podría deberse a las políticas de reproducción automática que aplica el explorador y que Adobe Commerce no puede controlar. Cada navegador compatible tiene sus propias políticas de reproducción automática que pueden cambiar con el tiempo y es posible que el vídeo no se reproduzca automáticamente en el futuro. Como práctica recomendada, no debe depender de la reproducción automática para la funcionalidad empresarial crítica y debe probar el comportamiento de reproducción automática de vídeo en su tienda con cada explorador compatible.
 
 ## Administrar funciones de vídeo en el nivel de vista de tienda
 
