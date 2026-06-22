@@ -4,9 +4,10 @@ user-guide-description: Esta guía proporciona información detallada sobre la s
 breadcrumb-title: Guía de sistemas de administración
 role: Admin, Leader
 feature: System
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+nudge: true
+source-git-commit: dcc66df3d9024368ea07fad1e93846cf98726523
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '203'
 ht-degree: 4%
 
 ---
@@ -79,4 +80,4 @@ ht-degree: 4%
    - [Administración de sesiones](security-session-management.md)
    - [Detección de funcionalidades del explorador](security-browser-capabilities-detection.md)
    - [Informes de problemas de seguridad](security-issue-reporting.md)
-- [Volver a las guías del usuario administrador](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=es)
+- [Volver a las guías del usuario de administración](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
