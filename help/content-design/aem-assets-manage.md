@@ -4,18 +4,11 @@ description: Administre sus recursos multimedia de la tienda con los AEM Assets.
 feature: CMS, Media
 exl-id: 55144019-8ba2-4392-b5dd-216e2ee9daf2
 TQID: https://experienceleague.adobe.com/c9tgs7PAobBnFZUKX0Zkpik9-kt5O5RXSTYQ61l2sBc
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 182
 ht-degree: 0%
@@ -32,9 +25,9 @@ Después de editar un recurso en AEM Assets, envíe las actualizaciones a Commer
 
 Para obtener más información, consulte la siguiente documentación de AEM Assets.
 
-- [Reprocesamiento de recursos digitales](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
+- [Reprocesamiento de recursos digitales](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
-- [Aprobar un recurso](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
+- [Aprobar un recurso](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
 
 ## Añadir recursos al contenido de las categorías
 
@@ -51,3 +44,4 @@ Puede añadir recursos al contenido de las categorías del catálogo una vez que
 1. Haga clic en **[!UICONTROL Save]** y continúe.
 
    Para obtener más información sobre cómo crear una categoría, vea [Completar el contenido de la categoría](../catalog/category-create.md#step-3-complete-the-category-content).
+
