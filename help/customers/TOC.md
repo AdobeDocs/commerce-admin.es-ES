@@ -3,7 +3,8 @@ user-guide-title: Guía de administración de clientes
 user-guide-description: Información completa sobre las funciones de administración de segmentos, grupos y cuentas de clientes para los administradores de Adobe Commerce y Magento Open Source.
 breadcrumb-title: Administración de clientes
 feature: Customers
-source-git-commit: da825af42f490845527d4298d1ae5191fe3b6a59
+nudge: true
+source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
@@ -56,4 +57,4 @@ ht-degree: 0%
    + [Crear y eliminar segmentos de clientes](customer-segment-create.md)
    + [Segmentos de cliente en reglas de precios](customer-segment-price-rule.md)
    + [Informe de segmento de cliente](customer-segment-reports.md)
-+ [Volver a las guías del usuario de administración](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=es)
++ [Volver a las guías del usuario de administración](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
