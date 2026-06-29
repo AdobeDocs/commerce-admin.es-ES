@@ -21,9 +21,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: e819869f53e1a349be081510b8ab69a260072de1
 workflow-type: tm+mt
-source-wordcount: 919
+source-wordcount: 938
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-Esta integración es compatible con los comerciantes de Commerce con usuarios administradores que tengan un Adobe ID y que deseen optimizar el inicio de sesión en los productos empresariales de Adobe Commerce y Adobe. Es opcional y se habilita en función de cada instancia. Solo los flujos de trabajo de usuarios administradores se ven afectados cuando está habilitada. 
+Esta integración es compatible con los comerciantes de Commerce con usuarios administradores que tengan un Adobe ID y que deseen optimizar el inicio de sesión en los productos empresariales de Adobe Commerce y Adobe. Es opcional y se habilita en función de cada instancia. Solo los flujos de trabajo de usuarios administradores se ven afectados cuando está habilitada.
 
 >[!IMPORTANT]
 >
@@ -85,8 +85,8 @@ Para crear proyectos para una organización, la cuenta de administrador de Adobe
 1. Haga clic en **[!UICONTROL Add API]** en la página de proyecto recién creada.
 1. Seleccione **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**.
 1. Seleccione **[!UICONTROL Oauth 2.0 Web]**.
-1. Especifique **[!UICONTROL Redirect URI]**: `https://<commerce_base_url>/`
-1. Especifique **[!UICONTROL Redirect URI pattern]**: `https://<commerce_base_url>/.*`
+1. Especifique **[!UICONTROL Redirect URI]**: `https://<admin_base_url>/adobe_ims_auth/oauth/imscallback`
+1. Especifique **[!UICONTROL Redirect URI pattern]**: `https://mcstaging\.example\.com/<admin_path>/adobe_ims_auth/oauth/imscallback.*`
 
    Evite los puntos del nombre de host anteponiendo `\\` a los puntos. Añadir un comodín al final de la URL admite la clave secreta de administrador de Adobe Commerce.
 
