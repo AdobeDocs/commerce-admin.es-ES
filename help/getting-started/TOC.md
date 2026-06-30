@@ -6,9 +6,9 @@ role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
 nudge: true
-source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
+source-git-commit: 5254ed25a9cc975bb3acd0b4c2d23f1badfb8558
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 0%
    + [Proteja su cuenta](commerce-account-secure.md)
    + [Compartir su cuenta](commerce-account-share.md)
    + [Transferir una cuenta](commerce-account-transfer.md)
+   + [Actualizar acceso de administrador del sistema](commerce-system-admin-account.md)
 + Conformidad del sitio {#compliance}
    + Preparación para HIPAA en Adobe Commerce{#hipaa-ready-service}
       + [Información general](hipaa/overview.md)
