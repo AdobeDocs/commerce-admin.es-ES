@@ -1,7 +1,7 @@
 ---
 title: Fragmentos
 description: Se han reutilizado notas y elementos visuales para anotar una función o página que se aplica a una edición específica
-source-git-commit: 35147f5ec256445d4cb1dfb2d48d9cfcdc1ff47e
+source-git-commit: df2920f654bf932385e78f8cc894bae0daee017a
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 0%
@@ -13,19 +13,19 @@ ht-degree: 0%
 ## Función de solo EE {#ee-feature}
 
 <table style="border:1px solid red">
-<tr><td><img alt="Función Adobe Commerce" src="../assets/adobe-logo.svg" width="20" height="20" /> Se trata de una función exclusiva que solo está disponible en Adobe Commerce y no en Magento Open Source. (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=es#product-editions">Más información</a>)</td></tr>
+<tr><td><img alt="Función Adobe Commerce" src="/help/assets/adobe-logo.svg" width="20" height="20" /> Se trata de una función exclusiva que solo está disponible en Adobe Commerce y no en Magento Open Source. (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=es#product-editions">Más información</a>)</td></tr>
 </table>
 
 ## Función exclusiva de B2B {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Función Adobe Commerce B2B" src="../assets/b2b.svg" width="20" height="20" /> Característica exclusiva disponible solo con <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=es">Adobe Commerce B2B</a></td></tr>
+<tr><td><img alt="Función Adobe Commerce B2B" src="/help/assets/b2b.svg" width="20" height="20" /> Característica exclusiva disponible solo con <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=es">Adobe Commerce B2B</a></td></tr>
 </table>
 
 ## Función de solo CE {#ce-feature}
 
 <table style="border:1px solid orange">
-<tr><td><img alt="Función Magento Open Source" src="../assets/open-source.svg" width="20" height="20" /> Se requiere un método alternativo para Magento Open Source (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=es#product-editions">Más información</a>)</td></tr>
+<tr><td><img alt="Función Magento Open Source" src="/help/assets/open-source.svg" width="20" height="20" /> Se requiere un método alternativo para Magento Open Source (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=es#product-editions">Más información</a>)</td></tr>
 </table>
 
 ## Nota de autenticación de administración de IMS {#ims-admin-note}
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->En el proceso de redirección, todos los parámetros de GET especificados en la dirección URL se eliminan por motivos de seguridad.
+>En el proceso de redirección, todos los parámetros GET especificados en la dirección URL se eliminan por motivos de seguridad.
 
 ## Nueva regla de precios {#new-price-rule}
 
@@ -75,7 +75,7 @@ Para acceder a las opciones de configuración de la tienda, elige **[!UICONTROL 
 
 | Recurso de documentación | Descripción |
 |----------------------- | ----------- |
-| [Guías del usuario administrador de Adobe Commerce 2.4](../landing/home.md) | Documentación y recursos para comerciantes que trabajan en el administrador. |
+| [Guías del usuario administrador de Adobe Commerce 2.4](/help/landing/home.md) | Documentación y recursos para comerciantes que trabajan en el administrador. |
 | [Servicios para la documentación de Adobe Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=es) | Documentación para ofrecer compatibilidad con una colección de servicios de comercialización que ayudan a los comerciantes a integrar componentes clave de su negocio en su tienda. |
 | [Guía de infraestructura de Commerce en la nube](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html?lang=es) | Procedimientos paso a paso para implementar Adobe Commerce en una plataforma en la nube administrada y automatizada. |
 | [Guías operativas de Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html?lang=es) | Documentación del sistema sobre los conceptos, procesos, herramientas y prácticas recomendadas para desarrollar, implementar y mantener Adobe Commerce en proyectos en la nube y locales. |
