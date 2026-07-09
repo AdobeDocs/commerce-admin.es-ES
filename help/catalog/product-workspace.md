@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9958c3ea938ea5ef743f4b347d11e4f833ee1483
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 492
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 0%
 # Espacio de trabajo de productos
 
 El espacio de trabajo de productos es básicamente el mismo para todos los tipos de productos, aunque la selección de campos cambia según el conjunto de atributos que se utilice. Los atributos del producto se encuentran en la parte superior del formulario, seguidos de secciones ampliables de información del producto. Cuando se guarda un nuevo producto por primera vez, aparece el selector _[!UICONTROL Store View]_&#x200B;en la parte superior izquierda del formulario.
+
+>[!NOTE]
+>
+>Las actualizaciones de enriquecimiento del catálogo aplicadas aparecen en el nombre del producto en la parte superior del formulario y en la sección **[!UICONTROL Content]**. Para obtener más información, consulte [Enriquecimiento de catálogo](catalog-enrichment.md).
 
 ![Espacio de trabajo del producto](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 

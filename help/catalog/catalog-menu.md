@@ -16,16 +16,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 8a65689c36ccc2e7cced2b13d0cddbfdf5046a02
 workflow-type: tm+mt
-source-wordcount: 178
+source-wordcount: 241
 ht-degree: 0%
 
 ---
 
 # Menú [!UICONTROL Catalog]
 
-El menú [!UICONTROL Catalog] proporciona fácil acceso a las herramientas de creación de productos, categoría y administración de inventario, así como a los catálogos compartidos para precios personalizados en [tiendas B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=es).
+El menú [!UICONTROL Catalog] proporciona fácil acceso a las herramientas de creación de productos, categoría y administración de inventario, catálogos compartidos para precios personalizados en [tiendas B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=es) y enriquecimiento de catálogo para la detección asistida por IA.
 
 >[!BEGINTABS]
 
@@ -62,3 +62,11 @@ Cree la estructura [category](categories.md) que es la base de la navegación de
 En tiendas con Adobe Commerce B2B instalado y habilitado, [catálogos compartidos](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=es) te permiten poner precios personalizados a disposición de diferentes empresas.
 
 ![Productos de catálogo compartido](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}
+
+## [!UICONTROL Catalog enrichment]
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+
+Use [enriquecimiento de catálogo](catalog-enrichment.md) para revisar y aplicar mejoras sugeridas por IA a nombres de productos y descripciones largas para que su catálogo se represente con precisión en LLM y en la detección asistida por IA.
+
+![Enriquecimiento de catálogo](./assets/agentic-opportunities.png)
