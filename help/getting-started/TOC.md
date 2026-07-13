@@ -6,9 +6,10 @@ role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
 nudge: true
-source-git-commit: 5254ed25a9cc975bb3acd0b4c2d23f1badfb8558
+color: red
+source-git-commit: ac950aa1b447feca21eadfe8c1a0143d3b49d2e4
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -72,4 +73,4 @@ ht-degree: 0%
    + [Ecosistema](resources.md)
    + [Extensiones](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Volver a las guías del usuario de administración](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=es)
++ [Volver a las guías del usuario de administración](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
