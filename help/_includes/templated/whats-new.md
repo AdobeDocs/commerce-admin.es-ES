@@ -23,7 +23,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se agregó <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment">enriquecimiento del catálogo</a> con instrucciones para revisar y aplicar actualizaciones de nombres y descripciones de productos sugeridas por IA en el administrador, y se vinculó el tema desde el <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu">menú Catálogo</a>, <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview">descripción general de la guía</a> y temas relacionados con la configuración del producto.</p>
+      <td><p>Se agregó <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/catalog/products/catalog-enrichment">enriquecimiento del catálogo</a> con instrucciones para revisar y aplicar actualizaciones de nombres y descripciones de productos sugeridas por IA en el administrador, y se vinculó el tema desde el <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/catalog/catalog-menu">menú Catálogo</a>, <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/catalog/guide-overview">descripción general de la guía</a> y temas relacionados con la configuración del producto.</p>
 </td>
       <td>
         Nuevo tema
@@ -45,7 +45,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se ha agregado <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">Actualización del acceso de administrador del sistema</a> con instrucciones para administrar las asignaciones de administrador del sistema en Adobe Admin Console.</p>
+      <td><p>Se ha agregado <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">Actualización del acceso de administrador del sistema</a> con instrucciones para administrar las asignaciones de administrador del sistema en Adobe Admin Console.</p>
 </td>
       <td>
         Comentarios
@@ -67,7 +67,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se ha agregado la capacidad de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes">crear códigos de cupones personalizados</a> en Adobe Commerce as a Cloud Service.</p>
+      <td><p>Se ha agregado la capacidad de <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes">crear códigos de cupones personalizados</a> en Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
         Actualización importante
@@ -89,7 +89,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se ha actualizado la documentación de Commerce <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import">importación de datos</a> con instrucciones sobre cómo evitar la generación innecesaria de reescritura de URL durante las operaciones de importación.</p>
+      <td><p>Se ha actualizado la documentación de Commerce <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/systems/data-transfer/import/data-import">importación de datos</a> con instrucciones sobre cómo evitar la generación innecesaria de reescritura de URL durante las operaciones de importación.</p>
 </td>
       <td>
         Comentarios, asistencia técnica
