@@ -4,24 +4,15 @@ description: Utilice la capacidad de enriquecimiento del catálogo nativo en Ado
 role: Admin, User, Leader
 recommendations: noCatalog
 hide: true
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 69e598995a3f7fbbb23c4cde3bc28334ef2feafe
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c32adafa-ed01-4b31-997e-2413013911b0id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: aafd8101d1380e3f6ce774ab6ccdcb36e2788bb0
 workflow-type: tm+mt
-source-wordcount: 1649
+source-wordcount: 1697
 ht-degree: 0%
 
 ---
@@ -32,7 +23,7 @@ El enriquecimiento del catálogo es una funcionalidad nativa de [!DNL Adobe Comm
 
 >[!NOTE]
 >
->El enriquecimiento del catálogo funciona con [!DNL Commerce Catalog Agent] y [!DNL Adobe LLM Optimizer] entre bastidores. El enriquecimiento se utiliza como parte del flujo de trabajo del catálogo de Commerce. No administra una integración de LLM Optimizer independiente para aplicar actualizaciones de nombre y descripción aprobadas. Para obtener una supervisión y optimización LLM más amplia fuera de Commerce, consulte la [documentación del producto LLM Optimizer](https://experienceleague.adobe.com/es/docs/llm-optimizer/using/home).
+>El enriquecimiento del catálogo funciona con [!DNL Commerce Catalog Agent] y [!DNL Adobe LLM Optimizer] entre bastidores. El enriquecimiento se utiliza como parte del flujo de trabajo del catálogo de Commerce. No administra una integración de LLM Optimizer independiente para aplicar actualizaciones de nombre y descripción aprobadas. Para obtener una supervisión y optimización LLM más amplia fuera de Commerce, consulte la [documentación del producto LLM Optimizer](https://experienceleague.adobe.com/en/docs/llm-optimizer/using/home).
 
 ## Cómo funciona {#how-it-works}
 
@@ -63,10 +54,13 @@ Los siguientes requisitos previos se aplican cuando tiene acceso al enriquecimie
 
 - Su tienda puede ser rastreada por bots agénticos y orientados a LLM donde se requiere rastrear la cobertura de las sugerencias según el catálogo.
 - Los servicios de Commerce y la conectividad del catálogo requeridos están habilitados y en buen estado. Consulte [Habilitar enriquecimiento de catálogo](#enable-catalog-enrichment) para obtener más información.
-- [IMS está configurado](https://experienceleague.adobe.com/es/docs/core-services/interface/administration/organizations).
-- Tiene acceso a [Adobe Admin Console](https://helpx.adobe.com/es/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- [IMS está configurado](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations).
+- Tiene acceso a [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- Su organización ha firmado al usuario de GenAI o se ha excluido explícitamente de los servicios de IA subyacentes.
 
-> Si no tiene una organización de IMS, póngase en contacto con el equipo de su cuenta de Adobe para aprovisionar una.
+>[!NOTE]
+>
+>Como parte de la configuración, Commerce comprueba si su organización ha firmado el controlador GenAI que cubre los servicios de IA subyacentes al enriquecimiento del catálogo. Si todavía no ha firmado al usuario o no ha optado por excluirse, se le pedirá que firme o actualice el usuario antes de poder utilizar el enriquecimiento del catálogo.
 
 ## Habilitar enriquecimiento de catálogo {#enable-catalog-enrichment}
 
@@ -81,7 +75,7 @@ Póngase en contacto con el administrador de Commerce o con su socio de implemen
    composer update magento/module-catalog-enrichment
    ```
 
-1. Si aún no ha instalado los servicios de catálogo, [hágalo](https://experienceleague.adobe.com/es/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
+1. Si aún no ha instalado los servicios de catálogo, [hágalo](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
 
    **[!UICONTROL Catalog enrichment]** ya está disponible en su instancia de Commerce.
 
