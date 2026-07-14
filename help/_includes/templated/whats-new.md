@@ -1,7 +1,7 @@
 ---
-source-git-commit: b824e3f0d3c14b75910af9a2def17ce21b599d9b
+source-git-commit: cb1485f26f63f12c825258706c68080c30f15b75
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '247'
 ht-degree: 2%
 
 ---
@@ -10,6 +10,50 @@ ht-degree: 2%
 ## Novedades
 
 Esta sección contiene los cambios realizados en los últimos 60 días. Excluimos todas las actualizaciones menores, como la edición de copias, de esta lista.
+
+### 9 de julio de 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Descripción</th>
+      <th>Tipo</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Se agregó <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/catalog/products/catalog-enrichment">enriquecimiento del catálogo</a> con instrucciones para revisar y aplicar actualizaciones de nombres y descripciones de productos sugeridas por IA en el administrador, y se vinculó el tema desde el <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/catalog/catalog-menu">menú Catálogo</a>, <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/catalog/guide-overview">descripción general de la guía</a> y temas relacionados con la configuración del producto.</p>
+</td>
+      <td>
+        Nuevo tema
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/6cd9281329fd909e38e4bbf41159eadfed2f9ad3">comprometer</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 30 de junio de 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Descripción</th>
+      <th>Tipo</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Se ha agregado <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">Actualización del acceso de administrador del sistema</a> con instrucciones para administrar las asignaciones de administrador del sistema en Adobe Admin Console.</p>
+</td>
+      <td>
+        Comentarios
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/927b633eaa9af471440cfb950b429a60b3df94a8">comprometer</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 3 de junio de 2026
 
@@ -51,36 +95,6 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
         Comentarios, asistencia técnica
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/b224cff0c5db4c1b318d3e7165aa34f4662f7e3e">comprometer</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 12 de mayo de 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Descripción</th>
-      <th>Tipo</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Se han actualizado <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps">USPS</a> y las páginas de transportista de envío relacionadas para reflejar que la API de herramientas web de USPS se retiró el 25 de enero de 2026 y que las API de REST de USPS ahora son el único método de integración admitido.</p>
-</td>
-      <td>
-        Actualización principal, comentarios
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/13155decdb96b62757e1044bb99dcddb1e1f8036">comprometer</a></td>
-    </tr>
-    <tr>
-      <td><p>Se han publicado las <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/b2b/release-notes#b2b-v153">notas de la versión de Adobe Commerce B2B v1.5.3</a>, que abarcan la importación y exportación de nuevos clientes de la empresa B2B, correcciones en ofertas negociables, pedidos de compra, listas de solicitudes, catálogos compartidos, administración de la empresa, carro y cierre de compra, módulo y GraphQL, además de cambiar la ruta de exportación de la lista de solicitudes a <code>var/export/requisition_lists/</code>.</p>
-</td>
-      <td>
-        Actualización importante
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/d87900bf27745154d5a643dc828d5c1abc0130df">comprometer</a></td>
     </tr>
   </tbody>
 </table>
