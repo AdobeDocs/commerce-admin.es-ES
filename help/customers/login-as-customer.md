@@ -3,7 +3,7 @@ title: Proporcionar asistencia al comprador
 description: Al utilizar la función Iniciar sesión como cliente, puede ver lo que ven los clientes y realizar actualizaciones en su nombre.
 exl-id: 6842ae7a-6440-45f1-af18-e6427088d29d
 feature: Customers, Customer Service
-TQID: https://experienceleague.adobe.com/-bORZ---u2UGZ-JcOT7E8u2i58a1c-Iq57-moezBJ78
+TQID: https://experienceleague.adobe.com/-bORZ%2D%2D%2Du2UGZ-JcOT7E8u2i58a1c-Iq57-moezBJ78
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
 feature_v2:
@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 97a3e3469e45ec9c7e3316f1ce5ca7894ea2ddb7
 workflow-type: tm+mt
 source-wordcount: 1189
 ht-degree: 0%

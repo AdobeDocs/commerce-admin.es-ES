@@ -19,9 +19,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 69e598995a3f7fbbb23c4cde3bc28334ef2feafe
+source-git-commit: aafd8101d1380e3f6ce774ab6ccdcb36e2788bb0
 workflow-type: tm+mt
-source-wordcount: 1649
+source-wordcount: 1697
 ht-degree: 0%
 
 ---
@@ -65,8 +65,11 @@ Los siguientes requisitos previos se aplican cuando tiene acceso al enriquecimie
 - Los servicios de Commerce y la conectividad del catálogo requeridos están habilitados y en buen estado. Consulte [Habilitar enriquecimiento de catálogo](#enable-catalog-enrichment) para obtener más información.
 - [IMS está configurado](https://experienceleague.adobe.com/es/docs/core-services/interface/administration/organizations).
 - Tiene acceso a [Adobe Admin Console](https://helpx.adobe.com/es/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- Su organización ha firmado al usuario de GenAI o se ha excluido explícitamente de los servicios de IA subyacentes.
 
-> Si no tiene una organización de IMS, póngase en contacto con el equipo de su cuenta de Adobe para aprovisionar una.
+>[!NOTE]
+>
+>Como parte de la configuración, Commerce comprueba si su organización ha firmado el controlador GenAI que cubre los servicios de IA subyacentes al enriquecimiento del catálogo. Si todavía no ha firmado al usuario o no ha optado por excluirse, se le pedirá que firme o actualice el usuario antes de poder utilizar el enriquecimiento del catálogo.
 
 ## Habilitar enriquecimiento de catálogo {#enable-catalog-enrichment}
 

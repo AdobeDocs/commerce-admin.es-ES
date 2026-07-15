@@ -3,7 +3,7 @@ title: '[!UICONTROL Security] > [!UICONTROL 2FA]'
 description: Revise la configuración en la página [!UICONTROL Security] > [!UICONTROL 2FA] del administrador de Commerce.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-TQID: https://experienceleague.adobe.com/-5t8bTj14iB---88TotUNefATWwE80LTswPO3xVWU70
+TQID: https://experienceleague.adobe.com/-5t8bTj14iB%2D%2D%2D88TotUNefATWwE80LTswPO3xVWU70
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
 feature_v2:
@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 97a3e3469e45ec9c7e3316f1ce5ca7894ea2ddb7
 workflow-type: tm+mt
-source-wordcount: 338
-ht-degree: 1%
+source-wordcount: 342
+ht-degree: 2%
 
 ---
 
