@@ -19,9 +19,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: aafd8101d1380e3f6ce774ab6ccdcb36e2788bb0
+source-git-commit: ca07fcb79b3a1c7d4c1f72f1680ccf3ac5241307
 workflow-type: tm+mt
-source-wordcount: 1697
+source-wordcount: 1653
 ht-degree: 0%
 
 ---
@@ -112,11 +112,7 @@ Configure el enriquecimiento de catálogo en la ficha **[!UICONTROL Settings]** 
    - **[!UICONTROL Store View URL]**: dirección URL correspondiente a la vista de la tienda (por ejemplo, `https://brand.example.com/fr/`).
    - **[!UICONTROL Environment ID]**: Identificador único del entorno [!DNL Adobe Commerce] al que accede la conexión.
    - **[!UICONTROL Website Code]**, **[!UICONTROL Store Code]** y **[!UICONTROL Store View Code]**: Sitio web, tienda y códigos de vista de tienda para el sitio web de Commerce. Estos valores deben coincidir con los códigos del administrador de Commerce.
-
-1. Opcional: escriba **[!UICONTROL Host Name]** y **[!UICONTROL API Key]** si su entorno los requiere.
-
    - **[!UICONTROL Host Name]**: nombre de host de su instancia [!DNL Adobe Commerce].
-   - **[!UICONTROL API Key]**: clave de autenticación utilizada para acceder de forma segura a las API de [!DNL Adobe Commerce]. Haga clic en **[!UICONTROL Copy]** al lado del campo si necesita copiar la clave en otra parte.
 
 1. Haga clic en **[!UICONTROL Save]**.
 
@@ -135,8 +131,7 @@ Los campos obligatorios están marcados con un asterisco (*) en el formulario **
 | Código del sitio web | Sí | Código del sitio web de Commerce. |
 | Código de tienda | Sí | Código de tienda del sitio web de Commerce. |
 | Código de vista de tienda | Sí | Vista de tienda del sitio web de Commerce. |
-| Nombre de host | No | Nombre de host de su instancia [!DNL Adobe Commerce]. |
-| Clave de API | No | Clave de autenticación utilizada para acceder de forma segura a las API de [!DNL Adobe Commerce]. Trátelo como cualquier credencial de producción. |
+| Nombre de host | Sí | Nombre de host de su instancia [!DNL Adobe Commerce]. |
 
 ### Revisión y aplicación del enriquecimiento del catálogo {#review-and-apply}
 
