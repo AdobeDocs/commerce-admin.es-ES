@@ -26,9 +26,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
 workflow-type: tm+mt
-source-wordcount: 2567
+source-wordcount: 2612
 ht-degree: 1%
 
 ---
@@ -185,23 +185,23 @@ La cuadrícula del informe _Registros de acciones_ (**[!UICONTROL System]** > Re
 
 1. Se agregaron dos columnas:
    - ***Source***: Muestra dónde se realizó la acción.
-Valores: `Admin UI` | `Customer UI` | `REST API` | `SOAP API` | `GraphQL API`
+     Valores: `Admin UI` | `Customer UI` | `REST API` | `SOAP API` | `GraphQL API`
    - ***Tipo de cliente***: Muestra el tipo de cliente.
-Valores: Cliente | Administrador | Integración
+     Valores: Cliente | Administrador | Integración
 
 2. Se cambió el nombre de la columna ***Nombre de usuario*** a ***Identificador de cliente***
    - ***Identificador de cliente***: muestra el identificador de inicio de sesión del usuario que realizó la acción.
-Valores:
-      - un mensaje de correo electrónico si el tipo de cliente es Cliente
-      - un nombre de usuario si el tipo de cliente es Admin
-      - un nombre si el Tipo de cliente es Integración
+     Valores:
+     - un mensaje de correo electrónico si el tipo de cliente es Cliente
+     - un nombre de usuario si el tipo de cliente es Admin
+     - un nombre si el Tipo de cliente es Integración
 
 3. Se cambió el nombre de la columna ***Nombre de acción completa*** a ***Destino***
    - ***Target***: muestra el nombre de la acción.
-Valores:
-      - un punto final si Source es una API de REST o una API de SOAP
-      - un nombre de consulta o mutación si hay una API de GraphQL
-      - un nombre de acción si se trata de una IU de administración o de una IU de cliente.
+     Valores:
+     - un punto final si Source es una API de REST o una API de SOAP
+     - un nombre de consulta o mutación si hay una API de GraphQL
+     - un nombre de acción si se trata de una IU de administración o de una IU de cliente.
 
 #### Configurar acciones de administración para el registro
 
@@ -337,3 +337,5 @@ Las siguientes funciones están deshabilitadas de forma predeterminada en el mó
 - **[Función de newsletter](../../merchandising-promotions/newsletters.md)**: esta función está deshabilitada para evitar que se utilice PHI en un contexto de marketing.
 
 - **[Configuración del servicio de informes avanzados](../../getting-started/business-intelligence.md)**: esta configuración está deshabilitada para evitar que se use la PHI para análisis e informes.
+
+- **[Enriquecimiento del catálogo](../../catalog/catalog-enrichment.md)**: esta característica está deshabilitada porque se basa en servicios de IA no preparados para HIPAA ([!DNL Commerce Catalog Agent] y [!DNL Adobe LLM Optimizer]) que analizan señales de tienda y catálogo fuera del límite preparado para HIPAA. Si se habilita esta función, se podría exponer la PHI a sistemas que no están cubiertos por los servicios preparados para HIPAA de Adobe.
