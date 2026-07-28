@@ -1,7 +1,7 @@
 ---
-source-git-commit: 81482dab56e358bd81c1170029adaef0191509cb
+source-git-commit: 3f4cbfe6fe2ff878022edf80e1781ac5aded0c86
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,11 @@ Después de clonar el repositorio, ejecute:
 
 ### Qué hacen los ganchos
 
-- Detectar automáticamente archivos de imagen clasificados (PNG, JPG, JPEG, GIF, SVG)
-- Ejecutar `image_optim` para comprimir y optimizar imágenes
+- Detectar automáticamente archivos de imagen clasificados (`.png`, `.jpeg`, `.jpg`, `.gif`, `.svg`)
+- Ejecute `image_optim` para comprimir y optimizar las imágenes rasterizadas (`.png`, `.jpeg`, `.jpg`, `.gif`)
 - Volver a almacenar automáticamente las imágenes optimizadas
-- Asegúrese de que todas las imágenes confirmadas estén optimizadas correctamente
+- Asegúrese de que todas las imágenes rasterizadas confirmadas estén optimizadas correctamente
+- Comprobar los SVG clasificados con un límite de tamaño y anular la confirmación si se hace referencia a un SVG de gran tamaño desde `help/` (de lo contrario, advertir)
 
 ### Ventajas
 
@@ -59,7 +60,7 @@ Si forma parte de la comunidad de Adobe y desea crear un nuevo artículo o envia
 
 ### Cambios importantes de los empleados de Adobe
 
-Si es redactor técnico, administrador de programa o desarrollador del equipo de producto para una solución de Adobe Experience Cloud y debe contribuir o crear artículos técnicos, debe utilizar el repositorio privado en `https://github.com/Adobe-Enterprise-Docs/commerce-admin.es-ES`.
+Si es redactor técnico, administrador de programa o desarrollador del equipo de producto para una solución de Adobe Experience Cloud y debe contribuir a artículos técnicos o crearlos, debe utilizar el repositorio privado en `https://github.com/Adobe-Enterprise-Docs/commerce-admin.es-ES`.
 
 ## Herramientas y configuración
 
