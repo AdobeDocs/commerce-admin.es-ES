@@ -19,9 +19,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
 workflow-type: tm+mt
-source-wordcount: 1273
+source-wordcount: 920
 ht-degree: 0%
 
 ---
@@ -40,25 +40,9 @@ Puede crear atributos mientras trabaja en un producto o desde la página _[!UICO
 
 1. Para **[!UICONTROL Default Label]**, escriba una etiqueta que identifique el atributo.
 
-1. Para determinar el tipo de control de entrada que se usa para la entrada de datos, establezca **[!UICONTROL Catalog Input Type for Store Owner]** en uno de los siguientes:
+1. Establezca **[!UICONTROL Catalog Input Type for Store Owner]** en el tipo de [control de entrada](attributes-input-types.md) que se utilizará para la entrada de datos.
 
-   | Propiedad | Descripción |
-   |--- |--- |
-   | `Text Field` | Campo de entrada de una sola línea para texto. |
-   | `Text Area` | Campo de entrada de varias líneas para introducir párrafos de texto, como una descripción del producto. Puede utilizar el Editor de WYSIWYG para dar formato al texto con etiquetas de HTML o introducir las etiquetas directamente en el texto. |
-   | `Text Editor` | Un editor de texto que funcione completamente en la ubicación del atributo. |
-   | Fecha | Muestra un valor de fecha en el [formato preferido](attributes-input-types.md#date-and-time-options) y en la [zona horaria](../getting-started/store-details.md#locale-options). Los valores de fecha se pueden seleccionar de una lista o un calendario ( ![Icono de calendario](../assets/icon-calendar.png)). <br/><br/>**_Nota:_**&#x200B;Según la configuración de tu sistema, los usuarios de_ Admin_ pueden ingresar fechas directamente en un campo o seleccionar una fecha del calendario o lista. Para obtener información acerca de cómo especificar valores de fecha y hora, vea [Opciones de fecha y hora](attributes-input-types.md#date-and-time-options). |
-   | `Yes/No` | Muestra una lista desplegable con opciones predefinidas de `Yes` y `No`. |
-   | `Dropdown` | Muestra una lista desplegable de valores que solo acepta una selección. El tipo de entrada desplegable es un componente clave de [productos configurables](product-create-configurable.md). |
-   | `Multiple Select` | Muestra una lista desplegable de valores que acepta varias selecciones. |
-   | `Price` | Este tipo de entrada se utiliza para crear campos de precio que se agregan a los atributos predefinidos: Precio, Precio especial, Precio de nivel y Coste. La moneda utilizada viene determinada por la configuración del sistema. |
-   | `Media Image` | Asocia una imagen adicional a un producto, como un logotipo de producto, instrucciones de cuidado o ingredientes de una etiqueta de alimentos. Cuando se agrega un atributo de imagen multimedia al conjunto de atributos de un producto, se convierte en un tipo de imagen adicional, junto con Base, Pequeño y Miniatura. El atributo de imagen multimedia se puede excluir del [explorador multimedia de tienda](catalog-images-video.md#storefront-media-browser). |
-   | `Fixed Product Tax` | Le permite definir [tarifas de FTP](../stores-purchase/fixed-product-tax.md) según los requisitos de su configuración regional. |
-   | `Visual Swatch` | Muestra una muestra que muestra el color, la textura o el motivo de un producto configurable. Una [muestra visual](swatches.md) se puede rellenar con un valor de color hexadecimal o mostrar una imagen cargada que represente el color, el material, la textura o el motivo de la opción. |
-   | `Text Swatch` | Representación basada en texto de una opción de producto configurable que se utiliza frecuentemente para el tamaño. [Las muestras de texto](swatches.md#text-based-swatches) también pueden incluir valores de color hexadecimales. |
-   | `Page Builder` | Un área de trabajo [Page Builder](../page-builder/introduction.md) que funciona por completo en la ubicación del atributo y que facilita la adición de contenido atractivo a la página del producto. |
-
-   {style="table-layout:auto"}
+   Si el atributo se usa para un [producto configurable](product-create-configurable.md), elija `Dropdown`. Luego, establezca **[!UICONTROL Required]** en `Yes`.
 
 1. Si desea requerir una selección de opciones antes de que el cliente pueda adquirir el producto, establezca **[!UICONTROL Values Required]** en `Yes`.
 
@@ -88,7 +72,7 @@ Puede crear atributos mientras trabaja en un producto o desde la página _[!UICO
 
    Las opciones disponibles dependen de la configuración _[!UICONTROL Catalog Input Type for Store Owner]_.
 
-1. Establezca **[!UICONTROL Scope]** para indicar en qué parte de su [jerarquía de almacén](../getting-started/websites-stores-views.md) se puede usar el atributo.
+1. Para indicar en qué parte de la [jerarquía de almacén](../getting-started/websites-stores-views.md) se puede usar el atributo, establezca **[!UICONTROL Scope]**.
 
 1. Si desea evitar entradas de valor duplicadas, establezca **[!UICONTROL Unique Value]** en `Yes`.
 
@@ -134,7 +118,7 @@ Puede crear atributos mientras trabaja en un producto o desde la página _[!UICO
 
 1. Si el atributo va a estar disponible para la búsqueda, establezca **[!UICONTROL Use in Search]** en `Yes`.
 
-   - Establezca el valor **[!UICONTROL Search Weight]** para controlar dónde aparece el elemento en los resultados de búsqueda: 1 (menor peso) a 10 (mayor peso).
+   - Para controlar dónde aparece el elemento en los resultados de búsqueda, establezca el valor **[!UICONTROL Search Weight]**: 1 (menor peso) en 10 (mayor peso).
 
    - Establezca **[!UICONTROL Visible in Advanced Search]** según sea necesario. Obtenga más información en [Búsqueda avanzada](search.md#advanced-search).
 
@@ -191,7 +175,7 @@ Cualquier atributo que se use como lista desplegable de opciones para un [produc
 
 Cuando se elimina un atributo, se elimina de cualquier producto relacionado y conjunto de atributos. Los atributos del sistema forman parte de la funcionalidad principal de su tienda y no se pueden eliminar.
 
-Antes de eliminar un atributo, asegúrese de que ningún producto del catálogo lo esté utilizando en ese momento. Una manera fácil de determinar si un atributo está en uso es usar la herramienta [Exportar](../systems/data-export.md) para comprobar la lista de Atributos de entidad del producto. Si el atributo no se incluye en la lista, ningún producto del catálogo lo utiliza.
+Antes de eliminar un atributo, asegúrese de que ningún producto del catálogo lo utilice actualmente. Una manera fácil de determinar si un atributo está en uso es usar la herramienta [Exportar](../systems/data-export.md) para comprobar la lista de Atributos de entidad del producto. Si la lista no incluye el atributo, ningún producto del catálogo lo utilizará.
 
 **_Para eliminar un atributo:_**
 

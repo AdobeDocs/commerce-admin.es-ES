@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: f398faf7cb1fef1b04926ac6e475fc7bfa67cb9d
 workflow-type: tm+mt
-source-wordcount: 1506
+source-wordcount: 1533
 ht-degree: 0%
 
 ---
@@ -201,7 +201,7 @@ En este paso, creará dos nuevos atributos personalizados para mostrar cómo se 
 
    Para este ejemplo, use `My Page Builder Attribute` para la etiqueta.
 
-1. Establezca **[!UICONTROL Catalog Input Type for Store Owner]** en `Page Builder`.
+1. Establezca **[!UICONTROL Catalog Input Type for Store Owner]** en `Page Builder`. [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
    Al crear un atributo personalizado, puede especificar el editor más adecuado para la aplicación como `Page Builder` o el estándar, WYSIWYG `Text Editor`.
 

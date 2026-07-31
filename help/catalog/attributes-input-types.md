@@ -19,16 +19,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
 workflow-type: tm+mt
-source-wordcount: 780
+source-wordcount: 804
 ht-degree: 0%
 
 ---
 
 # Tipos de entrada de atributos
 
-Cuando se ven desde el Administrador, los atributos son los campos que se completan al crear un producto. El tipo de entrada asignado a un atributo determina el tipo de datos que se pueden introducir y el formato del campo o control de entrada. Desde el punto de vista del cliente, los atributos proporcionan información sobre el producto y son las opciones y los campos de entrada de datos que deben rellenarse para comprar un producto.
+Cuando se ven desde el Administrador, los atributos son los campos que se completan al crear un producto. El tipo de entrada asignado a un atributo determina el tipo de datos que se pueden introducir y el formato del campo o control de entrada. Para el cliente, los atributos proporcionan información sobre el producto y son las opciones y los campos de entrada de datos que deben rellenarse para comprar un producto.
 
 ## Tipos de entrada
 
@@ -49,13 +49,13 @@ Cuando se ven desde el Administrador, los atributos son los campos que se comple
 | [!UICONTROL Fixed Product Tax] | Le permite definir [tarifas de FTP](../stores-purchase/fixed-product-tax.md) según los requisitos de su configuración regional. |
 | [!UICONTROL Visual Swatch] | Muestra una muestra que muestra el color, la textura o el motivo de un producto configurable. Una [muestra visual](swatches.md) se puede rellenar con un valor de color hexadecimal o mostrar una imagen cargada que represente el color, el material, la textura o el motivo de la opción. |
 | [!UICONTROL Text Swatch] | Representación basada en texto de una opción de producto configurable que se utiliza frecuentemente para el tamaño. [Las muestras de texto](swatches.md) también pueden incluir valores de color hexadecimales. |
-| [!UICONTROL Page Builder] | Un área de trabajo [[!DNL Page Builder]](../page-builder/workspace.md) en la ubicación del atributo que facilita la adición de contenido atractivo a la página de producto. |
+| [!UICONTROL Page Builder] [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} | Un área de trabajo [[!DNL Page Builder]](../page-builder/workspace.md) en la ubicación del atributo que facilita la adición de contenido atractivo a la página de producto. |
 
 {style="table-layout:auto"}
 
 ## Opciones de fecha y hora
 
-Puede personalizar el formato de los campos de fecha y hora y seleccionar el control de entrada que se utiliza para la entrada de datos. Los valores de fecha se pueden seleccionar de una lista desplegable o de un calendario emergente.
+Puede personalizar el formato de los campos de fecha y hora y seleccionar el control de entrada que se utiliza para la entrada de datos. Los valores de fecha pueden seleccionarse de una lista desplegable o de un calendario emergente.
 
 ![Ejemplo: calendario emergente de tienda](./assets/storefront-popup-calendar.png){width="700" zoomable="yes"}
 
