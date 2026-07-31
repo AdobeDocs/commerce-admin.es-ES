@@ -4,20 +4,13 @@ description: Obtenga información acerca del tipo de contenido Fila, utilizado p
 exl-id: 0aa8bf6f-7ae3-4718-9f76-430ed63ba05c
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/69IYa3jE6VTO6PXToXkDhfu8B4-KJw9sv0cO-NgUBOM
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+last-update: 2023-09-11
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 1620
 ht-degree: 0%
@@ -52,7 +45,7 @@ El cuadro de herramientas de fila aparece cuando pasa el ratón por encima del c
 
 ## Añadir una fila
 
-1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un nuevo(a)**[!UICONTROL Row]**&#x200B;al escenario, justo debajo de la primera fila.
+1. En el panel [!DNL Page Builder] bajo _[!UICONTROL Layout]_, arrastre un nuevo(a)**[!UICONTROL Row]**al escenario, justo debajo de la primera fila.
 
 1. Para dar formato a la fila, pasa el ratón sobre el contenedor de filas para mostrar el cuadro de herramientas y elige el icono _Configuración_ ( ![icono Configuración](./assets/pb-icon-settings.png){width="20"} ).
 
@@ -128,7 +121,7 @@ Un tipo de fondo puede ser una imagen o un vídeo. [!DNL Page Builder] toma el v
 
 ### Configuración del tipo de imagen
 
-Si establece _[!UICONTROL Background Type]_&#x200B;en `Image`, utilice la siguiente configuración para definir la visualización de la imagen de fondo.
+Si establece _[!UICONTROL Background Type]_en `Image`, utilice la siguiente configuración para definir la visualización de la imagen de fondo.
 
 ![Imagen de fondo](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 
@@ -185,9 +178,9 @@ Si establece el _Tipo de fondo_ en `Video`, use la siguiente configuración para
 
 - **[!UICONTROL Video URL]**: escriba una dirección URL de vídeo válida. Las direcciones URL de vídeo válidas pueden ser vínculos a:
 
-   - Vídeos de YouTube: `https://youtu.be/CoDhMRUUjeI`
-   - Vídeos de Vimeo: `https://vimeo.com/190156113`
-   - Archivos de vídeo válidos (`.mp4` se recomienda): `https://myvideos.com/spiral.mp4`
+  - Vídeos de YouTube: `https://youtu.be/CoDhMRUUjeI`
+  - Vídeos de Vimeo: `https://vimeo.com/190156113`
+  - Archivos de vídeo válidos (`.mp4` se recomienda): `https://myvideos.com/spiral.mp4`
 
   ![URL del vídeo de fondo](./assets/pb-video-url.png){width="300"}
 
