@@ -19,7 +19,8 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+last-update: 2023-05-22
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 607
 ht-degree: 0%
@@ -146,9 +147,9 @@ Desplácese hacia abajo y complete la información de las siguientes secciones s
 
    - **Método 1:** Guardar y previsualizar
 
-      - En la esquina superior derecha, haga clic en **[!UICONTROL Save]**.
+     - En la esquina superior derecha, haga clic en **[!UICONTROL Save]**.
 
-      - Para ver el producto en tu tienda, elige **[!UICONTROL Customer View]** en el menú _Administrador_ (![Flecha de menú](../assets/icon-menu-down-arrow-black.png)).
+     - Para ver el producto en tu tienda, elige **[!UICONTROL Customer View]** en el menú _Administrador_ (![Flecha de menú](../assets/icon-menu-down-arrow-black.png)).
 
      La tienda se abre en una nueva pestaña del explorador.
 

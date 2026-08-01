@@ -31,7 +31,8 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 nudge: true
-source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
+last-update: 2026-07-14
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 727
 ht-degree: 0%
