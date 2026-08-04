@@ -1,7 +1,7 @@
 ---
-source-git-commit: cb1485f26f63f12c825258706c68080c30f15b75
+source-git-commit: acc04085de45edfcd956971aa09732ca91cf5f1a
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '298'
 ht-degree: 2%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 2%
 ## Novedades
 
 Esta sección contiene los cambios realizados en los últimos 60 días. Excluimos todas las actualizaciones menores, como la edición de copias, de esta lista.
+
+### 29 de julio de 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Descripción</th>
+      <th>Tipo</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Aprenda a suprimir categorías específicas de correo electrónico automatizado del sistema, como notificaciones de pedidos o marketing, directamente desde el administrador en <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/config/services/email-suppression">Supresión de correo electrónico</a>.</p>
+</td>
+      <td>
+        Actualización principal, nuevo tema
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/a5d95844e8e81ea4d401e79ebc1f236aab977dcd">comprometer</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 9 de julio de 2026
 
