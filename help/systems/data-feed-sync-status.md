@@ -6,11 +6,25 @@ role: Admin
 level: Beginner
 exl-id: 4e1b9da0-450c-4488-8693-1938a948e792
 TQID: https://experienceleague.adobe.com/Y8vYxKS-8iX-bCLSJpAiJOItWlJk348bSMWfk1Cgpbg
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 424b379815ffbf818c2490d0195bf0bf7dd51ab7
 workflow-type: tm+mt
 source-wordcount: 1664
@@ -151,7 +165,7 @@ Para comprobar la sincronización de un extremo a otro después de completar la 
 
 - **[!DNL Adobe Commerce as a Cloud Service]con servicios de Commerce:** Compruebe el [tablero de administración de datos](data-dashboard.md) aplicable para confirmar la disponibilidad del flujo descendente.
 - **Adobe Commerce en la nube o local con el conector de Adobe Commerce Optimizer**: compruebe primero el estado de exportación del administrador de Commerce y, a continuación, compruebe la [página de sincronización de datos](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) en [!DNL Commerce Optimizer Studio]
-- **[!DNL Adobe Commerce Optimizer](independiente):** Los datos no se exportan desde el servidor de Commerce. Use la [página de sincronización de datos](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) en [!DNL Commerce Optimizer Studio] para confirmar la disponibilidad de los datos.
+- **[!DNL Adobe Commerce Optimizer] (independiente):** Los datos no se exportan desde el servidor de Commerce. Use la [página de sincronización de datos](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) en [!DNL Commerce Optimizer Studio] para confirmar la disponibilidad de los datos.
 
 >[!TIP]
 >
