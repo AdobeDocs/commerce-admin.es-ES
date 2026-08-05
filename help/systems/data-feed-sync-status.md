@@ -1,8 +1,9 @@
 ---
-title: Monitorización del estado de sincronización de fuente de datos
-description: Supervise la sincronización de exportación de datos e identifique cualquier problema o retraso con el procesamiento de fuentes para  [!DNL Catalog Service], [!DNL Live Search] y [!DNL Product Recommendations].
+title: Monitorización del estado de sincronización de fuentes de datos en Commerce
+description: Seguimiento de exportaciones. Diagnosticar problemas de sincronización para  [!DNL Catalog Service], [!DNL Live Search], [!DNL Product Recommendations] y [!DNL Adobe Commerce Optimizer Connector].
 feature: Products, Customers, Data Import/Export
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+role: Admin
+level: Beginner
 exl-id: 4e1b9da0-450c-4488-8693-1938a948e792
 TQID: https://experienceleague.adobe.com/Y8vYxKS-8iX-bCLSJpAiJOItWlJk348bSMWfk1Cgpbg
 product_v2:
@@ -21,76 +22,183 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 424b379815ffbf818c2490d0195bf0bf7dd51ab7
 workflow-type: tm+mt
-source-wordcount: 1689
+source-wordcount: 1664
 ht-degree: 0%
 
 ---
 
-# Monitorización del estado de sincronización de fuente de datos
 
-Los administradores de Adobe Commerce pueden monitorizar el estado de sincronización de los datos exportados de Adobe Commerce a los servicios conectados de Commerce mediante la página Estado de sincronización de fuentes de datos en el Administrador de Commerce.
+# Monitorización del estado de sincronización de fuentes de datos
 
-![Página de detalles de estado de sincronización de fuente de datos con informes de estado de elemento de fuente](assets/data-feed-sync-status.png)
+La página [!UICONTROL Data Feed Sync Status] permite a los administradores de Commerce supervisar el estado de la exportación de las fuentes de datos de productos y categorías en el área de administración.
 
-Esta página proporciona información en tiempo real sobre el estado y el rendimiento de las fuentes de exportación de datos que transfieren datos de productos y categorías de Commerce a servicios externos como [!DNL Product Recommendations], [!DNL Live Search] y [!DNL Catalog Service].
+## Audiencia y disponibilidad {#audience}
 
-La página de estado de sincronización solo muestra el estado de exportación. Un estado correcto indica que los datos se exportan correctamente y que, finalmente, estarán disponibles en los servicios de Commerce conectados.
+La página Estado de sincronización de fuentes de datos está disponible sin coste adicional para los comerciantes de Commerce con una licencia activa para uno de los siguientes servicios:
 
-La monitorización del estado de la fuente ayuda a garantizar la coherencia de los datos y permite la rápida resolución de cualquier problema que surja durante el proceso de exportación. Los administradores pueden:
+- [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/es/docs/commerce/product-recommendations/guide-overview)
+- [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/es/docs/commerce/live-search/overview)
+- [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/es/docs/commerce/catalog-service/guide-overview)
+- [[!DNL Adobe Commerce Optimizer Connector]](https://experienceleague.adobe.com/es/docs/commerce/aco-optimizer-connector/overview)
 
-* **Ver el estado de sincronización** para todas las fuentes de datos
-* **Identificar y solucionar errores** en el procesamiento de fuentes
-* **Acceder a la información detallada de estado** para elementos de fuente individuales
+La página Estado de sincronización de fuentes de datos está disponible automáticamente en las configuraciones de servicio de Commerce admitidas. En implementaciones locales y de infraestructura en la nube de Adobe Commerce, si falta la página después de habilitar un servicio o conector apto, siga las instrucciones de instalación manual a continuación. No utilice el procedimiento de instalación del Compositor para experiencias SaaS gestionadas por el producto.
 
-El estado se rastrea para las siguientes fuentes:
+## Acceso a la página de estado de sincronización {#access-data-feed-sync-status-page}
 
-* Fuente de productos
-* Fuente de atributos del producto
-* Fuente de categorías
-* Fuente de invalidaciones de productos
-* Fuente de precios de productos
-* Fuente de variantes del producto
+En el área de Administración, vaya a **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Data Feed Sync Status]**.
 
-## Comprobar que los datos se sincronizaron correctamente con los servicios de Commerce
-
-Utilice los siguientes métodos para comprobar que los datos se han sincronizado correctamente con los servicios de Commerce conectados:
-
-* Para implementaciones de Adobe Commerce en la nube, locales o de Adobe Commerce as a Cloud Service, consulte el [panel de administración de datos](data-dashboard.md).
-* Para implementaciones locales o en la nube de Adobe Commerce configuradas con [Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/es/docs/commerce/aco-optimizer-connector/overview), consulte la [página de sincronización de datos](https://experienceleague.adobe.com/es/docs/commerce/optimizer/setup/data-sync) en Commerce Optimizer Studio.
-
->[!TIP]
->
->Para obtener más información sobre el proceso de sincronización de datos, consulte [Sincronizar datos con la exportación de datos SaaS](https://experienceleague.adobe.com/es/docs/commerce/saas-data-export/data-synchronization)en la *Guía de exportación de datos SaaS*.
-
-## Instalación de la extensión
-
-La página Estado de fuente de datos está disponible para todos los comerciantes de Commerce con licencias activas para los siguientes servicios de Commerce:
-
-* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/es/docs/commerce/product-recommendations/guide-overview)
-* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/es/docs/commerce/live-search/guide-overview)
-* [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/es/docs/commerce/catalog-service/guide-overview) con una licencia activa
+![Página de estado de sincronización de fuente de datos que resume la actividad de exportación de fuente de datos](assets/data-feed-sync-status.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->No es necesario instalar la extensión de estado de fuente de datos en [[!DNL Adobe Commerce as a Cloud Service]](https://experienceleague.adobe.com/es/docs/commerce/cloud-service/overview) instancias.
->La extensión está disponible de forma predeterminada si al menos uno de los siguientes servicios está habilitado en la implementación de Commerce: Product Recommendations v6+, Live Search v4.1+ o Servicio de catálogo v1.17+.
+> Esta página informa solamente del estado de exportación. Un estado de éxito significa que los datos se exportaron correctamente; no confirma que estén disponibles en los servicios conectados. Consulte [Confirmar datos en servicios conectados](#confirm-data-in-connected-services) para obtener más información.
 
-**Requisitos**
+## Fuentes de exportación disponibles
 
-* PHP 8.1, 8.2, 8.3 u 8.4
-* Adobe Commerce 2.4.4+
-* [Extensión de exportación de datos de Adobe Commerce](https://experienceleague.adobe.com/es/docs/commerce/saas-data-export/manage-extension), versión 103.4.15 o posterior
-* Acceso a [repo.magento.com](https://repo.magento.com)
+La lista de fuentes de exportación disponibles que puede administrar desde la página Estado de sincronización de datos depende de los servicios de Commerce conectados.
 
-  Para generar claves y obtener los derechos necesarios, consulta [Obtener tus claves de autenticación](https://experienceleague.adobe.com/es/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Para instalaciones en la nube, consulte la [Guía de Commerce en infraestructura en la nube](https://experienceleague.adobe.com/es/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
+- **Para [!DNL Adobe Commerce on Cloud, On Premises, and Commerce as a Cloud Service] con servicios de Commerce configurados:** Consulte [Fuentes admitidas](https://experienceleague.adobe.com/es/docs/commerce/saas-data-export/reference/feed-table-reference#supported-feeds) en la _Guía de exportación de datos SaaS_.
 
-* Acceso a la línea de comandos del servidor de aplicaciones de Adobe Commerce.
+- **Para implementaciones locales o en la nube de Adobe Commerce configuradas con[!DNL Adobe Commerce Optimizer Connector]:** Consulte [Fuentes admitidas](https://experienceleague.adobe.com/es/docs/commerce/aco-optimizer-connector/reference/connector-reference#supported-feeds) en la _Guía del conector de Adobe Commerce Optimizer_.
+
+
+## Resumen del estado de sincronización de fuente de datos {#data-feed-sync-status-summary}
+
+La cuadrícula de resumen muestra cada fuente y sus recuentos de exportación.
+
+| Campo | Descripción |
+| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre de fuente** | Indexador de fuentes para una entidad o parte de una entidad (producto, precio del producto). |
+| **Registros de Source** | Número de registros de Commerce que requieren sincronización. Puede superar el recuento de cuadrícula de administración porque los elementos de fuente tienen ámbito (por ejemplo, código de vista de tienda). |
+| **Registros enviados correctamente** | Número de elementos de fuente enviados correctamente desde Commerce al extremo de servicio configurado. Esto no confirma la ingesta descendente ni la disponibilidad del catálogo. Si se producen errores de sincronización, este número puede ser menor que el número de registros de origen. |
+| **Registros con errores** | Número de registros que no se pudieron enviar a los servicios de Commerce conectados. |
+| **Acción** | Seleccione **[!UICONTROL Details]** para ver la actividad de sincronización de una fuente. |
+
+## Detalles del estado de sincronización de fuente de datos {#data-feed-sync-status-details}
+
+En la página de resumen, seleccione un nombre de fuente o seleccione **[!UICONTROL Details]** para ver el estado de exportación de cada elemento de fuente:
+
+![Página de detalles de estado de sincronización de fuente de datos con informes de estado de elemento de fuente](assets/data-feed-sync-status-details.png){width="600" zoomable="yes"}
+
+| Campo | Descripción |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **ID de elemento de fuente** | Identificador generado automáticamente que se utiliza con fines del sistema |
+| **Id. de entidad** | El identificador único de la entidad de origen (ID de producto, ID de categoría, etc.) |
+| **Identificadores de fuente** | Identificadores únicos para el elemento de fuente. Por ejemplo, SKU y código de vista de tienda de la fuente de productos. Los valores varían según la fuente. |
+| **Estado de exportación** | El [estado de sincronización](#export-status-types) del elemento de fuente, con indicadores con códigos de color |
+| **Fecha de última sincronización** | Fecha y hora del intento de exportación o envío más reciente desde Commerce. Esta marca de tiempo no confirma la disponibilidad descendente. |
+| **¿Se ha eliminado la entidad?** | Indica si la entidad se ha eliminado en Adobe Commerce. Los elementos eliminados solo se muestran si falla la sincronización. |
+| **ID de solicitud** | ID único de la solicitud de sincronización. Proporciónelo al equipo de asistencia cuando solucione problemas con las actualizaciones de entidad. |
+| **Error** | Información detallada sobre errores de sincronización |
+
+Puede administrar la vista mediante los siguientes controles:
+
+- [!UICONTROL Mass Action] para programar la resincronización de los elementos de fuente seleccionados
+- [!UICONTROL Filters] y [!UICONTROL Columns]
+- [!UICONTROL Default View] para crear y guardar una vista filtrada y cambiar entre vistas
+
+### Indicadores de estado de alimentación {#feed-health-indicators}
+
+| **Indicador** | **Descripción** |
+| ------------- | --------------- |
+| Estado del indexador | <ul><li>**Listo**: el indizador está actualizado. No se requiere reindexación.</li><li>**Se requiere reindexación**: Se han cambiado los datos de Source. Ejecute un reíndice para capturar los cambios recientes.</li><li>**Procesando**: la indización está en curso.</li></ul> |
+| Registro de cambios pendientes | <ul><li>**Todo sincronizado**: no hay cambios pendientes para procesar.</li><li>**Elementos pendientes**: número de cambios pendientes que esperan ser procesados. Un registro de pendientes de más de 1000 elementos puede indicar problemas de rendimiento.</li></ul> |
+| Modo de indizador | <ul><li>**Modo de horario** (recomendado): el indizador se ejecuta según lo programado, lo que reduce el riesgo de pérdida de datos.</li><li>**Actualización al guardar** (tiempo real): se muestra como advertencia en la página. No se espera el modo en tiempo real y aumenta el riesgo de pérdida de datos bajo carga.</li></ul> |
+
+>[!TIP]
+>
+> Para obtener más información acerca del procesamiento de índices, vea el tema [Administración de índices](index-management.md).
+
+### Exportar tipos de estado {#export-status-types}
+
+| **Estado** | **Descripción** | **Acción necesaria** |
+| ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------ |
+| **Enviado al servicio** | El elemento de fuente se envió correctamente desde Commerce para su procesamiento posterior. | Ninguno |
+| **Error, se volverá a intentar** | No se pudo enviar, pero el sistema intentará reenviar. | Monitor para resolución |
+| **Error, requiere atención** | Error debido a un error de datos o de la aplicación. | Investigue y resuelva el problema en la columna [!UICONTROL Error] |
+| **Esperando envío** | Cambios detectados en el registro de cambios pero aún no procesados. | Estado de procesamiento normal |
+
+## Monitorización del estado de fuente de datos
+
+Cuando se actualizan entidades relacionadas con productos y categorías en la base de datos de Commerce, los datos se transfieren a los servicios de Commerce según la configuración de la fuente. Puede supervisar la actividad de exportación y su estado actual desde la página de resumen [!UICONTROL Data Feed Sync Status].
+
+>[!IMPORTANT]
+>
+> El tiempo que se tarda en completar la sincronización de datos varía en función del tamaño del catálogo, el volumen de datos actualizados y el rendimiento del servicio externo.
+
+Cuando el recuento enviado correctamente coincide con el recuento de origen de una fuente y no queda ningún elemento en espera de envío o de error, Commerce ha completado la exportación de esa fuente. Use el tablero apropiado para [confirmar la disponibilidad descendente](#confirm-data-in-connected-services).
+
+>[!NOTE]
+>
+> Adobe también proporciona herramientas de interfaz de línea de comandos y registros del sistema que los desarrolladores e integradores de sistemas pueden utilizar para administrar y realizar un seguimiento de las operaciones de sincronización. Para obtener más información, consulte la [Guía de exportación de datos SaaS](https://experienceleague.adobe.com/es/docs/commerce/saas-data-export/overview).
+
+### Administración de exportaciones fallidas {#manage-failed-exports}
+
+Para revisar las exportaciones con errores y programar una resincronización:
+
+1. En la página de resumen, busque la fuente con registros fallidos.
+1. Seleccione **[!UICONTROL Details]**.
+1. Revise los mensajes de error en la columna [!UICONTROL Error].
+1. Seleccione los registros que desea volver a sincronizar mediante las casillas de verificación.
+1. En el menú [!UICONTROL Mass Action], seleccione **[!UICONTROL Schedule Resync]**, seleccione **[!UICONTROL Submit]** y confirme la operación.
+1. Monitorice los cambios de estado en la página de detalles.
+
+El sistema reintenta automáticamente ciertos errores.
+
+#### Cuándo se debe volver a sincronizar manualmente {#resync-feed-items}
+
+Sincronizar manualmente en estos casos:
+
+- Persisten los errores de autenticación o permiso (códigos de estado 401 o 403)
+- Ha corregido problemas de formato de datos que causaban errores de carga útil
+- Se ha cambiado la configuración del servicio externo o los extremos
+- Se han implementado personalizaciones que afectan a la exportación de datos
+
+### Confirmar datos en servicios conectados {#confirm-data-in-connected-services}
+
+Para comprobar la sincronización de un extremo a otro después de completar la exportación, utilice uno de los métodos siguientes. Para conocer los límites del estado de exportación en esta página, consulte la [nota anterior](#export-status-scope).
+
+- **[!DNL Adobe Commerce as a Cloud Service]con servicios de Commerce:** Compruebe el [tablero de administración de datos](data-dashboard.md) aplicable para confirmar la disponibilidad del flujo descendente.
+- **Adobe Commerce en la nube o local con el conector de Adobe Commerce Optimizer**: compruebe primero el estado de exportación del administrador de Commerce y, a continuación, compruebe la [página de sincronización de datos](https://experienceleague.adobe.com/es/docs/commerce/optimizer/setup/data-sync) en [!DNL Commerce Optimizer Studio]
+- **[!DNL Adobe Commerce Optimizer] (independiente):** Los datos no se exportan desde el servidor de Commerce. Use la [página de sincronización de datos](https://experienceleague.adobe.com/es/docs/commerce/optimizer/setup/data-sync) en [!DNL Commerce Optimizer Studio] para confirmar la disponibilidad de los datos.
+
+>[!TIP]
+>
+> Para obtener más información sobre el proceso de sincronización de datos, consulte [Sincronizar datos con la exportación de datos SaaS](https://experienceleague.adobe.com/es/docs/commerce/saas-data-export/data-synchronization/data-sync-manage#view-and-manage-the-synchronization-process) en la *Guía de exportación de datos SaaS*.
+
+## Prácticas recomendadas {#best-practices}
+
+- Revise la página Resumen diariamente para ver las fuentes con tasas de error altas.
+- Examine semanalmente los detalles de las fuentes esenciales, como los productos y los precios.
+- Rastree las tendencias de éxito de las exportaciones mensualmente para identificar problemas recurrentes.
+
+## Solución de problemas comunes {#troubleshoot-common-issues}
+
+| Problema | Síntomas | Qué hacer |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Altas tasas de fallo | Muchos registros muestran *Error, requiere atención* estado | <ul><li>Comprobar el estado y la configuración del servicio externo</li><li>Revisar mensajes de error para patrones en la columna [!UICONTROL Error]</li><li>Después de resolver el problema subyacente, consulte [Administrar y resincronizar exportaciones con errores](#manage-failed-exports)</li><li>Póngase en contacto con soporte técnico externo si es necesario</li></ul> |
+| Rendimiento de exportación lento | Alto registro de cambios pendientes o actualizaciones de estado lentas | <ul><li>Comprobar [indicadores de estado de fuente](#feed-health-indicators) para el indizador y el estado del registro de pendientes</li><li>Volver a ejecutar la indexación si se muestra **Reindexación necesaria**</li><li>Monitorización de tiempos de respuesta de servicio externo</li><li>Programar exportaciones durante las horas de menor actividad cuando sea posible</li><li>Revisar los recursos y el rendimiento del sistema</li></ul> |
+| Errores de autenticación | Códigos de estado 401 o 403 en la columna [!UICONTROL Error] | <ul><li>Verificar credenciales y tokens de API</li><li>Compruebe los permisos de la cuenta de servicio externo</li><li>Renovar tokens caducados o ponerse en contacto con su proveedor de servicios</li><li>Una vez restauradas las credenciales, [vuelva a sincronizar los registros afectados](#manage-failed-exports)</li></ul> |
+| Falta la página Estado de sincronización de fuente de datos | **[!UICONTROL Data Feed Sync Status]** no aparece en la lista bajo **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** después de habilitar un servicio conectado | <ul><li>Para Commerce as a Cloud Service, confirma que hay un servicio apto habilitado (consulta [Audiencia y disponibilidad](#audience))</li><li>Solo para Commerce en la nube o local, [Instale la extensión manualmente](#install-the-extension)</li></ul> |
+
+Adobe Commerce on Cloud Infrastructure o local: confirme que un servicio apto para el conector de Adobe Commerce Optimizer está activado; si la página sigue sin aparecer, siga las instrucciones de instalación manual.
+ACCS o Adobe Commerce Optimizer: no instale el módulo manualmente; utilice la experiencia de sincronización administrada por el producto o póngase en contacto con el equipo de asistencia técnica de servicio correspondiente.
+
+## Instalación de la extensión {#install-the-extension}
+
+Se requiere la instalación manual para las implementaciones locales o de Adobe Commerce en la nube solo si la página [!UICONTROL Data Feed Sync Status] no está en el área de administración después de habilitar un servicio apto. Ver [Audiencia y disponibilidad](#audience).
+
+### Requisitos previos
+
+- Adobe Commerce 2.4.4+. Para ver los requisitos detallados, consulte [Requisitos del sistema](https://experienceleague.adobe.com/es/docs/commerce-operations/installation-guide/system-requirements).
+- [Extensión de exportación de datos de Adobe Commerce](https://experienceleague.adobe.com/es/docs/commerce/saas-data-export/reference/manage-extension), versión 103.4.15 o posterior
+- Claves de autenticación con permiso para descargar el paquete requerido del repositorio de Adobe Commerce. Para crear claves de autenticación y obtener el acceso necesario al paquete, consulta [Obtener tus claves de autenticación](https://experienceleague.adobe.com/es/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Para instalaciones en la nube, consulte la [Guía de Commerce en infraestructura en la nube](https://experienceleague.adobe.com/es/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
+- Acceso a la línea de comandos del servidor de aplicaciones de Adobe Commerce.
 
 ### Pasos de instalación
 
@@ -102,201 +210,10 @@ composer require magento/module-data-exporter-status
 
 Para ver los pasos detallados de la instalación, consulte las siguientes guías:
 
-* [Instalar la extensión en Adobe Commerce en la infraestructura de la nube](https://experienceleague.adobe.com/es/docs/commerce-on-cloud/user-guide/configure-store/extensions)
-
-* [Instalación de la extensión de Adobe Commerce local](https://experienceleague.adobe.com/es/docs/commerce-operations/installation-guide/tutorials/extensions)
-
-## Acceso a la página Estado de fuente de datos
-
-Desde Commerce Admin, acceda a la página Estado de fuente de datos desde Commerce Admin en **[!DNL System]** > Transferencia de datos > **[!DNL Data Feed Sync Status]**.
-
-![Página de estado de sincronización de fuente de datos que resume la actividad de exportación de fuente de datos](assets/data-feed-sync-status.png)
-
-La monitorización del estado de las fuentes de datos proporciona dos interfaces:
-
-* La [página de resumen del estado de sincronización de fuentes de datos](#data-feed-sync-status-summary) que enumera las fuentes disponibles y el estado actual
-* [Estado de sincronización de fuente de datos - página de detalles](#data-feed-sync-status-details) que muestra información detallada sobre una fuente seleccionada.
-
-## Resumen del estado de sincronización de fuente de datos
-
-La página de resumen Estado de sincronización de fuentes proporciona información sobre la actividad de exportación de fuentes de datos, incluida la siguiente información:
-
-| Campo | Descripción |
-|-------|-------------|
-| **Nombre de fuente** | El nombre del indexador de fuente responsable de sincronizar una entidad específica o su parte, por ejemplo, el precio del producto. |
-| **Registros de Source** | Número de registros disponibles para exportar desde la base de datos de Commerce. Este número puede ser mayor que el número de registros mostrados en el administrador de Commerce, ya que cada elemento de fuente pertenece a un ámbito específico, como el código de vista de tienda. |
-| **Registros enviados correctamente** | Número de registros transmitidos correctamente al SaaS de Commerce para un procesamiento posterior. Si se produjeron errores durante la transmisión, el número de registros transmitidos correctamente a los servicios externos. |
-| **Registros con errores** | Número de registros que no se exportaron y que requieren atención. |
-| **Acción** | Seleccione **[!UICONTROL Details]** para ver la actividad de sincronización de una fuente. |
-
-## Detalles del estado de sincronización de fuente de datos
-
-En la página de resumen de estado de fuente de datos, haga clic en el nombre de una fuente o use la acción [!DNL View Details] para acceder a información detallada sobre registros individuales dentro de una fuente.
-
-![[!UICONTROL Data Feed Sync Status - Details] página con informe de estado de elemento de fuente](assets/data-feed-sync-status-details.png)
-
-La vista de detalles proporciona la siguiente información para cada elemento de fuente:
-
-| Campo | Descripción |
-|-------|-------------|
-| **ID de elemento de fuente** | Identificador interno del registro de fuente |
-| **Id. de entidad** | El ID de entidad de origen (ID de producto, ID de categoría, etc.) |
-| **Estado de exportación** | El [estado de sincronización](#export-status-types) del elemento de fuente. Estado actual del intento de exportación con indicadores con códigos de color |
-| **Fecha de última sincronización** | Marca de tiempo de la última vez que se envió el registro a Commerce Services |
-| **¿Se ha eliminado la entidad?** | Indica si la entidad o su artículo (precio de producto o producto, por ejemplo) se ha eliminado en Adobe Commerce. Los elementos sólo se muestran si se ha producido un error durante la sincronización. |
-| **ID de solicitud** | Identificador único de la solicitud de sincronización. Proporcione este ID al equipo de asistencia cuando solucione problemas relacionados con actualizaciones de entidades específicas. |
-| **Error** | Información detallada del error si el elemento de fuente no se pudo sincronizar. |
-
-Puede administrar la vista mediante los siguientes controles:
-
-* [!DNL Mass Action] para programar la resincronización de los elementos de fuente seleccionados
-* [!DNL Filters]
-* [!DNL Default View] para crear y guardar una vista filtrada y cambiar entre vistas
-* [!DNL Columns] para mostrar y ocultar columnas en la tabla.
-
-### Indicadores de estado de alimentación
-
-En la parte superior de cada página de detalles de fuente, los indicadores de estado críticos proporcionan el estado del sistema para cada fuente:
-
-#### Estado del indexador
-
-* **Válido**: los datos están sincronizados; no se requiere reindexación.
-* **No válido**: los datos originales se cambiaron; el índice debe actualizarse.
-* **Procesamiento**: indización en curso.
-
->[!TIP]
->
->Para obtener más información acerca del procesamiento de índices, vea el tema [Administración de índices](https://experienceleague.adobe.com/es/docs/commerce-admin/systems/tools/index-management).
-
-#### Registro de cambios pendientes
-
-* **Todo sincronizado**: no hay cambios pendientes para procesar
-* **Elementos pendientes**: número de cambios pendientes que esperan ser procesados
-
-### Exportar tipos de estado
-
-El sistema proporciona indicadores de estado para ayudarle a identificar los problemas rápidamente:
-
-#### Categorías de estado
-
-| **Estado** | **Descripción** | **Acción necesaria** |
-|--------|-----------|-------------|
-| **Enviado al servicio** | El elemento de fuente se exportó correctamente al servicio Commerce. | Ninguno |
-| **Error, se volverá a intentar** | Error temporal. El sistema lo volverá a intentar automáticamente. | Monitor para resolución |
-| **Error, requiere atención** | Error debido a un error de datos o de la aplicación. | Investigue y resuelva el problema en la columna [!DNL Error] |
-| **Esperando envío** | En cola para la exportación, pero aún no procesado. | Estado de procesamiento normal |
-
-## Monitorización del estado de fuente de datos
-
-Cuando se actualizan entidades relacionadas con productos y categorías en la base de datos de Commerce, los datos se transfieren a los servicios de Commerce según la configuración de la fuente. Puede monitorizar este proceso en tiempo real desde la página de resumen del estado de sincronización de fuentes de datos.
-
->[!IMPORTANT]
->
->El tiempo que se tarda en completar la sincronización de datos varía en función del tamaño del catálogo, el volumen de datos actualizados y el rendimiento del servicio externo.
-
-Cuando el número de registros enviados correctamente coincide con el número de registros de origen, indica que la sincronización ha finalizado y que todos los datos se han transmitido correctamente.
-
->[!NOTE]
->
->Adobe también proporciona herramientas de interfaz de línea de comandos y registros del sistema que los desarrolladores e integradores de sistemas pueden utilizar para administrar y realizar un seguimiento de las operaciones de sincronización. Para obtener más información, consulte la [Guía de exportación de datos SaaS](https://experienceleague.adobe.com/es/docs/commerce-merchant-services/saas-data-export/overview).
-
-### Administración de exportaciones fallidas
-
-Para ver los detalles de las exportaciones fallidas y tomar medidas correctivas:
-
-1. En la página Estado de sincronización de fuentes, busque la fuente con registros con errores.
-1. Haga clic en **[!DNL Details]**.
-
-1. Revise los mensajes de error por motivos de error específicos.
-
-1. Utilice acciones masivas para programar operaciones de resincronización de elementos fallidos.
-
-### Resincronizar datos con errores
-
-Puede volver a sincronizar manualmente las fuentes de datos problemáticas o con errores mediante el menú [!DNL Actions] de la página [!DNL Data Feed Sync Status - Details].
-
-Aunque el sistema reintenta automáticamente ciertos tipos de errores, puede ser necesaria una intervención manual en los siguientes casos:
-
-* Observará errores de autenticación o permisos (códigos de estado 401 y 403).
-* Después de resolver los problemas de formato de datos que causaban errores de carga útil.
-* Las siguientes actualizaciones corresponden a configuraciones de servicio externo o extremos.
-* Está implementando personalizaciones que afectan a los procesos de exportación de datos.
-
-Al monitorizar proactivamente el estado de las fuentes y corregir los errores con rapidez, puede mantener la coherencia y fiabilidad de los datos en todo el ecosistema de Commerce.
-
-#### Resincronizar manualmente los elementos de fuente
-
-Si necesita volver a sincronizar elementos de fuente específicos:
-
-1. **Seleccionar registros**: utilice casillas de verificación para seleccionar los registros con errores que requieran atención.
-2. **Elegir acción**: seleccione **[!DNL Schedule Resync]** en la lista desplegable de acciones masivas.
-3. **Confirmar**: Haga clic en **[!DNL Submit]** y confirme la operación de resincronización.
-4. **Supervisar resultados**: Compruebe el mensaje de éxito y los cambios de estado del monitor.
-
-## Prácticas recomendadas
-
-### Monitorización regular
-
-1. **Comprobaciones diarias**: revise diariamente la página de información general para ver si hay fuentes que muestren tasas de error elevadas
-1. **Inmersión profunda semanal**: Examine el estado detallado de las fuentes críticas (productos, precios)
-1. **Análisis mensual**: haga un seguimiento de las tendencias en las tasas de éxito de exportación y el rendimiento
-
-### Flujo de trabajo de resolución
-
-1. **Identificar problemas**: busque errores y recuentos altos de errores
-1. **Comprobar el estado del indizador**: Asegúrese de que los indizadores son válidos y de que el registro de pendientes es manejable
-1. **Revisar detalles del error**: haga clic en los registros con errores para ver mensajes de error específicos
-1. **Programar resincronización**: use acciones masivas para reintentar exportaciones con errores
-1. **Resolución del monitor**: compruebe que los elementos resincronizados muestran el estado correcto
-
-### Solucionar problemas comunes
-
-#### Altas tasas de fallo
-
-**Síntomas**: hay un gran número de registros que muestran el estado &quot;Fallido, requiere atención&quot;
-
-**Causas potenciales**:
-
-* Cambios en la configuración del servicio externo
-* Incompatibilidades de formato de datos
-* Problemas de autenticación o permisos
-
-**Pasos para la resolución**:
-
-1. Comprobar el estado y la configuración del servicio externo
-1. Revisar mensajes de error para patrones
-1. Verificar credenciales de autenticación
-1. Póngase en contacto con soporte técnico externo si es necesario
-
-#### Rendimiento de exportación lento
-
-**Síntomas**: Registro de cambios alto, actualizaciones de estado lentas
-
-**Causas potenciales**:
-
-* Problemas de rendimiento del indizador
-* Volumen de datos alto
-* Limitación de velocidad de servicio externo
-
-**Pasos de resolución**:
-
-1. Comprobar el estado del indexador y volver a ejecutar si no es válido
-2. Monitorización de tiempos de respuesta de servicio externo
-3. Considere programar exportaciones durante las horas de menor actividad
-4. Revisar los recursos y el rendimiento del sistema
-
-#### Errores de autenticación
-
-**Síntomas**: 401 o 403 códigos de estado
-
-**Pasos de resolución**:
-
-1. Verificar credenciales y tokens de API
-1. Compruebe los permisos de la cuenta de servicio externo
-1. Renovar tokens de autenticación caducados
-1. Póngase en contacto con su proveedor de servicios para problemas de acceso
+- [Instalar la extensión para Adobe Commerce en la infraestructura de la nube](https://experienceleague.adobe.com/es/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+- [Instalación de la extensión en Adobe Commerce local](https://experienceleague.adobe.com/es/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 >[!MORELIKETHIS]
 >
->* [Panel de administración de datos](https://experienceleague.adobe.com/es/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)
->* [Guía De Exportación De Datos SaaS](https://experienceleague.adobe.com/es/docs/commerce-merchant-services/saas-data-export/overview)
+> - [Panel de administración de datos](data-dashboard.md)
+> - [Guía De Exportación De Datos SaaS](https://experienceleague.adobe.com/es/docs/commerce/saas-data-export/overview)
