@@ -23,7 +23,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se ha actualizado el tema <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Estado de sincronización de fuentes de datos</a> para que coincida con la experiencia actual del administrador, se ha aclarado que la página informa solo del estado de exportación y se ha documentado cuando la función está disponible en las licencias de servicio de Commerce.</p>
+      <td><p>Se ha actualizado el tema <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Estado de sincronización de fuentes de datos</a> para que coincida con la experiencia actual del administrador, se ha aclarado que la página informa solo del estado de exportación y se ha documentado cuando la función está disponible en las licencias de servicio de Commerce.</p>
 </td>
       <td>
         Actualización importante
@@ -45,7 +45,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Aprenda a suprimir categorías específicas de correo electrónico automatizado del sistema, como notificaciones de pedidos o marketing, directamente desde el administrador en <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/email-suppression">Supresión de correo electrónico</a>.</p>
+      <td><p>Aprenda a suprimir categorías específicas de correo electrónico automatizado del sistema, como notificaciones de pedidos o marketing, directamente desde el administrador en <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/config/services/email-suppression">Supresión de correo electrónico</a>.</p>
 </td>
       <td>
         Actualización principal, nuevo tema
@@ -67,7 +67,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se agregó <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment">enriquecimiento del catálogo</a> con instrucciones para revisar y aplicar actualizaciones de nombres y descripciones de productos sugeridas por IA en el administrador, y se vinculó el tema desde el <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu">menú Catálogo</a>, <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview">descripción general de la guía</a> y temas relacionados con la configuración del producto.</p>
+      <td><p>Se agregó <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/catalog/products/catalog-enrichment">enriquecimiento del catálogo</a> con instrucciones para revisar y aplicar actualizaciones de nombres y descripciones de productos sugeridas por IA en el administrador, y se vinculó el tema desde el <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/catalog/catalog-menu">menú Catálogo</a>, <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/catalog/guide-overview">descripción general de la guía</a> y temas relacionados con la configuración del producto.</p>
 </td>
       <td>
         Nuevo tema
@@ -89,7 +89,7 @@ Esta sección contiene los cambios realizados en los últimos 60 días. Excluimo
   </thead>
   <tbody>
     <tr>
-      <td><p>Se ha agregado <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">Actualización del acceso de administrador del sistema</a> con instrucciones para administrar las asignaciones de administrador del sistema en Adobe Admin Console.</p>
+      <td><p>Se ha agregado <a href="https://experienceleague.adobe.com/es/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">Actualización del acceso de administrador del sistema</a> con instrucciones para administrar las asignaciones de administrador del sistema en Adobe Admin Console.</p>
 </td>
       <td>
         Comentarios
