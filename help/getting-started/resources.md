@@ -25,7 +25,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 67cbbb1d57e1306bd250237a9f767e5dbca335e6
 workflow-type: tm+mt
 source-wordcount: 385
 ht-degree: 0%
@@ -39,13 +39,13 @@ Adobe proporciona una gran cantidad de recursos empresariales y técnicos, herra
 | Recurso ecosistémico | Descripción |
 | ------------------ | ----------- |
 | [Documentación del producto](https://experienceleague.adobe.com/docs/commerce.html?lang=es) | Los comerciantes, diseñadores y desarrolladores pueden usar la documentación para obtener información más detallada de insight sobre cómo pueden aplicar el poder de [!DNL Commerce] para hacer crecer su negocio. |
-| [Biblioteca de recursos de Commerce](https://business.adobe.com/es/resources/main.html?Products+%26+Services=Commerce%252CCommerce%2520Cloud) | Acceda a libros electrónicos, documentos técnicos de Commerce y seminarios web para obtener recursos empresariales en línea y de insight expertos que le ayudarán a desarrollar y mejorar su tienda. |
+| [Biblioteca de recursos de Commerce](https://business.adobe.com/es/resources/commerce.html) | Acceda a libros electrónicos, documentos técnicos de Commerce y seminarios web para obtener recursos empresariales en línea y de insight expertos que le ayudarán a desarrollar y mejorar su tienda. |
 | [Respuesta a incidente de seguridad del producto Adobe](https://helpx.adobe.com/es/security.html) | Únase al Registro de alertas de seguridad para obtener la información más reciente sobre posibles vulnerabilidades y [Prácticas recomendadas de seguridad](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf). |
-| [Foros de la comunidad](https://community.magento.com/) | Los foros proporcionan acceso a una red de entusiastas de Adobe Commerce y Magento Open Source que comparten consejos, trucos y asistencia. |
-| [Blog](https://business.adobe.com/blog/) | Consulte el blog para obtener la información más reciente sobre nuevas funciones, tendencias, prácticas recomendadas, eventos próximos, etc. |
-| [Eventos y seminarios web](https://www.adobe.com/events.html) | Manténgase al tanto del calendario de próximos eventos y seminarios web. Siempre está sucediendo algo en el ecosistema [!DNL Commerce]. |
-| [[!DNL Commerce Marketplace]](https://marketplace.magento.com/) | Visite el mercado de [!DNL Commerce] de soluciones de comercio digital de próxima generación. [!DNL Commerce Marketplace] ofrece a los comerciantes una selección revisada de soluciones, a la vez que proporciona a los desarrolladores calificados las herramientas, la plataforma y la ubicación privilegiada para un negocio próspero. |
-| [Formación y certificación](https://learning.adobe.com/catalog.html?solution=Adobe%20Commerce) | Aprenda a liberar la potencia y flexibilidad de Adobe Commerce y Magento Open Source. Se proporciona formación para cada función en su empresa, incluidos especialistas en marketing, diseñadores, desarrolladores y mucho más. Los profesionales con experiencia [!DNL Commerce] pueden validar sus habilidades en el mundo real si obtienen una certificación [!DNL Commerce]. |
+| [Blog](https://business.adobe.com/blog/?ch_Products=Commerce) | Consulte el blog para obtener la información más reciente sobre nuevas funciones, tendencias, prácticas recomendadas, eventos próximos, etc. |
+| [Blog de desarrolladores](https://blog.developer.adobe.com/?prod=Adobe+Commerce) | El blog para desarrolladores de [!DNL Commerce] es un excelente recurso para que los desarrolladores conozcan las nuevas características, las prácticas recomendadas y los próximos eventos. |
+| [Eventos y seminarios web](https://experienceleague.adobe.com/es/events#f-el_product=Commerce,Commerce%20Intelligence) | Manténgase al tanto del calendario de próximos eventos y seminarios web. Siempre está sucediendo algo en el ecosistema [!DNL Commerce]. |
+| [[!DNL Commerce Marketplace]](https://commercemarketplace.adobe.com/) | Visite el mercado de [!DNL Commerce] de soluciones de comercio digital de próxima generación. [!DNL Commerce Marketplace] ofrece a los comerciantes una selección revisada de soluciones, a la vez que proporciona a los desarrolladores calificados las herramientas, la plataforma y la ubicación privilegiada para un negocio próspero. |
+| [Formación y certificación](https://certification.adobe.com/certifications/landing) | Aprenda a liberar la potencia y flexibilidad de Adobe Commerce y Magento Open Source. Se proporciona formación para cada función en su empresa, incluidos especialistas en marketing, diseñadores, desarrolladores y mucho más. Los profesionales con experiencia [!DNL Commerce] pueden validar sus habilidades en el mundo real si obtienen una certificación [!DNL Commerce]. |
 | [Socios](https://business.adobe.com/es/products/magento/partners.html) | Los socios de Adobe están comprometidos con su éxito y proporcionan integraciones personalizadas, las mejores experiencias de los clientes, iniciativas de marketing estratégicas y optimización del rendimiento y la escalabilidad para soluciones locales y basadas en la nube. |
 | [Adobe Commerce Managed Services](https://business.adobe.com/es/products/magento/fully-managed-service.html) | El equipo de Managed Services de Adobe Commerce ayuda a los comerciantes y socios de soluciones a maximizar su éxito. Estos expertos ofrecen análisis exhaustivos y recomendaciones de prácticas recomendadas, desde la planificación de la arquitectura hasta la fase posterior a la implementación. |
 

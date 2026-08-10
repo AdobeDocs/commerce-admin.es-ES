@@ -23,7 +23,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: 2710
+source-wordcount: 2904
 ht-degree: 0%
 
 ---
@@ -33,9 +33,11 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >**Migración a Commerce 2.4:**<br/>
->En las versiones de Adobe Commerce y Magento Open Source anteriores a la 2.4.0, se recomendó que los comerciantes instalaran y configuraran la extensión oficial de integración de pagos de Braintree desde [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree) para reemplazar la integración principal. A partir de la versión 2.4.0, la extensión de se incluye ahora en la versión principal.
-><br/><br/>>Al migrar a Commerce 2.4, los comerciantes deben desinstalar la extensión distribuida en Marketplace (`paypal/module-braintree` o `gene/module-braintree`) y actualizar las personalizaciones de código para utilizar el área de nombres `PayPal_Braintree` en lugar de `Magento_Braintree`. Las opciones de configuración de la extensión agrupada para Commerce y la extensión distribuida en Commerce Marketplace se mantienen. Los pagos realizados con esas versiones de la extensión se capturan, anulan o devuelven con normalidad.
-><br/><br/>>Si está actualizando a Commerce 2.4.0 y no usa la extensión de Commerce Marketplace recomendada en su versión anterior 2.3.x, la característica de direcciones múltiples no funciona con la versión 2.4.0 de Braintree. Cuando un comprador selecciona _enviar a varias direcciones_ , el método de pago de Braintree no aparece. La extensión de Commerce Marketplace recomendada anteriormente para 2.3.x tiene este problema de varias direcciones.
+>Para las versiones de Adobe Commerce y Magento Open Source anteriores a la 2.4.0, se recomendó que los comerciantes instalaran y configuraran la extensión oficial de integración de pagos de Braintree desde [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree) para reemplazar la integración principal. A partir de la versión 2.4.0, la extensión de se incluye ahora en la versión principal.
+><br/><br/>
+>Al migrar a Commerce 2.4, los comerciantes deben desinstalar la extensión distribuida en Marketplace (`paypal/module-braintree` o `gene/module-braintree`) y actualizar las personalizaciones de código para utilizar el área de nombres `PayPal_Braintree` en lugar de `Magento_Braintree`. Las opciones de configuración de la extensión agrupada para Commerce y la extensión distribuida en Commerce Marketplace se mantienen. Los pagos realizados con esas versiones de la extensión se capturan, anulan o devuelven con normalidad.
+><br/><br/>
+>Si actualiza a Commerce 2.4.0 y no utiliza la extensión de Commerce Marketplace recomendada en la versión 2.3.x anterior, la función de varias direcciones no funciona con la versión 2.4.0 de Braintree. Cuando un comprador selecciona _enviar a varias direcciones_ , el método de pago de Braintree no aparece. La extensión de Commerce Marketplace recomendada anteriormente para 2.3.x tiene este problema de varias direcciones.
 
 {{config}}
 
