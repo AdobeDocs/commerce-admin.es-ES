@@ -31,7 +31,7 @@ ht-degree: 0%
 
 El archivo de administración [actions](action-log.md) enumera los archivos de registro CSV almacenados en el servidor.
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} En la configuración, puede especificar cuánto tiempo se almacenan las entradas de registro y con qué frecuencia se archivan. De forma predeterminada, el nombre de archivo incluye la fecha actual en formato ISO: `yyyyMMddHH`
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} En la configuración, puede especificar cuánto tiempo se almacenan las entradas de registro y con qué frecuencia se archivan. De forma predeterminada, el nombre de archivo incluye la fecha actual en formato ISO: `yyyyMMddHH`
 
 >[!NOTE]
 >
