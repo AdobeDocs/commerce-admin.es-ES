@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 207d5fac67567c7f83c88d5a430bf24cf3e97828
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: 318
 ht-degree: 0%
 
 ---
@@ -41,6 +41,10 @@ Vea el [Informe de registros de acciones](action-log-report.md) para revisar las
 ![Configuración avanzada - registro de acciones de administración](../configuration-reference/advanced/assets/admin-actions-logging.png){width="600" zoomable="yes"}
 
 Para obtener una lista detallada de las opciones de configuración, consulte [Archivado del registro de acciones de administración](../configuration-reference/advanced/system.md) en la _Referencia de configuración_.
+
+>[!NOTE]
+>
+>En la plataforma [!DNL Adobe Commerce as a Cloud Service], no puede configurar el informe de registro de acciones, el archivo de registro de acciones ni el registro de acciones masivas, pero puede revisar el resultado del informe desde el menú **[!UICONTROL System]** > _[!UICONTROL Action Logs]_&#x200B;en el Administrador.
 
 ## Configurar acciones de administración para el registro
 
