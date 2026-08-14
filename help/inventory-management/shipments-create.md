@@ -4,11 +4,20 @@ description: Cree envíos de varios orígenes en el administrador mediante las r
 exl-id: d2995139-0fc3-4379-a4ec-b0d38ed566bb
 feature: Inventory, Shipping/Delivery
 TQID: https://experienceleague.adobe.com/IpRJ-mlwOVkNJymlJFV8o-aQp1oDU-xyNE7C6iVDR2E
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
 source-wordcount: 400
@@ -60,9 +69,9 @@ A medida que introduce envíos, las cantidades de inventario disponible deducir�
 
      ![Seleccione un Source e introduzca una cantidad](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
-1. Revise la página _[!UICONTROL New Shipment]_e introduzca los cambios adicionales que sean necesarios.
+1. Revise la página _[!UICONTROL New Shipment]_&#x200B;e introduzca los cambios adicionales que sean necesarios.
 
-   La sección _[!UICONTROL Inventory]_muestra el origen, el envío de productos, la cantidad total solicitada y la cantidad a enviar.
+   La sección _[!UICONTROL Inventory]_&#x200B;muestra el origen, el envío de productos, la cantidad total solicitada y la cantidad a enviar.
 
    ![Detalles de inventario para el envío, por ejemplo, envío parcial](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 
