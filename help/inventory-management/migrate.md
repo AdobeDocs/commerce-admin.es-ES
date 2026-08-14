@@ -1,26 +1,17 @@
 ---
 title: '[!DNL Commerce] actualizaciones'
-description: Descubra cómo las actualizaciones de Adobe Commerce y Magento Open Source afectan a las configuraciones del catálogo y  [!DNL Inventory Management] .
+description: Descubra cómo la actualización a Adobe Commerce 2.4.x afecta al comportamiento del inventario de catálogos, las existencias y los  [!DNL Inventory Management] módulos.
 exl-id: ba640b91-0f29-46df-bfd9-1c43433a751f
 feature: Inventory, Upgrade
 TQID: https://experienceleague.adobe.com/rAnH5pJjtg4ujbQdHow-B6urN090iTTt19mv4sadVnc
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ee163e043412ee9719458f2660e116050afa0d1f
 workflow-type: tm+mt
-source-wordcount: 749
+source-wordcount: 754
 ht-degree: 0%
 
 ---
@@ -41,21 +32,21 @@ Al instalar Magento Open Source 2.4.x o Adobe Commerce 2.4.x, se producen los si
   >
   >Se desaconseja encarecidamente el uso de Valores predeterminados y Source predeterminado porque forman parte del módulo `CatalogInventory`, que ahora está obsoleto. En su lugar, se recomienda crear y utilizar recursos y existencias personalizados.
 
-   - Las existencias proporcionan una cantidad vendible virtual agregada con reservas para rastrear carros de compras y pedidos, lo que garantiza un cierre de compra simultáneo.
+  - Las existencias proporcionan una cantidad vendible virtual agregada con reservas para rastrear carros de compras y pedidos, lo que garantiza un cierre de compra simultáneo.
 
-   - Todos los productos existentes en el catálogo se asignan al Source predeterminado. Hasta que se añaden nuevas fuentes, la interfaz del producto no cambia. Si solo envía productos desde una ubicación, no hay otras diferencias para las fuentes. Puede crear [orígenes](sources-add.md) personalizados y [asignar cantidades](quantities-manage.md) por ubicación de envío.
+  - Todos los productos existentes en el catálogo se asignan al Source predeterminado. Hasta que se añaden nuevas fuentes, la interfaz del producto no cambia. Si solo envía productos desde una ubicación, no hay otras diferencias para las fuentes. Puede crear [orígenes](sources-add.md) personalizados y [asignar cantidades](quantities-manage.md) por ubicación de envío.
 
-   - Puede configurar un origen como una ubicación de recogida y [asignar cantidades](quantities-manage.md) para ese origen.
+  - Puede configurar un origen como una ubicación de recogida y [asignar cantidades](quantities-manage.md) para ese origen.
 
-   - El sitio web asigna a Stock predeterminado. Puede crear [existencias](stocks-add.md) personalizadas para conectar canales de ventas (sitios web) y fuentes (ubicaciones).
+  - El sitio web asigna a Stock predeterminado. Puede crear [existencias](stocks-add.md) personalizadas para conectar canales de ventas (sitios web) y fuentes (ubicaciones).
 
 - [opciones de configuración](configuration.md) adicionales se agregan a sus productos y a su tienda global. Algunas opciones de configuración existentes reciben opciones y comportamientos actualizados:
 
-   - Notificar para la Cantidad Siguiente envía notificaciones y deducciones de la Cantidad Vendible.
+  - Notificar para la Cantidad Siguiente envía notificaciones y deducciones de la Cantidad Vendible.
 
-   - El umbral de Agotado admite importes positivos, cero y negativos. Con los pedidos no satisfechos activados, las cantidades positivas se omiten y se consideran cero (o infinitas).
+  - El umbral de Agotado admite importes positivos, cero y negativos. Con los pedidos no satisfechos activados, las cantidades positivas se omiten y se consideran cero (o infinitas).
 
-   - Los pedidos no satisfechos admiten importes cero (infinitos) y negativos. Cuando está activada, la opción Notificar para la Cantidad Siguiente no deduce de la Cantidad Vendible.
+  - Los pedidos no satisfechos admiten importes cero (infinitos) y negativos. Cuando está activada, la opción Notificar para la Cantidad Siguiente no deduce de la Cantidad Vendible.
 
 - Las nuevas reservas realizan un seguimiento de las posibles ventas, convirtiéndolas en deducciones de cantidad cuando se envía el pedido. Nunca accede directamente ni crea reservas. [!DNL Commerce] crea y administra reservas entre bastidores mediante pedidos, envíos y notas de crédito.
 

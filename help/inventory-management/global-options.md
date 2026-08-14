@@ -1,31 +1,24 @@
 ---
 title: Configurar  [!DNL Inventory Management] opciones globales
-description: Aprenda a configurar las  [!DNL Inventory Management] opciones de configuración predeterminadas del producto y las existencias de sus sitios web.
+description: Configure las opciones del catálogo global [!DNL Inventory Management] para las opciones de stock de productos, los umbrales y la visualización de la tienda en todos los sitios web.
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: 657
 ht-degree: 1%
 
 ---
 
 # Configurar [!DNL Inventory Management] opciones globales
+
+Esta configuración global se aplica a todo el catálogo en **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**.
 
 Configure las opciones de configuración predeterminadas del producto y las existencias para sus sitios web. Algunos de estos ajustes se pueden anular por producto mediante [Configuración de las opciones del producto](product-options.md). Para configurar la Prioridad de distancia, consulte [Configuración del algoritmo de prioridad de distancia](distance-priority-algorithm.md).
 
@@ -101,7 +94,7 @@ Configure las opciones de configuración predeterminadas del producto y las exis
 
      >[!NOTE]
      >
-     >Para configurar y admitir _administradores de cola asincrónicos_, debe emitir un comando mediante la línea de comandos. Este paso puede requerir la asistencia del desarrollador. Consulte [Iniciar consumidores de cola de mensajes](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=es) en la _Guía de configuración_.
+     >Para configurar y admitir _administradores de cola asincrónicos_, debe emitir un comando mediante la línea de comandos. Este paso puede requerir la asistencia del desarrollador. Consulte [Iniciar consumidores de cola de mensajes](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) en la _Guía de configuración_.
 
    - Si está habilitado, establezca **[!UICONTROL Asynchronous batch size]**. El tamaño predeterminado del lote es 100. Cuando los procesos masivos alcanzan esta cantidad, el sistema los déclencheur.
 

@@ -1,32 +1,23 @@
 ---
 title: Administrar orígenes de inventario
-description: Obtenga información sobre las fuentes y cómo definen las ubicaciones físicas en las que se administra y envía el inventario de productos para la realización de pedidos o en las que hay servicios disponibles.
+description: Descripción general de las tareas de administración para agregar, editar, habilitar y deshabilitar  [!DNL Inventory Management] orígenes que almacenan y envían el inventario de productos.
 exl-id: 1315a8c9-7791-4c4b-9463-3126b79793c2
 TQID: https://experienceleague.adobe.com/bVWqSGSgW08l7zZ7bLuZIcJUjqmj7Npn55yEdZn-aB0
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 695
+source-wordcount: 623
 ht-degree: 0%
 
 ---
 
 # Administrar fuentes
 
-Las fuentes son las ubicaciones físicas en las que se administra y envía el inventario de productos para la satisfacción de pedidos o en las que hay servicios disponibles. Estas ubicaciones pueden incluir almacenes, tiendas físicas, centros de distribución, ubicaciones de recogida y expedidores de entrega. Usted asigna cantidades de inventario a estos orígenes y [!DNL Commerce] agrega automáticamente el total de productos vendibles para sus existencias. Para las grandes empresas, añada múltiples fuentes para todas sus ubicaciones: en diferentes ubicaciones geográficas por país y continente, ubicaciones en una ciudad, en función del tipo de inventario, incluso en función de los servicios.
+Utilice este tema para agregar, editar, habilitar y deshabilitar orígenes. Para obtener información sobre la relación de las fuentes con las existencias y la cantidad vendible, consulte [Existencias y fuentes](sources-stocks.md).
 
 Se recomienda proporcionar ubicaciones geográficas físicas específicas al crear una fuente. Esto permite que el _Algoritmo de prioridad de distancia_ compare la ubicación de la dirección de destino de envío con las ubicaciones de origen disponibles para determinar la fuente más cercana a los envíos. Puede utilizar Mapas de Google o cálculos sin conexión, que utilizan geocódigos. Para obtener más información sobre este _algoritmo de prioridad de distancia_, consulte [Configurar el algoritmo de prioridad de distancia](distance-priority-algorithm.md).
 
@@ -51,7 +42,7 @@ Puede actualizar el nombre, la dirección, la ubicación GPS y la información d
 
 Si edita la Source predeterminada, puede editar todas las configuraciones excepto el nombre y el código. Se recomienda que los comerciantes de un solo origen agreguen información que coincida con su ubicación.
 
-La página _[!UICONTROL Manage Sources]_&#x200B;enumera todas las ubicaciones de inventario e instalaciones de cumplimiento disponibles. Puede agregar nuevos orígenes de inventario y editar las ubicaciones existentes.
+La página _[!UICONTROL Manage Sources]_enumera todas las ubicaciones de inventario e instalaciones de cumplimiento disponibles. Puede agregar nuevos orígenes de inventario y editar las ubicaciones existentes.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
 
