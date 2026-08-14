@@ -26,6 +26,6 @@ Esta solicitud de extracción (PR) ...
 
 <!--  _OPTIONAL - REMOVE THIS SECTION IF NOT USED._
 
-If this pull request introduces changes that should be highlighted in the What's New section (https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home#whats-new), see _What's New highlights_ in the Contribution guidelines (https://github.com/AdobeDocs/commerce-admin.en/blob/main/contributing.md#whats-new-highlights).
+If this pull request introduces changes that should be highlighted in the What's New section (https://experienceleague.adobe.com/es/docs/commerce-admin/user-guides/home#whats-new), see _What's New highlights_ in the Contribution guidelines (https://github.com/AdobeDocs/commerce-admin.es-ES/blob/main/contributing.md#whats-new-highlights).
 -->
 
