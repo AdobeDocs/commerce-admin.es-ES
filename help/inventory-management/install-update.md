@@ -1,6 +1,6 @@
 ---
 title: Instalar, actualizar y quitar [!DNL Inventory Management]
-description: Obtenga información sobre cómo administrar el  [!DNL Inventory Management] metapackage.
+description: Instale, habilite, deshabilite, quite o actualice el  [!DNL Inventory Management] metapackage.
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
@@ -17,9 +17,9 @@ role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
-source-wordcount: 683
+source-wordcount: 677
 ht-degree: 0%
 
 ---
@@ -98,9 +98,9 @@ El proceso de instalación de [!DNL Inventory Management] agrega todos los módu
 
 Cuando está instalada, actualizada o actualizada, la opción _[!UICONTROL Manage Stock]_&#x200B;en el Administrador está habilitada de manera predeterminada. Esta opción habilita el seguimiento y la administración del inventario, pero no afecta al estado del módulo. Para deshabilitar los módulos, consulte la siguiente sección.
 
-Para obtener más información sobre las configuraciones, consulte [Configuración de Inventory management](configuration.md).
+Para obtener más información sobre las configuraciones, consulte [Configurar [!DNL Inventory Management]](configuration.md).
 
-## Deshabilitar Inventory management
+## Deshabilitar [!DNL Inventory Management] {#disable-inventory-management}
 
 >[!IMPORTANT]
 >
@@ -126,7 +126,7 @@ Una vez finalizado, el sistema proporciona una lista de módulos y valores en `<
 >
 >Si tiene instalados los módulos del conector de OMS, asegúrese de no deshabilitar el módulo `Magento_InventoryMessageBus`, que es un módulo del conector. Es necesario utilizar el conector con OMS.
 
-## Eliminar Inventory management
+## Eliminar [!DNL Inventory Management] {#remove-inventory-management}
 
 >[!IMPORTANT]
 >
@@ -212,7 +212,7 @@ Si decide no utilizar la funcionalidad [!DNL Inventory Management], puede quitar
 
 Cuando se complete este cambio, ejecute la instalación del compositor y eliminará automáticamente estos módulos de Inventory management.
 
-## Actualizar Inventory management
+## Actualizar [!DNL Inventory Management] {#upgrade-inventory-management}
 
 ### Versiones anteriores de [!DNL Commerce]
 

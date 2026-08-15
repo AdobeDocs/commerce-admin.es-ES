@@ -1,6 +1,6 @@
 ---
-title: Introducción a Inventory management
-description: 'Aprenda a utilizar las características de  [!DNL Inventory Management] para administrar las existencias en varias ubicaciones y que su tienda refleje con precisión el inventario físico. [!DNL Commerce] '
+title: Introducción a  [!DNL Inventory Management]
+description: Aprenda a usar [!DNL Inventory Management] for [!DNL Commerce] para administrar el inventario entre orígenes y existencias, calcular las cantidades vendibles, hacer un seguimiento de las reservas y admitir el cumplimiento de pedidos. Use el Administrador para configurar y generar informes, y la interfaz de línea de comandos para cambios de configuración y fondo.
 exl-id: 6a7dd27e-248f-4c40-b2db-0d70529422a1
 TQID: https://experienceleague.adobe.com/7v-G-DZEki7y-4HSmq-rJxsmu6vih26jRYYCRRUF-XY
 product_v2:
@@ -17,23 +17,31 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 125a49f740639bce0ced8063074ca43d627c0eac
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: 371
 ht-degree: 0%
 
 ---
 
-# Introducción a Inventory management
+# Introducción a [!DNL Inventory Management]
 
-[!DNL Inventory Management] para [!DNL Commerce] le proporciona las herramientas para administrar el inventario de productos. Los comerciantes con una sola tienda en varios almacenes, tiendas, ubicaciones de recogida, distribuidores directos entre otros pueden utilizar estas funciones para mantener las cantidades de ventas y gestionar los envíos para completar pedidos. Puede realizar un seguimiento de las cantidades de inventario, proporcionar cantidades precisas de existencias vendibles a los clientes para todos los sitios web y enviar según las recomendaciones basadas en la distancia o la prioridad. También puede configurar las configuraciones de producto preferidas globalmente (para todas las tiendas y productos), por origen y por producto. Estas funciones aumentan con su empresa, lo que le permite trabajar desde un único almacén o desde una compleja red de envío con algunos ajustes adicionales.
+[!DNL Inventory Management] para [!DNL Commerce] ayuda a los comerciantes a administrar el inventario en uno o más sitios web y en ubicaciones de productos físicas o virtuales. Proporciona herramientas en la interfaz de línea de comandos y administración para configurar el inventario, realizar un seguimiento de las cantidades disponibles y agregadas, proteger el inventario durante el cierre de compra y admitir el cumplimiento de pedidos. Puede utilizar [!DNL Inventory Management] para una única fuente o una red de varios orígenes que incluya almacenes, tiendas, ubicaciones de recogida, distribuidores directos entre terceros y otras ubicaciones de entrega.
+
+## Formas de usar [!DNL Inventory Management]
+
+- **Administrador:** Establezca opciones de inventario y genere informes de inventario.
+- **Interfaz de línea de comandos:** Ejecute comandos de instalación y aplique los cambios de inventario en segundo plano.
+- **Ámbito de configuración:** Configure las opciones de inventario de forma global, por origen o por producto.
+
+## Características principales
 
 [!DNL Inventory Management] características incluyen:
 
-- Diferentes configuraciones para comerciantes cuyo inventario se origina desde un único origen y desde varios orígenes
-- Existencias para el seguimiento de las cantidades agregadas disponibles a través de los orígenes asignados
+- Diferentes configuraciones para comerciantes cuyo inventario se origina desde un único origen o desde varios orígenes
+- Existencias para el seguimiento de cantidades vendibles agregadas entre orígenes asignados
 - Protección de cierre de compra simultáneo
-- Algoritmos de coincidencia de envíos
+- Algoritmos de coincidencia de envíos que admiten recomendaciones de cumplimiento basadas en la distancia o la prioridad
 
 >[!NOTE]
 >
@@ -45,10 +53,10 @@ ht-degree: 0%
 
 Es importante que entienda los siguientes términos cuando trabaje con [!DNL Inventory Management]:
 
-[!UICONTROL **Fuentes**] representan ubicaciones físicas que almacenan y envían productos disponibles. Estas ubicaciones pueden incluir almacenes, tiendas físicas, centros de distribución y transportistas de entrega. (Cualquier ubicación puede designarse como fuente para los productos virtuales).
+[!UICONTROL Sources] representan ubicaciones físicas que almacenan y envían productos disponibles. Consulte [Existencias y orígenes](sources-stocks.md) para ver ejemplos y diagramas. (Cualquier ubicación puede designarse como fuente para los productos virtuales).
 
-[!UICONTROL **Existencias**] asignan un canal de ventas (actualmente limitado a sitios web) a ubicaciones de origen e inventario disponible. Un inventario puede asignarse a varios canales de ventas, pero un canal de ventas solo puede asignarse a un inventario.
+[!UICONTROL Stocks] asigna un canal de ventas (actualmente limitado a sitios web) a ubicaciones de origen e inventario disponible. Un inventario puede asignarse a varios canales de ventas, pero un canal de ventas solo puede asignarse a un inventario.
 
-[!UICONTROL **Cantidad vendible agregada**] es el inventario virtual total que se puede vender a través de un canal de ventas. La cantidad se calcula entre todos los orígenes asignados a un stock.
+[!UICONTROL Aggregate Salable Quantity] es el inventario virtual total que se puede vender a través de un canal de ventas. La cantidad se calcula entre todos los orígenes asignados a un stock.
 
-[!UICONTROL **Reservas**] realiza un seguimiento de las deducciones de la cantidad vendible a medida que los clientes agregan productos al carro de compras y completan el cierre de compra. Cuando se envía un pedido, la reserva borra y deduce los importes enviados de cantidades de inventario de origen específicas.
+[!UICONTROL Reservations] realiza el seguimiento de las deducciones de la cantidad vendible a medida que los clientes agregan productos a los carros de compras y completan el cierre de compra. Cuando se envía un pedido, la reserva borra y deduce los importes enviados de cantidades de inventario de origen específicas.

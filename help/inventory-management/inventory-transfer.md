@@ -1,6 +1,6 @@
 ---
 title: Transferir inventario al origen
-description: Descubra cómo los comerciantes de varios orígenes pueden transferir el inventario de productos de una ubicación de origen a otra.
+description: Transfiera cantidades de productos disponibles entre  [!DNL Inventory Management] orígenes al cambiar las ubicaciones de entrega.
 exl-id: 30438412-bc93-4e65-8b6a-5ddb50afa7ff
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/HV6GQjHa88xgcSAi-LXhyqe7k2QW95VzQ8eG2mGlJ8I
@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2023-10-26
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+source-git-commit: 2aec8bcf2c4736ff1b1be4c718938ef360b6daa9
 workflow-type: tm+mt
-source-wordcount: 282
+source-wordcount: 278
 ht-degree: 0%
 
 ---

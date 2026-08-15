@@ -1,6 +1,6 @@
 ---
 title: Existencias y fuentes
-description: Obtenga información acerca de las relaciones entre productos, fuentes y existencias.
+description: 'Conoce cómo se relacionan las existencias y las fuentes en  [!DNL Inventory Management] para que las cantidades vendibles de tu tienda coincidan con el inventario físico. [!DNL Commerce] '
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
 TQID: https://experienceleague.adobe.com/3nQssDNA41zHJH0SCN6VdMqqfbHCeyc6K0B91-BF8Kc
 product_v2:
@@ -17,22 +17,22 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
-source-wordcount: 809
+source-wordcount: 788
 ht-degree: 0%
 
 ---
 
 # Existencias y fuentes
 
-Administre su inventario independientemente de la ubicación del almacén, el tipo de producto o servicio o el canal de ventas. Satisfaga pedidos y envíe productos desde varios almacenes, tiendas físicas, centros de distribución y envío directo para completar pedidos con un enfoque en el inventario equilibrado, los costes de envío y mucho más.
+Administre su inventario independientemente de la ubicación del almacén, el tipo de producto o servicio o el canal de ventas. Satisfaga pedidos y envíe productos desde varias ubicaciones para completar pedidos centrándose en el inventario equilibrado, los costes de envío y mucho más.
 
 Estas descripciones incluyen productos, fuentes y existencias para una empresa de bicicletas con múltiples ubicaciones de envío y sitios web en Estados Unidos y Europa.
 
 ## Fuentes
 
-[Fuentes](sources-manage.md) son las ubicaciones físicas donde se administra y envía el inventario de productos para la satisfacción de pedidos o donde hay servicios disponibles. Estas ubicaciones pueden incluir almacenes, tiendas físicas, centros de distribución y transportistas de entrega. [!DNL Commerce] utiliza las cantidades y las cantidades vendibles por stock y administra automáticamente los importes de inventario de los productos y pedidos administrados. Si tiene un origen, se le considerará en modo _origen único_. Si tiene varias fuentes, se le considerará en modo _multifuente_.
+Una [fuente](sources-manage.md) es una ubicación física donde se administra y envía el inventario de productos para la satisfacción de pedidos o donde hay servicios disponibles. [!DNL Commerce] utiliza las cantidades y las cantidades vendibles por stock y administra automáticamente los importes de inventario de los productos y pedidos administrados. Si tiene un origen, se le considerará en modo _origen único_. Si tiene varias fuentes, se le considerará en modo _multifuente_.
 
 Una fuente puede tener prioridad en el ámbito de las existencias en un almacén, pero no necesariamente en todos los almacenes, ya que la fuente puede reutilizarse en diferentes existencias. El número de existencias y fuentes aumenta la complejidad para determinar el mejor almacén o tienda para satisfacer un pedido. Por ejemplo, puede tener un número limitado de productos disponibles en sus ubicaciones físicas con un amplio inventario en sus almacenes y servicios en ubicaciones clave con disponibilidad limitada.
 
@@ -76,8 +76,8 @@ Las siguientes son opciones importantes que se deben entender para [!DNL Invento
 >
 >El valor de umbral Agotado admite importes negativos y positivos. Si habilita Pedidos no satisfechos, establezca este valor en una cantidad negativa para el número máximo de productos que se pueden poner en espera antes de que el producto se considere verdaderamente agotado.
 
-## Demostración de Inventory management
+## Demostración
 
-Vea este vídeo para obtener más información sobre las fuentes y las existencias de Inventory management:
+Vea este vídeo para obtener más información sobre [!DNL Inventory Management] orígenes y existencias:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3411829?captions=spa&quality=12&learn=on)

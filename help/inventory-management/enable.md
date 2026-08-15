@@ -1,6 +1,6 @@
 ---
 title: Habilitar  [!DNL Inventory Management]
-description: Aprenda a habilitar [!DNL Inventory Management] en el nivel de producto o tienda global.
+description: Habilite o deshabilite [!DNL Inventory Management] y administre las existencias en el nivel de tienda o producto para controlar la cantidad vendible y el seguimiento de la satisfacción de pedidos.
 exl-id: 89bd2f8b-b9e4-4b9a-b729-f7bd71f764c9
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/evCX34nY-m7WQnZt3xw7ng6-It7Xlf5DTanjKbP1fCk
@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
-source-wordcount: 337
+source-wordcount: 309
 ht-degree: 0%
 
 ---
@@ -31,7 +31,12 @@ ht-degree: 0%
 
 Para administrar el inventario de productos, habilite [!DNL Inventory Management] en el nivel de producto o almacén global. Cuando la opción _Administrar existencias_ está habilitada, [!DNL Inventory Management] realiza un seguimiento automático de las cantidades de productos disponibles para el sitio a través de las existencias y los orígenes configurados. Todas las funciones y opciones de comienzan a rastrear y generar informes cuando se habilitan, sin necesidad de configuración adicional.
 
-Su empresa se ejecuta y se actualiza el inventario a la velocidad de las ventas. A medida que los clientes compran, recibe información exacta y actualizada sobre las existencias disponibles por canal de ventas y fuente. Las Cantidades Vendibles Disponibles se actualizan por stock cuando los clientes añaden productos al carro de compras y finalizan las compras, y cuando gestiona los pedidos, crea envíos y emite reembolsos. Llegadas de stock nuevo o transferido a sus fuentes, inmediatamente disponible para ventas en línea. Los pedidos pendientes se completan hasta umbrales especificados sin pedidos infinitos ni configuraciones adicionales. Además, puede introducir y completar envíos parciales o completos a través de uno o más orígenes con recomendaciones, lo que le proporciona un control completo sobre la satisfacción de pedidos y el inventario disponible.
+Cuando [!DNL Inventory Management] está habilitado, el inventario se actualiza con su actividad de ventas:
+
+- Las cantidades vendibles se actualizan por stock cuando los clientes agregan productos a los carros de compras, completan el cierre de compra y cuando envía o reembolsa pedidos.
+- Las existencias nuevas o transferidas en un origen están disponibles para las ventas en línea después de actualizar las cantidades.
+- Los pedidos pendientes respetan los umbrales configurados sin necesidad de una configuración adicional.
+- Puede crear envíos parciales o completos desde uno o varios orígenes utilizando recomendaciones de algoritmo o la selección manual de origen.
 
 >[!NOTE]
 >

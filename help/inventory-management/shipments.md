@@ -1,6 +1,6 @@
 ---
 title: Administrar pedidos y envíos desde el inventario
-description: Obtenga información acerca de las  [!DNL Inventory Management] funciones y opciones adicionales para administrar las cantidades de inventario a través del proceso de envío.
+description: Administre pedidos, envíos parciales, reembolsos y cancelaciones en  [!DNL Inventory Management] ya que las cantidades disponibles y disponibles se actualizan automáticamente.
 exl-id: cc4ca518-d98c-48f3-9051-6fb3c6fae9fe
 feature: Inventory, Shipping/Delivery
 TQID: https://experienceleague.adobe.com/snZn77FvwJ-XKXojEtLOEpnPKp-nLZUpkTg6jTA9BY4
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 736
+source-wordcount: 737
 ht-degree: 0%
 
 ---

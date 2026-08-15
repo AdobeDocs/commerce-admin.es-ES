@@ -1,6 +1,6 @@
 ---
 title: Escenarios de mensajes de stock
-description: Obtenga información acerca de la combinación de opciones de configuración que controlan los mensajes de disponibilidad de existencias en las páginas de productos y en las listas de productos en las páginas de catálogos.
+description: Configurar  [!DNL Inventory Management] mensajes de disponibilidad de existencias que aparecen en las páginas de productos de tienda y en las listas de productos de categoría.
 exl-id: 63114305-e695-445b-91cd-9e0fb2729ec4
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/9kPHtr75C7PkM9vD-2-AeG8JnAfKAao0GKEH9MhkBbU
@@ -18,16 +18,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 353
-ht-degree: 1%
+source-wordcount: 338
+ht-degree: 2%
 
 ---
 
 # Escenarios de mensajes de stock
 
-Puede utilizar una combinación de opciones de configuración para controlar los mensajes de disponibilidad de existencias en las páginas de productos y en los listados de productos en las páginas del catálogo.
+Configure cómo aparecen los mensajes de disponibilidad de existencias en las páginas de productos y las listas de catálogos mediante la configuración de las secciones siguientes.
 
 ![Producto agrupado con el mensaje &quot;Agotado&quot;](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
 

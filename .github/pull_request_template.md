@@ -1,13 +1,15 @@
 ---
-source-git-commit: bf0b48b7390df65a74354b0972070910ba26f67f
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
 source-wordcount: '21'
-ht-degree: 9%
+ht-degree: 0%
 
 ---
-## Objetivo de esta solicitud de extracción
+## Objetivo de la solicitud de extracción
 
 Esta solicitud de extracción (PR) ...
+
+**vale JIRA:**
 
 ## Páginas afectadas
 
@@ -15,21 +17,10 @@ Esta solicitud de extracción (PR) ...
 
 - ...
 
-## Más información
 
 ### Vínculos al código afectado
 
 <!--  OPTIONAL - REMOVE THIS SECTION IF NOT USED. If this pull request references a file in a Magento Open Source or Adobe Commerce codebase repository, add it here. -->
-
-- ...
-
-<!--
-If you are fixing a GitHub issue, using the GitHub keyword format (https://help.github.com/en/articles/closing-issues-using-keywords#closing-an-issue-in-a-different-repository) closes the issue when this pull request is merged. Example: `Fixes #1234`.
-
-`main` is the default branch. Merged pull requests to `main` go live on the site automatically. Any requested changes to content on the `main` branch must be related to the released product. Any content related to future releases should be merged to the corresponding `develop` branch.
-
-See Contribution guidelines (https://github.com/AdobeDocs/commerce-admin.es-ES/blob/main/contributing.md) for more information.
--->
 
 ### Aspectos destacados de las novedades
 
@@ -37,3 +28,4 @@ See Contribution guidelines (https://github.com/AdobeDocs/commerce-admin.es-ES/b
 
 If this pull request introduces changes that should be highlighted in the What's New section (https://experienceleague.adobe.com/es/docs/commerce-admin/user-guides/home#whats-new), see _What's New highlights_ in the Contribution guidelines (https://github.com/AdobeDocs/commerce-admin.es-ES/blob/main/contributing.md#whats-new-highlights).
 -->
+

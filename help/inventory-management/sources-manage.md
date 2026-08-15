@@ -1,6 +1,6 @@
 ---
 title: Administrar orígenes de inventario
-description: Obtenga información sobre las fuentes y cómo definen las ubicaciones físicas en las que se administra y envía el inventario de productos para la realización de pedidos o en las que hay servicios disponibles.
+description: Descripción general de las tareas de administración para agregar, editar, habilitar y deshabilitar  [!DNL Inventory Management] orígenes que almacenan y envían el inventario de productos.
 exl-id: 1315a8c9-7791-4c4b-9463-3126b79793c2
 TQID: https://experienceleague.adobe.com/bVWqSGSgW08l7zZ7bLuZIcJUjqmj7Npn55yEdZn-aB0
 product_v2:
@@ -17,16 +17,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 695
+source-wordcount: 623
 ht-degree: 0%
 
 ---
 
 # Administrar fuentes
 
-Las fuentes son las ubicaciones físicas en las que se administra y envía el inventario de productos para la satisfacción de pedidos o en las que hay servicios disponibles. Estas ubicaciones pueden incluir almacenes, tiendas físicas, centros de distribución, ubicaciones de recogida y expedidores de entrega. Usted asigna cantidades de inventario a estos orígenes y [!DNL Commerce] agrega automáticamente el total de productos vendibles para sus existencias. Para las grandes empresas, añada múltiples fuentes para todas sus ubicaciones: en diferentes ubicaciones geográficas por país y continente, ubicaciones en una ciudad, en función del tipo de inventario, incluso en función de los servicios.
+Utilice este tema para agregar, editar, habilitar y deshabilitar orígenes. Para obtener información sobre la relación de las fuentes con las existencias y la cantidad vendible, consulte [Existencias y fuentes](sources-stocks.md).
 
 Se recomienda proporcionar ubicaciones geográficas físicas específicas al crear una fuente. Esto permite que el _Algoritmo de prioridad de distancia_ compare la ubicación de la dirección de destino de envío con las ubicaciones de origen disponibles para determinar la fuente más cercana a los envíos. Puede utilizar Mapas de Google o cálculos sin conexión, que utilizan geocódigos. Para obtener más información sobre este _algoritmo de prioridad de distancia_, consulte [Configurar el algoritmo de prioridad de distancia](distance-priority-algorithm.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Agregar un origen de inventario
-description: Aprenda a crear un origen para una ubicación, como un almacén, una tienda física, un centro de distribución o un transportista directo.
+description: Agregue una [!DNL Inventory Management] fuente en el administrador para un almacén, tienda, centro de distribución u otra ubicación de entrega.
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/hDIRVPayqLXgx3nxOSeDf6R7sT9t6d9AFGEeyQpyj6o
@@ -18,16 +18,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 865
+source-wordcount: 858
 ht-degree: 0%
 
 ---
 
 # Añadir una fuente
 
-Administre el inventario y la satisfacción de pedidos desde varias ubicaciones con fuentes personalizadas. Cree una fuente para cada ubicación, como almacenes, tiendas físicas, centros de distribución y empresas de envío directo. Asignación de orígenes y actualización de cantidades por producto
+Administre el inventario y la satisfacción de pedidos desde varias ubicaciones con fuentes personalizadas. Cree una fuente para cada ubicación, como almacenes, tiendas físicas, centros de distribución y empresas de envío directo. Asignar orígenes y actualizar cantidades por producto.
 
 Si edita la Source predeterminada, puede editar todas las configuraciones excepto el nombre y el código. Se recomienda que los comerciantes de un solo origen agreguen información que coincida con su ubicación.
 

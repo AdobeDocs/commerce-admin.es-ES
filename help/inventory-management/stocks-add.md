@@ -1,6 +1,6 @@
 ---
-title: Agregar stock de inventario
-description: Aprenda a añadir existencias y asignar fuentes a canales de ventas (sitios web), proporcionando un vínculo directo a cantidades vendibles e inventarios de productos.
+title: Agregar existencias de inventario
+description: Añada un stock personalizado en el Administrador, asigne sitios web y fuentes y dé prioridad a las fuentes para la cantidad y los envíos vendibles.
 exl-id: d0032ed7-c0d6-4654-b182-43a165e7dcf6
 TQID: https://experienceleague.adobe.com/oP-H4hvUmNunTl-hThx4ytzC6qOXa1PhK4P1omwFBUg
 product_v2:
@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 409
+source-wordcount: 405
 ht-degree: 0%
 
 ---

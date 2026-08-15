@@ -1,6 +1,6 @@
 ---
 title: Deshabilitar orígenes de inventario
-description: Obtenga información sobre cómo deshabilitar fuentes y modificar información, incluida la ubicación y el punto de contacto.
+description: Deshabilite  [!DNL Inventory Management] orígenes que ya no acepten pedidos mientras conserva los datos históricos de pedidos y envíos.
 exl-id: 3fcbfa3c-8bb7-4e08-a395-9760bbd69f04
 TQID: https://experienceleague.adobe.com/l-S7b-E9rREgJ4AX5Zd6nneSDJe-OioeD-vk8YeSAak
 product_v2:
@@ -16,7 +16,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
 source-wordcount: 406
 ht-degree: 0%

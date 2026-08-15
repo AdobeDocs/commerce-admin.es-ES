@@ -1,6 +1,6 @@
 ---
 title: Administrar cantidades de inventario
-description: Aprenda a asignar fuentes y cantidades para nuevos productos o a cambiar los productos existentes.
+description: Información general sobre los procedimientos de administración para asignar orígenes y cantidades por origen para productos nuevos y existentes en  [!DNL Inventory Management].
 exl-id: b3d4a4c0-725a-4e62-854f-efb6a5709f73
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/ykiHTLnzZGtJrRdp2wZvlL7YLbEb7iAiYlcbY8K7IX8
@@ -17,7 +17,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
 source-wordcount: 325
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 # Administrar cantidades de inventario
 
-La siguiente información detalla cómo asignar fuentes y cantidades para nuevos productos o cambiar los productos existentes.
+Siga estas directrices para asignar orígenes y cantidades para productos nuevos o existentes.
 
 Al crear productos, asigne orígenes y cantidades durante la creación del producto. Consulte [Crear un producto](../catalog/product-create.md) para obtener instrucciones completas. Estas páginas incluyen información de un solo origen y de varios orígenes para orígenes y cantidades por origen.
 

@@ -1,6 +1,6 @@
 ---
 title: Importar y exportar inventario
-description: Utilice las funciones nativas de importación y exportación con  [!DNL Inventory Management] opciones ampliadas para actualizar los orígenes y las cantidades por SKU.
+description: Importe y exporte  [!DNL Inventory Management] asignaciones de origen y cantidades por origen por SKU mediante herramientas nativas de transferencia de datos del catálogo.
 exl-id: cb2d2e0d-aef8-4b18-b013-9a7b0ab448bd
 feature: Inventory, Data Import/Export
 TQID: https://experienceleague.adobe.com/TrH9Ncak4gPMh-4kejFF0NdCIzjT-xT5-M4eETSQ9FM
@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
 source-wordcount: 510
 ht-degree: 0%

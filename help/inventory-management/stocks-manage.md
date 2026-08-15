@@ -1,6 +1,6 @@
 ---
-title: Administrar existencias de inventario
-description: Descubra cómo se utilizan las existencias para representar un inventario virtual agregado de productos para las fuentes de sus canales de ventas.
+title: Administrar stock
+description: Administre las existencias en el administrador para asignar fuentes a canales de ventas, priorizar el cumplimiento y mantener la precisión de las cantidades comercializables.
 exl-id: 076b1325-2de4-46d3-9976-d900bd2cef47
 TQID: https://experienceleague.adobe.com/IeG1bA1etAjxiDjSWY83GLNugllHT1mUrZBde45Ha8g
 product_v2:
@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 524
+source-wordcount: 522
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Para una instalación de varias tiendas, el Stock predeterminado se asigna inici
 |--|--|
 | [!UICONTROL Add New Stock] | Abre el formulario _[!UICONTROL New Stock]_&#x200B;que se usa para especificar un nuevo inventario de existencias para asignar el inventario al canal de ventas. |
 
-## Administración de descripciones de columnas de Stock
+## Administración de descripciones de columnas de stock
 
 | Columna | Descripción |
 |--|--|

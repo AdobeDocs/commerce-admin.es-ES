@@ -1,6 +1,6 @@
 ---
 title: Alertas de productos
-description: Obtenga información sobre las alertas de productos y cómo utilizarlas para notificar a los clientes sobre el estado de las existencias y los cambios de precio de los productos.
+description: Configure alertas de productos, plantillas de correo electrónico y configuraciones de ejecución en existencias y de cambio de precio en la configuración del catálogo  [!DNL Inventory Management] s.
 exl-id: c9f736c5-7bba-4e3e-804d-5b0fe52c8f9b
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/n1n2tqb97EiM-vXZqifVgMOdBqNRdwNM-pjDI-D-b8M
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 653
+source-wordcount: 650
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Para obtener información más detallada sobre el uso de los mensajes de correo 
 
 1. Haga clic en **[!UICONTROL Save Template]**.
 
-## Configuración de ejecución de alerta de producto
+## Configuración de ejecución de alertas de producto
 
 Esta configuración le permite seleccionar la frecuencia con la que [!DNL Commerce] comprueba si hay cambios que requieran que se envíen alertas. También puede seleccionar el destinatario, el remitente y la plantilla para los correos electrónicos que se envían si falla la entrega de alertas.
 
