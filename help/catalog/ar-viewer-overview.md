@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 247
+source-wordcount: 248
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ La extensión [!DNL AR Viewer] para Adobe Commerce ofrece una experiencia perfec
 
 La información de esta guía proporciona una descripción general de la experiencia de incorporación de [!DNL AR Viewer] en Adobe Commerce y de cómo [!DNL AR Viewer] beneficia al usuario, así como las prácticas recomendadas a lo largo de ese recorrido.
 
-Desarrollado por Pixar, [Universal Scene Description (USD)](https://openusd.org/release/index.html){target=_blank} es el primer software de código abierto que puede intercambiar de manera robusta y escalable escenas 3D que pueden estar compuestas de muchos recursos, fuentes y animaciones diferentes, a la vez que fomenta flujos de trabajo altamente colaborativos. Este USD se usa en `.USDZ` archivos. Este archivo de `.USDZ` entrega contenido AR y 3D a los dispositivos del usuario.
+Desarrollado por Pixar, [Universal Scene Description (USD)](https://openusd.org/release/index.html){target=_blank} es el primer software de código abierto que puede intercambiar escenas 3D de forma robusta y escalable, que puede estar compuesto por muchos recursos, fuentes y animaciones diferentes, a la vez que fomenta flujos de trabajo altamente colaborativos. Este USD se usa en `.USDZ` archivos. Este archivo de `.USDZ` entrega contenido AR y 3D a los dispositivos del usuario.
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Desarrollado por Pixar, [Universal Scene Description (USD)](https://openusd.org/
 
 ## [!DNL AR Viewer] requisitos
 
-[!DNL AR Viewer] es compatible con [!DNL Magento Open Source] y Adobe Commerce. Consulte [Política del ciclo vital](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html?lang=es){target=_blank} para obtener más información sobre las versiones compatibles.
+[!DNL AR Viewer] es compatible con [!DNL Magento Open Source] y Adobe Commerce. Consulte [Política del ciclo vital](https://experienceleague.adobe.com/es/docs/commerce-operations/release/planning/lifecycle-policy){target=_blank} para obtener más información sobre las versiones compatibles.
 
 Consulte [Instalar la [!DNL AR Viewer] extensión](../catalog/ar-viewer-setup.md) para obtener más información.
 

@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1225
+source-wordcount: 1224
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Inventory Management] para Adobe Commerce y Magento Open Source le proporciona las herramientas para administrar el inventario de productos. Los comerciantes con una sola tienda en varios almacenes, tiendas, ubicaciones de recogida, distribuidores directos entre otros pueden utilizar estas funciones para mantener las cantidades de ventas y gestionar los envíos para completar pedidos. Para obtener más información sobre estas características y cómo puede utilizarlas para administrar existencias en varias ubicaciones, consulte la [_[!DNL Inventory Management] Guía del usuario _](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html?lang=es).
+>[!DNL Inventory Management] para Adobe Commerce y Magento Open Source le proporciona las herramientas para administrar el inventario de productos. Los comerciantes con una sola tienda en varios almacenes, tiendas, ubicaciones de recogida, distribuidores directos entre otros pueden utilizar estas funciones para mantener las cantidades de ventas y gestionar los envíos para completar pedidos. Para obtener más información sobre estas características y cómo puede utilizarlas para administrar existencias en varias ubicaciones, consulte la [_[!DNL Inventory Management] Guía del usuario _](/help/inventory-management/introduction.md).
 
 ## [!UICONTROL Stock Options]
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Manage Stock] | Global | Determina si utiliza el control de inventario completo para administrar los artículos del catálogo. Opciones: <br/>**Sí**: activa el control de inventario completo para realizar un seguimiento del número de artículos que están actualmente en existencias. <br/>**No**: no realiza el seguimiento del número de elementos que están actualmente en existencias. |
 | [!UICONTROL Backorders] | Global | Determina la forma en que la tienda administra los pedidos pendientes. Un pedido pendiente no cambia el estado de procesamiento del pedido. Los fondos se siguen autorizando o capturando inmediatamente cuando se realiza el pedido, independientemente de si el producto está en stock. Cuando el producto está disponible, se envía. Opciones: <br/>**Sin pedidos pendientes**: no acepta pedidos pendientes cuando el producto está agotado. <br/>**Permitir cantidad inferior a 0** - Acepta pedidos pendientes cuando la cantidad es inferior a cero. <br/>**Permitir cantidad inferior a 0 y Notificar al cliente**: acepta pedidos pendientes cuando la cantidad es inferior a cero, pero notifica a los clientes que aún se pueden realizar pedidos. |
-| [!UICONTROL Use deferred Stock update] | Global | ![Adobe Commerce](../../assets/adobe-logo.svg) (solo Adobe Commerce) Determina si se aplaza la actualización de existencias si se permiten los pedidos no satisfechos (la opción _Pedidos no satisfechos_ está establecida en cualquier valor que no sea el valor predeterminado de `No backorders`). Funciona para un solo producto o para un sitio web completo y usa el mecanismo _Cola de trabajos_ para permitir que los indicadores de cantidad de inventario se actualicen asincrónicamente después de realizar los pedidos. Esta opción también funciona con [ubicación asincrónica de pedidos](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/high-throughput-order-processing.html?lang=es#asynchronous-order-placement) en combinación con [Inventory management](../../inventory-management/introduction.md). |
+| [!UICONTROL Use deferred Stock update] | Global | ![Adobe Commerce](../../assets/adobe-logo.svg) (solo Adobe Commerce) Determina si se aplaza la actualización de existencias si se permiten los pedidos no satisfechos (la opción _Pedidos no satisfechos_ está establecida en cualquier valor que no sea el valor predeterminado de `No backorders`). Funciona para un solo producto o para un sitio web completo y usa el mecanismo _Cola de trabajos_ para permitir que los indicadores de cantidad de inventario se actualicen asincrónicamente después de realizar los pedidos. Esta opción también funciona con [ubicación asincrónica de pedidos](https://experienceleague.adobe.com/es/docs/commerce-operations/performance-best-practices/high-throughput-order-processing#asynchronous-order-placement) en combinación con [Inventory management](../../inventory-management/introduction.md). |
 | Cantidad máxima permitida en el carro de compras | Global | Determina la cantidad máxima de un producto que se puede comprar en un único pedido. De forma predeterminada, la cantidad máxima está establecida en 10 000. |
 | [!UICONTROL Out-of-Stock Threshold] | Global | Determina el nivel de existencias en el que se considera que un producto está agotado. Opciones: <br/>**Importe positivo** - Con _Pedidos pendientes_ deshabilitados, escriba un importe positivo. Si la opción Pedidos no satisfechos está activada, se ignorará esta cantidad. <br/>**Cero** - Con _Pedidos no satisfechos_ habilitados, ingresar `0` permite infinitos pedidos no satisfechos. <br/>**Importe negativo** - Con _Pedidos no satisfechos_ habilitados, se recomienda especificar un importe negativo. El importe se añade a la cantidad vendible. Por ejemplo, introduzca -50 para permitir pedidos de hasta esta cantidad. |
 | [!UICONTROL Minimum Qty Allowed in Shopping Cart] | Global | Determina la cantidad mínima de un artículo disponible para la compra según el grupo de clientes. De forma predeterminada, la cantidad mínima se establece en 1. Haga clic en **[!UICONTROL Add Minimum Qty]** para escribir un valor diferente para un grupo de clientes específico. |
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Para configurar y admitir **administradores de cola asincrónicos**, debe utilizar la línea de comandos. Esto puede requerir la asistencia del desarrollador. Consulte [Iniciar consumidores de cola de mensajes](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=es) en la _Guía de configuración_.
+>Para configurar y admitir **administradores de cola asincrónicos**, debe utilizar la línea de comandos. Esto puede requerir la asistencia del desarrollador. Consulte [Iniciar consumidores de cola de mensajes](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/cli/start-message-queues) en la _Guía de configuración_.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |

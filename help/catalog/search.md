@@ -19,9 +19,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 541
+source-wordcount: 543
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=es) ofrece una experiencia de búsqueda rápida, relevante e intuitiva, y está disponible para Adobe Commerce sin cargo adicional. Esta sección describe la funcionalidad de búsqueda estándar que podría diferir de [!DNL Live Search].
+>[[!DNL Live Search]](https://experienceleague.adobe.com/es/docs/commerce/live-search/overview) ofrece una experiencia de búsqueda rápida, relevante e intuitiva, y está disponible para Adobe Commerce sin cargo adicional. Esta sección describe la funcionalidad de búsqueda estándar que podría diferir de [!DNL Live Search].
 
 Los estudios muestran que las personas que utilizan la búsqueda tienen más probabilidades de realizar una compra que los clientes que dependen únicamente de la navegación. De hecho, según algunos estudios, las personas que utilizan la búsqueda tienen casi el doble de probabilidades de realizar una compra.
 
@@ -64,7 +64,7 @@ El cuadro de búsqueda en el encabezado de la tienda ayuda a los visitantes a en
 
 >[!NOTE]
 >
->La funcionalidad de búsqueda avanzada de formularios descrita aquí no se aplica a [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=es).
+>La funcionalidad de búsqueda avanzada de formularios descrita aquí no se aplica a [[!DNL Live Search]](https://experienceleague.adobe.com/es/docs/commerce/live-search/overview).
 
 La búsqueda avanzada permite a los compradores buscar en el catálogo en función de los valores introducidos en un formulario. Dado que el formulario contiene varios campos, una sola búsqueda puede incluir varios parámetros. El resultado es una lista de todos los productos del catálogo que coinciden con los criterios. Hay un vínculo a Búsqueda avanzada al pie de página de la tienda.
 

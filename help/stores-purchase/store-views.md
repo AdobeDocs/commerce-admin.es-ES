@@ -1,6 +1,6 @@
 ---
 title: Vistas de tienda
-description: Obtenga información sobre cómo agregar y editar una vista de tienda.
+description: Aprenda a añadir y editar una vista de tienda en Adobe Commerce, que permite a los compradores cambiar de configuración regional utilizando el selector de idioma en el encabezado de la tienda.
 exl-id: aa1f7f1c-a6d0-4ec2-83fe-15fb9646634a
 feature: Site Management, System
 TQID: https://experienceleague.adobe.com/2VMBTnzG3lqsNEyx-e46rqDs1wHofaDeHL3j3SuqxOE
@@ -14,9 +14,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 284
+source-wordcount: 300
 ht-degree: 0%
 
 ---

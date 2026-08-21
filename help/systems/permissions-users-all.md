@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 1041
+source-wordcount: 1029
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Si otros integrantes del equipo o proveedores de servicios necesitan acceso, pue
 
 >[!NOTE]
 >
->Los comerciantes de Adobe Commerce que tengan un Adobe ID y deseen un inicio de sesión optimizado en los productos de Adobe Commerce y Adobe Business pueden integrar la autenticación de Commerce con el flujo de trabajo de autenticación IMS de Adobe. Una vez habilitada esta integración en la tienda Commerce, los usuarios administradores deben usar sus credenciales de Adobe, no sus credenciales de Commerce, para iniciar sesión. Consulte [Información general sobre la integración de Adobe Identity Management Service (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=es).
+>Los comerciantes de Adobe Commerce que tengan un Adobe ID y deseen un inicio de sesión optimizado en los productos de Adobe Commerce y Adobe Business pueden integrar la autenticación de Commerce con el flujo de trabajo de autenticación IMS de Adobe. Una vez habilitada esta integración en la tienda Commerce, los usuarios administradores deben usar sus credenciales de Adobe, no sus credenciales de Commerce, para iniciar sesión. Consulte [Información general sobre la integración de Adobe Identity Management Service (IMS)](/help/getting-started/adobe-ims-integration-overview.md).
 
 Para los usuarios o roles temporales, también puede establecer una fecha de caducidad para la cuenta de usuario.
 
@@ -60,9 +60,9 @@ Para los usuarios o roles temporales, también puede establecer una fecha de cad
 
    - Complete la siguiente información:
 
-      - **[!UICONTROL First Name]**
-      - **[!UICONTROL Last Name]**
-      - **[!UICONTROL Email address]**
+     - **[!UICONTROL First Name]**
+     - **[!UICONTROL Last Name]**
+     - **[!UICONTROL Email address]**
 
      Cada cuenta de usuario debe tener una dirección de correo electrónico única.
 

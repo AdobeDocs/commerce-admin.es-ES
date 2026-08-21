@@ -18,7 +18,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
 source-wordcount: 2182
 ht-degree: 0%
@@ -31,7 +31,7 @@ El enriquecimiento del catálogo es una funcionalidad nativa de [!DNL Adobe Comm
 
 >[!NOTE]
 >
->El enriquecimiento del catálogo funciona con [!DNL Commerce Catalog Agent] y [!DNL Adobe LLM Optimizer] entre bastidores. El enriquecimiento se utiliza como parte del flujo de trabajo del catálogo de Commerce. No administra una integración de LLM Optimizer independiente para aplicar actualizaciones de nombre y descripción aprobadas. Para obtener una supervisión y optimización LLM más amplia fuera de Commerce, consulte la [documentación del producto LLM Optimizer](https://experienceleague.adobe.com/es/docs/llm-optimizer/using/home).
+>El enriquecimiento del catálogo funciona con [!DNL Commerce Catalog Agent] y [!DNL Adobe LLM Optimizer] entre bastidores. El enriquecimiento se utiliza como parte del flujo de trabajo del catálogo de Commerce. No administra una integración de LLM Optimizer independiente para aplicar actualizaciones de nombre y descripción aprobadas. Para obtener una supervisión y optimización LLM más amplia fuera de Commerce, consulte la [documentación del producto LLM Optimizer](https://experienceleague.adobe.com/es/docs/brand-visibility/using/home).
 
 ## Cómo funciona {#how-it-works}
 
@@ -63,7 +63,7 @@ Los siguientes requisitos previos se aplican cuando tiene acceso al enriquecimie
 - Su tienda puede ser rastreada por bots agénticos y orientados a LLM donde se requiere rastrear la cobertura de las sugerencias según el catálogo.
 - Los servicios de Commerce y la conectividad del catálogo requeridos están habilitados y en buen estado. Consulte [Habilitar enriquecimiento de catálogo](#enable-catalog-enrichment) para obtener más información.
 - [IMS está configurado](https://experienceleague.adobe.com/es/docs/core-services/interface/administration/organizations).
-- Tiene acceso a [Adobe Admin Console](https://helpx.adobe.com/es/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- Tiene acceso a [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 - Su organización ha firmado al usuario de GenAI o se ha excluido explícitamente de los servicios de IA subyacentes.
 
 >[!NOTE]

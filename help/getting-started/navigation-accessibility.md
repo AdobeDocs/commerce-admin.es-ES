@@ -16,10 +16,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 145
-ht-degree: 0%
+source-wordcount: 157
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Algunos visitantes del sitio dependen de los controles de teclado para la navegación, en lugar de un ratón, mientras que otros pueden utilizar comandos táctiles o de voz. Aunque los controles de navegación mediante el teclado varían según el explorador y la plataforma, la tecla Tab se utiliza comúnmente para desplazar el enfoque por los campos, los vínculos y los botones de una página. Para obtener más información, consulte [Métodos abreviados de teclado](https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts){:target="_blank"}.
 
-Para obtener más información sobre accesibilidad, consulte [Directrices de accesibilidad](https://developer.adobe.com/commerce/admin-developer/pattern-library/general/accessibility-guidelines/){:target="_blank"} en la documentación para desarrolladores.
+Para obtener más información sobre accesibilidad, consulte [Directrices de accesibilidad](https://developer.adobe.com/commerce/admin-developer/pattern-library/general/accessibility-guidelines){:target="_blank"} en la documentación para desarrolladores.
 
 ## Windows
 

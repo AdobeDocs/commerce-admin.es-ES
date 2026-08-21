@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 1343
+source-wordcount: 1345
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Cuando se habilita, Commerce crea un archivo denominado `sitemap.xml` que se gua
 
 Mientras el sitio está en desarrollo, puede incluir instrucciones en el archivo `robots.txt` para rastreadores web a fin de evitar la indexación del sitio. A continuación, antes del lanzamiento, puede cambiar las instrucciones para permitir que el sitio se indexe.
 
-Para obtener información técnica, consulte [Agregar mapa del sitio y robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=es) en la _Guía de infraestructura en la nube de Commerce_.
+Para obtener información técnica, consulte [Agregar mapa del sitio y robots.txt](https://experienceleague.adobe.com/es/docs/commerce-on-cloud/user-guide/configure-store/robots-sitemap) en la _Guía de infraestructura en la nube de Commerce_.
 
 ![cuadrícula de mapa del sitio](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -118,7 +118,7 @@ Para crear mapas del sitio para una instancia de varias tiendas, haga lo siguien
    
 >[!NOTE]
 >
->Si su sitio usa el motor de servidor web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=es), debe actualizar el archivo [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) en la raíz del sitio web para dirigir cualquier otra solicitud de mapa del sitio al lugar apropiado.
+>Si su sitio usa el motor de servidor web [Apache](https://experienceleague.adobe.com/es/docs/commerce-operations/installation-guide/prerequisites/web-server/apache), debe actualizar el archivo [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) en la raíz del sitio web para dirigir cualquier otra solicitud de mapa del sitio al lugar apropiado.
 
 ## Descripciones de columna
 
@@ -152,13 +152,13 @@ El mapa del sitio debe actualizarse con la frecuencia con la que cambia el conte
 
    - Establezca **[!UICONTROL Frequency]** en una de las siguientes opciones:
 
-      - `Always`
-      - `Hourly`
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
-      - `Yearly`
-      - `Never`
+     - `Always`
+     - `Hourly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
+     - `Yearly`
+     - `Never`
 
    - Para **[!UICONTROL Priority]**, escriba un valor entre `0.0` y `1.0`. Cero tiene la prioridad más baja.
 
@@ -206,16 +206,16 @@ El mapa del sitio debe actualizarse con la frecuencia con la que cambia el conte
 
    - Establezca **[!UICONTROL Generation Method]** en una de las siguientes opciones:
 
-      - `Standard`: procesa todos los datos en la memoria.
-      - `Batch`: utiliza el procesamiento optimizado para la memoria en catálogos grandes. Esta opción está disponible a partir de la versión 2.4.9 de.
+     - `Standard`: procesa todos los datos en la memoria.
+     - `Batch`: utiliza el procesamiento optimizado para la memoria en catálogos grandes. Esta opción está disponible a partir de la versión 2.4.9 de.
 
    - Establezca **[!UICONTROL Start Time]** a la hora, el minuto y el segundo en que desea que se actualice el mapa del sitio.
 
    - Establezca **[!UICONTROL Frequency]** en una de las siguientes opciones:
 
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
 
    - Para **[!UICONTROL Error Email Recipient]**, escriba la dirección de correo electrónico de la persona que va a recibir la notificación si se produce un error durante una actualización del mapa del sitio.
 

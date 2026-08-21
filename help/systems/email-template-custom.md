@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1314
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 # Personalizar plantillas de correo electrónico
 
-Commerce incluye una plantilla de correo electrónico predeterminada para la sección del cuerpo de cada mensaje que envía el sistema. La plantilla para el contenido del cuerpo se combina con las plantillas de encabezado y pie de página para crear el mensaje completo. El contenido tiene formato de HTML y CSS, y se puede editar y personalizar fácilmente agregando [variables](variables-predefined.md). Las plantillas de correo electrónico se pueden personalizar para cada sitio web, tienda o vista de tienda. Si usa plantillas personalizadas, asegúrese de actualizar la [configuración del sistema](email-templates.md#configure-email-templates) para asegurarse de que se usa la plantilla correcta. Para obtener información sobre cómo usar afirmaciones condicionales al personalizar la plantilla de correo electrónico, consulte la [documentación para desarrolladores](https://developer.adobe.com/commerce/frontend-core/guide/templates/email/#theme-based-customizations-1).
+Commerce incluye una plantilla de correo electrónico predeterminada para la sección del cuerpo de cada mensaje que envía el sistema. La plantilla para el contenido del cuerpo se combina con las plantillas de encabezado y pie de página para crear el mensaje completo. El contenido tiene formato de HTML y CSS, y se puede editar y personalizar fácilmente agregando [variables](variables-predefined.md). Las plantillas de correo electrónico se pueden personalizar para cada sitio web, tienda o vista de tienda. Si usa plantillas personalizadas, asegúrese de actualizar la [configuración del sistema](email-templates.md#configure-email-templates) para asegurarse de que se usa la plantilla correcta. Para obtener información sobre cómo usar afirmaciones condicionales al personalizar la plantilla de correo electrónico, consulte la [documentación para desarrolladores](https://developer.adobe.com/commerce/frontend-core/guide/templates/email#theme-based-customizations-1).
 
 ![Ejemplo: vista previa del correo electrónico de bienvenida](./assets/email-template-preview.png){width="500" zoomable="yes"}
 

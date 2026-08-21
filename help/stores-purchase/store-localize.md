@@ -1,6 +1,6 @@
 ---
 title: Localización de tiendas
-description: Obtenga información sobre cómo localizar una tienda o vista de tienda.
+description: Aprenda a localizar una tienda o vista de tienda cambiando su configuración regional, que cambia la tabla de traducción utilizada para la navegación, las etiquetas, los botones y los vínculos.
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
 TQID: https://experienceleague.adobe.com/nSFO5Er6Qj--sCbOzjSAhAsAXBxPpwwSinJhpsVNggc
@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 744
+source-wordcount: 761
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Los paquetes de idiomas se encuentran en [Traducciones y localización](https://
 
 ## Paso 1: Instalar un paquete de idioma
 
-Siga las instrucciones estándar para instalar la extensión del paquete de idioma. Para obtener información detallada sobre cómo instalar una extensión, consulte [Instalación general de CLI](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=es) en la _Guía de extensiones_.
+Siga las instrucciones estándar para instalar la extensión del paquete de idioma. Para obtener información detallada sobre cómo instalar una extensión, consulte [Instalación general de CLI](https://experienceleague.adobe.com/es/docs/commerce-operations/installation-guide/tutorials/extensions) en la _Guía de extensiones_.
 
 ## Paso 2: Crear una vista de tienda para el idioma
 

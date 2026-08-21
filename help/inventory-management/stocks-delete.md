@@ -1,6 +1,6 @@
 ---
 title: Eliminar existencias de inventario
-description: Elimine un inventario personalizado en Admin y reasigne los sitios web a otro inventario para que las cantidades vendibles y los pedidos abiertos sean precisos.
+description: Obtenga información sobre cómo eliminar un stock personalizado en el administrador de Commerce y reasignar sus sitios web a otro stock primero, de modo que las cantidades vendibles y los pedidos abiertos sigan siendo precisos.
 exl-id: 420e0bbf-6382-471d-9ad2-16587191e5e7
 TQID: https://experienceleague.adobe.com/H6WjUk2tfqMqNbGkgkF22XvB8lFINXuLmHotNBeZIyU
 product_v2:
@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 135
+source-wordcount: 141
 ht-degree: 0%
 
 ---

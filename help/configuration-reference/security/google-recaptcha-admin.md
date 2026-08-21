@@ -20,10 +20,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 610
-ht-degree: 0%
+source-wordcount: 597
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Para poder configurar Google reCAPTCHA, debe asegurarse de que el archivo `PHP.ini` incluya la siguiente configuración: `allow_url_fopen = 1`. Esto puede requerir la asistencia del desarrollador. Consulte [Configuración de PHP requerida](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=es) en la _Guía de instalación_.
+>Para poder configurar Google reCAPTCHA, debe asegurarse de que el archivo `PHP.ini` incluya la siguiente configuración: `allow_url_fopen = 1`. Esto puede requerir la asistencia del desarrollador. Consulte [Configuración de PHP requerida](https://experienceleague.adobe.com/es/docs/commerce-operations/installation-guide/prerequisites/php-settings) en la _Guía de instalación_.
 
 {{config}}
 
@@ -105,7 +105,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--|--|--|
-| [!UICONTROL Enable for Login] | Global | Determina el tipo de reCAPTCHA habilitado para [inicio de sesión de administrador](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=es). Opciones: <br/>**`No`**- (predeterminado) No valida el inicio de sesión del administrador.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Requiere que el usuario seleccione la casilla de verificación _No soy un robot_.<br />**`Invisible reCAPTCHA v2`**- Valida el comportamiento del usuario en segundo plano sin requerir interacciones basadas en la puntuación.<br/>**`Invisible reCAPTCHA v3`** : (recomendado) valida el comportamiento del usuario en segundo plano en función de la puntuación de interacción. |
-| [!UICONTROL Enable for Forgot Password] | Global | Determina el tipo de reCAPTCHA que está habilitado para solicitar un [restablecimiento de contraseña de administrador](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=es#reset-your-password). Opciones: <br/>**`No`**- (predeterminado) No valida la solicitud de restablecimiento de contraseña.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Requiere que el usuario seleccione la casilla de verificación _No soy un robot_.<br />**`Invisible reCAPTCHA v2`**- Valida el comportamiento del usuario en segundo plano sin requerir interacciones basadas en la puntuación.<br/>**`Invisible reCaptcha v3`** : (recomendado) valida el comportamiento del usuario en segundo plano en función de la puntuación de interacción. |
+| [!UICONTROL Enable for Login] | Global | Determina el tipo de reCAPTCHA habilitado para [inicio de sesión de administrador](/help/getting-started/admin-signin.md). Opciones: <br/>**`No`**- (predeterminado) No valida el inicio de sesión del administrador.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Requiere que el usuario seleccione la casilla de verificación _No soy un robot_.<br />**`Invisible reCAPTCHA v2`**- Valida el comportamiento del usuario en segundo plano sin requerir interacciones basadas en la puntuación.<br/>**`Invisible reCAPTCHA v3`** : (recomendado) valida el comportamiento del usuario en segundo plano en función de la puntuación de interacción. |
+| [!UICONTROL Enable for Forgot Password] | Global | Determina el tipo de reCAPTCHA que está habilitado para solicitar un [restablecimiento de contraseña de administrador](/help/getting-started/admin-signin.md#reset-your-password). Opciones: <br/>**`No`**- (predeterminado) No valida la solicitud de restablecimiento de contraseña.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Requiere que el usuario seleccione la casilla de verificación _No soy un robot_.<br />**`Invisible reCAPTCHA v2`**- Valida el comportamiento del usuario en segundo plano sin requerir interacciones basadas en la puntuación.<br/>**`Invisible reCaptcha v3`** : (recomendado) valida el comportamiento del usuario en segundo plano en función de la puntuación de interacción. |
 
 {style="table-layout:auto"}

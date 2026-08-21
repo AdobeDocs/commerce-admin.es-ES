@@ -23,7 +23,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 336
 ht-degree: 0%
@@ -41,7 +41,7 @@ Si tiene problemas para iniciar sesión con 2FA, tenga en cuenta lo siguiente:
 - Borrar la caché web y las cookies para la instalación de Adobe Commerce o Magento Open Source también puede ayudar. Los autenticadores, como Google, utilizan cookies generadas para guardar el acceso y la duración. Borre las cookies de su explorador específico y almacene el dominio.
 - Bloquear cookies impide que algunos autenticadores, como [!DNL Google Authenticator], completen el proceso de verificación. Agregue a su explorador una regla que permita las cookies para la instalación de Adobe Commerce.
 
-Para restablecer los autenticadores desde la línea de comandos y obtener información más avanzada sobre solución de problemas, consulte [Autenticación de doble factor](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication/) en la documentación para desarrolladores.
+Para restablecer los autenticadores desde la línea de comandos y obtener información más avanzada sobre solución de problemas, consulte [Autenticación de doble factor](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication) en la documentación para desarrolladores.
 
 **_Para restablecer los autenticadores de una cuenta de usuario:_**
 

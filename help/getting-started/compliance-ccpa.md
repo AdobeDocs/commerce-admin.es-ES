@@ -26,7 +26,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
 source-wordcount: 2309
 ht-degree: 0%
@@ -134,8 +134,8 @@ Haga un inventario de sus propiedades digitales, incluidas todas las integracion
 
 1. Consulte los siguientes temas para ver los diagramas de flujo de datos aplicables y las asignaciones de entidades de base de datos para cada versión:
 
-   - [Referencia de información personal (2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=es)
-   - [Referencia de información personal (1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=es)
+   - [Referencia de información personal (2.x)](https://experienceleague.adobe.com/es/docs/commerce-operations/security-and-compliance/reference/data-m2)
+   - [Referencia de información personal (1.x)](https://experienceleague.adobe.com/es/docs/commerce-operations/security-and-compliance/reference/data-m1)
 
    ![diagrama](./assets/privacy-frontend-diagram.svg)
 
@@ -169,8 +169,8 @@ Los comerciantes son responsables de lo siguiente:
 
    - **Solicitudes para eliminar**
 
-      - Los comerciantes cuyas tiendas estén alojadas en Adobe Commerce Cloud deben ponerse en contacto con el servicio de asistencia de Adobe para obtener ayuda y eliminar información personal. Póngase en contacto con el administrador de cuentas técnico de Adobe o con la asistencia al cliente para obtener más información.
-      - Los comerciantes que ejecuten instalaciones de Adobe Commerce o Magento Open Source on-premise deben implementar su propio proceso y script para eliminar la información personal si se solicita.
+     - Los comerciantes cuyas tiendas estén alojadas en Adobe Commerce Cloud deben ponerse en contacto con el servicio de asistencia de Adobe para obtener ayuda y eliminar información personal. Póngase en contacto con el administrador de cuentas técnico de Adobe o con la asistencia al cliente para obtener más información.
+     - Los comerciantes que ejecuten instalaciones de Adobe Commerce o Magento Open Source on-premise deben implementar su propio proceso y script para eliminar la información personal si se solicita.
 
 #### Paso 5: escribir el contenido para las notificaciones requeridas al cliente
 
@@ -186,12 +186,12 @@ Los comerciantes son responsables de lo siguiente:
 
    - **Cómo enviar una solicitud de recopilación y uso de información personal**: instrucciones para que las personas envíen una solicitud de que usted divulgue la información personal que ha recopilado sobre la persona, incluyendo:
 
-      - Información personal específica que ha recopilado sobre el consumidor
-      - Categorías de información personal que ha recopilado sobre el consumidor
-      - Categorías de fuentes de las que se obtiene la información personal
-      - Categorías de información personal acerca del consumidor que ha vendido o revelado con fines comerciales
-      - Categorías de terceros a los que se vendió o reveló la información personal con fines comerciales
-      - Las razones por las que su empresa recopila y/o vende información personal
+     - Información personal específica que ha recopilado sobre el consumidor
+     - Categorías de información personal que ha recopilado sobre el consumidor
+     - Categorías de fuentes de las que se obtiene la información personal
+     - Categorías de información personal acerca del consumidor que ha vendido o revelado con fines comerciales
+     - Categorías de terceros a los que se vendió o reveló la información personal con fines comerciales
+     - Las razones por las que su empresa recopila y/o vende información personal
 
 1. Envíe el contenido al equipo de y, si es posible, a su asesor jurídico para que lo revise.
 
@@ -215,9 +215,9 @@ Revise su política de privacidad actual y considere qué divulgaciones adiciona
 
 - **Edad del consentimiento**: Si recopila o usa información personal sobre menores, puede estar sujeto a los siguientes requisitos:
 
-   - **Menores &lt; 13**: se requiere la autorización de los padres para que los menores de 13 años se incluyan en la venta de su información personal.
+  - **Menores &lt; 13**: se requiere la autorización de los padres para que los menores de 13 años se incluyan en la venta de su información personal.
 
-   - **Menores de 13 a &lt; 16**: Los menores de 13 años y menores de 16 años pueden optar por la venta de su información personal, siempre y cuando el negocio establezca un proceso razonable para documentar la acción. El proceso debe describirse en la [política de privacidad](privacy-policy.md) de la compañía. Cuando una empresa recibe solicitudes de menores de este rango de edad, debe informarles de su derecho a optar por la exclusión más tarde y explicarles cómo hacerlo.
+  - **Menores de 13 a &lt; 16**: Los menores de 13 años y menores de 16 años pueden optar por la venta de su información personal, siempre y cuando el negocio establezca un proceso razonable para documentar la acción. El proceso debe describirse en la [política de privacidad](privacy-policy.md) de la compañía. Cuando una empresa recibe solicitudes de menores de este rango de edad, debe informarles de su derecho a optar por la exclusión más tarde y explicarles cómo hacerlo.
 
   >[!IMPORTANT]
   >

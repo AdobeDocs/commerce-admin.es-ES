@@ -26,9 +26,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 2612
+source-wordcount: 2658
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >**Descargo de responsabilidad legal**<br/>
->Esta información está diseñada para ayudar a los clientes de Adobe a responder a sus preguntas acerca de los servicios preparados para HIPAA de Adobe. No constituye asesoramiento jurídico. Los comerciantes deben consultar con su propio asesor legal para comprender sus obligaciones según HIPAA y el uso y la configuración adecuados de los productos de Adobe.
+>Esta información está diseñada para ayudar a los clientes de Adobe a responder a sus preguntas sobre los servicios preparados para HIPAA de Adobe. No constituye asesoramiento jurídico. Los comerciantes deben consultar con su propio asesor legal para comprender sus obligaciones según HIPAA y el uso y la configuración adecuados de los productos de Adobe.
 
 >[!BEGINSHADEBOX]
 
@@ -310,7 +310,7 @@ La siguiente tabla identifica los servicios de Adobe Commerce disponibles para l
 | [Servicios de pago](https://experienceleague.adobe.com/es/docs/commerce/payment-services/guide-overview) | No | No |
 | [Eventos de Back Office de conexión de datos](https://experienceleague.adobe.com/es/docs/commerce/data-connection/event-forwarding/events-backoffice) | Sí | Sí |
 | [Eventos de tienda de conexión de datos](https://experienceleague.adobe.com/es/docs/commerce/data-connection/event-forwarding/events#storefront-events) | No | No |
-| [Audience Activation](https://experienceleague.adobe.com/es/docs/commerce-admin/customers/audience-activation) | No | No |
+| [Audience Activation](/help/customers/audience-activation.md) | No | No |
 
 ### Herramientas
 

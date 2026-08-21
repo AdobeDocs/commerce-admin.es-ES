@@ -24,16 +24,16 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 865
 ht-degree: 0%
 
 ---
 
 # Configurar la seguridad de administración
 
-Le recomendamos que adopte un enfoque multifacético para proteger la seguridad de su tienda. Puede empezar por usar una [URL de administrador personalizada](../stores-purchase/store-urls.md#use-a-custom-admin-url) que no sea fácil de adivinar, en lugar de las obvias &quot;Admin&quot; o &quot;Backend&quot;. De manera predeterminada, las contraseñas que se usan para [iniciar sesión](../getting-started/admin-signin.md) en el administrador deben contener siete o más caracteres e incluir letras y números. Puede configurar el requisito de longitud mínima de contraseña para mejorar la seguridad según las necesidades de su organización. Como [práctica recomendada](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=es), use solamente contraseñas de administrador seguras que incluyan una combinación de letras, números y símbolos. Adobe Commerce y Magento Open Source no permiten la reutilización de las cuatro últimas contraseñas asignadas a la cuenta.
+Le recomendamos que adopte un enfoque multifacético para proteger la seguridad de su tienda. Puede empezar por usar una [URL de administrador personalizada](../stores-purchase/store-urls.md#use-a-custom-admin-url) que no sea fácil de adivinar, en lugar de las obvias &quot;Admin&quot; o &quot;Backend&quot;. De manera predeterminada, las contraseñas que se usan para [iniciar sesión](../getting-started/admin-signin.md) en el administrador deben contener siete o más caracteres e incluir letras y números. Puede configurar el requisito de longitud mínima de contraseña para mejorar la seguridad según las necesidades de su organización. Como [práctica recomendada](https://experienceleague.adobe.com/es/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices), use solamente contraseñas de administrador seguras que incluyan una combinación de letras, números y símbolos. Adobe Commerce y Magento Open Source no permiten la reutilización de las cuatro últimas contraseñas asignadas a la cuenta.
 
 La configuración de seguridad de administración le permite:
 
@@ -52,7 +52,7 @@ Además de la configuración de seguridad de esta sección, se requiere [autenti
 >
 >Las tiendas que han habilitado la autenticación [!DNL Adobe Identity Management Services] (IMS) tienen Adobe Commerce nativo y Magento Open Source 2FA deshabilitado. Los usuarios administradores que han iniciado sesión en su instancia de Commerce con sus credenciales de Adobe no necesitan volver a autenticarse en muchas tareas de administración. La autenticación la gestiona Adobe IMS cuando el usuario administrador inicia sesión en su sesión actual. Ver [[!DNL Adobe Identity Management Service] (IMS) Descripción general de la integración](../getting-started/adobe-ims-integration-overview.md).
 
-Para obtener información técnica, consulte [Información general de seguridad](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"} en la documentación para desarrolladores.
+Para obtener información técnica, consulte [Información general de seguridad](https://developer.adobe.com/commerce/php/architecture/basics/security){:target="_blank"} en la documentación para desarrolladores.
 
 ![Seguridad de administración](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
@@ -103,8 +103,8 @@ Para obtener información técnica, consulte [Información general de seguridad]
 
    - Establezca **[!UICONTROL Password Change]** en una de las siguientes opciones:
 
-      - `Forced` — Requiere que los usuarios administradores cambien sus contraseñas después de configurar la cuenta.
-      - `Recommended` — Recomienda que los usuarios administradores cambien sus contraseñas después de configurar la cuenta.
+     - `Forced` — Requiere que los usuarios administradores cambien sus contraseñas después de configurar la cuenta.
+     - `Recommended` — Recomienda que los usuarios administradores cambien sus contraseñas después de configurar la cuenta.
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 

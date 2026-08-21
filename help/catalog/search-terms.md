@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 1188
+source-wordcount: 1189
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ Una forma de mejorar la eficacia de la [búsqueda en el catálogo](search-config
 
 Adobe Commerce admite dos soluciones de administración de sinónimos diferentes:
 
-- La característica [Sinónimos](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html?lang=es) de Live Search está disponible para instalaciones de Adobe Commerce con Live Search instalado.
+- La característica [Sinónimos](https://experienceleague.adobe.com/es/docs/commerce/live-search/live-search-admin/synonyms/synonyms) de Live Search está disponible para instalaciones de Adobe Commerce con Live Search instalado.
 - La función estándar Buscar Sinónimos (descrita en esta página) está disponible de forma predeterminada para todas las instalaciones de Adobe Commerce.
 
 >[!NOTE]

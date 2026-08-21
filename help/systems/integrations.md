@@ -21,7 +21,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 561
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 # Integraciones
 
-Al definir una integración en el administrador de Commerce, se establece la ubicación de las credenciales de OAuth y la URL de redireccionamiento para integraciones de terceros, y se identifican los recursos de API disponibles que se necesitan para la integración. Para obtener información más detallada sobre el proceso de registro de la integración, consulte [Autenticación basada en OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) en la documentación para desarrolladores de Commerce.
+Al definir una integración en el administrador de Commerce, se establece la ubicación de las credenciales de OAuth y la URL de redireccionamiento para integraciones de terceros, y se identifican los recursos de API disponibles que se necesitan para la integración. Para obtener información más detallada sobre el proceso de registro de la integración, consulte [Autenticación basada en OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth) en la documentación para desarrolladores de Commerce.
 
 ![Integraciones](./assets/integrations.png){width="700" zoomable="yes"}
 
@@ -64,8 +64,8 @@ Al definir una integración en el administrador de Commerce, se establece la ubi
 
    - Establezca **[!UICONTROL Resource Access]** en una de las siguientes opciones:
 
-      - `All`
-      - `Custom`
+     - `All`
+     - `Custom`
 
    - Para el acceso personalizado, seleccione la casilla de verificación de cada recurso necesario.
 
@@ -119,7 +119,7 @@ De forma predeterminada, el sistema no permite el acceso anónimo de invitados a
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
-Para obtener más información, consulte [Restricción del acceso a las API web anónimas](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security/) en la documentación para desarrolladores de Commerce.
+Para obtener más información, consulte [Restricción del acceso a las API web anónimas](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security) en la documentación para desarrolladores de Commerce.
 
 ## Eliminación de una integración
 

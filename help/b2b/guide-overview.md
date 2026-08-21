@@ -28,9 +28,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 420
+source-wordcount: 425
 ht-degree: 0%
 
 ---
@@ -74,5 +74,5 @@ Para obtener información acerca de los cambios incluidos en las versiones de m�
 
 Si necesita información o tiene preguntas que no se tratan en esta guía, utilice los siguientes recursos:
 
-- [Base de conocimiento de asistencia de Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=es)
-- [Entradas de soporte técnico](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=es#submit-ticket): envía un ticket para recibir ayuda adicional.
+- [Base de conocimiento de asistencia de Adobe Commerce](https://experienceleague.adobe.com/es/docs/commerce-knowledge-base/kb/overview)
+- [Entradas de soporte técnico](https://experienceleague.adobe.com/es/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case): envía un ticket para recibir ayuda adicional.

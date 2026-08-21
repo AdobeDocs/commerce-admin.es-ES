@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 2338
+source-wordcount: 2339
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ La configuración controla la longitud y el formato de los códigos de cupón ge
 
 >[!NOTE]
 >
->[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} Antes de crear cupones, use el comando `bin/magento cron:run` para comprobar que cron se está ejecutando. Consulte [Ejecutar cron desde la línea de comandos](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=es#run-cron-from-the-command-line) en la _Guía de configuración_ para obtener más información.
+>[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} Antes de crear cupones, use el comando `bin/magento cron:run` para comprobar que cron se está ejecutando. Consulte [Ejecutar cron desde la línea de comandos](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs#run-cron-from-the-command-line) en la _Guía de configuración_ para obtener más información.
 
 ### Método 1: Creación de un cupón específico
 
@@ -124,23 +124,23 @@ La configuración controla la longitud y el formato de los códigos de cupón ge
 
      **Opción 1:** Programar una nueva actualización
 
-      - Haga clic en **[!UICONTROL Schedule New Update]** en la esquina superior derecha de la página.
+     - Haga clic en **[!UICONTROL Schedule New Update]** en la esquina superior derecha de la página.
 
-        ![Actualización de horario](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
+       ![Actualización de horario](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
 
-      - Escriba **[!UICONTROL Update Name]** y **[!UICONTROL Description]**.
+     - Escriba **[!UICONTROL Update Name]** y **[!UICONTROL Description]**.
 
-      - Elija **Fecha de inicio** y **[!UICONTROL End Date]** del calendario ( ![icono del calendario](../assets/icon-calendar.png) ). Si deja vacío el intervalo de fechas, la regla no caduca.
+     - Elija **Fecha de inicio** y **[!UICONTROL End Date]** del calendario ( ![icono del calendario](../assets/icon-calendar.png) ). Si deja vacío el intervalo de fechas, la regla no caduca.
 
-      - Una vez finalizado, haga clic en **[!UICONTROL Save]**.
+     - Una vez finalizado, haga clic en **[!UICONTROL Save]**.
 
-        ![Regla de precio del carro de compras - cambio programado](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
+       ![Regla de precio del carro de compras - cambio programado](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
 
      **Opción 2:** Asignar a una actualización existente:
 
-      - Seleccione **[!UICONTROL Assign to Another Update]**.
+     - Seleccione **[!UICONTROL Assign to Another Update]**.
 
-      - Busque la actualización en la lista y haga clic en **[!UICONTROL Select]**.
+     - Busque la actualización en la lista y haga clic en **[!UICONTROL Select]**.
 
 1. Complete la [regla de precio del carro de compras](price-rules-cart.md) según sea necesario.
 
@@ -170,9 +170,9 @@ La generación de cupones de descuento es una operación asincrónica, que se ej
 
    - Establezca **[!UICONTROL Code Format]** en una de las siguientes opciones:
 
-      - `Alphanumeric`
-      - `Alphabetical`
-      - `Numeric`
+     - `Alphanumeric`
+     - `Alphabetical`
+     - `Numeric`
 
    - (Opcional) Escriba un **[!UICONTROL Code Prefix]** para agregarlo al principio del código.
 
@@ -221,7 +221,7 @@ Para eliminar códigos de cupones personalizados, seleccione los códigos que de
 
 Para editar códigos de cupones personalizados o ver detalles de uso, haga clic en **[!UICONTROL Edit]** en la columna **[!UICONTROL Actions]**.
 
-&lt;InlineAlert variant="info" slots="text"/>
+<InlineAlert variant="info" slots="text"/>
 
 El código de cupón principal que pertenece a la regla de precio del carro de compras no se puede editar ni eliminar.
 
@@ -288,16 +288,16 @@ En el ejemplo siguiente, dos clientes utilizaron el código de cupón &quot;H20&
 
    - Establezca **[!UICONTROL Date Used]** en una de las siguientes opciones:
 
-      - `Order Created`
-      - `Order Updated`
+     - `Order Created`
+     - `Order Updated`
 
      El informe _Pedido actualizado_ se crea en tiempo real y no requiere una actualización.
 
    - Para definir el período de tiempo que abarca el informe, establezca **[!UICONTROL Period]** en uno de los siguientes:
 
-      - `Day`
-      - `Month`
-      - `Year`
+     - `Day`
+     - `Month`
+     - `Year`
 
    - Para definir el intervalo de fechas del informe, escriba las fechas **Desde** y **Hasta** en formato M/D/AA.
 
@@ -307,8 +307,8 @@ En el ejemplo siguiente, dos clientes utilizaron el código de cupón &quot;H20&
 
    - Para definir la actividad de cupones incluida en el informe, realice una de las siguientes acciones:
 
-      - Para incluir toda la actividad de cupones de todas las reglas de precios, establezca **[!UICONTROL Cart Price Rule]** en `Any`.
-      - Para incluir solamente la actividad relacionada con una regla de precios específica, establezca **[!UICONTROL Cart Price Rule]** en `Specified` y seleccione la regla de precios del carro de compras en la lista.
+     - Para incluir toda la actividad de cupones de todas las reglas de precios, establezca **[!UICONTROL Cart Price Rule]** en `Any`.
+     - Para incluir solamente la actividad relacionada con una regla de precios específica, establezca **[!UICONTROL Cart Price Rule]** en `Specified` y seleccione la regla de precios del carro de compras en la lista.
 
 1. Cuando esté listo para ejecutar el informe, haga clic en **[!UICONTROL Show Report]**.
 

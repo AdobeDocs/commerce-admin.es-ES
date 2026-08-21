@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 352
+source-wordcount: 353
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Con Adobe Commerce o Magento Open Source 2.4, los comerciantes pueden usar los n
 
 >[!NOTE]
 >
->La funcionalidad completa para el nuevo [!DNL Media Gallery] requiere que `media.gallery.synchronization` y `media.content.synchronization` consumidores de cola se inicien para la sincronización inicial. Consulte [Administrar colas de mensajes](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=es) en la _Guía de configuración_ para obtener más información.
+>La funcionalidad completa para el nuevo [!DNL Media Gallery] requiere que `media.gallery.synchronization` y `media.content.synchronization` consumidores de cola se inicien para la sincronización inicial. Consulte [Administrar colas de mensajes](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) en la _Guía de configuración_ para obtener más información.
 
 ## Acceder al nuevo(a) [!DNL Media Gallery]
 

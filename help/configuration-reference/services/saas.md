@@ -18,16 +18,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 238
-ht-degree: 2%
+source-wordcount: 246
+ht-degree: 4%
 
 ---
 
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-Para saber cómo conectar tu tienda a los servicios de Adobe Commerce, consulta [Servicios de Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=es).
+Para saber cómo conectar tu tienda a los servicios de Adobe Commerce, consulta [Servicios de Commerce](https://experienceleague.adobe.com/es/docs/commerce/user-guides/integration-services/saas).
 
 {{config}}
 
@@ -60,7 +60,7 @@ Para saber cómo conectar tu tienda a los servicios de Adobe Commerce, consulta 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Project] | Global | Nombre del proyecto de SaaS que agrupa todos los espacios de datos de SaaS. Aparece el botón _Crear proyecto_ si no existen proyectos SaaS. |
-| [!UICONTROL Data Space] | Global | Muestra los espacios de datos SaaS del proyecto SaaS especificado. El número de espacios de datos SaaS depende de su [licencia de Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=es):<br />Adobe Commerce: un espacio de datos de producción; dos espacios de datos de prueba;<br />Magento Open Source: un espacio de datos de producción; sin espacios de datos de prueba |
+| [!UICONTROL Data Space] | Global | Muestra los espacios de datos SaaS del proyecto SaaS especificado. El número de espacios de datos SaaS depende de su [licencia de Commerce](https://experienceleague.adobe.com/es/docs/commerce/user-guides/integration-services/saas):<br />Adobe Commerce: un espacio de datos de producción; dos espacios de datos de prueba;<br />Magento Open Source: un espacio de datos de producción; sin espacios de datos de prueba |
 
 {style="table-layout:auto"}
 

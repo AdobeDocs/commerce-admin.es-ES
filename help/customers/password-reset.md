@@ -20,7 +20,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 393
 ht-degree: 0%
@@ -34,7 +34,7 @@ Los clientes suelen restablecer sus contraseñas desde la tienda haciendo clic e
 | Función | Descripción |
 | --- | --- |
 | Restablecer contraseña | Se envía un correo electrónico de restablecimiento de contraseña directamente a la cuenta de correo electrónico del cliente. El administrador del almacén no puede obtener acceso a la contraseña del cliente. |
-| Forzar inicio de sesión | Revoca los tokens de acceso de OAuth asociados a la cuenta del cliente. Esto solo se puede usar con cuentas de cliente a las que se les hayan asignado tokens de OAuth, como parte de una integración de API web [integration](../systems/integrations.md). Para obtener más información, consulte [Autenticación basada en OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) en la documentación para desarrolladores. <br/><br/>Las cuentas de cliente estándar creadas desde la tienda o desde el administrador no tienen tokens de OAuth. |
+| Forzar inicio de sesión | Revoca los tokens de acceso de OAuth asociados a la cuenta del cliente. Esto solo se puede usar con cuentas de cliente a las que se les hayan asignado tokens de OAuth, como parte de una integración de API web [integration](../systems/integrations.md). Para obtener más información, consulte [Autenticación basada en OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth) en la documentación para desarrolladores. <br/><br/>Las cuentas de cliente estándar creadas desde la tienda o desde el administrador no tienen tokens de OAuth. |
 
 {style="table-layout:auto"}
 

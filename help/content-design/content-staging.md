@@ -16,9 +16,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: 1005
 ht-degree: 0%
 
 ---
@@ -98,6 +98,6 @@ Para obtener más información sobre el ensayo de contenido, vea este vídeo:
 
 Para obtener ayuda con la resolución de problemas de ensayo de contenido, consulte los siguientes [!DNL Commerce] artículos de la Base de conocimiento de asistencia técnica:
 
-- [Error 404 en todas las páginas debido a un problema de ensayo de contenido](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html?lang=es)
-- [Las actualizaciones programadas de ensayo de contenido no se muestran con la caché de Fastly obsoleta](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html?lang=es)
-- [¿Puedo programar actualizaciones de Ensayo de contenido para precios en un catálogo compartido?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html?lang=es)
+- [Error 404 en todas las páginas debido a un problema de ensayo de contenido](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-27785)
+- [Las actualizaciones programadas de ensayo de contenido no se muestran con la caché de Fastly obsoleta](https://experienceleague.adobe.com/es/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache)
+- [¿Puedo programar actualizaciones de Ensayo de contenido para precios en un catálogo compartido?](https://experienceleague.adobe.com/es/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog)

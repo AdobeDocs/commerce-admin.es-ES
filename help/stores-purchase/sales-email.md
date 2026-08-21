@@ -18,10 +18,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 436
-ht-degree: 0%
+source-wordcount: 454
+ht-degree: 3%
 
 ---
 
@@ -50,7 +50,7 @@ Asegúrese de actualizar la plantilla [encabezado de correo electrónico](../sys
    - `Disable`: envía un correo electrónico de ventas cuando se activa un evento.
    - `Enable`: envía un correo electrónico de ventas a intervalos predeterminados y regulares.
 
-   El Soporte de Adobe Commerce recomienda habilitar el envío asincrónico para mejorar el rendimiento de la colocación de pedidos. Consulte las [prácticas recomendadas de configuración para el procesamiento de pedidos](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html?lang=es) en la Base de conocimiento de asistencia de Adobe Commerce.
+   El Soporte de Adobe Commerce recomienda habilitar el envío asincrónico para mejorar el rendimiento de la colocación de pedidos. Consulte las [prácticas recomendadas de configuración para el procesamiento de pedidos](https://experienceleague.adobe.com/es/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration) en la Base de conocimiento de asistencia de Adobe Commerce.
 
 ## Paso 3. Completar los detalles de cada mensaje de correo electrónico de ventas
 

@@ -19,10 +19,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 913
-ht-degree: 0%
+source-wordcount: 949
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Esta página describe la funcionalidad de búsqueda estándar que podría diferir de [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=es).
+>Esta página describe la funcionalidad de búsqueda estándar que podría diferir de [Live Search](https://experienceleague.adobe.com/es/docs/commerce/live-search/overview).
 
 La lista _Resultados de búsqueda_ incluye todos los productos que coinciden con los criterios de búsqueda especificados en el cuadro Búsqueda rápida o en el formulario Búsqueda avanzada. Cada lista de productos del catálogo tiene esencialmente los mismos controles. La única diferencia es que uno es el resultado de una consulta de búsqueda y la otra diferencia es el resultado de [navegación](navigation.md).
 
@@ -46,7 +46,7 @@ Con **Elasticsearch**:
 
 >[!IMPORTANT]
 >
->Debido al anuncio de fin de soporte de Elasticsearch 7 para agosto de 2023, se recomienda que todos los clientes de Adobe Commerce migren al motor de búsqueda OpenSearch 2.x. Para obtener información sobre cómo migrar el motor de búsqueda durante la actualización del producto, consulte [Migración a OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=es) en la _Guía de actualización_.
+>Debido al anuncio de fin de soporte de Elasticsearch 7 para agosto de 2023, se recomienda que todos los clientes de Adobe Commerce migren al motor de búsqueda OpenSearch 2.x. Para obtener información sobre cómo migrar el motor de búsqueda durante la actualización del producto, consulte [Migración a OpenSearch](https://experienceleague.adobe.com/es/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) en la _Guía de actualización_.
 
 ## Asignación de palabras clave para ampliar los resultados de búsqueda
 

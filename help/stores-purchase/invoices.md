@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1208
 ht-degree: 0%
@@ -100,17 +100,17 @@ Se debe generar una factura para el pedido antes de poder imprimirla. Para ver o
 
    - Incluya un número de seguimiento:
 
-      - Haga clic en **[!UICONTROL Add Tracking Number]**.
-      - Escriba la información de seguimiento: _[!UICONTROL Carrier]_,_[!UICONTROL Title]_ y _[!UICONTROL Number]_
+     - Haga clic en **[!UICONTROL Add Tracking Number]**.
+     - Escriba la información de seguimiento: _[!UICONTROL Carrier]_,_[!UICONTROL Title]_ y _[!UICONTROL Number]_
 
      ![Crear un envío de Fedex](./assets/invoice-create-shipment-fedex.png){width="600" zoomable="yes"}
 
    - Si lo desea, genere una factura parcial:
 
-      - En la sección _Artículos a factura_, actualice la columna **[!UICONTROL Qty to Invoice]** para incluir solo artículos específicos en la factura.
-      - A continuación, haga clic en **[!UICONTROL Update Qty's]**.
+     - En la sección _Artículos a factura_, actualice la columna **[!UICONTROL Qty to Invoice]** para incluir solo artículos específicos en la factura.
+     - A continuación, haga clic en **[!UICONTROL Update Qty's]**.
 
-        ![Artículos a facturar](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
+       ![Artículos a facturar](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
 
 1. Si se utilizó un método de pago en línea para el pedido, establezca **[!UICONTROL Amount]** en la opción adecuada.
 
@@ -170,7 +170,7 @@ Las facturas se guardan en un solo archivo PDF que se puede enviar a una impreso
 
 Para proporcionar a los comerciantes una mayor flexibilidad para las capturas parciales y los escenarios de pago especializados, la API de facturas admite importes de captura personalizados mediante atributos de extensión.
 
-Puede realizar llamadas REST para capturar una cantidad personalizada al crear una factura.  Use el extremo REST [`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas/) y especifique la cantidad personalizada en el campo `extension_attributes.custom_capture_amount` de la carga.
+Puede realizar llamadas REST para capturar una cantidad personalizada al crear una factura.  Use el extremo REST [`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas) y especifique la cantidad personalizada en el campo `extension_attributes.custom_capture_amount` de la carga.
 
 >[!NOTE]
 >

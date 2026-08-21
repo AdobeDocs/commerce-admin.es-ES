@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1231
+source-wordcount: 1316
 ht-degree: 0%
 
 ---
@@ -30,7 +30,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Las versiones 2.4.0 a 2.4.3 de Adobe Commerce y Magento Open Source incluían la extensión desarrollada por el proveedor Vertex que se utilizó para integrarse con [!UICONTROL Vertex Cloud]. A partir de la versión 2.4.4, esta extensión ya no se integra con la versión principal y debe instalarse y actualizarse desde Commerce Marketplace. Marketplace también proporciona acceso a la documentación actual proporcionada por el desarrollador de extensiones.
-><br><br>>Si tiene la extensión agrupada habilitada y configurada, debe actualizar su archivo composer.json como parte del proceso de actualización 2.4.4 y administrar las actualizaciones de extensión en adelante. Consulte [Módulos y extensiones de actualización](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=es) en la _Guía de actualización_ para obtener más información.
+><br><br>
+>Si tiene la extensión agrupada habilitada y configurada, debe actualizar el archivo composer.json como parte del proceso de actualización de la versión 2.4.4 y administrar las actualizaciones de extensión que se realicen. Consulte [Actualizar módulos y extensiones](https://experienceleague.adobe.com/es/docs/commerce-operations/upgrade-guide/modules/upgrade) en la _Guía de actualización_ para obtener más información.
 
 {{config}}
 

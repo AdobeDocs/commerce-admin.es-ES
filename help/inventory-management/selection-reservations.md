@@ -21,9 +21,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2026-06-03
-source-git-commit: 2aec8bcf2c4736ff1b1be4c718938ef360b6daa9
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 2178
+source-wordcount: 2179
 ht-degree: 0%
 
 ---
@@ -209,7 +209,7 @@ Los tres valores de `quantity` suman 0 (-25 + 5 + 20). El sistema no modifica ni
 
 El trabajo cron `inventory_cleanup_reservations` ejecuta consultas SQL para borrar la tabla de la base de datos de reservas. De forma predeterminada, se ejecuta a diario a medianoche, pero puede configurar las horas y la frecuencia. El trabajo cron ejecuta un script que consulta la base de datos para encontrar secuencias de reserva completas en las que la suma de los valores de cantidad es 0. Cuando se hayan compensado todas las reservas de un producto determinado originado el mismo día (u otra hora configurada), el trabajo cron elimina todas las reservas a la vez.
 
-El trabajo cron `inventory_reservations_cleanup` no es el mismo que el consumidor de cola de mensajes `inventory.reservations.cleanup`. El consumidor elimina las reservas de forma asíncrona por SKU de producto después de eliminar un producto, mientras que el trabajo cron borra toda la tabla de reservas. El consumidor es necesario cuando se habilita la opción de existencias [**Sincronizar con el catálogo**](../configuration-reference/catalog/inventory.md) en la configuración de la tienda. Consulte [Administrar colas de mensajes](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=es){target="_blank"} en la _Guía de configuración_.
+El trabajo cron `inventory_reservations_cleanup` no es el mismo que el consumidor de cola de mensajes `inventory.reservations.cleanup`. El consumidor elimina las reservas de forma asíncrona por SKU de producto después de eliminar un producto, mientras que el trabajo cron borra toda la tabla de reservas. El consumidor es necesario cuando se habilita la opción de existencias [**Sincronizar con el catálogo**](../configuration-reference/catalog/inventory.md) en la configuración de la tienda. Consulte [Administrar colas de mensajes](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues){target="_blank"} en la _Guía de configuración_.
 
 A menudo, todas las reservas iniciales producidas en un solo día no pueden compensarse ese mismo día. Esta situación puede ocurrir cuando un cliente realiza un pedido justo antes de que comience el trabajo cron o realiza la compra con un método de pago sin conexión, como una transferencia bancaria. Las secuencias de reservas compensadas permanecen en la base de datos hasta que todas se compensan. Esta práctica no interfiere con los cálculos de reserva, ya que el total de cada reserva es 0.
 

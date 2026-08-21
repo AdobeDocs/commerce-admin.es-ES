@@ -28,9 +28,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
-source-wordcount: 1775
+source-wordcount: 1776
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Adobe Commerce y Magento Open Source ofrecen una serie de herramientas para ayud
 
 ## Optimizar los procesos empresariales y la rentabilidad
 
-- **[!DNL Advanced Reporting]**: obtenga información valiosa de un vistazo con los informes dinámicos de productos, pedidos y clientes, con tecnología de [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=es).
+- **[!DNL Advanced Reporting]**: obtenga información valiosa de un vistazo con los informes dinámicos de productos, pedidos y clientes, con tecnología de [Business Intelligence](https://experienceleague.adobe.com/es/docs/commerce-business-intelligence/mbi/getting-started).
 
 - **Instantáneas del panel**: Saber qué es lo que le interesa en el sitio es crucial para maximizar el presupuesto de marketing. Use esta [información en su tablero](admin-dashboard.md) para determinar qué debería realizar ventas cruzadas y ampliadas a clientes fieles o qué productos poner a la venta.
 

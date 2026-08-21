@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 403
+source-wordcount: 404
 ht-degree: 0%
 
 ---
@@ -42,9 +42,9 @@ _Compra instantánea_ permite a los clientes acelerar el proceso de cierre de co
 
   Los siguientes métodos de pago se pueden utilizar para proporcionar acceso seguro a la información guardada de la tarjeta de crédito:
 
-   - [Tarjetas de crédito Braintree](braintree.md) (compra instantánea no se puede usar con tarjetas de crédito Braintree si 3D Secure está habilitado).
-   - [Braintree con PayPal habilitado](braintree.md)
-   - [PayPal Payflow Pro](paypal-payflow-pro.md)
+  - [Tarjetas de crédito Braintree](braintree.md) (compra instantánea no se puede usar con tarjetas de crédito Braintree si 3D Secure está habilitado).
+  - [Braintree con PayPal habilitado](braintree.md)
+  - [PayPal Payflow Pro](paypal-payflow-pro.md)
 
 ## Compra instantánea en la tienda
 
@@ -71,7 +71,7 @@ Puede utilizar la compra instantánea con Braintree o los servicios de pago para
 Obtenga información sobre cómo configurar el método de pago y habilitar el depósito para Braintree o Servicios de pago:
 
 - [Braintree](braintree.md)
-- [Documentación de servicios de pago](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=es)
+- [Documentación de servicios de pago](https://experienceleague.adobe.com/es/docs/commerce/payment-services/guide-overview)
 
 ### Paso 3: Activar compra instantánea
 

@@ -21,7 +21,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1281
 ht-degree: 0%
@@ -192,7 +192,7 @@ Hay botones adicionales disponibles cuando el perfil se guarda por primera vez. 
 | **[!UICONTROL Reset]** | Restablece los cambios no guardados en el formulario del cliente a sus valores anteriores. |
 | **[!UICONTROL Create Order]** | Crea un pedido para el cliente. |
 | **[!UICONTROL Reset Password]** | Envía un vínculo [restablecer contraseña](../customers/password-reset.md) al cliente por correo electrónico. |
-| **[!UICONTROL Force Sign-in]** | Revoca los tokens de acceso de OAuth asociados a la cuenta del cliente. Esta función solo se puede usar con cuentas de cliente a las que se les hayan asignado tokens de OAuth como parte de una integración de API web [integration](../systems/integrations.md). Para obtener más información, consulte [Autenticación basada en OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) en la documentación para desarrolladores. |
+| **[!UICONTROL Force Sign-in]** | Revoca los tokens de acceso de OAuth asociados a la cuenta del cliente. Esta función solo se puede usar con cuentas de cliente a las que se les hayan asignado tokens de OAuth como parte de una integración de API web [integration](../systems/integrations.md). Para obtener más información, consulte [Autenticación basada en OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth) en la documentación para desarrolladores. |
 | **[!UICONTROL Manage Shopping Cart]** | Permite al administrador administrar el carro de compras del cliente. |
 | **[!UICONTROL Save and Continue Edit]** | Guarda los cambios y mantiene abierto el perfil del cliente. |
 | **[!UICONTROL Save Customer]** | Guarda los cambios y cierra el perfil del cliente. |

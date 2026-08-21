@@ -18,10 +18,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
-source-wordcount: 225
-ht-degree: 0%
+source-wordcount: 230
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 {{config}}
 
-Esta configuración está disponible cuando [[!DNL Amazon Sales Channel]](https://experienceleague.adobe.com/docs/commerce-channels/amazon/getting-started/install.html?lang=es) está instalado.
+Esta configuración está disponible cuando [[!DNL Amazon Sales Channel]](https://experienceleague.adobe.com/es/docs/discontinued/using/commerce-channels) está instalado.
 
 ![Configuración de Sales Channel](./assets/config-sales-channel-global-settings.png)<!-- zoom -->
 

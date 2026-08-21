@@ -20,9 +20,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 1078
+source-wordcount: 1064
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Su cuenta de [!DNL Commerce] contiene información que puede poner a disposició
 
 El titular de la cuenta principal tiene autoridad para otorgar acceso limitado a otros titulares de la cuenta [!DNL Commerce]. El acceso compartido se puede revocar, pero no transferir. Para ``Cloud Shared Access from MAG[XYZ]`` entradas, el registro de usuario **no se puede eliminar aquí**, pero el acceso **aún se puede revocar**.
 
-Solo el titular de la cuenta principal con los permisos adecuados puede otorgar formalmente el acceso compartido. Si el titular de la cuenta principal ya no tiene acceso o ha abandonado la compañía, el cliente debe usar el [proceso de transferencia de cuenta de Commerce](https://experienceleague.adobe.com/es/docs/commerce-admin/start/commerce-account/commerce-account-transfer) para pasar la propiedad a un nuevo contacto. Aunque el equipo de soporte de Commerce puede suplantar al cliente en situaciones limitadas, el cliente debe configurar el acceso compartido para reducir el riesgo de seguridad y responsabilidad.
+Solo el titular de la cuenta principal con los permisos adecuados puede otorgar formalmente el acceso compartido. Si el titular de la cuenta principal ya no tiene acceso o ha abandonado la compañía, el cliente debe usar el [proceso de transferencia de cuenta de Commerce](/help/getting-started/commerce-account-transfer.md) para pasar la propiedad a un nuevo contacto. Aunque el equipo de soporte de Commerce puede suplantar al cliente en situaciones limitadas, el cliente debe configurar el acceso compartido para reducir el riesgo de seguridad y responsabilidad.
 
 
 ![Configuración de acceso compartido](./assets/shared-access.png){width="600" zoomable="yes"}
@@ -48,7 +48,7 @@ La sección Historial de Facturación muestra solamente las facturas antiguas qu
 
 1. Antes de empezar, obtenga la siguiente información de la cuenta [!DNL Commerce] del **nuevo beneficiario de acceso compartido**:
 
-   - El usuario ya debe haberse registrado para obtener una cuenta en account.adobe.com y haber iniciado sesión a través de account.magento.com. Consulte [Crear una cuenta de Commerce](https://experienceleague.adobe.com/es/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) para obtener más información.
+   - El usuario ya debe haberse registrado para obtener una cuenta en account.adobe.com y haber iniciado sesión a través de account.magento.com. Consulte [Crear una cuenta de Commerce](/help/getting-started/commerce-account-create.md#create-a-commerce-account) para obtener más información.
    - `MAGE ID/Account ID (MAG00XXXXXXX)` se muestra en la esquina superior izquierda de la ficha _[!UICONTROL Magento]_, justo encima del vínculo **Cerrar sesión**.
    - La dirección `Email` asociada con la cuenta.
 
@@ -86,7 +86,7 @@ La sección Historial de Facturación muestra solamente las facturas antiguas qu
 
 >[!NOTE]
 >
->No es necesario compartir el acceso a _[!UICONTROL Security Tool]_: cualquier usuario con un ID de MAGE puede configurar la herramienta de exploración de seguridad con su propia cuenta. Solo necesitan los privilegios necesarios para realizar cambios en el sitio y comprobar la propiedad del dominio mediante uno de los [métodos necesarios](https://experienceleague.adobe.com/es/docs/commerce-admin/systems/security/security-scan)).
+>No es necesario compartir el acceso a _[!UICONTROL Security Tool]_: cualquier usuario con un ID de MAGE puede configurar la herramienta de exploración de seguridad con su propia cuenta. Solo necesitan los privilegios necesarios para realizar cambios en el sitio y comprobar la propiedad del dominio mediante uno de los [métodos necesarios](/help/systems/security-scan.md)).
 
 ## Acceso a una cuenta compartida
 
@@ -117,7 +117,7 @@ Las siguientes instrucciones se escriben desde la perspectiva de un usuario comp
 
    >[!NOTE]
    >
-   >Después de recibir acceso compartido, para [enviar un caso de soporte técnico](https://experienceleague.adobe.com/es/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) en Experience League, asegúrese de seleccionar primero el nombre de la organización que termina en &quot;([!DNL Commerce])&quot; en la columna izquierda.
+   >Después de recibir acceso compartido, para [enviar un caso de soporte técnico](https://experienceleague.adobe.com/es/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) en Experience League, asegúrese de seleccionar primero el nombre de la organización que termina en &quot;([!DNL Commerce])&quot; en la columna izquierda.
 
 1. Para volver a su cuenta, haga clic en **Atrás** en los controles del explorador y establezca **[!UICONTROL Switch Accounts]** en `My Account`.
 
@@ -131,7 +131,7 @@ Las siguientes instrucciones se escriben desde la perspectiva de un usuario comp
 
    >[!NOTE]
    >
-   > Si no se muestra **[!UICONTROL Delete]**, compruebe si **[!UICONTROL Share Name]** contiene el patrón de nombres `Cloud Shared Access from MAG0XYZ`. Si la cuenta tiene ese [patrón de nomenclatura y no se puede eliminar](https://experienceleague.adobe.com/es/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users), esto se debe a que el acceso compartido se creó mediante una API y no directamente desde la [cuenta de Commerce](https://account.magento.com/).
+   > Si no se muestra **[!UICONTROL Delete]**, compruebe si **[!UICONTROL Share Name]** contiene el patrón de nombres `Cloud Shared Access from MAG0XYZ`. Si la cuenta tiene ese [patrón de nomenclatura y no se puede eliminar](https://experienceleague.adobe.com/es/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users), esto se debe a que el acceso compartido se creó mediante una API y no directamente desde la [cuenta de Commerce](https://account.magento.com/).
    > 
    > Si no se puede eliminar, haga que el propietario de la cuenta modifique la cuenta de acceso compartido y en Conceder permisos de cuenta, desactive todos los elementos. Después de esta actualización, el usuario ya no podrá acceder a ningún recurso de la cuenta.
    > ![imagen](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
@@ -143,7 +143,7 @@ Las siguientes instrucciones se escriben desde la perspectiva de un usuario comp
 
 >[!NOTE]
 >
->No puede eliminar usuarios con el nombre compartido de _Acceso compartido en la nube de MAG[XYZ]_ en esta interfaz. Consulte [¿Cómo eliminar usuarios a los que se les concedió acceso compartido a través de un proyecto de Cloud?](https://experienceleague.adobe.com/es/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users).
+>No puede eliminar usuarios con el nombre compartido de _Acceso compartido en la nube de MAG[XYZ]_ en esta interfaz. Consulte [¿Cómo eliminar usuarios a los que se les concedió acceso compartido a través de un proyecto de Cloud?](https://experienceleague.adobe.com/es/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users).
 
 ## Lectura relacionada
 

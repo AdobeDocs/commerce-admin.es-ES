@@ -21,9 +21,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 802
+source-wordcount: 780
 ht-degree: 0%
 
 ---
@@ -49,8 +49,8 @@ El tablero contiene los campos siguientes:
 | Campo | Descripción |
 |--- |--- |
 | Ámbito | Sitio web específico para los datos sincronizados. |
-| [!DNL Product Recommendations] | Muestra el estado de sincronización, el número de productos sincronizados y una tabla de [productos sincronizados mostrables](https://experienceleague.adobe.com/es/docs/commerce-admin/config/catalog/inventory#stock-options) para [!DNL Product Recommendations]. |
-| [!DNL Live Search] | Muestra el estado de sincronización, el número de productos sincronizados y una tabla de [productos sincronizados mostrables](https://experienceleague.adobe.com/es/docs/commerce-admin/config/catalog/inventory#stock-options) para [!DNL Live Search]. |
+| [!DNL Product Recommendations] | Muestra el estado de sincronización, el número de productos sincronizados y una tabla de [productos sincronizados mostrables](/help/configuration-reference/catalog/inventory.md#stock-options) para [!DNL Product Recommendations]. |
+| [!DNL Live Search] | Muestra el estado de sincronización, el número de productos sincronizados y una tabla de [productos sincronizados mostrables](/help/configuration-reference/catalog/inventory.md#stock-options) para [!DNL Live Search]. |
 | [!DNL Catalog Service] | Muestra el estado de sincronización, el número de productos sincronizados y una tabla de los productos sincronizados de [!DNL Catalog Service]. |
 | Configuración | Abre un cuadro de diálogo donde puede [resincronizar manualmente los datos del catálogo](#resync-catalog-data). |
 | Estado de sincronización | Muestra el número de productos que se han transferido de la base de datos de Commerce a cualquiera de los servicios SaaS en las últimas tres horas. Si realiza actualizaciones poco frecuentes en el catálogo, este valor suele ser cero. Si hay una sincronización en curso, haga clic en **[!UICONTROL Refresh]** para obtener un recuento actualizado. |

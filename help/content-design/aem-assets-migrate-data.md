@@ -18,9 +18,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 892
+source-wordcount: 887
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Tanto Adobe Commerce como Adobe Experience Manager (AEM) proporcionan funciones 
 | **Acceso y permisos requeridos** | <ul><li>Acceso de administrador a AEM Assets as a Cloud Service</li><li>Acceso al sistema de origen donde se almacenan los archivos multimedia (Adobe Commerce o sistema externo)</li><li>Permisos adecuados para acceder a los servicios de almacenamiento en la nube</li></ul> |
 | **Cuenta de almacenamiento en la nube** | <ul><li>Cuenta de almacenamiento de AWS S3 o Azure Blob</li><li>Configuración de contenedor/contenedor privado</li><li>Credenciales de autenticación</li></ul> |
 | **Contenido de Source** | <ul><li>Archivos de medios organizados listos para la migración</li><li>Archivos de imagen y vídeo en <a href="https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/file-format-support#image-formats">formatos admitidos por los AEM Assets</a>.</li><li>Recursos limpios y deduplicados</li></li> |
-| **Preparación de metadatos** | <ul><li><a href="https://experienceleague.adobe.com/es/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-configure-aem">Perfil de metadatos de AEM Assets configurado para recursos de Commerce</a></li><li>Valores de metadatos asignados para cada recurso</li><li>Editor de archivos CSV (por ejemplo, Microsoft Excel)</li></ul> |
+| **Preparación de metadatos** | <ul><li><a href="/help/content-design/aem-assets-configure-aem.md">Perfil de metadatos de AEM Assets configurado para recursos de Commerce</a></li><li>Valores de metadatos asignados para cada recurso</li><li>Editor de archivos CSV (por ejemplo, Microsoft Excel)</li></ul> |
 
 ## Prácticas recomendadas de migración
 
@@ -123,5 +123,5 @@ A continuación se ofrece una descripción general de alto nivel sobre el uso de
 >
 >[Demostración en vídeo de la herramienta de importación masiva](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/add-assets#asset-bulk-ingestor)
 >[Sugerencias, prácticas recomendadas y limitaciones](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/add-assets#tips-limitations)
->[Cargar o ingerir recursos mediante API](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload)
+>[Cargar o introducir recursos mediante API &#x200B;](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload)
 

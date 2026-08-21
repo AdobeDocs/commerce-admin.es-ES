@@ -19,9 +19,9 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 262
+source-wordcount: 263
 ht-degree: 0%
 
 ---
@@ -52,4 +52,4 @@ Al crear o actualizar un producto, la [configuración del producto](../catalog/p
 
 ## Recomendaciones de productos con tecnología de Adobe AI
 
-![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) [Product Recommendations](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=es) con tecnología de Adobe AI simplifica el proceso de definición de relaciones de productos mediante inteligencia artificial y algoritmos de aprendizaje automático para realizar un análisis profundo de los datos de visitantes agregados. Estos datos, cuando se combinan con su catálogo de Adobe Commerce, generan experiencias muy atractivas, relevantes y personalizadas para el comprador.
+![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) [Product Recommendations](https://experienceleague.adobe.com/es/docs/commerce/product-recommendations/overview) con tecnología de Adobe AI simplifica el proceso de definición de relaciones de productos mediante inteligencia artificial y algoritmos de aprendizaje automático para realizar un análisis profundo de los datos de visitantes agregados. Estos datos, cuando se combinan con su catálogo de Adobe Commerce, generan experiencias muy atractivas, relevantes y personalizadas para el comprador.

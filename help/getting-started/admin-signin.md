@@ -26,9 +26,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 1214
+source-wordcount: 1193
 ht-degree: 0%
 
 ---
@@ -184,7 +184,7 @@ El administrador proporciona acceso para administrar las funciones de pedidos, c
 
 Para garantizar la seguridad de su administrador, realice auditorías regulares de los usuarios y las funciones con acceso de administrador.
 
-Además, considere [actualizar la configuración de la URL de Admin Base](https://experienceleague.adobe.com/es/docs/commerce-admin/config/advanced/admin#admin-base-url) para cambiar el punto de conexión `/admin` predeterminado a una ruta de acceso personalizada. La configuración de una ruta personalizada ofrece las siguientes ventajas de seguridad:
+Además, considere [actualizar la configuración de la URL de Admin Base](/help/configuration-reference/advanced/admin.md#admin-base-url) para cambiar el punto de conexión `/admin` predeterminado a una ruta de acceso personalizada. La configuración de una ruta personalizada ofrece las siguientes ventajas de seguridad:
 
 **Seguridad mejorada**: La ruta de acceso &quot;admin&quot; predeterminada es ampliamente conocida y a menudo está dirigida por agentes malintencionados que intentan realizar ataques por fuerza bruta. Al cambiarlo a un valor único y personalizado, se reduce significativamente el riesgo de intentos de acceso no autorizados.
 
@@ -196,4 +196,4 @@ Además, considere [actualizar la configuración de la URL de Admin Base](https:
 
 >[!NOTE]
 >
->Si se sospecha una infracción, asegúrese de eliminar todos los usuarios administradores desconocidos, restablecer todas las contraseñas de administración y revisar el [plan de acción de seguridad](https://experienceleague.adobe.com/es/docs/commerce-admin/systems/security/security) para ver los pasos siguientes.
+>Si se sospecha una infracción, asegúrese de eliminar todos los usuarios administradores desconocidos, restablecer todas las contraseñas de administración y revisar el [plan de acción de seguridad](/help/systems/security.md) para ver los pasos siguientes.

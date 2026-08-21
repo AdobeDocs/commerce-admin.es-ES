@@ -29,9 +29,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
-source-wordcount: 1221
+source-wordcount: 1224
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Utilice las herramientas de Commerce Intelligence para obtener el insight que se
 
 ## Cuenta de [!DNL Commerce Intelligence]
 
-Cuando activa una cuenta de [!DNL Commerce Intelligence] a través de Adobe, obtiene acceso a cinco paneles con aproximadamente 70 informes. Estos informes están diseñados para proporcionar perspectivas sobre sus datos y responder a preguntas como &quot;¿Cómo crecen mis pedidos mes tras mes?&quot;, &quot;¿Quiénes son mis clientes más fieles?&quot; y &quot;¿Funciona mi estrategia de cupones?&quot; Para obtener información detallada sobre este conjunto de herramientas, consulte la [Guía del usuario de Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=es).
+Cuando activa una cuenta de [!DNL Commerce Intelligence] a través de Adobe, obtiene acceso a cinco paneles con aproximadamente 70 informes. Estos informes están diseñados para proporcionar perspectivas sobre sus datos y responder a preguntas como &quot;¿Cómo crecen mis pedidos mes tras mes?&quot;, &quot;¿Quiénes son mis clientes más fieles?&quot; y &quot;¿Funciona mi estrategia de cupones?&quot; Para obtener información detallada sobre este conjunto de herramientas, consulte la [Guía del usuario de Commerce Intelligence](https://experienceleague.adobe.com/es/docs/commerce-business-intelligence/mbi/guide-overview).
 
 ## [!DNL Advanced Reporting]
 
@@ -68,7 +68,7 @@ Para obtener información técnica, consulte el tema [[!DNL Advanced Reporting]]
 
 * En la configuración de [!DNL Commerce] para las direcciones URL del almacén, **[!UICONTROL Use Secure URLs on Storefront]** y **[!UICONTROL Use Secure URLs in Admin]** deben establecerse en `Yes`.
 
-* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=es) se ha creado y los trabajos cron se están ejecutando en el servidor instalado.
+* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) se ha creado y los trabajos cron se están ejecutando en el servidor instalado.
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ En la configuración de [!DNL Commerce], [[!DNL Advanced Reporting]](../configur
 
    * Compruebe que **[!UICONTROL Advanced Reporting Service]** está establecido en `Enable` (la configuración predeterminada).
 
-   * Establezca **[!UICONTROL Time of day to send data]** a las horas, minutos y segundos, según un reloj de 24 horas, en los que desee que el servicio reciba datos actualizados de su tienda. De manera predeterminada, los datos se envían a las 2:00 a. m.
+   * Establezca **[!UICONTROL Time of day to send data]** a las horas, minutos y segundos, según un reloj de 24 horas, en los que desee que el servicio reciba datos actualizados de su tienda. De forma predeterminada, los datos se envían a las 2:00 a. m.
 
    * En **[!UICONTROL Industry Data]**, elija el **[!UICONTROL Industry]** que mejor describa su negocio.
 

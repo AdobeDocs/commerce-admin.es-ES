@@ -19,9 +19,9 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 1049
+source-wordcount: 1129
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ _Comercialización_ es un término que se usa en el comercio minorista para desc
 
 >[!TIP]
 >
->Para obtener más información sobre Product Recommendations y cómo pueden proporcionarte el control y la insight que necesitas para crear la mejor experiencia para tus compradores, consulta la [Guía del usuario de Product Recommendations](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=es).
+>Para obtener más información sobre Product Recommendations y cómo pueden proporcionarte el control y la insight que necesitas para crear la mejor experiencia para tus compradores, consulta la [Guía del usuario de Product Recommendations](https://experienceleague.adobe.com/es/docs/commerce/product-recommendations/guide-overview).
 
 ## Promociones
 
@@ -84,7 +84,8 @@ Una de las tareas a completar antes de lanzar su tienda es revisar las plantilla
 >[!NOTE]
 >
 >Las versiones 2.4.0 a 2.4.3 de Adobe Commerce y Magento Open Source incluían la extensión dotdigital desarrollada por el proveedor que se utilizó para integrarse con dotdigital Engagement Cloud. A partir de la versión 2.4.4, esta extensión ya no se integra con la versión principal y debe instalarse y actualizarse desde Commerce Marketplace. Marketplace también proporciona acceso a la documentación actual proporcionada por el desarrollador de extensiones.
-><br><br>>Si tiene la extensión agrupada habilitada y configurada, debe actualizar el archivo composer.json como parte del proceso de actualización 2.4.4 y administrar las actualizaciones de extensión a partir de ahora. Consulte [Módulos de actualización](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=es) en la _Guía de actualización_ para obtener más información.
+><br><br>
+>Si tiene la extensión agrupada habilitada y configurada, debe actualizar el archivo composer.json como parte del proceso de actualización de la versión 2.4.4 y administrar las actualizaciones de extensión que se realicen. Consulte [Módulos de actualización](https://experienceleague.adobe.com/es/docs/commerce-operations/upgrade-guide/modules/upgrade) en la _Guía de actualización_ para obtener más información.
 
 - [Boletines](newsletters.md): produce boletines informativos, administra tu lista de suscriptores, desarrolla contenido y lleva el tráfico a tu tienda.
 

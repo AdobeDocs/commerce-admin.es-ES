@@ -1,6 +1,6 @@
 ---
 title: Impuesto sobre el valor añadido (IVA)
-description: <Agregar descripción aquí>
+description: Descubra cómo Adobe Commerce calcula el impuesto sobre el valor añadido (IVA) mediante las reglas de direcciones de comerciantes o clientes, y cómo aplicar diferentes tasas de IVA por producto o servicio.
 exl-id: 20dbcb86-e558-47f2-968d-b5c9ec5f665b
 feature: Taxes
 TQID: https://experienceleague.adobe.com/CEUmSPDUdWxMGWRC4bXjSsBfuYJqkPNYtVx-mqxt1-M
@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 2021
+source-wordcount: 2042
 ht-degree: 0%
 
 ---
