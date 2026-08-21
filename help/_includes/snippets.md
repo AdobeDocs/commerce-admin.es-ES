@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## Ajustes de configuración {#config}
 
-Para acceder a las opciones de configuración de la tienda, elige **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**en la barra lateral de_ Admin _.
+Para acceder a las opciones de configuración de la tienda, elige **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;en la barra lateral de_ Admin _.
 
 ## Desaprobación de API de UPS {#ups-api}
 
