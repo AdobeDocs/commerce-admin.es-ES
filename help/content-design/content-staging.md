@@ -92,7 +92,7 @@ El [!UICONTROL Content Staging] [panel](content-staging-dashboard.md) proporcion
 
 Para obtener más información sobre el ensayo de contenido, vea este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410853?captions=spa&quality=12&learn=on)
 
 ## Solución de problemas de recursos
 

@@ -101,7 +101,7 @@ Utilice esta ruta cuando el propietario actual tenga un MAGEID que aún no esté
 
 Una vez que el nuevo propietario verifique la dirección de correo electrónico, continúe con [Pasos finales](#final-steps) para que el Soporte técnico de Adobe Commerce pueda actualizar los registros de cuenta como el perfil [[!DNL Commerce Marketplace]](https://commercemarketplace.adobe.com/).
 
->[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3447662/?captions=spa&learn=on){transcript=true}
 
 ## Solo cambio de correo electrónico {#email-change}
 
