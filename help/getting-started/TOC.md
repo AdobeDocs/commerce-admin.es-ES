@@ -7,9 +7,9 @@ feature: Admin Workspace
 recommendations: noDisplay
 nudge: true
 color: red
-source-git-commit: ac950aa1b447feca21eadfe8c1a0143d3b49d2e4
+source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -20,57 +20,57 @@ ht-degree: 0%
 + [Guía de introducción al administrador de Adobe Commerce](guide-overview.md)
 + [Credenciales y direcciones URL de inicio de sesión](login-urls.md)
 + Cuentas de Commerce {#commerce-account}
-   + [Cree y acceda a su cuenta](commerce-account-create.md)
-   + [Proteja su cuenta](commerce-account-secure.md)
-   + [Compartir su cuenta](commerce-account-share.md)
-   + [Transferir una cuenta](commerce-account-transfer.md)
-   + [Actualizar acceso de administrador del sistema](commerce-system-admin-account.md)
+  + [Cree y acceda a su cuenta](commerce-account-create.md)
+  + [Proteja su cuenta](commerce-account-secure.md)
+  + [Compartir su cuenta](commerce-account-share.md)
+  + [Transferir una cuenta](commerce-account-transfer.md)
+  + [Actualizar acceso de administrador del sistema](commerce-system-admin-account.md)
 + Conformidad del sitio {#compliance}
-   + Preparación para HIPAA en Adobe Commerce{#hipaa-ready-service}
-      + [Información general](hipaa/overview.md)
-      + [Guía operativa](hipaa/operations.md)
-   + Privacidad {#privacy}
-      + [Política de privacidad de tienda](privacy-policy.md)
-      + [Cumplimiento de CCPA](compliance-ccpa.md)
-      + [Cumplimiento del RGPD](compliance-gdpr.md)
-      + [Cumplimiento de la ley de cookies](compliance-cookie-law.md)
-   + Pagos {#payments}
-      + [Conformidad con PCI](compliance-pci.md)
-      + [Directiva sobre servicios de pago](compliance-payment-services-directive.md)
-   + [Accesibilidad](navigation-accessibility.md)
+  + Preparación para HIPAA en Adobe Commerce{#hipaa-ready-service}
+    + [Información general](hipaa/overview.md)
+    + [Guía operativa](hipaa/operations.md)
+  + Privacidad {#privacy}
+    + [Política de privacidad de tienda](privacy-policy.md)
+    + [Cumplimiento de CCPA](compliance-ccpa.md)
+    + [Cumplimiento del RGPD](compliance-gdpr.md)
+    + [Cumplimiento de la ley de cookies](compliance-cookie-law.md)
+  + Pagos {#payments}
+    + [Conformidad con PCI](compliance-pci.md)
+    + [Directiva sobre servicios de pago](compliance-payment-services-directive.md)
+  + [Accesibilidad](navigation-accessibility.md)
 + El administrador {#admin}
-   + [¿Qué es el administrador?](admin.md)
-   + [Su cuenta de usuario administrador](admin-signin.md)
-   + Integración del servicio Adobe Identity Management (IMS) {#ims}
-      + [Resumen de integración de IMS](adobe-ims-integration-overview.md)
-      + [Configuración de la integración de administración con IMS](adobe-ims-config.md)
-      + [Desactivación de la integración de administración con IMS](adobe-ims-disable.md)
-   + Herramientas de administración y espacio de trabajo {#tools}
-      + [Workspace](admin-workspace.md)
-      + [Barra lateral de administración](admin-menu.md)
-      + [Tablero](admin-dashboard.md)
-      + [Bandeja de entrada de mensaje](admin-message-inbox.md)
-      + [Controles de cuadrícula](admin-grid-controls.md)
-      + [Control de acciones](admin-actions-control.md)
+  + [¿Qué es el administrador?](admin.md)
+  + [Su cuenta de usuario administrador](admin-signin.md)
+  + Integración del servicio Adobe Identity Management (IMS) {#ims}
+    + [Resumen de integración de IMS](adobe-ims-integration-overview.md)
+    + [Configuración de la integración de administración con IMS](adobe-ims-config.md)
+    + [Desactivación de la integración de administración con IMS](adobe-ims-disable.md)
+  + Herramientas de administración y espacio de trabajo {#tools}
+    + [Workspace](admin-workspace.md)
+    + [Barra lateral de administración](admin-menu.md)
+    + [Tablero](admin-dashboard.md)
+    + [Bandeja de entrada de mensaje](admin-message-inbox.md)
+    + [Controles de cuadrícula](admin-grid-controls.md)
+    + [Control de acciones](admin-actions-control.md)
 + La tienda {#storefront}
-   + [¿Qué es la tienda?](storefront.md)
-   + [Experiencias de tienda mejoradas](enhanced-experiences.md)
+  + [¿Qué es la tienda?](storefront.md)
+  + [Experiencias de tienda mejoradas](enhanced-experiences.md)
 + Configuración y configuración básicas {#setup}
-   + [Sitio, almacén y ámbito de visualización](websites-stores-views.md)
-   + [Detalles de tienda](store-details.md)
-   + [Marca de tienda](storefront-branding.md)
-   + [Lista de comprobación previa al lanzamiento](prelaunch-checklist.md)
+  + [Sitio, almacén y ámbito de visualización](websites-stores-views.md)
+  + [Detalles de tienda](store-details.md)
+  + [Marca de tienda](storefront-branding.md)
+  + [Lista de comprobación previa al lanzamiento](prelaunch-checklist.md)
 + Informes estándar  {#reporting}
-   + [Menú Informes](reports-menu.md)
-   + [Informes de marketing](marketing-reports.md)
-   + [Revisar informes](review-reports.md)
-   + [Informes de ventas](sales-reports.md)
-   + [Informes del cliente](customer-reports.md)
-   + [Informes del producto](product-reports.md)
-   + [Informes de ventas privados](private-sales-reports.md)
-   + [Herramientas de Commerce Intelligence](business-intelligence.md)
+  + [Menú Informes](reports-menu.md)
+  + [Informes de marketing](marketing-reports.md)
+  + [Revisar informes](review-reports.md)
+  + [Informes de ventas](sales-reports.md)
+  + [Informes del cliente](customer-reports.md)
+  + [Informes del producto](product-reports.md)
+  + [Informes de ventas privados](private-sales-reports.md)
+  + [Herramientas de Commerce Intelligence](business-intelligence.md)
 + Recursos {#resources}
-   + [Ecosistema](resources.md)
-   + [Extensiones](extensions.md)
-   + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Volver a las guías del usuario de administración](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=es)
+  + [Ecosistema](resources.md)
+  + [Extensiones](extensions.md)
+  + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
++ [Volver a las guías del usuario de administración](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

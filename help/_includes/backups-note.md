@@ -1,9 +1,9 @@
 ---
 title: Nota de copias de seguridad
 description: Nota reutilizada sobre copias de seguridad
-source-git-commit: 5ade2f23132e634db5e611a5ccfcbc4d6816cf92
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**Característica deshabilitada:** La copia de seguridad está deshabilitada de manera predeterminada. Para habilitar esta función, es posible que se requiera la asistencia del desarrollador. Consulte el siguiente tema de la _Guía de instalación_ para habilitar las copias de seguridad: [Realizar copias de seguridad y revertir el sistema de archivos, los medios y la base de datos](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html?lang=es).
+>**Característica deshabilitada:** La copia de seguridad está deshabilitada de manera predeterminada. Para habilitar esta función, es posible que se requiera la asistencia del desarrollador. Consulte el siguiente tema de la _Guía de instalación_ para habilitar las copias de seguridad: [Realizar copias de seguridad y revertir el sistema de archivos, los medios y la base de datos](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/backup).
 
 >[!NOTE]
 >
