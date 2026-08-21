@@ -56,5 +56,5 @@ Existen muchas cajas de luz y controles deslizantes de terceros que puede utiliz
 
 Para obtener ayuda sobre la resolución de problemas de imagen y vídeo, consulte los siguientes artículos de la Base de conocimiento de asistencia de Commerce:
 
-- [Las imágenes de producto no se muestran a pesar de las funciones de imagen de edición de producto](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26859)
-- [Almacenar imágenes que no se muestran después de la implementación](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment)
+- [Las imágenes de producto no se muestran a pesar de las funciones de imagen de edición de producto](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-26859)
+- [Almacenar imágenes que no se muestran después de la implementación](https://experienceleague.adobe.com/es/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment)

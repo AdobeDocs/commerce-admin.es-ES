@@ -30,7 +30,7 @@ Cada instalación de Adobe Commerce y Magento Open Source tiene una [jerarquía]
 
 >[!NOTE]
 >
->Para obtener más información, consulte [Varios sitios web o tiendas](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview) en la documentación para desarrolladores de [!DNL Commerce].
+>Para obtener más información, consulte [Varios sitios web o tiendas](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/multi-sites/ms-overview) en la documentación para desarrolladores de [!DNL Commerce].
 
 ## Sitios web
 

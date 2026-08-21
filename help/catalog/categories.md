@@ -51,5 +51,5 @@ Antes de añadir productos al catálogo, debe establecer la estructura básica d
 
 Para obtener ayuda sobre la resolución de problemas de categorías, consulte los siguientes artículos de la Base de conocimiento de asistencia de Commerce:
 
-- [Los cambios en las categorías no se guardan](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved)
-- [El menú principal (Categorías) no se muestra en las subpáginas que tengan activada la opción Rápidamente](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-40708)
+- [Los cambios en las categorías no se guardan](https://experienceleague.adobe.com/es/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved)
+- [El menú principal (Categorías) no se muestra en las subpáginas que tengan activada la opción Rápidamente](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-40708)

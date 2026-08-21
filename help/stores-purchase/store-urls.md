@@ -3,7 +3,7 @@ title: URL de tienda
 description: Obtenga información sobre las direcciones URL de tienda y cómo configurar la dirección URL base y los códigos de tienda.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/t-vp20uVrUmg-dRVONHjUUcgxzYBT5--uB8U1XorRPs
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -156,7 +156,7 @@ Si después de seguir las instrucciones de configuración, algunas páginas se s
 
 ## Usar una URL de administrador personalizada
 
-Como [práctica recomendada de seguridad](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices), Adobe recomienda usar una URL de administrador única en lugar de la _administración_ predeterminada o un término común como _backend_. Aunque no protege directamente el sitio de un actor incorrecto determinado, puede reducir la exposición a scripts que intentan obtener acceso no autorizado.
+Como [práctica recomendada de seguridad](https://experienceleague.adobe.com/es/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices), Adobe recomienda usar una URL de administrador única en lugar de la _administración_ predeterminada o un término común como _backend_. Aunque no protege directamente el sitio de un actor incorrecto determinado, puede reducir la exposición a scripts que intentan obtener acceso no autorizado.
 
 >[!NOTE]
 >
@@ -172,7 +172,7 @@ Aunque es posible cambiar la URL y la ruta de administración a otra ubicación,
 
 >[!NOTE]
 >
->Como precaución, no intente cambiar la URL de administración a menos que sepa cómo editar los archivos de configuración en el servidor. Para los proyectos de Adobe Commerce implementados en la infraestructura en la nube, cambie la URL de administración siguiendo las [instrucciones](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin#admin-url) de la *Guía de Adobe Commerce en la infraestructura en la nube*.
+>Como precaución, no intente cambiar la URL de administración a menos que sepa cómo editar los archivos de configuración en el servidor. Para los proyectos de Adobe Commerce implementados en la infraestructura en la nube, cambie la URL de administración siguiendo las [instrucciones](https://experienceleague.adobe.com/es/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin#admin-url) de la *Guía de Adobe Commerce en la infraestructura en la nube*.
 
 ### Método 1: cambio desde el administrador
 
@@ -218,7 +218,7 @@ Aunque es posible cambiar la URL y la ruta de administración a otra ubicación,
 
    >[!TIP]
    >
-   >Para Adobe Commerce en la infraestructura en la nube, puede configurar una ruta de administración personalizada mediante la variable `ADMIN_URL` en la interfaz de usuario de la nube. Consulte el tema [Variables de administración](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin) en la _Guía de infraestructura de Commerce en la nube_.
+   >Para Adobe Commerce en la infraestructura en la nube, puede configurar una ruta de administración personalizada mediante la variable `ADMIN_URL` en la interfaz de usuario de la nube. Consulte el tema [Variables de administración](https://experienceleague.adobe.com/es/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin) en la _Guía de infraestructura de Commerce en la nube_.
 
    - **Ruta de administración predeterminada**
 

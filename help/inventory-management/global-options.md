@@ -103,7 +103,7 @@ Configure las opciones de configuración predeterminadas del producto y las exis
 
      >[!NOTE]
      >
-     >Para configurar y admitir _administradores de cola asincrónicos_, debe emitir un comando mediante la línea de comandos. Este paso puede requerir la asistencia del desarrollador. Consulte [Iniciar consumidores de cola de mensajes](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/start-message-queues) en la _Guía de configuración_.
+     >Para configurar y admitir _administradores de cola asincrónicos_, debe emitir un comando mediante la línea de comandos. Este paso puede requerir la asistencia del desarrollador. Consulte [Iniciar consumidores de cola de mensajes](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/cli/start-message-queues) en la _Guía de configuración_.
 
    - Si está habilitado, establezca **[!UICONTROL Asynchronous batch size]**. El tamaño predeterminado del lote es 100. Cuando los procesos masivos alcanzan esta cantidad, el sistema los déclencheur.
 

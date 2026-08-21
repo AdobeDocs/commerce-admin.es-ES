@@ -70,5 +70,5 @@ Utilice artículos de soporte y sistemas de tickets para resolver problemas de i
 
 Si necesita información o tiene preguntas que no se tratan en esta guía, utilice los siguientes recursos:
 
-- [Estado de stock incorrecto tras la instalación de Inventory](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-29910)
-- [Entradas de soporte técnico](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case): envía un ticket para recibir ayuda adicional.
+- [Estado de stock incorrecto tras la instalación de Inventory](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-29910)
+- [Entradas de soporte técnico](https://experienceleague.adobe.com/es/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case): envía un ticket para recibir ayuda adicional.

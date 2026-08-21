@@ -2,7 +2,7 @@
 title: Ejemplos de diseño de tienda
 description: Revise los ejemplos de diseño de página de tienda que muestran cómo cambian el ancho de la columna, el área de contenido principal y la ubicación de la barra lateral en las distintas temáticas de Adobe Commerce.
 exl-id: 1cda1175-269b-42b9-bf4e-9bf14483da1d
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/rYnP28GqKMyPGcZSkCWAJAjlA6tNv2Rr-l4DDegU-UQ
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
