@@ -63,7 +63,7 @@ Los siguientes requisitos previos se aplican cuando tiene acceso al enriquecimie
 - Su tienda puede ser rastreada por bots agénticos y orientados a LLM donde se requiere rastrear la cobertura de las sugerencias según el catálogo.
 - Los servicios de Commerce y la conectividad del catálogo requeridos están habilitados y en buen estado. Consulte [Habilitar enriquecimiento de catálogo](#enable-catalog-enrichment) para obtener más información.
 - [IMS está configurado](https://experienceleague.adobe.com/es/docs/core-services/interface/administration/organizations).
-- Tiene acceso a [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- Tiene acceso a [Adobe Admin Console](https://helpx.adobe.com/es/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 - Su organización ha firmado al usuario de GenAI o se ha excluido explícitamente de los servicios de IA subyacentes.
 
 >[!NOTE]
