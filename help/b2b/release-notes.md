@@ -26,9 +26,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+source-git-commit: 9d91acc3bebbdaeab13c80ba4b2b3e418e13e42b
 workflow-type: tm+mt
-source-wordcount: 11212
+source-wordcount: 11210
 ht-degree: 0%
 
 ---
@@ -189,7 +189,7 @@ No hay problemas conocidos en esta versión.
 
 *12 de mayo de 2026*
 
-[!BADGE Compatible]{type=Informative tooltip="Admitido"} versiones de parches de seguridad de Adobe Commerce 2.4.8-p5, 2.4.7-p10 y 2.4.6-p15.
+[!BADGE Compatible]{type=Informative tooltip="Admitido"} versiones de parches de seguridad 2.4.7-p10 y 2.4.6-p15 de Adobe Commerce.
 Compatible con Adobe Commerce versiones 2.4.7 a 2.4.7-p10, 2.4.6 a 2.4.6-p15.
 
 ![Problema corregido](../assets/fix.svg) Incluye las correcciones de seguridad documentadas en [Boletín de seguridad APSB26-49](https://helpx.adobe.com/security/products/magento/apsb26-49.html).
