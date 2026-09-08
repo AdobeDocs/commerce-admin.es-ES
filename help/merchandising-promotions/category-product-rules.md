@@ -3,7 +3,7 @@ title: Reglas de categoría para la comercialización
 description: Aprenda a crear reglas para cambiar dinámicamente las selecciones de productos según un conjunto de condiciones.
 exl-id: 765b863a-bb83-418b-9fca-ef0a148b09eb
 feature: Categories, Merchandising
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/Be3PacClITSThEtPIbG7NcxdrmZj7hoCTxTDAqRYN1E
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
