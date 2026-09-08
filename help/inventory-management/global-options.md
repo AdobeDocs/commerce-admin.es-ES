@@ -4,23 +4,14 @@ description: Configure las opciones del catálogo global [!DNL Inventory Managem
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ca077051a26ab57194eef45f57351e2f6b1b0b6b
 workflow-type: tm+mt
-source-wordcount: 658
+source-wordcount: 757
 ht-degree: 1%
 
 ---
@@ -93,6 +84,13 @@ Configure las opciones de configuración predeterminadas del producto y las exis
 
    - Para [!DNL Inventory Management], **[!UICONTROL Automatically Return Credit Memo Item to Stock]** está establecido en `No`. Al ejecutar una nota de abono, introduzca y seleccione para devolver el stock a los orígenes.
 
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Per-Source Availability (Storefront)]** y establezca **[!UICONTROL Enable sourceAvailability GraphQL Query]** en `Yes` para que la tienda pueda consultar los datos de stock por origen mediante la consulta de GraphQL [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"}. Esta configuración tiene ámbitos por vista de tienda.
+
+   >[!NOTE]
+   >
+   >La consulta `sourceAvailability` está deshabilitada de manera predeterminada porque revela qué orígenes contienen un SKU. Las cantidades exactas permanecen enmascaradas hasta que la cantidad de origen alcanza el conjunto **[!UICONTROL Only X left Threshold]** en la sección _[!UICONTROL Stock Options]_. Cada origen de inventario tiene un indicador **[!UICONTROL Visible on Storefront]**que está desactivado de forma predeterminada. Las acciones de una fuente nunca se devuelven hasta que un comerciante lo habilita. Para establecerlo, vaya a **[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, edite un origen y active **[!UICONTROL Visible on Storefront]**.
+
+
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Admin bulk operations]** y establezca las opciones:
 
    ![Operaciones masivas de administración](assets/config-catalog-inventory-admin-bulk-operations.png){width="600" zoomable="yes"}
@@ -103,7 +101,7 @@ Configure las opciones de configuración predeterminadas del producto y las exis
 
      >[!NOTE]
      >
-     >Para configurar y admitir _administradores de cola asincrónicos_, debe emitir un comando mediante la línea de comandos. Este paso puede requerir la asistencia del desarrollador. Consulte [Iniciar consumidores de cola de mensajes](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/cli/start-message-queues) en la _Guía de configuración_.
+     >Para configurar y admitir _administradores de cola asincrónicos_, debe emitir un comando mediante la línea de comandos. Este paso puede requerir la asistencia del desarrollador. Consulte [Iniciar consumidores de cola de mensajes](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/start-message-queues) en la _Guía de configuración_.
 
    - Si está habilitado, establezca **[!UICONTROL Asynchronous batch size]**. El tamaño predeterminado del lote es 100. Cuando los procesos masivos alcanzan esta cantidad, el sistema los déclencheur.
 
