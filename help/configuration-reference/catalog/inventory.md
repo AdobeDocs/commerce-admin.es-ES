@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+source-git-commit: 449593264c88c9090b26ffbc8e87a8d70d4cbfe9
 workflow-type: tm+mt
-source-wordcount: 1224
+source-wordcount: 1296
 ht-degree: 0%
 
 ---
@@ -69,6 +69,18 @@ ht-degree: 0%
 | [!UICONTROL Enable Qty Increments] | Global | Determina si los artículos se pueden vender en incrementos de cantidad. Opciones: `Yes` / `No` |
 | [!UICONTROL Qty Increments] | Global | Establece el número de productos que componen un incremento de cantidad. |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | Global | Determina si los artículos incluidos en las notas de abono se devuelven automáticamente al inventario. Opciones: `Yes` / `No` |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Per-Source Availability (Storefront)]
+
+![Disponibilidad Por Source (Tienda)](./assets/catalog-inventory-per-source-availability.png)<!-- zoom -->
+
+<!-- [Per-Source Availability (Storefront)](https://experienceleague.adobe.com/es/docs/commerce-admin/inventory/configuration/global-options) -->
+
+| Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
+|--- |--- |--- |
+| [!UICONTROL Enable sourceAvailability GraphQL Query] | Vista de tienda | Si se establece en `Yes`, la consulta de la tienda [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} devuelve las existencias por origen para el canal de ventas de la tienda. Opciones: `Yes` / `No`. Predeterminado: `No`, ya que la consulta revela qué orígenes contienen un SKU. Cuando está desactivada, la consulta devuelve un error. Las cantidades exactas devueltas por la consulta permanecen enmascaradas hasta que la cantidad de origen alcanza el valor **[!UICONTROL Only X left Threshold]** establecido en la sección [Opciones de stock](#stock-options). |
 
 {style="table-layout:auto"}
 

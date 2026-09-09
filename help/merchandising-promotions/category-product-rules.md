@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: efbe6e4f07ff66b2deb91127b4f69eca5e4015f1
 workflow-type: tm+mt
-source-wordcount: 1115
+source-wordcount: 1168
 ht-degree: 0%
 
 ---
@@ -157,6 +157,10 @@ Las reglas de productos de categorías pueden acelerar el proceso de asignación
   >La cantidad de un producto configurable con opciones secundarias se calcula combinando todas las cantidades de productos secundarios comercializables. Piénsese en un ejemplo en el que tiene un producto configurable _Basic Fitness Tank_ con opciones de color morado, rojo y amarillo y diferentes cantidades de cada uno. En este caso, la cantidad del producto principal (tanque de fitness básico) es la cantidad vendible combinada de los productos secundarios de color morado, rojo y amarillo.
 
 - **[!UICONTROL Operator]**: especifica el operador que se aplica al valor del atributo para cumplir la condición. A menos que se especifique un operador, `Equal` se usa como valor predeterminado. Opciones: `Equal`, `Not equal`, `Greater than`, `Greater than or equal to`, `Less than`, `Less than or equal to` y `Contains`
+
+  El operador **[!UICONTROL Contains]** acepta varios valores separados por comas y coincide si el valor del atributo contiene al menos uno de ellos, de forma similar a una operación lógica OR. Por ejemplo, **[!UICONTROL Contains]**: `casual, party` coincide con cualquier valor que contenga `casual` o `party`.
+
+  Utilice este operador para combinar varios términos en una fila de regla en lugar de crear una fila independiente para cada término.
 
 - **[!UICONTROL Value]**: especifica el valor que debe tener el atributo para cumplir la condición.
 

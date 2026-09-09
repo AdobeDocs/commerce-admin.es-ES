@@ -20,12 +20,13 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+source-git-commit: 6f1f13b75aa01c5142cc8ea03cef2df6d2d3aaf3
 workflow-type: tm+mt
-source-wordcount: 3400
+source-wordcount: 3608
 ht-degree: 0%
 
 ---
+
 
 # Crear una regla de precios de carro
 
@@ -73,6 +74,7 @@ Complete los siguientes pasos para agregar una regla, describir las condiciones 
      ![Regla de precio del carro de compras - configuración del cupón](./assets/price-rule-cart-coupon-settings-ee.png){width="600" zoomable="yes"}
 
    - ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Usa el _Calendario_ (![icono de calendario](../assets/icon-calendar.png)) para elegir el intervalo de fechas de **[!UICONTROL From]** y **[!UICONTROL To]** para la promoción.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce as a Cloud Service) Usa el _Calendario_ (![Icono del calendario](../assets/icon-calendar.png)) para elegir el **[!UICONTROL From]** y el **[!UICONTROL To]** intervalo de fecha y hora para la promoción.
 
 1. Introduzca un número para definir el **[!UICONTROL Priority]** de esta regla de precio en relación con la configuración de acción de otras reglas de precio que estén activas al mismo tiempo.
 
@@ -250,6 +252,7 @@ Las acciones de regla de precios del carro de compras describen cómo se actuali
    | `Fixed amount discount` | Descuenta un artículo restando una cantidad fija del precio original de cada artículo que cumple los requisitos del carro de compras. Por ejemplo: escriba `10` en [!UICONTROL Discount Amount] para obtener un precio actualizado que sea 10 $ menor que el precio original. |
    | Descuento de cantidad fija para todo el carro | Descuenta todo el carro de compras restando una cantidad fija del total del carro de compras. Por ejemplo: escriba 10 en [!UICONTROL Discount Amount] para restar 10 $ del total del carro de compras. De forma predeterminada, el descuento se aplica solo al subtotal del carro de compras. Para aplicar el descuento al subtotal y al envío por separado, use la opción _[!UICONTROL Apply to Shipping Amount]_. |
    | `Buy X get Y free` | Define una cantidad X que el cliente debe comprar para recibir una cantidad Y **del mismo producto/variación** de forma gratuita. (El [!UICONTROL Discount Amount] es Y.) Para que se aplique el descuento, debe haber una cantidad total de X+Y de ese mismo artículo en el carro de compras o en su adición al mismo. |
+   | `Free Gift` | Agrega un producto de regalo gratuito al carro de compras cuando se cumplen las condiciones de la regla. Seleccione el producto gratuito y la cantidad que desea agregar al carro de compras. <br/><br/>**Nota:** ![Adobe Commerce](../assets/adobe-logo.svg) Esta es una característica exclusiva que solo está disponible en Adobe Commerce y no está disponible en Magento Open Source. ([Más información](https://experienceleague.adobe.com/es/docs/commerce-admin/user-guides/home#product-editions)) <br/><br/>Esta característica no se admite en tiendas Luma. Es accesible a través de [GraphQl](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/) y está disponible en las tiendas de Edge Delivery Services (EDS). |
 
    {style="table-layout:auto"}
 
@@ -363,8 +366,8 @@ Vea este vídeo para obtener más información sobre la creación de reglas de p
 | [!UICONTROL Uses per Customer] | Determina cuántas veces el mismo cliente registrado que pertenece a un grupo de clientes seleccionado puede utilizar la regla de precio del carro de compras. No se aplica a los compradores invitados que sean miembros del grupo de clientes NOT LOGGED IN, ni a los clientes que compren sin iniciar sesión en sus cuentas. Si no hay límite, déjelo en blanco. |
 | [!UICONTROL Priority] | Un número que indica la prioridad de esta regla en relación con otras. Las prioridades de mayor a menor son `0,1,2,3...` |
 | [!UICONTROL Public in RSS Feed] | Determina si la promoción está incluida en la fuente RSS pública de la tienda. Opciones: `Yes` / `No` |
-| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) La primera fecha en que se puede usar el cupón. |
-| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) La última fecha en que se puede usar el cupón. |
+| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) La primera fecha en que se puede usar el cupón.<br><br>![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service] solamente) La fecha y la hora en que se puede usar el cupón. |
+| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) La última fecha en que se puede usar el cupón.<br><br>![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service] solamente) La última fecha y hora en que se puede usar el cupón. |
 
 {style="table-layout:auto"}
 
@@ -401,7 +404,7 @@ Especifica las condiciones que deben cumplirse antes de que la regla de precios 
 
 | Campo | Descripción |
 |--- |--- |
-| [!UICONTROL Apply] | Determina el tipo de cálculo que se aplica a la compra. Opciones: <br/>**[!UICONTROL Percent of product price discount]**- artículo de descuentos al restar un porcentaje del precio original. Por ejemplo: escriba `10` en _[!UICONTROL Discount Amount]_&#x200B;para obtener un precio actualizado que sea un 10% inferior al precio original.<br/>**[!UICONTROL Fixed amount discount]**: artículo de descuentos al restar una cantidad fija del precio original de cada artículo que cumple los requisitos del carro de compras. Por ejemplo: escriba `10` en&#x200B;_[!UICONTROL Discount Amount]_ para obtener un precio actualizado que sea 10 $ menor que el precio original. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Descuenta todo el carro de compras restando una cantidad fija del subtotal del carro de compras. Por ejemplo: escriba `10` en _[!UICONTROL Discount Amount]_&#x200B;para restar $10 del subtotal del carro de compras. De forma predeterminada, el descuento se aplica solo al subtotal del carro de compras. Para aplicar el descuento al subtotal y al envío por separado, consulte_Aplicar al importe de envío _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Define una cantidad que el cliente debe comprar para recibir una cantidad de forma gratuita. (El&#x200B;_[!UICONTROL Discount Amount]_ es Y.) |
+| [!UICONTROL Apply] | Determina el tipo de cálculo que se aplica a la compra. Opciones: <br/>**[!UICONTROL Percent of product price discount]**- artículo de descuentos al restar un porcentaje del precio original. Por ejemplo: escriba `10` en _[!UICONTROL Discount Amount]_&#x200B;para obtener un precio actualizado que sea un 10% inferior al precio original.<br/>**[!UICONTROL Fixed amount discount]**: artículo de descuentos al restar una cantidad fija del precio original de cada artículo que cumple los requisitos del carro de compras. Por ejemplo: escriba `10` en&#x200B;_[!UICONTROL Discount Amount]_ para obtener un precio actualizado que sea 10 $ menor que el precio original. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Descuenta todo el carro de compras restando una cantidad fija del subtotal del carro de compras. Por ejemplo: escriba `10` en _[!UICONTROL Discount Amount]_&#x200B;para restar $10 del subtotal del carro de compras. De forma predeterminada, el descuento se aplica solo al subtotal del carro de compras. Para aplicar el descuento al subtotal y al envío por separado, consulte_Aplicar al importe de envío _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Define una cantidad que el cliente debe comprar para recibir una cantidad de forma gratuita. (El&#x200B;_[!UICONTROL Discount Amount]_ es S.) <br/>**[!UICONTROL Free Gift]**- Agrega un producto de regalo gratuito al carro de compras cuando se cumplen las condiciones de la regla. Seleccione el producto gratuito y la cantidad que desea agregar al carro de compras. ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce). Esta función no se admite en tiendas Luma. Es accesible a través de [GraphQl](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/) y está disponible en las tiendas de Edge Delivery Services (EDS). |
 | [!UICONTROL Discount Amount] | (Obligatorio) El importe del descuento ofrecido. |
 | [!UICONTROL Maximum Qty Discount is Applied To] | Establece el número máximo de productos a los que se puede aplicar el descuento en la misma compra. |
 | [!UICONTROL Discount Qty Step (Buy X)] | Establece el número de productos representados por `X` en una promoción `Buy X Get Y Free`. Además, define cuántos productos deben agregarse al carro de compras juntos en lotes para aplicar las promociones `Fixed amount discount` y `Percent of product price discount`. |

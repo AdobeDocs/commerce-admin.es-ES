@@ -5,9 +5,9 @@ breadcrumb-title: Comercialización y promociones
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: ef07733f89af030f047576770655f6599b370351
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '276'
 ht-degree: 1%
 
 ---
@@ -52,6 +52,7 @@ ht-degree: 1%
     - [Resumen de reglas de precios del carro](price-rules-cart.md)
     - [Crear una regla de precios de carro](price-rules-cart-create.md)
     - [Códigos de cupón](price-rules-cart-coupon.md)
+    - [Promociones de regalo gratis](price-rules-cart-free-gift.md)
     - [Cambios programados para reglas de precios del carro de compras](price-rule-cart-scheduled-changes.md)
     - [Ejemplo: promoción de envío gratuito](price-rules-cart-free-shipping.md)
     - [Ejemplo: Compre esto y obtenga eso gratis](price-rules-cart-buy-this-get-that.md)
