@@ -6,29 +6,40 @@ feature: Storefront
 TQID: https://experienceleague.adobe.com/b8JEobTQ3fDladcIZj5Bt7eaYPN7-p7PsB-siKLITCw
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Content reuse
+source-git-commit: 4e39d90f62de53be1aa892ca325f20f5aedc845a
 workflow-type: tm+mt
-source-wordcount: 1223
+source-wordcount: '1347'
 ht-degree: 0%
-
 ---
-
 # ¿Qué es la tienda?
 
 Dentro de la implementación de Adobe Commerce o Magento Open Source, la tienda es la parte externa y pública de la tienda. Proporciona el contenido y los componentes funcionales que sus clientes utilizan para realizar compras y realizar compras.
@@ -51,7 +62,7 @@ Con la presentación de [!DNL **Commerce Storefront con tecnología Edge Deliver
 
 Commerce Storefront con tecnología Edge Delivery Services ofrece varias funciones clave que benefician tanto a los comerciantes como a los desarrolladores. Estas funciones permiten a las empresas crear experiencias de compra atractivas a la vez que mantienen la flexibilidad para personalizar y escalar sus tiendas según sus necesidades.
 
-Para obtener información e instrucciones más detalladas sobre cómo configurar y optimizar tu tienda Commerce, consulta la [Documentación de Adobe Commerce Storefront](https://experienceleague.adobe.com/es/docs/commerce).
+Para obtener información e instrucciones más detalladas sobre cómo configurar y optimizar tu tienda Commerce, consulta la [Documentación de Adobe Commerce Storefront](https://experienceleague.adobe.com/en/docs/commerce).
 
 >[!BEGINTABS]
 
@@ -100,13 +111,15 @@ La descripción inicial del producto suele proporcionar a los compradores inform
 
 ### [!DNL Live Search]
 
-Con [[!DNL Live Search]](https://experienceleague.adobe.com/es/docs/commerce/live-search/overview) para Adobe Commerce, tu tienda ofrece una experiencia de búsqueda rápida, relevante e intuitiva, y está disponible para Adobe Commerce sin cargo adicional.
+Con [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) para Adobe Commerce, tu tienda ofrece una experiencia de búsqueda rápida, relevante e intuitiva, y está disponible para Adobe Commerce sin cargo adicional.
 
 ![Ejemplo de Live Search: busca mientras escribes](./assets/storefront-search-as-you-type.png){width="700"}
 
 ### Búsqueda en el catálogo estándar
 
 Con [búsqueda estándar en el catálogo](../catalog/search.md), tu tienda incluye un cuadro de búsqueda en la esquina superior derecha y un vínculo a Búsqueda avanzada en el pie de página. Todos los términos de búsqueda que los compradores envían se guardan para que pueda ver exactamente lo que están buscando. Puede ofrecer sugerencias e introducir sinónimos y errores ortográficos comunes. A continuación, muestre una página específica cuando introduzca un término de búsqueda.
+
+Para obtener instrucciones sobre las redirecciones de términos de búsqueda, las reescrituras de URL y el enrutamiento para [!DNL Live Search] o [!DNL Edge Delivery Services], consulte [Redirecciones de términos de búsqueda y enrutamiento de tiendas](../merchandising-promotions/search-term-redirects.md).
 
 ![Ejemplo de resultados de búsqueda en el catálogo estándar](./assets/storefront-search-results-page-full.png){width="700"}
 
@@ -129,7 +142,7 @@ El proceso de cierre de compra consta de dos pasos:
 1. Información de envío
 
    El primer paso del proceso de cierre de compra es que el cliente complete la información de la dirección de envío y elija el método de envío. Si el cliente tiene una cuenta, la dirección de envío se introduce automáticamente, pero se puede cambiar si es necesario.
-Si un cliente invitado escribe una dirección de correo electrónico que se reconoce como registrada anteriormente, se mostrará el mensaje de inicio de sesión si el campo [!UICONTROL Enable Guest Checkout Login] de la configuración del almacén está establecido en `Yes` (consulte [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) en la _Guía de referencia de configuración_). Sin embargo, esta configuración puede exponer la información del cliente a usuarios no autenticados.
+   Si un cliente invitado escribe una dirección de correo electrónico que se reconoce como registrada anteriormente, se mostrará el mensaje de inicio de sesión si el campo [!UICONTROL Enable Guest Checkout Login] de la configuración del almacén está establecido en `Yes` (consulte [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) en la _Guía de referencia de configuración_). Sin embargo, esta configuración puede exponer la información del cliente a usuarios no autenticados.
 
    ![Ejemplo de página de cierre de compra de tienda](./assets/storefront-checkout-shipping-full.png){width="700"}
 
