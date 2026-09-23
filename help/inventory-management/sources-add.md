@@ -1,30 +1,37 @@
 ---
 title: Agregar un origen de inventario
-description: Agregue una [!DNL Inventory Management] fuente en el administrador para un almacén, tienda, centro de distribución u otra ubicación de entrega.
+description: Agregar un origen de [!DNL Inventory Management] en el Administrador para un almacén, tienda, centro de distribución u otra ubicación de cumplimiento.
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/hDIRVPayqLXgx3nxOSeDf6R7sT9t6d9AFGEeyQpyj6o
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: 2e0212c62ed6183d1b66a9260e6177177ca2a61a
 workflow-type: tm+mt
-source-wordcount: 858
+source-wordcount: '1033'
 ht-degree: 0%
-
 ---
-
 # Añadir una fuente
 
 Administre el inventario y la satisfacción de pedidos desde varias ubicaciones con fuentes personalizadas. Cree una fuente para cada ubicación, como almacenes, tiendas físicas, centros de distribución y empresas de envío directo. Asignar orígenes y actualizar cantidades por producto.
@@ -48,6 +55,12 @@ Si edita la Source predeterminada, puede editar todas las configuraciones except
      El código admite letras mayúsculas y minúsculas, números, guiones y guiones bajos. El código es un ID único que se utiliza al asignar a stock y exportar e importar datos.
 
    - Si este origen de inventario está listo para usarse, establezca **[!UICONTROL Is Enabled]** en `Yes`.
+
+   - Para exponer las existencias de este origen a la tienda, establezca **[!UICONTROL Visible on Storefront]** en `Yes`. [!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."}
+
+     Esta opción está establecida en `No` de manera predeterminada. Si lo establece en `Yes`, el origen puede tardar hasta la duración de la caché de la consulta en aparecer en los resultados. Si establece esta opción en `No`, el origen se quita de los resultados de la consulta inmediatamente.
+
+     La consulta de GraphQL [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} proporciona acceso a la información de existencias para los orígenes que están visibles en la tienda. Debe habilitar la consulta `sourceAvailability` para la vista de almacén en las [opciones globales](global-options.md).
 
    - Escriba un **[!UICONTROL Description]** breve para esta ubicación para obtener una referencia rápida o detalles adicionales.
 
@@ -121,6 +134,7 @@ Si edita la Source predeterminada, puede editar todas las configuraciones except
 | [!UICONTROL Name] | (Obligatorio) Un nombre único que identifica el origen de inventario para los usuarios administradores. |
 | [!UICONTROL Code] | (Obligatorio) Un código alfanumérico único que utiliza el sistema para identificar el origen del inventario. Introduzca el código en caracteres en mayúsculas o minúsculas y/o números, sin espacios. Si es necesario, se puede utilizar un guion o un guion bajo en lugar de un espacio. El código no se puede editar después de crear el origen. Se trata de un ID único que se utiliza al asignar fuentes a las existencias y exportar o importar datos de productos. |
 | [!UICONTROL Is Enabled] | Determina si el origen de inventario está disponible para utilizarse. Opciones: Sí / No |
+| [!UICONTROL Visible on Storefront] [!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a los proyectos de Adobe Commerce as a Cloud Service y Adobe Commerce Optimizer (infraestructura de SaaS administrada por Adobe)."} | Determina si la consulta de GraphQL de la tienda [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} puede devolver información de existencias para este origen de inventario. |
 | [!UICONTROL Description] | Breve descripción de la ubicación de origen del inventario. Incluya detalles útiles para los usuarios administradores. |
 | [!UICONTROL Latitude] | Especifica la coordenada de latitud del origen de inventario para GPS. Introduzca el valor como un número, precedido por un signo más o menos según sea necesario. No se permiten el símbolo de grado ni las letras. Por ejemplo: Latitude 32.7555 |
 | [!UICONTROL Longitude] | Especifica la coordenada de longitud del origen de inventario para GPS. Introduzca el valor como un número, precedido por un signo más o menos según sea necesario. No se permiten el símbolo de grado ni las letras. Por ejemplo: `-97.3308` |
