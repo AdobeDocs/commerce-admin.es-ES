@@ -49,7 +49,7 @@ Utilice la página Estado de Sincronización de Vista de Catálogo para supervis
 
 ## Audiencia y disponibilidad {#audience}
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a Adobe Commerce en infraestructura en la nube y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a Adobe Commerce en infraestructura en la nube y a proyectos locales."}
 
 La página [!UICONTROL Catalog View Sync Status] está disponible para Adobe Commerce en la infraestructura en la nube y para los comerciantes locales que utilizan catálogos compartidos B2B con la integración [!DNL Adobe Commerce Optimizer Connector for B2B]. La página se instala y activa automáticamente cuando se instala la extensión del conector.
 
@@ -191,5 +191,5 @@ Las filas de esta pestaña se borran automáticamente al cabo de 90 días.
 > - [Servicios > Sincronización de vista de catálogo de ACO](../configuration-reference/services/aco-catalog-view-sync.md): configure los períodos de gracia de eliminación y creación y el reconciliador de deriva
 > - [Administración de claves de acceso restringido](restricted-access-keys.md): administre las claves cuya caducidad muestra esta página
 > - [Supervisar la sincronización de la vista del catálogo para los catálogos compartidos B2B](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status) en la *Guía del conector de Adobe Commerce Optimizer*
-> - [Vistas del catálogo privado](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/private-catalog-view)
-> - [Claves de acceso restringido](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys)
+> - [Vistas del catálogo privado](https://experienceleague.adobe.com/es/docs/commerce/optimizer/setup/private-catalog-view)
+> - [Claves de acceso restringido](https://experienceleague.adobe.com/es/docs/commerce/optimizer/setup/restricted-access-keys)

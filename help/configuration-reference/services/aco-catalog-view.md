@@ -2,7 +2,7 @@
 title: '[!UICONTROL Services] > Vista de catálogo de ACO'
 description: Revise y actualice las opciones de configuración de Adobe Commerce Optimizer en la página [!UICONTROL Services] > [!UICONTROL ACO Catalog View] del administrador de Commerce.
 feature: Configuration, Security
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
