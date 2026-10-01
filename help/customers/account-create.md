@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 47f4b72b7b4ef201251423522a7917825415cb25
+source-git-commit: 9bd9d0a3b3c991236b98b464f8e2be2df37272ac
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 0%

@@ -1,13 +1,11 @@
 ---
 title: Fragmentos
 description: Se han reutilizado notas y elementos visuales para anotar una función o página que se aplica a una edición específica
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 0%
-
 ---
-
 # Fragmentos
 
 ## Función de solo EE {#ee-feature}
@@ -69,7 +67,6 @@ Para acceder a las opciones de configuración de la tienda, elige **[!UICONTROL 
 >A partir de junio de 2024, los comerciantes de Adobe Commerce ya no podrán realizar transacciones con la integración actual de UPS. Esto se debe a que las API de United Parcel Service (UPS) utilizadas por la integración nativa de Adobe Commerce no admiten actualmente el modelo de seguridad OAuth 2.0 requerido. Para habilitar la integración, [cree una aplicación en la plataforma para desarrolladores de UPS](https://developer.ups.com/get-started) para obtener las credenciales necesarias para OAuth 2.0. Use las nuevas credenciales como `username` y `password` en la configuración de envío de UPS de Commerce. Para obtener más información acerca del cambio del modelo de seguridad, consulte [Guía de migración de claves de acceso al portal para desarrolladores_](https://developer.ups.com/oauth-developer-guide). <br/>
 >
 >Los comerciantes deben [aplicar una actualización de parche de calidad](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-27146) a su almacén para migrar de la API de SOAP a la API RESTful, que admite los protocolos de autenticación OAuth 2.0.
-
 
 ## Documentación disponible {#docs-links}
 

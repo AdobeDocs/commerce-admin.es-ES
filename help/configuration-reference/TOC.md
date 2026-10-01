@@ -5,13 +5,11 @@ breadcrumb-title: Referencia de configuración
 role: Admin, Developer, User
 feature: Configuration
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: f6c2f4b74fae59264faf75de3c025c596cab048f
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '184'
 ht-degree: 2%
-
 ---
-
 
 # Guía de referencia de configuración {#config}
 
@@ -78,9 +76,12 @@ ht-degree: 2%
 - [Canales de ventas](./sales-channels.md)
 - Servicios {#services}
   - [API web](./services/magento-web-api.md)
-  - [Servicios de Commerce](./services/saas.md)
+  - [Commerce Services Connector](./services/saas.md)
   - [OAuth](./services/oauth.md)
   - [Supresión de correo electrónico](./services/email-suppression.md)
+  - [Vista de catálogo ACO](./services/aco-catalog-view.md)
+  - [Sincronización de vista de catálogo ACO](./services/aco-catalog-view-sync.md)
+  - [Claves de acceso restringido ACO](./services/aco-restricted-access-keys.md)
 - Avanzadas {#advanced}
   - [Administrador](./advanced/admin.md)
   - [Sistema](./advanced/system.md)

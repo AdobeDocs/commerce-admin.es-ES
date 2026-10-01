@@ -1,33 +1,42 @@
 ---
-title: Introducción a  [!DNL Adobe Commerce B2B]
+title: Introducción a [!DNL Adobe Commerce B2B]
 description: Aprenda a utilizar las funciones B2B integradas para satisfacer sus necesidades para los clientes que son empresas.
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
 TQID: https://experienceleague.adobe.com/dt7QZnXH9yO6vMFJBIgt4g43XVfk6Da1gyXEMqqvJlo
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+    internal-label: Administration
+source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
 workflow-type: tm+mt
-source-wordcount: 831
+source-wordcount: '962'
 ht-degree: 2%
-
 ---
-
 # Introducción a [!DNL Adobe Commerce B2B]
 
 A diferencia del modelo estándar de empresa a consumidor, las funciones B2B (de empresa a empresa) integradas están diseñadas para satisfacer las necesidades de los vendedores (comerciantes de Adobe Commerce) que tienen clientes que son empresas. Se adapta a las empresas con estructuras organizativas complejas y a varios usuarios con diversas funciones y niveles de permiso de compra. Un cliente B2B típico puede ser el gerente de una tienda minorista o un comprador que realiza compras en nombre de una compañía. En ambos casos, la transacción tiene lugar entre su negocio y el de ellos. También puede vender productos directamente al consumidor. [!DNL Adobe Commerce B2B] es una solución integrada que admite los modelos B2B y B2C.
@@ -61,12 +70,25 @@ Los servicios para Adobe Commerce son servicios alojados que proporcionan funcio
 * [Servicio de catálogo](https://experienceleague.adobe.com/es/docs/commerce/catalog-service/guide-overview)
 * [Live Search](https://experienceleague.adobe.com/es/docs/commerce/live-search/overview)
 * [Recomendaciones de productos](https://experienceleague.adobe.com/es/docs/commerce/product-recommendations/guide-overview)
+* [Conector de Adobe Commerce Optimizer](https://experienceleague.adobe.com/es/docs/commerce/aco-optimizer-connector/overview)
+
+El [!DNL Adobe Commerce Optimizer Connector] sincroniza los datos de catálogo y precios de Adobe Commerce en [!DNL Adobe Commerce Optimizer] para impulsar la detección de productos, las recomendaciones y las tiendas sin encabezado impulsados por IA, mientras que Adobe Commerce sigue siendo el sistema de registro.
+
+>[!NOTE]
+>
+>Para los comerciantes B2B, [!DNL Adobe Commerce Optimizer Connector for B2B] sincroniza automáticamente sus catálogos compartidos en [!DNL Adobe Commerce Optimizer] como vistas de catálogo protegidas, protegidas por claves de acceso restringidas, de modo que el surtido de productos y los precios específicos del contrato permanecen sincronizados entre los dos sistemas.
+
+Para obtener más información, consulte la [[!DNL Adobe Commerce Optimizer Connector] Guía de integración](https://experienceleague.adobe.com/es/docs/commerce/aco-optimizer-connector/overview).
 
 ## Catálogos compartidos
 
 Los catálogos compartidos son los niveles de precios que permiten establecer precios personalizados por producto para distintas empresas en uno o varios sitios web. Mediante el uso de catálogos compartidos, puede vender productos aplicando diferentes niveles de precios para diferentes grupos de clientes. La compatibilidad con los catálogos compartidos solo está disponible para las tiendas Commerce configuradas para admitir cuentas de empresa.
 
 Para obtener más información, consulte [Uso de catálogos compartidos](catalog-shared.md).
+
+>[!NOTE]
+>
+>Si está instalada la extensión [!DNL Adobe Commerce Optimizer Connector for B2B], cada catálogo compartido personalizado también se proyecta en [!DNL Adobe Commerce Optimizer] como una o más vistas de catálogo, una por vista de tienda en el catálogo compartido. Para obtener más información, consulte [Administrar configuración de vista de catálogo](catalog-views-manage.md) y [Supervisión del estado de sincronización de vista de catálogo](/help/systems/catalog-view-sync-status.md).
 
 ## Pedido rápido
 
