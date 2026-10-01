@@ -53,7 +53,7 @@ El conector protege las vistas del catálogo con claves de acceso restringidas. 
 
 Para configurar la duración del token o deshabilitar la emisión del token, consulte [Servicios > Vista de catálogo de ACO](/help/configuration-reference/services/aco-catalog-view.md).
 
-Puede revisar estas vistas de catálogo y administrar sus claves asignadas desde la pestaña _[!UICONTROL Catalog Views]_del catálogo compartido o desde la sección_[!UICONTROL Catalog Views]_ de la empresa asociada; ambas muestran las mismas vistas de catálogo y las asignaciones de claves actuales. Consulte [Editar claves de acceso restringido](#edit-restricted-access-keys) para ver la ruta de navegación exacta desde cada ubicación.
+Puede revisar estas vistas de catálogo y administrar sus claves asignadas desde la pestaña _[!UICONTROL Catalog Views]_&#x200B;del catálogo compartido o desde la sección&#x200B;_[!UICONTROL Catalog Views]_ de la empresa asociada; ambas muestran las mismas vistas de catálogo y las asignaciones de claves actuales. Consulte [Editar claves de acceso restringido](#edit-restricted-access-keys) para ver la ruta de navegación exacta desde cada ubicación.
 
 Para supervisar la sincronización de datos del catálogo compartido con [!DNL Adobe Commerce Optimizer], consulte [Supervisión del estado de sincronización de la vista de catálogo](/help/systems/catalog-view-sync-status.md).
 
