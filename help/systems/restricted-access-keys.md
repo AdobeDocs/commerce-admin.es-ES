@@ -29,7 +29,8 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+last-update: 2026-10-01
+source-git-commit: 82862dcdd7667b46cfe7bd08863926ae5bafd24b
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 0%
@@ -41,11 +42,11 @@ Utilice la página Claves de acceso restringido para administrar las claves de a
 
 >[!NOTE]
 >
->Para las claves creadas manualmente que se usan para administrar catálogos privados en escenarios distintos de B2B, como portales de socios, administre claves de [[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/es/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}.
+>Para las claves creadas manualmente que se usan para administrar catálogos privados en escenarios distintos de B2B, como portales de socios, administre claves de [[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}.
 
 ## Audiencia y disponibilidad {#audience}
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a Adobe Commerce en infraestructura en la nube y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a Adobe Commerce en infraestructura en la nube y a proyectos locales."}
 
 La página [!UICONTROL Restricted Access Keys] está disponible para Adobe Commerce en la infraestructura en la nube y para los comerciantes locales que utilizan catálogos compartidos B2B con [!DNL Adobe Commerce Optimizer Connector for B2B]. El conector se instala y habilita la página automáticamente.
 
@@ -120,4 +121,4 @@ Para cambiar el período de caducidad predeterminado aplicado a las claves reci�
 > - [Servicios > Claves de acceso restringido ACO](../configuration-reference/services/aco-restricted-access-keys.md) — Configurar el período de caducidad predeterminado de la clave
 > - [Servicios > Vista de catálogo de ACO](../configuration-reference/services/aco-catalog-view.md): configure la duración del token de acceso de tienda y habilite o deshabilite la emisión
 > - [Administrar claves de acceso restringido](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} en la *Guía del conector de Adobe Commerce Optimizer*: descubra cómo encajan estas claves en la sincronización del catálogo compartido B2B
-> - [Claves de acceso restringido](https://experienceleague.adobe.com/es/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} en la *Guía de Adobe Commerce Optimizer*: el flujo de claves manual basado en ACO Studio para casos de uso que no son B2B
+> - [Claves de acceso restringido](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} en la *Guía de Adobe Commerce Optimizer*: el flujo de claves manual basado en ACO Studio para casos de uso que no son B2B

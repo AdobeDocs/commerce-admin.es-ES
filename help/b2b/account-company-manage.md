@@ -42,24 +42,25 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b32c28afffe75b3f684f0fef81bd61e9cdcb485a
+last-update: 2026-10-01
+source-git-commit: 82862dcdd7667b46cfe7bd08863926ae5bafd24b
 workflow-type: tm+mt
 source-wordcount: '2804'
 ht-degree: 0%
 ---
 # Administrar cuentas de empresa
 
-La página _[!UICONTROL Companies]_&#x200B;enumera todas las cuentas de compañía actuales, independientemente del estado. Cualquier solicitud de aprobación pendiente aparecerá en la parte superior de la lista.
+La página _[!UICONTROL Companies]_enumera todas las cuentas de compañía actuales, independientemente del estado. Cualquier solicitud de aprobación pendiente aparecerá en la parte superior de la lista.
 
 ![Cuadrícula de compañías](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 Utilice el control *[!UICONTROL Columns]* para personalizar las columnas mostradas en la cuadrícula. Personalice las empresas mostradas en la vista mediante las funciones de búsqueda y filtrado.
 
-- Busque compañías en la cuadrícula **Compañías** usando _[!UICONTROL Search]_. La búsqueda indiza las columnas **Nombre de la compañía**&#x200B;y **Principal**.
+- Busque compañías en la cuadrícula **Compañías** usando _[!UICONTROL Search]_. La búsqueda indiza las columnas **Nombre de la compañía**y **Principal**.
 
 - Personalice la vista para incluir registros que cumplan criterios específicos utilizando [!UICONTROL Filter]. Por ejemplo, si el sitio B2B está configurado para administrar cuentas de una sola compañía y [jerarquías de compañías](manage-companies.md), puede filtrar por `[!UICONTROL Company Type - Company]` para mostrar solo compañías individuales, o por `[!UICONTROL Company Type - Parent]` para mostrar solo la compañía principal de cada jerarquía.
 
-Aplicar una acción a varios registros de compañía utilizando el control _[!UICONTROL Actions]_&#x200B;sobre la cuadrícula. Por ejemplo: en lugar de aprobar cada solicitud individual de empresa, puede seleccionar varias solicitudes para activar las cuentas en una sola acción. Las acciones disponibles dependen de los [permisos](../systems/permissions.md) para la función asignada a su cuenta de usuario administrador.
+Aplicar una acción a varios registros de compañía utilizando el control _[!UICONTROL Actions]_sobre la cuadrícula. Por ejemplo: en lugar de aprobar cada solicitud individual de empresa, puede seleccionar varias solicitudes para activar las cuentas en una sola acción. Las acciones disponibles dependen de los [permisos](../systems/permissions.md) para la función asignada a su cuenta de usuario administrador.
 
 ## Recursos de funciones de compañía
 
@@ -245,7 +246,7 @@ El administrador de la empresa y también un administrador de la tienda pueden m
 
 Para obtener más información sobre la administración de cuentas de empresa, consulte este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410770?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
 
 ## Administración de empresa
 
@@ -257,7 +258,7 @@ Consulte [Administrar la jerarquía de la compañía](manage-company-hierarchy.m
 
 ## Administrar configuración de vista de catálogo
 
-Con la extensión [!DNL Adobe Commerce Optimizer Connector for B2B] instalada, la sección _[!UICONTROL Catalog Views]_&#x200B;de una cuenta de compañía muestra las vistas de catálogo [!DNL Adobe Commerce Optimizer] proyectadas desde el catálogo compartido asignado a la compañía y le permite administrar las claves de acceso restringido que las protegen.
+Con la extensión [!DNL Adobe Commerce Optimizer Connector for B2B] instalada, la sección _[!UICONTROL Catalog Views]_de una cuenta de compañía muestra las vistas de catálogo [!DNL Adobe Commerce Optimizer] proyectadas desde el catálogo compartido asignado a la compañía y le permite administrar las claves de acceso restringido que las protegen.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
