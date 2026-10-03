@@ -190,6 +190,6 @@ Las filas de esta pestaña se borran automáticamente al cabo de 90 días.
 > - [Estado de sincronización de fuente de datos](data-feed-sync-status.md)
 > - [Servicios > Sincronización de vista de catálogo de ACO](../configuration-reference/services/aco-catalog-view-sync.md): configure los períodos de gracia de eliminación y creación y el reconciliador de deriva
 > - [Administración de claves de acceso restringido](restricted-access-keys.md): administre las claves cuya caducidad muestra esta página
-> - [Supervisar la sincronización de la vista del catálogo para los catálogos compartidos B2B](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status) en la *Guía del conector de Adobe Commerce Optimizer*
+> - [Supervisar la sincronización de la vista del catálogo para los catálogos compartidos B2B](https://experienceleague.adobe.com/es/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status) en la *Guía del conector de Adobe Commerce Optimizer*
 > - [Vistas del catálogo privado](https://experienceleague.adobe.com/es/docs/commerce/optimizer/setup/private-catalog-view)
 > - [Claves de acceso restringido](https://experienceleague.adobe.com/es/docs/commerce/optimizer/setup/restricted-access-keys)
