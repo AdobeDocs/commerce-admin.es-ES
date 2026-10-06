@@ -3,35 +3,42 @@ title: Enriquecimiento del catálogo
 description: Utilice la capacidad de enriquecimiento del catálogo nativo en Adobe Commerce para revisar y aplicar mejoras sugeridas por IA a los nombres de productos y descripciones largas para la detección asistida por LLM y IA.
 role: Admin, User, Leader
 recommendations: noCatalog
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
+    internal-label: Administration
+source-git-commit: 5764bcc6545c1696353ac445716061b009a7c106
 workflow-type: tm+mt
-source-wordcount: 2182
+source-wordcount: '2182'
 ht-degree: 0%
-
 ---
-
 # Enriquecimiento del catálogo
 
 El enriquecimiento del catálogo es una funcionalidad nativa de [!DNL Adobe Commerce] que le ayuda a mejorar los nombres de los productos y las descripciones largas para que el catálogo se represente con mayor precisión cuando los compradores utilizan LLM y asistentes de IA para la investigación y el descubrimiento de productos.
 
 >[!NOTE]
 >
->El enriquecimiento del catálogo funciona con [!DNL Commerce Catalog Agent] y [!DNL Adobe LLM Optimizer] entre bastidores. El enriquecimiento se utiliza como parte del flujo de trabajo del catálogo de Commerce. No administra una integración de LLM Optimizer independiente para aplicar actualizaciones de nombre y descripción aprobadas. Para obtener una supervisión y optimización LLM más amplia fuera de Commerce, consulte la [documentación del producto LLM Optimizer](https://experienceleague.adobe.com/es/docs/brand-visibility/using/home).
+>El enriquecimiento del catálogo funciona con [!DNL Commerce Catalog Agent] y [!DNL Adobe LLM Optimizer] entre bastidores. El enriquecimiento se utiliza como parte del flujo de trabajo del catálogo de Commerce. No administra una integración de LLM Optimizer independiente para aplicar actualizaciones de nombre y descripción aprobadas. Para obtener una supervisión y optimización LLM más amplia fuera de Commerce, consulte la [documentación del producto LLM Optimizer](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home).
 
 ## Cómo funciona {#how-it-works}
 
@@ -62,8 +69,8 @@ Los siguientes requisitos previos se aplican cuando tiene acceso al enriquecimie
 
 - Su tienda puede ser rastreada por bots agénticos y orientados a LLM donde se requiere rastrear la cobertura de las sugerencias según el catálogo.
 - Los servicios de Commerce y la conectividad del catálogo requeridos están habilitados y en buen estado. Consulte [Habilitar enriquecimiento de catálogo](#enable-catalog-enrichment) para obtener más información.
-- [IMS está configurado](https://experienceleague.adobe.com/es/docs/core-services/interface/administration/organizations).
-- Tiene acceso a [Adobe Admin Console](https://helpx.adobe.com/es/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- [IMS está configurado](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations).
+- Tiene acceso a [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 - Su organización ha firmado al usuario de GenAI o se ha excluido explícitamente de los servicios de IA subyacentes.
 
 >[!NOTE]
@@ -83,7 +90,7 @@ Póngase en contacto con el administrador de Commerce o con su socio de implemen
    composer update magento/module-catalog-enrichment
    ```
 
-1. Si aún no ha instalado los servicios de catálogo, [hágalo](https://experienceleague.adobe.com/es/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
+1. Si aún no ha instalado los servicios de catálogo, [hágalo](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
 
    **[!UICONTROL Catalog enrichment]** ya está disponible en su instancia de Commerce.
 
@@ -91,7 +98,7 @@ Póngase en contacto con el administrador de Commerce o con su socio de implemen
 
 Después de instalar las extensiones de enriquecimiento de catálogo y servicios de catálogo, la capacidad de enriquecimiento de catálogo está disponible en el Administrador en **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**.
 
-![Enriquecimiento de catálogo](./assets/catalog-enrichment-menu.png)
+![Enriquecimiento de catálogo](./assets/catalog-enrichment-menu.png){zoomable="yes"}
 
 ### Configuración del enriquecimiento del catálogo
 
@@ -104,7 +111,7 @@ Configure el enriquecimiento de catálogo en la ficha **[!UICONTROL Settings]** 
 
    Proporcione los detalles de su entorno [!DNL Adobe Commerce] para habilitar el servicio Catalog LLM Optimizer y los flujos de trabajo de auditoría.
 
-   ![Configuración de Commerce en la ficha Configuración de enriquecimiento del catálogo](./assets/catalog-enrichment-commerce-config.png)
+   ![Configuración de Commerce en la ficha Configuración de enriquecimiento del catálogo](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. Introduzca los detalles de conexión necesarios para la vista de tienda.
 
@@ -142,7 +149,7 @@ El enriquecimiento del catálogo utiliza las siguientes vistas de flujo de traba
 - **[!UICONTROL Fixed Suggestions]**: elementos que ya aplicó o resolvió.
 - **[!UICONTROL Ignored Suggestions]**: elementos que ha excluido intencionadamente de la acción.
 
-![Enriquecimiento de catálogo](./assets/agentic-opportunities.png)
+![Enriquecimiento de catálogo](./assets/agentic-opportunities.png){zoomable="yes"}
 
 ### Implementar sugerencias aprobadas {#review-deploy-catalog}
 
@@ -176,7 +183,7 @@ Después de aplicar una actualización, las sugerencias pasan a **[!UICONTROL Fi
 
    El formulario del producto muestra el nombre y/o la descripción del producto enriquecido.
 
-   ![Nombre de producto enriquecido](./assets/enriched-product-name.png)
+   ![Nombre de producto enriquecido](./assets/enriched-product-name.png){zoomable="yes"}
 
 1. Opcional: seleccione **[!UICONTROL Override Catalog Agent provided Product Name]** si desea conservar un nombre ingresado manualmente en su lugar.
 
@@ -186,7 +193,7 @@ Después de aplicar una actualización, las sugerencias pasan a **[!UICONTROL Fi
 
    La descripción enriquecida aparece cuando se aplican cambios de descripción.
 
-   ![Enriquecer descripción del producto](./assets/enrich-product-description.png)
+   ![Enriquecer descripción del producto](./assets/enrich-product-description.png){zoomable="yes"}
 
 1. Opcional: seleccione **[!UICONTROL Override Catalog Agent provided Description]** si desea conservar una descripción introducida manualmente en su lugar.
 
