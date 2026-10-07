@@ -4,14 +4,12 @@ description: Utilice la cuadrícula [!UICONTROL Customers] para buscar cualquier
 exl-id: 5f817ca8-9d1f-4498-b3bd-989713f0b6ad
 source-git-commit: 0316475a37ee09948b9ba3649e059155212ab1ae
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '888'
 ht-degree: 0%
-
 ---
-
 # Administrar las cuentas de cliente
 
-Utilice la cuadrícula _[!UICONTROL Customers]_&#x200B;para encontrar cualquier cuenta de cliente. Puede usar los [controles de área de trabajo](../getting-started/admin-workspace.md) estándar para filtrar la lista, cambiar el [diseño de la columna](../getting-started/admin-grid-controls.md), guardar vistas y exportar datos. El control [Actions](../getting-started/admin-actions-control.md) sobre la cuadrícula se puede usar para aplicar una operación a varios registros de clientes.
+Utilice la cuadrícula _[!UICONTROL Customers]_para encontrar cualquier cuenta de cliente. Puede usar los [controles de área de trabajo](../getting-started/admin-workspace.md) estándar para filtrar la lista, cambiar el [diseño de la columna](../getting-started/admin-grid-controls.md), guardar vistas y exportar datos. El control [Actions](../getting-started/admin-actions-control.md) sobre la cuadrícula se puede usar para aplicar una operación a varios registros de clientes.
 
 ![Todos los clientes](assets/customers-all-customers.png){width="700" zoomable="yes"}
 
@@ -128,7 +126,7 @@ Estas columnas están disponibles al cambiar el [diseño de columna](../getting-
 | **[!UICONTROL Billing Lastname]** | El apellido en la dirección de facturación del cliente. |
 | **[!UICONTROL Billing Address]** | La dirección a la que se enviará la información de facturación. |
 | **[!UICONTROL Shipping Address]** | La dirección a la que se enviarán los pedidos. |
-| **[!UICONTROL VAT Number]** | El número de impuesto al valor agregado asociado con la dirección del cliente. Para [bienes digitales](../stores-purchase/taxes.md) vendidos en la UE, el IVA se basa en la dirección de facturación del cliente. <br/><br/> Este campo no es el mismo que el número de IVA/impuesto. |
+| **[!UICONTROL VAT Number]** | El número de impuesto al valor agregado asociado con la dirección del cliente. Para [bienes digitales](../stores-purchase/taxes.md) vendidos en la UE, el IVA se basa en la dirección de facturación del cliente. <br/><br/> Este campo no es el mismo que el Número de IVA/impuesto. |
 | **[!UICONTROL Account Lock]** | Indica el estado de la cuenta. Como medida de seguridad, las cuentas de cliente pueden [bloquearse](../customers/password-options.md) después de demasiados intentos de inicio de sesión. Valores: `Locked` / `Unlocked` |
 | **[!UICONTROL Status]** | El estado del usuario actual. Opciones: `Active` / `Inactive` |
 | **[!UICONTROL Customer Type]** | Clasificación del cliente. Opciones: `Individual user` / `Company admin` / `Company user` |
