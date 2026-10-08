@@ -1,9 +1,9 @@
 ---
 title: Fragmentos
 description: Se han reutilizado notas y elementos visuales para anotar una función o página que se aplica a una edición específica
-source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
+source-git-commit: 2a77353224b36200662f8c5a5a0450073fe8506c
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '808'
 ht-degree: 0%
 ---
 # Fragmentos
@@ -103,3 +103,4 @@ Para acceder a las opciones de configuración de la tienda, elige **[!UICONTROL 
 - [!UICONTROL Enable for Wishlist Sharing]
 - [!UICONTROL Enable for Coupon Codes]
 - [!UICONTROL Enable for PayPal PayflowPro payment form] - [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+- [!UICONTROL Enable for Presigned Upload] - [!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
