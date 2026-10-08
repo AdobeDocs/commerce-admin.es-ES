@@ -6,25 +6,32 @@ feature: Merchandising, Price Rules, Catalog Management
 TQID: https://experienceleague.adobe.com/JZE2DF0tp-XOsKjxo-WaQiwA3Y-FrM4TI5qq-Nze-qo
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: 6d1de809dfbdccea260fb7d5f8963a5c20cde15c
 workflow-type: tm+mt
-source-wordcount: 468
+source-wordcount: '518'
 ht-degree: 0%
-
 ---
-
 # Reglas de precios de catálogo
 
 Las reglas de precios de catálogo se pueden utilizar para ofrecer productos a los compradores a un precio con descuento, según un conjunto de condiciones definidas. Las reglas de precios de catálogo no utilizan [códigos de cupón](price-rules-cart-coupon.md), ya que se activan antes de que un producto se coloque en el carro de compras.
@@ -58,8 +65,8 @@ Por ejemplo, puede definir y establecer las condiciones de una regla de precio q
 | [!UICONTROL Priority] | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Escriba texto en este campo para filtrar la lista en función de la prioridad definida para una regla. |
 | [!UICONTROL Web Site] | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Utilice esta opción para filtrar la lista según los sitios web definidos para una regla. |
 | [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Haga clic en **[!UICONTROL Edit]** para mostrar la información de la regla y actualizar la configuración de la regla (similar a la creación de una regla). |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Use los campos de calendario dinámico (Para: y Desde:) para filtrar la lista en función de la fecha de inicio de la regla definida cuando se creó la regla. |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Use los campos de calendario dinámico (Para: y Desde:) para filtrar la lista en función de la fecha de finalización de la regla tal como se definió cuando se creó la regla. |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Use los campos de calendario dinámico (Para: y Desde:) para filtrar la lista en función de la fecha de inicio de la regla definida cuando se creó la regla.<br><br>![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service] solamente) Use los campos de calendario dinámico (Para: y Desde:) para filtrar la lista en función de la fecha y hora de inicio de la regla. |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Use los campos de calendario dinámico (Para: y Desde:) para filtrar la lista en función de la fecha de finalización de la regla tal como se definió cuando se creó la regla.<br><br>![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service] solamente) Use los campos de calendario dinámico (Para: y Desde:) para filtrar la lista en función de la fecha y hora de finalización de la regla. |
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) (solo Magento Open Source) Utilice esta opción para filtrar la lista según el estado de la regla (`Active` o `Inactive`). |
 
 {style="table-layout:auto"}

@@ -5,9 +5,9 @@ breadcrumb-title: Referencia de configuración
 role: Admin, Developer, User
 feature: Configuration
 nudge: true
-source-git-commit: f6c2f4b74fae59264faf75de3c025c596cab048f
+source-git-commit: 64df962f11de1b79e72dc31d7bc3cc0cc4b832f0
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '186'
 ht-degree: 2%
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 2%
   - [Almacenar direcciones de correo electrónico](./general/store-email-addresses.md)
   - [Contactos](./general/contacts.md)
   - [Informes](./general/reports.md)
+  - [API por lotes](./general/bulk-api.md)
   - [Gestión de contenido](./general/content-management.md)
   - [Informes avanzados](./general/advanced-reporting.md)
 - Catálogo {#catalog}
@@ -86,4 +87,4 @@ ht-degree: 2%
   - [Administrador](./advanced/admin.md)
   - [Sistema](./advanced/system.md)
   - [Desarrollador](./advanced/developer.md)
-- [Volver a las guías del usuario de administración](https://experienceleague.adobe.com/es/docs/commerce-admin/user-guides/home)
+- [Volver a las guías del usuario de administración](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
