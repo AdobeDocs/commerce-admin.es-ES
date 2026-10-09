@@ -3,7 +3,8 @@ title: Administrar los catálogos compartidos
 description: Obtenga información acerca de la información y las herramientas disponibles en la página Catálogos compartidos.
 exl-id: a01ac292-240d-42e7-b4c9-2982f293c521
 feature: B2B, Companies, Catalog Management
-TQID: https://experienceleague.adobe.com/q2dtQ-y3ByGhtMNp68-3lN-PqZJ-1mRX4BMCu0lfB54
+last-update: 2026-10-01
+TQID: 'https://experienceleague.adobe.com/q2dtQ-y3ByGhtMNp68-3lN-PqZJ-1mRX4BMCu0lfB54'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -18,6 +19,8 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
     internal-label: B2B
@@ -36,21 +39,20 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-last-update: 2026-10-01
-source-git-commit: 82862dcdd7667b46cfe7bd08863926ae5bafd24b
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 0%
 ---
 # Administrar los catálogos compartidos
 
-La página _[!UICONTROL Shared Catalogs]_&#x200B;proporciona acceso a las herramientas necesarias para administrar los catálogos compartidos, incluida la selección de productos, los precios personalizados, los permisos de categorías y los detalles del catálogo. La página es similar al espacio de trabajo de administración estándar, con filtros y controles de acción. La cuadrícula enumera todos los catálogos compartidos, incluido el catálogo compartido público predeterminado y los catálogos personalizados que haya configurado.
+La página _[!UICONTROL Shared Catalogs]_proporciona acceso a las herramientas necesarias para administrar los catálogos compartidos, incluida la selección de productos, los precios personalizados, los permisos de categorías y los detalles del catálogo. La página es similar al espacio de trabajo de administración estándar, con filtros y controles de acción. La cuadrícula enumera todos los catálogos compartidos, incluido el catálogo compartido público predeterminado y los catálogos personalizados que haya configurado.
 
 Si la extensión [!DNL Adobe Commerce Optimizer Connector for B2B] está instalada, la página también proporciona acceso a las vistas de catálogo [!DNL Adobe Commerce Optimizer] creadas cuando el conector sincroniza los datos de cada catálogo compartido con [!DNL Adobe Commerce Optimizer] y a las claves de acceso restringido que protegen las vistas de catálogo para las experiencias de tienda B2B.
 
 ## Actualizar la selección del producto
 
-La selección de productos en cualquier catálogo compartido se puede actualizar fácilmente desde la columna _[!UICONTROL Action]_&#x200B;de la cuadrícula de catálogos compartidos. Los cambios que realice serán visibles para los miembros de cualquier cuenta de compañía asociada. El proceso es el mismo que elegir productos para una nueva [estructura de catálogo](catalog-shared-pricing-structure.md), excepto que no se puede cambiar el ámbito de la configuración.
+La selección de productos en cualquier catálogo compartido se puede actualizar fácilmente desde la columna _[!UICONTROL Action]_de la cuadrícula de catálogos compartidos. Los cambios que realice serán visibles para los miembros de cualquier cuenta de compañía asociada. El proceso es el mismo que elegir productos para una nueva [estructura de catálogo](catalog-shared-pricing-structure.md), excepto que no se puede cambiar el ámbito de la configuración.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
@@ -62,7 +64,7 @@ La selección de productos en cualquier catálogo compartido se puede actualizar
 
    Puede omitir el primer elemento, ya que el ámbito de un catálogo compartido no se puede cambiar después de guardarlo por primera vez.
 
-Si está trabajando con un producto específico, la sección _[!UICONTROL Products In Shared Catalog]_&#x200B;enumera todos los catálogos compartidos en los que el producto está disponible. Para obtener más información, consulte [Agregar productos a un catálogo compartido](catalog-shared-product-add.md).
+Si está trabajando con un producto específico, la sección _[!UICONTROL Products In Shared Catalog]_enumera todos los catálogos compartidos en los que el producto está disponible. Para obtener más información, consulte [Agregar productos a un catálogo compartido](catalog-shared-product-add.md).
 
 ![Producto en catálogos compartidos](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
 
@@ -74,7 +76,7 @@ Los precios personalizados de los productos en cualquier catálogo compartido se
 
 1. Para el catálogo compartido en la cuadrícula que desea actualizar, vaya a la columna **[!UICONTROL Action]** y seleccione **[!UICONTROL Set Pricing and Structure]**.
 
-1. En la página _[!UICONTROL Catalog Structure]_, haga clic en **[!UICONTROL Configure]**&#x200B;y realice una de las siguientes acciones:
+1. En la página _[!UICONTROL Catalog Structure]_, haga clic en **[!UICONTROL Configure]**y realice una de las siguientes acciones:
 
    - En el indicador de progreso que se encuentra en la parte superior de la página, haga clic en **[!UICONTROL Pricing]**.
    - En la esquina superior derecha, haga clic en **[!UICONTROL Next]**.
@@ -87,7 +89,7 @@ Los precios personalizados de los productos en cualquier catálogo compartido se
 
 >[!NOTE]
 >
->**[Versión B2B 1.3.0](release-notes.md#b2b-v130) y posterior**: al crear un catálogo compartido, cada [permiso de categoría](../catalog/category-permissions.md) se establece en `Allow` para _[!UICONTROL Display Product Prices]_&#x200B;y_[!UICONTROL Add to Cart]_ para los grupos de clientes asignados. Anteriormente, esta configuración se establecía automáticamente en `Deny` incluso cuando los permisos de catálogo se establecían en `Allow`.
+>**[Versión B2B 1.3.0](release-notes.md#b2b-v130) y posterior**: al crear un catálogo compartido, cada [permiso de categoría](../catalog/category-permissions.md) se establece en `Allow` para _[!UICONTROL Display Product Prices]_y_[!UICONTROL Add to Cart]_ para los grupos de clientes asignados. Anteriormente, esta configuración se establecía automáticamente en `Deny` incluso cuando los permisos de catálogo se establecían en `Allow`.
 
 >[!IMPORTANT]
 >
@@ -137,7 +139,7 @@ La información detallada de cualquier catálogo compartido se puede actualizar 
 
 ## Administrar configuración de vista de catálogo
 
-Con la extensión [!DNL Adobe Commerce Optimizer Connector for B2B] instalada, la sección _[!UICONTROL Catalog Views]_&#x200B;de un catálogo compartido enumera las vistas de catálogo [!DNL Adobe Commerce Optimizer] proyectadas desde el catálogo compartido y le permite administrar las claves de acceso restringido que las protegen.
+Con la extensión [!DNL Adobe Commerce Optimizer Connector for B2B] instalada, la sección _[!UICONTROL Catalog Views]_de un catálogo compartido enumera las vistas de catálogo [!DNL Adobe Commerce Optimizer] proyectadas desde el catálogo compartido y le permite administrar las claves de acceso restringido que las protegen.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 

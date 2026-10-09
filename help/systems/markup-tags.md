@@ -3,28 +3,43 @@ title: Etiquetas de marcado
 description: Obtenga información sobre las etiquetas de marcado que contienen fragmentos de código para hacer referencia a un objeto de su tienda.
 exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
-TQID: https://experienceleague.adobe.com/Is9ZYbe3G4uXGAcoY8KjaaNVvTdHgYpTvmZBpj7SQpU
+last-update: 2026-06-03
+TQID: 'https://experienceleague.adobe.com/Is9ZYbe3G4uXGAcoY8KjaaNVvTdHgYpTvmZBpj7SQpU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
+subfeature_v2:
+  - id: 2191e157-828a-5358-ad69-ebcaa8402915
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-last-update: 2026-06-03
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+    internal-label: Administration
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
-source-wordcount: 914
+source-wordcount: '914'
 ht-degree: 0%
-
 ---
-
 # Etiquetas de marcado
 
 Una etiqueta de marcado es una directiva que contiene un fragmento de código con una referencia relativa a un objeto del almacén, como una variable, una dirección URL, una imagen o un bloque. Las etiquetas de marcado se pueden usar en cualquier parte donde el editor esté disponible e incorporado a las plantillas HTML de [correo electrónico](email-templates.md) y [boletín](../merchandising-promotions/newsletter-template.md), así como a otros tipos de [contenido](../content-design/introduction.md#content).
