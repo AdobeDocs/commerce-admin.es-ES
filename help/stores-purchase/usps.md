@@ -3,27 +3,34 @@ title: Servicio postal de Estados Unidos (USPS)
 description: Aprenda a configurar USPS como transportista para su tienda.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/Bsn7nTsSUfoRygB0hyx1KB29CECaiu3RWkoFOJ5gQg8
+last-update: 2026-05-12
+TQID: 'https://experienceleague.adobe.com/Bsn7nTsSUfoRygB0hyx1KB29CECaiu3RWkoFOJ5gQg8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-last-update: 2026-05-12
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+    internal-label: Administration
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
-source-wordcount: 723
+source-wordcount: '723'
 ht-degree: 0%
-
 ---
-
 # Servicio postal de Estados Unidos (USPS)
 
 El Servicio Postal de los Estados Unidos es el servicio postal independiente del Gobierno de los Estados Unidos, que ofrece servicios de envío nacionales e internacionales por tierra y aire.
