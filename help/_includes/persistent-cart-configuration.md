@@ -5,9 +5,7 @@ source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%
-
 ---
-
 
 # [!UICONTROL General Options]
 
@@ -23,7 +21,7 @@ ht-degree: 0%
 | [!UICONTROL "Remember Me" Default Value] | Sitio web | Define el estado predeterminado de la casilla de verificación _Recordarme_. |
 | [!UICONTROL Clear Persistence on Log Out] | Sitio web | Define si la cookie persistente se elimina cuando un cliente de tienda cierra la sesión. Independientemente de cómo se configure esta opción, si un cliente no cierra la sesión, pero la cookie de sesión caduca, se seguirá utilizando la cookie persistente. |
 | [!UICONTROL Persist Shopping Cart] | Sitio web | Define si el uso de la cookie persistente da acceso a los datos del carro de compras de la cuenta correspondiente. Opciones: <br/>**`Yes`**&#x200B;o **`No`**. |
-| [!UICONTROL Persist Wish List] | Sitio web | ![Adobe Commerce](/help/assets/adobe-logo.svg) (solo Adobe Commerce) Determina si se conserva el estado de las listas de deseos del cliente cuando finaliza la sesión. Opciones: <br/>**`Yes`**: el contenido de la lista de deseos se guarda al finalizar la sesión.<br/>**`No`** - La lista de deseos no se guarda cuando finaliza la sesión. |
+| [!UICONTROL Persist Wish List] | Sitio web | ![Adobe Commerce](/help/assets/adobe-logo.svg) (solo Adobe Commerce) Determina si se conserva el estado de las listas de deseos del cliente cuando finaliza la sesión. Opciones: <br/>**`Yes`**: el contenido de la lista de deseos se guarda al finalizar la sesión.<br/>**`No`**: la lista de deseos no se guarda al finalizar la sesión. |
 | [!UICONTROL Persist Recently Ordered Items] | Sitio web | ![Adobe Commerce](/help/assets/adobe-logo.svg) (solo Adobe Commerce) Determina si el estado de los elementos pedidos recientemente se guarda al finalizar la sesión. Opciones: <br/>**`Yes`**&#x200B;o **`No`**. |
 | [!UICONTROL Persist Currently Compared Products] | Sitio web | ![Adobe Commerce](/help/assets/adobe-logo.svg) (solo Adobe Commerce) Determina si se conserva el estado de los productos comparados actualmente cuando finaliza la sesión. Opciones: <br/>**`Yes`**&#x200B;o **`No`**. |
 | [!UICONTROL Persist Comparison History] | Sitio web | ![Adobe Commerce](/help/assets/adobe-logo.svg) (solo Adobe Commerce) Determina si se conserva el estado del historial de comparación cuando finaliza la sesión. Opciones: <br/>**`Yes`**&#x200B;o **`No`**. |
