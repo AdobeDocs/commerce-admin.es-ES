@@ -44,7 +44,7 @@ Para obtener información detallada sobre cómo configurar estos ajustes de env�
 
 ![Opciones](./assets/multishipping-settings-options.png)<!-- zoom -->
 
-<!-- [Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#multiple-addresses) -->
+<!-- [Options](https://experienceleague.adobe.com/es/docs/commerce-admin/stores-sales/delivery/shipping-settings#multiple-addresses) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
