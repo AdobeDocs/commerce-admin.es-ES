@@ -4,31 +4,44 @@ description: Optimice la administración y gestión de las organizaciones B2B co
 feature: B2B, Companies, Storefront
 role: Admin
 exl-id: 8246be3d-ff9f-4f9f-875d-1b999befc534
-TQID: https://experienceleague.adobe.com/po8afDr-Q2XR9pkbzJDdX-9tDvf6FsLVHnP-YzGYrDI
+TQID: 'https://experienceleague.adobe.com/po8afDr-Q2XR9pkbzJDdX-9tDvf6FsLVHnP-YzGYrDI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 778
+source-wordcount: '778'
 ht-degree: 0%
-
 ---
-
 # Administración de empresa
 
 La administración de empresas en Adobe Commerce proporciona herramientas completas para que los administradores organicen, configuren y supervisen las relaciones comerciales B2B. Esta función es esencial para las empresas que trabajan con varios clientes corporativos, filiales o estructuras organizativas complejas.
@@ -75,18 +88,18 @@ La jerarquía de compañías estructura las relaciones de negocio organizando va
 La columna *[!UICONTROL Company Type]* de la cuadrícula Compañías muestra cómo encaja cada compañía dentro de su organización B2B:
 
 * **Principal**: concentrador central con una o más empresas asignadas
-   * Controla varias compañías secundarias, pero no se pueden asignar a otra compañía principal
-   * **Caso de uso**: sede corporativa, organización principal de la franquicia o compañía matriz
+  * Controla varias compañías secundarias, pero no se pueden asignar a otra compañía principal
+  * **Caso de uso**: sede corporativa, organización principal de la franquicia o compañía matriz
 
 * **Secundario**: compañía asignada a una organización principal
-   * Funciona bajo control principal y puede heredar configuraciones
-   * Solo puede pertenecer a un elemento principal a la vez
-   * **Caso de uso**: oficinas subsidiarias, ubicaciones de franquicias o divisiones regionales
+  * Funciona bajo control principal y puede heredar configuraciones
+  * Solo puede pertenecer a un elemento principal a la vez
+  * **Caso de uso**: oficinas subsidiarias, ubicaciones de franquicias o divisiones regionales
 
 * **Compañía**: compañía única independiente
-   * Funciona de forma independiente sin relaciones de jerarquía
-   * Puede convertir a principal (asignando compañías) o secundario (asignando a principal)
-   * **Caso de uso**: clientes empresariales individuales o clientes independientes
+  * Funciona de forma independiente sin relaciones de jerarquía
+  * Puede convertir a principal (asignando compañías) o secundario (asignando a principal)
+  * **Caso de uso**: clientes empresariales individuales o clientes independientes
 
 ### Conversión de tipos de empresa
 
@@ -108,24 +121,24 @@ Para obtener instrucciones detalladas paso a paso, consulte [Administrar la jera
 Al administrar compañías desde la cuadrícula de la compañía, los administradores pueden realizar las siguientes tareas desde la cuadrícula *[!UICONTROL Company Hierarchy]*:
 
 * **Ver y administrar las relaciones con la compañía**
-   * **Ver compañías asociadas**: vea todas las compañías vinculadas a una organización principal en una vista centralizada
-   * **Supervisar el estado de la compañía**: efectúe el seguimiento de compañías activas, pendientes e inactivas dentro de la jerarquía
-   * **Acceder a los detalles de la empresa**: vaya directamente a las páginas de configuración de cada empresa
+  * **Ver compañías asociadas**: vea todas las compañías vinculadas a una organización principal en una vista centralizada
+  * **Supervisar el estado de la compañía**: efectúe el seguimiento de compañías activas, pendientes e inactivas dentro de la jerarquía
+  * **Acceder a los detalles de la empresa**: vaya directamente a las páginas de configuración de cada empresa
 
 * **Generar y modificar jerarquías**
-   * **Asignar compañías**: agregue compañías existentes a una organización principal desde la página de detalles de la compañía
-   * **Crear relaciones entre padres e hijos**—Estructurar compañías para que reflejen las relaciones comerciales reales
-   * **Reorganizar estructuras**: mueva compañías entre distintas organizaciones principales a medida que cambien las necesidades empresariales
+  * **Asignar compañías**: agregue compañías existentes a una organización principal desde la página de detalles de la compañía
+  * **Crear relaciones entre padres e hijos**—Estructurar compañías para que reflejen las relaciones comerciales reales
+  * **Reorganizar estructuras**: mueva compañías entre distintas organizaciones principales a medida que cambien las necesidades empresariales
 
 * **Administración de configuración en lotes**
-   * **Aplicar configuración a todas las empresas**: actualice la configuración avanzada de varias empresas simultáneamente mediante el control [!UICONTROL Actions] en la cuadrícula Compañía
-   * **Estandarizar configuraciones**: garantice políticas coherentes en todas las organizaciones relacionadas
-   * **Anular la configuración individual**: inserta configuraciones de empresa principal en empresas secundarias seleccionadas
+  * **Aplicar configuración a todas las empresas**: actualice la configuración avanzada de varias empresas simultáneamente mediante el control [!UICONTROL Actions] en la cuadrícula Compañía
+  * **Estandarizar configuraciones**: garantice políticas coherentes en todas las organizaciones relacionadas
+  * **Anular la configuración individual**: inserta configuraciones de empresa principal en empresas secundarias seleccionadas
 
 * **Acciones administrativas**
-   * **Quitar relaciones de compañía**: use la acción *[!UICONTROL Unassign from parent]* para disolver los vínculos de organización
-   * **Administrar el acceso a la compañía**—Controlar qué administradores pueden ver y modificar las relaciones con la compañía
-   * **Supervisar cambios de jerarquía**: efectúe el seguimiento de las modificaciones de las estructuras organizativas
+  * **Quitar relaciones de compañía**: use la acción *[!UICONTROL Unassign from parent]* para disolver los vínculos de organización
+  * **Administrar el acceso a la compañía**—Controlar qué administradores pueden ver y modificar las relaciones con la compañía
+  * **Supervisar cambios de jerarquía**: efectúe el seguimiento de las modificaciones de las estructuras organizativas
 
 ## Prácticas recomendadas
 

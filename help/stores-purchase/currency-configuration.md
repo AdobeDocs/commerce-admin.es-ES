@@ -3,26 +3,35 @@ title: Configuración de moneda
 description: Obtenga información sobre cómo establecer el ámbito de la moneda base y cómo especificar las monedas que acepta y la moneda que desea utilizar para la visualización de precios.
 exl-id: ba78095f-36eb-4e38-a6e8-72d85e0cf980
 feature: Currency, Configuration, Data Import/Export
-TQID: https://experienceleague.adobe.com/-8zl9x0ORJssQFyubtdVbht9iOjWIi5zCv4LuN0ORhE
+TQID: 'https://experienceleague.adobe.com/-8zl9x0ORJssQFyubtdVbht9iOjWIi5zCv4LuN0ORhE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3033d2ab-c1d2-5b52-b865-72d9e5ad2c37
+    internal-label: Currency
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 826
+source-wordcount: '826'
 ht-degree: 0%
-
 ---
-
 # Configuración de moneda
 
 Antes de configurar las tarifas de moneda individuales, primero debe establecer el ámbito de la [moneda base](../configuration-reference/general/currency-setup.md). Se establece como global de forma predeterminada, lo que aplica la configuración de moneda base a toda la [jerarquía de tiendas](../getting-started/websites-stores-views.md). Si tiene una instalación de Adobe Commerce o Magento Open Source en varios sitios, puede administrar varias divisas base estableciendo el ámbito en el nivel de sitio web.
@@ -83,31 +92,31 @@ También puede especificar las monedas que acepta y la moneda que desea utilizar
 
    - _Para conectarse al servicio [fixer.io](https://fixer.io/):_
 
-      - Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Fixer.io]**.
+     - Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Fixer.io]**.
 
-      - Escriba su fixer.io **[!UICONTROL API key]**.
+     - Escriba su fixer.io **[!UICONTROL API key]**.
 
-      - Para **[!UICONTROL Connection Timeout in Seconds]**, ingrese el número de segundos de inactividad que se permitirán antes de que se agote el tiempo de espera de la conexión.
+     - Para **[!UICONTROL Connection Timeout in Seconds]**, ingrese el número de segundos de inactividad que se permitirán antes de que se agote el tiempo de espera de la conexión.
 
      ![Configuración general - configuración de moneda - Opciones de Fixer.io](../configuration-reference/general/assets/currency-setup-fixer.png){width="600" zoomable="yes"}
 
    - _Para conectarse al [[!DNL Fixer Api (APILayer)] servicio](https://apilayer.com/):_
 
-      - Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Fixer Api (APILayer)]**.
+     - Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Fixer Api (APILayer)]**.
 
-      - Escriba su [!DNL APILayer] **[!UICONTROL API key]**.
+     - Escriba su [!DNL APILayer] **[!UICONTROL API key]**.
 
-      - Para **[!UICONTROL Connection Timeout in Seconds]**, ingrese el número de segundos de inactividad que se permitirán antes de que se agote el tiempo de espera de la conexión.
+     - Para **[!UICONTROL Connection Timeout in Seconds]**, ingrese el número de segundos de inactividad que se permitirán antes de que se agote el tiempo de espera de la conexión.
 
      ![Configuración general - configuración de moneda - Opciones de API de fijador (APILayer)](../configuration-reference/general/assets/currency-setup-fixer-api.png){width="600" zoomable="yes"}
 
    - _Para conectarse al [[!DNL Currency Convertor API] servicio](https://free.currencyconverterapi.com/):_
 
-      - Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Currency Convertor API]**.
+     - Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Currency Convertor API]**.
 
-      - Introduzca su conversor de moneda **[!UICONTROL API key]**.
+     - Introduzca su conversor de moneda **[!UICONTROL API key]**.
 
-      - Para **[!UICONTROL Connection Timeout in Seconds]**, ingrese el número de segundos de inactividad que se permitirán antes de que se agote el tiempo de espera de la conexión.
+     - Para **[!UICONTROL Connection Timeout in Seconds]**, ingrese el número de segundos de inactividad que se permitirán antes de que se agote el tiempo de espera de la conexión.
 
      ![Configuración general - configuración de moneda - Opciones de API del convertidor de moneda](../configuration-reference/general/assets/currency-setup-converter.png){width="600" zoomable="yes"}
 
@@ -127,9 +136,9 @@ También puede especificar las monedas que acepta y la moneda que desea utilizar
 
    - **[!UICONTROL Frequency]**: para determinar la frecuencia con la que se actualizan las tarifas, establezca una de las siguientes opciones:
 
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
 
    - **[!UICONTROL Error Email Recipient]**: escriba la dirección de correo electrónico de la persona que va a recibir la notificación por correo electrónico si se produce un error durante el proceso de importación.
 

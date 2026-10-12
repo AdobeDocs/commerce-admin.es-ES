@@ -4,28 +4,36 @@ description: Obtenga información acerca de las opciones de correo electrónico 
 exl-id: fd61c0c6-0887-4ff2-8002-906ff615bad9
 feature: B2B, Companies, Configuration
 role: Admin
-TQID: https://experienceleague.adobe.com/MeNTcQzgfeH-DJ3TVQ-655Okr-Qt5Lv97pGZJ-67sxQ
+TQID: 'https://experienceleague.adobe.com/MeNTcQzgfeH-DJ3TVQ-655Okr-Qt5Lv97pGZJ-67sxQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 0%
-
+source-wordcount: '676'
+ht-degree: 3%
 ---
-
 # Configurar opciones de correo electrónico de empresa
 
 El [representante de ventas](account-company-manage.md) asignado como contacto principal de una compañía está configurado de manera predeterminada como remitente de muchos mensajes de correo electrónico automatizados enviados a la compañía.
@@ -48,8 +56,8 @@ El [representante de ventas](account-company-manage.md) asignado como contacto p
 
    - Para determinar cómo se envía la copia de la notificación, establezca **[!UICONTROL Send Email Copy Method]** en una de las siguientes opciones:
 
-      - `Bcc` - Envía una _copia de cortesía a ciegas_ incluyendo el destinatario en el encabezado del mismo correo electrónico que se envía al cliente. El destinatario CCO no es visible para el cliente.
-      - `Separate Email` - Envía la copia como un correo electrónico independiente.
+     - `Bcc` - Envía una _copia de cortesía a ciegas_ incluyendo el destinatario en el encabezado del mismo correo electrónico que se envía al cliente. El destinatario CCO no es visible para el cliente.
+     - `Separate Email` - Envía la copia como un correo electrónico independiente.
 
    - Si ha preparado una plantilla de correo electrónico que se va a utilizar en lugar de la predeterminada, establezca **[!UICONTROL Default Company Registration Email]** en el nombre de la plantilla. De manera predeterminada, se utiliza la plantilla `Company Registration Request`.
 
@@ -77,8 +85,8 @@ El [representante de ventas](account-company-manage.md) asignado como contacto p
 
    - Para determinar cómo se envía la copia de la notificación, establezca **[!UICONTROL Send Email Copy Method]** en una de las siguientes opciones:
 
-      - `Bcc` - Envía una _copia de cortesía a ciegas_ incluyendo el destinatario en el encabezado del mismo correo electrónico que se envía al cliente. El destinatario CCO no es visible para el cliente.
-      - `Separate Email` - Envía la copia como un correo electrónico independiente.
+     - `Bcc` - Envía una _copia de cortesía a ciegas_ incluyendo el destinatario en el encabezado del mismo correo electrónico que se envía al cliente. El destinatario CCO no es visible para el cliente.
+     - `Separate Email` - Envía la copia como un correo electrónico independiente.
 
    - Si tiene una plantilla de correo electrónico preparada que se va a usar en lugar de la predeterminada cuando el estado de la compañía cambie de `Pending Approval` a `Active`, establezca **[!UICONTROL Default 'Company Status Change to Active 1' Email]** en esa plantilla. De manera predeterminada, se utiliza la plantilla `Company Status Active 1`.
 
@@ -100,16 +108,16 @@ El [representante de ventas](account-company-manage.md) asignado como contacto p
 
    - Para determinar cómo se envía la copia de la notificación, establezca **[!UICONTROL Send Email Copy Method]** en una de las siguientes opciones:
 
-      - `Bcc` - Envía una _copia de cortesía a ciegas_ incluyendo el destinatario en el encabezado del mismo correo electrónico que se envía al cliente. El destinatario CCO no es visible para el cliente.
-      - `Separate Email` - Envía la copia como un correo electrónico independiente.
+     - `Bcc` - Envía una _copia de cortesía a ciegas_ incluyendo el destinatario en el encabezado del mismo correo electrónico que se envía al cliente. El destinatario CCO no es visible para el cliente.
+     - `Separate Email` - Envía la copia como un correo electrónico independiente.
 
    - Si ha preparado plantillas de correo electrónico para utilizarlas en lugar de los valores predeterminados, elija la plantilla para cada una de las siguientes notificaciones que se envían al administrador de la empresa.
 
-      - **[!UICONTROL Allocated Email Template]**
-      - **[!UICONTROL Updated Email Template]**
-      - **[!UICONTROL Reimbursed Email Template]**
-      - **[!UICONTROL Refunded Email Template]**
-      - **[!UICONTROL Reverted Email Template]**
+     - **[!UICONTROL Allocated Email Template]**
+     - **[!UICONTROL Updated Email Template]**
+     - **[!UICONTROL Reimbursed Email Template]**
+     - **[!UICONTROL Refunded Email Template]**
+     - **[!UICONTROL Reverted Email Template]**
 
    ![Configuración de clientes - correos electrónicos de crédito de la compañía](./assets/company-email-options-company-credit.png){width="600" zoomable="yes"}
 

@@ -3,29 +3,39 @@ title: United Parcel Service (UPS)
 description: Aprenda a configurar UPS como transportista para su tienda.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/f612bfVAntUBDK-vzfM4OzI0tMgGblVcZ75gKaKfziQ
+TQID: 'https://experienceleague.adobe.com/f612bfVAntUBDK-vzfM4OzI0tMgGblVcZ75gKaKfziQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1008
+source-wordcount: '1025'
 ht-degree: 0%
-
 ---
-
 # United Parcel Service (UPS)
 
 United Parcel Service (UPS) ofrece servicios de envío nacionales e internacionales por tierra y aire a más de 220 países.
@@ -72,8 +82,8 @@ Cuando configure UPS en el Administrador, use los valores de credenciales para `
 
    - Establezca **[!UICONTROL Live Account]** en una de las siguientes opciones:
 
-      - `Yes`: ejecuta UPS en modo de producción y ofrece UPS como método de envío a sus clientes. Asegúrese de utilizar los puntos de conexión correctos en URL de puerta de enlace y URL de seguimiento.
-      - `No` - Ejecuta UPS en modo de prueba. Asegúrese de utilizar los puntos de conexión correctos en URL de puerta de enlace y URL de seguimiento.
+     - `Yes`: ejecuta UPS en modo de producción y ofrece UPS como método de envío a sus clientes. Asegúrese de utilizar los puntos de conexión correctos en URL de puerta de enlace y URL de seguimiento.
+     - `No` - Ejecuta UPS en modo de prueba. Asegúrese de utilizar los puntos de conexión correctos en URL de puerta de enlace y URL de seguimiento.
 
    >[!NOTE]
    >

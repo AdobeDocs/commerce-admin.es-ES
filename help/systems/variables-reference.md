@@ -4,27 +4,40 @@ description: Revise ejemplos de plantillas de correo electrónico utilizadas fre
 exl-id: b5e49a56-4b7c-431d-bd44-e8591106fa4e
 role: Admin, User
 feature: System, Variables, Communications
-TQID: https://experienceleague.adobe.com/FAJe-nOanaUmPT9Is9-ZGevULFepFE6QyyrbGhcCePY
+TQID: 'https://experienceleague.adobe.com/FAJe-nOanaUmPT9Is9-ZGevULFepFE6QyyrbGhcCePY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
+subfeature_v2:
+  - id: 2191e157-828a-5358-ad69-ebcaa8402915
+    internal-label: Variables
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 71
+source-wordcount: '71'
 ht-degree: 0%
-
 ---
-
 # Referencia de variables
 
 La mayoría de las [plantillas de correo electrónico](email-template-custom.md) tienen una sección de [variables predefinidas](variables-predefined.md) específicas de la plantilla. La siguiente lista incluye ejemplos de plantillas de correo electrónico utilizadas frecuentemente y sus variables asociadas.

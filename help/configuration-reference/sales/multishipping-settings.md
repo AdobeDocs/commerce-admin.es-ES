@@ -3,28 +3,37 @@ title: '[!UICONTROL Sales] > [!UICONTROL Multishipping Settings]'
 description: Revise la configuración en la página [!UICONTROL Sales] > [!UICONTROL Multishipping Settings] del administrador de Commerce.
 exl-id: 4cacac8c-33af-4275-b1dd-9802d38ec3c8
 feature: Configuration, Shipping/Delivery
-TQID: https://experienceleague.adobe.com/TF3m8EAR7uFtE26hTeFnbEz4WGsVi0b2H0x-jV1Yqis
+TQID: 'https://experienceleague.adobe.com/TF3m8EAR7uFtE26hTeFnbEz4WGsVi0b2H0x-jV1Yqis'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 97
-ht-degree: 2%
-
+source-wordcount: '102'
+ht-degree: 6%
 ---
-
 # [!UICONTROL Sales] > [!UICONTROL Multishipping Settings]
 
 {{config}}

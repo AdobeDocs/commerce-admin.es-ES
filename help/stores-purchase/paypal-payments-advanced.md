@@ -4,30 +4,41 @@ description: Aprenda a configurar PayPal Payments Advanced como solución de pag
 exl-id: 018dd999-2f17-4650-8f61-624809ae76c6
 feature: Payments
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-TQID: https://experienceleague.adobe.com/pkxzCNRxzCwDeYhaDoaiNl04wpbqbMmOedoBzW4hbR8
+TQID: 'https://experienceleague.adobe.com/pkxzCNRxzCwDeYhaDoaiNl04wpbqbMmOedoBzW4hbR8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2175
+source-wordcount: '2239'
 ht-degree: 0%
-
 ---
-
 # Pagos mediante PayPal avanzados
 
 [PayPal Payments Advanced](https://developer.paypal.com/docs/payflow/gs-ppa-hosted-pages/) es una solución [compatible con PCI](../getting-started/compliance-pci.md) que permite a tus clientes pagar con tarjeta de débito o crédito sin abandonar tu sitio. Incluye una página de cierre de compra integrada que se puede personalizar para crear una experiencia de cierre de compra perfecta y segura.
@@ -364,8 +375,8 @@ Establezca **[!UICONTROL Enable PayPal PayLater Experience]** en una de las sigu
 
    - Si te has registrado en el servidor FTP seguro de PayPal, introduce las siguientes credenciales de inicio de sesión en el SFTP:
 
-      - Iniciar sesión
-      - Contraseña
+     - Iniciar sesión
+     - Contraseña
 
    - Para ejecutar informes de prueba antes de publicar, establezca **[!UICONTROL Sandbox Mode]** en `Yes`.
 
@@ -383,13 +394,13 @@ Establezca **[!UICONTROL Enable PayPal PayLater Experience]** en una de las sigu
 
    - Establezca **[!UICONTROL Schedule]** en una de las siguientes opciones:
 
-      - `Daily`
-      - `Every 3 Days`
-      - `Every 7 Days`
-      - `Every 10 Days`
-      - `Every 14 Days`
-      - `Every 30 Days`
-      - `Every 40 Days`
+     - `Daily`
+     - `Every 3 Days`
+     - `Every 7 Days`
+     - `Every 10 Days`
+     - `Every 14 Days`
+     - `Every 30 Days`
+     - `Every 40 Days`
 
      PayPal conserva cada informe durante 45 días.
 
@@ -417,9 +428,9 @@ Use _[!UICONTROL Frontend Experience Settings]_&#x200B;para elegir los logotipos
 
    - Escriba el nombre de **[!UICONTROL Page Style]** que desea aplicar a sus páginas de comerciante de PayPal:
 
-      - `paypal`: utiliza el estilo de página de PayPal.
-      - `primary`: utiliza el estilo de página que identificó como estilo _principal_ en el perfil de la cuenta.
-      - `your_custom_value`: utiliza un estilo de página de pago personalizado, que se especifica en el perfil de la cuenta.
+     - `paypal`: utiliza el estilo de página de PayPal.
+     - `primary`: utiliza el estilo de página que identificó como estilo _principal_ en el perfil de la cuenta.
+     - `your_custom_value`: utiliza un estilo de página de pago personalizado, que se especifica en el perfil de la cuenta.
 
    - Para **[!UICONTROL Header Image URL]**, escriba la dirección URL de la imagen que desea que aparezca en la esquina superior izquierda de la página de pago. El tamaño máximo de archivo es de 750 píxeles de ancho por 90 píxeles de alto.
 
@@ -429,9 +440,9 @@ Use _[!UICONTROL Frontend Experience Settings]_&#x200B;para elegir los logotipos
 
    - Para establecer el color de las páginas, escriba el código hexadecimal de seis caracteres, sin el símbolo `#`, para cada uno de los siguientes elementos:
 
-      - **[!UICONTROL Header Background Color]** - Color de fondo del encabezado de la página de pago.
-      - **[!UICONTROL Header Border Color]** - Color para borde de dos píxeles alrededor del encabezado.
-      - **[!UICONTROL Page Background Color]**: color de fondo de la página de pago y alrededor del encabezado y del formulario de pago.
+     - **[!UICONTROL Header Background Color]** - Color de fondo del encabezado de la página de pago.
+     - **[!UICONTROL Header Border Color]** - Color para borde de dos píxeles alrededor del encabezado.
+     - **[!UICONTROL Page Background Color]**: color de fondo de la página de pago y alrededor del encabezado y del formulario de pago.
 
 ### Paso 6: Completa la configuración básica de Pago y envío de PayPal Express
 

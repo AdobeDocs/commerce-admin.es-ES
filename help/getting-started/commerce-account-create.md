@@ -1,32 +1,41 @@
 ---
-title: Crea tu cuenta de  [!DNL Commerce] y accede a ella
-description: Obtenga información acerca de  [!DNL Commerce] cuentas que administran los productos y servicios que ha adquirido.
+title: Cree y acceda a su cuenta de [!DNL Commerce]
+description: Obtenga información acerca de las cuentas de [!DNL Commerce] que administran los productos y servicios que ha adquirido.
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-TQID: https://experienceleague.adobe.com/yLnMGRFDtzHhx0bEg5QhKJWc2cr-psvuq9RMEhbHX0s
+TQID: 'https://experienceleague.adobe.com/yLnMGRFDtzHhx0bEg5QhKJWc2cr-psvuq9RMEhbHX0s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: 4560f5f5-d00c-5b5d-b61b-369d85ef7a26
+    internal-label: User Account
 subfeature_v2:
   - id: d41d3a54-9721-475c-abd6-295bebfba9e4
+    internal-label: Login credentials and URLs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1131
+source-wordcount: '1133'
 ht-degree: 0%
-
 ---
-
 # Acceder a su cuenta de [!DNL Commerce]
 
 Una cuenta de [!DNL Commerce] es el punto de acceso central para administrar los servicios de Adobe Commerce para los proyectos de Adobe Commerce implementados en la infraestructura en la nube o de forma local. En el panel de cuentas, puede ver suscripciones, administrar las claves de API de los servicios de Commerce, revisar la información de facturación histórica y colaborar con otros usuarios de su organización.

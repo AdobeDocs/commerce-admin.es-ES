@@ -3,29 +3,46 @@ title: '[!UICONTROL My Quote Templates]'
 description: Obtenga información acerca de la experiencia del cliente con las plantillas de presupuesto, que está disponible en el panel de cuentas de tienda.
 feature: B2B, Companies, Quotes
 exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
-TQID: https://experienceleague.adobe.com/E2xR1PkAHidID85ro6fIz--mGtI358VvmXdKcSApVww
+TQID: 'https://experienceleague.adobe.com/E2xR1PkAHidID85ro6fIz--mGtI358VvmXdKcSApVww'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: 792a7e9b-6519-5e99-a913-56c3dd2408da
+    internal-label: Quotes
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 973
+source-wordcount: '973'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL My Quote Templates]
 
 Si las ofertas están habilitadas, la sección _[!UICONTROL My Quotes Template]_&#x200B;del panel de control de cuentas del cliente enumera todas las plantillas de ofertas asociadas a la cuenta del cliente. Según sus permisos, solo los compradores que realizan compras en nombre de una empresa pueden solicitar una plantilla de presupuesto y negociar los precios de presupuesto y las condiciones de los pedidos recurrentes.
@@ -46,29 +63,29 @@ Un comprador que acepte las condiciones negociadas ofrecidas por el vendedor pue
 
 - Acciones relacionadas con la gestión de la plantilla de oferta:
 
-   - Cancelar una plantilla
-   - Enviar al vendedor para que lo revise
-   - Aceptar la plantilla de presupuesto
-   - Cambiar la fecha de caducidad de la plantilla de oferta
-   - Añadir una dirección de envío
-   - Administrar vínculos de documentos de referencia
+  - Cancelar una plantilla
+  - Enviar al vendedor para que lo revise
+  - Aceptar la plantilla de presupuesto
+  - Cambiar la fecha de caducidad de la plantilla de oferta
+  - Añadir una dirección de envío
+  - Administrar vínculos de documentos de referencia
 
 - Acciones para actualizar detalles de plantilla de oferta durante el proceso de negociación:
 
-   - Revisa el precio del artículo y las actualizaciones.
-   - Si se han configurado umbrales de cantidad en la plantilla de oferta, ajuste los valores mínimo y máximo.
-   - Rastree el proceso de negociación de las secciones [!UICONTROL Comments] y [!UICONTROL History].
-   - En el caso de las plantillas que aún se están revisando, el comprador puede modificar la plantilla de oferta eliminando artículos.
-   - Comunicarse y negociar con el vendedor añadiendo notas en el nivel de artículo de línea y presupuesto.
-   - Agregar, editar o eliminar vínculos de documentos de referencia a contratos y acuerdos externos.
+  - Revisa el precio del artículo y las actualizaciones.
+  - Si se han configurado umbrales de cantidad en la plantilla de oferta, ajuste los valores mínimo y máximo.
+  - Rastree el proceso de negociación de las secciones [!UICONTROL Comments] y [!UICONTROL History].
+  - En el caso de las plantillas que aún se están revisando, el comprador puede modificar la plantilla de oferta eliminando artículos.
+  - Comunicarse y negociar con el vendedor añadiendo notas en el nivel de artículo de línea y presupuesto.
+  - Agregar, editar o eliminar vínculos de documentos de referencia a contratos y acuerdos externos.
 
   Después de realizar los cambios, el comprador devuelve la plantilla al vendedor para que la revise.
 
 - Acciones generales durante la negociación:
 
-   - Enviar plantilla de presupuesto al vendedor para que la revise
-   - Aceptar la plantilla de presupuesto
-   - Cancelar para finalizar la negociación y cerrar la oferta
+  - Enviar plantilla de presupuesto al vendedor para que la revise
+  - Aceptar la plantilla de presupuesto
+  - Cancelar para finalizar la negociación y cerrar la oferta
 
 El siguiente ejemplo muestra una plantilla de oferta que el comprador ha actualizado y enviado de vuelta al vendedor para que la revise.
 

@@ -3,27 +3,35 @@ title: Configuración de listas de deseos
 description: Aprenda a configurar la funcionalidad de la lista de deseos para sus clientes de la tienda.
 exl-id: 479455f1-282f-4277-b132-45c5867fb21c
 feature: Customers, Configuration
-TQID: https://experienceleague.adobe.com/pSVYKFjf0Iz-zJ7fw1HxraizUwLYj7l1ykIWtnbI30w
+TQID: 'https://experienceleague.adobe.com/pSVYKFjf0Iz-zJ7fw1HxraizUwLYj7l1ykIWtnbI30w'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: '537'
 ht-degree: 0%
-
 ---
-
 # Configuración de listas de deseos
 
 La configuración de la lista de deseos habilita las listas de deseos y determina la plantilla de correo electrónico y el remitente de los mensajes de correo electrónico que se utilizan cuando se comparte una lista de deseos.
@@ -101,25 +109,25 @@ Cualquier lista de deseos pública se puede encontrar usando el widget de búsqu
 
    - _[!UICONTROL Categories]_
 
-      - `Anchor Categories`
-      - `Non-Anchor Categories`
+     - `Anchor Categories`
+     - `Non-Anchor Categories`
 
    - _[!UICONTROL Products]_
 
-      - `All Product Type`
-      - `Simple Product`
-      - `Virtual Product`
-      - `Bundle Product`
-      - `Configurable Product`
-      - `Downloadable Product`
-      - `Gift Card`
-      - `Grouped Product`
+     - `All Product Type`
+     - `Simple Product`
+     - `Virtual Product`
+     - `Bundle Product`
+     - `Configurable Product`
+     - `Downloadable Product`
+     - `Gift Card`
+     - `Grouped Product`
 
    - _[!UICONTROL Generic Page]_
 
-      - `All Pages`
-      - `Specified Page`
-      - `Page Layouts`
+     - `All Pages`
+     - `Specified Page`
+     - `Page Layouts`
 
 1. En la lista **[!UICONTROL Container]**, elija el área del diseño de página donde se colocará.
 

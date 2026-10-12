@@ -3,29 +3,43 @@ title: Importación y exportación programadas
 description: Obtenga información sobre cómo administrar las operaciones programadas de importación y exportación de datos.
 exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 feature: Products, Customers, Data Import/Export
-TQID: https://experienceleague.adobe.com/Zf5cLdCLjaDo8X8EvH4T9akYnlTBU-3Iyj2EIgMkjtU
+TQID: 'https://experienceleague.adobe.com/Zf5cLdCLjaDo8X8EvH4T9akYnlTBU-3Iyj2EIgMkjtU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2462
+source-wordcount: '2462'
 ht-degree: 0%
-
 ---
-
 # Importación y exportación programadas
 
 {{ee-feature}}
@@ -82,20 +96,20 @@ Después de cada trabajo de importación programado, se realiza automáticamente
 
    - **[!UICONTROL Entity Type]** — Se establece en uno de los siguientes:
 
-      - `Products`
-      - `Advanced Pricing`
-      - `Customers and Addresses (single file)`
-      - `Customer Addresses`
-      - `Customer Finances`
-      - `Customers Main File`
-      - `Stock Sources`
+     - `Products`
+     - `Advanced Pricing`
+     - `Customers and Addresses (single file)`
+     - `Customer Addresses`
+     - `Customer Finances`
+     - `Customers Main File`
+     - `Stock Sources`
 
    - **[!UICONTROL Import Behavior]** — Se establece en uno de los siguientes:
 
-      - `Add/Update Complex Data`: agrega o actualiza nuevos datos complejos a los datos complejos existentes para las entradas existentes en la base de datos. Este es el valor predeterminado.
-      - `Replace`: escribe sobre el complejo existente para las entidades existentes en la base de datos.
-      - `Delete Entities` — elimina las entradas existentes en la base de datos.
-      - `Custom Action` - Personaliza entidades existentes en la base de datos.
+     - `Add/Update Complex Data`: agrega o actualiza nuevos datos complejos a los datos complejos existentes para las entradas existentes en la base de datos. Este es el valor predeterminado.
+     - `Replace`: escribe sobre el complejo existente para las entidades existentes en la base de datos.
+     - `Delete Entities` — elimina las entradas existentes en la base de datos.
+     - `Custom Action` - Personaliza entidades existentes en la base de datos.
 
      >[!NOTE]
      >
@@ -233,12 +247,12 @@ Los detalles de cada exportación no se escriben en un registro, pero si se prod
 
    - Establezca **[!UICONTROL Entity Type]** en una de las siguientes opciones:
 
-      - `Advanced Pricing`
-      - `Products`
-      - `Customer Financing`
-      - `Customers Main File`
-      - `Customer Addresses`
-      - `Stock Sources`
+     - `Advanced Pricing`
+     - `Products`
+     - `Customer Financing`
+     - `Customers Main File`
+     - `Customer Addresses`
+     - `Stock Sources`
 
      La sección _[!UICONTROL Entity Attributes]_&#x200B;en la parte inferior de la página se actualiza para reflejar el tipo de entidad seleccionado.
 
@@ -246,9 +260,9 @@ Los detalles de cada exportación no se escriben en un registro, pero si se prod
 
    - Establezca **[!UICONTROL Frequency]** en una de las siguientes opciones:
 
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
 
 1. Para activar la exportación programada, establezca **[!UICONTROL Status]** en `Enabled`.
 

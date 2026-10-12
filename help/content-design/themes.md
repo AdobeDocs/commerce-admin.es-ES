@@ -1,16 +1,32 @@
 ---
 title: Temas
-description: Obtenga información acerca de  [!DNL Commerce] temáticas, que incluyen archivos de diseño, archivos de plantilla, archivos de traducción y máscaras que definen el aspecto de su tienda.
+description: Obtenga información acerca de [!DNL Commerce] temas, que incluyen archivos de diseño, archivos de plantilla, archivos de traducción y máscaras que definen la apariencia de su tienda.
 exl-id: d2ccff51-5019-4f80-8eaa-3fe50d5cd6cc
 feature: Page Content, Themes
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 8b440f30-6794-5ed6-981f-391de4e9b0cc
+    internal-label: Themes
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '462'
 ht-degree: 0%
-
 ---
-
 # Temas
 
 Un tema es una colección de archivos que determina la presentación visual del almacén. Cuando instala [!DNL Commerce] por primera vez, los elementos de diseño de la tienda se basan en el tema _Default_. Además del tema predeterminado inicial que viene con la instalación de [!DNL Commerce], hay una amplia variedad de temas disponibles que puede usar _tal cual_ o modificar según sus necesidades.
