@@ -3,29 +3,39 @@ title: Precios de nivel
 description: Aprenda a utilizar los precios de nivel para ofrecer un descuento por cantidad desde una lista de productos o una página de productos.
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/jnHBD-ANVzqZa1IKCAy5aDrtj4n-ZDxXjFH4cGZ3dgM
+TQID: 'https://experienceleague.adobe.com/jnHBD-ANVzqZa1IKCAy5aDrtj4n-ZDxXjFH4cGZ3dgM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 892
+source-wordcount: '892'
 ht-degree: 1%
-
 ---
-
 # Precios de nivel
 
 El nivel de precios le permite ofrecer un descuento por cantidad desde una lista de productos o una página de productos en la tienda. El descuento se puede aplicar a una vista de tienda, a un grupo de clientes o a un catálogo compartido específicos.
@@ -72,7 +82,7 @@ Los precios de la tienda tienen prioridad de la cantidad más alta a la más baj
 
      >[!NOTE]
      >
-     >Para obtener el precio con descuento, el porcentaje definido se calcula respecto al valor definido en el campo _[!UICONTROL Price]_, no en el campo&#x200B;_[!UICONTROL Special Price]_.
+     >Para obtener el precio con descuento, el porcentaje definido se calcula respecto al valor definido en el campo _[!UICONTROL Price]_, no en el campo_[!UICONTROL Special Price]_.
 
      ![Precio de nivel como porcentaje](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
@@ -92,7 +102,7 @@ Los precios de la tienda tienen prioridad de la cantidad más alta a la más baj
 
 ## Activar asignación de precios de nivel para reglas de precios de catálogo
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
 
 En versiones anteriores de Commerce, no se podían utilizar precios de nivel junto con reglas de precios de catálogo. Las reglas de catálogo omiten la configuración de precios de nivel y calculan los descuentos sólo desde el precio base original. Con Adobe Commerce as a Cloud Service, ahora puede optar por incluir los precios de nivel en el cálculo de las reglas de precios de catálogo.
 
@@ -108,7 +118,7 @@ Para habilitar esta funcionalidad:
 
 Para ilustrar el funcionamiento de la asignación de precios de nivel con las reglas de precios de catálogo al comprar un único producto, observe el siguiente ejemplo:
 
-- El precio base estándar de un producto es de 100 USD.
+- El precio base estándar de un producto es 100 USD.
 - Se ha definido un precio de nivel para el grupo de clientes `Wholesale` con una cantidad de `1` y un precio fijo de 90 USD.
 - Una regla de precio de catálogo proporciona un descuento del 10% para el grupo de clientes `Wholesale`.
 
@@ -118,7 +128,7 @@ Cuando se activa la asignación de precios de nivel para las reglas de precios d
 
 1. Una vez que el cliente inicia sesión como miembro del grupo `Wholesale`, el precio del producto se ajusta a 90 USD (el precio de nivel para el grupo `Wholesale`).
 
-1. Se aplica la regla de precio de catálogo, que proporciona un descuento del 10% sobre el precio de nivel de 90 USD, lo que da como resultado un precio final de 81 USD.
+1. Se aplica la regla de precio de catálogo, que proporciona un descuento del 10% en el precio de nivel de 90 USD, lo que da como resultado un precio final de 81 USD.
 
 La siguiente tabla resume los cálculos de precios cuando se activa la asignación de precios de nivel para las reglas de precios de catálogo y una regla de precios de catálogo proporciona un descuento del 10% para todos los grupos de clientes:
 

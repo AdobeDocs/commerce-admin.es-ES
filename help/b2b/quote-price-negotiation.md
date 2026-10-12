@@ -3,30 +3,46 @@ title: Negociación de una cotización
 description: Obtenga información sobre los flujos de trabajo de negociación de presupuestos y cómo trabajar con compradores para realizar compras.
 exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
-TQID: https://experienceleague.adobe.com/0AJuvoJhk1iwwDGPmhygvBunlPo0sOWOmgAvINZxcGU
+TQID: 'https://experienceleague.adobe.com/0AJuvoJhk1iwwDGPmhygvBunlPo0sOWOmgAvINZxcGU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 792a7e9b-6519-5e99-a913-56c3dd2408da
+    internal-label: Quotes
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2249
+source-wordcount: '2277'
 ht-degree: 0%
-
 ---
-
 # Negociación de una cotización
 
 Si las [ofertas B2B están habilitadas](configure-quotes.md) en la configuración, un comprador autorizado de una compañía o un representante de ventas puede iniciar la negociación de precios.
@@ -64,7 +80,7 @@ Los compradores administran el proceso de negociación de ofertas desde la tiend
 
 1. Elija un **[!UICONTROL Expiration Date]** para la oferta.
 
-1. Desplácese hacia abajo hasta la sección _[!UICONTROL Quote Totals]_&#x200B;y actualice **[!UICONTROL Negotiated Price]**&#x200B;según sea necesario.
+1. Desplácese hacia abajo hasta la sección _[!UICONTROL Quote Totals]_y actualice **[!UICONTROL Negotiated Price]**según sea necesario.
 
    ![Actualizar precio negociado](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
 
@@ -82,7 +98,7 @@ Los compradores administran el proceso de negociación de ofertas desde la tiend
 
 ### Aplicar actualizaciones de artículos de línea
 
-Aplique los cambios de elemento de línea en la sección _[!UICONTROL Items Quoted]_&#x200B;si es necesario.
+Aplique los cambios de elemento de línea en la sección _[!UICONTROL Items Quoted]_si es necesario.
 
 ![Aplicar actualizaciones de elementos de línea](./assets/quote-apply-line-item-operations.png){width="600" zoomable="yes"}
 
@@ -93,11 +109,11 @@ Aplique los cambios de elemento de línea en la sección _[!UICONTROL Items Quot
   La opción [!UICONTROL Configure] solo está disponible en un elemento de línea de un producto configurable
 
 - En el menú **[!UICONTROL Action]**, seleccione una acción para actualizar el elemento:
-   - **Artículo de descuento** para aplicar un descuento como porcentaje, cantidad fija o precio preferido.
-Si lo desea, puede bloquear el importe del descuento para evitar descuentos adicionales. Si el descuento no está bloqueado,
-tanto el descuento de artículo de línea como cualquier descuento de nivel de oferta se aplican al precio del producto.
-   - **Deja una nota al comprador** para proporcionarle información adicional sobre un artículo
-   - **Quitar** para quitar un elemento de la oferta.
+  - **Artículo de descuento** para aplicar un descuento como porcentaje, cantidad fija o precio preferido.
+    Si lo desea, puede bloquear el importe del descuento para evitar descuentos adicionales. Si el descuento no está bloqueado,
+    tanto el descuento de artículo de línea como cualquier descuento de nivel de oferta se aplican al precio del producto.
+  - **Deja una nota al comprador** para proporcionarle información adicional sobre un artículo
+  - **Quitar** para quitar un elemento de la oferta.
 
 ### Aplicar cambios y actualizar
 
@@ -117,7 +133,7 @@ tanto el descuento de artículo de línea como cualquier descuento de nivel de o
 
 1. Escriba un **[!UICONTROL Proposed Shipping Price]**.
 
-   _[!UICONTROL Quote Totals]_&#x200B;se han actualizado para reflejar el precio de envío propuesto.
+   _[!UICONTROL Quote Totals]_se han actualizado para reflejar el precio de envío propuesto.
 
 ### Adjuntar un documento acreditativo
 
@@ -129,7 +145,7 @@ tanto el descuento de artículo de línea como cualquier descuento de nivel de o
 
 ## Paso 3: Actualice la información de nivel de oferta y envíe su respuesta
 
-1. En la sección _[!UICONTROL Negotiation]_&#x200B;de la ficha&#x200B;_[!UICONTROL Comments]_, escriba su respuesta en la sección **[!UICONTROL Add your comment]**.
+1. En la sección _[!UICONTROL Negotiation]_de la ficha_[!UICONTROL Comments]_, escriba su respuesta en la sección **[!UICONTROL Add your comment]**.
 
 1. Para incluir un documento acreditativo, haga clic en **[!UICONTROL Attach file]** y seleccione el archivo del directorio.
 
@@ -137,11 +153,11 @@ tanto el descuento de artículo de línea como cualquier descuento de nivel de o
 
 1. Para aplicar un descuento a la oferta:
 
-   - En _[!UICONTROL Quote Totals]_, en la sección&#x200B;_[!UICONTROL Negotiated Price]_, elija uno de los siguientes tipos de descuento:
+   - En _[!UICONTROL Quote Totals]_, en la sección_[!UICONTROL Negotiated Price]_, elija uno de los siguientes tipos de descuento:
 
-      - `Percentage Discount`: un descuento porcentual reduce el precio original en un porcentaje específico.
-      - `Amount Discount`: un descuento de importe aplica una reducción de precio fijo.
-      - `Proposed Price`: un descuento de precio propuesto establece el precio final en una cantidad específica, independientemente del precio original.
+     - `Percentage Discount`: un descuento porcentual reduce el precio original en un porcentaje específico.
+     - `Amount Discount`: un descuento de importe aplica una reducción de precio fijo.
+     - `Proposed Price`: un descuento de precio propuesto establece el precio final en una cantidad específica, independientemente del precio original.
 
    - Introduzca el importe como porcentaje o precio fijo.
 
@@ -149,9 +165,9 @@ tanto el descuento de artículo de línea como cualquier descuento de nivel de o
 
    - Puede aplicar descuentos a cada artículo de línea o a la oferta en su conjunto:
 
-      - **Descuentos de artículos de línea**: Los descuentos de artículos de línea se aplican a artículos individuales del carro de compras. El descuento puede ser `percentage`, `amount` específico o `proposed price`.
-      - **Descuentos de nivel de carro de compras**: Los descuentos de nivel de carro de compras se aplican a todo el carro de compras. El descuento puede ser `percentage` o un `amount` específico y se aplica al valor total del carro de compras.
-      - **Combinación de descuentos de artículos de línea y carro de compras**: En algunos casos, los descuentos se pueden aplicar en los niveles de artículo de línea y carro de compras. El descuento por artículo de línea se aplica primero, seguido del descuento a nivel de carro de compras sobre el total restante.
+     - **Descuentos de artículos de línea**: Los descuentos de artículos de línea se aplican a artículos individuales del carro de compras. El descuento puede ser `percentage`, `amount` específico o `proposed price`.
+     - **Descuentos de nivel de carro de compras**: Los descuentos de nivel de carro de compras se aplican a todo el carro de compras. El descuento puede ser `percentage` o un `amount` específico y se aplica al valor total del carro de compras.
+     - **Combinación de descuentos de artículos de línea y carro de compras**: En algunos casos, los descuentos se pueden aplicar en los niveles de artículo de línea y carro de compras. El descuento por artículo de línea se aplica primero, seguido del descuento a nivel de carro de compras sobre el total restante.
 
 1. Envíe o guarde la oferta:
 
@@ -177,7 +193,7 @@ Para monitorizar su posición en el flujo de trabajo, compruebe el correo electr
 
 | Botón | Descripción |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Back] | Vuelve a la página _[!UICONTROL Quotes]_&#x200B;sin guardar los cambios. |
+| [!UICONTROL Back] | Vuelve a la página _[!UICONTROL Quotes]_sin guardar los cambios. |
 | [!UICONTROL Print] | Envía el presupuesto a una impresora o lo guarda como archivo PDF. |
 | [!UICONTROL Create Copy] | Crea y abre una copia de la oferta actual con `(copy)` anexado al nombre original. Cambie el nombre de la nueva cita editando el campo [!UICONTROL Name]. Procese la nueva oferta guardándola como borrador o enviándola al cliente. |
 | Crear plantilla | Cree una plantilla de oferta basada en la oferta actual. Las plantillas de oferta agilizan la negociación de ofertas al permitir que los compradores y los vendedores acuerden las condiciones de contrato y asignación de precios que se pueden aplicar a varias ofertas. . En el momento del acuerdo, el comprador puede generar una oferta vinculada y aprobada previamente a partir de la plantilla para pedidos posteriores en lugar de reiniciar el proceso de solicitud de oferta. |

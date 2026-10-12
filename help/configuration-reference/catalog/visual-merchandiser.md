@@ -3,27 +3,35 @@ title: '[!UICONTROL Catalog] > [!UICONTROL Visual Merchandiser]'
 description: Revise la configuración en la página [!UICONTROL Catalog] > [!UICONTROL Visual Merchandiser] del administrador de Commerce.
 exl-id: 264f0f21-7324-4e37-938e-9f0cdbb3dfe8
 feature: Configuration, Merchandising
-TQID: https://experienceleague.adobe.com/uhFV73P5IktXI9KmYz4VGXzzUIlu-GMRNBilAwd4zok
+TQID: 'https://experienceleague.adobe.com/uhFV73P5IktXI9KmYz4VGXzzUIlu-GMRNBilAwd4zok'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 94
-ht-degree: 2%
-
+source-wordcount: '99'
+ht-degree: 7%
 ---
-
 # [!UICONTROL Catalog] > [!UICONTROL Visual Merchandiser]
 
 {{ee-feature}}
@@ -34,7 +42,7 @@ ht-degree: 2%
 
 ![Opciones generales](./assets/catalog-visual-merchandiser-general-options.png)<!-- zoom -->
 
-<!-- [General Options](https://experienceleague.adobe.com/es/docs/commerce-admin/marketing/merchandising/visual-merch/smart-attributes-configure) -->
+<!-- [General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/visual-merch/smart-attributes-configure) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |

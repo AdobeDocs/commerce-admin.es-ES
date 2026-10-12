@@ -3,30 +3,40 @@ title: PayPal Payflow Pro
 description: Aprenda a configurar PayPal Payflow Pro como solución de pago en línea en su tienda.
 exl-id: c720b33c-44e1-4954-b5be-38932393a43c
 feature: Payments
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-TQID: https://experienceleague.adobe.com/Ihjp0mA-r63ONIWgCpZFxi4rdt9cVowqPX1VyD4SRaQ
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+TQID: 'https://experienceleague.adobe.com/Ihjp0mA-r63ONIWgCpZFxi4rdt9cVowqPX1VyD4SRaQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2264
+source-wordcount: '2328'
 ht-degree: 0%
-
 ---
-
 # PayPal Payflow Pro
 
 La pasarela PayPal Payflow Pro, anteriormente conocida como _Verisign_, está disponible para clientes de Estados Unidos, Canadá, Australia y Nueva Zelanda. A diferencia de otros métodos de pago de PayPal, a los comerciantes se les cobra una tarifa mensual fija, más una tarifa fija por cada transacción, independientemente del número.
@@ -75,9 +85,9 @@ La pasarela PayPal Payflow Pro, anteriormente conocida como _Verisign_, está di
 
    - En **[!UICONTROL Security Options]**, complete la siguiente configuración:
 
-      - **[!UICONTROL AVS]**: `No`
-      - **[!UICONTROL CSC]**: `No`
-      - **[!UICONTROL Enable Secure Token]**: `Yes`
+     - **[!UICONTROL AVS]**: `No`
+     - **[!UICONTROL CSC]**: `No`
+     - **[!UICONTROL Enable Secure Token]**: `Yes`
 
    - Elija **[!UICONTROL Customize]** y, a continuación, elija **[!UICONTROL Layout C]**.
 
@@ -105,10 +115,10 @@ La pasarela PayPal Payflow Pro, anteriormente conocida como _Verisign_, está di
 
    - Rellene los campos obligatorios de las siguientes secciones del formulario _[!UICONTROL Add User]_:
 
-      - [!UICONTROL Admin Confirmation]
-      - [!UICONTROL User Information]
-      - [!UICONTROL User Login Information]
-      - [!UICONTROL Assign Privilege to User]
+     - [!UICONTROL Admin Confirmation]
+     - [!UICONTROL User Information]
+     - [!UICONTROL User Login Information]
+     - [!UICONTROL Assign Privilege to User]
 
    - Haga clic en **[!UICONTROL Update]**.
 
@@ -130,7 +140,7 @@ Este método de configuración supone que ya tienes una cuenta PayPal.
 
 1. Si la instalación de Commerce tiene varios sitios web, tiendas o vistas, establezca **[!UICONTROL Store View]** en la vista de tienda en la que desee aplicar esta configuración.
 
-1. En la sección _[!UICONTROL Merchant Location]_, seleccione **[!UICONTROL Merchant Country]**&#x200B;donde se encuentra su empresa.
+1. En la sección _[!UICONTROL Merchant Location]_, seleccione **[!UICONTROL Merchant Country]**donde se encuentra su empresa.
 
    Esta configuración determina la selección de soluciones de PayPal que aparecen en la configuración.
 
@@ -381,8 +391,8 @@ Para determinar cuándo se debe rechazar una transacción cuando el sistema de v
 
    - Si se ha registrado en el servidor FTP seguro de PayPal, introduzca las siguientes credenciales de inicio de sesión en el SFTP:
 
-      - Iniciar sesión
-      - Contraseña
+     - Iniciar sesión
+     - Contraseña
 
    - Para ejecutar informes de prueba antes de publicar el cierre de compra rápido en el sitio, establezca **[!UICONTROL Sandbox Mode]** en `Yes`.
 
@@ -400,13 +410,13 @@ Para determinar cuándo se debe rechazar una transacción cuando el sistema de v
 
    - Establezca **[!UICONTROL Schedule]** en una de las siguientes opciones:
 
-      - `Daily`
-      - `Every 3 Days`
-      - `Every 7 Days`
-      - `Every 10 Days`
-      - `Every 14 Days`
-      - `Every 30 Days`
-      - `Every 40 Days`
+     - `Daily`
+     - `Every 3 Days`
+     - `Every 7 Days`
+     - `Every 10 Days`
+     - `Every 14 Days`
+     - `Every 30 Days`
+     - `Every 40 Days`
 
      PayPal conserva cada informe durante 45 días.
 
@@ -434,9 +444,9 @@ Utilice la Configuración de experiencia de front-end para elegir qué logotipos
 
    - Escriba el nombre de **[!UICONTROL Page Style]** que desea aplicar a sus páginas de comerciante de PayPal:
 
-      - `paypal`: utiliza el estilo de página de PayPal.
-      - `primary`: utiliza el estilo de página que identificó como estilo _principal_ en el perfil de la cuenta.
-      - `your_custom_value`: utiliza un estilo de página de pago personalizado, que se especifica en el perfil de la cuenta.
+     - `paypal`: utiliza el estilo de página de PayPal.
+     - `primary`: utiliza el estilo de página que identificó como estilo _principal_ en el perfil de la cuenta.
+     - `your_custom_value`: utiliza un estilo de página de pago personalizado, que se especifica en el perfil de la cuenta.
 
    - Para **[!UICONTROL Header Image URL]**, escriba la dirección URL de la imagen que desea que aparezca en la esquina superior izquierda de la página de pago. El tamaño máximo de archivo es de 750 píxeles de ancho por 90 píxeles de alto.
 
@@ -446,9 +456,9 @@ Utilice la Configuración de experiencia de front-end para elegir qué logotipos
 
    - Para establecer el color de las páginas, escriba el código hexadecimal de seis caracteres, sin el símbolo `#`, para cada uno de los siguientes elementos:
 
-      - **[!UICONTROL Header Background Color]** - Color de fondo del encabezado de la página de pago.
-      - **[!UICONTROL Header Border Color]** - Color para borde de dos píxeles alrededor del encabezado.
-      - **[!UICONTROL Page Background Color]**: color de fondo de la página de pago y alrededor del encabezado y del formulario de pago.
+     - **[!UICONTROL Header Background Color]** - Color de fondo del encabezado de la página de pago.
+     - **[!UICONTROL Header Border Color]** - Color para borde de dos píxeles alrededor del encabezado.
+     - **[!UICONTROL Page Background Color]**: color de fondo de la página de pago y alrededor del encabezado y del formulario de pago.
 
 ### Paso 6: Completa la configuración básica de Pago y envío de PayPal Express
 
@@ -469,7 +479,7 @@ Utilice la Configuración de experiencia de front-end para elegir qué logotipos
    - `Authorization` - Aprueba la compra y suspende los fondos. La cantidad no se retira hasta que el comerciante _la capture_.
    - `Sale`: el importe de la compra se autoriza y se retira inmediatamente de la cuenta del cliente.
 
-1. Para mostrar el botón _[!UICONTROL Check out with PayPal]_&#x200B;en la página de productos, establezca **[!UICONTROL Display on Product Details Page]**&#x200B;en `Yes`.
+1. Para mostrar el botón _[!UICONTROL Check out with PayPal]_en la página de productos, establezca **[!UICONTROL Display on Product Details Page]**en `Yes`.
 
 ### Paso 7: Completa la configuración avanzada de Pago y envío de PayPal Express
 

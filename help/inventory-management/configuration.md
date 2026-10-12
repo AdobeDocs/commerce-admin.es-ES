@@ -1,36 +1,46 @@
 ---
-title: Configurar  [!DNL Inventory Management]
-description: Descripción general de la configuración de  [!DNL Inventory Management] en el nivel de catálogo y producto para mostrar la tienda, las existencias y el comportamiento de envío.
+title: Configurar [!DNL Inventory Management]
+description: Información general sobre la configuración de [!DNL Inventory Management] en el nivel de catálogo y producto para el comportamiento de envío, existencias y visualización de tienda.
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration
-TQID: https://experienceleague.adobe.com/3ay4K29pe2WkzYT-A5NXh83sHRvd5YJ8aoVqusrbZeE
+TQID: 'https://experienceleague.adobe.com/3ay4K29pe2WkzYT-A5NXh83sHRvd5YJ8aoVqusrbZeE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 777
+source-wordcount: '778'
 ht-degree: 0%
-
 ---
-
 # Configurar [!DNL Inventory Management]
 
 El módulo [!DNL Inventory Management] admite valores de configuración de inventario en el nivel de producto y global, y también proporciona valores adicionales que afectan a la disponibilidad del origen, los productos de tienda y el envío de pedidos. Los ajustes de configuración se aplican a:
 
-- Todo el catálogo: Vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**. Luego expanda **[!UICONTROL Catalog]**&#x200B;en el panel izquierdo y seleccione **[!UICONTROL Inventory]**.
+- Todo el catálogo: Vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**. Luego expanda **[!UICONTROL Catalog]**en el panel izquierdo y seleccione **[!UICONTROL Inventory]**.
 
 - Productos específicos: Vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**. A continuación, abra el producto en modo de edición y haga clic en **[!UICONTROL Advanced Inventory]** en la sección _[!UICONTROL Sources]_.
 
@@ -62,7 +72,7 @@ Otra forma de utilizar el umbral de disponibilidad de existencias es administrar
 
 ## Restauración y herencia de la configuración
 
-Las configuraciones anulan o aplican la siguiente ruta de herencia: La sección del producto _[!UICONTROL Sources]_&#x200B;anula la configuración del almacén&#x200B;_[!UICONTROL Advanced Options]_ global _[!UICONTROL Inventory]_.
+Las configuraciones anulan o aplican la siguiente ruta de herencia: La sección del producto _[!UICONTROL Sources]_anula la configuración del almacén_[!UICONTROL Advanced Options]_ global _[!UICONTROL Inventory]_.
 
 Cuando [!DNL Commerce] comprueba si se aplica la configuración personalizada, sigue este orden:
 

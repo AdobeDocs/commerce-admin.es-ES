@@ -3,28 +3,39 @@ title: Correos electrónicos de ventas
 description: Obtenga información sobre cómo configurar correos electrónicos de ventas para admitir las comunicaciones con los clientes sobre sus pedidos.
 exl-id: b205dc61-08cc-4783-810c-686ccf2ba300
 feature: Communications, Orders
-TQID: https://experienceleague.adobe.com/M9-GhmO0XeRC9sgZmQXpv759NN-5cM92Bd8ZxxM96yg
+TQID: 'https://experienceleague.adobe.com/M9-GhmO0XeRC9sgZmQXpv759NN-5cM92Bd8ZxxM96yg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 454
+source-wordcount: '454'
 ht-degree: 3%
-
 ---
-
 # Correos electrónicos de ventas
 
 Varios mensajes de correo electrónico se activan mediante los eventos relacionados con un pedido y la configuración es similar. Asegúrese de identificar el contacto de la tienda que aparece como el remitente del mensaje, la plantilla de correo electrónico que se va a utilizar y cualquier otra persona que vaya a recibir una copia del mensaje. Los correos electrónicos de ventas se pueden enviar cuando se activan mediante un evento o por intervalo predeterminado.
@@ -50,7 +61,7 @@ Asegúrese de actualizar la plantilla [encabezado de correo electrónico](../sys
    - `Disable`: envía un correo electrónico de ventas cuando se activa un evento.
    - `Enable`: envía un correo electrónico de ventas a intervalos predeterminados y regulares.
 
-   El Soporte de Adobe Commerce recomienda habilitar el envío asincrónico para mejorar el rendimiento de la colocación de pedidos. Consulte las [prácticas recomendadas de configuración para el procesamiento de pedidos](https://experienceleague.adobe.com/es/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration) en la Base de conocimiento de asistencia de Adobe Commerce.
+   El Soporte de Adobe Commerce recomienda habilitar el envío asincrónico para mejorar el rendimiento de la colocación de pedidos. Consulte las [prácticas recomendadas de configuración para el procesamiento de pedidos](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration) en la Base de conocimiento de asistencia de Adobe Commerce.
 
 ## Paso 3. Completar los detalles de cada mensaje de correo electrónico de ventas
 

@@ -3,27 +3,35 @@ title: Configuración del transportista de envío
 description: Obtenga información acerca de la compatibilidad con las cuentas de envío comerciales disponibles en su tienda.
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/zKN3BQWHywAOLJ-zaJX1-8b7aAYxtzl8v9J7uJG1rFg
+TQID: 'https://experienceleague.adobe.com/zKN3BQWHywAOLJ-zaJX1-8b7aAYxtzl8v9J7uJG1rFg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 496
+source-wordcount: '496'
 ht-degree: 0%
-
 ---
-
 # Configuración del transportista de envío
 
 Si tiene una cuenta comercial con un transportista admitido, puede ofrecer a sus clientes la comodidad de elegir ese transportista durante el cierre de compra. Las tarifas se descargan automáticamente, por lo que no es necesario buscar la información.
@@ -38,10 +46,10 @@ Antes de poder ofrecer a sus clientes una selección de transportistas, debe com
 
 - Configure las opciones de cada servicio de operador que desee ofrecer.
 
-   - [**UPS**](ups.md) - United Parcel Service (UPS) ofrece servicios de envío nacionales e internacionales por tierra y aire a más de 220 países.
-   - [**USPS**](usps.md) - El Servicio Postal de los Estados Unidos (USPS) es el servicio postal independiente del gobierno de los Estados Unidos. USPS ofrece servicios de envío nacionales e internacionales por tierra y aire.
-   - [**FedEx**](fedex.md) - FedEx ofrece servicios de envío nacionales e internacionales por tierra y aire a más de 220 países.
-   - [**DHL**](dhl.md) - DHL ofrece servicios internacionales integrados y soluciones adaptadas y centradas en el cliente para administrar y transportar cartas, bienes e información.
+  - [**UPS**](ups.md) - United Parcel Service (UPS) ofrece servicios de envío nacionales e internacionales por tierra y aire a más de 220 países.
+  - [**USPS**](usps.md) - El Servicio Postal de los Estados Unidos (USPS) es el servicio postal independiente del gobierno de los Estados Unidos. USPS ofrece servicios de envío nacionales e internacionales por tierra y aire.
+  - [**FedEx**](fedex.md) - FedEx ofrece servicios de envío nacionales e internacionales por tierra y aire a más de 220 países.
+  - [**DHL**](dhl.md) - DHL ofrece servicios internacionales integrados y soluciones adaptadas y centradas en el cliente para administrar y transportar cartas, bienes e información.
 
 ## Peso dimensional
 
@@ -65,11 +73,11 @@ El 25 de enero de 2026, USPS retiró las API de herramientas web heredadas. Desp
 
 Para evitar interrupciones en los servicios de envío de USPS, actualice a la versión más reciente de Adobe Commerce o realice las siguientes acciones:
 
-- Aplique el [parche de calidad de migración de la API REST de USPS](https://experienceleague.adobe.com/es/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) para agregar compatibilidad con la integración con las API REST de USPS.
+- Aplique el [parche de calidad de migración de la API REST de USPS](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) para agregar compatibilidad con la integración con las API REST de USPS.
 
 - Actualice la configuración de Commerce USPS para utilizar las API de REST:
 
-   - [Configuración de transportista de envío USPS](usps.md)
+  - [Configuración de transportista de envío USPS](usps.md)
 
-   - [Configuración de etiquetas de envío](shipping-label-create.md)
+  - [Configuración de etiquetas de envío](shipping-label-create.md)
 

@@ -3,30 +3,42 @@ title: Cuentas de tarjeta regalo
 description: Obtenga información sobre las cuentas de tarjetas regalo y cómo configurar las opciones predeterminadas para la administración de grupos de códigos.
 exl-id: f8caff04-38fd-4195-ab11-77dae900976d
 feature: Products, Gift, Configuration
-TQID: https://experienceleague.adobe.com/Yc9uWjM1Je77Cw1BO5PJVjg05icRtI4Ehhytr5mTCBI
+TQID: 'https://experienceleague.adobe.com/Yc9uWjM1Je77Cw1BO5PJVjg05icRtI4Ehhytr5mTCBI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 4fc0a729-4349-5307-bd06-1b4bfbaf5d0c
+    internal-label: Gift
 subfeature_v2:
   - id: d9ced453-36f4-4eb5-b2f3-1d593e32476b
+    internal-label: Account management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 935
+source-wordcount: '935'
 ht-degree: 0%
-
 ---
-
 # Cuentas de tarjeta regalo
 
 Se crea automáticamente una cuenta de tarjeta de regalo para cada tarjeta de regalo que se compre. El valor de la tarjeta regalo se puede aplicar a la compra de un producto en su tienda. También puede crear cuentas de tarjetas regalo del administrador como una promoción o servicio para los clientes. El número de cuenta de la tarjeta regalo corresponde al código de la tarjeta regalo.
@@ -43,7 +55,7 @@ La configuración de tarjetas regalo establece la configuración predeterminada 
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Gift Cards]**.
 
-1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Gift Card Email Settings]_&#x200B;y haga lo siguiente:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Gift Card Email Settings]_y haga lo siguiente:
 
    - Establezca **[!UICONTROL Gift Card Notification Email Sender]** en la identidad de la tienda que aparece como remitente de las notificaciones de tarjetas de regalo.
 
@@ -51,7 +63,7 @@ La configuración de tarjetas regalo establece la configuración predeterminada 
 
    ![Configuración de correo electrónico de tarjeta regalo](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png){width="600" zoomable="yes"}
 
-1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Email Sent from Gift Card Account Management]_&#x200B;y haga lo siguiente:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Email Sent from Gift Card Account Management]_y haga lo siguiente:
 
    - Establezca **[!UICONTROL Gift Card Email Sender]** en la identidad de la tienda para que aparezca como el remitente de las tarjetas de regalo.
 
@@ -84,17 +96,17 @@ Consulte [Almacenar direcciones de correo electrónico](../configuration-referen
 
 ### Paso 3: Establecer el grupo de códigos de tarjeta de regalo
 
-1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Gift Card Account General Settings]_&#x200B;y haga lo siguiente:
+1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección _[!UICONTROL Gift Card Account General Settings]_y haga lo siguiente:
 
    ![Configuración general de la cuenta de la tarjeta regalo](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png){width="600" zoomable="yes"}
 
    - Para personalizar el código, complete lo siguiente según sus preferencias:
 
-      - Longitud de código
-      - Formato de código
-      - Prefijo de código
-      - Sufijo de código
-      - Guión cada X caracteres
+     - Longitud de código
+     - Formato de código
+     - Prefijo de código
+     - Sufijo de código
+     - Guión cada X caracteres
 
    - Para determinar el número de códigos que se van a generar, escriba **[!UICONTROL New Pool Size]**.
 
@@ -132,7 +144,7 @@ Consulte [Almacenar direcciones de correo electrónico](../configuration-referen
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add Gift Card Account]**.
 
-1. En la sección _[!UICONTROL Information]_, establezca **[!UICONTROL Active]**&#x200B;en `Yes` y haga lo siguiente:
+1. En la sección _[!UICONTROL Information]_, establezca **[!UICONTROL Active]**en `Yes` y haga lo siguiente:
 
    - Para que el saldo de la tarjeta se pueda canjear en el cierre de compra o se transfiera al crédito de la tienda del cliente, establezca **[!UICONTROL Redeemable]** en `Yes`.
 

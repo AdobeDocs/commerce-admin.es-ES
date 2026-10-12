@@ -18,6 +18,12 @@ feature_v2:
     internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -33,7 +39,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '1332'
 ht-degree: 0%
@@ -49,7 +55,7 @@ Utilice la página Estado de Sincronización de Vista de Catálogo para supervis
 
 ## Audiencia y disponibilidad {#audience}
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a Adobe Commerce en infraestructura en la nube y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a Adobe Commerce en infraestructura en la nube y a proyectos locales."}
 
 La página [!UICONTROL Catalog View Sync Status] está disponible para Adobe Commerce en la infraestructura en la nube y para los comerciantes locales que utilizan catálogos compartidos B2B con la integración [!DNL Adobe Commerce Optimizer Connector for B2B]. La página se instala y activa automáticamente cuando se instala la extensión del conector.
 
@@ -190,6 +196,6 @@ Las filas de esta pestaña se borran automáticamente al cabo de 90 días.
 > - [Estado de sincronización de fuente de datos](data-feed-sync-status.md)
 > - [Servicios > Sincronización de vista de catálogo de ACO](../configuration-reference/services/aco-catalog-view-sync.md): configure los períodos de gracia de eliminación y creación y el reconciliador de deriva
 > - [Administración de claves de acceso restringido](restricted-access-keys.md): administre las claves cuya caducidad muestra esta página
-> - [Supervisar la sincronización de la vista del catálogo para los catálogos compartidos B2B](https://experienceleague.adobe.com/es/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status) en la *Guía del conector de Adobe Commerce Optimizer*
-> - [Vistas del catálogo privado](https://experienceleague.adobe.com/es/docs/commerce/optimizer/setup/private-catalog-view)
-> - [Claves de acceso restringido](https://experienceleague.adobe.com/es/docs/commerce/optimizer/setup/restricted-access-keys)
+> - [Supervisar la sincronización de la vista del catálogo para los catálogos compartidos B2B](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status) en la *Guía del conector de Adobe Commerce Optimizer*
+> - [Vistas del catálogo privado](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/private-catalog-view)
+> - [Claves de acceso restringido](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys)

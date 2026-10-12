@@ -3,28 +3,37 @@ title: '[!UICONTROL Catalog] > [!UICONTROL Inventory]'
 description: Revise la configuración en la página [!UICONTROL Catalog] > [!UICONTROL Inventory] del administrador de Commerce.
 exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
 feature: Configuration, Inventory
-TQID: https://experienceleague.adobe.com/kxlKhWRjFDUH97FDenycl4nU1QdBWzceDCKfhZ0MTAc
+TQID: 'https://experienceleague.adobe.com/kxlKhWRjFDUH97FDenycl4nU1QdBWzceDCKfhZ0MTAc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 449593264c88c9090b26ffbc8e87a8d70d4cbfe9
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1296
+source-wordcount: '1296'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Catalog] > [!UICONTROL Inventory]
 
 {{config}}
@@ -37,7 +46,7 @@ ht-degree: 0%
 
 ![Opciones de Stock](./assets/catalog-inventory-stock-options.png)<!-- zoom -->
 
-<!-- [Stock Options](https://experienceleague.adobe.com/es/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -55,13 +64,13 @@ ht-degree: 0%
 
 ![Opciones de productos](./assets/catalog-inventory-product-stock-options.png)<!-- zoom -->
 
-<!-- [Product Stock Options](https://experienceleague.adobe.com/es/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Product Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Manage Stock] | Global | Determina si utiliza el control de inventario completo para administrar los artículos del catálogo. Opciones: <br/>**Sí**: activa el control de inventario completo para realizar un seguimiento del número de artículos que están actualmente en existencias. <br/>**No**: no realiza el seguimiento del número de elementos que están actualmente en existencias. |
 | [!UICONTROL Backorders] | Global | Determina la forma en que la tienda administra los pedidos pendientes. Un pedido pendiente no cambia el estado de procesamiento del pedido. Los fondos se siguen autorizando o capturando inmediatamente cuando se realiza el pedido, independientemente de si el producto está en stock. Cuando el producto está disponible, se envía. Opciones: <br/>**Sin pedidos pendientes**: no acepta pedidos pendientes cuando el producto está agotado. <br/>**Permitir cantidad inferior a 0** - Acepta pedidos pendientes cuando la cantidad es inferior a cero. <br/>**Permitir cantidad inferior a 0 y Notificar al cliente**: acepta pedidos pendientes cuando la cantidad es inferior a cero, pero notifica a los clientes que aún se pueden realizar pedidos. |
-| [!UICONTROL Use deferred Stock update] | Global | ![Adobe Commerce](../../assets/adobe-logo.svg) (solo Adobe Commerce) Determina si se aplaza la actualización de existencias si se permiten los pedidos no satisfechos (la opción _Pedidos no satisfechos_ está establecida en cualquier valor que no sea el valor predeterminado de `No backorders`). Funciona para un solo producto o para un sitio web completo y usa el mecanismo _Cola de trabajos_ para permitir que los indicadores de cantidad de inventario se actualicen asincrónicamente después de realizar los pedidos. Esta opción también funciona con [ubicación asincrónica de pedidos](https://experienceleague.adobe.com/es/docs/commerce-operations/performance-best-practices/high-throughput-order-processing#asynchronous-order-placement) en combinación con [Inventory management](../../inventory-management/introduction.md). |
+| [!UICONTROL Use deferred Stock update] | Global | ![Adobe Commerce](../../assets/adobe-logo.svg) (solo Adobe Commerce) Determina si se aplaza la actualización de existencias si se permiten los pedidos no satisfechos (la opción _Pedidos no satisfechos_ está establecida en cualquier valor que no sea el valor predeterminado de `No backorders`). Funciona para un solo producto o para un sitio web completo y usa el mecanismo _Cola de trabajos_ para permitir que los indicadores de cantidad de inventario se actualicen asincrónicamente después de realizar los pedidos. Esta opción también funciona con [ubicación asincrónica de pedidos](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/high-throughput-order-processing#asynchronous-order-placement) en combinación con [Inventory management](../../inventory-management/introduction.md). |
 | Cantidad máxima permitida en el carro de compras | Global | Determina la cantidad máxima de un producto que se puede comprar en un único pedido. De forma predeterminada, la cantidad máxima está establecida en 10 000. |
 | [!UICONTROL Out-of-Stock Threshold] | Global | Determina el nivel de existencias en el que se considera que un producto está agotado. Opciones: <br/>**Importe positivo** - Con _Pedidos pendientes_ deshabilitados, escriba un importe positivo. Si la opción Pedidos no satisfechos está activada, se ignorará esta cantidad. <br/>**Cero** - Con _Pedidos no satisfechos_ habilitados, ingresar `0` permite infinitos pedidos no satisfechos. <br/>**Importe negativo** - Con _Pedidos no satisfechos_ habilitados, se recomienda especificar un importe negativo. El importe se añade a la cantidad vendible. Por ejemplo, introduzca -50 para permitir pedidos de hasta esta cantidad. |
 | [!UICONTROL Minimum Qty Allowed in Shopping Cart] | Global | Determina la cantidad mínima de un artículo disponible para la compra según el grupo de clientes. De forma predeterminada, la cantidad mínima se establece en 1. Haga clic en **[!UICONTROL Add Minimum Qty]** para escribir un valor diferente para un grupo de clientes específico. |
@@ -76,7 +85,7 @@ ht-degree: 0%
 
 ![Disponibilidad Por Source (Tienda)](./assets/catalog-inventory-per-source-availability.png)<!-- zoom -->
 
-<!-- [Per-Source Availability (Storefront)](https://experienceleague.adobe.com/es/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Per-Source Availability (Storefront)](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -88,15 +97,15 @@ ht-degree: 0%
 
 ![Operaciones masivas de administración](./assets/catalog-inventory-admin-bulk-operations.png)<!-- zoom -->
 
-<!-- [Admin Bulk Operations](https://experienceleague.adobe.com/es/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Admin Bulk Operations](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
 
 >[!NOTE]
 >
->Para configurar y admitir **administradores de cola asincrónicos**, debe utilizar la línea de comandos. Esto puede requerir la asistencia del desarrollador. Consulte [Iniciar consumidores de cola de mensajes](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/cli/start-message-queues) en la _Guía de configuración_.
+>Para configurar y admitir **administradores de cola asincrónicos**, debe utilizar la línea de comandos. Esto puede requerir la asistencia del desarrollador. Consulte [Iniciar consumidores de cola de mensajes](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/start-message-queues) en la _Guía de configuración_.
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Run asynchronously] | Global | Determina si ejecuta operaciones masivas de forma asincrónica para acciones de productos masivas, entre las que se incluyen [bulk](../../inventory-management/bulk-assignment.md) asignar orígenes, anular la asignación de orígenes y [transferir inventario a origen](../../inventory-management/inventory-transfer.md). Recopila acciones masivas hasta _[!UICONTROL Asynchronous batch size]_&#x200B;y luego ejecuta esas acciones. Esta función está desactivada de forma predeterminada. Se recomienda revisar el rendimiento con acciones masivas antes de habilitar. Opciones:<br/>**`Yes`**- Ejecuta todas las operaciones masivas de [!DNL Inventory Management] de forma asincrónica. Para habilitarlo, debe configurar un administrador de colas asincrónico.<br/>**`No`**- Predeterminado. No ejecuta operaciones masivas de forma asincrónica. |
+| [!UICONTROL Run asynchronously] | Global | Determina si ejecuta operaciones masivas de forma asincrónica para acciones de productos masivas, entre las que se incluyen [bulk](../../inventory-management/bulk-assignment.md) asignar orígenes, anular la asignación de orígenes y [transferir inventario a origen](../../inventory-management/inventory-transfer.md). Recopila acciones masivas hasta _[!UICONTROL Asynchronous batch size]_y luego ejecuta esas acciones. Esta función está desactivada de forma predeterminada. Se recomienda revisar el rendimiento con acciones masivas antes de habilitar. Opciones:<br/>**`Yes`**- Ejecuta todas las operaciones masivas de [!DNL Inventory Management] de forma asincrónica. Para habilitarlo, debe configurar un administrador de colas asincrónico.<br/>**`No`**- Predeterminado. No ejecuta operaciones masivas de forma asincrónica. |
 | [!UICONTROL Asynchronous batch size] | Global | Establezca **[!UICONTROL Run asynchronously]** en `Yes` para introducir un valor para el campo _[!UICONTROL Asynchronous batch size]_. <br/>El tamaño predeterminado del lote es 100. Cuando los procesos masivos alcanzan esta cantidad, se ejecutan. |
 
 {style="table-layout:auto"}
@@ -118,7 +127,7 @@ ht-degree: 0%
 
 ![Proveedores de distancia para SSA basado en distancia](./assets/catalog-inventory-distance-provider.png)<!-- zoom -->
 
-<!-- [Distance Providers for Distance Based SSA](https://experienceleague.adobe.com/es/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
+<!-- [Distance Providers for Distance Based SSA](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -130,7 +139,7 @@ ht-degree: 0%
 
 ![Proveedor de distancia de Google](./assets/catalog-inventory-distance-provider-settings.png)<!-- zoom -->
 
-<!-- [Google Distance Provider](https://experienceleague.adobe.com/es/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
+<!-- [Google Distance Provider](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |

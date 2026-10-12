@@ -3,28 +3,41 @@ title: Reglas de producto relacionadas
 description: Obtenga información acerca de las reglas de productos relacionadas y cómo se utilizan para presentar dinámicamente productos relacionados, ampliaciones de ventas y ventas cruzadas a sus clientes.
 exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 feature: Merchandising, Products, Storefront
-TQID: https://experienceleague.adobe.com/-S2cHqetXQ0raH1d7LGRU1zW80jJ2vA9dmgSmvABNEI
+TQID: 'https://experienceleague.adobe.com/-S2cHqetXQ0raH1d7LGRU1zW80jJ2vA9dmgSmvABNEI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 879
+source-wordcount: '879'
 ht-degree: 0%
-
 ---
-
 # Reglas de producto relacionadas (reglas de destino)
 
 {{ee-feature}}
@@ -43,8 +56,8 @@ Para acceder a las reglas de producto relacionadas, vaya a **[!UICONTROL Marketi
 |--- |--- |
 | [!UICONTROL ID] | Identificador numérico único asignado a cada regla de producto relacionada |
 | [!UICONTROL Rule] | Nombre de la regla de producto relacionada |
-| [!UICONTROL Start] | Utilice los campos de calendario dinámico (_[!UICONTROL To:]_&#x200B;y_[!UICONTROL From:]_) para filtrar la lista en función de la fecha de inicio de la regla definida cuando se creó la regla. |
-| [!UICONTROL End] | Utilice los campos de calendario dinámico (_[!UICONTROL To:]_&#x200B;y_[!UICONTROL From:]_) para filtrar la lista en función de la fecha de finalización de la regla definida cuando se creó la regla. |
+| [!UICONTROL Start] | Utilice los campos de calendario dinámico (_[!UICONTROL To:]_y_[!UICONTROL From:]_) para filtrar la lista en función de la fecha de inicio de la regla definida cuando se creó la regla. |
+| [!UICONTROL End] | Utilice los campos de calendario dinámico (_[!UICONTROL To:]_y_[!UICONTROL From:]_) para filtrar la lista en función de la fecha de finalización de la regla definida cuando se creó la regla. |
 | [!UICONTROL Priority] | Introduzca texto en este campo para filtrar la lista en función de la prioridad definida para una regla. |
 | [!UICONTROL Applies To] | Esta opción filtra la lista de reglas aplicables a `Related Products`, `Up-sells` y `Cross-sells`. |
 | [!UICONTROL Status] | Utilice esta opción para filtrar la lista en función del estado de la regla (`Active` o `Inactive`). |
@@ -62,7 +75,7 @@ El número de identificadores de producto que se pueden incluir en una regla de 
 Por ejemplo, suponga que tiene tres reglas con una prioridad de `1`, `2` y `3`.
 
 - Se han devuelto dos productos coincidentes para _Regla 1_, seis productos coincidentes para _Regla 2_ y 20 productos coincidentes para _Regla 3_.
-- En la configuración, _[!UICONTROL Maximum Number of Products for Related Products List]_&#x200B;está establecido en `6`.
+- En la configuración, _[!UICONTROL Maximum Number of Products for Related Products List]_está establecido en `6`.
 
   | Reglas | Prioridad | Productos coincidentes |
   |---|---|-----|
@@ -110,15 +123,15 @@ El comportamiento de las reglas de relación de productos y la visualización de
 
    - Establezca **[!UICONTROL Show Cross-Sell Products]** en una de las siguientes opciones:
 
-      - `Both Selected and Rule Based`
-      - `Selected Only`
-      - `Rule-Based Only`
+     - `Both Selected and Rule Based`
+     - `Selected Only`
+     - `Rule-Based Only`
 
    - Establezca **[!UICONTROL Rotation Mode for Products in Cross-Sell Product List]** en una de las siguientes opciones:
 
-      - `By Priority, Then by ID`
-      - `By Priority, Then Random`
-      - `Weighted Random`
+     - `By Priority, Then by ID`
+     - `By Priority, Then Random`
+     - `Weighted Random`
 
 1. Para completar la configuración de la mejora de ventas del producto, haga lo siguiente:
 
@@ -126,15 +139,15 @@ El comportamiento de las reglas de relación de productos y la visualización de
 
    - Establezca **[!UICONTROL Show Upsell Products]** en una de las siguientes opciones:
 
-      - `Both Selected and Rule Based`
-      - `Selected Only`
-      - `Rule-Based Only`
+     - `Both Selected and Rule Based`
+     - `Selected Only`
+     - `Rule-Based Only`
 
    - Establezca **[!UICONTROL Rotation Mode for Products in Upsell Product List]** en una de las siguientes opciones:
 
-      - `By Priority, Then by ID`
-      - `By Priority, Then Random`
-      - `Weighted Random`
+     - `By Priority, Then by ID`
+     - `By Priority, Then Random`
+     - `Weighted Random`
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 

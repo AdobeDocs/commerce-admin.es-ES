@@ -3,30 +3,41 @@ title: '[!UICONTROL General] > [!UICONTROL General]'
 description: Revise la configuración en la página [!UICONTROL General] > [!UICONTROL General] del administrador de Commerce.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-TQID: https://experienceleague.adobe.com/DD7DU4-tlIuIqWiGmRkKaRtAe-dglczocFvEaoIuxSc
+TQID: 'https://experienceleague.adobe.com/DD7DU4-tlIuIqWiGmRkKaRtAe-dglczocFvEaoIuxSc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1028
-ht-degree: 0%
-
+source-wordcount: '1032'
+ht-degree: 1%
 ---
-
 # [!UICONTROL General] > [!UICONTROL General]
 
 {{config}}
@@ -88,7 +99,7 @@ Para obtener más información acerca de cómo cambiar esta configuración, cons
 |--- |--- |--- |
 | [!UICONTROL Access Restriction] | Sitio web | Determina si el sitio web funciona en modo restringido.<br /> <br />**`Yes`**: el acceso al sitio web está restringido de la manera establecida en los campos siguientes.<br />**`No`** - Las restricciones están desactivadas y la siguiente configuración no tiene efecto. |
 | [!UICONTROL Restriction Mode] | Sitio web | Determina el tipo de restricción de acceso que se aplica al sitio web.<br /> <br />**`Website Closed`**: todo acceso a la tienda está restringido y las direcciones URL de la tienda se redirigen temporalmente a la página de aterrizaje. Esta configuración puede resultar útil durante el mantenimiento del sitio o antes del lanzamiento.<br />**`Private Sales: Login Only`**: solo los clientes registrados pueden iniciar sesión para acceder a la tienda. Todas las URL de la tienda se redirigen temporalmente a la página de aterrizaje especificada o al formulario de inicio de sesión. Los usuarios no pueden crear una cuenta en este modo.<br />**`Private Sales: Login and Register`**- Los usuarios deben iniciar sesión para acceder a la tienda. Todas las URL de tienda se redirigen temporalmente al formulario de inicio de sesión hasta que el usuario inicia sesión. Los usuarios pueden registrarse para obtener una cuenta mientras el sitio se encuentra en este modo. |
-| [!UICONTROL Startup Page] | Vista de tienda | Cuando el sitio web se encuentra en modo de ventas privadas, esta configuración determina la página que aparece hasta que el cliente inicia sesión.<br />  <br />**`To login form`**: se redirige a los usuarios al formulario de inicio de sesión hasta que inicien sesión.<br />**`To landing page`**: se redirigirá a los usuarios a la página estática especificada a continuación hasta que inicien sesión.<br /> <br />**_¡Importante!_**&#x200B;Asegúrese de incluir un vínculo a la página de inicio de sesión de la página de aterrizaje especificada para que los clientes puedan iniciar sesión y acceder al sitio completo. |
+| [!UICONTROL Startup Page] | Vista de tienda | Cuando el sitio web se encuentra en modo de ventas privadas, esta configuración determina la página que aparece hasta que el cliente inicia sesión.<br />  <br />**`To login form`**: se redirige a los usuarios al formulario de inicio de sesión hasta que inicien sesión.<br />**`To landing page`**: se redirigirá a los usuarios a la página estática especificada a continuación hasta que inicien sesión.<br /> <br />**_¡Importante!_**Asegúrese de incluir un vínculo a la página de inicio de sesión de la página de aterrizaje especificada para que los clientes puedan iniciar sesión y acceder al sitio completo. |
 | [!UICONTROL Landing Page] | Vista de tienda | Determina la primera página que aparece cuando el sitio web se encuentra en modo Ventas privadas. |
 | [!UICONTROL HTTP Response] | Sitio web | Determina la respuesta HTTP que se envía cuando se cierra el sitio web y un bot, rastreador o araña intenta establecer una conexión.<br /> <br />**`503 Service unavailable`**: la página no está disponible, pero la araña no debe actualizar el índice.<br />**`200 OK`**: la página de aterrizaje es correcta y la araña debe tratarla como la única página del sitio. |
 | [!UICONTROL Enable Autocomplete on login/forgot password forms] | Sitio web | Determina si los campos de los formularios _Iniciar sesión_ y _Olvidé la contraseña_ se rellenan automáticamente a partir de las entradas anteriores. Opciones: `Yes` / `No` |
@@ -134,6 +145,6 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Commerce Events Enabled] | Global | Esta configuración está desactivada de forma predeterminada si es cliente de atención médica y ha instalado la extensión [Data Services HIPAA](https://experienceleague.adobe.com/es/docs/commerce/data-connection/hipaa-readiness). Como resultado, los datos de evento de tienda que usan Live Search y Recomendaciones de productos ya no se capturan. Esto se debe a que los datos de evento de tienda se generan en el lado del cliente. Para seguir capturando y enviando datos de evento de tienda para su uso por los servicios [Live Search](https://experienceleague.adobe.com/es/docs/commerce/live-search/overview) y [Product Recommendations](https://experienceleague.adobe.com/es/docs/commerce/product-recommendations/guide-overview), establezca **Eventos de Commerce habilitados** en `Yes`. |
+| [!UICONTROL Commerce Events Enabled] | Global | Esta configuración está desactivada de forma predeterminada si es cliente de atención médica y ha instalado la extensión [Data Services HIPAA](https://experienceleague.adobe.com/en/docs/commerce/data-connection/hipaa-readiness). Como resultado, los datos de evento de tienda que usan Live Search y Recomendaciones de productos ya no se capturan. Esto se debe a que los datos de evento de tienda se generan en el lado del cliente. Para seguir capturando y enviando datos de evento de tienda para su uso por los servicios [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) y [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview), establezca **Eventos de Commerce habilitados** en `Yes`. |
 
 {style="table-layout:auto"}

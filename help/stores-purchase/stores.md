@@ -3,7 +3,7 @@ title: Estructura del sitio y la tienda
 description: Obtenga información acerca del sitio web, la tienda y la jerarquía de vistas de la tienda.
 exl-id: d745cbd0-151b-4f82-bb6c-fb6b9565a014
 feature: Site Management, System
-TQID: https://experienceleague.adobe.com/Qx4MO7bO5PoWmt4XxYeqsHeCq4Ov2mPp5Q0JAIDeaY4
+TQID: 'https://experienceleague.adobe.com/Qx4MO7bO5PoWmt4XxYeqsHeCq4Ov2mPp5Q0JAIDeaY4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,10 @@ feature_v2:
     internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 0%
@@ -55,7 +59,7 @@ Estos son algunos ejemplos de cómo se pueden configurar las direcciones URL par
 | `yourdomain.com/store1`<br>`yourdomain.com/store2` | Cada almacén tiene una ruta diferente, pero comparte un dominio. |
 | `store1.yourdomain.com`<br>`store2.yourdomain.com` | Cada almacén tiene un subdominio diferente del dominio principal. |
 
-Las instalaciones de varias tiendas de Adobe Commerce deben configurarse desde el administrador y también desde la línea de comandos del servidor. La [Guía de configuración](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/multi-sites/ms-overview) de Adobe Commerce proporciona instrucciones detalladas para configurar el entorno del servidor.
+Las instalaciones de varias tiendas de Adobe Commerce deben configurarse desde el administrador y también desde la línea de comandos del servidor. La [Guía de configuración](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview) de Adobe Commerce proporciona instrucciones detalladas para configurar el entorno del servidor.
 
 ### Paso 1: Selección del dominio de almacenamiento
 
@@ -127,20 +131,20 @@ El primer paso es elegir cómo desea colocar la tienda. ¿Deben las tiendas comp
 
 ### Paso 5: Configuración del servidor
 
-Para configurar el servidor de modo que admita varios sitios web, consulte [Varios sitios web o tiendas](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/multi-sites/ms-overview) en la _Guía de configuración_.
+Para configurar el servidor de modo que admita varios sitios web, consulte [Varios sitios web o tiendas](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview) en la _Guía de configuración_.
 
 Para obtener ayuda sobre la configuración del servidor web, consulte los siguientes recursos:
 
-- [Configuración de varios sitios web con NGNX](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx)
-- [Configuración de varios sitios web con Apache](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/multi-sites/ms-apache)
+- [Configuración de varios sitios web con NGNX](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx)
+- [Configuración de varios sitios web con Apache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-apache)
 
-Para Adobe Commerce sobre la infraestructura en la nube, consulte [Configuración de varios sitios web o tiendas](https://experienceleague.adobe.com/es/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites).
+Para Adobe Commerce sobre la infraestructura en la nube, consulte [Configuración de varios sitios web o tiendas](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites).
 
 ## Agregar sitios web
 
 Se pueden configurar varios sitios web desde una sola instalación de Adobe Commerce o Magento Open Source con el mismo dominio o dominios diferentes. De forma predeterminada, las tiendas que están en el mismo sitio web tienen la misma dirección IP y el mismo dominio, utilizan el mismo certificado de seguridad y comparten un único proceso de cierre de compra. Si desea que cada almacén tenga un proceso de cierre de compra dedicado en su propio dominio, cada almacén debe tener una dirección IP distinta y un certificado de seguridad independiente.
 
-Las instalaciones de varios sitios de Adobe Commerce o Magento Open Source deben configurarse desde el administrador y también desde la línea de comandos del servidor. La [Guía de configuración](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/multi-sites/ms-overview) de Commerce proporciona instrucciones detalladas para configurar el entorno del servidor.
+Las instalaciones de varios sitios de Adobe Commerce o Magento Open Source deben configurarse desde el administrador y también desde la línea de comandos del servidor. La [Guía de configuración](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview) de Commerce proporciona instrucciones detalladas para configurar el entorno del servidor.
 
 ![Ámbito - sitios web](./assets/scope-multisite.svg){width="550"}
 
@@ -166,7 +170,7 @@ Las instalaciones de varios sitios de Adobe Commerce o Magento Open Source deben
 
      ![Crear sitio web - Configuración del exportador de Adobe Commerce Optimizer](./assets/website-optimizer-export-settings.png){width="600" zoomable="yes"}
 
-     Cambiar esta configuración después de la sincronización inicial déclencheur una reindexación completa. Consulte [Personalizar la configuración de exportación de los ámbitos de Commerce](https://experienceleague.adobe.com/es/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) en la *Guía del conector de Adobe Commerce Optimizer*.
+     Cambiar esta configuración después de la sincronización inicial déclencheur una reindexación completa. Consulte [Personalizar la configuración de exportación de los ámbitos de Commerce](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) en la *Guía del conector de Adobe Commerce Optimizer*.
 
 1. Haga clic en **[!UICONTROL Save Web Site]**.
 
@@ -180,11 +184,11 @@ Para configurar las [direcciones URL del almacén](store-urls.md), siga las inst
 
 ### Paso 3: Configuración del servidor
 
-Para configurar el servidor de modo que admita varios sitios web, consulte [Varios sitios web o tiendas](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/multi-sites/ms-overview) en la _Guía de configuración_.
+Para configurar el servidor de modo que admita varios sitios web, consulte [Varios sitios web o tiendas](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview) en la _Guía de configuración_.
 
 Para obtener ayuda sobre la configuración del servidor web, consulte los siguientes tutoriales:
 
-- [Configuración de varios sitios web con NGNX](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx)
-- [Configuración de varios sitios web con Apache](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/multi-sites/ms-apache)
+- [Configuración de varios sitios web con NGNX](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx)
+- [Configuración de varios sitios web con Apache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-apache)
 
-Para Adobe Commerce sobre la infraestructura en la nube, consulte [Configuración de varios sitios web o tiendas](https://experienceleague.adobe.com/es/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites).
+Para Adobe Commerce sobre la infraestructura en la nube, consulte [Configuración de varios sitios web o tiendas](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites).

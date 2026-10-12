@@ -3,26 +3,33 @@ title: Clases de impuestos
 description: Obtenga información sobre cómo configurar las clases de impuestos que se utilizan para las reglas de impuestos.
 exl-id: dd867eba-3f1e-45a8-9332-9e668a2092e1
 feature: Taxes
-TQID: https://experienceleague.adobe.com/wzq0p5sH7Ulpl6hiY5IaWPe9AvsrwJjrAZsX4PFZ2-Y
+TQID: 'https://experienceleague.adobe.com/wzq0p5sH7Ulpl6hiY5IaWPe9AvsrwJjrAZsX4PFZ2-Y'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 501
+source-wordcount: '501'
 ht-degree: 0%
-
 ---
-
 # Clases de impuestos
 
 Las clases de impuestos se pueden asignar a clientes, productos y envíos. Commerce analiza el carro de compras de cada cliente y calcula el impuesto correspondiente según la clase del cliente, la clase de los productos del carro y la región. La región está determinada por la dirección de envío, la dirección de facturación o el origen de envío del cliente. Se pueden crear nuevas clases de impuestos cuando se defina una [regla de impuestos](tax-rules.md).

@@ -3,28 +3,37 @@ title: Configuración del carro
 description: Obtenga información acerca de las funciones del carro de compras que puede configurar para admitir la experiencia de compra en su tienda.
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
-TQID: https://experienceleague.adobe.com/WujjOYsEVIPOEEdvRD2F5S-810YCju22sJY74RG18J8
+TQID: 'https://experienceleague.adobe.com/WujjOYsEVIPOEEdvRD2F5S-810YCju22sJY74RG18J8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: df8eaa0e-dd74-553a-8ad5-28129f8e8d3d
+    internal-label: Shopping Cart
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2417
+source-wordcount: '2460'
 ht-degree: 0%
-
 ---
-
 # Configuración del carro
 
 La configuración del carro de compras determina cómo funciona este carro para los clientes de la tienda, incluso cuándo se redirige al cliente a la página del carro de compras y qué imágenes se utilizan para las miniaturas de los productos. También puede requerir un pedido para alcanzar una cantidad mínima antes de que comience el proceso de cierre de compra, especificar el número de días que los precios cotizados siguen siendo válidos y especificar el orden de los artículos en la sección _Totales de pedidos_.
@@ -176,13 +185,13 @@ La configuración le permite especificar una cantidad mínima, después de aplic
 
    - Establezca **[!UICONTROL Include Discount Amount]** en una de las siguientes opciones:
 
-      - `Yes` - Requiere que el subtotal alcance la cantidad mínima con cualquier descuento incluido. Si utilizamos un ejemplo de un mínimo de 50 $, si el carro de compras contiene una parte superior de 60 $ con un descuento del 25 % aplicado, el subtotal resultante es de 45 $ y el carro de compras no alcanzaría el mínimo.
-      - `No` - Requiere que el subtotal alcance la cantidad mínima sin descuentos.
+     - `Yes` - Requiere que el subtotal alcance la cantidad mínima con cualquier descuento incluido. Si utilizamos un ejemplo de un mínimo de 50 $, si el carro de compras contiene una parte superior de 60 $ con un descuento del 25 % aplicado, el subtotal resultante es de 45 $ y el carro de compras no alcanzaría el mínimo.
+     - `No` - Requiere que el subtotal alcance la cantidad mínima sin descuentos.
 
    - Establezca **[!UICONTROL Include Tax to Amount]** en una de las siguientes opciones:
 
-      - `Yes` - Requiere que el subtotal alcance la cantidad mínima con impuestos incluidos.
-      - `No` - Requiere que el subtotal alcance la cantidad mínima sin impuestos.
+     - `Yes` - Requiere que el subtotal alcance la cantidad mínima con impuestos incluidos.
+     - `No` - Requiere que el subtotal alcance la cantidad mínima sin impuestos.
 
 1. Si lo desea, puede personalizar la configuración del mensaje de importe mínimo de pedido:
 
@@ -198,9 +207,9 @@ La configuración le permite especificar una cantidad mínima, después de aplic
 
    - Si lo desea, puede personalizar la configuración del mensaje de importe mínimo de pedido:
 
-      - **[!UICONTROL Multi-address Description Message]**: escriba el texto que desea utilizar para personalizar el mensaje que aparece en la parte superior del carro de compras para pedidos de varias direcciones que no cumplen con el mínimo.
+     - **[!UICONTROL Multi-address Description Message]**: escriba el texto que desea utilizar para personalizar el mensaje que aparece en la parte superior del carro de compras para pedidos de varias direcciones que no cumplen con el mínimo.
 
-      - **[!UICONTROL Multi-address Error to Show in Shopping Cart]**: escriba el texto que desea utilizar para personalizar el mensaje de error del carro de compras para pedidos de varias direcciones que no cumplan con el mínimo, escriba el texto en el cuadro.
+     - **[!UICONTROL Multi-address Error to Show in Shopping Cart]**: escriba el texto que desea utilizar para personalizar el mensaje de error del carro de compras para pedidos de varias direcciones que no cumplan con el mínimo, escriba el texto en el cuadro.
 
      Deje los campos de descripción del mensaje vacíos para utilizar los mensajes predeterminados.
 
@@ -336,7 +345,7 @@ La imagen del envoltorio para regalos debe ser una muestra que muestre el patró
 
 1. Para cargar una miniatura **[!UICONTROL Image]** del envoltorio para regalos, haga clic en **[!UICONTROL Choose File]** y seleccione el archivo que desea cargar desde el directorio.
 
-   Aparece una miniatura de la imagen en _[!UICONTROL Gift Wrapping Information]_&#x200B;después de guardar el registro.
+   Aparece una miniatura de la imagen en _[!UICONTROL Gift Wrapping Information]_después de guardar el registro.
 
 1. Haga clic en **[!UICONTROL Save]**.
 

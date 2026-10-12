@@ -3,25 +3,34 @@ title: Panel de ensayo de contenido
 description: Utilice el panel de ensayo de contenido para acceder a una descripción general de todas las campañas activas y próximas.
 exl-id: 67c18c1c-94c3-4d89-ae1e-868a465431e3
 feature: Page Content, Staging
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-TQID: https://experienceleague.adobe.com/Hwrb3dYdJlggWN-Z-nUKxVBhsejFMZR-yWIgRzfJifQ
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+TQID: 'https://experienceleague.adobe.com/Hwrb3dYdJlggWN-Z-nUKxVBhsejFMZR-yWIgRzfJifQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 0054e3a7-7067-583b-bfd2-ab39dada9ab5
+    internal-label: Staging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 452
+source-wordcount: '452'
 ht-degree: 0%
-
 ---
-
 # Panel de ensayo de contenido
 
 {{ee-feature}}
@@ -87,7 +96,7 @@ Siga los pasos a continuación para editar cualquiera de los objetos de esta cam
    - Para ver una lista, haga clic en **[!UICONTROL Select]** y luego en **[!UICONTROL View/Edit]** en la columna _[!UICONTROL Action]_.
    - Para una visualización de la cronología, haga clic una vez para mostrar el resumen y luego haga clic en **[!UICONTROL View/Edit]**.
 
-1. Actualice la configuración de la sección _[!UICONTROL General]_&#x200B;según sea necesario.
+1. Actualice la configuración de la sección _[!UICONTROL General]_según sea necesario.
 
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) cualquier sección que contenga un elemento que se va a editar.
 

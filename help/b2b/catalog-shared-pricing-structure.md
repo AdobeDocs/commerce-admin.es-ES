@@ -4,27 +4,40 @@ description: Con Adobe Commerce B2B, obtenga información sobre la configuració
 exl-id: 67caf56f-1b31-44bb-98dc-ea6ea7d8a4d5
 feature: B2B, Companies, Catalog Management
 role: Admin
-TQID: https://experienceleague.adobe.com/j5p-DXCuqzrs-s8XRHeh8o6rc6S-Z-XsETu5Tso9WOw
+TQID: 'https://experienceleague.adobe.com/j5p-DXCuqzrs-s8XRHeh8o6rc6S-Z-XsETu5Tso9WOw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1307
+source-wordcount: '1307'
 ht-degree: 0%
-
 ---
-
 # Establecer estructura y precios de catálogo compartido
 
 La configuración de los precios y la estructura de un catálogo compartido es un proceso de dos pasos. El lugar actual en el proceso se resalta con un número en la barra de progreso de la parte superior de la página. Puede ver el otro paso del proceso en cualquier momento haciendo clic en la barra de progreso. Por ejemplo, si está trabajando en precios personalizados, es posible que desee volver a la página de selección de productos para referencia. Simplemente haga clic en **[!UICONTROL Products]** en la barra de progreso de la parte superior de la página y, a continuación, haga clic en **[!UICONTROL Pricing]** para volver a la página de precios personalizados. Su trabajo no se pierde en este proceso.
@@ -37,7 +50,7 @@ En el árbol de categorías estándar, la categoría raíz es el contenedor supe
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**
 
-1. Para el catálogo compartido en la cuadrícula, vaya a la columna _[!UICONTROL Action]_&#x200B;y haga clic en **[!UICONTROL Set Pricing and Structure]**.
+1. Para el catálogo compartido en la cuadrícula, vaya a la columna _[!UICONTROL Action]_y haga clic en **[!UICONTROL Set Pricing and Structure]**.
 
    ![Establecer precios y estructura para el catálogo compartido](./assets/shared-catalog-set-pricing-structure.png){width="700" zoomable="yes"}
 
@@ -83,7 +96,7 @@ Solo las categorías con productos seleccionados aparecen en la [navegación sup
 
 ## Paso 3: Establecer precios personalizados
 
-Puede establecer precios personalizados para cada producto individualmente o usar el control _[!UICONTROL Action]_&#x200B;para establecer precios personalizados como una cantidad fija o un porcentaje para varios registros de productos.
+Puede establecer precios personalizados para cada producto individualmente o usar el control _[!UICONTROL Action]_para establecer precios personalizados como una cantidad fija o un porcentaje para varios registros de productos.
 
 - **[!UICONTROL Fixed]**: especifica el precio final del producto. Por ejemplo, si introduce un precio fijo de 10,00 $, el precio de la tienda de la compañía correspondiente será 10,00 $.
 
@@ -97,7 +110,7 @@ Puede establecer precios personalizados para cada producto individualmente o usa
 
 - **[!UICONTROL Percentage]**: determina el precio personalizado en función del porcentaje de descuento. Por ejemplo, para ofrecer un descuento del 10 por ciento, establezca el tipo de precio personalizado en `Percentage` y escriba `10`. El precio personalizado con descuento es el 90 por ciento del precio original del producto.
 
-Para establecer el descuento en un importe fijo o un porcentaje para los siguientes tipos de productos, utilice la columna _[!UICONTROL Custom Price]_&#x200B;en la cuadrícula:
+Para establecer el descuento en un importe fijo o un porcentaje para los siguientes tipos de productos, utilice la columna _[!UICONTROL Custom Price]_en la cuadrícula:
 
 - [Sencillo](../catalog/product-create-simple.md) (incluidas las variaciones de productos configurables)
 - [Paquete](../catalog/product-create-bundle.md)
@@ -119,7 +132,7 @@ La selección de productos en la cuadrícula no se puede cambiar desde la págin
 1. Utilice uno de los siguientes métodos para seleccionar los productos a los que desea aplicar el precio personalizado.
 
    - Utilice el árbol de categorías para seleccionar todos los productos de una categoría específica.
-   - Establezca el control _[!UICONTROL Mass Actions]_&#x200B;en el encabezado en `Select All`.
+   - Establezca el control _[!UICONTROL Mass Actions]_en el encabezado en `Select All`.
    - Seleccione la casilla de verificación de productos individuales.
 
    La cuadrícula muestra los productos de las categorías seleccionadas actualmente y puede utilizar los controles estándar para buscar productos y filtrar la lista.
@@ -160,8 +173,8 @@ Las siguientes instrucciones muestran cómo aplicar precios de nivel a un solo p
    - Establezca **[!UICONTROL Website]** en el sitio web donde se aplica el precio de nivel.
    - Introduzca la cantidad del producto que debe adquirirse para recibir el descuento.
    - Establezca **[!UICONTROL Price]** en uno de los siguientes tipos de descuento:
-      - `Fixed`
-      - `Discount`
+     - `Fixed`
+     - `Discount`
    - Introduzca el importe del descuento.
    - Para ingresar a otro nivel, haga clic en **Agregar precio** y repita el proceso para definir el siguiente nivel.
 
@@ -177,4 +190,4 @@ Las siguientes instrucciones muestran cómo aplicar precios de nivel a un solo p
 
 Una vez completado el precio personalizado, haga clic en **[!UICONTROL Generate Catalog]** y luego en **[!UICONTROL Save]**.
 
-El catálogo compartido se guardará ahora en la base de datos. Su nombre aparece en la columna _[!UICONTROL Shared Catalog]_&#x200B;de la cuadrícula&#x200B;_[!UICONTROL Products]_. El siguiente paso es [asignar el catálogo compartido a una compañía](./catalog-shared-assign-companies.md).
+El catálogo compartido se guardará ahora en la base de datos. Su nombre aparece en la columna _[!UICONTROL Shared Catalog]_de la cuadrícula_[!UICONTROL Products]_. El siguiente paso es [asignar el catálogo compartido a una compañía](./catalog-shared-assign-companies.md).

@@ -3,28 +3,37 @@ title: Métodos de pago almacenados
 description: Descubra cómo los clientes pueden utilizar los métodos de pago almacenados en su tienda de Commerce.
 exl-id: 5e264f84-1891-4ee9-8ebe-55ac9c93ab8c
 feature: Payments
-TQID: https://experienceleague.adobe.com/dYEYXgEIp83AKhHepfDQVNR9YBUQGbJ7B2zu8UTM-I4
+TQID: 'https://experienceleague.adobe.com/dYEYXgEIp83AKhHepfDQVNR9YBUQGbJ7B2zu8UTM-I4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 226
+source-wordcount: '226'
 ht-degree: 0%
-
 ---
-
 # Métodos de pago almacenados
 
 Los clientes con acceso a una cámara acorazada segura para almacenar información de pago pueden acelerar el proceso de pago sin ingresar la información de su tarjeta de crédito cada vez. Si [Compra instantánea](checkout-instant-purchase.md) está habilitada, los clientes pueden evitar el proceso de cierre de compra en dos pasos y realizar el pedido desde la página del producto.
@@ -51,7 +60,7 @@ Se requiere un método de pago que admita un almacén seguro, como [Braintree](b
 
 1. Clics **[!UICONTROL Place Order]**.
 
-El método de pago guardado se muestra en la pestaña _[!UICONTROL Stored Payment Methods]_&#x200B;del panel del cliente.
+El método de pago guardado se muestra en la pestaña _[!UICONTROL Stored Payment Methods]_del panel del cliente.
 
 ## Eliminar un método de pago almacenado
 

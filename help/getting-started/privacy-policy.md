@@ -3,30 +3,41 @@ title: Política de privacidad de tienda
 description: Su política de privacidad debe describir el tipo de información que recopila su compañía y cómo se utiliza.
 exl-id: d8eaa946-2a12-4a36-8f7e-025778ffa7dd
 feature: Compliance
-TQID: https://experienceleague.adobe.com/643rt9zfz1cfPwuZs9ZFPXmb5Hgi-5lV8zmDqWlZBeA
+TQID: 'https://experienceleague.adobe.com/643rt9zfz1cfPwuZs9ZFPXmb5Hgi-5lV8zmDqWlZBeA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Privacy
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 427
+source-wordcount: '427'
 ht-degree: 0%
-
 ---
-
 # Política de privacidad de tienda
 
 Su tienda incluye una política de privacidad de ejemplo que debe actualizarse con su propia información. Su política de privacidad debe describir el tipo de información que recopila su compañía y cómo se utiliza. También debería enumerar los nombres de archivo de [cookies](compliance-cookie-law.md#default-cookies) que se colocan en los equipos de las personas que visitan su tienda. Cualquier cookie adicional asociada con extensiones y complementos de terceros debe incluirse en la lista.
@@ -53,7 +64,7 @@ Toda representación de información que permita inferir razonablemente por medi
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. En la cuadrícula, busque **[!UICONTROL Privacy Policy]**. A continuación, en la columna _[!UICONTROL Action]_, haga clic en **[!UICONTROL Select]**&#x200B;y elija **[!UICONTROL Edit]**.
+1. En la cuadrícula, busque **[!UICONTROL Privacy Policy]**. A continuación, en la columna _[!UICONTROL Action]_, haga clic en **[!UICONTROL Select]**y elija **[!UICONTROL Edit]**.
 
    >[!NOTE]
    >

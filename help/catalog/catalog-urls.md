@@ -3,32 +3,46 @@ title: Direcciones URL del catálogo y del producto
 description: Obtenga información sobre los tipos de formato de URL de los productos de catálogo y cómo configurarlos.
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-TQID: https://experienceleague.adobe.com/Lf7Xh4w-rI-o-S1HEqM7nJZWuYGhOsB2ZccDg7Hb-3w
+TQID: 'https://experienceleague.adobe.com/Lf7Xh4w-rI-o-S1HEqM7nJZWuYGhOsB2ZccDg7Hb-3w'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: '918'
 ht-degree: 0%
-
 ---
-
 # Direcciones URL del catálogo y del producto
 
 Las direcciones URL que asigna a productos y categorías desempeñan un papel importante a la hora de determinar el grado de indexación del sitio por parte de los motores de búsqueda. Antes de empezar a crear el catálogo, tenga en cuenta las opciones disponibles. Para ver el formato de URL actual, vaya a la tienda y navegue hasta cualquier producto del catálogo. El formato de la dirección URL depende de la configuración actual y del método que utilice para encontrar la página.
@@ -56,7 +70,7 @@ La clave URL es la parte de una dirección URL estática que describe el product
 
 >[!NOTE]
 >
->De forma predeterminada, los caracteres especiales acentuados se sustituyen automáticamente por sus versiones normales no acentuadas en la clave URL. Por ejemplo, `ñ` se reemplaza automáticamente por `n`. Este comportamiento se puede deshabilitar estableciendo la opción de configuración _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_&#x200B;en `No`. Consulte [Configurar las direcciones URL del catálogo](#configure-catalog-urls).
+>De forma predeterminada, los caracteres especiales acentuados se sustituyen automáticamente por sus versiones normales no acentuadas en la clave URL. Por ejemplo, `ñ` se reemplaza automáticamente por `n`. Este comportamiento se puede deshabilitar estableciendo la opción de configuración _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_en `No`. Consulte [Configurar las direcciones URL del catálogo](#configure-catalog-urls).
 
 La clave de URL debe constar de caracteres en minúsculas con guiones no finales entre estos caracteres para separar las palabras. No se permiten guiones al principio o al final de la clave URL. Una clave de URL &quot;fácil de usar para los motores de búsqueda&quot; y bien diseñada puede incluir el nombre del producto y las palabras clave para mejorar la forma en que los motores de búsqueda lo indexan. La clave URL se puede configurar para crear un redireccionamiento automático si cambia la clave URL.
 
@@ -132,7 +146,7 @@ Para evitar que los motores de búsqueda indexen varias URL que conducen al mism
 | Campo | [Ámbito](../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | Global | Si las reescrituras del servidor web están habilitadas, al habilitar esta configuración se inserta el código de tienda de la vista actual en la dirección URL. Opciones: `Yes` / `No` |
-| [!UICONTROL Auto-redirect to Base URL] | Global | (En configuraciones de tienda única) Si hay un vínculo roto en el sitio, esto redirige el tráfico a la dirección URL base en lugar de a una página con el mensaje &quot;404 Page Not Found&quot;. Opciones: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_Importante!_**&#x200B;No utilice el redireccionamiento automático para URL base en configuraciones de varias tiendas. |
+| [!UICONTROL Auto-redirect to Base URL] | Global | (En configuraciones de tienda única) Si hay un vínculo roto en el sitio, esto redirige el tráfico a la dirección URL base en lugar de a una página con el mensaje &quot;404 Page Not Found&quot;. Opciones: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_Importante!_**No utilice el redireccionamiento automático para URL base en configuraciones de varias tiendas. |
 | [!UICONTROL Catalog media URL format] | Global | Define el formato de URL asignado a productos y categorías. Opciones: <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**- Define el nombre de archivo convertido como un valor hash único.<br />**[!UICONTROL Image optimization based on query parameters]** - Define el proceso de [optimización de imágenes](../content-design/media-gallery-image-optimization.md) en función de los parámetros de consulta. |
 
 {style="table-layout:auto"}

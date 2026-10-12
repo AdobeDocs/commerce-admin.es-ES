@@ -1,32 +1,47 @@
 ---
 title: Integración de Adobe Experience Manager Assets para Commerce
-description: Aprenda a integrar Experience Manager Assets con su instancia  [!DNL Commerce] para acceder a innumerables recursos multimedia para usarlos en su tienda.
+description: Aprenda a integrar Experience Manager Assets con su instancia de [!DNL Commerce] para acceder a innumerables recursos multimedia para usarlos en su tienda.
 feature: CMS, Media, Configuration, Integration
 exl-id: b3c9d12c-bf95-435c-bb93-b8fbf80d084e
-TQID: https://experienceleague.adobe.com/Jr8UkbpstIBaxOiic0GhFX5N8-Jw2R30q-PIFkGGy2Q
+TQID: 'https://experienceleague.adobe.com/Jr8UkbpstIBaxOiic0GhFX5N8-Jw2R30q-PIFkGGy2Q'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 421
+source-wordcount: '422'
 ht-degree: 0%
-
 ---
-
 # Integración de Adobe Experience Manager Assets para Commerce
 
 La integración de Adobe Experience Manager (AEM) Assets para Commerce combina las sólidas capacidades del sistema AEM as a Digital Asset Management (DAM) con Adobe Commerce para mejorar las experiencias de comercio electrónico. Estas funciones se ofrecen conectando los proyectos de Commerce al potente entorno de administración de recursos de AEM para proporcionar una forma sencilla, escalable y eficaz de administrar y entregar recursos en las tiendas de comercio.
@@ -57,7 +72,7 @@ La integración de Adobe Experience Manager (AEM) Assets para Commerce combina l
 
 Vea este vídeo para conocer cómo Adobe Commerce y los AEM Assets trabajan juntos para optimizar los flujos de trabajo de contenido:
 
->[!VIDEO](https://video.tv.adobe.com/v/3447886?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3447837)
 
 ## Siguiente paso
 
@@ -65,5 +80,5 @@ Vea este vídeo para conocer cómo Adobe Commerce y los AEM Assets trabajan junt
 
 ## Asistencia
 
-Si necesita información o tiene preguntas que no se tratan en esta guía, póngase en contacto con su representante de ventas de integración de AEM Assets o cree un [ticket de asistencia](https://experienceleague.adobe.com/es/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) para recibir ayuda adicional.
+Si necesita información o tiene preguntas que no se tratan en esta guía, póngase en contacto con su representante de ventas de integración de AEM Assets o cree un [ticket de asistencia](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) para recibir ayuda adicional.
 

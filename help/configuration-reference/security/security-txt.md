@@ -3,31 +3,43 @@ title: '[!UICONTROL Security] > [!UICONTROL Security.txt]'
 description: Revise la configuración en la página [!UICONTROL Security] > [!UICONTROL Security.txt] del administrador de Commerce.
 exl-id: 26385864-cfd8-456b-91b2-bf5d019c09e1
 feature: Configuration, Security, Site Management
-TQID: https://experienceleague.adobe.com/fXStEab1k6GKC5Tj7CStSGou3uNB-wJk5rZ-7EiFkcg
+TQID: 'https://experienceleague.adobe.com/fXStEab1k6GKC5Tj7CStSGou3uNB-wJk5rZ-7EiFkcg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 360
-ht-degree: 1%
-
+source-wordcount: '364'
+ht-degree: 2%
 ---
-
 # [!UICONTROL Security] > [!UICONTROL Security.txt]
 
 Para obtener más información sobre cómo cambiar esta configuración, consulte [Informes de problemas de seguridad](../../systems/security-issue-reporting.md).
@@ -62,7 +74,7 @@ Para obtener más información sobre cómo cambiar esta configuración, consulte
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Encryption] | Sitio web | Dirección URL que señala a la ubicación de una clave de cifrado que los investigadores de seguridad pueden utilizar para enviar comunicaciones cifradas. _&#x200B;**No escriba la clave de cifrado en este campo.**&#x200B;_ <br/><br/>Es responsabilidad del investigador verificar que la clave proviene de una fuente de confianza. Los investigadores no deben suponer que la clave es la misma que se utiliza para generar la firma digital. Ejemplo:<br />Clave OpenPGP del servidor web: `https://mystore.com/pgp-key.txt` |
+| [!UICONTROL Encryption] | Sitio web | Dirección URL que señala a la ubicación de una clave de cifrado que los investigadores de seguridad pueden utilizar para enviar comunicaciones cifradas. _**No escriba la clave de cifrado en este campo.**_ <br/><br/>Es responsabilidad del investigador verificar que la clave proviene de una fuente de confianza. Los investigadores no deben suponer que la clave es la misma que se utiliza para generar la firma digital. Ejemplo:<br />Clave OpenPGP del servidor web: `https://mystore.com/pgp-key.txt` |
 | [!UICONTROL Acknowledgments] | Sitio web | Dirección URL que apunta a una página de su almacén en la que se reconoce a los investigadores de seguridad, como `https://mystore.com/hall-of-fame.html`. Para evitar ataques futuros, incluya solo una descripción general sin revelar información específica sobre problemas de vulnerabilidad. Ejemplo:<br />Queremos agradecer a los siguientes investigadores:<br />(aaaa/mm/dd) Justin Thyme - Inyección SQL |
 | [!UICONTROL Preferred Languages] | Sitio web | Especifica al menos un idioma preferido para los informes de seguridad. Separe los [códigos de idioma](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) de varios caracteres con una coma. Todos los idiomas especificados tienen la misma prioridad. Por ejemplo, para especificar inglés, español y francés, escriba `en, es, fr`. |
 | [!UICONTROL Hiring] | Sitio web | La dirección URL de una página del sitio que enumera las posiciones de trabajo relacionadas con la seguridad. Ejemplo: `https://mystore.com/jobs.html` |

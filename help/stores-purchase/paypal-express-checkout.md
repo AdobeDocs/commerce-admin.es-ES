@@ -3,31 +3,42 @@ title: Pago y envío con PayPal Express
 description: Aprenda a configurar el Pago y envío de PayPal Express como una solución de pago en línea en su tienda.
 exl-id: 0cd90306-cf47-4a5f-8994-6ae96904ae2f
 feature: Payments
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-TQID: https://experienceleague.adobe.com/7aaiT94I7NENXKmz72TZNNlh6VO8tKedFZbIXRUL79E
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+TQID: 'https://experienceleague.adobe.com/7aaiT94I7NENXKmz72TZNNlh6VO8tKedFZbIXRUL79E'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 3148
+source-wordcount: '3201'
 ht-degree: 0%
-
 ---
-
 # Pago y envío con PayPal Express
 
 PayPal Express Checkout ayuda a aumentar las ventas al ofrecer a tus clientes la posibilidad de pagar con tarjeta de crédito o desde la seguridad de sus cuentas personales de PayPal. Durante el proceso de pago y envío, se redirige al cliente al sitio seguro de PayPal para que complete la información de pago. A continuación, el cliente se devuelve a su tienda para completar el resto del proceso de pago. Al elegir Pago y envío exprés, se agrega el conocido botón PayPal a tu tienda, que se ha informado que aumenta las ventas.
@@ -111,13 +122,13 @@ Puede tener dos soluciones de PayPal activas al mismo tiempo: Pago y envío expr
 
 1. Si la instalación tiene varios sitios web, tiendas o vistas, establezca **[!UICONTROL Store View]** en la vista de la tienda en la que desee aplicar esta configuración.
 
-1. En la sección _[!UICONTROL Merchant Location]_, seleccione **[!UICONTROL Merchant Country]**&#x200B;donde se encuentra su empresa.
+1. En la sección _[!UICONTROL Merchant Location]_, seleccione **[!UICONTROL Merchant Country]**donde se encuentra su empresa.
 
    Esta configuración determina la selección de soluciones de PayPal que aparecen en la configuración.
 
    ![País comerciante](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. En _[!UICONTROL Recommended Solutions]_, haga clic en **[!UICONTROL Configure]**&#x200B;para **[!UICONTROL PayPal Express Checkout]**.
+1. En _[!UICONTROL Recommended Solutions]_, haga clic en **[!UICONTROL Configure]**para **[!UICONTROL PayPal Express Checkout]**.
 
    ![Configurar Pago y envío de PayPal Express](./assets/paypal-express-checkout.png){width="600"}
 
@@ -329,11 +340,11 @@ Establezca **[!UICONTROL Enable PayPal PayLater Experience]** en una de las sigu
    - `Sale`: el importe de la compra se autoriza y se retira inmediatamente de la cuenta del cliente.
    - `Order`: el importe del pedido no se registra ni se autoriza en el saldo del cliente, la cuenta bancaria o la tarjeta de crédito en PayPal. La acción de pago del pedido representa un acuerdo entre el sistema de pago de PayPal y el comerciante. Permite al comerciante capturar uno o más importes hasta el total pedido desde la cuenta de comprador del cliente, durante un periodo de hasta 29 días. Una vez ordenados los fondos, el comerciante puede capturarlos en cualquier momento durante el siguiente período de 29 días. La captura del importe del pedido solo se puede realizar desde el administrador de Commerce creando una o más facturas.
 
-1. Para mostrar el botón _[!UICONTROL Check out with PayPal]_&#x200B;en la página de productos, establezca **[!UICONTROL Display on Product Details Page]**&#x200B;en `Yes`.
+1. Para mostrar el botón _[!UICONTROL Check out with PayPal]_en la página de productos, establezca **[!UICONTROL Display on Product Details Page]**en `Yes`.
 
 1. Si la acción de pago está establecida en `Order`, complete lo siguiente
 
-   - **[!UICONTROL Authorization Honor Period (days)]**: determina durante cuánto tiempo la autorización principal sigue siendo válida. El valor debe ser igual al valor correspondiente de su cuenta comercial de PayPal. El valor predeterminado en su cuenta comercial de PayPal es `3`. Para aumentar este número, debes ponerte en contacto con PayPal. La autorización deja de ser válida a las 11:49 p. m., hora del Pacífico de EE. UU., del último día.
+   - **[!UICONTROL Authorization Honor Period (days)]**: determina durante cuánto tiempo la autorización principal sigue siendo válida. El valor debe ser igual al valor correspondiente de su cuenta comercial de PayPal. El valor predeterminado en su cuenta comercial de PayPal es `3`. Para aumentar este número, debes ponerte en contacto con PayPal. La autorización deja de ser válida a las 23:49 (hora del Pacífico, EE. UU.) del último día.
 
    - **[!UICONTROL Order Valid Period (days)]**: determina durante cuánto tiempo sigue siendo válido el pedido. Cuando el pedido deja de ser válido, ya no puede crear facturas para él. Especifique un valor igual al valor Período de validez del pedido en su cuenta comercial de PayPal. El valor predeterminado en su cuenta comercial de PayPal es `29`. Para cambiar este número, debes ponerte en contacto con PayPal.
 
@@ -451,8 +462,8 @@ Un [acuerdo de facturación](paypal-billing-agreements.md) es un acuerdo de vent
 
    - Si se ha registrado en el servidor FTP seguro de PayPal, introduzca las siguientes credenciales de inicio de sesión en el SFTP:
 
-      - Iniciar sesión
-      - Contraseña
+     - Iniciar sesión
+     - Contraseña
 
    - Para ejecutar informes de prueba antes de que _se ponga en marcha_ con el cierre de compra rápido en el sitio, establezca **[!UICONTROL Sandbox Mode]** en `Yes`.
 
@@ -470,13 +481,13 @@ Un [acuerdo de facturación](paypal-billing-agreements.md) es un acuerdo de vent
 
    - Establezca **[!UICONTROL Schedule]** en una de las siguientes opciones:
 
-      - `Daily`
-      - `Every 3 Days`
-      - `Every 7 Days`
-      - `Every 10 Days`
-      - `Every 14 Days`
-      - `Every 30 Days`
-      - `Every 40 Days`
+     - `Daily`
+     - `Every 3 Days`
+     - `Every 7 Days`
+     - `Every 10 Days`
+     - `Every 14 Days`
+     - `Every 30 Days`
+     - `Every 40 Days`
 
      PayPal conserva cada informe durante 45 días.
 
@@ -504,9 +515,9 @@ Utilice la Configuración de experiencia de front-end para elegir qué logotipos
 
    - Escriba el nombre de **[!UICONTROL Page Style]** que desea aplicar a sus páginas de comerciante de PayPal:
 
-      - `paypal`: utiliza el estilo de página de PayPal.
-      - `primary`: utiliza el estilo de página que identificó como estilo _principal_ en el perfil de la cuenta.
-      - `your_custom_value`: utiliza un estilo de página de pago personalizado, que se especifica en el perfil de la cuenta.
+     - `paypal`: utiliza el estilo de página de PayPal.
+     - `primary`: utiliza el estilo de página que identificó como estilo _principal_ en el perfil de la cuenta.
+     - `your_custom_value`: utiliza un estilo de página de pago personalizado, que se especifica en el perfil de la cuenta.
 
    - Para **[!UICONTROL Header Image URL]**, escriba la dirección URL de la imagen que desea que aparezca en la esquina superior izquierda de la página de pago. El tamaño máximo de archivo es de 750 píxeles de ancho por 90 píxeles de alto.
 
@@ -516,9 +527,9 @@ Utilice la Configuración de experiencia de front-end para elegir qué logotipos
 
    - Para establecer el color de las páginas, escriba el código hexadecimal de seis caracteres, sin el símbolo `#`, para cada uno de los siguientes elementos:
 
-      - **[!UICONTROL Header Background Color]** - Color de fondo del encabezado de la página de pago.
-      - **[!UICONTROL Header Border Color]** - Color para borde de dos píxeles alrededor del encabezado.
-      - **[!UICONTROL Page Background Color]**: color de fondo de la página de pago y alrededor del encabezado y del formulario de pago.
+     - **[!UICONTROL Header Background Color]** - Color de fondo del encabezado de la página de pago.
+     - **[!UICONTROL Header Border Color]** - Color para borde de dos píxeles alrededor del encabezado.
+     - **[!UICONTROL Page Background Color]**: color de fondo de la página de pago y alrededor del encabezado y del formulario de pago.
 
 #### Personalizar botones inteligentes
 

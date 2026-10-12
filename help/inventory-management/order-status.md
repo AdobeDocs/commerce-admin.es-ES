@@ -1,29 +1,41 @@
 ---
 title: Estado del pedido y reservas
-description: Aprenda cómo las facturas, los envíos, las cancelaciones y los reembolsos actualizan  [!DNL Inventory Management] reservas y cantidades disponibles por origen.
+description: Descubra cómo la facturación, el envío, las cancelaciones y los reembolsos actualizan las reservas de [!DNL Inventory Management] y las cantidades disponibles por origen.
 exl-id: d264cb49-5aa8-4949-ae87-5efcd463d38c
 feature: Inventory, Orders, Shipping/Delivery
-TQID: https://experienceleague.adobe.com/sBHMsUsdmqiIL3Q3GNXDPAlDkEzCNLeXG0L5-1qhdKA
+TQID: 'https://experienceleague.adobe.com/sBHMsUsdmqiIL3Q3GNXDPAlDkEzCNLeXG0L5-1qhdKA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1121
+source-wordcount: '1122'
 ht-degree: 0%
-
 ---
-
 # Estado del pedido y reservas
 
 [!DNL Inventory Management] admite la facturación, los pagos, los envíos y las cancelaciones parciales y totales por pedido. A medida que administra un pedido mediante procesamiento, facturación, envío y posibles reembolsos, [!DNL Commerce] introduce o cambia automáticamente las reservas para actualizar la cantidad vendible de un inventario (o canal de ventas) y la cantidad de inventario disponible por origen. No tiene que acceder ni introducir reservas de forma activa. La realización de acciones para cumplir, cancelar o reembolsar un pedido lo hace por usted.

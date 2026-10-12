@@ -3,27 +3,35 @@ title: Configuración de envío
 description: Aprenda a configurar las opciones de envío que definen el punto de origen y la política de envío de su tienda.
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/9sMHWFMnoS-OVhdWjjq8r-KE9hdVD2owO2tI8LoGN0s
+TQID: 'https://experienceleague.adobe.com/9sMHWFMnoS-OVhdWjjq8r-KE9hdVD2owO2tI8LoGN0s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 555
+source-wordcount: '555'
 ht-degree: 0%
-
 ---
-
 # Configuración de envío
 
 La configuración de envío establece el punto de origen de todos los envíos, la política de envío y la gestión de envíos a varias direcciones.
@@ -98,7 +106,7 @@ Las opciones de envío de varias direcciones permiten a los clientes enviar un p
 
 ## URL de seguimiento de envío de correo electrónico
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
 
 De forma predeterminada, los números de seguimiento de envío enviados en correos electrónicos de comprador son de texto sin formato. Puede convertir estos números de seguimiento en vínculos en los que se puede hacer clic si habilita la función de URL de seguimiento personalizada. Esta función le permite definir una plantilla para el seguimiento de direcciones URL de varios transportistas. Cada plantilla incluye la dirección URL completa del sitio web de seguimiento y un marcador de posición para el número de seguimiento. Commerce reemplaza el marcador de posición con el número de seguimiento real del correo electrónico.
 

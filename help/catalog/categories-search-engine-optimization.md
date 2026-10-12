@@ -3,35 +3,47 @@ title: 'Categorías: configuración de optimización del motor de búsqueda'
 description: Obtenga información acerca del uso de la configuración [!UICONTROL Search Engine Optimization] para definir la clave de URL y los campos de metadatos que los motores de búsqueda utilizan para indexar la categoría.
 exl-id: 6c8af01d-d2aa-4c13-af76-663c47cbe38c
 feature: Catalog Management, Categories, Search
-TQID: https://experienceleague.adobe.com/cOVprTrDavkZmoy6MofgSfzxIeMO1ayKkgHBi2PZutM
+TQID: 'https://experienceleague.adobe.com/cOVprTrDavkZmoy6MofgSfzxIeMO1ayKkgHBi2PZutM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 280
+source-wordcount: '280'
 ht-degree: 0%
-
 ---
-
 # Categorías: configuración de optimización del motor de búsqueda
 
-La sección _[!UICONTROL Search Engine Optimization]_&#x200B;especifica los campos [Clave de URL](catalog-urls.md) y [metadatos](../merchandising-promotions/meta-data.md) que los motores de búsqueda utilizan para indexar la categoría. Aunque algunos motores de búsqueda ignoran las palabras clave meta, otros las siguen usando. La práctica recomendada actual de SEO es incorporar palabras clave de alto valor tanto en el meta título como en la meta descripción.
+La sección _[!UICONTROL Search Engine Optimization]_especifica los campos [Clave de URL](catalog-urls.md) y [metadatos](../merchandising-promotions/meta-data.md) que los motores de búsqueda utilizan para indexar la categoría. Aunque algunos motores de búsqueda ignoran las palabras clave meta, otros las siguen usando. La práctica recomendada actual de SEO es incorporar palabras clave de alto valor tanto en el meta título como en la meta descripción.
 
 ![Optimización del motor de búsqueda](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
 

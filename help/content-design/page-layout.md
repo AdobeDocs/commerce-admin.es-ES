@@ -2,14 +2,25 @@
 title: Diseños de página
 description: Obtenga información sobre las secciones de diseño de página y cómo configurar los diseños predeterminados.
 exl-id: 397a92cf-6f20-4729-8d7c-c5f672fc1c9a
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '906'
 ht-degree: 0%
-
 ---
-
 # Diseños de página
 
 El diseño de cada página de la tienda consta de diferentes secciones, o contenedores, que definen el encabezado, el pie de página y las áreas de contenido de la página. Según el diseño, cada página puede tener una, dos, tres columnas o más. Puede considerar el diseño como el _plano de planta_ de la página y asignar un diseño específico para que se utilice como predeterminado en las páginas de CMS, producto y categoría.
@@ -87,13 +98,13 @@ En la página, los bloques de contenido flotan para llenar el espacio disponible
 
 ![Diagrama: diseño de una columna](./assets/layout-1-col-th.png){zoomable="yes"}
 
-El diseño _[!UICONTROL 1 Column]_&#x200B;se puede usar para crear una página principal dramática con una imagen grande o un punto focal. También es una buena opción para una página de aterrizaje o cualquier otra página que tenga una combinación de texto, imágenes y vídeo.
+El diseño _[!UICONTROL 1 Column]_se puede usar para crear una página principal dramática con una imagen grande o un punto focal. También es una buena opción para una página de aterrizaje o cualquier otra página que tenga una combinación de texto, imágenes y vídeo.
 
 ### Dos columnas con barra izquierda
 
 ![Diagrama: diseño de dos columnas con barra izquierda](./assets/layout-2-col-lft-bar-th.png){zoomable="yes"}
 
-El diseño _[!UICONTROL 2 Columns with Left Bar]_&#x200B;se utiliza a menudo para páginas con navegación a la izquierda, como un catálogo o páginas de resultados de búsqueda con navegación por capas. También es una excelente opción para las páginas principales que necesitan navegación adicional o bloques de contenido de apoyo a la izquierda.
+El diseño _[!UICONTROL 2 Columns with Left Bar]_se utiliza a menudo para páginas con navegación a la izquierda, como un catálogo o páginas de resultados de búsqueda con navegación por capas. También es una excelente opción para las páginas principales que necesitan navegación adicional o bloques de contenido de apoyo a la izquierda.
 
 ### Dos columnas con barra derecha
 
@@ -105,10 +116,10 @@ Con un diseño de _[!UICONTROL 2 Columns with Right Bar]_, el área de contenido
 
 ![Diagrama: diseño de tres columnas](./assets/layout-3-col-th.png){zoomable="yes"}
 
-El diseño _[!UICONTROL 3 Column]_&#x200B;tiene una columna central lo suficientemente ancha como para incluir el texto principal de la página, con espacio a cada lado para la navegación adicional y bloques de contenido compatible.
+El diseño _[!UICONTROL 3 Column]_tiene una columna central lo suficientemente ancha como para incluir el texto principal de la página, con espacio a cada lado para la navegación adicional y bloques de contenido compatible.
 
 ### Empty
 
 ![Diagrama - diseño vacío](./assets/layout-blank-th.png){zoomable="yes"}
 
-El diseño _[!UICONTROL Empty]_&#x200B;se puede usar para definir diseños de página personalizados.
+El diseño _[!UICONTROL Empty]_se puede usar para definir diseños de página personalizados.

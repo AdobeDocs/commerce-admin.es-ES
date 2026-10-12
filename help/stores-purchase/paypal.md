@@ -3,31 +3,42 @@ title: Soluciones de pago PayPal
 description: Obtenga información sobre las integraciones de la solución de pago PayPal disponibles para su tienda.
 exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
 feature: Payments
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-TQID: https://experienceleague.adobe.com/Rj1ey1lK7PkyUR-m6CPw6v-C-Mie-vmJtlZAA917K28
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+TQID: 'https://experienceleague.adobe.com/Rj1ey1lK7PkyUR-m6CPw6v-C-Mie-vmJtlZAA917K28'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1248
+source-wordcount: '1288'
 ht-degree: 0%
-
 ---
-
 # Soluciones de pago PayPal
 
 PayPal es líder mundial en pagos en línea y una forma rápida y segura de que sus clientes paguen en línea. La selección de soluciones de PayPal disponibles varía según la ubicación del comerciante. PayPal Express Checkout y PayPal Payments Standard se pueden utilizar en cualquier parte del mundo. Para obtener más información, consulta [Soluciones de PayPal por país](#paypal-solutions-by-country).
@@ -120,7 +131,7 @@ Los filtros de gestión de fraude de PayPal facilitan la detección y la respues
 | Acción | Resultado |
 | --- | --- |
 | [!UICONTROL Review] | El pedido sospechoso recibe el estado _Revisión de pago_ cuando se realiza el pedido. Puedes revisar el pedido y aprobarlo, o cancelar el pago en el Administrador o en PayPal. Al hacer clic en **[!UICONTROL Accept Payment]** o **[!UICONTROL Deny Payment]**, no se crean nuevas transacciones para el pedido. <br/><br/>Si cambias el estado de la transacción en el sitio PayPal, debes hacer clic en **[!UICONTROL Get Payment Update]** en la página de pedidos del administrador para aplicar los cambios. Si hace clic en **[!UICONTROL Accept Payment]** o **[!UICONTROL Deny Payment]**, se aplicarán los cambios realizados en el sitio PayPal. |
-| [!UICONTROL Deny] | El cliente no puede realizar el pedido sospechoso porque PayPal rechaza la transacción correspondiente. <br/><br/>Para rechazar el pago del administrador, haga clic en **[!UICONTROL Deny Payment]** en la esquina superior derecha de la página. El estado del pedido cambia a `Canceled`, la transacción se revierte y los fondos se liberan en la cuenta del cliente. La información correspondiente se agrega en la sección _[!UICONTROL Comments History]_&#x200B;de la vista de pedidos. |
+| [!UICONTROL Deny] | El cliente no puede realizar el pedido sospechoso porque PayPal rechaza la transacción correspondiente. <br/><br/>Para rechazar el pago del administrador, haga clic en **[!UICONTROL Deny Payment]** en la esquina superior derecha de la página. El estado del pedido cambia a `Canceled`, la transacción se revierte y los fondos se liberan en la cuenta del cliente. La información correspondiente se agrega en la sección _[!UICONTROL Comments History]_de la vista de pedidos. |
 | [!UICONTROL Flag] | El pedido sospechoso obtiene el estado `Processing` cuando se realiza. La transacción correspondiente se marca con un indicador en la lista de transacciones de cuentas de comerciante. |
 
 {style="table-layout:auto"}

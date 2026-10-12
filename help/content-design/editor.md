@@ -2,14 +2,25 @@
 title: Editor de WYSIWYG
 description: Aprenda a utilizar el editor y a trabajar con contenido en una vista de _What You See Is What You Get_ (WYSIWYG).
 exl-id: 209ca9d6-973c-4ad9-b7cd-4fba58dbfbb8
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-source-git-commit: f7d2ab41318119fc0f3eed32b3619f0b9071c15d
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
-
 ---
-
 # Editor de WYSIWYG
 
 El editor permite introducir y dar formato mientras se trabaja en una vista _What You See Is What You Get_ (WYSIWYG) del contenido. Si prefiere trabajar directamente con el código HTML subyacente, puede cambiar fácilmente los modos. El editor se puede usar para crear contenido para [páginas](pages.md), [bloques](blocks.md) y [descripciones de productos](../catalog/product-content.md). Cuando trabaje en los detalles del producto, acceda al editor haciendo clic en **[!UICONTROL Show / Hide Editor]**.

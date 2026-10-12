@@ -3,26 +3,33 @@ title: Envío gratuito
 description: Aprenda a configurar una opción de envío gratuito para su tienda.
 exl-id: 3ce69583-0f7f-4c23-b3e3-7d2502bc1bca
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/bLvgCzOtiYjpSdTm7f0Te5fjWbiaL3mfC4DN8ONbOLs
+TQID: 'https://experienceleague.adobe.com/bLvgCzOtiYjpSdTm7f0Te5fjWbiaL3mfC4DN8ONbOLs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: '395'
 ht-degree: 0%
-
 ---
-
 # Envío gratuito
 
 _Envío gratuito_ es una de las promociones más efectivas que puedes ofrecer. Se puede basar en una compra mínima o configurarse como una [regla de precio del carro de compras](../merchandising-promotions/price-rules-cart.md) que se aplica cuando se cumple un conjunto de condiciones. Si ambos se aplican al mismo orden, la configuración tiene prioridad sobre la regla de carro de compras.
@@ -51,7 +58,7 @@ _Envío gratuito_ es una de las promociones más efectivas que puedes ofrecer. S
 
    >[!TIP]
    >
-   >Para usar el envío gratuito con [tarifas de tabla](shipping-table-rate.md), haga que _[!UICONTROL Minimum Order Amount]_&#x200B;sea tan alto que nunca se cumpla. El uso de este valor alto impide que el envío gratuito entre en vigor, a menos que se active por una regla de precio.
+   >Para usar el envío gratuito con [tarifas de tabla](shipping-table-rate.md), haga que _[!UICONTROL Minimum Order Amount]_sea tan alto que nunca se cumpla. El uso de este valor alto impide que el envío gratuito entre en vigor, a menos que se active por una regla de precio.
 
 1. Establecer **[!UICONTROL Include Tax to Amount]**:
 

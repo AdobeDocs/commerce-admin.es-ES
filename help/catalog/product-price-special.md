@@ -3,28 +3,37 @@ title: Precios especiales
 description: Aprenda a ofrecer precios especiales para un período de tiempo determinado.
 exl-id: 4a1e2045-f0a8-4bae-a5a3-8ce8b258b217
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/j6DspCgn2P4-pHxXuOd-AiJCL0SBezxg-rn6yYmMIk8
+TQID: 'https://experienceleague.adobe.com/j6DspCgn2P4-pHxXuOd-AiJCL0SBezxg-rn6yYmMIk8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 855
+source-wordcount: '859'
 ht-degree: 0%
-
 ---
-
 # Precios especiales
 
 Se puede ofrecer un precio especial por un período de tiempo determinado. Durante el período de tiempo especificado, aparece el precio especial en lugar del precio normal, seguido de una anotación que muestra el precio normal.
@@ -65,7 +74,7 @@ Adobe Commerce incluye compatibilidad con [actualizaciones programadas](../conte
 
    En la tienda, el precio especial debe aparecer en la lista del catálogo y en la página del producto.
 
-   _[!UICONTROL Scheduled Change]_&#x200B;aparece en la parte superior de la página.
+   _[!UICONTROL Scheduled Change]_aparece en la parte superior de la página.
 
    ![Cambio programado](./assets/product-price-special-scheduled-change.png){width="600" zoomable="yes"}
 
@@ -77,11 +86,11 @@ Magento Open Source incluye opciones sencillas de fecha de inicio y finalizació
 
 1. Abra el producto en modo de edición.
 
-1. Desplácese hacia abajo hasta el campo _[!UICONTROL Price]_, haga clic en **[!UICONTROL Advanced Pricing]**&#x200B;e introduzca la cantidad **[!UICONTROL Special Price]**.
+1. Desplácese hacia abajo hasta el campo _[!UICONTROL Price]_, haga clic en **[!UICONTROL Advanced Pricing]**e introduzca la cantidad **[!UICONTROL Special Price]**.
 
 1. Usa el icono _Calendario_ (![Icono del calendario](../assets/icon-calendar.png) ) para elegir **[!UICONTROL Start Date]** y **[!UICONTROL End Date]** para la promoción de precio especial.
 
-   El precio especial entra en vigencia inmediatamente después de la medianoche al comienzo de la fecha de inicio (00:01) y continúa hasta justo antes de la medianoche (23:59) del día anterior a la fecha de finalización.
+   El precio especial entra en vigor inmediatamente después de la medianoche al principio de la fecha de inicio (00:01) y continúa hasta justo antes de la medianoche (23:59) del día anterior a la fecha de finalización.
 
    ![Cambio programado](./assets/product-special-price-from-ce.png){width="600" zoomable="yes"}
 
@@ -99,7 +108,7 @@ También puedes asignar un precio especial a varios productos, como múltiples v
 
 El siguiente ejemplo muestra cómo asignar el mismo precio especial a varias variaciones de producto de un producto configurable en Adobe Commerce.
 
-1. En la página _[!UICONTROL Products]_, haga clic en **[!UICONTROL Filters]**&#x200B;e introduzca **[!UICONTROL Name]**&#x200B;del producto configurable.
+1. En la página _[!UICONTROL Products]_, haga clic en **[!UICONTROL Filters]**e introduzca **[!UICONTROL Name]**del producto configurable.
 
 1. Establezca **[!UICONTROL Type]** en `Configurable Product` y haga clic en **[!UICONTROL Apply Filters]**.
 
@@ -109,7 +118,7 @@ El siguiente ejemplo muestra cómo asignar el mismo precio especial a varias var
 
 1. Establezca el control **[!UICONTROL Actions]** en `Update attributes`.
 
-1. Desplácese hacia abajo hasta el campo _[!UICONTROL Special Price]_, seleccione la casilla **[!UICONTROL Change]**&#x200B;situada debajo del campo&#x200B;_[!UICONTROL Special Price]_ e introduzca el precio especial que desea ofrecer.
+1. Desplácese hacia abajo hasta el campo _[!UICONTROL Special Price]_, seleccione la casilla **[!UICONTROL Change]**situada debajo del campo_[!UICONTROL Special Price]_ e introduzca el precio especial que desea ofrecer.
 
    ![Campos de precio especial](./assets/product-price-special-commerce.png){width="600" zoomable="yes"}
 
@@ -151,7 +160,7 @@ El siguiente ejemplo muestra cómo asignar el mismo precio especial a varias var
 
    - Seleccione la casilla de verificación **[!UICONTROL Change]** debajo del campo _Precio especial desde la fecha_, haga clic en el _Calendario_ ( ![icono de calendario](../assets/icon-calendar.png) ) y elija la primera fecha de la promoción de precio especial.
 
-     El precio especial entra en vigencia inmediatamente después de la medianoche al comienzo de la fecha de inicio (00:01) y continúa hasta justo antes de la medianoche (23:59) del día anterior a la fecha de finalización.
+     El precio especial entra en vigor inmediatamente después de la medianoche al principio de la fecha de inicio (00:01) y continúa hasta justo antes de la medianoche (23:59) del día anterior a la fecha de finalización.
 
    - Seleccione la casilla de verificación **[!UICONTROL Change]** debajo del campo _Precio especial hasta la fecha_, haga clic en el _Calendario_ ( ![icono de calendario](../assets/icon-calendar.png) ) y elija la última fecha de la promoción de precio especial.
 

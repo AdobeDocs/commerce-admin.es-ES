@@ -3,28 +3,39 @@ title: Configuración del algoritmo de prioridad de Source
 description: Configure el orden de prioridad de origen en una acción para que el algoritmo Source Priority recomiende fuentes para envíos y deducciones.
 exl-id: 7b25212d-0cd0-4280-be23-c67f06db900a
 feature: Inventory, Shipping/Delivery
-TQID: https://experienceleague.adobe.com/TB4THYjkzbNvEbsjNzOewNtYS6JoRvLDiQQCovSMkbI
+TQID: 'https://experienceleague.adobe.com/TB4THYjkzbNvEbsjNzOewNtYS6JoRvLDiQQCovSMkbI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 269
+source-wordcount: '269'
 ht-degree: 0%
-
 ---
-
 # Configuración del algoritmo de prioridad de Source
 
 Las existencias personalizadas incluyen una lista asignada de fuentes para vender y enviar el inventario de productos disponible a través de su tienda. Este algoritmo utiliza el orden de las fuentes asignadas en su inventario para hacer recomendaciones.
@@ -49,7 +60,7 @@ Para configurarlo, organice los orígenes de arriba a abajo con prioridad para c
 
 1. Haga clic en **[!UICONTROL Assign Sources]**.
 
-1. En la vista _[!UICONTROL Assign Sources]_, active la casilla de verificación del origen necesario y, a continuación, haga clic en **[!UICONTROL Done]**&#x200B;para asignar un origen al inventario.
+1. En la vista _[!UICONTROL Assign Sources]_, active la casilla de verificación del origen necesario y, a continuación, haga clic en **[!UICONTROL Done]**para asignar un origen al inventario.
 
 >[!NOTE]
 >

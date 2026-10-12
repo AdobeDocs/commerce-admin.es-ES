@@ -3,27 +3,38 @@ title: Moderar críticas de productos
 description: Aprenda a moderar las revisiones de productos para asegurarse de que las revisiones enviadas sean apropiadas para la visualización pública de su tienda.
 exl-id: 90c3e918-f435-4468-b41b-e8044ad14fb0
 feature: Merchandising, Products
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-TQID: https://experienceleague.adobe.com/DGRJr-P9TUQ1TFh4Da1Z4VwrKfWe2rw5wmbwq9IlAFg
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+TQID: 'https://experienceleague.adobe.com/DGRJr-P9TUQ1TFh4Da1Z4VwrKfWe2rw5wmbwq9IlAFg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 419
+source-wordcount: '419'
 ht-degree: 0%
-
 ---
-
 # Moderar críticas de productos
 
 Para las revisiones de producto de Commerce, una revisión de producto enviada debe aprobarse antes de mostrarse. Esto garantiza que las revisiones sean apropiadas para la visualización pública de su tienda. Una revisión enviada se encuentra en estado `Pending` hasta que se aprueba o rechaza.
@@ -42,7 +53,7 @@ Para ver todas las revisiones de un producto específico en el Administrador, ha
 
 ## Actualizar estado para revisiones
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**&#x200B;o **[!UICONTROL All Reviews]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**o **[!UICONTROL All Reviews]**.
 
 1. En la lista, haga clic en una revisión pendiente para ver los detalles y editarla si es necesario.
 
@@ -50,7 +61,7 @@ Para ver todas las revisiones de un producto específico en el Administrador, ha
 
    - Para aprobar una revisión pendiente, seleccione `Approved`.
 
-   - Para rechazar una revisión, seleccione `Not Approved`. Las revisiones no aprobadas desaparecen de la lista de _[!UICONTROL Pending Reviews]_&#x200B;páginas.
+   - Para rechazar una revisión, seleccione `Not Approved`. Las revisiones no aprobadas desaparecen de la lista de _[!UICONTROL Pending Reviews]_páginas.
 
    >[!NOTE]
    >
@@ -74,7 +85,7 @@ Puede actualizar o eliminar varias revisiones al mismo tiempo:
 
 1. Seleccione las revisiones que desea actualizar.
 
-1. Utilice el selector _[!UICONTROL Action]_&#x200B;de la esquina superior izquierda para aplicar una acción.
+1. Utilice el selector _[!UICONTROL Action]_de la esquina superior izquierda para aplicar una acción.
 
 1. Haga clic **[!UICONTROL Submit]**
 

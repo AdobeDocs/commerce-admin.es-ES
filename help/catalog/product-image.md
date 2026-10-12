@@ -3,29 +3,41 @@ title: Administración de imágenes y vídeos de productos
 description: Obtenga información sobre la administración de recursos de imagen y vídeo para las listas de productos.
 exl-id: 3cb4ab8a-8966-400f-be94-a517634d1334
 feature: Catalog Management, Products, Media
-TQID: https://experienceleague.adobe.com/gbvXNkkQXUwyp7oE-xZGLEDNmsJIW4ezKHoOojdmGgA
+TQID: 'https://experienceleague.adobe.com/gbvXNkkQXUwyp7oE-xZGLEDNmsJIW4ezKHoOojdmGgA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1164
+source-wordcount: '1164'
 ht-degree: 0%
-
 ---
-
 # Administración de imágenes y vídeos de productos
 
 Para cada producto, puede cargar varias imágenes y vídeos, reorganizar su pedido y controlar cómo se utiliza cada uno. Si tiene que administrar una gran cantidad de imágenes, es posible que prefiera importarlas como un lote en lugar de cargar cada una de ellas individualmente. Para obtener más información, consulte [Importar imágenes de productos](../systems/data-import-product-images.md).
@@ -60,7 +72,7 @@ Para cargar una imagen, realice una de las siguientes acciones:
 
 ### Reorganizar imágenes
 
-Para cambiar el orden de las imágenes en la galería, haga clic en el icono _[!UICONTROL Sort]_( ![Icono Ordenar](./assets/inventory-icon-sort.png) ) en la parte inferior del mosaico de la imagen y arrastre la imagen a una posición diferente en el cuadro&#x200B;_[!UICONTROL Images And Videos]_.
+Para cambiar el orden de las imágenes en la galería, haga clic en el icono _[!UICONTROL Sort]_( ![Icono Ordenar](./assets/inventory-icon-sort.png) ) en la parte inferior del mosaico de la imagen y arrastre la imagen a una posición diferente en el cuadro_[!UICONTROL Images And Videos]_.
 
 ![Pedido de cambio](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 
@@ -102,7 +114,7 @@ Para excluir una imagen de la galería de miniaturas, seleccione la casilla **[!
 
 ## Administrar imágenes y vídeos en el nivel de vista de tienda
 
-Cuando cambia el selector **[!UICONTROL Store View]** a una vista de almacén específica (no **[!UICONTROL All Store Views]**), la sección _[!UICONTROL Images and Videos]_&#x200B;proporciona controles adicionales para administrar cómo se muestran las imágenes para esa vista de almacén sin afectar al ámbito predeterminado.
+Cuando cambia el selector **[!UICONTROL Store View]** a una vista de almacén específica (no **[!UICONTROL All Store Views]**), la sección _[!UICONTROL Images and Videos]_proporciona controles adicionales para administrar cómo se muestran las imágenes para esa vista de almacén sin afectar al ámbito predeterminado.
 
 ### Reordenar imágenes para una vista de tienda
 

@@ -4,36 +4,52 @@ description: Obtenga información acerca de la creación de cuentas de empresa e
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-TQID: https://experienceleague.adobe.com/XJPHU9LGy6OSzy6D67S-2qF8Td4d6Wl3Y49LS1roCkw
+TQID: 'https://experienceleague.adobe.com/XJPHU9LGy6OSzy6D67S-2qF8Td4d6Wl3Y49LS1roCkw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2455
+source-wordcount: '2455'
 ht-degree: 0%
-
 ---
-
 # Crear una cuenta de empresa
 
 Las cuentas de compañía permiten a las empresas B2B administrar sus compras, usuarios y créditos en Adobe Commerce. Este tema cubre el proceso completo de creación, configuración y activación de cuentas de empresa.
@@ -52,19 +68,19 @@ Todas las cuentas de empresa requieren la aprobación del administrador antes de
 Antes de crear cuentas de empresa, asegúrese de que se cumplen los siguientes requisitos:
 
 * **Requisitos del sistema:**
-   * [Las características B2B están habilitadas](enable-basic-features.md) en su instalación de Adobe Commerce
-   * El registro de empresa está habilitado para crear tiendas
-   * Las notificaciones por correo electrónico están configuradas para flujos de trabajo de aprobación
+  * [Las características B2B están habilitadas](enable-basic-features.md) en su instalación de Adobe Commerce
+  * El registro de empresa está habilitado para crear tiendas
+  * Las notificaciones por correo electrónico están configuradas para flujos de trabajo de aprobación
 
 * **Requisitos empresariales:**
-   * Se establecen procesos y políticas de aprobación
-   * Se asignan representantes de ventas (para cuentas creadas por el administrador)
-   * Se definen las políticas de crédito (si se utiliza el crédito de la compañía)
-   * Se han configurado los grupos de clientes y los catálogos compartidos
+  * Se establecen procesos y políticas de aprobación
+  * Se asignan representantes de ventas (para cuentas creadas por el administrador)
+  * Se definen las políticas de crédito (si se utiliza el crédito de la compañía)
+  * Se han configurado los grupos de clientes y los catálogos compartidos
 
 * **Acceso administrativo:**
-   * Permisos adecuados para la administración de empresas
-   * Acceso a las secciones de administración de clientes y empresas
+  * Permisos adecuados para la administración de empresas
+  * Acceso a las secciones de administración de clientes y empresas
 
 El sistema asigna la función [administrador de la empresa](account-company-admin.md) a la persona que configura una cuenta de empresa desde la tienda. Una vez que el administrador del almacén aprueba la solicitud de creación de cuenta de la empresa en Admin, el administrador de la empresa puede establecer una contraseña de cuenta e iniciar sesión en la cuenta.
 
@@ -93,14 +109,14 @@ El sistema asigna la función [administrador de la empresa](account-company-admi
 
    * Rellena los campos obligatorios:
 
-      * **[!UICONTROL Company Name]**
-      * **[!UICONTROL Company Email]**
+     * **[!UICONTROL Company Name]**
+     * **[!UICONTROL Company Email]**
 
    * Completa los campos restantes, según corresponda:
 
-      * **[!UICONTROL Company Legal Name]**
-      * **[!UICONTROL VAT/TAX ID]**
-      * **[!UICONTROL Reseller ID]**
+     * **[!UICONTROL Company Legal Name]**
+     * **[!UICONTROL VAT/TAX ID]**
+     * **[!UICONTROL Reseller ID]**
 
    ![Información de la compañía](./assets/company-information-storefront.png){width="700" zoomable="yes"}
 
@@ -125,9 +141,9 @@ El sistema asigna la función [administrador de la empresa](account-company-admi
 
    * Opcionalmente, rellena los campos siguientes:
 
-      * **[!UICONTROL Job Title]**
-      * **[!UICONTROL Work Phone Number]**
-      * **[!UICONTROL Gender]**
+     * **[!UICONTROL Job Title]**
+     * **[!UICONTROL Work Phone Number]**
+     * **[!UICONTROL Gender]**
 
    ![Administrador de la empresa](./assets/company-administrator-account-storefront.png)
 
@@ -160,8 +176,8 @@ El proceso de creación de una empresa desde el administrador es esencialmente e
 
    * Rellene estos campos obligatorios:
 
-      * **[!UICONTROL Company Name]**
-      * **[!UICONTROL Company Email]**
+     * **[!UICONTROL Company Name]**
+     * **[!UICONTROL Company Email]**
 
    * Si no está listo para que la cuenta se active, establezca **[!UICONTROL Status]** en `Pending Approval`. (De forma predeterminada, se establece en `Active`.)
 
@@ -171,9 +187,9 @@ El proceso de creación de una empresa desde el administrador es esencialmente e
 
    * Rellene los campos siguientes según corresponda:
 
-      * **[!UICONTROL Company Legal Name]**
-      * **[!UICONTROL VAT/TAX ID]**
-      * **[!UICONTROL Reseller ID]**
+     * **[!UICONTROL Company Legal Name]**
+     * **[!UICONTROL VAT/TAX ID]**
+     * **[!UICONTROL Reseller ID]**
 
    * Para **[!UICONTROL Comment]**, escriba la información adicional sobre el cliente que pueda ser necesaria.
 
@@ -181,7 +197,7 @@ El proceso de creación de una empresa desde el administrador es esencialmente e
 
    ![Información de la cuenta](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
 
-1. Cuando crea una compañía por primera vez, la cuadrícula _[!UICONTROL Company Hierarchy]_&#x200B;aparece vacía al expandirla. Una vez guardada la compañía, puede incluirla en una jerarquía de compañías. Consulte [Administración de la compañía](manage-companies.md).
+1. Cuando crea una compañía por primera vez, la cuadrícula _[!UICONTROL Company Hierarchy]_aparece vacía al expandirla. Una vez guardada la compañía, puede incluirla en una jerarquía de compañías. Consulte [Administración de la compañía](manage-companies.md).
 
 1. En la sección _[!UICONTROL Legal Address]_, complete estos campos obligatorios:
 
@@ -195,23 +211,23 @@ El proceso de creación de una empresa desde el administrador es esencialmente e
 
    * Rellene estos campos obligatorios:
 
-      * **[!UICONTROL Email]**
-      * **[!UICONTROL First Name]**
-      * **[!UICONTROL Last Name]**
+     * **[!UICONTROL Email]**
+     * **[!UICONTROL First Name]**
+     * **[!UICONTROL Last Name]**
 
    * Complete las siguientes partes opcionales del nombre, que pueden aplicarse a algunos nombres de clientes más que a otros y pueden utilizarse a su discreción:
 
-      * **[!UICONTROL Prefix]**
-      * **[!UICONTROL Middle Name/Initial]**
-      * **[!UICONTROL Suffix]**
+     * **[!UICONTROL Prefix]**
+     * **[!UICONTROL Middle Name/Initial]**
+     * **[!UICONTROL Suffix]**
 
    * Si la información está disponible, rellene los campos restantes para describir al administrador de la empresa:
 
-      * **[!UICONTROL Website]**
-      * **[!UICONTROL Job Title]**
-      * **[!UICONTROL Work Phone Number]**
-      * **[!UICONTROL Gender]**
-      * **[!UICONTROL Send Welcome Email From]**
+     * **[!UICONTROL Website]**
+     * **[!UICONTROL Job Title]**
+     * **[!UICONTROL Work Phone Number]**
+     * **[!UICONTROL Gender]**
+     * **[!UICONTROL Send Welcome Email From]**
 
    ![Administrador de la empresa](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
@@ -361,7 +377,7 @@ Al crear y administrar cuentas de empresa:
 | Campo | Descripción |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Name] | El nombre de la empresa se introduce la primera vez que se crea la cuenta de la empresa y puede ser una versión abreviada del nombre legal completo. |
-| [!UICONTROL Status] | (Solo administrador) Indica el estado actual de la cuenta de la compañía. Opciones: <br/>**[!UICONTROL Active]**: el administrador del almacén ha aprobado la cuenta de la empresa. El administrador de la empresa y los miembros asociados pueden iniciar sesión en la cuenta desde la tienda y realizar compras.<br/>**[!UICONTROL Pending Approval]** - Se ha enviado una solicitud para abrir una cuenta de compañía, pero el administrador del almacén aún no la ha aprobado. <br/>**[!UICONTROL Rejected]**: se envió una solicitud para abrir una cuenta de compañía, pero el administrador del almacén no la aprobó. Las credenciales de inicio de sesión iniciales utilizadas para enviar la solicitud están bloqueadas.<br/>**&#x200B; Bloqueado &#x200B;**: los miembros de la compañía pueden iniciar sesión y acceder al catálogo, pero no pueden realizar compras. El administrador de la tienda podría bloquear una cuenta de empresa que no esté al día. El administrador de la tienda puede eliminar el bloque de la cuenta en cualquier momento. |
+| [!UICONTROL Status] | (Solo administrador) Indica el estado actual de la cuenta de la compañía. Opciones: <br/>**[!UICONTROL Active]**: el administrador del almacén ha aprobado la cuenta de la empresa. El administrador de la empresa y los miembros asociados pueden iniciar sesión en la cuenta desde la tienda y realizar compras.<br/>**[!UICONTROL Pending Approval]** - Se ha enviado una solicitud para abrir una cuenta de compañía, pero el administrador del almacén aún no la ha aprobado. <br/>**[!UICONTROL Rejected]**: se envió una solicitud para abrir una cuenta de compañía, pero el administrador del almacén no la aprobó. Las credenciales de inicio de sesión iniciales utilizadas para enviar la solicitud están bloqueadas.<br/>** Bloqueado **: los miembros de la compañía pueden iniciar sesión y acceder al catálogo, pero no pueden realizar compras. El administrador de la tienda podría bloquear una cuenta de empresa que no esté al día. El administrador de la tienda puede eliminar el bloque de la cuenta en cualquier momento. |
 | [!UICONTROL Company Email] | La dirección de correo electrónico asociada a la cuenta de la empresa. |
 | [!UICONTROL Sales Representative] | (Solo administrador) El usuario administrador que es el contacto principal de la cuenta de la compañía. |
 

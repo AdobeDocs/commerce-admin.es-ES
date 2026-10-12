@@ -3,50 +3,67 @@ title: El ecosistema de Adobe Commerce
 description: Adobe proporciona una gran cantidad de recursos empresariales y técnicos, herramientas de autoayuda y servicios para ayudar a los comerciantes a tener éxito.
 exl-id: 05fb3769-6f99-45c0-81d6-3ccdd50dc047
 feature: Support
-TQID: https://experienceleague.adobe.com/KdcZAzJW8An6k6Iy6hr7ghuLNq9b9ZSp8vccFqxGqFg
+TQID: 'https://experienceleague.adobe.com/KdcZAzJW8An6k6Iy6hr7ghuLNq9b9ZSp8vccFqxGqFg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
 subfeature_v2:
   - id: ae1249e3-cd01-42c9-8377-4223879bf9de
+    internal-label: Intelligence tools
+  - id: a59f76dc-e003-5617-951e-dffa5bd3de81
+    internal-label: Support
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 386
+source-wordcount: '386'
 ht-degree: 0%
-
 ---
-
 # El ecosistema de Adobe Commerce
 
 Adobe proporciona una gran cantidad de recursos empresariales y técnicos, herramientas de autoayuda y servicios para ayudarle a tener éxito.
 
 | Recurso ecosistémico | Descripción |
 | ------------------ | ----------- |
-| [Documentación del producto](https://experienceleague.adobe.com/es/docs/commerce) | Los comerciantes, diseñadores y desarrolladores pueden usar la documentación para obtener información más detallada de insight sobre cómo pueden aplicar el poder de [!DNL Commerce] para hacer crecer su negocio. |
-| [Biblioteca de recursos de Commerce](https://business.adobe.com/es/resources/commerce.html) | Acceda a libros electrónicos, documentos técnicos de Commerce y seminarios web para obtener recursos empresariales en línea y de insight expertos que le ayudarán a desarrollar y mejorar su tienda. |
-| [Respuesta a incidente de seguridad del producto Adobe](https://helpx.adobe.com/es/security.html) | Únase al Registro de alertas de seguridad para obtener la información más reciente sobre posibles vulnerabilidades y [Prácticas recomendadas de seguridad](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf). |
-| [Blog](https://business.adobe.com/es/blog/?ch_Products=Commerce) | Consulte el blog para obtener la información más reciente sobre nuevas funciones, tendencias, prácticas recomendadas, eventos próximos, etc. |
+| [Documentación del producto](https://experienceleague.adobe.com/en/docs/commerce) | Los comerciantes, diseñadores y desarrolladores pueden usar la documentación para obtener información más detallada de insight sobre cómo pueden aplicar el poder de [!DNL Commerce] para hacer crecer su negocio. |
+| [Biblioteca de recursos de Commerce](https://business.adobe.com/resources/commerce.html) | Acceda a libros electrónicos, documentos técnicos de Commerce y seminarios web para obtener recursos empresariales en línea y de insight expertos que le ayudarán a desarrollar y mejorar su tienda. |
+| [Respuesta a incidente de seguridad del producto Adobe](https://helpx.adobe.com/security.html) | Únase al Registro de alertas de seguridad para obtener la información más reciente sobre posibles vulnerabilidades y [Prácticas recomendadas de seguridad](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf). |
+| [Blog](https://business.adobe.com/blog/?ch_Products=Commerce) | Consulte el blog para obtener la información más reciente sobre nuevas funciones, tendencias, prácticas recomendadas, eventos próximos, etc. |
 | [Blog de desarrolladores](https://blog.developer.adobe.com/?prod=Adobe+Commerce) | El blog para desarrolladores de [!DNL Commerce] es un excelente recurso para que los desarrolladores conozcan las nuevas características, las prácticas recomendadas y los próximos eventos. |
-| [Eventos y seminarios web](https://experienceleague.adobe.com/es/events#f-el_product=Commerce,Commerce%20Intelligence) | Manténgase al tanto del calendario de próximos eventos y seminarios web. Siempre está sucediendo algo en el ecosistema [!DNL Commerce]. |
+| [Eventos y seminarios web](https://experienceleague.adobe.com/en/events#f-el_product=Commerce,Commerce%20Intelligence) | Manténgase al tanto del calendario de próximos eventos y seminarios web. Siempre está sucediendo algo en el ecosistema [!DNL Commerce]. |
 | [[!DNL Commerce Marketplace]](https://commercemarketplace.adobe.com/) | Visite el mercado de [!DNL Commerce] de soluciones de comercio digital de próxima generación. [!DNL Commerce Marketplace] ofrece a los comerciantes una selección revisada de soluciones, a la vez que proporciona a los desarrolladores calificados las herramientas, la plataforma y la ubicación privilegiada para un negocio próspero. |
 | [Formación y certificación](https://certification.adobe.com/certifications/landing) | Aprenda a liberar la potencia y flexibilidad de Adobe Commerce y Magento Open Source. Se proporciona formación para cada función en su empresa, incluidos especialistas en marketing, diseñadores, desarrolladores y mucho más. Los profesionales con experiencia [!DNL Commerce] pueden validar sus habilidades en el mundo real si obtienen una certificación [!DNL Commerce]. |
-| [Socios](https://business.adobe.com/es/products/magento/partners.html) | Los socios de Adobe están comprometidos con su éxito y proporcionan integraciones personalizadas, las mejores experiencias de los clientes, iniciativas de marketing estratégicas y optimización del rendimiento y la escalabilidad para soluciones locales y basadas en la nube. |
-| [Adobe Commerce Managed Services](https://business.adobe.com/es/products/magento/fully-managed-service.html) | El equipo de Managed Services de Adobe Commerce ayuda a los comerciantes y socios de soluciones a maximizar su éxito. Estos expertos ofrecen análisis exhaustivos y recomendaciones de prácticas recomendadas, desde la planificación de la arquitectura hasta la fase posterior a la implementación. |
+| [Socios](https://business.adobe.com/products/magento/partners.html) | Los socios de Adobe están comprometidos con su éxito y proporcionan integraciones personalizadas, las mejores experiencias de los clientes, iniciativas de marketing estratégicas y optimización del rendimiento y la escalabilidad para soluciones locales y basadas en la nube. |
+| [Adobe Commerce Managed Services](https://business.adobe.com/products/magento/fully-managed-service.html) | El equipo de Managed Services de Adobe Commerce ayuda a los comerciantes y socios de soluciones a maximizar su éxito. Estos expertos ofrecen análisis exhaustivos y recomendaciones de prácticas recomendadas, desde la planificación de la arquitectura hasta la fase posterior a la implementación. |
 
 {style="table-layout:auto"}

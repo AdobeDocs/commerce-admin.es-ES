@@ -3,32 +3,44 @@ title: '[!UICONTROL General] > [!UICONTROL Content Management]'
 description: Revise la configuración en la página [!UICONTROL General] > [!UICONTROL Content Management] del administrador de Commerce.
 exl-id: 67c5e89b-0a7c-4e4f-a5ad-10376c3ef6f9
 feature: Configuration, Page Content
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
-TQID: https://experienceleague.adobe.com/0xOspXoBYVeEE3ZvTlwkKNewR9YMAdbmch8RlRcE7S8
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+TQID: 'https://experienceleague.adobe.com/0xOspXoBYVeEE3ZvTlwkKNewR9YMAdbmch8RlRcE7S8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 646
-ht-degree: 0%
-
+source-wordcount: '651'
+ht-degree: 1%
 ---
-
 # [!UICONTROL General] > [!UICONTROL Content Management]
 
 {{config}}
@@ -39,12 +51,12 @@ ht-degree: 0%
 
 ![Opciones de WYSIWYG](./assets/content-management-wysiwyg-options.png)<!-- zoom -->
 
-<!-- [WYSIWYG Options](https://experienceleague.adobe.com/es/docs/commerce-admin/content-design/wysiwyg/editor) -->
+<!-- [WYSIWYG Options](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/editor) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable WYSIWYG Editor] | Vista de tienda | Determina si el editor está habilitado para la tienda. Opciones: Habilitado por defecto/Deshabilitado por defecto/Deshabilitado por completo |
-| [!UICONTROL WYSIWYG Editor] | Sitio web | Determina la versión del editor TinyMCE que se utiliza para el editor de WYSIWYG. Opciones: <br/>**`TinyMCE 6`**- (Predeterminado) Utiliza TinyMCE versión 6 como editor de WYSIWYG predeterminado.<br><br>_ **&#x200B; Nota:**&#x200B;_Una actualización de la biblioteca TinyMCE 5.10 en Adobe Commerce y Magento Open Source 2.4.5 resuelve una vulnerabilidad que permitía la ejecución arbitraria de JavaScript al actualizar una imagen o vínculo mediante algunos tipos de direcciones URL. TinyMCE 3 quedó obsoleto en la versión 2.4.0 y se eliminó en la versión 2.4.3. TinyMCE 4 se eliminó en la versión 2.4.4. |
+| [!UICONTROL WYSIWYG Editor] | Sitio web | Determina la versión del editor TinyMCE que se utiliza para el editor de WYSIWYG. Opciones: <br/>**`TinyMCE 6`**- (Predeterminado) Utiliza TinyMCE versión 6 como editor de WYSIWYG predeterminado.<br><br>_** Nota:**_Una actualización de la biblioteca TinyMCE 5.10 en Adobe Commerce y Magento Open Source 2.4.5 resuelve una vulnerabilidad que permitía la ejecución arbitraria de JavaScript al actualizar una imagen o vínculo mediante algunos tipos de direcciones URL. TinyMCE 3 quedó obsoleto en la versión 2.4.0 y se eliminó en la versión 2.4.3. TinyMCE 4 se eliminó en la versión 2.4.4. |
 | [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | Global | Determina si se utilizan [direcciones URL estáticas](../../content-design/catalog-urls-dynamic-media.md) para el contenido multimedia al que se hace referencia desde el editor de WYSIWYG. La configuración se aplica a todos los lugares donde el editor de WYSIWYG está disponible, incluidos productos, categorías, páginas y bloques. Opciones: <br/>**`Yes`**: utiliza direcciones URL estáticas para el contenido multimedia insertado con el editor de WYSIWYG. Las direcciones URL estáticas son absolutas y se rompen si cambia la [dirección URL base](../../stores-purchase/store-urls.md) del almacén.<br/>**`No`** (Predeterminado): Utiliza direcciones URL dinámicas para el contenido multimedia insertado con el editor de WYSIWYG, según la directiva `{{media url="..."}}`. Las direcciones URL dinámicas son relativas y no se rompen si cambia la dirección URL base del almacén. |
 
 {style="table-layout:auto"}
@@ -57,7 +69,7 @@ ht-degree: 0%
 
 ![Opciones de WYSIWYG](./assets/content-management-wysiwyg-options-hugerte.png)<!-- zoom -->
 
-<!-- [WYSIWYG Options](https://experienceleague.adobe.com/es/docs/commerce-admin/content-design/wysiwyg/editor) -->
+<!-- [WYSIWYG Options](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/editor) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -73,7 +85,7 @@ ht-degree: 0%
 
 ![Jerarquía de páginas de CMS](./assets/content-management-cms-page-hierarchy.png)<!-- zoom -->
 
-<!--[CMS Page Hierarchy](https://experienceleague.adobe.com/es/docs/commerce-admin/content-design/elements/pages/page-hierarchy) -->
+<!--[CMS Page Hierarchy](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-hierarchy) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
@@ -87,11 +99,11 @@ ht-degree: 0%
 
 ![Herramientas de contenido avanzadas](./assets/content-management-advanced-content-tools.png)<!-- zoom -->
 
-<!-- [Advanced Content Tools](https://experienceleague.adobe.com/es/docs/commerce-admin/page-builder/walkthrough/3-catalog-content) -->
+<!-- [Advanced Content Tools](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/walkthrough/3-catalog-content) -->
 
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
-| [!UICONTROL Enable Page Builder] | Global | Determina si están disponibles las herramientas de contenido avanzado [!DNL Page Builder]. Opciones: <br/>**`Yes`**- El área de trabajo [!DNL Page Builder] aparece en la sección Contenido de páginas, bloques, productos y categorías.<br/>**`No`**: las herramientas de edición estándar de CMS aparecen en la sección _[!UICONTROL Content]_&#x200B;de páginas, bloques, productos y categorías. |
+| [!UICONTROL Enable Page Builder] | Global | Determina si están disponibles las herramientas de contenido avanzado [!DNL Page Builder]. Opciones: <br/>**`Yes`**- El área de trabajo [!DNL Page Builder] aparece en la sección Contenido de páginas, bloques, productos y categorías.<br/>**`No`**: las herramientas de edición estándar de CMS aparecen en la sección _[!UICONTROL Content]_de páginas, bloques, productos y categorías. |
 | [!UICONTROL Enable Page Builder Content Preview] | Global | Determina si las [!DNL Page Builder] vistas previas de contenido están habilitadas para productos y categorías. Opciones: `Yes` / `No` <br/>**_Nota:_** Esto está establecido en `Yes` de forma predeterminada, pero desactivar la vista previa puede evitar cualquier problema de rendimiento que resulte de cargar vistas previas dentro de un formulario de producto o categoría. |
 | [!UICONTROL Google Maps API Key] | Global | La clave de API [!DNL Google Maps] de su cuenta de Google. |
 | [!UICONTROL Test Key] |  | Valida la clave de API [!DNL Google Maps]. |

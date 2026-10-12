@@ -3,34 +3,44 @@ title: Sitio, almacén y ámbito de visualización
 description: Obtenga información acerca de la jerarquía de sitios web, tiendas y vistas de tiendas que puede utilizar para ofrecer experiencias de compra a sus clientes.
 exl-id: 80fc1b73-c869-4f1c-b1a1-d61823b91d83
 feature: System, Site Management
-TQID: https://experienceleague.adobe.com/S8E0BsK2lZqb82QMhyXOIEVUrXWy1X2h943tvF3sMzM
+TQID: 'https://experienceleague.adobe.com/S8E0BsK2lZqb82QMhyXOIEVUrXWy1X2h943tvF3sMzM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 688
+source-wordcount: '688'
 ht-degree: 0%
-
 ---
-
 # Sitio, almacén y ámbito de visualización
 
 Cada instalación de Adobe Commerce y Magento Open Source tiene una [jerarquía](../stores-purchase/stores.md) de sitios web, tiendas y vistas de tiendas. El término _ámbito_ determina en qué parte de la jerarquía se aplica una entidad de base de datos (como un producto, atributo o categoría), un elemento de contenido o una configuración. Los sitios web, las tiendas y las vistas de las tiendas tienen relaciones principales/secundarias de uno a varios. Una sola instalación puede tener varios sitios web, y cada sitio web puede tener varias tiendas y vistas de tiendas.
 
 >[!NOTE]
 >
->Para obtener más información, consulte [Varios sitios web o tiendas](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/multi-sites/ms-overview) en la documentación para desarrolladores de [!DNL Commerce].
+>Para obtener más información, consulte [Varios sitios web o tiendas](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview) en la documentación para desarrolladores de [!DNL Commerce].
 
 ## Sitios web
 
