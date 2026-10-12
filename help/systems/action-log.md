@@ -55,7 +55,7 @@ Para obtener una lista detallada de las opciones de configuración, consulte [Ar
 
 >[!NOTE]
 >
->En la plataforma [!DNL Adobe Commerce as a Cloud Service], no puede configurar el informe de registro de acciones, el archivo de registro de acciones ni el registro de acciones masivas, pero puede revisar el resultado del informe desde el menú **[!UICONTROL System]** > _[!UICONTROL Action Logs]_en el Administrador.
+>En la plataforma [!DNL Adobe Commerce as a Cloud Service], no puede configurar el informe de registro de acciones, el archivo de registro de acciones ni el registro de acciones masivas, pero puede revisar el resultado del informe desde el menú **[!UICONTROL System]** > _[!UICONTROL Action Logs]_&#x200B;en el Administrador.
 
 ## Configurar acciones de administración para el registro
 

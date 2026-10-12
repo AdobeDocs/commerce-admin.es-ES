@@ -80,7 +80,7 @@ Los compradores administran el proceso de negociación de ofertas desde la tiend
 
 1. Elija un **[!UICONTROL Expiration Date]** para la oferta.
 
-1. Desplácese hacia abajo hasta la sección _[!UICONTROL Quote Totals]_y actualice **[!UICONTROL Negotiated Price]**según sea necesario.
+1. Desplácese hacia abajo hasta la sección _[!UICONTROL Quote Totals]_&#x200B;y actualice **[!UICONTROL Negotiated Price]**&#x200B;según sea necesario.
 
    ![Actualizar precio negociado](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
 
@@ -98,7 +98,7 @@ Los compradores administran el proceso de negociación de ofertas desde la tiend
 
 ### Aplicar actualizaciones de artículos de línea
 
-Aplique los cambios de elemento de línea en la sección _[!UICONTROL Items Quoted]_si es necesario.
+Aplique los cambios de elemento de línea en la sección _[!UICONTROL Items Quoted]_&#x200B;si es necesario.
 
 ![Aplicar actualizaciones de elementos de línea](./assets/quote-apply-line-item-operations.png){width="600" zoomable="yes"}
 
@@ -133,7 +133,7 @@ Aplique los cambios de elemento de línea en la sección _[!UICONTROL Items Quot
 
 1. Escriba un **[!UICONTROL Proposed Shipping Price]**.
 
-   _[!UICONTROL Quote Totals]_se han actualizado para reflejar el precio de envío propuesto.
+   _[!UICONTROL Quote Totals]_&#x200B;se han actualizado para reflejar el precio de envío propuesto.
 
 ### Adjuntar un documento acreditativo
 
@@ -145,7 +145,7 @@ Aplique los cambios de elemento de línea en la sección _[!UICONTROL Items Quot
 
 ## Paso 3: Actualice la información de nivel de oferta y envíe su respuesta
 
-1. En la sección _[!UICONTROL Negotiation]_de la ficha_[!UICONTROL Comments]_, escriba su respuesta en la sección **[!UICONTROL Add your comment]**.
+1. En la sección _[!UICONTROL Negotiation]_&#x200B;de la ficha&#x200B;_[!UICONTROL Comments]_, escriba su respuesta en la sección **[!UICONTROL Add your comment]**.
 
 1. Para incluir un documento acreditativo, haga clic en **[!UICONTROL Attach file]** y seleccione el archivo del directorio.
 
@@ -153,7 +153,7 @@ Aplique los cambios de elemento de línea en la sección _[!UICONTROL Items Quot
 
 1. Para aplicar un descuento a la oferta:
 
-   - En _[!UICONTROL Quote Totals]_, en la sección_[!UICONTROL Negotiated Price]_, elija uno de los siguientes tipos de descuento:
+   - En _[!UICONTROL Quote Totals]_, en la sección&#x200B;_[!UICONTROL Negotiated Price]_, elija uno de los siguientes tipos de descuento:
 
      - `Percentage Discount`: un descuento porcentual reduce el precio original en un porcentaje específico.
      - `Amount Discount`: un descuento de importe aplica una reducción de precio fijo.
@@ -193,7 +193,7 @@ Para monitorizar su posición en el flujo de trabajo, compruebe el correo electr
 
 | Botón | Descripción |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Back] | Vuelve a la página _[!UICONTROL Quotes]_sin guardar los cambios. |
+| [!UICONTROL Back] | Vuelve a la página _[!UICONTROL Quotes]_&#x200B;sin guardar los cambios. |
 | [!UICONTROL Print] | Envía el presupuesto a una impresora o lo guarda como archivo PDF. |
 | [!UICONTROL Create Copy] | Crea y abre una copia de la oferta actual con `(copy)` anexado al nombre original. Cambie el nombre de la nueva cita editando el campo [!UICONTROL Name]. Procese la nueva oferta guardándola como borrador o enviándola al cliente. |
 | Crear plantilla | Cree una plantilla de oferta basada en la oferta actual. Las plantillas de oferta agilizan la negociación de ofertas al permitir que los compradores y los vendedores acuerden las condiciones de contrato y asignación de precios que se pueden aplicar a varias ofertas. . En el momento del acuerdo, el comprador puede generar una oferta vinculada y aprobada previamente a partir de la plantilla para pedidos posteriores en lugar de reiniciar el proceso de solicitud de oferta. |

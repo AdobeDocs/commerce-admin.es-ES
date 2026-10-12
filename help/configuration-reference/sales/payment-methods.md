@@ -232,7 +232,7 @@ Consulte la sección Configuración básica de cada método de pago individual p
 
 >[!NOTE]
 >
->No seleccione la opción _[!UICONTROL Not Capture]_a menos que esté seguro de que va a capturar el pago mediante Commerce más adelante. No puede crear una nota de abono hasta que el pago se haya capturado con el botón Capturar.
+>No seleccione la opción _[!UICONTROL Not Capture]_&#x200B;a menos que esté seguro de que va a capturar el pago mediante Commerce más adelante. No puede crear una nota de abono hasta que el pago se haya capturado con el botón Capturar.
 
 ## [!UICONTROL Purchase Order]
 

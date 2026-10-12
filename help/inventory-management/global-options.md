@@ -106,7 +106,7 @@ Configure las opciones de configuración predeterminadas del producto y las exis
 
    >[!NOTE]
    >
-   >La consulta `sourceAvailability` está deshabilitada de manera predeterminada porque revela qué orígenes contienen un SKU. Las cantidades exactas permanecen enmascaradas hasta que la cantidad de origen alcanza el conjunto **[!UICONTROL Only X left Threshold]** en la sección _[!UICONTROL Stock Options]_. Cada origen de inventario tiene un indicador **[!UICONTROL Visible on Storefront]**que está desactivado de forma predeterminada. Las acciones de una fuente nunca se devuelven hasta que un comerciante lo habilita. Para establecerlo, vaya a **[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, edite un origen y active **[!UICONTROL Visible on Storefront]**.
+   >La consulta `sourceAvailability` está deshabilitada de manera predeterminada porque revela qué orígenes contienen un SKU. Las cantidades exactas permanecen enmascaradas hasta que la cantidad de origen alcanza el conjunto **[!UICONTROL Only X left Threshold]** en la sección _[!UICONTROL Stock Options]_. Cada origen de inventario tiene un indicador **[!UICONTROL Visible on Storefront]**&#x200B;que está desactivado de forma predeterminada. Las acciones de una fuente nunca se devuelven hasta que un comerciante lo habilita. Para establecerlo, vaya a **[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, edite un origen y active **[!UICONTROL Visible on Storefront]**.
 
 
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Admin bulk operations]** y establezca las opciones:

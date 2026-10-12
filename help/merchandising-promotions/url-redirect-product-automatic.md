@@ -67,7 +67,7 @@ Su tienda se puede configurar para que genere automáticamente una redirección 
 
 >[!NOTE]
 >
-> Las reescrituras de URL se pueden generar para la vista de tienda o el ámbito del sitio web. Establezca el ámbito de reescritura de URL desde el administrador en **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]****[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**. Seleccione el ámbito en el campo_[!UICONTROL Product URL Rewrite Scope]_.
+> Las reescrituras de URL se pueden generar para la vista de tienda o el ámbito del sitio web. Establezca el ámbito de reescritura de URL desde el administrador en **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;**[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**. Seleccione el ámbito en el campo&#x200B;_[!UICONTROL Product URL Rewrite Scope]_.
 
 ## Redirigir automáticamente las direcciones URL del producto
 
@@ -75,7 +75,7 @@ Su tienda se puede configurar para que genere automáticamente una redirección 
 
 1. Busque el producto en la lista y haga clic en para abrir el registro.
 
-1. Expanda ![El selector de expansión ](../assets/icon-display-expand.png) en la sección **[!UICONTROL Search Engine Optimization]**.
+1. Expanda ![El selector de expansión &#x200B;](../assets/icon-display-expand.png) en la sección **[!UICONTROL Search Engine Optimization]**.
 
    ![Optimización del motor de búsqueda de productos: redirección permanente](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 

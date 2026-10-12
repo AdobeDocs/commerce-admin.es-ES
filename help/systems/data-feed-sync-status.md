@@ -183,7 +183,7 @@ Para comprobar la sincronización de un extremo a otro después de completar la 
 
 - **[!DNL Adobe Commerce as a Cloud Service]con servicios de Commerce:** Compruebe el [tablero de administración de datos](data-dashboard.md) aplicable para confirmar la disponibilidad del flujo descendente.
 - **Adobe Commerce en la nube o local con el conector de Adobe Commerce Optimizer**: compruebe primero el estado de exportación del administrador de Commerce y, a continuación, compruebe la [página de sincronización de datos](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) en [!DNL Commerce Optimizer Studio]
-- **[!DNL Adobe Commerce Optimizer](independiente):** Los datos no se exportan desde el servidor de Commerce. Use la [página de sincronización de datos](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) en [!DNL Commerce Optimizer Studio] para confirmar la disponibilidad de los datos.
+- **[!DNL Adobe Commerce Optimizer] (independiente):** Los datos no se exportan desde el servidor de Commerce. Use la [página de sincronización de datos](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) en [!DNL Commerce Optimizer Studio] para confirmar la disponibilidad de los datos.
 
 >[!TIP]
 >

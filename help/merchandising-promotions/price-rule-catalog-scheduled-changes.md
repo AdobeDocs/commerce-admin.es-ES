@@ -88,7 +88,7 @@ Si se ha creado una regla de precios activa sin una fecha de finalización y nec
 
    >[!NOTE]
    >
-   >Siempre que actualice cualquier parámetro de información de regla, asegúrese de que _[!UICONTROL Status]_esté configurado correctamente. Si desea que el cambio genere una regla aplicada activamente, establezca el estado en `Active`.
+   >Siempre que actualice cualquier parámetro de información de regla, asegúrese de que _[!UICONTROL Status]_&#x200B;esté configurado correctamente. Si desea que el cambio genere una regla aplicada activamente, establezca el estado en `Active`.
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save]**.
 
@@ -142,4 +142,4 @@ Si se ha creado una regla de precios activa sin una fecha de finalización y nec
 
    Para ver los cambios programados para diferentes vistas de la tienda, haga clic en **[!UICONTROL Scope]** en el encabezado de la página Vista previa. Elija el sitio web, la tienda o la vista de la tienda que desea previsualizar.
 
-1. Si es necesario, vuelva al calendario y haga clic en **[!UICONTROL View/Edit]** en la columna _[!UICONTROL Action]_para abrir otra actualización programada.
+1. Si es necesario, vuelva al calendario y haga clic en **[!UICONTROL View/Edit]** en la columna _[!UICONTROL Action]_&#x200B;para abrir otra actualización programada.
