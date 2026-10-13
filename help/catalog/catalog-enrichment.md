@@ -3,7 +3,7 @@ title: Enriquecimiento del catálogo
 description: Utilice la capacidad de enriquecimiento del catálogo nativo en Adobe Commerce para revisar y aplicar mejoras sugeridas por IA a los nombres de productos y descripciones largas para la detección asistida por LLM y IA.
 role: Admin, User, Leader
 recommendations: noCatalog
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 68a48c6de1c76eca5b4cee4442e8793fb4bd29ee
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2429'
 ht-degree: 0%
 ---
 # Enriquecimiento del catálogo
@@ -50,7 +50,7 @@ El enriquecimiento del catálogo es una funcionalidad nativa de [!DNL Adobe Comm
 
 >[!NOTE]
 >
->El enriquecimiento del catálogo funciona con [!DNL Commerce Catalog Agent] y [!DNL Adobe LLM Optimizer] entre bastidores. El enriquecimiento se utiliza como parte del flujo de trabajo del catálogo de Commerce. No administra una integración de LLM Optimizer independiente para aplicar actualizaciones de nombre y descripción aprobadas. Para obtener una supervisión y optimización LLM más amplia fuera de Commerce, consulte la [documentación del producto LLM Optimizer](https://experienceleague.adobe.com/es/docs/brand-visibility/using/home).
+>El enriquecimiento del catálogo funciona con [!DNL Commerce Catalog Agent] y [!DNL Adobe Brand Visibility] entre bastidores. El enriquecimiento se utiliza como parte del flujo de trabajo del catálogo de Commerce. No administra una integración de Adobe Brand Visibility independiente para aplicar actualizaciones de nombre y descripción aprobadas. Para obtener una supervisión y optimización LLM más amplia fuera de Commerce, consulte la [[!DNL Adobe Brand Visibility] documentación del producto](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home).
 
 ## Cómo funciona {#how-it-works}
 
@@ -81,13 +81,25 @@ Los siguientes requisitos previos se aplican cuando tiene acceso al enriquecimie
 
 - Su tienda puede ser rastreada por bots agénticos y orientados a LLM donde se requiere rastrear la cobertura de las sugerencias según el catálogo.
 - Los servicios de Commerce y la conectividad del catálogo requeridos están habilitados y en buen estado. Consulte [Habilitar enriquecimiento de catálogo](#enable-catalog-enrichment) para obtener más información.
-- [IMS está configurado](https://experienceleague.adobe.com/es/docs/core-services/interface/administration/organizations).
-- Tiene acceso a [Adobe Admin Console](https://helpx.adobe.com/es/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- El usuario administrador de Commerce que accede al enriquecimiento del catálogo inicia sesión a través de Adobe IMS. Ver [requisitos de organización e inicio de sesión de IMS](#ims-sign-in-requirements).
+- Tiene acceso a [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 - Su organización ha firmado al usuario de GenAI o se ha excluido explícitamente de los servicios de IA subyacentes.
 
 >[!NOTE]
 >
 >Como parte de la configuración, Commerce comprueba si su organización ha firmado el controlador GenAI que cubre los servicios de IA subyacentes al enriquecimiento del catálogo. Si todavía no ha firmado al usuario o no ha optado por excluirse, se le pedirá que firme o actualice el usuario antes de poder utilizar el enriquecimiento del catálogo.
+
+### Requisitos de organización e inicio de sesión de IMS {#ims-sign-in-requirements}
+
+El enriquecimiento de catálogo utiliza el token de acceso Adobe IMS del usuario administrador de Commerce que inició sesión para conectarse a [!DNL Adobe Brand Visibility]. Este token no se produce en el inicio de sesión de un administrador nativo de Commerce que solo tenga un nombre de usuario y una contraseña de Commerce, por lo que el usuario administrador que acceda al enriquecimiento del catálogo debe iniciar sesión a través de Adobe IMS.
+
+Para admitir el inicio de sesión en IMS, la instancia de Commerce debe tener habilitada la integración de administración de Commerce con Adobe ID. Consulte [Configuración de la integración de administración de Commerce con Adobe ID](/help/getting-started/adobe-ims-config.md).
+
+>[!IMPORTANT]
+>
+>Habilitar la integración de administración de Commerce con Adobe ID es un cambio en toda la instancia. Una vez habilitado, todos los usuarios administradores deben autenticarse a través de Adobe IMS y el inicio de sesión con nombre de usuario y contraseña nativos de Commerce ya no estará disponible. Revise la [descripción general de la integración del servicio Adobe Identity Management (IMS)](/help/getting-started/adobe-ims-integration-overview.md) antes de habilitar esta integración.
+
+La organización IMS de Adobe asociada a su instancia de Commerce suele ser diferente de la organización IMS que posee sus derechos de [!DNL Adobe Brand Visibility]. Al habilitar la integración de administración de Commerce con Adobe ID, no se concede acceso al derecho de Visibilidad de la marca, y no se requiere que ambas organizaciones sean la misma. Póngase en contacto con el administrador de Adobe o con el equipo de la cuenta para confirmar qué suscripciones a la organización IMS y qué enriquecimiento del catálogo de acceso a cuentas requiere en la configuración.
 
 ## Habilitar enriquecimiento de catálogo {#enable-catalog-enrichment}
 
@@ -102,7 +114,7 @@ Póngase en contacto con el administrador de Commerce o con su socio de implemen
    composer update magento/module-catalog-enrichment
    ```
 
-1. Si aún no ha instalado los servicios de catálogo, [hágalo](https://experienceleague.adobe.com/es/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
+1. Si aún no ha instalado los servicios de catálogo, [hágalo](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
 
    **[!UICONTROL Catalog enrichment]** ya está disponible en su instancia de Commerce.
 
@@ -112,16 +124,18 @@ Después de instalar las extensiones de enriquecimiento de catálogo y servicios
 
 ![Enriquecimiento de catálogo](./assets/catalog-enrichment-menu.png){zoomable="yes"}
 
-### Configuración del enriquecimiento del catálogo
+### Configuración del enriquecimiento del catálogo {#configure-catalog-enrichment}
 
 Configure el enriquecimiento de catálogo en la ficha **[!UICONTROL Settings]** para que [!DNL Commerce Catalog Agent] pueda conectarse a su entorno [!DNL Adobe Commerce] y mostrar sugerencias en el administrador de Commerce.
+
+Los campos de esta pestaña identifican el entorno de Commerce y la vista de tienda a la que se conecta el enriquecimiento del catálogo. Son independientes de la organización IMS de Adobe que posee sus derechos de [!DNL Adobe Brand Visibility]. Ver [requisitos de organización e inicio de sesión de IMS](#ims-sign-in-requirements).
 
 1. En el Administrador, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**.
 1. En la lista **[!UICONTROL Scope]** de la parte superior de la página, seleccione la vista de tienda que desee configurar o deje **[!UICONTROL All Store Views]** para administrar la configuración en las vistas de tienda.
 1. Abra la ficha **[!UICONTROL Settings]**.
 1. En **[!UICONTROL Commerce Configuration]**, expanda el panel de vista de tienda etiquetado con su dirección URL.
 
-   Proporcione los detalles de su entorno [!DNL Adobe Commerce] para habilitar el servicio Catalog LLM Optimizer y los flujos de trabajo de auditoría.
+   Proporcione los detalles de su entorno [!DNL Adobe Commerce] para habilitar el servicio Catalog Adobe Brand Visibility y los flujos de trabajo de auditoría.
 
    ![Configuración de Commerce en la ficha Configuración de enriquecimiento del catálogo](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
