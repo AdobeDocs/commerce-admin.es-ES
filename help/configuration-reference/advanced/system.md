@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
+source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
 workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 1%
@@ -344,4 +344,4 @@ Para obtener más información acerca de cómo establecer esta configuración, c
 
 {style="table-layout:auto"}
 
-<!-- Last updated from includes: 2023-02-22 09:59:54 -->
+<!-- Last updated from includes: 2026-08-20 14:27:46 -->

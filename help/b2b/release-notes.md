@@ -44,7 +44,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: bb5da9eea16601303b62ccc06327c6a832062c49
 workflow-type: tm+mt
 source-wordcount: '11211'
 ht-degree: 0%
@@ -60,6 +60,8 @@ Estas notas de la versión de la extensión B2B recopilan las adiciones y correc
 >[!NOTE]
 >
 >Consulte [Disponibilidad del producto](https://experienceleague.adobe.com/es/docs/commerce-operations/release/product-availability) para obtener información sobre las versiones de la extensión de Commerce B2B compatibles con las versiones de Adobe Commerce disponibles.
+
+{{$include /help/_includes/templated/release-notes-v1-5-4.md}}
 
 ## B2B v1.5.3
 
@@ -1160,3 +1162,5 @@ Esta versión incluye mejoras en las aprobaciones de pedidos, los métodos de en
 - Adobe Commerce genera una excepción durante la actualización a B2B 1.2.0 en una implementación de varios sitios web. Cuando se ejecuta `setup:upgrade`, este error se produce en el módulo `PurchaseOrder`: `Module Magento_PurchaseOrder: Unable to apply data patch Magento\PurchaseOrder\Setup\Patch\Data\InitPurchaseOrderSalesSequence for moduleMagento_PurchaseOrder`. **Solución alternativa**: instale la interfaz de `B2B-716 Add NonTransactionableInterface` en la revisión de revisión de datos de `InitPurchaseOrderSalesSequence`, que ahora está disponible en la sección **Mi cuenta** > **Descargas** de `magento.com`.
 - Si un código de descuento caduca antes de que se apruebe un pedido de compra, el pedido sigue mostrando el importe descontado, pero una vez aprobado, el pedido se coloca en el total no descontado. **Solución alternativa**: instale la revisión `B2B-709 Purchase Order Discount patch` para este problema, que ahora está disponible en la sección **Mi cuenta** > **Descargas** de `magento.com`.
 - Si los artículos de un pedido de compra están agotados, o tienen una cantidad insuficiente cuando el pedido de compra se convierte en un pedido real, se produce un error. Si los pedidos no satisfechos están activados, el pedido se procesa normalmente.
+
+<!-- Last updated from includes: 2026-10-09 17:06:14 -->

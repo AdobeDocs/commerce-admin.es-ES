@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
+source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 0%
@@ -128,3 +128,5 @@ Para cambiar el período de caducidad predeterminado aplicado a las claves reci�
 > - [Servicios > Vista de catálogo de ACO](../configuration-reference/services/aco-catalog-view.md): configure la duración del token de acceso de tienda y habilite o deshabilite la emisión
 > - [Administrar claves de acceso restringido](https://experienceleague.adobe.com/es/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} en la *Guía del conector de Adobe Commerce Optimizer*: descubra cómo encajan estas claves en la sincronización del catálogo compartido B2B
 > - [Claves de acceso restringido](https://experienceleague.adobe.com/es/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} en la *Guía de Adobe Commerce Optimizer*: el flujo de claves manual basado en ACO Studio para casos de uso que no son B2B
+
+<!-- Last updated from includes: 2026-10-01 08:33:41 -->
