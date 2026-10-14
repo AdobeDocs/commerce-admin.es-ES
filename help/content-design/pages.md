@@ -41,7 +41,7 @@ El contenido se puede ver en términos de su vida útil, al igual que cualquier 
 
 El contenido con una larga vida útil a veces se denomina _contenido permanente_. Algunos ejemplos de contenido permanente son los casos de éxito de los clientes, _cómo_ instrucciones y Preguntas más frecuentes (FAQ). Por el contrario, el contenido que es perecedero por naturaleza incluye eventos, noticias de la industria y comunicados de prensa.
 
-![La página Acerca de nosotros incluida con el almacén de Luma de muestra ](./assets/storefront-about-us.png){width="700" zoomable="yes"}
+![La página Acerca de nosotros incluida con el almacén de Luma de muestra &#x200B;](./assets/storefront-about-us.png){width="700" zoomable="yes"}
 
 ## Páginas de contenido principal
 
@@ -112,7 +112,7 @@ La configuración de _Páginas predeterminadas_ determina la página de aterriza
 
    >[!NOTE]
    >
-   >Para una vista de almacén específica, desactive la casilla de verificación **[!UICONTROL Use Default]** junto a _[!UICONTROL Default Web URL]_y cualquier otra configuración predeterminada que desee cambiar.
+   >Para una vista de almacén específica, desactive la casilla de verificación **[!UICONTROL Use Default]** junto a _[!UICONTROL Default Web URL]_&#x200B;y cualquier otra configuración predeterminada que desee cambiar.
 
 1. Configure **[!UICONTROL CMS Home Page]** a la página de CMS para usarla como página principal. Otras páginas creadas pueden utilizarse como página de inicio, como:
 
