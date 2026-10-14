@@ -3,11 +3,9 @@ title: 'Inventario: asignar orígenes y cantidades'
 description: Sección reutilizada sobre la asignación de orígenes y cantidades al crear productos de catálogo.
 source-git-commit: f36925217230e558043078fdc274f5e69c096c1e
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '140'
 ht-degree: 0%
-
 ---
-
 # Inventario: asignar orígenes y cantidades
 
 Para comerciantes de varios orígenes que usen [[!DNL Inventory Management]](../inventory-management/introduction.md), desplácese hacia abajo hasta la sección **Orígenes** y asigne orígenes y cantidades:
