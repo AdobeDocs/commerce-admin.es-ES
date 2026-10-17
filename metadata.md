@@ -4,6 +4,7 @@ solution-title: Commerce
 solution: Commerce
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: "Commerce"
 usetq: true
 product: magento
 feature-set: Commerce
@@ -17,11 +18,9 @@ topic: Commerce, Administration
 index: true
 source-git-commit: 6eaf7778759fa9acee44853e9cba7926370d1eac
 workflow-type: tm+mt
-source-wordcount: 145
+source-wordcount: '140'
 ht-degree: 0%
-
 ---
-
 
 # Metadatos para uso interno
 
