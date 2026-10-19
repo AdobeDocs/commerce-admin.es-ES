@@ -3,6 +3,7 @@ title: Enriquecimiento del catálogo
 description: Utilice la capacidad de enriquecimiento del catálogo nativo en Adobe Commerce para revisar y aplicar mejoras sugeridas por IA a los nombres de productos y descripciones largas para la detección asistida por LLM y IA.
 role: Admin, User, Leader
 recommendations: noCatalog
+touch: true
 badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
@@ -39,7 +40,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 68a48c6de1c76eca5b4cee4442e8793fb4bd29ee
+source-git-commit: b8d426f123be4b9fedf1198a8864d552cb6e1059
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 0%
