@@ -3,7 +3,8 @@ title: Enriquecimiento del catálogo
 description: Utilice la capacidad de enriquecimiento del catálogo nativo en Adobe Commerce para revisar y aplicar mejoras sugeridas por IA a los nombres de productos y descripciones largas para la detección asistida por LLM y IA.
 role: Admin, User, Leader
 recommendations: noCatalog
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+touch: true
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -39,7 +40,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 68a48c6de1c76eca5b4cee4442e8793fb4bd29ee
+source-git-commit: b8d426f123be4b9fedf1198a8864d552cb6e1059
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 0%
@@ -50,7 +51,7 @@ El enriquecimiento del catálogo es una funcionalidad nativa de [!DNL Adobe Comm
 
 >[!NOTE]
 >
->El enriquecimiento del catálogo funciona con [!DNL Commerce Catalog Agent] y [!DNL Adobe Brand Visibility] entre bastidores. El enriquecimiento se utiliza como parte del flujo de trabajo del catálogo de Commerce. No administra una integración de Adobe Brand Visibility independiente para aplicar actualizaciones de nombre y descripción aprobadas. Para obtener una supervisión y optimización LLM más amplia fuera de Commerce, consulte la [[!DNL Adobe Brand Visibility] documentación del producto](https://experienceleague.adobe.com/es/docs/brand-visibility/using/home).
+>El enriquecimiento del catálogo funciona con [!DNL Commerce Catalog Agent] y [!DNL Adobe Brand Visibility] entre bastidores. El enriquecimiento se utiliza como parte del flujo de trabajo del catálogo de Commerce. No administra una integración de Adobe Brand Visibility independiente para aplicar actualizaciones de nombre y descripción aprobadas. Para obtener una supervisión y optimización LLM más amplia fuera de Commerce, consulte la [[!DNL Adobe Brand Visibility] documentación del producto](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home).
 
 ## Cómo funciona {#how-it-works}
 
@@ -82,7 +83,7 @@ Los siguientes requisitos previos se aplican cuando tiene acceso al enriquecimie
 - Su tienda puede ser rastreada por bots agénticos y orientados a LLM donde se requiere rastrear la cobertura de las sugerencias según el catálogo.
 - Los servicios de Commerce y la conectividad del catálogo requeridos están habilitados y en buen estado. Consulte [Habilitar enriquecimiento de catálogo](#enable-catalog-enrichment) para obtener más información.
 - El usuario administrador de Commerce que accede al enriquecimiento del catálogo inicia sesión a través de Adobe IMS. Ver [requisitos de organización e inicio de sesión de IMS](#ims-sign-in-requirements).
-- Tiene acceso a [Adobe Admin Console](https://helpx.adobe.com/es/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- Tiene acceso a [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 - Su organización ha firmado al usuario de GenAI o se ha excluido explícitamente de los servicios de IA subyacentes.
 
 >[!NOTE]
@@ -114,7 +115,7 @@ Póngase en contacto con el administrador de Commerce o con su socio de implemen
    composer update magento/module-catalog-enrichment
    ```
 
-1. Si aún no ha instalado los servicios de catálogo, [hágalo](https://experienceleague.adobe.com/es/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
+1. Si aún no ha instalado los servicios de catálogo, [hágalo](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
 
    **[!UICONTROL Catalog enrichment]** ya está disponible en su instancia de Commerce.
 
