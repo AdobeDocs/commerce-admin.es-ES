@@ -305,7 +305,7 @@ El método de pago utilizado para el pedido determina los botones de devolución
 
 ## Imprimir un abono
 
-Para imprimir o ver el abono completado, debe tener instalado un lector de PDF. Puede descargar [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Obtener Adobe Reader") sin cargo.
+Para imprimir o ver el abono completado, debe tener instalado un lector de PDF. Puede descargar [Adobe Reader](https://www.adobe.com/es/acrobat/pdf-reader.html "Obtener Adobe Reader") sin cargo.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Credit Memos]**.
 
