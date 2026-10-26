@@ -48,12 +48,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1270'
 ht-degree: 0%
 ---
 # Su cuenta de administrador
+
+>[!NOTE]
+>
+>Para Adobe Commerce as a Cloud Service, inicie sesión a través de Adobe Experience Cloud y abra una instancia desde Commerce Cloud Manager. Consulte [Administrador de Commerce en la experiencia unificada de Adobe](admin-unified-experience.md#open-the-commerce-admin) para obtener información de acceso y [Administración de usuarios](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management) para administrar usuarios y roles de Adobe Commerce as a Cloud Service. La cuenta basada en la instalación y las instrucciones de inicio de sesión locales que aparecen a continuación no describen el flujo de inicio de sesión de Adobe Commerce as a Cloud Service.
 
 La cuenta de administrador principal se configuró inicialmente durante la instalación y puede contener información inicial de marcador de posición o información de datos de ejemplo. El propietario designado de esta cuenta puede personalizar el nombre de usuario y la contraseña y actualizar el nombre, los apellidos y la dirección de correo electrónico en cualquier momento. Esta cuenta, un _superusuario_ con todos los permisos de forma predeterminada, generalmente crea las cuentas de usuario de administrador necesarias para la empresa.
 
@@ -153,7 +157,7 @@ No se permite la reutilización de las cuatro últimas contraseñas asignadas a 
 
    ![Cerrar sesión](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-La página _[!UICONTROL Sign In]_&#x200B;muestra un mensaje que indica que ha cerrado la sesión. Cierre la sesión de_ Admin _cada vez que deje su equipo desatendido.
+La página _[!UICONTROL Sign In]_muestra un mensaje que indica que ha cerrado la sesión. Cierre la sesión de_ Admin _cada vez que deje su equipo desatendido.
 
 ## Editar información de la cuenta
 

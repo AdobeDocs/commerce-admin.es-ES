@@ -33,9 +33,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '416'
 ht-degree: 0%
 ---
 # Credenciales y direcciones URL de inicio de sesión
@@ -54,6 +54,10 @@ Si todavía no tiene un dominio, la dirección URL de la tienda incluye una seri
 
 ## URL de administrador
 
+>[!NOTE]
+>
+>Para Adobe Commerce as a Cloud Service, obtenga los vínculos de administrador desde Commerce Cloud Manager. Consulte [Elegir una interfaz de administración](admin-unified-experience.md#classic-ui) para ver las opciones de acceso y los formatos de URL. Los ejemplos de URL basados en la instalación que se muestran a continuación no se aplican a Adobe Commerce as a Cloud Service.
+
 La dirección de tu tienda [Admin](admin.md) se ha configurado durante la instalación. La dirección predeterminada es la misma que la tienda, pero con `/admin` al final. Aunque los ejemplos de esta guía utilizan el directorio predeterminado, se recomienda ejecutar el administrador desde una ubicación exclusiva de su tienda.
 
 - `http://mydomain.com/admin`
@@ -69,6 +73,6 @@ Mientras aprendes cómo moverte por la tienda, asegúrate de configurar una [cue
 
 ## Datos de muestra
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
-Adobe proporciona un conjunto de datos de ejemplo que incluye una tienda de muestra con más de 250 productos (unos 200 de ellos son productos configurables), categorías, reglas de precios promocionales, páginas de CMS, banners, etc. Los datos de muestra usan el tema _Luma_ en la tienda. [La instalación de estos datos de ejemplo](https://experienceleague.adobe.com/es/docs/commerce-operations/installation-guide/next-steps/sample-data/overview) es opcional, pero puede resultar útil para probar y desarrollar personalizaciones para su negocio de comercio electrónico.
+Adobe proporciona un conjunto de datos de ejemplo que incluye una tienda de muestra con más de 250 productos (unos 200 de ellos son productos configurables), categorías, reglas de precios promocionales, páginas de CMS, banners, etc. Los datos de muestra usan el tema _Luma_ en la tienda. [La instalación de estos datos de ejemplo](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/sample-data/overview) es opcional, pero puede resultar útil para probar y desarrollar personalizaciones para su negocio de comercio electrónico.
