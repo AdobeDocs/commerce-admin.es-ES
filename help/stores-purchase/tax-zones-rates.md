@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Los impuestos de la tienda se calculan según la dirección de la tienda. El imp
 
 ## Definir un tipo impositivo nuevo
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add New Tax Rate]**.
 
@@ -74,7 +74,7 @@ Los impuestos de la tienda se calculan según la dirección de la tienda. El imp
 
 ## Editar una tasa de impuestos existente
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
 1. Busque la tasa de impuestos en la cuadrícula _[!UICONTROL Tax Zones and Rates]_&#x200B;y abra el registro en modo de edición.
 
@@ -88,7 +88,7 @@ Los impuestos de la tienda se calculan según la dirección de la tienda. El imp
 
 ## Eliminar tipo impositivo
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
 1. Busque el tipo impositivo que desea eliminar y ábralo en modo de edición.
 

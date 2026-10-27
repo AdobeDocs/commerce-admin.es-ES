@@ -2,32 +2,36 @@
 title: Menú [!UICONTROL Content]
 description: Utilice el menú [!UICONTROL Content] para acceder a varias funciones y administrar el contenido de su tienda.
 exl-id: 4e149836-f13c-4240-8700-882f2fc1619a
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: https://experienceleague.adobe.com/UTh5IKGTXZUcSXGQvP7rHtja8EnEELc75EPpvPvSD3E
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: d10dbf4560352b3898c5c4f750e094a4dfe62dae
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: '361'
 ht-degree: 0%
-
 ---
-
 # Menú [!UICONTROL Content]
 
 >[!NOTE]
 >
->Cuando se habilita el nuevo [[!DNL Media Gallery]](media-gallery.md), aparece la sección _[!UICONTROL Media]_&#x200B;con una sola opción para tener acceso al [!DNL Media Gallery]. Puede establecer la opción **[!UICONTROL Enable Old Media Gallery]**&#x200B;en `No` yendo a **[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** y eligiendo **[!UICONTROL Advanced]** > **[!UICONTROL System]** en el panel izquierdo.
+>Cuando se habilita el nuevo [[!DNL Media Gallery]](media-gallery.md), aparece la sección _[!UICONTROL Media]_&#x200B;con una sola opción para tener acceso al [!DNL Media Gallery]. Para establecer la opción **[!UICONTROL Enable Old Media Gallery]**&#x200B;en `No`, vaya a **[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** y elija **[!UICONTROL Advanced]** > **[!UICONTROL System]** en el panel izquierdo.
 
 >[!BEGINTABS]
 
@@ -56,7 +60,7 @@ En la barra lateral _Admin_, elija **[!UICONTROL Content]**.
 - Crear [bloques](blocks.md) de contenido sin escribir ningún código. Los bloques pueden contener texto, imágenes e incluso vídeo, y se pueden asignar a cualquier parte del diseño de página.
 - ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Cree [bloques dinámicos](dynamic-blocks.md) para incorporar contenido enriquecido e interactivo basado en la lógica de [reglas de precios](../merchandising-promotions/introduction.md#promotions) y [segmentos de clientes](../customers/customer-segments.md).
 - Cree [widgets](widgets.md) que muestren datos dinámicos y agreguen bloques, vínculos y elementos interactivos prácticamente en cualquier lugar de su tienda.
-- Cree [plantillas](../page-builder/templates.md) a partir del contenido de Page Builder y ahorre tiempo y esfuerzo al agregar contenido nuevo (o reemplazar contenido antiguo).
+- Cree [plantillas](../page-builder/templates.md) a partir del contenido de Page Builder y mejore la eficacia al agregar contenido nuevo (o reemplazar contenido antiguo).
 
 >[!NOTE]
 >
@@ -76,4 +80,4 @@ Gestiona la presentación visual de tu tienda:
 
 {{ee-feature}}
 
-[Ensayo de contenido](content-staging.md) le ofrece a su equipo empresarial la capacidad de crear, previsualizar y programar fácilmente una amplia gama de actualizaciones de contenido directamente desde el administrador de su tienda.
+[Ensayo de contenido](content-staging.md) permite a su equipo empresarial crear, previsualizar y programar una amplia gama de actualizaciones de contenido directamente desde el administrador de su tienda.

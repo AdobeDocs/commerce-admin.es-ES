@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1611'
 ht-degree: 1%
@@ -69,7 +69,7 @@ Adobe Commerce y Magento Open Source se pueden configurar para que entreguen tod
 
 ## Configuración de la dirección URL base
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En _General_ en el panel izquierdo, elija **[!UICONTROL Web]**.
 
@@ -142,7 +142,7 @@ Si su dominio tiene un certificado de seguridad válido, puede configurar las di
 >
 >Cuando la opción _Agregar código de tienda a las direcciones URL_ esté establecida en `Yes`, debe incluir códigos de tienda en las direcciones URL del explorador. Esta configuración garantiza que las reescrituras de URL se asignen correctamente y que todas las páginas se abran correctamente, sin _&quot;404 Página no encontrada&quot;_ errores.
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En _[!UICONTROL General]_, en el panel izquierdo, elija **[!UICONTROL Web]**.
 
@@ -190,7 +190,7 @@ Aunque es posible cambiar la URL y la ruta de administración a otra ubicación,
 
 ### Método 1: cambio desde el administrador
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Advanced]** y elija **[!UICONTROL Admin]**.
 

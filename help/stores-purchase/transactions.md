@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -38,7 +38,7 @@ La página _Transacciones_ enumera toda la actividad de pago que se ha realizado
 
 ## Ver transacciones
 
-En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**.
+En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Transactions]**.
 
 ![Cuadrícula de transacciones](./assets/transactions.png){width="600" zoomable="yes"}
 

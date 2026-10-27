@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 0%
@@ -71,7 +71,7 @@ El primer paso es elegir cómo desea colocar la tienda. ¿Deben las tiendas comp
 
 ### Paso 2: Crear el almacén
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
 1. Haga clic en **[!UICONTROL Create Store]** y defina las opciones de la nueva tienda:
 
@@ -109,7 +109,7 @@ El primer paso es elegir cómo desea colocar la tienda. ¿Deben las tiendas comp
 
 ### Paso 4: Configuración de la dirección URL de la tienda
 
-1. En la barra lateral _Admin_, haga clic en **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, haga clic en **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En _[!UICONTROL General]_, en el panel izquierdo de la izquierda, elija **[!UICONTROL Web]**.
 
@@ -150,7 +150,7 @@ Las instalaciones de varios sitios de Adobe Commerce o Magento Open Source deben
 
 ### Paso 1: Crear un sitio web
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Create Website]**.
 

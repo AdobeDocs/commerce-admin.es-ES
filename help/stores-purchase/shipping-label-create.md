@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Siga las instrucciones proporcionadas por cada transportista para agregar compat
 
 1. Asegúrate de que tu [Información de la tienda](../getting-started/store-details.md#store-information) esté completa.
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y seleccione **[!UICONTROL Shipping Settings]**.
 

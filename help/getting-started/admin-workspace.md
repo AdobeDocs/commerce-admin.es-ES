@@ -5,26 +5,35 @@ exl-id: 61cc53ab-e1c5-4349-b306-a15eb7c5ab57
 TQID: https://experienceleague.adobe.com/RGT21TI5joLEYx3fiOErU5ZoIrXsq0nqZpnI8c40hz4
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: 528
+source-wordcount: '528'
 ht-degree: 0%
-
 ---
-
 # Las herramientas de administración y el espacio de trabajo
+
+{{$include /help/_includes/admin-unified-experience-note.md}}
 
 El espacio de trabajo de administración proporciona acceso a todas las herramientas, datos y contenido utilizados para ejecutar la tienda. La página de inicio predeterminada se puede establecer en la configuración. Muchas páginas de Administración tienen una cuadrícula que enumera los datos de la sección, con un conjunto de herramientas para buscar, ordenar, filtrar, seleccionar y aplicar acciones. De manera predeterminada, [Dashboard](admin-dashboard.md) es la página de inicio del administrador. Sin embargo, puede elegir que aparezca cualquier otra página como página de inicio cuando inicie sesión. Puede hacer clic en el logotipo de en la barra lateral de Administración para volver a la página de inicio de Administración.
 
@@ -63,7 +72,7 @@ Para encontrar cualquier registro en la base de datos, usa el icono de lupa del 
 
 ## Cambiar la página de inicio de Administración
 
-El [tablero](admin-workspace.md#the-dashboard) es la página de inicio predeterminada para el administrador, aunque puede configurar una página de inicio diferente.
+El tablero es la página de inicio predeterminada para el administrador, aunque puede configurar una página de inicio diferente.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

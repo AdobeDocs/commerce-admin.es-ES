@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Las siguientes instrucciones muestran cómo configurar un impuesto sobre product
 
 ### Paso 1: Habilitar impuesto de producto fijo
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Tax]**.
 
@@ -101,7 +101,7 @@ Las siguientes instrucciones muestran cómo configurar un impuesto sobre product
 
 ### Paso 2: Crear un atributo FTP
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Product]**.
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add New Attribute]** y haga lo siguiente:
 
@@ -131,7 +131,7 @@ Las siguientes instrucciones muestran cómo configurar un impuesto sobre product
 
 ### Paso 3: Agregar el atributo FTP a un conjunto de atributos
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Attribute Set]**.
 
 1. En la lista, haga clic en el conjunto de atributos para abrir el registro en modo de edición.
 

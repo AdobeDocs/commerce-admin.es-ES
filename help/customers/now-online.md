@@ -5,25 +5,32 @@ exl-id: 69af669d-f9aa-471b-9d62-5657f3fb2103
 TQID: https://experienceleague.adobe.com/jtyDgy3jFmn0XymAYcpc2AOLLWSTDw-3OGkvG9a1SDc
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: 342
+source-wordcount: '342'
 ht-degree: 0%
-
 ---
-
 # Los clientes ahora en línea
 
 La opción **[!UICONTROL Now Online]** del menú [!DNL Customers] enumera todos los clientes y visitantes que están en línea actualmente en su tienda. El intervalo de tiempo que los clientes se muestran como actualmente en línea se establece en la configuración y determina cuánto tiempo se puede ver la actividad [!DNL Customer's] desde el administrador. De forma predeterminada, el intervalo es de 15 minutos. La sesión finaliza si el teclado no se utiliza durante este tiempo y los clientes deben volver a iniciar sesión en sus cuentas para seguir comprando. Es importante tener en cuenta que el contenido de los carros de compras se guarda para su acceso posterior.
@@ -46,7 +53,7 @@ En la barra lateral _Admin_, vaya a **[!UICONTROL Customers]** > **[!UICONTROL O
 
 ## Configuración del intervalo de tiempo
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Customers]** y elija **[!UICONTROL Customer Configuration]**.
 

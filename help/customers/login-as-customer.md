@@ -34,9 +34,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1188'
 ht-degree: 0%
 ---
 # Proporcionar asistencia al comprador
@@ -81,7 +81,7 @@ Para habilitar _Iniciar sesión como cliente_, es necesario que habilite la cara
 
 ### Habilitar la función
 
-1. En la barra lateral de Administración, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral de Administración, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Customers]** y elija **[!UICONTROL Login as Customer]**.
 
@@ -101,7 +101,7 @@ Para habilitar _Iniciar sesión como cliente_, es necesario que habilite la cara
 
 ### Habilitar acceso para usuarios administradores
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > _Permisos_ > **[!UICONTROL User Roles]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL System]** > **[!UICONTROL User Roles]**.
 
 1. Haga clic en el rol de la lista.
 

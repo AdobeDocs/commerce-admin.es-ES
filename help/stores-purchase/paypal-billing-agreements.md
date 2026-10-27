@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -55,7 +55,7 @@ La página _[!UICONTROL Billing Agreements]_&#x200B;enumera todos los contratos 
 
 ### Ver un acuerdo de facturación
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**.
 
 1. Busque el acuerdo de facturación en la lista y haga clic en para abrirlo.
 
@@ -81,7 +81,7 @@ Esta pestaña muestra la lista de los pedidos realizados con el acuerdo de factu
 
 ### Cancelar un acuerdo de facturación
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**.
 
 1. Busque el acuerdo de facturación en la lista y haga clic en para abrirlo.
 
@@ -91,7 +91,7 @@ Esta pestaña muestra la lista de los pedidos realizados con el acuerdo de factu
 
 ### Eliminar un acuerdo de facturación
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**.
 
 1. Busque el acuerdo de facturación en la lista y haga clic en para abrirlo.
 

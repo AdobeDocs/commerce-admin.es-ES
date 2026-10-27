@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%
@@ -42,7 +42,7 @@ El punto de origen se utiliza para calcular el cargo por los envíos realizados 
 
 ![Origen](../configuration-reference/sales/assets/shipping-settings-origin.png){width="600" zoomable="yes"}
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Shipping Settings]**.
 
@@ -64,7 +64,7 @@ Una política de envío debe explicar las reglas comerciales y las directrices d
 
 Para mostrar la política de envío durante el cierre de compra, complete Parámetros de la política de envío en la configuración. El texto aparece cuando los clientes hacen clic en _Ver nuestra política de envío_ durante el cierre de compra.
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Shipping Settings]**.
 
@@ -86,7 +86,7 @@ Para mostrar la política de envío durante el cierre de compra, complete Parám
 
 Las opciones de envío de varias direcciones permiten a los clientes enviar un pedido a varias direcciones durante el cierre de compra y determinar el número máximo de direcciones a las que se puede enviar un pedido.
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Multishipping Settings]**.
 
@@ -119,7 +119,7 @@ Se admiten los siguientes transportistas:
 
 Para habilitar o editar las direcciones URL de seguimiento personalizadas:
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Shipping Settings]**.
 

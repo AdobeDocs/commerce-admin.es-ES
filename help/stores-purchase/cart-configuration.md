@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '2460'
 ht-degree: 0%
@@ -71,7 +71,7 @@ El vínculo se puede configurar para mostrar el número de productos diferentes 
 
 ### Configurar el minicarrito
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Checkout]**.
 
@@ -97,7 +97,7 @@ El vínculo se puede configurar para mostrar el número de productos diferentes 
 
 ### Configuración del vínculo del carro de compras
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Checkout]**.
 
@@ -118,7 +118,7 @@ La página del carro de compras se puede configurar para que aparezca cada vez q
 
 **_Para configurar cuando aparece el carro:_**
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Checkout]**.
 
@@ -145,7 +145,7 @@ Puede determinar cuánto tiempo es válido un precio estableciendo la duración 
 
 **_Para configurar la duración del presupuesto:_**
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Checkout]**.
 
@@ -169,7 +169,7 @@ La configuración le permite especificar una cantidad mínima, después de aplic
 
 **_Para configurar un importe mínimo de pedido:_**
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Sales]** debajo.
 
@@ -219,7 +219,7 @@ La configuración le permite especificar una cantidad mínima, después de aplic
 
 Puede establecer la cantidad mínima permitida para un pedido. La cantidad mínima también se puede configurar según cada grupo de clientes.
 
-1. Vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Ir a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Catalog]** y elija **[!UICONTROL Inventory]**.
 
@@ -251,7 +251,7 @@ La imagen en miniatura de los productos agrupados y configurables se puede confi
 
 **_Para configurar miniaturas del carro de compras:_**
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Checkout]**.
 
@@ -281,7 +281,7 @@ La configuración de Opciones de regalo se aplica a todo el sitio web, pero se p
 
 ### Activar opciones de regalo
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Sales]** debajo.
 
@@ -321,7 +321,7 @@ La imagen del envoltorio para regalos debe ser una muestra que muestre el patró
 
 #### Agregar un diseño de envoltorio para regalos
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Wrapping]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Gift Wrapping]**.
 
    ![Cuadrícula de envoltorio para regalos](./assets/gift-wrapping.png){width="700" zoomable="yes"}
 
@@ -351,7 +351,7 @@ La imagen del envoltorio para regalos debe ser una muestra que muestre el patró
 
 #### Editar un diseño de envoltorio para regalos
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Wrapping]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Gift Wrapping]**.
 
 1. Busque el registro del envoltorio para regalos en la lista.
 
@@ -391,7 +391,7 @@ El envoltorio para regalos y los precios de las tarjetas regalo impresas se pued
 
 **_Para configurar impuestos de opciones de regalo:_**
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Tax]**.
 

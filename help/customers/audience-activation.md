@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '1976'
 ht-degree: 1%
@@ -225,7 +225,7 @@ Después de instalar la extensión [!DNL Audience Activation], debe iniciar sesi
    >
    >Cuando especifica un ID de secuencia de datos, [lo asocia a un sitio web específico](https://experienceleague.adobe.com/es/docs/commerce/data-connection/fundamentals/connect-data#data-collection) en la extensión [!DNL Data Connection]. Si tu tienda Commerce tiene varios sitios web, [crea un destino](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/connect-destination) para cada sitio web en Real-Time CDP y usa un identificador de flujo de datos diferente para cada uno.
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Expanda **[!UICONTROL Services]** y seleccione **[!UICONTROL [!DNL Data Connection]]**.
 
@@ -448,7 +448,7 @@ Por ejemplo:
 ### Tipo de autenticación incorrecto seleccionado en la configuración
 
 1. Abra la instancia de Commerce.
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 1. Expanda **[!UICONTROL Services]** y seleccione **[!UICONTROL [!DNL Data Connection]]**.
 1. Asegúrese de que el método de autorización de servidor a servidor especificado en el campo **[!UICONTROL Authentication Type]** sea correcto. Adobe recomienda usar **OAuth**. [JWT ha quedado obsoleto](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console), y todos los certificados actuales caducarán el 1 de marzo de 2026.
 

@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '466'
 ht-degree: 0%
 ---
 # Grupos de clientes
@@ -105,7 +105,7 @@ Los grupos de clientes determinan qué descuentos están disponibles y la clase 
 
 ## Asociar un grupo de clientes con descuentos específicos
 
-1. En la barra lateral de _Administración_, vaya a **[!UICONTROL Marketing]** > _Promociones_ > **[!UICONTROL Cart Price Rules]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]**.
 
 1. Seleccione la regla de precios del carro de compras a la que desea asociar un grupo para el descuento aplicado o [cree una regla de precios](../merchandising-promotions/price-rules-catalog.md).
 

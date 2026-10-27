@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '233'
 ht-degree: 0%
 ---
 # Cierre de compra de invitado
@@ -38,7 +38,7 @@ Tu tienda se puede configurar para que exija a los compradores que abran una cue
 
 **_Para deshabilitar la desprotección de invitados:_**
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Checkout]**.
 
@@ -66,4 +66,4 @@ Una configuración opcional en el nivel de tienda, que está desactivada de form
 
 Cuando se habilita, los pedidos de pago y envío de invitados realizados con un correo electrónico registrado siguen siendo accesibles, y también aparecen en el historial de pedidos del cliente.
 
-Para habilitar esta característica, vaya a **Tiendas** > Configuración > **Configuración** > Ventas > **Ventas** > **Cierre de compra para invitados** y establezca la opción **Permitir el acceso a pedidos de invitados para correos electrónicos registrados** en `Yes`.
+Para habilitar esta característica, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Sales]** > **[!UICONTROL Guest Checkout]** y establezca la configuración de **[!UICONTROL Allow Guest Order Access for Registered Emails]** en `Yes`.

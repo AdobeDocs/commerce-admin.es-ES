@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '2042'
 ht-degree: 0%
@@ -71,7 +71,7 @@ En determinadas transacciones entre empresas, el IVA no se evalúa. Commerce pue
 
 El proceso de creación de una regla fiscal comienza añadiendo una tasa impositiva.
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
    ![Configurar clases de impuestos de clientes](./assets/vat-zones.png){width="600" zoomable="yes"}
 
@@ -95,7 +95,7 @@ Según el tipo impositivo enviado, puede crear reglas fiscales posteriores. A fa
 
 ### Paso 2: Configurar clases de impuestos de productos
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**.
 
 1. Haga clic en **[!UICONTROL Add New Tax Rule]**.
 
@@ -117,7 +117,7 @@ Según el tipo impositivo enviado, puede crear reglas fiscales posteriores. A fa
 
 ### Paso 3: Configuración de zonas y tipos impositivos
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
    Para este ejemplo, puede eliminar las tasas de impuestos de EE. UU. o dejarlas tal cual.
 
@@ -145,7 +145,7 @@ Según el tipo impositivo enviado, puede crear reglas fiscales posteriores. A fa
 
 Una regla fiscal es una combinación de una clase de impuestos de cliente, una clase de impuestos de producto y un tipo impositivo.
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**.
 
 1. Añada nuevas reglas fiscales como se indica a continuación:
 
@@ -167,7 +167,7 @@ Una regla fiscal es una combinación de una clase de impuestos de cliente, una c
 
 ### Paso 5: Aplicar clases de impuestos a los productos
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Manage Products]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Abra un producto del catálogo en modo de edición.
 
@@ -308,7 +308,7 @@ Cree las [reglas de impuestos](tax-rules.md) para usar la validación de ID de I
 
 #### Paso 3: Habilitar y configurar la validación de ID de IVA
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Si es necesario, establezca **[!UICONTROL Store View]** para la configuración.
 

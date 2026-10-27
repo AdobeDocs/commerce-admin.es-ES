@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Además de la configuración preestablecida de estado de pedidos, puede crear su
 
 ### Creación de un estado de pedido personalizado
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Order Status]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Order Status]**.
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Create New Status]**.
 
@@ -166,7 +166,7 @@ Los clientes pueden hacer un seguimiento del estado de sus pedidos por [fuente R
 
 ### Activar notificación de estado del pedido
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Catalog]** y elija **[!UICONTROL RSS Feeds]** debajo.
 
@@ -180,7 +180,7 @@ Los clientes pueden hacer un seguimiento del estado de sus pedidos por [fuente R
 
 ### Configurar nuevas notificaciones de correo electrónico de pedidos
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Sales Emails]** debajo.
 

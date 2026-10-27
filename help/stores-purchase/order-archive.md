@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -48,7 +48,7 @@ El archivado regular de los pedidos mejora el rendimiento y mantiene su espacio 
 
 El almacén se puede configurar para archivar pedidos, facturas, envíos y notas de abono después de un número determinado de días. Puede mover las solicitudes y sus documentos asociados al archivo o restaurarlos a su estado anterior. Los pedidos archivados no se eliminan y permanecen disponibles desde el administrador. Los datos archivados se pueden exportar a un archivo CSV y abrirse en una hoja de cálculo. Cuando está habilitada, la acción _Archivar_ aparece en la parte superior del área de trabajo.
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda la sección **[!UICONTROL Sales]** y elija **[!UICONTROL Sales]** debajo.
 
@@ -139,7 +139,7 @@ El almacén se puede configurar para archivar pedidos, facturas, envíos y notas
 
 ## Archivar pedidos manualmente
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Para seleccionar el orden en la cuadrícula, active la casilla de verificación de la primera columna.
 
@@ -157,7 +157,7 @@ El almacén se puede configurar para archivar pedidos, facturas, envíos y notas
 
    - En la barra de botones situada encima de la cuadrícula _[!UICONTROL Orders]_, haga clic en **[!UICONTROL Go to Archive]**.
 
-   - En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Archive]_>**[!UICONTROL Orders]**.
+   - En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
    >[!NOTE]
    >
@@ -173,7 +173,7 @@ El almacén se puede configurar para archivar pedidos, facturas, envíos y notas
 >
 >Un pedido restaurado a partir de un pedido archivado se vuelve a archivar según el número de días configurados en la configuración [!UICONTROL Archive Orders Purchased] (consulte [Configurar el archivo de pedidos](#configure-the-order-archive)). El número de días se calcula en función de la fecha [!UICONTROL Updated At] del pedido, que se cambia cuando el pedido se mueve del archivo.
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. En la barra de botones, haga clic en **[!UICONTROL Go to Archive]**.
 
@@ -187,6 +187,6 @@ Busque el mensaje de que el pedido archivado se ha eliminado del archivo.
 
 ## Exportar pedido archivado
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. En el menú de acción, haga clic en **[!UICONTROL Export]** y seleccione el formato que desee.
