@@ -3,7 +3,7 @@ title: Crear etiquetas y paquetes de envío
 description: Aprenda a empaquetar artículos en un pedido y a crear etiquetas de envío.
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-last-update: 2026-05-12
+last-update: 2026-10-26
 TQID: 'https://experienceleague.adobe.com/eKOA-A1xmw29l51ADFwl6X6Ctbdd6cBCZ0gnKOm1a8s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
+source-git-commit: 4cfd19db9b6689cf05be301b0c68018a42b8f7ec
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 0%

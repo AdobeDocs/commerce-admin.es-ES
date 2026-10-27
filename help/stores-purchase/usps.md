@@ -3,7 +3,7 @@ title: Servicio postal de Estados Unidos (USPS)
 description: Aprenda a configurar USPS como transportista para su tienda.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-last-update: 2026-05-12
+last-update: 2026-10-26
 TQID: 'https://experienceleague.adobe.com/Bsn7nTsSUfoRygB0hyx1KB29CECaiu3RWkoFOJ5gQg8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
+source-git-commit: 4cfd19db9b6689cf05be301b0c68018a42b8f7ec
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%
