@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo los clientes de Adobe Commerce as 
 feature: Admin Workspace
 role: Admin, User
 level: Beginner
-badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -55,7 +55,7 @@ Después de iniciar sesión en [Adobe Experience Cloud](https://experience.adobe
 El flujo de inicio de sesión le permite moverse entre instancias de Commerce sin iniciar sesión por separado en cada una de ellas.
 Puede moverse entre los productos de Adobe y las instancias de Commerce sin más solicitudes de inicio de sesión.
 
-Para ver el procedimiento de acceso, consulte [Acceso a una instancia](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"} en la _Guía de Adobe Commerce as a Cloud Service_.
+Para ver el procedimiento de acceso, consulte [Acceso a una instancia](https://experienceleague.adobe.com/es/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"} en la _Guía de Adobe Commerce as a Cloud Service_.
 <!--
 
 >[!BEGINTABS]
@@ -177,7 +177,7 @@ Use el conmutador de productos (![Conmutador de productos](./assets/admin-unifie
 
 >[!ENDTABS]
 
-Para la administración de usuarios y funciones de Adobe Commerce as a Cloud Service, consulte [Administración de usuarios](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management){target="_blank"}.
+Para la administración de usuarios y funciones de Adobe Commerce as a Cloud Service, consulte [Administración de usuarios](https://experienceleague.adobe.com/es/docs/commerce/cloud-service/user-management){target="_blank"}.
 
 ### Cambiar instancias de Commerce
 
@@ -283,4 +283,4 @@ Las páginas del administrador de Commerce tienen un aspecto actualizado que coi
 
 >[!MORELIKETHIS]
 >
->[Interfaz de Adobe CX Enterprise y guía de administración](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)
+>[Interfaz de Adobe CX Enterprise y guía de administración](https://experienceleague.adobe.com/es/docs/core-services/interface/experience-cloud)
