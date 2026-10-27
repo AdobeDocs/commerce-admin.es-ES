@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 0%
@@ -38,7 +38,7 @@ La configuración de la lista de deseos habilita las listas de deseos y determin
 
 ## Habilitar la funcionalidad de lista de deseos
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Customers]** y elija **[!UICONTROL Wish List]**.
 
@@ -105,7 +105,7 @@ Cualquier lista de deseos pública se puede encontrar usando el widget de búsqu
 
      `0` = primero (predeterminado), `1` = segundo, `2` = tercero, etc.
 
-1. En la sección _[!UICONTROL Layout Updates]_, haga clic en **[!UICONTROL Add Layout Update]**&#x200B;y establezca **[!UICONTROL Display on]**&#x200B;en uno de los siguientes:
+1. En la sección _[!UICONTROL Layout Updates]_, haga clic en **[!UICONTROL Add Layout Update]**y establezca **[!UICONTROL Display on]**en uno de los siguientes:
 
    - _[!UICONTROL Categories]_
 

@@ -21,20 +21,20 @@ level_v2:
     internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
 ---
 # Nuevas opciones de cuenta de cliente
 
-En la sección _[!UICONTROL Create New Account Options]_&#x200B;de la configuración, las opciones básicas de la cuenta se combinan con opciones más avanzadas relacionadas con la validación de ID de IVA y las integraciones personalizadas. Las siguientes instrucciones cubren únicamente las opciones utilizadas con más frecuencia. Para obtener más información acerca de las asignaciones automáticas de grupos de clientes, consulte [Validación de IVA](../stores-purchase/vat.md).
+En la sección _[!UICONTROL Create New Account Options]_de la configuración, las opciones básicas de la cuenta se combinan con opciones más avanzadas relacionadas con la validación de ID de IVA y las integraciones personalizadas. Las siguientes instrucciones cubren únicamente las opciones utilizadas con más frecuencia. Para obtener más información acerca de las asignaciones automáticas de grupos de clientes, consulte [Validación de IVA](../stores-purchase/vat.md).
 
 ![Crear nuevas opciones de cuenta](assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 
 ## Configurar las opciones básicas de cuenta de cliente
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Customers]** y elija **[!UICONTROL Customer Configuration]**.
 
@@ -70,6 +70,6 @@ En la sección _[!UICONTROL Create New Account Options]_&#x200B;de la configurac
 
    ![Crear nuevas opciones de cuenta con IVA habilitado](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
 
-   Para obtener información detallada sobre cada una de las opciones disponibles en este conjunto de opciones de configuración, consulte la _Referencia de configuración[&#128279;](../configuration-reference/customers/customer-configuration.md) de Crear nuevas opciones de cuenta_.
+   Para obtener información detallada sobre cada una de las opciones disponibles en este conjunto de opciones de configuración, consulte la _Referencia de configuración](../configuration-reference/customers/customer-configuration.md) de [Crear nuevas opciones de cuenta_.
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.

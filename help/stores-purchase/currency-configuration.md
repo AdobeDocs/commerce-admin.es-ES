@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
@@ -42,7 +42,7 @@ También puede especificar las monedas que acepta y la moneda que desea utilizar
 
 ## Paso 1: Selección de las divisas aceptadas
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En la esquina superior izquierda, establezca **[!UICONTROL Scope]** en la vista de la tienda donde se aplica la configuración.
 
@@ -164,7 +164,7 @@ La gestión de símbolos de moneda le permite personalizar el símbolo asociado 
 
 ![Símbolos de moneda](./assets/stores-currency-symbols.png){width="600" zoomable="yes"}
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Currency Symbols]**.
 
    Cada moneda habilitada para su tienda aparece en la lista _[!UICONTROL Currency]_.
 
@@ -172,7 +172,7 @@ La gestión de símbolos de moneda le permite personalizar el símbolo asociado 
 
    - Escriba un símbolo personalizado para cada moneda que desee usar o active la casilla de verificación **[!UICONTROL Use Standard]** para cada moneda.
 
-   - Para anular el símbolo predeterminado, desactive la casilla de verificación _[!UICONTROL Use Standard]_&#x200B;e introduzca el símbolo que desee utilizar.
+   - Para anular el símbolo predeterminado, desactive la casilla de verificación _[!UICONTROL Use Standard]_e introduzca el símbolo que desee utilizar.
 
    >[!NOTE]
    >

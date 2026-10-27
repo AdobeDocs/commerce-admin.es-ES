@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Cuando los clientes olvidan sus contraseñas, se envía un vínculo de restablec
 
 Puede configurar la tienda para redirigir a los clientes a su panel de cuentas después de que inicien sesión o para que puedan seguir comprando.
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Customers]** y elija **[!UICONTROL Customer Configuration]**.
 

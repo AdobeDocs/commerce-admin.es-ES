@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '320'
 ht-degree: 0%
 ---
 # Aplicar crédito de tienda
@@ -50,13 +50,13 @@ Los administradores de tienda pueden ver el saldo y el historial de crédito des
 
 1. En la columna _Acción_, haga clic en **[!UICONTROL Edit]**.
 
-1. Desplácese _[!UICONTROL Customer View]_&#x200B;página y vea **[!UICONTROL Store Credit Balance]**&#x200B;en la parte inferior.
+1. Desplácese _[!UICONTROL Customer View]_página y vea **[!UICONTROL Store Credit Balance]**en la parte inferior.
 
 ![Saldo de crédito de tienda](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
 ## Actualizar saldo de crédito del almacén
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Customers]** > _Operaciones_ > **[!UICONTROL All Customers]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
 1. Busque al cliente en la cuadrícula.
 

@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -64,7 +64,7 @@ El ámbito de las cuentas de cliente puede limitarse al sitio web en el que se c
 >
 >Si el sitio web se excluye del grupo de clientes, el cliente no puede iniciar sesión en el sitio web cuando el ámbito de las cuentas de cliente se limita al sitio web o se comparte con todos los sitios web. Consulte [Crear un grupo de clientes](customer-groups.md#create-a-customer-group) para obtener más información sobre cómo excluir sitios web de grupos.
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > [!UICONTROL _[!UICONTROL Settings]_] > **[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Customers]** y elija **[!UICONTROL Customer Configuration]**.
 

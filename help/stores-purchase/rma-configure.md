@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Cuando está activada, los clientes pueden enviar las solicitudes de RMA desde la tienda. Sólo se puede generar una autorización de devolución de material si hay un artículo en el pedido disponible para su devolución. Las solicitudes para devolver elementos individuales se administran mediante el atributo _Habilitar RMA_ en cada registro de producto. De manera predeterminada, los valores de configuración se aplican al producto (_[!UICONTROL Use Config Settings]_&#x200B;está seleccionado). Si&#x200B;_[!UICONTROL Enable RMA]_ está establecido en `No`, el producto no aparece en la lista de elementos que se pueden devolver. Si cambia la configuración de _Habilitar RMA_, se aplica tanto a los pedidos nuevos como a los existentes.
+Cuando está activada, los clientes pueden enviar las solicitudes de RMA desde la tienda. Sólo se puede generar una autorización de devolución de material si hay un artículo en el pedido disponible para su devolución. Las solicitudes para devolver elementos individuales se administran mediante el atributo _Habilitar RMA_ en cada registro de producto. De manera predeterminada, los valores de configuración se aplican al producto (_[!UICONTROL Use Config Settings]_está seleccionado). Si_[!UICONTROL Enable RMA]_ está establecido en `No`, el producto no aparece en la lista de elementos que se pueden devolver. Si cambia la configuración de _Habilitar RMA_, se aplica tanto a los pedidos nuevos como a los existentes.
 
 ## Habilitar RMA para su tienda
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Sales]** debajo.
 
@@ -58,7 +58,7 @@ Cuando está activada, los clientes pueden enviar las solicitudes de RMA desde l
 
    Esta configuración determina el comportamiento del atributo _Habilitar RMA_ para productos individuales de la tienda:
 
-   - Cuando [!UICONTROL Enable RMA on Product Level] se establece en `Yes`, los clientes de la tienda pueden devolver todos los productos individuales. Incluye valores de atributo de producto _[!UICONTROL Enable RMA]_= `Yes` y&#x200B;_[!UICONTROL Enable RMA]_ = `No`.
+   - Cuando [!UICONTROL Enable RMA on Product Level] se establece en `Yes`, los clientes de la tienda pueden devolver todos los productos individuales. Incluye valores de atributo de producto _[!UICONTROL Enable RMA]_= `Yes` y_[!UICONTROL Enable RMA]_ = `No`.
    - Cuando [!UICONTROL Enable RMA on Product Level] se establece en `No`, los clientes de la tienda solo pueden devolver los productos con un valor de atributo de producto _[!UICONTROL Enable RMA]_= `Yes`.
 
 1. Establezca **[!UICONTROL Use Store Address]** en uno de los siguientes valores:
@@ -72,7 +72,7 @@ Cuando está activada, los clientes pueden enviar las solicitudes de RMA desde l
 
 ## Configuración de métodos de envío para devoluciones
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Delivery Methods]**.
 

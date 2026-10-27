@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Para habilitar o deshabilitar la sincronización, edite **[!UICONTROL Adobe Comm
 
 ## Agregar una vista de tienda
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
    ![Todas las tiendas](./assets/stores-all.png){width="700" zoomable="yes"}
 
@@ -94,11 +94,11 @@ Si la instalación de Adobe Commerce o Magento Open Source tiene una instalació
 
 {style="table-layout:auto"}
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
-1. En la columna _[!UICONTROL Store View]_&#x200B;de la cuadrícula, haga clic en el nombre de la vista que desee editar.
+1. En la columna _[!UICONTROL Store View]_de la cuadrícula, haga clic en el nombre de la vista que desee editar.
 
-   Al editar la vista predeterminada, los campos _[!UICONTROL Store]_&#x200B;y_[!UICONTROL Status]_ no están disponibles.
+   Al editar la vista predeterminada, los campos _[!UICONTROL Store]_y_[!UICONTROL Status]_ no están disponibles.
 
    ![Vista de tienda - editar vista predeterminada](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 

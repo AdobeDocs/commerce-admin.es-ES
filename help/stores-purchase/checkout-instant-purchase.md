@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 _Compra instantánea_ permite a los clientes acelerar el proceso de cierre de compra mediante la información guardada en su cuenta. Cuando está habilitado, aparece el botón _Compra instantánea_ debajo del botón _Agregar al carro_ en la página del producto para los clientes que cumplan con los requisitos.
 
-![Página de producto con la opción de compra instantánea &#x200B;](./assets/storefront-checkout-instant-purchase.png){width="700" zoomable="yes"}
+![Página de producto con la opción de compra instantánea ](./assets/storefront-checkout-instant-purchase.png){width="700" zoomable="yes"}
 
 ## Requisitos del cliente
 
@@ -70,7 +70,7 @@ _Compra instantánea_ permite a los clientes acelerar el proceso de cierre de co
 
 ### Paso 1: Abrir la página de configuración
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 ### Paso 2: Configuración del almacén de métodos de pago
 
@@ -79,7 +79,7 @@ Puede utilizar la compra instantánea con Braintree o los servicios de pago para
 Obtenga información sobre cómo configurar el método de pago y habilitar el depósito para Braintree o Servicios de pago:
 
 - [Braintree](braintree.md)
-- [Documentación de servicios de pago](https://experienceleague.adobe.com/es/docs/commerce/payment-services/guide-overview)
+- [Documentación de servicios de pago](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)
 
 ### Paso 3: Activar compra instantánea
 

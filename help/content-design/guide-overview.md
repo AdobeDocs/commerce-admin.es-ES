@@ -4,7 +4,6 @@ description: Información completa sobre las funciones de contenido y diseño pa
 seo-title: Adobe Commerce Content and Design Guide
 seo-description: Describes how to use the Content and Design features for Adobe Commerce and Magento Open Source.
 exl-id: ad3cd024-1703-409f-9820-a0b90e7d460f
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -18,14 +17,16 @@ level_v2:
     internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: fdb0968c8d6caf4917e8658a2a8b3432f60909dc
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '307'
 ht-degree: 6%
 ---
 # Guía de diseño y contenido de Adobe Commerce
 
-Esta guía está destinada a diseñadores de contenido y comerciantes que trabajan en Adobe Commerce y en el administrador de Magento Open Source. Proporciona información detallada sobre el contenido y las funciones de diseño, incluidos los componentes básicos de creación de contenido. Supone una comprensión básica de la configuración y la funcionalidad principales de [!DNL Commerce].
+Esta guía está dirigida principalmente a diseñadores de contenido y comerciantes que trabajan en proyectos de Adobe Commerce y Magento Open Source. Proporciona información detallada sobre el contenido y las funciones de diseño, incluidos los componentes básicos de creación de contenido. Supone una comprensión básica de la configuración y la funcionalidad principales de [!DNL Commerce].
+
+En Adobe Commerce as a Cloud Service, las consideraciones de diseño están incorporadas en [tienda](https://experienceleague.adobe.com/en/tools/commerce-storefront/). Sin embargo, los administradores aún pueden configurar marcas de agua de imagen de producto y correos electrónicos transaccionales.
 
 Esta guía describe:
 

@@ -3,7 +3,7 @@ title: Pagos mediante PayPal avanzados
 description: Aprenda a configurar PayPal Payments Advanced como solución de pago en línea en su tienda.
 exl-id: 018dd999-2f17-4650-8f61-624809ae76c6
 feature: Payments
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: 'https://experienceleague.adobe.com/pkxzCNRxzCwDeYhaDoaiNl04wpbqbMmOedoBzW4hbR8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '2239'
 ht-degree: 0%
@@ -132,13 +132,13 @@ Antes de configurar PayPal Payments Advanced en Commerce, debes configurar tu cu
 
 ### Paso 1: Inicio de la configuración
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Payment Methods]**.
 
 1. Si la instalación de Commerce tiene varios sitios web, tiendas o vistas, establezca **[!UICONTROL Store View]** en la vista de tienda en la que desee aplicar esta configuración.
 
-1. En la sección _[!UICONTROL Merchant Location]_, seleccione **[!UICONTROL Merchant Country]**&#x200B;donde se encuentra su empresa.
+1. En la sección _[!UICONTROL Merchant Location]_, seleccione **[!UICONTROL Merchant Country]**donde se encuentra su empresa.
 
    Esta configuración determina la selección de soluciones de PayPal que aparecen en la configuración.
 
@@ -408,7 +408,7 @@ Establezca **[!UICONTROL Enable PayPal PayLater Experience]** en una de las sigu
 
 #### Configuración de experiencia de front-end
 
-Use _[!UICONTROL Frontend Experience Settings]_&#x200B;para elegir los logotipos de PayPal que aparecerán en el sitio y personalizar el aspecto de las páginas de comerciantes de PayPal.
+Use _[!UICONTROL Frontend Experience Settings]_para elegir los logotipos de PayPal que aparecerán en el sitio y personalizar el aspecto de las páginas de comerciantes de PayPal.
 
 1. Expanda ![Selector de expansión](../assets/icon-display-expand.png) en la sección **[!UICONTROL Frontend Experience Settings]**.
 
@@ -463,7 +463,7 @@ Use _[!UICONTROL Frontend Experience Settings]_&#x200B;para elegir los logotipos
    - `Authorization` - Aprueba la compra y suspende los fondos. La cantidad no se retira hasta que el comerciante _la capture_.
    - `Sale`: el importe de la compra se autoriza y se retira inmediatamente de la cuenta del cliente.
 
-1. Para mostrar el botón _[!UICONTROL Check out with PayPal]_&#x200B;en la página de productos, establezca **[!UICONTROL Display on Product Details Page]**&#x200B;en `Yes`.
+1. Para mostrar el botón _[!UICONTROL Check out with PayPal]_en la página de productos, establezca **[!UICONTROL Display on Product Details Page]**en `Yes`.
 
 ### Paso 7: Completar la configuración avanzada: Pago y envío de PayPal Express
 

@@ -3,7 +3,7 @@ title: PayPal Payflow Pro
 description: Aprenda a configurar PayPal Payflow Pro como solución de pago en línea en su tienda.
 exl-id: c720b33c-44e1-4954-b5be-38932393a43c
 feature: Payments
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: 'https://experienceleague.adobe.com/Ihjp0mA-r63ONIWgCpZFxi4rdt9cVowqPX1VyD4SRaQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '2328'
 ht-degree: 0%
@@ -134,13 +134,13 @@ La pasarela PayPal Payflow Pro, anteriormente conocida como _Verisign_, está di
 
 Este método de configuración supone que ya tienes una cuenta PayPal.
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Payment Methods]**.
 
 1. Si la instalación de Commerce tiene varios sitios web, tiendas o vistas, establezca **[!UICONTROL Store View]** en la vista de tienda en la que desee aplicar esta configuración.
 
-1. En la sección _[!UICONTROL Merchant Location]_, seleccione **[!UICONTROL Merchant Country]**&#x200B;donde se encuentra su empresa.
+1. En la sección _[!UICONTROL Merchant Location]_, seleccione **[!UICONTROL Merchant Country]**donde se encuentra su empresa.
 
    Esta configuración determina la selección de soluciones de PayPal que aparecen en la configuración.
 
@@ -479,7 +479,7 @@ Utilice la Configuración de experiencia de front-end para elegir qué logotipos
    - `Authorization` - Aprueba la compra y suspende los fondos. La cantidad no se retira hasta que el comerciante _la capture_.
    - `Sale`: el importe de la compra se autoriza y se retira inmediatamente de la cuenta del cliente.
 
-1. Para mostrar el botón _[!UICONTROL Check out with PayPal]_&#x200B;en la página de productos, establezca **[!UICONTROL Display on Product Details Page]**&#x200B;en `Yes`.
+1. Para mostrar el botón _[!UICONTROL Check out with PayPal]_en la página de productos, establezca **[!UICONTROL Display on Product Details Page]**en `Yes`.
 
 ### Paso 7: Completa la configuración avanzada de Pago y envío de PayPal Express
 

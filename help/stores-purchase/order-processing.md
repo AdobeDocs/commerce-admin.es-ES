@@ -38,7 +38,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1838'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Cuando un cliente realiza un pedido, se crea un pedido de venta como un registro
 
 ## Ver un pedido
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Busque el orden en la cuadrícula.
 
@@ -202,7 +202,7 @@ Solo los pedidos de ventas que no se facturan, tienen un estado de `Processing` 
 
 ### Atributos de pedido personalizados
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
 
 Los atributos de pedido personalizados le permiten asociar información adicional específica para sus necesidades comerciales con el pedido.
 
@@ -283,4 +283,4 @@ En la sección **[!UICONTROL Order Total]**, haga lo siguiente:
 
 Vea este vídeo y obtenga más información sobre el procesamiento y el estado de los pedidos:
 
->[!VIDEO](https://video.tv.adobe.com/v/3410796/?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)

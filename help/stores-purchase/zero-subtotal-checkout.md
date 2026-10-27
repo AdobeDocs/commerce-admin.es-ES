@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Para ahorrar tiempo, se puede establecer que el subtotal de pedidos cero se fact
 
 **_Para configurar la desprotección de subtotales cero:_**
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Payment Methods]**.
 
@@ -74,7 +74,7 @@ Para ahorrar tiempo, se puede establecer que el subtotal de pedidos cero se fact
 
    >[!NOTE]
    >
-   >Si _[!UICONTROL New Order Status]_&#x200B;se establece en `Processing` y&#x200B;_[!UICONTROL Automatically Invoice All Items]_ se establece en `No`, también debe asignar **[!UICONTROL Order Status]** = `Processing` para la asignación **[!UICONTROL Order State]** = `Pending` y **[!UICONTROL Default Status]** = `No` en la página [Estado del pedido](order-status.md#custom-order-status).
+   >Si _[!UICONTROL New Order Status]_se establece en `Processing` y_[!UICONTROL Automatically Invoice All Items]_ se establece en `No`, también debe asignar **[!UICONTROL Order Status]** = `Processing` para la asignación **[!UICONTROL Order State]** = `Pending` y **[!UICONTROL Default Status]** = `No` en la página [Estado del pedido](order-status.md#custom-order-status).
 
 1. Establezca **[!UICONTROL Payment from Applicable Countries]** en una de las siguientes opciones:
 

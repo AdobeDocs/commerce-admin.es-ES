@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 0%
@@ -184,7 +184,7 @@ El siguiente ejemplo muestra cómo configurar las tasas de impuestos GST para Ca
 
 ### Paso 1: Completar la configuración de cálculo de impuestos
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Para una configuración de varios sitios, establezca **[!UICONTROL Store View]** en el sitio web y el almacén que es el destino de la configuración.
 
@@ -370,13 +370,13 @@ Cree las siguientes reglas fiscales:
 
 ### Paso 4: Configurar una vista de tienda para Alemania
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
 1. En el sitio web predeterminado, cree una vista de tienda para **[!UICONTROL Germany]**.
 
 1. A continuación, haga lo siguiente:
 
-   - En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+   - En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
    - En la esquina superior izquierda, establezca **[!UICONTROL Default Config]** en la tienda en francés.
 
@@ -421,7 +421,7 @@ Complete la siguiente configuración general de impuestos:
 
 ### Paso 6: Configuración de impuestos para Alemania
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En la esquina superior derecha, establezca **[!UICONTROL Store View]** en la vista de la tienda en alemán y haga clic en **[!UICONTROL OK]** para confirmar.
 

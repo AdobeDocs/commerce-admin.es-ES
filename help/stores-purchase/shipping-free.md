@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -40,7 +40,7 @@ _Envío gratuito_ es una de las promociones más efectivas que puedes ofrecer. S
 
 ## Paso 1: Configurar el envío gratuito
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Delivery Methods]**.
 
@@ -58,7 +58,7 @@ _Envío gratuito_ es una de las promociones más efectivas que puedes ofrecer. S
 
    >[!TIP]
    >
-   >Para usar el envío gratuito con [tarifas de tabla](shipping-table-rate.md), haga que _[!UICONTROL Minimum Order Amount]_&#x200B;sea tan alto que nunca se cumpla. El uso de este valor alto impide que el envío gratuito entre en vigor, a menos que se active por una regla de precio.
+   >Para usar el envío gratuito con [tarifas de tabla](shipping-table-rate.md), haga que _[!UICONTROL Minimum Order Amount]_sea tan alto que nunca se cumpla. El uso de este valor alto impide que el envío gratuito entre en vigor, a menos que se active por una regla de precio.
 
 1. Establecer **[!UICONTROL Include Tax to Amount]**:
 

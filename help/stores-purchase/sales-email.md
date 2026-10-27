@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 3%
@@ -48,7 +48,7 @@ Asegúrese de actualizar la plantilla [encabezado de correo electrónico](../sys
 
 ## Paso 2. Elija el tipo de transmisión
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Sales Emails]**.
 
@@ -61,7 +61,7 @@ Asegúrese de actualizar la plantilla [encabezado de correo electrónico](../sys
    - `Disable`: envía un correo electrónico de ventas cuando se activa un evento.
    - `Enable`: envía un correo electrónico de ventas a intervalos predeterminados y regulares.
 
-   El Soporte de Adobe Commerce recomienda habilitar el envío asincrónico para mejorar el rendimiento de la colocación de pedidos. Consulte las [prácticas recomendadas de configuración para el procesamiento de pedidos](https://experienceleague.adobe.com/es/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration) en la Base de conocimiento de asistencia de Adobe Commerce.
+   El Soporte de Adobe Commerce recomienda habilitar el envío asincrónico para mejorar el rendimiento de la colocación de pedidos. Consulte las [prácticas recomendadas de configuración para el procesamiento de pedidos](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration) en la Base de conocimiento de asistencia de Adobe Commerce.
 
 ## Paso 3. Completar los detalles de cada mensaje de correo electrónico de ventas
 

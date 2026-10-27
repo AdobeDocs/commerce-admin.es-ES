@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Cuando configure UPS en el Administrador, use los valores de credenciales para `
 
 ## Paso 3: Habilita UPS para tu tienda
 
-1. En la _barra lateral de administración_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la _barra lateral de administración_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel de la izquierda, debajo de **[!UICONTROL Sales]**, elija **[!UICONTROL Delivery Methods]**.
 
@@ -210,7 +210,7 @@ La tarifa de manejo es opcional y aparece como un cargo adicional que se agrega 
 
 1. Asegúrate de que tu [Información de la tienda](../getting-started/store-details.md#store-information) esté completa.
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y seleccione **[!UICONTROL Shipping Settings]**.
 

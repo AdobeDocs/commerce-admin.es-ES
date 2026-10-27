@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -121,7 +121,7 @@ Los usuarios administradores pueden cambiar el número máximo de artículos mos
 
 ![Número de elementos mostrados en el resumen de pedidos](./assets/order-summary.png){width="700" zoomable="yes"}
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Checkout]**.
 
@@ -151,7 +151,7 @@ Para obtener una descripción detallada de cada una de estas opciones de configu
 
 ### Cambiar las opciones de cierre de compra
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Checkout]**.
 1. Configure cualquiera de las siguientes opciones que necesite.
 1. Haga clic en **[!UICONTROL Save Config]**.
@@ -175,7 +175,7 @@ Para obtener una descripción detallada de cada una de estas opciones de configu
 | [!UICONTROL Enable Terms and Conditions] | Vista de tienda | Determina si los clientes deben aceptar los [Términos y condiciones](terms-and-conditions.md) de la venta antes de realizar una compra. Opciones: `Yes` / `No` |
 | [!UICONTROL Display Billing Address On] | Vista de tienda | Determina la ubicación de la dirección de facturación durante el cierre de compra. Opciones: `Payment Method` / `Payment Page` |
 | [!UICONTROL Maximum Number of Items to Display in Order Summary] | Vista de tienda | Determina el número máximo de artículos que pueden aparecer en el resumen de pedidos durante el cierre de compra. El valor predeterminado es `10`. |
-| [!UICONTROL Enable Address Search] | Sitio web | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Determina si los clientes pueden usar la funcionalidad [búsqueda de direcciones](checkout-address-search.md) para _Envíos_ y los pasos de _Revisión y pagos_. Cuando esta función esté habilitada, use _[!UICONTROL Number of Customer Addresses Limit]_&#x200B;para establecer el número de direcciones guardadas necesarias para activar esta funcionalidad durante el cierre de compra. Opciones: `Yes` / `No` |
+| [!UICONTROL Enable Address Search] | Sitio web | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce) Determina si los clientes pueden usar la funcionalidad [búsqueda de direcciones](checkout-address-search.md) para _Envíos_ y los pasos de _Revisión y pagos_. Cuando esta función esté habilitada, use _[!UICONTROL Number of Customer Addresses Limit]_para establecer el número de direcciones guardadas necesarias para activar esta funcionalidad durante el cierre de compra. Opciones: `Yes` / `No` |
 | [!UICONTROL Number of Customer Addresses Limit] | Sitio web | ![Adobe Commerce](../assets/adobe-logo.svg) (solo Adobe Commerce): cuando la búsqueda de direcciones es **[!UICONTROL Enabled]**, determina el número de direcciones guardadas necesarias para activar esta funcionalidad durante el cierre de compra. Cuando el número de direcciones guardadas del cliente cumple o supera este número, solo se representa la dirección predeterminada en los pasos _Envío_ y _Revisión y pagos_. El cliente puede utilizar una función de búsqueda para cambiar la dirección seleccionada. El valor predeterminado es 10. |
 
 {style="table-layout:auto"}

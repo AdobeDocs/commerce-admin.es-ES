@@ -3,7 +3,7 @@ title: Acuerdos de facturación de PayPal
 description: Aprende cómo puedes respaldar los acuerdos de facturación de PayPal y un método de pago dentro de tu tienda.
 exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
 feature: Payments
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: 'https://experienceleague.adobe.com/Tg37Iu-rlC4Bp-PHbXig-QVzlbpRkaCLGHOQ3yrNY9M'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -51,15 +51,15 @@ Para simplificar el proceso de pago y envío, los clientes pueden firmar un acue
 
 ## Administrar acuerdos de facturación
 
-La página _[!UICONTROL Billing Agreements]_&#x200B;enumera todos los contratos de facturación entre su tienda y sus clientes. Los comerciantes pueden filtrar los registros según la información del acuerdo de facturación o del cliente, incluidos el ID de referencia del acuerdo de facturación, el estado y la fecha de creación. Cada registro incluye información general sobre el acuerdo de facturación y todos los pedidos de venta que lo han utilizado como método de pago. Puede consultar, cancelar o suprimir acuerdos de facturación de clientes. Solamente el administrador de la tienda puede eliminar un acuerdo de facturación cancelado.
+La página _[!UICONTROL Billing Agreements]_enumera todos los contratos de facturación entre su tienda y sus clientes. Los comerciantes pueden filtrar los registros según la información del acuerdo de facturación o del cliente, incluidos el ID de referencia del acuerdo de facturación, el estado y la fecha de creación. Cada registro incluye información general sobre el acuerdo de facturación y todos los pedidos de venta que lo han utilizado como método de pago. Puede consultar, cancelar o suprimir acuerdos de facturación de clientes. Solamente el administrador de la tienda puede eliminar un acuerdo de facturación cancelado.
 
 ### Ver un acuerdo de facturación
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**.
 
 1. Busque el acuerdo de facturación en la lista y haga clic en para abrirlo.
 
-Cada página de acuerdo de facturación consta de dos fichas: _[!UICONTROL General Information]_&#x200B;y_[!UICONTROL Related Orders]_.
+Cada página de acuerdo de facturación consta de dos fichas: _[!UICONTROL General Information]_y_[!UICONTROL Related Orders]_.
 
 #### Información general
 
@@ -81,7 +81,7 @@ Esta pestaña muestra la lista de los pedidos realizados con el acuerdo de factu
 
 ### Cancelar un acuerdo de facturación
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**.
 
 1. Busque el acuerdo de facturación en la lista y haga clic en para abrirlo.
 
@@ -91,7 +91,7 @@ Esta pestaña muestra la lista de los pedidos realizados con el acuerdo de factu
 
 ### Eliminar un acuerdo de facturación
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**.
 
 1. Busque el acuerdo de facturación en la lista y haga clic en para abrirlo.
 

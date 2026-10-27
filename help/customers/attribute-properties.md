@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Los atributos del cliente proporcionan la información necesaria para respaldar 
 
 ## Paso 1: Completar las propiedades del atributo
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Customer]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Customer]**.
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Add New Attribute]**.
 
@@ -66,7 +66,7 @@ Los atributos del cliente proporcionan la información necesaria para respaldar 
 
    >[!TIP]
    >
-   >**Acceso directo:** Para completar solo los campos requeridos, desplácese hacia abajo hasta _[!UICONTROL Storefront Properties]_, escriba&#x200B;_[!UICONTROL Sort Order]_ y guarde.
+   >**Acceso directo:** Para completar solo los campos requeridos, desplácese hacia abajo hasta _[!UICONTROL Storefront Properties]_, escriba_[!UICONTROL Sort Order]_ y guarde.
 
 1. Complete las propiedades de entrada de datos:
 
@@ -77,7 +77,7 @@ Los atributos del cliente proporcionan la información necesaria para respaldar 
      | `Text Field` | Campo de texto de una sola línea. |
      | `Text Area` | Campo de entrada de varias líneas para introducir párrafos de texto, como una descripción del producto. Puede utilizar el editor de WYSIWYG para dar formato al texto con etiquetas de HTML o introducir las etiquetas directamente en el texto. |
      | `Multiple Line` | Crea varias líneas de texto para el atributo, de forma similar a una dirección de calle de varias líneas. El número de líneas de entrada de datos independientes puede ser de dos a 20. Use `Default Value` para especificar el valor inicial del campo. |
-     | `Date` | Muestra un valor de fecha en el formato de fecha y zona horaria preferidos. Los valores de fecha se pueden seleccionar de una lista o un calendario ( ![Icono de calendario](../assets/icon-calendar.png)). <br/><br/>**_Nota:_**&#x200B;Según la configuración de tu sistema, los usuarios de_ Admin_ pueden ingresar fechas directamente en un campo o seleccionar una fecha del calendario o lista. Para obtener información acerca de cómo especificar valores de fecha y hora, vea [Opciones de fecha y hora](../catalog/attributes-input-types.md#date-and-time-options). |
+     | `Date` | Muestra un valor de fecha en el formato de fecha y zona horaria preferidos. Los valores de fecha se pueden seleccionar de una lista o un calendario ( ![Icono de calendario](../assets/icon-calendar.png)). <br/><br/>**_Nota:_**Según la configuración de tu sistema, los usuarios de_ Admin_ pueden ingresar fechas directamente en un campo o seleccionar una fecha del calendario o lista. Para obtener información acerca de cómo especificar valores de fecha y hora, vea [Opciones de fecha y hora](../catalog/attributes-input-types.md#date-and-time-options). |
      | `Yes/No` | Muestra una lista desplegable con opciones predefinidas de `Yes` y `No`. |
      | `Dropdown` | Muestra una lista desplegable de valores que solo acepta una selección. El tipo de entrada desplegable es un componente clave de [productos configurables](../catalog/product-create-configurable.md). |
      | `Multiple Select` | Lista desplegable que acepta que se seleccionen varios valores. |
@@ -201,4 +201,4 @@ Los atributos del cliente proporcionan la información necesaria para respaldar 
 
 Vea este vídeo para ver una demostración de la creación de atributos del cliente:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411827?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343661?quality=12&learn=on)

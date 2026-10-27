@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 0%
@@ -51,7 +51,7 @@ _Pedir por SKU_ es un [widget](../content-design/widgets.md) que se puede mostra
 
 ## Configurar pedido por SKU
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda la sección **[!UICONTROL Sales]** y elija **[!UICONTROL Sales]** debajo.
 
@@ -67,9 +67,9 @@ _Pedir por SKU_ es un [widget](../content-design/widgets.md) que se puede mostra
 
 1. Haga clic en **[!UICONTROL Save Config]**.
 
-![Adobe Commerce B2B](../assets/b2b.svg) (solo Adobe Commerce B2B) _&#x200B;**Para habilitar la función Ordenar por SKU, deshabilite la función Pedido rápido:**&#x200B;_
+![Adobe Commerce B2B](../assets/b2b.svg) (solo Adobe Commerce B2B) _**Para habilitar la función Ordenar por SKU, deshabilite la función Pedido rápido:**_
 
-1. Vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Ir a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo bajo _[!UICONTROL General]_, elija **[!UICONTROL B2B Features]**
 
@@ -99,7 +99,7 @@ Cuando la funcionalidad está configurada para la tienda, los clientes pueden pe
 
 1. Agrega elementos individuales según la preferencia:
 
-   _&#x200B;**Agrega cada elemento por SKU:**&#x200B;_
+   _**Agrega cada elemento por SKU:**_
 
    - Introduce **[!UICONTROL SKU]** y **[!UICONTROL Qty]** del elemento que se va a ordenar.
 
@@ -107,7 +107,7 @@ Cuando la funcionalidad está configurada para la tienda, los clientes pueden pe
 
    - Clics **[!UICONTROL Add to Cart]**.
 
-   _&#x200B;**Carga un archivo CSV de varios elementos:**&#x200B;_
+   _**Carga un archivo CSV de varios elementos:**_
 
    - Prepara un archivo de [importación de datos CSV](../systems/data-csv.md) (valores separados por comas) que incluye columnas para `SKU` y `Qty`.
 

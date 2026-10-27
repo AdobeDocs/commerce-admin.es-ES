@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Además de la configuración preestablecida de estado de pedidos, puede crear su
 
 ### Creación de un estado de pedido personalizado
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Order Status]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Order Status]**.
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Create New Status]**.
 
@@ -152,13 +152,13 @@ Además de la configuración preestablecida de estado de pedidos, puede crear su
 
 1. En la cuadrícula _[!UICONTROL Order Status]_, busque el registro de estado del pedido que se va a anular.
 
-1. En la columna _[!UICONTROL Action]_&#x200B;del extremo derecho de la fila, haga clic en el vínculo **[!UICONTROL Unassign]**.
+1. En la columna _[!UICONTROL Action]_del extremo derecho de la fila, haga clic en el vínculo **[!UICONTROL Unassign]**.
 
    Aparece un mensaje en la parte superior del espacio de trabajo que indica que se ha anulado la asignación del estado del pedido. Aunque la etiqueta de estado del pedido sigue apareciendo en la lista, ya no está asignada a ningún estado. No se puede eliminar la configuración de estado del pedido.
 
 >[!NOTE]
 >
->Si el estado de pedido predeterminado es sin asignar del estado de pedido, _&#x200B;**otro**&#x200B;_ estado de pedido es _&#x200B;**establecido automáticamente**&#x200B;_ como predeterminado para este estado de pedido.
+>Si el estado de pedido predeterminado es sin asignar del estado de pedido, _**otro**_ estado de pedido es _**establecido automáticamente**_ como predeterminado para este estado de pedido.
 
 ## Notificación
 
@@ -166,7 +166,7 @@ Los clientes pueden hacer un seguimiento del estado de sus pedidos por [fuente R
 
 ### Activar notificación de estado del pedido
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Catalog]** y elija **[!UICONTROL RSS Feeds]** debajo.
 
@@ -180,7 +180,7 @@ Los clientes pueden hacer un seguimiento del estado de sus pedidos por [fuente R
 
 ### Configurar nuevas notificaciones de correo electrónico de pedidos
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda **[!UICONTROL Sales]** y elija **[!UICONTROL Sales Emails]** debajo.
 

@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Use [Cron](../systems/cron.md) trabajos para programar las siguientes tareas de 
 
 La duración de los pedidos con pagos pendientes está determinada por la configuración de _Configuración de pedidos Cron_. El valor predeterminado es 480 minutos, es decir, ocho horas.
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda la sección **[!UICONTROL Sales]** y elija **[!UICONTROL Sales]** debajo.
 
@@ -67,13 +67,13 @@ Al programar estas tareas, puede evitar los bloqueos que se producen cuando se g
 
 **_Para habilitar las actualizaciones y la reindexación:_**
 
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} Cuando [el modo de producción](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/setup/application-modes#production-mode) (el modo predeterminado usado en Adobe Commerce en la infraestructura en la nube) esté habilitado, ejecute el siguiente comando:
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} Cuando [el modo de producción](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#production-mode) (el modo predeterminado usado en Adobe Commerce en la infraestructura en la nube) esté habilitado, ejecute el siguiente comando:
 
 `bin/magento config:set dev/grid/async_indexing 1`
 
-Cuando el [modo predeterminado](https://experienceleague.adobe.com/es/docs/commerce-operations/configuration-guide/setup/application-modes#default-mode) esté habilitado, complete los siguientes pasos:
+Cuando el [modo predeterminado](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#default-mode) esté habilitado, complete los siguientes pasos:
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. En el panel izquierdo, expanda la sección **[!UICONTROL Advanced]** y elija **[!UICONTROL Developer]**.
 
