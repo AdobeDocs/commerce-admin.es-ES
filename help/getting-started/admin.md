@@ -36,7 +36,8 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
+last-update: 2026-10-26
+source-git-commit: 4cfd19db9b6689cf05be301b0c68018a42b8f7ec
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
