@@ -86,7 +86,7 @@ Cuando el estado de los nuevos pedidos se establece en `Processing`, la opción 
 >
 >Las facturas no se crean automáticamente para los pedidos realizados mediante `Gift Card`, `Store Credit`, `Reward Points` u otros métodos de pago sin conexión.
 
-Se debe generar una factura para el pedido antes de poder imprimirla. Para ver o imprimir el PDF, primero descarga e instala un lector de PDF como [Adobe Acrobat Reader](https://www.adobe.com/acrobat/pdf-reader.html "Obtener Adobe Reader").
+Se debe generar una factura para el pedido antes de poder imprimirla. Para ver o imprimir el PDF, primero descarga e instala un lector de PDF como [Adobe Acrobat Reader](https://www.adobe.com/es/acrobat/pdf-reader.html "Obtener Adobe Reader").
 
 **_Para facturar un pedido:_**
 
@@ -154,7 +154,7 @@ Las facturas se pueden imprimir por separado o en lote. Sin embargo, para poder 
 
 >[!NOTE]
 >
->Para ver o imprimir PDF, debe tener un lector de PDF. Puede descargar [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Obtener Adobe Reader") sin cargo.
+>Para ver o imprimir PDF, debe tener un lector de PDF. Puede descargar [Adobe Reader](https://www.adobe.com/es/acrobat/pdf-reader.html "Obtener Adobe Reader") sin cargo.
 
 ### Imprimir una sola factura
 
@@ -180,7 +180,7 @@ Las facturas se guardan en un solo archivo PDF que se puede enviar a una impreso
 
 ## Cantidades de captura personalizadas
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
 
 Para proporcionar a los comerciantes una mayor flexibilidad para las capturas parciales y los escenarios de pago especializados, la API de facturas admite importes de captura personalizados mediante atributos de extensión.
 
