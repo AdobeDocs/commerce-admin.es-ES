@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
+source-git-commit: b2b09a49ecd0c585d6ea456f0c00e05d813e324d
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '521'
 ht-degree: 0%
 ---
 # Aplicar crédito de tienda
@@ -42,6 +42,18 @@ Los administradores de tienda pueden ver el saldo y el historial de crédito des
 
 ![Historial y saldo de crédito del cliente](assets/store-credit-balance-history.png){width="600" zoomable="yes"}
 
+## Almacenar recursos de rol de crédito
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
+
+Los siguientes recursos determinan qué usuarios administradores pueden cambiar el saldo de crédito de tienda de un cliente y qué usuarios pueden aplicar crédito de tienda a un pedido. Para obtener información acerca de cómo asignar recursos a un rol de usuario, vea [Recursos de roles](../systems/permissions-user-roles.md#role-resources).
+
+- **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** > **[!UICONTROL Manage Store Credit Balances]** permite a los usuarios ver y actualizar los saldos acreedores del almacén. Sin ella, la ficha **[!UICONTROL Store Credit]** y **[!UICONTROL Store Credit Balance]** de la ficha **[!UICONTROL Customer View]** no serán visibles. El usuario puede seguir realizando otras ediciones en las cuentas de cliente.
+
+- **[!UICONTROL Sales]** > **[!UICONTROL Operations]** > **[!UICONTROL Orders]** > **[!UICONTROL Actions]** > **[!UICONTROL Create]** > **[!UICONTROL Can Spend Store Credit]** permite a los usuarios aplicar crédito de tienda al [crear un pedido](../stores-purchase/customer-account-create-order.md). Sin ella, la casilla de verificación **[!UICONTROL Use Store Credit]** no estará visible.
+
+Los usuarios administradores y las integraciones que utilizan la API de REST necesitan el recurso **[!UICONTROL Can Spend Store Credit]** para aplicar crédito de tienda a un carro de compras o para realizar un pedido de un carro de compras que ya tiene crédito de tienda aplicado. Para obtener más información, consulte [Crédito de tienda](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/store-credit/).
+
 ## Ver el saldo de crédito
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
@@ -50,7 +62,7 @@ Los administradores de tienda pueden ver el saldo y el historial de crédito des
 
 1. En la columna _Acción_, haga clic en **[!UICONTROL Edit]**.
 
-1. Desplácese _[!UICONTROL Customer View]_&#x200B;página y vea **[!UICONTROL Store Credit Balance]**&#x200B;en la parte inferior.
+1. Desplácese _[!UICONTROL Customer View]_página y vea **[!UICONTROL Store Credit Balance]**en la parte inferior.
 
 ![Saldo de crédito de tienda](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
@@ -81,6 +93,8 @@ El saldo actualizado se debe mostrar en **[!UICONTROL Balance History]**.
 Como administrador de tienda, puede hacer varias cosas en nombre de un cliente, incluido el envío de pedidos. Cuando [crea un pedido](../stores-purchase/customer-account-create-order.md), puede aplicar un saldo de crédito de tienda que se debe al cliente. El saldo disponible se muestra en la sección _Información de pago y envío_. Seleccione la casilla de verificación **[!UICONTROL Use Store Credit]** para aplicar el saldo o una parte del saldo si el total del pedido es menor.
 
 ![Aplicar el saldo de crédito de tienda al pedido](assets/store-credit-apply.png){width="500" zoomable="yes"}
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."} La casilla de verificación **[!UICONTROL Use Store Credit]** solo aparece cuando el rol de usuario incluye el recurso **[!UICONTROL Can Spend Store Credit]**. Consulte [Almacenar recursos de la función de crédito](#store-credit-role-resources).
 
 ## Aplicar crédito de tienda durante el cierre
 

@@ -24,16 +24,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: be637291b09661637cdefefd79fd81157b6e76b2
 workflow-type: tm+mt
-source-wordcount: 505
+source-wordcount: '551'
 ht-degree: 0%
-
 ---
-
 # Actualización de un perfil de cliente
 
-El panel izquierdo de la página _[!UICONTROL Customer Information]_&#x200B;incluye información sobre la actividad del cliente, las direcciones, las estadísticas de pedidos, los pedidos recientes, el contenido del carro de compras, las revisiones de productos y las suscripciones al boletín informativo.
+El panel izquierdo de la página _[!UICONTROL Customer Information]_incluye información sobre la actividad del cliente, las direcciones, las estadísticas de pedidos, los pedidos recientes, el contenido del carro de compras, las revisiones de productos y las suscripciones al boletín informativo.
 
 ![Perfil del cliente](assets/cust-profile.png){width="700" zoomable="yes"}
 
@@ -122,6 +120,8 @@ La sección [Registro de regalos](../merchandising-promotions/gift-registry-stor
 {{ee-feature}}
 
 La pestaña [Crédito de tienda](../customers/store-credit.md) muestra una cantidad que se restaura en una cuenta de cliente; el administrador puede administrar este valor.
+
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."} La ficha [!UICONTROL Store Credit] y **[!UICONTROL Store Credit Balance]** de la ficha **[!UICONTROL Customer View]** solo aparecen cuando el rol de usuario incluye el recurso **[!UICONTROL Manage Store Credit Balances]**. Consulte [Almacenar recursos de la función de crédito](../customers/store-credit-using.md#store-credit-role-resources).
 
 ### [!UICONTROL Newsletter]
 
