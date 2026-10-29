@@ -44,7 +44,7 @@ Los administradores de tienda pueden ver el saldo y el historial de crédito des
 
 ## Almacenar recursos de rol de crédito
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."}
 
 Los siguientes recursos determinan qué usuarios administradores pueden cambiar el saldo de crédito de tienda de un cliente y qué usuarios pueden aplicar crédito de tienda a un pedido. Para obtener información acerca de cómo asignar recursos a un rol de usuario, vea [Recursos de roles](../systems/permissions-user-roles.md#role-resources).
 
@@ -94,7 +94,7 @@ Como administrador de tienda, puede hacer varias cosas en nombre de un cliente, 
 
 ![Aplicar el saldo de crédito de tienda al pedido](assets/store-credit-apply.png){width="500" zoomable="yes"}
 
-[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."} La casilla de verificación **[!UICONTROL Use Store Credit]** solo aparece cuando el rol de usuario incluye el recurso **[!UICONTROL Can Spend Store Credit]**. Consulte [Almacenar recursos de la función de crédito](#store-credit-role-resources).
+[!BADGE Solo SaaS]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Solo se aplica a proyectos de Adobe Commerce as a Cloud Service (infraestructura de SaaS administrada por Adobe)."} La casilla de verificación **[!UICONTROL Use Store Credit]** solo aparece cuando el rol de usuario incluye el recurso **[!UICONTROL Can Spend Store Credit]**. Consulte [Almacenar recursos de la función de crédito](#store-credit-role-resources).
 
 ## Aplicar crédito de tienda durante el cierre
 
