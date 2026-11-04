@@ -29,22 +29,26 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 55f9389c51fd4e1f9aa2475ad999c79f5f7f00df
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1677'
 ht-degree: 0%
 ---
 # Transferir una cuenta de Adobe Commerce
 
 A medida que cambien las responsabilidades comerciales, es posible que tenga que transferir su cuenta de Adobe Commerce a un nuevo propietario o a otra dirección de correo electrónico. Esta transferencia requiere un cambio en el correo electrónico del usuario principal asociado a la cuenta.
 
-La siguiente información describe el proceso para transferir una cuenta de Adobe Commerce (MAGEID). No incluye cambios en Adobe Commerce sobre la propiedad del proyecto de infraestructura en la nube o la propiedad de [!DNL New Relic]. Para obtener más información sobre el acceso a proyectos en la nube, consulte [Administrar el acceso de usuarios](https://experienceleague.adobe.com/es/docs/commerce-on-cloud/user-guide/project/user-access) en la _Guía de Commerce en infraestructura en la nube_.
+La siguiente información describe el proceso para transferir una cuenta de Adobe Commerce (MAGEID). No incluye cambios en Adobe Commerce sobre la propiedad del proyecto de infraestructura en la nube o la propiedad de [!DNL New Relic]. Para obtener más información sobre el acceso a proyectos en la nube, consulte [Administrar el acceso de usuarios](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access) en la _Guía de Commerce en infraestructura en la nube_.
 
 >[!IMPORTANT]
 >
 >Si el nuevo propietario de la cuenta compró extensiones utilizando Acceso compartido, el acceso a esas extensiones se pierde en cuanto se inicia la transferencia de la cuenta.
 >
->Antes de solicitar la transferencia de la cuenta, asegúrate de que el nuevo propietario recupera los identificadores de pedido para las compras de [su [!DNL Commerce Marketplace] cuenta](https://commercemarketplace.adobe.com/sales/order/history/) y solicita un reembolso al [[!DNL Commerce Marketplace] equipo](https://experienceleague.adobe.com/es/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case). Las compras de extensión no se pueden transferir a una cuenta diferente.
+>Revise las extensiones de Marketplace antes de iniciar una transferencia de cuenta. Las extensiones y las claves de acceso están asociadas a ID de MAGE. Cuando se inicia la transferencia, se pierde el acceso a las extensiones compradas en Acceso compartido. El proceso estándar de transferencia de cuentas no transfiere las compras de extensión a otra cuenta; es posible que tenga que solicitar un reembolso y volver a comprar las extensiones en la cuenta deseada. Si la transferencia forma parte de una reestructuración de licencias, póngase en contacto con el Soporte técnico de Adobe Commerce para confirmar si se aplica un proceso de transferencia independiente.
+>
+>Antes de solicitar la transferencia de la cuenta, asegúrate de que el nuevo propietario recupera los identificadores de pedido para las compras de [su [!DNL Commerce Marketplace] cuenta](https://commercemarketplace.adobe.com/sales/order/history/) y solicita un reembolso al [[!DNL Commerce Marketplace] equipo](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case). Las compras de extensión no se pueden transferir a una cuenta diferente.
+>
+>Además, planifique la generación de nuevas claves de acceso para el ID de MAGE receptor y actualice las credenciales del Compositor utilizadas por las implementaciones. Complete la extensión aplicable y los pasos clave antes de iniciar la transferencia de cuenta.
 
 ## Identificación del tipo de transferencia
 
@@ -96,7 +100,7 @@ Utilice esta ruta cuando el propietario actual tenga un MAGEID que aún no esté
 
 1. Haga clic en **[!UICONTROL Continue]**.
 
-   Este paso crea un Adobe ID y lo vincula a la cuenta actual de Adobe Commerce (MAGEID). Con este vínculo de cuenta, el campo _[!UICONTROL Email]_&#x200B;está bloqueado frente a cualquier cambio. La configuración de la dirección de correo electrónico asociada se administra desde la cuenta de Adobe ID.
+   Este paso crea un Adobe ID y lo vincula a la cuenta actual de Adobe Commerce (MAGEID). Con este vínculo de cuenta, el campo _[!UICONTROL Email]_está bloqueado frente a cualquier cambio. La configuración de la dirección de correo electrónico asociada se administra desde la cuenta de Adobe ID.
 
 1. Vaya a [account.adobe.com](https://account.adobe.com/).
 
@@ -110,7 +114,7 @@ Utilice esta ruta cuando el propietario actual tenga un MAGEID que aún no esté
 
 Una vez que el nuevo propietario verifique la dirección de correo electrónico, continúe con [Pasos finales](#final-steps) para que el Soporte técnico de Adobe Commerce pueda actualizar los registros de cuenta como el perfil [[!DNL Commerce Marketplace]](https://commercemarketplace.adobe.com/).
 
->[!VIDEO](https://video.tv.adobe.com/v/3447662/?captions=spa&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on){transcript=true}
 
 ## Solo cambio de correo electrónico {#email-change}
 
@@ -154,7 +158,7 @@ Complete estos pasos para asociar la Adobe ID del propietario actual con una dir
 
 >[!NOTE]
 >
->Si no puede acceder al correo electrónico del propietario actual, pida a su equipo de TI que configure el reenvío de correo electrónico para la dirección de correo electrónico de la cuenta en el sistema de correo electrónico de su empresa. Si no se puede configurar el reenvío de correo electrónico, asegúrate de que el nuevo propietario de la cuenta tenga un Adobe ID y luego [envía una solicitud de soporte técnico](https://experienceleague.adobe.com/es/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) con todos los detalles necesarios para iniciar la transferencia de cuenta.
+>Si no puede acceder al correo electrónico del propietario actual, pida a su equipo de TI que configure el reenvío de correo electrónico para la dirección de correo electrónico de la cuenta en el sistema de correo electrónico de su empresa. Si no se puede configurar el reenvío de correo electrónico, asegúrate de que el nuevo propietario de la cuenta tenga un Adobe ID y luego [envía una solicitud de soporte técnico](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) con todos los detalles necesarios para iniciar la transferencia de cuenta.
 
 1. Vaya a [account.adobe.com](https://account.adobe.com/) y complete el inicio de sesión de Adobe.
 
@@ -194,11 +198,17 @@ Una vez que el nuevo propietario haya configurado correctamente su Adobe ID con 
 
 Una vez que el nuevo propietario verifique la dirección de correo electrónico, continúe con [Pasos finales](#final-steps) para que el Soporte técnico de Adobe Commerce pueda actualizar los registros de cuenta como el perfil [[!DNL Commerce Marketplace]](https://commercemarketplace.adobe.com/).
 
+## ¿Necesitas ayuda con la transferencia de tu cuenta?**
+
+Si ninguno de los tipos de transferencia anteriores coincide con su situación o no puede acceder a la dirección de correo electrónico del propietario actual, envíe un ticket de asistencia de Adobe Commerce.
+
+En su solicitud, explique qué tipo de transferencia no se aplica y si el correo electrónico del propietario actual es accesible. Incluya los MAGEID del propietario actual y del nuevo propietario, los Adobe ID y las direcciones de correo electrónico asociadas, si las conoce. El Soporte de Adobe puede revisar su situación y aconsejarle sobre los siguientes pasos.
+
 ## Pasos finales
 
 Complete estos pasos después de completar el proceso de [cambio de Adobe ID y correo electrónico nuevo](#new-adobe-id-and-email-change), [solo cambio de correo electrónico](#email-change) o [cambio de cuenta de Adobe ID](#adobe-id-account-switch).
 
-1. Como nuevo propietario, [envíe una solicitud de soporte técnico](https://experienceleague.adobe.com/es/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
+1. Como nuevo propietario, [envíe una solicitud de soporte técnico](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
 
    Incluya los siguientes detalles:
 
