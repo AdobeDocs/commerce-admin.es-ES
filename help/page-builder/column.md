@@ -53,7 +53,7 @@ Puede cambiar el diseño del contenedor [!DNL Columns] arrastrando una columna p
 
 Vea este vídeo para ver una demostración de cómo se puede utilizar el contenedor [!DNL Columns] para restringir los diseños de página:
 
->[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3507529?captions=spa&quality=12&learn=on)
 
 ## Cuadro de herramientas Columna
 
