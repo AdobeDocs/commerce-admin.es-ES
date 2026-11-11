@@ -33,12 +33,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: c425649d00a0a57f84ce4042d33f6d0c5eabe99c
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '412'
 ht-degree: 0%
 ---
 # Administrar configuración de vista de catálogo
+
+>[!NOTE]
+>
+>En este tema se describe la implementación de la vista de catálogo para implementaciones de Commerce mediante Adobe Commerce Optimizer Connector for B2B. Si utiliza Adobe Commerce as a Cloud Service con los servicios de comercialización y el modelo de datos de catálogo maquetable (CCDM), consulte la configuración de [vistas de catálogo](../optimizer/setup/catalog-view.md) en la _guía de servicios de comercialización con CCDM_.
 
 Con la extensión [!DNL Adobe Commerce Optimizer Connector for B2B] instalada, la página Vistas del catálogo enumera las [!DNL Adobe Commerce Optimizer] [proyecciones de vista del catálogo](https://experienceleague-review.adobe.com/en/docs/commerce/aco-optimizer-connector/b2b-shared-catalog-projection){target="_blank"} creadas para el catálogo compartido personalizado.  Una _proyección_ es la vista de catálogo creada cuando el conector sincroniza los datos del catálogo compartido con [!DNL Adobe Commerce Optimizer]. El conector crea una proyección independiente para cada vista de tienda en el catálogo compartido, de modo que un catálogo compartido puede tener varias vistas de catálogo. En las experiencias de tienda, estas vistas de catálogo solo son accesibles para las empresas asignadas al catálogo compartido asociado.
 
@@ -64,7 +68,7 @@ El conector protege las vistas del catálogo con claves de acceso restringidas. 
 
 Para configurar la duración del token o deshabilitar la emisión del token, consulte [Servicios > Vista de catálogo de ACO](/help/configuration-reference/services/aco-catalog-view.md).
 
-Puede revisar estas vistas de catálogo y administrar sus claves asignadas desde la pestaña _[!UICONTROL Catalog Views]_&#x200B;del catálogo compartido o desde la sección&#x200B;_[!UICONTROL Catalog Views]_ de la empresa asociada; ambas muestran las mismas vistas de catálogo y las asignaciones de claves actuales. Consulte [Editar claves de acceso restringido](#edit-restricted-access-keys) para ver la ruta de navegación exacta desde cada ubicación.
+Puede revisar estas vistas de catálogo y administrar sus claves asignadas desde la pestaña _[!UICONTROL Catalog Views]_del catálogo compartido o desde la sección_[!UICONTROL Catalog Views]_ de la empresa asociada; ambas muestran las mismas vistas de catálogo y las asignaciones de claves actuales. Consulte [Editar claves de acceso restringido](#edit-restricted-access-keys) para ver la ruta de navegación exacta desde cada ubicación.
 
 Para supervisar la sincronización de datos del catálogo compartido con [!DNL Adobe Commerce Optimizer], consulte [Supervisión del estado de sincronización de la vista de catálogo](/help/systems/catalog-view-sync-status.md).
 

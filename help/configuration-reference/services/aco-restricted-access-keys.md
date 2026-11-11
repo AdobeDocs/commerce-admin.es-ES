@@ -1,8 +1,8 @@
 ---
-title: '[!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys]'
+title: '[!UICONTROL Services] claves de acceso restringido > ACO'
 description: Revise las opciones de configuración en la página [!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys] del administrador de Commerce.
 feature: Configuration, Security
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 4%
+source-wordcount: '215'
+ht-degree: 3%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys]
 
 Utilice esta configuración para controlar el período de caducidad predeterminado que [!DNL Adobe Commerce Optimizer Connector for B2B] aplica a las claves de acceso restringido que aprovisiona para las vistas de catálogo compartido B2B. Para crear, asignar y eliminar estas claves, consulte [Administración de claves de acceso restringido](../../systems/restricted-access-keys.md).
+
+>[!NOTE]
+>
+>Esta página se aplica al conector. Las instancias aprovisionadas con el Modelo de datos de catálogo componible (CCDM) sincronizan los datos de forma nativa y no utilizan el conector. Consulte [Servicios de comercialización con CCDM](/help/optimizer/overview.md).
 
 {{config}}
 

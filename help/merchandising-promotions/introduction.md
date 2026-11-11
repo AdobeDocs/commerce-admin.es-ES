@@ -30,22 +30,22 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: 1129
+source-wordcount: '1129'
 ht-degree: 1%
-
 ---
-
 # Introducción a las promociones y comercialización de Commerce
 
 Dirija promociones y cree oportunidades para la participación de los clientes, y convierta a los compradores en compradores. Administre las relaciones con los clientes apoyando las actividades posteriores a la compra y ofreciendo descuentos especiales a los clientes que regresan. Conozca las prácticas recomendadas y las técnicas para apoyar sus iniciativas de SEO.
+
+{{ccdm-merchandising-note}}
 
 ## Comercialización
 
 _Comercialización_ es un término que se usa en el comercio minorista para describir el arte y la ciencia del desarrollo de planos de planta y la presentación de productos. Podríamos considerar la navegación basada en [categorías](../catalog/navigation-top.md) como el plano de planta de la tienda, y la presentación dinámica de productos como las condiciones que se pueden aplicar a la lista de productos en la tienda. Además, puede implementar programas que impulsen más ventas de productos:
 
-- [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} [Visual Merchandiser](visual-merchandiser.md): conjunto de herramientas avanzadas que le permiten colocar productos y aplicar condiciones que determinan qué productos aparecen en la lista de categorías.
+- [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."} [Visual Merchandiser](visual-merchandiser.md): conjunto de herramientas avanzadas que le permiten colocar productos y aplicar condiciones que determinan qué productos aparecen en la lista de categorías.
 
 - [Registros de regalos](gift-registries.md) - Proporcione a sus clientes la capacidad de crear registros de regalos para ocasiones especiales y de invitar a sus amigos y familiares a comprar sus regalos del registro de regalos.
 
@@ -55,7 +55,7 @@ _Comercialización_ es un término que se usa en el comercio minorista para desc
 
 >[!TIP]
 >
->Para obtener más información sobre Product Recommendations y cómo pueden proporcionarte el control y la insight que necesitas para crear la mejor experiencia para tus compradores, consulta la [Guía del usuario de Product Recommendations](https://experienceleague.adobe.com/es/docs/commerce/product-recommendations/guide-overview).
+>Para obtener más información sobre Product Recommendations y cómo pueden proporcionarte el control y la insight que necesitas para crear la mejor experiencia para tus compradores, consulta la [Guía del usuario de Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview).
 
 ## Promociones
 
@@ -96,7 +96,7 @@ Una de las tareas a completar antes de lanzar su tienda es revisar las plantilla
 >
 >Las versiones 2.4.0 a 2.4.3 de Adobe Commerce y Magento Open Source incluían la extensión dotdigital desarrollada por el proveedor que se utilizó para integrarse con dotdigital Engagement Cloud. A partir de la versión 2.4.4, esta extensión ya no se integra con la versión principal y debe instalarse y actualizarse desde Commerce Marketplace. Marketplace también proporciona acceso a la documentación actual proporcionada por el desarrollador de extensiones.
 ><br><br>
->Si tiene la extensión agrupada habilitada y configurada, debe actualizar el archivo composer.json como parte del proceso de actualización de la versión 2.4.4 y administrar las actualizaciones de extensión que se realicen. Consulte [Módulos de actualización](https://experienceleague.adobe.com/es/docs/commerce-operations/upgrade-guide/modules/upgrade) en la _Guía de actualización_ para obtener más información.
+>Si tiene la extensión agrupada habilitada y configurada, debe actualizar el archivo composer.json como parte del proceso de actualización de la versión 2.4.4 y administrar las actualizaciones de extensión que se realicen. Consulte [Módulos de actualización](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade) en la _Guía de actualización_ para obtener más información.
 
 - [Boletines](newsletters.md): produce boletines informativos, administra tu lista de suscriptores, desarrolla contenido y lleva el tráfico a tu tienda.
 

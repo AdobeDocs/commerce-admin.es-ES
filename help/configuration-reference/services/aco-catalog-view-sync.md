@@ -2,7 +2,7 @@
 title: '[!UICONTROL Services] > sincronización de vista de catálogo de ACO'
 description: Revise las opciones de configuración en la página [!UICONTROL Services] > [!UICONTROL ACO Catalog View Sync] del administrador de Commerce.
 feature: Configuration, Security
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '333'
 ht-degree: 3%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View Sync]
 
 Utilice esta configuración para controlar cómo [!DNL Adobe Commerce Optimizer Connector for B2B] sincroniza las configuraciones de catálogo compartido B2B (vista de catálogo, directiva, libro de precios y clave) en [!DNL Adobe Commerce Optimizer] y cómo resuelve las diferencias de configuración entre los dos sistemas. Consulte [Supervisión del estado de sincronización de la vista de catálogo](../../systems/catalog-view-sync-status.md) para supervisar los resultados de esta configuración.
+
+>[!NOTE]
+>
+>Esta página se aplica al conector. Las instancias aprovisionadas con el Modelo de datos de catálogo componible (CCDM) sincronizan los datos de forma nativa y no utilizan el conector. Consulte [Servicios de comercialización con CCDM](/help/optimizer/overview.md).
 
 {{config}}
 

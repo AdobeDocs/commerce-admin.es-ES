@@ -1,8 +1,8 @@
 ---
 title: '[!UICONTROL Services] > Vista de catálogo de ACO'
-description: Revise y actualice las opciones de configuración de Adobe Commerce Optimizer en la página [!UICONTROL Services] > [!UICONTROL ACO Catalog View] del administrador de Commerce.
+description: Revise y actualice la configuración de Adobe Commerce Optimizer en la página [!UICONTROL Services] > [!UICONTROL ACO Catalog View] del administrador de Commerce.
 feature: Configuration, Security
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
+badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b32c28afffe75b3f684f0fef81bd61e9cdcb485a
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 3%
+source-wordcount: '239'
+ht-degree: 2%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View]
 
 Use esta configuración para controlar los tokens de acceso emitidos por [!DNL Adobe Commerce Optimizer Connector for B2B]. Las tiendas utilizan estos tokens para autenticarse en las vistas de catálogo privado de Commerce Optimizer rellenadas con datos sincronizados a partir de catálogos compartidos personalizados configurados en el administrador.
+
+>[!NOTE]
+>
+>Esta página se aplica al conector. Las instancias aprovisionadas con el Modelo de datos de catálogo componible (CCDM) sincronizan los datos de forma nativa y no utilizan el conector. Consulte [Servicios de comercialización con CCDM](/help/optimizer/overview.md).
 
 {{config}}
 

@@ -31,14 +31,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 2b2cbba1005638bccfd8c4f14075cf98475f05f4
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
 ---
 # Crear y eliminar atributos de producto
 
-Puede crear atributos mientras trabaja en un producto o desde la página _[!UICONTROL Product Attributes]_. Los pasos siguientes muestran cómo crear atributos a partir del menú&#x200B;_[!UICONTROL Stores]_.
+Puede crear atributos mientras trabaja en un producto o desde la página _[!UICONTROL Product Attributes]_. Los pasos siguientes muestran cómo crear atributos a partir del menú_[!UICONTROL Stores]_.
 
 ## Paso 1: Describir las propiedades básicas de los atributos
 
@@ -116,7 +116,7 @@ Puede crear atributos mientras trabaja en un producto o desde la página _[!UICO
 
    >[!NOTE]
    >
-   > Si planea utilizar este atributo como faceta en Live Search, debe especificar una etiqueta específica de la tienda. Sin ella, es posible que el nombre del atributo no se muestre correctamente en la página de configuración de faceta. Para actualizar la configuración, edite manualmente la etiqueta con la opción [editar en la lista de facetas de Live Search](https://experienceleague.adobe.com/es/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) en la _Guía de Live Search_.
+   > Si planea utilizar este atributo como faceta en Live Search, debe especificar una etiqueta específica de la tienda. Sin ella, es posible que el nombre del atributo no se muestre correctamente en la página de configuración de faceta. Para actualizar la configuración, edite manualmente la etiqueta con la opción [editar en la lista de facetas de Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) en la _Guía de Live Search_.
 
 ## Paso 4: Describir las propiedades de la tienda
 
@@ -175,7 +175,7 @@ Para que un atributo sea visible en la página de creación del producto, agrég
 Cualquier atributo que se use como lista desplegable de opciones para un [producto configurable](product-create-configurable.md) debe tener las siguientes propiedades:
 
 | Propiedad | Valor |
-|----------|------ |
+| ---------- | ------ |
 | Tipo de entrada de catálogo del propietario de la tienda | Desplegable |
 | Ámbito | Global |
 
