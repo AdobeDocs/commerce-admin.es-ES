@@ -2,7 +2,7 @@
 title: Resumen de servicios de comercialización
 description: Obtenga información acerca de la configuración de catálogo, las herramientas de comercialización, creación de informes y monitorización para instancias de Adobe Commerce as a Cloud Service aprovisionadas con CDM.
 recommendations: noCatalog
-badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a instancias de Adobe Commerce as a Cloud Service aprovisionadas con CCDM (infraestructura de SaaS administrada por Adobe)."
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a instancias de Adobe Commerce as a Cloud Service aprovisionadas con CCDM (infraestructura de SaaS administrada por Adobe)."
 exl-id: f9516d4c-fbae-4db2-a1a9-cda3684a8122
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -60,7 +60,7 @@ Configure cómo los compradores descubren los productos y cómo se promocionan l
 
 - **Oportunidades**: revise el rendimiento del producto, el comportamiento del comprador y las tendencias de búsqueda para identificar áreas en las que se pueden realizar mejoras en la comercialización.
 - **Recommendations**: cree y administre unidades de recomendación en el administrador de Commerce. Recommendations utiliza los datos del catálogo y el comportamiento agregado del comprador para sugerir productos relevantes, como &quot;Los clientes que vieron este producto también vieron&quot;.
-- **Reglas de comercialización**: controla cómo se promocionan y clasifican los productos. Las reglas se pueden aplicar en todas las vistas de catálogo o adaptarse a una vista específica. Consulte [Crear una regla de comercialización](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/add#create-a-rule).
+- **Reglas de comercialización**: controla cómo se promocionan y clasifican los productos. Las reglas se pueden aplicar en todas las vistas de catálogo o adaptarse a una vista específica. Consulte [Crear una regla de comercialización](https://experienceleague.adobe.com/es/docs/commerce/optimizer/merchandising/rules/add#create-a-rule).
 - **Facetas**: configure los filtros que utilizan los compradores para reducir los resultados de los productos según atributos como marca, tamaño o precio.
 - **Sinónimos**: asocie términos de búsqueda equivalentes para ayudar a los compradores a encontrar productos usando palabras diferentes para el mismo concepto.
 - **Configuración**: configure las opciones de búsqueda y comercialización, incluidas las facetas de precio, el idioma y la búsqueda avanzada.

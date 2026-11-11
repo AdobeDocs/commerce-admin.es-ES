@@ -1,7 +1,7 @@
 ---
 title: Reglas de comercialización
 description: '[!DNL Adobe Commerce Optimizer] reglas de comercialización combinan lógica con acciones para dar forma a los resultados de búsqueda, listados de productos predeterminados y páginas de categorías.'
-badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a instancias de Adobe Commerce as a Cloud Service aprovisionadas con CCDM (infraestructura de SaaS administrada por Adobe)."
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a instancias de Adobe Commerce as a Cloud Service aprovisionadas con CCDM (infraestructura de SaaS administrada por Adobe)."
 autotag-review: '2026-11-02T19:36:46.997Z'
 TQID: 'https://experienceleague.adobe.com/DT2YeKtqKMZcqGe-JDj63cKaS1DVK0R94FLTV--boEM'
 product_v2:

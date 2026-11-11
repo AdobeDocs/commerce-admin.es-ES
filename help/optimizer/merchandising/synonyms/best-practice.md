@@ -2,7 +2,7 @@
 title: Prácticas recomendadas de sinónimo
 description: Conozca las prácticas recomendadas para implementar sinónimos en su tienda.
 role: Admin, Developer
-badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a instancias de Adobe Commerce as a Cloud Service aprovisionadas con CCDM (infraestructura de SaaS administrada por Adobe)."
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a instancias de Adobe Commerce as a Cloud Service aprovisionadas con CCDM (infraestructura de SaaS administrada por Adobe)."
 autotag-review: '2026-11-02T19:37:47.909Z'
 TQID: 'https://experienceleague.adobe.com/ZF4Ar2mPq77MFXu49V9E290QqL9-R--1MISvNm6NpOw'
 product_v2:

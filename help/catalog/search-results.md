@@ -41,7 +41,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Esta página describe la funcionalidad de búsqueda estándar que podría diferir de [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
+>Esta página describe la funcionalidad de búsqueda estándar que podría diferir de [Live Search](https://experienceleague.adobe.com/es/docs/commerce/live-search/overview).
 >
 >Para las instancias aprovisionadas con el Modelo de datos de catálogo componible (CCDM), consulte [Coincidencia y clasificación de búsquedas](/help/optimizer/manage-results/search-relevance-matching.md) en Servicios de comercialización.
 
@@ -59,7 +59,7 @@ Con **Elasticsearch**:
 
 >[!IMPORTANT]
 >
->Debido al anuncio de fin de soporte de Elasticsearch 7 para agosto de 2023, se recomienda que todos los clientes de Adobe Commerce migren al motor de búsqueda OpenSearch 2.x. Para obtener información sobre cómo migrar el motor de búsqueda durante la actualización del producto, consulte [Migración a OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) en la _Guía de actualización_.
+>Debido al anuncio de fin de soporte de Elasticsearch 7 para agosto de 2023, se recomienda que todos los clientes de Adobe Commerce migren al motor de búsqueda OpenSearch 2.x. Para obtener información sobre cómo migrar el motor de búsqueda durante la actualización del producto, consulte [Migración a OpenSearch](https://experienceleague.adobe.com/es/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) en la _Guía de actualización_.
 
 ## Asignación de palabras clave para ampliar los resultados de búsqueda
 

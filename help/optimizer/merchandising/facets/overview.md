@@ -1,7 +1,7 @@
 ---
 title: Resumen de facetas
 description: Obtenga información sobre las facetas de [!DNL Adobe Commerce Optimizer] y cómo mejoran los resultados de búsqueda.
-badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a instancias de Adobe Commerce as a Cloud Service aprovisionadas con CCDM (infraestructura de SaaS administrada por Adobe)."
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a instancias de Adobe Commerce as a Cloud Service aprovisionadas con CCDM (infraestructura de SaaS administrada por Adobe)."
 autotag-review: '2026-11-02T19:19:12.765Z'
 TQID: 'https://experienceleague.adobe.com/NXCHSa954r05U4fKFDVTZTcU4wrHX7AlxP7jYxFaO8s'
 product_v2:

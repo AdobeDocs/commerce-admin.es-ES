@@ -8,7 +8,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->La siguiente característica está en [versión beta privada](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta).
+>La siguiente característica está en [versión beta privada](https://experienceleague.adobe.com/es/docs/commerce-operations/release/beta).
 
 Los servicios de comercialización con el modelo de datos de catálogo compuesto (CCDM) clasifican los resultados para que los compradores vean primero los productos más relevantes. El servicio aumenta los productos cuyo texto de catálogo **coincide estrechamente** con la consulta del comprador; a continuación, favorece las coincidencias donde los términos aparecen juntos y, finalmente, incluye coincidencias más amplias.
 
@@ -59,7 +59,7 @@ La coincidencia de frases por sí sola no determina la relevancia. Interactúan 
 - Aumento desde **exacto / cerca de** coincidencia de frase
 - Aumentar cuando **todos los términos de consulta** aparezcan en el campo **igual**
 - **Clasificación inteligente** (cuando está habilitada), que mezcla la relevancia textual con señales de comportamiento. Vea [Cómo funciona la puntuación de clasificación inteligente](../merchandising/rules/add.md#how-intelligent-ranking-scoring-works-search)
-- **Busque peso** en cada atributo y en otros factores de relevancia textual (por ejemplo, la frecuencia con la que se producen términos en la longitud del nombre o la descripción). Para implementaciones de Adobe Commerce, configure los atributos en los que se pueden realizar búsquedas y sus pesos en [propiedades de almacén de atributos](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-results). Para implementaciones independientes de Adobe Commerce Optimizer, use la [API de REST de metadatos](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata).
+- **Busque peso** en cada atributo y en otros factores de relevancia textual (por ejemplo, la frecuencia con la que se producen términos en la longitud del nombre o la descripción). Para implementaciones de Adobe Commerce, configure los atributos en los que se pueden realizar búsquedas y sus pesos en [propiedades de almacén de atributos](https://experienceleague.adobe.com/es/docs/commerce-admin/catalog/catalog/search/search-results). Para implementaciones independientes de Adobe Commerce Optimizer, use la [API de REST de metadatos](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata).
 - **[Reglas de comercialización](../merchandising/rules/overview.md)** como fijar, aumentar y enterrar
 
 Debido a que las señales interactúan, una coincidencia amplia a veces se clasifica por encima de una coincidencia de frase más estricta cuando **los pesos de búsqueda** o la frecuencia de los términos superan a una coincidencia de frase más débil.
