@@ -89,7 +89,7 @@ Monitorice la sincronización de catálogos y la recopilación de eventos de tie
 <!--
 Watch the following video for a high-level overview of [!DNL Adobe Commerce Optimizer]:
 
->[!VIDEO](https://video.tv.adobe.com/v/3450226)
+>[!VIDEO](https://video.tv.adobe.com/v/3450466?captions=spa)
 -->
 
 ## Confirme que una instancia utiliza CDM.
