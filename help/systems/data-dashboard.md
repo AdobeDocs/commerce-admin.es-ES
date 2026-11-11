@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '797'
 ht-degree: 0%
 ---
 # Tablero de administración de datos
@@ -51,6 +51,8 @@ El panel de administración de datos ofrece una descripción general del estado 
 >[!NOTE]
 >
 >Si ha instalado el [Conector de Adobe Commerce Optimizer](https://experienceleague.adobe.com/es/docs/commerce/aco-optimizer-connector/overview) para exportar los datos del catálogo a Adobe Commerce Optimizer, utilice la [página de sincronización de datos](https://experienceleague.adobe.com/es/docs/commerce/optimizer/setup/data-sync) en Commerce Optimizer Studio para comprobar que la sincronización de datos se ha realizado correctamente, en lugar del panel de administración de datos.
+>
+>Para las instancias aprovisionadas con el Modelo de datos de catálogo maquetable (CCDM), consulte [Sincronización de catálogo](/help/optimizer/setup/data-sync.md) en Servicios de comercialización.
 
 ## Público
 

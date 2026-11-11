@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '967'
 ht-degree: 3%
 ---
 # Resultados de búsqueda
@@ -42,6 +42,8 @@ ht-degree: 3%
 >[!NOTE]
 >
 >Esta página describe la funcionalidad de búsqueda estándar que podría diferir de [Live Search](https://experienceleague.adobe.com/es/docs/commerce/live-search/overview).
+>
+>Para las instancias aprovisionadas con el Modelo de datos de catálogo componible (CCDM), consulte [Coincidencia y clasificación de búsquedas](/help/optimizer/manage-results/search-relevance-matching.md) en Servicios de comercialización.
 
 La lista _Resultados de búsqueda_ incluye todos los productos que coinciden con los criterios de búsqueda especificados en el cuadro Búsqueda rápida o en el formulario Búsqueda avanzada. Cada lista de productos del catálogo tiene esencialmente los mismos controles. La única diferencia es que uno es el resultado de una consulta de búsqueda y la otra diferencia es el resultado de [navegación](navigation.md).
 

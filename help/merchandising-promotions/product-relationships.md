@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -41,6 +41,8 @@ ht-degree: 0%
 # Relaciones de producto
 
 Los productos del catálogo se pueden promocionar en otras páginas definiendo la naturaleza de la relación entre los productos. Estas relaciones ayudan a segmentar a los compradores según su interés en un producto similar o relacionado.
+
+{{ccdm-merchandising-note}}
 
 ## Definido en la configuración del producto
 

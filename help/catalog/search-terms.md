@@ -36,12 +36,14 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
 ---
 # Administrar términos de búsqueda
+
+{{ccdm-merchandising-note}}
 
 La [página de aterrizaje](../content-design/pages.md) de un término de búsqueda puede ser una página de contenido, una página de categoría, una página de detalles de producto o incluso una página de un sitio diferente.
 

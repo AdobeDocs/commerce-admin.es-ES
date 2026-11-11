@@ -34,9 +34,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1424'
 ht-degree: 2%
 ---
 # Navegación por capas
@@ -44,6 +44,8 @@ ht-degree: 2%
 >[!NOTE]
 >
 >La navegación por capas estándar descrita en esta sección difiere de la navegación filtrada por Live Search con [facetas](https://experienceleague.adobe.com/es/docs/commerce/live-search/live-search-admin/facets/facets).
+>
+>Para las instancias aprovisionadas con el Modelo de datos de catálogo maquetable (CCDM), consulte [Facetas](/help/optimizer/merchandising/facets/overview.md) en Servicios de comercialización.
 
 La navegación por capas facilita la búsqueda de productos en función de la categoría, el intervalo de precios o cualquier otro atributo disponible. La navegación por capas suele mostrarse en la columna izquierda de las páginas de resultados de búsqueda y categorías y, a veces, en la página de inicio. La navegación estándar incluye una lista de categorías y un rango de precios de _Comprar por_. Puede configurar la visualización de la navegación por capas, incluido el recuento de productos y el intervalo de precios.
 

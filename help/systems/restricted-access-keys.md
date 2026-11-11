@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '830'
 ht-degree: 0%
 ---
 
@@ -49,6 +49,8 @@ Utilice la página Claves de acceso restringido para administrar las claves de a
 >[!NOTE]
 >
 >Para las claves creadas manualmente que se usan para administrar catálogos privados en escenarios distintos de B2B, como portales de socios, administre claves de [[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/es/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}.
+>
+>Para las instancias aprovisionadas con el Modelo de datos de catálogo maquetable (CCDM), consulte [Claves de acceso restringido](/help/optimizer/setup/restricted-access-keys.md) en Servicios de comercialización.
 
 ## Audiencia y disponibilidad {#audience}
 

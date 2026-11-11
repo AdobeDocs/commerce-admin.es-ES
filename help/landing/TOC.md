@@ -4,13 +4,11 @@ user-guide-description: Documentación y recursos para comerciantes de Adobe Com
 title: Guías del usuario de administración de Adobe Commerce
 feature: Admin Workspace
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: a6a5a899ba60097bd6baf2a5de14063a0af2f313
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '172'
 ht-degree: 11%
-
 ---
-
 # Guías del usuario de administración de Adobe Commerce {#user-guides}
 
 - [Documentación de Adobe Commerce Merchant](home.md)
@@ -18,6 +16,7 @@ ht-degree: 11%
 - [Adobe Commerce B2B](https://experienceleague.adobe.com/es/docs/commerce-admin/b2b/guide-overview)
 - [Administración de catálogos](https://experienceleague.adobe.com/es/docs/commerce-admin/catalog/guide-overview)
 - [[!DNL Inventory Management]](https://experienceleague.adobe.com/es/docs/commerce-admin/inventory/guide-overview)
+- [Servicios de comercialización con CCDM](https://experienceleague.adobe.com/en/docs/commerce-admin/optimizer/overview)
 - [Comercialización y promociones](https://experienceleague.adobe.com/es/docs/commerce-admin/marketing/guide-overview)
 - [Contenido y diseño](https://experienceleague.adobe.com/es/docs/commerce-admin/content-design/guide-overview)
 - [[!DNL Page Builder]](https://experienceleague.adobe.com/es/docs/commerce-admin/page-builder/guide-overview)

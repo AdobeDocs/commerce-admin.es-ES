@@ -1,9 +1,9 @@
 ---
 title: Fragmentos
 description: Se han reutilizado notas y elementos visuales para anotar una función o página que se aplica a una edición específica
-source-git-commit: 2a77353224b36200662f8c5a5a0450073fe8506c
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '846'
 ht-degree: 0%
 ---
 # Fragmentos
@@ -85,6 +85,12 @@ Para acceder a las opciones de configuración de la tienda, elige **[!UICONTROL 
 >[!IMPORTANT]
 >
 >Adobe Commerce B2B versión 1.4.2+ es compatible con PHP 8.2. Si actualiza la instancia de Commerce a la versión 2.4.7 o posterior, asegúrese de que la instancia utiliza la versión 8.2 de PHP para mantener la compatibilidad con la versión B2B de Adobe Commerce. Además, la versión B2B 1.4.2 o posterior no es compatible con [GraphQL Application Server](https://experienceleague.adobe.com/es/docs/commerce-operations/performance-best-practices/concepts/application-server).
+
+## Nota de Servicios de comercialización CCDM {#ccdm-merchandising-note}
+
+>[!NOTE]
+>
+>Si la instancia de Adobe Commerce as a Cloud Service está aprovisionada con el Modelo de datos de catálogo componible (CCDM), puede administrar las vistas de catálogo, las directivas, la comercialización y los informes en Servicios de comercialización. Consulte [Servicios de comercialización con CCDM](/help/optimizer/overview.md).
 
 ## lista de formularios reCAPTCHA {#recaptcha-forms-list}
 
