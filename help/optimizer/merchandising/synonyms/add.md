@@ -1,7 +1,7 @@
 ---
 title: Crear y administrar sinónimos
 description: Aprenda a crear y administrar sinónimos de [!DNL Adobe Commerce Optimizer].
-badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a instancias de Adobe Commerce as a Cloud Service aprovisionadas con CCDM (infraestructura de SaaS administrada por Adobe)."
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a instancias de Adobe Commerce as a Cloud Service aprovisionadas con CCDM (infraestructura de SaaS administrada por Adobe)."
 autotag-review: '2026-11-02T19:37:24.097Z'
 TQID: 'https://experienceleague.adobe.com/-RyVBok0I4hF-srOngE9yw0yjkyDVp-yNNH7FMvDqYI'
 product_v2:

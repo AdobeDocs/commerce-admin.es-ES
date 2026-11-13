@@ -1,7 +1,7 @@
 ---
 title: Prácticas recomendadas de Recommendations
 description: Descubra dónde puede colocar recomendaciones en varias páginas del sitio y sugerencias para etiquetas utilizadas con frecuencia para cada tipo de recomendación.
-badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a instancias de Adobe Commerce as a Cloud Service aprovisionadas con CCDM (infraestructura de SaaS administrada por Adobe)."
+badgeSaas: label="Solo SaaS" type="Positive" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a instancias de Adobe Commerce as a Cloud Service aprovisionadas con CCDM (infraestructura de SaaS administrada por Adobe)."
 autotag-review: '2026-11-02T19:20:28.675Z'
 TQID: 'https://experienceleague.adobe.com/l1yAoT3zh-PFftMANgIx0K0OlwecOqjnclAMSQHK7hQ'
 product_v2:
