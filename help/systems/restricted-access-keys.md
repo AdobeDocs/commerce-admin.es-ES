@@ -4,7 +4,7 @@ description: Cree, asigne y elimine las claves de acceso restringido que protege
 feature: Products, Customers, Data Import/Export
 role: Admin
 level: Intermediate
-last-update: 2026-10-01
+last-update: 2026-11-11
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 0%

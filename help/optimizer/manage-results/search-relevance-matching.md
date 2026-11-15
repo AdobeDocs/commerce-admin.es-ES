@@ -32,7 +32,8 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 742236e7fdb26c56a80f66a44b0a4960210f4dac
+last-update: 2026-11-11
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%

@@ -22,7 +22,8 @@ topic_v2:
     internal-label: Data modeling
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 71df9ad673f2e7dff802e4b26d8e169c42d9c063
+last-update: 2026-11-11
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 0%
