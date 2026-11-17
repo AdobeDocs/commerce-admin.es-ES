@@ -63,7 +63,7 @@ La información de las Guías del usuario de administración está diseñada par
 
 Adobe Commerce es una plataforma de comercio ágil B2B y B2C que permite a los comerciantes y marcas acelerar los ingresos mediante experiencias de comercio digital centradas en el cliente en espacios en línea y físicos. Es la opción líder para organizaciones medianas y empresariales, ya que ofrece los modelos de implementación más flexibles desde la nube local a la nube administrada con SLA garantizados. Adobe Commerce permite integraciones con prioridad API, extensiones totalmente personalizables y el conjunto más completo de funciones de experiencia comercial de nivel empresarial, desde marketing hasta comercialización y cumplimiento. Adobe Commerce se basa en un código de código abierto para ofrecer flexibilidad y extensibilidad como ninguna otra plataforma de comercio.
 
-Para obtener una lista de las funciones avanzadas incluidas con Adobe Commerce, consulte [Funciones de Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/release/features) en la _Información de la versión_.
+Para obtener una lista de las funciones avanzadas incluidas con Adobe Commerce, consulte [Funciones de Commerce](https://experienceleague.adobe.com/es/docs/commerce-operations/release/features) en la _Información de la versión_.
 
 ## Código base de Magento Open Source
 
@@ -110,7 +110,7 @@ Magento Open Source es la base de código a la que Adobe contribuye oficialmente
     <img alt="Servicios de comercialización" src="./assets/icon-merchandising-ccdm.svg" width="40" height="40"/>
   </td>
   <td valign="top">
-    <a href="../optimizer/overview.md"><strong>Servicios de comercialización con el modelo de datos de catálogo compuesto (CCDM)</strong></a> [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica a las instancias de Adobe Commerce as a Cloud Service aprovisionadas solo con CCDM (infraestructura de SaaS administrada por Adobe)."}
+    <a href="../optimizer/overview.md"><strong>Servicios de comercialización con el modelo de datos de catálogo compuesto (CCDM)</strong></a> [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica a las instancias de Adobe Commerce as a Cloud Service aprovisionadas solo con CCDM (infraestructura de SaaS administrada por Adobe)."}
     <div><em>Configurar vistas y directivas de catálogo, administrar reglas y recomendaciones de comercialización, revisar el rendimiento de la tienda y supervisar la sincronización de catálogos en el administrador de Commerce.</em></div>
   </td>
 </tr>
@@ -131,7 +131,7 @@ Magento Open Source es la base de código a la que Adobe contribuye oficialmente
 <tr>
     <td valign="top">
        <img alt="Page Builder" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y proyectos locales."}
+   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y proyectos locales."}
     <div><em>[!DNL Page Builder] facilita la creación de páginas con contenido enriquecido con diseños personalizados. Estas características están diseñadas para mejorar la calidad y reducir el tiempo y los gastos de producción de páginas personalizadas.</em></div>
   </td>
 </tr>
