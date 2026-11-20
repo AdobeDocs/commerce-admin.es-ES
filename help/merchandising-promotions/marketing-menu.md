@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
+source-git-commit: 5fe6a09753399a171e55ad8b0bbd8b5ebd385be7
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '291'
 ht-degree: 0%
 ---
 # Menú [!UICONTROL Marketing]
@@ -84,7 +84,5 @@ Personaliza todas las notificaciones enviadas desde tu tienda. Crear [boletines]
 Analice [términos de búsqueda](../catalog/search-terms.md) y [sinónimos](../catalog/search-terms.md#search-synonyms) para ayudar a los clientes a encontrar productos en la tienda, administrar [metadatos](meta-data.md) y crear un [mapa del sitio](sitemap-xml.md). Use [redirecciones](url-rewrite.md) para administrar los cambios de URL y evitar vínculos rotos.
 
 ### [!UICONTROL User Content]
-
-[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 Incorpore [revisiones de productos](product-reviews.md) generadas por el usuario para crear una sensación de comunidad y aumentar las ventas.

@@ -3,7 +3,6 @@ title: Revisiones de productos
 description: Descubra cómo las revisiones de productos pueden mejorar su tienda y dar más credibilidad a sus productos.
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
 feature: Merchandising, Products
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: 'https://experienceleague.adobe.com/GVmMoMMhnS4nHjCoa-6ylW8ah5-itrJKXiK9GKrdHd8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -34,9 +33,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 560b0b1584040e8d840645328cdea5e51bdca640
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '866'
 ht-degree: 0%
 ---
 # Revisiones de productos
@@ -52,6 +51,12 @@ Commerce incluye una función nativa de revisiones de productos que puede admini
 >Si tiene la extensión agrupada habilitada y configurada, debe actualizar el archivo composer.json como parte del proceso de actualización de la versión 2.4.4 y administrar las actualizaciones de extensión que se realicen. Consulte [Módulos de actualización](https://experienceleague.adobe.com/es/docs/commerce-operations/upgrade-guide/modules/upgrade) en la _Guía de actualización_ para obtener más información.
 
 ## Reseñas de productos en la tienda
+
+[!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
+
+>[!NOTE]
+>
+>En esta sección se describen las revisiones de producto para la tienda Luma en Adobe Commerce sobre infraestructura en la nube y Adobe Commerce local. Adobe Commerce as a Cloud Service no incluye la tienda de Luma, por lo que al habilitar las revisiones de productos en el administrador no se añaden funciones de revisión a la tienda. En su lugar, debe utilizar la consulta GraphQL [`reviews`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/reviews) para recuperar revisiones y la mutación [`createProductReview`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/mutations/create-review) para crear revisiones.
 
 Cuando la función nativa Revisiones de productos está activada, los clientes pueden escribir revisiones para cualquier producto del catálogo. Las críticas se pueden escribir desde la página de producto haciendo clic en:
 
@@ -83,11 +88,11 @@ La sección _[!UICONTROL My Product Reviews]_&#x200B;del panel de cuenta del cli
 
 ## Habilitar funciones de revisión del producto
 
-La función Revisiones de productos de Commerce está activada de forma predeterminada.
+La función de revisiones de producto de Commerce está habilitada de forma predeterminada en Adobe Commerce en infraestructuras en la nube y en Adobe Commerce de forma local. Está desactivada de forma predeterminada en Adobe Commerce as a Cloud Service.
 
 >[!NOTE]
 >
->Para establecer estos campos en `No` y deshabilitar las revisiones de productos de Commerce, debe desactivar las casillas de verificación **Usar valor del sistema**.
+>Para cambiar estos campos de sus valores predeterminados, primero debe desactivar las casillas de verificación **[!UICONTROL Use system value]**.
 
 1. En la barra lateral _Admin_, vaya a **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -99,11 +104,11 @@ La función Revisiones de productos de Commerce está activada de forma predeter
 
 1. Establezca **[!UICONTROL Enabled]** en `Yes`.
 
-   Esta es la configuración predeterminada que habilita las críticas de producto.
+   Esta configuración habilita las revisiones de producto.
 
 1. Establezca **[!UICONTROL Allow Guests to Write Reviews]** en `Yes`.
 
-   Esta es la configuración predeterminada que determina si los clientes deben abrir una cuenta en su tienda para poder escribir críticas de productos.
+   Esta configuración determina si los clientes deben abrir una cuenta en la tienda para poder escribir críticas de productos.
 
 1. Una vez finalizado, haga clic en **[!UICONTROL Save Config]**.
 
