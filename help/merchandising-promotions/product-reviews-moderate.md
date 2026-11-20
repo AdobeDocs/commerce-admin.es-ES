@@ -3,7 +3,6 @@ title: Moderar críticas de productos
 description: Aprenda a moderar las revisiones de productos para asegurarse de que las revisiones enviadas sean apropiadas para la visualización pública de su tienda.
 exl-id: 90c3e918-f435-4468-b41b-e8044ad14fb0
 feature: Merchandising, Products
-badgePaas: label="Solo PaaS" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."
 TQID: 'https://experienceleague.adobe.com/DGRJr-P9TUQ1TFh4Da1Z4VwrKfWe2rw5wmbwq9IlAFg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -30,9 +29,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 6a7e2a6f32d89c269a6d767c5d98b46c2c25aa83
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '392'
 ht-degree: 0%
 ---
 # Moderar críticas de productos
@@ -53,7 +52,7 @@ Para ver todas las revisiones de un producto específico en el Administrador, ha
 
 ## Actualizar estado para revisiones
 
-1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**&#x200B;o **[!UICONTROL All Reviews]**.
+1. En la barra lateral _Admin_, vaya a **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**o **[!UICONTROL All Reviews]**.
 
 1. En la lista, haga clic en una revisión pendiente para ver los detalles y editarla si es necesario.
 
@@ -61,7 +60,7 @@ Para ver todas las revisiones de un producto específico en el Administrador, ha
 
    - Para aprobar una revisión pendiente, seleccione `Approved`.
 
-   - Para rechazar una revisión, seleccione `Not Approved`. Las revisiones no aprobadas desaparecen de la lista de _[!UICONTROL Pending Reviews]_&#x200B;páginas.
+   - Para rechazar una revisión, seleccione `Not Approved`. Las revisiones no aprobadas desaparecen de la lista de _[!UICONTROL Pending Reviews]_páginas.
 
    >[!NOTE]
    >
@@ -85,7 +84,7 @@ Puede actualizar o eliminar varias revisiones al mismo tiempo:
 
 1. Seleccione las revisiones que desea actualizar.
 
-1. Utilice el selector _[!UICONTROL Action]_&#x200B;de la esquina superior izquierda para aplicar una acción.
+1. Utilice el selector _[!UICONTROL Action]_de la esquina superior izquierda para aplicar una acción.
 
 1. Haga clic **[!UICONTROL Submit]**
 
