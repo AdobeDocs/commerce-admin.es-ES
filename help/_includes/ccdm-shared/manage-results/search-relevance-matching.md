@@ -1,9 +1,19 @@
 ---
-source-git-commit: 7651ac8a38244adc8b185450e762bffe57dec72b
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '829'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.es-ES/blob/main/help/_includes/ccdm-shared/manage-results/search-relevance-matching.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Coincidencia y clasificación de búsqueda
 
 >[!IMPORTANT]
@@ -59,7 +69,7 @@ La coincidencia de frases por sí sola no determina la relevancia. Interactúan 
 - Aumento desde **exacto / cerca de** coincidencia de frase
 - Aumentar cuando **todos los términos de consulta** aparezcan en el campo **igual**
 - **Clasificación inteligente** (cuando está habilitada), que mezcla la relevancia textual con señales de comportamiento. Vea [Cómo funciona la puntuación de clasificación inteligente](../merchandising/rules/add.md#how-intelligent-ranking-scoring-works-search)
-- **Busque peso** en cada atributo y en otros factores de relevancia textual (por ejemplo, la frecuencia con la que se producen términos en la longitud del nombre o la descripción). Para implementaciones de Adobe Commerce, configure los atributos en los que se pueden realizar búsquedas y sus pesos en [propiedades de almacén de atributos](https://experienceleague.adobe.com/es/docs/commerce-admin/catalog/catalog/search/search-results). Para implementaciones independientes de Adobe Commerce Optimizer, use la [API de REST de metadatos](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata).
+- **[Peso de búsqueda](https://experienceleague.adobe.com/es/docs/commerce-admin/catalog/catalog/search/search-results)** en cada atributo y otros factores de relevancia textual (por ejemplo, la frecuencia con la que se producen los términos en la longitud del nombre o la descripción). En *Configuración*, configure qué atributos participan en la búsqueda de palabras clave y sus **[pesos relativos de búsqueda de palabras clave](../settings.md)**.
 - **[Reglas de comercialización](../merchandising/rules/overview.md)** como fijar, aumentar y enterrar
 
 Debido a que las señales interactúan, una coincidencia amplia a veces se clasifica por encima de una coincidencia de frase más estricta cuando **los pesos de búsqueda** o la frecuencia de los términos superan a una coincidencia de frase más débil.
