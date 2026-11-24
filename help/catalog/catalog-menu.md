@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
+source-git-commit: 4bf2ad3e392f1a53859b647f64419736acc8d997
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '222'
 ht-degree: 0%
 ---
 # Menú [!UICONTROL Catalog]
@@ -76,5 +76,3 @@ En tiendas con Adobe Commerce B2B instalado y habilitado, [catálogos compartido
 [!BADGE Solo PaaS]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y a proyectos locales."}
 
 Use [enriquecimiento de catálogo](catalog-enrichment.md) para revisar y aplicar mejoras sugeridas por IA a nombres de productos y descripciones largas para que su catálogo se represente con precisión en LLM y en la detección asistida por IA.
-
-![Enriquecimiento de catálogo](./assets/agentic-opportunities.png)
