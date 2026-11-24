@@ -4,7 +4,7 @@ description: Utilice el enriquecimiento de página de detalles del producto [!DN
 role: Admin, User, Leader
 recommendations: noCatalog
 touch: true
-badgePaas or on-premises: label="Cloud or on-premises only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed Cloud or on-premises infrastructure) and on-premises projects only."
+badgePaas or on-premises: label="Cloud or on-premises only" type="Informative" url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed Cloud or on-premises infrastructure) and on-premises projects only."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -129,7 +129,7 @@ Las sugerencias están organizadas en tres vistas: **Sugerencias actuales**, **S
 
 Una vez que haya revisado las sugerencias y seleccionado las páginas de productos que desea optimizar, haga clic en **Implementar optimizaciones** para publicar el enriquecimiento mediante Optimizar en Edge. Un cuadro de diálogo de confirmación de **Implementar en Edge** muestra las direcciones URL del producto seleccionado, el tipo de optimización y el enriquecimiento que se está aplicando. Después de la implementación, una pantalla de confirmación confirma qué páginas de productos se optimizaron correctamente.
 
-La optimización se entrega exclusivamente a los agentes de usuario de IA a través de [Optimizar en Edge](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn). Los visitantes humanos siguen viendo la experiencia existente de la tienda exactamente como antes sin cambios en el diseño de la PDP, el rendimiento de la página o la experiencia de la marca.
+La optimización se entrega exclusivamente a los agentes de usuario de IA a través de [Optimizar en Edge](https://experienceleague.adobe.com/es/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn). Los visitantes humanos siguen viendo la experiencia existente de la tienda exactamente como antes sin cambios en el diseño de la PDP, el rendimiento de la página o la experiencia de la marca.
 
 ## Límites y consideraciones {#limits}
 
@@ -137,7 +137,7 @@ La optimización se entrega exclusivamente a los agentes de usuario de IA a trav
 - El enriquecimiento organiza los hechos que ya están presentes en el catálogo; no agrega información de nuevos productos.
 - El flujo de trabajo de enriquecimiento de PDP no cambia la tienda.
 - Los trabajos de enriquecimiento de PDP y los trabajos de enriquecimiento de catálogo tienen diferentes propósitos y flujos de trabajo.
-- La optimización de PDP usa [Optimizar en Edge](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)
+- La optimización de PDP usa [Optimizar en Edge](https://experienceleague.adobe.com/es/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)
 
 ## Prácticas recomendadas {#best-practices}
 

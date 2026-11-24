@@ -15,8 +15,8 @@ Antes de usar Enriquecimiento del catálogo o Enriquecimiento de PDP, confirme l
 
 | Requisito | Se aplica a | Detalles |
 | --- | --- | --- |
-| Optimizar en Edge | Enriquecimiento de PDP | Requerido. Optimizar en Edge ofrece los datos de productos enriquecidos a los agentes de IA. Consulte la guía [Optimizar en Edge](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn). |
-| Reenvío de registros | Ambos flujos de trabajo | Opcional. Habilita recomendaciones de enriquecimiento basadas en tráfico auténtico. Sin ella, aún puede seleccionar productos o páginas de productos manualmente. Consulte la [Guía de reenvío de registros](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview). |
+| Optimizar en Edge | Enriquecimiento de PDP | Requerido. Optimizar en Edge ofrece los datos de productos enriquecidos a los agentes de IA. Consulte la guía [Optimizar en Edge](https://experienceleague.adobe.com/es/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn). |
+| Reenvío de registros | Ambos flujos de trabajo | Opcional. Habilita recomendaciones de enriquecimiento basadas en tráfico auténtico. Sin ella, aún puede seleccionar productos o páginas de productos manualmente. Consulte la [Guía de reenvío de registros](https://experienceleague.adobe.com/es/docs/brand-visibility/using/log-forwarding/log-forwarding-overview). |
 | Escaparate rastreable | Enriquecimiento del catálogo | Necesario para recomendaciones basadas en rastrees. Los bots agénticos y orientados a LLM deben poder acceder a las páginas de productos. |
 | Acceso de [!DNL Adobe Admin Console] | Enriquecimiento del catálogo | Requerido. Durante la instalación, [!DNL Adobe Commerce] comprueba si su organización ha firmado el controlador GenAI o se ha excluido de los servicios de IA subyacentes. |
 
@@ -36,7 +36,7 @@ Para [!DNL Adobe Commerce] en la infraestructura en la nube o en línea, instale
 **Antes de comenzar:**
 
 - [!DNL Adobe Commerce] 2.4.7 o posterior en PHP 8.3 o posterior. Ver [Notas de la versión](release-notes.md).
-- Una organización [!DNL Adobe IMS]. Si su organización no tiene ninguna, consulte la [descripción general de la integración de Adobe IMS](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview). El enriquecimiento del catálogo utiliza el token de acceso de IMS del usuario administrador que ha iniciado sesión. El inicio de sesión solo con un nombre de usuario y una contraseña de Commerce no proporciona este token.
+- Una organización [!DNL Adobe IMS]. Si su organización no tiene ninguna, consulte la [descripción general de la integración de Adobe IMS](https://experienceleague.adobe.com/es/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview). El enriquecimiento del catálogo utiliza el token de acceso de IMS del usuario administrador que ha iniciado sesión. El inicio de sesión solo con un nombre de usuario y una contraseña de Commerce no proporciona este token.
 - Acceso desde la línea de comandos al servidor de aplicaciones de Commerce y permiso para descargar paquetes de `repo.magento.com`.
 
 **Instalar y comprobar:**
@@ -50,7 +50,7 @@ Para [!DNL Adobe Commerce] en la infraestructura en la nube o en línea, instale
 
    [!DNL Catalog Service] se instala automáticamente con [!DNL Live Search] y [!DNL Product Recommendations], así que omita este paso si alguno de los servicios está habilitado.
 
-1. Si aún no está configurado para otro servicio de Commerce, configure [Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas) con claves de API y un espacio de datos SaaS.
+1. Si aún no está configurado para otro servicio de Commerce, configure [Commerce Services Connector](https://experienceleague.adobe.com/es/docs/commerce/user-guides/integration-services/saas) con claves de API y un espacio de datos SaaS.
 
 1. Añada la extensión de enriquecimiento compartida:
 
