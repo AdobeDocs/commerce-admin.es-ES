@@ -47,8 +47,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 nudge: true
-last-update: 2026-11-20
-source-git-commit: 2baac8054363a312720e9c30637ed556912d51ff
+last-update: 2026-11-24
+source-git-commit: ea6fbfe3c5ee9872df3a6b1fabdf78e66fa9a571
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 0%

@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 15d8881376a2dbec72b43fd32d40101e210f9530
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '878'
 ht-degree: 3%
 ---
 # [!UICONTROL Customers] > [!UICONTROL Company Configuration]
@@ -60,6 +60,7 @@ Para obtener más información acerca de cómo establecer esta configuración, c
 | Campo | [Ámbito](../../getting-started/websites-stores-views.md#scope-settings) | Descripción |
 |--- |--- |--- |
 | [!UICONTROL Allow Company Registration from the Storefront] | Sitio web | Determina si los visitantes de tu tienda tienen la opción de [registrar](../../customers/customer-sign-in.md) una cuenta de empresa o una cuenta individual. Opciones: `Yes` / `No` |
+| [!UICONTROL Allow Company Configuration on Storefront Registration] | Sitio web | Determina si la mutación de GraphQL `createCompany` acepta la configuración de la empresa durante el registro en la tienda, incluida la configuración de la libreta de direcciones de la empresa. Esta opción está disponible cuando **[!UICONTROL Allow Company Registration from the Storefront]** está establecido en `Yes`. No habilita la libreta de direcciones para cada compañía. Opciones: `Yes` / `No` (predeterminado) |
 
 {style="table-layout:auto"}
 
