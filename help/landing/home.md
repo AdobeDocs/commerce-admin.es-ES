@@ -47,13 +47,13 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 nudge: true
-last-update: 2026-11-20
-source-git-commit: 2baac8054363a312720e9c30637ed556912d51ff
+last-update: 2026-11-24
+source-git-commit: ea6fbfe3c5ee9872df3a6b1fabdf78e66fa9a571
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 0%
 ---
-# &#x200B;<!-- use banner as heading -->![Documentación de administración](./assets/banner-user-home.png) {#documentation}
+# <!-- use banner as heading -->![Documentación de administración](./assets/banner-user-home.png) {#documentation}
 
 Bienvenido a la próxima generación de la plataforma de comercio digital más importante del mundo. Adobe Commerce proporciona a los comerciantes en línea una flexibilidad y un control incomparables sobre la apariencia, el contenido y la funcionalidad de sus tiendas en línea. El administrador cuenta con potentes herramientas de marketing, optimización de motores de búsqueda y administración de productos que le permiten crear sitios adaptados a sus necesidades empresariales únicas.
 
@@ -63,7 +63,7 @@ La información de las Guías del usuario de administración está diseñada par
 
 Adobe Commerce es una plataforma de comercio ágil B2B y B2C que permite a los comerciantes y marcas acelerar los ingresos mediante experiencias de comercio digital centradas en el cliente en espacios en línea y físicos. Es la opción líder para organizaciones medianas y empresariales, ya que ofrece los modelos de implementación más flexibles desde la nube local a la nube administrada con SLA garantizados. Adobe Commerce permite integraciones con prioridad API, extensiones totalmente personalizables y el conjunto más completo de funciones de experiencia comercial de nivel empresarial, desde marketing hasta comercialización y cumplimiento. Adobe Commerce se basa en un código de código abierto para ofrecer flexibilidad y extensibilidad como ninguna otra plataforma de comercio.
 
-Para obtener una lista de las funciones avanzadas incluidas con Adobe Commerce, consulte [Funciones de Commerce](https://experienceleague.adobe.com/es/docs/commerce-operations/release/features) en la _Información de la versión_.
+Para obtener una lista de las funciones avanzadas incluidas con Adobe Commerce, consulte [Funciones de Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/release/features) en la _Información de la versión_.
 
 ## Código base de Magento Open Source
 
@@ -110,7 +110,7 @@ Magento Open Source es la base de código a la que Adobe contribuye oficialmente
     <img alt="Servicios de comercialización" src="./assets/icon-merchandising-ccdm.svg" width="40" height="40"/>
   </td>
   <td valign="top">
-    <a href="../optimizer/overview.md"><strong>Servicios de comercialización con el modelo de datos de catálogo compuesto (CCDM)</strong></a> [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica a las instancias de Adobe Commerce as a Cloud Service aprovisionadas solo con CCDM (infraestructura de SaaS administrada por Adobe)."}
+    <a href="../optimizer/overview.md"><strong>Servicios de comercialización con el modelo de datos de catálogo compuesto (CCDM)</strong></a> [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica a las instancias de Adobe Commerce as a Cloud Service aprovisionadas solo con CCDM (infraestructura de SaaS administrada por Adobe)."}
     <div><em>Configurar vistas y directivas de catálogo, administrar reglas y recomendaciones de comercialización, revisar el rendimiento de la tienda y supervisar la sincronización de catálogos en el administrador de Commerce.</em></div>
   </td>
 </tr>
@@ -138,7 +138,7 @@ Magento Open Source es la base de código a la que Adobe contribuye oficialmente
 <tr>
     <td valign="top">
        <img alt="Page Builder" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/es/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y proyectos locales."}
+   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Se aplica solo a proyectos de Adobe Commerce en la nube (infraestructura PaaS administrada por Adobe) y proyectos locales."}
     <div><em>[!DNL Page Builder] facilita la creación de páginas con contenido enriquecido con diseños personalizados. Estas características están diseñadas para mejorar la calidad y reducir el tiempo y los gastos de producción de páginas personalizadas.</em></div>
   </td>
 </tr>
